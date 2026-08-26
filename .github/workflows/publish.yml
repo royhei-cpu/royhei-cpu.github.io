@@ -20,19 +20,19 @@ jobs:
         shell: bash
         run: |
           python3 - <<'PY'
-          import html, os
+          import html, os, time
           from html.parser import HTMLParser
           from urllib.parse import urljoin, urlparse
           from urllib.request import Request, urlopen
 
           origin = "https://tariff-signal-directory.pages.dev/"
-          headers = {"User-Agent": "Mozilla/5.0 Tariff-Signal-Mirror"}
+          headers = {"User-Agent": "Mozilla/5.0 Tariff-Signal-Mirror", "Cache-Control": "no-cache"}
 
           def fetch(url):
               with urlopen(Request(url, headers=headers), timeout=45) as response:
                   return response.read()
 
-          document = fetch(origin)
+          document = fetch(origin + "?mirror=" + str(int(time.time())))
           os.makedirs("_site", exist_ok=True)
           with open("_site/index.html", "wb") as output:
               output.write(document)
