@@ -50,17 +50,25 @@ jobs:
 
           parser = Assets()
           parser.feed(document.decode("utf-8"))
+          copied = 0
           for asset in sorted(parser.urls):
               parsed = urlparse(asset)
               path = parsed.path.lstrip("/")
               if not path or path.endswith("/"):
                   continue
+              try:
+                  payload = fetch(urljoin(origin, asset))
+              except Exception as error:
+                  print("skipped", asset, error)
+                  continue
               target = os.path.join("_site", path)
               os.makedirs(os.path.dirname(target), exist_ok=True)
               with open(target, "wb") as output:
-                  output.write(fetch(urljoin(origin, asset)))
+                  output.write(payload)
+              copied += 1
               print("mirrored", path)
-
+          if copied < 3:
+              raise RuntimeError("Expected dashboard assets were not copied")
           open("_site/.nojekyll", "w").close()
           PY
       - name: Configure Pages
