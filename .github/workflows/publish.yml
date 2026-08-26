@@ -19,7 +19,7 @@ jobs:
       - name: Mirror public dashboard
         run: |
           mkdir -p _site
-          wget --page-requisites --convert-links --adjust-extension --no-host-directories --directory-prefix=_site https://tariff-signal-directory.pages.dev/
+          wget --page-requisites --convert-links --adjust-extension --no-host-directories --directory-prefix=_site https://tariff-signal-directory.pages.dev/ || test -s _site/index.html
           touch _site/.nojekyll
       - name: Configure Pages
         uses: actions/configure-pages@v5
