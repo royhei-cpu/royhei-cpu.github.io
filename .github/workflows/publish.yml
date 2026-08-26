@@ -25,7 +25,7 @@ jobs:
           from urllib.parse import urljoin, urlparse
           from urllib.request import Request, urlopen
 
-          origin = "https://tariff-signal-directory.pages.dev/"
+          origin = "https://tariff-signal-sourcing.lhei111.chatgpt.site/"
           headers = {"User-Agent": "Mozilla/5.0 Tariff-Signal-Mirror", "Cache-Control": "no-cache"}
 
           def fetch(url):
