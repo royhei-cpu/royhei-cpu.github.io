@@ -1,0 +1,32 @@
+name: Publish Tariff Signal Mirror
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 1 * * *"
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - name: Mirror public dashboard
+        run: |
+          mkdir -p _site
+          wget --page-requisites --convert-links --adjust-extension --no-host-directories --directory-prefix=_site https://tariff-signal-directory.pages.dev/
+          touch _site/.nojekyll
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
