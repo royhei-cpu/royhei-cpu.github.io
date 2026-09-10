@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#e6f4eb">
-  <meta name="pawlish-release" content="24">
+  <meta name="pawlish-release" content="25">
   <meta name="description" content="和可爱的小狗一起学英语。中文讲解、慢速示范，从一句你好开始。">
   <title>Pawlish · 小狗陪你学英语</title>
   <link rel="icon" href="assets/paw.svg" type="image/svg+xml">
@@ -96,8 +96,8 @@
     button.querySelector('span').textContent = '课程暂时无法开始';
     document.getElementById('voice-status').textContent = '课程还没准备好，请点下面的「重新打开」。';
     document.getElementById('startup-error').hidden = false;
-    document.getElementById('startup-error-detail').textContent = 'Pawlish 24: ' + failure;
-    document.getElementById('reload-pawlish').href = '?v=24&reload=' + Date.now();
+    document.getElementById('startup-error-detail').textContent = 'Pawlish 25: ' + failure;
+    document.getElementById('reload-pawlish').href = '?v=25&reload=' + Date.now();
     document.getElementById('greeting-audio').controls = true;
   }
   document.addEventListener('pawlish-ready', function () {
@@ -185,7 +185,7 @@
         <p class="input-status" id="input-status" role="status"></p><button id="retry-progress" class="text-button" type="button" hidden>重试连接</button><button id="retry-save" class="text-button" type="button" hidden>重试保存</button>
         <div id="voice-recovery" class="voice-recovery" hidden><a id="connect-voice" class="text-button" href="connect.html" hidden>连接语音</a><button id="voice-type-reply" class="text-button" type="button">打字回答</button></div>
       </div>
-      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=24">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
+      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=25">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
       <audio id="greeting-audio" src="assets/puppy-female/cn-welcome.mp3?v=13" preload="auto"></audio>
     </section>
   </main>
@@ -196,7 +196,7 @@
     <button id="shake-phone" class="text-button" type="button" aria-pressed="false">开启摇一摇</button><p id="shake-status" class="feature-status" role="status"></p>
     <p id="input-caption" hidden>点一次「开始学英语」，之后跟着说就好。</p>
   </dialog>
-  <dialog id="explanation-dialog" class="small-dialog"><div class="dialog-heading"><h2>这句怎么用？</h2><button class="icon-button" data-close-dialog="explanation-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div><p id="lesson-explanation"></p><p>关掉这里，点「开始学英语」继续跟读。没听懂也没关系，点「慢一点」。</p></dialog>
+  <dialog id="explanation-dialog" class="small-dialog"><div class="dialog-heading"><h2>这句怎么用？</h2><button class="icon-button" data-close-dialog="explanation-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div><p id="lesson-explanation"></p><p>关掉这里继续跟读。没听懂，点「慢一点」。</p></dialog>
   <dialog id="typing-dialog" class="small-dialog"><div class="dialog-heading"><h2>打字回答</h2><button class="icon-button" data-close-dialog="typing-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div>
     <p>可以输入英语回答，也可以用中文说「听不懂」。</p>
 
@@ -1248,7 +1248,7 @@ const storedName=readPreference('dogName','豆豆');
 const chosenName=validName(storedName)&&!(storedName==='Buddy'&&readPreference('dogNameVersion','')!=='10')?storedName:'豆豆';
 savePreference('dogNameVersion','10');savePreference('dogName',chosenName);
 const state={dogName:chosenName,gender:readPreference('dogGender','female')==='male'?'male':'female',lessonId:'year-1',stepIndex:0,sound:readPreference('sound','true')==='true',chinese:readPreference('chinese','true')==='true',answered:false,finished:false,recognition:null,listening:false,feedback:'',busy:false};
-let speechToken=0,speechActive=false,petToken=0,petCount=0,voiceSession,currentPrompt,conversationAttempted=false,progressReady=false,signInRequired=false,personalAvatar=null,pendingAnswer=null,resumeWhenVisible=false;
+let speechToken=0,speechActive=false,petToken=0,petActive=false,petCount=0,voiceSession,currentPrompt,conversationAttempted=false,progressReady=false,signInRequired=false,personalAvatar=null,pendingAnswer=null,resumeWhenVisible=false;
 let introducedName=readPreference('introducedDogName',''),introduceNextSpeech=false,nameRecording=null;
 const supportsRecording=canRecord(window);
 let directVoice=false,voiceReady=!supportsRecording;
@@ -1278,14 +1278,14 @@ const node=(tag,className,text)=>{const el=document.createElement(tag);if(classN
 const status=text=>{$('input-status').textContent=text;};
 function stopMicrophone(){if(state.recognition)try{state.recognition.abort();}catch{}state.recognition=null;state.listening=false;$('mic-button').setAttribute('aria-pressed','false');}
 function stopSpeech() {
-  speechToken++;petToken++;speechActive=false;
+  speechToken++;petToken++;speechActive=false;petActive=false;
   puppySound.stop();greetingAudio.stop();
   $('portrait-stage').classList.remove('speaking');
   avatar.set('idle');
 }
 
 function continueAfterReply(){
-  if(!voiceSession?.active||speechActive||document.hidden||document.querySelector('dialog[open]'))return;
+  if(!voiceSession?.active||speechActive||petActive||document.hidden||document.querySelector('dialog[open]'))return;
   if(state.busy){avatar.set('thinking');$('turn-title').textContent='正在保存……';return;}
   if(state.answered&&!state.finished){nextQuestion();return;}
   voiceSession.listen(180);
@@ -1454,7 +1454,7 @@ function renderMap(){
    const button=node('button','course-node'+(done?' complete':locked?' locked':' unlocked')+(state.lessonId===course.id?' current':''));button.type='button';button.dataset.course=course.id;
    button.append(node('span','year-number',String(course.year)),node('strong','course-name',course.title),node('span','course-focus',course.focus),node('span','course-count',done?'已完成 · 已领 100 奖励币':locked?'集齐 '+course.bonesRequired+' 根骨头解锁':count+' / 50 题'));
    button.disabled=locked||!progressReady;button.setAttribute('aria-label','第'+course.year+'年，'+course.title+'，'+(locked?'尚未解锁':count+'题已完成'));
-   button.addEventListener('click',()=>{$('lessons-dialog').close();selectCourse(course.id,{review:done});});list.append(button);
+   button.addEventListener('click',()=>{$('lessons-dialog').close();selectCourse(course.id,{review:done,continueTalking:!!voiceSession?.active});});list.append(button);
  }
  const next=COURSES[Math.min(19,progress.unlocked-1)];$('map-next').textContent=progress.age===20?'20 年毕业啦！所有课程都可以复习。':'完成第 '+next.year+' 年的 50 题，小狗长大一岁。';
 }
@@ -1565,13 +1565,14 @@ async function submitAnswer(raw){
  if(!state.sound){avatar.set(result.status==='success'?'happy':'encouraging');if(result.status==='correct')avatar.perform('shake');}
 }
 function openDialog(id){
- if(['more-dialog','typing-dialog'].includes(id))voiceSession?.pauseForSpeech();else voiceSession?.stop();
+ voiceSession?.pauseForSpeech();
  stopSpeech();stopMicrophone();$('more-dialog').close();$(id).showModal();
 }
-for(const id of ['more-dialog','typing-dialog'])$(id).addEventListener('close',()=>{
- // Closing More to open the reply box must not briefly reopen the microphone.
+document.querySelectorAll('dialog').forEach(dialog=>dialog.addEventListener('close',()=>{
+ // Defer until a replacement dialog is open. Keep the original session so
+ // leaving a menu never requires another Start tap or microphone permission.
  setTimeout(()=>continueAfterReply(),0);
-});
+}));
 function renderShop(){
  $('shop-items').replaceChildren();$('coin-total').textContent=progress.coins+' 奖励币';
  const next=COURSES[Math.min(19,progress.unlocked-1)],remaining=next.questions.filter(q=>!progress.passed.includes(q.id)).length;
@@ -1590,8 +1591,9 @@ function playWithDog(action,{fromMenu=false}={}){
  if(fromMenu)$('more-dialog').close();if(state.busy)return;
  if($('portrait-stage').classList.contains('speaking')){avatar.perform(action);return;}
  const resume=voiceSession.active,token=++petToken,expectedSpeech=speechToken;if(resume)voiceSession.pauseForSpeech();puppySound.prepare();
+ petActive=true;
  const motion=avatar.perform(action),woof=state.sound&&['bark','jump','dance'].includes(action)?puppySound.play():Promise.resolve();
- Promise.all([motion,woof]).then(()=>{if(token===petToken&&expectedSpeech===speechToken&&resume&&voiceSession.active)voiceSession.listen(240);});
+ Promise.all([motion,woof]).then(()=>{if(token!==petToken||expectedSpeech!==speechToken)return;petActive=false;if(resume)continueAfterReply();});
 }
 function handleSpokenAnswer(text){
  const command=text.toLowerCase().replace(/[^a-z\s\u3400-\u9fff]/g,'').replace(/\s+/g,' ').trim();
@@ -1606,7 +1608,7 @@ function handleSpokenAnswer(text){
 const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
 const voiceOptions={host:window,Recognition,onText:handleSpokenAnswer,getEndSilence:()=>state.slowListening?1200:currentQuestion().target.en.trim().split(/\s+/).length<=3?650:950,onTranscript:text=>{$('answer').value=text;},onLevel:level=>{$('mic-meter').style.setProperty('--mic-level',String(level));},onChange:({active,phase,message,problem})=>{
  $('hands-free-button').setAttribute('aria-pressed',String(active));updateStartButton();$('voice-session').dataset.phase=phase;$('voice-session').dataset.problem=problem||'';
- $('turn-title').textContent=phase==='listening'?(message|| (state.finished?(currentLesson().year===20?'去地图复习吧':'说 “Next” 去下一年'):currentQuestion().kind==='listen'?'选意思，或跟读':'轮到你啦！')):phase==='speaking'?(state.feedback==='success'?'说对啦！':state.feedback==='correct'?'再跟我说一次':'先听我说'):phase==='blocked'?'请重试，或打字回答':phase==='starting'?'请允许麦克风':phase==='transcribing'?'听到啦，想一下……':phase==='reconnecting'?'正在重新连接…':phase==='saving'?'正在保存…':phase==='waiting'?'准备听你说':'听完，跟我说';
+ $('turn-title').textContent=phase==='listening'?(message|| (state.finished?(currentLesson().year===20?'去地图复习吧':'说 “Next” 去下一年'):currentQuestion().kind==='listen'?'选意思，或跟读':'我在听，直接说')):phase==='speaking'?(state.feedback==='success'?'说对啦！':state.feedback==='correct'?'再跟我说一次':'先听我说'):phase==='blocked'?'请重试，或打字回答':phase==='starting'?'请允许麦克风':phase==='transcribing'?'听到啦，想一下……':phase==='reconnecting'?'正在重新连接…':phase==='saving'?'正在保存…':phase==='waiting'?'准备听你说':'听完，跟我说';
  $('mic-meter').hidden=phase!=='listening';
  $('voice-status').textContent=message||'';document.body.classList.toggle('hands-free-active',active);if(problem){$('voice-help').open=true;$('voice-help').dataset.problem=problem;}
  $('voice-recovery').hidden=phase!=='blocked';
@@ -1646,7 +1648,7 @@ const phonePlay=new PhonePlay({host:window,onShake:()=>playWithDog('dance'),canP
 $('shake-phone').addEventListener('click',()=>{if(phonePlay.enabled)phonePlay.disable();else phonePlay.enable();});
 $('chinese').addEventListener('change',()=>{state.chinese=$('chinese').checked;savePreference('chinese',state.chinese);updateHeader();});
 $('sound-toggle').addEventListener('click',()=>{state.sound=!state.sound;savePreference('sound',state.sound);if(!state.sound){voiceSession.stop();stopSpeech();}updateHeader();});
-for(const gender of ['female','male'])$('dog-'+gender).addEventListener('change',()=>{if(!$('dog-'+gender).checked)return;voiceSession.stop();stopSpeech();stopMicrophone();state.gender=gender;savePreference('dogGender',gender);introducedName='';savePreference('introducedDogName','');clearNameRecording();voiceLevels={};loadVoiceLevels();updateHeader();greetingAudio.preload([PUPPY_LINES['cn-identity'],...currentPrompt.parts].filter(p=>p.id).map(clipSource));});
+for(const gender of ['female','male'])$('dog-'+gender).addEventListener('change',()=>{if(!$('dog-'+gender).checked)return;voiceSession.pauseForSpeech();stopSpeech();stopMicrophone();state.gender=gender;savePreference('dogGender',gender);introducedName='';savePreference('introducedDogName','');clearNameRecording();voiceLevels={};loadVoiceLevels();updateHeader();greetingAudio.preload([PUPPY_LINES['cn-identity'],...currentPrompt.parts].filter(p=>p.id).map(clipSource));});
 $('preview-voice').addEventListener('click',()=>speak(PUPPY_LINES['cn-identity'].text,{parts:[PUPPY_LINES['cn-identity']],force:true,prime:true}));
 function openRename(){$('settings-dialog').close();openDialog('rename-dialog');$('new-dog-name').value=state.dogName;$('rename-error').textContent='';$('new-dog-name').select();}
 $('rename-button').addEventListener('click',openRename);$('settings-rename-button').addEventListener('click',openRename);
@@ -1673,7 +1675,7 @@ document.addEventListener('visibilitychange',()=>{
   else speak(currentPrompt.text,{parts:currentPrompt.parts});
  }
 });
-$('mic-button').addEventListener('click',()=>{$('typing-dialog').close();startConversation();});
+$('mic-button').addEventListener('click',()=>{$('typing-dialog').close();if(!voiceSession.active)startConversation();});
 $('copy-voice-link').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('voice-link').value);$('copy-voice-status').textContent='网址已复制，请用 Safari 打开。';}catch{$('voice-link-label').hidden=false;$('voice-link').select();}});
 updateHeader();askCurrentQuestion();renderMap();renderShop();document.dispatchEvent(new CustomEvent('pawlish-ready'));syncProgress();checkVoiceConnection();
 
