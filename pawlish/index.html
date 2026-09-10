@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#e6f4eb">
-  <meta name="pawlish-release" content="22">
+  <meta name="pawlish-release" content="23">
   <meta name="description" content="和可爱的小狗一起学英语。中文讲解、慢速示范，从一句你好开始。">
   <title>Pawlish · 小狗陪你学英语</title>
   <link rel="icon" href="assets/paw.svg" type="image/svg+xml">
@@ -96,8 +96,8 @@
     button.querySelector('span').textContent = '课程暂时无法开始';
     document.getElementById('voice-status').textContent = '课程还没准备好，请点下面的「重新打开」。';
     document.getElementById('startup-error').hidden = false;
-    document.getElementById('startup-error-detail').textContent = 'Pawlish 22: ' + failure;
-    document.getElementById('reload-pawlish').href = '?v=22&reload=' + Date.now();
+    document.getElementById('startup-error-detail').textContent = 'Pawlish 23: ' + failure;
+    document.getElementById('reload-pawlish').href = '?v=23&reload=' + Date.now();
     document.getElementById('greeting-audio').controls = true;
   }
   document.addEventListener('pawlish-ready', function () {
@@ -178,14 +178,14 @@
           <span id="mic-meter" class="mic-meter" hidden aria-hidden="true"><i></i><i></i><i></i><i></i></span>
           <p id="voice-status" class="sr-only" role="status">小狗正在准备……</p>
           <button id="hands-free-button" class="hands-free-button" type="button" aria-pressed="false" disabled><svg class="icon"><use href="#i-volume"/></svg><span>小狗正在准备……</span></button>
-          <a id="sign-in-button" class="hands-free-button" href="./" target="_top" hidden>重新打开</a>
+          <a id="sign-in-button" class="hands-free-button" href="./" target="_top" rel="noreferrer" hidden>重新打开</a>
         </div>
         <div class="next-actions" id="next-actions" hidden><button id="completion-shop-button" type="button" class="text-button" hidden>去衣橱 · 换装扮</button><button id="next-button" class="primary-button" type="button">下一句<svg class="icon"><use href="#i-arrow"/></svg></button></div>
         <div class="practice-actions" id="practice-actions"><button id="replay-button" class="text-button" type="button" aria-label="再听一遍英语示范">再听</button><button id="hint-button" class="text-button" type="button">慢一点</button><button id="more-button" class="text-button" type="button" aria-haspopup="dialog">更多</button></div>
         <p class="input-status" id="input-status" role="status"></p><button id="retry-progress" class="text-button" type="button" hidden>重试连接</button><button id="retry-save" class="text-button" type="button" hidden>重试保存</button>
         <div id="voice-recovery" class="voice-recovery" hidden><a id="connect-voice" class="text-button" href="connect.html" hidden>连接语音</a><button id="voice-type-reply" class="text-button" type="button">打字回答</button></div>
       </div>
-      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=22">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
+      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=23">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
       <audio id="greeting-audio" src="assets/puppy-female/cn-welcome.mp3?v=13" preload="auto"></audio>
     </section>
   </main>
@@ -1490,7 +1490,7 @@ async function syncProgress(){
   status(window.PawlishGuest?.persistent===false?'此浏览器不能记住你，下次可能需要重新开始。':'');$('retry-progress').hidden=true;$('save-status').textContent=window.PawlishGuest?'已保存，下次继续':'进度已同步';
  }catch(error){
   progressReady=false;signInRequired=error.status===401;
-  if(signInRequired){status('');$('turn-title').textContent='登录后保存进度';$('save-status').textContent='登录后保存进度';$('retry-progress').hidden=true;}
+  if(signInRequired){status('');$('turn-title').textContent='重新打开后继续学习';$('save-status').textContent='请重新打开';$('retry-progress').hidden=true;}
   else{status('进度没连上，请点「重试连接」。');$('retry-progress').hidden=false;$('save-status').textContent='还未同步';}
   renderMap();
  }
