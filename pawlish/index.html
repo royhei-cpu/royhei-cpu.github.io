@@ -1,0 +1,1609 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; media-src 'self' blob:; font-src 'self'; connect-src 'self' https://royhei-cpu.github.io/pawlish; base-uri 'self'; form-action 'self'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
+<script src="guest-host.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e6f4eb">
+  <meta name="pawlish-release" content="21">
+  <meta name="description" content="和可爱的小狗一起学英语。中文讲解、慢速示范，从一句你好开始。">
+  <title>Pawlish · 小狗陪你学英语</title>
+  <link rel="icon" href="assets/paw.svg" type="image/svg+xml">
+  <style data-pawlish-styles>
+@font-face{font-family:Nunito;src:url('assets/nunito-regular.ttf') format('truetype');font-style:normal;font-weight:400 600;font-display:swap}
+@font-face{font-family:Nunito;src:url('assets/nunito-bold.ttf') format('truetype');font-style:normal;font-weight:650 800;font-display:swap}
+@font-face{font-family:Nunito;src:url('assets/nunito-black.ttf') format('truetype');font-style:normal;font-weight:900;font-display:swap}
+:root{--ink:#163e32;--text:#416456;--muted:#60786c;--mint:#e6f4eb;--yellow:#f6d65f;--line:#d9e8df;font-family:'Nunito','PingFang SC','Microsoft YaHei',sans-serif;font-size:16px;color:var(--ink);background:var(--mint);color-scheme:light;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0}button,input{font:inherit}button{cursor:pointer;color:inherit;-webkit-tap-highlight-color:transparent}button:disabled{opacity:.55;cursor:default}button,a,input{touch-action:manipulation}button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #996a00;outline-offset:3px}a{color:inherit}button{transition:background .15s,transform .15s}button:active:not(:disabled){transform:scale(.98)}[hidden]{display:none!important}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.icon-library{position:absolute;width:0;height:0;overflow:hidden}.icon{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.dog-room{height:100vh;height:100svh;min-height:570px;display:grid;grid-template-rows:auto minmax(200px,1fr) auto;position:relative;isolation:isolate;background:var(--mint);padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);overflow:hidden}
+.site-header{z-index:5;display:flex;align-items:center;justify-content:space-between;padding:9px 20px 0;gap:16px}.brand{display:flex;gap:6px;align-items:center;font-size:25px;font-weight:900;letter-spacing:-1px;line-height:1;text-decoration:none}.paw-mark{width:25px;height:28px;fill:#e9bc31}.header-controls{display:flex;align-items:center;gap:4px}.icon-button{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:50%;background:#ffffffa8;min-width:44px;min-height:44px;padding:10px}.text-button{background:transparent;border:0;min-height:44px;font-size:14px;font-weight:750;color:var(--text);padding:8px 10px}.text-button:hover,.icon-button:hover{background:#fff8;border-radius:14px}
+.teacher-panel{position:relative;min-height:0;display:flex;flex-direction:column;padding:32px 8px 0}.portrait-stage{position:relative;min-height:0;flex:1;display:flex;align-items:center;justify-content:center;padding:0 0 25px}.photo-frame{height:min(100%,96vw);aspect-ratio:1;max-width:100%;position:relative;display:block;flex-shrink:0;background:none;border:0;padding:0;isolation:isolate;touch-action:manipulation}.dog-sprite{display:block;width:100%;height:100%;background-image:url('assets/doudou/full-body.webp');background-size:400% 300%;background-position:0% 0%;background-repeat:no-repeat;mix-blend-mode:multiply;transform-origin:50% 90%;will-change:transform}.teacher-footer{position:absolute;left:20px;right:20px;top:0;display:flex;align-items:center;gap:4px;z-index:2}.teacher-footer strong{font-size:17px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rename-button{display:flex;align-items:center;gap:4px;border:0;min-height:44px;background:none;font-size:13px;padding:8px}.rename-button .icon{width:14px;height:14px}.dog-bubble{position:absolute;bottom:2px;left:50%;transform:translateX(-50%);font-size:13px;font-weight:750;padding:5px 13px;border-radius:30px;background:#ffffffa8;text-align:center;max-width:95%;white-space:nowrap;pointer-events:none}.treat-pop{position:absolute;left:50%;top:45%;display:flex;align-items:center;gap:7px;padding:10px 16px;border-radius:30px;background:#ffefac;opacity:0;font-weight:800;pointer-events:none}.celebrating .treat-pop{animation:treat-pop 1.5s ease-out}
+.lesson-panel{z-index:3;width:min(calc(100% - 24px),480px);margin:0 auto;padding:7px 0 2px}.caption-card{background:#ffffffd9;border:1px solid #ffffff;border-radius:22px;box-shadow:0 6px 24px #183e3208;padding:10px 14px 0;text-align:center;position:relative}.lesson-header{position:absolute;right:10px;top:10px}.lesson-header h2{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.step-counter{font-size:11px;color:var(--muted);font-weight:750;white-space:nowrap}.teaching-card{padding:0 26px}.teaching-topline{display:none}.teaching-pattern{margin:0;font-size:clamp(23px,6vw,30px);font-weight:900;line-height:1.2;overflow-wrap:anywhere}.message-zh{font-size:14px;color:var(--text);line-height:1.4;margin:4px 0 9px}.hide-chinese .message-zh{display:none}.message-text{font-size:15px;line-height:1.55;margin:3px 0;white-space:pre-line;overflow-wrap:anywhere}.message-avatar,.message-label,.message-content>.listen-button{display:none}.correction{display:block;font-size:20px;color:#734d00;background:#fff1bf;padding:5px 9px;border-radius:9px;margin:5px 0}.voice-session{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:46px;border-top:1px solid #e7eee9;padding-top:6px}.voice-session>strong{font-size:13px;line-height:1.4;text-align:left;font-weight:650}.voice-session[data-phase=blocked],.voice-session[data-phase=error]{flex-wrap:wrap}.voice-session[data-phase=blocked]>p,.voice-session[data-phase=error]>p{position:static;clip:auto;width:100%;height:auto;margin:0;font-size:13px;text-align:left;white-space:normal;color:#784b00;overflow:visible}.hands-free-button{display:flex;justify-content:center;align-items:center;gap:5px;flex-shrink:0;border:0;border-radius:14px;background:var(--yellow);min-height:44px;padding:10px 13px;font-size:15px;font-weight:900}.hands-free-button .icon{width:18px;height:18px}.hands-free-button:hover{background:#f5ca43}.hands-free-button[aria-pressed=true]{background:#1b493a;color:white;font-size:14px;padding:9px 15px}.voice-session[data-phase=listening] #turn-title{color:#256638}.voice-session[data-phase=listening] #turn-title:before{content:'';display:inline-block;width:7px;height:7px;margin-right:6px;background:#4ca162;border-radius:50%;animation:listening-pulse 1.6s ease-in-out infinite}.practice-actions{display:flex;justify-content:space-around;gap:0}.practice-actions .text-button{font-size:12px;padding:8px 4px;min-height:40px}.room-tools{display:flex;justify-content:space-between;align-items:center;padding:0 2px;gap:4px}.room-tools .text-button{font-size:12px}.treat-counter{display:flex;align-items:center;gap:4px;font-size:12px}.treat-counter .icon{width:16px;height:16px}.input-status:empty{display:none}.input-status{font-size:13px;line-height:1.45;color:#7a4a00;margin:4px 0 8px;overflow-wrap:anywhere}.next-actions{margin:8px 0}.next-actions .primary-button{width:100%}.hands-free-active .next-actions{display:none}.finish-conversation{position:static;width:auto;height:auto;clip:auto;white-space:normal;margin:0;overflow:auto;max-height:120px}.finish-conversation .recap-list,.finish-conversation .summary-paw{display:none}.lesson-panel:has(.finish-conversation) .practice-actions{display:none}
+.small-dialog{border:0;border-radius:24px;padding:22px;max-width:480px;width:calc(100% - 28px);max-height:88svh;color:var(--ink);box-shadow:0 20px 70px #163d3233;background:white;font-size:16px;line-height:1.6;overflow:auto}.small-dialog::backdrop{background:#163d3266;backdrop-filter:blur(4px)}.dialog-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}.dialog-heading h2{margin:0;font-size:23px}.small-dialog p{margin:10px 0}.small-dialog input{font-size:16px;max-width:100%;border:1px solid #c6d7cd;border-radius:12px;padding:12px;color:var(--ink)}.primary-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--yellow);border:0;border-radius:13px;min-height:48px;padding:11px 17px;font-size:17px;font-weight:800}.lesson-nav{display:flex;flex-direction:column;gap:8px}.lesson-link{display:flex;align-items:center;gap:12px;min-height:58px;border:1px solid #dde9e2;border-radius:15px;background:#fff;padding:12px 14px;text-align:left;font-size:17px;font-weight:750}.lesson-link.active{background:#fff5ca;border-color:#ddbc4c}.lesson-link .complete-check{margin-left:auto}.lesson-number{font-size:14px;color:var(--muted)}.listen-button{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:#e8f4ec;border:0;border-radius:22px;font-size:15px;font-weight:750;padding:8px 12px;min-height:44px}.listen-button .icon{width:19px;height:19px}.suggestions{display:grid;gap:8px;margin:10px 0 16px}.suggestion{padding:12px;border:1px solid #e2c451;border-radius:12px;min-height:48px;background:#fffaf0;font-size:18px}.reply-heading h3{font-size:16px;font-weight:700}.input-wrap{display:flex;align-items:center;gap:5px;margin-bottom:12px}.input-wrap input{width:100%;min-width:0;flex:1}.hands-free-active .mic-button{display:none}.language-toggle{display:flex;align-items:center;gap:12px;position:relative;min-height:44px;font-weight:750}.language-toggle input{position:absolute;opacity:0;width:52px;right:0}.switch-track{display:block;width:52px;height:30px;background:#c6d6cb;border-radius:30px;margin-left:auto}.switch-track:after{content:'';display:block;width:22px;height:22px;background:white;border-radius:50%;margin:4px;transition:transform .2s}.language-toggle input:checked+.switch-track{background:var(--yellow)}.language-toggle input:checked+.switch-track:after{transform:translateX(22px)}.voice-help{font-size:16px;line-height:1.6}.voice-help summary{cursor:pointer;padding:12px 0}.voice-help-content{padding:12px;background:#fff9e7;border-radius:16px;font-size:15px;line-height:1.55}.voice-help-actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.voice-help-content input{width:100%}.voice-help-content p{margin:8px 0}.noscript{position:fixed;z-index:20;inset:auto 15px 15px;background:#fff3b6;padding:18px;border-radius:16px}.completion-heading{font-size:22px;margin:8px}.summary-paw{width:34px;height:34px;fill:var(--yellow);stroke:none;margin:0 auto}.completion p{font-size:15px}.recap-list{list-style:none;padding:0;margin:9px 0;text-align:left}.recap-list li{display:flex;gap:8px;align-items:center;padding:3px;font-size:16px}.recap-list .icon{width:18px;height:18px}.restart-button{display:block;margin:5px auto}.finish-conversation{max-height:120px}.hands-free-active .lesson-panel:has(.finish-conversation) .next-actions{display:block}
+.dog-sprite[data-mood=idle]{animation:puppy-breathe 3.4s ease-in-out infinite}.dog-sprite[data-mood=listening]{animation:puppy-attentive 4.6s ease-in-out infinite}.dog-sprite[data-mood=speaking]{animation:puppy-talk 1.1s ease-in-out infinite}.dog-sprite[data-mood=happy],.dog-sprite[data-mood=barking]{animation:puppy-happy .55s ease-in-out 3}.dog-sprite[data-mood=waving]{animation:puppy-wave .9s ease-in-out 3}.dog-sprite[data-mood=encouraging]{animation:puppy-attentive 3s ease-in-out infinite}.dog-sprite[data-mood=thinking]{animation:puppy-thinking 2.4s ease-in-out infinite}
+@keyframes puppy-breathe{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-2px) scale(1.01)}}@keyframes puppy-attentive{0%,100%{transform:rotate(0)}35%{transform:rotate(2deg) translateY(-2px)}70%{transform:rotate(-1.5deg)}}@keyframes puppy-talk{0%,100%{transform:translateY(0) rotate(-.7deg)}50%{transform:translateY(-3px) rotate(.8deg)}}@keyframes puppy-happy{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-9px) scale(1.015)}}@keyframes puppy-wave{0%,100%{transform:rotate(0)}35%{transform:rotate(-3deg)}70%{transform:rotate(2deg)}}@keyframes puppy-thinking{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}@keyframes listening-pulse{50%{opacity:.5}}@keyframes treat-pop{0%{opacity:0;transform:translate(-50%,15px)}20%,70%{opacity:1}100%{opacity:0;transform:translate(-50%,-40px)}}
+@media(min-width:850px){.dog-room{grid-template-columns:minmax(0,1fr) 380px;grid-template-rows:auto 1fr;padding-right:5vw;padding-left:5vw;max-height:none;min-height:640px}.site-header{grid-column:1/-1;padding-left:0;padding-right:0}.teacher-panel{grid-column:1;grid-row:2;padding-top:40px;padding-bottom:35px}.photo-frame{height:min(100%,60vw,calc(90vw - 380px));width:auto;max-width:100%}.teacher-footer{left:0}.dog-bubble{bottom:0}.lesson-panel{grid-column:2;grid-row:2;align-self:end;margin-bottom:7vh;width:100%;padding:0}.caption-card{padding:16px 16px 0}.teaching-pattern{font-size:31px}}
+@media(max-width:350px){.site-header{padding-left:12px;padding-right:12px}.caption-card{padding:9px 10px 0}.teacher-footer{left:12px}.hands-free-button{font-size:14px;padding:9px 10px}.voice-session>strong{font-size:12px}.teaching-pattern{font-size:23px}}
+@media(max-height:620px) and (orientation:landscape){.dog-room{min-height:400px;grid-template-columns:1fr 300px;grid-template-rows:48px 1fr;padding:0 16px}.site-header{grid-column:1/-1;padding:0}.teacher-panel{grid-row:2;padding-top:25px}.photo-frame{height:min(100%,46vw)}.lesson-panel{grid-row:2;align-self:center;width:100%}.teacher-footer{left:0;top:-8px}.brand{font-size:22px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.celebrating .treat-pop{opacity:1}}
+
+/* V11: one compact teaching dock; no repeated visible chat or instructions. */
+.dog-room{min-height:520px;grid-template-rows:48px minmax(240px,1fr) auto}
+.site-header{padding:5px 18px 0}.brand{font-size:23px}.paw-mark{width:24px;height:26px}
+.teacher-panel{padding:37px 8px 0}.teacher-footer{left:18px;right:18px}.rename-button{font-size:14px}
+.portrait-stage{padding:0;align-items:flex-end}.photo-frame{height:min(100%,calc(100vw - 16px));max-height:100%;overflow:visible}
+.dog-sprite{background-image:url('assets/doudou/lifelike.webp');background-size:400% 400%;transform:translateY(var(--pose-y,0%));transform-origin:50% 93%;animation:none!important;transition:transform .18s ease-out;mix-blend-mode:multiply}
+.dog-sprite[data-mood=idle]{animation:real-breathe 3.8s ease-in-out infinite!important}
+.dog-sprite[data-mood=speaking]{animation:real-talk .8s ease-in-out infinite!important}
+.dog-sprite[data-action=jump]{animation:none!important}
+.lesson-panel{width:min(calc(100% - 24px),440px);padding:2px 0 7px}
+.caption-card{padding:9px 12px 0;border:0;border-radius:20px;box-shadow:none;background:#ffffffce}
+.teaching-card{padding:0 8px}.teaching-pattern{font-size:clamp(24px,6.3vw,31px);line-height:1.17}
+.message-zh{font-size:15px;line-height:1.3;margin:3px 0 5px}.voice-session{min-height:44px;padding:3px 0 0;border:0;gap:8px}
+.voice-session>strong{font-size:14px;font-weight:700}.hands-free-button{min-height:44px;font-size:15px;border-radius:14px}a.hands-free-button{text-decoration:none}
+.practice-actions{border-top:1px solid #1c493b0b}.practice-actions .text-button{font-size:14px;min-height:44px;flex:1}
+.voice-session[data-phase=blocked]>p,.voice-session[data-phase=error]>p{font-size:14px}
+.finish-conversation{max-height:none}.completion-heading{font-size:23px;margin:5px 0}.completion p,.completion .restart-button{display:none}
+.lesson-panel:has(.finish-conversation) .voice-session{display:none}.next-actions{margin:5px 0 10px}
+.menu-button{border:0;background:#eef6f1;color:var(--ink);font-size:16px;font-weight:750;min-height:48px;border-radius:13px;padding:10px 16px;text-align:left}
+.more-options{display:grid;gap:8px}.dog-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.dog-actions button{border:1px solid var(--line);background:white;min-height:48px;font-size:16px;border-radius:13px}
+.small-dialog h3{font-size:17px;margin:20px 0 10px}.dog-choice{display:flex;gap:10px;border:0;padding:0;margin:17px 0}.dog-choice legend{font-size:16px;font-weight:750;margin-bottom:9px}.dog-choice label{display:flex;align-items:center;justify-content:center;gap:9px;flex:1;border:1px solid var(--line);border-radius:14px;min-height:50px;font-size:17px}.dog-choice label:has(:checked){border-color:#367356;background:#e8f5ed}.dog-choice input{accent-color:#286149;width:18px;height:18px;margin:0}.settings-sound-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}
+@keyframes real-breathe{0%,100%{transform:translateY(var(--pose-y,0%)) scaleY(1)}50%{transform:translateY(var(--pose-y,0%)) scaleY(1.007)}}
+@keyframes real-talk{0%,100%{transform:translateY(var(--pose-y,0%)) rotate(-.35deg)}50%{transform:translateY(calc(var(--pose-y,0%) - 1px)) rotate(.35deg)}}
+@media(min-width:850px){.dog-room{grid-template-rows:48px 1fr;grid-template-columns:minmax(0,1fr) 350px}.photo-frame{height:min(100%,calc(90vw - 366px))}.teacher-panel{padding-top:40px;padding-bottom:15px}.lesson-panel{width:100%;margin-bottom:8vh}.teaching-pattern{font-size:29px}}
+@media(max-height:620px) and (orientation:landscape){.dog-room{min-height:350px;grid-template-columns:minmax(0,1fr) 290px}.photo-frame{height:min(100%,45vw)}.lesson-panel{grid-column:2;align-self:center}}
+@media(prefers-reduced-motion:reduce){.dog-sprite{animation:none!important;transition:none!important}}
+/* Only the current question occupies the room; the journey and wardrobe open on demand. */
+.map-button{display:flex;align-items:center;gap:5px;font-size:12px;white-space:nowrap}.map-button .icon{width:17px;height:17px}.map-button span{font-size:12px;font-weight:900}.site-header{padding-left:14px;padding-right:10px;gap:8px}.brand{font-size:21px}.header-controls{gap:0}.header-controls>.text-button{padding:8px 6px}.age-label{font-size:12px;color:var(--text);margin-left:4px}.question-meta{display:flex;justify-content:space-between;font-size:11px;color:var(--text);margin-bottom:5px}.question-options{display:grid;gap:5px;margin:7px 0}.answer-choice{border:1px solid var(--line);border-radius:10px;background:#f3f8f5;min-height:44px;padding:7px 10px;text-align:left;font-size:14px}.teaching-pattern:lang(zh-Hans){font-size:20px;line-height:1.35}.photo-frame{transform:scale(var(--growth,1));transform-origin:50% 95%;transition:transform .6s}.bone-pop{position:absolute;top:10%;left:50%;transform:translateX(-50%);white-space:nowrap;border-radius:30px;background:#fff0ab;padding:8px 15px;font-size:14px;font-weight:800;opacity:0;pointer-events:none}.bone-pop.show{animation:bone-arrive 2.8s ease-out}.feature-status{font-size:14px;color:var(--text);line-height:1.5}.feature-status:empty{display:none}.photo-menu,.shop-menu{display:block;width:100%;margin-top:8px}.photo-inputs{display:flex;gap:8px}.photo-inputs label{position:relative;flex:1;text-align:center;overflow:hidden}.photo-inputs input{position:absolute;inset:0;opacity:0;width:100%;height:100%;cursor:pointer}.photo-inputs label:focus-within{outline:3px solid #996a00;outline-offset:2px}.dog-photo-preview{display:block;max-width:100%;max-height:35svh;object-fit:contain;margin:14px auto;border-radius:14px}.photo-note{font-size:12px;color:var(--muted)}
+.map-dialog{background:#f5faf6;max-width:600px;padding:20px 18px;max-height:92svh}.map-dialog .dialog-heading{position:sticky;top:-20px;background:#f5faf6;z-index:2;padding-top:6px;padding-bottom:6px}.map-intro,.map-note{font-size:13px;color:var(--text)}.journey-stats{display:flex;align-items:center;justify-content:space-between;background:#e3efdc;border-radius:15px;padding:13px 16px;font-size:16px}.map-dialog #map-next{font-size:14px}.course-map{display:grid;grid-template-columns:1fr;gap:13px;position:relative;padding:12px 0 12px 18px;border-left:3px dashed #bfd6c7;margin-left:12px}.course-node{display:grid;grid-template-columns:42px 1fr;column-gap:11px;row-gap:3px;position:relative;text-align:left;min-height:90px;padding:13px 14px;border:1px solid #dbe7de;border-radius:20px;background:white;opacity:1!important}.course-node.current{border:2px solid #c99522;background:#fff7d8}.course-node.complete{background:#e5f1e9;border-color:#99bfa6}.course-node.locked{color:#657c70;background:#edf2ee}.year-number{grid-row:1/4;align-self:center;display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:#e1efe5;font-weight:900;font-size:19px}.current .year-number{background:#f6d65f}.course-name{font-size:16px;line-height:1.35}.course-focus,.course-count{font-size:12px}.map-note{line-height:1.8}.shop-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.shop-item{display:flex;flex-direction:column;align-items:center;border:1px solid var(--line);border-radius:16px;padding:8px;gap:8px}.shop-item strong{font-size:14px}.shop-item button{font-size:14px;text-align:center;width:100%;padding:8px}.shop-accessory,.dog-outfit{background-image:url('assets/doudou/accessories.webp');background-size:300% 200%;background-repeat:no-repeat;display:block}.shop-accessory{width:90px;height:90px}.dog-outfit{position:absolute;pointer-events:none;width:24%;aspect-ratio:1;left:38%;z-index:2}#outfit-neck{top:39%}#outfit-head{top:1%;width:37%;left:31.5%}#outfit-eyes{top:17%;width:34%;left:33%}#outfit-body{top:46%;width:38%;left:31%}.dog-outfit[data-item=collar]{width:28%;left:36%;top:40%!important}.dog-outfit[data-item=bowtie]{width:22%;left:39%;top:42%!important}
+.photo-frame:has(.dog-sprite[data-action=jump]) .dog-outfit,.photo-frame:has(.dog-sprite[data-action=dance]) .dog-outfit,.photo-frame:has(.dog-sprite[data-action=shake]) .dog-outfit{visibility:hidden}
+.photo-frame:has(.dog-sprite[data-frame="7"]) #outfit-neck,.photo-frame:has(.dog-sprite[data-frame="8"]) #outfit-neck,.photo-frame:has(.dog-sprite[data-frame="9"]) #outfit-neck{top:60%}
+.photo-frame:has(.dog-sprite[data-frame="7"]) #outfit-head,.photo-frame:has(.dog-sprite[data-frame="8"]) #outfit-head,.photo-frame:has(.dog-sprite[data-frame="9"]) #outfit-head{top:28%}
+.photo-frame:has(.dog-sprite[data-frame="7"]) #outfit-eyes,.photo-frame:has(.dog-sprite[data-frame="8"]) #outfit-eyes,.photo-frame:has(.dog-sprite[data-frame="9"]) #outfit-eyes{top:45%}
+
+@keyframes bone-arrive{0%{opacity:0;translate:0 9px}15%,75%{opacity:1;translate:0 0}100%{opacity:0;translate:0 -12px}}
+@media(prefers-reduced-motion:reduce){.photo-frame{transition:none}.bone-pop.show{animation:none;opacity:0}.dog-sprite{animation:none!important}}
+@media(max-width:359px){.brand span{font-size:18px}.paw-mark{width:21px}.header-controls>.text-button{font-size:12px;padding:6px 4px}.map-button .icon{display:none}.teacher-footer{left:13px}}
+
+/* Real microphone energy, not a decorative listening animation. */
+.mic-meter{display:flex;align-items:center;gap:3px;height:24px;flex-shrink:0;margin-left:auto;margin-right:4px}.mic-meter i{display:block;width:3px;height:20px;border-radius:3px;background:#368b58;transform:scaleY(calc(.14 + var(--mic-level,0)*.86));transition:transform 80ms linear}.mic-meter i:nth-child(2){height:14px}.mic-meter i:nth-child(4){height:16px}
+
+#wardrobe-button{white-space:nowrap}#save-status{color:#52715f}.question-meta{gap:6px}.shop-note,.shop-shortfall{font-size:12px;color:var(--text)}.shop-shortfall{line-height:1.2}.shop-item button:disabled{opacity:.62}
+
+.restart-menu{display:block;width:100%;margin-top:12px;background:var(--yellow)}
+
+</style>
+  <script data-pawlish-script="startup">
+// This small classic script runs separately from the lesson. A parse or startup
+// failure must not leave a ready-looking, unconnected conversation button.
+(function () {
+  var ready = false;
+  var timer;
+  var failure = '';
+  function showFailure(message) {
+    if (ready) return;
+    failure = message || '课程还没有加载完成。';
+    var button = document.getElementById('hands-free-button');
+    if (!button) return;
+    clearTimeout(timer);
+    document.documentElement.setAttribute('data-pawlish-state', 'failed');
+    button.disabled = true;
+    button.querySelector('span').textContent = '课程暂时无法开始';
+    document.getElementById('voice-status').textContent = '课程还没准备好，请点下面的「重新打开」。';
+    document.getElementById('startup-error').hidden = false;
+    document.getElementById('startup-error-detail').textContent = 'Pawlish 21: ' + failure;
+    document.getElementById('reload-pawlish').href = '?v=21&reload=' + Date.now();
+    document.getElementById('greeting-audio').controls = true;
+  }
+  document.addEventListener('pawlish-ready', function () {
+    ready = true;
+    clearTimeout(timer);
+    document.documentElement.setAttribute('data-pawlish-state', 'ready');
+    document.getElementById('startup-error').hidden = true;
+    document.getElementById('greeting-audio').controls = false;
+    var button = document.getElementById('hands-free-button');
+    button.disabled = false;
+    button.querySelector('span').textContent = '开始学英语';
+  });
+  document.addEventListener('pawlish-startup-failed', function (event) {
+    showFailure(event.detail);
+  });
+  window.addEventListener('error', function (event) {
+    // Failed optional images must not stop the lesson.
+    if (event.error || event.message) showFailure(event.message || String(event.error));
+  });
+  window.addEventListener('unhandledrejection', function (event) {
+    showFailure(event.reason && event.reason.message || '课程的一部分没有加载成功。');
+  });
+  document.addEventListener('DOMContentLoaded', function () {
+    if (ready) return;
+    if (failure) showFailure(failure);
+    else timer = setTimeout(function () { showFailure(); }, 7000);
+  });
+}());
+
+</script>
+</head>
+<body>
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-volume" viewBox="0 0 24 24"><path d="M11 4 6 8H3v8h3l5 4z" fill="currentColor" stroke="none"/><path d="M15 8c2 2 2 6 0 8m3-11c4 4 4 10 0 14"/></symbol>
+    <symbol id="i-mute" viewBox="0 0 24 24"><path d="M11 4 6 8H3v8h3l5 4z" fill="currentColor" stroke="none"/><path d="m16 9 6 6m0-6-6 6"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="13" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2m-7 9v3m-3 0h6"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24"><path d="m16 3 5 5L8 21H3v-5L16 3ZM13 6l5 5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-replay" viewBox="0 0 24 24"><path d="M3 10a9 9 0 1 1 1 8M3 3v7h7"/></symbol>
+    <symbol id="i-paw" viewBox="0 0 32 32"><ellipse cx="7" cy="12" rx="4" ry="5"/><ellipse cx="13" cy="6" rx="4" ry="5"/><ellipse cx="22" cy="6" rx="4" ry="5"/><ellipse cx="28" cy="13" rx="4" ry="5"/><path d="M7 25c0-4 3-6 5-10 3-4 7-4 10 1 2 3 5 5 5 9 0 8-7 5-10 3-3 2-10 5-10-3Z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11a9 9 0 0 1-9 9H4l-3 2 2-6a9 9 0 1 1 18-5Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-apple" viewBox="0 0 24 24"><path d="M12 6c-6-5-12 1-9 9 3 9 7 5 9 5s6 4 9-5c3-8-3-14-9-9Z" fill="currentColor" stroke="none"/><path d="M12 6V2m0 2c3 0 4-1 5-3"/></symbol>
+    <symbol id="i-tree" viewBox="0 0 24 24"><path d="M12 1a5 5 0 0 0-5 5 5 5 0 0 0-3 8 4 4 0 0 0 4 7h8a4 4 0 0 0 4-7 5 5 0 0 0-3-8 5 5 0 0 0-5-5Z" fill="currentColor" stroke="none"/><path d="M12 18v6"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5" fill="currentColor" stroke="none"/><path d="M12 1v2m0 18v2M1 12h2m18 0h2M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></symbol>
+    <symbol id="i-bone" viewBox="0 0 24 24"><path d="M5 8a3 3 0 1 1 4-4l7 7a3 3 0 1 1 4 4 3 3 0 1 1-4 4l-7-7a3 3 0 1 1-4-4Z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  </svg>
+
+  <main class="dog-room" aria-label="和小狗学英语">
+    <header class="site-header">
+      <a href="./" class="brand" aria-label="Pawlish 首页"><svg class="paw-mark"><use href="#i-paw"/></svg><span>pawlish</span></a>
+      <div class="header-controls">
+
+        <button id="map-button" class="text-button map-button" type="button" aria-label="打开二十年课程地图">课程地图 <svg class="icon"><use href="#i-bone"/></svg><span id="bone-total">0</span></button><button id="wardrobe-button" class="text-button" type="button" aria-haspopup="dialog">衣橱</button><button id="settings-button" class="text-button" type="button">设置</button>
+      </div>
+    </header>
+    <section class="teacher-panel" aria-label="你的小狗英语老师">
+      <h1 class="sr-only">小狗陪你学英语</h1>
+      <div class="portrait-stage" id="portrait-stage">
+        <button class="photo-frame" id="pet-dog" type="button" aria-label="摸摸豆豆"><span id="teacher-photo" class="dog-sprite" role="img" aria-label="黑白小狗豆豆：全身可见，会眨眼、摇尾巴、歪头和挥爪" data-frame="0" data-mood="idle"></span><span id="outfit-body" class="dog-outfit" hidden aria-hidden="true"></span><span id="outfit-neck" class="dog-outfit" hidden aria-hidden="true"></span><span id="outfit-head" class="dog-outfit" hidden aria-hidden="true"></span><span id="outfit-eyes" class="dog-outfit" hidden aria-hidden="true"></span></button>
+        <div id="bone-pop" class="bone-pop" role="status"></div><div class="dog-bubble" id="dog-bubble" hidden aria-hidden="true">汪！我用中文教你。</div>
+      </div>
+      <div class="teacher-footer"><strong id="dog-name">豆豆</strong><span id="dog-age" class="age-label">小奶狗</span><button class="rename-button" id="rename-button" type="button" aria-label="给小狗改名字"><svg class="icon"><use href="#i-edit"/></svg>改名</button></div>
+    </section>
+    <section class="lesson-panel" aria-labelledby="lesson-title">
+      <div class="caption-card"><div class="question-meta"><span id="course-label">第 1 年</span><span id="save-status" title="答对的题目保存在你的账号，下次从未完成的题目继续。">正在准备课程…</span><span id="question-count">1 / 50</span></div>
+        <div class="lesson-header" hidden><div><h2 id="lesson-title">零基础 · 跟我说</h2><p id="lesson-subtitle" class="sr-only">先听小狗说，再跟着说一句。</p></div><span class="step-counter" id="step-counter">1 / 4</span></div>
+        <aside class="teaching-card" id="teaching-card" aria-label="现在跟着说这一句">
+          <div class="teaching-topline" hidden><span id="teaching-title">说你好</span></div>
+          <p class="teaching-pattern" id="teaching-pattern" lang="en">Hello.</p>
+          <p class="message-zh" id="teaching-zh">你好。</p>
+          <div class="teaching-example" id="teaching-example" hidden></div>
+        </aside>
+        <div class="conversation" id="conversation" hidden></div><div id="question-options" class="question-options" hidden></div>
+        <div class="voice-session" id="voice-session" data-phase="off">
+          <strong id="turn-title">听完，跟我说</strong>
+          <span id="mic-meter" class="mic-meter" hidden aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          <p id="voice-status" class="sr-only" role="status">小狗正在准备……</p>
+          <button id="hands-free-button" class="hands-free-button" type="button" aria-pressed="false" disabled><svg class="icon"><use href="#i-volume"/></svg><span>小狗正在准备……</span></button>
+          <a id="sign-in-button" class="hands-free-button" href="./" target="_top" hidden>重新打开</a>
+        </div>
+        <div class="next-actions" id="next-actions" hidden><button id="completion-shop-button" type="button" class="text-button" hidden>去衣橱 · 换装扮</button><button id="next-button" class="primary-button" type="button">下一句<svg class="icon"><use href="#i-arrow"/></svg></button></div>
+        <div class="practice-actions" id="practice-actions"><button id="replay-button" class="text-button" type="button" aria-label="再听一遍英语示范">再听</button><button id="hint-button" class="text-button" type="button">慢一点</button><button id="more-button" class="text-button" type="button" aria-haspopup="dialog">更多</button></div>
+        <p class="input-status" id="input-status" role="status"></p><button id="retry-progress" class="text-button" type="button" hidden>重试连接</button><button id="retry-save" class="text-button" type="button" hidden>重试保存</button>
+      </div>
+      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=21">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
+      <audio id="greeting-audio" src="assets/puppy-female/cn-welcome.mp3?v=13" preload="auto"></audio>
+    </section>
+  </main>
+  <dialog id="more-dialog" class="small-dialog"><div class="dialog-heading"><h2>想做什么？</h2><button class="icon-button" data-close-dialog="more-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div>
+    <div class="more-options"><button id="restart-question-button" class="menu-button" type="button">重来这题</button><button id="skip-question-button" class="menu-button" type="button">跳过这题</button><button id="restart-course-button" class="menu-button" type="button">本课从头开始</button><button id="explanation-button" class="menu-button" type="button">中文讲解</button><button id="typing-button" class="menu-button" type="button">打字回答</button><button id="lessons-button" class="menu-button" type="button">换一课</button></div>
+    <p class="map-note">也可以直接说「重来」或「跳过」。跳过的题留着补练，不得骨头。</p>
+    <button id="shop-button" class="menu-button shop-menu" type="button">小狗衣橱</button><h3>和小狗玩</h3><div class="dog-actions"><button type="button" data-dog-action="sit">坐下</button><button type="button" data-dog-action="down">趴下</button><button type="button" data-dog-action="jump">跳一下</button><button type="button" data-dog-action="bark">汪汪叫</button><button type="button" data-dog-action="dance">跳舞</button><button type="button" data-dog-action="paw">握个爪</button></div>
+    <button id="shake-phone" class="text-button" type="button" aria-pressed="false">开启摇一摇</button><p id="shake-status" class="feature-status" role="status"></p>
+    <p id="input-caption" hidden>点一次「开始学英语」，之后跟着说就好。</p>
+  </dialog>
+  <dialog id="explanation-dialog" class="small-dialog"><div class="dialog-heading"><h2>这句怎么用？</h2><button class="icon-button" data-close-dialog="explanation-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div><p id="lesson-explanation"></p><p>关掉这里，点「开始学英语」继续跟读。没听懂也没关系，点「慢一点」。</p></dialog>
+  <dialog id="typing-dialog" class="small-dialog"><div class="dialog-heading"><h2>打字回答</h2><button class="icon-button" data-close-dialog="typing-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div>
+    <p>可以输入英语回答，也可以用中文说「听不懂」。</p>
+
+    <form id="answer-form" novalidate><label for="answer" class="sr-only">输入你的回答</label><div class="input-wrap"><input id="answer" name="answer" placeholder="输入英语，或用中文求助……" maxlength="280" autocomplete="off" enterkeyhint="send"><button class="icon-button mic-button" id="mic-button" type="button" aria-label="用麦克风输入英语" aria-pressed="false"><svg class="icon"><use href="#i-mic"/></svg></button></div><button type="submit" class="primary-button" id="send-button">发送<svg class="icon"><use href="#i-arrow"/></svg></button></form>
+  </dialog>
+  <dialog id="lessons-dialog" class="small-dialog map-dialog"><div class="dialog-heading"><h2>和你一起长大</h2><button class="icon-button" data-close-dialog="lessons-dialog" type="button" aria-label="关闭课程地图"><svg class="icon"><use href="#i-close"/></svg></button></div><p class="map-intro">20 年 · 20 门课 · 1,000 道练习</p><div class="journey-stats"><strong id="map-bones">0 根骨头</strong><span id="map-age">0 / 20 岁</span></div><p id="map-next">完成 50 题，小狗长大一岁。</p><button id="restart-journey-button" class="menu-button restart-menu" type="button" disabled>从第1年重新练习</button><p class="map-note">保留小狗、装扮和已赚的奖励。</p><button id="map-shop-button" class="menu-button" type="button">去小狗衣橱</button><div class="course-map" id="course-map" aria-label="二十年课程地图"></div><p class="map-note">每题首次答对得 1 根骨头；50 题全部完成，解锁下一年。每年首次过关额外得 100 奖励币。骨头永久累计，装扮只花奖励币。</p></dialog>
+  <dialog id="shop-dialog" class="small-dialog"><div class="dialog-heading"><h2>小狗衣橱</h2><button class="icon-button" data-close-dialog="shop-dialog" type="button" aria-label="关闭衣橱"><svg class="icon"><use href="#i-close"/></svg></button></div><strong id="coin-total">0 奖励币</strong><p id="shop-reward">每年过关得 100 奖励币。</p><p class="shop-note">奖励币换装扮，骨头解锁课程。</p><div id="shop-items" class="shop-grid"></div><p id="shop-status" role="status"></p></dialog>
+  <dialog id="dog-photo-dialog" class="small-dialog"><div class="dialog-heading"><h2>换成我的狗</h2><button class="icon-button" data-close-dialog="dog-photo-dialog" type="button" aria-label="关闭照片分身"><svg class="icon"><use href="#i-close"/></svg></button></div><div class="photo-inputs"><label class="menu-button">拍一张<input id="dog-camera" type="file" accept="image/*" capture="environment"></label><label class="menu-button">选照片<input id="dog-gallery" type="file" accept="image/*"></label></div><img id="dog-photo-preview" class="dog-photo-preview" alt="你选择的狗狗照片" hidden><p id="dog-photo-status" class="feature-status" role="status"></p><p><a id="connect-photo-service" href="connect.html" class="text-button">连接图像服务 · Connect</a></p><button id="generate-dog" class="primary-button" type="button" disabled>制作我的小狗</button><button id="reset-dog" class="text-button" type="button" hidden>换回原来的小狗</button><p class="photo-note">只有点制作后，照片才会发送给图像服务。分身做好后保存到这个浏览器的学习记录，原照片不保存。</p></dialog>
+  <dialog id="settings-dialog" class="small-dialog"><div class="dialog-heading"><h2>我的小狗</h2><button class="icon-button" data-close-dialog="settings-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div>
+    <button class="text-button" id="settings-rename-button" type="button">给小狗改名字</button>
+    <button class="menu-button photo-menu" id="dog-photo-button" type="button">换成我的狗</button>
+    <fieldset class="dog-choice"><legend>小狗性别</legend><label><input type="radio" name="dog-gender" id="dog-female" value="female" checked>母狗</label><label><input type="radio" name="dog-gender" id="dog-male" value="male">公狗</label></fieldset>
+    <div class="settings-sound-row"><button id="preview-voice" class="menu-button" type="button">试听声音</button><button id="sound-toggle" class="icon-button" type="button" aria-label="关闭声音" aria-pressed="true"><svg class="icon"><use href="#i-volume"/></svg></button></div>
+    <label class="language-toggle"><span>显示中文释义</span><input type="checkbox" id="chinese" checked><span class="switch-track" aria-hidden="true"></span></label>
+    <p>听小狗说，再跟着说英语。</p><p>没听懂就点「慢一点」。</p>
+    <details class="voice-help" id="voice-help"><summary>听不到声音，或不能说话？</summary><div class="voice-help-content"><p>在 iPhone 上，请用 Safari 打开。点「开始学英语」，如果手机询问是否允许麦克风，请选择允许。把媒体音量调高，并保持这个页面打开。</p><div class="voice-help-actions"><button id="copy-voice-link" class="listen-button" type="button">复制网址</button><a href="https://royhei-cpu.github.io/pawlish" target="_blank" rel="noopener noreferrer">打开网页</a></div><p id="copy-voice-status" role="status"></p><label id="voice-link-label" hidden for="voice-link">长按复制这个网址：<input id="voice-link" readonly value="https://royhei-cpu.github.io/pawlish"></label><p>允许麦克风后，绿色小条会随你的声音跳动。说完停一下，就会自动发送；也可以点「打字回答」。</p><p><a href="voice-check.html">检查声音和麦克风</a></p></div></details>
+    <button id="how-it-works" class="text-button" type="button">关于小狗老师</button>
+  </dialog>
+  <dialog id="rename-dialog" class="small-dialog"><form id="rename-form"><div class="dialog-heading"><h2>给小狗取个名字</h2><button class="icon-button" data-close-dialog="rename-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div><label for="new-dog-name">你想叫它什么？</label><input id="new-dog-name" type="text" maxlength="24" required placeholder="例如：豆豆" autocomplete="off"><p class="input-status" id="rename-error" role="status"></p><button class="primary-button" type="submit">保存名字</button></form></dialog>
+  <dialog id="about-dialog" class="small-dialog"><div class="dialog-heading"><h2>小狗陪你学英语</h2><button class="icon-button" data-close-dialog="about-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div>
+    <p>从「你好」开始，一次学一个短表达。小狗用中文解释，用慢速英语示范，再等你跟着说。答错了会示范改好的句子，不用着急。</p><p>二十门课程，每门五十题，共一千道练习。每年学习十个表达，用跟读、看中文说英语、听力选择、填空和回忆五种方式练习。内容从零基础逐渐走向复杂表达。这是有示范答案的引导式练习，不是无限话题聊天，也不会给发音打分。</p><p>小狗的声音由 AI 生成，打招呼、鼓励和庆祝各有不同情绪。可以选择公狗或母狗的声音。小狗会眨眼、动耳朵、摇尾巴、坐下、趴下和跳跃，也可以摸摸它。这是动画角色，不是实时拍摄。点名字旁的「改名」可随时换名字，也可以在设置里修改。改名后，下次点开始，小狗会先用新名字打招呼。</p><p>点一次「开始学英语」并允许麦克风后，可以连续跟读。小狗说话时，麦克风暂停，避免听到自己的声音。点「暂停」、切换到后台或长时间不说话会暂停练习。连接语音服务后，英语跟读和中文求助都能听。</p><p>每题首次答对得一根骨头，每年五十题全部完成后长大一岁并得到一百奖励币。骨头、课程进度、奖励币与已购装扮保存在你的账号中。重复练习不重复领奖。名字、性别、声音与中文释义设置保存在这台设备上。连接服务后，你每次回答的短录音会发送给 OpenAI 转写，使用你已连接的 API 账户；Pawlish 不保存你的录音。新名字会通过已连接的 OpenAI 账户生成一句自我介绍，保存后可重复播放。尚未连接时使用浏览器的语音识别。</p><p><a href="assets/AUDIO-CREDITS.txt">语音来源说明</a></p>
+  </dialog>
+  <noscript><div class="noscript">请在浏览器设置中启用 JavaScript，然后重新打开课程。</div></noscript>
+  <script data-pawlish-script="app">
+(() => {
+'use strict';
+try {
+const {createPuppySound} = (() => {
+// A restrained device fallback for words outside the bundled character clips.
+function pickPuppyVoice(voices,{lang='en-US'}={}) {
+  const chinese=lang.startsWith('zh');
+  const candidates=voices.filter(voice=>chinese?/^(zh[-_](CN|Hans)|cmn)/i.test(voice.lang):/^en(?:[-_]|$)/i.test(voice.lang));
+  const score=voice=>{
+    let value=/^en[-_]US/i.test(voice.lang)?10:0;
+    if(/Ting.?Ting|Xiaoxiao|Xiaoyi|Samantha|Aria|Jenny|Nicky|Karen|Tessa|Google UK English Female/i.test(voice.name))value+=50;
+    if(/Enhanced|Premium|Natural/i.test(voice.name))value+=25;
+    else if(/Google US English|Siri/i.test(voice.name))value+=20;
+    return value;
+  };
+  return candidates.sort((a,b)=>score(b)-score(a))[0];
+}
+
+function puppySpeechSettings(text,{slow=false}={}) {
+  return {pitch: 1.08,rate:slow ? .7 : .84,volume:1};
+}
+
+function createPuppySound(host=globalThis) {
+  let context,buffer,pending,source,finishPlayback,finishWaiting,generation=0;
+  function prepare() {
+    try {
+      const AudioContext=host.AudioContext||host.webkitAudioContext;
+      if(!AudioContext)return;
+      context ||= new AudioContext();
+      if(context.state==='suspended')context.resume().catch(()=>{});
+      if(!buffer&&!pending)pending=host.fetch(new URL('./assets/puppy-woof.mp3',new URL("./puppy-voice.js", document.baseURI).href))
+        .then(r=>{if(!r.ok)throw new Error('No bark audio');return r.arrayBuffer();})
+        .then(bytes=>context.decodeAudioData(bytes)).then(decoded=>{buffer=decoded;})
+        .catch(()=>{}).finally(()=>{pending=null;});
+    }catch{/* Speech still works if the optional woof is unavailable. */}
+  }
+  function stop(){generation++;finishWaiting?.();finishPlayback?.();}
+  async function play(){
+    stop();const token=generation;
+    // The very first explicit bark can wait briefly for decoding after its
+    // user gesture. Stopping cancels that wait, so a late fetch cannot bark.
+    if(!buffer&&pending)await new Promise(resolve=>{
+      let timer,done=false;
+      const finish=()=>{if(done)return;done=true;host.clearTimeout(timer);if(finishWaiting===finish)finishWaiting=null;resolve();};
+      finishWaiting=finish;timer=host.setTimeout(finish,900);pending.then(finish,finish);
+    });
+    if(token!==generation||!buffer||context?.state!=='running')return;
+    return new Promise(resolve=>{
+      let clip,timer,finished=false;
+      const finish=()=>{
+        if(finished)return;finished=true;host.clearTimeout(timer);
+        if(clip){clip.onended=null;try{clip.stop();clip.disconnect();}catch{}}
+        if(source===clip)source=null;
+        if(finishPlayback===finish)finishPlayback=null;
+        resolve();
+      };
+      finishPlayback=finish;
+      // iOS may suspend its audio context without firing onended. An optional
+      // woof must never prevent the microphone from returning to the learner.
+      timer=host.setTimeout(finish,1200);
+      try{clip=context.createBufferSource();source=clip;clip.buffer=buffer;clip.connect(context.destination);clip.onended=finish;clip.start();}catch{finish();}
+    });
+  }
+  return {prepare,play,stop};
+}
+
+return {createPuppySound};
+})();
+const {HandsFreeSession,speechBlocker} = (() => {
+// Alternate listening and speaking so the tutor never transcribes its own voice.
+// Recognition is started only after the learner explicitly enables this session.
+function speechBlocker(host=globalThis,directMicrophone=false) {
+  if(host.isSecureContext===false)return {problem:'insecure',message:'麦克风需要安全网页。请在浏览器中打开这个网址。'};
+  if(!directMicrophone&&!(host.SpeechRecognition||host.webkitSpeechRecognition))return {problem:'unsupported',message:'这里不能识别语音。请用 Safari 或 Chrome 打开，也可以打字练习。'};
+  try {
+    const policy=host.document?.permissionsPolicy||host.document?.featurePolicy;
+    if(policy?.allowsFeature('microphone')===false)return {problem:'embedded',message:'这里无法使用麦克风。请在 Safari 中直接打开网址。'};
+  }catch{/* Older browsers may not expose permission policy information. */}
+  return null;
+}
+
+class HandsFreeSession {
+  // Preserve the Window receiver when the session invokes its timer helpers.
+  constructor({Recognition,onText,onChange=()=>{},onTranscript=()=>{},now=()=>Date.now(),setTimer=(fn,delay)=>globalThis.setTimeout(fn,delay),clearTimer=id=>globalThis.clearTimeout(id)}) {
+    Object.assign(this,{Recognition,onText,onChange,onTranscript,now,setTimer,clearTimer});
+    this.active=false;this.phase='off';this.recognition=null;this.timer=null;this.startTimer=null;this.idleTimer=null;this.generation=0;this.idleSince=0;this.restarts=0;this.captureStarted=false;this.holdForSpeech=false;
+  }
+  change(phase,message='',problem=''){this.phase=phase;this.onChange({active:this.active,phase,message,problem});}
+  cancelCapture(){
+    this.generation++;this.clearTimer(this.timer);this.timer=null;
+    this.clearTimer(this.startTimer);this.startTimer=null;this.clearTimer(this.idleTimer);this.idleTimer=null;
+    const recognition=this.recognition;this.recognition=null;
+    this.captureStarted=false;
+    if(recognition)try{recognition.abort();}catch{}
+  }
+  enable({greeting=false}={}){
+    if(!this.Recognition){this.fail('这里不能识别语音，请用 Safari 打开，或打字回答。','unsupported');return false;}
+    this.cancelCapture();this.active=true;this.idleSince=this.now();this.restarts=0;this.holdForSpeech=greeting;
+    // Keep the first start() inside the button's user gesture. Do not wait for
+    // speech, a woof, a promise, or even a zero-delay timer before requesting it.
+    this.startCapture();return this.active;
+  }
+  stop(message='练习已暂停，准备好后点「开始学英语」。') {this.active=false;this.cancelCapture();this.change('off',message);}
+  fail(message,problem='speech'){this.active=false;this.cancelCapture();this.change('blocked',message,problem);}
+  pauseForSpeech(){
+    if(!this.active)return;
+    this.holdForSpeech=true;
+    // A first permission request must be allowed to finish. Aborting it before
+    // onstart can dismiss the mobile permission prompt and prevent all replies.
+    if(!this.recognition||this.captureStarted)this.cancelCapture();
+    else {this.clearTimer(this.timer);this.timer=null;}
+    this.restarts=0;this.change('thinking');
+  }
+  listen(delay=450){
+    if(!this.active)return;
+    this.holdForSpeech=false;
+    if(this.recognition&&!this.captureStarted){
+      this.change('starting','如果手机询问麦克风权限，请点允许。准备好后我就开始听。');return;
+    }
+    this.cancelCapture();this.change('waiting');
+    const generation=this.generation;
+    this.timer=this.setTimer(()=>{if(this.active&&generation===this.generation)this.startCapture();},delay);
+  }
+  startCapture(){
+    if(!this.active)return;
+    if(this.now()-this.idleSince>90000){this.stop('我们休息一下。准备好后点「开始学英语」。');return;}
+    let recognition;
+    try{recognition=new this.Recognition();}catch{this.fail('这里无法开始语音练习。请用 Safari 打开，或打字回答。');return;}
+    this.recognition=recognition;
+    const generation=this.generation;
+    const current=()=>this.active&&this.recognition===recognition&&this.generation===generation;
+    recognition.lang='en-US';recognition.continuous=true;recognition.interimResults=true;recognition.maxAlternatives=1;
+    let transcript='',submitted=false,startedAt=this.now();
+    const submit=()=>{
+      if(!current()||submitted||!transcript.trim())return;
+      submitted=true;const answer=transcript.trim().slice(0,280);
+      this.idleSince=this.now();this.restarts=0;
+      this.pauseForSpeech();this.onText(answer);
+    };
+    recognition.onstart=()=>{
+      if(!current())return;
+      this.clearTimer(this.startTimer);this.startTimer=null;this.captureStarted=true;startedAt=this.now();
+      if(this.holdForSpeech){this.cancelCapture();return;}
+      this.change('listening');
+    };
+    recognition.onresult=event=>{
+      if(!current()||this.holdForSpeech||!this.captureStarted)return;
+      transcript=Array.from(event.results,result=>result[0].transcript).join(' ').trim().slice(0,280);
+      this.onTranscript(transcript);
+      this.clearTimer(this.timer);
+      // A completed recognition result can receive a quick reply. Unfinished
+      // beginner phrases still get room to continue before being submitted.
+      const final=Array.from(event.results).every(result=>result.isFinal===true);
+      if(transcript)this.timer=this.setTimer(submit,final?650:1500);
+    };
+    recognition.onspeechstart=()=>{if(current())this.clearTimer(this.timer);};
+    recognition.onnomatch=()=>{if(current())this.change('listening','我还没听清，跟着说屏幕上的英语就好。');};
+    recognition.onerror=event=>{
+      if(!current())return;
+      if(event.error==='no-speech'){transcript='';return;}
+      const errors={
+        'not-allowed':'麦克风没有获准使用。请在 Safari 打开并允许麦克风，或先打字回答。',
+        'service-not-allowed':'浏览器暂时不能识别你的声音。你仍可以听小狗说话，也可以点「打字回答」。',
+        'audio-capture':'没有找到麦克风，可以点「打字回答」。',
+        network:'语音连接断开了。点「开始学英语」重新连接。',
+        aborted:'语音暂停了。点「开始学英语」继续。'
+      };
+      this.fail(errors[event.error]||'语音暂停了。点「开始学英语」再试一次。',event.error);
+    };
+    recognition.onend=()=>{
+      if(!current())return;
+      if(this.holdForSpeech){this.cancelCapture();return;}
+      if(transcript.trim()){submit();return;}
+      if(this.now()-startedAt<1200)this.restarts++;else this.restarts=0;
+      if(this.restarts>=3){this.fail('这个浏览器总是中断语音。请用 Safari 打开，或先打字回答。');return;}
+      this.listen(650);
+    };
+    this.startTimer=this.setTimer(()=>{if(current())this.fail('麦克风还没开始。看看手机是否在询问权限，或用 Safari 重新打开。','timeout');},20000);
+    this.idleTimer=this.setTimer(()=>{if(current())this.stop('我们休息一下。准备好后点「开始学英语」。');},Math.max(0,90000-(this.now()-this.idleSince)));
+    try{this.change('starting','如果手机询问麦克风权限，请点允许。正在连接……');recognition.start();}
+    catch{this.fail('浏览器还不能听到你。请在 Safari 中打开后，再点「开始学英语」。');}
+  }
+}
+
+return {HandsFreeSession,speechBlocker};
+})();
+const {MicrophoneSession,canRecord} = (() => {
+// Record only the learner's turn. Unlike Web Speech, this does not depend on
+// Safari's dictation service or a browser vendor's speech-recognition backend.
+function canRecord(host=globalThis){
+  return !!(host.navigator?.mediaDevices?.getUserMedia&&host.MediaRecorder&&(host.AudioContext||host.webkitAudioContext));
+}
+class MicrophoneSession {
+  constructor({host=globalThis,onText,onChange=()=>{},onTranscript=()=>{},onLevel=()=>{},getEndSilence=()=>950,now=()=>Date.now()}){
+    Object.assign(this,{host,onText,onChange,onTranscript,onLevel,getEndSilence,now});
+    this.active=false;this.phase='off';this.generation=0;this.turn=0;this.timers=new Set();this.emptyTurns=0;
+  }
+  later(fn,ms){const id=this.host.setTimeout(()=>{this.timers.delete(id);fn();},ms);this.timers.add(id);return id;}
+  clear(id){this.host.clearTimeout(id);this.timers.delete(id);}
+  change(phase,message='',problem=''){this.phase=phase;this.onChange({active:this.active,phase,message,problem});}
+  enable({greeting=false}={}){
+    this.release();this.active=true;this.holdForSpeech=greeting;this.idleSince=this.now();this.emptyTurns=0;
+    const generation=this.generation;
+    this.change('starting','请允许麦克风。');
+    try{
+      const Context=this.host.AudioContext||this.host.webkitAudioContext;
+      this.context=new Context();
+      // Both calls stay in the initial user gesture. No permission prompt on
+      // later turns; keep the same stream and mute its tracks during the puppy.
+      const resumed=this.context.resume();resumed?.catch(()=>{});
+      const permission=this.host.navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true},video:false});
+      const timer=this.later(()=>{if(this.current(generation))this.fail('还没获得麦克风权限。请允许麦克风，再点开始。','permission_timeout');},20000);
+      Promise.resolve(permission).then(stream=>{
+        if(!this.current(generation)){stream.getTracks().forEach(track=>track.stop());return;}
+        this.clear(timer);this.stream=stream;
+        for(const track of stream.getAudioTracks()){track.enabled=false;track.onended=()=>{if(this.current(generation))this.fail('麦克风断开了，请重新开始。','audio-capture');};}
+        try{
+          this.input=this.context.createMediaStreamSource(stream);this.analyser=this.context.createAnalyser();this.analyser.fftSize=2048;
+          this.samples=new Float32Array(this.analyser.fftSize);this.input.connect(this.analyser);
+          if(!this.holdForSpeech)this.listen(0);
+        }catch{this.fail('麦克风无法启动，请重新开始。','audio-capture');}
+      },error=>{if(this.current(generation))this.fail(error?.name==='NotAllowedError'?'麦克风未获允许。请在浏览器的网站权限中允许麦克风。':'没有收到麦克风，请检查设备后重试。',error?.name==='NotAllowedError'?'not-allowed':'audio-capture');});
+    }catch{this.fail('这里不能使用麦克风，请用 Safari 或 Chrome 打开。','unsupported');}
+    return this.active;
+  }
+  current(generation){return this.active&&this.generation===generation;}
+  cancelTurn(){
+    this.turn++;for(const id of this.timers)this.host.clearTimeout(id);this.timers.clear();
+    this.abort?.abort();this.abort=null;
+    const recorder=this.recorder;this.recorder=null;
+    if(recorder){recorder.ondataavailable=null;recorder.onstop=null;recorder.onerror=null;try{if(recorder.state!=='inactive')recorder.stop();}catch{}}
+    this.stream?.getAudioTracks().forEach(track=>{track.enabled=false;});this.onLevel(0);
+  }
+  release(){
+    this.generation++;this.cancelTurn();
+    this.stream?.getTracks().forEach(track=>{track.onended=null;track.stop();});this.stream=null;
+    try{this.input?.disconnect();}catch{}this.input=null;this.analyser=null;
+    const context=this.context;this.context=null;try{context?.close()?.catch(()=>{});}catch{}
+  }
+  stop(message='已暂停。'){this.active=false;this.release();this.change('off',message);}
+  fail(message,problem='microphone'){this.active=false;this.release();this.change('blocked',message,problem);}
+  pauseForSpeech(){
+    if(!this.active)return;this.holdForSpeech=true;
+    // Do not cancel the initial microphone permission timeout while the puppy
+    // starts speaking. There is no recorder until permission is granted.
+    if(this.stream)this.cancelTurn();this.change('thinking');
+  }
+  listen(delay=240){
+    if(!this.active)return;this.holdForSpeech=false;
+    if(!this.stream){this.change('starting','请允许麦克风。');return;}
+    this.cancelTurn();const turn=this.turn;this.change('waiting');
+    this.later(()=>{if(this.active&&this.turn===turn&&!this.holdForSpeech)this.capture();},delay);
+  }
+  capture(){
+    const generation=this.generation,turn=this.turn;
+    const current=()=>this.current(generation)&&this.turn===turn&&!this.holdForSpeech;
+    if(!current())return;
+    if(this.now()-this.idleSince>=90000){this.stop('先休息一下，准备好再开始。');return;}
+    this.stream.getAudioTracks().forEach(track=>{track.enabled=true;});
+    const resumed=this.context.resume();resumed?.catch(()=>{if(current())this.fail('声音通道暂停了，请点开始继续。','audio-capture');});
+    let recorder;
+    try{
+      const mimeType=['audio/webm;codecs=opus','audio/mp4','audio/webm'].find(type=>this.host.MediaRecorder.isTypeSupported(type));
+      if(!mimeType)throw new Error('Unsupported recording type');
+      recorder=new this.host.MediaRecorder(this.stream,{mimeType,audioBitsPerSecond:64000});this.recorder=recorder;
+    }catch{this.fail('这里不能录音，请用 Safari 或 Chrome 打开。','unsupported');return;}
+    const chunks=[];let bytes=0,heard=0,lastVoice=0,voiceStarted=0,stopping=false;
+    const began=this.now(),endSilence=Math.max(600,Math.min(1500,Number(this.getEndSilence())||950));let noise=.001,notified=false;
+    recorder.ondataavailable=event=>{
+      if(!current()||!event.data?.size)return;chunks.push(event.data);bytes+=event.data.size;
+      if(bytes>1024*1024)this.fail('这句话有点长，我们分成短句说。','audio_size');
+    };
+    recorder.onerror=()=>{if(current())this.fail('录音中断了，请重新开始。','audio-capture');};
+    recorder.onstop=()=>{
+      if(!current()||!stopping)return;
+      this.recorder=null;this.stream.getAudioTracks().forEach(track=>{track.enabled=false;});this.onLevel(0);
+      this.transcribe(new this.host.Blob(chunks,{type:recorder.mimeType.split(';')[0]}),generation,turn);
+    };
+    try{recorder.start(250);}catch{this.fail('录音没能开始，请重试。','audio-capture');return;}
+    this.change('listening');this.onTranscript('');
+    const poll=()=>{
+      if(!current()||stopping)return;
+      const now=this.now();
+      if(this.context.state!=='running'){
+        if(now-began>3000){this.fail('声音通道暂停了，请点开始继续。','audio-capture');return;}
+        this.later(poll,50);return;
+      }
+      this.analyser.getFloatTimeDomainData(this.samples);
+      const rms=Math.sqrt(this.samples.reduce((sum,sample)=>sum+sample*sample,0)/this.samples.length);
+      this.onLevel(Math.min(1,rms*18));
+      const voiced=rms>Math.max(.004,noise*2.7);
+      if(voiced){heard+=50;lastVoice=now;if(!voiceStarted&&heard>=100)voiceStarted=now;}
+      else if(!voiceStarted){heard=Math.max(0,heard-25);noise=.95*noise+.05*Math.min(rms,.006);}
+      if(voiceStarted&&(now-lastVoice>=endSilence||now-voiceStarted>=25000)){
+        stopping=true;this.change('transcribing','听到啦，想一下……');
+        // Keep a bounded deadline if a recorder fails to deliver its final chunk.
+        this.later(()=>{if(current()&&this.recorder===recorder)this.fail('录音没能完成，请重新开始。','audio-capture');},3000);
+        try{recorder.stop();}catch{this.fail('录音没能完成，请重试。','audio-capture');}return;
+      }
+      if(!voiceStarted&&now-began>=8000&&!notified){notified=true;this.change('listening','还没听到，靠近麦克风说一句。');}
+      if(!voiceStarted&&now-began>=15000){this.listen(0);return;}
+      this.later(poll,50);
+    };
+    this.later(poll,50);
+  }
+  async transcribe(blob,generation,turn){
+    const current=()=>this.current(generation)&&this.turn===turn&&!this.holdForSpeech;
+    if(!current())return;
+    if(blob.size<100){this.listen(0);return;}
+    const abort=new this.host.AbortController();this.abort=abort;
+    const timer=this.later(()=>abort.abort(),23000);
+    try{
+      const response=await this.host.fetch('/api/voice/transcribe',{method:'POST',headers:{'Content-Type':blob.type},body:blob,cache:'no-store',signal:abort.signal});
+      const data=await response.json();if(!current())return;
+      if(!response.ok){this.fail(data.error||'没有听清，请重新开始。',data.code||'voice_unavailable');return;}
+      const text=typeof data.text==='string'?data.text.trim().slice(0,500):'';
+      if(!text){if(++this.emptyTurns>=3){this.fail('只听到背景声音。靠近麦克风，再点开始。','empty_audio');return;}this.listen(0);return;}
+      this.emptyTurns=0;this.idleSince=this.now();this.onTranscript(text);this.pauseForSpeech();this.onText(text);
+    }catch{if(current())this.fail('语音连接中断了，点「开始学英语」重试。','voice_unavailable');}
+    finally{this.clear(timer);if(this.abort===abort)this.abort=null;}
+  }
+}
+
+return {MicrophoneSession,canRecord};
+})();
+const {DogAvatar} = (() => {
+// One preloaded atlas of anatomical full-body poses. The controller owns all
+// motion, so a new response, pause, or page exit cancels stale actions.
+class DogAvatar {
+  constructor(image,{reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)'),setTimer=(fn,delay)=>globalThis.setTimeout(fn,delay),clearTimer=id=>globalThis.clearTimeout(id),random=Math.random}={}) {
+    Object.assign(this,{image,motion:reducedMotion,setTimer,clearTimer,random});
+    this.mood='idle';this.posture='stand';this.timer=null;this.frame=-1;this.epoch=0;this.ready=false;this.disposed=false;this.cycles=0;this.resolveAction=null;this.voiceLevel=null;this.customAtlas=null;
+    this.onMotionChange=()=>this.set(this.mood);
+    this.motion.addEventListener?.('change',this.onMotionChange);
+    const atlas=new Image();atlas.onload=()=>{if(!this.disposed){this.ready=true;this.set(this.mood);}};
+    atlas.onerror=()=>{};atlas.src=new URL('./assets/doudou/lifelike.webp',new URL("./dog-avatar.js", document.baseURI).href).href;
+    const playAtlas=new Image();playAtlas.src=new URL('./assets/doudou/play.webp',new URL("./dog-avatar.js", document.baseURI).href).href;
+    this.show(0);
+  }
+  show(index){
+    if(this.frame===index)return;this.frame=index;this.image.dataset.frame=String(index);
+    const play=index>=16;let cell=play?index-16:index,cols=4,rows=4;
+    if(this.customAtlas){
+      if(play)cell=[0,16,17,16,17,0,18,19,10,20,21,14,22,23,1,4][cell];
+      cols=6;rows=4;this.image.style.backgroundImage=`url("${this.customAtlas}")`;
+    }else this.image.style.backgroundImage=`url("${new URL('./assets/doudou/'+(play?'play':'lifelike')+'.webp',new URL("./dog-avatar.js", document.baseURI).href).href}")`;
+    this.image.style.backgroundSize=`${cols*100}% ${rows*100}%`;
+    this.image.style.backgroundPosition=`${cell%cols*100/(cols-1)}% ${Math.floor(cell/cols)*100/(rows-1)}%`;
+    // The generated lying frames sit higher in their cells. Align the paws
+    // with the standing floor while keeping every tail and ear inside the view.
+    const floor=[0,0,0,2,3,3,3,3,17,17,11,15,10,0,12,12];
+    this.image.style.setProperty('--pose-y',(this.customAtlas||play?0:floor[index]||0)+'%');
+  }
+  useAtlas(url){this.clear();this.customAtlas=url||null;this.frame=-1;this.image.dataset.atlas=url?.includes('elder.webp')?'elder':url?.includes('adult.webp')?'adult':url?'custom':'puppy';this.set('idle');}
+  clear(){
+    this.epoch++;this.clearTimer(this.timer);this.timer=null;
+    if(this.resolveAction){const resolve=this.resolveAction;this.resolveAction=null;resolve(false);}
+  }
+  sequence(frames,times,{loop=false,done=()=>{}}={}){
+    const epoch=this.epoch;
+    const tick=i=>{
+      if(this.disposed||epoch!==this.epoch)return;
+      if(i===frames.length){if(loop)i=0;else{done();return;}}
+      this.show(frames[i]);this.timer=this.setTimer(()=>tick(i+1),times[i%times.length]);
+    };
+    tick(0);
+  }
+  set(mood){
+    if(this.disposed)return;
+    this.clear();this.mood=mood;this.image.dataset.mood=mood;this.image.dataset.action='';this.cycles=0;
+    const still={idle:this.posture==='down'?7:this.posture==='sit'?4:0,listening:3,speaking:0,thinking:3,happy:15,encouraging:4,waving:15,barking:0};
+    this.show(still[mood]??0);
+    if(!this.ready||this.motion.matches)return;
+    if(mood==='happy'){
+      this.posture='stand';this.image.dataset.action='jump';
+      this.sequence([10,11,12,13,14,0],[130,150,140,230,160,350],{done:()=>{this.image.dataset.action='';this.sequence([0,2,0,2,0,1],[260,260,260,260,1800,130],{loop:true});}});return;
+    }
+    if(mood==='waving'){this.sequence([0,15,0,15,2,0],[180,650,180,650,600,1800],{done:()=>this.set('idle')});return;}
+    if(mood==='barking'){this.sequence([2,0,2,0],[130,220,180,450],{done:()=>this.set('idle')});return;}
+    if(mood==='encouraging'){this.posture='sit';this.sequence([4,5,4],[2800,140,2000],{loop:true});return;}
+    if(mood==='speaking'){
+      const epoch=this.epoch;
+      const talk=()=>{
+        if(this.disposed||epoch!==this.epoch)return;
+        const level=this.voiceLevel?.();
+        this.show(typeof level==='number'?(level>.18?0:2):(this.cycles++%3===0?2:0));
+        this.timer=this.setTimer(talk,190);
+      };talk();return;
+    }
+    if(mood==='listening'||mood==='thinking'){
+      this.posture='stand';this.sequence([3,28,29,3,30,3,0],[1300,350,350,2000,130,1300,1000],{loop:true});return;
+    }
+    const epoch=this.epoch;
+    const rest=()=>{
+      if(this.disposed||epoch!==this.epoch)return;
+      this.cycles++;
+      if(this.posture==='down'){
+        this.sequence([7,8,9,8,7],[2500,900,7000,150,2200],{done:rest});
+      }else if(this.posture==='sit'||this.cycles===3){
+        this.posture='sit';this.sequence([4,5,4],[3000,140,3000],{done:()=>{
+          if(this.cycles>4){this.posture='down';this.sequence([4,6,7],[300,380,1800],{done:rest});}else rest();
+        }});
+      }else{
+        const pause=2400+Math.round(this.random()*1800);
+        this.sequence([0,1,0,2,0,3],[pause,130,800,600,1600,1000],{done:rest});
+      }
+    };rest();
+  }
+  speaking(level){this.voiceLevel=level;this.posture='stand';this.set('speaking');}
+  perform(action){
+    if(this.disposed)return Promise.resolve(false);
+    const specs={sit:[[0,11,4],[140,170,450],'sit'],down:[[4,6,7],[180,330,500],'down'],stand:[[7,6,11,0],[160,190,190,450],'stand'],jump:[[10,11,12,13,14,0],[130,150,140,240,160,350],'stand'],bow:[[0,10,11,0],[160,750,250,400],'stand'],paw:[[0,15,0,15,0],[150,500,180,500,350],'stand'],bark:[[2,0,2,0],[110,200,150,350],'stand']};
+    specs.shake=[[16,17,18,19,20,21],[100,160,160,160,160,350],'stand'];
+    specs.dance=[[22,23,22,23,24,25,26,27,28,29,22,23,21],[200,200,200,200,250,220,220,180,180,180,220,220,400],'stand'];
+    const spec=specs[action];if(!spec)return Promise.resolve(false);
+    this.clear();this.mood='idle';this.image.dataset.mood='idle';this.image.dataset.action=action;this.posture=spec[2];
+    if(!this.ready||this.motion.matches){this.show(spec[0].at(-1));this.image.dataset.action='';return Promise.resolve(true);}
+    return new Promise(resolve=>{
+      this.resolveAction=resolve;
+      this.sequence(spec[0],spec[1],{done:()=>{this.resolveAction=null;this.image.dataset.action='';this.set('idle');resolve(true);}});
+    });
+  }
+  dispose(){this.disposed=true;this.clear();this.motion.removeEventListener?.('change',this.onMotionChange);}
+  resume(){this.disposed=false;this.motion.addEventListener?.('change',this.onMotionChange);this.set('idle');}
+}
+
+return {DogAvatar};
+})();
+const {PhonePlay} = (() => {
+// Motion is opt-in. Require two distinct impulses, ignore gravity/ordinary
+// repositioning, and cool down so one shake cannot repeatedly interrupt speech.
+class PhonePlay {
+  constructor({host=window,onShake=()=>{},canPlay=()=>true,onChange=()=>{}}={}){
+    Object.assign(this,{host,onShake,canPlay,onChange});this.enabled=false;this.last=null;this.hits=0;this.lastHit=0;this.lastDance=-Infinity;
+    this.handle=event=>this.sample(event);this.pending=false;
+  }
+  async enable(){
+    if(this.pending)return;this.pending=true;
+    try{
+      const Motion=this.host.DeviceMotionEvent;
+      if(!Motion){this.onChange('unsupported');return false;}
+      // Invoke before the first await: iOS requires the original button tap.
+      if(typeof Motion.requestPermission==='function'&&await Motion.requestPermission()!=='granted'){this.onChange('denied');return false;}
+      this.disable(false);this.enabled=true;this.host.addEventListener('devicemotion',this.handle);this.onChange('enabled');return true;
+    }catch{this.onChange('denied');return false;}
+    finally{this.pending=false;}
+  }
+  disable(notify=true){this.enabled=false;this.last=null;this.hits=0;this.host.removeEventListener?.('devicemotion',this.handle);if(notify)this.onChange('off');}
+  sample(event){
+    if(!this.enabled||this.host.document?.hidden||!this.canPlay()){this.last=null;this.hits=0;return;}
+    const a=event.accelerationIncludingGravity||event.acceleration;
+    if(!a||![a.x,a.y,a.z].every(Number.isFinite))return;
+    const now=event.timeStamp;if(!Number.isFinite(now))return;
+    const previous=this.last;this.last={x:a.x,y:a.y,z:a.z,t:now};
+    if(!previous||now-previous.t>350||now-this.lastDance<4500)return;
+    const force=Math.hypot(a.x-previous.x,a.y-previous.y,a.z-previous.z);
+    if(force<16||now-this.lastHit<100)return;
+    this.hits=now-this.lastHit<700?this.hits+1:1;this.lastHit=now;
+    if(this.hits<2)return;
+    this.hits=0;this.lastDance=now;this.onShake();
+  }
+}
+
+return {PhonePlay};
+})();
+const {DogPhoto} = (() => {
+class DogPhoto {
+  constructor({host=window,onAvatar=()=>{},pause=()=>{}}={}){
+    Object.assign(this,{host,onAvatar,pause});this.$=id=>host.document.getElementById(id);this.file=null;this.url=null;this.available=false;this.busy=false;this.current=null;this.generation=0;
+    this.$('dog-photo-button').addEventListener('click',()=>this.open());
+    for(const id of ['dog-camera','dog-gallery'])this.$(id).addEventListener('change',event=>this.choose(event.target.files?.[0]));
+    this.$('generate-dog').addEventListener('click',()=>this.generate());this.$('reset-dog').addEventListener('click',()=>this.reset());
+    this.$('dog-photo-dialog').addEventListener('close',()=>{if(!this.busy){this.generation++;this.clearPhoto();}});
+    this.refresh().catch(()=>{});
+    if(host.location?.search&&new URLSearchParams(host.location.search).has('dogPhoto'))host.setTimeout(()=>this.open(),0);
+  }
+  say(text){this.$('dog-photo-status').textContent=text;}
+  controls(){this.$('generate-dog').disabled=!this.file||!this.available||this.busy;this.$('generate-dog').textContent=this.busy?'正在制作……':'制作我的小狗';this.$('reset-dog').hidden=!this.current;this.$('reset-dog').disabled=this.busy;for(const id of ['dog-camera','dog-gallery'])this.$(id).disabled=this.busy;}
+  async refresh(){
+    if(typeof this.host.fetch!=='function')return;
+    const response=await this.host.fetch('/api/dog/status',{cache:'no-store'});if(!response.ok)throw new Error('status');
+    const data=await response.json();this.available=!!data.available;this.current=data.avatar||null;
+    const link=this.$('connect-photo-service');if(link)link.textContent=this.available?'管理图像服务连接':'连接图像服务 · Connect';
+    if(this.current)await this.apply(this.current);this.controls();return data;
+  }
+  async open(){
+    this.pause();this.$('settings-dialog').close();this.$('dog-photo-dialog').showModal();this.say('正在连接……');
+    try{const data=await this.refresh();this.say(data?.available?'选一张脸和全身清楚的狗狗照片。':data?.message||'照片分身暂时无法使用。');}catch{this.available=false;this.say('照片分身暂时连接不上；可以先预览照片。');}this.controls();
+  }
+  clearPhoto(){if(this.url)this.host.URL.revokeObjectURL(this.url);this.url=null;this.file=null;this.$('dog-photo-preview').removeAttribute('src');this.$('dog-photo-preview').hidden=true;for(const id of ['dog-camera','dog-gallery'])this.$(id).value='';this.controls();}
+  async choose(file){
+    if(!file||this.busy)return;const token=++this.generation;this.clearPhoto();
+    if(!/^image\/(jpeg|png|webp|heic|heif)$/i.test(file.type)&&! /\.(jpe?g|png|webp|heic|heif)$/i.test(file.name||'')){this.say('请选择狗狗照片（JPG、PNG 或 WebP）。');return;}
+    if(file.size>20*1024*1024){this.say('照片太大，请选一张 20MB 以内的照片。');return;}
+    this.say('正在打开照片……');const source=this.host.URL.createObjectURL(file);
+    try{
+      const img=await new Promise((resolve,reject)=>{const image=new this.host.Image();image.onload=()=>resolve(image);image.onerror=reject;image.src=source;});if(token!==this.generation)return;
+      // Resize/re-encode only; the photo is a preview, never a fake AI avatar.
+      const scale=Math.min(1,1536/Math.max(img.naturalWidth,img.naturalHeight));const canvas=this.host.document.createElement('canvas');canvas.width=Math.max(1,Math.round(img.naturalWidth*scale));canvas.height=Math.max(1,Math.round(img.naturalHeight*scale));canvas.getContext('2d').drawImage(img,0,0,canvas.width,canvas.height);
+      const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/jpeg',.88));if(token!==this.generation)return;if(!blob||blob.size>5*1024*1024)throw new Error('photo');
+      this.file=blob;this.url=this.host.URL.createObjectURL(blob);this.$('dog-photo-preview').src=this.url;this.$('dog-photo-preview').hidden=false;
+      this.say(this.available?'照片选好了。制作后会替换现在的小狗。':'照片选好了，但自动分身尚未开启；需要先连接图像生成服务。');
+    }catch{if(token===this.generation)this.say('这张照片打不开。请拍一张新照片，或选择 JPG / PNG。');}
+    finally{this.host.URL.revokeObjectURL(source);this.controls();}
+  }
+  async apply(url){
+    if(typeof url!=='string'||!url.startsWith('/api/dog/avatar?'))throw new Error('分身地址无效，请重试。');
+    const imageURL=this.host.PawlishGuest?await this.host.PawlishGuest.avatar(url):url;
+    await new Promise((resolve,reject)=>{const image=new this.host.Image();image.onload=()=>image.naturalWidth===1536&&image.naturalHeight===1024?resolve():reject(new Error('分身没有做好，请重试。'));image.onerror=()=>reject(new Error('分身没加载好，请重试。'));image.src=imageURL;});this.onAvatar(imageURL);this.current=url;
+  }
+  async generate(){
+    if(!this.file||!this.available||this.busy)return;this.busy=true;this.controls();this.say('正在制作你的小狗。请保持页面打开。');
+    try{const body=new this.host.FormData();body.append('photo',this.file,'dog.jpg');const response=await this.host.fetch('/api/dog/generate',{method:'POST',body});const data=await response.json();if(!response.ok)throw new Error(data.error||'这次没做好，请稍后重试。');await this.apply(data.avatar);this.say('你的小狗来啦！关掉这里就可以一起学英语。');this.clearPhoto();}
+    catch(error){this.say(error.message||'没连接上，你原来的小狗还在。');}finally{this.busy=false;this.controls();}
+  }
+  async reset(){if(this.busy)return;this.busy=true;this.controls();try{const result=await this.host.fetch('/api/dog/avatar',{method:'DELETE'});if(!result.ok)throw new Error();this.current=null;this.onAvatar(null);this.say('换回原来的小狗啦。');}catch{this.say('暂时换不了，请稍后重试。');}finally{this.busy=false;this.controls();}}
+}
+
+return {DogPhoto};
+})();
+const {GreetingAudio} = (() => {
+// A real audio asset makes the opening independent of device TTS availability.
+// play() remains inside the initiating tap; every failure is observable.
+class GreetingAudio {
+  // Native Window timers cannot be stored unbound and called as this.clearTimer
+  // on Safari. These wrappers always invoke them on their owning global object.
+  constructor({audio,setTimer=(fn,delay)=>globalThis.setTimeout(fn,delay),clearTimer=id=>globalThis.clearTimeout(id)}) {
+    Object.assign(this,{audio,setTimer,clearTimer});this.token=0;this.timer=null;this.cache=new Map();this.activeSrc='';
+  }
+  preload(sources){
+    if(typeof globalThis.fetch!=='function'||typeof URL.createObjectURL!=='function')return;
+    for(const src of new Set(sources)){
+      if(!src)continue;
+      // Keep frequently used encouragements warm across longer lessons.
+      if(this.cache.has(src)){const item=this.cache.get(src);this.cache.delete(src);this.cache.set(src,item);continue;}
+      const item={url:null};this.cache.set(src,item);
+      globalThis.fetch(src).then(response=>{if(!response.ok)throw new Error('Audio unavailable');return response.blob();})
+        .then(blob=>{if(this.cache.get(src)===item)item.url=URL.createObjectURL(blob);})
+        .catch(()=>{if(this.cache.get(src)===item)this.cache.delete(src);});
+    }
+    // Bounded memory, and never revoke the currently playing object URL.
+    for(const [src,item] of this.cache){
+      if(this.cache.size<=20)break;
+      if(src===this.activeSrc)continue;
+      if(item.url)URL.revokeObjectURL(item.url);this.cache.delete(src);
+    }
+  }
+  stop(){
+    this.token++;this.clearTimer(this.timer);this.timer=null;
+    this.audio.onplaying=null;this.audio.onended=null;this.audio.onerror=null;
+    try{this.audio.pause();this.audio.currentTime=0;}catch{}
+  }
+  unlock(){
+    // Preserve the iPhone's initial tap while a new name recording is loading.
+    // Later completion must not pause a newer lesson clip.
+    this.stop();const token=this.token;
+    this.audio.src='assets/voice-unlock.wav';this.audio.muted=false;this.audio.volume=1;
+    try{Promise.resolve(this.audio.play()).then(()=>{if(token===this.token){this.audio.pause();this.audio.currentTime=0;}},()=>{});}catch{}
+  }
+  play({src,slow=false,onStart=()=>{},onEnd=()=>{},onError=()=>{}}={}) {
+    this.stop();const token=this.token;let started=false,finished=false;
+    const current=()=>token===this.token&&!finished;
+    const fail=error=>{
+      if(!current())return;finished=true;
+      const cached=this.cache.get(this.activeSrc);
+      if(cached?.url)URL.revokeObjectURL(cached.url);
+      this.cache.delete(this.activeSrc);this.stop();onError(error);
+    };
+    if(src){this.activeSrc=src;this.audio.src=this.cache.get(src)?.url||src;}
+    this.audio.muted=false;this.audio.volume=1;this.audio.playbackRate=slow ? .82 : 1;
+    this.audio.preservesPitch=true;
+    this.audio.onplaying=()=>{
+      if(!current()||started)return;started=true;this.clearTimer(this.timer);
+      this.timer=this.setTimer(()=>fail(new Error('Character playback stopped responding.')),Math.max(30000,(this.audio.duration||0)*1000/this.audio.playbackRate+5000));
+      onStart();
+    };
+    this.audio.onended=()=>{
+      if(!current())return;finished=true;this.clearTimer(this.timer);this.timer=null;
+      this.audio.onplaying=null;this.audio.onended=null;this.audio.onerror=null;onEnd();
+    };
+    this.audio.onerror=()=>fail(new Error('The character audio could not load.'));
+    this.timer=this.setTimer(()=>fail(new Error('The character audio did not start.')),10000);
+    try{this.audio.play()?.catch(fail);}catch(error){fail(error);}
+  }
+}
+
+return {GreetingAudio};
+})();
+const {PUPPY_LINES} = (() => {
+// Chinese is the teaching language. English is introduced only as a short model
+// to copy. Speech and captions use this same catalog, with separate language clips.
+const PUPPY_LINES={};
+const line=(id,text,lang='zh-CN',mood='idle')=>PUPPY_LINES[id]={id,text,lang,mood};
+line('cn-welcome','嘿！我用中文教你，听完跟我说哦。','zh-CN','waving');
+line('cn-turn','到你啦！','zh-CN','listening');
+line('cn-again','别急，听我慢慢说。','zh-CN','encouraging');
+line('cn-meaning','对啦！用英语试试看。','zh-CN','encouraging');
+line('cn-fix','差一点哦，可以这样说。','zh-CN','encouraging');
+line('cn-finish','耶，学会四句啦！我们接着玩？','zh-CN','happy');
+line('cn-all-finished','全都会啦！汪，陪我再玩一次吧！','zh-CN','happy');
+line('cn-identity','我是你的小狗老师，陪你一起学英语！','zh-CN','waving');
+const cheers=[
+ '哇，说对啦！碰个爪！',
+ '耶！尾巴都摇起来啦！',
+ '嘿嘿，又会一句啦！',
+ '听到啦！给你小饼干！',
+ '真棒，我们接着玩！'
+].map((text,i)=>line('cn-cheer-'+i,text,'zh-CN','happy'));
+const retries=[
+ '嗯？再听我说一次。',
+ '别急，我陪你慢慢说。',
+ '来，再试一次就好。'
+].map((text,i)=>line('cn-retry-'+i,text,'zh-CN','encouraging'));
+const gentle=[
+ '哦，这样呀。把小爪爪给你，抱抱。',
+ '我在呢。累了就歇一会儿，我陪你。'
+].map((text,i)=>line('cn-gentle-'+i,text,'zh-CN','encouraging'));
+const jokes=[
+ '我的作业被狗吃掉了！啊，原来那只狗就是我。嘿嘿，继续一起学英语吧。',
+ '我最喜欢的课是午餐课！不过先陪你学一句，再去找小饼干。',
+ '我是勇敢的小狗老师！除非吸尘器来了。嘿嘿，我们慢慢学。'
+].map((text,i)=>line('cn-joke-'+i,text,'zh-CN','happy'));
+
+// One target and its exact Chinese meaning, with no assumed English knowledge.
+const rows={
+ 'hello-word':['说你好','Hello.','你好。','见面时，说你好。'],
+ 'thanks-word':['说谢谢','Thank you.','谢谢你。','别人帮你，要说谢谢。'],
+ 'please-word':['礼貌地说请','Please.','请。','请人帮忙，加个请字。'],
+ 'bye-word':['说再见','Goodbye.','再见。','要走啦，说声再见。'],
+ name:['介绍名字','My name is Ryan.','我叫瑞安。','介绍名字，说我叫瑞安。'],
+ feeling:['表达感受','I am happy.','我很开心。','我很开心，英语这样说。'],
+ city:['说出居住地','I live in Shenzhen.','我住在深圳。','我住在深圳，跟我说。'],
+ goodbye:['认识新朋友','Nice to meet you!','很高兴认识你！','交朋友时，说很高兴认识你。'],
+ food:['说喜欢的食物','I like noodles.','我喜欢面条。','我喜欢面条，跟我说。'],
+ drink:['礼貌地要水','Can I have some water, please?','可以给我一些水吗？','口渴了，礼貌地要杯水。'],
+ plural:['说两个苹果','There are two apples.','有两个苹果。','两个苹果，注意苹果的复数。'],
+ thanks:['表达感谢','Thank you!','谢谢你！','收到礼物，说谢谢。'],
+ see:['描述看见的东西','I can see a tree.','我能看见一棵树。','我能看见一棵树，跟我说。'],
+ action:['说正在做什么','I am walking.','我正在走路。','我正在走路，跟我说。'],
+ 'dog-action':['描述小狗的动作','The dog is running.','小狗正在跑步。','看，小狗正在跑步！'],
+ invite:['邀请别人散步','Let’s go for a walk!','我们去散步吧！','叫上朋友，一起去散步！'],
+ habit:['说每天做的事','I eat breakfast every day.','我每天吃早餐。','每天都做的事，我每天吃早餐。'],
+ 'third-person':['说他喜欢做什么','He likes to play.','他喜欢玩。','他喜欢玩，注意动词的结尾。'],
+ past:['说昨天的事','Yesterday, I walked in the park.','昨天我在公园散步。','昨天的事，动词要用过去式。'],
+ future:['说明天的计划','Tomorrow, I will go for a walk.','明天我会去散步。','明天的计划，我会去散步。']
+};
+const CHINESE_TEACHING={};
+for(const [id,[title,example,meaning,explanation]] of Object.entries(rows)){
+ CHINESE_TEACHING[id]={title,pattern:example,example,meaning,zh:meaning,
+   model:line('en-'+id,example,'en-US'),guide:line('cn-teach-'+id,explanation)};
+}
+const FIRST_WORDS={id:'firstwords',title:'零基础 · 跟我说',subtitle:'先听小狗说，再跟着说一句。',short:'零基础',intro:'汪！我用中文教你。',
+ recap:['Hello. — 你好','Thank you. — 谢谢','Please. — 请','Goodbye. — 再见'],
+ steps:['hello-word','thanks-word','please-word','bye-word'].map(id=>({id,question:rows[id][1],zh:rows[id][2],hint:rows[id][3],hintZh:rows[id][3],examples:[rows[id][1]]}))};
+const CHINESE_LESSONS={
+ firstwords:['零基础 · 跟我说','先听小狗说，再跟着说一句。','零基础'],
+ hello:['第一课 · 认识朋友','用简单句子介绍自己。','认识朋友'],
+ snacks:['第二课 · 吃吃喝喝','学习表达喜好和礼貌请求。','吃吃喝喝'],
+ park:['第三课 · 一起散步','学习描述看到的东西和动作。','一起散步'],
+ day:['第四课 · 我的日常','练习说今天、昨天和明天。','我的日常']
+};
+function createChineseTutor({assess,lessonList,random=Math.random,previous={},onRemember=()=>{}}){
+ const bags=new Map(),last={...previous},asked=new Map();
+ const stepFor=ctx=>(lessonList.find(l=>l.id===ctx.lessonId)||FIRST_WORDS).steps[ctx.stepIndex||0];
+ const pick=(key,options)=>{
+   let bag=bags.get(key);
+   if(!bag?.length){bag=[...options];for(let i=bag.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[bag[i],bag[j]]=[bag[j],bag[i]];}
+    if(bag.length>1&&bag[0].id===last[key])[bag[0],bag[1]]=[bag[1],bag[0]];bags.set(key,bag);}
+   const chosen=bag.shift();last[key]=chosen.id;onRemember({...last});return chosen;
+ };
+ const example=text=>Object.values(PUPPY_LINES).find(item=>item.lang==='en-US'&&item.text===text)||{text,lang:'en-US'};
+ const teaching=ctx=>CHINESE_TEACHING[stepFor(ctx).id];
+ const compose=(text,parts,extra={})=>({text,reply:text,zh:'',parts,mood:parts[0]?.mood||'idle',...extra});
+ const practice=(ctx,{prefix=[],slow=false,correction}={})=>{
+   const t=teaching(ctx),model=correction?example(correction):t.model;
+   const parts=[...prefix,t.guide,model];
+   if(slow)parts.push({...model,slow:true});
+   parts.push(PUPPY_LINES['cn-turn']);
+   return compose((prefix[0]?.text||t.guide.text),parts,{status:'hint',target:correction||t.example});
+ };
+ const ask=ctx=>{const prompt=practice(ctx,{prefix:ctx.lessonId==='firstwords'&&!ctx.stepIndex?[PUPPY_LINES['cn-welcome']]:[]});asked.set(stepFor(ctx).id,prompt);return prompt;};
+ function respond(raw,ctx){
+   const text=String(raw).trim(),n=text.toLowerCase().replace(/[’‘]/g,"'").replace(/[^\p{L}\p{N}'\s]/gu,' ').replace(/\s+/g,' ').trim();
+   const step=stepFor(ctx),t=teaching(ctx);
+   if(/^(repeat|again|再说一次|再說一次|再说一遍|再說一遍|重听|重聽)$/.test(n))return compose(t.model.text,[t.model],{status:'hint'});
+   if(/慢|slow/.test(n))return practice(ctx,{prefix:[PUPPY_LINES['cn-again']],slow:true});
+   if(/笑话|笑話|joke/.test(n))return practice(ctx,{prefix:[pick('zh-joke',jokes)]});
+   if(/你是谁|你是誰|你的名字|who are you/.test(n))return practice(ctx,{prefix:[PUPPY_LINES['cn-identity']]});
+   if(/不懂|不会|不會|不知道|教我|提示|为什么|為什麼|help|hint|teach me|understand/.test(n))return practice(ctx,{prefix:[PUPPY_LINES['cn-again']],slow:true});
+   // A Chinese answer is a useful bridge, but never counts as English practice.
+   if(/[\u3400-\u9fff]/.test(text)){
+     const meaning=t.meaning.replace(/[。！]/g,'');
+     return practice(ctx,{prefix:[text.includes(meaning)?PUPPY_LINES['cn-meaning']:PUPPY_LINES['cn-again']]});
+   }
+   let result;
+   if(ctx.lessonId==='firstwords'){
+     const accepted={'hello-word':/^(hello|hi|hey)$/,'thanks-word':/^(thank you|thanks|thanks a lot)$/,'please-word':/^please$/,'bye-word':/^(goodbye|good bye|bye|bye bye|see you)$/};
+     result={status:accepted[step.id].test(n)?'success':'retry'};
+   }else result=assess(raw,ctx);
+   if(result.status==='success'){
+     const unhappy=step.id==='feeling'&&/\b(sad|tired|sleepy|worried|nervous|sick|not well|not good)\b/.test(n);
+     const cheer=pick(unhappy?'zh-gentle':'zh-cheer',unhappy?gentle:cheers);
+     return {...result,...compose(cheer.text,[cheer]),status:'success'};
+   }
+   if(result.status==='correct'){
+     const recorded=example(result.correction);
+     // Keep every spoken correction in the selected character voice. For an
+     // open-ended sentence, teach the current canonical model instead of
+     // silently switching to the phone's unrelated synthetic voice.
+     const model=recorded.id?recorded:t.model,correction=model.text,parts=[PUPPY_LINES['cn-fix'],model,PUPPY_LINES['cn-turn']];
+     return {...result,...compose('差一点点，没关系。请听改好的句子，再跟着说。',parts),status:'correct',correction,speechParts:parts};
+   }
+   return practice(ctx,{prefix:[pick('zh-retry',retries)],slow:result.status==='retry'});
+ }
+ return {ask,respond,teaching,example,hint:ctx=>practice(ctx,{prefix:[PUPPY_LINES['cn-again']],slow:true})};
+}
+
+return {PUPPY_LINES};
+})();
+const {COURSES,COURSE_LINES,SHOP_ITEMS,createCourseTutor,isCorrectAnswer} = (() => {
+// Twenty dog years, ten useful expressions per year, five distinct practice
+// tasks per expression. Every course contains exactly fifty stable questions.
+const curriculum=[
+['第一声你好','从零开始','见面、感谢、礼貌用语。先听，再跟我说。',`Hello.|你好。
+Thank you.|谢谢你。
+Please.|请。
+Goodbye.|再见。
+Yes.|是的。
+No.|不是。
+Sorry.|对不起。
+Good morning.|早上好。
+Good night.|晚安。
+You are welcome.|不客气。`],
+['认识身边的小世界','词语与简单句','认识数字、颜色和身边的东西。',`I see one dog.|我看见一只狗。
+I have two books.|我有两本书。
+There are three cats.|有三只猫。
+The ball is red.|球是红色的。
+The sky is blue.|天空是蓝色的。
+This is a green bag.|这是一个绿色的包。
+My dog is small.|我的狗很小。
+The tree is big.|这棵树很大。
+It is a yellow cup.|这是一个黄色的杯子。
+I can count to ten.|我能数到十。`],
+['我的家人和朋友','自我介绍','用完整短句介绍自己、家人和朋友。',`My name is Ryan.|我的名字是瑞安。
+I live in Shenzhen.|我住在深圳。
+This is my mother.|这是我妈妈。
+This is my father.|这是我爸爸。
+She is my sister.|她是我姐姐。
+He is my brother.|他是我哥哥。
+We are friends.|我们是朋友。
+I am happy.|我很开心。
+My family is kind.|我的家人很友善。
+Nice to meet you.|很高兴认识你。`],
+['小狗的午餐约会','喜好与请求','说喜欢什么，并礼貌地提出请求。',`I like noodles.|我喜欢面条。
+I do not like coffee.|我不喜欢咖啡。
+I would like some rice.|我想要一些米饭。
+Can I have some water, please?|请给我一些水，好吗？
+The soup is hot.|汤很烫。
+This apple is sweet.|这个苹果很甜。
+I am hungry.|我饿了。
+I am thirsty.|我渴了。
+How much is this sandwich?|这个三明治多少钱？
+Could I have the menu, please?|请给我菜单，好吗？`],
+['温暖的小狗之家','位置与指令','描述物品的位置，学习简单指令。',`The dog is on the sofa.|狗在沙发上。
+The ball is under the table.|球在桌子下面。
+My bag is next to the door.|我的包在门旁边。
+There is a bed in my room.|我的房间里有一张床。
+There are books on the shelf.|书架上有书。
+Please open the window.|请打开窗户。
+Please close the door.|请关门。
+Sit down, please.|请坐下。
+Put the toy in the box.|把玩具放进盒子里。
+Where is my phone?|我的手机在哪里？`],
+['一起过每一天','一般现在时','说每天的习惯，注意他和她后面的动词变化。',`I get up at seven.|我七点起床。
+I eat breakfast every day.|我每天吃早餐。
+She walks the dog every morning.|她每天早上遛狗。
+He goes to work by bus.|他坐公交车上班。
+We study English after dinner.|我们晚饭后学英语。
+I usually go to bed early.|我通常早睡。
+My dog likes to play.|我的狗喜欢玩。
+She does not drink tea.|她不喝茶。
+Do you work on Sundays?|你星期天工作吗？
+What time do you get home?|你几点到家？`],
+['看看我们在做什么','现在进行时','描述此刻正在发生的事情。',`I am walking in the park.|我正在公园里走路。
+The dog is running.|狗正在跑步。
+She is reading a book.|她正在看书。
+He is making lunch.|他正在做午饭。
+We are learning English.|我们正在学英语。
+They are playing outside.|他们正在外面玩。
+It is raining now.|现在正在下雨。
+I am not watching television.|我没有在看电视。
+Are you waiting for me?|你正在等我吗？
+What are you doing?|你正在做什么？`],
+['小狗带你去旅行','问路与出行','问路、买票，听懂常见出行表达。',`How can I get to the station?|我怎样才能到车站？
+Turn left at the next street.|在下一条街左转。
+Go straight past the bank.|一直往前走，经过银行。
+The hotel is opposite the park.|酒店在公园对面。
+I would like a return ticket.|我想要一张往返票。
+Which bus goes to the airport?|哪路公交车去机场？
+How long does the journey take?|这段路要走多久？
+Is this seat available?|这个座位有人坐吗？
+Could you show me on the map?|你能在地图上指给我看吗？
+I think we are lost.|我想我们迷路了。`],
+['昨天的小冒险','一般过去时','说已经发生的事，练习规则和不规则过去式。',`Yesterday, I walked in the park.|昨天我在公园里散步。
+I visited my friend last weekend.|上周末我去看望了朋友。
+We went to the beach yesterday.|昨天我们去了海滩。
+She bought a new coat.|她买了一件新外套。
+He saw a small puppy.|他看见了一只小狗。
+I did not sleep well last night.|我昨晚没有睡好。
+Did you enjoy the film?|你喜欢那部电影吗？
+What did you do yesterday?|你昨天做了什么？
+The weather was sunny.|天气很晴朗。
+We had a wonderful time.|我们玩得很开心。`],
+['明天一起做什么','将来计划','区分打算做什么、将会做什么和已经安排的活动。',`Tomorrow, I will visit my family.|明天我会去看望家人。
+I am going to learn to cook.|我打算学做饭。
+We are meeting at six.|我们约好六点见面。
+I will call you later.|我稍后会给你打电话。
+It is going to rain soon.|很快就要下雨了。
+Shall we go for a walk?|我们去散步好吗？
+What are you going to do this weekend?|你这个周末打算做什么？
+I will not forget your birthday.|我不会忘记你的生日。
+We are planning a trip to Beijing.|我们正在计划去北京旅行。
+I hope we can travel together.|我希望我们能一起旅行。`],
+['挑选最合适的东西','比较与数量','比较不同选择，并表达多少、足够和太多。',`This bag is cheaper than that one.|这个包比那个便宜。
+My dog is bigger than your dog.|我的狗比你的狗大。
+This is the best day of my life.|这是我一生中最美好的一天。
+The train is faster than the bus.|火车比公交车快。
+This book is more interesting.|这本书更有趣。
+I do not have enough time.|我没有足够的时间。
+There is too much sugar in this tea.|这杯茶里糖太多了。
+Could I have a little more water?|可以再给我一点水吗？
+We need fewer plastic bags.|我们需要更少的塑料袋。
+This room is not as large as that one.|这个房间没有那个房间大。`],
+['照顾好自己和小狗','建议与义务','用不同语气表达建议、能力、允许和必须。',`You should get some rest.|你应该休息一下。
+You must wear a seat belt.|你必须系安全带。
+You must not feed the animals.|你不可以给这些动物喂食。
+I have to finish my homework.|我必须完成作业。
+You do not have to come early.|你不必早到。
+May I borrow your pen?|我可以借你的笔吗？
+I could swim when I was young.|我小时候会游泳。
+We might need an umbrella.|我们可能需要一把伞。
+If you feel tired, take a break.|如果你觉得累了，就休息一下。
+You had better check the address.|你最好核对一下地址。`],
+['那些珍贵的经历','现在完成时','说经历、刚完成的事，以及从过去持续到现在的情况。',`I have visited Beijing twice.|我去过北京两次。
+Have you ever tried Chinese tea?|你喝过中国茶吗？
+I have never seen snow.|我从来没有见过雪。
+She has already finished her work.|她已经完成了工作。
+We have not had lunch yet.|我们还没有吃午饭。
+I have just found my keys.|我刚刚找到了钥匙。
+He has lived here for five years.|他在这里住了五年了。
+We have been friends since school.|我们从上学时起就是朋友。
+How long have you had your dog?|你养这只狗多久了？
+I have learned a lot this year.|我今年学到了很多。`],
+['讲一个完整的故事','过去进行时与连接','把背景、事件和先后顺序连起来。',`I was cooking when you called.|你打电话时我正在做饭。
+While I was walking, it started to rain.|我走路的时候，开始下雨了。
+The dog was sleeping under the table.|狗当时正在桌子下面睡觉。
+When we arrived, everyone was waiting.|我们到的时候，大家都在等着。
+I had finished dinner before she arrived.|她到之前我已经吃完了晚饭。
+First we took a bus, then we walked.|我们先坐公交车，然后步行。
+Although I was tired, I kept going.|虽然我很累，但我还是继续前进。
+We went home because it was getting dark.|我们回家了，因为天色渐渐暗了。
+Fortunately, nobody was hurt.|幸运的是，没有人受伤。
+In the end, we found our way home.|最后，我们找到了回家的路。`],
+['如果有一天','条件句与假设','从真实的可能性，练到想象中的情况。',`If it rains, we will stay at home.|如果下雨，我们就待在家里。
+If you practice, you will improve.|如果你练习，就会进步。
+Unless you hurry, you will miss the bus.|除非你快一点，否则就会错过公交车。
+If I had more time, I would travel.|如果我有更多时间，我会去旅行。
+If I were you, I would apologize.|如果我是你，我会道歉。
+What would you do if you won a prize?|如果你获奖了，你会做什么？
+I wish I could speak more confidently.|我希望自己能说得更自信。
+As long as we try, we can make progress.|只要我们努力，就能取得进步。
+If I had known, I would have helped.|如果我早知道，我就会帮忙了。
+We would have arrived earlier without the traffic.|要是没有堵车，我们就会更早到达。`],
+['把事情说清楚','被动语态与定语从句','关注事情如何发生，并补充人和物的信息。',`This bridge was built many years ago.|这座桥是很多年前建的。
+English is spoken in many countries.|很多国家都有人说英语。
+The meeting has been canceled.|会议已经取消了。
+Your order will be delivered tomorrow.|你的订单将于明天送达。
+This is the book that I told you about.|这就是我跟你说过的那本书。
+The woman who lives next door is a teacher.|住在隔壁的女士是一位老师。
+I visited the town where I grew up.|我去了自己长大的小镇。
+The dog, which is very friendly, belongs to my sister.|这只狗很友好，是我姐姐的。
+The problem needs to be solved soon.|这个问题需要尽快解决。
+I am looking for someone who can help.|我在找一个能帮忙的人。`],
+['听懂别人再转述','间接引语与礼貌询问','转述别人的话，用更自然的方式提问。',`She said that she was tired.|她说她累了。
+He told me that he had lost his phone.|他告诉我他弄丢了手机。
+They said they would arrive later.|他们说他们会晚一点到。
+She asked me whether I needed help.|她问我是否需要帮助。
+He asked where I had bought my shoes.|他问我的鞋是在哪里买的。
+Could you tell me where the station is?|你能告诉我车站在哪里吗？
+Do you know what time the shop closes?|你知道商店几点关门吗？
+I was wondering if you could help me.|我想知道你能否帮我一下。
+Please let me know when you are available.|请告诉我你什么时候有空。
+Would you mind explaining that again?|你介意再解释一遍吗？`],
+['表达自己的观点','理由与让步','提出观点、给出理由，并礼貌地表达不同意见。',`In my opinion, learning should be enjoyable.|在我看来，学习应该是愉快的。
+I agree with you to a certain extent.|我在一定程度上同意你的看法。
+I see your point, but I have a different view.|我明白你的意思，但我的看法不同。
+One advantage is that it saves time.|一个优点是它能节省时间。
+On the other hand, it may cost more.|另一方面，它可能花费更多。
+There is no doubt that practice is important.|毫无疑问，练习很重要。
+The main reason is that people need support.|主要原因是人们需要支持。
+Despite the difficulties, we should keep trying.|尽管有困难，我们还是应该继续尝试。
+It depends on what you want to achieve.|这取决于你想实现什么目标。
+Taking everything into account, I would choose this option.|综合考虑，我会选择这个方案。`],
+['和世界合作','工作与问题解决','练习协商、解释问题、澄清误解和提出方案。',`Could we arrange a meeting for next week?|我们能安排在下周开个会吗？
+I am writing to confirm our appointment.|我写信是为了确认我们的预约。
+Would it be possible to extend the deadline?|有可能延长截止日期吗？
+I apologize for the inconvenience this has caused.|对于此事造成的不便，我深表歉意。
+Let me clarify what I meant.|让我澄清一下我的意思。
+We need to find a solution that works for everyone.|我们需要找到一个适合所有人的解决办法。
+I appreciate your patience and understanding.|感谢你的耐心和理解。
+Before we decide, we should consider the alternatives.|在决定之前，我们应该考虑其他方案。
+What steps can we take to prevent this from happening again?|我们可以采取哪些措施来防止这种情况再次发生？
+I look forward to hearing your suggestions.|我期待听到你的建议。`],
+['聪明老狗的毕业旅行','综合表达与反思','结合以前学过的句型，表达经验、变化和思考。',`Looking back, I realize how much I have learned.|回顾过去，我意识到自己学到了很多。
+The more I practice, the more confident I become.|我练习得越多，就变得越自信。
+What matters most is that we keep learning.|最重要的是我们不断学习。
+Had I given up, I would never have made this progress.|如果我当时放弃了，就永远不会取得这样的进步。
+Not only did we learn together, but we also became friends.|我们不仅一起学习，还成为了朋友。
+Even though the journey was challenging, it was worthwhile.|尽管旅程充满挑战，但它是值得的。
+I would rather make mistakes than be afraid to try.|我宁愿犯错，也不愿害怕尝试。
+It is never too late to learn something new.|学习新东西永远不晚。
+I hope to use what I have learned to help others.|我希望用自己所学的知识帮助别人。
+Our course has ended, but our adventures can continue.|我们的课程结束了，但冒险可以继续。`]
+];
+const COURSE_LINES={
+ 'journey-welcome':{id:'journey-welcome',text:'汪！陪我长大吧。先听，再跟着我说。',lang:'zh-CN',mood:'waving'},
+ 'journey-repeat':{id:'journey-repeat',text:'听完，跟着我说。',lang:'zh-CN',mood:'listening'},
+ 'journey-translate':{id:'journey-translate',text:'看中文，用英语说一遍。',lang:'zh-CN',mood:'listening'},
+ 'journey-listen':{id:'journey-listen',text:'听英语，选出它的意思。',lang:'zh-CN',mood:'listening'},
+ 'journey-gap':{id:'journey-gap',text:'想一想，空格里少了哪个词？',lang:'zh-CN',mood:'listening'},
+ 'journey-recall':{id:'journey-recall',text:'不看示范，自己试着说。',lang:'zh-CN',mood:'listening'},
+ 'journey-finish':{id:'journey-finish',text:'耶！这门课过关啦，我又长大一岁！还有一百奖励币哦。想继续，就说 Next。',lang:'zh-CN',mood:'happy'},
+ 'journey-graduate':{id:'journey-graduate',text:'二十年的冒险完成啦！我长大了，你也学会好多英语。再陪我复习吧。',lang:'zh-CN',mood:'happy'}
+};
+const normalizeAnswer=text=>String(text).normalize('NFKC').toLowerCase().replace(/[’‘]/g,"'").replace(/\b(i'm|you're|we're|they're|he's|she's|it's|don't|doesn't|didn't|isn't|aren't|wasn't|weren't|can't|couldn't|won't|wouldn't|haven't|hasn't|hadn't|i've|we've|they've|i'll|you'll|we'll|they'll)\b/g,m=>({"i'm":'i am',"you're":'you are',"we're":'we are',"they're":'they are',"he's":'he is',"she's":'she is',"it's":'it is',"don't":'do not',"doesn't":'does not',"didn't":'did not',"isn't":'is not',"aren't":'are not',"wasn't":'was not',"weren't":'were not',"can't":'cannot',"couldn't":'could not',"won't":'will not',"wouldn't":'would not',"haven't":'have not',"hasn't":'has not',"hadn't":'had not',"i've":'i have',"we've":'we have',"they've":'they have',"i'll":'i will',"you'll":'you will',"we'll":'we will',"they'll":'they will'}[m])).replace(/\b(colour|colours|favourite|cancelled|apologise|learnt)\b/g,m=>({colour:'color',colours:'colors',favourite:'favorite',cancelled:'canceled',apologise:'apologize',learnt:'learned'}[m])).replace(/\b(20|1[0-9]|[0-9])\b/g,m=>['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen','twenty'][Number(m)]).replace(/[^\p{L}\p{N}\s]/gu,' ').replace(/\s+/g,' ').trim();
+const COURSES=curriculum.map(([title,focus,guide,rows],index)=>{
+ const id='year-'+(index+1),targets=rows.split('\n').map((row,i)=>{const [en,zh]=row.split('|');const key=id+'-en-'+i;const model={id:key,text:en,lang:'en-US',mood:'idle'};COURSE_LINES[key]=model;return {en,zh,model};});
+ const guideLine={id:id+'-guide',text:guide,lang:'zh-CN',mood:'idle'};COURSE_LINES[guideLine.id]=guideLine;
+ const kinds=['repeat','translate','listen','gap','recall'];
+ const questions=kinds.flatMap((kind,round)=>targets.map((target,i)=>{
+   const words=target.en.match(/[\p{L}]+(?:['’][\p{L}]+)*/gu),gap=words.at(-1);
+   const prompt=kind==='repeat'?target.en:kind==='gap'?target.en.replace(new RegExp(gap+'(?=[.!?]?$)'),'____'):kind==='listen'?'听一听，选意思':target.zh;
+   const correct=kind==='listen'?target.zh:kind==='gap'?gap:target.en;
+   const options=kind==='listen'?[target.zh,targets[(i+3)%10].zh,targets[(i+7)%10].zh]:null;
+   // Deterministic rotation avoids always placing the correct choice first.
+   if(options){for(let n=0;n<(i+index)%3;n++)options.push(options.shift());}
+   return {id:id+'-q-'+(round*10+i+1),course:index+1,number:round*10+i+1,kind,prompt,answer:correct,options,target,instruction:COURSE_LINES['journey-'+kind],guide:guideLine};
+ }));
+ return {id,year:index+1,title,focus,guide:guideLine,targets,questions,bonesRequired:index*50,bonus:100};
+});
+const questionIndex=new Map(COURSES.flatMap(c=>c.questions).map(q=>[q.id,q]));
+const findQuestion=id=>questionIndex.get(id);
+function isCorrectAnswer(question,text){
+ const n=normalizeAnswer(text);if(n===normalizeAnswer(question.answer))return true;
+ if(question.kind==='listen')return n===normalizeAnswer(question.target.en);
+ if(question.course===1&&question.kind!=='gap'){
+   const aliases={'Hello.':['hi','hey'],'Goodbye.':['bye','good bye','see you'],'Thank you.':['thanks'],'You are welcome.':['you re welcome']};
+   return (aliases[question.target.en]||[]).includes(n);
+ }
+ return false;
+}
+const SHOP_ITEMS=[
+ {id:'bandana',name:'红色小围巾',price:60,slot:'neck',frame:0},
+ {id:'collar',name:'蓝色项圈',price:80,slot:'neck',frame:1},
+ {id:'bowtie',name:'金色蝴蝶结',price:100,slot:'neck',frame:2},
+ {id:'vest',name:'森林小背心',price:160,slot:'body',frame:3},
+ {id:'hat',name:'冒险家帽子',price:220,slot:'head',frame:4},
+ {id:'glasses',name:'聪明狗眼镜',price:300,slot:'eyes',frame:5}
+];
+function journeySummary(passed=[],owned=[]){
+ const valid=new Set(passed.filter(id=>findQuestion(id))),completed=COURSES.filter(c=>c.questions.every(q=>valid.has(q.id)));
+ const unlocked=Math.min(20,completed.length+1),spent=SHOP_ITEMS.filter(item=>owned.includes(item.id)).reduce((n,item)=>n+item.price,0);
+ return {bones:valid.size,age:completed.length,completed:completed.map(c=>c.id),unlocked,coins:completed.length*100-spent};
+}
+function createCourseTutor({lines,random=Math.random}){
+ let lastCheer=-1;
+ const question=ctx=>COURSES.find(c=>c.id===ctx.lessonId).questions[ctx.stepIndex];
+ const compose=(parts,status='hint',extra={})=>({parts,speechParts:parts,text:parts.map(p=>p.text).join(' '),reply:parts[0]?.text||'',mood:parts[0]?.mood||'idle',status,...extra});
+ const ask=ctx=>{const q=question(ctx),parts=[];if(q.number===1)parts.push(q.course===1?lines['journey-welcome']:q.guide);if(q.kind==='repeat')parts.push(q.target.model);else if(q.kind==='listen')parts.push(q.instruction,q.target.model);else parts.push(q.instruction);return compose(parts);};
+ const hint=ctx=>compose([{...question(ctx).target.model,slow:true}]);
+ return {ask,hint,question,example:text=>Object.values(lines).find(line=>line.text===text),respond:(raw,ctx)=>{
+   const q=question(ctx),n=normalizeAnswer(raw);
+   if(/^(help|hint|repeat|again|slow|我听不懂|听不懂|听不懂了|不知道|不会|再说一次|慢一点|提示|教我)$/.test(n))return hint(ctx);
+   if(isCorrectAnswer(q,raw)){let choice=Math.floor(random()*5);if(choice===lastCheer)choice=(choice+1)%5;lastCheer=choice;return compose([lines['cn-cheer-'+choice]],'success');}
+   return compose([lines['cn-fix'],q.target.model],'correct',{correction:q.target.en});
+ }};
+}
+
+return {COURSES,COURSE_LINES,SHOP_ITEMS,createCourseTutor,isCorrectAnswer};
+})();
+Object.assign(PUPPY_LINES,COURSE_LINES);
+const $=id=>document.getElementById(id);
+const readPreference=(key,fallback)=>{try{return localStorage.getItem('pawlish.'+key)??fallback;}catch{return fallback;}};
+const savePreference=(key,value)=>{try{localStorage.setItem('pawlish.'+key,String(value));}catch{}};
+const validName=value=>/^[\p{L}\p{N}][\p{L}\p{N} '\u2019-]{0,23}$/u.test(value);
+const storedName=readPreference('dogName','豆豆');
+const chosenName=validName(storedName)&&!(storedName==='Buddy'&&readPreference('dogNameVersion','')!=='10')?storedName:'豆豆';
+savePreference('dogNameVersion','10');savePreference('dogName',chosenName);
+const state={dogName:chosenName,gender:readPreference('dogGender','female')==='male'?'male':'female',lessonId:'year-1',stepIndex:0,sound:readPreference('sound','true')==='true',chinese:readPreference('chinese','true')==='true',answered:false,finished:false,recognition:null,listening:false,feedback:'',busy:false};
+let speechToken=0,speechActive=false,petToken=0,petCount=0,voiceSession,currentPrompt,conversationAttempted=false,progressReady=false,signInRequired=false,personalAvatar=null,pendingAnswer=null;
+let introducedName=readPreference('introducedDogName',''),introduceNextSpeech=false,nameRecording=null;
+let directVoice=canRecord(window);
+// Read only connection availability. The credential stays on the server.
+if(directVoice)window.fetch('/api/voice/status',{cache:'no-store'}).then(async response=>{if(response.status===401)directVoice=false;else if(response.ok)directVoice=(await response.json()).connected!==false;}).catch(()=>{});
+let progress={passed:[],owned:[],equipped:{},bones:0,age:0,coins:0,unlocked:1,completed:[]};
+const puppySound=createPuppySound(window),greetingAudio=new GreetingAudio({audio:$('greeting-audio')}),avatar=new DogAvatar($('teacher-photo'));
+const clipSource=part=>'assets/puppy-'+state.gender+'/'+part.id+'.mp3?v=13';
+let voiceLevels={};
+function loadVoiceLevels(){const gender=state.gender;if(typeof window.fetch==='function')window.fetch('assets/puppy-'+gender+'/levels.json?v=13').then(r=>r.json()).then(data=>{if(state.gender===gender)voiceLevels=data;}).catch(()=>{});}
+loadVoiceLevels();
+const context=()=>({dogName:state.dogName,lessonId:state.lessonId,stepIndex:state.stepIndex});
+const currentLesson=()=>COURSES.find(c=>c.id===state.lessonId);
+const currentQuestion=()=>currentLesson().questions[Math.min(49,state.stepIndex)];
+const personality=createCourseTutor({lines:PUPPY_LINES});
+const node=(tag,className,text)=>{const el=document.createElement(tag);if(className)el.className=className;if(text!==undefined)el.textContent=text;return el;};
+const status=text=>{$('input-status').textContent=text;};
+function stopMicrophone(){if(state.recognition)try{state.recognition.abort();}catch{}state.recognition=null;state.listening=false;$('mic-button').setAttribute('aria-pressed','false');}
+function stopSpeech() {
+  speechToken++;petToken++;speechActive=false;
+  puppySound.stop();greetingAudio.stop();
+  $('portrait-stage').classList.remove('speaking');
+  avatar.set('idle');
+}
+
+function continueAfterReply(){
+  if(!voiceSession?.active||speechActive)return;
+  if(state.busy){avatar.set('thinking');$('turn-title').textContent='正在保存……';return;}
+  if(state.answered&&!state.finished){nextQuestion();return;}
+  voiceSession.listen(180);
+}
+
+function prepareVoiceFromTap() {
+  // The audio element itself is unlocked by play() in this same tap. No
+  // unrelated device speech service is needed for either puppy voice.
+  puppySound.prepare();
+}
+
+function clearNameRecording(){
+  if(nameRecording?.url)URL.revokeObjectURL(nameRecording.url);
+  nameRecording=null;
+}
+function prepareNameGreeting(){
+  const name=state.dogName,gender=state.gender,identity=gender+':'+name;
+  if(nameRecording?.identity!==identity){clearNameRecording();nameRecording={identity,name,gender,url:null,promise:null};}
+  const entry=nameRecording;
+  if(entry.url)return Promise.resolve(entry);
+  if(entry.promise)return entry.promise;
+  let timeout;
+  const recording=(async()=>{
+    const response=await window.fetch('/api/voice/greeting',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,gender}),cache:'no-store',signal:window.AbortSignal?.timeout?.(23000)});
+    if(!response.ok)throw new Error('NameGreetingUnavailable');
+    if(!/^audio\//i.test(response.headers.get('Content-Type')||''))throw new Error('InvalidNameGreeting');
+    const blob=await response.blob();if(blob.size<100||blob.size>1024*1024)throw new Error('InvalidNameGreeting');
+    if(nameRecording===entry)entry.url=URL.createObjectURL(blob);
+    return entry;
+  })();
+  entry.promise=Promise.race([recording,new Promise((resolve,reject)=>{
+    timeout=setTimeout(()=>reject(new Error('NameGreetingTimeout')),23000);
+  })]).finally(()=>{clearTimeout(timeout);entry.promise=null;});
+  return entry.promise;
+}
+
+function speak(text,{parts,force=false,slow=false,expression='idle',automatic=false,prime=false,bark=false,reaction='',onStart=()=>{}}={}) {
+  if(!state.sound&&!force)return;
+  voiceSession?.pauseForSpeech();stopMicrophone();stopSpeech();
+  speechActive=true;
+  const token=speechToken;
+  let started=false,partToken=0,afterBark=false,reactionPlayed=false;
+  const queue=(parts?.length?parts:[personality.example(text)]).slice();
+  // The greeting woof belongs before the lesson, not after the learner's cue.
+  if(bark==='greeting'){queue.splice(1,0,{bark:true});bark=false;}
+  if(introduceNextSpeech&&introducedName!==state.dogName){
+    queue.unshift({nameGreeting:true,name:state.dogName,text:'Hi! My name is '+state.dogName+'.',mood:'waving'});
+    greetingAudio.unlock();
+  }
+  greetingAudio.preload(queue.filter(part=>part.id).map(clipSource));
+  puppySound.prepare();avatar.set('thinking');
+  if(prime&&!automatic)prepareVoiceFromTap();
+  const voiceFailed=message=>{if(token!==speechToken)return;voiceSession?.fail(message,'audio');stopSpeech();};
+  const began=(mood='idle',part)=>{
+    if(token!==speechToken)return;
+    if(!started){started=true;onStart();}
+    $('portrait-stage').classList.add('speaking');
+    if(reaction&&!reactionPlayed){reactionPlayed=true;avatar.perform(reaction);}
+    else if(['happy','waving','encouraging'].includes(mood))avatar.set(mood);
+    else avatar.speaking(()=>voiceLevels[part?.id]?.[Math.floor(($('greeting-audio').currentTime||0)*20)]??0.4);
+    if(voiceSession?.active)voiceSession.change('speaking');
+  };
+  const ended=()=>{
+    if(token!==speechToken)return;
+    speechActive=false;
+    $('portrait-stage').classList.remove('speaking');
+    avatar.set(state.finished?'waving':state.answered?'happy':expression);
+    continueAfterReply();
+  };
+  function playNext(){
+    if(token!==speechToken)return;
+    const part=queue.shift();
+    if(!part){
+      if(bark&&!afterBark){afterBark=true;avatar.set('barking');puppySound.play().then(()=>{if(token===speechToken)ended();});}
+      else ended();
+      return;
+    }
+    if(part.bark){avatar.set('barking');puppySound.play().then(()=>{if(token===speechToken)playNext();});return;}
+    const clipToken=++partToken;
+    const current=()=>token===speechToken&&clipToken===partToken;
+    const next=()=>{if(!current())return;if(part.nameGreeting){introducedName=part.name;savePreference('introducedDogName',part.name);}partToken++;playNext();};
+    const fallback=()=>{if(current())voiceFailed('声音没加载好，点「再听」重试。');};
+    const playClip=src=>{
+      // Reuse the element unlocked on the first tap for every clip. Keep the
+      // microphone paused across the entire reaction, explanation and example.
+      greetingAudio.play({src,slow:slow||!!part.slow,
+        onStart:()=>{if(current()){began(part.mood,part);if(part.nameGreeting)$('voice-status').textContent=part.text;}},onEnd:next,
+        onError:error=>{
+          if(!current())return;
+          if(error?.name==='NotAllowedError'){
+            if(automatic){voiceSession?.stop('点一次「开始学英语」。我先说，你再跟着说。');stopSpeech();}
+            else voiceFailed('请点「开始学英语」开启声音，并把手机媒体音量调高。');
+            return;
+          }
+          fallback();
+        }
+      });
+    };
+    if(part.nameGreeting){
+      $('turn-title').textContent='准备打招呼…';
+      prepareNameGreeting().then(entry=>{if(current()&&entry===nameRecording&&entry.url)playClip(entry.url);}).catch(()=>{
+        if(!current())return;
+        // A failed custom greeting must not prevent the learner from practising.
+        // Keep it pending so the next Start tap can retry the new name.
+        status('名字的声音还没准备好，下次开始时再试。');partToken++;playNext();
+      });
+    }else if(part.id&&PUPPY_LINES[part.id]?.text===part.text)playClip(clipSource(part));
+    else fallback();
+  }
+  playNext();
+}
+
+
+async function api(path,body){
+ let response;
+ try{response=await window.fetch(path,{method:body===undefined?'GET':'POST',headers:body===undefined?{}:{'Content-Type':'application/json'},body:body===undefined?undefined:JSON.stringify(body),cache:'no-store',signal:window.AbortSignal?.timeout?.(12000)});}catch{throw new Error('网络没连上，这题还在。请重试。');}
+ let data;try{data=await response.json();}catch{throw Object.assign(new Error('暂时连接不上，请重试。'),{status:response.status});}
+ if(!response.ok)throw Object.assign(new Error(data.error||'暂时连接不上，请重试。'),{status:response.status});return data;
+}
+function updateAppearance(){
+ const next=personalAvatar||(progress.age>=12?'assets/doudou/elder.webp':progress.age>=5?'assets/doudou/adult.webp':null);
+ if(avatar.customAtlas!==next)avatar.useAtlas(next);
+ $('pet-dog').style.setProperty('--growth',String(progress.age<5?.86+progress.age*.028:1));
+ $('dog-age').textContent=progress.age===0?'小奶狗':progress.age+' 岁';
+ $('dog-age').setAttribute('aria-label','小狗 '+progress.age+' 岁，完成课程后成长');
+ for(const slot of ['neck','body','head','eyes']){
+   const item=SHOP_ITEMS.find(i=>i.id===progress.equipped[slot]),el=$('outfit-'+slot);el.hidden=!item;
+   if(item){el.dataset.item=item.id;el.style.backgroundPosition=(item.frame%3*50)+'% '+(Math.floor(item.frame/3)*100)+'%';}
+ }
+}
+function updateHeader(){
+ $('dog-name').textContent=state.dogName;$('pet-dog').setAttribute('aria-label','摸摸'+state.dogName);
+ $('teacher-photo').setAttribute('aria-label',state.dogName+'，'+progress.age+'岁，会眨眼、摇头、跳舞的小狗');
+ $('chinese').checked=state.chinese;$('dog-female').checked=state.gender==='female';$('dog-male').checked=state.gender==='male';
+ document.body.classList.toggle('hide-chinese',!state.chinese);$('sound-toggle').setAttribute('aria-pressed',String(state.sound));$('sound-toggle').setAttribute('aria-label',state.sound?'关闭声音':'打开声音');$('sound-toggle').querySelector('use').setAttribute('href',state.sound?'#i-volume':'#i-mute');
+ $('bone-total').textContent=String(progress.bones);$('map-bones').textContent=progress.bones+' 根骨头';$('map-age').textContent=progress.age+' / 20 岁';$('coin-total').textContent=progress.coins+' 奖励币';
+ updateAppearance();
+}
+function updateStartButton(){
+ const active=!!voiceSession?.active;
+ $('hands-free-button').disabled=!progressReady;
+ $('hands-free-button').hidden=signInRequired;
+ $('sign-in-button').hidden=!signInRequired;
+ $('restart-journey-button').disabled=!progressReady||state.busy;
+ $('restart-course-button').disabled=!progressReady||state.busy;
+ for(const id of ['restart-question-button','skip-question-button'])$(id).disabled=!progressReady||state.busy||state.finished;
+ $('hands-free-button').querySelector('span').textContent=active?'暂停':!progressReady?'正在准备课程…':state.needsReview?'补练这课':progress.bones?'继续学习':'开始学英语';
+}
+function renderMap(){
+ const list=$('course-map');list.replaceChildren();
+ for(const course of COURSES){
+   const count=course.questions.filter(q=>progress.passed.includes(q.id)).length,locked=course.year>progress.unlocked,done=count===50;
+   const button=node('button','course-node'+(done?' complete':locked?' locked':' unlocked')+(state.lessonId===course.id?' current':''));button.type='button';button.dataset.course=course.id;
+   button.append(node('span','year-number',String(course.year)),node('strong','course-name',course.title),node('span','course-focus',course.focus),node('span','course-count',done?'已完成 · 已领 100 奖励币':locked?'集齐 '+course.bonesRequired+' 根骨头解锁':count+' / 50 题'));
+   button.disabled=locked||!progressReady;button.setAttribute('aria-label','第'+course.year+'年，'+course.title+'，'+(locked?'尚未解锁':count+'题已完成'));
+   button.addEventListener('click',()=>{$('lessons-dialog').close();selectCourse(course.id,{review:done});});list.append(button);
+ }
+ const next=COURSES[Math.min(19,progress.unlocked-1)];$('map-next').textContent=progress.age===20?'20 年毕业啦！所有课程都可以复习。':'完成第 '+next.year+' 年的 50 题，小狗长大一岁。';
+}
+function updateTeaching({reveal=false}={}){
+ const q=currentQuestion();$('teaching-card').hidden=false;$('conversation').hidden=true;
+ $('lesson-title').textContent='第 '+q.course+' 年 · '+currentLesson().title;
+ $('teaching-pattern').textContent=reveal?q.target.en:q.prompt;$('teaching-pattern').lang=q.kind==='repeat'||q.kind==='gap'||reveal?'en':'zh-Hans';
+ $('teaching-zh').textContent=q.kind==='repeat'||reveal?q.target.zh:q.kind==='gap'?'说出空格里的一个英语单词':q.kind==='listen'?'选中文意思，也可以跟读':'用英语说';
+ $('question-count').textContent=q.number+' / 50';$('course-label').textContent='第 '+q.course+' 年';
+ $('lesson-explanation').textContent=currentLesson().guide.text+'\n'+q.target.en+'\n'+q.target.zh;
+ const choices=$('question-options');choices.replaceChildren();choices.hidden=!q.options;
+ for(const choice of q.options||[]){const button=node('button','answer-choice',choice);button.type='button';button.addEventListener('click',()=>submitAnswer(choice));choices.append(button);}
+ $('answer').placeholder=q.kind==='gap'?'输入空格里少的英语单词':'输入你的英语回答';
+}
+function askCurrentQuestion({announce=false}={}){
+ state.answered=false;state.finished=false;state.needsReview=false;state.feedback='';state.slowListening=false;$('next-actions').hidden=true;updateStartButton();$('practice-actions').hidden=false;
+ $('replay-button').disabled=false;$('hint-button').disabled=false;$('retry-save').hidden=true;pendingAnswer=null;status('');
+ $('completion-shop-button').hidden=true;
+ currentPrompt=personality.ask(context());updateTeaching();
+ const nextPrompt=personality.ask({...context(),stepIndex:Math.min(49,state.stepIndex+1)});greetingAudio.preload([...currentPrompt.parts,...nextPrompt.parts,personality.question(context()).instruction,PUPPY_LINES['cn-fix'],...[0,1,2,3,4].map(i=>PUPPY_LINES['cn-cheer-'+i])].filter(p=>p?.id).map(clipSource));
+ if(announce)speak(currentPrompt.text,{parts:currentPrompt.parts});
+}
+function selectCourse(id,{review=false,continueTalking=false,fromBeginning=false}={}){
+ const course=COURSES.find(c=>c.id===id);if(state.busy||!progressReady||!course||course.year>progress.unlocked)return;
+ if(!continueTalking)voiceSession?.stop();stopSpeech();stopMicrophone();state.lessonId=id;state.review=review||progress.completed.includes(id);state.fromBeginning=fromBeginning;state.courseBonus=false;
+ state.onlyUnfinished=!state.review&&!fromBeginning;
+ state.stepIndex=state.review||fromBeginning?0:Math.max(0,course.questions.findIndex(q=>!progress.passed.includes(q.id)));
+ status('');$('retry-save').hidden=true;pendingAnswer=null;askCurrentQuestion({announce:continueTalking});renderMap();
+}
+async function syncProgress(){
+ progressReady=false;updateStartButton();$('save-status').textContent='正在准备课程…';
+ try{progress=await api('/api/journey');progressReady=true;signInRequired=false;updateHeader();renderMap();renderShop();
+  if(!conversationAttempted&&!state.busy){const next=COURSES[Math.min(progress.age,19)];selectCourse(next.id,{review:progress.age===20});}
+  status(window.PawlishGuest?.persistent===false?'此浏览器不能记住你，下次可能需要重新开始。':'');$('retry-progress').hidden=true;$('save-status').textContent=window.PawlishGuest?'已保存，下次继续':'进度已同步';
+ }catch(error){
+  progressReady=false;signInRequired=error.status===401;
+  if(signInRequired){status('');$('turn-title').textContent='登录后保存进度';$('save-status').textContent='登录后保存进度';$('retry-progress').hidden=true;}
+  else{status('进度没连上，请点「重试连接」。');$('retry-progress').hidden=false;$('save-status').textContent='还未同步';}
+  renderMap();
+ }
+ updateStartButton();
+}
+function rememberProgress(data){progress=data;progressReady=true;updateHeader();renderMap();renderShop();}
+function showCompletion(){
+ state.finished=true;state.answered=true;state.stepIndex=50;avatar.set('happy');
+ const remaining=currentLesson().questions.filter(q=>!progress.passed.includes(q.id)).length;
+ $('replay-button').disabled=true;$('hint-button').disabled=true;$('practice-actions').hidden=false;
+ if(remaining){
+  // Skipping is navigation only. An unfinished course cannot grant growth,
+  // graduation, coins, or a next-course celebration.
+  state.needsReview=true;voiceSession?.stop();stopSpeech();
+  $('teaching-pattern').textContent='还有 '+remaining+' 题待补练';$('teaching-pattern').lang='zh-Hans';
+  $('teaching-zh').textContent='完成这些题，再解锁下一年。';$('question-options').hidden=true;
+  $('next-actions').hidden=false;$('completion-shop-button').hidden=true;$('next-button').textContent='补练未完成的题';
+  $('question-count').textContent=(50-remaining)+' / 50 已完成';$('turn-title').textContent='可以稍后回来补练';
+  updateStartButton();return;
+ }
+ $('completion-shop-button').hidden=false;
+ const graduation=state.courseBonus&&progress.age===20;
+ $('teaching-pattern').textContent=graduation?'20 年毕业啦！':'第 '+currentLesson().year+' 年'+(state.review?'复习完成！':'完成！');$('teaching-pattern').lang='zh-Hans';$('teaching-zh').textContent=graduation?'你和小狗走完了 1,000 题。':state.courseBonus?'小狗 '+progress.age+' 岁啦 · 完成奖励 100 币':'这次是复习，骨头和奖励已领取。';$('question-options').hidden=true;$('next-actions').hidden=false;$('next-button').textContent=currentLesson().year===20?'去课程地图复习':'出发去下一年';$('question-count').textContent='50 / 50';updateStartButton();
+ const line=PUPPY_LINES[graduation?'journey-graduate':state.courseBonus?'journey-finish':'cn-cheer-0'];speak(line.text,{parts:[line],expression:'happy',bark:true});
+}
+function nextQuestion(){
+ if(state.busy)return;
+ if(state.finished&&state.needsReview){selectCourse(state.lessonId,{continueTalking:!!voiceSession?.active});return;}
+ if(state.finished){if(currentLesson().year===20){openDialog('lessons-dialog');return;}selectCourse('year-'+(currentLesson().year+1),{continueTalking:!!voiceSession?.active,fromBeginning:state.fromBeginning});return;}
+ state.stepIndex++;
+ if(state.onlyUnfinished)while(state.stepIndex<50&&progress.passed.includes(currentLesson().questions[state.stepIndex].id))state.stepIndex++;
+ if(state.stepIndex>=50){showCompletion();return;}
+ askCurrentQuestion({announce:!!voiceSession?.active});
+}
+function navigatePractice(action,{fromTap=false}={}){
+ if(!progressReady||state.busy||state.finished&&['question','skip'].includes(action))return;
+ const keepTalking=!!voiceSession?.active&&!fromTap;
+ $('more-dialog').close();$('lessons-dialog').close();
+ if(!keepTalking)voiceSession?.stop();else voiceSession.pauseForSpeech();
+ stopSpeech();stopMicrophone();
+ if(action==='journey'||action==='course')selectCourse(action==='journey'?'year-1':state.lessonId,{fromBeginning:true,continueTalking:keepTalking});
+ else if(action==='question')askCurrentQuestion({announce:keepTalking});
+ else if(action==='skip')nextQuestion();
+ // Menu actions keep audio permission inside the tap. Spoken commands reuse
+ // the active microphone session instead of requesting permission again.
+ if(fromTap&&!state.finished)startConversation();
+}
+async function submitAnswer(raw){
+ if(!progressReady||state.busy||state.answered||state.finished)return;const value=String(raw).trim().slice(0,500);if(!value){status('试着说一句，也可以点「慢一点」。');return;}
+ $('typing-dialog').close();stopMicrophone();voiceSession?.pauseForSpeech();stopSpeech();status('');
+ const result=personality.respond(value,context());state.feedback=result.status;
+ if(result.status==='success'){
+   state.busy=true;updateStartButton();$('save-status').textContent='保存中…';$('turn-title').textContent='说对啦！';
+   // Correctness is checked locally immediately. Save in parallel with the
+   // puppy's reaction, but never advance or award a bone before server success.
+   const saving=api('/api/journey/answer',{questionId:currentQuestion().id,answer:value});
+   const nextBones=progress.bones+(progress.passed.includes(currentQuestion().id)?0:1);
+   speak(result.reply,{parts:result.parts,expression:result.mood,bark:nextBones>0&&nextBones%5===0});
+   if(!state.sound)avatar.set('happy');
+   try{const data=await saving;if(!data.correct)throw new Error('再听一下示范，然后试试。');rememberProgress(data);state.courseBonus=state.courseBonus||!!data.bonus;state.answered=true;$('retry-save').hidden=true;pendingAnswer=null;$('save-status').textContent='已保存';
+    if(data.earned){$('bone-pop').textContent=data.bonus?'+1 骨头 · +100 奖励币':'+1 骨头';$('bone-pop').classList.remove('show');void $('bone-pop').offsetWidth;$('bone-pop').classList.add('show');}
+    $('next-actions').hidden=!!voiceSession?.active;$('next-button').textContent=state.stepIndex===49?'完成这一年':'下一题';
+   }catch(error){pendingAnswer=value;$('retry-save').hidden=false;$('save-status').textContent='未保存';status(error.message||'没有保存成功，请点「重试保存」。');voiceSession?.stop('这题还没保存，请重试。');stopSpeech();return;}
+   finally{state.busy=false;updateStartButton();}
+   continueAfterReply();return;
+ }
+ state.slowListening=true;
+ if(result.status==='correct')updateTeaching({reveal:true});
+ $('turn-title').textContent=result.status==='success'?'说对啦！':result.status==='correct'?'没关系，再试试':'听完，跟我说';
+ speak(result.reply,{parts:result.parts,reaction:result.status==='correct'?'shake':'',expression:result.mood,bark:result.status==='success'&&progress.bones%5===0});
+ if(!state.sound){avatar.set(result.status==='success'?'happy':'encouraging');if(result.status==='correct')avatar.perform('shake');}
+}
+function openDialog(id){voiceSession?.stop();stopSpeech();stopMicrophone();$('more-dialog').close();$(id).showModal();}
+function renderShop(){
+ $('shop-items').replaceChildren();$('coin-total').textContent=progress.coins+' 奖励币';
+ const next=COURSES[Math.min(19,progress.unlocked-1)],remaining=next.questions.filter(q=>!progress.passed.includes(q.id)).length;
+ $('shop-reward').textContent=!progressReady?'正在读取奖励…':progress.age===20?'20 年毕业啦！奖励币可以继续换装。':'第 '+next.year+' 年还差 '+remaining+' 题，过关得 100 奖励币。';
+ for(const item of SHOP_ITEMS){
+  const owned=progress.owned.includes(item.id),equipped=progress.equipped[item.slot]===item.id;
+  const card=node('article','shop-item'),picture=node('span','shop-accessory');picture.style.backgroundPosition=(item.frame%3*50)+'% '+(Math.floor(item.frame/3)*100)+'%';picture.setAttribute('aria-hidden','true');
+  const button=node('button','menu-button',equipped?'脱下':owned?'穿上':'兑换 · '+item.price+' 币');button.type='button';button.disabled=!progressReady||!owned&&progress.coins<item.price;button.dataset.item=item.id;button.setAttribute('aria-label',item.name+'，'+button.textContent);
+  button.addEventListener('click',async()=>{button.disabled=true;try{rememberProgress(await api('/api/journey/'+(owned?'equip':'buy'),owned?{itemId:equipped?null:item.id,slot:item.slot}:{itemId:item.id}));$('shop-status').textContent=equipped?'已经脱下啦。':'穿好啦！关掉这里看看小狗。';}catch(error){$('shop-status').textContent=error.message;renderShop();}});
+  card.append(picture,node('strong','',item.name),button);
+  if(progressReady&&!owned&&progress.coins<item.price)card.append(node('small','shop-shortfall','还差 '+(item.price-progress.coins)+' 币'));
+  $('shop-items').append(card);
+ }
+}
+function playWithDog(action,{fromMenu=false}={}){
+ if(fromMenu)$('more-dialog').close();if(state.busy)return;
+ if($('portrait-stage').classList.contains('speaking')){avatar.perform(action);return;}
+ const resume=voiceSession.active,token=++petToken,expectedSpeech=speechToken;if(resume)voiceSession.pauseForSpeech();puppySound.prepare();
+ const motion=avatar.perform(action),woof=state.sound&&['bark','jump','dance'].includes(action)?puppySound.play():Promise.resolve();
+ Promise.all([motion,woof]).then(()=>{if(token===petToken&&expectedSpeech===speechToken&&resume&&voiceSession.active)voiceSession.listen(240);});
+}
+function handleSpokenAnswer(text){
+ const command=text.toLowerCase().replace(/[^a-z\s\u3400-\u9fff]/g,'').replace(/\s+/g,' ').trim();
+ if(/^(stop|pause|stop listening|stop talking|暂停|停止)$/.test(command)){voiceSession.stop();stopSpeech();return;}
+ if(!state.finished&&/^(skip|skip this question|跳过|跳过这题|下一题)$/.test(command)){navigatePractice('skip');return;}
+ if(!state.finished&&/^(restart|restart this question|try again|重来|重新来|重来这题)$/.test(command)){navigatePractice('question');return;}
+ if(/^(restart course|restart this course|重学这课|本课从头开始)$/.test(command)){navigatePractice('course');return;}
+ const actions={sit:'sit','sit down':'sit','lie down':'down',down:'down',jump:'jump',bark:'bark',woof:'bark',dance:'dance','lets dance':'dance',坐下:'sit',趴下:'down',跳舞:'dance'};
+ if(actions[command]&&!isCorrectAnswer(currentQuestion(),text)){playWithDog(actions[command]);return;}
+ if(state.finished||state.answered){nextQuestion();return;}submitAnswer(text);
+}
+const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
+const voiceOptions={host:window,Recognition,onText:handleSpokenAnswer,getEndSilence:()=>state.slowListening?1200:currentQuestion().target.en.trim().split(/\s+/).length<=3?650:950,onTranscript:text=>{$('answer').value=text;},onLevel:level=>{$('mic-meter').style.setProperty('--mic-level',String(level));},onChange:({active,phase,message,problem})=>{
+ $('hands-free-button').setAttribute('aria-pressed',String(active));updateStartButton();$('voice-session').dataset.phase=phase;
+ $('turn-title').textContent=phase==='listening'?(message|| (state.finished?(currentLesson().year===20?'去地图复习吧':'说 “Next” 去下一年'):currentQuestion().kind==='listen'?'选意思，或跟读':'轮到你啦！')):phase==='speaking'?(state.feedback==='success'?'说对啦！':state.feedback==='correct'?'再跟我说一次':'先听我说'):phase==='blocked'?'请重试，或打字回答':phase==='starting'?'请允许麦克风':phase==='transcribing'?'听到啦，想一下……':phase==='waiting'?'准备听你说':'听完，跟我说';
+ $('mic-meter').hidden=phase!=='listening';
+ $('voice-status').textContent=message||'';document.body.classList.toggle('hands-free-active',active);if(problem){$('voice-help').open=true;$('voice-help').dataset.problem=problem;}
+ if(phase==='listening')avatar.set('listening');else if(phase==='transcribing')avatar.set('thinking');else if(phase==='off'||phase==='blocked')avatar.set('idle');
+}};
+voiceSession=new HandsFreeSession(voiceOptions);
+function startConversation(){
+ if(voiceSession.active){voiceSession.stop();stopSpeech();stopMicrophone();return;}
+ if(!progressReady||state.busy)return;conversationAttempted=true;
+ if(state.needsReview)selectCourse(state.lessonId);
+ stopSpeech();stopMicrophone();state.sound=true;savePreference('sound',true);updateHeader();
+ const Session=directVoice?MicrophoneSession:HandsFreeSession;
+ if(!(voiceSession instanceof Session)){voiceSession.stop();voiceSession=new Session(voiceOptions);}
+ introduceNextSpeech=true;
+ try{
+  const blocked=speechBlocker(window,directVoice);if(blocked){voiceSession.fail(blocked.message,blocked.problem);speak(currentPrompt.text,{parts:currentPrompt.parts,force:true,prime:true});return;}
+  voiceSession.enable({greeting:true});
+  if(state.finished){const line=PUPPY_LINES[state.review?'cn-cheer-0':progress.age===20?'journey-graduate':'journey-finish'];speak(line.text,{parts:[line],force:true,prime:true});}
+  else if(state.answered)nextQuestion();else speak(currentPrompt.text,{parts:currentPrompt.parts,force:true,prime:true,bark:state.stepIndex===0?'greeting':false});
+ }finally{introduceNextSpeech=false;}
+}
+$('hands-free-button').addEventListener('click',startConversation);
+$('next-button').addEventListener('click',()=>{if(state.needsReview)startConversation();else nextQuestion();});
+$('completion-shop-button').addEventListener('click',()=>openDialog('shop-dialog'));
+$('map-shop-button').addEventListener('click',()=>{$('lessons-dialog').close();openDialog('shop-dialog');});
+for(const [id,action] of [['restart-journey-button','journey'],['restart-course-button','course'],['restart-question-button','question'],['skip-question-button','skip']])$(id).addEventListener('click',()=>navigatePractice(action,{fromTap:true}));
+$('answer-form').addEventListener('submit',event=>{event.preventDefault();submitAnswer($('answer').value);$('answer').value='';});
+$('retry-save').addEventListener('click',()=>{if(pendingAnswer)submitAnswer(pendingAnswer);});$('retry-progress').addEventListener('click',syncProgress);
+$('replay-button').addEventListener('click',()=>{const line=currentQuestion().target.model;speak(line.text,{parts:[line],force:true,prime:true});});
+$('hint-button').addEventListener('click',()=>{if(state.finished)return;state.slowListening=true;updateTeaching({reveal:true});const hint=personality.hint(context());speak(hint.text,{parts:hint.parts,force:true,prime:true});});
+for(const [button,dialog] of [['more-button','more-dialog'],['settings-button','settings-dialog'],['map-button','lessons-dialog'],['lessons-button','lessons-dialog'],['typing-button','typing-dialog'],['explanation-button','explanation-dialog'],['shop-button','shop-dialog'],['wardrobe-button','shop-dialog']])$(button).addEventListener('click',()=>openDialog(dialog));
+$('pet-dog').addEventListener('click',()=>playWithDog(['paw','bow','jump','sit'][petCount++%4]));
+document.querySelectorAll('[data-dog-action]').forEach(button=>button.addEventListener('click',()=>playWithDog(button.dataset.dogAction,{fromMenu:true})));
+const phonePlay=new PhonePlay({host:window,onShake:()=>playWithDog('dance'),canPlay:()=>!document.querySelector('dialog[open]'),onChange:mode=>{$('shake-phone').setAttribute('aria-pressed',String(mode==='enabled'));$('shake-phone').textContent=mode==='enabled'?'关闭摇一摇':'开启摇一摇';$('shake-status').textContent={enabled:'关掉这里，轻轻摇一摇，小狗就跳舞。',off:'',unsupported:'这台设备不能摇一摇，可以点「跳舞」。',denied:'没有开启动作权限，也可以点「跳舞」。'}[mode]||'';}});
+$('shake-phone').addEventListener('click',()=>{if(phonePlay.enabled)phonePlay.disable();else phonePlay.enable();});
+$('chinese').addEventListener('change',()=>{state.chinese=$('chinese').checked;savePreference('chinese',state.chinese);updateHeader();});
+$('sound-toggle').addEventListener('click',()=>{state.sound=!state.sound;savePreference('sound',state.sound);if(!state.sound){voiceSession.stop();stopSpeech();}updateHeader();});
+for(const gender of ['female','male'])$('dog-'+gender).addEventListener('change',()=>{if(!$('dog-'+gender).checked)return;voiceSession.stop();stopSpeech();stopMicrophone();state.gender=gender;savePreference('dogGender',gender);introducedName='';savePreference('introducedDogName','');clearNameRecording();voiceLevels={};loadVoiceLevels();updateHeader();greetingAudio.preload([PUPPY_LINES['cn-identity'],...currentPrompt.parts].filter(p=>p.id).map(clipSource));});
+$('preview-voice').addEventListener('click',()=>speak(PUPPY_LINES['cn-identity'].text,{parts:[PUPPY_LINES['cn-identity']],force:true,prime:true}));
+function openRename(){$('settings-dialog').close();openDialog('rename-dialog');$('new-dog-name').value=state.dogName;$('rename-error').textContent='';$('new-dog-name').select();}
+$('rename-button').addEventListener('click',openRename);$('settings-rename-button').addEventListener('click',openRename);
+$('rename-form').addEventListener('submit',event=>{
+ event.preventDefault();const name=$('new-dog-name').value.trim();if(!validName(name)){$('rename-error').textContent='取一个 1–24 字的名字吧。';return;}
+ if(name!==state.dogName){introducedName='';savePreference('introducedDogName','');clearNameRecording();}
+ state.dogName=name;savePreference('dogName',name);updateHeader();$('rename-dialog').close();
+ if(progressReady&&introducedName!==name)prepareNameGreeting().catch(()=>{});
+});
+$('how-it-works').addEventListener('click',()=>{$('settings-dialog').close();openDialog('about-dialog');});
+document.querySelectorAll('[data-close-dialog]').forEach(button=>button.addEventListener('click',()=>$(button.dataset.closeDialog).close()));
+new DogPhoto({host:window,pause:()=>{voiceSession.stop();stopSpeech();stopMicrophone();},onAvatar:url=>{personalAvatar=url;updateAppearance();}});
+function suspend(){voiceSession.stop();stopSpeech();stopMicrophone();phonePlay.disable();avatar.dispose();}
+window.addEventListener('pagehide',suspend);window.addEventListener('pageshow',()=>avatar.resume());document.addEventListener('visibilitychange',()=>{if(document.hidden)suspend();else avatar.resume();});
+$('mic-button').addEventListener('click',()=>{$('typing-dialog').close();startConversation();});
+$('copy-voice-link').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('voice-link').value);$('copy-voice-status').textContent='网址已复制，请用 Safari 打开。';}catch{$('voice-link-label').hidden=false;$('voice-link').select();}});
+updateHeader();askCurrentQuestion();renderMap();renderShop();document.dispatchEvent(new CustomEvent('pawlish-ready'));syncProgress();
+
+} catch (error) {
+console.error('Pawlish could not start:', error);
+document.dispatchEvent(new CustomEvent('pawlish-startup-failed', {detail: error.message || String(error)}));
+}
+})();
+</script>
+</body>
+</html>

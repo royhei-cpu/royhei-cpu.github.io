@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123d32">
+  <title>Pawlish · 检查声音</title>
+  <link rel="icon" href="assets/paw.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="voice-check.css">
+  <script src="voice-check.js" defer></script>
+</head>
+<body>
+  <main class="check-shell">
+    <a class="back-link" href="./">← 返回小狗老师</a>
+    <div class="check-heading"><img src="assets/avatar/frame-02.webp" width="96" height="96" alt="正在听你说话的小狗"><div><h1>一起检查声音</h1><p>按顺序试一试。需要帮助时，可以把结果截图发过来。</p></div></div>
+    <p class="check-environment" id="environment">检查正在准备……如果一直没有变化，可以先试试下面的播放器。</p>
+    <section class="check-card" aria-labelledby="sound-heading">
+      <h2 id="sound-heading">1. 能听到小狗说话吗？</h2>
+      <p>点下面的播放按钮。这里先只检查声音，不打开麦克风。</p>
+      <audio id="test-audio" src="assets/puppy-female/cn-welcome.mp3?v=11" preload="metadata" controls></audio>
+      <p id="sound-result" class="check-result" role="status">还没检查。你会听到小狗用中文打招呼。</p>
+      <p class="check-small">如果播放器在动，却听不到声音，请调高媒体音量，也检查一下声音是否在耳机里。</p>
+      <a href="assets/puppy-female/cn-welcome.mp3?v=11">直接打开小狗的声音</a>
+    </section>
+    <section class="check-card" aria-labelledby="mic-heading">
+      <h2 id="mic-heading">2. 麦克风能听到你吗？</h2>
+      <p>点下面的按钮，允许麦克风，再说几句话。音量条应该会动。八秒后自动停止。</p>
+      <button class="primary-button" id="check-mic" type="button">检查麦克风</button>
+      <meter id="mic-level" min="0" max="1" value="0" aria-label="麦克风音量"></meter>
+      <p id="mic-result" class="check-result" role="status">还没检查。</p>
+    </section>
+    <section class="check-card" aria-labelledby="speech-heading">
+      <h2 id="speech-heading">3. 能识别你的英语吗？</h2>
+      <p>点下面的按钮，试着说 Hello。这一步检查能不能识别英语。</p>
+      <button class="primary-button" id="check-speech" type="button">检查语音识别</button>
+      <p id="speech-result" class="check-result" role="status">还没检查。</p>
+      <p id="heard-words" class="heard-words"></p>
+    </section>
+    <section class="check-card result-card" aria-labelledby="results-heading">
+      <h2 id="results-heading">需要帮助时，复制结果</h2>
+      <p>可以复制结果发到聊天里，也可以截图。不会自动发送。</p>
+      <button class="primary-button" id="copy-check" type="button">复制结果</button>
+      <p id="copy-result" role="status"></p>
+      <label for="check-report" class="sr-only">声音检查结果</label>
+      <textarea id="check-report" readonly rows="8">检查程序还没有加载。</textarea>
+    </section>
+    <p class="check-small">麦克风检查只测量音量，不保存录音。语音识别使用浏览器的服务。离开页面后，检查会停止。</p>
+    <noscript><p>请启用 JavaScript 后再检查麦克风。上面的播放器仍然可以试用。</p></noscript>
+  </main>
+</body>
+</html>

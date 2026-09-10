@@ -1,5 +1,8 @@
 name: Publish Tariff Signal Mirror
 on:
+  push:
+    branches: [main]
+    paths: ['pawlish/**', '.github/workflows/publish.yml']
   workflow_dispatch:
   schedule:
     - cron: "15 1 * * *"
@@ -16,6 +19,8 @@ jobs:
     environment:
       name: github-pages
     steps:
+      - name: Checkout website sources
+        uses: actions/checkout@v4
       - name: Mirror complete public dashboard
         shell: bash
         run: |
@@ -71,6 +76,8 @@ jobs:
               raise RuntimeError("Expected dashboard assets were not copied")
           open("_site/.nojekyll", "w").close()
           PY
+      - name: Add Pawlish English tutor
+        run: python3 pawlish/download_assets.py _site/pawlish
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site

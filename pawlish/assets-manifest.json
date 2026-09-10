@@ -1,0 +1,4176 @@
+{
+  "release": 21,
+  "source": "https://pawlish-ryans-english-dog.lhei111.chatgpt.site",
+  "files": [
+    {
+      "path": "assets/AUDIO-CREDITS.txt",
+      "size": 5308,
+      "sha256": "69b7b45c76b8f4ad6dc74a88699c69c81b114e797fece3d8b5f0d0744c585fd2"
+    },
+    {
+      "path": "assets/avatar/frame-00.webp",
+      "size": 23570,
+      "sha256": "05765d44559601f3a9525549f915ef0b85dee2bf591abbf2ac1a915e9d68a817"
+    },
+    {
+      "path": "assets/avatar/frame-01.webp",
+      "size": 23056,
+      "sha256": "66c4e60c5aa8cc7291acfaf0aadb2625199b2d5afa6636027651ce17100b6b01"
+    },
+    {
+      "path": "assets/avatar/frame-02.webp",
+      "size": 22516,
+      "sha256": "a15aeddda0a27d0abacbcdcdc70bd9994a67433ad0a302da2cb5ee56d948c397"
+    },
+    {
+      "path": "assets/avatar/frame-03.webp",
+      "size": 22332,
+      "sha256": "c0c25b05aedcd8258ef433c4d1f0ada082479b08d3cd653538f20f98343e14b3"
+    },
+    {
+      "path": "assets/avatar/frame-04.webp",
+      "size": 24302,
+      "sha256": "2d090a3160c5409c0a9681114063ce0c7d693dc1a87158ae9e67bdc75915b508"
+    },
+    {
+      "path": "assets/avatar/frame-05.webp",
+      "size": 24098,
+      "sha256": "e356acdc68406a8599c0c65af70ac1fe4f7a2e5bc504d0d296e5db579f43f8d0"
+    },
+    {
+      "path": "assets/avatar/frame-06.webp",
+      "size": 24470,
+      "sha256": "720e3ced5cbc5cf0ac0ee07dcdf544380fdde22d081021c6be5fa2fdd9c6f98c"
+    },
+    {
+      "path": "assets/avatar/frame-07.webp",
+      "size": 23330,
+      "sha256": "21953369cb6f9dfe31f82014cc2277ad6b8c661643c6c635c25c59fe0fc7cc71"
+    },
+    {
+      "path": "assets/avatar/frame-08.webp",
+      "size": 25138,
+      "sha256": "50ff742c14723be53bd910ebf280e5261ed02b8a42a6c824dd3d7a873bec1c1a"
+    },
+    {
+      "path": "assets/avatar/frame-09.webp",
+      "size": 25972,
+      "sha256": "89d868369632bc1a49d2ac697d1f11eb7f6528dfac1288ba444788fcb48e3b92"
+    },
+    {
+      "path": "assets/avatar/frame-10.webp",
+      "size": 24024,
+      "sha256": "5dc3f8f901dadc7459c500ad46de20d0e3c410481b2a08db58417c7ad8934838"
+    },
+    {
+      "path": "assets/avatar/frame-11.webp",
+      "size": 24950,
+      "sha256": "2372c796ad40fd603e758a2dcb48bab81068ef7d919e284ff5c4f236e45c75e3"
+    },
+    {
+      "path": "assets/buddy.jpeg",
+      "size": 311448,
+      "sha256": "f303316df6b126fb6bb2df335fcc4f042b25683b6a7af71f7078150a59b0d28b"
+    },
+    {
+      "path": "assets/doudou/accessories.webp",
+      "size": 343656,
+      "sha256": "ce8eaacc513a84ba7fa5f6235c007e4f8a025834676af234aa7ba87f1912b654"
+    },
+    {
+      "path": "assets/doudou/adult.webp",
+      "size": 184288,
+      "sha256": "73c7b6b581757292fae4c040cb48ad472a17329e969ae0b85e1e8be123d67789"
+    },
+    {
+      "path": "assets/doudou/elder.webp",
+      "size": 204634,
+      "sha256": "ef3594bd36eec3787f2c9eab506049acd948530902f7fecb2ad5a89f92735a50"
+    },
+    {
+      "path": "assets/doudou/full-body.webp",
+      "size": 257678,
+      "sha256": "85ba6ef87a392c1579d3e6db43ebb03b2d92e0ed470f6e6cd809c014164f6f05"
+    },
+    {
+      "path": "assets/doudou/lifelike.webp",
+      "size": 236634,
+      "sha256": "e171434db7225c2679341f999a7ac1a3903a6a05d3222c3a27c8ac6390e85e90"
+    },
+    {
+      "path": "assets/doudou/play.webp",
+      "size": 182518,
+      "sha256": "e4a14c5d47aaf9683521bf46c446603c8e52dfe183c200e2ecdfddea29a60052"
+    },
+    {
+      "path": "assets/nunito-black.ttf",
+      "size": 125376,
+      "sha256": "9caa6d5464d4438c3092a05d47952099e208862cacd5f655acb64012a1a15e78"
+    },
+    {
+      "path": "assets/nunito-bold.ttf",
+      "size": 125464,
+      "sha256": "1a025dfce6e6e03bbe31ba82277ec5ed96df8b8dd58b3df6267269490b90b1dc"
+    },
+    {
+      "path": "assets/nunito-regular.ttf",
+      "size": 125528,
+      "sha256": "9ecbdba35fa74f10a1a916c31649b802a12deb9e66c7b1fe4650afcfd4d16971"
+    },
+    {
+      "path": "assets/OFL.txt",
+      "size": 4385,
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+    },
+    {
+      "path": "assets/paw.svg",
+      "size": 409,
+      "sha256": "92dd5398e36a77186e8784f61a145c14702bb8c96c03e9278a433fb66f35e31d"
+    },
+    {
+      "path": "assets/puppy-female/cn-again.mp3",
+      "size": 19245,
+      "sha256": "64f0d8c16d572dc734e21b823e5e51f1afd500307adb65433412d5b9f7c76ee3"
+    },
+    {
+      "path": "assets/puppy-female/cn-all-finished.mp3",
+      "size": 36045,
+      "sha256": "63351e6b01b5b6ecbfba8e1e3e6c6adf173ea4c34af1a441475b5fcbd67ca5be"
+    },
+    {
+      "path": "assets/puppy-female/cn-cheer-0.mp3",
+      "size": 20925,
+      "sha256": "3612e65f84af99ec11595c63efe7897cb1f69c55dab1fe0b071fde132e30a903"
+    },
+    {
+      "path": "assets/puppy-female/cn-cheer-1.mp3",
+      "size": 31965,
+      "sha256": "e5174815abe747d39872f0af9485cdf174485d987ac1c5ff48cb41b280099f56"
+    },
+    {
+      "path": "assets/puppy-female/cn-cheer-2.mp3",
+      "size": 25725,
+      "sha256": "d637a0c321cb2a81a3c8a589009507b7d8017c69b69e17b75abdff8ae4b8fc8a"
+    },
+    {
+      "path": "assets/puppy-female/cn-cheer-3.mp3",
+      "size": 21645,
+      "sha256": "3e4b48caffaf63a77ab7401a7c5c6cf107f5aeb6266f9bf58ad040994787ca5f"
+    },
+    {
+      "path": "assets/puppy-female/cn-cheer-4.mp3",
+      "size": 18285,
+      "sha256": "e9863c13327eea76524cccaeb8c26937eefacb837b30422f8bd0544443d3309e"
+    },
+    {
+      "path": "assets/puppy-female/cn-finish.mp3",
+      "size": 37725,
+      "sha256": "cd4e4e8018ffabc7b2282a2e81379aeb6550d3b1c0b5879cbf8b05ea1df8f488"
+    },
+    {
+      "path": "assets/puppy-female/cn-fix.mp3",
+      "size": 27165,
+      "sha256": "1dc44164e7671a6cfc41e70d3e1cf45c0c600c966d8778f59169559f99c665d8"
+    },
+    {
+      "path": "assets/puppy-female/cn-gentle-0.mp3",
+      "size": 51165,
+      "sha256": "013bd4f9de4d7784858658a3d35986e2f7ad1bc35ca54891a7e40de47c57e049"
+    },
+    {
+      "path": "assets/puppy-female/cn-gentle-1.mp3",
+      "size": 46365,
+      "sha256": "0b7af8e333e52b23b0462bb84f32fa9171c8e3248f4f93263ae7e762d280f3c3"
+    },
+    {
+      "path": "assets/puppy-female/cn-identity.mp3",
+      "size": 32685,
+      "sha256": "00595f12280cbc30c440d51a377f3274f038b0ff909fb397ee5fff653f085c60"
+    },
+    {
+      "path": "assets/puppy-female/cn-joke-0.mp3",
+      "size": 65565,
+      "sha256": "668c2a6a522f9f60590b64c7c398cefaa558cda3e6464d26b4fb3865c1af7939"
+    },
+    {
+      "path": "assets/puppy-female/cn-joke-1.mp3",
+      "size": 59085,
+      "sha256": "df0d0a532180f0928de8b9ab200bed0c8d40e7f787be427ee7a1858fe5ff63fd"
+    },
+    {
+      "path": "assets/puppy-female/cn-joke-2.mp3",
+      "size": 78045,
+      "sha256": "25ee64e8fa0100ca3fe2097f7e8533c9e95b20233231ccabb25f4bae9a4aa33c"
+    },
+    {
+      "path": "assets/puppy-female/cn-meaning.mp3",
+      "size": 19965,
+      "sha256": "fd7439490742ad5875256090cb4b666b6efd624c1474b92d947d4b4c0a901fb6"
+    },
+    {
+      "path": "assets/puppy-female/cn-retry-0.mp3",
+      "size": 25965,
+      "sha256": "e89f49a9fcc6bd265026ac9da197da45f1fc71b37762a1bc0989e06b5f943b0f"
+    },
+    {
+      "path": "assets/puppy-female/cn-retry-1.mp3",
+      "size": 26445,
+      "sha256": "73a25e9411ce6f5ab28b623e6dd26647baf87ad7e2ec1ccf79f2adada83c4580"
+    },
+    {
+      "path": "assets/puppy-female/cn-retry-2.mp3",
+      "size": 21885,
+      "sha256": "ddb8af23128d5a3925160dffd557a91ef31f749b9f05eaa716ab913d6de23d14"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-action.mp3",
+      "size": 23325,
+      "sha256": "c568b7d7f75139aca229977fd6d5fc04dcb02b733da423a34af7a2dfcfe49ce2"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-bye-word.mp3",
+      "size": 24765,
+      "sha256": "2a2337701862ddd6a730027950c83a76ac86f380a39b9d6e9449c1c7bc6cad8f"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-city.mp3",
+      "size": 22365,
+      "sha256": "6ddc5c433a1ce10e70b5282b15db438e091d45cce95ef9ee9b0b62cfd30839bb"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-dog-action.mp3",
+      "size": 16845,
+      "sha256": "de198ead0ef1c92d09cdc3de8b809107500654fdd6ed9412c63ad6fe91f75746"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-drink.mp3",
+      "size": 36765,
+      "sha256": "978a1d37884b5610c9cd01f2d437f9e1e2c001012b11807c17452e4b81e2a51e"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-feeling.mp3",
+      "size": 25245,
+      "sha256": "f61b88c6f10f1223380f29a38c429704c2a8000269733d396820ffe621b4e7f5"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-food.mp3",
+      "size": 19965,
+      "sha256": "57af77c84f8d2dc9f790d1caf92dcb8f9a9b58650621e869d6c49b77b584e384"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-future.mp3",
+      "size": 24045,
+      "sha256": "0685024aeee9f21f116c44549762a5fcc19312851ecd267b57031481b955d253"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-goodbye.mp3",
+      "size": 28125,
+      "sha256": "90c76b81430e80a793968b1ae52c3a59fa3c994fadbccbb6d037c07bafa63200"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-habit.mp3",
+      "size": 21645,
+      "sha256": "48585d3d1af4cc62d6b0695ebc1f24790397ea82f7d352d6b2054cdaef33a3a9"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-hello-word.mp3",
+      "size": 18525,
+      "sha256": "64241782041988761022eba3e018b0e0e292b981a15aa64cba3d301fa1aed36c"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-invite.mp3",
+      "size": 18525,
+      "sha256": "ac3cce5fa57485e353510873b40d61915cd41560c83817ba15a8974f35aa5d99"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-name.mp3",
+      "size": 21645,
+      "sha256": "11c475a021ce87c4df49b0f0c29403497518309bbac7538c788994b28c10db72"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-past.mp3",
+      "size": 28125,
+      "sha256": "26cf0c7f269e27c6b65f386b5e5258f7721004d3ce3c4805093df476b2b706e4"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-please-word.mp3",
+      "size": 19965,
+      "sha256": "ec7518550131b1a2c23b59f60b6a14f53b64b6b526b1018b43ea1e826dd9e830"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-plural.mp3",
+      "size": 31245,
+      "sha256": "50a666d43e92d8f0e381604b2634004a5e60671e23fc1fc14a01fe1b1bd08d2c"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-see.mp3",
+      "size": 32925,
+      "sha256": "54f57681b7d7e21f1b196fdf0df0e52f8b18bf73ec5575517fe3bee01552baa9"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-thanks-word.mp3",
+      "size": 28125,
+      "sha256": "54402ea79091cdddf972335c59ee75cf75931aba0a9e67d2f8df3c1c0ec6fc3d"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-thanks.mp3",
+      "size": 22365,
+      "sha256": "9c340212443f19288ffab51a3152be4b0b3fefda418257bace35b8baab795ad7"
+    },
+    {
+      "path": "assets/puppy-female/cn-teach-third-person.mp3",
+      "size": 30525,
+      "sha256": "bb70a03053cc36bd206c73bd8c35a012c3ed21426fbba993bcef133900454aef"
+    },
+    {
+      "path": "assets/puppy-female/cn-turn.mp3",
+      "size": 11085,
+      "sha256": "88c9d93bf9f055833d25033643772cf106077d092d7f233022d9d96531a56183"
+    },
+    {
+      "path": "assets/puppy-female/cn-welcome.mp3",
+      "size": 38445,
+      "sha256": "d2d4372f61ef8ac79d08abb43c0e82dd6247a423100e6c1bc4adaf1d080803b0"
+    },
+    {
+      "path": "assets/puppy-female/en-action.mp3",
+      "size": 9885,
+      "sha256": "89d9f5f3d566a016af9843541d6b84fe120b537b634f4d2bd4897ba3b58436a5"
+    },
+    {
+      "path": "assets/puppy-female/en-bye-word.mp3",
+      "size": 6525,
+      "sha256": "00bc91d56c91958a540ee3e75786b6000c890c673878cc648d90799e8bdbedfa"
+    },
+    {
+      "path": "assets/puppy-female/en-city.mp3",
+      "size": 13005,
+      "sha256": "aea0b56d7b59d168c821f5116dc80f4e5092902d7a82541136cff12eb10ef42a"
+    },
+    {
+      "path": "assets/puppy-female/en-dog-action.mp3",
+      "size": 16365,
+      "sha256": "db0b90995667d2b3a2edf0a3d77d9a5baf6981fe1961afd832d96211aa3473de"
+    },
+    {
+      "path": "assets/puppy-female/en-drink.mp3",
+      "size": 20445,
+      "sha256": "9df735c674c94c8f3af8273aa421e958c018dd48afa31f26dd106ddfd6179b19"
+    },
+    {
+      "path": "assets/puppy-female/en-feeling.mp3",
+      "size": 12285,
+      "sha256": "9c6d233993c9a589b0596a1fd440de7af9d8d7fc5c24056e4abc43a41a7c19c5"
+    },
+    {
+      "path": "assets/puppy-female/en-food.mp3",
+      "size": 11325,
+      "sha256": "2605de2f0ac25e682f44818ce1f13b1d7d5bde50e9938bcd3d9424ade7c18e12"
+    },
+    {
+      "path": "assets/puppy-female/en-future.mp3",
+      "size": 16605,
+      "sha256": "d8d59d4fd7f8a7a84c43b5a734c1dba1ba6861aef0ddc7b6da41e67fc3ad35d4"
+    },
+    {
+      "path": "assets/puppy-female/en-goodbye.mp3",
+      "size": 13005,
+      "sha256": "835e23d421366a394c623fe5be6cab0e94e85b485c19ffff578b493b17d949c2"
+    },
+    {
+      "path": "assets/puppy-female/en-habit.mp3",
+      "size": 18765,
+      "sha256": "ed3c0e028467b98a6824750234c8618b41fa13bf2cad8c34e0392609a9789048"
+    },
+    {
+      "path": "assets/puppy-female/en-hello-word.mp3",
+      "size": 7245,
+      "sha256": "6720184e65cf73af4eaaf8a784685f8649061c60f2049cf60bac79f6b2693c03"
+    },
+    {
+      "path": "assets/puppy-female/en-invite.mp3",
+      "size": 11565,
+      "sha256": "91413aa0e2874505e311b26d06d7db65dd394e8c758b0cdfad05b8a03d920015"
+    },
+    {
+      "path": "assets/puppy-female/en-name.mp3",
+      "size": 15405,
+      "sha256": "0bd308accd66d674a0cbfac5e026000e3f8bdf29938588d988d34f2c08b4dcb0"
+    },
+    {
+      "path": "assets/puppy-female/en-past.mp3",
+      "size": 27165,
+      "sha256": "bbff942ce096d46ea395aec62eb8949402055fc78d729e2c083c33720dfa273f"
+    },
+    {
+      "path": "assets/puppy-female/en-please-word.mp3",
+      "size": 8205,
+      "sha256": "1a27ffa09730ff75ae01eae44fe494f4d5b4837bd3b922aa8f05a4fa65cca1a1"
+    },
+    {
+      "path": "assets/puppy-female/en-plural.mp3",
+      "size": 13005,
+      "sha256": "d19bc610b8c4cfb9e4c3b0d723f0b647b2bbc6afcf027f5c37c0fdcb42d50d60"
+    },
+    {
+      "path": "assets/puppy-female/en-see.mp3",
+      "size": 13725,
+      "sha256": "dcacb39a6540036c3b0b1307bcdf22f926c80fc994532276d10d5188c2af2e65"
+    },
+    {
+      "path": "assets/puppy-female/en-thanks-word.mp3",
+      "size": 8205,
+      "sha256": "d60720e9c7b45717cedbebc22f155cab8731f28185da07f3e7efab0ef638a3c2"
+    },
+    {
+      "path": "assets/puppy-female/en-thanks.mp3",
+      "size": 9885,
+      "sha256": "0452caaf21a47bf22524b9029e87dcbcba38405d6229b570451ccd7d4886f03b"
+    },
+    {
+      "path": "assets/puppy-female/en-third-person.mp3",
+      "size": 13005,
+      "sha256": "30c06d1cb1962e0b144732fdb5d42db9a0026e01571c7f9d21a8c85b8f55ec73"
+    },
+    {
+      "path": "assets/puppy-female/journey-finish.mp3",
+      "size": 80925,
+      "sha256": "5010dc20bc9fb4bb71ea6ad99b014d21f64a88378c0b0384d969c683bc7b7e8a"
+    },
+    {
+      "path": "assets/puppy-female/journey-gap.mp3",
+      "size": 26445,
+      "sha256": "3d0888df00acf47da630c04b41e400f4bbab7332162dcf6ac1527035d98ba1b9"
+    },
+    {
+      "path": "assets/puppy-female/journey-graduate.mp3",
+      "size": 58365,
+      "sha256": "36318e12bb3844be18575a08a4d2bdf2ff6af23dfb812027528dcbe94731ed55"
+    },
+    {
+      "path": "assets/puppy-female/journey-listen.mp3",
+      "size": 34365,
+      "sha256": "ca27ce6e18ee775d779a42c22bf4428bc84fc72ba0aa70a751aea636dd9aaaa6"
+    },
+    {
+      "path": "assets/puppy-female/journey-recall.mp3",
+      "size": 24045,
+      "sha256": "774ae1db370e81bc721f24b93023722b70cbe4f9abd6ab01656c7184f33d2f86"
+    },
+    {
+      "path": "assets/puppy-female/journey-repeat.mp3",
+      "size": 23325,
+      "sha256": "7108e2d1a333f591e9cfde2895a3af54890a258db49b9fa0ef6ebb878bedf9d0"
+    },
+    {
+      "path": "assets/puppy-female/journey-translate.mp3",
+      "size": 17565,
+      "sha256": "9e707bb3015c9c786e9ed82bfccc0bab0c1b8c33c96e251d22391b9303c67485"
+    },
+    {
+      "path": "assets/puppy-female/journey-welcome.mp3",
+      "size": 54285,
+      "sha256": "57727f7816de84ba79061c8c0fc01b461101a1e72162e54353de08fc657f916b"
+    },
+    {
+      "path": "assets/puppy-female/levels.json",
+      "size": 68748,
+      "sha256": "d54e804be38710ac941d08aafff5e6022906bc6511a11eaab0c33bf2ad5502e1"
+    },
+    {
+      "path": "assets/puppy-female/manifest.json",
+      "size": 123733,
+      "sha256": "aadf76059cadfc89dea59343cedee05442c0fef03683225dc7f8b652e01b326c"
+    },
+    {
+      "path": "assets/puppy-female/year-1-en-0.mp3",
+      "size": 7245,
+      "sha256": "6720184e65cf73af4eaaf8a784685f8649061c60f2049cf60bac79f6b2693c03"
+    },
+    {
+      "path": "assets/puppy-female/year-1-en-1.mp3",
+      "size": 8205,
+      "sha256": "d60720e9c7b45717cedbebc22f155cab8731f28185da07f3e7efab0ef638a3c2"
+    },
+    {
+      "path": "assets/puppy-female/year-1-en-2.mp3",
+      "size": 8205,
+      "sha256": "1a27ffa09730ff75ae01eae44fe494f4d5b4837bd3b922aa8f05a4fa65cca1a1"
+    },
+    {
+      "path": "assets/puppy-female/year-1-en-3.mp3",
+      "size": 6525,
+      "sha256": "00bc91d56c91958a540ee3e75786b6000c890c673878cc648d90799e8bdbedfa"
+    },
+    {
+      "path": "assets/puppy-female/year-1-en-4.mp3",
+      "size": 6285,
+      "sha256": "b6e7ea0e24152b2ab6a0af9da850a5e4c6f1ca00029e1adeb408c5dd4e92998d"
+    },
+    {
+      "path": "assets/puppy-female/year-1-en-5.mp3",
+      "size": 9885,
+      "sha256": "b5c71d4ac9d9393545e0863c749587eb8069ed8c299355b4ed5410b9e53b90a4"
+    },
+    {
+      "path": "assets/puppy-female/year-1-en-6.mp3",
+      "size": 8925,
+      "sha256": "5c52c281024f9624ce8c452cfca927eb6a3506138c24b36d493a86e5126a5528"
+    },
+    {
+      "path": "assets/puppy-female/year-1-en-7.mp3",
+      "size": 9645,
+      "sha256": "4aad20628c54cc0374a42fa61c4e6642d0253018c13bf0fe1d7774fa2c899ffd"
+    },
+    {
+      "path": "assets/puppy-female/year-1-en-8.mp3",
+      "size": 8205,
+      "sha256": "5de99c00c46e2eedbb1eaf67923c035972d43238dc9b5afe79406c7c67019b2f"
+    },
+    {
+      "path": "assets/puppy-female/year-1-en-9.mp3",
+      "size": 13005,
+      "sha256": "5067ebfddc1cb6e3a163e971fb71b4c910dd336b42529809875397a736581ab5"
+    },
+    {
+      "path": "assets/puppy-female/year-1-guide.mp3",
+      "size": 49485,
+      "sha256": "0a46bdbe12f2dd2d151d858686646aa8618fedf647b4c76a7e2359c1c5bccbda"
+    },
+    {
+      "path": "assets/puppy-female/year-10-en-0.mp3",
+      "size": 29805,
+      "sha256": "c0c7de6f9c93bacf2aed5f4ccde6775110414ac899eb6e3f5f6ab2fe4b643157"
+    },
+    {
+      "path": "assets/puppy-female/year-10-en-1.mp3",
+      "size": 21165,
+      "sha256": "92b3a98ac2c48dbc245b66be2ea230bc6b73beb3c8d9285ce104e8ef552e0250"
+    },
+    {
+      "path": "assets/puppy-female/year-10-en-2.mp3",
+      "size": 13725,
+      "sha256": "cafaf54d3606bdce7524eb39706a797b7ff3260d1812ab850eebd6dcc3b6e707"
+    },
+    {
+      "path": "assets/puppy-female/year-10-en-3.mp3",
+      "size": 16365,
+      "sha256": "81fd7b3067e05b8e09a1cbbe5a5b88c9ba3827d543b26a7cf2acec96a8f17601"
+    },
+    {
+      "path": "assets/puppy-female/year-10-en-4.mp3",
+      "size": 18045,
+      "sha256": "0078334aa1fca3e2965f7889972789abf0f68c7ae9fa7d0aea90061a7356c1dc"
+    },
+    {
+      "path": "assets/puppy-female/year-10-en-5.mp3",
+      "size": 13965,
+      "sha256": "e253c0b40e6167b8e43bd88c54a5c125b6c00a2d7229c19c826ddcc8c9098a74"
+    },
+    {
+      "path": "assets/puppy-female/year-10-en-6.mp3",
+      "size": 19725,
+      "sha256": "5c60f5ec0649aebc4163d08dad0f24ab3363549a72f189c511d7d4cb0194c4cb"
+    },
+    {
+      "path": "assets/puppy-female/year-10-en-7.mp3",
+      "size": 18045,
+      "sha256": "5c2a53881aa0d8aabc823362a30b6088dd3c2fb367d93b1c6fb15b35bada636d"
+    },
+    {
+      "path": "assets/puppy-female/year-10-en-8.mp3",
+      "size": 22125,
+      "sha256": "1e784496a8188b6dfe66ea8dc6ddd708ada0a5e5717ec27738c503bc01f54089"
+    },
+    {
+      "path": "assets/puppy-female/year-10-en-9.mp3",
+      "size": 19485,
+      "sha256": "32fcf4629b903a59a52bf88ef8385bac28343cf97c0b3927a5f14f4294b58b8e"
+    },
+    {
+      "path": "assets/puppy-female/year-10-guide.mp3",
+      "size": 49725,
+      "sha256": "97cc0c31e04839d58f82cb9b67c97143c3941012f4898f859a4c9af079554cb2"
+    },
+    {
+      "path": "assets/puppy-female/year-11-en-0.mp3",
+      "size": 23805,
+      "sha256": "d3f8056505b5b2b47c940bfda13f44abd8fae27e413862622901b776b8399629"
+    },
+    {
+      "path": "assets/puppy-female/year-11-en-1.mp3",
+      "size": 22125,
+      "sha256": "f6e0a1f4ec036cbd95205c47445b6995e360f8a452de08b9836d90bc791b5b94"
+    },
+    {
+      "path": "assets/puppy-female/year-11-en-2.mp3",
+      "size": 21405,
+      "sha256": "71695bffa43152ea2c6e53163c9241e131b54920db625fa902857637d570b60a"
+    },
+    {
+      "path": "assets/puppy-female/year-11-en-3.mp3",
+      "size": 21405,
+      "sha256": "08ee2519b5999297b39d97ff931a4f9876ac9e0bf41dc0c030941c474e0f68b0"
+    },
+    {
+      "path": "assets/puppy-female/year-11-en-4.mp3",
+      "size": 18765,
+      "sha256": "cd49e5fb25802d5921bcdedf4cad4f1dd407156f1ad79d73317390ee185fc3fc"
+    },
+    {
+      "path": "assets/puppy-female/year-11-en-5.mp3",
+      "size": 27165,
+      "sha256": "4181a7a0bd3d0ecfa618ad435042693799d8e1e2a3a802d3f070b8ba88f1b158"
+    },
+    {
+      "path": "assets/puppy-female/year-11-en-6.mp3",
+      "size": 24045,
+      "sha256": "2616d0608846b26fe184db7e5781e55370219cfe87ad1e560a5fb54fa70a8c4c"
+    },
+    {
+      "path": "assets/puppy-female/year-11-en-7.mp3",
+      "size": 20445,
+      "sha256": "b424a63bffe51cceacfea2a631a3dc46b222730d3d53a0c3b20d85a6ddeac54e"
+    },
+    {
+      "path": "assets/puppy-female/year-11-en-8.mp3",
+      "size": 20445,
+      "sha256": "81397e8d724b0ef2755f162d5a50cbdbd51886b83bd2fe5b69c5d18871098c40"
+    },
+    {
+      "path": "assets/puppy-female/year-11-en-9.mp3",
+      "size": 25485,
+      "sha256": "b7f06ad30094c2dbc8c3ad57b7c48d6ecfdcb5bf1ef1ed3dad1a5f29c5b053e6"
+    },
+    {
+      "path": "assets/puppy-female/year-11-guide.mp3",
+      "size": 40125,
+      "sha256": "4147e1f427b94ba0aa6708054124c7669dc1b981f39ffe6ed0d29471d0e2dde0"
+    },
+    {
+      "path": "assets/puppy-female/year-12-en-0.mp3",
+      "size": 15645,
+      "sha256": "6fbf776f7efe573db4e0a36afffad1f45b68af52bcab16018ee9847702e1f281"
+    },
+    {
+      "path": "assets/puppy-female/year-12-en-1.mp3",
+      "size": 19725,
+      "sha256": "154a20f860fc2225b2e8979a7ac5eabc00ce80cf8a373004e11df6b8e4fa2650"
+    },
+    {
+      "path": "assets/puppy-female/year-12-en-2.mp3",
+      "size": 24525,
+      "sha256": "ea9e0ef81980a6a425cc70cad3cde0e4f4ebfcd831c1bbc5788e8493530bd165"
+    },
+    {
+      "path": "assets/puppy-female/year-12-en-3.mp3",
+      "size": 18765,
+      "sha256": "e852fcfb0d7b2829baba09f5277fcf5e6369c0f7d379ba206a3a1b95e63f9ae0"
+    },
+    {
+      "path": "assets/puppy-female/year-12-en-4.mp3",
+      "size": 18765,
+      "sha256": "b6135683c11558cd888b0064b17811cc596491d21c03cc8b9a20444bdb6bc6cb"
+    },
+    {
+      "path": "assets/puppy-female/year-12-en-5.mp3",
+      "size": 13965,
+      "sha256": "abae2b24c31f07f437999d59e3d181469939b29cbc31c5808b26283f75b6ce62"
+    },
+    {
+      "path": "assets/puppy-female/year-12-en-6.mp3",
+      "size": 21405,
+      "sha256": "53ec0d04a7368c21e642cf6b2c7ff568ac078014dfbda585320754078da0c501"
+    },
+    {
+      "path": "assets/puppy-female/year-12-en-7.mp3",
+      "size": 18765,
+      "sha256": "744ed036c3333388cded43736401875d4ba5e275a23df0af039df3e7fb6c5531"
+    },
+    {
+      "path": "assets/puppy-female/year-12-en-8.mp3",
+      "size": 29565,
+      "sha256": "925721ef4097cb8740db08e055f299a06c98377d7b6c610990667db21945b7a7"
+    },
+    {
+      "path": "assets/puppy-female/year-12-en-9.mp3",
+      "size": 26205,
+      "sha256": "b169f7864295db4a3a3bf347ef63985f9c2686106040d804c2e7c97af77ea89b"
+    },
+    {
+      "path": "assets/puppy-female/year-12-guide.mp3",
+      "size": 40125,
+      "sha256": "b677c5cc8173fc2b84b0421b3468c7f96b3e28aa498ae5fa464b0fa042c92071"
+    },
+    {
+      "path": "assets/puppy-female/year-13-en-0.mp3",
+      "size": 27885,
+      "sha256": "b7d63a59a0105dbd2d7dd49e8004a9f185d3809b4e1dd1b610d129530c487cd5"
+    },
+    {
+      "path": "assets/puppy-female/year-13-en-1.mp3",
+      "size": 17325,
+      "sha256": "066c87c75732490cea0b651f4f356a591816467ed81bc5968983ccc649d2e683"
+    },
+    {
+      "path": "assets/puppy-female/year-13-en-2.mp3",
+      "size": 17085,
+      "sha256": "af9a441b984eacbeba125f768965e1e57537f9d4b6b07b5bbb867e4f84e5608a"
+    },
+    {
+      "path": "assets/puppy-female/year-13-en-3.mp3",
+      "size": 24045,
+      "sha256": "19f155b6c727da86ed152144fc6557966fd6a29ea9788fc2a9fb73de72c68696"
+    },
+    {
+      "path": "assets/puppy-female/year-13-en-4.mp3",
+      "size": 17805,
+      "sha256": "0aecd4afc5ee915eb10ee2bec8a6e31fbaf9011c8babe4a07b76c00d6eda244b"
+    },
+    {
+      "path": "assets/puppy-female/year-13-en-5.mp3",
+      "size": 18765,
+      "sha256": "909266381591e0a44a20208231f9b88dc1577479a64f51002e3be87f8023ca83"
+    },
+    {
+      "path": "assets/puppy-female/year-13-en-6.mp3",
+      "size": 24525,
+      "sha256": "05502d2cdf2624cb72dbbdd06c02bef25473d4b071d406d40982c4be337b396b"
+    },
+    {
+      "path": "assets/puppy-female/year-13-en-7.mp3",
+      "size": 20445,
+      "sha256": "511c31ff661d7e1f6a89be293e8a6a11bb3741349ea4a06f1447dd9064f3a963"
+    },
+    {
+      "path": "assets/puppy-female/year-13-en-8.mp3",
+      "size": 23085,
+      "sha256": "b59313e8003c87b374d816fa0c0a81ad69fe17751eb2d1c3ce736784d33dd4ce"
+    },
+    {
+      "path": "assets/puppy-female/year-13-en-9.mp3",
+      "size": 23085,
+      "sha256": "4d21d5e116b742cbdea9930751f556f33de90731b2c0059d3656116efaf2cb97"
+    },
+    {
+      "path": "assets/puppy-female/year-13-guide.mp3",
+      "size": 55245,
+      "sha256": "4d838fdd24aefdf27dd53ef8a89b965af2364f844d02bb8aafcda14f62b47fbd"
+    },
+    {
+      "path": "assets/puppy-female/year-14-en-0.mp3",
+      "size": 15645,
+      "sha256": "5b18c97f8b955c6e7684b9ed85082c09645b099b9bc51d095ccbd1aa36a0ac60"
+    },
+    {
+      "path": "assets/puppy-female/year-14-en-1.mp3",
+      "size": 29565,
+      "sha256": "2996e0371956d22cf201e4605c7cb638770cbb24dcf85a970946ac1250aed971"
+    },
+    {
+      "path": "assets/puppy-female/year-14-en-2.mp3",
+      "size": 25485,
+      "sha256": "41f8413ae611974cbc3c53d85447e2074f5f5d0bdcad9f7ebc85f5106aa0443d"
+    },
+    {
+      "path": "assets/puppy-female/year-14-en-3.mp3",
+      "size": 26205,
+      "sha256": "9cd1b214050c4ca5dc94c7799ec4952368e66e8cbc53b0eac04c7c7ee2d320fd"
+    },
+    {
+      "path": "assets/puppy-female/year-14-en-4.mp3",
+      "size": 24525,
+      "sha256": "dfd0590f2cdb37618ed388999fafc0437e1624ab37027286a9f8a39d5fbd4185"
+    },
+    {
+      "path": "assets/puppy-female/year-14-en-5.mp3",
+      "size": 32685,
+      "sha256": "17182f92d478f93bdd8dafe8eea5921cf0cfd0e87ad71f9d88f7b45dfbda0060"
+    },
+    {
+      "path": "assets/puppy-female/year-14-en-6.mp3",
+      "size": 30285,
+      "sha256": "3d7947b90e752d4de67e2bb859f2455db417da262415b0eb13f1d68aa75a5b13"
+    },
+    {
+      "path": "assets/puppy-female/year-14-en-7.mp3",
+      "size": 26925,
+      "sha256": "04565f5949e64cb3390f8cb6ec27cb96b3b8e4179b3fcf7b20c4ad1de92ef142"
+    },
+    {
+      "path": "assets/puppy-female/year-14-en-8.mp3",
+      "size": 24045,
+      "sha256": "22432caa1023695fd79c42dfdc0a103c0fd578edfcd7fec2d582701a64417ec7"
+    },
+    {
+      "path": "assets/puppy-female/year-14-en-9.mp3",
+      "size": 27885,
+      "sha256": "66ace6e6cea4543ad0ae54fc6d537138661ca6345e9bedd0b9a46852706ffb2b"
+    },
+    {
+      "path": "assets/puppy-female/year-14-guide.mp3",
+      "size": 33645,
+      "sha256": "63f71a55cc956c2dc66b8de1c45a2032440dc9496cd0f464f760141df93fa27b"
+    },
+    {
+      "path": "assets/puppy-female/year-15-en-0.mp3",
+      "size": 28125,
+      "sha256": "4e353c5a6c949aac8b58115388611297a8d7b4f4876669ce91653d5765381eed"
+    },
+    {
+      "path": "assets/puppy-female/year-15-en-1.mp3",
+      "size": 24525,
+      "sha256": "64e50e83ba8b8f99884b685e94d0f72d6d91f9c1f71c9610f91bb8b420daedd8"
+    },
+    {
+      "path": "assets/puppy-female/year-15-en-2.mp3",
+      "size": 29565,
+      "sha256": "3dcf20d81ccdc9eac3fa83745de11e57c844da93e11e5c4213763d6e062163a3"
+    },
+    {
+      "path": "assets/puppy-female/year-15-en-3.mp3",
+      "size": 28845,
+      "sha256": "65df88500991a73eda843d3b54633d8f3d5132e8fcb9e82ab73fb2b59f2cb7e4"
+    },
+    {
+      "path": "assets/puppy-female/year-15-en-4.mp3",
+      "size": 27885,
+      "sha256": "480bb777356aa08491c3457da2c3ad2d1598bf77391a21d622d7749e193fc62b"
+    },
+    {
+      "path": "assets/puppy-female/year-15-en-5.mp3",
+      "size": 24045,
+      "sha256": "415840ceb899c9d4175a25e559973226fee3a065cdd0c4a466627a5ec7d2c8f9"
+    },
+    {
+      "path": "assets/puppy-female/year-15-en-6.mp3",
+      "size": 24525,
+      "sha256": "eb7603d67929d6105546919efe64880221ff6a734e42c44870504657a6aa305a"
+    },
+    {
+      "path": "assets/puppy-female/year-15-en-7.mp3",
+      "size": 32925,
+      "sha256": "8b8517ae1ea63f60216d42e01d5a7a129f27774e02be058cd47e317575e9c32a"
+    },
+    {
+      "path": "assets/puppy-female/year-15-en-8.mp3",
+      "size": 27885,
+      "sha256": "e5e3354877766d8bf7d7a75269cb864330582573d889008f9f8e7f999a214416"
+    },
+    {
+      "path": "assets/puppy-female/year-15-en-9.mp3",
+      "size": 28845,
+      "sha256": "be7e8acfe76ce6526aad8c2bf608fdc556018fad9bfe11560929a258ddb376d6"
+    },
+    {
+      "path": "assets/puppy-female/year-15-guide.mp3",
+      "size": 73725,
+      "sha256": "bce2604e0d9748606695ca6ecd7fe0744ae09b7b9176d9e364c68c356b1600b8"
+    },
+    {
+      "path": "assets/puppy-female/year-16-en-0.mp3",
+      "size": 26205,
+      "sha256": "2f69bdc9cca15261b22fd27a0615fb9eda4a1fcdc998cc2a758fe48eed04701b"
+    },
+    {
+      "path": "assets/puppy-female/year-16-en-1.mp3",
+      "size": 23805,
+      "sha256": "fe02adbbd03d683329e09a4e0a51e9c68a7fdc96b5e3d2e2287f104c45b22d52"
+    },
+    {
+      "path": "assets/puppy-female/year-16-en-2.mp3",
+      "size": 17325,
+      "sha256": "f13b71168774e5c57eae546781710448baad848f59e063a0ea4aeba8824ce7bb"
+    },
+    {
+      "path": "assets/puppy-female/year-16-en-3.mp3",
+      "size": 30285,
+      "sha256": "69cb6edf01a94d35f1b9d3896fdb5c67a87f06689c41ca8a21902db60edc352b"
+    },
+    {
+      "path": "assets/puppy-female/year-16-en-4.mp3",
+      "size": 25485,
+      "sha256": "db67642c9752f3dbdb0fc3a3891c43aabc4f67398e138ca71e34e776b9c15d48"
+    },
+    {
+      "path": "assets/puppy-female/year-16-en-5.mp3",
+      "size": 25485,
+      "sha256": "830b3482201ba23965ac55376eb773e581f3cb5dde3cce24f95089e4e9a21bbd"
+    },
+    {
+      "path": "assets/puppy-female/year-16-en-6.mp3",
+      "size": 24525,
+      "sha256": "9ce4cf92490f0a4e6abdef4d19c68839d2c5da742c8ae904cfae7e5f5d47564e"
+    },
+    {
+      "path": "assets/puppy-female/year-16-en-7.mp3",
+      "size": 39405,
+      "sha256": "9a086aca07adbe19f84eded6b350b04ec823d360a3d154ba9113d3b38eaaad3e"
+    },
+    {
+      "path": "assets/puppy-female/year-16-en-8.mp3",
+      "size": 24045,
+      "sha256": "f1afa3467daca8777ce417035db7805d573597527cf060b81b26ddcb21f25e81"
+    },
+    {
+      "path": "assets/puppy-female/year-16-en-9.mp3",
+      "size": 24525,
+      "sha256": "58764460078fefab741cca808746944d4c26e02864774fd2bf11e5a791c5e85c"
+    },
+    {
+      "path": "assets/puppy-female/year-16-guide.mp3",
+      "size": 49725,
+      "sha256": "6677eb468d0a9b54e7f7aff190a2b15c7e90e907c37ca75559d2ece3953e870b"
+    },
+    {
+      "path": "assets/puppy-female/year-17-en-0.mp3",
+      "size": 26205,
+      "sha256": "754a10e5a92e126af77eb13f872ef9e1d5e910314324131d9df6d9288cc21c6b"
+    },
+    {
+      "path": "assets/puppy-female/year-17-en-1.mp3",
+      "size": 45645,
+      "sha256": "0b37cbfab1e991b87a584bc314e763ee201c0e220e68adb0f3008e51dd9b3ee3"
+    },
+    {
+      "path": "assets/puppy-female/year-17-en-2.mp3",
+      "size": 23085,
+      "sha256": "a23a4950647b8ce97e8b2f99dab36ab4fd94a82e469d87903f45aace71ecb90a"
+    },
+    {
+      "path": "assets/puppy-female/year-17-en-3.mp3",
+      "size": 26205,
+      "sha256": "0eb007e33b5b78a7e25ae80fb21254860d05ab298305e47f0686318ae92f05c1"
+    },
+    {
+      "path": "assets/puppy-female/year-17-en-4.mp3",
+      "size": 28845,
+      "sha256": "d2d475b415bdd2f876cd43a28a5b54f54329e1254ef3c57462e25d4ad0e91c80"
+    },
+    {
+      "path": "assets/puppy-female/year-17-en-5.mp3",
+      "size": 22125,
+      "sha256": "8e0ff4c2e56073bf8275a6c429f593462d6bc3ba5b3d440d4cecfc5949b3b151"
+    },
+    {
+      "path": "assets/puppy-female/year-17-en-6.mp3",
+      "size": 25485,
+      "sha256": "c8ac04c19746dfdd622eed3c0be818cf19553056b47f1c7c91756942700a91d7"
+    },
+    {
+      "path": "assets/puppy-female/year-17-en-7.mp3",
+      "size": 23085,
+      "sha256": "b3cb3c4c67bef0c92f666806d3f753e41405764a4eb056fd4c9423d71ea5ae43"
+    },
+    {
+      "path": "assets/puppy-female/year-17-en-8.mp3",
+      "size": 26205,
+      "sha256": "23e0115228a7d81613e634304033acebb9082fd3fea0f2865e5ded75a629a3cf"
+    },
+    {
+      "path": "assets/puppy-female/year-17-en-9.mp3",
+      "size": 19485,
+      "sha256": "db3ab34d4d144272f94bb5ee66302fa18a2e46ac110616d254e2dda8405628f9"
+    },
+    {
+      "path": "assets/puppy-female/year-17-guide.mp3",
+      "size": 29565,
+      "sha256": "f2f53318637529346617213b76b381ca3b2c2eb5fd4fd64da5e8fc6917a41094"
+    },
+    {
+      "path": "assets/puppy-female/year-18-en-0.mp3",
+      "size": 34605,
+      "sha256": "e9ba1e9eec5e3286284f5379874c4a943fcaa06c8bfabafac34be48849b4176a"
+    },
+    {
+      "path": "assets/puppy-female/year-18-en-1.mp3",
+      "size": 25245,
+      "sha256": "617cdf8fbe8a1611e2e04e498d84e14e4fc7958118f909ab1362e12dfedb745a"
+    },
+    {
+      "path": "assets/puppy-female/year-18-en-2.mp3",
+      "size": 34605,
+      "sha256": "0788286b0066f8696633fbb2eb3f30a92937223c33b46e315ed648bab8e4777f"
+    },
+    {
+      "path": "assets/puppy-female/year-18-en-3.mp3",
+      "size": 27885,
+      "sha256": "126537cfa96c0122db2d545d6486d4eed942a5a33898d44582e4bd7c16c8c3f9"
+    },
+    {
+      "path": "assets/puppy-female/year-18-en-4.mp3",
+      "size": 25245,
+      "sha256": "d7a221ac323911e76fd1c724440bd308bab2ca910515f5408676f730ec6a5d94"
+    },
+    {
+      "path": "assets/puppy-female/year-18-en-5.mp3",
+      "size": 33885,
+      "sha256": "30be4fba2a781687fe86cc6b35b2f8c5f338b0327b39f38272db08f9b2855571"
+    },
+    {
+      "path": "assets/puppy-female/year-18-en-6.mp3",
+      "size": 31245,
+      "sha256": "c46111240b3ae7c4e8dc0ed62892d5d19aefeadf8ebd367ff4c6b1b6015eaf4e"
+    },
+    {
+      "path": "assets/puppy-female/year-18-en-7.mp3",
+      "size": 37725,
+      "sha256": "d0f4d9cd00d23675c6e3c5491b88d4ed8222b0d00872451452234967363dee1b"
+    },
+    {
+      "path": "assets/puppy-female/year-18-en-8.mp3",
+      "size": 25245,
+      "sha256": "21791374c321b5a1e5615b50c88fc7d7984e757bdc36f6a1dd22597a0e3e77b3"
+    },
+    {
+      "path": "assets/puppy-female/year-18-en-9.mp3",
+      "size": 38685,
+      "sha256": "73963760aebe0919a8ff0cc42d87e09006f275b98141b8a1531851f5b165f80e"
+    },
+    {
+      "path": "assets/puppy-female/year-18-guide.mp3",
+      "size": 48765,
+      "sha256": "e7878d8b2de1adfb65389c81eff6bd489075e365047924278b26f745c4dd7efa"
+    },
+    {
+      "path": "assets/puppy-female/year-19-en-0.mp3",
+      "size": 24765,
+      "sha256": "64fe37333a17c0ded9803d518bb9ad1a386d9ceba06d690a13ee2cac59fd31dd"
+    },
+    {
+      "path": "assets/puppy-female/year-19-en-1.mp3",
+      "size": 26205,
+      "sha256": "2d6a42b5c597fcc7d77f6caf3e6c704b88821df04748bdf806432dc7f7db763a"
+    },
+    {
+      "path": "assets/puppy-female/year-19-en-2.mp3",
+      "size": 27165,
+      "sha256": "5e62aa23496563ce390490a06b3c70bd3d80df9a20744aa7c2dace09023e6cd4"
+    },
+    {
+      "path": "assets/puppy-female/year-19-en-3.mp3",
+      "size": 33645,
+      "sha256": "240c43e6435cd043577c524b741cb8633df02f2b342062dfd3489f847a33c687"
+    },
+    {
+      "path": "assets/puppy-female/year-19-en-4.mp3",
+      "size": 18765,
+      "sha256": "1251f704a6703bf917cec8543834cf4c0b5224952697ce1b261339bab7947332"
+    },
+    {
+      "path": "assets/puppy-female/year-19-en-5.mp3",
+      "size": 30285,
+      "sha256": "13e3628708b218dff387bcf28844ade6ce6e955b7141d77092cdda1de97ae4d7"
+    },
+    {
+      "path": "assets/puppy-female/year-19-en-6.mp3",
+      "size": 33645,
+      "sha256": "52afcf3cab77be0aa28c5b9d4708e8e5a7c44e56864bfe75d8a1576f97519f99"
+    },
+    {
+      "path": "assets/puppy-female/year-19-en-7.mp3",
+      "size": 37725,
+      "sha256": "55680b2c0bd9d0ab62706dd4ce41b08dbe71784174e4d036b911108f7f4be37b"
+    },
+    {
+      "path": "assets/puppy-female/year-19-en-8.mp3",
+      "size": 37725,
+      "sha256": "972a20ea2d13f87baccc18c085bb2430df89c45b5b93c946e7a9843c2ed33620"
+    },
+    {
+      "path": "assets/puppy-female/year-19-en-9.mp3",
+      "size": 27165,
+      "sha256": "4198703afbcbb19caf7f4f8fa52f84664000365ec1bd9e4953b2fbfea8048abc"
+    },
+    {
+      "path": "assets/puppy-female/year-19-guide.mp3",
+      "size": 36045,
+      "sha256": "31f394944fac57bf0498a5991da3afad6c8e239df8295fd980f10cfe65900912"
+    },
+    {
+      "path": "assets/puppy-female/year-2-en-0.mp3",
+      "size": 14685,
+      "sha256": "fb0d083c466f94b947c14a89292f1b0a70bd9f9dfe00950ace2dff377d11afd1"
+    },
+    {
+      "path": "assets/puppy-female/year-2-en-1.mp3",
+      "size": 13725,
+      "sha256": "a04782670abee66232d3d5520aae063a180528fcb64abb1d6ef76f809a2c10ba"
+    },
+    {
+      "path": "assets/puppy-female/year-2-en-2.mp3",
+      "size": 13005,
+      "sha256": "92c1881380e9e6a8f0e4da791e52252fb90380b75967975ae09f07af661081ca"
+    },
+    {
+      "path": "assets/puppy-female/year-2-en-3.mp3",
+      "size": 11565,
+      "sha256": "4bbffaba47d9c0ad84460e3be1183977cbcfbb64c638c9e1e783477d83f98da8"
+    },
+    {
+      "path": "assets/puppy-female/year-2-en-4.mp3",
+      "size": 13965,
+      "sha256": "fcc2ebb5185fa4cc639f77c5fa8474e7153dd7d6f04a6b7d945c615cd3af4bda"
+    },
+    {
+      "path": "assets/puppy-female/year-2-en-5.mp3",
+      "size": 13005,
+      "sha256": "9119ffcbd4f012545a2589d0b04f690ce521837fcf2cb73a785dd890c89723f4"
+    },
+    {
+      "path": "assets/puppy-female/year-2-en-6.mp3",
+      "size": 13005,
+      "sha256": "35207e24cdfb925999aaf243fc6b280710180f7d84f8ddeaf7dc685017978f11"
+    },
+    {
+      "path": "assets/puppy-female/year-2-en-7.mp3",
+      "size": 13965,
+      "sha256": "1ad242c387a7aa9baa16eaf322bcdff5f384e42e60506c5f50563e2e7e1725c1"
+    },
+    {
+      "path": "assets/puppy-female/year-2-en-8.mp3",
+      "size": 13965,
+      "sha256": "e44cbd0eca7530dedad4b56af433319d34c5373b9a6ff713241a393b33143b96"
+    },
+    {
+      "path": "assets/puppy-female/year-2-en-9.mp3",
+      "size": 15405,
+      "sha256": "7d4112910a47cfc35b082c0ab2b2046f746830bbac05f0f168a5f560bdd16cdc"
+    },
+    {
+      "path": "assets/puppy-female/year-2-guide.mp3",
+      "size": 26445,
+      "sha256": "51d23261ba6b819f1379fcd3416fc3938d533cb5661851660bdbb21a41c473bd"
+    },
+    {
+      "path": "assets/puppy-female/year-20-en-0.mp3",
+      "size": 38685,
+      "sha256": "3409676371c68af27e9c1fa059989b4ceb25f56f6f601a511a8299a5c2078aa4"
+    },
+    {
+      "path": "assets/puppy-female/year-20-en-1.mp3",
+      "size": 37005,
+      "sha256": "bfbe6cc3640f01951d128aefefbbf257f1ed296ec792dde15093a4bfd2164fad"
+    },
+    {
+      "path": "assets/puppy-female/year-20-en-2.mp3",
+      "size": 27885,
+      "sha256": "ab624d99e5bd7c0663ddf16d5a0fef355279c62106d7c6634220d8cea8182eb1"
+    },
+    {
+      "path": "assets/puppy-female/year-20-en-3.mp3",
+      "size": 36525,
+      "sha256": "9b5dde98d9871ae6dda4dc6b8e04dae6c4953b4a45bedbb58557909a478d6339"
+    },
+    {
+      "path": "assets/puppy-female/year-20-en-4.mp3",
+      "size": 45405,
+      "sha256": "e614ab86a07e9a28433d0c466988916a6b0673da8ec5bd75e008ebfbe17c854b"
+    },
+    {
+      "path": "assets/puppy-female/year-20-en-5.mp3",
+      "size": 42045,
+      "sha256": "6e000446e42075de904771a23d4756e10e6eaaf869737776b4e0ac565779c1ca"
+    },
+    {
+      "path": "assets/puppy-female/year-20-en-6.mp3",
+      "size": 36285,
+      "sha256": "ba2f68262c8cbd3d136259a0f248d8eefe504839dfbb8c3e5661b0ed3f802f85"
+    },
+    {
+      "path": "assets/puppy-female/year-20-en-7.mp3",
+      "size": 27165,
+      "sha256": "afd1455ce3eb081f027f6f284144e6ef01157779f4bd8ee0ae8f65a917355cb7"
+    },
+    {
+      "path": "assets/puppy-female/year-20-en-8.mp3",
+      "size": 30525,
+      "sha256": "54b2ce891ff2c09b46ee2ea21cac8299a5abf3cb826e41d4e025f4f893ced2bb"
+    },
+    {
+      "path": "assets/puppy-female/year-20-en-9.mp3",
+      "size": 43725,
+      "sha256": "9fa82e2a6648554e3973f16ec0c552e48c033aa9c9d153aff220aeedbc7abac3"
+    },
+    {
+      "path": "assets/puppy-female/year-20-guide.mp3",
+      "size": 38445,
+      "sha256": "2d1f3ff81fa0cf688d9e9e6a62715eff4d13a31ec9da0bb549fc1cb01ef3fbd9"
+    },
+    {
+      "path": "assets/puppy-female/year-3-en-0.mp3",
+      "size": 15405,
+      "sha256": "0bd308accd66d674a0cbfac5e026000e3f8bdf29938588d988d34f2c08b4dcb0"
+    },
+    {
+      "path": "assets/puppy-female/year-3-en-1.mp3",
+      "size": 13005,
+      "sha256": "aea0b56d7b59d168c821f5116dc80f4e5092902d7a82541136cff12eb10ef42a"
+    },
+    {
+      "path": "assets/puppy-female/year-3-en-2.mp3",
+      "size": 13005,
+      "sha256": "3aa34a54da02ca83292196d441b778485692c21d2b19075585b4d9fb79223570"
+    },
+    {
+      "path": "assets/puppy-female/year-3-en-3.mp3",
+      "size": 13005,
+      "sha256": "714138e69cceb4a1427a1d77f63eff16085051516e1a8668bd23121ed70d231e"
+    },
+    {
+      "path": "assets/puppy-female/year-3-en-4.mp3",
+      "size": 16605,
+      "sha256": "647a3ea94c22261f0a70751785e8bf4d5b1a762765201b055eed15d4fab8522c"
+    },
+    {
+      "path": "assets/puppy-female/year-3-en-5.mp3",
+      "size": 13005,
+      "sha256": "3e1cbbcd893ebfb3e7908870f4ae5fbfada82ecf061fdcd14d0ca85b9de8314d"
+    },
+    {
+      "path": "assets/puppy-female/year-3-en-6.mp3",
+      "size": 11565,
+      "sha256": "f670a8991f4691f346c815f8d9de98f499ae54eb9e871679ae06207e57be00ac"
+    },
+    {
+      "path": "assets/puppy-female/year-3-en-7.mp3",
+      "size": 12285,
+      "sha256": "9c6d233993c9a589b0596a1fd440de7af9d8d7fc5c24056e4abc43a41a7c19c5"
+    },
+    {
+      "path": "assets/puppy-female/year-3-en-8.mp3",
+      "size": 17325,
+      "sha256": "90db3d97b3715e37c97bd91d6ed56ee965faff7e3ed257944761455cd300c37f"
+    },
+    {
+      "path": "assets/puppy-female/year-3-en-9.mp3",
+      "size": 14685,
+      "sha256": "ce1955d959156ee3b9917f7ff0cf82a57f5d8bf30b08ae9a9fe10ca0eff6e05e"
+    },
+    {
+      "path": "assets/puppy-female/year-3-guide.mp3",
+      "size": 31245,
+      "sha256": "ae94b0953beb83cb22f47df073c4deff2359fac6f66ddd54db91e9c80b218120"
+    },
+    {
+      "path": "assets/puppy-female/year-4-en-0.mp3",
+      "size": 11325,
+      "sha256": "2605de2f0ac25e682f44818ce1f13b1d7d5bde50e9938bcd3d9424ade7c18e12"
+    },
+    {
+      "path": "assets/puppy-female/year-4-en-1.mp3",
+      "size": 13965,
+      "sha256": "e5edd334e2613a4bd0fc97de17fbc54df2406f00458c5f040ac2578c34ca78e1"
+    },
+    {
+      "path": "assets/puppy-female/year-4-en-2.mp3",
+      "size": 13725,
+      "sha256": "8f527220b74f918c4feaa37e4e861ec98f96e22a010dff83158988d87c146d9b"
+    },
+    {
+      "path": "assets/puppy-female/year-4-en-3.mp3",
+      "size": 20445,
+      "sha256": "9df735c674c94c8f3af8273aa421e958c018dd48afa31f26dd106ddfd6179b19"
+    },
+    {
+      "path": "assets/puppy-female/year-4-en-4.mp3",
+      "size": 13005,
+      "sha256": "043996883b1d49807af4b82b23dcf4389f0747372cdc7280bb333fba248dcb27"
+    },
+    {
+      "path": "assets/puppy-female/year-4-en-5.mp3",
+      "size": 13965,
+      "sha256": "01c9be5d8f6eac94be261b926e581ddf3bcf9a13f63c3dbd49ad82ed06e5ad4d"
+    },
+    {
+      "path": "assets/puppy-female/year-4-en-6.mp3",
+      "size": 13005,
+      "sha256": "673f90024158b907c7acfd01ee60561396d7d757626b1c62fe7ddeedab6fd2a6"
+    },
+    {
+      "path": "assets/puppy-female/year-4-en-7.mp3",
+      "size": 11565,
+      "sha256": "1c120f1ced704d5a20c87ebcccafe8c5b3857edc4f46c826066ca9fe07288c08"
+    },
+    {
+      "path": "assets/puppy-female/year-4-en-8.mp3",
+      "size": 15645,
+      "sha256": "ffa8481d20234998cdb0a776c5302ddc642c09381c6043543d61ddb8013818e1"
+    },
+    {
+      "path": "assets/puppy-female/year-4-en-9.mp3",
+      "size": 16605,
+      "sha256": "4e93d51699ee11be8fc52cbecfdc7f82218e7ca028fd52811309710dd0cf3fd9"
+    },
+    {
+      "path": "assets/puppy-female/year-4-guide.mp3",
+      "size": 32925,
+      "sha256": "e6768196c3559d7a5679b2ba9f4e003b865c014852301fda20d46955856f2a6f"
+    },
+    {
+      "path": "assets/puppy-female/year-5-en-0.mp3",
+      "size": 16365,
+      "sha256": "ac1c4ceb743339fe3a0c3807fc6d7a918247e9c1a352af2edf62e0d438e8e42a"
+    },
+    {
+      "path": "assets/puppy-female/year-5-en-1.mp3",
+      "size": 21405,
+      "sha256": "d54a55b6665d679d787dafa7de7b68517cc9345fe11420f923d47087deb2fd5a"
+    },
+    {
+      "path": "assets/puppy-female/year-5-en-2.mp3",
+      "size": 21405,
+      "sha256": "e5e9a1c192f6aef126a301672bf8fd9c2eabe3ca74223933497373f3f072393f"
+    },
+    {
+      "path": "assets/puppy-female/year-5-en-3.mp3",
+      "size": 17325,
+      "sha256": "c07d6acde250cd80c64bac64ffa20d44db535d3e301c325841887b07c1525c59"
+    },
+    {
+      "path": "assets/puppy-female/year-5-en-4.mp3",
+      "size": 19005,
+      "sha256": "a9dcad0c774cc6e8d61d389f35cb8011ac9d5576cd56d74bc491877baf4f7f2c"
+    },
+    {
+      "path": "assets/puppy-female/year-5-en-5.mp3",
+      "size": 15645,
+      "sha256": "41ec33f421b4c9aed78870891757c65f2e8c65300278cfcc2a397672cb400856"
+    },
+    {
+      "path": "assets/puppy-female/year-5-en-6.mp3",
+      "size": 16605,
+      "sha256": "55b4197b0f2dcb9723dd7fe25aa22d126edcaa0a1f7e7a6facef40e7122292cb"
+    },
+    {
+      "path": "assets/puppy-female/year-5-en-7.mp3",
+      "size": 13245,
+      "sha256": "0ced9356e9e940f9e1e707907fd964593eb687f976845037378575f2b5f4cf4d"
+    },
+    {
+      "path": "assets/puppy-female/year-5-en-8.mp3",
+      "size": 14685,
+      "sha256": "472f1fa9720d156a00de8f18d7ee0fa0b18b1803b998b856354eeeeefda3471f"
+    },
+    {
+      "path": "assets/puppy-female/year-5-en-9.mp3",
+      "size": 12285,
+      "sha256": "aec093b7fce998f0f18bf2b148e09a364c8dc9241dc53af87de900608e816420"
+    },
+    {
+      "path": "assets/puppy-female/year-5-guide.mp3",
+      "size": 33645,
+      "sha256": "f3dc7ce7fff0d904fb7cac23af6a28d5ed59c2730a36d4482f9c9e2074f8ab13"
+    },
+    {
+      "path": "assets/puppy-female/year-6-en-0.mp3",
+      "size": 17325,
+      "sha256": "884004b7299a9e91246ffb81df0a6433eba7e9ff5329d37a937996237a917cce"
+    },
+    {
+      "path": "assets/puppy-female/year-6-en-1.mp3",
+      "size": 18765,
+      "sha256": "ed3c0e028467b98a6824750234c8618b41fa13bf2cad8c34e0392609a9789048"
+    },
+    {
+      "path": "assets/puppy-female/year-6-en-2.mp3",
+      "size": 30285,
+      "sha256": "97405af9695945dcec6bddd051b39ec534817a4a70c9da6c37ef4cd5f0a43b7c"
+    },
+    {
+      "path": "assets/puppy-female/year-6-en-3.mp3",
+      "size": 17325,
+      "sha256": "2006285d1a547a9e25b68512c4b0885e07669b9405a6ce9e510c3a763d355d2f"
+    },
+    {
+      "path": "assets/puppy-female/year-6-en-4.mp3",
+      "size": 24045,
+      "sha256": "c12b81b804f73299355ec7d03f652f3da48a4b57d7bc84ceea1e09b9e8f1841e"
+    },
+    {
+      "path": "assets/puppy-female/year-6-en-5.mp3",
+      "size": 19725,
+      "sha256": "1664509fb007c88450b9cfb0c241010a01d6787c00f9e5b2a6f48ffa25cd019e"
+    },
+    {
+      "path": "assets/puppy-female/year-6-en-6.mp3",
+      "size": 17325,
+      "sha256": "755bf1fe9e765df2e72f351354b12adcf8b2496a849d4551049c7c6a95fcf221"
+    },
+    {
+      "path": "assets/puppy-female/year-6-en-7.mp3",
+      "size": 18045,
+      "sha256": "29d82b6f97d1c24cbb3e17b42fea72704d26deab28e44f7924ff00f73a94033b"
+    },
+    {
+      "path": "assets/puppy-female/year-6-en-8.mp3",
+      "size": 18045,
+      "sha256": "e790c1f850ebb1029cbda14915ab989ea501274cf4054084486596d43f3370e8"
+    },
+    {
+      "path": "assets/puppy-female/year-6-en-9.mp3",
+      "size": 17325,
+      "sha256": "db78c7371534f75fbfebdc4a4b128cd18f705e2b15aacfbf2c88c175a6030331"
+    },
+    {
+      "path": "assets/puppy-female/year-6-guide.mp3",
+      "size": 54525,
+      "sha256": "a51d2a608ba11a788e93198c3e7a30e79dac5e6865844220d16ea2cbef03b315"
+    },
+    {
+      "path": "assets/puppy-female/year-7-en-0.mp3",
+      "size": 15645,
+      "sha256": "1fc567f989902d65827a81fc41043d91340e90996e7b907a722bf01a3dbeaeb4"
+    },
+    {
+      "path": "assets/puppy-female/year-7-en-1.mp3",
+      "size": 16365,
+      "sha256": "db0b90995667d2b3a2edf0a3d77d9a5baf6981fe1961afd832d96211aa3473de"
+    },
+    {
+      "path": "assets/puppy-female/year-7-en-2.mp3",
+      "size": 14685,
+      "sha256": "da8792e2bacf67dbf0c698bcd6535227f4e9ee4c3fd8612ed2f3e035f6933a51"
+    },
+    {
+      "path": "assets/puppy-female/year-7-en-3.mp3",
+      "size": 16365,
+      "sha256": "4763d3ab4b811f727c056b711d88b351669835ce829e765f130275a9b3f08080"
+    },
+    {
+      "path": "assets/puppy-female/year-7-en-4.mp3",
+      "size": 16365,
+      "sha256": "388d39c18c92be7e9d892d5b77690bac1097bc2f73547e2c19f786fbdee20321"
+    },
+    {
+      "path": "assets/puppy-female/year-7-en-5.mp3",
+      "size": 13965,
+      "sha256": "981d12c21c3220c3d9879ece07f47cd16ab8b768ef9c8b0ae753883b189573a1"
+    },
+    {
+      "path": "assets/puppy-female/year-7-en-6.mp3",
+      "size": 13965,
+      "sha256": "1352c5a8dbc4ec637e0006dcc82324810f3677e232f19ddc909cc4193a6c675f"
+    },
+    {
+      "path": "assets/puppy-female/year-7-en-7.mp3",
+      "size": 19725,
+      "sha256": "320b674079ad9090b572bd91d01a51946139ca263c266fc613363df741147cc1"
+    },
+    {
+      "path": "assets/puppy-female/year-7-en-8.mp3",
+      "size": 12765,
+      "sha256": "040c2654ed12899947682ce84507a11a52e4cce58c9881ebaf2073daa88bc874"
+    },
+    {
+      "path": "assets/puppy-female/year-7-en-9.mp3",
+      "size": 12285,
+      "sha256": "4b6c78b23476fcfae06d0414d593cf5b5d977105f8eed2f05fffdeaacf762958"
+    },
+    {
+      "path": "assets/puppy-female/year-7-guide.mp3",
+      "size": 24045,
+      "sha256": "f7e54ebd788293618f77b7ea1b3c08fb2862a4324b5cb142c8b0097cdcfe38fd"
+    },
+    {
+      "path": "assets/puppy-female/year-8-en-0.mp3",
+      "size": 18045,
+      "sha256": "a97a06a5084c1fa1d911a76f479dae1eb4ef637021aa117eeedfa69d5f64f411"
+    },
+    {
+      "path": "assets/puppy-female/year-8-en-1.mp3",
+      "size": 24525,
+      "sha256": "e181d45d994a725ebe627ff49917646a20c55afbc4970a2f10b48ad9964166d9"
+    },
+    {
+      "path": "assets/puppy-female/year-8-en-2.mp3",
+      "size": 15645,
+      "sha256": "83d36e3cb786b0cc0c28753dc7b84db13296bcdb2d0aeeeb326323a1409ed4a1"
+    },
+    {
+      "path": "assets/puppy-female/year-8-en-3.mp3",
+      "size": 19725,
+      "sha256": "9e897c70826af2d5e5d6521b39b2d39603b3b6723de5e6be5cdb70844b8a7a13"
+    },
+    {
+      "path": "assets/puppy-female/year-8-en-4.mp3",
+      "size": 20445,
+      "sha256": "94dab04e0366e03ba1d5fec8693bf50d9dbb143a85ad8190669a8fa2b22bc39c"
+    },
+    {
+      "path": "assets/puppy-female/year-8-en-5.mp3",
+      "size": 19725,
+      "sha256": "e5add90c64b4f02bc7d2c123b8fee21241596eac082c27459d60be62c591bb18"
+    },
+    {
+      "path": "assets/puppy-female/year-8-en-6.mp3",
+      "size": 20445,
+      "sha256": "b86bf0d0fbb8afd6fdf48aeef8b31764fe673326184645dc5bebb2cc7d049126"
+    },
+    {
+      "path": "assets/puppy-female/year-8-en-7.mp3",
+      "size": 15405,
+      "sha256": "9facb85ffe34162504751e60fae2aa0b1c5d4a1d96d62fec689717dcf79d4310"
+    },
+    {
+      "path": "assets/puppy-female/year-8-en-8.mp3",
+      "size": 13965,
+      "sha256": "964a7c6916eddf0910d1a7d362e63904c928fb053066340328eeabaa638799b1"
+    },
+    {
+      "path": "assets/puppy-female/year-8-en-9.mp3",
+      "size": 13005,
+      "sha256": "d28c7f563d808c4aa1ea9ceca43eb1b0cb3e822f4a8f97c455298767dd35033f"
+    },
+    {
+      "path": "assets/puppy-female/year-8-guide.mp3",
+      "size": 27885,
+      "sha256": "94cee08d9760b5df715d5f760a34bed4d8c358956336701443dd7130bd8a7c98"
+    },
+    {
+      "path": "assets/puppy-female/year-9-en-0.mp3",
+      "size": 27165,
+      "sha256": "bbff942ce096d46ea395aec62eb8949402055fc78d729e2c083c33720dfa273f"
+    },
+    {
+      "path": "assets/puppy-female/year-9-en-1.mp3",
+      "size": 27885,
+      "sha256": "528607a43af27c9ed9ed094f9c43d2160ab4f0c4053e0917723c03a6304c7a2e"
+    },
+    {
+      "path": "assets/puppy-female/year-9-en-2.mp3",
+      "size": 19485,
+      "sha256": "5b913d78ae48e187e258306af99941d9456ee81d79a8219498bf72ce2626c073"
+    },
+    {
+      "path": "assets/puppy-female/year-9-en-3.mp3",
+      "size": 17325,
+      "sha256": "b8fb75bc317da96d233a64521dc0d2f782def8944cb7bdcb41aada56c5551e00"
+    },
+    {
+      "path": "assets/puppy-female/year-9-en-4.mp3",
+      "size": 17325,
+      "sha256": "e69743fecb56e32b8229c00b6df5d839e80f8bbf7197bfe2c9d9cf30a6d00e82"
+    },
+    {
+      "path": "assets/puppy-female/year-9-en-5.mp3",
+      "size": 21165,
+      "sha256": "5d814e812b277adc17469de88f7a25d2e9efa1274cbde110cce249901e58311f"
+    },
+    {
+      "path": "assets/puppy-female/year-9-en-6.mp3",
+      "size": 23805,
+      "sha256": "1409af2304fd49d916ed0b7cd7e26f69b6c31f1c91c8aa0bd026b3982cd124d2"
+    },
+    {
+      "path": "assets/puppy-female/year-9-en-7.mp3",
+      "size": 14685,
+      "sha256": "a169a3d3d62b1f1a3a3f67c0ee66ad8ce44f0cf8c7a7db073f812ca4ef5f509d"
+    },
+    {
+      "path": "assets/puppy-female/year-9-en-8.mp3",
+      "size": 14685,
+      "sha256": "ab086196e00dc542ffe336f94e2bb51fa49d7e24c120c1be5cd8b9216ad8bc2a"
+    },
+    {
+      "path": "assets/puppy-female/year-9-en-9.mp3",
+      "size": 17325,
+      "sha256": "452559226db16d722fb23b3297aac9bdfe381b1fb3cdf24253d8da4dcbf64758"
+    },
+    {
+      "path": "assets/puppy-female/year-9-guide.mp3",
+      "size": 41565,
+      "sha256": "551b42c2389a43e8ca4ef2f901706e5ebf383717d19c34baf4a429aefbbdc5a2"
+    },
+    {
+      "path": "assets/puppy-greeting.mp3",
+      "size": 69165,
+      "sha256": "2c08ca5cf5001aec00c50b24bbbc5f6426a3038c2d2d1dcd152624061f267692"
+    },
+    {
+      "path": "assets/puppy-male/cn-again.mp3",
+      "size": 37725,
+      "sha256": "d317785cbebeac1b4da5d85562614a823934852e2ab9f397babcdc09864b8cdc"
+    },
+    {
+      "path": "assets/puppy-male/cn-all-finished.mp3",
+      "size": 37965,
+      "sha256": "f436c2a9cd5e68777ec27b9cdf99427211eeac434c4f5b9c8f99dc7aa5f80b78"
+    },
+    {
+      "path": "assets/puppy-male/cn-cheer-0.mp3",
+      "size": 32445,
+      "sha256": "536fe1ffff2954e3d3236796c90187fb95d74a291d4fad7a4f94ce518a84c51f"
+    },
+    {
+      "path": "assets/puppy-male/cn-cheer-1.mp3",
+      "size": 32205,
+      "sha256": "c548c2e05e6a027301c78b95109da5a2e73b1e3580681c7bf80adceb6c01e377"
+    },
+    {
+      "path": "assets/puppy-male/cn-cheer-2.mp3",
+      "size": 22365,
+      "sha256": "6a23f4a2713ebe9b761f26f314d59dda8a011f7e3b044eb2a1b42b102dbf9eff"
+    },
+    {
+      "path": "assets/puppy-male/cn-cheer-3.mp3",
+      "size": 24765,
+      "sha256": "3034b4795df3441e624dd616387afdc93e642bb8882892e001ce294b3001bdbc"
+    },
+    {
+      "path": "assets/puppy-male/cn-cheer-4.mp3",
+      "size": 22605,
+      "sha256": "4fa3f5375f39a93dacf5e9b5439a0f8c6a6205973a488032c53adaa536e77715"
+    },
+    {
+      "path": "assets/puppy-male/cn-finish.mp3",
+      "size": 43245,
+      "sha256": "e055babbe056db494b064209e951b8890b5e806ad7065d7c882b9b30469782a1"
+    },
+    {
+      "path": "assets/puppy-male/cn-fix.mp3",
+      "size": 22365,
+      "sha256": "9777d9913730b6903bcf4f8e009d8545c71423bac3947ea855e16df256b4201e"
+    },
+    {
+      "path": "assets/puppy-male/cn-gentle-0.mp3",
+      "size": 53805,
+      "sha256": "c921c0a074f599d5ff30d08c2730cbfece630defcf7b31982400a3974ee6391e"
+    },
+    {
+      "path": "assets/puppy-male/cn-gentle-1.mp3",
+      "size": 46605,
+      "sha256": "8e5ea29a621a939d939454b8061e19dca04adf214d63cda417951393bb746c20"
+    },
+    {
+      "path": "assets/puppy-male/cn-identity.mp3",
+      "size": 54045,
+      "sha256": "5cfa80fa59370e3fde9cf548bc00157d72e197b5f33eafac2749dd38f86ace6f"
+    },
+    {
+      "path": "assets/puppy-male/cn-joke-0.mp3",
+      "size": 83805,
+      "sha256": "6216c796551b828520d8344fa9b8018d8aa23dc1bcaf8b5e3f907cd256351c08"
+    },
+    {
+      "path": "assets/puppy-male/cn-joke-1.mp3",
+      "size": 67245,
+      "sha256": "c3c6a76693fbd44310c8e7ff24bc7f75af6c79db0d7a4ccd9ff0b68f58108465"
+    },
+    {
+      "path": "assets/puppy-male/cn-joke-2.mp3",
+      "size": 64125,
+      "sha256": "752e0b101ddbd7886abcb9431fcc40c6cbce216d59d66ec426d1a430e76cffb8"
+    },
+    {
+      "path": "assets/puppy-male/cn-meaning.mp3",
+      "size": 33165,
+      "sha256": "0433ad87a9f6f16c36026b63a833deb77929e1e0ca8d6db2c7901093121a07f5"
+    },
+    {
+      "path": "assets/puppy-male/cn-retry-0.mp3",
+      "size": 25965,
+      "sha256": "ce9dc54427437b3dea03884f0178ff4793a07bc7f24443236dc593adf8a40f89"
+    },
+    {
+      "path": "assets/puppy-male/cn-retry-1.mp3",
+      "size": 24765,
+      "sha256": "1d6b24f8106e3dcd285b741bfda07b699f49bc30b5380750bf77b0e9efa034fb"
+    },
+    {
+      "path": "assets/puppy-male/cn-retry-2.mp3",
+      "size": 25485,
+      "sha256": "3bc09d761791a000e7f0a3186a156b9ba900a1edd7d0e5edc2f57cea6edaf954"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-action.mp3",
+      "size": 23325,
+      "sha256": "b0d206f0bf50103e6feb3bd4197e0bdd52a87935691837f84da16dfeb149e2a8"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-bye-word.mp3",
+      "size": 19965,
+      "sha256": "672380ab3512e2b56653cfbe9231ed3bafcfb20ae3503ab5b7304632cbe0b8fe"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-city.mp3",
+      "size": 24525,
+      "sha256": "6bd59a41cf898344e3c55192cf4f819d35339aec41f668502c91f6f68b303b37"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-dog-action.mp3",
+      "size": 25485,
+      "sha256": "63144c6a26dbd850cffd5c13635d341a6f55897fb8a20da7cf302379959a99d6"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-drink.mp3",
+      "size": 54285,
+      "sha256": "db376cbfc9a580661eee9cb7f5122645fec54222e482bf82e3c6fcd3980a317c"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-feeling.mp3",
+      "size": 59805,
+      "sha256": "739882b83fe5dfec584fd695a9bf0320052824906683b9f92f4cccb5e796889c"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-food.mp3",
+      "size": 22605,
+      "sha256": "51c40c5543c31c2f41abf8e93f59c51e562038cbf7db04dcf4d1ad4545c8a905"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-future.mp3",
+      "size": 26445,
+      "sha256": "94717b8d2ffd7b3cbc2e8f530e7d199372e02ea4ad14e2cfda8d88638e495058"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-goodbye.mp3",
+      "size": 27165,
+      "sha256": "4084c85f5468ea5e6d1b106a76d6f44e7637fe11a1a54c11671e162794d13582"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-habit.mp3",
+      "size": 34125,
+      "sha256": "4f248b368752171eb0099b68a0efc02d7b05dff4e77d180c2f8094d23b85431d"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-hello-word.mp3",
+      "size": 25005,
+      "sha256": "2b20741480060a8bb4a84fd68133060990000ff056c3df254d7482d8f546973a"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-invite.mp3",
+      "size": 43485,
+      "sha256": "b87b30012eef21cde84b9a0173a89642aea227ca36d76ccf8bc151254c05dadd"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-name.mp3",
+      "size": 25005,
+      "sha256": "739542e3386ecacd716e4445967f6f71fe95448ac5a4e657f1b447ddca12dc30"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-past.mp3",
+      "size": 28605,
+      "sha256": "259e523ea569458c49e08de6cd6d737d9dcccc700118cee06a9d8456f7e8d835"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-please-word.mp3",
+      "size": 26925,
+      "sha256": "c89a77a0e3cb90bcb461ded3fb15199da590cc93ef76df378303988f694ce666"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-plural.mp3",
+      "size": 27885,
+      "sha256": "d7195f0f8e8cd69e1adfdef9c83a25f77d4534f41819063810bbcc8401de28a8"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-see.mp3",
+      "size": 36525,
+      "sha256": "6d0130f1c683f3d288fa5edc50444f0f82ea56c7d10edd31e59ea6d6e303efdd"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-thanks-word.mp3",
+      "size": 27885,
+      "sha256": "172a4b5d52773ffefbdfbb2b0657a817eba89ad44277069ac0d34af2dc1527f4"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-thanks.mp3",
+      "size": 29085,
+      "sha256": "33253cba64136283632e8b3386499dfe9b159a1ecb480991b6c1913874f4151e"
+    },
+    {
+      "path": "assets/puppy-male/cn-teach-third-person.mp3",
+      "size": 27645,
+      "sha256": "8baa004d6ab3a3bb660ddb945b25e87b7aabf74965f3d101c4166ffb0a44bcbc"
+    },
+    {
+      "path": "assets/puppy-male/cn-turn.mp3",
+      "size": 9165,
+      "sha256": "4391ab4f4bdcd0b5c42c4b597f2adf02c0c200001aa0b36fad478e24804dae1f"
+    },
+    {
+      "path": "assets/puppy-male/cn-welcome.mp3",
+      "size": 37245,
+      "sha256": "9362f30add7b598c8855ed5eb740d9a233d285bc2bb1ea0178f00dabfffae680"
+    },
+    {
+      "path": "assets/puppy-male/en-action.mp3",
+      "size": 12285,
+      "sha256": "7b6481d2d7558f3f3615b64e50f0b24fcdf5f7b2fd696aac207a7a46e5390218"
+    },
+    {
+      "path": "assets/puppy-male/en-bye-word.mp3",
+      "size": 7725,
+      "sha256": "865bdf929fa4c35b06848ee6ac429cbe48077a7fc5d7e37058bc7cdd277050c1"
+    },
+    {
+      "path": "assets/puppy-male/en-city.mp3",
+      "size": 19245,
+      "sha256": "ab9deb743bc5632f08cbeb6873e5cf5ff9bac2a2d7eb9ea28920df7883d8a982"
+    },
+    {
+      "path": "assets/puppy-male/en-dog-action.mp3",
+      "size": 14445,
+      "sha256": "5ab0ae575ce3fd45152071128d0f9823e40ce7300372d421206b061f1e4f93ba"
+    },
+    {
+      "path": "assets/puppy-male/en-drink.mp3",
+      "size": 17085,
+      "sha256": "01e799405c3e764d13fa1a36b7a12b26b2f82321c338ddc25c6f178bb4e0047d"
+    },
+    {
+      "path": "assets/puppy-male/en-feeling.mp3",
+      "size": 19245,
+      "sha256": "b51fb79756c650bc1a2d5aea7546cbe2a68719ec2d8ef4618e66c15a4e6f0968"
+    },
+    {
+      "path": "assets/puppy-male/en-food.mp3",
+      "size": 14685,
+      "sha256": "8808f51e4def1d5e7f7d9b4c89f01d73089de9d98cdca4a7e04c81caa6f4e341"
+    },
+    {
+      "path": "assets/puppy-male/en-future.mp3",
+      "size": 24045,
+      "sha256": "9b945b1d7d1637bfd4ed071282ea33115851c10c0d937170d041521d7eefdfd4"
+    },
+    {
+      "path": "assets/puppy-male/en-goodbye.mp3",
+      "size": 11325,
+      "sha256": "a7e29ec057c50f6f71325559bce6b96caab45f902b98505df445d51d08f178ae"
+    },
+    {
+      "path": "assets/puppy-male/en-habit.mp3",
+      "size": 16845,
+      "sha256": "f170c3060ae50925613694f4f76d023680eb219e47c9e53742268b145010ada7"
+    },
+    {
+      "path": "assets/puppy-male/en-hello-word.mp3",
+      "size": 6045,
+      "sha256": "9304e8f15b1a03c78822001ef02b71f66b969b0e120144d08352763607ca9968"
+    },
+    {
+      "path": "assets/puppy-male/en-invite.mp3",
+      "size": 12285,
+      "sha256": "fad0252abe960a96c84f40bd3c30d214c6789d3eccf58e75e8ed7915fb3b3787"
+    },
+    {
+      "path": "assets/puppy-male/en-name.mp3",
+      "size": 16365,
+      "sha256": "20b15282182fbeb5db6bb7c1cf6d16a9e5e665950fb7348ca9af92fa9d636f20"
+    },
+    {
+      "path": "assets/puppy-male/en-past.mp3",
+      "size": 27165,
+      "sha256": "6a83c64a1c33deb845b11b66ddfbfb2a6b4c42f540e460b6b414e85d05c729e2"
+    },
+    {
+      "path": "assets/puppy-male/en-please-word.mp3",
+      "size": 6765,
+      "sha256": "06e5da534c23d1f8030b3e5955ffeae2f17003a854938a1ee6a9a5290bcaeebe"
+    },
+    {
+      "path": "assets/puppy-male/en-plural.mp3",
+      "size": 13485,
+      "sha256": "6aac5cfe3f2911b4bb8bf97bfda8d3d78c7b414e1a834d278cbc364e725bdb45"
+    },
+    {
+      "path": "assets/puppy-male/en-see.mp3",
+      "size": 13965,
+      "sha256": "4291abe54d2a8c83b149f5f4dab2287f9ffb3daf0109e6bf2a27d0f80fd043bf"
+    },
+    {
+      "path": "assets/puppy-male/en-thanks-word.mp3",
+      "size": 7485,
+      "sha256": "c3c7d2685cead731c6a71ebfbfac9add941991f4314079675a526f6939ff3c42"
+    },
+    {
+      "path": "assets/puppy-male/en-thanks.mp3",
+      "size": 8205,
+      "sha256": "1e8ead9b1704784fa2b098e80928277ba9be4784bbaf3f7b44359d46f7b570b2"
+    },
+    {
+      "path": "assets/puppy-male/en-third-person.mp3",
+      "size": 12285,
+      "sha256": "422df96845c235e0fa5b4f9e126a067515ab64d2b5209396e4b694da412b7763"
+    },
+    {
+      "path": "assets/puppy-male/journey-finish.mp3",
+      "size": 73245,
+      "sha256": "5f79a49786a120f4ee892a6ca646e0c2357c52a80260b463dae8e7dcf87e7905"
+    },
+    {
+      "path": "assets/puppy-male/journey-gap.mp3",
+      "size": 28125,
+      "sha256": "e1d3033743a99585b4feb14571102f055226677097d20a957d662604268ceedb"
+    },
+    {
+      "path": "assets/puppy-male/journey-graduate.mp3",
+      "size": 78045,
+      "sha256": "62a6d5a0dcdb80a9f57b0c81c7cb0aac80791803d23ff0798cf28180daa5e7b3"
+    },
+    {
+      "path": "assets/puppy-male/journey-listen.mp3",
+      "size": 44205,
+      "sha256": "4578279bf5b8d099cf535bb5fce01df6b42ea8cb331a469036fa8cde4e7b3057"
+    },
+    {
+      "path": "assets/puppy-male/journey-recall.mp3",
+      "size": 24045,
+      "sha256": "7b3c09ed9fbc934ab4b5cd599aa0fe95cf13f704f54b7f780638db0e6e50c407"
+    },
+    {
+      "path": "assets/puppy-male/journey-repeat.mp3",
+      "size": 26925,
+      "sha256": "213dbe3868c46ea81a7a9f22faad9e9c08c37bcaa61c2ba4e0ee41215dc971e1"
+    },
+    {
+      "path": "assets/puppy-male/journey-translate.mp3",
+      "size": 45165,
+      "sha256": "22ad8a15794b357d90aaceac29a7381272e4ea3750f9417a23c68e6f103d8242"
+    },
+    {
+      "path": "assets/puppy-male/journey-welcome.mp3",
+      "size": 47565,
+      "sha256": "5599ba8541d5f25e730b0800d789497f9ada4c7c9fcab1883439f0c577c7cadb"
+    },
+    {
+      "path": "assets/puppy-male/levels.json",
+      "size": 71365,
+      "sha256": "9e5812aedfc40e8f4098e7818d913932d165490e6ae618717326d584cb777df3"
+    },
+    {
+      "path": "assets/puppy-male/manifest.json",
+      "size": 124595,
+      "sha256": "539a69d8f4c8cf1a96f73e6f5d1e66b07872d3f802a564d0b3b3ad4d5b38fde3"
+    },
+    {
+      "path": "assets/puppy-male/year-1-en-0.mp3",
+      "size": 6045,
+      "sha256": "9304e8f15b1a03c78822001ef02b71f66b969b0e120144d08352763607ca9968"
+    },
+    {
+      "path": "assets/puppy-male/year-1-en-1.mp3",
+      "size": 7485,
+      "sha256": "c3c7d2685cead731c6a71ebfbfac9add941991f4314079675a526f6939ff3c42"
+    },
+    {
+      "path": "assets/puppy-male/year-1-en-2.mp3",
+      "size": 6765,
+      "sha256": "06e5da534c23d1f8030b3e5955ffeae2f17003a854938a1ee6a9a5290bcaeebe"
+    },
+    {
+      "path": "assets/puppy-male/year-1-en-3.mp3",
+      "size": 7725,
+      "sha256": "865bdf929fa4c35b06848ee6ac429cbe48077a7fc5d7e37058bc7cdd277050c1"
+    },
+    {
+      "path": "assets/puppy-male/year-1-en-4.mp3",
+      "size": 7245,
+      "sha256": "f3b798ffeb81ccb2107c7b258370a6059378cbcec70657706b40d84b44d310fe"
+    },
+    {
+      "path": "assets/puppy-male/year-1-en-5.mp3",
+      "size": 11325,
+      "sha256": "207bbdf31f7eaa2e5d06b1efec51def2b669e6777caf12ef8641a56abe3f5375"
+    },
+    {
+      "path": "assets/puppy-male/year-1-en-6.mp3",
+      "size": 8925,
+      "sha256": "cf604d3ba61abc2061f03261d9bf2b7da4cf091d4aed3bba0bcd1632afc81075"
+    },
+    {
+      "path": "assets/puppy-male/year-1-en-7.mp3",
+      "size": 10125,
+      "sha256": "0b95ff03716613ddb0710a91c35c26995c6fe86a1dfe65e7433892d040f95429"
+    },
+    {
+      "path": "assets/puppy-male/year-1-en-8.mp3",
+      "size": 8445,
+      "sha256": "11ee6e09eef19e2704f9f7005dfd06263bd55227321be2f742634422858d9903"
+    },
+    {
+      "path": "assets/puppy-male/year-1-en-9.mp3",
+      "size": 9885,
+      "sha256": "a2e2faef581907db55bbfcb26fcd07f34c5e271bda9261e1b7cb900d3e66c0a9"
+    },
+    {
+      "path": "assets/puppy-male/year-1-guide.mp3",
+      "size": 62925,
+      "sha256": "be97841dbf5a331210163a94493d12b88f8d3c93209cdd1dffd59bdfba92ed2e"
+    },
+    {
+      "path": "assets/puppy-male/year-10-en-0.mp3",
+      "size": 21645,
+      "sha256": "e2ca60653c9414e52198d9f0a829ddb79f00b5af826b1278f073a8b7ca81a6b7"
+    },
+    {
+      "path": "assets/puppy-male/year-10-en-1.mp3",
+      "size": 19245,
+      "sha256": "8aab10b327f14b49ed17f947764202ef64833d750efd5b51e8b8f6942cbbc32b"
+    },
+    {
+      "path": "assets/puppy-male/year-10-en-2.mp3",
+      "size": 19245,
+      "sha256": "31cda62caf48ad1f14527385fb4b1bcc4720645210877b801cd7cdbd9d6f1ae8"
+    },
+    {
+      "path": "assets/puppy-male/year-10-en-3.mp3",
+      "size": 12525,
+      "sha256": "abc49b3adc0e0a1e904874a0d31139e8d752d74bb853561daaae8273bd5cab53"
+    },
+    {
+      "path": "assets/puppy-male/year-10-en-4.mp3",
+      "size": 17805,
+      "sha256": "8d1b926df49ffad167bda3967e172f5d95fb2b3f37d585ec364bfb92b75298a0"
+    },
+    {
+      "path": "assets/puppy-male/year-10-en-5.mp3",
+      "size": 16845,
+      "sha256": "3398807ea353e96e17771b9bb28b11368d9bb0d03e1d8aefa1664e6fb7ae6038"
+    },
+    {
+      "path": "assets/puppy-male/year-10-en-6.mp3",
+      "size": 25485,
+      "sha256": "f416fcfdaddafe12987ca71409203639723a03f6a4e6087bb918fa3fb4bfb19c"
+    },
+    {
+      "path": "assets/puppy-male/year-10-en-7.mp3",
+      "size": 27165,
+      "sha256": "c0f57000ec06b4a94226d5db9dd531a20b5265cf964caddf54601d22df8280a8"
+    },
+    {
+      "path": "assets/puppy-male/year-10-en-8.mp3",
+      "size": 28605,
+      "sha256": "5431383a1e700af03961a62490309b8895349b9e5f5ef231df3579618420c7f9"
+    },
+    {
+      "path": "assets/puppy-male/year-10-en-9.mp3",
+      "size": 18765,
+      "sha256": "ec7df312c3d32592a7fa045903fecea93ceaed949fbd383a8747f52ce595cfec"
+    },
+    {
+      "path": "assets/puppy-male/year-10-guide.mp3",
+      "size": 55485,
+      "sha256": "b6308d40bceb3b8543f59d6dcef7fd637266b9149af758a76193e3ed4f1661b5"
+    },
+    {
+      "path": "assets/puppy-male/year-11-en-0.mp3",
+      "size": 18525,
+      "sha256": "85c2150b827297e71b9961c7e3ea05a74d40559d429aa75c9cf4819fb4e211e9"
+    },
+    {
+      "path": "assets/puppy-male/year-11-en-1.mp3",
+      "size": 23325,
+      "sha256": "11dc8d27aa618dc70d99a5e8df67e88194ac0dfb71e6a2d59b3a7a03403df7a3"
+    },
+    {
+      "path": "assets/puppy-male/year-11-en-2.mp3",
+      "size": 19245,
+      "sha256": "03127ad7ba4e6571786c0bc1822e7069a21c7883950024129ce2654ee4593814"
+    },
+    {
+      "path": "assets/puppy-male/year-11-en-3.mp3",
+      "size": 18285,
+      "sha256": "5fb1eaf20f9bae739bb62352a162b9e26cb6ca1db66aafd1ab25ecdb9562f1b4"
+    },
+    {
+      "path": "assets/puppy-male/year-11-en-4.mp3",
+      "size": 16365,
+      "sha256": "d27af3baba9607b3c0975d5b469a2778743c2eec3733b73d11a00c165be2363c"
+    },
+    {
+      "path": "assets/puppy-male/year-11-en-5.mp3",
+      "size": 25485,
+      "sha256": "ea32f23c280092611c4f416a1e446042ae1ca908bdc721608d5b489d0fe8e53c"
+    },
+    {
+      "path": "assets/puppy-male/year-11-en-6.mp3",
+      "size": 28605,
+      "sha256": "96e1584f3ecf48a6dc3730a9807129eeb9707324145bf22deb18a3c0a751fa6a"
+    },
+    {
+      "path": "assets/puppy-male/year-11-en-7.mp3",
+      "size": 16845,
+      "sha256": "1e76ce7d41c1ed97b485ff8bbc6b7d3afbe58334a64d3ee7bfd5229e54019267"
+    },
+    {
+      "path": "assets/puppy-male/year-11-en-8.mp3",
+      "size": 24045,
+      "sha256": "747505edd52c97b2cfa335016f5ef07e4abdd79599ce68dd537c48c59d0a60be"
+    },
+    {
+      "path": "assets/puppy-male/year-11-en-9.mp3",
+      "size": 23325,
+      "sha256": "9c3ec6b07f5f2cb7e1e34192fb4500281c193d64fc0c5486c51b260d32aad22a"
+    },
+    {
+      "path": "assets/puppy-male/year-11-guide.mp3",
+      "size": 52365,
+      "sha256": "f39df8c0edbf11b3b235f586701d506388d522c2c081428f5890415a04c27daa"
+    },
+    {
+      "path": "assets/puppy-male/year-12-en-0.mp3",
+      "size": 18525,
+      "sha256": "f619ea77a6448ed03926aa3dc82f6d5c590d94b92a36822be1e16a0698cdbbf7"
+    },
+    {
+      "path": "assets/puppy-male/year-12-en-1.mp3",
+      "size": 16845,
+      "sha256": "3edf81c558af0cf81a226db65b7067f1781daea79d571e11077fd6ca3f7a92da"
+    },
+    {
+      "path": "assets/puppy-male/year-12-en-2.mp3",
+      "size": 22365,
+      "sha256": "722255fb87ee68fe71284dbb71a06d96500e07c2af4f585f4da279d5bac49e24"
+    },
+    {
+      "path": "assets/puppy-male/year-12-en-3.mp3",
+      "size": 17805,
+      "sha256": "a15083065c1124426f79453f32125393fa2cdde21c5a09a8f0c7ed116fc84cf7"
+    },
+    {
+      "path": "assets/puppy-male/year-12-en-4.mp3",
+      "size": 22365,
+      "sha256": "bbc45b876a048fa6de15cc4ed97dea248b10cc5bb87807ab32ddebfea3d8532c"
+    },
+    {
+      "path": "assets/puppy-male/year-12-en-5.mp3",
+      "size": 13965,
+      "sha256": "3186bcba770f46fd8efd6d18b5745313abacb4e095f59c1bc29e7c587d636626"
+    },
+    {
+      "path": "assets/puppy-male/year-12-en-6.mp3",
+      "size": 18765,
+      "sha256": "5f98eab8ecc1b6623f6c8be9641e7cfa612bb860d9bdf0a9bd8c54e1088d001f"
+    },
+    {
+      "path": "assets/puppy-male/year-12-en-7.mp3",
+      "size": 30525,
+      "sha256": "0ef5834b6f183fae321da5e345e2730dd37f71ea2739c77fa80627dfad067dd1"
+    },
+    {
+      "path": "assets/puppy-male/year-12-en-8.mp3",
+      "size": 27165,
+      "sha256": "bded39ca4ae3c8776faaddcdee5848fdcabbff1aaa93944220067f9f88e5c4a0"
+    },
+    {
+      "path": "assets/puppy-male/year-12-en-9.mp3",
+      "size": 22605,
+      "sha256": "6b4a848073ff7bdbcadbb071a8b227209221de4ab32726199471fc3c33ed8a84"
+    },
+    {
+      "path": "assets/puppy-male/year-12-guide.mp3",
+      "size": 47565,
+      "sha256": "8597703723c23b6b311cab34a33f86961da3e96389cba50bd62b9a41409047c7"
+    },
+    {
+      "path": "assets/puppy-male/year-13-en-0.mp3",
+      "size": 28605,
+      "sha256": "1d23b254c44e0da4d5e72d76c4d05cecb9b6cdbea1b4316763c44c8f0fc88320"
+    },
+    {
+      "path": "assets/puppy-male/year-13-en-1.mp3",
+      "size": 24525,
+      "sha256": "bc9d5c6f3f1ab2ffb52f73d124372a971694b982777c1c7d1a68166d32549b99"
+    },
+    {
+      "path": "assets/puppy-male/year-13-en-2.mp3",
+      "size": 20205,
+      "sha256": "61b5fb977cb78afd84db336545558281013fbddc71613a5ac34abeb455cdb7d7"
+    },
+    {
+      "path": "assets/puppy-male/year-13-en-3.mp3",
+      "size": 22605,
+      "sha256": "0533975e54ffe458aa02e717f2a5fcbbd85a1440661baa7ccb4281fe0a6dbe47"
+    },
+    {
+      "path": "assets/puppy-male/year-13-en-4.mp3",
+      "size": 18765,
+      "sha256": "550f541402cd3e5d469b190f026bae13b0c098b5618201deaa689b2acec71eaf"
+    },
+    {
+      "path": "assets/puppy-male/year-13-en-5.mp3",
+      "size": 31005,
+      "sha256": "ab48646c8d11c21dce9600e780c706972b22ad99e0bdf4ed7c875111abeb5656"
+    },
+    {
+      "path": "assets/puppy-male/year-13-en-6.mp3",
+      "size": 23085,
+      "sha256": "9b4d3518a86e507142ed7fe1fde5cf92b1c941a0c4d1070b1aae8e3c734094de"
+    },
+    {
+      "path": "assets/puppy-male/year-13-en-7.mp3",
+      "size": 19245,
+      "sha256": "be18fde55b908ab05c8b535c7bf52e1384d5f39aa9b04c6f3344bea5ac5dd073"
+    },
+    {
+      "path": "assets/puppy-male/year-13-en-8.mp3",
+      "size": 14685,
+      "sha256": "d740d573c24c04ec77be90aa1ddb0be0904c2dea24f2ea5ceb468d0b8ca255c1"
+    },
+    {
+      "path": "assets/puppy-male/year-13-en-9.mp3",
+      "size": 23325,
+      "sha256": "3cf8f78b728fde162809a949fb749b7ffb143600a168eac91779076c2a51ec2b"
+    },
+    {
+      "path": "assets/puppy-male/year-13-guide.mp3",
+      "size": 52125,
+      "sha256": "64a7cec9314ed82a294a2f7c6f075935273dfc244ae6d2f16d5453b8445c9054"
+    },
+    {
+      "path": "assets/puppy-male/year-14-en-0.mp3",
+      "size": 17085,
+      "sha256": "f82cda617bc35116a2ba00824deac345ccff99eeab5b841a5f9a24acd8045427"
+    },
+    {
+      "path": "assets/puppy-male/year-14-en-1.mp3",
+      "size": 28845,
+      "sha256": "a66c895dc3f3cfb7117b98a39805999326af7a78b6a797a6eff87322ecf7c287"
+    },
+    {
+      "path": "assets/puppy-male/year-14-en-2.mp3",
+      "size": 32685,
+      "sha256": "ef2f7091efed3e0487520141e8a70fac1d6739f05272577728cd4c9cf6777f25"
+    },
+    {
+      "path": "assets/puppy-male/year-14-en-3.mp3",
+      "size": 26445,
+      "sha256": "8ee554a7d06c21bffba1d5575b14545d3278daab90e79ade961fb0dc1353ad21"
+    },
+    {
+      "path": "assets/puppy-male/year-14-en-4.mp3",
+      "size": 25005,
+      "sha256": "8e5e94e0317e5b23b869f1a0f41fbc5a1d3047a10fce88f2a8c637f9d2a18e62"
+    },
+    {
+      "path": "assets/puppy-male/year-14-en-5.mp3",
+      "size": 27165,
+      "sha256": "b0fa3eb6de3b4f1b0623d530fa024bd001fc38e302810ab98c0d88f6e0468329"
+    },
+    {
+      "path": "assets/puppy-male/year-14-en-6.mp3",
+      "size": 35325,
+      "sha256": "be38dc0400fdab7ee22075b0c56113b8d9e911d0e4b9ff406426d4e8e94a2827"
+    },
+    {
+      "path": "assets/puppy-male/year-14-en-7.mp3",
+      "size": 22605,
+      "sha256": "402b73d6392551411306c4c3d1a55452523eab33576a5def1cae66003857c0a4"
+    },
+    {
+      "path": "assets/puppy-male/year-14-en-8.mp3",
+      "size": 20685,
+      "sha256": "30bddfcc67eb3898833be268f617d5f14b6e63355253c8a3651cf2a91a7636b3"
+    },
+    {
+      "path": "assets/puppy-male/year-14-en-9.mp3",
+      "size": 25725,
+      "sha256": "07781463bcb5233c09bf1c9f50552c5e5026411ea84169663270ee3d97440e50"
+    },
+    {
+      "path": "assets/puppy-male/year-14-guide.mp3",
+      "size": 39885,
+      "sha256": "e010eeaf4f3c4cd44d2a51048224c9a8d9e7c328f7a1907449f5976d910d6fb9"
+    },
+    {
+      "path": "assets/puppy-male/year-15-en-0.mp3",
+      "size": 26445,
+      "sha256": "d9b52a6d141fd3e863494ca76cc011e62baa9d3f422fbb2a74ee948b6a675df5"
+    },
+    {
+      "path": "assets/puppy-male/year-15-en-1.mp3",
+      "size": 31965,
+      "sha256": "965ed4fbe752e1b7e1b4cfda02baacbe098e154d6719fbc9506a8219761d247d"
+    },
+    {
+      "path": "assets/puppy-male/year-15-en-2.mp3",
+      "size": 28605,
+      "sha256": "76fc8f18aeed12a2ccd5bdb67614a6694f84754a3dd2bf4d6a1a1e2b1fae08af"
+    },
+    {
+      "path": "assets/puppy-male/year-15-en-3.mp3",
+      "size": 25725,
+      "sha256": "4557fb7146efbb4ecba4524af0aa51ed798f95f64e33f181ec1855102b177fcd"
+    },
+    {
+      "path": "assets/puppy-male/year-15-en-4.mp3",
+      "size": 21645,
+      "sha256": "cdfdfaf3062a63f83eda7dab3a63c13ad21d5c61d0f6f4469be597791ee19e18"
+    },
+    {
+      "path": "assets/puppy-male/year-15-en-5.mp3",
+      "size": 31965,
+      "sha256": "9fbabd6062b4871ef26747dbb484d55d0ae7a3892d623dd34aa019c247fb5f43"
+    },
+    {
+      "path": "assets/puppy-male/year-15-en-6.mp3",
+      "size": 25005,
+      "sha256": "6430ef5b93b2bcb81e0c4dab2e46f1b2a8d3cd6121237d3ad4899264fa7b7d3d"
+    },
+    {
+      "path": "assets/puppy-male/year-15-en-7.mp3",
+      "size": 27165,
+      "sha256": "21968a5cfb38820b13e22cb41a1cc6d88d75687b238354aa7b4862bd1137adb6"
+    },
+    {
+      "path": "assets/puppy-male/year-15-en-8.mp3",
+      "size": 24765,
+      "sha256": "bd4c3073cec6b610d184c8d2effd51ce4e14c3cbf35c8b6889fc241f205873a0"
+    },
+    {
+      "path": "assets/puppy-male/year-15-en-9.mp3",
+      "size": 33165,
+      "sha256": "046239af00f5850c802833ec3454089b1c3975a63f34061936f917fff694ae56"
+    },
+    {
+      "path": "assets/puppy-male/year-15-guide.mp3",
+      "size": 37725,
+      "sha256": "ff58cea61adcfe9b90648d2952d05b01af4e3090c2fac7b4a5d342113926b1fd"
+    },
+    {
+      "path": "assets/puppy-male/year-16-en-0.mp3",
+      "size": 21405,
+      "sha256": "a13152fce14b7208c1696c612e9e95dfe16ed8ce1363dcd27d4791f7cbf30ce8"
+    },
+    {
+      "path": "assets/puppy-male/year-16-en-1.mp3",
+      "size": 31725,
+      "sha256": "caf14ad0ff1fe4b31d8a5f0d1e39bc5fd9f41631fc260ee9bed5fcaafd2c4842"
+    },
+    {
+      "path": "assets/puppy-male/year-16-en-2.mp3",
+      "size": 16125,
+      "sha256": "4d09d6d10b43c9a4057dda270372fbd0ec861d6d709d61f1543d1e4c413abe3d"
+    },
+    {
+      "path": "assets/puppy-male/year-16-en-3.mp3",
+      "size": 23085,
+      "sha256": "468f6cf3cc2a7af4ced979df87c457d9c6230c661b87d481f1247f105d60f7ca"
+    },
+    {
+      "path": "assets/puppy-male/year-16-en-4.mp3",
+      "size": 19485,
+      "sha256": "8ac8c74530ef550f353df444c240a1e3793ccc42e49808041ea36e62aeed200c"
+    },
+    {
+      "path": "assets/puppy-male/year-16-en-5.mp3",
+      "size": 34365,
+      "sha256": "93084b4c45f84e0c50d2427d32fc5bad91f1379a5e40490d4020dc6068c385dc"
+    },
+    {
+      "path": "assets/puppy-male/year-16-en-6.mp3",
+      "size": 23565,
+      "sha256": "1e4986b9e706345e25c76dc6fce9b5f29cbc2eec3a29f3452ac45eac3154726c"
+    },
+    {
+      "path": "assets/puppy-male/year-16-en-7.mp3",
+      "size": 43485,
+      "sha256": "90e251fb625ad8701c52a1ac53b5649b77de9aeff9a0257d03c56974703bc60d"
+    },
+    {
+      "path": "assets/puppy-male/year-16-en-8.mp3",
+      "size": 21645,
+      "sha256": "57e6b86fc2bcb449a207ca2b576215bf4915a25ddba397420fad8de3fed9b35f"
+    },
+    {
+      "path": "assets/puppy-male/year-16-en-9.mp3",
+      "size": 20925,
+      "sha256": "1a13aa00b65be53a9b3a3ac36c8a74acc9a2db4a7112f604b48218f959f35de2"
+    },
+    {
+      "path": "assets/puppy-male/year-16-guide.mp3",
+      "size": 45885,
+      "sha256": "5cf7d1fcd5b04825db798b8f3e6b129905c96ee288503dcc5039c50b8a060b71"
+    },
+    {
+      "path": "assets/puppy-male/year-17-en-0.mp3",
+      "size": 19965,
+      "sha256": "c1f3b361d8477270df78a3d0c188a94ba689edf8810cd3957a9a6118b7a6a4f7"
+    },
+    {
+      "path": "assets/puppy-male/year-17-en-1.mp3",
+      "size": 23805,
+      "sha256": "20de4544b9bcfe549fad2e1cfc04abec161e2ffc26df68654e01a669b73362a5"
+    },
+    {
+      "path": "assets/puppy-male/year-17-en-2.mp3",
+      "size": 20925,
+      "sha256": "9238b68d3a6dc03df693a23813baf57a2c6ab44d1c2df73e36c95c1cc43c6ac4"
+    },
+    {
+      "path": "assets/puppy-male/year-17-en-3.mp3",
+      "size": 30285,
+      "sha256": "c94f444c138ffafc634ecaca11638c86e8032d6ae8abb96cf064eccfc83b0ad8"
+    },
+    {
+      "path": "assets/puppy-male/year-17-en-4.mp3",
+      "size": 25725,
+      "sha256": "607894dd302a31ae8bc195c78d0899c7933ef6b59d858126623ffc19b3823462"
+    },
+    {
+      "path": "assets/puppy-male/year-17-en-5.mp3",
+      "size": 20685,
+      "sha256": "aa5c024d31c011a39de7315d3657b60da2e64a77558f3fd0baec873804c72eab"
+    },
+    {
+      "path": "assets/puppy-male/year-17-en-6.mp3",
+      "size": 24045,
+      "sha256": "7caa4cf40ad36f5e28b4c1ffe3099b49b7525b888ed49e049c0055ee796c8c17"
+    },
+    {
+      "path": "assets/puppy-male/year-17-en-7.mp3",
+      "size": 19485,
+      "sha256": "554627d2ea1fec89f4769a058f9551bd7f6d3e67c399909ac9e549b07dde8626"
+    },
+    {
+      "path": "assets/puppy-male/year-17-en-8.mp3",
+      "size": 22605,
+      "sha256": "733333661ea937be724dd808e1ec38ea32f21da8bc50325b9721991ee9b1e2a7"
+    },
+    {
+      "path": "assets/puppy-male/year-17-en-9.mp3",
+      "size": 22365,
+      "sha256": "af1614065648771b6834bd3d8c40494bd600caee663fcb0720b0018f1fc7b819"
+    },
+    {
+      "path": "assets/puppy-male/year-17-guide.mp3",
+      "size": 38925,
+      "sha256": "364bf19c72493574d882a9f13828de34be4c3efe19141370a74be43a168aedb8"
+    },
+    {
+      "path": "assets/puppy-male/year-18-en-0.mp3",
+      "size": 29805,
+      "sha256": "31deba5bb8f8c442c0c597c8262b3c1caee908d47c9302c2d95c4de9cd234afa"
+    },
+    {
+      "path": "assets/puppy-male/year-18-en-1.mp3",
+      "size": 22605,
+      "sha256": "64560cad061563b061c95a35c71a2b9657383316523c2b6c5fb42caae074ea15"
+    },
+    {
+      "path": "assets/puppy-male/year-18-en-2.mp3",
+      "size": 30525,
+      "sha256": "ecf32532cd0ecde52dd3a600af0f4ff3251bef2755f1760d14d3de243033e82f"
+    },
+    {
+      "path": "assets/puppy-male/year-18-en-3.mp3",
+      "size": 28845,
+      "sha256": "35ff821dec6ffc331f281ca402730d4db856f74c79bfad32e3a7bf072fcaf15b"
+    },
+    {
+      "path": "assets/puppy-male/year-18-en-4.mp3",
+      "size": 29325,
+      "sha256": "747b7c10b2e5202f9b1c40d78dfc78cf7f98a3cd5d82b340c8f1c43fc314180a"
+    },
+    {
+      "path": "assets/puppy-male/year-18-en-5.mp3",
+      "size": 28125,
+      "sha256": "7128b213f7bfa81038c601f77771aacda64e7ddf00f1179052318cd17e3a1d63"
+    },
+    {
+      "path": "assets/puppy-male/year-18-en-6.mp3",
+      "size": 28605,
+      "sha256": "610b84a63b4efd3c9b1e1604b3f49460f84dfdb2cc68b5cf58f3fddf847a1869"
+    },
+    {
+      "path": "assets/puppy-male/year-18-en-7.mp3",
+      "size": 31965,
+      "sha256": "301b8e7732a83d8a4776c1b593423a068cecd41978e9c415c9876646f6b47437"
+    },
+    {
+      "path": "assets/puppy-male/year-18-en-8.mp3",
+      "size": 22365,
+      "sha256": "6c508f59341719060737ad3cf5a284b3aeba0c7237281f0185c3f676cab0cd30"
+    },
+    {
+      "path": "assets/puppy-male/year-18-en-9.mp3",
+      "size": 37485,
+      "sha256": "9cce0d6691be93dfaf115758c68fde5f0b5f218a9aa486acf098d0809dc95bce"
+    },
+    {
+      "path": "assets/puppy-male/year-18-guide.mp3",
+      "size": 47805,
+      "sha256": "0dc846660f8f2216b7fb596c4522529e3440fa1ae3efac8573ad90e124362bd1"
+    },
+    {
+      "path": "assets/puppy-male/year-19-en-0.mp3",
+      "size": 28125,
+      "sha256": "376396192152d74bebd40ce2549cc5298b4b2ca195d910568b2a8492d0704f40"
+    },
+    {
+      "path": "assets/puppy-male/year-19-en-1.mp3",
+      "size": 25725,
+      "sha256": "d0279100df159d1b1d18b1651ddce92d8c7ed2b2fed5b2a7bbcdf0d791a92688"
+    },
+    {
+      "path": "assets/puppy-male/year-19-en-2.mp3",
+      "size": 28125,
+      "sha256": "47b85142598bccdfafac8bdd50012921ca9509488a72621c51926bbdb333a5e7"
+    },
+    {
+      "path": "assets/puppy-male/year-19-en-3.mp3",
+      "size": 28125,
+      "sha256": "afd68ac3febdc3b1f86d35d5b446ccba867e407aa936487e821ed19db1a8a51f"
+    },
+    {
+      "path": "assets/puppy-male/year-19-en-4.mp3",
+      "size": 17805,
+      "sha256": "3dd9a249cea64b2b12ad5a2940408d7cb09d5c8e430a6f79b76ba4de1a28dd2b"
+    },
+    {
+      "path": "assets/puppy-male/year-19-en-5.mp3",
+      "size": 28605,
+      "sha256": "32d1b1c95b6a05e975290e6d7d0aae36c1eb8c5812c125a97c37911a1965bc98"
+    },
+    {
+      "path": "assets/puppy-male/year-19-en-6.mp3",
+      "size": 34365,
+      "sha256": "eb38a8a1ec39f41d60fa0cb74681f2cb7c88900014e8554bfd1ca04c17269721"
+    },
+    {
+      "path": "assets/puppy-male/year-19-en-7.mp3",
+      "size": 31005,
+      "sha256": "a2e5d25a0e7858827b5778d5359995fe2b8d0a464f553a6567a981413bbe9fb7"
+    },
+    {
+      "path": "assets/puppy-male/year-19-en-8.mp3",
+      "size": 35085,
+      "sha256": "5b2beb732fb2af8540542d11616b2cb23ed413b7afdbd9601d06c5cb69d8e7fb"
+    },
+    {
+      "path": "assets/puppy-male/year-19-en-9.mp3",
+      "size": 25485,
+      "sha256": "4fe107bfc3c1c44b0af512713bf89212c0e5b7b25756e5472490cf471fa384d9"
+    },
+    {
+      "path": "assets/puppy-male/year-19-guide.mp3",
+      "size": 42045,
+      "sha256": "80ccc8a80a5039ffe2393fc21c6ad9e972ac45f01a3a37d1e6df0cd1b98a00df"
+    },
+    {
+      "path": "assets/puppy-male/year-2-en-0.mp3",
+      "size": 20685,
+      "sha256": "53da8364348eff9d3c005a0fe1659ab1a16da27862258dbac142debaca41ea13"
+    },
+    {
+      "path": "assets/puppy-male/year-2-en-1.mp3",
+      "size": 17085,
+      "sha256": "22b38cb8f3da97e2e81c49cf1c71387fa9c2d72273ae330103b884a22f113081"
+    },
+    {
+      "path": "assets/puppy-male/year-2-en-2.mp3",
+      "size": 13485,
+      "sha256": "057533db8bc3e9816f71973d3859c5320c7214238b2d269ee58ade00815d893f"
+    },
+    {
+      "path": "assets/puppy-male/year-2-en-3.mp3",
+      "size": 9165,
+      "sha256": "ea523ba9d31d001228fa0625c711d7e119e029dfc03469ec668e86baacae82bc"
+    },
+    {
+      "path": "assets/puppy-male/year-2-en-4.mp3",
+      "size": 21645,
+      "sha256": "5b48bfa091e0efb4f2469531fb21ad2fe0cd62f75a3ff8cede963f865a0f355d"
+    },
+    {
+      "path": "assets/puppy-male/year-2-en-5.mp3",
+      "size": 13005,
+      "sha256": "80c5ab612c13b57d43d87b6105147e3883f2d85a5b3787a47ed101bf12910f70"
+    },
+    {
+      "path": "assets/puppy-male/year-2-en-6.mp3",
+      "size": 21645,
+      "sha256": "c94866e4c6c953b4a2e2d01e572df4ae936ab1bc85e0451a89c8d9ad1d52421d"
+    },
+    {
+      "path": "assets/puppy-male/year-2-en-7.mp3",
+      "size": 22125,
+      "sha256": "2516f135d7a31ea255e9100d8ac92dd859d426d25992723c41c5b8b008673460"
+    },
+    {
+      "path": "assets/puppy-male/year-2-en-8.mp3",
+      "size": 16125,
+      "sha256": "4c37254201057b68e0ffcadceaf5a4723e423fe27e294c5d1e782856a61bc9ef"
+    },
+    {
+      "path": "assets/puppy-male/year-2-en-9.mp3",
+      "size": 14685,
+      "sha256": "2bbeac1ba5da00723e00421a392796bbc071237c32f355a67c480852f3715978"
+    },
+    {
+      "path": "assets/puppy-male/year-2-guide.mp3",
+      "size": 28125,
+      "sha256": "cfa477ca3cdc06d8f49d44badb03435857fa65eb0c13cffcfd642d5117df2fe1"
+    },
+    {
+      "path": "assets/puppy-male/year-20-en-0.mp3",
+      "size": 31965,
+      "sha256": "268053d7fd1d442ea330d06cc61090a6e5747daacc2984dee2d7bdb04f4308e1"
+    },
+    {
+      "path": "assets/puppy-male/year-20-en-1.mp3",
+      "size": 34365,
+      "sha256": "bf7dc77b8a6b8b42f9c07aedb56610a29c76fac9ed0c6464c268f02999037e12"
+    },
+    {
+      "path": "assets/puppy-male/year-20-en-2.mp3",
+      "size": 29565,
+      "sha256": "18d6e6c866a93883bc80b8a2428a775444c14b9d38f8bafae62e4ada260bf18d"
+    },
+    {
+      "path": "assets/puppy-male/year-20-en-3.mp3",
+      "size": 37245,
+      "sha256": "780045c36954483024dab4926b3dd004d26a634c57fc6ff1a458951985ea8bdd"
+    },
+    {
+      "path": "assets/puppy-male/year-20-en-4.mp3",
+      "size": 42285,
+      "sha256": "b542b2172d23d6f76748df630f681226810159208f6a4e5d86e47f7d03d4d94f"
+    },
+    {
+      "path": "assets/puppy-male/year-20-en-5.mp3",
+      "size": 44445,
+      "sha256": "f10c2996e4ac71682835163a7ca1106323d848dfeba3f2bd0a619a3207dfbf7c"
+    },
+    {
+      "path": "assets/puppy-male/year-20-en-6.mp3",
+      "size": 36525,
+      "sha256": "b6c5039e18c4d3773f5d88a9ff01ccc9b4a8a6916aaf0e4b4eb629aadba57c03"
+    },
+    {
+      "path": "assets/puppy-male/year-20-en-7.mp3",
+      "size": 25485,
+      "sha256": "a7405c6dd85de76c6f56e084fa8c74deec1813acfc084b97aee7901b8ec30eed"
+    },
+    {
+      "path": "assets/puppy-male/year-20-en-8.mp3",
+      "size": 31965,
+      "sha256": "5de355cbaa3a0290882b86a37d91fd768be3cffd2e9c2785d70fe79e926ffa40"
+    },
+    {
+      "path": "assets/puppy-male/year-20-en-9.mp3",
+      "size": 34605,
+      "sha256": "5b14e1f3534441fa2fd1f8fad963ccb83bd3ce58d80f3f8b7027f99e49cc96b7"
+    },
+    {
+      "path": "assets/puppy-male/year-20-guide.mp3",
+      "size": 58365,
+      "sha256": "9b5d9ef60cc331720026db35935dfe822fbf053cbc604b3cf40801035f7b1fde"
+    },
+    {
+      "path": "assets/puppy-male/year-3-en-0.mp3",
+      "size": 16365,
+      "sha256": "20b15282182fbeb5db6bb7c1cf6d16a9e5e665950fb7348ca9af92fa9d636f20"
+    },
+    {
+      "path": "assets/puppy-male/year-3-en-1.mp3",
+      "size": 19245,
+      "sha256": "ab9deb743bc5632f08cbeb6873e5cf5ff9bac2a2d7eb9ea28920df7883d8a982"
+    },
+    {
+      "path": "assets/puppy-male/year-3-en-2.mp3",
+      "size": 14685,
+      "sha256": "1025ff5e4329cf0e984ea8e564ddeae7a4f42e09378dd281000383d3c78a4571"
+    },
+    {
+      "path": "assets/puppy-male/year-3-en-3.mp3",
+      "size": 13965,
+      "sha256": "9f99147496c7aefd731a6b74a776521c1f508f0fcd27a38ad65adf56c63dc336"
+    },
+    {
+      "path": "assets/puppy-male/year-3-en-4.mp3",
+      "size": 23325,
+      "sha256": "6971c5617775940803c2b457c5c42fd87435a1cd22c736428a34404fb5f788e0"
+    },
+    {
+      "path": "assets/puppy-male/year-3-en-5.mp3",
+      "size": 16845,
+      "sha256": "65cda47536ab19869196880bed67c52a704e3ba498bd69fa5521020ffba390bd"
+    },
+    {
+      "path": "assets/puppy-male/year-3-en-6.mp3",
+      "size": 22605,
+      "sha256": "9946914e77f9a67aa85e2dae99bf7510c6eda2f4f20247d1e7eb56bd05a444cf"
+    },
+    {
+      "path": "assets/puppy-male/year-3-en-7.mp3",
+      "size": 19245,
+      "sha256": "b51fb79756c650bc1a2d5aea7546cbe2a68719ec2d8ef4618e66c15a4e6f0968"
+    },
+    {
+      "path": "assets/puppy-male/year-3-en-8.mp3",
+      "size": 21405,
+      "sha256": "3038754a0e943d5c530adf64b58e5280af653970875f355207cfc0a42258a49b"
+    },
+    {
+      "path": "assets/puppy-male/year-3-en-9.mp3",
+      "size": 11565,
+      "sha256": "6352826205107ea127aad3344b6125052d0821bca01403b294dd15f318c43295"
+    },
+    {
+      "path": "assets/puppy-male/year-3-guide.mp3",
+      "size": 35565,
+      "sha256": "1eba791e26f86224bc9aa24ba4922a90fe692fed1c7bb69b4569ed2bc909eb83"
+    },
+    {
+      "path": "assets/puppy-male/year-4-en-0.mp3",
+      "size": 14685,
+      "sha256": "8808f51e4def1d5e7f7d9b4c89f01d73089de9d98cdca4a7e04c81caa6f4e341"
+    },
+    {
+      "path": "assets/puppy-male/year-4-en-1.mp3",
+      "size": 17085,
+      "sha256": "8edc1064cbfd1de8a867a036f534f7b79389f06d35c212210abc620d11e44513"
+    },
+    {
+      "path": "assets/puppy-male/year-4-en-2.mp3",
+      "size": 21645,
+      "sha256": "870467f729caa488ef52323039b208bef673a73f59f434b89a8ad25f58090a09"
+    },
+    {
+      "path": "assets/puppy-male/year-4-en-3.mp3",
+      "size": 17085,
+      "sha256": "01e799405c3e764d13fa1a36b7a12b26b2f82321c338ddc25c6f178bb4e0047d"
+    },
+    {
+      "path": "assets/puppy-male/year-4-en-4.mp3",
+      "size": 15165,
+      "sha256": "9420318367e0e34af060e9fee9a743b57be6bb755c111cb40d513df7b1d1d19a"
+    },
+    {
+      "path": "assets/puppy-male/year-4-en-5.mp3",
+      "size": 16845,
+      "sha256": "4bc2ee3f74645128abc1bea629c1afd19dcc252b32813c1b484bcf6f892a7a18"
+    },
+    {
+      "path": "assets/puppy-male/year-4-en-6.mp3",
+      "size": 17085,
+      "sha256": "29dda65dbd7cb999ef4655f3d94ed22eb93c54eb8c49e7c6a9874080743a2fee"
+    },
+    {
+      "path": "assets/puppy-male/year-4-en-7.mp3",
+      "size": 13725,
+      "sha256": "99bda824f4eb52d927d7d7cba716b554a66d59051a78a46fb472cf0dd52397d8"
+    },
+    {
+      "path": "assets/puppy-male/year-4-en-8.mp3",
+      "size": 20205,
+      "sha256": "73d0c262c9aee9c702e7a02491cd76fb04c354b92cde94c4eaeceda30b427646"
+    },
+    {
+      "path": "assets/puppy-male/year-4-en-9.mp3",
+      "size": 15405,
+      "sha256": "32d86be009ad1773acb7020cc82f2e6140a08059b96c7c91e98fc2aba2704036"
+    },
+    {
+      "path": "assets/puppy-male/year-4-guide.mp3",
+      "size": 25725,
+      "sha256": "217c1fc3a362b58647f0b0a73cce1ebdb77df91624b901a733d66fa5ab6b48e2"
+    },
+    {
+      "path": "assets/puppy-male/year-5-en-0.mp3",
+      "size": 19245,
+      "sha256": "51b98c00d2e45fbb5ea1fd9625b463238f51d837d8b1b8647dd9a2949cfae963"
+    },
+    {
+      "path": "assets/puppy-male/year-5-en-1.mp3",
+      "size": 17085,
+      "sha256": "a3cd05a38024c900447d49a85cd3b8c1f155b49aa6a6d13e8b6322d983943e4b"
+    },
+    {
+      "path": "assets/puppy-male/year-5-en-2.mp3",
+      "size": 20925,
+      "sha256": "09523e04bc14501459af120f8f36724593cdcaae69400091e9f91e0e212e873b"
+    },
+    {
+      "path": "assets/puppy-male/year-5-en-3.mp3",
+      "size": 14445,
+      "sha256": "e07c865d48849997efb3e190608833f0b11376790ad9ecdc6e9c763376596575"
+    },
+    {
+      "path": "assets/puppy-male/year-5-en-4.mp3",
+      "size": 15165,
+      "sha256": "30d0843a85a46cc5fcd61e0bddd5665609858950f07479803a8902af448652fd"
+    },
+    {
+      "path": "assets/puppy-male/year-5-en-5.mp3",
+      "size": 13245,
+      "sha256": "f0340dec9dc2956d76d3b4492667ce258edc6a9cab35087acbdc28da7ad3d8c3"
+    },
+    {
+      "path": "assets/puppy-male/year-5-en-6.mp3",
+      "size": 13965,
+      "sha256": "ac44438dcde02e37c3b8156b23415d0a16ab4aa759e9f34b47e12603952c0466"
+    },
+    {
+      "path": "assets/puppy-male/year-5-en-7.mp3",
+      "size": 19245,
+      "sha256": "c1f9ea3b79ea20710a683daea4e89a34ee94f1e2b05636fe7a07b3d38f9892f9"
+    },
+    {
+      "path": "assets/puppy-male/year-5-en-8.mp3",
+      "size": 13965,
+      "sha256": "dbfa9a9bbac44d74160a3263e347e89d7b514cf99cb2b724ac6025c8d52bd214"
+    },
+    {
+      "path": "assets/puppy-male/year-5-en-9.mp3",
+      "size": 16125,
+      "sha256": "f1862f0e093e0967813363cf36e97de28e262c6016e344d08dcc36ca7ad58b25"
+    },
+    {
+      "path": "assets/puppy-male/year-5-guide.mp3",
+      "size": 45405,
+      "sha256": "92549333465a2f9249b1270e1beb9249ea6ef27a702c4f312136b3a13d7e6282"
+    },
+    {
+      "path": "assets/puppy-male/year-6-en-0.mp3",
+      "size": 14205,
+      "sha256": "fbaedd61e9b530dff1e5e3cc06e52991b6138ce2d7bb0a423c3e0774395074e2"
+    },
+    {
+      "path": "assets/puppy-male/year-6-en-1.mp3",
+      "size": 16845,
+      "sha256": "f170c3060ae50925613694f4f76d023680eb219e47c9e53742268b145010ada7"
+    },
+    {
+      "path": "assets/puppy-male/year-6-en-2.mp3",
+      "size": 22365,
+      "sha256": "2ecfaa02d8cbe30ceabb15b6c9e8d09b37ee41363681da6db4b64f770258072b"
+    },
+    {
+      "path": "assets/puppy-male/year-6-en-3.mp3",
+      "size": 16125,
+      "sha256": "61e391213fa251ab832851c48e03e104fb60fe5bc643ab518ecf2a485ef343e8"
+    },
+    {
+      "path": "assets/puppy-male/year-6-en-4.mp3",
+      "size": 20445,
+      "sha256": "c11e637d4522c3cc753b56e5bc68f633a270cd4c65ddfeb8749538b75e1f753a"
+    },
+    {
+      "path": "assets/puppy-male/year-6-en-5.mp3",
+      "size": 23085,
+      "sha256": "ab70d0692c8fadb93b4cfabdafdfda3b492a95601a8db8909a84631d678e841e"
+    },
+    {
+      "path": "assets/puppy-male/year-6-en-6.mp3",
+      "size": 22365,
+      "sha256": "7a171383dc21a80d9ddbe26651824fcba98686688d1a075c6b65e36a74834282"
+    },
+    {
+      "path": "assets/puppy-male/year-6-en-7.mp3",
+      "size": 16365,
+      "sha256": "a5c8f8094e331245a6d7c3013b51efd2ec01c7192ff640ee9325a9c4bdcbee5a"
+    },
+    {
+      "path": "assets/puppy-male/year-6-en-8.mp3",
+      "size": 16365,
+      "sha256": "3e5e382d7be780cfa179b2692aefbd9ef33558d610750e4dea52ab22cb196032"
+    },
+    {
+      "path": "assets/puppy-male/year-6-en-9.mp3",
+      "size": 14685,
+      "sha256": "0ce2e47aeb8e169a6af1efcccc33bcaae2399bba39f0c165bfd0672d31035888"
+    },
+    {
+      "path": "assets/puppy-male/year-6-guide.mp3",
+      "size": 35085,
+      "sha256": "004c6773aa17b56a47377156bc3e0e7ab3a1476318e66d11ef352d270ecd9d1a"
+    },
+    {
+      "path": "assets/puppy-male/year-7-en-0.mp3",
+      "size": 17805,
+      "sha256": "116e6617e7b39a8bafd212dbc11e1dfec529493e1d434eaf17910314906375f5"
+    },
+    {
+      "path": "assets/puppy-male/year-7-en-1.mp3",
+      "size": 14445,
+      "sha256": "5ab0ae575ce3fd45152071128d0f9823e40ce7300372d421206b061f1e4f93ba"
+    },
+    {
+      "path": "assets/puppy-male/year-7-en-2.mp3",
+      "size": 26925,
+      "sha256": "8c8357787da233c82af1a89973a251a30c9e5e863619cfa80727699757d04078"
+    },
+    {
+      "path": "assets/puppy-male/year-7-en-3.mp3",
+      "size": 14685,
+      "sha256": "28adb724e46d863f364943541bdace633555a7352655d6b8a1545b10dfbfba4b"
+    },
+    {
+      "path": "assets/puppy-male/year-7-en-4.mp3",
+      "size": 24045,
+      "sha256": "96137c8db20f1a6dfa599d8fdadd35c6a118467e0a72c068ba42de07ba6f289f"
+    },
+    {
+      "path": "assets/puppy-male/year-7-en-5.mp3",
+      "size": 14685,
+      "sha256": "4368c7a1bf6314bd37f1a9b9175796863029357342d942a80227dfe1dc7262b5"
+    },
+    {
+      "path": "assets/puppy-male/year-7-en-6.mp3",
+      "size": 12285,
+      "sha256": "dbf37e3475255fb0ca90f2b88bfcf99de7f822cddb1720aee4c5dea1e39a5a67"
+    },
+    {
+      "path": "assets/puppy-male/year-7-en-7.mp3",
+      "size": 20925,
+      "sha256": "071b82adea0444a61fb38b384acff43bf597d4563319e5bcf0e546901b07acf7"
+    },
+    {
+      "path": "assets/puppy-male/year-7-en-8.mp3",
+      "size": 11325,
+      "sha256": "2957fd74e1c9ef6e84c5ffba5f9de6e44461762fdfc6cd2891a6111f496c82b8"
+    },
+    {
+      "path": "assets/puppy-male/year-7-en-9.mp3",
+      "size": 11325,
+      "sha256": "e2c910acc1d2035d800b354db4b2c699845e8cd0d2994eeedaeb9b0417f40db3"
+    },
+    {
+      "path": "assets/puppy-male/year-7-guide.mp3",
+      "size": 31005,
+      "sha256": "d33d874dd0ae0198cdf6f16f67edeacfd09f8471764306d49590416759e7afa4"
+    },
+    {
+      "path": "assets/puppy-male/year-8-en-0.mp3",
+      "size": 15405,
+      "sha256": "45ce9f7f568d4611a844b05d47035176267f322bb75e77ba9174f36a84de248a"
+    },
+    {
+      "path": "assets/puppy-male/year-8-en-1.mp3",
+      "size": 19965,
+      "sha256": "8bd126268208747fb171c6452be53f651d653ff6b1353196c692b0840243b916"
+    },
+    {
+      "path": "assets/puppy-male/year-8-en-2.mp3",
+      "size": 17085,
+      "sha256": "f524843ff64e7e478e81222a6a9743b592b9f8e3917bf50c12ae294cf0953b1a"
+    },
+    {
+      "path": "assets/puppy-male/year-8-en-3.mp3",
+      "size": 20205,
+      "sha256": "d818f8901e7890eff7ada875ca206bcbb74d092cffa07efb3bd997bb93317cc7"
+    },
+    {
+      "path": "assets/puppy-male/year-8-en-4.mp3",
+      "size": 24045,
+      "sha256": "dc54cc108cf5905112fcdb93db91756c3bb5287e762a041132477d96cb864078"
+    },
+    {
+      "path": "assets/puppy-male/year-8-en-5.mp3",
+      "size": 23085,
+      "sha256": "27fe42721a556d1d9f000aa585b5f3c0501350928df8e887f5f4daf24d0ad148"
+    },
+    {
+      "path": "assets/puppy-male/year-8-en-6.mp3",
+      "size": 20925,
+      "sha256": "7a6cb963442221259769935bf1f4712703ca441f1d190a763a8becf5f97d641f"
+    },
+    {
+      "path": "assets/puppy-male/year-8-en-7.mp3",
+      "size": 14685,
+      "sha256": "e4dd7f2651490de21756dacb836b6d4c9f11232b4e28149a5aef595a09ef9d65"
+    },
+    {
+      "path": "assets/puppy-male/year-8-en-8.mp3",
+      "size": 16125,
+      "sha256": "57528bba002adfc800fa5f8448eb41ab5835df5d4efb79fb7b4feda3fc32ad1b"
+    },
+    {
+      "path": "assets/puppy-male/year-8-en-9.mp3",
+      "size": 18045,
+      "sha256": "533ab711b6c0bd747ee6b4526c3bbccd4ddd87a3db5f28f09c641cc0780f4a36"
+    },
+    {
+      "path": "assets/puppy-male/year-8-guide.mp3",
+      "size": 45645,
+      "sha256": "511f46161f7a2ab7bec51d5f1429b15e5ebd1340ded9f9454edfeb3591f12721"
+    },
+    {
+      "path": "assets/puppy-male/year-9-en-0.mp3",
+      "size": 27165,
+      "sha256": "6a83c64a1c33deb845b11b66ddfbfb2a6b4c42f540e460b6b414e85d05c729e2"
+    },
+    {
+      "path": "assets/puppy-male/year-9-en-1.mp3",
+      "size": 30285,
+      "sha256": "43539564a5c24e6b2091a8c72aaddc7ee71e8a06968889fc6282d29e79a250f7"
+    },
+    {
+      "path": "assets/puppy-male/year-9-en-2.mp3",
+      "size": 15405,
+      "sha256": "77efac0daa647bcb69bddd6b7fd8d72927d1fa783191ac47facf15f59a4b6806"
+    },
+    {
+      "path": "assets/puppy-male/year-9-en-3.mp3",
+      "size": 13245,
+      "sha256": "f5b93e044e22179a192fd8c0ce16d1751633b512e42b14b6dda63f25f9e059da"
+    },
+    {
+      "path": "assets/puppy-male/year-9-en-4.mp3",
+      "size": 17565,
+      "sha256": "23585d1c36f7f5a5de477e9c5d862ab8a6717afd96e03baf8e7b87ac854be865"
+    },
+    {
+      "path": "assets/puppy-male/year-9-en-5.mp3",
+      "size": 21645,
+      "sha256": "79367c8bc695c857ddd3d56a292f48f1d6f30d5e704204d972713113d07d9453"
+    },
+    {
+      "path": "assets/puppy-male/year-9-en-6.mp3",
+      "size": 15405,
+      "sha256": "27b816e2c90b4100542a7fb19751bb02fc9c02c7feaac215bf00ec3262dc8235"
+    },
+    {
+      "path": "assets/puppy-male/year-9-en-7.mp3",
+      "size": 18765,
+      "sha256": "65e9d621f273c53ade167f173a14525d9e9bcf13173ac43316bc972c88398660"
+    },
+    {
+      "path": "assets/puppy-male/year-9-en-8.mp3",
+      "size": 17085,
+      "sha256": "85e9ba8a91c929a9b730b628fff9b0e8254fc01838ae2c6ebcfb486d4076740b"
+    },
+    {
+      "path": "assets/puppy-male/year-9-en-9.mp3",
+      "size": 24765,
+      "sha256": "836a76572b75eb70cefb30eb9e808a0dfa18d8d898bda691b1bf58c164914b1c"
+    },
+    {
+      "path": "assets/puppy-male/year-9-guide.mp3",
+      "size": 43725,
+      "sha256": "2608f2871f78d8cdc50977fa6eaded3109fa2e4c52486773c60262d020d95d89"
+    },
+    {
+      "path": "assets/puppy-woof.mp3",
+      "size": 5687,
+      "sha256": "1af6469c2fe9fc865a20c90964a899f7976f5e422bbcdfce0fa84de27976d827"
+    },
+    {
+      "path": "assets/puppy/cn-again.mp3",
+      "size": 64125,
+      "sha256": "a5b97c7c858b504a2e4cb7d0db4fab726bd5ad7a152fca39ce56c0ca2ca5218d"
+    },
+    {
+      "path": "assets/puppy/cn-all-finished.mp3",
+      "size": 67245,
+      "sha256": "13fed15d006f91ffee091581e4d7936f5ee74b2d02afc8aa5777e7c7cf16693b"
+    },
+    {
+      "path": "assets/puppy/cn-cheer-0.mp3",
+      "size": 39165,
+      "sha256": "58992e92f33bdc027377566561cead8689d4ea2ba9fb44b087007193a03d45d6"
+    },
+    {
+      "path": "assets/puppy/cn-cheer-1.mp3",
+      "size": 44925,
+      "sha256": "61cc1ead427e36f50adb4bb8e55ec9b66bfe3a06424c1cd155a18fe6a610b142"
+    },
+    {
+      "path": "assets/puppy/cn-cheer-2.mp3",
+      "size": 52845,
+      "sha256": "ba7559daa5a632813b025b08ddbf2ef9e2d57ed29aa6ed4a18a98b6e0efdd83e"
+    },
+    {
+      "path": "assets/puppy/cn-cheer-3.mp3",
+      "size": 30525,
+      "sha256": "c7695200af5b66c4604c539169a1416d06ce2189cad53bd5040f6b20393265e3"
+    },
+    {
+      "path": "assets/puppy/cn-cheer-4.mp3",
+      "size": 36765,
+      "sha256": "0da78c4287102db0af172d25c2ec8d5094b0c64d3eccf3cc977b8c7d1c69660e"
+    },
+    {
+      "path": "assets/puppy/cn-finish.mp3",
+      "size": 60045,
+      "sha256": "d8e4a2bcad88de7eddcdcdc6bec66beddeed7ab79987c02c95fe3f423742869c"
+    },
+    {
+      "path": "assets/puppy/cn-fix.mp3",
+      "size": 39165,
+      "sha256": "51efbab9408b110dca686336ac3d9b4931d049e7d5fc1f35e041a2b14b14bf47"
+    },
+    {
+      "path": "assets/puppy/cn-gentle-0.mp3",
+      "size": 57645,
+      "sha256": "3e833fed0c8cf832bca50bc169da3371985e72eb75ca9a41102cf11625e3e1e8"
+    },
+    {
+      "path": "assets/puppy/cn-gentle-1.mp3",
+      "size": 38445,
+      "sha256": "0c4b08ab49d31bb8d69da52d5f56b5b5a15d9954797778fbfbe613be71cf2db3"
+    },
+    {
+      "path": "assets/puppy/cn-identity.mp3",
+      "size": 84765,
+      "sha256": "450594e57e2024c5238625b78463138e5ecbe78eeaa4ebb0d903e42c1f0e6d8b"
+    },
+    {
+      "path": "assets/puppy/cn-joke-0.mp3",
+      "size": 84765,
+      "sha256": "2207268fdaf0f7de3c4628722de0c251442afa459dc6aa87df486d2a9e76a7e5"
+    },
+    {
+      "path": "assets/puppy/cn-joke-1.mp3",
+      "size": 64125,
+      "sha256": "1e85db4ab0819aec3e9b78e1413c8c8e75fdae2b8e4b824bf1eb82355f110903"
+    },
+    {
+      "path": "assets/puppy/cn-joke-2.mp3",
+      "size": 54525,
+      "sha256": "bb82d02558bb2ebb0af8bf6de43f2a6d6ad95e2379a1070c07405cd4fbe63d6f"
+    },
+    {
+      "path": "assets/puppy/cn-meaning.mp3",
+      "size": 34365,
+      "sha256": "48bfe34c81704426024fd8caec592a87b5d0ac91f743efd4a92026dbd3e4f20f"
+    },
+    {
+      "path": "assets/puppy/cn-retry-0.mp3",
+      "size": 43245,
+      "sha256": "8da9554c1a073ba1a1c75353a500c8117bb97166b1187152c1fa8b4b25ddb4be"
+    },
+    {
+      "path": "assets/puppy/cn-retry-1.mp3",
+      "size": 54525,
+      "sha256": "4743d5efb0e30fb87fcd6bb13d652483963e558931a7ea1727e4bfa19c12c9fd"
+    },
+    {
+      "path": "assets/puppy/cn-retry-2.mp3",
+      "size": 36045,
+      "sha256": "2f00698e97b2a14e2369f7ea2886b53c975f502ee7f1ce3cfa944e1f17954667"
+    },
+    {
+      "path": "assets/puppy/cn-review-action.mp3",
+      "size": 22893,
+      "sha256": "965d345ec82320ae9e287385c19a9c1e36736b315d91487be54ef323077eec85"
+    },
+    {
+      "path": "assets/puppy/cn-review-bye-word.mp3",
+      "size": 17325,
+      "sha256": "137f63a61197c3d53a43799438ff93e72538fd9dc64a477d1e0c03c275f54c68"
+    },
+    {
+      "path": "assets/puppy/cn-review-city.mp3",
+      "size": 22701,
+      "sha256": "72420c06d6ed45c96d0331e9932758216c7d0b8725960c3b41bd28b29a420433"
+    },
+    {
+      "path": "assets/puppy/cn-review-dog-action.mp3",
+      "size": 25773,
+      "sha256": "d1e96e39bb7e245d559d0059c582c35c3734348c7ac697e94b841fcf113d1f08"
+    },
+    {
+      "path": "assets/puppy/cn-review-drink.mp3",
+      "size": 26349,
+      "sha256": "2aaec32b666abc247bf3fdc5214976cd3712564073c0ff701f006934502c7d10"
+    },
+    {
+      "path": "assets/puppy/cn-review-feeling.mp3",
+      "size": 20973,
+      "sha256": "0a3228e75aaacca5b49ac8378d6d0439ee071ea867f38f0f65e8b09684740316"
+    },
+    {
+      "path": "assets/puppy/cn-review-food.mp3",
+      "size": 23469,
+      "sha256": "d6638a474685089f39af89cbeeeaeb0d2f3f4a6d9ef268d4be0a08b42acd7627"
+    },
+    {
+      "path": "assets/puppy/cn-review-future.mp3",
+      "size": 27501,
+      "sha256": "7059cf7aae3943491ab3386d9a982401b95333c1be7adce880c96752d3465dc8"
+    },
+    {
+      "path": "assets/puppy/cn-review-goodbye.mp3",
+      "size": 25197,
+      "sha256": "5623df57d91ca60202ad2e840cfabe66b41adca8f14081efe8c301bca1a21905"
+    },
+    {
+      "path": "assets/puppy/cn-review-habit.mp3",
+      "size": 25389,
+      "sha256": "dbd444a574e1643c67f073a595e8c4195c43f13df47c173e11152152064c4f20"
+    },
+    {
+      "path": "assets/puppy/cn-review-hello-word.mp3",
+      "size": 17133,
+      "sha256": "67f6d22811986d4fba755e43c0ea828b3b60dc629235dea4e427d15b052103b6"
+    },
+    {
+      "path": "assets/puppy/cn-review-invite.mp3",
+      "size": 23853,
+      "sha256": "871ca4b7f6e0deb13cdf670062697516a9c770e91486b148a69dae833d0a71fb"
+    },
+    {
+      "path": "assets/puppy/cn-review-name.mp3",
+      "size": 20973,
+      "sha256": "5500c8db11eca13e304ffd5cf0ed1e98381fdce8fb14853a95bad0eee6d95697"
+    },
+    {
+      "path": "assets/puppy/cn-review-past.mp3",
+      "size": 28653,
+      "sha256": "b272e5e5edac09d2367dbb29b068042bc88cd362b2a52ffc81356fdcfabba412"
+    },
+    {
+      "path": "assets/puppy/cn-review-please-word.mp3",
+      "size": 15405,
+      "sha256": "3387190931c6dba571c718de549ecb5a138942705cdf106057a8e1e41eb32183"
+    },
+    {
+      "path": "assets/puppy/cn-review-plural.mp3",
+      "size": 23277,
+      "sha256": "d43ead34942b775d5d99fe4bc5f6ce47efb35bf66d31c59d30d66b4bd5299a98"
+    },
+    {
+      "path": "assets/puppy/cn-review-see.mp3",
+      "size": 26925,
+      "sha256": "f4120f2bf67c2476ec5cee73818cd5057731a5289d4528f91734c7e9cf67da0f"
+    },
+    {
+      "path": "assets/puppy/cn-review-thanks-word.mp3",
+      "size": 18669,
+      "sha256": "19ebdd90c780628ff5be8164e1ea832ab1ac3eb419aed5ed6f6c3dfa484ad212"
+    },
+    {
+      "path": "assets/puppy/cn-review-thanks.mp3",
+      "size": 19053,
+      "sha256": "164401490e00596071e1d184b83b705df8d82471e92c161afca165a939a054d7"
+    },
+    {
+      "path": "assets/puppy/cn-review-third-person.mp3",
+      "size": 20589,
+      "sha256": "3745b8e4ef0bb05744d4ae8268c9677801183359f567308009ebebab48591f32"
+    },
+    {
+      "path": "assets/puppy/cn-teach-action.mp3",
+      "size": 52125,
+      "sha256": "5458d1c1aa894507b6a1a9022c7aee0badd86059bc4110ec63596b41dcbc9b84"
+    },
+    {
+      "path": "assets/puppy/cn-teach-bye-word.mp3",
+      "size": 29565,
+      "sha256": "86165f4e82e9ab06ea6f02c51c10f0edd3c85a181af3bfc92a6064be521b20d1"
+    },
+    {
+      "path": "assets/puppy/cn-teach-city.mp3",
+      "size": 36045,
+      "sha256": "7158c5023338d252e26fee13c0204e625433dbd25f2cf8ef39f56da69ecad994"
+    },
+    {
+      "path": "assets/puppy/cn-teach-dog-action.mp3",
+      "size": 29565,
+      "sha256": "70a8e9c885c72bbe3b60f935428df84d2b3796e6a5c807adf46466c7100e92d5"
+    },
+    {
+      "path": "assets/puppy/cn-teach-drink.mp3",
+      "size": 55965,
+      "sha256": "32c595c33436ee61761fa27ba28241e991d277e1a121ba14f0549ae9b136c703"
+    },
+    {
+      "path": "assets/puppy/cn-teach-feeling.mp3",
+      "size": 47325,
+      "sha256": "90966f0c36b33da27690a957aa84c54033217c27e455a6b3b57084b84940220f"
+    },
+    {
+      "path": "assets/puppy/cn-teach-food.mp3",
+      "size": 35325,
+      "sha256": "2695c351f93cb902c0957cac7ce17653899332a3f95946469d04cc62f0a6cbd8"
+    },
+    {
+      "path": "assets/puppy/cn-teach-future.mp3",
+      "size": 56925,
+      "sha256": "2197717bf6e5c5daf2af6b656445ce3c81b92b43b17637cde5f79875559d0663"
+    },
+    {
+      "path": "assets/puppy/cn-teach-goodbye.mp3",
+      "size": 43965,
+      "sha256": "fd72a96bf4df2ce25f2e8a056d039213a391b1756a37c09a0eca25bdcb0d36e9"
+    },
+    {
+      "path": "assets/puppy/cn-teach-habit.mp3",
+      "size": 47325,
+      "sha256": "8b95da7d09f0e18aa6e2fcccf71db7df81149efb0163df734286d624214c21d6"
+    },
+    {
+      "path": "assets/puppy/cn-teach-hello-word.mp3",
+      "size": 66525,
+      "sha256": "7a8aed184750ff1951463b83ed53d3815838ed9b162cc8a1be7177b634bad503"
+    },
+    {
+      "path": "assets/puppy/cn-teach-invite.mp3",
+      "size": 45645,
+      "sha256": "50554ff82634c7996bd5f8ec3ac3520d591cc1b259dafe4c6686fcf61db55203"
+    },
+    {
+      "path": "assets/puppy/cn-teach-name.mp3",
+      "size": 101565,
+      "sha256": "9d6de3ef35bde15a0075a6702e65b2f53de890bc494c18fca5b5855065c36e21"
+    },
+    {
+      "path": "assets/puppy/cn-teach-past.mp3",
+      "size": 72765,
+      "sha256": "e1a46ed377eb4fc7c2b07045d6d78744d7acfcef5f18405a3e9ea42bde3ac78b"
+    },
+    {
+      "path": "assets/puppy/cn-teach-please-word.mp3",
+      "size": 45645,
+      "sha256": "7502549030167b2e77eea306b4e016b59b6f79f1b992e47187d5bdcae835a1a6"
+    },
+    {
+      "path": "assets/puppy/cn-teach-plural.mp3",
+      "size": 53565,
+      "sha256": "6c81286ca63ffcc75b69b46cf24075fb71790125d9865cf85e166d09c14a1a28"
+    },
+    {
+      "path": "assets/puppy/cn-teach-see.mp3",
+      "size": 54525,
+      "sha256": "a3a1c3b52a77cdb3a506e1de7b877e0c764eb01d012bdc60795acf03e7731b6f"
+    },
+    {
+      "path": "assets/puppy/cn-teach-thanks-word.mp3",
+      "size": 32925,
+      "sha256": "a1dd3b5836553269b9ff6da49d970750f32f6e78dd0971c15347c6d680ba8a2f"
+    },
+    {
+      "path": "assets/puppy/cn-teach-thanks.mp3",
+      "size": 30525,
+      "sha256": "2a830f2990c8ce2b0d7d9e0ca1cd76568e5e6b778a13cbbc6389fe00034ed2f5"
+    },
+    {
+      "path": "assets/puppy/cn-teach-third-person.mp3",
+      "size": 57645,
+      "sha256": "7a9f2eb4c48a2d3847b14a095ec08afd532bb3870eb2ce231146f58f8962987f"
+    },
+    {
+      "path": "assets/puppy/cn-turn.mp3",
+      "size": 24765,
+      "sha256": "08308cdbccfb707cbe1a96fe817307b007ffe74d7f13975fc53f8daec7ac1ec4"
+    },
+    {
+      "path": "assets/puppy/cn-welcome.mp3",
+      "size": 81645,
+      "sha256": "c87ce9d99fadc4a5ab57903f6e6255129f3221f3469f6eedd5182ffc7f4d9b98"
+    },
+    {
+      "path": "assets/puppy/en-action.mp3",
+      "size": 13725,
+      "sha256": "03d8b4ff519a044025e9a4394fa8a33bcd3c1f2f9189b554b2aa097248192af2"
+    },
+    {
+      "path": "assets/puppy/en-bye-word.mp3",
+      "size": 10365,
+      "sha256": "5e3f27a5e7a79101cacb6d781920dc975f6b01bf3ccd8f70f70b81deee9505ac"
+    },
+    {
+      "path": "assets/puppy/en-city.mp3",
+      "size": 18045,
+      "sha256": "7738313d7d46e3b57f1f84559334260e39e5b376317698faa8cce5f5e84a7761"
+    },
+    {
+      "path": "assets/puppy/en-dog-action.mp3",
+      "size": 15405,
+      "sha256": "d8978fd2fd85f8cee8817c3292b597ce2955461f1af73305db15c9e09ffb569c"
+    },
+    {
+      "path": "assets/puppy/en-drink.mp3",
+      "size": 21405,
+      "sha256": "78bb45c10882ee98356a13511c46a781a67640ff66324c60ac39bdad999a704a"
+    },
+    {
+      "path": "assets/puppy/en-feeling.mp3",
+      "size": 14445,
+      "sha256": "b54476c8413ef89d8c7d8f9fd29e898ed0e7a90489f76a5ee630641ba11cfe2a"
+    },
+    {
+      "path": "assets/puppy/en-food.mp3",
+      "size": 13725,
+      "sha256": "bf07eecbe33f54456ceee4c4de8f33b6558fea21a34473556cfbae7970c09d76"
+    },
+    {
+      "path": "assets/puppy/en-future.mp3",
+      "size": 24765,
+      "sha256": "73b01728c8a0548f2b7b2e49e6bfd14d61d7622c56aacbb85b414e8f51b48baa"
+    },
+    {
+      "path": "assets/puppy/en-goodbye.mp3",
+      "size": 14445,
+      "sha256": "e2eab1f386de67dae4b67652a6029beb829c970c7da4b658f0ca9c82930b4d65"
+    },
+    {
+      "path": "assets/puppy/en-habit.mp3",
+      "size": 24765,
+      "sha256": "eef67557735f16b79241581ada6ae378ea79ec942593618961c27854573599bf"
+    },
+    {
+      "path": "assets/puppy/en-hello-word.mp3",
+      "size": 10365,
+      "sha256": "835028e90c4899c0a200f847bfeaaf6d1cfa92ae9e7f19b5edd4011fc72d481c"
+    },
+    {
+      "path": "assets/puppy/en-invite.mp3",
+      "size": 14445,
+      "sha256": "fd0ad8e05b26c468194e848281b4a64b954ee530d20e6b49b624592327fc9e45"
+    },
+    {
+      "path": "assets/puppy/en-name.mp3",
+      "size": 17085,
+      "sha256": "116d50b0b126e6c0f26a7800e008935adc7850a8cc9e8b65fea6b07292f13d8b"
+    },
+    {
+      "path": "assets/puppy/en-past.mp3",
+      "size": 32685,
+      "sha256": "774fc4026fe3c00b5bffe3c93cfddf13dfe7a4395a362daa404ee106df696afb"
+    },
+    {
+      "path": "assets/puppy/en-please-word.mp3",
+      "size": 11085,
+      "sha256": "ce7aae71ad1212b9779c8600ec0a38bb4d3c7dd0aef8a39514b696c85e85c2d4"
+    },
+    {
+      "path": "assets/puppy/en-plural.mp3",
+      "size": 16125,
+      "sha256": "5573eb4cf790d31a6372ee6b1693364ee167920185d08cfece7c12cac862a75d"
+    },
+    {
+      "path": "assets/puppy/en-see.mp3",
+      "size": 13725,
+      "sha256": "b6703c7b8f65873330031ff7dafe8a7251be47f3f76a44bce7fe6c563d612c8e"
+    },
+    {
+      "path": "assets/puppy/en-thanks-word.mp3",
+      "size": 10365,
+      "sha256": "2d9ce25772376bb84840aefc40692a703a0a49261f6469eb9ae50ace52b5659e"
+    },
+    {
+      "path": "assets/puppy/en-thanks.mp3",
+      "size": 8445,
+      "sha256": "3b0a5ac535fc7e5ca6711414bc50a4528cd81f494b920f90a2bacb475f958938"
+    },
+    {
+      "path": "assets/puppy/en-third-person.mp3",
+      "size": 17085,
+      "sha256": "4f1d6194a47fe806a53672ea33d22524b9c6c92718082c708e0eddf66388b23c"
+    },
+    {
+      "path": "assets/puppy/manifest.json",
+      "size": 23950,
+      "sha256": "7b8608147b022ec237fa1e8733ddab745e2a2a534ed3530030c832176ad5d497"
+    },
+    {
+      "path": "assets/voice-unlock.wav",
+      "size": 2444,
+      "sha256": "89d44cbe457b7160e4f4734f628de081208c174c19a94b2476f70eb09a68f0df"
+    },
+    {
+      "path": "assets/voice/all-finished.mp3",
+      "size": 76269,
+      "sha256": "7a596f7639ceba5548ced6f32117d51f0d3e02c64412874479154a45e9a4de27"
+    },
+    {
+      "path": "assets/voice/ask-action-0.mp3",
+      "size": 36525,
+      "sha256": "6c6042cf16f2d9fac406d9d69bb6f68fc9566b3950b0ab8c53f431c69abaaef8"
+    },
+    {
+      "path": "assets/voice/ask-action-1.mp3",
+      "size": 43053,
+      "sha256": "98b068e42f47d8682f92443e03bf4526664bef0390726ca90b977ce44cf8f0eb"
+    },
+    {
+      "path": "assets/voice/ask-city-0.mp3",
+      "size": 46509,
+      "sha256": "c6427a56e35316a66effd31b5647075ed16a80debafee5c10b39d64b164efa02"
+    },
+    {
+      "path": "assets/voice/ask-city-1.mp3",
+      "size": 44397,
+      "sha256": "ce321bfa3b2c1a48703f2dee4e9dd7c877a504eceff57e04aa4c8f4b2450aa0a"
+    },
+    {
+      "path": "assets/voice/ask-dog-action-0.mp3",
+      "size": 43629,
+      "sha256": "aa9b034f1e702dcee8bf953fb7b4ae4df8e78ff1767ba80f87ca49fce8ce73ef"
+    },
+    {
+      "path": "assets/voice/ask-dog-action-1.mp3",
+      "size": 48621,
+      "sha256": "b9faba9d7115e147e45fa239ed8dc51eb5f0f23466b6cabd62d587f569abae83"
+    },
+    {
+      "path": "assets/voice/ask-drink-0.mp3",
+      "size": 56109,
+      "sha256": "6135432b346fbedd38756427b9a46cba0b4300faa4e8b562c777b63e68656ad6"
+    },
+    {
+      "path": "assets/voice/ask-drink-1.mp3",
+      "size": 44205,
+      "sha256": "41bf625d79951387fb6facd9c0ee607886275654bc9da926e4b9f9922fbfe0da"
+    },
+    {
+      "path": "assets/voice/ask-feeling-0.mp3",
+      "size": 51885,
+      "sha256": "91f82fd612dc603bf61827a582b73b3274e0cd432ef5bdf78ead6b3b786c6681"
+    },
+    {
+      "path": "assets/voice/ask-feeling-1.mp3",
+      "size": 48429,
+      "sha256": "40d2d042cae3af380cd2c117d7a225f162fa7d5c5ce27dc614213b55ecfddcec"
+    },
+    {
+      "path": "assets/voice/ask-food-0.mp3",
+      "size": 52269,
+      "sha256": "cd7232dda7d95ce5a3947666d864a209c2337532b87f805ad4434971808e1062"
+    },
+    {
+      "path": "assets/voice/ask-food-1.mp3",
+      "size": 46893,
+      "sha256": "889afadc9be46f29dc1b0080054d50f54348ce8f42efb599e4b0095166fcaeda"
+    },
+    {
+      "path": "assets/voice/ask-future-0.mp3",
+      "size": 49197,
+      "sha256": "f9cd5f2496f90dddc78cd44bd340afa9584c33413e5e193ba228e3ab13690ba6"
+    },
+    {
+      "path": "assets/voice/ask-future-1.mp3",
+      "size": 51501,
+      "sha256": "1ab216984f28c7d9b74a06c9cef698d1421fde152459d436f6206de7bcd8481f"
+    },
+    {
+      "path": "assets/voice/ask-goodbye-0.mp3",
+      "size": 40173,
+      "sha256": "34509bc9f53fd7b0a62b99a9a6145cb496abd05312fdf79af55e23471830f101"
+    },
+    {
+      "path": "assets/voice/ask-goodbye-1.mp3",
+      "size": 40749,
+      "sha256": "8ecb6890c25d799b48a4cfd88e49fb5ae4c130258a38075a17649ff3f390b739"
+    },
+    {
+      "path": "assets/voice/ask-habit-0.mp3",
+      "size": 52461,
+      "sha256": "36c01ae8cabde8a14c603b877f4057f8980b7ba8f1aabed217942c21c7f77842"
+    },
+    {
+      "path": "assets/voice/ask-habit-1.mp3",
+      "size": 55917,
+      "sha256": "2e88cfad341cf2c1ac90148d2434e2c9582afef8056d11169329bc45a1acfc32"
+    },
+    {
+      "path": "assets/voice/ask-invite-0.mp3",
+      "size": 35757,
+      "sha256": "96a4670c98847db704b59d1d4bb638dc54881fb6747a415efa770c867fd42f49"
+    },
+    {
+      "path": "assets/voice/ask-invite-1.mp3",
+      "size": 37869,
+      "sha256": "69344737119b6c93001cad9fc41e3e8cfd3be5efbe73d1392e29a6add0eb8679"
+    },
+    {
+      "path": "assets/voice/ask-name-0.mp3",
+      "size": 69165,
+      "sha256": "2c08ca5cf5001aec00c50b24bbbc5f6426a3038c2d2d1dcd152624061f267692"
+    },
+    {
+      "path": "assets/voice/ask-name-1.mp3",
+      "size": 59757,
+      "sha256": "177f0236565fc26e25647e6e9179185ea983a7adff2c7a7fdb57e55b1fa13d70"
+    },
+    {
+      "path": "assets/voice/ask-past-0.mp3",
+      "size": 50541,
+      "sha256": "4da80c6b8216fb45e17379a61f2ec86324bb9dc09524c195ac0bff01ecfefcd6"
+    },
+    {
+      "path": "assets/voice/ask-past-1.mp3",
+      "size": 50157,
+      "sha256": "ec2021239c0a8aa03e144848aaa674692d9cebc8bc795548d60c093e2e8ab373"
+    },
+    {
+      "path": "assets/voice/ask-plural-0.mp3",
+      "size": 49965,
+      "sha256": "217e70942a6bf8c589db04fef59e55364a1b554674401669242401d20d27a6cc"
+    },
+    {
+      "path": "assets/voice/ask-plural-1.mp3",
+      "size": 49773,
+      "sha256": "5309bb3e05c0fdef70a73b279a54e873d364ca169ba9dddf4f024ee4a0cc6fd6"
+    },
+    {
+      "path": "assets/voice/ask-see-0.mp3",
+      "size": 47085,
+      "sha256": "266d566e94eb99078491ef8a9774ebd54a37e8b638fff57e78d2289a0791952e"
+    },
+    {
+      "path": "assets/voice/ask-see-1.mp3",
+      "size": 49197,
+      "sha256": "49366b700cd17cac3d0b4ee0fddd5f0091675542b19445cf395b35fbf5f8b8b9"
+    },
+    {
+      "path": "assets/voice/ask-thanks-0.mp3",
+      "size": 31341,
+      "sha256": "222aefaf2e2931abd02c49ff33a514f394ee47843a17c1e86bf3eecf4ff14b32"
+    },
+    {
+      "path": "assets/voice/ask-thanks-1.mp3",
+      "size": 39405,
+      "sha256": "803433e2a595c1d6a8acfa0f01c4ee56906d8cd6d62170fa2841e43c76a7b136"
+    },
+    {
+      "path": "assets/voice/ask-third-person-0.mp3",
+      "size": 50157,
+      "sha256": "ee8a03cdaf39dc9b60e7ed6cae677bc47f2fde713a5fdff651fbaeb416fd1002"
+    },
+    {
+      "path": "assets/voice/ask-third-person-1.mp3",
+      "size": 39981,
+      "sha256": "7a48a73e6d77ad9833d398e3ebfe78748cc39740e6f4e5a2f2c7489338918318"
+    },
+    {
+      "path": "assets/voice/cheer-0.mp3",
+      "size": 15021,
+      "sha256": "84ef11fc3de393988aac0bac3dda14724ebdd7523b4328c98bef87ed2c936d07"
+    },
+    {
+      "path": "assets/voice/cheer-1.mp3",
+      "size": 21165,
+      "sha256": "e4bb7d7099c8e24744602303efe4d702d35b8c717afd5373b4266718eb6bc123"
+    },
+    {
+      "path": "assets/voice/cheer-2.mp3",
+      "size": 25773,
+      "sha256": "b343b4825e0340e2637500966bdd4b0c26e0852cc96ae99ebd210e8fde6f875b"
+    },
+    {
+      "path": "assets/voice/cheer-3.mp3",
+      "size": 16173,
+      "sha256": "e54329a4c27f4660d0db670e28fc449ce1a9c90fe282c8b60358d011e98d60e9"
+    },
+    {
+      "path": "assets/voice/cheer-4.mp3",
+      "size": 18477,
+      "sha256": "0129d251f248d7bfd4c97018824476cc1413e0333310c8060c609d85d9624589"
+    },
+    {
+      "path": "assets/voice/cheer-5.mp3",
+      "size": 18477,
+      "sha256": "8eaa66b30f5b6cd0fcd45b08b948644b8d949e5b24b40b1c4513958147ed28f8"
+    },
+    {
+      "path": "assets/voice/dog-feeling-0.mp3",
+      "size": 36909,
+      "sha256": "29c3a7d212efbb9ff8f1c8661efe9ab7d0ea9a7a12b6d2f0d027a3e04855706a"
+    },
+    {
+      "path": "assets/voice/dog-feeling-1.mp3",
+      "size": 34221,
+      "sha256": "f2794c3969fc061181104f83988a2fd17f4cf139cfee6258a6c507b5d047ea67"
+    },
+    {
+      "path": "assets/voice/dog-feeling-2.mp3",
+      "size": 27501,
+      "sha256": "567f7c62139fe5d14608b77b74c01d5d195871695bd382a5fb5784c0ce5f5f08"
+    },
+    {
+      "path": "assets/voice/example-0.mp3",
+      "size": 10797,
+      "sha256": "1af6ea0a391229ac622c70943c69a80b17b163811d215ea0a3321ac4f589abc5"
+    },
+    {
+      "path": "assets/voice/example-1.mp3",
+      "size": 10029,
+      "sha256": "43a8179138e1abb006eea4de59284dcb230e9f13dc887fe894e8acff484c1512"
+    },
+    {
+      "path": "assets/voice/example-10.mp3",
+      "size": 8493,
+      "sha256": "089815270a676b043ba645e10f247e9592088e3da91ffb9551c439f18a852b55"
+    },
+    {
+      "path": "assets/voice/example-11.mp3",
+      "size": 10413,
+      "sha256": "606b63e3c632ac8d131be64b0eae405ade55a4af8f0dbd71b1495edd4a24bc65"
+    },
+    {
+      "path": "assets/voice/example-12.mp3",
+      "size": 10605,
+      "sha256": "4b708a463112ebdad95f92567cf2f21cc91e2afdbe2dbe509e25a9da85fd389a"
+    },
+    {
+      "path": "assets/voice/example-13.mp3",
+      "size": 10605,
+      "sha256": "26e981ff26a8c66e92691b404bbddfad02d82f241da02b37ac4fbcde4bfd2650"
+    },
+    {
+      "path": "assets/voice/example-14.mp3",
+      "size": 14637,
+      "sha256": "f551eb4d14bf3c9a778ef93010c3605a8a2fd49c2da85217ffb23ffeea8c9d40"
+    },
+    {
+      "path": "assets/voice/example-15.mp3",
+      "size": 13101,
+      "sha256": "963f7f54f82493cdca5aa8b48651f16bfc13c8ec89150bffb788057b2b9410dc"
+    },
+    {
+      "path": "assets/voice/example-16.mp3",
+      "size": 13101,
+      "sha256": "09bad89b31de76319af8cdc54a20f22e36dcf9962cae0f05b21af21e1f36a79b"
+    },
+    {
+      "path": "assets/voice/example-17.mp3",
+      "size": 10413,
+      "sha256": "07eba08b9a936f90792c0e3c83d8769b3d8985c9e86e0a8d9704abbf130b30d8"
+    },
+    {
+      "path": "assets/voice/example-18.mp3",
+      "size": 10413,
+      "sha256": "b7ea1b4784a5a1ab3a5eb9c5cf0f84fecc24cd25e8b6af563efe1e8d9b7da726"
+    },
+    {
+      "path": "assets/voice/example-19.mp3",
+      "size": 8109,
+      "sha256": "96115f490e2287b739a85aeec6856f3ccad45219423f801d1bf4c6fc660a4f30"
+    },
+    {
+      "path": "assets/voice/example-2.mp3",
+      "size": 10413,
+      "sha256": "480123a2f07e2208349ce562d84cafa276e2309ce79b73cba394d75811a90a30"
+    },
+    {
+      "path": "assets/voice/example-20.mp3",
+      "size": 9453,
+      "sha256": "443d521b2a0088fc52f71bd31ba4dfd48651a19f9635f56286f8bbc7965589ed"
+    },
+    {
+      "path": "assets/voice/example-21.mp3",
+      "size": 10989,
+      "sha256": "3ee7a3ae77cbe522253c0eb850ff0ead04688ac2969d3714ce63ee2fe59c4e56"
+    },
+    {
+      "path": "assets/voice/example-22.mp3",
+      "size": 9453,
+      "sha256": "209eba027a580424b54f101b931fc6dcc9644a666fa05e3615688ab65e2b89be"
+    },
+    {
+      "path": "assets/voice/example-23.mp3",
+      "size": 10605,
+      "sha256": "7665c19754ce839c10ac198272e8c74dadaf76097a4dcaee88e6ee0347865f62"
+    },
+    {
+      "path": "assets/voice/example-24.mp3",
+      "size": 10605,
+      "sha256": "7efaf595f4dd809f9606ab0d9c7d6aafbfbdde478b1a8916ac143b5827b42606"
+    },
+    {
+      "path": "assets/voice/example-25.mp3",
+      "size": 9453,
+      "sha256": "af5103217c21daf95ce85954a75bd1ad0af1685c163aa9a1e6ac38cab7af4f3d"
+    },
+    {
+      "path": "assets/voice/example-26.mp3",
+      "size": 12141,
+      "sha256": "6bce55ebeb10cb5636f21a92a4e0d4bad02c0619b5bb46bae1233ef42242f3b9"
+    },
+    {
+      "path": "assets/voice/example-27.mp3",
+      "size": 10413,
+      "sha256": "1fe41b3937272a1d11e6d8728967f300bf68758fc56db39329472479f1f207d7"
+    },
+    {
+      "path": "assets/voice/example-28.mp3",
+      "size": 13101,
+      "sha256": "b7ee4980ac97b0b0129780ab1537ec10758fd81fdb79ebb68135e2d602b1040f"
+    },
+    {
+      "path": "assets/voice/example-29.mp3",
+      "size": 10989,
+      "sha256": "77c4c92ef2b6d6b3071bdcf8a53cefd0e5721746a1d45cfca8f5e482329ff6a4"
+    },
+    {
+      "path": "assets/voice/example-3.mp3",
+      "size": 11757,
+      "sha256": "5e53c56cdb560cc9f477b7ca8a09da3cd66516844f46d8e91159ed2bb073ec4e"
+    },
+    {
+      "path": "assets/voice/example-30.mp3",
+      "size": 13485,
+      "sha256": "f93e812fcd386fd53dd413cc7cdb9f48ef5327ddb3e3c66d9c137c884371551d"
+    },
+    {
+      "path": "assets/voice/example-31.mp3",
+      "size": 14061,
+      "sha256": "ffcda8c7e4444802600820e2939010fea660f3e146e73c8b729cb5f025586a47"
+    },
+    {
+      "path": "assets/voice/example-32.mp3",
+      "size": 13101,
+      "sha256": "87b950623ce35b9db798b40a8edd471e93451162971e6199b5b3b447753595c2"
+    },
+    {
+      "path": "assets/voice/example-33.mp3",
+      "size": 10605,
+      "sha256": "c523fc64936e1cfe9b9d4bd3cf3079d23a9a53e22d028d04a2144dc96b6c133c"
+    },
+    {
+      "path": "assets/voice/example-34.mp3",
+      "size": 10221,
+      "sha256": "18dde48c8456b90cc0fa9323fa6fdd255121ac9041ae29a4d534c362a49b6ebc"
+    },
+    {
+      "path": "assets/voice/example-35.mp3",
+      "size": 15789,
+      "sha256": "1db97efeeb39106794e8b4a8b8ae77c951b32f8922b51dfd92b7c43f9b104a90"
+    },
+    {
+      "path": "assets/voice/example-36.mp3",
+      "size": 13869,
+      "sha256": "a35a40ebb925596d41ce59ce330398bf7ecedc579be149ce314cb99d1dd6959c"
+    },
+    {
+      "path": "assets/voice/example-37.mp3",
+      "size": 14829,
+      "sha256": "d02c76a37af64f88a33a2e3946f1a9494b31a7d7e71a68e9c1fe85495015a97f"
+    },
+    {
+      "path": "assets/voice/example-38.mp3",
+      "size": 13485,
+      "sha256": "c45399d115c68789e4aed1a603ccb87a287e7572b4f4e032439a7a3870bd3acc"
+    },
+    {
+      "path": "assets/voice/example-4.mp3",
+      "size": 9261,
+      "sha256": "19adf0a2e8bda88b4dbe5145e280a86b4c24bc0f8b5493f2514beeb340c0ff5c"
+    },
+    {
+      "path": "assets/voice/example-5.mp3",
+      "size": 9261,
+      "sha256": "8f81784a3467cda4ed4b7278970702f564d9b27e53d2578c1f330e2f540e96ff"
+    },
+    {
+      "path": "assets/voice/example-6.mp3",
+      "size": 9453,
+      "sha256": "82c4149520f6d6ed9f999fa306f4d9e5a4b56e3e21552c3e7651a3f4875cd04d"
+    },
+    {
+      "path": "assets/voice/example-7.mp3",
+      "size": 10797,
+      "sha256": "ca6165fd005966a4cb7ce68778f0cf75a672ee8a43cf7a94b6ff8dd1312d0fbf"
+    },
+    {
+      "path": "assets/voice/example-8.mp3",
+      "size": 11181,
+      "sha256": "6204d55c355634e32668a35db8c50d358462f6e5382207c36acf2edd181fff42"
+    },
+    {
+      "path": "assets/voice/example-9.mp3",
+      "size": 10605,
+      "sha256": "f2a3e41803dd8e4df02a6f223760cc93402fc48a78563a52826451364f143772"
+    },
+    {
+      "path": "assets/voice/finish.mp3",
+      "size": 58797,
+      "sha256": "05a7775202bdb88b130aa7639f58e452ae57486eed126b0529ee7cec956cf0d7"
+    },
+    {
+      "path": "assets/voice/fix-0.mp3",
+      "size": 30381,
+      "sha256": "1dfea18cdee43b06eae5b72f4298d87aa2cd3e9e321f17b6ef5d61ea83e0a1b2"
+    },
+    {
+      "path": "assets/voice/fix-1.mp3",
+      "size": 23085,
+      "sha256": "b4568cf8381b33c9328aa82d8f530017f8f3bec38086797c6fbea2c13b99f937"
+    },
+    {
+      "path": "assets/voice/fix-2.mp3",
+      "size": 24813,
+      "sha256": "8b875f7d949c132437dd1b12450d44617b522b699102d674b5c8ee2a39c6784a"
+    },
+    {
+      "path": "assets/voice/fix-3.mp3",
+      "size": 26157,
+      "sha256": "a8cbce9d4cfe657aa1ebe16d60188113c003b2aaadea51f554e8ea7725d02a13"
+    },
+    {
+      "path": "assets/voice/gentle-0.mp3",
+      "size": 25005,
+      "sha256": "0394a3217cf7202e889d8095165151c18311ab3a7baaf610dbd65faa6e80b2c6"
+    },
+    {
+      "path": "assets/voice/gentle-1.mp3",
+      "size": 24429,
+      "sha256": "5044fcd7ac0e2f4fe34ff7aae26343c4fd10076e26468f590f1e976b8cffee43"
+    },
+    {
+      "path": "assets/voice/gentle-2.mp3",
+      "size": 23469,
+      "sha256": "97b14b55b6386835c1620d83e29e5f9631deca0d9415ca86d1a1ac8cbead47fc"
+    },
+    {
+      "path": "assets/voice/hello-0.mp3",
+      "size": 25581,
+      "sha256": "708469e30714a34c27e795eb65f03c0e577c40f7728600b5ca7735ae348f9038"
+    },
+    {
+      "path": "assets/voice/hello-1.mp3",
+      "size": 25581,
+      "sha256": "00675d965c0b4746666c8d9df51e1a785c97b1fcb96f3a9aaae8a4a4fb8bbfd4"
+    },
+    {
+      "path": "assets/voice/hello-2.mp3",
+      "size": 24429,
+      "sha256": "dfa1fa5105393c2fb9f11b8f15563049a515b49aa2a21bbc16078b70f2abed31"
+    },
+    {
+      "path": "assets/voice/hello-3.mp3",
+      "size": 21933,
+      "sha256": "5992b78acd15ba78bd7f728eb86b1be96c6e5a4c8853d05fc7cc450a3f30806c"
+    },
+    {
+      "path": "assets/voice/identity.mp3",
+      "size": 63981,
+      "sha256": "1628fb8222f6629940615624653eb69297293ab809c75f6f09fdb5a6799691f3"
+    },
+    {
+      "path": "assets/voice/joke-0.mp3",
+      "size": 71469,
+      "sha256": "c2894b3a82e88576cc279b9d6d13353ba3e28451a22559b0a0d285459a129762"
+    },
+    {
+      "path": "assets/voice/joke-1.mp3",
+      "size": 54381,
+      "sha256": "0bdcf4fd2df4cf8f33b37ddbd6e3f9475c51df0b479c2e44c4ceb80ffd68f225"
+    },
+    {
+      "path": "assets/voice/joke-2.mp3",
+      "size": 56109,
+      "sha256": "6e591904e9ac4bf2b11416c257b46d56d6c4f6d99d9b91c8ed0f5c196dd53d8c"
+    },
+    {
+      "path": "assets/voice/joke-3.mp3",
+      "size": 55533,
+      "sha256": "579c71bcb5a6f1ae43f16d33ff6fb66f0f80eda55f2e02b8a5fbe97c0dce9d5e"
+    },
+    {
+      "path": "assets/voice/manifest.json",
+      "size": 28459,
+      "sha256": "81d9b7ea0f63b3ca702f9ea772fbc060d59007bb2e2a1bf9b22b1ea7c2e41d77"
+    },
+    {
+      "path": "assets/voice/pet-0.mp3",
+      "size": 36909,
+      "sha256": "b817f179efdde4f1b805a0e33741317087cc1b99c2df4daabf9d7d46f47bcef1"
+    },
+    {
+      "path": "assets/voice/pet-1.mp3",
+      "size": 24813,
+      "sha256": "a578f7385d970244d7fff28ca64111256f2c5597132285c4582c6367c2da3819"
+    },
+    {
+      "path": "assets/voice/pet-2.mp3",
+      "size": 33069,
+      "sha256": "2a36422426364f4a2e7a415791593e162c9bc76e99cc9869171989652f2a135b"
+    },
+    {
+      "path": "assets/voice/retry-0.mp3",
+      "size": 32493,
+      "sha256": "51754298ab92a02280478b3276106b63084746957880f4251fb18504fd8451e2"
+    },
+    {
+      "path": "assets/voice/retry-1.mp3",
+      "size": 30957,
+      "sha256": "e3db664cc085dffc370dd3422c818cf273c8f0126a9499cae529e3d97e13288d"
+    },
+    {
+      "path": "assets/voice/retry-2.mp3",
+      "size": 35565,
+      "sha256": "c8871d6d5f11b1504417ed084e2c130f0e29cceaf3b898b83fa199b55c48bc2a"
+    },
+    {
+      "path": "assets/voice/retry-3.mp3",
+      "size": 31149,
+      "sha256": "48bfd903df81bea7e8d32a6b90863e1669ae90e690a470e9539ffc0342390c97"
+    },
+    {
+      "path": "assets/voice/rule-action-0.mp3",
+      "size": 39021,
+      "sha256": "c097cd62bfb25b93675b37fbf27766a3f95f488ecff67676ced886167ec6ec5b"
+    },
+    {
+      "path": "assets/voice/rule-action-1.mp3",
+      "size": 36141,
+      "sha256": "4ee06b71c6ecec87e413845f41faf94f6ee0bf92f4f0528e50dcaf5a1fadd4f8"
+    },
+    {
+      "path": "assets/voice/rule-city-0.mp3",
+      "size": 31725,
+      "sha256": "1038fdeba3265b86c76f42f11a74d2d2c3f3fb79ce173991ac5301bca3c2bf0d"
+    },
+    {
+      "path": "assets/voice/rule-city-1.mp3",
+      "size": 51501,
+      "sha256": "e52fd06c34e7a0efd7566b27c7f9bee054629da513827ff606a95119a51dbfda"
+    },
+    {
+      "path": "assets/voice/rule-dog-action-0.mp3",
+      "size": 34221,
+      "sha256": "9a407bbfea6c26ab08650752224914106e7622ab6f807d7d2338e48154ccc29e"
+    },
+    {
+      "path": "assets/voice/rule-dog-action-1.mp3",
+      "size": 30189,
+      "sha256": "84bca4d14a6bc0787cbafa75cdd59c9aad3707aac8b50d60413282e427910c41"
+    },
+    {
+      "path": "assets/voice/rule-drink-0.mp3",
+      "size": 39789,
+      "sha256": "b22a21033945b4666aeffd1df2ced8924ff98fdc86958cf1d44f69b9d7ad840a"
+    },
+    {
+      "path": "assets/voice/rule-drink-1.mp3",
+      "size": 41133,
+      "sha256": "3ad0d6610b586601f257f1b5abf3463e4db5286083acefc92422e0a1d2bc4f1e"
+    },
+    {
+      "path": "assets/voice/rule-feeling-0.mp3",
+      "size": 40365,
+      "sha256": "46a4483677f91b9d628536ce7cc58b6b317052ca36127db8efdaf2aa92ffec1f"
+    },
+    {
+      "path": "assets/voice/rule-feeling-1.mp3",
+      "size": 39597,
+      "sha256": "2332c847c2f85e423a6b66d828228c520535c53fe017b8938c1d49eed98ad69b"
+    },
+    {
+      "path": "assets/voice/rule-food-0.mp3",
+      "size": 39213,
+      "sha256": "cd219f7a1b40ecf7294a29af4305119ccbcc486eedf5bf0e4ed48c00f306e2d8"
+    },
+    {
+      "path": "assets/voice/rule-food-1.mp3",
+      "size": 41325,
+      "sha256": "814e87ea77bf8010ac251bd0048cad1a0f75b627cb977415ff73f90a51ff5f15"
+    },
+    {
+      "path": "assets/voice/rule-future-0.mp3",
+      "size": 29037,
+      "sha256": "7bcb0bf7d98220924f1a6f94d43415f2d7dcfd84645d35ff635ed9bcc1dd094b"
+    },
+    {
+      "path": "assets/voice/rule-future-1.mp3",
+      "size": 43821,
+      "sha256": "f0d6ddd657e43a8478e1405a4817bb944aad0c37c7fb5885db871e683f519bbd"
+    },
+    {
+      "path": "assets/voice/rule-goodbye-0.mp3",
+      "size": 45357,
+      "sha256": "4d89ba47d7ce48eec38c25f48c2861454e6533b739b9150baac48716ec7b1dd2"
+    },
+    {
+      "path": "assets/voice/rule-goodbye-1.mp3",
+      "size": 41901,
+      "sha256": "9782dd0acb7ab570a315696abd39054268a35751482ed96b6fffe9d14f0fe635"
+    },
+    {
+      "path": "assets/voice/rule-habit-0.mp3",
+      "size": 35565,
+      "sha256": "b79c4159e8372a4141f2be7d7d9cad78222a114c28f3649935414d1518cd164f"
+    },
+    {
+      "path": "assets/voice/rule-habit-1.mp3",
+      "size": 37101,
+      "sha256": "0b3c2a8443ebbfd47f08fafd59864041089697e08babfe99bc32e8b352160293"
+    },
+    {
+      "path": "assets/voice/rule-invite-0.mp3",
+      "size": 33837,
+      "sha256": "6938e1b60df798aa5c517391da9670cbd2e97e65425f6cfc7b8fb8d2ac65f195"
+    },
+    {
+      "path": "assets/voice/rule-invite-1.mp3",
+      "size": 49005,
+      "sha256": "c13194eac982077dead55ffaf8841658130aae2c0578d67dae3262e569b6c863"
+    },
+    {
+      "path": "assets/voice/rule-name-0.mp3",
+      "size": 46893,
+      "sha256": "27123caa776cdd25e7c1f19d55a8aecbe4f00e21d45f67f35f040a1bc5d042cc"
+    },
+    {
+      "path": "assets/voice/rule-name-1.mp3",
+      "size": 40365,
+      "sha256": "bf03115e384ec8e1428bde8f8da7aa2723064451601808ac3f0ae375f8c52bab"
+    },
+    {
+      "path": "assets/voice/rule-past-0.mp3",
+      "size": 38445,
+      "sha256": "4569bf45ee4243b224845373b245113dc4da160b7cd04218aba3dead1cbaae6b"
+    },
+    {
+      "path": "assets/voice/rule-past-1.mp3",
+      "size": 46125,
+      "sha256": "24ccbc0867c63fb3dae7b1bce8d733cc8001cbea5ffb019d640abcaf76e5f527"
+    },
+    {
+      "path": "assets/voice/rule-plural-0.mp3",
+      "size": 27693,
+      "sha256": "60608cc5b1c8f5d4dce7cbcfd9b9d13389f0ca47db07cd1362ba3f953cb2e03d"
+    },
+    {
+      "path": "assets/voice/rule-plural-1.mp3",
+      "size": 38061,
+      "sha256": "d234316d6c7cc74cfb23bd9da9cf117d4d18bb7080a639eb06c05d24e8f83310"
+    },
+    {
+      "path": "assets/voice/rule-see-0.mp3",
+      "size": 42285,
+      "sha256": "b5a2889734b3f52b8a4d8cf644749b29c2c5b0fa95b26abe6ad882bb4d4812de"
+    },
+    {
+      "path": "assets/voice/rule-see-1.mp3",
+      "size": 34029,
+      "sha256": "c128f3285b16f7267dc4aff21cdad7a70c24832bb030fbba2d97c6a6eeeffa6c"
+    },
+    {
+      "path": "assets/voice/rule-thanks-0.mp3",
+      "size": 33453,
+      "sha256": "039c7b439049b45f7e0cf750087a3697dda16bd0838e4b38d685b2efe55a40c5"
+    },
+    {
+      "path": "assets/voice/rule-thanks-1.mp3",
+      "size": 39213,
+      "sha256": "d722bbb8a3e9632248d5788a6eba4c37e398c707b944d5d5117f4ee72a140415"
+    },
+    {
+      "path": "assets/voice/rule-third-person-0.mp3",
+      "size": 29037,
+      "sha256": "6433a42578efe4f2a464b14a6de63f804c3811014549bf11779ff50f4eb69bf2"
+    },
+    {
+      "path": "assets/voice/rule-third-person-1.mp3",
+      "size": 36717,
+      "sha256": "878890e33b075839e6ac6732e747816b3bfc62086ba0357faa44f3bceb03bfee"
+    },
+    {
+      "path": "assets/voice/sleepy-0.mp3",
+      "size": 19437,
+      "sha256": "1c4fc1968e1ab6f225a54d66d30c562f5219329d7b9b484e01b52d8724cf3347"
+    },
+    {
+      "path": "assets/voice/sleepy-1.mp3",
+      "size": 28077,
+      "sha256": "2be5c2cc15084e1b2cce3c2d4241deed315e9b1ddf282ce23f3c0bdf38b57a6b"
+    },
+    {
+      "path": "assets/voice/try-again.mp3",
+      "size": 23469,
+      "sha256": "405ed647b9e0c6e6320823ba4e8b843ea4904fd5eb2f37d2320a76f8127accac"
+    },
+    {
+      "path": "assets/voice/your-turn.mp3",
+      "size": 23853,
+      "sha256": "1aa6dc1f7cb3c4946e4003ef3060a7f9c4677996a12e6b9df4e9d7c1ba4e7a34"
+    }
+  ]
+}
