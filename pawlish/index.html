@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#e6f4eb">
-  <meta name="pawlish-release" content="23">
+  <meta name="pawlish-release" content="24">
   <meta name="description" content="和可爱的小狗一起学英语。中文讲解、慢速示范，从一句你好开始。">
   <title>Pawlish · 小狗陪你学英语</title>
   <link rel="icon" href="assets/paw.svg" type="image/svg+xml">
@@ -96,8 +96,8 @@
     button.querySelector('span').textContent = '课程暂时无法开始';
     document.getElementById('voice-status').textContent = '课程还没准备好，请点下面的「重新打开」。';
     document.getElementById('startup-error').hidden = false;
-    document.getElementById('startup-error-detail').textContent = 'Pawlish 23: ' + failure;
-    document.getElementById('reload-pawlish').href = '?v=23&reload=' + Date.now();
+    document.getElementById('startup-error-detail').textContent = 'Pawlish 24: ' + failure;
+    document.getElementById('reload-pawlish').href = '?v=24&reload=' + Date.now();
     document.getElementById('greeting-audio').controls = true;
   }
   document.addEventListener('pawlish-ready', function () {
@@ -185,7 +185,7 @@
         <p class="input-status" id="input-status" role="status"></p><button id="retry-progress" class="text-button" type="button" hidden>重试连接</button><button id="retry-save" class="text-button" type="button" hidden>重试保存</button>
         <div id="voice-recovery" class="voice-recovery" hidden><a id="connect-voice" class="text-button" href="connect.html" hidden>连接语音</a><button id="voice-type-reply" class="text-button" type="button">打字回答</button></div>
       </div>
-      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=23">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
+      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=24">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
       <audio id="greeting-audio" src="assets/puppy-female/cn-welcome.mp3?v=13" preload="auto"></audio>
     </section>
   </main>
@@ -306,19 +306,19 @@ class HandsFreeSession {
   // Preserve the Window receiver when the session invokes its timer helpers.
   constructor({Recognition,onText,onChange=()=>{},onTranscript=()=>{},now=()=>Date.now(),setTimer=(fn,delay)=>globalThis.setTimeout(fn,delay),clearTimer=id=>globalThis.clearTimeout(id)}) {
     Object.assign(this,{Recognition,onText,onChange,onTranscript,now,setTimer,clearTimer});
-    this.active=false;this.phase='off';this.recognition=null;this.timer=null;this.startTimer=null;this.idleTimer=null;this.generation=0;this.idleSince=0;this.restarts=0;this.networkRestarts=0;this.captureStarted=false;this.holdForSpeech=false;
+    this.active=false;this.phase='off';this.recognition=null;this.timer=null;this.startTimer=null;this.generation=0;this.restarts=0;this.networkRestarts=0;this.captureStarted=false;this.hasStarted=false;this.holdForSpeech=false;
   }
   change(phase,message='',problem=''){this.phase=phase;this.onChange({active:this.active,phase,message,problem});}
   cancelCapture(){
     this.generation++;this.clearTimer(this.timer);this.timer=null;
-    this.clearTimer(this.startTimer);this.startTimer=null;this.clearTimer(this.idleTimer);this.idleTimer=null;
+    this.clearTimer(this.startTimer);this.startTimer=null;
     const recognition=this.recognition;this.recognition=null;
     this.captureStarted=false;
     if(recognition)try{recognition.abort();}catch{}
   }
   enable({greeting=false}={}){
     if(!this.Recognition){this.fail('这里不能识别语音，请用 Safari 打开，或打字回答。','unsupported');return false;}
-    this.cancelCapture();this.active=true;this.idleSince=this.now();this.restarts=0;this.networkRestarts=0;this.holdForSpeech=greeting;
+    this.cancelCapture();this.active=true;this.restarts=0;this.networkRestarts=0;this.hasStarted=false;this.holdForSpeech=greeting;
     // Keep the first start() inside the button's user gesture. Do not wait for
     // speech, a woof, a promise, or even a zero-delay timer before requesting it.
     this.startCapture();return this.active;
@@ -346,7 +346,6 @@ class HandsFreeSession {
   }
   startCapture(){
     if(!this.active)return;
-    if(this.now()-this.idleSince>90000){this.stop('我们休息一下。准备好后点「开始学英语」。');return;}
     let recognition;
     try{recognition=new this.Recognition();}catch{this.fail('这里无法开始语音练习。请用 Safari 打开，或打字回答。');return;}
     this.recognition=recognition;
@@ -357,12 +356,12 @@ class HandsFreeSession {
     const submit=()=>{
       if(!current()||submitted||!transcript.trim())return;
       submitted=true;const answer=transcript.trim().slice(0,280);
-      this.idleSince=this.now();this.restarts=0;this.networkRestarts=0;
+      this.restarts=0;this.networkRestarts=0;
       this.pauseForSpeech();this.onText(answer);
     };
     recognition.onstart=()=>{
       if(!current())return;
-      this.clearTimer(this.startTimer);this.startTimer=null;this.captureStarted=true;startedAt=this.now();
+      this.clearTimer(this.startTimer);this.startTimer=null;this.captureStarted=true;this.hasStarted=true;startedAt=this.now();
       if(this.holdForSpeech){this.cancelCapture();return;}
       this.change('listening');
     };
@@ -381,13 +380,15 @@ class HandsFreeSession {
     recognition.onnomatch=()=>{if(current())this.change('listening','我还没听清，跟着说屏幕上的英语就好。');};
     recognition.onerror=event=>{
       if(!current())return;
+      if(this.holdForSpeech&&this.hasStarted&&['network','aborted','no-speech'].includes(event.error)){this.cancelCapture();return;}
       // A browser can finish a valid utterance and then disconnect before the
       // silence timer fires. Keep its final words, but never promote an interim
       // guess or recover after a permission refusal.
       if(finalTranscript&&['network','aborted','no-speech'].includes(event.error)){transcript=finalTranscript;submit();return;}
       if(event.error==='no-speech'){transcript='';return;}
-      if(event.error==='network'&&this.captureStarted&&this.networkRestarts<1){
-        this.networkRestarts++;this.onTranscript('');this.listen(900);this.change('reconnecting','连接断了一下，我会再听你说。');return;
+      if(['network','aborted'].includes(event.error)&&this.hasStarted){
+        const delay=Math.min(15000,900*2**Math.min(this.networkRestarts++,5));
+        this.onTranscript('');this.listen(delay);this.change('reconnecting','连接断了一下，我会自动接着听。');return;
       }
       const errors={
         'not-allowed':'麦克风没有获准使用。请在 Safari 打开并允许麦克风，或先打字回答。',
@@ -403,11 +404,12 @@ class HandsFreeSession {
       if(this.holdForSpeech){this.cancelCapture();return;}
       if(transcript.trim()){submit();return;}
       if(this.now()-startedAt<1200)this.restarts++;else this.restarts=0;
-      if(this.restarts>=3){this.fail('这个浏览器总是中断语音。请用 Safari 打开，或先打字回答。');return;}
-      this.listen(650);
+      if(!this.hasStarted&&this.restarts>=3){this.fail('语音服务没有启动，请连接语音或打字回答。','service-not-allowed');return;}
+      const delay=Math.min(15000,650*2**Math.min(Math.max(0,this.restarts-1),5));
+      this.listen(delay);
+      if(this.restarts>=3)this.change('reconnecting','语音连接不稳定，正在自动重连。');
     };
     this.startTimer=this.setTimer(()=>{if(current())this.fail('麦克风还没开始。看看手机是否在询问权限，或用 Safari 重新打开。','timeout');},20000);
-    this.idleTimer=this.setTimer(()=>{if(current())this.stop('我们休息一下。准备好后点「开始学英语」。');},Math.max(0,90000-(this.now()-this.idleSince)));
     try{this.change('starting','如果手机询问麦克风权限，请点允许。正在连接……');recognition.start();}
     catch{this.fail('浏览器还不能听到你。请在 Safari 中打开后，再点「开始学英语」。');}
   }
@@ -430,7 +432,7 @@ class MicrophoneSession {
   clear(id){this.host.clearTimeout(id);this.timers.delete(id);}
   change(phase,message='',problem=''){this.phase=phase;this.onChange({active:this.active,phase,message,problem});}
   enable({greeting=false}={}){
-    this.release();this.active=true;this.holdForSpeech=greeting;this.idleSince=this.now();this.emptyTurns=0;
+    this.release();this.active=true;this.holdForSpeech=greeting;this.emptyTurns=0;
     const generation=this.generation;
     this.change('starting','请允许麦克风。');
     try{
@@ -486,7 +488,6 @@ class MicrophoneSession {
     const generation=this.generation,turn=this.turn;
     const current=()=>this.current(generation)&&this.turn===turn&&!this.holdForSpeech;
     if(!current())return;
-    if(this.now()-this.idleSince>=90000){this.stop('先休息一下，准备好再开始。');return;}
     this.stream.getAudioTracks().forEach(track=>{track.enabled=true;});
     const resumed=this.context.resume();resumed?.catch(()=>{if(current())this.fail('声音通道暂停了，请点开始继续。','audio-capture');});
     let recorder;
@@ -556,7 +557,7 @@ class MicrophoneSession {
           }
           const text=typeof data.text==='string'?data.text.trim().slice(0,500):'';
           if(!text){if(++this.emptyTurns>=3){this.fail('只听到背景声音。靠近麦克风，再点开始。','empty_audio');return;}this.listen(0);return;}
-          this.emptyTurns=0;this.idleSince=this.now();this.onTranscript(text);this.pauseForSpeech();this.onText(text);return;
+          this.emptyTurns=0;this.onTranscript(text);this.pauseForSpeech();this.onText(text);return;
         }catch{
           if(!current())return;
           if(attempt===0&&!abort.signal.aborted){
@@ -1247,7 +1248,7 @@ const storedName=readPreference('dogName','豆豆');
 const chosenName=validName(storedName)&&!(storedName==='Buddy'&&readPreference('dogNameVersion','')!=='10')?storedName:'豆豆';
 savePreference('dogNameVersion','10');savePreference('dogName',chosenName);
 const state={dogName:chosenName,gender:readPreference('dogGender','female')==='male'?'male':'female',lessonId:'year-1',stepIndex:0,sound:readPreference('sound','true')==='true',chinese:readPreference('chinese','true')==='true',answered:false,finished:false,recognition:null,listening:false,feedback:'',busy:false};
-let speechToken=0,speechActive=false,petToken=0,petCount=0,voiceSession,currentPrompt,conversationAttempted=false,progressReady=false,signInRequired=false,personalAvatar=null,pendingAnswer=null;
+let speechToken=0,speechActive=false,petToken=0,petCount=0,voiceSession,currentPrompt,conversationAttempted=false,progressReady=false,signInRequired=false,personalAvatar=null,pendingAnswer=null,resumeWhenVisible=false;
 let introducedName=readPreference('introducedDogName',''),introduceNextSpeech=false,nameRecording=null;
 const supportsRecording=canRecord(window);
 let directVoice=false,voiceReady=!supportsRecording;
@@ -1284,7 +1285,7 @@ function stopSpeech() {
 }
 
 function continueAfterReply(){
-  if(!voiceSession?.active||speechActive||document.querySelector('dialog[open]'))return;
+  if(!voiceSession?.active||speechActive||document.hidden||document.querySelector('dialog[open]'))return;
   if(state.busy){avatar.set('thinking');$('turn-title').textContent='正在保存……';return;}
   if(state.answered&&!state.finished){nextQuestion();return;}
   voiceSession.listen(180);
@@ -1658,8 +1659,20 @@ $('rename-form').addEventListener('submit',event=>{
 $('how-it-works').addEventListener('click',()=>{$('settings-dialog').close();openDialog('about-dialog');});
 document.querySelectorAll('[data-close-dialog]').forEach(button=>button.addEventListener('click',()=>$(button.dataset.closeDialog).close()));
 new DogPhoto({host:window,pause:()=>{voiceSession.stop();stopSpeech();stopMicrophone();},onAvatar:url=>{personalAvatar=url;updateAppearance();}});
-function suspend(){voiceSession.stop();stopSpeech();stopMicrophone();phonePlay.disable();avatar.dispose();}
-window.addEventListener('pagehide',suspend);window.addEventListener('pageshow',()=>avatar.resume());document.addEventListener('visibilitychange',()=>{if(document.hidden)suspend();else avatar.resume();});
+function suspend(){resumeWhenVisible=false;voiceSession.stop();stopSpeech();stopMicrophone();phonePlay.disable();avatar.dispose();}
+window.addEventListener('pagehide',suspend);window.addEventListener('pageshow',()=>avatar.resume());
+document.addEventListener('visibilitychange',()=>{
+ if(document.hidden){
+  // Keep the learner's active session while muting input and cancelling audio.
+  // A real navigation or explicit Pause still releases the microphone fully.
+  resumeWhenVisible=!!voiceSession.active;voiceSession.pauseForSpeech();stopSpeech();stopMicrophone();phonePlay.disable();avatar.dispose();
+ }else{
+  avatar.resume();const resume=resumeWhenVisible;resumeWhenVisible=false;
+  if(!resume||!voiceSession.active||document.querySelector('dialog[open]'))return;
+  if(state.busy||state.answered||state.finished)continueAfterReply();
+  else speak(currentPrompt.text,{parts:currentPrompt.parts});
+ }
+});
 $('mic-button').addEventListener('click',()=>{$('typing-dialog').close();startConversation();});
 $('copy-voice-link').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('voice-link').value);$('copy-voice-status').textContent='网址已复制，请用 Safari 打开。';}catch{$('voice-link-label').hidden=false;$('voice-link').select();}});
 updateHeader();askCurrentQuestion();renderMap();renderShop();document.dispatchEvent(new CustomEvent('pawlish-ready'));syncProgress();checkVoiceConnection();
