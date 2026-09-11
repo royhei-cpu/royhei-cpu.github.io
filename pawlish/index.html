@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#e6f4eb">
-  <meta name="pawlish-release" content="29">
+  <meta name="pawlish-release" content="30">
   <meta name="description" content="和可爱的小狗一起学英语。中文讲解、慢速示范，从一句你好开始。">
   <title>Pawlish · 小狗陪你学英语</title>
   <link rel="icon" href="assets/paw.svg" type="image/svg+xml">
@@ -97,8 +97,8 @@
     button.querySelector('span').textContent = '课程暂时无法开始';
     document.getElementById('voice-status').textContent = '课程还没准备好，请点下面的「重新打开」。';
     document.getElementById('startup-error').hidden = false;
-    document.getElementById('startup-error-detail').textContent = 'Pawlish 29: ' + failure;
-    document.getElementById('reload-pawlish').href = '?v=29&reload=' + Date.now();
+    document.getElementById('startup-error-detail').textContent = 'Pawlish 30: ' + failure;
+    document.getElementById('reload-pawlish').href = '?v=30&reload=' + Date.now();
     document.getElementById('greeting-audio').controls = true;
   }
   document.addEventListener('pawlish-ready', function () {
@@ -186,7 +186,7 @@
         <p class="input-status" id="input-status" role="status"></p><p class="input-status" id="in-app-hint" hidden></p><button id="retry-progress" class="text-button" type="button" hidden>重试连接</button><button id="retry-save" class="text-button" type="button" hidden>重试保存</button>
         <div id="voice-recovery" class="voice-recovery" hidden><a id="connect-voice" class="text-button" href="connect.html" hidden>连接语音</a><button id="voice-type-reply" class="text-button" type="button">打字回答</button></div>
       </div>
-      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=27">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
+      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=30">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
       <audio id="greeting-audio" src="assets/puppy-female/cn-welcome.mp3?v=13" preload="auto"></audio>
     </section>
   </main>
@@ -214,12 +214,12 @@
     <label class="language-toggle"><span>显示中文释义</span><input type="checkbox" id="chinese" checked><span class="switch-track" aria-hidden="true"></span></label>
     <p id="voice-connection-status">语音识别由浏览器提供。</p><p><a href="connect.html">管理语音连接</a></p>
     <p>听小狗说，再跟着说英语。</p><p>没听懂就点「慢一点」。</p>
-    <details class="voice-help" id="voice-help"><summary>听不到声音，或不能说话？</summary><div class="voice-help-content"><p>在 iPhone 上，请用 Safari 打开。点「开始学英语」，如果手机询问是否允许麦克风，请选择允许。把媒体音量调高，并保持这个页面打开。</p><div class="voice-help-actions"><button id="copy-voice-link" class="listen-button" type="button">复制网址</button><a href="https://royhei-cpu.github.io/pawlish" target="_blank" rel="noopener noreferrer">打开网页</a></div><p id="copy-voice-status" role="status"></p><label id="voice-link-label" hidden for="voice-link">长按复制这个网址：<input id="voice-link" readonly value="https://royhei-cpu.github.io/pawlish"></label><p>允许麦克风后，绿色小条会随你的声音跳动。说完停一下，就会自动发送；也可以点「打字回答」。</p><p><a href="voice-check.html">检查声音和麦克风</a></p></div></details>
+    <details class="voice-help" id="voice-help"><summary>听不到声音，或不能说话？</summary><div class="voice-help-content"><p>请用 Chrome 或 Safari 打开。点「开始学英语」，如果手机询问是否允许麦克风，请选择允许。把媒体音量调高，并保持这个页面打开。</p><div class="voice-help-actions"><button id="copy-voice-link" class="listen-button" type="button">复制网址</button><a href="./" target="_blank" rel="noopener noreferrer">打开网页</a></div><p id="copy-voice-status" role="status"></p><label id="voice-link-label" hidden for="voice-link">长按复制这个网址：<input id="voice-link" readonly value="https://royhei-cpu.github.io/pawlish/"></label><p>允许麦克风后，绿色小条会随你的声音跳动。说完停一下，就会自动发送；也可以点「打字回答」。</p><p><a href="voice-check.html">检查声音和麦克风</a></p></div></details>
     <button id="how-it-works" class="text-button" type="button">关于小狗老师</button>
   </dialog>
   <dialog id="rename-dialog" class="small-dialog"><form id="rename-form"><div class="dialog-heading"><h2>给小狗取个名字</h2><button class="icon-button" data-close-dialog="rename-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div><label for="new-dog-name">你想叫它什么？</label><input id="new-dog-name" type="text" maxlength="24" required placeholder="例如：豆豆" autocomplete="off"><p class="input-status" id="rename-error" role="status"></p><button class="primary-button" type="submit">保存名字</button></form></dialog>
   <dialog id="about-dialog" class="small-dialog"><div class="dialog-heading"><h2>小狗陪你学英语</h2><button class="icon-button" data-close-dialog="about-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div>
-    <p>从「你好」开始，一次学一个短表达。小狗用中文解释，用慢速英语示范，再等你跟着说。答错了会示范改好的句子，不用着急。</p><p>二十门课程，每门五十题，共一千道练习。每年学习十个表达，用跟读、看中文说英语、听力选择、填空和回忆五种方式练习。内容从零基础逐渐走向复杂表达。这是有示范答案的引导式练习，不是无限话题聊天，也不会给发音打分。</p><p>小狗的声音由 AI 生成，打招呼、鼓励和庆祝各有不同情绪。可以选择公狗或母狗的声音。小狗会眨眼、动耳朵、摇尾巴、坐下、趴下和跳跃，也可以摸摸它。这是动画角色，不是实时拍摄。点名字旁的「改名」可随时换名字，也可以在设置里修改。改名后，下次点开始，小狗会先用新名字打招呼。</p><p>点一次「开始学英语」并允许麦克风后，可以连续跟读。小狗说话时，麦克风暂停，避免听到自己的声音。点「暂停」会暂停练习。临时切到后台时停止收音，回到页面会接着学。连接语音服务后，英语跟读和中文求助都能听。</p><p>每题首次答对得一根骨头，每年五十题全部完成后长大一岁并得到一百奖励币。骨头、课程进度、奖励币与已购装扮保存在这个浏览器中。清除浏览器数据会清除这些记录；不同浏览器的进度独立。重复练习不重复领奖。名字、性别、声音与中文释义设置保存在这台设备上。连接服务后，你每次回答的短录音会发送给 OpenAI 转写，使用你已连接的 API 账户；Pawlish 不保存你的录音。新名字会通过已连接的 OpenAI 账户生成一句自我介绍，保存后可重复播放。尚未连接时使用浏览器的语音识别。</p><p><a href="assets/AUDIO-CREDITS.txt">语音来源说明</a></p>
+    <p>从「你好」开始，一次学一个短表达。小狗用中文解释，用慢速英语示范，再等你跟着说。答错了会示范改好的句子，不用着急。</p><p>二十门课程，每门五十题，共一千道练习。每年学习十个表达，用跟读、看中文说英语、听力选择、填空和回忆五种方式练习。内容从零基础逐渐走向复杂表达。这是有示范答案的引导式练习，不是无限话题聊天，也不会给发音打分。</p><p>小狗的声音由 AI 生成，打招呼、鼓励和庆祝各有不同情绪。可以选择公狗或母狗的声音。小狗会眨眼、动耳朵、摇尾巴、坐下、趴下和跳跃，也可以摸摸它。这是动画角色，不是实时拍摄。点名字旁的「改名」可随时换名字，也可以在设置里修改。改名后，下次点开始，小狗会先用新名字打招呼。</p><p>点一次「开始学英语」并允许麦克风后，可以连续跟读。小狗说话时暂停录音，等你回答时才开始录音。点「暂停」会暂停练习。临时切到后台时停止收音，回到页面会接着学。连接语音服务后，英语跟读和中文求助都能听。</p><p>每题首次答对得一根骨头，每年五十题全部完成后长大一岁并得到一百奖励币。骨头、课程进度、奖励币与已购装扮保存在这个浏览器中。清除浏览器数据会清除这些记录；不同浏览器的进度独立。重复练习不重复领奖。名字、性别、声音与中文释义设置保存在这台设备上。连接服务后，你每次回答的短录音会发送给 OpenAI 转写，使用你已连接的 API 账户；Pawlish 不保存你的录音。新名字会通过已连接的 OpenAI 账户生成一句自我介绍，保存后可重复播放。尚未连接时使用浏览器的语音识别。</p><p><a href="assets/AUDIO-CREDITS.txt">语音来源说明</a></p>
   </dialog>
   <noscript><div class="noscript">请在浏览器设置中启用 JavaScript，然后重新打开课程。</div></noscript>
   <script data-pawlish-script="app">
@@ -434,21 +434,23 @@ class MicrophoneSession {
   clear(id){this.host.clearTimeout(id);this.timers.delete(id);}
   change(phase,message='',problem=''){this.phase=phase;this.onChange({active:this.active,phase,message,problem});}
   enable({greeting=false}={}){
-    this.release();this.active=true;this.holdForSpeech=greeting;this.emptyTurns=0;
+    this.release();this.active=true;this.holdForSpeech=greeting;this.suspended=false;this.emptyTurns=0;
     const generation=this.generation;
     this.change('starting','请允许麦克风。');
     try{
       const Context=this.host.AudioContext||this.host.webkitAudioContext;
       this.context=new Context();
       // Both calls stay in the initial user gesture. No permission prompt on
-      // later turns; keep the same stream and mute its tracks during the puppy.
+      // later turns. Keep the input device running between replies; toggling
+      // its track off can put a phone's capture session back to sleep. Stop the
+      // recorder during the puppy, so none of its speech is collected or sent.
       const resumed=this.context.resume();resumed?.catch(()=>{});
       const permission=this.host.navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true},video:false});
       const timer=this.later(()=>{if(this.current(generation))this.fail('还没获得麦克风权限。请允许麦克风，再点开始。','permission_timeout');},20000);
       Promise.resolve(permission).then(stream=>{
         if(!this.current(generation)){stream.getTracks().forEach(track=>track.stop());return;}
         this.clear(timer);this.stream=stream;
-        for(const track of stream.getAudioTracks()){track.enabled=false;track.onended=()=>{if(this.current(generation))this.fail('麦克风断开了，请重新开始。','audio-capture');};}
+        for(const track of stream.getAudioTracks()){track.enabled=!this.suspended;track.onended=()=>{if(this.current(generation))this.fail('麦克风断开了，请重新开始。','audio-capture');};}
         try{
           this.input=this.context.createMediaStreamSource(stream);this.analyser=this.context.createAnalyser();this.analyser.fftSize=2048;
           this.samples=new Float32Array(this.analyser.fftSize);this.input.connect(this.analyser);
@@ -464,7 +466,7 @@ class MicrophoneSession {
     this.abort?.abort();this.abort=null;
     const recorder=this.recorder;this.recorder=null;
     if(recorder){recorder.ondataavailable=null;recorder.onstop=null;recorder.onerror=null;try{if(recorder.state!=='inactive')recorder.stop();}catch{}}
-    this.stream?.getAudioTracks().forEach(track=>{track.enabled=false;});this.onLevel(0);
+    this.onLevel(0);
   }
   release(){
     this.generation++;this.cancelTurn();
@@ -474,6 +476,10 @@ class MicrophoneSession {
   }
   stop(message='已暂停。'){this.active=false;this.release();this.change('off',message);}
   fail(message,problem='microphone'){this.active=false;this.release();this.change('blocked',message,problem);}
+  suspend(){
+    this.suspended=true;this.pauseForSpeech();
+    this.stream?.getAudioTracks().forEach(track=>{track.enabled=false;});
+  }
   pauseForSpeech(){
     if(!this.active)return;this.holdForSpeech=true;
     // Do not cancel the initial microphone permission timeout while the puppy
@@ -481,7 +487,7 @@ class MicrophoneSession {
     if(this.stream)this.cancelTurn();this.change('thinking');
   }
   listen(delay=240){
-    if(!this.active)return;this.holdForSpeech=false;
+    if(!this.active)return;this.holdForSpeech=false;this.suspended=false;
     if(!this.stream){this.change('starting','请允许麦克风。');return;}
     this.cancelTurn();const turn=this.turn;this.change('waiting');
     this.later(()=>{if(this.active&&this.turn===turn&&!this.holdForSpeech)this.capture();},delay);
@@ -499,7 +505,7 @@ class MicrophoneSession {
       recorder=new this.host.MediaRecorder(this.stream,{mimeType,audioBitsPerSecond:64000});this.recorder=recorder;
     }catch{this.fail('这里不能录音，请用 Safari 或 Chrome 打开。','unsupported');return;}
     const chunks=[];let bytes=0,heard=0,lastVoice=0,voiceStarted=0,stopping=false;
-    const began=this.now(),endSilence=Math.max(600,Math.min(1500,Number(this.getEndSilence())||950));let noise=.001,notified=false;
+    const began=this.now(),endSilence=Math.max(600,Math.min(1500,Number(this.getEndSilence())||950));let noise=.0003,notified=false;
     recorder.ondataavailable=event=>{
       if(!current()||!event.data?.size)return;chunks.push(event.data);bytes+=event.data.size;
       if(bytes>1024*1024)this.fail('这句话有点长，我们分成短句说。','audio_size');
@@ -507,7 +513,7 @@ class MicrophoneSession {
     recorder.onerror=()=>{if(current())this.fail('录音中断了，请重新开始。','audio-capture');};
     recorder.onstop=()=>{
       if(!current()||!stopping)return;
-      this.recorder=null;this.stream.getAudioTracks().forEach(track=>{track.enabled=false;});this.onLevel(0);
+      this.recorder=null;this.onLevel(0);
       this.transcribe(new this.host.Blob(chunks,{type:recorder.mimeType.split(';')[0]}),generation,turn);
     };
     try{recorder.start(250);}catch{this.fail('录音没能开始，请重试。','audio-capture');return;}
@@ -521,8 +527,11 @@ class MicrophoneSession {
       }
       this.analyser.getFloatTimeDomainData(this.samples);
       const rms=Math.sqrt(this.samples.reduce((sum,sample)=>sum+sample*sample,0)/this.samples.length);
-      this.onLevel(Math.min(1,rms*18));
-      const voiced=rms>Math.max(.004,noise*2.7);
+      this.onLevel(Math.min(1,rms*60));
+      // The former .004 floor discarded a quiet one-word reply completely.
+      // Still require two voiced windows and a full silence interval; room
+      // noise below the adaptive floor must never become an answer.
+      const voiced=rms>Math.max(.0012,noise*2.7);
       if(voiced){heard+=50;lastVoice=now;if(!voiceStarted&&heard>=100)voiceStarted=now;}
       else if(!voiceStarted){heard=Math.max(0,heard-25);noise=.95*noise+.05*Math.min(rms,.006);}
       if(voiceStarted&&(now-lastVoice>=endSilence||now-voiceStarted>=25000)){
@@ -1791,7 +1800,7 @@ document.addEventListener('visibilitychange',()=>{
  if(document.hidden){
   // Keep the learner's active session while muting input and cancelling audio.
   // A real navigation or explicit Pause still releases the microphone fully.
-  resumeWhenVisible=!!voiceSession.active;voiceSession.pauseForSpeech();stopSpeech();stopMicrophone();phonePlay.disable();avatar.dispose();
+  resumeWhenVisible=!!voiceSession.active;if(voiceSession.suspend)voiceSession.suspend();else voiceSession.pauseForSpeech();stopSpeech();stopMicrophone();phonePlay.disable();avatar.dispose();
  }else{
   avatar.resume();const resume=resumeWhenVisible;resumeWhenVisible=false;
   if(!resume||!voiceSession.active||document.querySelector('dialog[open]'))return;
@@ -1800,7 +1809,7 @@ document.addEventListener('visibilitychange',()=>{
  }
 });
 $('mic-button').addEventListener('click',()=>{$('typing-dialog').close();if(!voiceSession.active)startConversation();});
-$('copy-voice-link').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('voice-link').value);$('copy-voice-status').textContent='网址已复制，请用 Safari 打开。';}catch{$('voice-link-label').hidden=false;$('voice-link').select();}});
+$('copy-voice-link').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('voice-link').value);$('copy-voice-status').textContent='网址已复制，请用 Chrome 或 Safari 打开。';}catch{$('voice-link-label').hidden=false;$('voice-link').select();}});
 updateHeader();askCurrentQuestion();renderMap();renderShop();document.dispatchEvent(new CustomEvent('pawlish-ready'));syncProgress().then(importPreviousProgress);checkVoiceConnection();
 
 } catch (error) {

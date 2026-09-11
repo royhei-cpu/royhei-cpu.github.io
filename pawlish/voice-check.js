@@ -6,7 +6,7 @@ import {MicrophoneSession,canRecord} from './microphone.js';
   const audio=$('test-audio');
   const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
   const report={
-    Check:'Pawlish voice check 29',
+    Check:'Pawlish voice check 30',
     Device:/iPhone|iPad|iPod/.test(navigator.userAgent)?'iPhone / iPad':'Other',
     Browser:navigator.userAgent,
     'Secure page':window.isSecureContext?'Yes':'No',
@@ -36,6 +36,7 @@ import {MicrophoneSession,canRecord} from './microphone.js';
     $('check-speech').textContent='试说 Hello';
   }
   function stopOtherChecks(){
+    serviceAbort?.abort();
     const hadMic=!!stream||$('check-mic').textContent==='停止检查';
     const hadSpeech=!!recognition||!!lessonMic?.active;stopMic();stopSpeech();
     if(hadMic)result('Microphone','检查已停止。');
@@ -91,24 +92,79 @@ import {MicrophoneSession,canRecord} from './microphone.js';
     }
   });
 
+  // Feed known clips through the browser's real recorder, silence detector and
+  // lesson transcription path. No microphone is opened for this check. The
+  // quiet first clip reproduces the short-Hello failure that direct MP3
+  // uploads could not detect.
+  function checkRecordedSamples(signal){
+    return new Promise((resolve,reject)=>{
+      let ctx,destination,session,source,gain,finished=false,index=0,buffers;
+      const phrases=['Hello.','Thank you.','Please.'];
+      const normal=text=>text.toLowerCase().replace(/[^a-z]/g,'');
+      const stopSource=()=>{try{source?.stop();source?.disconnect();gain?.disconnect();}catch{}source=null;gain=null;};
+      const finish=error=>{
+        if(finished)return;finished=true;signal.removeEventListener('abort',cancel);
+        session?.stop();stopSource();destination?.stream.getTracks().forEach(track=>track.stop());
+        try{ctx?.close()?.catch(()=>{});}catch{}
+        if(error)reject(error);else resolve();
+      };
+      const cancel=()=>finish(new Error('检查已停止。'));
+      signal.addEventListener('abort',cancel,{once:true});
+      if(signal.aborted){cancel();return;}
+      try{
+        const Context=window.AudioContext||window.webkitAudioContext;
+        ctx=new Context();destination=ctx.createMediaStreamDestination();
+        const resumed=ctx.resume();
+        Promise.all(phrases.map(async(_,i)=>{
+          const clip=await fetch('assets/puppy-female/year-1-en-'+i+'.mp3',{signal});
+          if(!clip.ok)throw new Error('示范声音没有加载好，请重试。');
+          return ctx.decodeAudioData(await clip.arrayBuffer());
+        })).then(async decoded=>{
+          await resumed;if(finished)return;buffers=decoded;
+          const host={Blob,AbortController,MediaRecorder:window.MediaRecorder,
+            AudioContext:class {constructor(){return ctx;}},
+            navigator:{mediaDevices:{getUserMedia:async()=>destination.stream}},
+            setTimeout:(fn,ms)=>window.setTimeout(fn,ms),clearTimeout:id=>window.clearTimeout(id),
+            fetch:(url,options)=>window.fetch(url,options)};
+          session=new MicrophoneSession({host,
+            onText:text=>{
+              if(finished)return;
+              if(normal(text)!==normal(phrases[index])){finish(new Error('第 '+(index+1)+' 句没有听清，请再试一次。'));return;}
+              stopSource();index++;
+              if(index===phrases.length)finish();else session.listen(250);
+            },
+            onRetry:()=>{finish(new Error('录音没有听清，请再检查一次。'));return true;},
+            onChange:({phase,message})=>{
+              if(finished)return;
+              if(phase==='blocked'){finish(new Error(message));return;}
+              if(phase==='transcribing')result('Service','第 '+(index+1)+' / 3 句已录好，正在识别…');
+              if(phase!=='listening'||source)return;
+              result('Service','正在录第 '+(index+1)+' / 3 句'+(index===0?'（轻声 Hello）':'')+'…');
+              try{
+                source=ctx.createBufferSource();source.buffer=buffers[index];gain=ctx.createGain();
+                if(index===0){
+                  const samples=buffers[index].getChannelData(0);let peak=0;
+                  for(let p=0;p<samples.length;p+=1024){let sum=0,count=Math.min(2048,samples.length-p);for(let j=0;j<count;j++)sum+=samples[p+j]**2;peak=Math.max(peak,Math.sqrt(sum/count));}
+                  gain.gain.value=Math.min(1,.003/Math.max(.003,peak));
+                }
+                source.connect(gain);gain.connect(destination);source.start(ctx.currentTime+.15);
+              }catch(error){finish(error);}
+            }});
+          session.enable();
+        }).catch(finish);
+      }catch(error){finish(error);}
+    });
+  }
+
   $('check-service').addEventListener('click',async()=>{
     if(serviceAbort)return;
     audio.pause();stopOtherChecks();serviceAbort=new AbortController();
     const controller=serviceAbort,timeout=setTimeout(()=>controller.abort(),75000);
     $('check-service').disabled=true;
     try{
-      const normal=text=>text.toLowerCase().replace(/[^a-z]/g,'');
-      const phrases=['Hello.','Thank you.','Please.'];
-      for(let i=0;i<phrases.length;i++){
-        result('Service','正在检查第 '+(i+1)+' / 3 句…');
-        const clip=await fetch('assets/puppy-female/year-1-en-'+i+'.mp3',{signal:controller.signal});
-        if(!clip.ok)throw new Error('示范声音没有加载好，请重试。');
-        const response=await fetch('/api/voice/transcribe',{method:'POST',headers:{'Content-Type':'audio/mpeg'},body:await clip.blob(),signal:controller.signal});
-        const data=await response.json();
-        if(!response.ok)throw new Error(data.error||'语音连接还没接通。');
-        if(normal(data.text||'')!==normal(phrases[i]))throw new Error('示范声音没有听清，请再检查一次。');
-      }
-      result('Service','已连续听懂 3 句，语音连接正常。再点「试说 Hello」检查你的麦克风。','good');
+      result('Service','正在准备三句录音检查…');
+      await checkRecordedSamples(controller.signal);
+      result('Service','已连续录下并听懂 3 句，包括轻声 Hello。再点「试说 Hello」检查你的麦克风。','good');
     }catch(error){result('Service',controller.signal.aborted?'检查超时了，请重试。':error.message||'语音连接没有完成，请重试。','error');}
     finally{clearTimeout(timeout);if(serviceAbort===controller)serviceAbort=null;$('check-service').disabled=false;}
   });

@@ -12,21 +12,23 @@ export class MicrophoneSession {
   clear(id){this.host.clearTimeout(id);this.timers.delete(id);}
   change(phase,message='',problem=''){this.phase=phase;this.onChange({active:this.active,phase,message,problem});}
   enable({greeting=false}={}){
-    this.release();this.active=true;this.holdForSpeech=greeting;this.emptyTurns=0;
+    this.release();this.active=true;this.holdForSpeech=greeting;this.suspended=false;this.emptyTurns=0;
     const generation=this.generation;
     this.change('starting','请允许麦克风。');
     try{
       const Context=this.host.AudioContext||this.host.webkitAudioContext;
       this.context=new Context();
       // Both calls stay in the initial user gesture. No permission prompt on
-      // later turns; keep the same stream and mute its tracks during the puppy.
+      // later turns. Keep the input device running between replies; toggling
+      // its track off can put a phone's capture session back to sleep. Stop the
+      // recorder during the puppy, so none of its speech is collected or sent.
       const resumed=this.context.resume();resumed?.catch(()=>{});
       const permission=this.host.navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true},video:false});
       const timer=this.later(()=>{if(this.current(generation))this.fail('还没获得麦克风权限。请允许麦克风，再点开始。','permission_timeout');},20000);
       Promise.resolve(permission).then(stream=>{
         if(!this.current(generation)){stream.getTracks().forEach(track=>track.stop());return;}
         this.clear(timer);this.stream=stream;
-        for(const track of stream.getAudioTracks()){track.enabled=false;track.onended=()=>{if(this.current(generation))this.fail('麦克风断开了，请重新开始。','audio-capture');};}
+        for(const track of stream.getAudioTracks()){track.enabled=!this.suspended;track.onended=()=>{if(this.current(generation))this.fail('麦克风断开了，请重新开始。','audio-capture');};}
         try{
           this.input=this.context.createMediaStreamSource(stream);this.analyser=this.context.createAnalyser();this.analyser.fftSize=2048;
           this.samples=new Float32Array(this.analyser.fftSize);this.input.connect(this.analyser);
@@ -42,7 +44,7 @@ export class MicrophoneSession {
     this.abort?.abort();this.abort=null;
     const recorder=this.recorder;this.recorder=null;
     if(recorder){recorder.ondataavailable=null;recorder.onstop=null;recorder.onerror=null;try{if(recorder.state!=='inactive')recorder.stop();}catch{}}
-    this.stream?.getAudioTracks().forEach(track=>{track.enabled=false;});this.onLevel(0);
+    this.onLevel(0);
   }
   release(){
     this.generation++;this.cancelTurn();
@@ -52,6 +54,10 @@ export class MicrophoneSession {
   }
   stop(message='已暂停。'){this.active=false;this.release();this.change('off',message);}
   fail(message,problem='microphone'){this.active=false;this.release();this.change('blocked',message,problem);}
+  suspend(){
+    this.suspended=true;this.pauseForSpeech();
+    this.stream?.getAudioTracks().forEach(track=>{track.enabled=false;});
+  }
   pauseForSpeech(){
     if(!this.active)return;this.holdForSpeech=true;
     // Do not cancel the initial microphone permission timeout while the puppy
@@ -59,7 +65,7 @@ export class MicrophoneSession {
     if(this.stream)this.cancelTurn();this.change('thinking');
   }
   listen(delay=240){
-    if(!this.active)return;this.holdForSpeech=false;
+    if(!this.active)return;this.holdForSpeech=false;this.suspended=false;
     if(!this.stream){this.change('starting','请允许麦克风。');return;}
     this.cancelTurn();const turn=this.turn;this.change('waiting');
     this.later(()=>{if(this.active&&this.turn===turn&&!this.holdForSpeech)this.capture();},delay);
@@ -77,7 +83,7 @@ export class MicrophoneSession {
       recorder=new this.host.MediaRecorder(this.stream,{mimeType,audioBitsPerSecond:64000});this.recorder=recorder;
     }catch{this.fail('这里不能录音，请用 Safari 或 Chrome 打开。','unsupported');return;}
     const chunks=[];let bytes=0,heard=0,lastVoice=0,voiceStarted=0,stopping=false;
-    const began=this.now(),endSilence=Math.max(600,Math.min(1500,Number(this.getEndSilence())||950));let noise=.001,notified=false;
+    const began=this.now(),endSilence=Math.max(600,Math.min(1500,Number(this.getEndSilence())||950));let noise=.0003,notified=false;
     recorder.ondataavailable=event=>{
       if(!current()||!event.data?.size)return;chunks.push(event.data);bytes+=event.data.size;
       if(bytes>1024*1024)this.fail('这句话有点长，我们分成短句说。','audio_size');
@@ -85,7 +91,7 @@ export class MicrophoneSession {
     recorder.onerror=()=>{if(current())this.fail('录音中断了，请重新开始。','audio-capture');};
     recorder.onstop=()=>{
       if(!current()||!stopping)return;
-      this.recorder=null;this.stream.getAudioTracks().forEach(track=>{track.enabled=false;});this.onLevel(0);
+      this.recorder=null;this.onLevel(0);
       this.transcribe(new this.host.Blob(chunks,{type:recorder.mimeType.split(';')[0]}),generation,turn);
     };
     try{recorder.start(250);}catch{this.fail('录音没能开始，请重试。','audio-capture');return;}
@@ -99,8 +105,11 @@ export class MicrophoneSession {
       }
       this.analyser.getFloatTimeDomainData(this.samples);
       const rms=Math.sqrt(this.samples.reduce((sum,sample)=>sum+sample*sample,0)/this.samples.length);
-      this.onLevel(Math.min(1,rms*18));
-      const voiced=rms>Math.max(.004,noise*2.7);
+      this.onLevel(Math.min(1,rms*60));
+      // The former .004 floor discarded a quiet one-word reply completely.
+      // Still require two voiced windows and a full silence interval; room
+      // noise below the adaptive floor must never become an answer.
+      const voiced=rms>Math.max(.0012,noise*2.7);
       if(voiced){heard+=50;lastVoice=now;if(!voiceStarted&&heard>=100)voiceStarted=now;}
       else if(!voiceStarted){heard=Math.max(0,heard-25);noise=.95*noise+.05*Math.min(rms,.006);}
       if(voiceStarted&&(now-lastVoice>=endSilence||now-voiceStarted>=25000)){
