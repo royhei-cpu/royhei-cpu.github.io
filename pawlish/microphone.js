@@ -185,7 +185,7 @@ export class MicrophoneSession {
           this.emptyTurns=0;this.repairs=0;this.onTranscript(text);this.pauseForSpeech();this.onText(text);return;
         }catch{
           if(!current())return;
-          if(attempt===2){retryListening('语音连接慢了一点，这题还在。听完再说一次，不用点开始。');return;}
+          if(attempt===2){retryListening('暂时无法识别录音，是连接问题，不是你说错了。请再试一次。');return;}
           this.change('reconnecting','声音已经录好，正在重新连接。');
         }finally{this.clear(timer);abort.signal.removeEventListener('abort',cancel);}
         // Pause must settle this delay as well as abort the active request.

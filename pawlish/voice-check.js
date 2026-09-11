@@ -1,12 +1,12 @@
 // Intentionally independent of the lesson's modules and animation/audio stack.
 // Reports stay on the device; sample/learner audio uses the lesson voice API.
-import {MicrophoneSession,canRecord} from './microphone.js';
+import {MicrophoneSession,canRecord} from './microphone.js?v=32';
 (() => {
   const $=id=>document.getElementById(id);
   const audio=$('test-audio');
   const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
   const report={
-    Check:'Pawlish voice check 31',
+    Check:'Pawlish voice check 32',
     Device:/iPhone|iPad|iPod/.test(navigator.userAgent)?'iPhone / iPad':'Other',
     Browser:navigator.userAgent,
     'Secure page':window.isSecureContext?'Yes':'No',

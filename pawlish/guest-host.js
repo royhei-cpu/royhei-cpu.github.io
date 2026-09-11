@@ -9,13 +9,17 @@ function installGuestHost(host=window){
   try{host.localStorage.setItem(storageKey,token);}catch{persistent=false;}
  }
  const originalFetch=host.fetch.bind(host);
- host.fetch=(input,init)=>{
+ host.fetch=async(input,init)=>{
   const url=new URL(typeof input==='string'||input instanceof URL?String(input):input.url,host.location.href);
   if(url.origin!==host.location.origin||!url.pathname.startsWith('/api/'))return originalFetch(input,init);
   const source=new Request(typeof input==='string'||input instanceof URL?url:input,init);
   const target=new URL('/api/public/'+url.pathname.slice('/api/'.length)+url.search,backend);
   const headers=new Headers(source.headers);headers.set('X-Pawlish-Visitor',token);headers.delete('Authorization');
-  return originalFetch(new Request(target,source),{headers,credentials:'omit',mode:'cors'});
+  // A Request used as RequestInit exposes its body as a ReadableStream.
+  // Send the original file/string instead; upload streaming is not required.
+  const options={method:source.method,headers,credentials:'omit',mode:'cors',cache:source.cache,redirect:source.redirect,signal:source.signal};
+  if(source.method!=='GET'&&source.method!=='HEAD')options.body=init?.body??await source.blob();
+  return originalFetch(target.href,options);
  };
  host.PawlishGuest={persistent,
   async avatar(url){

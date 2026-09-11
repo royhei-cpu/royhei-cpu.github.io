@@ -3,11 +3,11 @@
 <head>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; media-src 'self' blob:; font-src 'self'; connect-src 'self' https://pawlish-ryans-english-dog.lhei111.chatgpt.site; base-uri 'self'; form-action 'self'; object-src 'none'">
 <meta name="referrer" content="no-referrer">
-<script src="guest-host.js"></script>
+<script src="guest-host.js?v=32"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#e6f4eb">
-  <meta name="pawlish-release" content="31">
+  <meta name="pawlish-release" content="32">
   <meta name="description" content="和可爱的小狗一起学英语。中文讲解、慢速示范，从一句你好开始。">
   <title>Pawlish · 小狗陪你学英语</title>
   <link rel="icon" href="assets/paw.svg" type="image/svg+xml">
@@ -97,8 +97,8 @@
     button.querySelector('span').textContent = '课程暂时无法开始';
     document.getElementById('voice-status').textContent = '课程还没准备好，请点下面的「重新打开」。';
     document.getElementById('startup-error').hidden = false;
-    document.getElementById('startup-error-detail').textContent = 'Pawlish 31: ' + failure;
-    document.getElementById('reload-pawlish').href = '?v=31&reload=' + Date.now();
+    document.getElementById('startup-error-detail').textContent = 'Pawlish 32: ' + failure;
+    document.getElementById('reload-pawlish').href = '?v=32&reload=' + Date.now();
     document.getElementById('greeting-audio').controls = true;
   }
   document.addEventListener('pawlish-ready', function () {
@@ -186,7 +186,7 @@
         <p class="input-status" id="input-status" role="status"></p><p class="input-status" id="in-app-hint" hidden></p><button id="retry-progress" class="text-button" type="button" hidden>重试连接</button><button id="retry-save" class="text-button" type="button" hidden>重试保存</button>
         <div id="voice-recovery" class="voice-recovery" hidden><a id="connect-voice" class="text-button" href="connect.html" hidden>连接语音</a><button id="voice-type-reply" class="text-button" type="button">打字回答</button></div>
       </div>
-      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=31">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
+      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=32">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
       <audio id="greeting-audio" src="assets/puppy-female/cn-welcome.mp3?v=13" preload="auto"></audio>
     </section>
   </main>
@@ -607,7 +607,7 @@ class MicrophoneSession {
           this.emptyTurns=0;this.repairs=0;this.onTranscript(text);this.pauseForSpeech();this.onText(text);return;
         }catch{
           if(!current())return;
-          if(attempt===2){retryListening('语音连接慢了一点，这题还在。听完再说一次，不用点开始。');return;}
+          if(attempt===2){retryListening('暂时无法识别录音，是连接问题，不是你说错了。请再试一次。');return;}
           this.change('reconnecting','声音已经录好，正在重新连接。');
         }finally{this.clear(timer);abort.signal.removeEventListener('abort',cancel);}
         // Pause must settle this delay as well as abort the active request.
@@ -1788,9 +1788,9 @@ const voiceOptions={host:window,Recognition,onText:handleSpokenAnswer,getEndSile
  if(phase==='listening')avatar.set('listening');else if(phase==='transcribing')avatar.set('thinking');else if(phase==='off'||phase==='blocked')avatar.set('idle');
 }};
 voiceOptions.onRetry=message=>{
- status(message);const model=currentQuestion().target.model;
- speak(model.text,{parts:[PUPPY_LINES['cn-again'],model,PUPPY_LINES['cn-turn']],expression:'encouraging'});
- return true;
+ // Upload failures and empty transcripts are not mistakes by the learner.
+ // Keep listening without repeatedly speaking the teaching correction.
+ status(message);return false;
 };
 voiceSession=new HandsFreeSession(voiceOptions);
 function startConversation(){
