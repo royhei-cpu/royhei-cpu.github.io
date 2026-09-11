@@ -3,11 +3,11 @@
 <head>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; media-src 'self' blob:; font-src 'self'; connect-src 'self' https://pawlish-ryans-english-dog.lhei111.chatgpt.site; base-uri 'self'; form-action 'self'; object-src 'none'">
 <meta name="referrer" content="no-referrer">
-<script src="guest-host.js?v=32"></script>
+<script src="guest-host.js?v=33"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#e6f4eb">
-  <meta name="pawlish-release" content="32">
+  <meta name="pawlish-release" content="33">
   <meta name="description" content="和可爱的小狗一起学英语。中文讲解、慢速示范，从一句你好开始。">
   <title>Pawlish · 小狗陪你学英语</title>
   <link rel="icon" href="assets/paw.svg" type="image/svg+xml">
@@ -59,9 +59,6 @@
 .map-button{display:flex;align-items:center;gap:5px;font-size:12px;white-space:nowrap}.map-button .icon{width:17px;height:17px}.map-button span{font-size:12px;font-weight:900}.site-header{padding-left:14px;padding-right:10px;gap:8px}.brand{font-size:21px}.header-controls{gap:0}.header-controls>.text-button{padding:8px 6px}.age-label{font-size:12px;color:var(--text);margin-left:4px}.question-meta{display:flex;justify-content:space-between;font-size:11px;color:var(--text);margin-bottom:5px}.question-options{display:grid;gap:5px;margin:7px 0}.answer-choice{border:1px solid var(--line);border-radius:10px;background:#f3f8f5;min-height:44px;padding:7px 10px;text-align:left;font-size:14px}.teaching-pattern:lang(zh-Hans){font-size:20px;line-height:1.35}.photo-frame{transform:scale(var(--growth,1));transform-origin:50% 95%;transition:transform .6s}.bone-pop{position:absolute;top:10%;left:50%;transform:translateX(-50%);white-space:nowrap;border-radius:30px;background:#fff0ab;padding:8px 15px;font-size:14px;font-weight:800;opacity:0;pointer-events:none}.bone-pop.show{animation:bone-arrive 2.8s ease-out}.feature-status{font-size:14px;color:var(--text);line-height:1.5}.feature-status:empty{display:none}.photo-menu,.shop-menu{display:block;width:100%;margin-top:8px}.photo-inputs{display:flex;gap:8px}.photo-inputs label{position:relative;flex:1;text-align:center;overflow:hidden}.photo-inputs input{position:absolute;inset:0;opacity:0;width:100%;height:100%;cursor:pointer}.photo-inputs label:focus-within{outline:3px solid #996a00;outline-offset:2px}.dog-photo-preview{display:block;max-width:100%;max-height:35svh;object-fit:contain;margin:14px auto;border-radius:14px}.photo-note{font-size:12px;color:var(--muted)}
 .map-dialog{background:#f5faf6;max-width:600px;padding:20px 18px;max-height:92svh}.map-dialog .dialog-heading{position:sticky;top:-20px;background:#f5faf6;z-index:2;padding-top:6px;padding-bottom:6px}.map-intro,.map-note{font-size:13px;color:var(--text)}.journey-stats{display:flex;align-items:center;justify-content:space-between;background:#e3efdc;border-radius:15px;padding:13px 16px;font-size:16px}.map-dialog #map-next{font-size:14px}.course-map{display:grid;grid-template-columns:1fr;gap:13px;position:relative;padding:12px 0 12px 18px;border-left:3px dashed #bfd6c7;margin-left:12px}.course-node{display:grid;grid-template-columns:42px 1fr;column-gap:11px;row-gap:3px;position:relative;text-align:left;min-height:90px;padding:13px 14px;border:1px solid #dbe7de;border-radius:20px;background:white;opacity:1!important}.course-node.current{border:2px solid #c99522;background:#fff7d8}.course-node.complete{background:#e5f1e9;border-color:#99bfa6}.course-node.locked{color:#657c70;background:#edf2ee}.year-number{grid-row:1/4;align-self:center;display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:#e1efe5;font-weight:900;font-size:19px}.current .year-number{background:#f6d65f}.course-name{font-size:16px;line-height:1.35}.course-focus,.course-count{font-size:12px}.map-note{line-height:1.8}.shop-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.shop-item{display:flex;flex-direction:column;align-items:center;border:1px solid var(--line);border-radius:16px;padding:8px;gap:8px}.shop-item strong{font-size:14px}.shop-item button{font-size:14px;text-align:center;width:100%;padding:8px}.shop-accessory,.dog-outfit{background-image:url('assets/doudou/accessories.webp');background-size:300% 200%;background-repeat:no-repeat;display:block}.shop-accessory{width:90px;height:90px}.dog-outfit{position:absolute;pointer-events:none;width:24%;aspect-ratio:1;left:38%;z-index:2}#outfit-neck{top:39%}#outfit-head{top:1%;width:37%;left:31.5%}#outfit-eyes{top:17%;width:34%;left:33%}#outfit-body{top:46%;width:38%;left:31%}.dog-outfit[data-item=collar]{width:28%;left:36%;top:40%!important}.dog-outfit[data-item=bowtie]{width:22%;left:39%;top:42%!important}
 .photo-frame:has(.dog-sprite[data-action=jump]) .dog-outfit,.photo-frame:has(.dog-sprite[data-action=dance]) .dog-outfit,.photo-frame:has(.dog-sprite[data-action=shake]) .dog-outfit{visibility:hidden}
-.photo-frame:has(.dog-sprite[data-frame="7"]) #outfit-neck,.photo-frame:has(.dog-sprite[data-frame="8"]) #outfit-neck,.photo-frame:has(.dog-sprite[data-frame="9"]) #outfit-neck{top:60%}
-.photo-frame:has(.dog-sprite[data-frame="7"]) #outfit-head,.photo-frame:has(.dog-sprite[data-frame="8"]) #outfit-head,.photo-frame:has(.dog-sprite[data-frame="9"]) #outfit-head{top:28%}
-.photo-frame:has(.dog-sprite[data-frame="7"]) #outfit-eyes,.photo-frame:has(.dog-sprite[data-frame="8"]) #outfit-eyes,.photo-frame:has(.dog-sprite[data-frame="9"]) #outfit-eyes{top:45%}
 
 @keyframes bone-arrive{0%{opacity:0;translate:0 9px}15%,75%{opacity:1;translate:0 0}100%{opacity:0;translate:0 -12px}}
 @media(prefers-reduced-motion:reduce){.photo-frame{transition:none}.bone-pop.show{animation:none;opacity:0}.dog-sprite{animation:none!important}}
@@ -77,6 +74,28 @@
 .voice-recovery{display:flex;justify-content:center;gap:20px;padding-bottom:6px}.voice-recovery .text-button{font-size:13px;min-height:40px}
 .voice-session[data-phase=blocked]{flex-wrap:wrap}.voice-session[data-phase=blocked]>p{order:3;flex-basis:100%;margin:0 0 8px;text-align:left;line-height:1.45;color:#7a4a00}
 .voice-session[data-phase=reconnecting],.voice-session[data-phase=saving]{flex-wrap:wrap}.voice-session[data-phase=reconnecting]>p{position:static;clip:auto;width:100%;height:auto;margin:0;font-size:13px;line-height:1.4;text-align:left;white-space:normal;color:#526b60;overflow:visible}
+
+/* Keep play close to the puppy; menus stay out of the lesson. */
+.teacher-footer{display:flex;align-items:center;gap:5px}.play-button{margin-left:auto;min-height:40px;border:1px solid #b9d5c5;border-radius:22px;padding:7px 13px;background:#ffffffb8;color:var(--ink);font-size:14px;font-weight:800;white-space:nowrap}
+.play-caption{position:absolute;z-index:4;bottom:4%;left:50%;transform:translateX(-50%);border-radius:24px;background:#fffffff0;font-size:13px;font-weight:750;padding:7px 13px;max-width:85%;text-align:center;pointer-events:none}.play-caption:empty{display:none}
+.play-dialog{max-width:430px}.play-hint{font-size:13px;line-height:1.5;color:var(--text)}.surprise-button{width:100%;padding:12px;border:0;border-radius:14px;background:var(--yellow);font-size:17px;font-weight:850;margin:8px 0 12px}.dog-actions button{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:2px;padding:8px}.dog-actions small{font-size:12px;font-weight:500;color:var(--text)}.trick-challenge{margin-top:18px;padding:14px;border-radius:18px;background:#eef6f1}.trick-challenge h3{margin:0 0 6px}.trick-challenge #challenge-word{font-size:27px;font-weight:900;margin:5px 0}.challenge-choices{display:flex;gap:7px;flex-wrap:wrap}.challenge-choices button{flex:1;padding:8px;background:white;text-align:center;white-space:nowrap;font-size:14px}#challenge-feedback{font-size:14px;margin-bottom:0}
+.wardrobe-preview{width:190px;height:190px;position:relative;margin:4px auto;background:#e6f4eb;border-radius:24px;overflow:hidden}.shop-dog-preview{position:absolute;inset:0;background-repeat:no-repeat;background-position:0 0;mix-blend-mode:multiply}.try-on-label{text-align:center;font-size:13px;margin:6px 0 12px}.shop-filters{display:flex;gap:5px;flex-wrap:wrap;margin:12px 0}.shop-filters button{min-height:40px;padding:6px 11px;border:1px solid var(--line);border-radius:22px;background:white;color:var(--ink);font-size:14px}.shop-filters [aria-pressed=true]{background:var(--ink);color:white}.shop-item{background:#f6faf7;gap:6px;padding:12px 8px}.shop-item .shop-accessory{height:auto;width:86px;max-height:112px;flex-shrink:0}.shop-item .try-on-button{border:0;background:transparent;color:var(--text);font-size:13px;min-height:36px;padding:5px}.shop-item .menu-button{background:#e4f0e9;font-size:13px}.shop-item strong{font-size:14px}.shop-item .shop-shortfall{font-size:11px}
+.dog-outfit[data-slot=neck]{top:39%}.dog-outfit[data-slot=head]{top:1%;width:37%;left:31.5%}.dog-outfit[data-slot=eyes]{top:17%;width:34%;left:33%}.dog-outfit[data-slot=body]{top:46%;width:38%;left:31%}
+.dog-outfit[data-collection=expanded][data-slot=neck]{top:40%!important;width:29%!important;left:27.5%!important}.dog-outfit[data-collection=expanded][data-slot=head]{top:-8%!important;width:40%!important;left:22%!important}.dog-outfit[data-collection=expanded][data-slot=eyes]{top:20%!important;width:34%!important;left:25%!important}.dog-outfit[data-collection=expanded][data-slot=body]{top:39%!important;width:38%!important;left:26%!important}
+/* Track the face in the default pose atlas so accessories move with the puppy. */
+.photo-frame:has(.dog-sprite[data-atlas=puppy]) .dog-outfit{margin-left:var(--outfit-x,0%);margin-top:var(--outfit-y,0%)}
+.photo-frame:has(.dog-sprite[data-frame="2"]){--outfit-x:3%}
+.photo-frame:has(.dog-sprite[data-frame="3"]){--outfit-x:10%}
+.photo-frame:has(.dog-sprite:is([data-frame="4"],[data-frame="5"])){--outfit-x:5%;--outfit-y:3%}
+.photo-frame:has(.dog-sprite:is([data-frame="6"],[data-frame="10"],[data-frame="11"])){--outfit-x:-9%;--outfit-y:32%}
+.photo-frame:has(.dog-sprite[data-frame="7"]){--outfit-x:-4%;--outfit-y:19%}
+.photo-frame:has(.dog-sprite[data-frame="8"]){--outfit-x:-2%;--outfit-y:41%}
+.photo-frame:has(.dog-sprite[data-frame="9"]){--outfit-x:-5%;--outfit-y:46%}
+.photo-frame:has(.dog-sprite[data-frame="15"]){--outfit-x:4%;--outfit-y:-9%}
+.photo-frame:has(.dog-sprite:is([data-frame="6"],[data-frame="7"],[data-frame="8"],[data-frame="9"],[data-frame="10"],[data-frame="11"])) .dog-outfit[data-slot=body]{visibility:hidden}
+.photo-frame:has(.dog-sprite[data-action=zoomies]){animation:puppy-zoomies 2.5s ease-in-out}.photo-frame:has(.dog-sprite[data-action=surprise]) .dog-outfit,.photo-frame:has(.dog-sprite[data-action=stretch]) .dog-outfit{visibility:hidden}
+@keyframes puppy-zoomies{0%,100%{transform:translateX(0) scale(var(--growth,1))}25%{transform:translateX(13%) scale(var(--growth,1))}70%{transform:translateX(-13%) scale(var(--growth,1))}}
+@media(prefers-reduced-motion:reduce){.photo-frame{animation:none!important}}
 
 </style>
   <script data-pawlish-script="startup">
@@ -97,8 +116,8 @@
     button.querySelector('span').textContent = '课程暂时无法开始';
     document.getElementById('voice-status').textContent = '课程还没准备好，请点下面的「重新打开」。';
     document.getElementById('startup-error').hidden = false;
-    document.getElementById('startup-error-detail').textContent = 'Pawlish 32: ' + failure;
-    document.getElementById('reload-pawlish').href = '?v=32&reload=' + Date.now();
+    document.getElementById('startup-error-detail').textContent = 'Pawlish 33: ' + failure;
+    document.getElementById('reload-pawlish').href = '?v=33&reload=' + Date.now();
     document.getElementById('greeting-audio').controls = true;
   }
   document.addEventListener('pawlish-ready', function () {
@@ -160,9 +179,9 @@
       <h1 class="sr-only">小狗陪你学英语</h1>
       <div class="portrait-stage" id="portrait-stage">
         <button class="photo-frame" id="pet-dog" type="button" aria-label="摸摸豆豆"><span id="teacher-photo" class="dog-sprite" role="img" aria-label="黑白小狗豆豆：全身可见，会眨眼、摇尾巴、歪头和挥爪" data-frame="0" data-mood="idle"></span><span id="outfit-body" class="dog-outfit" hidden aria-hidden="true"></span><span id="outfit-neck" class="dog-outfit" hidden aria-hidden="true"></span><span id="outfit-head" class="dog-outfit" hidden aria-hidden="true"></span><span id="outfit-eyes" class="dog-outfit" hidden aria-hidden="true"></span></button>
-        <div id="bone-pop" class="bone-pop" role="status"></div><div class="dog-bubble" id="dog-bubble" hidden aria-hidden="true">汪！我用中文教你。</div>
+        <div id="play-caption" class="play-caption" aria-hidden="true"></div><div id="bone-pop" class="bone-pop" role="status"></div><div class="dog-bubble" id="dog-bubble" hidden aria-hidden="true">汪！我用中文教你。</div>
       </div>
-      <div class="teacher-footer"><strong id="dog-name">豆豆</strong><span id="dog-age" class="age-label">小奶狗</span><button class="rename-button" id="rename-button" type="button" aria-label="给小狗改名字"><svg class="icon"><use href="#i-edit"/></svg>改名</button></div>
+      <div class="teacher-footer"><strong id="dog-name">豆豆</strong><span id="dog-age" class="age-label">小奶狗</span><button class="rename-button" id="rename-button" type="button" aria-label="给小狗改名字"><svg class="icon"><use href="#i-edit"/></svg>改名</button><button id="play-button" class="play-button" type="button" aria-haspopup="dialog">陪我玩</button></div>
     </section>
     <section class="lesson-panel" aria-labelledby="lesson-title">
       <div class="caption-card"><div class="question-meta"><span id="course-label">第 1 年</span><span id="save-status" title="答对的题目保存在这个浏览器，下次从未完成的题目继续。">正在准备课程…</span><span id="question-count">1 / 50</span></div>
@@ -186,7 +205,7 @@
         <p class="input-status" id="input-status" role="status"></p><p class="input-status" id="in-app-hint" hidden></p><button id="retry-progress" class="text-button" type="button" hidden>重试连接</button><button id="retry-save" class="text-button" type="button" hidden>重试保存</button>
         <div id="voice-recovery" class="voice-recovery" hidden><a id="connect-voice" class="text-button" href="connect.html" hidden>连接语音</a><button id="voice-type-reply" class="text-button" type="button">打字回答</button></div>
       </div>
-      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=32">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
+      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=33">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
       <audio id="greeting-audio" src="assets/puppy-female/cn-welcome.mp3?v=13" preload="auto"></audio>
     </section>
   </main>
@@ -204,7 +223,8 @@
     <form id="answer-form" novalidate><label for="answer" class="sr-only">输入你的回答</label><div class="input-wrap"><input id="answer" name="answer" placeholder="输入英语，或用中文求助……" maxlength="280" autocomplete="off" enterkeyhint="send"><button class="icon-button mic-button" id="mic-button" type="button" aria-label="用麦克风输入英语" aria-pressed="false"><svg class="icon"><use href="#i-mic"/></svg></button></div><button type="submit" class="primary-button" id="send-button">发送<svg class="icon"><use href="#i-arrow"/></svg></button></form>
   </dialog>
   <dialog id="lessons-dialog" class="small-dialog map-dialog"><div class="dialog-heading"><h2>和你一起长大</h2><button class="icon-button" data-close-dialog="lessons-dialog" type="button" aria-label="关闭课程地图"><svg class="icon"><use href="#i-close"/></svg></button></div><p class="map-intro">20 年 · 20 门课 · 1,000 道练习</p><div class="journey-stats"><strong id="map-bones">0 根骨头</strong><span id="map-age">0 / 20 岁</span></div><p id="map-next">完成 50 题，小狗长大一岁。</p><button id="restart-journey-button" class="menu-button restart-menu" type="button" disabled>从第1年重新练习</button><p class="map-note">保留小狗、装扮和已赚的奖励。</p><button id="map-shop-button" class="menu-button" type="button">去小狗衣橱</button><div class="course-map" id="course-map" aria-label="二十年课程地图"></div><p class="map-note">每题首次答对得 1 根骨头；50 题全部完成，解锁下一年。每年首次过关额外得 100 奖励币。骨头永久累计，装扮只花奖励币。</p></dialog>
-  <dialog id="shop-dialog" class="small-dialog"><div class="dialog-heading"><h2>小狗衣橱</h2><button class="icon-button" data-close-dialog="shop-dialog" type="button" aria-label="关闭衣橱"><svg class="icon"><use href="#i-close"/></svg></button></div><strong id="coin-total">0 奖励币</strong><p id="shop-reward">每年过关得 100 奖励币。</p><p class="shop-note">奖励币换装扮，骨头解锁课程。</p><div id="shop-items" class="shop-grid"></div><p id="shop-status" role="status"></p></dialog>
+  <dialog id="play-dialog" class="small-dialog play-dialog"><div class="dialog-heading"><h2>陪我玩一会儿</h2><button class="icon-button" data-close-dialog="play-dialog" type="button" aria-label="关闭玩耍"><svg class="icon"><use href="#i-close"/></svg></button></div><p class="play-hint">摸摸耳朵、爪爪或尾巴，看看我的反应。</p><button class="surprise-button" type="button" data-dog-action="surprise">给你一个惊喜！</button><div class="dog-actions"><button type="button" data-dog-action="sit"><strong>坐下</strong><small>Sit</small></button><button type="button" data-dog-action="down"><strong>趴下</strong><small>Lie down</small></button><button type="button" data-dog-action="highfive"><strong>击掌</strong><small>High five</small></button><button type="button" data-dog-action="jump"><strong>跳起来</strong><small>Jump</small></button><button type="button" data-dog-action="zoomies"><strong>跑一圈</strong><small>Run</small></button><button type="button" data-dog-action="dance"><strong>跳舞</strong><small>Dance</small></button><button type="button" data-dog-action="stretch"><strong>伸懒腰</strong><small>Stretch</small></button><button type="button" data-dog-action="sniff"><strong>闻一闻</strong><small>Sniff</small></button></div><section class="trick-challenge" aria-labelledby="challenge-title"><h3 id="challenge-title">英语小挑战</h3><p id="challenge-word" lang="en"></p><p class="play-hint">这个英语是让我做什么？</p><div id="challenge-choices" class="challenge-choices"></div><p id="challenge-feedback" role="status"></p></section></dialog>
+  <dialog id="shop-dialog" class="small-dialog"><div class="dialog-heading"><h2>小狗衣橱</h2><button class="icon-button" data-close-dialog="shop-dialog" type="button" aria-label="关闭衣橱"><svg class="icon"><use href="#i-close"/></svg></button></div><strong id="coin-total">0 奖励币</strong><p id="shop-reward">每年过关得 100 奖励币。</p><p class="shop-note">奖励币换装扮，骨头解锁课程。</p><div class="wardrobe-preview" aria-label="小狗试穿预览"><span id="shop-dog-preview" class="shop-dog-preview"></span><span id="preview-body" class="dog-outfit" data-slot="body" hidden aria-hidden="true"></span><span id="preview-neck" class="dog-outfit" data-slot="neck" hidden aria-hidden="true"></span><span id="preview-head" class="dog-outfit" data-slot="head" hidden aria-hidden="true"></span><span id="preview-eyes" class="dog-outfit" data-slot="eyes" hidden aria-hidden="true"></span></div><p id="try-on-label" class="try-on-label">先试穿，再选喜欢的。</p><div id="shop-filters" class="shop-filters" aria-label="装扮分类"><button type="button" data-shop-filter="all" aria-pressed="true">全部</button><button type="button" data-shop-filter="owned" aria-pressed="false">我的</button><button type="button" data-shop-filter="neck" aria-pressed="false">领巾</button><button type="button" data-shop-filter="head" aria-pressed="false">帽子</button><button type="button" data-shop-filter="eyes" aria-pressed="false">眼镜</button><button type="button" data-shop-filter="body" aria-pressed="false">衣服</button></div><div id="shop-items" class="shop-grid"></div><p id="shop-status" role="status"></p></dialog>
   <dialog id="dog-photo-dialog" class="small-dialog"><div class="dialog-heading"><h2>换成我的狗</h2><button class="icon-button" data-close-dialog="dog-photo-dialog" type="button" aria-label="关闭照片分身"><svg class="icon"><use href="#i-close"/></svg></button></div><div class="photo-inputs"><label class="menu-button">拍一张<input id="dog-camera" type="file" accept="image/*" capture="environment"></label><label class="menu-button">选照片<input id="dog-gallery" type="file" accept="image/*"></label></div><img id="dog-photo-preview" class="dog-photo-preview" alt="你选择的狗狗照片" hidden><p id="dog-photo-status" class="feature-status" role="status"></p><p><a id="connect-photo-service" href="connect.html" class="text-button">连接图像服务 · Connect</a></p><button id="generate-dog" class="primary-button" type="button" disabled>制作我的小狗</button><button id="reset-dog" class="text-button" type="button" hidden>换回原来的小狗</button><p class="photo-note">只有点制作后，照片才会发送给图像服务。分身做好后保存到这个浏览器的学习记录，原照片不保存。</p></dialog>
   <dialog id="settings-dialog" class="small-dialog"><div class="dialog-heading"><h2>我的小狗</h2><button class="icon-button" data-close-dialog="settings-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div>
     <button class="text-button" id="settings-rename-button" type="button">给小狗改名字</button>
@@ -631,7 +651,7 @@ const {DogAvatar} = (() => {
 class DogAvatar {
   constructor(image,{reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)'),setTimer=(fn,delay)=>globalThis.setTimeout(fn,delay),clearTimer=id=>globalThis.clearTimeout(id),random=Math.random}={}) {
     Object.assign(this,{image,motion:reducedMotion,setTimer,clearTimer,random});
-    this.mood='idle';this.posture='stand';this.timer=null;this.frame=-1;this.epoch=0;this.ready=false;this.disposed=false;this.cycles=0;this.resolveAction=null;this.voiceLevel=null;this.customAtlas=null;
+    this.mood='idle';this.posture='stand';this.timer=null;this.frame=-1;this.epoch=0;this.ready=false;this.disposed=false;this.cycles=0;this.resolveAction=null;this.voiceLevel=null;this.customAtlas=null;this.image.dataset.atlas='puppy';
     this.onMotionChange=()=>this.set(this.mood);
     this.motion.addEventListener?.('change',this.onMotionChange);
     const atlas=new Image();atlas.onload=()=>{if(!this.disposed){this.ready=true;this.set(this.mood);}};
@@ -697,14 +717,19 @@ class DogAvatar {
       if(this.disposed||epoch!==this.epoch)return;
       this.cycles++;
       if(this.posture==='down'){
-        this.sequence([7,8,9,8,7],[2500,900,7000,150,2200],{done:rest});
+        this.sequence([7,8,9,8,7,6,11,0],[1200,300,2000,150,600,300,250,900],{done:()=>{this.posture='stand';this.cycles=0;rest();}});
       }else if(this.posture==='sit'||this.cycles===3){
-        this.posture='sit';this.sequence([4,5,4],[3000,140,3000],{done:()=>{
+        this.posture='sit';this.sequence([4,5,4,15,4],[1400,140,900,550,1200],{done:()=>{
           if(this.cycles>4){this.posture='down';this.sequence([4,6,7],[300,380,1800],{done:rest});}else rest();
         }});
       }else{
-        const pause=2400+Math.round(this.random()*1800);
-        this.sequence([0,1,0,2,0,3],[pause,130,800,600,1600,1000],{done:rest});
+        const idle=[
+          [[0,1,0,2,0,3],[1400,130,650,400,650,900]],
+          [[0,28,29,3,30,0],[1000,250,250,650,130,1100]],
+          [[0,15,0,2,0],[900,650,350,450,1100]],
+          [[0,10,11,0,1,0],[1100,500,300,800,130,900]]
+        ][Math.floor(this.random()*4)];
+        this.sequence(idle[0],idle[1],{done:rest});
       }
     };rest();
   }
@@ -714,6 +739,11 @@ class DogAvatar {
     const specs={sit:[[0,11,4],[140,170,450],'sit'],down:[[4,6,7],[180,330,500],'down'],stand:[[7,6,11,0],[160,190,190,450],'stand'],jump:[[10,11,12,13,14,0],[130,150,140,240,160,350],'stand'],bow:[[0,10,11,0],[160,750,250,400],'stand'],paw:[[0,15,0,15,0],[150,500,180,500,350],'stand'],bark:[[2,0,2,0],[110,200,150,350],'stand']};
     specs.shake=[[16,17,18,19,20,21],[100,160,160,160,160,350],'stand'];
     specs.dance=[[22,23,22,23,24,25,26,27,28,29,22,23,21],[200,200,200,200,250,220,220,180,180,180,220,220,400],'stand'];
+    specs.stretch=[[0,10,11,6,7,6,11,0],[200,700,550,300,600,300,300,500],'stand'];
+    specs.sniff=[[0,3,28,29,3,30,0],[300,500,250,250,600,140,400],'stand'];
+    specs.highfive=[[0,15,15,0,2,15,0],[200,600,400,200,300,500,500],'stand'];
+    specs.zoomies=[[0,22,23,22,23,13,14,22,23,22,23,0],[200,200,200,200,200,250,250,200,200,200,200,500],'stand'];
+    specs.surprise=[[0,3,28,29,15,0,10,12,13,14,22,23,15,0],[300,300,200,200,500,200,200,200,200,200,200,200,500,450],'stand'];
     const spec=specs[action];if(!spec)return Promise.resolve(false);
     this.clear();this.mood='idle';this.image.dataset.mood='idle';this.image.dataset.action=action;this.posture=spec[2];
     if(!this.ready||this.motion.matches){this.show(spec[0].at(-1));this.image.dataset.action='';return Promise.resolve(true);}
@@ -1278,7 +1308,13 @@ const SHOP_ITEMS=[
  {id:'bowtie',name:'金色蝴蝶结',price:100,slot:'neck',frame:2},
  {id:'vest',name:'森林小背心',price:160,slot:'body',frame:3},
  {id:'hat',name:'冒险家帽子',price:220,slot:'head',frame:4},
- {id:'glasses',name:'聪明狗眼镜',price:300,slot:'eyes',frame:5}
+ {id:'glasses',name:'聪明狗眼镜',price:300,slot:'eyes',frame:5},
+ ...[
+  ['knit-scarf','暖暖针织围巾',35,'neck'],['sailor','水手小领巾',0,'neck'],['pink-bow','草莓蝴蝶结',25,'neck'],['flowers','小雏菊项圈',45,'neck'],
+  ['crown','小国王皇冠',90,'head'],['baseball','出游棒球帽',45,'head'],['wizard','星星魔法帽',100,'head'],['sunhat','蝴蝶结草帽',55,'head'],
+  ['round-specs','小博士圆眼镜',60,'eyes'],['heart-specs','爱心墨镜',40,'eyes'],['goggles','飞行员护目镜',75,'eyes'],['star-specs','星星墨镜',50,'eyes'],
+  ['raincoat','小黄鸭雨衣',80,'body'],['super-cape','超狗披风',100,'body'],['denim','牛仔小背心',70,'body'],['harness','森林探险装',65,'body']
+ ].map(([id,name,price,slot],frame)=>({id,name,price,slot,frame,atlas:'expanded'}))
 ];
 function journeySummary(passed=[],owned=[]){
  const valid=new Set(passed.filter(id=>findQuestion(id))),completed=COURSES.filter(c=>c.questions.every(q=>valid.has(q.id)));
@@ -1380,6 +1416,8 @@ savePreference('dogNameVersion','10');savePreference('dogName',chosenName);
 const state={dogName:chosenName,gender:readPreference('dogGender','female')==='male'?'male':'female',lessonId:'year-1',stepIndex:0,sound:readPreference('sound','true')==='true',chinese:readPreference('chinese','true')==='true',answered:false,finished:false,recognition:null,listening:false,feedback:'',busy:false};
 let speechToken=0,speechActive=false,petToken=0,petActive=false,petCount=0,voiceSession,currentPrompt,conversationAttempted=false,progressReady=false,signInRequired=false,personalAvatar=null,pendingAnswer=null,resumeWhenVisible=false;
 let introducedName=readPreference('introducedDogName',''),introduceNextSpeech=false,nameRecording=null,saveAbort=null;
+let shopFilter='all',tryOnItem=null,challengeStep=0;
+const trickChallenges=[['jump','Jump!','跳起来'],['sit','Sit!','坐下'],['highfive','High five!','击掌'],['dance','Dance!','跳舞'],['down','Lie down!','趴下'],['stretch','Stretch!','伸懒腰']];
 const supportsRecording=canRecord(window);
 let directVoice=!!window.PawlishGuest&&supportsRecording,voiceReady=!!window.PawlishGuest||!supportsRecording,voiceConnection=supportsRecording?'checking':'browser';
 // Decide which microphone service is usable before the first Start tap.
@@ -1419,6 +1457,7 @@ function stopSpeech() {
   puppySound.stop();greetingAudio.stop();
   $('portrait-stage').classList.remove('speaking');
   avatar.set('idle');
+  $('play-caption').textContent='';
 }
 
 function continueAfterReply(){
@@ -1585,8 +1624,25 @@ function updateAppearance(){
  $('dog-age').setAttribute('aria-label','小狗 '+progress.age+' 岁，完成课程后成长');
  for(const slot of ['neck','body','head','eyes']){
    const item=SHOP_ITEMS.find(i=>i.id===progress.equipped[slot]),el=$('outfit-'+slot);el.hidden=!item;
-   if(item){el.dataset.item=item.id;el.style.backgroundPosition=(item.frame%3*50)+'% '+(Math.floor(item.frame/3)*100)+'%';}
+   if(item)paintOutfit(el,item);
  }
+}
+function paintOutfit(el,item){
+ el.dataset.item=item.id;el.dataset.slot=item.slot;el.dataset.collection=item.atlas||'classic';
+ if(item.atlas==='expanded'){
+  const row=Math.floor(item.frame/4),bounds=[[0,315],[315,310],[625,225],[850,404]][row],width=313.5;
+  el.style.backgroundImage="url('assets/doudou/wardrobe-collection.png')";
+  el.style.backgroundSize='400% '+(1254/bounds[1]*100)+'%';
+  el.style.backgroundPosition=(item.frame%4*100/3)+'% '+(bounds[0]/(1254-bounds[1])*100)+'%';
+  el.style.aspectRatio=width+'/'+bounds[1];
+ }else{el.style.backgroundImage="url('assets/doudou/accessories.webp')";el.style.backgroundSize='300% 200%';el.style.backgroundPosition=(item.frame%3*50)+'% '+(Math.floor(item.frame/3)*100)+'%';el.style.aspectRatio='1';}
+}
+function renderTryOn(){
+ const picture=$('shop-dog-preview');picture.style.backgroundImage=$('teacher-photo').style.backgroundImage;picture.style.backgroundSize=avatar.customAtlas?'600% 400%':'400% 400%';
+ for(const slot of ['body','neck','head','eyes']){
+  const item=tryOnItem?.slot===slot?tryOnItem:SHOP_ITEMS.find(i=>i.id===progress.equipped[slot]),el=$('preview-'+slot);el.hidden=!item;if(item)paintOutfit(el,item);
+ }
+ $('try-on-label').textContent=tryOnItem?'试穿 · '+tryOnItem.name:'先试穿，再选喜欢的。';
 }
 function updateHeader(){
  $('dog-name').textContent=state.dogName;$('pet-dog').setAttribute('aria-label','摸摸'+state.dogName);
@@ -1738,6 +1794,7 @@ async function submitAnswer(raw,{retry=false}={}){
 function openDialog(id){
  voiceSession?.pauseForSpeech();
  stopSpeech();stopMicrophone();$('more-dialog').close();$(id).showModal();
+ if(id==='shop-dialog'){tryOnItem=null;renderShop();}if(id==='play-dialog')renderChallenge();
 }
 document.querySelectorAll('dialog').forEach(dialog=>dialog.addEventListener('close',()=>{
  // Defer until a replacement dialog is open. Keep the original session so
@@ -1748,23 +1805,33 @@ function renderShop(){
  $('shop-items').replaceChildren();$('coin-total').textContent=progress.coins+' 奖励币';
  const next=COURSES[Math.min(19,progress.unlocked-1)],remaining=next.questions.filter(q=>!progress.passed.includes(q.id)).length;
  $('shop-reward').textContent=!progressReady?'正在读取奖励…':progress.age===20?'20 年毕业啦！奖励币可以继续换装。':'第 '+next.year+' 年还差 '+remaining+' 题，过关得 100 奖励币。';
- for(const item of SHOP_ITEMS){
+ for(const item of [...SHOP_ITEMS].sort((a,b)=>Number(b.price===0)-Number(a.price===0))){
   const owned=progress.owned.includes(item.id),equipped=progress.equipped[item.slot]===item.id;
-  const card=node('article','shop-item'),picture=node('span','shop-accessory');picture.style.backgroundPosition=(item.frame%3*50)+'% '+(Math.floor(item.frame/3)*100)+'%';picture.setAttribute('aria-hidden','true');
-  const button=node('button','menu-button',equipped?'脱下':owned?'穿上':'兑换 · '+item.price+' 币');button.type='button';button.disabled=!progressReady||!owned&&progress.coins<item.price;button.dataset.item=item.id;button.setAttribute('aria-label',item.name+'，'+button.textContent);
-  button.addEventListener('click',async()=>{button.disabled=true;try{rememberProgress(await api('/api/journey/'+(owned?'equip':'buy'),owned?{itemId:equipped?null:item.id,slot:item.slot}:{itemId:item.id}));$('shop-status').textContent=equipped?'已经脱下啦。':'穿好啦！关掉这里看看小狗。';}catch(error){$('shop-status').textContent=error.message;renderShop();}});
-  card.append(picture,node('strong','',item.name),button);
+  if(shopFilter==='owned'&&!owned||!['all','owned'].includes(shopFilter)&&item.slot!==shopFilter)continue;
+  const card=node('article','shop-item'),picture=node('span','shop-accessory');paintOutfit(picture,item);picture.setAttribute('aria-hidden','true');
+  const button=node('button','menu-button',equipped?'脱下':owned?'穿上':item.price===0?'免费领取':'兑换 · '+item.price+' 币');button.type='button';button.disabled=!progressReady||!owned&&progress.coins<item.price;button.dataset.item=item.id;button.setAttribute('aria-label',item.name+'，'+button.textContent);
+  button.addEventListener('click',async()=>{button.disabled=true;try{const data=await api('/api/journey/'+(owned?'equip':'buy'),owned?{itemId:equipped?null:item.id,slot:item.slot}:{itemId:item.id});tryOnItem=null;rememberProgress(data);$('shop-status').textContent=equipped?'已经脱下啦。':'穿好啦！关掉这里看看小狗。';}catch(error){$('shop-status').textContent=error.message;renderShop();}});
+  const preview=node('button','try-on-button','试穿');preview.type='button';preview.setAttribute('aria-label','试穿'+item.name);preview.addEventListener('click',()=>{tryOnItem=item;renderTryOn();$('shop-status').textContent='试穿不花奖励币。';$('shop-dialog').scrollTo?.({top:0,behavior:'smooth'});});
+  card.append(picture,node('strong','',item.name),preview,button);
   if(progressReady&&!owned&&progress.coins<item.price)card.append(node('small','shop-shortfall','还差 '+(item.price-progress.coins)+' 币'));
   $('shop-items').append(card);
  }
+ if(!$('shop-items').children.length)$('shop-items').append(node('p','shop-note','还没有装扮，去「全部」领一条免费小领巾吧。'));
+ renderTryOn();
+}
+function renderChallenge(){
+ const target=trickChallenges[challengeStep%trickChallenges.length];$('challenge-word').textContent=target[1];$('challenge-feedback').textContent='';$('challenge-choices').replaceChildren();
+ const choices=[target,trickChallenges[(challengeStep+1)%6],trickChallenges[(challengeStep+3)%6]].sort((a,b)=>a[0].localeCompare(b[0]));
+ for(const choice of choices){const button=node('button','menu-button',choice[2]);button.type='button';button.dataset.challenge=choice[0];button.addEventListener('click',()=>{if(choice!==target){$('challenge-feedback').textContent='差一点，再选一个试试。';avatar.perform('shake');return;}challengeStep++;playWithDog(target[0],{fromMenu:true});});$('challenge-choices').append(button);}
 }
 function playWithDog(action,{fromMenu=false}={}){
- if(fromMenu)$('more-dialog').close();if(state.busy)return;
- if($('portrait-stage').classList.contains('speaking')){avatar.perform(action);return;}
+ if(fromMenu){$('more-dialog').close();$('play-dialog').close();}if(state.busy)return;
+ $('play-caption').textContent={sit:'坐好啦！',down:'趴好，陪着你。',jump:'看我跳！',dance:'尾巴也会跳舞！',highfive:'击掌！你是我的好朋友。',zoomies:'我的快乐小圈圈！',stretch:'伸个大大的懒腰。',sniff:'闻到学习的味道啦！',surprise:'给你表演一套！',paw:'把小爪爪给你。',bow:'给你鞠个躬！',bark:'汪！'}[action]||'';
+ if($('portrait-stage').classList.contains('speaking')){const token=++petToken;avatar.perform(action).then(()=>{if(token===petToken)$('play-caption').textContent='';});return;}
  const resume=voiceSession.active,token=++petToken,expectedSpeech=speechToken;if(resume)voiceSession.pauseForSpeech();puppySound.prepare();
  petActive=true;
- const motion=avatar.perform(action),woof=state.sound&&['bark','jump','dance'].includes(action)?puppySound.play():Promise.resolve();
- Promise.all([motion,woof]).then(()=>{if(token!==petToken||expectedSpeech!==speechToken)return;petActive=false;if(resume)continueAfterReply();});
+ const motion=avatar.perform(action),woof=state.sound&&['bark','jump','dance','surprise','highfive'].includes(action)?puppySound.play():Promise.resolve();
+ Promise.all([motion,woof]).then(()=>{if(token!==petToken||expectedSpeech!==speechToken)return;petActive=false;$('play-caption').textContent='';if(resume)continueAfterReply();});
 }
 function handleSpokenAnswer(text){
  const command=text.toLowerCase().replace(/[^a-z\s\u3400-\u9fff]/g,'').replace(/\s+/g,' ').trim();
@@ -1772,7 +1839,7 @@ function handleSpokenAnswer(text){
  if(!state.finished&&/^(skip|skip this question|跳过|跳过这题|下一题)$/.test(command)){navigatePractice('skip');return;}
  if(!state.finished&&/^(restart|restart this question|try again|重来|重新来|重来这题)$/.test(command)){navigatePractice('question');return;}
  if(/^(restart course|restart this course|重学这课|本课从头开始)$/.test(command)){navigatePractice('course');return;}
- const actions={sit:'sit','sit down':'sit','lie down':'down',down:'down',jump:'jump',bark:'bark',woof:'bark',dance:'dance','lets dance':'dance',坐下:'sit',趴下:'down',跳舞:'dance'};
+ const actions={sit:'sit','sit down':'sit','lie down':'down',down:'down',jump:'jump',bark:'bark',woof:'bark',dance:'dance','lets dance':'dance','high five':'highfive',stretch:'stretch',sniff:'sniff',run:'zoomies',surprise:'surprise',坐下:'sit',趴下:'down',跳舞:'dance',击掌:'highfive',伸懒腰:'stretch',跑一圈:'zoomies',惊喜:'surprise'};
  if(actions[command]&&!isCorrectAnswer(currentQuestion(),text)){playWithDog(actions[command]);return;}
  if(state.finished||state.answered){nextQuestion();return;}submitAnswer(text);
 }
@@ -1820,7 +1887,13 @@ $('retry-save').addEventListener('click',()=>{if(pendingAnswer)submitAnswer(pend
 $('replay-button').addEventListener('click',()=>{const line=currentQuestion().target.model;speak(line.text,{parts:[line],force:true,prime:true});});
 $('hint-button').addEventListener('click',()=>{if(state.finished)return;state.slowListening=true;updateTeaching({reveal:true});const hint=personality.hint(context());speak(hint.text,{parts:hint.parts,force:true,prime:true});});
 for(const [button,dialog] of [['more-button','more-dialog'],['settings-button','settings-dialog'],['map-button','lessons-dialog'],['lessons-button','lessons-dialog'],['typing-button','typing-dialog'],['explanation-button','explanation-dialog'],['shop-button','shop-dialog'],['wardrobe-button','shop-dialog']])$(button).addEventListener('click',()=>openDialog(dialog));
-$('pet-dog').addEventListener('click',()=>playWithDog(['paw','bow','jump','sit'][petCount++%4]));
+$('play-button').addEventListener('click',()=>openDialog('play-dialog'));
+$('pet-dog').addEventListener('click',event=>{
+ let action=['paw','sniff','highfive','stretch','surprise','dance'][petCount++%6];
+ if(typeof event.clientY==='number'&&event.clientY&&$('pet-dog').getBoundingClientRect){const r=$('pet-dog').getBoundingClientRect(),x=(event.clientX-r.left)/r.width,y=(event.clientY-r.top)/r.height;action=x>.7?'dance':y>.7?'highfive':y<.4?'sniff':action;}
+ playWithDog(action);
+});
+document.querySelectorAll('[data-shop-filter]').forEach(button=>button.addEventListener('click',()=>{shopFilter=button.dataset.shopFilter;document.querySelectorAll('[data-shop-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));renderShop();}));
 document.querySelectorAll('[data-dog-action]').forEach(button=>button.addEventListener('click',()=>playWithDog(button.dataset.dogAction,{fromMenu:true})));
 const phonePlay=new PhonePlay({host:window,onShake:()=>playWithDog('dance'),canPlay:()=>!document.querySelector('dialog[open]'),onChange:mode=>{$('shake-phone').setAttribute('aria-pressed',String(mode==='enabled'));$('shake-phone').textContent=mode==='enabled'?'关闭摇一摇':'开启摇一摇';$('shake-status').textContent={enabled:'关掉这里，轻轻摇一摇，小狗就跳舞。',off:'',unsupported:'这台设备不能摇一摇，可以点「跳舞」。',denied:'没有开启动作权限，也可以点「跳舞」。'}[mode]||'';}});
 $('shake-phone').addEventListener('click',()=>{if(phonePlay.enabled)phonePlay.disable();else phonePlay.enable();});
