@@ -28,7 +28,12 @@ export class MicrophoneSession {
       Promise.resolve(permission).then(stream=>{
         if(!this.current(generation)){stream.getTracks().forEach(track=>track.stop());return;}
         this.clear(timer);this.stream=stream;
-        for(const track of stream.getAudioTracks()){track.enabled=!this.suspended;track.onended=()=>{if(this.current(generation))this.fail('麦克风断开了，请重新开始。','audio-capture');};}
+        for(const track of stream.getAudioTracks()){
+          track.enabled=!this.suspended;this.inputMuted=track.muted===true;
+          track.onmute=()=>{if(this.current(generation))this.inputMuted=true;};
+          track.onunmute=()=>{if(this.current(generation))this.inputMuted=false;};
+          track.onended=()=>{if(this.current(generation))this.fail('麦克风断开了，请重新开始。','audio-capture');};
+        }
         try{
           this.input=this.context.createMediaStreamSource(stream);this.analyser=this.context.createAnalyser();this.analyser.fftSize=2048;
           this.samples=new Float32Array(this.analyser.fftSize);this.input.connect(this.analyser);
@@ -48,7 +53,7 @@ export class MicrophoneSession {
   }
   release(){
     this.generation++;this.cancelTurn();
-    this.stream?.getTracks().forEach(track=>{track.onended=null;track.stop();});this.stream=null;
+    this.stream?.getTracks().forEach(track=>{track.onended=null;track.onmute=null;track.onunmute=null;track.stop();});this.stream=null;this.inputMuted=false;
     try{this.input?.disconnect();}catch{}this.input=null;this.analyser=null;
     const context=this.context;this.context=null;try{context?.close()?.catch(()=>{});}catch{}
   }
@@ -70,21 +75,21 @@ export class MicrophoneSession {
     this.cancelTurn();const turn=this.turn;this.change('waiting');
     this.later(()=>{if(this.active&&this.turn===turn&&!this.holdForSpeech)this.capture();},delay);
   }
-  recoverInput(){
+  recoverInput(problem='capture-stalled'){
     if(!this.active||this.holdForSpeech||this.suspended)return;
     this.cancelTurn();
-    if(this.repairs++>=2){this.fail('麦克风没有恢复。请点开始重试，或在手机浏览器打开。','capture-stalled');return;}
+    if(this.repairs++>=2){this.fail('麦克风没有恢复。请点开始重试，或在手机浏览器打开。',problem);return;}
     const generation=this.generation,turn=this.turn,context=this.context;
     const current=()=>this.current(generation)&&this.turn===turn&&!this.holdForSpeech&&!this.suspended;
     this.change('recovering','麦克风断了一下，正在恢复…');
-    const timeout=this.later(()=>{if(current())this.fail('麦克风没有恢复。请点开始重试。','capture-stalled');},3500);
+    const timeout=this.later(()=>{if(current())this.fail('麦克风没有恢复。请点开始重试。',problem);},3500);
     // Some phone audio engines report running while their clock is frozen.
     // Reset that engine using the existing stream, without another permission
     // request. Pause, menus and backgrounding invalidate every completion.
     Promise.resolve().then(()=>{if(current())return context.suspend?.();})
       .then(()=>{if(current())return context.resume();})
-      .then(()=>{if(current()){this.clear(timeout);this.listen(80);}})
-      .catch(()=>{if(current())this.fail('麦克风没有恢复。请点开始重试。','capture-stalled');});
+      .then(()=>{if(current()){this.inputMuted=this.stream.getAudioTracks().some(track=>track.muted===true);this.clear(timeout);this.listen(80);}})
+      .catch(()=>{if(current())this.fail('麦克风没有恢复。请点开始重试。',problem);});
   }
   capture(){
     const generation=this.generation,turn=this.turn;
@@ -100,7 +105,7 @@ export class MicrophoneSession {
     }catch{this.fail('这里不能录音，请用 Safari 或 Chrome 打开。','unsupported');return;}
     const chunks=[];let bytes=0,heard=0,lastVoice=0,voiceStarted=0,stopping=false;
     const began=this.now(),endSilence=Math.max(600,Math.min(1500,Number(this.getEndSilence())||950));let noise=.0003,notified=false;
-    let audioTime=this.context.currentTime,clockAdvancedAt=began;
+    let audioTime=this.context.currentTime,clockAdvancedAt=began,mutedSince=null;
     recorder.ondataavailable=event=>{
       if(!current()||!event.data?.size)return;chunks.push(event.data);bytes+=event.data.size;
       if(bytes>1024*1024)this.fail('这句话有点长，我们分成短句说。','audio_size');
@@ -118,10 +123,20 @@ export class MicrophoneSession {
       this.transcribe(new this.host.Blob(chunks,{type:recorder.mimeType.split(';')[0]}),generation,turn);
     };
     try{recorder.start(250);}catch{this.fail('录音没能开始，请重试。','audio-capture');return;}
-    this.change('listening');this.onTranscript('');
+    if(this.inputMuted){mutedSince=began;this.change('recovering','麦克风暂时中断，正在等它恢复…');}
+    else this.change('listening');this.onTranscript('');
     const poll=()=>{
       if(!current()||stopping)return;
       const now=this.now();
+      // A running Web Audio clock does not guarantee that the input track can
+      // supply audio. Track mute/unmute events are separate from enabled and
+      // must never be treated as a learner thinking quietly.
+      if(this.inputMuted){
+        if(mutedSince===null){mutedSince=now;this.change('recovering','麦克风暂时中断，正在等它恢复…');this.onLevel(0);}
+        if(now-mutedSince>=1500){this.recoverInput('input-muted');return;}
+        this.later(poll,50);return;
+      }
+      if(mutedSince!==null){mutedSince=null;this.change('listening');}
       if(this.context.state!=='running'){
         if(now-clockAdvancedAt>=1500){this.recoverInput();return;}
         this.later(poll,50);return;
