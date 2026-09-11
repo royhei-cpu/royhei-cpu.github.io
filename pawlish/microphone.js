@@ -12,7 +12,7 @@ export class MicrophoneSession {
   clear(id){this.host.clearTimeout(id);this.timers.delete(id);}
   change(phase,message='',problem=''){this.phase=phase;this.onChange({active:this.active,phase,message,problem});}
   enable({greeting=false}={}){
-    this.release();this.active=true;this.holdForSpeech=greeting;this.suspended=false;this.emptyTurns=0;
+    this.release();this.active=true;this.holdForSpeech=greeting;this.suspended=false;this.emptyTurns=0;this.repairs=0;
     const generation=this.generation;
     this.change('starting','请允许麦克风。');
     try{
@@ -70,6 +70,22 @@ export class MicrophoneSession {
     this.cancelTurn();const turn=this.turn;this.change('waiting');
     this.later(()=>{if(this.active&&this.turn===turn&&!this.holdForSpeech)this.capture();},delay);
   }
+  recoverInput(){
+    if(!this.active||this.holdForSpeech||this.suspended)return;
+    this.cancelTurn();
+    if(this.repairs++>=2){this.fail('麦克风没有恢复。请点开始重试，或在手机浏览器打开。','capture-stalled');return;}
+    const generation=this.generation,turn=this.turn,context=this.context;
+    const current=()=>this.current(generation)&&this.turn===turn&&!this.holdForSpeech&&!this.suspended;
+    this.change('recovering','麦克风断了一下，正在恢复…');
+    const timeout=this.later(()=>{if(current())this.fail('麦克风没有恢复。请点开始重试。','capture-stalled');},3500);
+    // Some phone audio engines report running while their clock is frozen.
+    // Reset that engine using the existing stream, without another permission
+    // request. Pause, menus and backgrounding invalidate every completion.
+    Promise.resolve().then(()=>{if(current())return context.suspend?.();})
+      .then(()=>{if(current())return context.resume();})
+      .then(()=>{if(current()){this.clear(timeout);this.listen(80);}})
+      .catch(()=>{if(current())this.fail('麦克风没有恢复。请点开始重试。','capture-stalled');});
+  }
   capture(){
     const generation=this.generation,turn=this.turn;
     const current=()=>this.current(generation)&&this.turn===turn&&!this.holdForSpeech;
@@ -84,14 +100,21 @@ export class MicrophoneSession {
     }catch{this.fail('这里不能录音，请用 Safari 或 Chrome 打开。','unsupported');return;}
     const chunks=[];let bytes=0,heard=0,lastVoice=0,voiceStarted=0,stopping=false;
     const began=this.now(),endSilence=Math.max(600,Math.min(1500,Number(this.getEndSilence())||950));let noise=.0003,notified=false;
+    let audioTime=this.context.currentTime,clockAdvancedAt=began;
     recorder.ondataavailable=event=>{
       if(!current()||!event.data?.size)return;chunks.push(event.data);bytes+=event.data.size;
       if(bytes>1024*1024)this.fail('这句话有点长，我们分成短句说。','audio_size');
     };
-    recorder.onerror=()=>{if(current())this.fail('录音中断了，请重新开始。','audio-capture');};
+    recorder.onerror=()=>{if(current())this.recoverInput();};
     recorder.onstop=()=>{
-      if(!current()||!stopping)return;
+      if(!current())return;
       this.recorder=null;this.onLevel(0);
+      // A phone may end the recorder without our silence timer stopping it.
+      // Preserve a voiced final chunk instead of losing the learner's answer.
+      if(!stopping){
+        if(!voiceStarted){this.recoverInput();return;}
+        stopping=true;this.change('transcribing','听到啦，想一下……');
+      }
       this.transcribe(new this.host.Blob(chunks,{type:recorder.mimeType.split(';')[0]}),generation,turn);
     };
     try{recorder.start(250);}catch{this.fail('录音没能开始，请重试。','audio-capture');return;}
@@ -100,10 +123,16 @@ export class MicrophoneSession {
       if(!current()||stopping)return;
       const now=this.now();
       if(this.context.state!=='running'){
-        if(now-began>3000){this.fail('声音通道暂停了，请点开始继续。','audio-capture');return;}
+        if(now-clockAdvancedAt>=1500){this.recoverInput();return;}
         this.later(poll,50);return;
       }
-      this.analyser.getFloatTimeDomainData(this.samples);
+      const nextAudioTime=this.context.currentTime;
+      if(Number.isFinite(nextAudioTime)){
+        if(nextAudioTime!==audioTime){audioTime=nextAudioTime;clockAdvancedAt=now;}
+        else if(now-clockAdvancedAt>=1500){this.recoverInput();return;}
+      }
+      try{this.analyser.getFloatTimeDomainData(this.samples);}
+      catch{this.recoverInput();return;}
       const rms=Math.sqrt(this.samples.reduce((sum,sample)=>sum+sample*sample,0)/this.samples.length);
       this.onLevel(Math.min(1,rms*60));
       // The former .004 floor discarded a quiet one-word reply completely.
@@ -153,7 +182,7 @@ export class MicrophoneSession {
           }
           const text=typeof data.text==='string'?data.text.trim().slice(0,500):'';
           if(!text){this.emptyTurns++;retryListening('没听清，靠近手机再说一次。我会自动接着听。');return;}
-          this.emptyTurns=0;this.onTranscript(text);this.pauseForSpeech();this.onText(text);return;
+          this.emptyTurns=0;this.repairs=0;this.onTranscript(text);this.pauseForSpeech();this.onText(text);return;
         }catch{
           if(!current())return;
           if(attempt===2){retryListening('语音连接慢了一点，这题还在。听完再说一次，不用点开始。');return;}

@@ -6,7 +6,7 @@ import {MicrophoneSession,canRecord} from './microphone.js';
   const audio=$('test-audio');
   const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
   const report={
-    Check:'Pawlish voice check 30',
+    Check:'Pawlish voice check 31',
     Device:/iPhone|iPad|iPod/.test(navigator.userAgent)?'iPhone / iPad':'Other',
     Browser:navigator.userAgent,
     'Secure page':window.isSecureContext?'Yes':'No',
@@ -137,6 +137,7 @@ import {MicrophoneSession,canRecord} from './microphone.js';
             onChange:({phase,message})=>{
               if(finished)return;
               if(phase==='blocked'){finish(new Error(message));return;}
+              if(phase==='recovering'){stopSource();result('Service',message);return;}
               if(phase==='transcribing')result('Service','第 '+(index+1)+' / 3 句已录好，正在识别…');
               if(phase!=='listening'||source)return;
               result('Service','正在录第 '+(index+1)+' / 3 句'+(index===0?'（轻声 Hello）':'')+'…');
