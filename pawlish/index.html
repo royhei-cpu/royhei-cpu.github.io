@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#e6f4eb">
-  <meta name="pawlish-release" content="28">
+  <meta name="pawlish-release" content="29">
   <meta name="description" content="和可爱的小狗一起学英语。中文讲解、慢速示范，从一句你好开始。">
   <title>Pawlish · 小狗陪你学英语</title>
   <link rel="icon" href="assets/paw.svg" type="image/svg+xml">
@@ -97,8 +97,8 @@
     button.querySelector('span').textContent = '课程暂时无法开始';
     document.getElementById('voice-status').textContent = '课程还没准备好，请点下面的「重新打开」。';
     document.getElementById('startup-error').hidden = false;
-    document.getElementById('startup-error-detail').textContent = 'Pawlish 28: ' + failure;
-    document.getElementById('reload-pawlish').href = '?v=28&reload=' + Date.now();
+    document.getElementById('startup-error-detail').textContent = 'Pawlish 29: ' + failure;
+    document.getElementById('reload-pawlish').href = '?v=29&reload=' + Date.now();
     document.getElementById('greeting-audio').controls = true;
   }
   document.addEventListener('pawlish-ready', function () {
@@ -1332,7 +1332,7 @@ const state={dogName:chosenName,gender:readPreference('dogGender','female')==='m
 let speechToken=0,speechActive=false,petToken=0,petActive=false,petCount=0,voiceSession,currentPrompt,conversationAttempted=false,progressReady=false,signInRequired=false,personalAvatar=null,pendingAnswer=null,resumeWhenVisible=false;
 let introducedName=readPreference('introducedDogName',''),introduceNextSpeech=false,nameRecording=null,saveAbort=null;
 const supportsRecording=canRecord(window);
-let directVoice=false,voiceReady=!supportsRecording,voiceConnection=supportsRecording?'checking':'browser';
+let directVoice=!!window.PawlishGuest&&supportsRecording,voiceReady=!!window.PawlishGuest||!supportsRecording,voiceConnection=supportsRecording?'checking':'browser';
 // Decide which microphone service is usable before the first Start tap.
 // A late status response must never switch an already running conversation.
 async function checkVoiceConnection(){
@@ -1343,8 +1343,8 @@ async function checkVoiceConnection(){
    window.fetch('/api/voice/status',{cache:'no-store',signal:window.AbortSignal?.timeout?.(8000)}).then(async response=>response.ok?((await response.json()).connected===true?'connected':'missing'):'unavailable').catch(()=>'unavailable'),
    new Promise(resolve=>{timer=setTimeout(()=>resolve('unavailable'),8000);})
   ]);
-  directVoice=voiceConnection==='connected';
- }finally{clearTimeout(timer);voiceReady=true;$('voice-connection-status').textContent=voiceConnection==='connected'?'语音连接已保存。':voiceConnection==='missing'?(window.PawlishGuest?'公开版尚未连接语音，旧版连接不会自动带过来。':'尚未连接语音服务，目前使用浏览器识别。'):'暂时无法检查语音连接，请稍后重试。';updateStartButton();}
+  if(!voiceSession?.active)directVoice=!!window.PawlishGuest||voiceConnection==='connected';
+ }finally{clearTimeout(timer);voiceReady=true;$('voice-connection-status').textContent=voiceConnection==='connected'?(window.PawlishGuest?'语音已就绪，点开始就能聊。':'语音连接已保存。'):voiceConnection==='missing'?(window.PawlishGuest?'小狗的语音暂未接通，请稍后重试。':'尚未连接语音服务，目前使用浏览器识别。'):'语音连接较慢，开始后会自动重试。';updateStartButton();}
 }
 let progress={passed:[],owned:[],equipped:{},bones:0,age:0,coins:0,unlocked:1,completed:[]};
 const puppySound=createPuppySound(window),greetingAudio=new GreetingAudio({audio:$('greeting-audio')}),avatar=new DogAvatar($('teacher-photo'));
@@ -1419,7 +1419,7 @@ function speak(text,{parts,force=false,slow=false,expression='idle',automatic=fa
   const queue=(parts?.length?parts:[personality.example(text)]).slice();
   // The greeting woof belongs before the lesson, not after the learner's cue.
   if(bark==='greeting'){queue.splice(1,0,{bark:true});bark=false;}
-  if(introduceNextSpeech&&introducedName!==state.dogName&&(!deviceJourney||directVoice)){
+  if(introduceNextSpeech&&introducedName!==state.dogName&&(!deviceJourney||voiceConnection==='connected'||!!nameRecording?.url)){
     queue.unshift({nameGreeting:true,name:state.dogName,text:'Hi! My name is '+state.dogName+'.',mood:'waving'});
     greetingAudio.unlock();
   }
@@ -1730,7 +1730,7 @@ const voiceOptions={host:window,Recognition,onText:handleSpokenAnswer,getEndSile
  $('mic-meter').hidden=phase!=='listening';
  $('voice-status').textContent=message||'';$('voice-status').classList.toggle('sr-only',phase!=='blocked');document.body.classList.toggle('hands-free-active',active);if(problem){$('voice-help').open=true;$('voice-help').dataset.problem=problem;}
  $('voice-recovery').hidden=phase!=='blocked';
- $('connect-voice').hidden=!['service-not-allowed','unsupported','connection_required','invalid_key','access_denied','insufficient_quota','model_unavailable','verification_required'].includes(problem);
+ $('connect-voice').hidden=!!window.PawlishGuest||!['service-not-allowed','unsupported','connection_required','invalid_key','access_denied','insufficient_quota','model_unavailable','verification_required'].includes(problem);
  if(phase==='listening')avatar.set('listening');else if(phase==='transcribing')avatar.set('thinking');else if(phase==='off'||phase==='blocked')avatar.set('idle');
 }};
 voiceOptions.onRetry=message=>{

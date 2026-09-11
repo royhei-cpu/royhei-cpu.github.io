@@ -1,11 +1,12 @@
 // Intentionally independent of the lesson's modules and animation/audio stack.
-// Diagnostics stay on the device until the learner chooses to copy them.
+// Reports stay on the device; sample/learner audio uses the lesson voice API.
+import {MicrophoneSession,canRecord} from './microphone.js';
 (() => {
   const $=id=>document.getElementById(id);
   const audio=$('test-audio');
   const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
   const report={
-    Check:'Pawlish voice check 1',
+    Check:'Pawlish voice check 29',
     Device:/iPhone|iPad|iPod/.test(navigator.userAgent)?'iPhone / iPad':'Other',
     Browser:navigator.userAgent,
     'Secure page':window.isSecureContext?'Yes':'No',
@@ -13,12 +14,12 @@
     'Microphone API':navigator.mediaDevices?.getUserMedia?'Available':'Unavailable',
     'Speech API':Recognition?'Available':'Unavailable',
     'Greeting file':'Checking…',
-    Sound:'Not tested',Microphone:'Not tested',Speech:'Not tested'
+    Sound:'Not tested',Microphone:'Not tested',Speech:'Not tested',Service:'Not tested'
   };
   let micToken=0,stream=null,context=null,micFrame=null,micTimer=null,permissionTimer=null;
-  let recognition=null,speechTimer=null;
+  let recognition=null,speechTimer=null,lessonMic=null,serviceAbort=null;
   const render=()=>{$('check-report').value=Object.entries(report).map(([k,v])=>`${k}: ${v}`).join('\n');};
-  const result=(kind,message,state='')=>{report[kind]=message;const el=$({Sound:'sound-result',Microphone:'mic-result',Speech:'speech-result'}[kind]);el.textContent=message;el.dataset.state=state;render();};
+  const result=(kind,message,state='')=>{report[kind]=message;const el=$({Sound:'sound-result',Microphone:'mic-result',Speech:'speech-result',Service:'service-result'}[kind]);el.textContent=message;el.dataset.state=state;render();};
   $('environment').textContent='按下面的一、二、三步检查。每一步都可以单独试。';
   render();
 
@@ -29,13 +30,14 @@
     $('check-mic').textContent='检查麦克风';$('mic-level').value=0;
   }
   function stopSpeech(){
+    lessonMic?.stop();lessonMic=null;
     clearTimeout(speechTimer);const previous=recognition;recognition=null;
     if(previous)try{previous.abort();}catch{}
-    $('check-speech').textContent='检查语音识别';
+    $('check-speech').textContent='试说 Hello';
   }
   function stopOtherChecks(){
     const hadMic=!!stream||$('check-mic').textContent==='停止检查';
-    const hadSpeech=!!recognition;stopMic();stopSpeech();
+    const hadSpeech=!!recognition||!!lessonMic?.active;stopMic();stopSpeech();
     if(hadMic)result('Microphone','检查已停止。');
     if(hadSpeech)result('Speech','检查已停止。');
   }
@@ -89,35 +91,48 @@
     }
   });
 
+  $('check-service').addEventListener('click',async()=>{
+    if(serviceAbort)return;
+    audio.pause();stopOtherChecks();serviceAbort=new AbortController();
+    const controller=serviceAbort,timeout=setTimeout(()=>controller.abort(),75000);
+    $('check-service').disabled=true;
+    try{
+      const normal=text=>text.toLowerCase().replace(/[^a-z]/g,'');
+      const phrases=['Hello.','Thank you.','Please.'];
+      for(let i=0;i<phrases.length;i++){
+        result('Service','正在检查第 '+(i+1)+' / 3 句…');
+        const clip=await fetch('assets/puppy-female/year-1-en-'+i+'.mp3',{signal:controller.signal});
+        if(!clip.ok)throw new Error('示范声音没有加载好，请重试。');
+        const response=await fetch('/api/voice/transcribe',{method:'POST',headers:{'Content-Type':'audio/mpeg'},body:await clip.blob(),signal:controller.signal});
+        const data=await response.json();
+        if(!response.ok)throw new Error(data.error||'语音连接还没接通。');
+        if(normal(data.text||'')!==normal(phrases[i]))throw new Error('示范声音没有听清，请再检查一次。');
+      }
+      result('Service','已连续听懂 3 句，语音连接正常。再点「试说 Hello」检查你的麦克风。','good');
+    }catch(error){result('Service',controller.signal.aborted?'检查超时了，请重试。':error.message||'语音连接没有完成，请重试。','error');}
+    finally{clearTimeout(timeout);if(serviceAbort===controller)serviceAbort=null;$('check-service').disabled=false;}
+  });
   $('check-speech').addEventListener('click',()=>{
-    if(recognition){stopSpeech();result('Speech','检查已停止。');return;}
+    if(lessonMic?.active){stopSpeech();result('Speech','检查已停止。');return;}
     audio.pause();stopOtherChecks();$('heard-words').textContent='';
-    if(!Recognition){result('Speech','这个浏览器不能识别语音，可以返回后打字练习。','error');return;}
-    let listener,heard=false;
-    try{listener=new Recognition();}catch(error){result('Speech',`语音服务无法开始（${error.name}).`,'error');return;}
-    recognition=listener;const current=()=>recognition===listener;
-    listener.lang='en-US';listener.continuous=false;listener.interimResults=true;
-    listener.onstart=()=>{if(current())result('Speech','正在听。试着说 Hello。');};
-    listener.onresult=event=>{
-      if(!current())return;
-      const words=Array.from(event.results,r=>r[0].transcript).join(' ').trim();
-      if(words){heard=true;$('heard-words').textContent=`听到的是：“${words}”`;result('Speech','收到了文字，语音识别正常。','good');}
-    };
-    listener.onerror=event=>{
-      if(!current())return;stopSpeech();
-      const messages={'not-allowed':'语音权限被拒绝或阻止。','service-not-allowed':'浏览器的语音服务暂时不可用。',network:'语音服务连接不上。','audio-capture':'语音服务无法使用麦克风。','no-speech':'没有检测到说话声。'};
-      result('Speech',`${messages[event.error]||'语音识别已停止。'} (${event.error})`,'error');
-    };
-    listener.onend=()=>{if(current()){stopSpeech();if(!heard)result('Speech','语音服务停止了，还没有收到文字。','error');}};
-    $('check-speech').textContent='停止检查';result('Speech','语音识别正在开始……');
-    speechTimer=setTimeout(()=>{if(current()){stopSpeech();if(!heard)result('Speech','二十秒内没有识别到文字。','error');}},20000);
-    try{listener.start();}catch(error){stopSpeech();result('Speech',`语音输入未能开始（${error.name}).`,'error');}
+    if(!canRecord(window)){result('Speech','这里不能录音，请用 Safari 或 Chrome 打开网页。','error');return;}
+    lessonMic=new MicrophoneSession({host:window,
+      onText:text=>{stopSpeech();$('heard-words').textContent='听到的是：“'+text+'”';result('Speech','收到你的话了！可以返回小狗老师继续练习。','good');},
+      onRetry:()=>{stopSpeech();result('Speech','没有听清，请靠近手机再试一次。','error');return true;},
+      onChange:({phase,message})=>{
+        if(phase==='blocked'){result('Speech',message,'error');$('check-speech').textContent='试说 Hello';}
+        else if(phase==='listening')result('Speech','正在听。试着说 Hello，然后停一下。');
+        else if(phase==='transcribing')result('Speech','听到了，正在识别…');
+        else if(phase==='starting')result('Speech','请允许麦克风。');
+      }});
+    $('check-speech').textContent='停止检查';lessonMic.enable();
+    speechTimer=setTimeout(()=>{if(lessonMic?.active){stopSpeech();result('Speech','检查已停止，可以再试一次。');}},45000);
   });
 
   $('copy-check').addEventListener('click',async()=>{
     render();try{await navigator.clipboard.writeText($('check-report').value);$('copy-result').textContent='已复制，可以粘贴到聊天里。';}
     catch{$('check-report').focus();$('check-report').select();$('copy-result').textContent='长按选中的结果复制，也可以截图。';}
   });
-  const leave=()=>{audio.pause();stopOtherChecks();};
+  const leave=()=>{audio.pause();serviceAbort?.abort();stopOtherChecks();};
   window.addEventListener('pagehide',leave);document.addEventListener('visibilitychange',()=>{if(document.hidden)leave();});
 })();

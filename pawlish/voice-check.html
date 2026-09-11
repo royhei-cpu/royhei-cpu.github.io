@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="zh-Hans">
 <head>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; media-src 'self' blob:; font-src 'self'; connect-src 'self' https://pawlish-ryans-english-dog.lhei111.chatgpt.site; base-uri 'self'; form-action 'self'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
+<script src="guest-host.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#123d32">
@@ -8,7 +11,7 @@
   <link rel="icon" href="assets/paw.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="voice-check.css">
-  <script src="voice-check.js" defer></script>
+  <script src="voice-check.js" type="module"></script>
 </head>
 <body>
   <main class="check-shell">
@@ -32,8 +35,10 @@
     </section>
     <section class="check-card" aria-labelledby="speech-heading">
       <h2 id="speech-heading">3. 能识别你的英语吗？</h2>
-      <p>点下面的按钮，试着说 Hello。这一步检查能不能识别英语。</p>
-      <button class="primary-button" id="check-speech" type="button">检查语音识别</button>
+      <p>先检查小狗能不能听懂三句示范，再试着对手机说 Hello。</p>
+      <button class="primary-button" id="check-service" type="button">检查语音连接</button>
+      <p id="service-result" class="check-result" role="status">还没检查。这一步不打开麦克风。</p>
+      <button class="primary-button" id="check-speech" type="button">试说 Hello</button>
       <p id="speech-result" class="check-result" role="status">还没检查。</p>
       <p id="heard-words" class="heard-words"></p>
     </section>
@@ -45,7 +50,7 @@
       <label for="check-report" class="sr-only">声音检查结果</label>
       <textarea id="check-report" readonly rows="8">检查程序还没有加载。</textarea>
     </section>
-    <p class="check-small">麦克风检查只测量音量，不保存录音。语音识别使用浏览器的服务。离开页面后，检查会停止。</p>
+    <p class="check-small">麦克风检查只测量音量。语音检查使用和课程相同的服务，短录音会发送给 OpenAI 识别；Pawlish 不保存录音。离开页面后，检查会停止。</p>
     <noscript><p>请启用 JavaScript 后再检查麦克风。上面的播放器仍然可以试用。</p></noscript>
   </main>
 </body>
