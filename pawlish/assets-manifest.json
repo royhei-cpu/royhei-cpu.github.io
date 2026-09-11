@@ -1,5 +1,5 @@
 {
-  "release": 33,
+  "release": 34,
   "source": "https://pawlish-ryans-english-dog.lhei111.chatgpt.site",
   "files": [
     {
@@ -101,6 +101,16 @@
       "path": "assets/doudou/play.webp",
       "size": 182518,
       "sha256": "e4a14c5d47aaf9683521bf46c446603c8e52dfe183c200e2ecdfddea29a60052"
+    },
+    {
+      "path": "assets/doudou/playtime-collection.png",
+      "size": 1909725,
+      "sha256": "005408ab5126da436e4f46dffa6ef6a102f395c3662aa702f262ba96fac5289f"
+    },
+    {
+      "path": "assets/doudou/playtime-poses.png",
+      "size": 1887654,
+      "sha256": "6c50e39a539427aba404c466d4401a4bea21b20799b32e3cc0a9b34c648f90e8"
     },
     {
       "path": "assets/doudou/wardrobe-collection.png",

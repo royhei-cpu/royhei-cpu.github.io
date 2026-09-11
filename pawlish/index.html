@@ -3,11 +3,11 @@
 <head>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; media-src 'self' blob:; font-src 'self'; connect-src 'self' https://pawlish-ryans-english-dog.lhei111.chatgpt.site; base-uri 'self'; form-action 'self'; object-src 'none'">
 <meta name="referrer" content="no-referrer">
-<script src="guest-host.js?v=33"></script>
+<script src="guest-host.js?v=34"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#e6f4eb">
-  <meta name="pawlish-release" content="33">
+  <meta name="pawlish-release" content="34">
   <meta name="description" content="和可爱的小狗一起学英语。中文讲解、慢速示范，从一句你好开始。">
   <title>Pawlish · 小狗陪你学英语</title>
   <link rel="icon" href="assets/paw.svg" type="image/svg+xml">
@@ -96,6 +96,17 @@
 .photo-frame:has(.dog-sprite[data-action=zoomies]){animation:puppy-zoomies 2.5s ease-in-out}.photo-frame:has(.dog-sprite[data-action=surprise]) .dog-outfit,.photo-frame:has(.dog-sprite[data-action=stretch]) .dog-outfit{visibility:hidden}
 @keyframes puppy-zoomies{0%,100%{transform:translateX(0) scale(var(--growth,1))}25%{transform:translateX(13%) scale(var(--growth,1))}70%{transform:translateX(-13%) scale(var(--growth,1))}}
 @media(prefers-reduced-motion:reduce){.photo-frame{animation:none!important}}
+/* Play stays on the dog stage; the lesson keeps its place underneath. */
+.play-games{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}.play-games button{display:flex;flex-direction:column;align-items:center;border:1px solid #bed8c7;border-radius:20px;background:#eaf5ed;padding:12px 8px;min-height:144px;color:var(--ink)}.play-games strong{font-size:18px}.play-games small{font-size:14px;color:var(--text)}.toy-icon{display:block;width:62px;height:62px;background-image:url('assets/doudou/playtime-collection.png');background-size:400% 400%;background-position:0% 100%;background-repeat:no-repeat;flex-shrink:0}.toy-icon[data-toy=blue],.play-toy[data-toy=blue]{background-position:33.333333% 100%}.toy-icon[data-toy=yellow],.play-toy[data-toy=yellow]{background-position:66.666667% 100%}
+.play-room{padding:12px 16px 14px;background:#ffffffed;border-radius:22px}.play-room-heading,.game-prompt{display:flex;justify-content:space-between;align-items:center;gap:10px}.play-room-heading strong{font-size:16px}.play-room-heading .text-button{font-size:14px;min-height:44px;padding:7px 0}.game-prompt strong{font-size:28px}.game-prompt span{font-size:14px;color:var(--text)}#game-hint{font-size:16px;line-height:1.45;margin:4px 0 12px}.game-choices{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.game-choice{display:flex;align-items:center;flex-direction:column;justify-content:center;border:1px solid #c7dece;border-radius:17px;background:#edf6f0;color:var(--ink);padding:6px;min-height:98px;font-size:14px}.game-choice[data-result=correct]{background:#fff0ae;border-color:#ddba47}.game-choice:disabled{opacity:.8}.game-choice[data-result=retry]{background:#fff3db}#game-feedback{font-size:14px;line-height:1.5;margin:9px 0 0;min-height:21px}#game-feedback:empty{display:none}#game-again{width:100%;background:var(--yellow);margin:10px 0 0;text-align:center;font-size:16px;min-height:44px}
+.play-toy{position:absolute;width:60px;height:60px;left:calc(50% - 30px);bottom:7%;z-index:3;background-image:url('assets/doudou/playtime-collection.png');background-size:400% 400%;background-position:0% 100%;pointer-events:none}.portrait-stage[data-fetch=left]{--chase-x:-12%;--ball-x:-110px}.portrait-stage[data-fetch=center]{--chase-x:0%;--ball-x:0px}.portrait-stage[data-fetch=right]{--chase-x:12%;--ball-x:110px}.portrait-stage[data-playing=fetch] .play-toy{animation:toy-toss 1.5s ease-in forwards}.portrait-stage[data-playing=fetch] .photo-frame{animation:puppy-fetch 4.05s ease-in-out}.portrait-stage[data-playing=colors] .play-toy{animation:toy-bounce .7s ease-in-out 2}.photo-frame:has(.dog-sprite:is([data-action=roll],[data-action=pounce],[data-action=fetch],[data-action=fetchLeft],[data-action=fetchRight])) .dog-outfit{visibility:hidden}
+@keyframes toy-toss{0%{transform:translate(0,30px) scale(.85);opacity:1}40%{transform:translate(var(--ball-x),-140px) rotate(160deg);opacity:1}80%{transform:translate(var(--ball-x),0) rotate(260deg);opacity:1}100%{transform:translate(var(--ball-x),0) scale(.5);opacity:0}}
+@keyframes puppy-fetch{0%,100%{transform:translateX(0) scale(var(--growth,1))}23%,40%{transform:translateX(var(--chase-x)) scale(calc(var(--growth,1)*.94))}70%,88%{transform:translateX(0) scale(var(--growth,1))}}
+@keyframes toy-bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-28px) rotate(20deg)}}
+.dog-outfit[data-collection=playtime][data-slot=neck]{top:40%!important;width:29%!important;left:27.5%!important}.dog-outfit[data-collection=playtime][data-slot=head]{top:-1%!important;width:28%!important;left:28%!important}.dog-outfit[data-item=party-hat]{top:0%!important;width:24%!important;left:30%!important}.dog-outfit[data-collection=playtime][data-slot=body]{top:40%!important;width:38%!important;left:26%!important}
+.play-hint,.dog-actions small,.try-on-label,.shop-item .try-on-button,.shop-item .menu-button,.shop-note{font-size:14px}.shop-item .shop-shortfall{font-size:12px}.playing-game .teacher-footer .play-button{background:var(--yellow)}
+@media(max-width:350px){.play-room{padding:10px 12px}.game-choices{gap:5px}.game-choice .toy-icon{width:50px;height:50px}.portrait-stage[data-fetch=left]{--ball-x:-85px}.portrait-stage[data-fetch=right]{--ball-x:85px}}
+@media(prefers-reduced-motion:reduce){.portrait-stage[data-playing] .photo-frame,.portrait-stage[data-playing] .play-toy{animation:none!important}}
 
 </style>
   <script data-pawlish-script="startup">
@@ -116,8 +127,8 @@
     button.querySelector('span').textContent = '课程暂时无法开始';
     document.getElementById('voice-status').textContent = '课程还没准备好，请点下面的「重新打开」。';
     document.getElementById('startup-error').hidden = false;
-    document.getElementById('startup-error-detail').textContent = 'Pawlish 33: ' + failure;
-    document.getElementById('reload-pawlish').href = '?v=33&reload=' + Date.now();
+    document.getElementById('startup-error-detail').textContent = 'Pawlish 34: ' + failure;
+    document.getElementById('reload-pawlish').href = '?v=34&reload=' + Date.now();
     document.getElementById('greeting-audio').controls = true;
   }
   document.addEventListener('pawlish-ready', function () {
@@ -179,12 +190,13 @@
       <h1 class="sr-only">小狗陪你学英语</h1>
       <div class="portrait-stage" id="portrait-stage">
         <button class="photo-frame" id="pet-dog" type="button" aria-label="摸摸豆豆"><span id="teacher-photo" class="dog-sprite" role="img" aria-label="黑白小狗豆豆：全身可见，会眨眼、摇尾巴、歪头和挥爪" data-frame="0" data-mood="idle"></span><span id="outfit-body" class="dog-outfit" hidden aria-hidden="true"></span><span id="outfit-neck" class="dog-outfit" hidden aria-hidden="true"></span><span id="outfit-head" class="dog-outfit" hidden aria-hidden="true"></span><span id="outfit-eyes" class="dog-outfit" hidden aria-hidden="true"></span></button>
-        <div id="play-caption" class="play-caption" aria-hidden="true"></div><div id="bone-pop" class="bone-pop" role="status"></div><div class="dog-bubble" id="dog-bubble" hidden aria-hidden="true">汪！我用中文教你。</div>
+        <span id="play-toy" class="play-toy" hidden aria-hidden="true"></span><div id="play-caption" class="play-caption" aria-hidden="true"></div><div id="bone-pop" class="bone-pop" role="status"></div><div class="dog-bubble" id="dog-bubble" hidden aria-hidden="true">汪！我用中文教你。</div>
       </div>
       <div class="teacher-footer"><strong id="dog-name">豆豆</strong><span id="dog-age" class="age-label">小奶狗</span><button class="rename-button" id="rename-button" type="button" aria-label="给小狗改名字"><svg class="icon"><use href="#i-edit"/></svg>改名</button><button id="play-button" class="play-button" type="button" aria-haspopup="dialog">陪我玩</button></div>
     </section>
     <section class="lesson-panel" aria-labelledby="lesson-title">
-      <div class="caption-card"><div class="question-meta"><span id="course-label">第 1 年</span><span id="save-status" title="答对的题目保存在这个浏览器，下次从未完成的题目继续。">正在准备课程…</span><span id="question-count">1 / 50</span></div>
+      <section id="play-room" class="play-room" aria-label="和小狗玩游戏" hidden><div class="play-room-heading"><strong id="game-title"></strong><button id="game-exit" class="text-button" type="button">继续学英语</button></div><div class="game-prompt"><strong id="game-word" lang="en"></strong><span id="game-round"></span></div><p id="game-hint"></p><div id="game-choices" class="game-choices"></div><p id="game-feedback" role="status" aria-live="polite"></p><button id="game-again" class="menu-button" type="button" hidden>再玩一轮</button></section>
+      <div class="caption-card" id="lesson-caption"><div class="question-meta"><span id="course-label">第 1 年</span><span id="save-status" title="答对的题目保存在这个浏览器，下次从未完成的题目继续。">正在准备课程…</span><span id="question-count">1 / 50</span></div>
         <div class="lesson-header" hidden><div><h2 id="lesson-title">零基础 · 跟我说</h2><p id="lesson-subtitle" class="sr-only">先听小狗说，再跟着说一句。</p></div><span class="step-counter" id="step-counter">1 / 4</span></div>
         <aside class="teaching-card" id="teaching-card" aria-label="现在跟着说这一句">
           <div class="teaching-topline" hidden><span id="teaching-title">说你好</span></div>
@@ -205,7 +217,7 @@
         <p class="input-status" id="input-status" role="status"></p><p class="input-status" id="in-app-hint" hidden></p><button id="retry-progress" class="text-button" type="button" hidden>重试连接</button><button id="retry-save" class="text-button" type="button" hidden>重试保存</button>
         <div id="voice-recovery" class="voice-recovery" hidden><a id="connect-voice" class="text-button" href="connect.html" hidden>连接语音</a><button id="voice-type-reply" class="text-button" type="button">打字回答</button></div>
       </div>
-      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=33">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
+      <div id="startup-error" class="voice-help-content" role="alert" hidden><p><strong>课程还没准备好。</strong>请点下面的「重新打开」。</p><p><a id="reload-pawlish" href="?v=34">重新打开</a></p><details><summary>错误详情</summary><p id="startup-error-detail"></p></details></div>
       <audio id="greeting-audio" src="assets/puppy-female/cn-welcome.mp3?v=13" preload="auto"></audio>
     </section>
   </main>
@@ -223,8 +235,8 @@
     <form id="answer-form" novalidate><label for="answer" class="sr-only">输入你的回答</label><div class="input-wrap"><input id="answer" name="answer" placeholder="输入英语，或用中文求助……" maxlength="280" autocomplete="off" enterkeyhint="send"><button class="icon-button mic-button" id="mic-button" type="button" aria-label="用麦克风输入英语" aria-pressed="false"><svg class="icon"><use href="#i-mic"/></svg></button></div><button type="submit" class="primary-button" id="send-button">发送<svg class="icon"><use href="#i-arrow"/></svg></button></form>
   </dialog>
   <dialog id="lessons-dialog" class="small-dialog map-dialog"><div class="dialog-heading"><h2>和你一起长大</h2><button class="icon-button" data-close-dialog="lessons-dialog" type="button" aria-label="关闭课程地图"><svg class="icon"><use href="#i-close"/></svg></button></div><p class="map-intro">20 年 · 20 门课 · 1,000 道练习</p><div class="journey-stats"><strong id="map-bones">0 根骨头</strong><span id="map-age">0 / 20 岁</span></div><p id="map-next">完成 50 题，小狗长大一岁。</p><button id="restart-journey-button" class="menu-button restart-menu" type="button" disabled>从第1年重新练习</button><p class="map-note">保留小狗、装扮和已赚的奖励。</p><button id="map-shop-button" class="menu-button" type="button">去小狗衣橱</button><div class="course-map" id="course-map" aria-label="二十年课程地图"></div><p class="map-note">每题首次答对得 1 根骨头；50 题全部完成，解锁下一年。每年首次过关额外得 100 奖励币。骨头永久累计，装扮只花奖励币。</p></dialog>
-  <dialog id="play-dialog" class="small-dialog play-dialog"><div class="dialog-heading"><h2>陪我玩一会儿</h2><button class="icon-button" data-close-dialog="play-dialog" type="button" aria-label="关闭玩耍"><svg class="icon"><use href="#i-close"/></svg></button></div><p class="play-hint">摸摸耳朵、爪爪或尾巴，看看我的反应。</p><button class="surprise-button" type="button" data-dog-action="surprise">给你一个惊喜！</button><div class="dog-actions"><button type="button" data-dog-action="sit"><strong>坐下</strong><small>Sit</small></button><button type="button" data-dog-action="down"><strong>趴下</strong><small>Lie down</small></button><button type="button" data-dog-action="highfive"><strong>击掌</strong><small>High five</small></button><button type="button" data-dog-action="jump"><strong>跳起来</strong><small>Jump</small></button><button type="button" data-dog-action="zoomies"><strong>跑一圈</strong><small>Run</small></button><button type="button" data-dog-action="dance"><strong>跳舞</strong><small>Dance</small></button><button type="button" data-dog-action="stretch"><strong>伸懒腰</strong><small>Stretch</small></button><button type="button" data-dog-action="sniff"><strong>闻一闻</strong><small>Sniff</small></button></div><section class="trick-challenge" aria-labelledby="challenge-title"><h3 id="challenge-title">英语小挑战</h3><p id="challenge-word" lang="en"></p><p class="play-hint">这个英语是让我做什么？</p><div id="challenge-choices" class="challenge-choices"></div><p id="challenge-feedback" role="status"></p></section></dialog>
-  <dialog id="shop-dialog" class="small-dialog"><div class="dialog-heading"><h2>小狗衣橱</h2><button class="icon-button" data-close-dialog="shop-dialog" type="button" aria-label="关闭衣橱"><svg class="icon"><use href="#i-close"/></svg></button></div><strong id="coin-total">0 奖励币</strong><p id="shop-reward">每年过关得 100 奖励币。</p><p class="shop-note">奖励币换装扮，骨头解锁课程。</p><div class="wardrobe-preview" aria-label="小狗试穿预览"><span id="shop-dog-preview" class="shop-dog-preview"></span><span id="preview-body" class="dog-outfit" data-slot="body" hidden aria-hidden="true"></span><span id="preview-neck" class="dog-outfit" data-slot="neck" hidden aria-hidden="true"></span><span id="preview-head" class="dog-outfit" data-slot="head" hidden aria-hidden="true"></span><span id="preview-eyes" class="dog-outfit" data-slot="eyes" hidden aria-hidden="true"></span></div><p id="try-on-label" class="try-on-label">先试穿，再选喜欢的。</p><div id="shop-filters" class="shop-filters" aria-label="装扮分类"><button type="button" data-shop-filter="all" aria-pressed="true">全部</button><button type="button" data-shop-filter="owned" aria-pressed="false">我的</button><button type="button" data-shop-filter="neck" aria-pressed="false">领巾</button><button type="button" data-shop-filter="head" aria-pressed="false">帽子</button><button type="button" data-shop-filter="eyes" aria-pressed="false">眼镜</button><button type="button" data-shop-filter="body" aria-pressed="false">衣服</button></div><div id="shop-items" class="shop-grid"></div><p id="shop-status" role="status"></p></dialog>
+  <dialog id="play-dialog" class="small-dialog play-dialog"><div class="dialog-heading"><h2>陪我玩一会儿</h2><button class="icon-button" data-close-dialog="play-dialog" type="button" aria-label="关闭玩耍"><svg class="icon"><use href="#i-close"/></svg></button></div><div class="play-games"><button type="button" data-play-game="fetch"><span class="toy-icon" data-toy="red" aria-hidden="true"></span><strong>抛球给我</strong><small>你来扔，我来捡</small></button><button type="button" data-play-game="colors"><span class="toy-icon" data-toy="blue" aria-hidden="true"></span><strong>找颜色</strong><small>边玩边学英语</small></button></div><p class="play-hint">摸耳朵会歪头，摸肚子会打滚，摸尾巴会跳舞。</p><button class="surprise-button" type="button" data-dog-action="surprise">给你一个惊喜！</button><div class="dog-actions"><button type="button" data-dog-action="roll"><strong>打个滚</strong><small>Roll over</small></button><button type="button" data-dog-action="pounce"><strong>扑一扑</strong><small>Let’s play</small></button><button type="button" data-dog-action="sit"><strong>坐下</strong><small>Sit</small></button><button type="button" data-dog-action="down"><strong>趴下</strong><small>Lie down</small></button><button type="button" data-dog-action="highfive"><strong>击掌</strong><small>High five</small></button><button type="button" data-dog-action="jump"><strong>跳起来</strong><small>Jump</small></button><button type="button" data-dog-action="zoomies"><strong>跑一圈</strong><small>Run</small></button><button type="button" data-dog-action="dance"><strong>跳舞</strong><small>Dance</small></button><button type="button" data-dog-action="stretch"><strong>伸懒腰</strong><small>Stretch</small></button><button type="button" data-dog-action="sniff"><strong>闻一闻</strong><small>Sniff</small></button></div><section class="trick-challenge" aria-labelledby="challenge-title"><h3 id="challenge-title">英语小挑战</h3><p id="challenge-word" lang="en"></p><p class="play-hint">这个英语是让我做什么？</p><div id="challenge-choices" class="challenge-choices"></div><p id="challenge-feedback" role="status"></p></section></dialog>
+  <dialog id="shop-dialog" class="small-dialog"><div class="dialog-heading"><h2>小狗衣橱</h2><button class="icon-button" data-close-dialog="shop-dialog" type="button" aria-label="关闭衣橱"><svg class="icon"><use href="#i-close"/></svg></button></div><strong id="coin-total">0 奖励币</strong><p id="shop-reward">每年过关得 100 奖励币。</p><p class="shop-note">34 款装扮 · 3 款免费领。骨头留着解锁课程。</p><div class="wardrobe-preview" aria-label="小狗试穿预览"><span id="shop-dog-preview" class="shop-dog-preview"></span><span id="preview-body" class="dog-outfit" data-slot="body" hidden aria-hidden="true"></span><span id="preview-neck" class="dog-outfit" data-slot="neck" hidden aria-hidden="true"></span><span id="preview-head" class="dog-outfit" data-slot="head" hidden aria-hidden="true"></span><span id="preview-eyes" class="dog-outfit" data-slot="eyes" hidden aria-hidden="true"></span></div><p id="try-on-label" class="try-on-label">先试穿，再选喜欢的。</p><div id="shop-filters" class="shop-filters" aria-label="装扮分类"><button type="button" data-shop-filter="all" aria-pressed="true">全部</button><button type="button" data-shop-filter="owned" aria-pressed="false">我的</button><button type="button" data-shop-filter="neck" aria-pressed="false">领巾</button><button type="button" data-shop-filter="head" aria-pressed="false">帽子</button><button type="button" data-shop-filter="eyes" aria-pressed="false">眼镜</button><button type="button" data-shop-filter="body" aria-pressed="false">衣服</button></div><div id="shop-items" class="shop-grid"></div><p id="shop-status" role="status"></p></dialog>
   <dialog id="dog-photo-dialog" class="small-dialog"><div class="dialog-heading"><h2>换成我的狗</h2><button class="icon-button" data-close-dialog="dog-photo-dialog" type="button" aria-label="关闭照片分身"><svg class="icon"><use href="#i-close"/></svg></button></div><div class="photo-inputs"><label class="menu-button">拍一张<input id="dog-camera" type="file" accept="image/*" capture="environment"></label><label class="menu-button">选照片<input id="dog-gallery" type="file" accept="image/*"></label></div><img id="dog-photo-preview" class="dog-photo-preview" alt="你选择的狗狗照片" hidden><p id="dog-photo-status" class="feature-status" role="status"></p><p><a id="connect-photo-service" href="connect.html" class="text-button">连接图像服务 · Connect</a></p><button id="generate-dog" class="primary-button" type="button" disabled>制作我的小狗</button><button id="reset-dog" class="text-button" type="button" hidden>换回原来的小狗</button><p class="photo-note">只有点制作后，照片才会发送给图像服务。分身做好后保存到这个浏览器的学习记录，原照片不保存。</p></dialog>
   <dialog id="settings-dialog" class="small-dialog"><div class="dialog-heading"><h2>我的小狗</h2><button class="icon-button" data-close-dialog="settings-dialog" type="button" aria-label="关闭"><svg class="icon"><use href="#i-close"/></svg></button></div>
     <button class="text-button" id="settings-rename-button" type="button">给小狗改名字</button>
@@ -657,21 +669,27 @@ class DogAvatar {
     const atlas=new Image();atlas.onload=()=>{if(!this.disposed){this.ready=true;this.set(this.mood);}};
     atlas.onerror=()=>{};atlas.src=new URL('./assets/doudou/lifelike.webp',new URL("./dog-avatar.js", document.baseURI).href).href;
     const playAtlas=new Image();playAtlas.src=new URL('./assets/doudou/play.webp',new URL("./dog-avatar.js", document.baseURI).href).href;
+    this.activityReady=false;
+    const activityAtlas=new Image();activityAtlas.onload=()=>{this.activityReady=true;};activityAtlas.src=new URL('./assets/doudou/playtime-poses.png',new URL("./dog-avatar.js", document.baseURI).href).href;
     this.show(0);
   }
   show(index){
     if(this.frame===index)return;this.frame=index;this.image.dataset.frame=String(index);
-    const play=index>=16;let cell=play?index-16:index,cols=4,rows=4;
+    const activity=index>=32,play=index>=16&&!activity;let cell=activity?index-32:play?index-16:index,cols=4,rows=4;
+    const activityFallback=[3,3,10,11,22,23,0,4,6,8,7,0,10,11,15,2];
     if(this.customAtlas){
+      if(activity)cell=activityFallback[cell];
+      if(activity&&cell>=16)cell=[0,16,17,16,17,0,18,19,10,20,21,14,22,23,1,4][cell-16];
       if(play)cell=[0,16,17,16,17,0,18,19,10,20,21,14,22,23,1,4][cell];
       cols=6;rows=4;this.image.style.backgroundImage=`url("${this.customAtlas}")`;
-    }else this.image.style.backgroundImage=`url("${new URL('./assets/doudou/'+(play?'play':'lifelike')+'.webp',new URL("./dog-avatar.js", document.baseURI).href).href}")`;
+    }else if(activity&&this.activityReady)this.image.style.backgroundImage=`url("${new URL('./assets/doudou/playtime-poses.png',new URL("./dog-avatar.js", document.baseURI).href).href}")`;
+    else{if(activity)cell=activityFallback[cell];const usePlay=play||cell>=16;if(activity&&usePlay)cell-=16;this.image.style.backgroundImage=`url("${new URL('./assets/doudou/'+(usePlay?'play':'lifelike')+'.webp',new URL("./dog-avatar.js", document.baseURI).href).href}")`;}
     this.image.style.backgroundSize=`${cols*100}% ${rows*100}%`;
     this.image.style.backgroundPosition=`${cell%cols*100/(cols-1)}% ${Math.floor(cell/cols)*100/(rows-1)}%`;
     // The generated lying frames sit higher in their cells. Align the paws
     // with the standing floor while keeping every tail and ear inside the view.
     const floor=[0,0,0,2,3,3,3,3,17,17,11,15,10,0,12,12];
-    this.image.style.setProperty('--pose-y',(this.customAtlas||play?0:floor[index]||0)+'%');
+    this.image.style.setProperty('--pose-y',(this.customAtlas||play||activity?0:floor[index]||0)+'%');
   }
   useAtlas(url){this.clear();this.customAtlas=url||null;this.frame=-1;this.image.dataset.atlas=url?.includes('elder.webp')?'elder':url?.includes('adult.webp')?'adult':url?'custom':'puppy';this.set('idle');}
   clear(){
@@ -727,8 +745,10 @@ class DogAvatar {
           [[0,1,0,2,0,3],[1400,130,650,400,650,900]],
           [[0,28,29,3,30,0],[1000,250,250,650,130,1100]],
           [[0,15,0,2,0],[900,650,350,450,1100]],
-          [[0,10,11,0,1,0],[1100,500,300,800,130,900]]
-        ][Math.floor(this.random()*4)];
+          [[0,10,11,0,1,0],[1100,500,300,800,130,900]],
+          [[0,32,33,32,0],[1200,600,600,450,1100]],
+          [[0,44,45,47,0],[1200,650,650,600,1100]]
+        ][Math.floor(this.random()*6)];
         this.sequence(idle[0],idle[1],{done:rest});
       }
     };rest();
@@ -744,6 +764,11 @@ class DogAvatar {
     specs.highfive=[[0,15,15,0,2,15,0],[200,600,400,200,300,500,500],'stand'];
     specs.zoomies=[[0,22,23,22,23,13,14,22,23,22,23,0],[200,200,200,200,200,250,250,200,200,200,200,500],'stand'];
     specs.surprise=[[0,3,28,29,15,0,10,12,13,14,22,23,15,0],[300,300,200,200,500,200,200,200,200,200,200,200,500,450],'stand'];
+    specs.roll=[[0,40,41,42,41,42,43,47,0],[200,350,450,350,400,350,450,450,450],'stand'];
+    specs.pounce=[[0,44,45,44,12,13,14,47,0],[250,400,350,350,170,220,180,550,450],'stand'];
+    specs.fetchLeft=[[32,36,34,38,36,39,47,0],[250,500,650,450,500,800,500,400],'stand'];
+    specs.fetchRight=[[33,37,35,38,37,39,47,0],[250,500,650,450,500,800,500,400],'stand'];
+    specs.fetch=[[44,45,35,38,39,47,0],[350,450,650,450,1000,500,400],'stand'];
     const spec=specs[action];if(!spec)return Promise.resolve(false);
     this.clear();this.mood='idle';this.image.dataset.mood='idle';this.image.dataset.action=action;this.posture=spec[2];
     if(!this.ready||this.motion.matches){this.show(spec[0].at(-1));this.image.dataset.action='';return Promise.resolve(true);}
@@ -1314,7 +1339,12 @@ const SHOP_ITEMS=[
   ['crown','小国王皇冠',90,'head'],['baseball','出游棒球帽',45,'head'],['wizard','星星魔法帽',100,'head'],['sunhat','蝴蝶结草帽',55,'head'],
   ['round-specs','小博士圆眼镜',60,'eyes'],['heart-specs','爱心墨镜',40,'eyes'],['goggles','飞行员护目镜',75,'eyes'],['star-specs','星星墨镜',50,'eyes'],
   ['raincoat','小黄鸭雨衣',80,'body'],['super-cape','超狗披风',100,'body'],['denim','牛仔小背心',70,'body'],['harness','森林探险装',65,'body']
- ].map(([id,name,price,slot],frame)=>({id,name,price,slot,frame,atlas:'expanded'}))
+ ].map(([id,name,price,slot],frame)=>({id,name,price,slot,frame,atlas:'expanded'})),
+ ...[
+  ['berry-hat','草莓渔夫帽',40,'head'],['sleepy-cap','晚安小睡帽',30,'head'],['party-hat','生日派对帽',0,'head'],['fire-helmet','小小消防员',85,'head'],
+  ['mint-bow','薄荷蝴蝶结',0,'neck'],['autumn-scarf','秋日小领巾',35,'neck'],['star-bandana','星空小方巾',40,'neck'],['holiday-scarf','节日暖围巾',55,'neck'],
+  ['mint-hoodie','薄荷连帽衫',70,'body'],['varsity-vest','校园棒球衫',75,'body'],['ballet-vest','芭蕾小舞裙',90,'body'],['space-jacket','太空探险服',120,'body']
+ ].map(([id,name,price,slot],frame)=>({id,name,price,slot,frame,atlas:'playtime'}))
 ];
 function journeySummary(passed=[],owned=[]){
  const valid=new Set(passed.filter(id=>findQuestion(id))),completed=COURSES.filter(c=>c.questions.every(q=>valid.has(q.id)));
@@ -1416,7 +1446,9 @@ savePreference('dogNameVersion','10');savePreference('dogName',chosenName);
 const state={dogName:chosenName,gender:readPreference('dogGender','female')==='male'?'male':'female',lessonId:'year-1',stepIndex:0,sound:readPreference('sound','true')==='true',chinese:readPreference('chinese','true')==='true',answered:false,finished:false,recognition:null,listening:false,feedback:'',busy:false};
 let speechToken=0,speechActive=false,petToken=0,petActive=false,petCount=0,voiceSession,currentPrompt,conversationAttempted=false,progressReady=false,signInRequired=false,personalAvatar=null,pendingAnswer=null,resumeWhenVisible=false;
 let introducedName=readPreference('introducedDogName',''),introduceNextSpeech=false,nameRecording=null,saveAbort=null;
-let shopFilter='all',tryOnItem=null,challengeStep=0;
+let shopFilter='all',tryOnItem=null,challengeStep=0,playGame=null,gameEpoch=0;
+const playColors=[{id:'red',en:'Red',zh:'红色',frame:12},{id:'blue',en:'Blue',zh:'蓝色',frame:13},{id:'yellow',en:'Yellow',zh:'黄色',frame:14}];
+const shuffled=items=>{const result=items.slice();for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result;};
 const trickChallenges=[['jump','Jump!','跳起来'],['sit','Sit!','坐下'],['highfive','High five!','击掌'],['dance','Dance!','跳舞'],['down','Lie down!','趴下'],['stretch','Stretch!','伸懒腰']];
 const supportsRecording=canRecord(window);
 let directVoice=!!window.PawlishGuest&&supportsRecording,voiceReady=!!window.PawlishGuest||!supportsRecording,voiceConnection=supportsRecording?'checking':'browser';
@@ -1453,6 +1485,7 @@ const node=(tag,className,text)=>{const el=document.createElement(tag);if(classN
 const status=text=>{$('input-status').textContent=text;};
 function stopMicrophone(){if(state.recognition)try{state.recognition.abort();}catch{}state.recognition=null;state.listening=false;$('mic-button').setAttribute('aria-pressed','false');}
 function stopSpeech() {
+  endPlayGame(false);
   speechToken++;petToken++;speechActive=false;petActive=false;
   puppySound.stop();greetingAudio.stop();
   $('portrait-stage').classList.remove('speaking');
@@ -1461,7 +1494,7 @@ function stopSpeech() {
 }
 
 function continueAfterReply(){
-  if(!voiceSession?.active||speechActive||petActive||document.hidden||document.querySelector('dialog[open]'))return;
+  if(!voiceSession?.active||speechActive||petActive||playGame||document.hidden||document.querySelector('dialog[open]'))return;
   if(state.busy){avatar.set('thinking');$('turn-title').textContent='正在保存……';return;}
   if(state.answered&&!state.finished){nextQuestion();return;}
   voiceSession.listen(180);
@@ -1629,7 +1662,10 @@ function updateAppearance(){
 }
 function paintOutfit(el,item){
  el.dataset.item=item.id;el.dataset.slot=item.slot;el.dataset.collection=item.atlas||'classic';
- if(item.atlas==='expanded'){
+ if(item.atlas==='playtime'){
+  const bounds=item.frame===4?[313.5,280]:[[0,313.5],[313.5,300],[603,335],[940.5,313.5]][Math.floor(item.frame/4)];
+  el.style.backgroundImage="url('assets/doudou/playtime-collection.png')";el.style.backgroundSize='400% '+(1254/bounds[1]*100)+'%';el.style.backgroundPosition=(item.frame%4*100/3)+'% '+(bounds[0]/(1254-bounds[1])*100)+'%';el.style.aspectRatio='313.5/'+bounds[1];
+ }else if(item.atlas==='expanded'){
   const row=Math.floor(item.frame/4),bounds=[[0,315],[315,310],[625,225],[850,404]][row],width=313.5;
   el.style.backgroundImage="url('assets/doudou/wardrobe-collection.png')";
   el.style.backgroundSize='400% '+(1254/bounds[1]*100)+'%';
@@ -1638,7 +1674,7 @@ function paintOutfit(el,item){
  }else{el.style.backgroundImage="url('assets/doudou/accessories.webp')";el.style.backgroundSize='300% 200%';el.style.backgroundPosition=(item.frame%3*50)+'% '+(Math.floor(item.frame/3)*100)+'%';el.style.aspectRatio='1';}
 }
 function renderTryOn(){
- const picture=$('shop-dog-preview');picture.style.backgroundImage=$('teacher-photo').style.backgroundImage;picture.style.backgroundSize=avatar.customAtlas?'600% 400%':'400% 400%';
+ const picture=$('shop-dog-preview');picture.style.backgroundImage=avatar.customAtlas?`url("${avatar.customAtlas}")`:"url('assets/doudou/lifelike.webp')";picture.style.backgroundSize=avatar.customAtlas?'600% 400%':'400% 400%';
  for(const slot of ['body','neck','head','eyes']){
   const item=tryOnItem?.slot===slot?tryOnItem:SHOP_ITEMS.find(i=>i.id===progress.equipped[slot]),el=$('preview-'+slot);el.hidden=!item;if(item)paintOutfit(el,item);
  }
@@ -1824,9 +1860,66 @@ function renderChallenge(){
  const choices=[target,trickChallenges[(challengeStep+1)%6],trickChallenges[(challengeStep+3)%6]].sort((a,b)=>a[0].localeCompare(b[0]));
  for(const choice of choices){const button=node('button','menu-button',choice[2]);button.type='button';button.dataset.challenge=choice[0];button.addEventListener('click',()=>{if(choice!==target){$('challenge-feedback').textContent='差一点，再选一个试试。';avatar.perform('shake');return;}challengeStep++;playWithDog(target[0],{fromMenu:true});});$('challenge-choices').append(button);}
 }
+function endPlayGame(resume=true){
+ if(!playGame)return;
+ gameEpoch++;playGame=null;$('play-room').hidden=true;$('lesson-caption').hidden=false;$('play-toy').hidden=true;
+ document.body.classList.remove('playing-game');$('portrait-stage').dataset.fetch='';$('portrait-stage').dataset.playing='';
+ $('play-caption').textContent='';avatar.set('idle');puppySound.stop();
+ if(resume){continueAfterReply();$('hands-free-button').focus();}
+}
+function startPlayGame(mode){
+ if(state.busy)return;
+ voiceSession?.pauseForSpeech();stopSpeech();stopMicrophone();
+ playGame={mode,round:0,colors:shuffled(playColors),busy:false};gameEpoch++;
+ $('play-dialog').close();$('play-room').hidden=false;$('lesson-caption').hidden=true;document.body.classList.add('playing-game');
+ puppySound.prepare();renderPlayRound();$('game-choices').querySelector('button')?.focus();
+}
+function renderPlayRound(){
+ const game=playGame;if(!game)return;
+ $('game-title').textContent=game.mode==='fetch'?'抛球给我':'找颜色';$('game-round').textContent=(game.round+1)+' / 3';
+ $('game-again').hidden=true;$('game-choices').replaceChildren();$('game-feedback').textContent='';$('play-toy').hidden=true;
+ $('portrait-stage').dataset.fetch='';$('portrait-stage').dataset.playing='';
+ const color=game.colors[game.round];
+ $('game-word').textContent=game.mode==='fetch'?'Fetch!':color.en;
+ $('game-hint').textContent=game.mode==='fetch'?'捡球！点一个方向，把球抛给我。':color.zh+' · 点对应颜色的小球。';
+ const choices=game.mode==='fetch'?['左边','中间','右边'].map((label,i)=>({...playColors[0],label,position:i})):shuffled(playColors).map((c,i)=>({...c,label:c.zh,position:i}));
+ for(const choice of choices){
+  const button=node('button','game-choice');button.type='button';button.dataset.color=choice.id;button.dataset.position=String(choice.position);button.setAttribute('aria-label',game.mode==='fetch'?'把球抛到'+choice.label:choice.zh+'小球');
+  const toy=node('span','toy-icon');toy.dataset.toy=choice.id;toy.setAttribute('aria-hidden','true');button.append(toy,node('span','',choice.label));
+  button.addEventListener('click',()=>choosePlayBall(choice,button));$('game-choices').append(button);
+ }
+}
+async function choosePlayBall(choice,button){
+ const game=playGame,epoch=gameEpoch;if(!game||game.busy)return;game.busy=true;
+ const valid=()=>playGame===game&&epoch===gameEpoch;
+ $('game-choices').querySelectorAll('button').forEach(b=>b.disabled=true);
+ if(game.mode==='colors'&&choice.id!==game.colors[game.round].id){
+  $('game-feedback').textContent='这个是'+choice.zh+'。试试'+game.colors[game.round].en+'（'+game.colors[game.round].zh+'）。';button.dataset.result='retry';
+  await avatar.perform('shake');if(!valid())return;
+  game.busy=false;$('game-choices').querySelectorAll('button').forEach(b=>b.disabled=false);button.focus();return;
+ }
+ button.dataset.result='correct';
+ const fetch=game.mode==='fetch',direction=['left','center','right'][choice.position];
+ $('game-feedback').textContent=fetch?'我去捡回来！':'找对了！'+choice.en+'，'+choice.zh+'。';
+ const toy=$('play-toy');toy.dataset.toy=choice.id;toy.hidden=false;
+ $('portrait-stage').dataset.fetch=direction;$('portrait-stage').dataset.playing=fetch?'fetch':'colors';
+ $('play-caption').textContent=fetch?['球球等等我！','我的小鼻子找到啦！','这次我一定接住！'][game.round]:['汪！你找到啦！','太棒了，给你小爪爪！','三种颜色都认识啦！'][game.round];
+ await avatar.perform(fetch?(direction==='left'?'fetchLeft':direction==='right'?'fetchRight':'fetch'):['pounce','highfive','dance'][game.round]);
+ if(!valid())return;
+ if(state.sound)await puppySound.play();if(!valid())return;
+ $('play-toy').hidden=true;$('portrait-stage').dataset.playing='';$('portrait-stage').dataset.fetch='';$('play-caption').textContent='';
+ game.round++;game.busy=false;
+ if(game.round<3){renderPlayRound();$('game-choices').querySelector('button')?.focus();}
+ else{
+  $('game-word').textContent=fetch?'Good dog!':'Well done!';$('game-hint').textContent=fetch?'好狗狗！三次都捡回来啦。':'真棒！Red 红色 · Blue 蓝色 · Yellow 黄色';
+  $('game-round').textContent='3 / 3';$('game-choices').replaceChildren();$('game-feedback').textContent='再玩一轮，还是继续学英语？';$('game-again').hidden=false;avatar.perform('highfive');$('game-again').focus();
+ }
+}
 function playWithDog(action,{fromMenu=false}={}){
+ if(playGame)return;
  if(fromMenu){$('more-dialog').close();$('play-dialog').close();}if(state.busy)return;
- $('play-caption').textContent={sit:'坐好啦！',down:'趴好，陪着你。',jump:'看我跳！',dance:'尾巴也会跳舞！',highfive:'击掌！你是我的好朋友。',zoomies:'我的快乐小圈圈！',stretch:'伸个大大的懒腰。',sniff:'闻到学习的味道啦！',surprise:'给你表演一套！',paw:'把小爪爪给你。',bow:'给你鞠个躬！',bark:'汪！'}[action]||'';
+ const captions={sit:['坐好啦！','小屁股坐稳啦！'],down:['趴好，陪着你。','地板凉凉的，真舒服。'],jump:['看我跳！','快乐得蹦起来啦！'],dance:['尾巴也会跳舞！','左摇右摆，跟我一起！'],highfive:['击掌！你是我的好朋友。','这只小爪爪给你。'],zoomies:['我的快乐小圈圈！','小短腿也跑得快！'],stretch:['伸个大大的懒腰。','爪爪伸直，尾巴翘起！'],sniff:['闻到学习的味道啦！','咦？这边好像有零食！'],surprise:['给你表演一套！','猜猜我下一步做什么？'],paw:['把小爪爪给你。'],bow:['给你鞠个躬！'],bark:['汪！','汪汪！'],roll:['肚肚痒痒！再摸一下。','滚来滚去，开心到打滚！'],pounce:['我要扑过来啦！','前爪准备，尾巴开动！']}[action]||[''];
+ $('play-caption').textContent=captions[petCount++%captions.length];
  if($('portrait-stage').classList.contains('speaking')){const token=++petToken;avatar.perform(action).then(()=>{if(token===petToken)$('play-caption').textContent='';});return;}
  const resume=voiceSession.active,token=++petToken,expectedSpeech=speechToken;if(resume)voiceSession.pauseForSpeech();puppySound.prepare();
  petActive=true;
@@ -1839,7 +1932,7 @@ function handleSpokenAnswer(text){
  if(!state.finished&&/^(skip|skip this question|跳过|跳过这题|下一题)$/.test(command)){navigatePractice('skip');return;}
  if(!state.finished&&/^(restart|restart this question|try again|重来|重新来|重来这题)$/.test(command)){navigatePractice('question');return;}
  if(/^(restart course|restart this course|重学这课|本课从头开始)$/.test(command)){navigatePractice('course');return;}
- const actions={sit:'sit','sit down':'sit','lie down':'down',down:'down',jump:'jump',bark:'bark',woof:'bark',dance:'dance','lets dance':'dance','high five':'highfive',stretch:'stretch',sniff:'sniff',run:'zoomies',surprise:'surprise',坐下:'sit',趴下:'down',跳舞:'dance',击掌:'highfive',伸懒腰:'stretch',跑一圈:'zoomies',惊喜:'surprise'};
+ const actions={'roll over':'roll',roll:'roll','lets play':'pounce',打滚:'roll',扑一扑:'pounce',sit:'sit','sit down':'sit','lie down':'down',down:'down',jump:'jump',bark:'bark',woof:'bark',dance:'dance','lets dance':'dance','high five':'highfive',stretch:'stretch',sniff:'sniff',run:'zoomies',surprise:'surprise',坐下:'sit',趴下:'down',跳舞:'dance',击掌:'highfive',伸懒腰:'stretch',跑一圈:'zoomies',惊喜:'surprise'};
  if(actions[command]&&!isCorrectAnswer(currentQuestion(),text)){playWithDog(actions[command]);return;}
  if(state.finished||state.answered){nextQuestion();return;}submitAnswer(text);
 }
@@ -1889,12 +1982,15 @@ $('hint-button').addEventListener('click',()=>{if(state.finished)return;state.sl
 for(const [button,dialog] of [['more-button','more-dialog'],['settings-button','settings-dialog'],['map-button','lessons-dialog'],['lessons-button','lessons-dialog'],['typing-button','typing-dialog'],['explanation-button','explanation-dialog'],['shop-button','shop-dialog'],['wardrobe-button','shop-dialog']])$(button).addEventListener('click',()=>openDialog(dialog));
 $('play-button').addEventListener('click',()=>openDialog('play-dialog'));
 $('pet-dog').addEventListener('click',event=>{
- let action=['paw','sniff','highfive','stretch','surprise','dance'][petCount++%6];
- if(typeof event.clientY==='number'&&event.clientY&&$('pet-dog').getBoundingClientRect){const r=$('pet-dog').getBoundingClientRect(),x=(event.clientX-r.left)/r.width,y=(event.clientY-r.top)/r.height;action=x>.7?'dance':y>.7?'highfive':y<.4?'sniff':action;}
+ if(playGame)return;
+ let action=['paw','roll','highfive','pounce','surprise','dance'][petCount%6];
+ if(typeof event.clientY==='number'&&event.clientY&&$('pet-dog').getBoundingClientRect){const r=$('pet-dog').getBoundingClientRect(),x=(event.clientX-r.left)/r.width,y=(event.clientY-r.top)/r.height;action=x>.7?'dance':y>.7?'highfive':y<.4?'sniff':'roll';}
  playWithDog(action);
 });
 document.querySelectorAll('[data-shop-filter]').forEach(button=>button.addEventListener('click',()=>{shopFilter=button.dataset.shopFilter;document.querySelectorAll('[data-shop-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));renderShop();}));
 document.querySelectorAll('[data-dog-action]').forEach(button=>button.addEventListener('click',()=>playWithDog(button.dataset.dogAction,{fromMenu:true})));
+document.querySelectorAll('[data-play-game]').forEach(button=>button.addEventListener('click',()=>startPlayGame(button.dataset.playGame)));
+$('game-exit').addEventListener('click',()=>endPlayGame());$('game-again').addEventListener('click',()=>{if(playGame)startPlayGame(playGame.mode);});
 const phonePlay=new PhonePlay({host:window,onShake:()=>playWithDog('dance'),canPlay:()=>!document.querySelector('dialog[open]'),onChange:mode=>{$('shake-phone').setAttribute('aria-pressed',String(mode==='enabled'));$('shake-phone').textContent=mode==='enabled'?'关闭摇一摇':'开启摇一摇';$('shake-status').textContent={enabled:'关掉这里，轻轻摇一摇，小狗就跳舞。',off:'',unsupported:'这台设备不能摇一摇，可以点「跳舞」。',denied:'没有开启动作权限，也可以点「跳舞」。'}[mode]||'';}});
 $('shake-phone').addEventListener('click',()=>{if(phonePlay.enabled)phonePlay.disable();else phonePlay.enable();});
 $('chinese').addEventListener('change',()=>{state.chinese=$('chinese').checked;savePreference('chinese',state.chinese);updateHeader();});
