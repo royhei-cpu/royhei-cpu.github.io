@@ -6,7 +6,7 @@ if(html.includes('id="catalog-loading"')){console.log('Loading optimization alre
 const start=html.indexOf('const ITEMS=')+12,end=html.indexOf(';\nconst COVERAGE=',start);
 if(start<12||end<start)throw Error('Original catalog dataset not found');
 const items=JSON.parse(html.slice(start,end));
-assert.equal(items.length,6265);
+assert.ok(items.length>=6265, "Existing catalog records must be preserved");
 const keys=[...new Set(items.flatMap(Object.keys))],pool=[],lookup=new Map();
 const rows=items.map(item=>keys.map(k=>{if(!Object.hasOwn(item,k))return -1;const v=item[k],signature=JSON.stringify(v);if(!lookup.has(signature)){lookup.set(signature,pool.length);pool.push(v)}return lookup.get(signature)}));
 const decoded=rows.map(r=>Object.fromEntries(keys.flatMap((k,i)=>r[i]<0?[]:[[k,pool[r[i]]]])));
@@ -19,7 +19,7 @@ const images=new Map([...original.matchAll(/<article[^>]*data-id="([^"]+)"[^>]*>
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const first=items.filter(d=>d.merchantScope==='Home Care').sort((a,b)=>(b.retailerListedDate||'').localeCompare(a.retailerListedDate||'')||(a.brand||'\uffff').localeCompare(b.brand||'\uffff')||a.name.localeCompare(b.name)).slice(0,48);
 const cards=first.map(d=>'<article class="card" data-id="'+escape(d.id)+'" data-retailer="'+escape(d.retailer)+'"><div class="photo"><img loading="lazy" decoding="async" src="'+escape(images.get(d.id)||d.image)+'" alt="'+escape(d.name)+'"></div><div class="body"><div class="card-meta">'+escape(d.retailer)+(d.brand?' · '+escape(d.brand):'')+'</div><h3>'+escape(d.name)+'</h3><p class="card-category">'+escape(d.categoryLabel)+'</p><div class="card-facts">'+(d.displayPrice?'<div class="price">'+escape(d.displayPrice)+'</div>':'')+(d.hasSales?'<div class="sales-count">'+escape(d.displaySales)+'</div>':'')+'</div><div class="actions"><a class="view" href="'+escape(d.url)+'" target="_blank" rel="noopener noreferrer">View item</a><button type="button" disabled>Select</button><button type="button" disabled>Details</button></div></div></article>').join('');
-const loading='<p id="catalog-loading" role="status" style="padding:12px 16px;background:#fff7e6;border-radius:10px">Loading filters for all 6,265 products… You can browse the products below while they load.</p><noscript><p>Enable JavaScript to filter all products and export selections.</p></noscript>';
+const loading='<p id="catalog-loading" role="status" style="padding:12px 16px;background:#fff7e6;border-radius:10px">Loading filters for all products… You can browse the products below while they load.</p><noscript><p>Enable JavaScript to filter all products and export selections.</p></noscript>';
 html=html.replace('<div class="grid" id="product-grid"></div>',loading+'<div class="grid" id="product-grid">'+cards+'</div>');
 html=html.replace("brandOptions('all');categoryOptions();draw();","brandOptions('all');categoryOptions();draw();$('catalog-loading').hidden=true;");
 const catchErrors='<script>window.addEventListener("error",function(){var n=document.getElementById("catalog-loading");if(n&&!n.hidden){n.textContent="Products are available below. Filters did not finish loading; please reload this page.";}});</script>';
