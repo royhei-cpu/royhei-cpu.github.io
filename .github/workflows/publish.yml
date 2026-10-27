@@ -2,12 +2,12 @@ name: Publish Tariff Signal Mirror
 on:
   push:
     branches: [main]
-    paths: ['pawlish/**', '.github/workflows/publish.yml']
+    paths: ['pawlish/**', 'home-care/**', '.github/workflows/publish.yml']
   workflow_dispatch:
   schedule:
     - cron: "15 1 * * *"
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -21,6 +21,17 @@ jobs:
     steps:
       - name: Checkout website sources
         uses: actions/checkout@v4
+      - name: Import Home Care catalog once
+        run: node home-care/import-once.mjs
+      - name: Store Home Care assets in repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add home-care/site
+          if ! git diff --cached --quiet; then
+            git commit -m "Store complete Home Care catalog and photos on GitHub"
+            git push origin HEAD:main
+          fi
       - name: Mirror complete public dashboard
         shell: bash
         run: |
@@ -78,6 +89,8 @@ jobs:
           PY
       - name: Add Pawlish English tutor
         run: python3 pawlish/download_assets.py _site/pawlish
+      - name: Add Home Care catalog
+        run: cp -R home-care/site _site/home-care
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
