@@ -80,6 +80,8 @@ jobs:
         run: python3 pawlish/download_assets.py _site/pawlish
       - name: Optimize Home Care page for fast loading
         run: node home-care/optimize-loading.mjs
+      - name: Assemble narrated Home Care tutorial
+        run: python3 home-care/tutorial-media/assemble.py
       - name: Add Home Care catalog
         run: cp -R home-care/site _site/home-care
       - name: Configure Pages

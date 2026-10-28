@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00:00.350 --> 00:00:06.750
+This guide shows you how to choose products from the Home Care catalog and review your shortlist in Excel.
+
+00:00:07.767 --> 00:00:12.961
+First, choose a retailer and category, then search for a product or brand.
+
+00:00:12.961 --> 00:00:16.471
+Here, we're looking for Active products on Amazon.
+
+00:00:17.517 --> 00:00:20.916
+Click Select under each product you want to keep.
+
+00:00:20.916 --> 00:00:25.495
+Selected items stay saved as you browse other retailers and pages.
+
+00:00:26.517 --> 00:00:29.589
+Open Selected items to review your shortlist.
+
+00:00:29.589 --> 00:00:31.705
+Remove anything you don't need.
+
+00:00:31.705 --> 00:00:34.709
+In this example, we're keeping two products.
+
+00:00:35.767 --> 00:00:40.077
+Click Export selected CSV to download your choices.
+
+00:00:40.077 --> 00:00:43.980
+CSV is a spreadsheet file that opens in Excel.
+
+00:00:45.017 --> 00:00:48.692
+Find the downloaded file in your Downloads folder.
+
+00:00:48.692 --> 00:00:51.117
+In Excel, choose File, then Open.
+
+00:00:51.117 --> 00:00:55.747
+On your phone, save it to Files and open it with the Excel app.
+
+00:00:56.767 --> 00:01:02.994
+If everything appears in one column, use Excel's Data tab, then From Text or CSV.
+
+00:01:02.994 --> 00:01:07.945
+Choose comma as the delimiter, check the preview, and select Load.
+
+00:01:09.017 --> 00:01:11.310
+Each row represents one product.
+
+00:01:11.310 --> 00:01:15.755
+Review the retailer, brand, product name, category, and price.
+
+00:01:15.755 --> 00:01:19.840
+Scroll right for dates, sales evidence, and source links.
+
+00:01:19.840 --> 00:01:21.561
+Photos are not embedded.
+
+00:01:22.600 --> 00:01:26.859
+Keep retailer listing dates separate from catalog added dates.
+
+00:01:26.859 --> 00:01:32.766
+An added date tells you when we collected the item, not when the retailer launched it.
+
+00:01:32.766 --> 00:01:35.720
+Blank sales figures mean unknown, not zero.
+
+00:01:36.767 --> 00:01:42.756
+To narrow your spreadsheet, select the full table and turn on Filter from the Data tab.
+
+00:01:42.756 --> 00:01:45.509
+Use the header arrows to filter or sort.
+
+00:01:45.509 --> 00:01:48.607
+Always keep each product's full row together.
+
+00:01:49.683 --> 00:01:53.265
+Choose File, then Save As, and select Excel Workbook.
+
+00:01:53.265 --> 00:01:56.171
+This preserves your formatting and filters.
+
+00:01:56.171 --> 00:02:01.374
+Share the workbook with your team, and export again when you need fresh data.
+
+00:02:02.433 --> 00:02:03.352
+You're ready.
+
+00:02:03.352 --> 00:02:08.015
+Choose products, select your favorites, export, and open in Excel.
+
+00:02:08.015 --> 00:02:11.265
+Use the GitHub catalog link for future visits.

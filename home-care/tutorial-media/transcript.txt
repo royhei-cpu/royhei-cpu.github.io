@@ -1,0 +1,23 @@
+This guide shows you how to choose products from the Home Care catalog and review your shortlist in Excel.
+
+First, choose a retailer and category, then search for a product or brand. Here, we're looking for Active products on Amazon.
+
+Click Select under each product you want to keep. Selected items stay saved as you browse other retailers and pages.
+
+Open Selected items to review your shortlist. Remove anything you don't need. In this example, we're keeping two products.
+
+Click Export selected CSV to download your choices. CSV is a spreadsheet file that opens in Excel.
+
+Find the downloaded file in your Downloads folder. In Excel, choose File, then Open. On your phone, save it to Files and open it with the Excel app.
+
+If everything appears in one column, use Excel's Data tab, then From Text or CSV. Choose comma as the delimiter, check the preview, and select Load.
+
+Each row represents one product. Review the retailer, brand, product name, category, and price. Scroll right for dates, sales evidence, and source links. Photos are not embedded.
+
+Keep retailer listing dates separate from catalog added dates. An added date tells you when we collected the item, not when the retailer launched it. Blank sales figures mean unknown, not zero.
+
+To narrow your spreadsheet, select the full table and turn on Filter from the Data tab. Use the header arrows to filter or sort. Always keep each product's full row together.
+
+Choose File, then Save As, and select Excel Workbook. This preserves your formatting and filters. Share the workbook with your team, and export again when you need fresh data.
+
+You're ready. Choose products, select your favorites, export, and open in Excel. Use the GitHub catalog link for future visits.
