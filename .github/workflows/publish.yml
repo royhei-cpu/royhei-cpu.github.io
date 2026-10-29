@@ -2,7 +2,7 @@ name: Publish Tariff Signal Mirror
 on:
   push:
     branches: [main]
-    paths: ['pawlish/**', 'home-care/**', '.github/workflows/publish.yml']
+    paths: ['pawlish/**', 'home-care/**', 'china-toys/**', '.github/workflows/publish.yml']
   workflow_dispatch:
   schedule:
     - cron: "15 1 * * *"
@@ -28,11 +28,11 @@ jobs:
           import html, os, time
           from html.parser import HTMLParser
           from urllib.parse import urljoin, urlparse
-          from urllib.request import Request, urlopen
 
           origin = "https://tariff-signal-sourcing.lhei111.chatgpt.site/"
           headers = {"User-Agent": "Mozilla/5.0 Tariff-Signal-Mirror", "Cache-Control": "no-cache"}
 
+          from urllib.request import Request, urlopen
           def fetch(url):
               with urlopen(Request(url, headers=headers), timeout=45) as response:
                   return response.read()
@@ -84,6 +84,13 @@ jobs:
         run: python3 home-care/tutorial-media/assemble.py
       - name: Add Home Care catalog
         run: cp -R home-care/site _site/home-care
+      - name: Add China Toy Atlas
+        run: |
+          if [ -f china-toys/catalog.json ]; then
+            mkdir -p _site/china-toys
+            cp china-toys/index.html china-toys/styles.css china-toys/app.js china-toys/catalog.js china-toys/catalog.json china-toys/catalog.csv china-toys/report.json _site/china-toys/
+            cp -R china-toys/images _site/china-toys/images
+          fi
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
