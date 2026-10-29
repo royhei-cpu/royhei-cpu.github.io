@@ -6,6 +6,7 @@ on:
     paths:
       - 'china-toys/sources.json'
       - 'china-toys/refresh.py'
+      - 'china-toys/enhance.py'
       - 'china-toys/enrichment.json'
       - '.github/workflows/china-toys-refresh.yml'
   schedule:
@@ -29,8 +30,12 @@ jobs:
           python-version: '3.12'
       - name: Install collection dependencies
         run: pip install requests beautifulsoup4 Pillow
+      - name: Validate code
+        run: |
+          python -m py_compile china-toys/refresh.py china-toys/enhance.py
+          node --check china-toys/app.js
       - name: Collect documented products and cache real product images
-        run: python china-toys/refresh.py
+        run: python china-toys/enhance.py
       - name: Save directory changes
         run: |
           git config user.name 'China Toy Atlas updater'
