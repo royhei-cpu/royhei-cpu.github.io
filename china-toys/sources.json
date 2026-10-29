@@ -1,0 +1,26 @@
+{
+  "title": "China Toy Atlas",
+  "scope": "Chinese blind-box and squishy brands; mainland availability is verified separately from international listings.",
+  "sources": [
+    {"id":"kikagoods","name":"KikaGoods","url":"https://www.kikagoods.com","kind":"retailer","market":"International","currency":"USD","max_pages":30},
+    {"id":"toptoy","name":"TOP TOY international store","url":"https://gotoptoy.com","kind":"brand storefront","market":"International","currency":"USD","brand":"TOP TOY","max_pages":12},
+    {"id":"52toys","name":"52TOYS international store","url":"https://hi52toys.com","kind":"brand storefront","market":"International","currency":"USD","brand":"52TOYS","max_pages":12},
+    {"id":"rolife","name":"Rolife international store","url":"https://www.rolifeonline.com","kind":"brand storefront","market":"International","currency":"USD","brand":"Rolife","max_pages":12},
+    {"id":"toyzero","name":"TOYZEROPLUS","url":"https://toyzero-plus.com","kind":"brand storefront","market":"Hong Kong / international","currency":"HKD","brand":"TOYZEROPLUS","max_pages":12},
+    {"id":"molynk","name":"Hello Molynk","url":"https://www.molynk.shop","kind":"brand storefront","market":"International","currency":"USD","brand":"Molynk","squishy_all":true,"max_pages":8},
+    {"id":"findingunicorn","name":"Finding Unicorn international store","url":"https://www.findingunicorn.net","kind":"brand storefront","market":"International","currency":"USD","brand":"Finding Unicorn","max_pages":12},
+    {"id":"kouhigh","name":"Kouhigh Toys","url":"https://kouhightoys.com","kind":"retailer","market":"United States","currency":"USD","max_pages":20},
+    {"id":"toybeta","name":"ToyBeta","url":"https://toybeta.com","kind":"retailer","market":"International","currency":"USD","max_pages":20}
+  ],
+  "priority_brands": ["POP MART","TOP TOY","52TOYS","Finding Unicorn","TNT SPACE","ToyCity","Heyone","Rolife","TOYZEROPLUS","MINISO","HERE","MJ Studio","RiCO","Molynk","Meichai","Reni","DODOWO","SIMONTOYS","Come4free","Heydolls","JOTOYS","Dreams","iBloom"],
+  "brand_aliases": {"popmart":"POP MART","pop mart":"POP MART","泡泡玛特":"POP MART","toptoy":"TOP TOY","top toy":"TOP TOY","52toys":"52TOYS","52 toys":"52TOYS","finding unicorn":"Finding Unicorn","findingunicorn":"Finding Unicorn","f.un":"Finding Unicorn","tnt space":"TNT SPACE","tntspace":"TNT SPACE","tnt":"TNT SPACE","toycity":"ToyCity","toy city":"ToyCity","heyone":"Heyone","rolife":"Rolife","robotime":"Rolife","toyzero+":"TOYZEROPLUS","toyzero plus":"TOYZEROPLUS","toyzeroplus":"TOYZEROPLUS","toyszero+":"TOYZEROPLUS","toyzero":"TOYZEROPLUS","mj studio":"MJ Studio","mjstudio":"MJ Studio","rico":"RiCO","molynk":"Molynk","meichai":"Meichai","simon toys":"SIMONTOYS","simontoys":"SIMONTOYS","dodowo":"DODOWO","come4free":"Come4free","hey dolls":"Heydolls","heydolls":"Heydolls","jotoys":"JOTOYS","joto ys":"JOTOYS","wakuku":"HERE","here":"HERE","miniso":"MINISO","ibloom":"iBloom","i-bloom":"iBloom"},
+  "methodology": {
+    "coverage": "This is a growing source-backed directory, not a census of every SKU sold in China. International listings show product identification and source-market prices, not proof of mainland availability or mainland price.",
+    "dates": "Launch dates require explicit release evidence. Store published_at is retained only as retailer listing date. First seen is the directory discovery date. Restocks do not become new launches.",
+    "sales": "No sales estimates. Product units sold require a product-level source, channel and period. Reviews, stock quantities, gross merchandise value and brand revenues are never counted as units sold.",
+    "waves": "A wave number is recorded only where the source explicitly names a series, volume or generation. Series titles remain intact; no invented chronological wave numbering.",
+    "images": "Product photographs come from the linked product listing. No generated images, logos substituted for products, or unrelated placeholders.",
+    "price": "Keep currency, market, variant, pack size and retailer with each price. China launch RRP and current asking price are separate. A listed price is not proof of a completed transaction.",
+    "weekly": "Automated source refresh every Monday at 08:30 China time. Newly discovered products, new verified launches, price changes and restocks are separately identified. Initial imports are marked baseline, not new launches."
+  }
+}
