@@ -1,0 +1,67 @@
+name: Review China Toy Atlas Evidence
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/china-toys-evidence-review.yml'
+      - 'china-toys/review.py'
+      - 'china-toys/review-sources.json'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: china-toys-evidence-review
+  cancel-in-progress: false
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install review dependencies
+        run: pip install requests beautifulsoup4 Pillow
+      - name: Review existing catalog and enrich supported details
+        run: |
+          if [ -f china-toys/review.py ]; then python china-toys/review.py; fi
+          python - <<'PY'
+          import json,collections,pathlib,re
+          r=pathlib.Path('china-toys');d=json.loads((r/'catalog.json').read_text());ps=d['products']
+          terms=['twinkle','yoyo','vacation mode','newborn','new birthday','secret theater','secret theatre','bikini','knock','heart','nommi','cake','sound','shyshy','sowii','kippo','wakuku','meichai','mido','full','sweetbuns','nanci','rico','farmer','panda roll','dimoo','skullpanda']
+          examples={t:[{'id':p['id'],'brand':p['brand'],'name':p['name'],'image':p.get('image'),'image_source':p.get('image_source'),'listings':p.get('listings',[])[:2],'launch':p.get('launch'),'details':p.get('details'),'trend':p.get('trend')} for p in ps if t in (p['name']+' '+p['brand']).lower()][:20] for t in terms}
+          inv={'catalog_date':d.get('updated'),'stats':d.get('stats'),'fields':dict(collections.Counter(k for p in ps for k in p)),'examples':examples}
+          (r/'review-inventory.json').write_text(json.dumps(inv,ensure_ascii=False,indent=2),encoding='utf-8')
+          print(json.dumps({'stats':d.get('stats'),'fields':inv['fields'],'sample_counts':{k:len(v) for k,v in examples.items()}},ensure_ascii=False,indent=2))
+          PY
+      - name: Save review outputs
+        run: |
+          git config user.name 'China Toy Atlas evidence review'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add china-toys
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record source-backed product detail and image review'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              git push origin HEAD:main && break
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 3
+            done
+          fi
+      - name: Save review evidence for inspection
+        uses: actions/upload-artifact@v4
+        with:
+          name: china-toys-evidence-review
+          path: |
+            china-toys/catalog.json
+            china-toys/report.json
+            china-toys/review-inventory.json
+            china-toys/review-report.json
+          retention-days: 14
+      - name: Republish reviewed directory
+        if: ${{ hashFiles('china-toys/review.py') != '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publish.yml --ref main
