@@ -9,14 +9,13 @@ on:
       - 'china-toys/enhance.py'
       - 'china-toys/quality.py'
       - 'china-toys/enrichment.json'
-      - '.github/workflows/china-toys-refresh.yml'
   schedule:
     - cron: '30 0 * * 1'
 permissions:
   contents: write
   actions: write
 concurrency:
-  group: china-toys-refresh
+  group: china-toys-evidence-review
   cancel-in-progress: false
 jobs:
   refresh:
@@ -29,23 +28,36 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install collection dependencies
-        run: pip install requests beautifulsoup4 Pillow
+      - name: Install collection and validation dependencies
+        run: |
+          pip install requests beautifulsoup4 Pillow playwright
+          python -m playwright install --with-deps chromium
       - name: Validate code
         run: |
-          python -m py_compile china-toys/refresh.py china-toys/enhance.py china-toys/quality.py
+          python -m py_compile china-toys/refresh.py china-toys/enhance.py china-toys/quality.py china-toys/review.py china-toys/review_finalize.py
           node --check china-toys/app.js
-      - name: Collect documented products and cache real product images
+      - name: Collect products and preserve exact-item evidence
         run: |
           python china-toys/enhance.py
           python china-toys/quality.py
+          python - <<'PY'
+          import json,pathlib
+          p=pathlib.Path('china-toys/catalog.json');d=json.loads(p.read_text())
+          if not any(s.get('status')=='complete' for s in d.get('sources',[])):
+            raise RuntimeError('No source completed; refusing to publish a false successful refresh')
+          d['last_full_collection']=d['updated'];p.write_text(json.dumps(d,ensure_ascii=False,separators=(',',':')))
+          PY
+          python china-toys/review_finalize.py
+          node --check china-toys/app.js
+      - name: Validate updated desktop and mobile views
+        run: python china-toys/review_test.py
       - name: Save directory changes
         run: |
           git config user.name 'China Toy Atlas updater'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add china-toys/catalog.json china-toys/catalog.js china-toys/catalog.csv china-toys/report.json china-toys/research-queue.json china-toys/images
+          git add china-toys/catalog.json china-toys/catalog.js china-toys/catalog.csv china-toys/report.json china-toys/research-queue.json china-toys/images china-toys/source-leads.json china-toys/review-report.json china-toys/review-media china-toys/app.js china-toys/index.html
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh China Toy Atlas product evidence and images'
+            git commit -m 'Refresh source-backed product specs, photos, prices and weekly changes'
             for attempt in 1 2 3; do
               git pull --rebase origin main
               git push origin HEAD:main && break
@@ -53,14 +65,16 @@ jobs:
               sleep 3
             done
           fi
-      - name: Save audit report
+      - name: Keep audit and UI evidence
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: china-toys-audit
           path: |
             china-toys/report.json
-            china-toys/research-queue.json
-            china-toys/catalog.json
+            china-toys/review-report.json
+            /tmp/china-toys-review-qa/results.json
+            /tmp/china-toys-review-qa/*.png
           retention-days: 14
       - name: Publish updated public site
         env:
