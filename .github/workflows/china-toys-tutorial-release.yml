@@ -1,0 +1,78 @@
+name: Release China Toy Atlas Tutorial
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/china-toys-tutorial-release.yml']
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: china-toys-evidence-review
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install data and playback-check dependencies
+        run: |
+          pip install numpy soundfile requests beautifulsoup4 Pillow playwright
+          python -m playwright install --with-deps chromium
+      - name: Recover the completed video artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 40983049764 --repo royhei-cpu/royhei-cpu.github.io --name china-toys-narrated-tutorial --dir /tmp/toy-tutorial-recovery
+      - name: Apply available-details view and verify recovered playback
+        run: |
+          python - <<'PY'
+          import hashlib, pathlib, shutil, sys
+          sys.path.insert(0,'china-toys')
+          import tutorial_build as t
+          t.patch_sources()
+          candidates=list(pathlib.Path('/tmp/toy-tutorial-recovery').rglob('China_Toy_Atlas_Tutorial.mp4'))
+          assert len(candidates)==1, candidates
+          video=candidates[0]
+          assert hashlib.sha256(video.read_bytes()).hexdigest()=='524e4d5b08adf1791871459bdf1d52fb962e135ea06df26f12bd9bb8c1b06ab5'
+          for file in video.parent.iterdir():
+              if file.is_file(): shutil.copy2(file,t.OUT/file.name)
+          guide=t.ROOT/'catalog-guide.js'
+          text=guide.read_text().replace('<strong>From the shop:</strong>','<strong>Source description:</strong>')
+          guide.write_text(text)
+          index=t.ROOT/'index.html'
+          index.write_text(index.read_text().replace('app.js?v=20261030-reviewed-photos-2','app.js?v=20261030-facts-tutorial-1'))
+          t.playback_qa()
+          print('Recovered the complete narrated video and passed desktop/mobile playback checks.')
+          PY
+      - name: Save release QA
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: china-toys-tutorial-release-qa
+          path: |
+            /tmp/china-toys-tutorial-qa/
+            china-toys/report.json
+            china-toys/index.html
+          retention-days: 14
+      - name: Commit checked media and catalog fields
+        run: |
+          git config user.name 'China Toy Atlas tutorial'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add china-toys/tutorial china-toys/index.html china-toys/catalog-guide.js china-toys/review_publish.py china-toys/app.js china-toys/catalog.json china-toys/catalog.js china-toys/catalog.csv china-toys/report.json china-toys/review-report.json china-toys/source-leads.json china-toys/images china-toys/review-media
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish narrated tutorial and facts-first product information'
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin main
+              git push origin HEAD:main && break
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 3
+            done
+          fi
+      - name: Publish the updated directory
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publish.yml --ref main
