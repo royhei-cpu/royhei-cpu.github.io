@@ -91,6 +91,10 @@ jobs:
             cp china-toys/index.html china-toys/styles.css china-toys/app.js china-toys/catalog.js china-toys/catalog.json china-toys/catalog.csv china-toys/report.json _site/china-toys/
             cp -R china-toys/images _site/china-toys/images
           fi
+      - name: Copy China Toy tutorial and facts guide
+        run: |
+          if [ -f china-toys/catalog-guide.js ]; then cp china-toys/catalog-guide.js _site/china-toys/; fi
+          if [ -d china-toys/tutorial ]; then cp -R china-toys/tutorial _site/china-toys/tutorial; fi
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
