@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "checked": "2026-10-30",
+  "title": "IP sales rankings",
+  "scope_note": "No all-channel, China-only ranking of every blind-box or squishy IP has been verified. These are separate, dated comparisons. Never combine their ranks, periods or metrics.",
+  "sources": {
+    "china618": {"label":"China Advertising Association Cultural Creative & IP Committee: 2026 Tmall 618 platform ranking","url":"https://www.caaip.cn/h-nd-2025.html","source_type":"Industry association publication of platform figures","checked":"2026-10-30","period_start":"2026-05-21","period_end":"2026-06-21","metric":"Paid merchandise value (GMV), as defined in the published list","market":"China · Taobao/Tmall platform campaign","scope":"Related IP merchandise across categories, not blind boxes alone. The source mixes individual IPs, IP portfolios and the POP MART brand. Published order is preserved; monetary amounts and unit totals are not supplied. The source notes that entries may be substituted when a place is vacant."},
+    "popmartH1": {"label":"POP MART 2026 Interim Report, printed page 25; regional context on page 16","url":"https://popwebsite.paquapp.com/pdf/21354ffc-d198-4a30-a045-b7384282bb7d-2026%E4%B8%AD%E6%9C%9F%E6%8A%A5%E5%91%8A.pdf#page=26","source_type":"Company interim report; unaudited financial period","published":"2026-09-24","checked":"2026-10-30","period_start":"2026-01-01","period_end":"2026-06-30","metric":"Reported revenue, RMB thousands","market":"Worldwide · POP MART only","scope":"Rank among the eight individually disclosed artist-IP rows, not all Chinese IPs and not China-only sales. Other artist IPs and licensed IPs are aggregated, not individually ranked. The revenue includes product formats beyond blind boxes. THE MONSTERS includes LABUBU; it is not LABUBU-only revenue."},
+    "q3": {"label":"Sanwenyu / Wenchao: Q3 2026 review of Tmall and Douyin blind-box charts","url":"https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec","source_type":"Publisher's 13-week marketplace-chart compilation","published":"2026-10-08","checked":"2026-10-30","period_start":"2026-07-01","period_end":"2026-09-30","metric":"Reported product-page purchase-count band above 100,000","market":"China · Tmall and Douyin observed charts","scope":"Seven named series meet the reported threshold. They are not ordered by sales. The underlying purchase-counter periods, cancellations, returns and variant aggregation are not verified; the counts are not audited Q3 units. Limited releases and products outside the observed charts can be missing."},
+    "yoyo": {"label":"MINISO business update, 9 October 2026","url":"https://ir.miniso.com/2026-10-09-MINISO-Groups-Latest-Business-Update","source_type":"Company statement based on preliminary operational data; not auditor reviewed","published":"2026-10-09","checked":"2026-10-30","period_start":"2026-01-01","period_end":"2026-09-30","metric":"Global IP GMV above RMB1 billion","market":"Worldwide · YOYO","scope":"GMV is not company revenue or units sold. Nine-month data must not be ranked against six-month POP MART revenue or a one-month China-platform campaign."},
+    "squishy": {"label":"Heartfelt: retailer-curated hot / social-media collection","url":"https://heartfeltsquishy.shoplineapp.com/categories/hot-items-viral-on-social-media","source_type":"Specialist retailer curation, not a sales panel","checked":"2026-10-30","market":"Hong Kong / international reference","metric":"Retailer selection","scope":"Useful for discovery, not a national best-seller ranking. Each product keeps its own observed date and explanation. No ordinal sales rank is assigned."},
+    "molynk": {"label":"Molynk official FAQ","url":"https://www.molynk.com/nd.jsp?id=13","source_type":"Brand self-description","published":"2026-10-14","checked":"2026-10-30","market":"China and overseas; no comparable sales panel","metric":"Product and brand context","scope":"Official product context, not independent popularity proof or a comparable ranking. Ambiguous sales statements are not converted into currency, units or a rank."}
+  },
+  "china_platform": {
+    "title":"China platform IP / brand ranking",
+    "subtitle":"2026 618 campaign · reported paid GMV order · not all China sales",
+    "source_id":"china618",
+    "rows":[
+      {"rank":1,"name":"Sanrio","name_cn":"三丽鸥","entity_type":"IP portfolio","terms":["sanrio","三丽鸥"]},
+      {"rank":2,"name":"Disney","name_cn":"迪士尼","entity_type":"IP portfolio","terms":["disney","迪士尼"]},
+      {"rank":3,"name":"POP MART","name_cn":"泡泡玛特","entity_type":"Brand / multiple IPs","brands":["POP MART"],"terms":[]},
+      {"rank":4,"name":"Love and Deepspace","name_cn":"恋与深空","entity_type":"Game IP","terms":["love and deepspace","恋与深空"]},
+      {"rank":5,"name":"Pokémon","name_cn":"宝可梦","entity_type":"IP franchise","terms":["pokemon","宝可梦"]},
+      {"rank":6,"name":"Jellycat","name_cn":"JELLYCAT","entity_type":"Brand / character portfolio","terms":["jellycat"]},
+      {"rank":7,"name":"Honkai: Star Rail","name_cn":"崩坏：星穹铁道","entity_type":"Game IP","terms":["star rail","星穹铁道"]},
+      {"rank":8,"name":"Mobile Suit Gundam","name_cn":"机动战士高达","entity_type":"IP franchise","terms":["gundam","高达"]},
+      {"rank":9,"name":"VALORANT","name_cn":"无畏契约","entity_type":"Game IP","terms":["valorant","无畏契约"]},
+      {"rank":10,"name":"LINE PUPPY","name_cn":"线条小狗","entity_type":"Character IP","terms":["line puppy","line dog","线条小狗"]},
+      {"rank":11,"name":"Genshin Impact","name_cn":"原神","entity_type":"Game IP","terms":["genshin","原神"]},
+      {"rank":12,"name":"SpongeBob SquarePants","name_cn":"海绵宝宝","entity_type":"Character franchise","terms":["spongebob","海绵宝宝"]},
+      {"rank":13,"name":"Arknights","name_cn":"明日方舟","entity_type":"Game IP","terms":["arknights","明日方舟"]},
+      {"rank":14,"name":"Transformers","name_cn":"变形金刚","entity_type":"IP franchise","terms":["transformers","变形金刚"]},
+      {"rank":15,"name":"Ultraman","name_cn":"奥特曼","entity_type":"IP franchise","terms":["ultraman","奥特曼"]},
+      {"rank":16,"name":"Chiikawa","name_cn":"吉伊卡哇","entity_type":"Character IP","terms":["chiikawa","吉伊卡哇"]},
+      {"rank":17,"name":"Codename: Yuan","name_cn":"代号鸢","entity_type":"Game IP","terms":["codename yuan","代号鸢","ash of the kingdom"]},
+      {"rank":18,"name":"Wuthering Waves","name_cn":"鸣潮","entity_type":"Game IP","terms":["wuthering waves","鸣潮"]},
+      {"rank":19,"name":"Harry Potter","name_cn":"哈利波特","entity_type":"IP franchise","terms":["harry potter","哈利波特"]},
+      {"rank":20,"name":"罗曼星球","name_cn":"罗曼星球","entity_type":"Source-listed brand / IP label","terms":["罗曼星球","roman planet"]}
+    ]
+  },
+  "popmart_revenue": {
+    "title":"POP MART artist-IP revenue ranking",
+    "subtitle":"Worldwide · January–June 2026 · eight individually disclosed IPs",
+    "source_id":"popmartH1",
+    "rows":[
+      {"rank":1,"name":"THE MONSTERS (includes LABUBU)","name_cn":"THE MONSTERS","revenue_rmb_thousands":4454361,"prior_revenue_rmb_thousands":4814017,"terms":["the monsters","labubu"],"brands":["POP MART"],"require_brand":true},
+      {"rank":2,"name":"Twinkle Twinkle","name_cn":"星星人","revenue_rmb_thousands":2649969,"prior_revenue_rmb_thousands":389363,"terms":["twinkle twinkle","星星人"],"brands":["POP MART"],"require_brand":true},
+      {"rank":3,"name":"CRYBABY","name_cn":"CRYBABY","revenue_rmb_thousands":1632570,"prior_revenue_rmb_thousands":1218170,"terms":["crybaby"],"brands":["POP MART"],"require_brand":true},
+      {"rank":4,"name":"DIMOO","name_cn":"DIMOO","revenue_rmb_thousands":1619217,"prior_revenue_rmb_thousands":1105135,"terms":["dimoo"],"brands":["POP MART"],"require_brand":true},
+      {"rank":5,"name":"SKULLPANDA","name_cn":"SKULLPANDA","revenue_rmb_thousands":1551211,"prior_revenue_rmb_thousands":1220504,"terms":["skullpanda"],"brands":["POP MART"],"require_brand":true},
+      {"rank":6,"name":"HIRONO","name_cn":"小野","revenue_rmb_thousands":1008855,"prior_revenue_rmb_thousands":728420,"terms":["hirono"],"brands":["POP MART"],"require_brand":true},
+      {"rank":7,"name":"MOLLY","name_cn":"MOLLY","revenue_rmb_thousands":900631,"prior_revenue_rmb_thousands":1357248,"terms":["molly"],"brands":["POP MART"],"require_brand":true},
+      {"rank":8,"name":"Zsiga","name_cn":"Zsiga","revenue_rmb_thousands":298341,"prior_revenue_rmb_thousands":211256,"terms":["zsiga"],"brands":["POP MART"],"require_brand":true}
+    ]
+  },
+  "recent_china_bestsellers": {
+    "title":"China blind-box bestseller signals",
+    "subtitle":"Q3 2026 chart review · seven reported 100,000+ purchase-counter series · unranked",
+    "source_id":"q3",
+    "rows":[
+      {"name":"SpongeBob — Residents of Bikini Bottom plush","name_cn":"海绵宝宝 比奇堡的居民们 搞怪毛绒","terms":["residents of bikini","bikini bottom","比奇堡"],"all_terms":["plush"],"note":"Licensed series sold by Gongming; not all SpongeBob products."},
+      {"name":"CRYBABY — Vacation Mode On","name_cn":"CRYBABY 假日放空","terms":["vacation mode","假日放空"],"all_terms":["plush"],"note":"Series-level reported purchase counter; retain each shop's variant and price."},
+      {"name":"Twinkle Twinkle — Crush on You","name_cn":"星星人 怦然星动","terms":["crush on you","怦然星动"],"note":"The report's series name alone does not establish figures versus plush. Inspect the exact listing."},
+      {"name":"YOYO — Tilted-head blind box","name_cn":"YOYO 萌趣歪头盲盒","terms":["yoyo"],"note":"YOYO catalog matches are broader than this exact series; check the series title before comparing."},
+      {"name":"Twinkle Twinkle — Sweet Dreams Forecast","name_cn":"星星人 好梦气象局","terms":["sweet dreams forecast","好梦气象局"],"note":"Reported series-level purchase-counter threshold, not seller-specific units."},
+      {"name":"DIMOO — Newborn Diary","name_cn":"DIMOO 新生日记","terms":["newborn diary","newborn diaries","新生日记"],"note":"Retain the reported series scope; other DIMOO releases are not covered by this signal."},
+      {"name":"DIMOO — The Secret Theatre Club","name_cn":"DIMOO 秘密话剧社","terms":["secret theatre","secret theater","秘密话剧社"],"note":"Reported series-level demand; do not extrapolate to all DIMOO items."}
+    ]
+  },
+  "other_disclosures":[
+    {"name":"YOYO","brand":"MINISO","source_id":"yoyo","value":"Above RMB1 billion global GMV","period":"January–September 2026","ranking_status":"Separate disclosure — not ranked against revenue","terms":["yoyo"]}
+  ],
+  "coverage_groups":[
+    {"label":"Blind-box brands / stores to reconcile","source_id":"q3","names":["POP MART","TOP TOY","52TOYS","Finding Unicorn","TNT SPACE","ToyCity","Heyone","Rolife","TOYZEROPLUS","MINISO","HERE","JOTOYS","MJ Studio","SIMONTOYS","DODOWO","Funism","DODO SUGAR","AYOR TOYS","FUNCINATING","POPSUNDAY","SOWII","1983","Koi Naku","Sonny Angel","SMISKI"]},
+    {"label":"Additional shops / IP operators named in the Q3 China chart review","source_id":"q3","names":["Gongming","Kuro Games","Defend the Carrot","YHT","Auldey","Lemon Fairy Tale"]},
+    {"label":"Squishy specialist maker watchlist — not a popularity order","source_id":"squishy","names":["Molynk","Meichai","MIDO","FULL","Hachimi","SWEETBUNS","Lisa","Nunu","Dudo","Zoey","3AN / SAN","7700","Labuladuo","Kiibru","Sanqi Elan","CHAWA","MOOZY","Bingbing","Bread Fantasy","Sweet Squishy","iBloom"]}
+  ],
+  "coverage_aliases":{"Gongming":["Gongming","共鸣"],"Kuro Games":["Kuro Games","库洛游戏"],"Defend the Carrot":["Defend the Carrot","保卫萝卜"],"YHT":["YHT","与华同行"],"Auldey":["Auldey","奥迪双钻"],"Lemon Fairy Tale":["Lemon Fairy Tale","柠檬童话"],"1983":["1983","19八3"],"Koi Naku":["Koi Naku","锦鲤拿趣"],"3AN / SAN":["3AN / SAN","3AN","SAN"],"POPSUNDAY":["POPSUNDAY","POP SUNDAY"]},
+  "china_channels":["Official mainland brand stores and release announcements","Tmall / Taobao","JD.com","Douyin Shop","Xiaohongshu","Pinduoduo","WeChat shops","Offline / event exclusives"],
+  "maintenance": "Review sources weekly, but only update a ranking's figures and reporting period when a new comparable source is available. Preserve earlier snapshots. Never convert global revenue into China-only sales or divide revenue by a toy price to invent units. A product count measures catalog capture, not market share. Reconcile full named assortments and exact images before labeling a brand complete."
+}
