@@ -38,7 +38,7 @@ jobs:
       - name: Prepare test browsers
         if: ${{ hashFiles('china-toys/compare_test.py') != '' }}
         run: |
-          pip install playwright
+          pip install playwright Pillow
           python -m playwright install --with-deps chromium webkit
       - name: Install and validate comparison without altering products
         if: ${{ hashFiles('china-toys/compare_test.py') != '' }}
@@ -47,6 +47,7 @@ jobs:
           node --check china-toys/compare.js
           python china-toys/compare_test.py
           python china-toys/navigation_test.py
+          python china-toys/weekly_brief_test.py
       - name: Keep comparison and navigation evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -55,6 +56,7 @@ jobs:
           path: |
             /tmp/china-toys-compare-audit/
             /tmp/china-toys-navigation-qa/
+            /tmp/china-toys-weekly-brief-qa/
           if-no-files-found: ignore
           retention-days: 14
       - name: Save tested integration
@@ -62,7 +64,7 @@ jobs:
         run: |
           git config user.name 'China Toy Atlas UI audit'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add china-toys/index.html
+          git add china-toys/index.html china-toys/compare.js
           if ! git diff --cached --quiet; then
             git commit -m 'Enable tested Select and Compare controls in China Toy Atlas'
             git pull --rebase origin main
