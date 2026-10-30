@@ -125,7 +125,7 @@
       "url": "https://anthillshop.com",
       "status": "complete",
       "checked": "2026-10-30",
-      "raw_products_read": 501,
+      "raw_products_read": 505,
       "currency": "USD"
     },
     {
@@ -147,517 +147,32 @@
       "currency": "JPY"
     }
   ],
-  "corrections": [
-    {
-      "id": "e44f297ffcb18a73",
-      "from": "POP SUNDAY",
-      "to": "POPSUNDAY",
-      "type": "brand label"
-    },
-    {
-      "id": "677a44e3174da5af",
-      "from": "POP SUNDAY",
-      "to": "POPSUNDAY",
-      "type": "brand label"
-    }
+  "corrections": [],
+  "new_ids": [
+    "baf89ccfb7606dca"
   ],
-  "new_ids": [],
-  "image_repairs": [
-    {
-      "id": "34f6c2fbd2e4efec",
-      "name": "BOOMPIPI Prank Notes Series Blind Box",
-      "source": "https://jotoys.store/products/boompipi-prank-notes-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "b7a9653f0ca96f5f",
-      "name": "Ukio Letters to nowhere Series Figures Blind Box",
-      "source": "https://jotoys.store/products/ukio-letters-to-nowhere-series-figures",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "9e2e308f919a0178",
-      "name": "BuuBee's Street Party Series Plush Blind Box",
-      "source": "https://jotoys.store/products/buubees-street-party-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "fbacb268365940ca",
-      "name": "Ukio Little Moments Series Blind Box",
-      "source": "https://jotoys.store/products/ukio-little-moments-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "5318f353a2038cbb",
-      "name": "Q.Kid Shining Passion Series PVC Plush Blind Box",
-      "source": "https://jotoys.store/products/q-kid-shining-passion-series-pvc-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "fb3742e3d79165e8",
-      "name": "SunToBear I’m Magic SunTo Bear Series Blind Box",
-      "source": "https://jotoys.store/products/suntobear-i-m-magic-sunto-bear-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "293f371c7b76f330",
-      "name": "Shadure Twin Souls Series Plush Blind Box",
-      "source": "https://jotoys.store/products/shadure-twin-souls-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "769f0edbf5b58d5a",
-      "name": "Star Hope Island OOTD Series Articulated BJD Blind Box Dolls",
-      "source": "https://jotoys.store/products/star-hope-island-ootd-series-articulated-bjd-blind-box-dolls",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "8da070b19208b887",
-      "name": "KOKOSA DIFFERENT GIRLS SERIES BLIND BOX",
-      "source": "https://jotoys.store/products/kokosa-different-girls-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "2c08af1885115fbb",
-      "name": "KOKOSA The Monster Inside Me Series Plush Blind Box",
-      "source": "https://jotoys.store/products/kokosa-the-monster-inside-me-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "561c24482dd743e2",
-      "name": "Ukio City Pages Series Blind Box",
-      "source": "https://jotoys.store/products/ukio-city-pages-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "08df713d24569b1f",
-      "name": "Q Kid Q Pet Series Blind Box",
-      "source": "https://jotoys.store/products/q-kid-q-pet-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "2f5b79b0e64ec235",
-      "name": "Q.Kid Happy Garden Series Blind Box",
-      "source": "https://jotoys.store/products/q-kid-potted-plant-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "57b958707882fbaf",
-      "name": "KNOW KNOW MONSTER Countryside Growth Series Blind Box",
-      "source": "https://jotoys.store/products/know-know-monster-countryside-growth-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "1d7eab531981b0f1",
-      "name": "YUMO Gummy Bear 2.0 Series Mini Blind Box",
-      "source": "https://jotoys.store/products/yumo-gummy-bear-2-0-series-mini-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "b3eb87105b8de493",
-      "name": "YUMO Zodiac Series Plush Blind Box",
-      "source": "https://jotoys.store/products/yumo-zodiac-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "650f85a4e8590634",
-      "name": "Miana Retro Shop Series Blind Box",
-      "source": "https://jotoys.store/products/miana-ret-ro-shop-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "dd8ee5003c398bc5",
-      "name": "Q.Kid Weather Series MINI Plush Blind Box",
-      "source": "https://jotoys.store/products/q-kid-weather-series-mini-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "8269681132a7deaa",
-      "name": "OYO Fruit Party Series Blind Box",
-      "source": "https://jotoys.store/products/oyo-fruit-party",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "8d11859d89551875",
-      "name": "Q.Kid Wave Club Series MINI Plush Blind Box",
-      "source": "https://jotoys.store/products/q-kid-wave-club-series-mini-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "b9514ac818d76d40",
-      "name": "Miana The Sleeping Castle Series Blindbox",
-      "source": "https://jotoys.store/products/miana-the-sleeping-castle-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "a8d2dd1c8ea70007",
-      "name": "MIANA Styling House  Series Blind Box",
-      "source": "https://jotoys.store/products/miana-styling-house-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "110c1671077f1a68",
-      "name": "Q KID Animal Preschool Plush Series Blind Box",
-      "source": "https://jotoys.store/products/q-kid-animal-preschool-plush-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "fb4e57afd8c4709b",
-      "name": "スナック シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/snack-series",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "a166bde30c60de3c",
-      "name": "SMISKI SERIES2 スミスキーシリーズ2",
-      "source": "https://www.sonnyangelstore.com/products/smiski-series2",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "82318b1f8c7e5d4c",
-      "name": "HIPPERS Funbarus Series 2 ヒッパーズ ふんばるず シリーズ 2",
-      "source": "https://www.sonnyangelstore.com/products/hippers_funbarus2",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "6a5c66a504421736",
-      "name": "HIPPERS Monchhichi COLORS: Wink Series ヒッパーズ モンチッチ カラーズ ウインク シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/hippers_monchhichi2",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "3db4e99816b97dba",
-      "name": "スミスキー コンストラクション シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_construction",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "89bbf21522f5e6ea",
-      "name": "サマーバケーション シリーズ サンキッスド スタイル",
-      "source": "https://www.sonnyangelstore.com/products/summer_sunkissed",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "67884698204ca319",
-      "name": "スミスキー ストラップ アクセサリーズ シリーズ 4",
-      "source": "https://www.sonnyangelstore.com/products/smiski_strapaccseries4",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "7a5490c41507918a",
-      "name": "アニマルベーカリー ミニフィギュア シリーズ 3",
-      "source": "https://www.sonnyangelstore.com/products/animalbakery_series3",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "0afba2b08e10dc46",
-      "name": "HIPPERS ヒッパーズ mofusand シュリンプ ミャオ シリーズ　[国内配送限定商品]",
-      "source": "https://www.sonnyangelstore.com/products/hippers-mofusand2",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "056ccd225170ef8c",
-      "name": "Sonny Angel ヒッパーズ チェリーブロッサム シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/hippers-cherryblossom",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "3ff2824a9bf3458e",
-      "name": "スミスキー ストラップ アクセサリーズ シリーズ3",
-      "source": "https://www.sonnyangelstore.com/products/smiski_strapaccseries3",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "1fe7f47ea0d6a99a",
-      "name": "HIPPERS HELLO KITTY AND FRIENDS ヒッパーズ ハローキティ アンド フレンズ [国内配送限定商品]",
-      "source": "https://www.sonnyangelstore.com/products/hippers-hellokitty",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "5b63d22753475872",
-      "name": "Sonny Angel 福袋 2026",
-      "source": "https://www.sonnyangelstore.com/products/happybag2026",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "db4ec6a61e71984b",
-      "name": "HIPPERS CHIIKAWA ヒッパーズ ちいかわ [国内配送限定商品]",
-      "source": "https://www.sonnyangelstore.com/products/hippers_chiikawa",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "01d996032488701a",
-      "name": "サンタズ リトル ヘルパー シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/santas-little-helper",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "d0ff65ffee1031fc",
-      "name": "HIPPERS Monchhichi ヒッパーズ モンチッチ",
-      "source": "https://www.sonnyangelstore.com/products/hippers_monchhichi",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "16e4c20b6b41b232",
-      "name": "スミスキー ストラップ アクセサリーズ シリーズ2",
-      "source": "https://www.sonnyangelstore.com/products/smiski_strapaccseries2",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "672f01b0e37e3e9a",
-      "name": "スミスキー バースデー シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_birthday",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "30be79fcf370f1bd",
-      "name": "HIPPERS Funbarus ヒッパーズ ふんばるず",
-      "source": "https://www.sonnyangelstore.com/products/hippers_funbarus",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "f4e7ae04d4a4683a",
-      "name": "スミスキー ストラップ アクセサリーズ シリーズ1",
-      "source": "https://www.sonnyangelstore.com/products/smiski_strapaccseries1",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "86c4ace6509b74cc",
-      "name": "スミスキー サンデー シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_sunday",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "c0ada38b8e8266ed",
-      "name": "アニマルベーカリー ミニフィギュア シリーズ 2",
-      "source": "https://www.sonnyangelstore.com/products/animalbakery_series2",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "7c7184df89f8e880",
-      "name": "キスキスシリーズ",
-      "source": "https://www.sonnyangelstore.com/products/kisskiss",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "05bb26db16f0e323",
-      "name": "ステッカーパック シリーズ 2",
-      "source": "https://www.sonnyangelstore.com/products/stickerpack2",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "a2d8e6adcbdc922c",
-      "name": "HIPPERS ヒッパーズ mofusand　[国内配送限定商品]",
-      "source": "https://www.sonnyangelstore.com/products/hippers_mofusand",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "6678749a6ad4a913",
-      "name": "スミスキー ヒッパーズ",
-      "source": "https://www.sonnyangelstore.com/products/hippers_smiski",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "0c35e526be727521",
-      "name": "Sonny Angel ヒッパーズ アニマル シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/hippersanimalseries",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "4eee7f4df7ebef6f",
-      "name": "Sonny Angel ヒッパーズ ハーベスト シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/hippersharvestseries",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "847169a8e257202c",
-      "name": "Sonny Angel ヒッパーズ ドリーミングシリーズ",
-      "source": "https://www.sonnyangelstore.com/products/hippersdreamingseries",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "b5d0476e56cd4b4b",
-      "name": "Sonny Angel ヒッパーズ ルッキングバックシリーズ",
-      "source": "https://www.sonnyangelstore.com/products/hipperslookingback",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "12d046bccb182bdf",
-      "name": "ステッカーパック シリーズ 1",
-      "source": "https://www.sonnyangelstore.com/products/stickerpack1",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "a396c94fba05b445",
-      "name": "アニマルベーカリー ミニフィギュア",
-      "source": "https://www.sonnyangelstore.com/products/animalbakery",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "d22355664acb689d",
-      "name": "スミスキー ムービング シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_moving",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "e827efbce3d3378e",
-      "name": "スミスキー エクササイジング シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_exercising",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "5f0fc9153b14b316",
-      "name": "フラワーギフト",
-      "source": "https://www.sonnyangelstore.com/products/flowergift",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "8d1027b23fe7dc12",
-      "name": "スミスキー ドレッシング シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_dressing",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "2b5a9e89db22c52a",
-      "name": "スミスキー アットワーク シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_atwork",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "352b370ff2cd24be",
-      "name": "スミスキー ミュージアム シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_museum",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "f2dfecd05a7fabf4",
-      "name": "スミスキー チアー シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_cheer",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "84ff8b1f588a9276",
-      "name": "スミスキー ヨガ シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_yoga",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "8aab6fb30c7486cc",
-      "name": "スミスキー ベッド シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_bed",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "fbd63bd747cec592",
-      "name": "スミスキー リビング シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_living",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "f89bb0a89e1c4cee",
-      "name": "スミスキー トイレ シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_toilet",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "df254f7f888c05fc",
-      "name": "スミスキー バス シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/smiski_bath",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "bb3eea5229ea6ce6",
-      "name": "スミスキー シリーズ 1　-チビスキー混入中？！-",
-      "source": "https://www.sonnyangelstore.com/products/smiski-series-01",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "34c71232e7a7f5a8",
-      "name": "バースデーギフト - ベア -",
-      "source": "https://www.sonnyangelstore.com/products/birthdaygift2",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "f9508bafac943a58",
-      "name": "フラワー シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/flower-series-2019",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "69ac1dd26029c6d7",
-      "name": "ベジタブル シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/vegetable-series-2019",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "251dfe7ab501111e",
-      "name": "マリン シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/marine-series-2019",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "f33fee9b7abc2edc",
-      "name": "フルーツ シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/fruit-series-2019",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "0daa0d464eca6d3d",
-      "name": "スイーツ シリーズ",
-      "source": "https://www.sonnyangelstore.com/products/sweets-series-2019",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "b50a2af86af6d931",
-      "name": "アニマル シリーズ 4",
-      "source": "https://www.sonnyangelstore.com/products/animal-series-ver-4",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "82cc1947c9c6dcd3",
-      "name": "アニマル シリーズ 3",
-      "source": "https://www.sonnyangelstore.com/products/animal-series-ver-3",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "40a002e516b11f55",
-      "name": "アニマル シリーズ 2",
-      "source": "https://www.sonnyangelstore.com/products/animal-series-ver-2",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "105c4ec20a6a08ea",
-      "name": "アニマル シリーズ 1",
-      "source": "https://www.sonnyangelstore.com/products/animal-series-ver-1",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "658475c635cc34c9",
-      "name": "バースデーギフト",
-      "source": "https://www.sonnyangelstore.com/products/birthdaygift",
-      "reason": "Store supplies an image for the selected price variant"
-    }
-  ],
+  "image_repairs": [],
   "image_failures": [],
-  "before_products": 4234,
+  "before_products": 4233,
   "after_products": 4233,
   "stats": {
-    "products": 4233,
+    "products": 4232,
     "brands": 778,
-    "squishy": 425,
-    "with_images": 4233,
-    "with_launch_dates": 32,
-    "with_mainland_launch_dates": 14,
+    "squishy": 424,
+    "with_images": 4232,
+    "with_launch_dates": 31,
+    "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
     "with_source_prices": 4230,
     "image_research_queue": 0,
-    "with_trend_signals": 9,
+    "with_trend_signals": 8,
     "with_specifications": 2459,
     "with_dimensions": 1713,
     "with_variant_options": 3950,
     "source_linked_images": 3950,
-    "source_leads_excluded": 21
+    "source_leads_excluded": 23,
+    "visually_reviewed_sample": 8
   },
   "checklist": [
     {
@@ -940,10 +455,10 @@
       "group": "Squishy specialist watchlist",
       "basis": "Makers named by specialist stockists. Inclusion means assortment coverage to investigate, not proof each maker is nationally popular.",
       "source": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies",
-      "records": 4,
+      "records": 3,
       "with_details": 0,
       "with_china_price": 0,
-      "with_release": 1,
+      "with_release": 0,
       "status": "Partial — more series and China evidence needed"
     },
     {
@@ -1241,6 +756,23 @@
       "zh": "Q宝闪光的小热爱系列毛绒挂件盲盒",
       "source": "https://www.sina.cn/news/detail/5340973257461374.html",
       "note": "JOTOYS verified account post dated September 8, 2026 announces online launch September 10 at 20:00. No China price was supplied."
+    }
+  ],
+  "visual_sample_ids": [
+    "a6352811fd423b78",
+    "e8944d990eab4d0d",
+    "25883b4f5b30a725",
+    "cda530057d017fb2",
+    "23d11410d5e889e9",
+    "94fb8f025dd0a0a2",
+    "5496b7c05a7bcbb0",
+    "5318f353a2038cbb"
+  ],
+  "visual_scope": "Limited visual review of eight highlighted series. The images show actual series products, not a guarantee of the random design in one blind box. This is not a visual audit of the full catalog.",
+  "photo_exclusions": [
+    {
+      "id": "6795ac535d4629da",
+      "reason": "The available photograph shows a general store display, not a clearly verified A Piece of Cake six-slice product. Keep launch research as a source lead until a matching product photograph is verified."
     }
   ]
 }

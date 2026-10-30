@@ -907,5 +907,152 @@
     "stale": false,
     "exclusion_reason": "Mixed-series bundle; not an individual series",
     "excluded_from_product_counts": true
+  },
+  {
+    "id": "baf89ccfb7606dca",
+    "brand": "Jotoys Official Website",
+    "name": "Blind Box Collector's Bundle",
+    "ip": null,
+    "category": "Blind-box figures",
+    "wave": null,
+    "image_source": "https://cdn.shopify.com/s/files/1/0659/8868/9993/files/1792486528478-ad7de8d3-parent.png?v=1792486530",
+    "gallery": [
+      "https://cdn.shopify.com/s/files/1/0659/8868/9993/files/1792486528478-ad7de8d3-parent.png?v=1792486530"
+    ],
+    "listings": [
+      {
+        "source": "JOTOYS international store",
+        "source_id": "jotoys-official",
+        "kind": "retailer",
+        "url": "https://jotoys.store/products/blind-box-collectors-bundle",
+        "market": "International",
+        "currency": "USD",
+        "checked": "2026-10-30",
+        "price": null,
+        "variant": null,
+        "available": null,
+        "listing_date": "2026-10-20",
+        "options": [
+          {
+            "name": "Default Title",
+            "sku": null,
+            "price": 0.0,
+            "currency": "USD",
+            "available": true,
+            "image": null,
+            "id": "67752758739017"
+          }
+        ],
+        "options_checked": "2026-10-30"
+      }
+    ],
+    "launch": null,
+    "regular_designs": null,
+    "secret_designs": null,
+    "material": null,
+    "first_seen": "2026-10-30",
+    "checked": "2026-10-30",
+    "china_status": "Official overseas reference; mainland SKU availability needs confirmation",
+    "sales": null,
+    "baseline": false,
+    "history": [],
+    "details": {
+      "source": "https://jotoys.store/products/blind-box-collectors-bundle",
+      "checked": "2026-10-30",
+      "source_product_type": "product",
+      "field_sources": {}
+    },
+    "image_review": {
+      "status": "Same-product source image",
+      "source": "https://jotoys.store/products/blind-box-collectors-bundle",
+      "checked": "2026-10-30",
+      "level": "Source-link and file check; not a full visual audit",
+      "scope": "Series / example photo; random blind-box contents may differ.",
+      "visually_reviewed": false,
+      "source_match": true
+    },
+    "details_checked": "2026-10-30",
+    "stale": false,
+    "_new_photo": "https://cdn.shopify.com/s/files/1/0659/8868/9993/files/1792486528478-ad7de8d3-parent.png?v=1792486530",
+    "exclusion_reason": "Mixed-series bundle; not an individual series",
+    "excluded_from_product_counts": true
+  },
+  {
+    "id": "6795ac535d4629da",
+    "brand": "Molynk",
+    "name": "A Piece of Cake - Six-colour Slice Cake Squishy",
+    "category": "Squishy toys",
+    "image_source": "https://x0.ifengimg.com/res/2026/00FA6AE0F0AA96865D4E6B72420EB61B362EDBB7_size1014_w900_h1350.jpg",
+    "gallery": [
+      "https://x0.ifengimg.com/res/2026/00FA6AE0F0AA96865D4E6B72420EB61B362EDBB7_size1014_w900_h1350.jpg"
+    ],
+    "first_seen": "2026-10-29",
+    "checked": "2026-10-29",
+    "listings": [
+      {
+        "source": "Xinmin Evening News reporting",
+        "url": "https://finance.sina.com.cn/jjxw/2026-10-06/doc-iniuhiti5724409.shtml",
+        "kind": "source evidence",
+        "market": "Mainland China",
+        "currency": null,
+        "price": null,
+        "variant": null,
+        "checked": "2026-10-29",
+        "listing_date": null,
+        "available": null
+      }
+    ],
+    "china_status": "Product-specific mainland release evidence",
+    "sales": null,
+    "name_cn": "A Piece of Cake 六色切片蛋糕捏捏",
+    "notes": "Six individually playable cake slices form one whole cake. Product photograph supplied to the news report. No verified current price or sold-unit count; initial supply of 3,000 must not be counted as sales.",
+    "launch": {
+      "date": "2026-10-01",
+      "precision": "day",
+      "market": "Mainland China",
+      "source": "https://www.51ldb.com/shsldb/cj/content/01a0f7733b01c001000066d533acd97d.html",
+      "confidence": "medium",
+      "evidence": "On-location reporting dated October 1, 2026 says the Shanghai pop-up opened that day with the simultaneous global debut of A Piece of Cake. Corrects the earlier month-only estimate. No product price or sold-unit count is established.",
+      "offline_date": null
+    },
+    "baseline": true,
+    "history": [],
+    "image": "images/6795ac535d4629da.jpg",
+    "wave": null,
+    "details": {
+      "features": [
+        "Separate coloured cake slices combine into a whole cake",
+        "Each slice can be played with separately",
+        "Cake-style carry gift box"
+      ],
+      "source": "https://www.51ldb.com/shsldb/cj/content/01a0f7733b01c001000066d533acd97d.html",
+      "checked": "2026-10-30"
+    },
+    "image_review": {
+      "status": "Source photo recorded; page match not rechecked",
+      "source": "https://finance.sina.com.cn/jjxw/2026-10-06/doc-iniuhiti5724409.shtml",
+      "level": "Cached file check only",
+      "scope": "Product / series example photograph",
+      "visually_reviewed": false,
+      "file_ok": true,
+      "width": 427,
+      "height": 640,
+      "file_checked": "2026-10-30"
+    },
+    "exclusion_reason": "The available photograph shows a general store display, not a clearly verified A Piece of Cake six-slice product. Keep launch research as a source lead until a matching product photograph is verified.",
+    "excluded_from_product_counts": true,
+    "research_trend_context": {
+      "label": "Reported launch interest",
+      "level": "Early observed demand",
+      "summary": "A reporter at the October 1 Shanghai launch described crowds at the cake pop-up where A Piece of Cake debuted. The separable cake-slice format and gift packaging are product features; the report does not establish sell-through or national growth.",
+      "market": "Shanghai, mainland China",
+      "period": "October 1, 2026 launch event",
+      "observed": "2026-10-01",
+      "expires_on": "2026-11-05",
+      "source": "https://www.51ldb.com/shsldb/cj/content/01a0f7733b01c001000066d533acd97d.html",
+      "metric": "Observed launch attendance; no sold-unit disclosure",
+      "scope": "Local launch event, not nationwide popularity",
+      "possible_appeal": "Tactile cake slices can be shared or assembled, with cake-box gift presentation. These features may support gifting and hands-on play; the source only verifies launch interest."
+    }
   }
 ]
