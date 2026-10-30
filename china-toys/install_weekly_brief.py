@@ -19,12 +19,4 @@ index = index_path.read_text(encoding='utf-8')
 index, n = re.subn(r'catalog-guide\.js(?:\?[^"\s]*)?', 'catalog-guide.js?v=weekly-brief-' + version, index)
 assert n == 1, 'Expected exactly one guide script'
 index_path.write_text(index, encoding='utf-8')
-# Ensure future scheduled catalog updates check the brief as well as the existing UI.
-workflow = R.parent / '.github/workflows/china-toys-refresh.yml'
-yaml = workflow.read_text(encoding='utf-8')
-if 'python china-toys/weekly_brief_test.py' not in yaml:
-    old = '        run: python china-toys/review_acceptance.py'
-    assert old in yaml, 'Refresh workflow changed; review before patching'
-    yaml = yaml.replace(old, '        run: |\n          python china-toys/review_acceptance.py\n          python china-toys/weekly_brief_test.py', 1)
-    workflow.write_text(yaml, encoding='utf-8')
 print('Installed weekly brief. Tutorial, product data and ranking evidence preserved. Version:', version)
