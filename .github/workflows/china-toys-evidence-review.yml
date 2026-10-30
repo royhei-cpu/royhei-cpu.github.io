@@ -7,9 +7,12 @@ on:
       - '.github/workflows/china-toys-evidence-review.yml'
       - 'china-toys/review.py'
       - 'china-toys/review_finalize.py'
+      - 'china-toys/review_publish.py'
+      - 'china-toys/photo-overrides.json'
       - 'china-toys/review-sources.json'
       - 'china-toys/review-ui.js'
       - 'china-toys/review_test.py'
+      - 'china-toys/review_acceptance.py'
 permissions:
   contents: write
   actions: write
@@ -31,11 +34,11 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Review existing catalog and enrich supported details
         run: |
-          python -m py_compile china-toys/review.py china-toys/review_finalize.py
-          python china-toys/review_finalize.py
+          python -m py_compile china-toys/review.py china-toys/review_finalize.py china-toys/review_publish.py
+          python china-toys/review_publish.py
           node --check china-toys/app.js
       - name: Test desktop and mobile product flows
-        run: python china-toys/review_test.py
+        run: python china-toys/review_acceptance.py
       - name: Keep review and browser evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -52,7 +55,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add china-toys
           if ! git diff --cached --quiet; then
-            git commit -m 'Publish reviewed specifications, exact photo mapping, trend reasons and brand coverage'
+            git commit -m 'Publish reviewed product photographs and clear demand evidence'
             for attempt in 1 2 3; do
               git pull --rebase origin main
               git push origin HEAD:main && break
