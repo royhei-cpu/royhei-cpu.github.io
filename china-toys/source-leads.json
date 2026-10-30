@@ -838,5 +838,74 @@
     "details_checked": "2026-10-30",
     "exclusion_reason": "Accessory or merchandise listing, not a blind-box or squishy toy",
     "excluded_from_product_counts": true
+  },
+  {
+    "id": "15ad341289c9244d",
+    "brand": "JOTOYS",
+    "name": "Blind Box Collector's Bundle",
+    "ip": null,
+    "category": "Blind-box figures",
+    "wave": null,
+    "image_source": "https://cdn.shopify.com/s/files/1/0659/8868/9993/files/1792486528478-ad7de8d3-parent.png?v=1792486530",
+    "gallery": [
+      "https://cdn.shopify.com/s/files/1/0659/8868/9993/files/1792486528478-ad7de8d3-parent.png?v=1792486530"
+    ],
+    "listings": [
+      {
+        "source": "JOTOYS international store",
+        "source_id": "jotoys-official",
+        "kind": "brand storefront",
+        "url": "https://jotoys.store/products/blind-box-collectors-bundle",
+        "market": "International",
+        "currency": "USD",
+        "checked": "2026-10-30",
+        "price": null,
+        "variant": null,
+        "available": null,
+        "listing_date": "2026-10-20",
+        "options": [
+          {
+            "name": "Default Title",
+            "sku": null,
+            "price": 0.0,
+            "currency": "USD",
+            "available": true,
+            "image": null,
+            "id": "67752758739017"
+          }
+        ],
+        "options_checked": "2026-10-30"
+      }
+    ],
+    "launch": null,
+    "regular_designs": null,
+    "secret_designs": null,
+    "material": null,
+    "first_seen": "2026-10-30",
+    "checked": "2026-10-30",
+    "china_status": "Official overseas reference; mainland SKU availability needs confirmation",
+    "sales": null,
+    "baseline": false,
+    "history": [],
+    "details": {
+      "source": "https://jotoys.store/products/blind-box-collectors-bundle",
+      "checked": "2026-10-30",
+      "source_product_type": "product",
+      "field_sources": {}
+    },
+    "image_review": {
+      "status": "Same-product source image",
+      "source": "https://jotoys.store/products/blind-box-collectors-bundle",
+      "checked": "2026-10-30",
+      "level": "Source-link and file check; not a full visual audit",
+      "scope": "Series / example photo; random blind-box contents may differ.",
+      "visually_reviewed": false,
+      "source_match": true
+    },
+    "details_checked": "2026-10-30",
+    "image": "images/15ad341289c9244d-373ce9ee.jpg",
+    "stale": false,
+    "exclusion_reason": "Mixed-series bundle; not an individual series",
+    "excluded_from_product_counts": true
   }
 ]
