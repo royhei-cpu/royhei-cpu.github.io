@@ -1,0 +1,69 @@
+name: Build China Toy Atlas Narrated Tutorial
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/china-toys-tutorial.yml'
+      - 'china-toys/tutorial_build.py'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: china-toys-evidence-review
+  cancel-in-progress: false
+jobs:
+  tutorial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      HF_HUB_DISABLE_XET: '1'
+      DO_NOT_TRACK: '1'
+      TOKENIZERS_PARALLELISM: 'false'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install narration, video and browser dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y espeak-ng ffmpeg
+          pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install kokoro==0.9.4 soundfile numpy requests beautifulsoup4 Pillow playwright
+          python -m playwright install --with-deps chromium
+      - name: Build real-screen narrated tutorial and facts-first cards
+        run: |
+          python -m py_compile china-toys/tutorial_build.py china-toys/source_copy.py
+          python china-toys/tutorial_build.py
+      - name: Save tutorial and test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: china-toys-narrated-tutorial
+          path: |
+            china-toys/tutorial/
+            /tmp/china-toys-tutorial-qa/
+            china-toys/report.json
+          retention-days: 14
+      - name: Commit the checked tutorial and catalog improvements
+        run: |
+          git config user.name 'China Toy Atlas tutorial'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add china-toys/tutorial china-toys/index.html china-toys/catalog-guide.js china-toys/review_publish.py china-toys/app.js china-toys/catalog.json china-toys/catalog.js china-toys/catalog.csv china-toys/report.json china-toys/review-report.json china-toys/source-leads.json china-toys/images .github/workflows/publish.yml
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish narrated tutorial and useful source-backed product details'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              git push origin HEAD:main && break
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 3
+            done
+          fi
+      - name: Publish to the existing directory address
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publish.yml --ref main
