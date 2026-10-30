@@ -1,0 +1,61 @@
+name: Publish China Toy Weekly Brief
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'china-toys/weekly-brief.js'
+      - 'china-toys/install_weekly_brief.py'
+      - 'china-toys/weekly_brief_test.py'
+      - '.github/workflows/china-toys-weekly-brief.yml'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: china-toys-evidence-review
+  cancel-in-progress: false
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test browser
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Integrate into existing guide and validate syntax
+        run: |
+          python china-toys/install_weekly_brief.py
+          node --check china-toys/catalog-guide.js
+          node --check china-toys/weekly-brief.js
+      - name: Validate the brief, retailer drilldowns and tutorial
+        run: python china-toys/weekly_brief_test.py
+      - name: Keep desktop and mobile evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: china-toys-weekly-brief-qa
+          path: /tmp/china-toys-weekly-brief-qa/
+          retention-days: 14
+      - name: Save tested page assets
+        run: |
+          git config user.name 'China Toy Atlas updater'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add china-toys/catalog-guide.js china-toys/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Place source-backed weekly executive brief above toy browsing controls'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              git push origin HEAD:main && break
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 3
+            done
+          fi
+      - name: Publish the same public site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publish.yml --ref main
