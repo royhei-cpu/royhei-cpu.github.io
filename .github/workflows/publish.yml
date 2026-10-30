@@ -101,6 +101,11 @@ jobs:
           if [ -f china-toys/ip-market-data.js ]; then
             cp china-toys/ip-market-data.js china-toys/ip-directory.js china-toys/ip-market.json china-toys/ip-coverage.json _site/china-toys/
           fi
+      - name: Add dated source audit and exact-offer corrections
+        run: |
+          python3 china-toys/build_source_audit_report.py
+          python3 china-toys/apply_source_audit.py --site _site/china-toys
+          cp china-toys/research.html china-toys/research.css china-toys/research.js china-toys/source-audit.json china-toys/source-audit-data.js china-toys/source-audit.js _site/china-toys/
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
@@ -110,3 +115,4 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+

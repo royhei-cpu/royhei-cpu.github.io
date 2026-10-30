@@ -39,6 +39,7 @@ jobs:
           node --check china-toys/compare.js
       - name: Collect products and preserve exact-item evidence
         run: |
+          python china-toys/apply_source_audit.py --config
           python china-toys/enhance.py
           python china-toys/quality.py
           python - <<'PY'
@@ -49,6 +50,7 @@ jobs:
           d['last_full_collection']=d['updated'];p.write_text(json.dumps(d,ensure_ascii=False,separators=(',',':')))
           PY
           python china-toys/review_publish.py
+          python china-toys/apply_source_audit.py
           python china-toys/build_ip_directory.py
           python china-toys/navigation_fix.py
           python china-toys/install_weekly_brief.py
@@ -94,3 +96,4 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run publish.yml --ref main
+

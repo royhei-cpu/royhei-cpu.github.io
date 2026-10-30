@@ -1,0 +1,3424 @@
+{
+  "version": "20261031-external-audit-1",
+  "checked": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "baseline_catalog_updated": "2026-10-30",
+  "baseline_detail_reviewed": "2026-10-30",
+  "baseline_full_collection": "2026-10-29",
+  "scope": "All 18 configured store/evidence destinations checked; 12 public feeds reconciled. Feed URL identity and saved variant differences checked, not a manual visual or authenticity audit of every product. No all-China completeness claim.",
+  "summary": {
+    "catalog_products": 4230,
+    "catalog_listing_urls": 4262,
+    "stores_checked": 18,
+    "feeds_completed": 12,
+    "live_feed_records": 5679,
+    "saved_feed_urls_matched": 3845,
+    "heartfelt_urls_matched": 278,
+    "broken_product_links": 15,
+    "renamed_links": 1,
+    "variant_changes": 83,
+    "price_differences": 38,
+    "stock_differences": 52,
+    "products_with_variant_changes": 48,
+    "broad_rule_candidates": 153
+  },
+  "stores": [
+    {
+      "id": "kikagoods",
+      "name": "KikaGoods",
+      "url": "https://www.kikagoods.com",
+      "checked": "2026-10-31",
+      "status": "Partial; changes found",
+      "finding": "613 of 616 saved URLs matched the feed; one renamed Honkai page redirects correctly and two return 404. New toy candidates include Great Power Fortune Cat and MayMei Greedy Bear. Acrylic badges, coasters and cards need separate scope review.",
+      "captured_products": 616,
+      "saved_urls": 616,
+      "feed_products": 944,
+      "matched_urls": 613,
+      "candidate_count": 6,
+      "changed_variants": 47
+    },
+    {
+      "id": "toptoy",
+      "name": "TOP TOY international store",
+      "url": "https://gotoptoy.com",
+      "checked": "2026-10-31",
+      "status": "Partial; changes found",
+      "finding": "243 of 245 saved URLs matched; two return 404. Nommi Christmas Forest Feast and both Zootopia releases are already captured. Piropiroo is a new candidate; two Nommi crossbody bags are intentionally outside toy counts. Christmas Forest Feast single-box asking price is now USD 29.99, with availability not yet enabled.",
+      "captured_products": 245,
+      "saved_urls": 245,
+      "feed_products": 250,
+      "matched_urls": 243,
+      "candidate_count": 3,
+      "changed_variants": 8
+    },
+    {
+      "id": "52toys",
+      "name": "52TOYS international store",
+      "url": "https://hi52toys.com",
+      "checked": "2026-10-31",
+      "status": "Saved assortment matched",
+      "finding": "All 96 saved URLs matched the 199-record feed; no saved-variant price or stock differences found. This validates the captured international assortment, not every mainland product.",
+      "captured_products": 96,
+      "saved_urls": 96,
+      "feed_products": 199,
+      "matched_urls": 96,
+      "candidate_count": 0,
+      "changed_variants": 0
+    },
+    {
+      "id": "rolife",
+      "name": "Rolife international store",
+      "url": "https://www.rolifeonline.com",
+      "checked": "2026-10-31",
+      "status": "Readable; direct assortment missing",
+      "finding": "The surprise-figure collection shows 28 items, while no direct-store offers are captured. BabyNanci Milk Tea has an exact product page describing six regular designs and one hidden design. DIY buildings and craft kits are outside this catalog.",
+      "captured_products": 0,
+      "saved_urls": 0,
+      "feed_products": null,
+      "matched_urls": null,
+      "candidate_count": 0,
+      "changed_variants": 0
+    },
+    {
+      "id": "toyzero",
+      "name": "TOYZEROPLUS",
+      "url": "https://toyzeroplus.com",
+      "checked": "2026-10-31",
+      "status": "Corrected address; direct assortment missing",
+      "finding": "The working address is toyzeroplus.com, without a hyphen. Its 322-record feed contains 41 broad-rule blind-box candidates. These are missing direct-store offers; some series may already appear through resellers. Non-blind art toys, bags and accessories are excluded.",
+      "captured_products": 0,
+      "saved_urls": 0,
+      "feed_products": 322,
+      "matched_urls": 0,
+      "candidate_count": 41,
+      "changed_variants": 0
+    },
+    {
+      "id": "molynk",
+      "name": "Hello Molynk",
+      "url": "https://www.molynk.shop",
+      "checked": "2026-10-31",
+      "status": "Readable; direct assortment missing",
+      "finding": "Product pages are readable at /product/, although the previous Shopify-style collector failed. Wishful Bite Cake is listed at USD 79.99 with two named options. Unigo has conflicting design counts in its own description, so its assortment count remains unverified. Store identity assertions are not an independent authorization check.",
+      "captured_products": 0,
+      "saved_urls": 0,
+      "feed_products": null,
+      "matched_urls": null,
+      "candidate_count": 0,
+      "changed_variants": 0
+    },
+    {
+      "id": "findingunicorn",
+      "name": "Finding Unicorn international store",
+      "url": "https://www.findingunicorn.net",
+      "checked": "2026-10-31",
+      "status": "Could not revalidate",
+      "finding": "The configured direct-store URL could not be retrieved in this audit. Reseller listings do not establish that the direct shop works or that its full assortment is covered. No empty-store conclusion is justified.",
+      "captured_products": 0,
+      "saved_urls": 0,
+      "feed_products": null,
+      "matched_urls": null,
+      "candidate_count": 0,
+      "changed_variants": 0
+    },
+    {
+      "id": "kouhigh",
+      "name": "Kouhigh Toys",
+      "url": "https://kouhightoys.com",
+      "checked": "2026-10-31",
+      "status": "Maintenance; historical offers",
+      "finding": "The store opens a password/maintenance page. Its 122 captured records remain historical; current product identity, prices and stock could not be rechecked. A reopening message is not proof that trading resumed.",
+      "captured_products": 122,
+      "saved_urls": 122,
+      "feed_products": null,
+      "matched_urls": null,
+      "candidate_count": 0,
+      "changed_variants": 0
+    },
+    {
+      "id": "toybeta",
+      "name": "ToyBeta",
+      "url": "https://toybeta.com",
+      "checked": "2026-10-31",
+      "status": "Partial; changes found",
+      "finding": "1,127 of 1,136 saved URLs matched; nine now return 404. Six new candidates include Rayan ROOM In My Heart and Peach Riot Sugar Mode. The Sweet Dreams Forecast page is correct despite its older Moon Gelato URL slug.",
+      "captured_products": 1136,
+      "saved_urls": 1136,
+      "feed_products": 1277,
+      "matched_urls": 1127,
+      "candidate_count": 6,
+      "changed_variants": 14
+    },
+    {
+      "id": "didapop",
+      "name": "DidaPop",
+      "url": "https://didapop.com",
+      "checked": "2026-10-31",
+      "status": "Partial; changes found",
+      "finding": "1,536 of 1,537 saved listing URLs matched; one Nommi preorder page returns 404. Two new figure candidates were found. Three clothing pages pass the loose blind-box keyword rule but remain excluded. One product can have multiple offers, so listing URLs differ from card counts.",
+      "captured_products": 1534,
+      "saved_urls": 1537,
+      "feed_products": 1738,
+      "matched_urls": 1536,
+      "candidate_count": 5,
+      "changed_variants": 10
+    },
+    {
+      "id": "pawmiga",
+      "name": "Pawmiga World",
+      "url": "https://pawmiga.myshopify.com",
+      "checked": "2026-10-31",
+      "status": "Partial; new listings found",
+      "finding": "All 16 saved URLs matched. Six additional named Lisa/Kira squishy listings were found. The store also lists many maker products without the word squishy; a keyword-only importer cannot establish full assortment coverage.",
+      "captured_products": 16,
+      "saved_urls": 16,
+      "feed_products": 140,
+      "matched_urls": 16,
+      "candidate_count": 6,
+      "changed_variants": 0
+    },
+    {
+      "id": "iris",
+      "name": "Iris Squishy",
+      "url": "https://irissquishy.com",
+      "checked": "2026-10-31",
+      "status": "Partial; broken link found",
+      "finding": "85 of 86 saved URLs matched. The SmileGogo Lucky Cat page now returns 404. No differences were found in matched saved variants. Retailer authenticity and maker-authorization claims were not independently certified.",
+      "captured_products": 86,
+      "saved_urls": 86,
+      "feed_products": 104,
+      "matched_urls": 85,
+      "candidate_count": 0,
+      "changed_variants": 0
+    },
+    {
+      "id": "ronron",
+      "name": "RonRon Squishy",
+      "url": "https://ronronsquishy.com",
+      "checked": "2026-10-31",
+      "status": "Saved assortment matched",
+      "finding": "All 36 saved URLs matched the 36-record feed, with no saved-variant differences. Chocolate Afternoon Tea and Butter & Cocoa are shown sold out on the storefront; historical presence should not be read as current availability.",
+      "captured_products": 36,
+      "saved_urls": 36,
+      "feed_products": 36,
+      "matched_urls": 36,
+      "candidate_count": 0,
+      "changed_variants": 0
+    },
+    {
+      "id": "anthill",
+      "name": "ANTHILL shopNplay",
+      "url": "https://anthillshop.com",
+      "checked": "2026-10-31",
+      "status": "Intentionally narrow collection",
+      "finding": "The one saved Molynk offer matched. The broader store feed has 509 records and 83 additional keyword candidates, including imported characters. The current collector deliberately restricts this source to Molynk; this is not a complete shop assortment.",
+      "captured_products": 1,
+      "saved_urls": 1,
+      "feed_products": 509,
+      "matched_urls": 1,
+      "candidate_count": 83,
+      "changed_variants": 0
+    },
+    {
+      "id": "heartfelt",
+      "name": "Heartfelt Chinese-squishy specialist",
+      "url": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies",
+      "checked": "2026-10-31",
+      "status": "Saved category links matched",
+      "finding": "All 278 saved listing URLs remain in the 336-link Chinese-squishy category crawl. The other 58 links need classification; some are mixed-product compilations or shopping services. Page prices localized to USD in this audit, so they were not compared with saved HKD prices.",
+      "captured_products": 277,
+      "saved_urls": 278,
+      "feed_products": null,
+      "matched_urls": 278,
+      "candidate_count": 0,
+      "changed_variants": 0
+    },
+    {
+      "id": "jotoys-official",
+      "name": "JOTOYS international store",
+      "url": "https://jotoys.store",
+      "checked": "2026-10-31",
+      "status": "Partial; changes found",
+      "finding": "All 36 saved URLs matched. One saved full-set option returned to stock. OYO Portable Bag Mini and KOKOSA Fruit Party need product review; the mixed Collector’s Bundle is excluded. The Best Sellers label is retailer curation without published unit volumes.",
+      "captured_products": 36,
+      "saved_urls": 36,
+      "feed_products": 56,
+      "matched_urls": 36,
+      "candidate_count": 3,
+      "changed_variants": 1
+    },
+    {
+      "id": "sonnyangel-jp",
+      "name": "Sonny Angel Japan official store",
+      "url": "https://www.sonnyangelstore.com",
+      "checked": "2026-10-31",
+      "status": "Saved assortment matched",
+      "finding": "All 56 saved URLs matched the 104-record Japanese feed; three variant stock differences were found. Japanese names defeat the English keyword rule, so its zero candidate count is not a completeness finding. SMISKI and other Dreams products must retain their own identities.",
+      "captured_products": 56,
+      "saved_urls": 56,
+      "feed_products": 104,
+      "matched_urls": 56,
+      "candidate_count": 0,
+      "changed_variants": 3
+    },
+    {
+      "id": "popmart-us",
+      "name": "POP MART US product evidence",
+      "url": "https://www.popmart.com/us/products/9170",
+      "checked": "2026-10-31",
+      "status": "Exact product checked",
+      "finding": "The official US Dip For Fun Squishy Charm page was read successfully. Its source identifies a US online release on 15 October 2026 and PU foam/PVC/acrylic/metal. This one evidence page does not constitute a complete POP MART direct-store assortment.",
+      "captured_products": 1,
+      "saved_urls": 1,
+      "matched_urls": 1,
+      "feed_products": null,
+      "candidate_count": 0,
+      "changed_variants": 0
+    }
+  ],
+  "variant_changes": [
+    {
+      "id": "2b7c01d295738386",
+      "name": "Anita Abandoned Chateau Series Blind Box",
+      "url": "https://www.kikagoods.com/products/anita-abandoned-chateau-series-blind-box",
+      "variant_id": "52093923131757",
+      "variant": "1 PC",
+      "old_price": 13.86,
+      "price": 11.78,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "6323a3cd2afd38e8",
+      "name": "DORA On My Way Series Blind Box",
+      "url": "https://www.kikagoods.com/products/dora-on-my-way-series-blind-box",
+      "variant_id": "53424046997869",
+      "variant": "1 PC",
+      "old_price": 17.5,
+      "price": 14.88,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "6323a3cd2afd38e8",
+      "name": "DORA On My Way Series Blind Box",
+      "url": "https://www.kikagoods.com/products/dora-on-my-way-series-blind-box",
+      "variant_id": "53424047030637",
+      "variant": "3 PCS",
+      "old_price": 52.5,
+      "price": 44.63,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "6323a3cd2afd38e8",
+      "name": "DORA On My Way Series Blind Box",
+      "url": "https://www.kikagoods.com/products/dora-on-my-way-series-blind-box",
+      "variant_id": "53424047063405",
+      "variant": "9 PCS (Whole Set)",
+      "old_price": 157.5,
+      "price": 133.88,
+      "old_available": false,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "dfe115f3476d711c",
+      "name": "Rayan Natural-Born Player Series Blind Box",
+      "url": "https://www.kikagoods.com/products/rayan-natural-born-player-series-blind-box",
+      "variant_id": "52578858205549",
+      "variant": "1 PC",
+      "old_price": 21.5,
+      "price": 18.28,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "dfe115f3476d711c",
+      "name": "Rayan Natural-Born Player Series Blind Box",
+      "url": "https://www.kikagoods.com/products/rayan-natural-born-player-series-blind-box",
+      "variant_id": "67659331666285",
+      "variant": "3 PCS",
+      "old_price": 64.5,
+      "price": 54.83,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "78e16c694ee06e8d",
+      "name": "Tiny Cutie Mili Series Blind Bag",
+      "url": "https://www.kikagoods.com/products/tiny-cutie-mili-series-blind-bag",
+      "variant_id": "52750739079533",
+      "variant": "1 PC (5 mini figures included)【Children's Day Offer】",
+      "old_price": 16.5,
+      "price": 15.73,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "78e16c694ee06e8d",
+      "name": "Tiny Cutie Mili Series Blind Bag",
+      "url": "https://www.kikagoods.com/products/tiny-cutie-mili-series-blind-bag",
+      "variant_id": "52750739112301",
+      "variant": "3 PCS (15 mini figures included)【Children's Day Offer】",
+      "old_price": 49.5,
+      "price": 47.18,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "78e16c694ee06e8d",
+      "name": "Tiny Cutie Mili Series Blind Bag",
+      "url": "https://www.kikagoods.com/products/tiny-cutie-mili-series-blind-bag",
+      "variant_id": "52750739145069",
+      "variant": "12 PCS (Whole Set -  60 mini figures included)【Children's Day Offer】",
+      "old_price": 198.0,
+      "price": 188.7,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "2726afe410019a8c",
+      "name": "Zoraa Hugging You Series Mini Blind Box",
+      "url": "https://www.kikagoods.com/products/zoraa-hugging-you-series-mini-blind-box",
+      "variant_id": "67660332138861",
+      "variant": "1 PC",
+      "old_price": 9.9,
+      "price": 8.42,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "2726afe410019a8c",
+      "name": "Zoraa Hugging You Series Mini Blind Box",
+      "url": "https://www.kikagoods.com/products/zoraa-hugging-you-series-mini-blind-box",
+      "variant_id": "67660332171629",
+      "variant": "3 PCS",
+      "old_price": 29.7,
+      "price": 25.25,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "2726afe410019a8c",
+      "name": "Zoraa Hugging You Series Mini Blind Box",
+      "url": "https://www.kikagoods.com/products/zoraa-hugging-you-series-mini-blind-box",
+      "variant_id": "67660332204397",
+      "variant": "12 PCS (Whole Set)",
+      "old_price": 118.8,
+      "price": 100.98,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "091c4015a930b337",
+      "name": "Zoraa I am the Baby Boss Series Blind Box",
+      "url": "https://www.kikagoods.com/products/zoraa-i-am-the-baby-boss-series-blind-box",
+      "variant_id": "52148899152237",
+      "variant": "1 PC【Children's Day Offer】",
+      "old_price": 15.99,
+      "price": 14.03,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "091c4015a930b337",
+      "name": "Zoraa I am the Baby Boss Series Blind Box",
+      "url": "https://www.kikagoods.com/products/zoraa-i-am-the-baby-boss-series-blind-box",
+      "variant_id": "52148899185005",
+      "variant": "3 PCS【Children's Day Offer】",
+      "old_price": 47.97,
+      "price": 42.08,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "091c4015a930b337",
+      "name": "Zoraa I am the Baby Boss Series Blind Box",
+      "url": "https://www.kikagoods.com/products/zoraa-i-am-the-baby-boss-series-blind-box",
+      "variant_id": "52148899217773",
+      "variant": "9 PCS (Whole Set)【Children's Day Offer】",
+      "old_price": 143.91,
+      "price": 126.23,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "186aa3649a0d628f",
+      "name": "Zoraa Linglongfu Series Blind Box",
+      "url": "https://www.kikagoods.com/products/zoraa-linglongfu-series-blind-box",
+      "variant_id": "52148959379821",
+      "variant": "1 PC【Children's Day Offer】",
+      "old_price": 15.99,
+      "price": 14.03,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "186aa3649a0d628f",
+      "name": "Zoraa Linglongfu Series Blind Box",
+      "url": "https://www.kikagoods.com/products/zoraa-linglongfu-series-blind-box",
+      "variant_id": "52148959412589",
+      "variant": "3 PCS【Children's Day Offer】",
+      "old_price": 47.97,
+      "price": 42.08,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "186aa3649a0d628f",
+      "name": "Zoraa Linglongfu Series Blind Box",
+      "url": "https://www.kikagoods.com/products/zoraa-linglongfu-series-blind-box",
+      "variant_id": "52148959445357",
+      "variant": "9 PCS (Whole Set)【Children's Day Offer】",
+      "old_price": 143.91,
+      "price": 126.23,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "fc26ad87b81c8c60",
+      "name": "Zoraa My Little Blankie Mili Series Blind Bag",
+      "url": "https://www.kikagoods.com/products/zoraa-my-little-blankie-mili-series-blind-bag",
+      "variant_id": "67660444434797",
+      "variant": "1 PC (4 mini figures included)",
+      "old_price": 12.99,
+      "price": 11.04,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "fc26ad87b81c8c60",
+      "name": "Zoraa My Little Blankie Mili Series Blind Bag",
+      "url": "https://www.kikagoods.com/products/zoraa-my-little-blankie-mili-series-blind-bag",
+      "variant_id": "67660444500333",
+      "variant": "10 PCS (Whole Set - 40 mini figures included)",
+      "old_price": 129.9,
+      "price": 110.42,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "8ec9cf517548d5cf",
+      "name": "Mini Cute Bean Insect Series Blind Bag【Shipped in Nov./Dec. 2026】",
+      "url": "https://www.kikagoods.com/products/mini-cute-bean-insect-series-blind-bag",
+      "variant_id": "67755503386989",
+      "variant": "1 PC (3 mini figures included)",
+      "old_price": 15.99,
+      "price": 12.88,
+      "old_available": false,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "5aa9a9c5049f4fd1",
+      "name": "Alien Stage AAHS Series Rice Grain Chain Blind Box",
+      "url": "https://www.kikagoods.com/products/alien-stage-aahs-series-rice-grain-chain-blind-box",
+      "variant_id": "67790999257453",
+      "variant": "HYUNA【Open Box and Bag】",
+      "old_price": 10.99,
+      "price": 10.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "704320346b77a294",
+      "name": "Alien Stage Anakt AAHS Series Nunu Style Plush Pendant Blind Box",
+      "url": "https://www.kikagoods.com/products/alien-stage-anakt-aahs-series-nunu-style-plush-pendant-blind-box",
+      "variant_id": "67791019344237",
+      "variant": "HYUNA【Open Box and Bag】",
+      "old_price": 14.44,
+      "price": 14.44,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "7ca573731dedadf9",
+      "name": "Bonnie Sweets Kindergarten Series 1/12 Action Figure BJD Blind Box",
+      "url": "https://www.kikagoods.com/products/bonnie-sweets-kindergarten-series-1-12-action-figure-bjd-blind-box",
+      "variant_id": "67795817562477",
+      "variant": "Cat Juanjuan【Open Box】",
+      "old_price": 19.86,
+      "price": 19.86,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "e4d35abec1ca3366",
+      "name": "Minty Little Lucky Spirits Series 1/8 Action Figure BJD Blind Box",
+      "url": "https://www.kikagoods.com/products/minty-fortune-mini-oracle-series-1-8-action-figure-bjd-blind-box",
+      "variant_id": "53960171782509",
+      "variant": "Tangli【Open Box】",
+      "old_price": 34.99,
+      "price": 34.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "336f02815dab0231",
+      "name": "Incredible KeyKi Series Plush Pendant Blind Box",
+      "url": "https://www.kikagoods.com/products/incredible-keyki-series-plush-pendant-blind-box",
+      "variant_id": "53511356186989",
+      "variant": "1 PC",
+      "old_price": 15.73,
+      "price": 15.73,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "44b159166ec2aaad",
+      "name": "Baby Three Sweet Baby 400% Series Plush Blind Box",
+      "url": "https://www.kikagoods.com/products/baby-three-sweet-baby-400-series-plush-blind-box",
+      "variant_id": "51915807949165",
+      "variant": "No Box - 1 PC",
+      "old_price": 33.99,
+      "price": 33.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "b3154cd4cd5e1cf8",
+      "name": "Baby Cat Vibe Check Series Plush Blind Box【Shipped in Nov./Dec. 2026】",
+      "url": "https://www.kikagoods.com/products/baby-cat-vibe-check-series-plush-blind-box",
+      "variant_id": "67819314413933",
+      "variant": "No Box - 1 PC",
+      "old_price": 15.99,
+      "price": 9.34,
+      "old_available": false,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "b3154cd4cd5e1cf8",
+      "name": "Baby Cat Vibe Check Series Plush Blind Box【Shipped in Nov./Dec. 2026】",
+      "url": "https://www.kikagoods.com/products/baby-cat-vibe-check-series-plush-blind-box",
+      "variant_id": "67819314446701",
+      "variant": "No Box - 6 PCS (Whole Set)",
+      "old_price": 95.94,
+      "price": 56.04,
+      "old_available": false,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "b3154cd4cd5e1cf8",
+      "name": "Baby Cat Vibe Check Series Plush Blind Box【Shipped in Nov./Dec. 2026】",
+      "url": "https://www.kikagoods.com/products/baby-cat-vibe-check-series-plush-blind-box",
+      "variant_id": "67819314315629",
+      "variant": "1 PC",
+      "old_price": 17.99,
+      "price": 11.89,
+      "old_available": false,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "b3154cd4cd5e1cf8",
+      "name": "Baby Cat Vibe Check Series Plush Blind Box【Shipped in Nov./Dec. 2026】",
+      "url": "https://www.kikagoods.com/products/baby-cat-vibe-check-series-plush-blind-box",
+      "variant_id": "67819314348397",
+      "variant": "3 PCS",
+      "old_price": 53.97,
+      "price": 35.67,
+      "old_available": false,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "b3154cd4cd5e1cf8",
+      "name": "Baby Cat Vibe Check Series Plush Blind Box【Shipped in Nov./Dec. 2026】",
+      "url": "https://www.kikagoods.com/products/baby-cat-vibe-check-series-plush-blind-box",
+      "variant_id": "67819314381165",
+      "variant": "6 PCS (Whole Set)",
+      "old_price": 107.94,
+      "price": 71.34,
+      "old_available": false,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "290b716a2fbc605e",
+      "name": "The Past In Sicily Series MJD Action Figure Blind Box",
+      "url": "https://www.kikagoods.com/products/the-past-in-sicily-series-mjd-action-figure-blind-box",
+      "variant_id": "67843796042093",
+      "variant": "Samoyed Luciano (Master of Entertainment)【Open Box】",
+      "old_price": 28.99,
+      "price": 28.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "abdbb597d7a138ee",
+      "name": "Thousand Toast Banquet Series 1/8 Action Figure MJD Blind Box",
+      "url": "https://www.kikagoods.com/products/thousand-toast-banquet-series-1-8-action-figure-mjd-blind-box",
+      "variant_id": "67796096647533",
+      "variant": "Phantom Thorn【Open Box】",
+      "old_price": 31.99,
+      "price": 31.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "cd3d287d90dab391",
+      "name": "Doomsday Prologue Series 1/12 Action Figure BJD Blind Box",
+      "url": "https://www.kikagoods.com/products/doomsday-prologue-series-1-12-action-figure-bjd-blind-box",
+      "variant_id": "53327676408173",
+      "variant": "1 PC",
+      "old_price": 29.99,
+      "price": 29.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "893973c90f7741b3",
+      "name": "Mix Angel Series Special 1/6 Action Figure MJD Blind Box",
+      "url": "https://www.kikagoods.com/products/mix-angel-series-special-1-6-action-figure-mjd-blind-box",
+      "variant_id": "53135698624877",
+      "variant": "6 PCS (Whole Set)【5th Anniversary Special Offer】",
+      "old_price": 299.94,
+      "price": 299.94,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "bf26c34fa629e3df",
+      "name": "Mimiz Home Diary Series Blind Box",
+      "url": "https://www.kikagoods.com/products/mimiz-home-diary-series-blind-box",
+      "variant_id": "53384288534893",
+      "variant": "1 PC",
+      "old_price": 8.99,
+      "price": 7.64,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "bf26c34fa629e3df",
+      "name": "Mimiz Home Diary Series Blind Box",
+      "url": "https://www.kikagoods.com/products/mimiz-home-diary-series-blind-box",
+      "variant_id": "53384288567661",
+      "variant": "3 PCS",
+      "old_price": 26.97,
+      "price": 22.92,
+      "old_available": true,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "cc6dbac022e82acb",
+      "name": "Moonin Fading Childhood Series Blind Box",
+      "url": "https://www.kikagoods.com/products/moonin-fading-childhood-series-blind-box",
+      "variant_id": "53503452807533",
+      "variant": "8 PCS (Whole Set)",
+      "old_price": 127.92,
+      "price": 127.92,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "98aa74a49a717a82",
+      "name": "MayMei Let the Haunting Begin Series Plush Blind Box",
+      "url": "https://www.kikagoods.com/products/maymei-let-the-haunting-begin-series-plush-blind-box",
+      "variant_id": "67637799977325",
+      "variant": "No Box - 1 PC",
+      "old_price": 15.99,
+      "price": 15.99,
+      "old_available": false,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "98aa74a49a717a82",
+      "name": "MayMei Let the Haunting Begin Series Plush Blind Box",
+      "url": "https://www.kikagoods.com/products/maymei-let-the-haunting-begin-series-plush-blind-box",
+      "variant_id": "67637800010093",
+      "variant": "No Box - 6 PCS (Whole Set)",
+      "old_price": 95.95,
+      "price": 95.95,
+      "old_available": false,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "98aa74a49a717a82",
+      "name": "MayMei Let the Haunting Begin Series Plush Blind Box",
+      "url": "https://www.kikagoods.com/products/maymei-let-the-haunting-begin-series-plush-blind-box",
+      "variant_id": "67637800042861",
+      "variant": "1 PC",
+      "old_price": 19.19,
+      "price": 19.19,
+      "old_available": false,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "98aa74a49a717a82",
+      "name": "MayMei Let the Haunting Begin Series Plush Blind Box",
+      "url": "https://www.kikagoods.com/products/maymei-let-the-haunting-begin-series-plush-blind-box",
+      "variant_id": "67637800075629",
+      "variant": "3 PCS",
+      "old_price": 57.57,
+      "price": 57.57,
+      "old_available": false,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "98aa74a49a717a82",
+      "name": "MayMei Let the Haunting Begin Series Plush Blind Box",
+      "url": "https://www.kikagoods.com/products/maymei-let-the-haunting-begin-series-plush-blind-box",
+      "variant_id": "67637800108397",
+      "variant": "6 PCS (Whole Set)",
+      "old_price": 115.15,
+      "price": 115.15,
+      "old_available": false,
+      "available": true,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "143d4855be616076",
+      "name": "Maomaolong Wish Catcher Series Plush Blind Box",
+      "url": "https://www.kikagoods.com/products/maomaolong-wish-catcher-series-plush-blind-box",
+      "variant_id": "52875962253677",
+      "variant": "8 PCS (Whole Set)",
+      "old_price": 81.53,
+      "price": 81.53,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "1e71bd98897e307e",
+      "name": "UF Doll Drink Series 1/5 Plus BJD Action Figure Blind Box",
+      "url": "https://www.kikagoods.com/products/uf-doll-drink-series-1-5-plus-bjd-action-figure-blind-box",
+      "variant_id": "51804200337773",
+      "variant": "6 PCS (Whole Set)",
+      "old_price": 528.0,
+      "price": 528.0,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "43bfda015331b2a0",
+      "name": "The Hard Candy Institute Series 1/12 Action Figure BJD Blind Box",
+      "url": "https://www.kikagoods.com/products/the-hard-candy-institute-series-1-12-action-figure-bjd-blind-box",
+      "variant_id": "53359222358381",
+      "variant": "1 PC",
+      "old_price": 29.99,
+      "price": 29.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "kikagoods",
+      "currency": "USD"
+    },
+    {
+      "id": "a695b76529793f8e",
+      "name": "MayMei Greedy Bear Series Plush Doll Blind Box",
+      "url": "https://gotoptoy.com/products/maymei-greedy-bear-series-plush-doll-blind-box",
+      "variant_id": "46525914349718",
+      "variant": "ONE BOX(RANDOM)",
+      "old_price": 26.99,
+      "price": 26.99,
+      "old_available": false,
+      "available": true,
+      "source_id": "toptoy",
+      "currency": "USD"
+    },
+    {
+      "id": "a695b76529793f8e",
+      "name": "MayMei Greedy Bear Series Plush Doll Blind Box",
+      "url": "https://gotoptoy.com/products/maymei-greedy-bear-series-plush-doll-blind-box",
+      "variant_id": "46525914382486",
+      "variant": "SET OF 6 BOXES(NON-REPEAT)",
+      "old_price": 161.93,
+      "price": 161.93,
+      "old_available": false,
+      "available": true,
+      "source_id": "toptoy",
+      "currency": "USD"
+    },
+    {
+      "id": "92754530be5a3e94",
+      "name": "MayMei Winter Promise Series Plush Blind Box",
+      "url": "https://gotoptoy.com/products/maymei-winter-promise-series-plush-blind-box",
+      "variant_id": "67651977937046",
+      "variant": "ONE BOX(RANDOM)",
+      "old_price": 19.99,
+      "price": 29.99,
+      "old_available": false,
+      "available": false,
+      "source_id": "toptoy",
+      "currency": "USD"
+    },
+    {
+      "id": "92754530be5a3e94",
+      "name": "MayMei Winter Promise Series Plush Blind Box",
+      "url": "https://gotoptoy.com/products/maymei-winter-promise-series-plush-blind-box",
+      "variant_id": "67651977969814",
+      "variant": "SET OF 6 BOXES(NON-REPEAT)",
+      "old_price": 119.94,
+      "price": 179.93,
+      "old_available": false,
+      "available": false,
+      "source_id": "toptoy",
+      "currency": "USD"
+    },
+    {
+      "id": "5cd8bed2d1f134df",
+      "name": "Nommi Christmas Forest Feast Series Plush Doll Blind Box",
+      "url": "https://gotoptoy.com/products/nommi-christmas-forest-feast-series-plush-doll-blind-box",
+      "variant_id": "67651919970454",
+      "variant": "ONE BOX(RANDOM)",
+      "old_price": 24.99,
+      "price": 29.99,
+      "old_available": false,
+      "available": false,
+      "source_id": "toptoy",
+      "currency": "USD"
+    },
+    {
+      "id": "5cd8bed2d1f134df",
+      "name": "Nommi Christmas Forest Feast Series Plush Doll Blind Box",
+      "url": "https://gotoptoy.com/products/nommi-christmas-forest-feast-series-plush-doll-blind-box",
+      "variant_id": "67651920003222",
+      "variant": "SET OF 6 BOXES(NON-REPEAT)",
+      "old_price": 149.94,
+      "price": 179.93,
+      "old_available": false,
+      "available": false,
+      "source_id": "toptoy",
+      "currency": "USD"
+    },
+    {
+      "id": "9c50c3e10a0762b9",
+      "name": "Nommi X Heymi - The Entwined Fate Series PluIsh Doll Blind Box",
+      "url": "https://gotoptoy.com/products/nommi-x-heymi-the-entwined-fate-series-pluish-doll-blind-box",
+      "variant_id": "46330128072854",
+      "variant": "SET OF 8 BOXES(NON-REPEAT)",
+      "old_price": 87.96,
+      "price": 87.96,
+      "old_available": true,
+      "available": false,
+      "source_id": "toptoy",
+      "currency": "USD"
+    },
+    {
+      "id": "31c24946c9045ad9",
+      "name": "Nommi × Disney Dreamy Cat Tales Series Plush Doll Blind Box",
+      "url": "https://gotoptoy.com/products/nommi-disney-dreamy-cat-tales-series-plush-doll-blind-box",
+      "variant_id": "46569559130262",
+      "variant": "SET OF 6 BOXES(NON-REPEAT)",
+      "old_price": 161.93,
+      "price": 161.93,
+      "old_available": true,
+      "available": false,
+      "source_id": "toptoy",
+      "currency": "USD"
+    },
+    {
+      "id": "69562aaaf7df591d",
+      "name": "D124. Deep-Sea Tales Series Plush Charm Blind Box -K22【TOP TOY】",
+      "url": "https://toybeta.com/products/d124-deep-sea-tales-series-plush-charm-blind-box-k22-top-toy",
+      "variant_id": "67645754179734",
+      "variant": "No Box - 1 PCS",
+      "old_price": 14.99,
+      "price": 14.99,
+      "old_available": false,
+      "available": true,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "69562aaaf7df591d",
+      "name": "D124. Deep-Sea Tales Series Plush Charm Blind Box -K22【TOP TOY】",
+      "url": "https://toybeta.com/products/d124-deep-sea-tales-series-plush-charm-blind-box-k22-top-toy",
+      "variant_id": "67645754212502",
+      "variant": "No Box - Whole Set (8 PCS)",
+      "old_price": 118.0,
+      "price": 118.0,
+      "old_available": false,
+      "available": true,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "69562aaaf7df591d",
+      "name": "D124. Deep-Sea Tales Series Plush Charm Blind Box -K22【TOP TOY】",
+      "url": "https://toybeta.com/products/d124-deep-sea-tales-series-plush-charm-blind-box-k22-top-toy",
+      "variant_id": "67651934290070",
+      "variant": "No Box-1 PCS-Sample- Goofy",
+      "old_price": 14.99,
+      "price": 14.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "96af4ef4a1605465",
+      "name": "OOYEI A Little Weekend Daydream Series Plush Pendant Blind Box【TNTSpace】",
+      "url": "https://toybeta.com/products/ooyei-a-little-weekend-daydream-series-plush-pendant-blind-box-tntspace",
+      "variant_id": "67639355113622",
+      "variant": "No Box - 1 PCS",
+      "old_price": 14.5,
+      "price": 13.5,
+      "old_available": true,
+      "available": true,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "96af4ef4a1605465",
+      "name": "OOYEI A Little Weekend Daydream Series Plush Pendant Blind Box【TNTSpace】",
+      "url": "https://toybeta.com/products/ooyei-a-little-weekend-daydream-series-plush-pendant-blind-box-tntspace",
+      "variant_id": "67639355146390",
+      "variant": "No Box - Whole Set (6 PCS)",
+      "old_price": 85.0,
+      "price": 79.5,
+      "old_available": true,
+      "available": true,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "0e8db5af3df5c74f",
+      "name": "UUTOY Good Night Dream Electroplated【4th Anniversary Limited Edition – Full Electroplated】 Series Beans Mini Blind Box",
+      "url": "https://toybeta.com/products/uutoy-good-night-dream-electroplated-series-beans-mini-blind-box",
+      "variant_id": "67586528542870",
+      "variant": "No Box - Whole Set (10 PCS)",
+      "old_price": 75.0,
+      "price": 75.0,
+      "old_available": true,
+      "available": false,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "d7f71dcb0b7155da",
+      "name": "LOKIKI Luminous Fantasy Night Series Plush Blind Box",
+      "url": "https://toybeta.com/products/lokiki-luminous-fantasy-night-series-plush-blind-box",
+      "variant_id": "44781047611542",
+      "variant": "No Box - 1 PCS",
+      "old_price": 16.99,
+      "price": 14.99,
+      "old_available": true,
+      "available": true,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "d7f71dcb0b7155da",
+      "name": "LOKIKI Luminous Fantasy Night Series Plush Blind Box",
+      "url": "https://toybeta.com/products/lokiki-luminous-fantasy-night-series-plush-blind-box",
+      "variant_id": "44781047644310",
+      "variant": "No Box - Whole Set (6pcs)",
+      "old_price": 97.0,
+      "price": 89.94,
+      "old_available": true,
+      "available": true,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "1f82716f8facf484",
+      "name": "LOKIKI-Little Rascals Series Plush Blind Box",
+      "url": "https://toybeta.com/products/lokiki-little-rascals-series-plush-blind-box",
+      "variant_id": "45642662903958",
+      "variant": "No Box-1PCS",
+      "old_price": 22.9,
+      "price": 19.99,
+      "old_available": true,
+      "available": true,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "1f82716f8facf484",
+      "name": "LOKIKI-Little Rascals Series Plush Blind Box",
+      "url": "https://toybeta.com/products/lokiki-little-rascals-series-plush-blind-box",
+      "variant_id": "45642662936726",
+      "variant": "No Box-Whole Set(4PCS)",
+      "old_price": 89.0,
+      "price": 79.96,
+      "old_available": true,
+      "available": true,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "ac4261224cfe5c1f",
+      "name": "Little Chu Chu's Whimsical Ideas Series Mengli Series Beans Blind Bag",
+      "url": "https://toybeta.com/products/little-chu-chus-whimsical-ideas-series-mengli-series-beans-blind-bag",
+      "variant_id": "67651919446166",
+      "variant": "No Box-Whole Set (8 Bags/32pcs)",
+      "old_price": 79.92,
+      "price": 79.92,
+      "old_available": true,
+      "available": false,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "8a6d9d05247986b5",
+      "name": "Wendy-Echoes Of A Playful Heart Series Mini Figures Blind Box【Treein Land】",
+      "url": "https://toybeta.com/products/wendy-echoes-of-a-playful-heart-series-mini-figures-blind-box-treein-land",
+      "variant_id": "67648486342806",
+      "variant": "No Box-1PC",
+      "old_price": 8.99,
+      "price": 8.99,
+      "old_available": false,
+      "available": true,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "8a6d9d05247986b5",
+      "name": "Wendy-Echoes Of A Playful Heart Series Mini Figures Blind Box【Treein Land】",
+      "url": "https://toybeta.com/products/wendy-echoes-of-a-playful-heart-series-mini-figures-blind-box-treein-land",
+      "variant_id": "67648447611030",
+      "variant": "No Box- 2PCS",
+      "old_price": 14.99,
+      "price": 14.99,
+      "old_available": false,
+      "available": true,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "8a6d9d05247986b5",
+      "name": "Wendy-Echoes Of A Playful Heart Series Mini Figures Blind Box【Treein Land】",
+      "url": "https://toybeta.com/products/wendy-echoes-of-a-playful-heart-series-mini-figures-blind-box-treein-land",
+      "variant_id": "67648486375574",
+      "variant": "No Box-Whole Set（12PCS）",
+      "old_price": 89.99,
+      "price": 89.99,
+      "old_available": false,
+      "available": true,
+      "source_id": "toybeta",
+      "currency": "USD"
+    },
+    {
+      "id": "6b5fc72ee833213d",
+      "name": "CHIIKAWA Mini Plush Series Blind Box",
+      "url": "https://didapop.com/products/chiikawa-mini-plush-series-blind-box",
+      "variant_id": "50052430856440",
+      "variant": "1 box",
+      "old_price": 7.99,
+      "price": 7.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "didapop",
+      "currency": "USD"
+    },
+    {
+      "id": "6b5fc72ee833213d",
+      "name": "CHIIKAWA Mini Plush Series Blind Box",
+      "url": "https://didapop.com/products/chiikawa-mini-plush-series-blind-box",
+      "variant_id": "50052430889208",
+      "variant": "1 set (6 boxes) - save $4! will have duplicates",
+      "old_price": 43.99,
+      "price": 43.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "didapop",
+      "currency": "USD"
+    },
+    {
+      "id": "12d198965c0872cd",
+      "name": "GRUMPIPI Snowlight Tale Series Plush Blind Box",
+      "url": "https://didapop.com/products/grumpipi-snowlight-tale-series-plush-blind-box",
+      "variant_id": "67756592955640",
+      "variant": "1 set (4 pcs) - no box - save $4!",
+      "old_price": 75.99,
+      "price": 75.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "didapop",
+      "currency": "USD"
+    },
+    {
+      "id": "d28e02d2abefb698",
+      "name": "Kitty Pai Little Meows of Weather Blind Box",
+      "url": "https://didapop.com/products/kitty-pai-little-meows-of-weather-blind-box",
+      "variant_id": "67780259643640",
+      "variant": "1 box",
+      "old_price": 3.99,
+      "price": 3.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "didapop",
+      "currency": "USD"
+    },
+    {
+      "id": "13e1e88b399e4dde",
+      "name": "LUOXIAOHEI Daily Series Bean Blind Box",
+      "url": "https://didapop.com/products/luluxiaohei-daily-series-bean-blind-box",
+      "variant_id": "67830095413496",
+      "variant": "1 Box (3Pcs)",
+      "old_price": 9.99,
+      "price": 9.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "didapop",
+      "currency": "USD"
+    },
+    {
+      "id": "13e1e88b399e4dde",
+      "name": "LUOXIAOHEI Daily Series Bean Blind Box",
+      "url": "https://didapop.com/products/luluxiaohei-daily-series-bean-blind-box",
+      "variant_id": "67830095446264",
+      "variant": "1 set 4 boxes no outer box",
+      "old_price": 38.99,
+      "price": 38.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "didapop",
+      "currency": "USD"
+    },
+    {
+      "id": "926ef81d6da1aef7",
+      "name": "YUTA Jelly Series Blind Box",
+      "url": "https://didapop.com/products/yuta-jelly-series-blind-box",
+      "variant_id": "67684334764280",
+      "variant": "4 pcs - no box",
+      "old_price": 8.99,
+      "price": 8.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "didapop",
+      "currency": "USD"
+    },
+    {
+      "id": "926ef81d6da1aef7",
+      "name": "YUTA Jelly Series Blind Box",
+      "url": "https://didapop.com/products/yuta-jelly-series-blind-box",
+      "variant_id": "67684334797048",
+      "variant": "1 set (12 pcs) - no box",
+      "old_price": 25.99,
+      "price": 25.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "didapop",
+      "currency": "USD"
+    },
+    {
+      "id": "dd24a9de38fcabc9",
+      "name": "OCTOCAT Mystery Adventure Bean Series Blind Bag",
+      "url": "https://didapop.com/products/octocat-mystery-adventure-bean-series-blind-bag",
+      "variant_id": "50132663369976",
+      "variant": "4 bags (4 pcs)",
+      "old_price": 12.99,
+      "price": 12.99,
+      "old_available": false,
+      "available": true,
+      "source_id": "didapop",
+      "currency": "USD"
+    },
+    {
+      "id": "2d3a66df18ad0a29",
+      "name": "Yoou Jellyfish hat 600% Plush Blind Box",
+      "url": "https://didapop.com/products/yoou-jellyfish-hat-600-plush-blind-box",
+      "variant_id": "48371765510392",
+      "variant": "1 pc no box",
+      "old_price": 39.99,
+      "price": 39.99,
+      "old_available": true,
+      "available": false,
+      "source_id": "didapop",
+      "currency": "USD"
+    },
+    {
+      "id": "8da070b19208b887",
+      "name": "KOKOSA DIFFERENT GIRLS SERIES BLIND BOX",
+      "url": "https://jotoys.store/products/kokosa-different-girls-series-blind-box",
+      "variant_id": "55791853699145",
+      "variant": "Whole set of 9",
+      "old_price": 129.99,
+      "price": 129.99,
+      "old_available": false,
+      "available": true,
+      "source_id": "jotoys-official",
+      "currency": "USD"
+    },
+    {
+      "id": "a166bde30c60de3c",
+      "name": "SMISKI SERIES2 スミスキーシリーズ2",
+      "url": "https://www.sonnyangelstore.com/products/smiski-series2",
+      "variant_id": "42442629644343",
+      "variant": "スミスキー シリーズ 2",
+      "old_price": 1100.0,
+      "price": 1100.0,
+      "old_available": false,
+      "available": true,
+      "source_id": "sonnyangel-jp",
+      "currency": "JPY"
+    },
+    {
+      "id": "a166bde30c60de3c",
+      "name": "SMISKI SERIES2 スミスキーシリーズ2",
+      "url": "https://www.sonnyangelstore.com/products/smiski-series2",
+      "variant_id": "42442629677111",
+      "variant": "スミスキー シリーズ 2 アソートボックス",
+      "old_price": 13200.0,
+      "price": 13200.0,
+      "old_available": false,
+      "available": true,
+      "source_id": "sonnyangel-jp",
+      "currency": "JPY"
+    },
+    {
+      "id": "658475c635cc34c9",
+      "name": "バースデーギフト",
+      "url": "https://www.sonnyangelstore.com/products/birthdaygift",
+      "variant_id": "31142202441783",
+      "variant": "バースデーギフト",
+      "old_price": 1300.0,
+      "price": 1300.0,
+      "old_available": true,
+      "available": false,
+      "source_id": "sonnyangel-jp",
+      "currency": "JPY"
+    }
+  ],
+  "product_link_checks": [
+    {
+      "id": "8274fbeb235ee471",
+      "name": "Honkai Star Rail Universal Arcadia Series Tumbler Blind Box【Shipped in Nov./Dec. 2026】",
+      "url": "https://www.kikagoods.com/products/honkai-star-rail-universal-arcadia-series-tumbler-blind-box",
+      "status": 200,
+      "final_url": "https://www.kikagoods.com/products/honkai-star-rail-universal-arcadia-series-tumbler-figure-blind-box",
+      "page_title": "Honkai Star Rail Universal Arcadia Series Tumbler Figure Blind Box &ndash; KIKAGoods",
+      "redirected": true
+    },
+    {
+      "id": "3bbd912153194a42",
+      "name": "Ninita Mirror Paradise Series Blind Box",
+      "url": "https://www.kikagoods.com/products/ninita-mirror-paradise-series-blind-box",
+      "status": 404,
+      "final_url": "https://www.kikagoods.com/products/ninita-mirror-paradise-series-blind-box",
+      "page_title": "404 Not Found &ndash; KIKAGoods",
+      "redirected": false
+    },
+    {
+      "id": "4fd4be678fd9536c",
+      "name": "SyncyLand OOTD Series Special 1/6 Action Figure BJD Blind Box",
+      "url": "https://www.kikagoods.com/products/syncyland-ootd-series-special-1-6-action-figure-bjd-blind-box",
+      "status": 404,
+      "final_url": "https://www.kikagoods.com/products/syncyland-ootd-series-special-1-6-action-figure-bjd-blind-box",
+      "page_title": "404 Not Found &ndash; KIKAGoods",
+      "redirected": false
+    },
+    {
+      "id": "49f7699d04017f8e",
+      "name": "CRAYON SHINCHAN  Retro Daily Life Series Figures Blind Box",
+      "url": "https://gotoptoy.com/products/crayon-shinchan-retro-daily-life-series-figures-blind-box",
+      "status": 404,
+      "final_url": "https://gotoptoy.com/products/crayon-shinchan-retro-daily-life-series-figures-blind-box",
+      "page_title": "404 Not Found &ndash; TOPTOY",
+      "redirected": false
+    },
+    {
+      "id": "96cb2fc96a2dcc68",
+      "name": "Disney Pinocchio Growth Diary Series Blind Box",
+      "url": "https://gotoptoy.com/products/disney-pinocchio-growth-diary-series-blind-box",
+      "status": 404,
+      "final_url": "https://gotoptoy.com/products/disney-pinocchio-growth-diary-series-blind-box",
+      "page_title": "404 Not Found &ndash; TOPTOY",
+      "redirected": false
+    },
+    {
+      "id": "b5b9abde721909bf",
+      "name": "POP BEAN Hk and Friends Fried Shrimp Series Mini Blind Box",
+      "url": "https://toybeta.com/products/pop-bean-hk-and-friends-fried-shrimp-series-mini-blind-box",
+      "status": 404,
+      "final_url": "https://toybeta.com/products/pop-bean-hk-and-friends-fried-shrimp-series-mini-blind-box",
+      "page_title": "404 Not Found &ndash; Toybeta",
+      "redirected": false
+    },
+    {
+      "id": "38b921675ccc731e",
+      "name": "SuzhouSilk Museum X Molinta-Dream Vault Series Figures Blind Box",
+      "url": "https://toybeta.com/products/suzhousilk-museum-x-molint-dream-vault-series-figures-blind-box",
+      "status": 404,
+      "final_url": "https://toybeta.com/products/suzhousilk-museum-x-molint-dream-vault-series-figures-blind-box",
+      "page_title": "404 Not Found &ndash; Toybeta",
+      "redirected": false
+    },
+    {
+      "id": "33b949893ae095bf",
+      "name": "Mowdo After School Escape Series Plush Pendant Blind Box【TNTSpace】",
+      "url": "https://toybeta.com/products/mowdo-after-school-escape-series-plush-pendant-blind-box-tntspace",
+      "status": 404,
+      "final_url": "https://toybeta.com/products/mowdo-after-school-escape-series-plush-pendant-blind-box-tntspace",
+      "page_title": "404 Not Found &ndash; Toybeta",
+      "redirected": false
+    },
+    {
+      "id": "33a6fa51fe3181f9",
+      "name": "LuLu The Piggy Horror Story Series-Moody Boo Plush Keychain Blind Box【TOYZERO】",
+      "url": "https://toybeta.com/products/lulu-the-piggy-horror-story-series-moody-boo-plush-keychain-blind-box-toyzero",
+      "status": 404,
+      "final_url": "https://toybeta.com/products/lulu-the-piggy-horror-story-series-moody-boo-plush-keychain-blind-box-toyzero",
+      "page_title": "404 Not Found &ndash; Toybeta",
+      "redirected": false
+    },
+    {
+      "id": "e5ccfcb412a5c06c",
+      "name": "【B.Duck&TB】Cimmy 150% Crush On You Series Blind Box【WOOO】",
+      "url": "https://toybeta.com/products/cimmy-150-crush-on-you-series-blind-box",
+      "status": 404,
+      "final_url": "https://toybeta.com/products/cimmy-150-crush-on-you-series-blind-box",
+      "page_title": "404 Not Found &ndash; Toybeta",
+      "redirected": false
+    },
+    {
+      "id": "43052c89d30dfc66",
+      "name": "DiMieMie \"Fools' Paradise\" Series Beans Blind Bag",
+      "url": "https://toybeta.com/products/dimiemie-fools-paradise-series-beans-blind-bag",
+      "status": 404,
+      "final_url": "https://toybeta.com/products/dimiemie-fools-paradise-series-beans-blind-bag",
+      "page_title": "404 Not Found &ndash; Toybeta",
+      "redirected": false
+    },
+    {
+      "id": "bc81260662013cc7",
+      "name": "JIANGJIANG-\"JIANG\" Sweet Lab Series Beans Blind Bag",
+      "url": "https://toybeta.com/products/jiang-s-sweet-lab-series-beans-blind-bag",
+      "status": 404,
+      "final_url": "https://toybeta.com/products/jiang-s-sweet-lab-series-beans-blind-bag",
+      "page_title": "404 Not Found &ndash; Toybeta",
+      "redirected": false
+    },
+    {
+      "id": "dcc0d31477e5cb98",
+      "name": "Pitty Pocket Pitty Series Mini Beans Blind Bag",
+      "url": "https://toybeta.com/products/pitty-pocket-pitty-series-mini-beans-blind-bag",
+      "status": 404,
+      "final_url": "https://toybeta.com/products/pitty-pocket-pitty-series-mini-beans-blind-bag",
+      "page_title": "404 Not Found &ndash; Toybeta",
+      "redirected": false
+    },
+    {
+      "id": "daaa8904a10b1034",
+      "name": "Guoguozhu-So Cute Indeed Series Mini Beans Blind Bag",
+      "url": "https://toybeta.com/products/guoguozhu-so-cute-indeed-series-mini-beans-blind-bag",
+      "status": 404,
+      "final_url": "https://toybeta.com/products/guoguozhu-so-cute-indeed-series-mini-beans-blind-bag",
+      "page_title": "404 Not Found &ndash; Toybeta",
+      "redirected": false
+    },
+    {
+      "id": "8c65c568c4ad9dce",
+      "name": "[PRE-ORDER]Nommi × Zootopia Metropolis Adventure Series 5-Joint Articulated Doll Blind Box",
+      "url": "https://didapop.com/products/pre-ordernommi-zootopia-metropolis-adventure-series-5-joint-articulated-doll-blind-box",
+      "status": 404,
+      "final_url": "https://didapop.com/products/pre-ordernommi-zootopia-metropolis-adventure-series-5-joint-articulated-doll-blind-box",
+      "page_title": "404 Not Found &ndash; DidaPop",
+      "redirected": false
+    },
+    {
+      "id": "5eb0f317db1c3299",
+      "name": "SmileGogo | Lucky Cat Slow Rising, Pink and White Version Only, Stress Relief",
+      "url": "https://irissquishy.com/products/smilegogo-lucky-cat-slow-rising-squishy-pink-and-white-version-only-stress-relief",
+      "status": 404,
+      "final_url": "https://irissquishy.com/products/smilegogo-lucky-cat-slow-rising-squishy-pink-and-white-version-only-stress-relief",
+      "page_title": "404 Not Found &ndash; Iris Squishy",
+      "redirected": false
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Great Power Fortune Cat Go All Out for Gold Series Blind Box",
+      "url": "https://www.kikagoods.com/products/great-power-fortune-cat-go-all-out-for-gold-series-blind-box",
+      "type": "Blind Box",
+      "source_id": "kikagoods",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "MayMei Greedy Bear Series Plush Blind Box",
+      "url": "https://www.kikagoods.com/products/maymei-greedy-bear-series-plush-blind-box",
+      "type": "Blind Box",
+      "source_id": "kikagoods",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Alien Stage 'AaD' Series Acrylic Coaster Blind Box",
+      "url": "https://www.kikagoods.com/products/alien-stage-aad-series-acrylic-coaster-blind-box",
+      "type": "Blind Box",
+      "source_id": "kikagoods",
+      "disposition": "Accessory/card scope review; not assumed to be a toy"
+    },
+    {
+      "title": "Alien Stage 'AaD' Series Polaroid Photocard Blind Box",
+      "url": "https://www.kikagoods.com/products/alien-stage-aad-series-polaroid-photocard-blind-box",
+      "type": "Blind Box",
+      "source_id": "kikagoods",
+      "disposition": "Accessory/card scope review; not assumed to be a toy"
+    },
+    {
+      "title": "Alien Stage 'AaD' Series Character Badge Blind Box",
+      "url": "https://www.kikagoods.com/products/alien-stage-aad-series-character-badge-blind-box",
+      "type": "Blind Box",
+      "source_id": "kikagoods",
+      "disposition": "Accessory/card scope review; not assumed to be a toy"
+    },
+    {
+      "title": "Honkai Star Rail Universal Arcadia Series Tumbler Figure Blind Box",
+      "url": "https://www.kikagoods.com/products/honkai-star-rail-universal-arcadia-series-tumbler-figure-blind-box",
+      "type": "Blind Box",
+      "source_id": "kikagoods",
+      "disposition": "Renamed page; existing product, not a new addition"
+    },
+    {
+      "title": "Piropiroo The Most Wonderful Wait Series Plush Blind Box",
+      "url": "https://gotoptoy.com/products/piropiroo-the-most-wonderful-wait-series-plush-blind-box",
+      "type": "Blind Boxes",
+      "source_id": "toptoy",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Nommi × Disney 101 Dalmatians Crossbody Bag",
+      "url": "https://gotoptoy.com/products/nommi-disney-101-dalmatians-crossbody-bag",
+      "type": "Blind Boxes",
+      "source_id": "toptoy",
+      "disposition": "Excluded non-toy bag"
+    },
+    {
+      "title": "Nommi × Disney Marie Crossbody Bag",
+      "url": "https://gotoptoy.com/products/nommi-disney-marie-crossbody-bag",
+      "type": "Blind Boxes",
+      "source_id": "toptoy",
+      "disposition": "Excluded non-toy bag"
+    },
+    {
+      "title": "Ultraman Sleeping Kaiju Blind Box",
+      "url": "https://toyzeroplus.com/products/ultraman-sleeping-kaiju-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Esther Bunny-Long Legs Sweetheart Plush Keychain Series(Blind Box)",
+      "url": "https://toyzeroplus.com/products/esther-bunny-long-legs-sweetheart-plush-keychain-seriesblind-box",
+      "type": "",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "WASABI BEAR B3K VIBE Series Plush Keychain Blind Box",
+      "url": "https://toyzeroplus.com/products/wasabi-bear-b3k",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Maltese - My Little Dinosaur Island Series (Blind Box)",
+      "url": "https://toyzeroplus.com/products/maltese-my-little-dinosaur-island-series-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Nudaeng - Weekly Life Plush Keychain Blind Box",
+      "url": "https://toyzeroplus.com/products/nudaeng-weekly-life-plush-keychain-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "PP X MONSTER PUPPY BROS Vol.2- PVC Plush Keychain Series (Blindbox)",
+      "url": "https://toyzeroplus.com/products/pp-x-monster-puppy-bros-vol-2-pvc-plush-keychain-series-blindbox",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Ultraman Kaiju Daruma Series Vol.1",
+      "url": "https://toyzeroplus.com/products/ultraman-kaiju-dharma-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Brunch Brother-Cuteness in Delivery Series Plush Keychain Blindbox",
+      "url": "https://toyzeroplus.com/products/brunch-brother-cuteness-in-delivery-series-plush-keychain-blindbox",
+      "type": "",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Esther Bunny - Fashion in Motion Plush Keychain Series (Blindbox)",
+      "url": "https://toyzeroplus.com/products/esther-bunny-fashion-in-motion-plush-keychain-series-blindbox",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "MOFFY'S Magic Tailoring Shop - The Magic Furry Mewky(Blind Box)",
+      "url": "https://toyzeroplus.com/products/moffys-magic-tailoring-shop-the-magic-furry-mewkyblind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "PP X MONSTER Lucky Cat Keychain Series",
+      "url": "https://toyzeroplus.com/products/pp-x-monster-lucky-cat-keychain-series",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Brunch Brother - Stuffed Toast Mini Series (Blind Box)",
+      "url": "https://toyzeroplus.com/products/brunch-brother-stuffed-toast-mini-series-blind-box",
+      "type": "",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "BANGGRI Generic Series - Lucky Clover Plush Keychain (Blind Box)",
+      "url": "https://toyzeroplus.com/products/banggri-generic-series-lucky-clover-plush-keychain-blind-box",
+      "type": "",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "WASABI BEAR - Carry Me With You Series Blindbox",
+      "url": "https://toyzeroplus.com/products/wasabi-bear-carry-me-with-you",
+      "type": "Art Toy",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "PP X MONSTER PUPPY BROS - PVC Plush Keychain Series (Blindbox)",
+      "url": "https://toyzeroplus.com/products/pp-x-monster-puppy-bros-pvc-plush-keychain-series-blindbox",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Butterbear - Little Wishes Series (Blindbox)",
+      "url": "https://toyzeroplus.com/products/butterbear-little-wishes-series-blindbox",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Esther Bunny Holiday Vibe Series Blind Box",
+      "url": "https://toyzeroplus.com/products/esther-bunny-holiday-vibe-series-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "WASABI BEAR Flavor Series Plush Keychain Blind Box",
+      "url": "https://toyzeroplus.com/products/wasabi-bear-flavor-series-plush-keychain-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "PP X MONSTER Sparkle Lucky Kitten Daruma Blind Box",
+      "url": "https://toyzeroplus.com/products/ppbb0197",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Maltese - Life Is Like A Drama Series (Blind Box)",
+      "url": "https://toyzeroplus.com/products/malt0002",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Esther Bunny - Acrylic Keychain (Random)",
+      "url": "https://toyzeroplus.com/products/esbn0032",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Iron maneki nekok mini vol.1",
+      "url": "https://toyzeroplus.com/products/iron-maneki-nekok-mini-vol-1",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Foodie Dinosaur - Fujiyama Jr. Vol. 2 (Blind Box)",
+      "url": "https://toyzeroplus.com/products/foodie-dinosaur-fujiyama-jr-vol-2-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Esther Bunny Sweet Date Plush Keychain Blind Box Series",
+      "url": "https://toyzeroplus.com/products/esther-bunny-sweet-date-plush-keychain-blind-box-series",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Butterbear - The Sweet Life Series (Blind Box)",
+      "url": "https://toyzeroplus.com/products/butterbear-the-sweet-life-series-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Foodie Dinosaur - Fujiyamy",
+      "url": "https://toyzeroplus.com/products/foodie-dinosaur-fujiyamy",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "PP X MONSTER Lucky Kitten Daruma Blind Box",
+      "url": "https://toyzeroplus.com/products/pp-x-monster-lucky-kitten-daruma-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Esther Bunny Flower Plush Blind Box Series  ",
+      "url": "https://toyzeroplus.com/products/esther-bunny-flower-plush-blind-box-series",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Maltese - Our World's Best Friends Series (Blind Box)",
+      "url": "https://toyzeroplus.com/products/maltese-friendship-series-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "ZIZONE Original Plush Blind Box",
+      "url": "https://toyzeroplus.com/products/zizone-original-plush-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Foodie Dinosaur - Arylic Keychain Blind Box (Random)",
+      "url": "https://toyzeroplus.com/products/foodie-dinosaur-arylic-keychain-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "SOFTSTEEL Iron Daruma MINI Vol.1 Blind Box",
+      "url": "https://toyzeroplus.com/products/softsteel-mini-vol-1",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "DogDogBengPeng - Fujiyama Jr. Blind Box",
+      "url": "https://toyzeroplus.com/products/fujiyama-jr-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Foodie Dinosaur - Space Travel Blind Box",
+      "url": "https://toyzeroplus.com/products/foodie-dinosaur-space-travel-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "PP X MONSTER Rainbow Daruma Blind Box (3rd Series)",
+      "url": "https://toyzeroplus.com/products/pp-x-monster-rainbow-daruma-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Dog Together - Hope & Pray Blind Box",
+      "url": "https://toyzeroplus.com/products/dog-together-hope-pray-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "PP X MONSTER Daruma Guardian Blind Box (2nd Series)",
+      "url": "https://toyzeroplus.com/products/pp-x-monster-daruma-guardian-blind-box",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "PP X MONSTER Lucky Daruma Blind Box (1st Series)",
+      "url": "https://toyzeroplus.com/products/daruma-pp-baby-blind-box-set",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "NGAEW NGAEW Blind Box Set",
+      "url": "https://toyzeroplus.com/products/ngaew-ngaew-blind-box-set",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "吃貨恐龍盲抽系列 - 第二代 冒險旅程 Foodie Dinosaur - Blind Box 2nd Generation - Adventure Journey",
+      "url": "https://toyzeroplus.com/products/foodie-dinosaur-blind-box-2nd-generation-adventure-journey",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Dog together 三週年福袋",
+      "url": "https://toyzeroplus.com/products/dog-together-lucky-bag",
+      "type": "Blind Box",
+      "source_id": "toyzero",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Kasa I'm Not A Baddie Series Figures Blind Box",
+      "url": "https://toybeta.com/products/kasa-im-not-a-baddie-series-blind-box-figures",
+      "type": "",
+      "source_id": "toybeta",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Rayan ROOM In My Heart Series Figures Blind Box【TNTSpace】",
+      "url": "https://toybeta.com/products/rayan-room-in-my-heart-series-figures-blind-box-tntspace",
+      "type": "",
+      "source_id": "toybeta",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Angry Molly [PLAY] D103. Princess Series Plush Pendant Blind Box",
+      "url": "https://toybeta.com/products/angry-molly-play-d103-princess-series-plush-pendant-blind-box",
+      "type": "",
+      "source_id": "toybeta",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Peach Riot Sugar Mode Series Figures Blind Box",
+      "url": "https://toybeta.com/products/peach-riot-sugar-mode-series-figures-blind-box",
+      "type": "",
+      "source_id": "toybeta",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "GUMI Sweet Spring Tales Series Beans Blind Bag",
+      "url": "https://toybeta.com/products/gumi-sweet-spring-tales-series-beans-blind-bag",
+      "type": "",
+      "source_id": "toybeta",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "TUTUBEAR-V3 Matisse's Summer Series Beans Blind Bag",
+      "url": "https://toybeta.com/products/tutu-bear-matisses-summer-series-beans-blind-bag",
+      "type": "",
+      "source_id": "toybeta",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Dream Builder Girls Figure Blind Box",
+      "url": "https://didapop.com/products/dream-builder-girls-figure-blind-box",
+      "type": "",
+      "source_id": "didapop",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Samuel Surprise Christmas Eve Blind Box",
+      "url": "https://didapop.com/products/samuel-surprise-christmas-eve-blind-box",
+      "type": "",
+      "source_id": "didapop",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "【Pre-Order】POP MART The Monsters Labubu Fashion outfits motorcycle clothes",
+      "url": "https://didapop.com/products/pre-order-pop-mart-the-monsters-labubu-fashion-outfits-motorcycle-clothes",
+      "type": "Blind Box",
+      "source_id": "didapop",
+      "disposition": "Excluded doll clothing"
+    },
+    {
+      "title": "【Pre-Order】POP MART The Monsters Labubu Fashion outfits",
+      "url": "https://didapop.com/products/pre-order-pop-mart-the-monsters-labubu-fashion-outfits",
+      "type": "Blind Box",
+      "source_id": "didapop",
+      "disposition": "Excluded doll clothing"
+    },
+    {
+      "title": "【Pre-Order】Labubu GDragon Clothes labubu outfits",
+      "url": "https://didapop.com/products/pre-order-labubu-gdragon-clothes-labubu-outfits",
+      "type": "Blind Box",
+      "source_id": "didapop",
+      "disposition": "Excluded doll clothing"
+    },
+    {
+      "title": "☃️ Snowman (2 colors) [Lisa Squishy]",
+      "url": "https://pawmiga.myshopify.com/products/☃️-snowman-2-colors-lisa-squishy",
+      "type": "",
+      "source_id": "pawmiga",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Beady Eyes Donut (2 colors) [Lisa Squishy]",
+      "url": "https://pawmiga.myshopify.com/products/beady-eyes-donut-2-colors-lisa-squishy",
+      "type": "",
+      "source_id": "pawmiga",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Bunny Berry Bun (Strawberry) [Kira Squishy]",
+      "url": "https://pawmiga.myshopify.com/products/bunny-berry-bun-kira-squishy",
+      "type": "",
+      "source_id": "pawmiga",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "☃️ Snowman Steamed Bun (2 styles) [Lisa Squishy]",
+      "url": "https://pawmiga.myshopify.com/products/☃️-snowman-steamed-bun-2-styles-lisa-squishy",
+      "type": "",
+      "source_id": "pawmiga",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "☃️ Snowman Travel in Thailand (Rainbow Edition) [Lisa Squishy]",
+      "url": "https://pawmiga.myshopify.com/products/☃️-snowman-travel-in-thailand-rainbow-edition-lisa-squishy",
+      "type": "",
+      "source_id": "pawmiga",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "☃️ Snowman Travel in Thailand (Purple Edition) [Lisa Squishy]",
+      "url": "https://pawmiga.myshopify.com/products/☃️-snowman-travel-in-thailand-purple-edition-lisa-squishy",
+      "type": "",
+      "source_id": "pawmiga",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "Minecraft 3D Foam Bag Clip, Series 6",
+      "url": "https://anthillshop.com/products/minecraft-3d-foam-bag-clip-series-6",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Doraemon mystery eraser blind box 8 beloved characters",
+      "url": "https://anthillshop.com/products/k-wonderland-doraemon-mystery-eraser-blind-box-8-beloved-characters",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Minecraft - Series 5 - 3D Foam Bag Clip Blind Bag",
+      "url": "https://anthillshop.com/products/minecraft-series-5-3d-foam-bag-clip-blind-bag",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Lamatama S2, Mystical Pocket Oracle",
+      "url": "https://anthillshop.com/products/lamatama-s2-mystical-pocket-oracle",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Lamatama, Mystical Pocket Oracle Series 1",
+      "url": "https://anthillshop.com/products/lamatama-mystical-pocket-oracle-series-1",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Momoji Out of This World Plushie",
+      "url": "https://anthillshop.com/products/momoji-out-of-this-world-plushie",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Momiji Message Blind Box",
+      "url": "https://anthillshop.com/products/momiji-message-blind-box",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Patissticker - Dog Meringue Series",
+      "url": "https://anthillshop.com/products/patissticker-dog-meringue-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Monchhichi Acrylic Blind Box Keychains",
+      "url": "https://anthillshop.com/products/aliquantum-international-inc-mcc-acrylic-bb-keychains-w-chaser",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "K-Wonderland - Pingu Hide & Seek Plush Keyring Blind Random Box- Premium",
+      "url": "https://anthillshop.com/products/k-wonderland-pingu-hide-and-seek-plush-keyring-blind-random-box-premium",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Blind Box Peanut Familia Figure by Smoko",
+      "url": "https://anthillshop.com/products/blind-box-peanut-familia-figure-by-smoko",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Smoko Astro Cat Blind Box",
+      "url": "https://anthillshop.com/products/smoko-astro-cat-blind-box",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sonny Angel x Shu Uemura: Makeup Angel Series",
+      "url": "https://anthillshop.com/products/sonny-angel-x-shu-uemura-makeup-angel-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Smoko and Friends Mahjong Blind Box",
+      "url": "https://anthillshop.com/products/smoko-and-friends-mahjong-blind-box",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Dreams USA Sonny Angel Cherry Blossom HIPPERS",
+      "url": "https://anthillshop.com/products/dreams-usa-sonny-angel-cherry-blossom-hippers",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Minifigure Construction Series",
+      "url": "https://anthillshop.com/products/smiski-minifigure-construction-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Kewpie Holding Things BB",
+      "url": "https://anthillshop.com/products/kewpie-holding-things-bb",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Chainsaw Man Reze 3D Foam Bag Clip Series",
+      "url": "https://anthillshop.com/products/chainsaw-man-reze-3d-foam-bag-clip-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Littlest Pet Shop Series 2 Blacklight Figure",
+      "url": "https://anthillshop.com/products/littlest-pet-shop-series-2-blacklight-figure",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sonny Angel Birthday Gift Series",
+      "url": "https://anthillshop.com/products/sonny-angel-birthday-gift-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Fuzzy Cake Keychain Blind Box (Random Style)",
+      "url": "https://anthillshop.com/products/fuzzy-cake-keychain-blind-box-random-style",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Zorbitz Coconut Squishy Ball",
+      "url": "https://anthillshop.com/products/zorbitz-coconut-squishy-ball",
+      "type": "Sensory Toys",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Squishable / Micro Pigeon Plush",
+      "url": "https://anthillshop.com/products/squishable-micro-pigeon-plush",
+      "type": "Bag Charm",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Squishable / Micro Mushroom 3\" Plush",
+      "url": "https://anthillshop.com/products/squishable-micro-mushroom-3-plush",
+      "type": "Bag Charm",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Magical Meadow Sidekick Blind Boxes",
+      "url": "https://anthillshop.com/products/momiji-magical-meadow-sidekick-blind-boxes",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sugar Plum Wood Pendant Doll Blind Boxes",
+      "url": "https://anthillshop.com/products/momiji-sugar-plum-wood-pendant-doll-blind-boxes",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Bubble Eggs PLUS Series Blind Box",
+      "url": "https://anthillshop.com/products/bubble-eggs-plus-series-blind-box",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Advent Calendar Squish-Amals",
+      "url": "https://anthillshop.com/products/advent-calendar-squish-amals",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Taba-Licious Pyramid Squeeze Toy",
+      "url": "https://anthillshop.com/products/taba-licious-pyramid-squeeze-toy",
+      "type": "Sensory Toys",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Smoko Miffy Goes Outside Blind Box",
+      "url": "https://anthillshop.com/products/miffy-goes-outside-blind-box",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Smoko Miffy Goes Pastel Blind Box Figure",
+      "url": "https://anthillshop.com/products/smoko-miffy-goes-pastel-blind-box-figure",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Smoko Miffy & Melanie In The Sky Blind Box Figure",
+      "url": "https://anthillshop.com/products/smoko-miffy-melanie-in-the-sky-blind-box-figure",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Super Duper Sugar Squisher - Mini Ducks 2-Pack",
+      "url": "https://anthillshop.com/products/super-duper-sugar-squisher-mini-ducks-2-pack",
+      "type": "Sensory Toys",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Hello Duck Dumplin Mini Tie dye Mystery Squishy Toy",
+      "url": "https://anthillshop.com/products/hello-duck-dumplin-mini-tie-dye-mystery-squishy-toy",
+      "type": "Sensory Toys",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Hello DuckDumpling Mystery Sparkle Squishy Toy",
+      "url": "https://anthillshop.com/products/hello-duckdumpling-mystery-squishy-toy",
+      "type": "Sensory Toys",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Squish-A-Boo Squishy",
+      "url": "https://anthillshop.com/products/squish-a-boo-squishy",
+      "type": "Sensory Toys",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Cutie Collectibles | Very Berry Babies - Blind Bag",
+      "url": "https://anthillshop.com/products/cutie-collectibles-very-berry-babies-blind-bag",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Star Wars™ Cosbi Rider Bobble-Head Collection",
+      "url": "https://anthillshop.com/products/star-wars™-cosbi-rider-bobble-head-collection",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sanrio Hello Kitty & Friends Plush Keychain Camping Blind Box",
+      "url": "https://anthillshop.com/products/sanrio-hello-kitty-friends-plush-keychain-camping",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sanrio Hello Kitty & Friends Plush Circus Surprise",
+      "url": "https://anthillshop.com/products/sanrio-hello-kitty-friends-plush-circus-surprise",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Fuggler™ Rad Edition Collectible Figures",
+      "url": "https://anthillshop.com/products/fuggler™-rad-edition-collectible-figures",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "World's Smallest Monchhichi Flocked Collectible Figure Blind Box",
+      "url": "https://anthillshop.com/products/worlds-smallest-monchhichi-flocked-collectible-figure-blind-box",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Pingu Random Squish Keyring",
+      "url": "https://anthillshop.com/products/pingu-random-squish-keyring",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "YuMe Hero Box Spider-Man - Attack Series",
+      "url": "https://anthillshop.com/products/yume-hero-box-spider-man-attack-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Saint Seiya Galaxy Version 01 The Legacy of Sagittarius",
+      "url": "https://anthillshop.com/products/saint-seiya-galaxy-version-01-the-legacy-of-sagittarius",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Blokees Hatsune Miku DaaVibe 01 Terrace Party",
+      "url": "https://anthillshop.com/products/blokees-hatsune-miku-daavibe-01-terrace-party",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Rolife Surprise Figure Dolls - Yozco Mood Diary RAXX",
+      "url": "https://anthillshop.com/products/rolife-surprise-figure-dolls-yozco-mood-diary-raxx",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Rolife Nanci Treehouse Party Blind Box NEXX",
+      "url": "https://anthillshop.com/products/rolife-nanci-treehouse-party-blind-box-nexx",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Rolife Nanci The 24 Solar Terms Blind Box of ZFXX",
+      "url": "https://anthillshop.com/products/rolife-nanci-the-24-solar-terms-blind-box-of-zfxx",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Rolife BabyNanci Surprise Figure Dolls - Milk Tea Series NDXX",
+      "url": "https://anthillshop.com/products/rolife-babynanci-surprise-figure-dolls-milk-tea-series-ndxx",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Rolife Surprise Figure Dolls - Baby Nanci Fruits NBXX",
+      "url": "https://anthillshop.com/products/rolife-surprise-figure-dolls-baby-nanci-fruits-nbxx",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Rolife Nanci's Best Wishes Series Surprise Figure Dolls ZSXX",
+      "url": "https://anthillshop.com/products/rolife-nancis-best-wishes-series-surprise-figure-dolls-zsxx",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Rolife Surprise Plush Pendant - Charline's Forest Hide & Seek MXAXX",
+      "url": "https://anthillshop.com/products/rolife-surprise-plush-pendant-charlines-forest-hide-seek-mxaxx",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Rolife Nanci's Tea Time Kitties Surprise Plush Dolls MNDXX",
+      "url": "https://anthillshop.com/products/rolife-nancis-tea-time-kitties-surprise-plush-dolls-mndxx",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Rolife Surprise Plush Dolls - Nanci's Shining Bunny MNBXX",
+      "url": "https://anthillshop.com/products/rolife-surprise-plush-dolls-nanci-colorful-chocolate-cutie-bears-mnaxx-copy",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Rolife Surprise Plush Dolls - Nanci Colorful Chocolate Cutie Bears MNAXX",
+      "url": "https://anthillshop.com/products/rolife-surprise-plush-dolls-nanci-colorful-chocolate-cutie-bears-mnaxx",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "HIPPERS Monchhichi COLORS: Wink Series",
+      "url": "https://anthillshop.com/products/hippers-monchhichi-colors-wink-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "HIPPERS Mofusand: Vol. 2",
+      "url": "https://anthillshop.com/products/hippers-mofusand-vol-2",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Strap Accessory - Series 4",
+      "url": "https://anthillshop.com/products/smiski-strap-accessory-series-4",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Cutie Collectibles -Colorful Bunny Costume Babies- Blind Bag",
+      "url": "https://anthillshop.com/products/cutie-collectibles-colorful-bunny-costume-babies-blind-bag",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Yoga Series",
+      "url": "https://anthillshop.com/products/smiski-yoga-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Sunday Series",
+      "url": "https://anthillshop.com/products/smiski-sunday-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Moving Series",
+      "url": "https://anthillshop.com/products/smiski-moving-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Dressing Series",
+      "url": "https://anthillshop.com/products/smiski-dressing-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Bed Series",
+      "url": "https://anthillshop.com/products/smiski-bed-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Museum Series",
+      "url": "https://anthillshop.com/products/smiski-museum-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Living Series",
+      "url": "https://anthillshop.com/products/smiski-living-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Exercise Series",
+      "url": "https://anthillshop.com/products/smiski-exercise-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Bath Series",
+      "url": "https://anthillshop.com/products/smiski-bath-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Toilet Series",
+      "url": "https://anthillshop.com/products/smiski-toilet-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Work Series",
+      "url": "https://anthillshop.com/products/smiski-work-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Birthday Series",
+      "url": "https://anthillshop.com/products/smiski-birthday-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "SMISKI Mini Figure Series 1",
+      "url": "https://anthillshop.com/products/smiski-mini-figure-series-1",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sonny Angel Vegetable Series",
+      "url": "https://anthillshop.com/products/sonny-angel-fruit",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sonny Angel Animal Series 4",
+      "url": "https://anthillshop.com/products/sonny-angel-animal-series-3-copy",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sonny Angel Animal Series 3",
+      "url": "https://anthillshop.com/products/sonny-angel-animal-series-3",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sonny Angel Flower Series",
+      "url": "https://anthillshop.com/products/sonny-angel-flower-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sonny Angel Snack Series",
+      "url": "https://anthillshop.com/products/sonny-angel-sweets-series-copy",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sonny Angel Sweets Series",
+      "url": "https://anthillshop.com/products/sonny-angel-sweets-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sonny Angel Marine Series",
+      "url": "https://anthillshop.com/products/sonny-angel-marine-series",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sonny Angel Animal Series 2",
+      "url": "https://anthillshop.com/products/sonny-angel-animal-series-1-copy",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sonny Angel Animal Series 1",
+      "url": "https://anthillshop.com/products/sonny-angel-animal-series-1",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Sonny Angel Fruit Series",
+      "url": "https://anthillshop.com/products/asset-pack-30424825858-example-product-3",
+      "type": "Blind Boxes",
+      "source_id": "anthill",
+      "disposition": "Expansion lead: source intentionally limited to Molynk"
+    },
+    {
+      "title": "Blind Box Collector's Bundle",
+      "url": "https://jotoys.store/products/blind-box-collectors-bundle",
+      "type": "product",
+      "source_id": "jotoys-official",
+      "disposition": "Excluded mixed-product bundle"
+    },
+    {
+      "title": "OYO Portable Bag Mini Series Plush Blind Box",
+      "url": "https://jotoys.store/products/oyo-portable-bag-mini-series-plush-blind-box",
+      "type": "",
+      "source_id": "jotoys-official",
+      "disposition": "Review exact product and photograph before import"
+    },
+    {
+      "title": "KOKOSA Fruit Party Series Blind Bag",
+      "url": "https://jotoys.store/products/kokosa-fruit-shop-cute-grain-series",
+      "type": "",
+      "source_id": "jotoys-official",
+      "disposition": "Review exact product and photograph before import"
+    }
+  ],
+  "heartfelt": {
+    "pages": [
+      {
+        "url": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies?limit=72&page=1",
+        "status": 200,
+        "links": 72,
+        "new": 72
+      },
+      {
+        "url": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies?limit=72&page=2",
+        "status": 200,
+        "links": 72,
+        "new": 72
+      },
+      {
+        "url": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies?limit=72&page=3",
+        "status": 200,
+        "links": 72,
+        "new": 72
+      },
+      {
+        "url": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies?limit=72&page=4",
+        "status": 200,
+        "links": 72,
+        "new": 72
+      },
+      {
+        "url": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies?limit=72&page=5",
+        "status": 200,
+        "links": 48,
+        "new": 48
+      },
+      {
+        "url": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies?limit=72&page=6",
+        "status": 200,
+        "links": 0,
+        "new": 0
+      }
+    ],
+    "visible_product_links": [
+      "https://heartfeltsquishy.shoplineapp.com/products/2403-bunny-bun-squishy-preorder-release-date-aug-28",
+      "https://heartfeltsquishy.shoplineapp.com/products/2403-erdan-kitten-steam-bun-roll-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/3an-cow-print-sticky-bun-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/3an-ethnic-food-series-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/3an-melted-series-squishy-collection-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/3an-sea-seal-series-squishy-compilation-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/3an-x-winnie-the-pooh-squishy-compilation",
+      "https://heartfeltsquishy.shoplineapp.com/products/7700-cotton-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/7700-jumbo-strawberry-steamed-bun-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/7700-squishy---chocolate-keyboard-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/7700-squishy-black-sugar-bubble-tea-puff-squishypreorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/7700-squishy-chocolate-roll-squishypreorderrelease-date-feb-21",
+      "https://heartfeltsquishy.shoplineapp.com/products/7700-squishy-open-bread-squishypreorder-開口面包-慢回彈-release-date-jun-1",
+      "https://heartfeltsquishy.shoplineapp.com/products/7700-squishy-patterned-cake-squishypreorder-千葉紋蛋糕-慢回彈-release-date-jun-1",
+      "https://heartfeltsquishy.shoplineapp.com/products/7700-squishy-purple-rice-bread-squishypreorderrelease-date-jan-24",
+      "https://heartfeltsquishy.shoplineapp.com/products/7700-squishy-sleeping-dumpling-squishypreorder-睡餃-慢回彈-release-date-may-18",
+      "https://heartfeltsquishy.shoplineapp.com/products/7700-squishy-small-crocodile-breadpreorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/7700-squishy-viennetta-squishypreorder-千層雪-慢回彈-release-date-may-18",
+      "https://heartfeltsquishy.shoplineapp.com/products/awoo-heat-pressed-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/baay-dumb-bear-mochi-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bear-canele-squishy-1",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing---bear-cookie--squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing---bear-dorayaki-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing---snowman-marshmallow-cookie-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing---snowman-tangyuan-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-bean-bun-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-bear-cookie-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-bitter-melon-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-bullied-bun-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-choco-cookie-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-clover-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-mango-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-milk-biscuit-squishy-preorder-release-date-jan-19",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-pink-bear-layered-pancake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-sea-seal-taiyaki-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-slime-like-sea-seal-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-squishy---bear-chocolate-cookie-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-squishy---bear-red-bean-bun-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-squishy---cat-mochi-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-squishy---cheese-pizza-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-squishy---fish-cake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-squishy---northeast-daban-red-bean-matcha-icecream-wafer-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-squishy---snowman-cake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingbing-squishy---snowman-egg-milk-pancake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bingo---mini-teddy-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bobbito-green-bud-raindrop-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bobbito-plush-bib-kitten-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bread-fantasy-clara-jumbo-dorayaki-squishy-preorder-release-date-sep-17",
+      "https://heartfeltsquishy.shoplineapp.com/products/bread-fantasy-clara-star-burger-squishypreorder-release-date-aug-29",
+      "https://heartfeltsquishy.shoplineapp.com/products/bread-fantasy-lvdagun-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/bread-fantasy-lvdagun-squishy-1",
+      "https://heartfeltsquishy.shoplineapp.com/products/bread-fantasy-lying-hamster-squishy-blind-box-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bread-fantasy-turtle-squishy-preorder-may-have-tiny-cracks-near-the-joints",
+      "https://heartfeltsquishy.shoplineapp.com/products/bread-master-zhijie-color-fluff-rose-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bread-master-zhijie-cream-filled-cookie-with-rainbow-chips-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/bread-master-zhijie-hand-torn-fluffy-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/chacha-bat-fat-chicken-small-egg-set-of-2-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/chacha-honey-yoghurt-bottle-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/chef-mice-red-panda-flat-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/chef-mice-sugar-bun-red-bean-bun-squishypreorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/chef-mice-toast-shaped-pie-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/clearance-item-compilation-no-packaging-all-have-imperfections",
+      "https://heartfeltsquishy.shoplineapp.com/products/clearance-sweetbuns----wine-filled-bunny-chocolate",
+      "https://heartfeltsquishy.shoplineapp.com/products/coconut-snowman-mochi-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/coconut-soft-and-sticky-felt-series-squishy-preorder-1",
+      "https://heartfeltsquishy.shoplineapp.com/products/compilation-of-cooler-bags-tote-bags-merch-of-various-squishy-brands",
+      "https://heartfeltsquishy.shoplineapp.com/products/cos---butter-squishy-preorder-release-date--jan-18",
+      "https://heartfeltsquishy.shoplineapp.com/products/cos---cheese-ball-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/cos---sauce-bread-squishy-preorder-release-date-october",
+      "https://heartfeltsquishy.shoplineapp.com/products/cos-bundled-french-bread-squishy-preorder-release-date-jun-1",
+      "https://heartfeltsquishy.shoplineapp.com/products/cos-cherry-squishy-preorder-release-date-october",
+      "https://heartfeltsquishy.shoplineapp.com/products/cos-chestnut-bread-squishy-preorder-1-1",
+      "https://heartfeltsquishy.shoplineapp.com/products/cos-compilation-of-new-squishy-products-preorder-release-date-end-of-october",
+      "https://heartfeltsquishy.shoplineapp.com/products/cos-croissant-roll-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/cos-emoji-cookie-sticky-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/cos-little-girl-milk-sticky-bun-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/cos-milk-orange-cake-squishy-preorder-release-date-aug-20",
+      "https://heartfeltsquishy.shoplineapp.com/products/dudo-apple-slice-squishy-preorder-release-date-apr-30",
+      "https://heartfeltsquishy.shoplineapp.com/products/dudo-cuihua-apple-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/dudo-cuihua-onigiri-pink-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/dudo-cuihua-pancake-pink-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/dudo-dumb-pancake-koala-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/dudo-flower-mantou-steam-bun-squishy-preorder-release-date-sep-5",
+      "https://heartfeltsquishy.shoplineapp.com/products/dudo-little-chick-pancake-yellow-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/dudo-speechless-elephant-pink-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/dudo-steamed-bun-goose-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/dudo-twisted-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/dudo-watermelon-pulp-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-bage-puppy-mochi-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-bage-puppy-with-sunglasses-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-bathing-laozhang-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-chefs-hat-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-chocolate-pound-cake-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-country-girl-xiao-gang-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-gui-mei-cap-squishy-preorder-release-date-unknown",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-guimei-souffle-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-laozhang-potato-squishy-preorder-release-date-oct-24-2026",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-laozhang-squid-squishy-preorder-release-date-oct-24-2026",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-rice-bread-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-seaweed-radish-squishy-preorder-release-date-unknown",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-squishy-hot-items",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-thick-cut-potato-chips-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/full-triangular-sandwich-soda-crackers-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi----garlic-toast-squishypreorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi---green-bean-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi---sea-seal-mochi-squishy--preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi-afternoon-tea-set-blind-box-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi-banana-with-yogurt-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi-bitten-waffle-stick-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi-butter-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi-cowprint-snowman-cotton-candy-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi-hug-toast-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi-jumbo-banana-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi-sea-seal-ballon-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi-soft-boiled-egg-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi-soft-boiled-egg-squishy-preorder-1",
+      "https://heartfeltsquishy.shoplineapp.com/products/hachimi-tempura-chick-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/jolly-honey-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/kira-squishy-cheese-cake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-caterpillar-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-jumbo-scarf-rabbit-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-koala-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-little-chick-burger-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-mummy-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-rabbit-blindbox-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-red-panda-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-scarf-bear-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-scarf-cat-bread-squishy-preorder-release-date-sep-12",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-scarf-elephant-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-scarf-rabbit-bread-squishy-thailand-limited-edition-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-seafood-noodles-squishy-preorder-",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-sleeping-rabbit-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/labuladuo-smiley-cloud-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/leilei-bear-flaky-pastry-pink-squishy-preorder-release-date-5-sep-2026",
+      "https://heartfeltsquishy.shoplineapp.com/products/leilei-cat-yoghurt-cake-strawberry-squishy-preorder-release-date-5-sep-2026",
+      "https://heartfeltsquishy.shoplineapp.com/products/leilei-corn-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/leilei-elephant-cheesecake-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/leilei-yoghurt-cat-cake-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa---compilation-of-little-guys-series-squishy-product",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa---compilation-of-perper--big-eyes-dou-dou-series--animals-charactersother-squishy-products",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa---compilation-of-snow-angel--other-food-series-squishy-products",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa---japanese-cream-crepe-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa---snow-angel-fast-food-series-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa---snow-angel-jumbo-tiger-roll-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-big-eyes-bread-squishy-release-date-apr-18",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-big-eyes-brownie-squishy-preorder-release-date-unknown",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-big-eyes-marshmallow-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-big-eyes-mochi-cookie-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-compilation-of-snowman-series-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-compilation-of-snowman-series-squishy-part-ii",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-jumbo-snowman-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-kitten-mantou-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-milk-blocks-squishy-",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-milk-bun-squishy-no-packaging",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-milk-cubes-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-proxy-service-for-physical-store-exclusive-handmade-taba-squishy-products-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-snow-angel-chocolate-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-snow-angel-creamy-cheesecake-squishy-preorder-release-date-apr-5",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-snow-angel-envelope-squishy-preorder-release-date-to-be-announced",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-snow-angel-red-bean-roll-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-squishy----new-releases-in-october-2025",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-squishy-bujibuji-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-squishy-snowman-christmas-series-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-star-milk-cake-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-strawberry-daifuku-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-toffee-candy-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-x-wenky----bear-butter-pancake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido----compilation-of-animal-cartoon--miscellaneous-items-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido----compilation-of-red-nose-series-squishy-part-i",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido---2024-bun-squishy-set-of-3--preorder-release-date-apr-4",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido---red-nose-series-bun-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-2025-bun-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-chocolate-cookie-available-in-late-march",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-compilation-of-popular-character-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-compilation-of-realistic-food-series-squishy-i",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-compilation-of-realistic-food-series-squishy-ii",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-compilation-of-realistic-food-series-squishy-iii",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-compilation-of-red-nose-series-squishy-part-ii",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-compilation-of-red-nose-series-squishy-part-iii",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-cookie-chocolate-available-in-april",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-little-girl-flatbread-squishy-preorder-release-date-jul-19",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-roasted-sunny-side-up-egg-squishy-preorder-release-date-jul-7",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-turtle-bread-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-x-lisa-big-eyes-choco-pie-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/mochi-muffin-stack-burger-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/mochi-snowman-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/molynk-bread-puppy-pineapple-bun-puppy-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/molynk-royal-ice-cream-heritage-collection-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/moozy-fruit-crisp-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/moozy-smiley-face-bakery-blind-box-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/munch-munch-cat-toast-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nemo-kitten-sausage-roll-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nemo-sandwiches-squishy-preorder-release-date-apr-18",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-baguette-car-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-bean-bag-puppy-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-bear-chocolate-sandwiches-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-bitten-rice-ball-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-cactus-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-cookie-plus-white-blue-rainbow-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-cookie-squishy-compilation",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-cream-puppy-pink-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-cream-puppy-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-deep-fried-dough-stick-brother-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-flat-strawberry-squishy-preorder-release-date-3-sep-2026",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-four-leaf-clover-blue-limited-edition-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-four-leaf-clover-green-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-kitty-pretzel-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-little-watermelon-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-mushroom-chocolate-turtle-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-piggy-sausage-bun-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-rocket-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-shiitake-slice-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-sliced-toast-brown-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-squishy-hot-items",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-white-radish-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-yellow-apple-squishy-preorder-release-date-3-sep-2026",
+      "https://heartfeltsquishy.shoplineapp.com/products/qianduoduo-bear-pancake-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/qianduoduo-book-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/qianduoduo-pudding-daifuku-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/recent-chinese-squishies-new-releases-ready-stock",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey---peach-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-arctic-fox-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-bear-toast-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-burlap-sack-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-butter-roll-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-cream-bun-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-dorayaki-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-golf-ball-squishy-set-of-2",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-grilled-rice-cake-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-heart-shaped-cake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-hug-series-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-jojo-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-little-elephant-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-lotus-root-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-mashed-potato-rice-ball-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-mini-garlic-set-of-2-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-mountain-shaped-loaf-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-mushroom-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-oatmeal-pumpkin-bun-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-strawberries-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-taiwan-pengbing-brown-sugar-bun-cake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-thick-toast-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-very-nice-toast-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-wuchang-rice-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-yarn-cake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-yeast-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/smilegogo-bearded-brother-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/smilegogo-strawberry-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweet---jumbo-cream-cookie-squishy--preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweet-berry-bread-basket-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweet-fabric-orange-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweet-marshmallow-cookies-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweet-puppy-toast-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweet-raisin-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweet-relaxed-table-roll-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns---baseball-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns---cherry-dorayaki-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns---chubby-cat-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns---creamy-toast-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns---jumbo-envelope-bread-squishy-26cm-physical-store-exclusive",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns---mini-dorayaki-set-of-2-squishy-preorder-release-dateapr-13",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns--enter-button-squishy-preorder-release-date-october-8",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-apple-dorayaki-squishy-thailand-physical-store-limited",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-baby-lamb-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-baseball-ver-3-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-big-nose-chocolate-wafer-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-big-nose-dumplings-ver2-squishy-preorder-release-date-sep-19",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-butter-cookies-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-chocolate-wafer-plus-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-christmas-cow-stocking-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-cow-baby-squishy-preorder-release-date-unknown",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-cow-bread-set-of-2-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-cow-cherry-pie-squishy-preorder-release-date-aug-10-1",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-cow-chinese-hamburger-rougamo-squishy-mini-ver-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-cow-chinese-hamburger-rougamo-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-cow-laundry-detergent-squishy-1",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-cow-watermelon-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-egg-tart-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-elephant-mochi-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-emo-baby-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-flying-super-niuniu-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-french-berry-bread-squishy-preorder-release-date-aug-10",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-fruit-sandwiches-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-gingerbread-man-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-glutenous-rice-ball-tangyuan-squishy-preorder-release-date-unknown",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-grilled-durian-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-grilled-rice-cake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-jumbo-envelope-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-jumbo-lop-eared-rabbit-squishy-preorder-physical-store-exclusive",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-kitty-bath-towel-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-mini-dorayaki-set-of-2-squishy-preorder-release-dateapr-13",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-oil-paint-egg-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-orange-dorayaki-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-pacifier-muffin-squishy-preorder-release-date-aug-20",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-pan-fried-bun-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-passion-fruit-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-plush-lop-bunny-squishy-preorder-release-date-october",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-steam-buns-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-strawberry-envelope-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-strawberry-icecream-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-strawberry-milk-bun-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-unicorn-bun-squishy-preorder-release-date-jul-6",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-white-chocolate-strawberry-wafer-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/two-dots-apple-bear-squishy-preorder-release-date-jun-29",
+      "https://heartfeltsquishy.shoplineapp.com/products/vava-cute-piggy-steam-bun-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/vava-duckling-yoghurt-curd-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/xy-moody-baby-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/xy-poof-ballon-squishy-preorder-release-date-3-sep-2026",
+      "https://heartfeltsquishy.shoplineapp.com/products/yeem-towel-dog-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/yeem-wild-boar-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/yokiee-little-romie-princess-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/yuni-baby-jiao-roasted-mochi-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/yuni-gluten-bun-pink-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/yuni-little-glutton-toast-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/yuni-scone-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/yuni-speechless-glutenous-rice-ball-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/yuni-taro-paste-biscuit-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-bear-biscuit-preorder-release-date-jun-21",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-burger-series-squishy-blind-box-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-calcium-milk-biscuit-squishy-preorder-release-date-oct-6",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-cheesebob-squishy-preorder-release-date-oct-8",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-clever-basque-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-clove-cake-squishy-preorder-release-date-oct-8",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-coconut-milk-cake-squishy-preorder-release-date-aug-12",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-compilation-of-new-squishy-products-week-of-oct-20-to-26-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-cow-milk-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-croton-bread-squishy-preorder-release-date-sep-25",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-dorayaki-squishy-preorder-release-date-oct-6",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-funny-chocolate-pie-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-guinea-pig-squishypreorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-jam-pocket-bread-squishy-preorder-release-date-sep-12",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-japanese-bean-bun-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-red-bean-dorayaki-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-red-bean-dorayaki-squishy-1",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-squishy-mint-deep-love-chocolate-squishy-preorder-release-date-may-4",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-strawberry-cream-sandwiches-squishy-preorder"
+    ],
+    "saved_urls": 278,
+    "matched": 278,
+    "missing": [],
+    "not_captured": [
+      "https://heartfeltsquishy.shoplineapp.com/products/3an-ethnic-food-series-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/3an-melted-series-squishy-collection-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/3an-sea-seal-series-squishy-compilation-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/3an-x-winnie-the-pooh-squishy-compilation",
+      "https://heartfeltsquishy.shoplineapp.com/products/bear-canele-squishy-1",
+      "https://heartfeltsquishy.shoplineapp.com/products/clearance-item-compilation-no-packaging-all-have-imperfections",
+      "https://heartfeltsquishy.shoplineapp.com/products/clearance-sweetbuns----wine-filled-bunny-chocolate",
+      "https://heartfeltsquishy.shoplineapp.com/products/compilation-of-cooler-bags-tote-bags-merch-of-various-squishy-brands",
+      "https://heartfeltsquishy.shoplineapp.com/products/cos-compilation-of-new-squishy-products-preorder-release-date-end-of-october",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa---compilation-of-little-guys-series-squishy-product",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa---compilation-of-perper--big-eyes-dou-dou-series--animals-charactersother-squishy-products",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa---compilation-of-snow-angel--other-food-series-squishy-products",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-compilation-of-snowman-series-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-compilation-of-snowman-series-squishy-part-ii",
+      "https://heartfeltsquishy.shoplineapp.com/products/lisa-proxy-service-for-physical-store-exclusive-handmade-taba-squishy-products-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido----compilation-of-animal-cartoon--miscellaneous-items-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido----compilation-of-red-nose-series-squishy-part-i",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-chocolate-cookie-available-in-late-march",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-compilation-of-popular-character-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-compilation-of-realistic-food-series-squishy-i",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-compilation-of-realistic-food-series-squishy-ii",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-compilation-of-realistic-food-series-squishy-iii",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-compilation-of-red-nose-series-squishy-part-ii",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-compilation-of-red-nose-series-squishy-part-iii",
+      "https://heartfeltsquishy.shoplineapp.com/products/mido-cookie-chocolate-available-in-april",
+      "https://heartfeltsquishy.shoplineapp.com/products/nunu-cookie-squishy-compilation",
+      "https://heartfeltsquishy.shoplineapp.com/products/recent-chinese-squishies-new-releases-ready-stock",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey---peach-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-arctic-fox-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-bear-toast-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-burlap-sack-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-butter-roll-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-cream-bun-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-dorayaki-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-golf-ball-squishy-set-of-2",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-grilled-rice-cake-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-heart-shaped-cake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-hug-series-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-jojo-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-little-elephant-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-lotus-root-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-mashed-potato-rice-ball-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-mini-garlic-set-of-2-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-mountain-shaped-loaf-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-mushroom-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-oatmeal-pumpkin-bun-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-strawberries-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-taiwan-pengbing-brown-sugar-bun-cake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-thick-toast-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-very-nice-toast-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-wuchang-rice-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-yarn-cake-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/rosey-yeast-bread-squishy-preorder",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns---mini-dorayaki-set-of-2-squishy-preorder-release-dateapr-13",
+      "https://heartfeltsquishy.shoplineapp.com/products/sweetbuns-cow-bread-set-of-2-squishy",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-bear-biscuit-preorder-release-date-jun-21",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-clove-cake-squishy-preorder-release-date-oct-8",
+      "https://heartfeltsquishy.shoplineapp.com/products/zoey-compilation-of-new-squishy-products-week-of-oct-20-to-26-preorder"
+    ]
+  },
+  "feed_checks": [
+    {
+      "id": "kikagoods",
+      "url": "https://www.kikagoods.com",
+      "status": "complete",
+      "pages": [
+        {
+          "url": "https://www.kikagoods.com/products.json?limit=250&page=1",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://www.kikagoods.com/products.json?limit=250&page=2",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://www.kikagoods.com/products.json?limit=250&page=3",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://www.kikagoods.com/products.json?limit=250&page=4",
+          "status": 200,
+          "count": 194
+        }
+      ],
+      "feed_products": 944,
+      "rule_eligible": 618,
+      "saved_urls": 616,
+      "matched_urls": 613
+    },
+    {
+      "id": "toptoy",
+      "url": "https://gotoptoy.com",
+      "status": "complete",
+      "pages": [
+        {
+          "url": "https://gotoptoy.com/products.json?limit=250&page=1",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://gotoptoy.com/products.json?limit=250&page=2",
+          "status": 200,
+          "count": 0
+        }
+      ],
+      "feed_products": 250,
+      "rule_eligible": 246,
+      "saved_urls": 245,
+      "matched_urls": 243
+    },
+    {
+      "id": "52toys",
+      "url": "https://hi52toys.com",
+      "status": "complete",
+      "pages": [
+        {
+          "url": "https://hi52toys.com/products.json?limit=250&page=1",
+          "status": 200,
+          "count": 199
+        }
+      ],
+      "feed_products": 199,
+      "rule_eligible": 96,
+      "saved_urls": 96,
+      "matched_urls": 96
+    },
+    {
+      "id": "rolife",
+      "status": "page review only",
+      "feed_products": null
+    },
+    {
+      "id": "toyzero",
+      "url": "https://toyzeroplus.com",
+      "status": "complete",
+      "pages": [
+        {
+          "url": "https://toyzeroplus.com/products.json?limit=250&page=1",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://toyzeroplus.com/products.json?limit=250&page=2",
+          "status": 200,
+          "count": 72
+        }
+      ],
+      "feed_products": 322,
+      "rule_eligible": 41,
+      "saved_urls": 0,
+      "matched_urls": 0
+    },
+    {
+      "id": "molynk",
+      "status": "page review only",
+      "feed_products": null
+    },
+    {
+      "id": "findingunicorn",
+      "status": "page review only",
+      "feed_products": null
+    },
+    {
+      "id": "kouhigh",
+      "status": "page review only",
+      "feed_products": null
+    },
+    {
+      "id": "toybeta",
+      "url": "https://toybeta.com",
+      "status": "complete",
+      "pages": [
+        {
+          "url": "https://toybeta.com/products.json?limit=250&page=1",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://toybeta.com/products.json?limit=250&page=2",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://toybeta.com/products.json?limit=250&page=3",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://toybeta.com/products.json?limit=250&page=4",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://toybeta.com/products.json?limit=250&page=5",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://toybeta.com/products.json?limit=250&page=6",
+          "status": 200,
+          "count": 27
+        }
+      ],
+      "feed_products": 1277,
+      "rule_eligible": 1133,
+      "saved_urls": 1136,
+      "matched_urls": 1127
+    },
+    {
+      "id": "didapop",
+      "url": "https://didapop.com",
+      "status": "complete",
+      "pages": [
+        {
+          "url": "https://didapop.com/products.json?limit=250&page=1",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://didapop.com/products.json?limit=250&page=2",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://didapop.com/products.json?limit=250&page=3",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://didapop.com/products.json?limit=250&page=4",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://didapop.com/products.json?limit=250&page=5",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://didapop.com/products.json?limit=250&page=6",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://didapop.com/products.json?limit=250&page=7",
+          "status": 200,
+          "count": 238
+        }
+      ],
+      "feed_products": 1738,
+      "rule_eligible": 1541,
+      "saved_urls": 1537,
+      "matched_urls": 1536
+    },
+    {
+      "id": "pawmiga",
+      "url": "https://pawmiga.myshopify.com",
+      "status": "complete",
+      "pages": [
+        {
+          "url": "https://pawmiga.myshopify.com/products.json?limit=250&page=1",
+          "status": 200,
+          "count": 140
+        }
+      ],
+      "feed_products": 140,
+      "rule_eligible": 22,
+      "saved_urls": 16,
+      "matched_urls": 16
+    },
+    {
+      "id": "iris",
+      "url": "https://irissquishy.com",
+      "status": "complete",
+      "pages": [
+        {
+          "url": "https://irissquishy.com/products.json?limit=250&page=1",
+          "status": 200,
+          "count": 104
+        }
+      ],
+      "feed_products": 104,
+      "rule_eligible": 85,
+      "saved_urls": 86,
+      "matched_urls": 85
+    },
+    {
+      "id": "ronron",
+      "url": "https://ronronsquishy.com",
+      "status": "complete",
+      "pages": [
+        {
+          "url": "https://ronronsquishy.com/products.json?limit=250&page=1",
+          "status": 200,
+          "count": 36
+        }
+      ],
+      "feed_products": 36,
+      "rule_eligible": 36,
+      "saved_urls": 36,
+      "matched_urls": 36
+    },
+    {
+      "id": "anthill",
+      "url": "https://anthillshop.com",
+      "status": "complete",
+      "pages": [
+        {
+          "url": "https://anthillshop.com/products.json?limit=250&page=1",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://anthillshop.com/products.json?limit=250&page=2",
+          "status": 200,
+          "count": 250
+        },
+        {
+          "url": "https://anthillshop.com/products.json?limit=250&page=3",
+          "status": 200,
+          "count": 9
+        }
+      ],
+      "feed_products": 509,
+      "rule_eligible": 84,
+      "saved_urls": 1,
+      "matched_urls": 1
+    },
+    {
+      "id": "heartfelt",
+      "status": "page review only",
+      "feed_products": null
+    },
+    {
+      "id": "jotoys-official",
+      "url": "https://jotoys.store",
+      "status": "complete",
+      "pages": [
+        {
+          "url": "https://jotoys.store/products.json?limit=250&page=1",
+          "status": 200,
+          "count": 56
+        }
+      ],
+      "feed_products": 56,
+      "rule_eligible": 39,
+      "saved_urls": 36,
+      "matched_urls": 36
+    },
+    {
+      "id": "sonnyangel-jp",
+      "url": "https://www.sonnyangelstore.com",
+      "status": "complete",
+      "pages": [
+        {
+          "url": "https://www.sonnyangelstore.com/products.json?limit=250&page=1",
+          "status": 200,
+          "count": 104
+        }
+      ],
+      "feed_products": 104,
+      "rule_eligible": 0,
+      "saved_urls": 56,
+      "matched_urls": 56
+    }
+  ],
+  "ranking": {
+    "title": "IP revenue ranking",
+    "subtitle": "POP MART · January–June 2026 · global revenue",
+    "metric": "Reported IP revenue, CNY million",
+    "scope": "Ranks only the eight artist IPs individually disclosed in this report. Global revenue across product categories, not mainland-China-only sales, blind-box-only sales, units sold, brand valuation or a ranking of every toy company. Other artist IPs are grouped in the filing and are not individually ranked here.",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000354_c.pdf#page=30",
+    "source_title": "POP MART H1 2026 interim results, Revenue by IP, printed page 30",
+    "published": "2026-08-20",
+    "period_start": "2026-01-01",
+    "period_end": "2026-06-30",
+    "assurance": "Company-reported, unaudited interim results. Table visually checked against the source PDF.",
+    "unit": "CNY thousand",
+    "rows": [
+      {
+        "ip": "the-monsters",
+        "name": "THE MONSTERS / LABUBU",
+        "revenue": 4454361,
+        "prior_revenue": 4814017,
+        "share": 26.0,
+        "size_rank": 1,
+        "growth_pct": -7.5,
+        "growth_rank": 7
+      },
+      {
+        "ip": "twinkle-twinkle",
+        "name": "Twinkle Twinkle / 星星人",
+        "revenue": 2649969,
+        "prior_revenue": 389363,
+        "share": 15.4,
+        "size_rank": 2,
+        "growth_pct": 580.6,
+        "growth_rank": 1
+      },
+      {
+        "ip": "crybaby",
+        "name": "CRYBABY",
+        "revenue": 1632570,
+        "prior_revenue": 1218170,
+        "share": 9.5,
+        "size_rank": 3,
+        "growth_pct": 34.0,
+        "growth_rank": 5
+      },
+      {
+        "ip": "dimoo",
+        "name": "DIMOO",
+        "revenue": 1619217,
+        "prior_revenue": 1105135,
+        "share": 9.4,
+        "size_rank": 4,
+        "growth_pct": 46.5,
+        "growth_rank": 2
+      },
+      {
+        "ip": "skullpanda",
+        "name": "SKULLPANDA",
+        "revenue": 1551211,
+        "prior_revenue": 1220504,
+        "share": 9.0,
+        "size_rank": 5,
+        "growth_pct": 27.1,
+        "growth_rank": 6
+      },
+      {
+        "ip": "hirono",
+        "name": "HIRONO",
+        "revenue": 1008855,
+        "prior_revenue": 728420,
+        "share": 5.9,
+        "size_rank": 6,
+        "growth_pct": 38.5,
+        "growth_rank": 4
+      },
+      {
+        "ip": "molly",
+        "name": "MOLLY",
+        "revenue": 900631,
+        "prior_revenue": 1357248,
+        "share": 5.3,
+        "size_rank": 7,
+        "growth_pct": -33.6,
+        "growth_rank": 8
+      },
+      {
+        "ip": "zsiga",
+        "name": "Zsiga",
+        "revenue": 298341,
+        "prior_revenue": 211256,
+        "share": 1.7,
+        "size_rank": 8,
+        "growth_pct": 41.2,
+        "growth_rank": 3
+      }
+    ]
+  }
+}
