@@ -1,0 +1,56 @@
+name: Check Live China Toy Comparison
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/china-toys-compare-live.yml'
+permissions:
+  contents: read
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare audit browsers
+        run: |
+          pip install playwright Pillow
+          python -m playwright install --with-deps chromium webkit
+      - name: Wait for the comparison integration to be publicly visible
+        run: |
+          python - <<'PY'
+          import re,time,urllib.request
+          base='https://royhei-cpu.github.io/china-toys/'
+          for attempt in range(36):
+              try:
+                  req=urllib.request.Request(base+'?audit='+str(int(time.time())),headers={'Cache-Control':'no-cache'})
+                  text=urllib.request.urlopen(req,timeout=20).read().decode()
+                  m=re.search(r'src="(compare\.js\?[^\"]+)"',text)
+                  if m:
+                      code=urllib.request.urlopen(base+m.group(1),timeout=20).read().decode()
+                      if "JSON.stringify([e.id,e.url||''])" in code:
+                          print('Public comparison integration confirmed:',m.group(1));break
+              except Exception as e:print(type(e).__name__)
+              time.sleep(10)
+          else:raise RuntimeError('Correct comparison assets were not observed on the public website')
+          PY
+      - name: Audit public desktop and mobile comparison flows
+        env:
+          ATLAS_TEST_URL: https://royhei-cpu.github.io/china-toys/
+          ATLAS_COMPARE_REPORT: /tmp/china-toys-compare-live
+        run: python china-toys/compare_test.py
+      - name: Verify public brand buttons and populated shops
+        run: python china-toys/live_navigation_test.py
+      - name: Keep actual live evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: china-toys-compare-live
+          path: |
+            /tmp/china-toys-compare-live/
+            /tmp/china-toys-live-navigation/
+          retention-days: 14
