@@ -89,7 +89,7 @@
       "url": "https://didapop.com",
       "status": "complete",
       "checked": "2026-10-30",
-      "raw_products_read": 1738,
+      "raw_products_read": 1735,
       "currency": "USD"
     },
     {
@@ -98,7 +98,7 @@
       "url": "https://pawmiga.myshopify.com",
       "status": "complete",
       "checked": "2026-10-30",
-      "raw_products_read": 130,
+      "raw_products_read": 140,
       "currency": "USD"
     },
     {
@@ -181,22 +181,22 @@
   "before_products": 4232,
   "after_products": 4232,
   "stats": {
-    "products": 4232,
+    "products": 4230,
     "brands": 778,
     "squishy": 424,
-    "with_images": 4232,
+    "with_images": 4230,
     "with_launch_dates": 31,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4230,
+    "with_source_prices": 4228,
     "image_research_queue": 0,
     "with_trend_signals": 8,
     "with_specifications": 2459,
     "with_dimensions": 1713,
-    "with_variant_options": 3950,
-    "source_linked_images": 3950,
-    "source_leads_excluded": 23,
+    "with_variant_options": 3948,
+    "source_linked_images": 3948,
+    "source_leads_excluded": 25,
     "visually_reviewed_sample": 8,
     "with_shop_descriptions": 3487
   },
@@ -217,7 +217,7 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 287,
+      "records": 285,
       "with_details": 39,
       "with_china_price": 0,
       "with_release": 0,
@@ -794,11 +794,21 @@
     "5496b7c05a7bcbb0",
     "5318f353a2038cbb"
   ],
-  "visual_scope": "Limited visual review of eight highlighted series. The images show actual series products, not a guarantee of the random design in one blind box. This is not a visual audit of the full catalog.",
+  "visual_scope": "Limited visual review of eight highlighted series. The images show actual series products, not a guarantee of the random design in one blind box. This is not a visual audit of the full catalog. Two ordinary Nommi crossbody bags were separately identified as non-toy merchandise and excluded from toy counts.",
   "photo_exclusions": [
     {
       "id": "6795ac535d4629da",
       "reason": "The available photograph shows a general store display, not a clearly verified A Piece of Cake six-slice product. Keep launch research as a source lead until a matching product photograph is verified."
+    },
+    {
+      "id": "c0a4733ada5087db",
+      "reason": "TOP TOY's product title and ONE BAG option identify a Nommi x Disney 101 Dalmatians crossbody bag, not a blind-box figure or squishy. The product photograph shows a functional handbag. Preserve as related IP merchandise outside toy and trend counts.",
+      "source": "https://gotoptoy.com/products/nommi-disney-101-dalmatians-crossbody-bag"
+    },
+    {
+      "id": "9a025b5159edcad7",
+      "reason": "TOP TOY's product title and ONE BAG option identify a Nommi x Disney Marie crossbody bag, not a blind-box figure or squishy. Preserve as related IP merchandise outside toy and trend counts; do not treat ordinary bag offers as random figure boxes.",
+      "source": "https://gotoptoy.com/products/nommi-disney-marie-crossbody-bag"
     }
   ]
 }

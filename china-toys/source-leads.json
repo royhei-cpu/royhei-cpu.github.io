@@ -1063,5 +1063,151 @@
       "scope": "Local launch event, not nationwide popularity",
       "possible_appeal": "Tactile cake slices can be shared or assembled, with cake-box gift presentation. These features may support gifting and hands-on play; the source only verifies launch interest."
     }
+  },
+  {
+    "id": "c0a4733ada5087db",
+    "brand": "TOP TOY",
+    "name": "Nommi × Disney 101 Dalmatians Crossbody Bag",
+    "ip": "Nommi",
+    "category": "Blind-box figures",
+    "wave": null,
+    "image_source": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/14_21de672e-1b69-44f5-8705-e7d4a4bdf6e0.jpg?v=1790583596",
+    "gallery": [
+      "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/14_21de672e-1b69-44f5-8705-e7d4a4bdf6e0.jpg?v=1790583596"
+    ],
+    "listings": [
+      {
+        "source": "TOP TOY international store",
+        "source_id": "toptoy",
+        "kind": "brand storefront",
+        "url": "https://gotoptoy.com/products/nommi-disney-101-dalmatians-crossbody-bag",
+        "market": "International",
+        "currency": "USD",
+        "checked": "2026-10-30",
+        "price": 40.0,
+        "variant": "ONE BAG",
+        "available": true,
+        "listing_date": "2026-09-27",
+        "options": [
+          {
+            "name": "ONE BAG",
+            "sku": "6978946330748",
+            "price": 40.0,
+            "currency": "USD",
+            "available": true,
+            "image": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/14_21de672e-1b69-44f5-8705-e7d4a4bdf6e0.jpg?v=1790583596",
+            "id": "46569576464534"
+          }
+        ],
+        "options_checked": "2026-10-30"
+      }
+    ],
+    "launch": null,
+    "regular_designs": null,
+    "secret_designs": null,
+    "material": null,
+    "first_seen": "2026-10-29",
+    "checked": "2026-10-29",
+    "china_status": "Mainland SKU availability not yet verified",
+    "sales": null,
+    "baseline": true,
+    "history": [],
+    "image": "images/c0a4733ada5087db.jpg",
+    "details": {
+      "source": "https://gotoptoy.com/products/nommi-disney-101-dalmatians-crossbody-bag",
+      "checked": "2026-10-30",
+      "source_product_type": "Blind Boxes",
+      "field_sources": {}
+    },
+    "image_review": {
+      "status": "Source-linked variant image",
+      "source": "https://gotoptoy.com/products/nommi-disney-101-dalmatians-crossbody-bag",
+      "checked": "2026-10-30",
+      "level": "Exact source/variant mapping and file check; not a complete visual audit",
+      "scope": "Store image associated with the priced variant. Other options and random designs may differ.",
+      "visually_reviewed": false,
+      "source_match": true,
+      "file_ok": true,
+      "width": 640,
+      "height": 640,
+      "file_checked": "2026-10-30"
+    },
+    "details_checked": "2026-10-30",
+    "stale": false,
+    "exclusion_reason": "TOP TOY's product title and ONE BAG option identify a Nommi x Disney 101 Dalmatians crossbody bag, not a blind-box figure or squishy. The product photograph shows a functional handbag. Preserve as related IP merchandise outside toy and trend counts.",
+    "excluded_from_product_counts": true
+  },
+  {
+    "id": "9a025b5159edcad7",
+    "brand": "TOP TOY",
+    "name": "Nommi × Disney Marie Crossbody Bag",
+    "ip": "Nommi",
+    "category": "Blind-box figures",
+    "wave": null,
+    "image_source": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/13_088793cc-7ff2-4357-a11c-b4b03b05cba7.jpg?v=1790583588",
+    "gallery": [
+      "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/13_088793cc-7ff2-4357-a11c-b4b03b05cba7.jpg?v=1790583588"
+    ],
+    "listings": [
+      {
+        "source": "TOP TOY international store",
+        "source_id": "toptoy",
+        "kind": "brand storefront",
+        "url": "https://gotoptoy.com/products/nommi-disney-marie-crossbody-bag",
+        "market": "International",
+        "currency": "USD",
+        "checked": "2026-10-30",
+        "price": 40.0,
+        "variant": "ONE BAG",
+        "available": true,
+        "listing_date": "2026-09-27",
+        "options": [
+          {
+            "name": "ONE BAG",
+            "sku": "6978946330731",
+            "price": 40.0,
+            "currency": "USD",
+            "available": true,
+            "image": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/13_088793cc-7ff2-4357-a11c-b4b03b05cba7.jpg?v=1790583588",
+            "id": "46569570730134"
+          }
+        ],
+        "options_checked": "2026-10-30"
+      }
+    ],
+    "launch": null,
+    "regular_designs": null,
+    "secret_designs": null,
+    "material": null,
+    "first_seen": "2026-10-29",
+    "checked": "2026-10-29",
+    "china_status": "Mainland SKU availability not yet verified",
+    "sales": null,
+    "baseline": true,
+    "history": [],
+    "image": "images/9a025b5159edcad7.jpg",
+    "details": {
+      "source": "https://gotoptoy.com/products/nommi-disney-marie-crossbody-bag",
+      "checked": "2026-10-30",
+      "source_product_type": "Blind Boxes",
+      "field_sources": {}
+    },
+    "image_review": {
+      "status": "Source-linked variant image",
+      "source": "https://gotoptoy.com/products/nommi-disney-marie-crossbody-bag",
+      "checked": "2026-10-30",
+      "level": "Exact source/variant mapping and file check; not a complete visual audit",
+      "scope": "Store image associated with the priced variant. Other options and random designs may differ.",
+      "visually_reviewed": false,
+      "source_match": true,
+      "file_ok": true,
+      "width": 640,
+      "height": 640,
+      "file_checked": "2026-10-30"
+    },
+    "details_checked": "2026-10-30",
+    "stale": false,
+    "exclusion_reason": "TOP TOY's product title and ONE BAG option identify a Nommi x Disney Marie crossbody bag, not a blind-box figure or squishy. Preserve as related IP merchandise outside toy and trend counts; do not treat ordinary bag offers as random figure boxes.",
+    "excluded_from_product_counts": true
   }
 ]
