@@ -1,0 +1,22 @@
+/* Weekly summary content is maintained alongside the catalog, without replacing records. */
+(()=>{
+const report={reviewed:'30 October 2026',period:'26–30 October 2026',signals:[{
+ title:'barebird pairs pet and laundry odor control',status:'Early signal · Announced 28 October',
+ changed:'BioLargo announced two fragrance-free 32-ounce products: a pet-odor spray and a laundry additive providing 16 loads. Direct-to-consumer availability is expected first; Amazon and TikTok Shop are planned, not verified live.',
+ matters:'A pet-plus-laundry bundle is an opportunity to investigate. Existing Target alternatives mean this announcement alone does not establish an assortment gap.',
+ next:'Verify live product listings, bundle pricing, retailer availability and product evidence before treating this as a selling opportunity.',
+ sources:[['BioLargo announcement','https://www.biolargo.com/post/biolargo-introduces-barebird-a-company-owned-brand-reuniting-key-teams-behind-pooph-s-consumer-mar'],['Target: Pooph pet spray','https://www.target.com/p/pooph-dog-odor-38-stain-eliminator-20-fl-oz/-/A-89384458'],['Target: Zero Odor laundry additive','https://www.target.com/p/zero-odor-laundry-odor-eliminator-additive/-/A-88854378']]
+}]};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const section=document.getElementById('weekly-updates');
+const added=ITEMS.filter(d=>newItemIds.has(d.id));
+section.innerHTML=`<div class="weekly-heading"><div><p class="weekly-kicker">WEEKLY HOME CARE BRIEF</p><h2 id="weekly-title">What changed this week</h2><p>${esc(report.period)} · Summary checked ${esc(report.reviewed)}</p></div><a class="weekly-jump" href="#category-directory">Browse categories ↓</a></div><div class="weekly-metrics"><div><strong>${added.length}</strong><span>Catalog additions</span></div><div><strong>${report.signals.length}</strong><span>Market signal</span></div><div><strong>${new Set(ITEMS.map(d=>d.retailer)).size}</strong><span>Retailers in catalog</span></div></div><p class="weekly-scope">${added.length?'New-to-catalog items are marked below.':'No new product records in this dashboard update.'} Market announcements are separate from verified retailer listings. This is a focused review, not a recheck of every item.</p><div class="weekly-signals">${report.signals.map(s=>`<article><p class="weekly-tag">${esc(s.status)}</p><h3>${esc(s.title)}</h3><p><b>What changed:</b> ${esc(s.changed)}</p><details><summary>Why it matters for Target & next checks</summary><p><b>Opportunity to investigate:</b> ${esc(s.matters)}</p><p><b>Next check:</b> ${esc(s.next)}</p></details><div class="weekly-sources">${s.sources.map(([label,url])=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`).join('')}</div></article>`).join('')}</div>`;
+const directory=document.createElement('section');directory.id='category-directory';directory.setAttribute('aria-label','Browse categories');
+const cats=[...new Set(ITEMS.filter(d=>d.merchantScope==='Home Care').map(d=>d.categoryLabel))].sort();
+directory.innerHTML='<h2>Browse categories</h2><p>Choose a competitor below, then narrow the results by category.</p><div class="category-links">'+['All Home Care',...cats,'Cleaning Appliances'].map(c=>`<button type="button" data-category-jump="${esc(c)}" aria-pressed="false">${esc(c)}${c==='Cleaning Appliances'?' · Home / adjacent':''}</button>`).join('')+'</div>';
+section.after(directory);
+if(added.length){const additions=document.createElement('div');additions.className='weekly-additions';additions.innerHTML='<h3>New to the catalog</h3><ul>'+added.slice(0,5).map(d=>'<li><a target="_blank" rel="noopener noreferrer" href="'+esc(d.url)+'">'+esc(d.name)+'</a> · '+esc(d.retailer)+'</li>').join('')+'</ul>';section.append(additions)}
+directory.addEventListener('click',event=>{const b=event.target.closest('[data-category-jump]');if(!b)return;const cat=b.dataset.categoryJump;reset($('retailer').value,cat==='Cleaning Appliances'?'Home / adjacent references':'Home Care');if(cat!=='All Home Care'){$('category').value=cat;draw()}sync();});
+function sync(){for(const b of directory.querySelectorAll('button'))b.setAttribute('aria-pressed',String(b.dataset.categoryJump===($('category').value==='all'?'All Home Care':$('category').value)&&($('scope').value==='Home Care'||b.dataset.categoryJump==='Cleaning Appliances')))}
+document.addEventListener('change',sync);$('reset').addEventListener('click',sync);sync();
+})();

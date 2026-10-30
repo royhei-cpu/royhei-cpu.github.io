@@ -25,5 +25,6 @@ html=html.replace("brandOptions('all');categoryOptions();draw();","brandOptions(
 const catchErrors='<script>window.addEventListener("error",function(){var n=document.getElementById("catalog-loading");if(n&&!n.hidden){n.textContent="Products are available below. Filters did not finish loading; please reload this page.";}});</script>';
 html=html.replace('<script>const ITEMS=',catchErrors+'<script>const ITEMS=');
 assert.equal((html.match(/id="catalog-loading"/g)||[]).length,1);
+html=html.replace('</head>','<link rel="stylesheet" href="/home-care/weekly-dashboard.css">\n</head>').replace('</body>','<script src="/home-care/weekly-dashboard.js"></script>\n</body>');
 fs.writeFileSync(file,html);
 console.log(JSON.stringify({records:items.length,initialCards:first.length,bytes:Buffer.byteLength(html),originalDataBytes:end-start,packedDataBytes:Buffer.byteLength(expression),lossless:true}));
