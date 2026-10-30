@@ -1,0 +1,62 @@
+name: Inspect China Toy Product Photos
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/china-toys-photo-proof.yml']
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4 Pillow
+      - name: Read exact product image candidates
+        run: |
+          python - <<'PY'
+          import json,pathlib,sys,io,hashlib,concurrent.futures
+          from urllib.parse import urljoin
+          import requests
+          from bs4 import BeautifulSoup
+          from PIL import Image,ImageOps,ImageDraw
+          r=pathlib.Path('china-toys');out=pathlib.Path('/tmp/toy-photo-proof');out.mkdir(exist_ok=True)
+          d=json.loads((r/'catalog.json').read_text());ps=d['products'];jobs=[]
+          ids=['a6352811fd423b78','e8944d990eab4d0d','25883b4f5b30a725','5496b7c05a7bcbb0','23d11410d5e889e9','cda530057d017fb2','5318f353a2038cbb','94fb8f025dd0a0a2']
+          for p in ps:
+            if p['id'] in ids:
+              for i,u in enumerate(p.get('gallery',[])[:3]):jobs.append({'id':p['id'],'name':p['name'],'index':i,'url':u,'source':p['listings'][0]['url']})
+          article='https://www.51ldb.com/shsldb/cj/content/01a0f7733b01c001000066d533acd97d.html'
+          try:
+            h=requests.get(article,timeout=25).text;soup=BeautifulSoup(h,'html.parser');found=[]
+            for im in soup.select('img'):
+              for attr in ['src','data-src','data-original']:
+                if im.get(attr):
+                  u=urljoin(article,im[attr]);
+                  if u not in found and any(x in u for x in ['picture','sphere']):found.append(u)
+            (out/'article-images.json').write_text(json.dumps(found,ensure_ascii=False,indent=2))
+            for i,u in enumerate(found):jobs.append({'id':'molynk-candidate','name':'Article image; match caption before use','index':i,'url':u,'source':article})
+          except Exception as e:(out/'article-error.txt').write_text(str(e))
+          def download(j):
+            try:
+              resp=requests.get(j['url'],timeout=20);resp.raise_for_status();im=ImageOps.exif_transpose(Image.open(io.BytesIO(resp.content))).convert('RGB');im.thumbnail((700,700));name=j['id']+'-'+str(j['index'])+'.jpg';im.save(out/name,quality=90);j['file']=name;j['width'],j['height']=im.size
+            except Exception as e:j['error']=str(e)[:120]
+            return j
+          with concurrent.futures.ThreadPoolExecutor(max_workers=8) as p:results=list(p.map(download,jobs))
+          (out/'images.json').write_text(json.dumps(results,ensure_ascii=False,indent=2));good=[j for j in results if j.get('file')]
+          for start in range(0,len(good),16):
+            batch=good[start:start+16];sheet=Image.new('RGB',(960,((len(batch)+3)//4)*285),'white');draw=ImageDraw.Draw(sheet)
+            for i,j in enumerate(batch):
+              im=Image.open(out/j['file']);im.thumbnail((230,220));x=(i%4)*240;y=(i//4)*285;sheet.paste(im,(x+(240-im.width)//2,y));draw.text((x+4,y+222),j['id']+' / '+str(j['index']),fill='black')
+              for z in range(3):draw.text((x+4,y+238+z*14),j['name'][z*34:(z+1)*34],fill='black')
+            sheet.save(out/('contact-'+str(start//16)+'.jpg'),quality=90)
+          print(json.dumps({'candidates':len(jobs),'downloaded':len(good),'failed':len(jobs)-len(good)},indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: china-toys-photo-proof
+          path: /tmp/toy-photo-proof/
+          retention-days: 7
