@@ -20,7 +20,7 @@ jobs:
         run: |
           pip install playwright Pillow
           python -m playwright install --with-deps chromium webkit
-      - name: Wait for the comparison integration to be publicly visible
+      - name: Wait for the corrected comparison to be publicly visible
         run: |
           python - <<'PY'
           import re,time,urllib.request
@@ -32,17 +32,54 @@ jobs:
                   m=re.search(r'src="(compare\.js\?[^\"]+)"',text)
                   if m:
                       code=urllib.request.urlopen(base+m.group(1),timeout=20).read().decode()
-                      if "JSON.stringify([e.id,e.url||''])" in code:
-                          print('Public comparison integration confirmed:',m.group(1));break
+                      if "JSON.stringify([e.id,e.url||''])" in code and '.compare-item-name{white-space:normal;' in code:
+                          print('Corrected public comparison confirmed:',m.group(1));break
               except Exception as e:print(type(e).__name__)
               time.sleep(10)
-          else:raise RuntimeError('Correct comparison assets were not observed on the public website')
+          else:raise RuntimeError('Corrected comparison assets not observed on the public website')
           PY
       - name: Audit public desktop and mobile comparison flows
         env:
           ATLAS_TEST_URL: https://royhei-cpu.github.io/china-toys/
           ATLAS_COMPARE_REPORT: /tmp/china-toys-compare-live
         run: python china-toys/compare_test.py
+      - name: Inspect the final live comparison layout and China price basis
+        run: |
+          python - <<'PY'
+          import json,pathlib
+          from playwright.sync_api import sync_playwright
+          O=pathlib.Path('/tmp/china-toys-compare-live');checks=[];errors=[]
+          with sync_playwright() as pw:
+              for engine,width in [('chromium',1440),('chromium',390),('webkit',390)]:
+                  browser=getattr(pw,engine).launch()
+                  page=browser.new_page(viewport={'width':width,'height':1000 if width>1000 else 844})
+                  page.on('pageerror',lambda e:errors.append(str(e)))
+                  page.goto('https://royhei-cpu.github.io/china-toys/?retailer=toptoy',wait_until='domcontentloaded')
+                  page.wait_for_function('window.ATLAS_COMPARE && document.querySelectorAll(".compare-select").length>1')
+                  page.locator('#catalogGrid .compare-select').nth(0).click()
+                  page.locator('#catalogGrid .compare-select').nth(1).click()
+                  page.screenshot(path=str(O/f'live-select-{engine}-{width}.png'))
+                  page.locator('#compareDockOpen').click()
+                  page.wait_for_function('[...document.querySelectorAll(".compare-item-photo")].every(e=>e.complete&&e.naturalWidth>0)')
+                  assert page.locator('.compare-item-name').evaluate_all('(xs)=>xs.every(e=>e.scrollWidth<=e.clientWidth+1)'), 'Product names overlap'
+                  assert page.locator('.compare-table th').evaluate_all('(xs)=>xs.every(e=>e.scrollWidth<=e.clientWidth+1)'), 'Header or label overflow'
+                  assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
+                  page.screenshot(path=str(O/f'live-compare-{engine}-{width}.png'))
+                  checks.append(f'{engine} {width}px: official TOP TOY offers show matching photos, wrapping titles, no header overlap')
+                  page.locator('#compareContinue').click();page.locator('#compareClear').click()
+                  if engine=='chromium' and width==1440:
+                      page.select_option('#retailer','');page.select_option('#currency','CNY')
+                      page.locator('#catalogGrid .compare-select').nth(0).click();page.locator('#catalogGrid .compare-select').nth(1).click()
+                      assert all(e['mode']=='china-launch' for e in page.evaluate('window.ATLAS_COMPARE.getSelections()'))
+                      page.locator('#compareDockOpen').click()
+                      assert page.locator('#compareDialog').inner_text().count('Historical mainland launch price, NOT today')==2
+                      page.screenshot(path=str(O/'live-historical-price-labels.png'))
+                      checks.append('Historical China launch prices clearly separated from current shop asking prices')
+                  browser.close()
+          assert not errors,errors
+          (O/'layout-results.json').write_text(json.dumps({'status':'PASS','checks':checks,'page_errors':errors},indent=2))
+          print(json.dumps(checks,indent=2))
+          PY
       - name: Verify public brand buttons and populated shops
         run: python china-toys/live_navigation_test.py
       - name: Keep actual live evidence
