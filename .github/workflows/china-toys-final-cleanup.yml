@@ -38,7 +38,7 @@ jobs:
           git add china-toys/index.html china-toys/compare.js china-toys/catalog.json china-toys/catalog.js china-toys/catalog.csv china-toys/report.json china-toys/review-report.json china-toys/source_copy.py
           if ! git diff --cached --quiet; then
             git commit -m 'Remove media fallback descriptions and protect Compare controls'
-            git pull --rebase origin main
+            git pull --rebase --autostash origin main
             git push origin HEAD:main
           fi
       - name: Publish corrected website
