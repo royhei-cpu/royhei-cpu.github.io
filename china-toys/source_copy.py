@@ -10,7 +10,7 @@ def install(review):
     def add(product, raw, source, currency, listing):
         original(product, raw, source, currency, listing)
         soup = BeautifulSoup(raw.get('body_html') or '', 'html.parser')
-        for el in soup(['script', 'style', 'iframe']):
+        for el in soup(['script', 'style', 'iframe', 'video', 'audio', 'noscript']):
             el.decompose()
         candidates = []
         for el in soup.find_all(['p', 'li']):
