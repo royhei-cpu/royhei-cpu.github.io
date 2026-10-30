@@ -35,6 +35,7 @@ jobs:
           node --check china-toys/ip-directory.js
           node --check china-toys/ip-market-data.js
           node --check china-toys/app.js
+          git diff --exit-code -- .github/workflows/publish.yml .github/workflows/china-toys-refresh.yml
       - name: Test requested examples and existing tutorial
         run: python china-toys/test_ip_directory.py
       - name: Keep exact validation evidence
@@ -57,7 +58,7 @@ jobs:
         run: |
           git config user.name 'China Toy Atlas reviewer'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add china-toys/app.js china-toys/index.html china-toys/ip-market-data.js china-toys/ip-coverage.json .github/workflows/publish.yml .github/workflows/china-toys-refresh.yml
+          git add china-toys/app.js china-toys/index.html china-toys/ip-market-data.js china-toys/ip-coverage.json
           if ! git diff --cached --quiet; then
             git commit -m 'Add verified IP revenue reference, character filters and screenshot coverage'
             for attempt in 1 2 3; do
