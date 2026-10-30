@@ -1,0 +1,61 @@
+/* Facts-first cards and an embedded narrated guide. All values retain their source. */
+(() => {
+'use strict';
+const data=window.TOY_ATLAS;if(!data?.products)return;
+const byId=new Map(data.products.map(p=>[p.id,p]));
+const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const good=x=>x!==null&&x!==undefined&&String(x).trim()!==''&&!/^(not (?:disclosed|documented|provided|numbered|specified)|unknown|n\/?a|default title)$/i.test(String(x).trim());
+const short=(x,n=160)=>String(x).length>n?String(x).slice(0,n-1)+'…':String(x);
+const link=(u,t)=>{try{const x=new URL(u,location.href);return /^https?:$/.test(x.protocol)?`<a href="${esc(x.href)}" target="_blank" rel="noopener noreferrer">${esc(t)} ↗</a>`:''}catch{return ''}};
+const fmt=x=>{if(!x)return '';if(!/^\d{4}-\d{2}-\d{2}$/.test(x))return x;return new Date(x+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})};
+function offers(p){const r=document.getElementById('retailer')?.value||'',c=document.getElementById('currency')?.value||'';const src=(data.sources||[]).find(s=>s.id===r);const host=u=>{try{return new URL(u).hostname.replace(/^www\./,'')}catch{return ''}};return (p.listings||[]).filter(l=>(!r||l.source_id===r||src&&(l.source===src.name||host(l.url)===host(src.url)))&&(!c||l.currency===c))}
+function current(p){return offers(p).find(l=>l.price!=null)||offers(p)[0]||{}}
+const css=document.createElement('style');css.textContent=`
+.facts-head{font-size:11px;font-weight:700;color:var(--green);margin:11px 0 3px}.available-description{font-size:12px;line-height:1.65;color:#43574e;margin:8px 0 0}.fact-label-note{font-size:10px;color:var(--muted);margin:5px 0 0}.card-facts .fact>span:last-child{overflow-wrap:anywhere;max-width:72%}.available-source-note{font-size:11px;color:#67736c;margin:8px 0}.available-source-note a{color:#1b634e;text-decoration:underline}.info-gaps{margin:18px 0;padding:10px 12px;border:1px solid #e3e7e4;border-radius:8px;background:#f8faf8;font-size:12px;line-height:1.7;color:#52645a}.info-gaps summary{font-weight:650;cursor:pointer;color:#425b4b}.info-gaps p{margin:6px 0!important}.about-source{font-size:13px;line-height:1.75;padding:14px 16px;border-left:3px solid #b8cfc0;background:#f3f7f4;margin:14px 0}.about-source p{font-size:13px!important;margin:6px 0!important}.about-source h3{margin:0!important;font-size:15px!important}.tutorial-panel{margin:0 0 22px;border:1px solid #cbded2;border-radius:12px;overflow:hidden;background:#f8fbf9;scroll-margin-top:15px}.tutorial-panel>summary{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:17px 20px;cursor:pointer;list-style:none;font-weight:700;color:var(--green)}.tutorial-panel>summary::-webkit-details-marker{display:none}.tutorial-panel>summary span:last-child{font-weight:400;font-size:12px}.tutorial-inner{padding:0 20px 20px}.tutorial-inner>p{font-size:13px;line-height:1.65;color:var(--muted)}.tutorial-inner video{display:block;width:100%;max-height:70vh;aspect-ratio:16/9;background:#102720;border-radius:8px}.tutorial-actions{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;margin:14px 0}.tutorial-actions a{text-decoration:underline;color:var(--green)}.tutorial-chapters{display:flex;flex-wrap:wrap;gap:7px}.tutorial-chapters button{background:white;border:1px solid #d6e0d9;border-radius:6px;padding:8px 10px;font-size:12px;color:var(--green)}.tutorial-trigger{display:inline-flex!important;align-items:center;gap:7px;border:1px solid var(--green);background:white;color:var(--green);border-radius:7px;padding:10px 12px;font-size:12px;font-weight:650}.tutorial-transcript{font-size:13px;line-height:1.75;margin:15px 0 0}.tutorial-transcript p{margin:12px 0}.tutorial-status{font-size:12px;line-height:1.6;color:#5c6c62}@media(max-width:760px){.tutorial-panel>summary{padding:14px;align-items:flex-start;flex-direction:column;gap:5px}.tutorial-inner{padding:0 12px 14px}.header-links{gap:8px}.tutorial-trigger{font-size:11px;padding:9px}.available-description{font-size:13px}.fact-label-note{font-size:11px}.tutorial-chapters button{font-size:12px}.tutorial-inner video{max-height:none}}@media(max-width:430px){.wordmark{font-size:17px}.header-links #exportButton{display:none}.tutorial-trigger{display:inline-flex!important}.topbar-inner{gap:8px}}
+`;document.head.append(css);
+function enhanceCards(){for(const card of document.querySelectorAll('.product-card[data-product-id]')){
+ if(card.dataset.factsDone)continue;card.dataset.factsDone='1';const p=byId.get(card.dataset.productId);if(!p)continue;
+ const d=p.details||{},l=current(p),ld=p.launch||p.launch_estimate,rows=[];
+ if(good(p.ip))rows.push(['Character',p.ip]);
+ rows.push(['Type',p.category]);
+ if(good(p.regular_designs))rows.push(['Designs',p.regular_designs+' regular'+(good(p.secret_designs)?' + '+p.secret_designs+' secret':'')]);
+ if(good(d.age))rows.push(['Age on listing',d.age]);
+ if(good(p.wave))rows.push(['Wave',p.wave]);
+ if(ld?.date)rows.push(['Release',((ld.approximate||ld.precision!=='day')?'≈ ':'')+(ld.display||fmt(ld.date))+' · '+(ld.market||'Source market not stated')]);
+ else if(l.listing_date)rows.push(['Shop page date',fmt(l.listing_date)]);
+ if(good(p.sales?.display))rows.push(['Reported sales',p.sales.display]);
+ const options=l.options||[];
+ if(options.length)rows.push(['Shop options',options.length+' listed options']);
+ if(typeof l.available==='boolean')rows.push(['Stock at check',l.available?'Available':'Out of stock']);
+ if(l.checked)rows.push(['Price checked',fmt(l.checked)]);
+ const facts=card.querySelector('.card-facts');if(facts){facts.innerHTML=rows.map(([k,v])=>`<div class="fact"><span>${esc(k)}</span><span>${esc(short(v,180))}</span></div>`).join('');if(!ld&&l.listing_date)facts.insertAdjacentHTML('beforeend','<p class="fact-label-note">Shop page date is not a confirmed launch date.</p>')}
+ const body=card.querySelector('.card-body');if(!body)continue;
+ if(d.description){const el=document.createElement('p');el.className='available-description';el.innerHTML='<strong>From the shop:</strong> '+esc(short(d.description,230));body.querySelector('.product-title')?.after(el)}
+ if(d.features?.length&&!body.querySelector('.known-feature')){const el=document.createElement('p');el.className='available-description known-feature';el.textContent=short(d.features.join(' · '),230);body.append(el)}
+ const foot=card.querySelector('.card-footer button[data-open]');if(foot)foot.textContent='Full product details';
+ if(l.price==null&&!p.china_price){const el=card.querySelector('.price-row strong');if(el)el.textContent='See shop options'}
+ }}
+function enhanceDialog(){const root=document.getElementById('productDetail');if(!root||root.querySelector('.detail-content')?.dataset.factsDone)return;
+ const title=root.querySelector('#detailTitle')?.textContent;if(!title)return;const brand=root.querySelector('.brand-line')?.textContent;const p=data.products.find(x=>x.name===title&&x.brand===brand)||data.products.find(x=>x.name===title);if(!p)return;
+ const content=root.querySelector('.detail-content');if(!content)return;content.dataset.factsDone='1';const d=p.details||{},dl=content.querySelector('.detail-dl'),gaps=[];
+ if(dl){for(const dt of [...dl.querySelectorAll('dt')]){const dd=dt.nextElementSibling;if(!dd)continue;const t=dd.textContent.trim();if(/^(?:Not (?:documented|disclosed|provided)|No (?:numbered|product-specific)|Not publicly disclosed)/i.test(t)){gaps.push(dt.textContent);dt.remove();dd.remove()}}}
+ const specs=content.querySelector('.review-details');if(specs&&dl)dl.before(specs);
+ if(d.description&&!content.querySelector('.about-source')){const s=document.createElement('section');s.className='about-source';s.innerHTML='<h3>About this item — shop description</h3><p>'+esc(d.description)+'</p><span class="available-source-note">'+link(d.description_source||d.source,'Read the full shop description')+(d.description_checked?' · '+esc(fmt(d.description_checked)):'')+'</span>';content.querySelector('#detailTitle')?.after(s)}
+ if(!p.launch&&!p.launch_estimate&&!gaps.includes('Launch'))gaps.push('Launch date');
+ if(!p.wave&&!gaps.includes('Wave'))gaps.push('Wave number');
+ if(!p.sales&&!gaps.includes('Units sold'))gaps.push('Units sold');
+ if(gaps.length){const el=document.createElement('details');el.className='info-gaps';el.innerHTML='<summary>Information still to verify ('+gaps.length+')</summary><p>'+esc([...new Set(gaps)].join(' · '))+'.</p><p>These facts are not confirmed in the checked sources. A shop listing date is not a launch date, and missing sales do not mean zero.</p>';if(dl)dl.after(el);else content.append(el)}
+}
+function addTutorial(){if(document.getElementById('tutorial'))return;
+ const box=document.createElement('details');box.id='tutorial';box.className='tutorial-panel';box.innerHTML=`<summary><span>▶ Watch tutorial with narration</span><span>English voiceover · step-by-step website tour</span></summary><div class="tutorial-inner"><p>See how to find products, read the available details, check trend reasons, and save or export a shortlist. The video shows a dated example; live counts and prices can change.</p><video id="atlasTutorialVideo" controls playsinline preload="none" poster="tutorial/poster.jpg"><source src="tutorial/China_Toy_Atlas_Tutorial.mp4" type="video/mp4"><track kind="captions" src="tutorial/captions.vtt" srclang="en" label="English">Your browser cannot play this video. Use the download link below.</video><div class="tutorial-actions"><a href="tutorial/China_Toy_Atlas_Tutorial.mp4" download>Download narrated video</a><a href="tutorial/transcript.txt" target="_blank">Read the transcript</a></div><div id="tutorialChapters" class="tutorial-chapters" aria-label="Tutorial chapters"></div><p class="tutorial-status">Press Play and turn on your volume. English narration is included in the video. Optional captions are available in the player.</p></div>`;
+ (document.getElementById('weeklyOverview')||document.querySelector('.intro')).after(box);
+ const trigger=document.createElement('button');trigger.className='tutorial-trigger';trigger.id='watchTutorialButton';trigger.textContent='▶ Watch tutorial';trigger.onclick=()=>{box.open=true;box.scrollIntoView({behavior:'smooth',block:'start'});history.replaceState(null,'',location.pathname+location.search+'#tutorial')};document.querySelector('.header-links')?.prepend(trigger);
+ const video=box.querySelector('video');box.addEventListener('toggle',()=>{if(!box.open)video.pause()});video.addEventListener('error',()=>{box.querySelector('.tutorial-status').textContent='The video could not load. Try the direct download link above.'});
+ const openFromHash=()=>{if(location.hash==='#tutorial'){box.open=true;requestAnimationFrame(()=>box.scrollIntoView({block:'start'}))}};addEventListener('hashchange',openFromHash);openFromHash();
+ fetch('tutorial/chapters.json',{cache:'no-cache'}).then(r=>r.ok?r.json():Promise.reject()).then(m=>{document.getElementById('tutorialChapters').innerHTML=m.chapters.map(c=>`<button type="button" data-seek="${Number(c.start)}">${esc(c.label)}</button>`).join('');document.getElementById('tutorialChapters').addEventListener('click',e=>{const b=e.target.closest('[data-seek]');if(!b)return;box.open=true;const seek=()=>{video.currentTime=Number(b.dataset.seek);video.play().catch(()=>{})};if(video.readyState)seek();else{video.addEventListener('loadedmetadata',seek,{once:true});video.load()}})}).catch(()=>{});
+}
+let pending=false;const update=()=>{if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;enhanceCards();enhanceDialog()})};
+new MutationObserver(update).observe(document.getElementById('catalogGrid'),{childList:true,subtree:true});
+new MutationObserver(()=>{const root=document.getElementById('productDetail');if(!root.querySelector('#detailTitle'))delete root.dataset.factsTitle;update()}).observe(document.getElementById('productDetail'),{childList:true,subtree:true});
+addTutorial();enhanceCards();enhanceDialog();
+})();
