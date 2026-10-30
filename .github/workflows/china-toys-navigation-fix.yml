@@ -1,0 +1,63 @@
+name: Repair China Toy Navigation
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'china-toys/navigation_fix.py'
+      - 'china-toys/navigation_test.py'
+      - '.github/workflows/china-toys-navigation-fix.yml'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: china-toys-evidence-review
+  cancel-in-progress: false
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser for click-through checks
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Apply navigation repair without changing product data
+        run: |
+          sha256sum china-toys/catalog.json china-toys/catalog.csv china-toys/catalog.js > /tmp/toy-data-before.txt
+          python -m py_compile china-toys/navigation_fix.py china-toys/navigation_test.py
+          python china-toys/navigation_fix.py
+          python china-toys/navigation_fix.py
+          node --check china-toys/app.js
+          sha256sum -c /tmp/toy-data-before.txt
+      - name: Check every populated shop and brand selection
+        run: python china-toys/navigation_test.py
+      - name: Keep exact click-through test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: china-toys-navigation-qa
+          path: /tmp/china-toys-navigation-qa/
+          retention-days: 14
+      - name: Save tested navigation and refresh safeguards
+        run: |
+          git config user.name 'China Toy Atlas UI repair'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add china-toys/app.js china-toys/index.html china-toys/review_publish.py china-toys/build_ip_directory.py
+          if ! git diff --cached --quiet; then
+            git commit -m 'Fix empty brand navigation, show selected products and keep toy-only header'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              git push origin HEAD:main && break
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 3
+            done
+          fi
+      - name: Publish the same catalog address
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publish.yml --ref main
