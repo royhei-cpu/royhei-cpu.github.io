@@ -63,3 +63,8 @@ if __name__=='__main__':
     data=json.loads((R/'catalog.json').read_text())
     f.v.make_sheet(data['products'])
     print('Reviewed photographs and evidence explanations applied.')
+
+# Preserve tested product navigation after generated UI changes.
+if __name__ == '__main__':
+    from navigation_fix import apply as _apply_navigation_fix
+    _apply_navigation_fix(R)

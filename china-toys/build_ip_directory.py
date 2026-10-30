@@ -74,3 +74,8 @@ assert all(b['records']>0 for b in brands),'A screenshot brand has no listings'
 assert all(ip['records']>0 for ip in coverage['requested_ips']),'A screenshot IP has no listings'
 (R/'ip-coverage.json').write_text(json.dumps(coverage,ensure_ascii=False,indent=2))
 print(json.dumps({'requested_brands':brands,'requested_ips':[{k:v for k,v in ip.items() if k!='product_ids'} for ip in coverage['requested_ips']],'character_filters':len(ips),'with_records':sum(bool(ip['records']) for ip in ips),'ranking_scope':cfg['ranking']['subtitle']},ensure_ascii=False,indent=2))
+
+# Preserve tested product navigation after generated UI changes.
+if __name__ == '__main__':
+    from navigation_fix import apply as _apply_navigation_fix
+    _apply_navigation_fix(R)
