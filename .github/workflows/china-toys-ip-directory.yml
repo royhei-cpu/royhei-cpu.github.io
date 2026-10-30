@@ -1,0 +1,73 @@
+name: China Toy Atlas IP Directory
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'china-toys/ip-market.json'
+      - 'china-toys/ip-directory.js'
+      - 'china-toys/build_ip_directory.py'
+      - 'china-toys/test_ip_directory.py'
+      - '.github/workflows/china-toys-ip-directory.yml'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: china-toys-evidence-review
+  cancel-in-progress: false
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser for interface checks
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Build source-scoped IP ranking and named-example coverage
+        run: |
+          python -m py_compile china-toys/build_ip_directory.py china-toys/test_ip_directory.py
+          python china-toys/build_ip_directory.py
+          node --check china-toys/ip-directory.js
+          node --check china-toys/ip-market-data.js
+          node --check china-toys/app.js
+      - name: Test requested examples and existing tutorial
+        run: python china-toys/test_ip_directory.py
+      - name: Keep exact validation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: china-toys-ip-directory-qa
+          path: |
+            /tmp/china-toys-ip-qa/
+            china-toys/ip-coverage.json
+            china-toys/ip-market.json
+            china-toys/ip-directory.js
+            china-toys/ip-market-data.js
+            china-toys/build_ip_directory.py
+            china-toys/index.html
+            china-toys/app.js
+            china-toys/catalog-guide.js
+          retention-days: 14
+      - name: Save validated changes
+        run: |
+          git config user.name 'China Toy Atlas reviewer'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add china-toys/app.js china-toys/index.html china-toys/ip-market-data.js china-toys/ip-coverage.json .github/workflows/publish.yml .github/workflows/china-toys-refresh.yml
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add verified IP revenue reference, character filters and screenshot coverage'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              git push origin HEAD:main && break
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 2
+            done
+          fi
+      - name: Republish the same public directory
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publish.yml --ref main
