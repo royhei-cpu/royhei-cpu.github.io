@@ -12,6 +12,10 @@ code = module.read_text(encoding='utf-8')
 code = code.replace("JSON.stringify([e.id,e.url||'',e.mode||'listing'])", "JSON.stringify([e.id,e.url||''])")
 if '.compare-table caption{' not in code:
     code = code.replace('.compare-table{border-collapse:', '.compare-table caption{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.compare-table{border-collapse:')
+# The original catalog applies nowrap to table headers. Override it explicitly
+# so long product names and row labels cannot overlap adjacent comparisons.
+code = code.replace('overflow-wrap:anywhere;text-align:left;background:white', 'overflow-wrap:anywhere;white-space:normal;text-align:left;background:white')
+code = code.replace('.compare-item-name{font-size:', '.compare-item-name{white-space:normal;overflow-wrap:anywhere;font-size:')
 module.write_text(code, encoding='utf-8')
 version = hashlib.sha256(code.encode()).hexdigest()[:12]
 p = R / 'index.html'
