@@ -1,0 +1,75 @@
+name: Audit China Toy Selection and Comparison
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'china-toys/compare.js'
+      - 'china-toys/compare_test.py'
+      - 'china-toys/install_compare.py'
+      - '.github/workflows/china-toys-compare-audit.yml'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: china-toys-evidence-review
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect current source for inspection
+        run: |
+          mkdir -p /tmp/toy-compare-source/china-toys /tmp/toy-compare-source/.github/workflows
+          find china-toys -maxdepth 1 -type f -exec cp {} /tmp/toy-compare-source/china-toys/ \;
+          cp .github/workflows/china-toys*.yml .github/workflows/publish.yml /tmp/toy-compare-source/.github/workflows/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: toy-compare-source
+          path: /tmp/toy-compare-source/
+          include-hidden-files: true
+          retention-days: 7
+      - uses: actions/setup-python@v5
+        if: ${{ hashFiles('china-toys/compare_test.py') != '' }}
+        with:
+          python-version: '3.12'
+      - name: Prepare test browsers
+        if: ${{ hashFiles('china-toys/compare_test.py') != '' }}
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium webkit
+      - name: Install and validate comparison without altering products
+        if: ${{ hashFiles('china-toys/compare_test.py') != '' }}
+        run: |
+          python china-toys/install_compare.py
+          node --check china-toys/compare.js
+          python china-toys/compare_test.py
+          python china-toys/navigation_test.py
+      - name: Keep comparison and navigation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: china-toys-compare-audit
+          path: |
+            /tmp/china-toys-compare-audit/
+            /tmp/china-toys-navigation-qa/
+          if-no-files-found: ignore
+          retention-days: 14
+      - name: Save tested integration
+        if: ${{ hashFiles('china-toys/compare_test.py') != '' }}
+        run: |
+          git config user.name 'China Toy Atlas UI audit'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add china-toys/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Enable tested Select and Compare controls in China Toy Atlas'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Publish tested catalog
+        if: ${{ hashFiles('china-toys/compare_test.py') != '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publish.yml --ref main
