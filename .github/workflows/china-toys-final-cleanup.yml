@@ -1,0 +1,105 @@
+name: Final China Toy Comparison Audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'china-toys/final_ui_cleanup.py'
+      - '.github/workflows/china-toys-final-cleanup.yml'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: china-toys-evidence-review
+  cancel-in-progress: false
+jobs:
+  final:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare browsers
+        run: |
+          pip install playwright Pillow
+          python -m playwright install --with-deps chromium webkit
+      - name: Correct the defects found during visual inspection
+        run: |
+          python china-toys/final_ui_cleanup.py
+          python -m py_compile china-toys/source_copy.py
+          node --check china-toys/compare.js
+          python china-toys/compare_test.py
+      - name: Save only the tested toy changes
+        run: |
+          git config user.name 'China Toy Atlas audit'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add china-toys/index.html china-toys/compare.js china-toys/catalog.json china-toys/catalog.js china-toys/catalog.csv china-toys/report.json china-toys/review-report.json china-toys/source_copy.py
+          if ! git diff --cached --quiet; then
+            git commit -m 'Remove media fallback descriptions and protect Compare controls'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Publish corrected website
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publish.yml --ref main
+      - name: Confirm exact corrected public assets
+        run: |
+          python - <<'PY'
+          import re,time,pathlib,urllib.request
+          base='https://royhei-cpu.github.io/china-toys/'
+          expected=re.search(r'src="(compare\.js\?[^\"]+)"',pathlib.Path('china-toys/index.html').read_text()).group(1)
+          for attempt in range(48):
+              try:
+                  text=urllib.request.urlopen(urllib.request.Request(base+'?audit='+str(int(time.time())),headers={'Cache-Control':'no-cache'}),timeout=20).read().decode()
+                  if expected in text:
+                      code=urllib.request.urlopen(base+expected,timeout=20).read().decode()
+                      if '.has-compare-selection #toast{' in code and '.compare-item-name{white-space:normal;' in code:
+                          print('Exact corrected public asset:',expected);break
+              except Exception as e:print(type(e).__name__)
+              time.sleep(10)
+          else:raise RuntimeError('Corrected public assets not observed')
+          PY
+      - name: Audit the actual corrected public website
+        env:
+          ATLAS_TEST_URL: https://royhei-cpu.github.io/china-toys/
+          ATLAS_COMPARE_REPORT: /tmp/china-toys-final-live
+        run: python china-toys/compare_test.py
+      - name: Final live screenshot and obstructed-button check
+        run: |
+          python - <<'PY'
+          import json,pathlib
+          from playwright.sync_api import sync_playwright
+          O=pathlib.Path('/tmp/china-toys-final-live');checks=[]
+          with sync_playwright() as pw:
+              for engine,width in [('chromium',1440),('chromium',390),('webkit',390)]:
+                  b=getattr(pw,engine).launch();p=b.new_page(viewport={'width':width,'height':1000 if width>1000 else 844})
+                  p.goto('https://royhei-cpu.github.io/china-toys/?retailer=toptoy',wait_until='domcontentloaded')
+                  p.wait_for_function('window.ATLAS_COMPARE && document.querySelectorAll(".compare-select").length>1')
+                  assert p.evaluate('!window.TOY_ATLAS.products.some(p=>/browser does not support/i.test(p.details?.description||""))')
+                  p.locator('#catalogGrid .compare-select').nth(0).click();p.locator('#catalogGrid .compare-select').nth(1).click()
+                  assert p.locator('#compareDockOpen').evaluate('(e)=>{const r=e.getBoundingClientRect(),hit=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);return e===hit||e.contains(hit)}'), 'Compare button obscured'
+                  p.wait_for_timeout(5100)
+                  p.screenshot(path=str(O/f'live-select-{engine}-{width}.png'))
+                  p.locator('#compareDockOpen').click()
+                  p.wait_for_function('[...document.querySelectorAll(".compare-item-photo")].every(e=>e.complete&&e.naturalWidth>0)')
+                  assert p.locator('.compare-table th').evaluate_all('(xs)=>xs.every(e=>e.scrollWidth<=e.clientWidth+1)')
+                  assert p.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
+                  p.screenshot(path=str(O/f'live-compare-{engine}-{width}.png'))
+                  checks.append(f'{engine} {width}px: clear Select/Compare, no overlay obstruction or text overlap; technical fallback descriptions absent')
+                  b.close()
+          (O/'visual-results.json').write_text(json.dumps({'status':'PASS','checks':checks},indent=2))
+          print(json.dumps(checks,indent=2))
+          PY
+      - name: Save complete audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: china-toys-final-audit
+          path: |
+            /tmp/china-toys-compare-audit/
+            /tmp/china-toys-final-cleanup/
+            /tmp/china-toys-final-live/
+          retention-days: 14
