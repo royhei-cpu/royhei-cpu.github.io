@@ -34,7 +34,7 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Validate code
         run: |
-          python -m py_compile china-toys/refresh.py china-toys/enhance.py china-toys/quality.py china-toys/review.py china-toys/review_finalize.py
+          python -m py_compile china-toys/refresh.py china-toys/enhance.py china-toys/quality.py china-toys/review.py china-toys/review_finalize.py china-toys/review_publish.py
           node --check china-toys/app.js
       - name: Collect products and preserve exact-item evidence
         run: |
@@ -47,10 +47,10 @@ jobs:
             raise RuntimeError('No source completed; refusing to publish a false successful refresh')
           d['last_full_collection']=d['updated'];p.write_text(json.dumps(d,ensure_ascii=False,separators=(',',':')))
           PY
-          python china-toys/review_finalize.py
+          python china-toys/review_publish.py
           node --check china-toys/app.js
       - name: Validate updated desktop and mobile views
-        run: python china-toys/review_test.py
+        run: python china-toys/review_acceptance.py
       - name: Save directory changes
         run: |
           git config user.name 'China Toy Atlas updater'
