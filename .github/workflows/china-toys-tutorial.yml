@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
     paths:
-      - '.github/workflows/china-toys-tutorial.yml'
       - 'china-toys/tutorial_build.py'
 permissions:
   contents: write
@@ -53,11 +52,11 @@ jobs:
         run: |
           git config user.name 'China Toy Atlas tutorial'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add china-toys/tutorial china-toys/index.html china-toys/catalog-guide.js china-toys/review_publish.py china-toys/app.js china-toys/catalog.json china-toys/catalog.js china-toys/catalog.csv china-toys/report.json china-toys/review-report.json china-toys/source-leads.json china-toys/images .github/workflows/publish.yml
+          git add china-toys/tutorial china-toys/index.html china-toys/catalog-guide.js china-toys/review_publish.py china-toys/app.js china-toys/catalog.json china-toys/catalog.js china-toys/catalog.csv china-toys/report.json china-toys/review-report.json china-toys/source-leads.json china-toys/images china-toys/review-media
           if ! git diff --cached --quiet; then
             git commit -m 'Publish narrated tutorial and useful source-backed product details'
             for attempt in 1 2 3; do
-              git pull --rebase origin main
+              git pull --rebase --autostash origin main
               git push origin HEAD:main && break
               if [ "$attempt" = 3 ]; then exit 1; fi
               sleep 3
