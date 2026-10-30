@@ -12,6 +12,7 @@ R = Path(__file__).resolve().parent
 O = Path('/tmp/china-toys-weekly-brief-qa')
 O.mkdir(exist_ok=True)
 checks, errors = [], []
+passed = False
 server = subprocess.Popen([sys.executable, '-m', 'http.server', '8792', '--directory', str(R.parent)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 metrics = {}
 try:
@@ -89,13 +90,34 @@ try:
             checks.append(f'{width}px layout: no horizontal overflow; weekly panel readable')
         assert not errors, errors
         browser.close()
-    probe = subprocess.run(['ffprobe','-v','error','-show_entries','stream=codec_type,codec_name','-of','json',str(R/'tutorial/China_Toy_Atlas_Tutorial.mp4')], check=True, capture_output=True, text=True)
-    streams = json.loads(probe.stdout)['streams']
-    assert any(x['codec_type']=='audio' for x in streams)
-    metrics['tutorial_streams'] = streams
-    checks.append('Tutorial MP4 retains its audio stream; no physical listening test claimed')
+    # Read ISO-BMFF handler boxes to prove the existing MP4 retains audio.
+    # Browser playback above is a separate decoding/interaction check.
+    def handlers(buf):
+        offset = 0
+        while offset + 8 <= len(buf):
+            size = int.from_bytes(buf[offset:offset+4], 'big')
+            kind = buf[offset+4:offset+8]
+            header = 8
+            if size == 1:
+                assert offset + 16 <= len(buf)
+                size = int.from_bytes(buf[offset+8:offset+16], 'big')
+                header = 16
+            if size == 0:
+                size = len(buf) - offset
+            assert size >= header and offset + size <= len(buf), 'Invalid MP4 box'
+            payload = buf[offset+header:offset+size]
+            if kind in (b'moov', b'trak', b'mdia'):
+                yield from handlers(payload)
+            elif kind == b'hdlr' and len(payload) >= 12:
+                yield payload[8:12].decode('ascii', errors='replace')
+            offset += size
+    track_handlers = list(handlers((R/'tutorial/China_Toy_Atlas_Tutorial.mp4').read_bytes()))
+    assert 'soun' in track_handlers and 'vide' in track_handlers
+    metrics['tutorial_track_handlers'] = track_handlers
+    checks.append('Tutorial MP4 retains video and audio tracks; no physical listening test claimed')
+    passed = True
 finally:
     server.terminate()
-    result = {'checks': checks, 'page_errors': errors, 'metrics': metrics, 'viewports': ['1440x1000','390x844','768x844'], 'method':'Playwright Chromium; Browser plugin unavailable', 'scope':'Interface behavior and saved-data consistency only; not exhaustive product/source verification'}
+    result = {'passed': passed, 'checks': checks, 'page_errors': errors, 'metrics': metrics, 'viewports': ['1440x1000','390x844','768x844'], 'method':'Playwright Chromium; Browser plugin unavailable', 'scope':'Interface behavior and saved-data consistency only; not exhaustive product/source verification'}
     (O / 'results.json').write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps(result, ensure_ascii=False, indent=2))
