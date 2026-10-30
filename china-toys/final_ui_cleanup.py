@@ -35,9 +35,16 @@ f.write_text(text)
 f=R/'compare.js';text=f.read_text()
 if '.has-compare-selection #toast{' not in text:
     text=text.replace('.compare-notice{position:fixed;', '.has-compare-selection #toast{display:none!important}.compare-notice{position:fixed;',1)
+# Reserve actual header/footer height rather than relying on a fixed mobile
+# subtraction. The comparison table shrinks and scrolls, not the action buttons.
+if '/* COMPARE_FLEX_FOOTER */' not in text:
+    marker='`;document.head.append(style);'
+    assert text.count(marker)==1
+    css='\n/* COMPARE_FLEX_FOOTER */\n.compare-dialog[open]{display:flex;flex-direction:column}.compare-dialog-head,.compare-dialog-foot{flex:0 0 auto}.compare-scroll{flex:1 1 auto;min-height:0}\n'
+    text=text.replace(marker,css+marker,1)
 f.write_text(text)
 runpy.run_path(str(R/'install_compare.py'),run_name='__main__')
 O=Path('/tmp/china-toys-final-cleanup');O.mkdir(exist_ok=True)
-report={'description_rows_corrected':len(changed),'rows':changed,'products_unchanged':len(d['products']),'dates_prices_images_and_ids_unchanged':True,'scope':'Remove HTML media fallback, preserve product facts and source links; prevent messages covering Compare.'}
+report={'description_rows_corrected':len(changed),'rows':changed,'products_unchanged':len(d['products']),'dates_prices_images_and_ids_unchanged':True,'mobile_footer':'Flex layout reserves actual header/footer size and keeps table scrolling internal','scope':'Remove HTML media fallback, preserve product facts and source links; prevent messages covering Compare; keep phone comparison actions visible.'}
 (O/'cleanup-results.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
 print(json.dumps(report,ensure_ascii=False),flush=True)
