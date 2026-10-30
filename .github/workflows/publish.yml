@@ -95,6 +95,7 @@ jobs:
         run: |
           if [ -f china-toys/catalog-guide.js ]; then cp china-toys/catalog-guide.js _site/china-toys/; fi
           if [ -d china-toys/tutorial ]; then cp -R china-toys/tutorial _site/china-toys/tutorial; fi
+          if [ -f china-toys/compare.js ]; then cp china-toys/compare.js _site/china-toys/; fi
       - name: Copy China Toy IP ranking assets
         run: |
           if [ -f china-toys/ip-market-data.js ]; then
