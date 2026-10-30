@@ -36,9 +36,18 @@ jobs:
         run: |
           python -m py_compile china-toys/review.py china-toys/review_finalize.py china-toys/review_publish.py
           python china-toys/review_publish.py
+          python china-toys/build_ip_directory.py
           node --check china-toys/app.js
+          python - <<'PY'
+          import json,pathlib
+          d=json.loads(pathlib.Path('china-toys/catalog.json').read_text())
+          excluded={'c0a4733ada5087db','9a025b5159edcad7'}
+          assert not any(p['id'] in excluded for p in d['products']), 'Ordinary Nommi bags must not count as blind-box figures'
+          PY
       - name: Test desktop and mobile product flows
-        run: python china-toys/review_acceptance.py
+        run: |
+          python china-toys/review_acceptance.py
+          python china-toys/test_ip_directory.py
       - name: Keep review and browser evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -46,7 +55,9 @@ jobs:
           name: china-toys-evidence-review
           path: |
             /tmp/china-toys-review-qa/
+            /tmp/china-toys-ip-qa/
             china-toys/review-report.json
+            china-toys/ip-coverage.json
             china-toys/review-media/
           retention-days: 14
       - name: Save reviewed directory
@@ -55,7 +66,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add china-toys
           if ! git diff --cached --quiet; then
-            git commit -m 'Publish reviewed product photographs and clear demand evidence'
+            git commit -m 'Publish reviewed product photographs, corrected item scope and IP coverage'
             for attempt in 1 2 3; do
               git pull --rebase origin main
               git push origin HEAD:main && break
