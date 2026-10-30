@@ -1,0 +1,36 @@
+name: Check Live China Toy Navigation
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'china-toys/live_navigation_test.py'
+      - '.github/workflows/china-toys-live-navigation.yml'
+permissions:
+  contents: read
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            china-toys/live_navigation_test.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare browser
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Click the real public brand and shop controls
+        run: python china-toys/live_navigation_test.py
+      - name: Keep exact live results and phone screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: china-toys-live-navigation
+          path: /tmp/china-toys-live-navigation/
+          retention-days: 14
