@@ -17,7 +17,7 @@
       "url": "https://gotoptoy.com",
       "status": "complete",
       "checked": "2026-10-30",
-      "raw_products_read": 251,
+      "raw_products_read": 252,
       "currency": "USD"
     },
     {
@@ -125,7 +125,7 @@
       "url": "https://anthillshop.com",
       "status": "complete",
       "checked": "2026-10-30",
-      "raw_products_read": 505,
+      "raw_products_read": 509,
       "currency": "USD"
     },
     {
@@ -151,10 +151,35 @@
   "new_ids": [
     "baf89ccfb7606dca"
   ],
-  "image_repairs": [],
+  "image_repairs": [
+    {
+      "id": "23d11410d5e889e9",
+      "name": "MINIONS & MONSTERS STUDIO ADVENTURE SERIES",
+      "source": "https://hi52toys.com/products/minions-monsters-studio-adventure-series",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "e8944d990eab4d0d",
+      "name": "Twinkle Twinkle Crush On You Series Blind Box Figures",
+      "source": "https://toybeta.com/products/twinkle-twinkle-crush-on-you-series-blind-box-figures",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "a6352811fd423b78",
+      "name": "CRYBABY Vacation Mode On Series-Vinyl Plush Pendant Blind Box",
+      "source": "https://toybeta.com/products/crybaby-vacation-mode-on-series-vinyl-plush-pendant-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "5318f353a2038cbb",
+      "name": "Q.Kid Shining Passion Series PVC Plush Blind Box",
+      "source": "https://jotoys.store/products/q-kid-shining-passion-series-pvc-plush-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    }
+  ],
   "image_failures": [],
-  "before_products": 4233,
-  "after_products": 4233,
+  "before_products": 4232,
+  "after_products": 4232,
   "stats": {
     "products": 4232,
     "brands": 778,
@@ -172,7 +197,8 @@
     "with_variant_options": 3950,
     "source_linked_images": 3950,
     "source_leads_excluded": 23,
-    "visually_reviewed_sample": 8
+    "visually_reviewed_sample": 8,
+    "with_shop_descriptions": 3487
   },
   "checklist": [
     {

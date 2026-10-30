@@ -960,7 +960,16 @@
       "source": "https://jotoys.store/products/blind-box-collectors-bundle",
       "checked": "2026-10-30",
       "source_product_type": "product",
-      "field_sources": {}
+      "field_sources": {
+        "description": {
+          "url": "https://jotoys.store/products/blind-box-collectors-bundle",
+          "checked": "2026-10-30",
+          "kind": "Attributed shop excerpt"
+        }
+      },
+      "description": "The Blind Box Collector's Bundle invites you to curate a personalized collection of delightful surprises. You begin by selecting from an array of soft plush blind boxes that bring warmth and companionship to your space. Next, you can choose from themed series & bags that capture the joy of everyday adventures and playful characters. Your bundle continues with a selection of intricate pvc figures & dolls that add a touch of magic and artistry to…",
+      "description_source": "https://jotoys.store/products/blind-box-collectors-bundle",
+      "description_checked": "2026-10-30"
     },
     "image_review": {
       "status": "Same-product source image",

@@ -3,6 +3,8 @@
 import json
 import re
 import review_finalize as f
+import source_copy
+source_copy.install(f.v)
 
 R=f.R
 original_save=f.save_outputs
@@ -52,6 +54,7 @@ f.save_outputs=apply_visual_review
 
 if __name__=='__main__':
     f.main()
+    source_copy.export(R)
     app=R/'app.js'
     base=app.read_text().split('\n/* ATLAS_PLAIN_EVIDENCE */')[0]
     app.write_text(base+'\n'+(R/'review-polish.js').read_text())
