@@ -34,7 +34,7 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Validate code
         run: |
-          python -m py_compile china-toys/refresh.py china-toys/enhance.py china-toys/quality.py china-toys/review.py china-toys/review_finalize.py china-toys/review_publish.py
+          python -m py_compile china-toys/refresh.py china-toys/enhance.py china-toys/quality.py china-toys/review.py china-toys/review_finalize.py china-toys/review_publish.py china-toys/navigation_fix.py china-toys/navigation_test.py
           node --check china-toys/app.js
       - name: Collect products and preserve exact-item evidence
         run: |
@@ -49,6 +49,7 @@ jobs:
           PY
           python china-toys/review_publish.py
           python china-toys/build_ip_directory.py
+          python china-toys/navigation_fix.py
           python china-toys/install_weekly_brief.py
           node --check china-toys/app.js
           node --check china-toys/catalog-guide.js
@@ -56,11 +57,12 @@ jobs:
         run: |
           python china-toys/review_acceptance.py
           python china-toys/weekly_brief_test.py
+          python china-toys/navigation_test.py
       - name: Save directory changes
         run: |
           git config user.name 'China Toy Atlas updater'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add china-toys/catalog.json china-toys/catalog.js china-toys/catalog.csv china-toys/report.json china-toys/research-queue.json china-toys/images china-toys/source-leads.json china-toys/review-report.json china-toys/review-media china-toys/app.js china-toys/index.html china-toys/catalog-guide.js china-toys/ip-market-data.js china-toys/ip-coverage.json
+          git add china-toys/catalog.json china-toys/catalog.js china-toys/catalog.csv china-toys/report.json china-toys/research-queue.json china-toys/images china-toys/source-leads.json china-toys/review-report.json china-toys/review-media china-toys/app.js china-toys/index.html china-toys/catalog-guide.js china-toys/ip-market-data.js china-toys/ip-coverage.json china-toys/review_publish.py china-toys/build_ip_directory.py
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh source-backed product specs, photos, prices and weekly changes'
             for attempt in 1 2 3; do
@@ -81,6 +83,7 @@ jobs:
             /tmp/china-toys-review-qa/results.json
             /tmp/china-toys-review-qa/*.png
             /tmp/china-toys-weekly-brief-qa/
+            /tmp/china-toys-navigation-qa/
           retention-days: 14
       - name: Publish updated public site
         env:
