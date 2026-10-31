@@ -8,7 +8,7 @@
  if(more){const details=document.createElement('details');details.className='atlas-more-filters';const summary=document.createElement('summary');summary.textContent='More filters & sorting';details.append(summary);more.before(details);details.append(more);}
  // One brand selector in the browsing controls replaces duplicate brand strips.
  const brands=document.querySelector('.brand-section');if(brands)brands.hidden=true;
- const brandControl=document.getElementById('brandControl');if(brandControl){const link=document.createElement('a');link.href='brands.html';link.textContent='All brands & makers →';link.className='atlas-directory-shortcut';brandControl.parentElement.after(link);}
+ const brandControl=document.getElementById('brandControl');if(brandControl){const link=document.createElement('a');link.href='brands.html';link.textContent='All brands & makers →';link.className='atlas-directory-shortcut atlas-directory-link';brandControl.parentElement.after(link);}
  const reset=document.getElementById('resetFilters');if(reset&&more)more.parentElement.after(reset);
  const desk=document.getElementById('chinaIntelligence');
  if(desk&&!document.getElementById('chinaIntelligencePanel')){const details=document.createElement('details');details.id='chinaIntelligencePanel';details.className='atlas-research-fold';const summary=document.createElement('summary');summary.textContent='Trends, rankings & market research';details.append(summary);desk.before(details);details.append(desk);}
