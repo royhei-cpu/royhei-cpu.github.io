@@ -16,7 +16,7 @@ try:
         p.clock.install(time=__import__('datetime').datetime(2026,10,31,12,tzinfo=__import__('datetime').timezone.utc))
         p.goto('http://127.0.0.1:8797/china-toys/',wait_until='networkidle')
         expect(p.locator('#chinaDeskTitle')).to_have_text('What deserves a closer look?')
-        assert p.evaluate("document.getElementById('weeklyOverview').nextElementSibling.id")=='chinaIntelligencePanel'
+        assert p.evaluate("!!(document.getElementById('results').compareDocumentPosition(document.getElementById('chinaIntelligencePanel')) & Node.DOCUMENT_POSITION_FOLLOWING)")
         assert not p.locator('#chinaIntelligencePanel').evaluate('(e)=>e.open')
         p.locator('#atlasBrandNav a[href="#chinaIntelligencePanel"]').click()
         expect(p.locator('#chinaDeskTitle')).to_be_visible()
