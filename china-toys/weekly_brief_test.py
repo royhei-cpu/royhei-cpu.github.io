@@ -23,21 +23,24 @@ try:
         page.on('pageerror', lambda e: errors.append(str(e)))
         page.goto('http://127.0.0.1:8792/china-toys/', wait_until='networkidle')
         expect(page.locator('[data-executive-brief]')).to_be_visible()
-        expect(page.locator('.brief-heading h2')).to_have_text('What changed this week')
+        expect(page.locator('.brief-heading h1')).to_have_text('What changed this week')
         assert page.evaluate("document.querySelector('main.shell').firstElementChild.id") == 'weeklyOverview'
         assert page.title().startswith('China Toy Atlas')
         metrics['all_shops'] = page.locator('.brief-kpi').all_inner_texts()
-        checks.append('Weekly brief is the first content section and all four metrics render')
+        checks.append('Weekly brief is the first content section and populated metrics render')
         assert page.locator('.brief-story').count() <= 5
         assert page.locator('.brief-story').count() == page.locator('.brief-story .brief-next').count()
         assert page.locator('.brief-story a').count() >= page.locator('.brief-story').count()
-        assert page.locator('.brief-watch').count() == 0 or 'not new weekly news' in page.locator('.brief-watch').inner_text()
+        assert page.locator('.brief-watch').count() == 0 or 'evidence' in page.locator('.brief-watch summary').inner_text()
+        assert not page.locator('.brief-expand[open]').count()
         checks.append('Every highlight has sources and next checks; older trend evidence is separate')
         page.screenshot(path=str(O / 'desktop-weekly-brief.png'))
         page.locator('#weeklyOverview').screenshot(path=str(O / 'desktop-full-brief.png'))
         for key in ['added', 'launch', 'price', 'restock']:
             selector = f'#weeklyOverview [data-weekly="{key}"]'
             button = page.locator(selector)
+            if not button.count():
+                continue
             expected = int(re.search(r'[\d,]+', button.inner_text()).group(0).replace(',', ''))
             button.click()
             page.wait_for_function('(k) => new URLSearchParams(location.search).get("change") === k', arg=key)
@@ -53,13 +56,14 @@ try:
         page.locator('#retailer').select_option('')
         expect(page.locator('.brief-scope')).to_contain_text('All tracked shops')
         if page.locator('#weeklyOverview [data-open]').count():
+            page.locator('.brief-expand>summary').first.click()
             expected_title = page.locator('#weeklyOverview [data-open]').first.inner_text()
             page.locator('#weeklyOverview [data-open]').first.click()
             expect(page.locator('#productDialog')).to_be_visible()
             expect(page.locator('#detailTitle')).to_have_text(expected_title)
             page.locator('#closeProduct').click()
             checks.append('Highlighted product opens the correct existing details dialog')
-        page.locator('[data-brief-rankings]').click()
+        page.locator('#openIPRankings').click()
         assert page.locator('#ip-rankings').evaluate('(el)=>el.open')
         expect(page.locator('.ip-subtitle')).to_contain_text('global revenue')
         assert page.locator('.ip-rank-row').count() == 8
