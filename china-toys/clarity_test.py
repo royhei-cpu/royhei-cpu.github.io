@@ -5,6 +5,8 @@ from playwright.sync_api import sync_playwright,expect
 R=Path(__file__).resolve().parent
 O=Path('/tmp/china-toys-clarity-qa');O.mkdir(exist_ok=True)
 server=subprocess.Popen([sys.executable,'-m','http.server','8797','--directory',str(R.parent)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+supplement=json.loads((R/'chain-assortments.json').read_text())
+x11_count=sum('x11' in p['chain_ids'] for p in supplement['products'])
 errors=[];checks=[]
 try:
  time.sleep(.3)
@@ -55,10 +57,10 @@ try:
   assert page.locator('#retailer').input_value()
   page.goto(root,wait_until='domcontentloaded')
   page.get_by_role('tab',name='X11',exact=True).click()
-  expect(page.locator('#chainDetail')).to_contain_text('8 first-party sale records')
-  expect(page.locator('#chainDetail .ca-product')).to_have_count(8)
+  expect(page.locator('#chainDetail')).to_contain_text(f'{x11_count} first-party sale records')
+  expect(page.locator('#chainDetail .ca-product')).to_have_count(x11_count)
   assert page.locator('#chainDetail .chain-assortment').count()==0
-  assert page.locator('#retailChains [role="tab"]').count()==11
+  assert page.locator('#retailChains [role="tab"]').count()==len(supplement['chains'])
   # User gestures unlock audio. Mute survives page navigation/reload.
   expect(page.locator('#atlasSound')).to_have_attribute('aria-pressed','true')
   page.locator('#atlasSound').click()
@@ -67,7 +69,7 @@ try:
   expect(page.locator('#atlasSound')).to_have_text('♫ Sound off')
   page.locator('#atlasBrandNav').get_by_role('link',name='Products',exact=True).click()
   expect(page.locator('#atlasSound')).to_have_text('♫ Sound off')
-  checks.append('Eleven retail references; TOP TOY assortment opens; X11 opens eight documented products without empty catalog links; audio starts on gesture and mute persists')
+  checks.append('Expanded retail references; TOP TOY assortment opens; X11 opens documented products without empty catalog links; audio starts on gesture and mute persists')
   for width in [390,768,1440]:
    page.set_viewport_size({'width':width,'height':1000})
    page.goto(root,wait_until='domcontentloaded')

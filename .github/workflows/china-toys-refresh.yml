@@ -71,6 +71,7 @@ jobs:
           python china-toys/navigation_test.py
           python china-toys/compare_test.py
           python china-toys/clarity_test.py
+          python china-toys/chain_coverage_test.py
       - name: Save directory changes
         run: |
           git config user.name 'China Toy Atlas updater'

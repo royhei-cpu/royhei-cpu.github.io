@@ -2,20 +2,32 @@
 
 Live directory: https://royhei-cpu.github.io/china-toys/?chain=miniso#retailChains
 
-Added **39 first-party sale-announcement product/series records** and **8 separately labeled secondary MINISO flagship reports**. Shared products are stored once, with multiple documented chain relationships. These are dated assortment records, not proof of current inventory or completed transactions.
+Registry: **18 retailers**. This expanding registry does not establish coverage of every retailer in China. The latest expansion adds **34 records**; original catalog product records are preserved.
 
-The original seven MINISO China showcase records remain intact. They are not converted into Tmall stock or price records. All eight requested source reviews are recorded; **no chain is marked complete**.
+Added **69 first-party sale-announcement product/series records** and **10 separately labeled secondary flagship reports**, plus **2 independent store-report records**. General brand releases are excluded from these totals. Shared products are stored once, with multiple documented chain relationships. These are dated assortment records, not proof of current inventory or completed transactions.
 
-| Chain | First-party product/series records | Secondary reports | Remaining limitation |
-|---|---:|---:|---|
-| MINISO / 名创优品 | 0 | 8 | Direct Tmall page redirected to miniso.world.tmall.com and could not be retrieved. Eight secondary listing reports; none treated as authenticated inventory. Squishies: Product-level evidence captured. |
-| X11 | 8 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Further SKU-level squishy sourcing required. |
-| KKV | 5 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Further SKU-level squishy sourcing required. |
-| Jiumu / 九木杂物社 | 7 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Further SKU-level squishy sourcing required. |
-| KuLe / 酷乐潮玩 | 5 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Product-level evidence captured. |
-| The Green Party / 绿光派对 | 6 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Further SKU-level squishy sourcing required. |
-| SANFU / 三福 | 2 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Further SKU-level squishy sourcing required. |
-| IPSTAR / 潮玩星球 | 11 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Further SKU-level squishy sourcing required. |
+The original seven MINISO China showcase records remain intact. They are not converted into Tmall stock or price records. The original eight requested source reviews and all tracked additional retailers are recorded; **no chain is marked complete**.
+
+| Chain | First-party product/series records | Flagship reports | Store reports | Remaining limitation |
+|---|---:|---:|---:|---|
+| MINISO / 名创优品 | 3 | 8 | 0 | Official MINISO mainland sale announcements are now captured separately from seven showcases and eight secondary flagship reports. Direct Tmall inventory remains inaccessible; prices and current stock are incomplete. Squishies: Secondary flagship squishy evidence and separate official showcase; live assortment unverified. |
+| X11 | 11 | 0 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Further SKU-level squishy sourcing required. |
+| KKV | 10 | 1 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Specific squishy listing captured as secondary flagship evidence; direct inventory not authenticated. |
+| Jiumu / 九木杂物社 | 7 | 1 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Specific squishy listing captured as secondary flagship evidence; direct inventory not authenticated. |
+| KuLe / 酷乐潮玩 | 5 | 0 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Product-level evidence captured. |
+| The Green Party / 绿光派对 | 7 | 0 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Further SKU-level squishy sourcing required. |
+| SANFU / 三福 | 2 | 0 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Further SKU-level squishy sourcing required. |
+| IPSTAR / 潮玩星球 | 11 | 0 | 0 | Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks. Squishies: Further SKU-level squishy sourcing required. |
+| POP MART | 4 | 0 | 0 | Mainland dated products now captured alongside the existing international feed; overseas prices are not China retail prices. Squishies: Squishy silicone lamp blind box documented; full squishy assortment unknown. |
+| TOP TOY | 9 | 0 | 0 | Mainland product announcements and international shop feeds remain separate. Branch stock and full mainland assortment are unavailable. Squishies: Further SKU-level squishy sourcing required. |
+| 52TOYS | 0 | 0 | 2 | Two independently reported mainland store assortments; current branch inventory and prices unavailable. Five recent manufacturer launches are retained only as brand references, not chain-sale records. Squishies: Further SKU-level squishy sourcing required. |
+| TOYCITY · 玩具城市 | 6 | 0 | 0 | Six named products have explicit TOYCITY sale-channel evidence; five accessible video posts expose no still photograph. Prices and current stock are unavailable. Squishies: Further SKU-level squishy sourcing required. |
+| Lenle · 伶俐 | 7 | 0 | 0 | Manufacturer announcements name Lenle for specific products. Complete store and mini-program inventory remains unavailable. Squishies: Further SKU-level squishy sourcing required. |
+| Bandai Namco Shop | 1 | 0 | 0 | A named mainland release supports inclusion; it does not establish a full shop inventory or current stock. Squishies: Further SKU-level squishy sourcing required. |
+| March Monster · 三月兽 | 1 | 0 | 0 | Documented release at specified stores only. Prices and complete current assortment remain unavailable. Squishies: Further SKU-level squishy sourcing required. |
+| Tomato Pocket · 番茄口袋 | 1 | 0 | 0 | Product is documented at Beijing apm L4 by the mall operator; national chain availability, price and release date are not established. Squishies: Further SKU-level squishy sourcing required. |
+| Snack Busy · 零食很忙 | 1 | 0 | 0 | Manufacturer names this chain for one toy exclusive. Participating branches, prices and a still product image are unavailable. Squishies: Further SKU-level squishy sourcing required. |
+| Zhao Yiming · 赵一鸣零食 | 1 | 0 | 0 | Manufacturer names this chain for one toy exclusive. Participating branches, prices and a still product image are unavailable. Squishies: Further SKU-level squishy sourcing required. |
 
 ## Newly documented products
 
@@ -43,12 +55,12 @@ The original seven MINISO China showcase records remain intact. They are not con
 | Arknights BNFQ Pajamars Mofu · 明日方舟睡衣玩偶服系列盲盒 | kule | [official_sale_announcement](https://www.sina.cn/news/detail/5320286782361788.html) | 2026-07-13 | 2026-07-13 | Not established |
 | The Legend of Hei · Meow Burger · 罗小黑战记 喵呜汉堡系列盲盒 | sanfu | [official_sale_announcement](https://www.sina.cn/news/detail/5344830684662289.html) | 2026-09-19 | 2026-09-25 | CNY 39.9 / One random box (announced retail price, 2026-09-19) |
 | ZIYULI Hugging Clouds Dream · ZIYULI又梨 抱抱云朵梦境系列盲盒 | sanfu | [official_sale_announcement](https://www.sina.cn/news/detail/5256871663110771.html) | 2026-01-19 | 2026-01-25 | Not established |
-| Supernatural Action Team · Childhood Dreams · Magnetic Plush Pendant · 超自然行动组 童真忆梦 磁吸毛绒挂件盲盒 | green-party | [official_sale_announcement](https://www.sina.cn/news/detail/5344921281366173.html) | 2026-09-19 | 2026-09-25 | CNY 49 / One random design (announced retail price, 2026-09-22) |
-| Supernatural Action Team · Childhood Dreams · Tinplate Badge · 超自然行动组 童真忆梦 马口铁徽章盲盒 | green-party | [official_sale_announcement](https://www.sina.cn/news/detail/5344921281366173.html) | 2026-09-19 | 2026-09-25 | CNY 15 / One random design (announced retail price, 2026-09-21) |
-| Supernatural Action Team · Childhood Dreams · Gem Acrylic Pendant · 超自然行动组 童真忆梦 宝石亚克力挂件盲盒 | green-party | [official_sale_announcement](https://www.sina.cn/news/detail/5344921281366173.html) | 2026-09-19 | 2026-09-25 | CNY 19 / One random design (announced retail price, 2026-09-21) |
-| Supernatural Action Team · Childhood Dreams · Transparent Card · 超自然行动组 童真忆梦 透卡盲盒 | green-party | [official_sale_announcement](https://www.sina.cn/news/detail/5344921281366173.html) | 2026-09-19 | 2026-09-25 | CNY 9.9 / One random design (announced retail price, 2026-09-20) |
-| Supernatural Action Team · Childhood Dreams · Peel-apart Photo · 超自然行动组 童真忆梦 撕拉拍立得盲盒 | green-party | [official_sale_announcement](https://www.sina.cn/news/detail/5344921281366173.html) | 2026-09-19 | 2026-09-25 | CNY 12 / One random design (announced retail price, 2026-09-20) |
-| Supernatural Action Team · Childhood Dreams · Poster · 超自然行动组 童真忆梦 海报盲盒 | green-party | [official_sale_announcement](https://www.sina.cn/news/detail/5344921281366173.html) | 2026-09-19 | 2026-09-25 | CNY 15 / One random design (announced retail price, 2026-09-20) |
+| Supernatural Action Team · Childhood Dreams · Magnetic Plush Pendant · 超自然行动组 童真忆梦 磁吸毛绒挂件盲盒 | green-party, lenle | [official_sale_announcement](https://www.sina.cn/news/detail/5344921281366173.html) | 2026-09-19 | 2026-09-25 | CNY 49 / One random design (announced retail price, 2026-09-22) |
+| Supernatural Action Team · Childhood Dreams · Tinplate Badge · 超自然行动组 童真忆梦 马口铁徽章盲盒 | green-party, lenle | [official_sale_announcement](https://www.sina.cn/news/detail/5344921281366173.html) | 2026-09-19 | 2026-09-25 | CNY 15 / One random design (announced retail price, 2026-09-21) |
+| Supernatural Action Team · Childhood Dreams · Gem Acrylic Pendant · 超自然行动组 童真忆梦 宝石亚克力挂件盲盒 | green-party, lenle | [official_sale_announcement](https://www.sina.cn/news/detail/5344921281366173.html) | 2026-09-19 | 2026-09-25 | CNY 19 / One random design (announced retail price, 2026-09-21) |
+| Supernatural Action Team · Childhood Dreams · Transparent Card · 超自然行动组 童真忆梦 透卡盲盒 | green-party, lenle | [official_sale_announcement](https://www.sina.cn/news/detail/5344921281366173.html) | 2026-09-19 | 2026-09-25 | CNY 9.9 / One random design (announced retail price, 2026-09-20) |
+| Supernatural Action Team · Childhood Dreams · Peel-apart Photo · 超自然行动组 童真忆梦 撕拉拍立得盲盒 | green-party, lenle | [official_sale_announcement](https://www.sina.cn/news/detail/5344921281366173.html) | 2026-09-19 | 2026-09-25 | CNY 12 / One random design (announced retail price, 2026-09-20) |
+| Supernatural Action Team · Childhood Dreams · Poster · 超自然行动组 童真忆梦 海报盲盒 | green-party, lenle | [official_sale_announcement](https://www.sina.cn/news/detail/5344921281366173.html) | 2026-09-19 | 2026-09-25 | CNY 15 / One random design (announced retail price, 2026-09-20) |
 | Fruits Basket · Badge · 水果篮子 徽章盲盒 | ipstar | [official_sale_announcement](https://www.sina.cn/news/detail/5313397501198806.html) | 2026-06-24 | Not established | CNY 18 / One random box (announced retail price, 2026-06-24); CNY 252 / Full box / set (as stated in source) (announced retail price, 2026-06-24) |
 | Fruits Basket · Chibi Badge · 水果篮子 Q版徽章盲盒 | ipstar | [official_sale_announcement](https://www.sina.cn/news/detail/5313397501198806.html) | 2026-06-24 | Not established | CNY 16 / One random box (announced retail price, 2026-06-24); CNY 96 / Full box / set (as stated in source) (announced retail price, 2026-06-24) |
 | Fruits Basket · TV Badge · 水果篮子 TV徽章盲盒 | ipstar | [official_sale_announcement](https://www.sina.cn/news/detail/5313397501198806.html) | 2026-06-24 | Not established | CNY 18 / One random box (announced retail price, 2026-06-24); CNY 162 / Full box / set (as stated in source) (announced retail price, 2026-06-24) |
@@ -68,6 +80,40 @@ The original seven MINISO China showcase records remain intact. They are not con
 | Hello Kitty Sweet Workshop Scented Plush · Hello Kitty甜蜜工坊毛绒香薰盲盒 | miniso | [secondary_flagship_report](https://tao.hooos.com/goods_qmXmo5zc2t4mqO8n3oUgRmSWt0-yz622os6bjpKz7oi4.html) | Not stated | Not established | CNY 59.9 / Pack / chosen variant not established (secondary reported price, 2026-10-31) |
 | YOYO Playful Head Tilt ICONBOX · YOYO萌趣歪头系列iconbox手办盲盒 | miniso | [secondary_flagship_report](https://tao.hooos.com/goods_bzPxYPxUgtopX3BDXoIyyzUQt6-BmWKKNHrR6ZGy6vSx.html) | Not stated | Not established | CNY 49 / Pack / chosen variant not established (secondary reported price, 2026-10-31) |
 | YOYO Wind Diary Scented Figures · YOYO逐风日记系列香薰手办盲盒 | miniso | [secondary_flagship_report](https://tao.hooos.com/goods_oDM4nD2irtK60JeqdAcD9BHntN-4RDrrQF9APkQ3Ydtr.html) | Not stated | Not established | CNY 49 / Pack / chosen variant not established (secondary reported price, 2026-10-31) |
+| LIITE · Candy Dream · 莉塔糖果梦境系列搪胶毛绒盲盒 | miniso | [official_sale_announcement](https://www.sina.cn/news/detail/5343743571132735.html) | 2026-09-16 | 2026-09-19 | Not established |
+| LISA × YOYO · Collaboration Vinyl Blind Box · LISA联名款YOYO搪胶盲盒 | miniso | [official_sale_announcement](https://www.sina.cn/news/detail/5336843051599902.html) | 2026-08-28 | 2026-09-12 | Not established |
+| Bonnie 8 · Fluffy Melody · 邦倪八代绒绒乐章系列BJD盲盒 | miniso, green-party, lenle | [official_sale_announcement](https://www.sina.cn/news/detail/5347736691410585.html) | 2026-09-27 | 2026-10-01 | CNY 169 / One random box (announced retail price, 2026-09-27); CNY 1014 / Full set / end box; see source for contents (announced retail price, 2026-09-27) |
+| Zoraa · Winged Elf · Zoraa羽翼精灵系列搪胶毛绒盲盒 | kkv | [official_sale_announcement](https://www.sina.cn/news/detail/5275690099805076.html) | 2026-03-12 | 2026-03-15 | Not established |
+| LOVELYEMMA · Bear Alliance · LOVELYEMMA熊熊联萌毛绒盲盒 | kkv | [official_sale_announcement](https://www.sina.cn/news/detail/5229681940366189.html) | 2025-11-05 | 2025-11-08 | Not established |
+| ButterBear · OOTD · 黄油小熊OOTD换装搪胶毛绒盲盒 | kkv | [official_sale_announcement](https://www.sina.cn/news/detail/5217640093060393.html) | 2025-10-03 | 2025-10-05 | Not established |
+| PENGPENG · Furry Cute Gang · 怦怦PENGPENG绒绒萌煞团系列搪胶毛绒盲盒 | kkv | [official_sale_announcement](https://www.sina.cn/news/detail/5215200241519692.html) | 2025-09-26 | 2025-10-01 | Not established |
+| Pleasant Goat · Daily Life on the Green Grassland · 喜羊羊与灰太狼·青青草原的日常系列盲盒 | kkv | [official_sale_announcement](https://www.sina.cn/news/detail/5220622243463837.html) | 2025-10-11 | Not established | Not established |
+| SofuNui · Digimon Adventure · SofuNui数码宝贝大冒险搪胶毛绒盲盒 | top-toy | [official_sale_announcement](https://www.sina.cn/news/detail/5354581397342708.html) | 2026-10-16 | 2026-10-23 | CNY 89 / One random box (announced retail price, 2026-10-16); CNY 712 / Full set / end box; see source for contents (announced retail price, 2026-10-16) |
+| One Piece × Jason Freeny · Zoro Sword Stances · 航海王×Jason Freeny系列盲盒：索隆剑势录 | top-toy | [official_sale_announcement](https://www.sina.cn/news/detail/5346989991789401.html) | 2026-09-25 | 2026-09-30 | CNY 79 / One random box (announced retail price, 2026-09-25); CNY 474 / Full set / end box; see source for contents (announced retail price, 2026-09-25) |
+| SISI · Pet King · SISI宠物大王系列毛绒挂饰盲盒 | top-toy | [official_sale_announcement](https://www.sina.cn/news/detail/5342643627491723.html) | 2026-09-13 | 2026-09-17 | CNY 89 / One random box (announced retail price, 2026-09-13); CNY 534 / Full set / end box; see source for contents (announced retail price, 2026-09-13) |
+| Toy Story 5 · Forever Companions · 迪士尼玩具总动员5永远的伙伴系列手办盲盒 | top-toy | [official_sale_announcement](https://www.sina.cn/news/detail/5309047399777238.html) | 2026-06-12 | 2026-05-22 | CNY 69 / One random box (announced retail price, 2026-06-12); CNY 414 / Full set / end box; see source for contents (announced retail price, 2026-06-12) |
+| ukio · City Impressions · ukio城市印象系列盲盒 | top-toy | [official_sale_announcement](https://www.sina.cn/news/detail/5308675088187746.html) | 2026-06-11 | 2026-06-13 | CNY 79 / One random box (announced retail price, 2026-06-11); CNY 711 / Full set / end box; see source for contents (announced retail price, 2026-06-11) |
+| Sanrio · Little Bear Planet · 三丽鸥家族小小熊星球系列毛绒挂饰盲盒 | top-toy | [official_sale_announcement](https://www.sina.cn/news/detail/5282174808099288.html) | 2026-03-30 | 2026-04-03 | CNY 89 / One random box (announced retail price, 2026-03-30); CNY 1068 / Full set / end box; see source for contents (announced retail price, 2026-03-30) |
+| Kabutack · BN FIGURE Q Vol. 3 · 铁甲小宝BN FIGURE Q盲盒第三弹 | top-toy, bandai-namco-shop | [official_sale_announcement](https://www.sina.cn/news/detail/5326348903257719.html) | 2026-07-30 | 2026-08-07 | CNY 79 / One random box (announced retail price, 2026-07-30) |
+| Mischief Night · Silicone Squishy Light · 闹闹奇遇夜系列硅胶捏捏灯盲盒 | pop-mart | [official_sale_announcement](https://www.sina.cn/news/detail/5345177972507875.html) | 2026-09-20 | 2026-09-24 | CNY 79 / One random box (announced retail price, 2026-09-20) |
+| RiboDiary · Forest Gathering Day · RiboDiary森林欢聚日系列毛绒公仔挂件 | pop-mart | [official_sale_announcement](https://www.sina.cn/news/detail/5358963811421108.html) | 2026-10-28 | 2026-10-29 | CNY 129 / One random box (announced retail price, 2026-10-28); CNY 774 / Full set / end box; see source for contents (announced retail price, 2026-10-28) |
+| Baby Molly · Disney Princess MINI · Baby Molly迪士尼公主系列MINI可动人偶 | pop-mart | [official_sale_announcement](https://www.sina.cn/news/detail/5359311099268944.html) | 2026-10-29 | 2026-10-29 | CNY 89 / One random box (announced retail price, 2026-10-23); CNY 712 / Full box (announced retail price, 2026-10-23) |
+| Sanrio · Fried Shrimp Mini Figures · 泡泡萌粒三丽鸥家族炸虾系列公仔 | pop-mart | [official_sale_announcement](https://www.sina.cn/news/detail/5354743502478400.html) | 2026-10-16 | 2026-10-22 | CNY 19 / One random box (announced retail price, 2026-10-16); CNY 285 / Full set / end box; see source for contents (announced retail price, 2026-10-16) |
+| MONBOO MINI · Candy House · MONBOO mini糖果屋毛绒盲盒 | toycity | [official_sale_announcement](https://www.sina.cn/news/detail/5321359825310722.html) | 2026-07-16 | Not established | Not established |
+| cluebie · Flower Journey · cluebie花游记系列毛绒盲盒 | toycity | [official_sale_announcement](https://www.sina.cn/news/detail/5344901036246461.html) | 2026-09-19 | 2026-09-25 | Not established |
+| Laura · Chess · Laura国际象棋可动人偶盲盒 | toycity | [official_sale_announcement](https://www.sina.cn/news/detail/5324241390274739.html) | 2026-07-24 | Not established | Not established |
+| MONBOO · Unknown Creatures · MONBOO未知生物复合毛绒盲盒 | toycity | [official_sale_announcement](https://www.sina.cn/news/detail/5315185732485224.html) | 2026-06-29 | 2026-06-30 | Not established |
+| Mr. Pa · Ability Company · 耙耙能力有限公司毛绒盲盒 | toycity | [official_sale_announcement](https://www.sina.cn/news/detail/5265874757878174.html) | 2026-02-13 | 2026-02-13 | Not established |
+| Mr. Pa · Transformations · 百变小耙毛绒盲盒 | toycity | [official_sale_announcement](https://www.sina.cn/news/detail/5265818193760358.html) | 2026-02-13 | 2026-02-13 | Not established |
+| Mr. Pa · Cute Creature Wardrobe · 耙耙萌兽衣帽间系列毛绒盲盒 | snack-busy, zhao-yiming | [official_sale_announcement](https://www.sina.cn/news/detail/5353243982957281.html) | 2026-10-12 | 2026-10-20 | Not established |
+| SpongeBob · Bikini Bottom Day Trip · 比奇堡一日游毛绒贴贴盲盒 | x11 | [official_sale_announcement](https://www.sina.cn/news/detail/5249560424220375.html) | 2025-12-30 | Not established | CNY 49 / Pair of plush toys (announced retail price, 2025-12-30) |
+| Tom and Jerry · Transforming Plush Pairs · 猫和老鼠毛绒贴贴变形挂件 | x11 | [official_sale_announcement](https://www.sina.cn/news/detail/5249523993545429.html) | 2025-12-30 | 2025-12-31 | CNY 49 / Bag containing two random plush pendants (announced retail price, 2025-12-30) |
+| One Piece · Paldolce Dream Dessert Party · 航海王Paldolce collection梦幻甜点派对系列盲盒 | march-monster, x11, top-toy | [official_sale_announcement](https://www.sina.cn/news/detail/5255758771653256.html) | 2026-01-16 | march-monster: 2026-01-16; x11: 2026-01-17; top-toy: 2026-01-23 | Not established |
+| POUKAPOUKA · Spirits of the Universe · POUKAPOUKA寰宇之灵系列盲盒 | tomato-pocket | [official_sale_announcement](https://www.sina.cn/news/detail/5293416905704951.html) | 2026-04-30 | Not established | Not established |
+| LuLu the Pig · Prone Slow-Rise Squishy · 罐头LULU猪慢回弹解压捏捏趴姿公仔 | jiumu | [secondary_flagship_report](https://tao.hooos.com/goods_BPydQrnF6t85pPg8AOTprWurte-A7AqqefKn6xbmaoiY.html) | Not stated | Not established | CNY 29.9 / Reported listing; selected pack / variant not established (secondary reported listing price, 2026-10-31) |
+| CHIMITAN · Delicious Kingdom Squishy · 陌凛奇米蛋好吃王国系列慢回弹捏捏盲盒 | kkv | [secondary_flagship_report](https://tao.hooos.com/goods_mRR9vbmhktJ7J3ejg7FzqnIot3-ejZ00KFzDoaVkDYHj.html) | Not stated | Not established | CNY 29.9 / Reported listing; selected pack / variant not established (secondary reported listing price, 2026-10-31) |
+| Zootopia · Best Partners · 疯狂动物城最佳拍档系列盲盒 | 52toys | [independent_store_report](https://www.jwview.com/jingwei/html/m/12-26/651327.shtml) | 2025-12-26 | Not established | Not established |
+| Zootopia · Marshmallow · 疯狂动物城棉花糖系列 | 52toys | [independent_store_report](https://www.jwview.com/jingwei/html/m/12-26/651327.shtml) | 2025-12-26 | Not established | Not established |
 
 ## Unresolved evidence
 
@@ -75,12 +121,39 @@ The original seven MINISO China showcase records remain intact. They are not con
 - No live stock quantities, units sold or complete chain SKU totals are asserted. Product variant counts are not inventory counts.
 - Several chains use mini-programs or per-store assortments. Corporate profiles and retailer opening notices are excluded from product evidence.
 - Manufacturer notices may establish suggested/announced prices, not the price charged today. New record date is not launch date.
-- No product-level squishy assortment was established for X11, KKV, Jiumu, The Green Party, SANFU or IPSTAR in this pass. Category-level references and ambiguous reseller offers were not promoted into confirmed products.
+- No first-party product-level squishy assortment was established for X11, KKV, Jiumu, The Green Party, SANFU or IPSTAR in this pass. KKV and Jiumu now have separately labeled secondary squishy reports. Category-level references and ambiguous reseller offers were not promoted into confirmed products.
 - Some secondary MINISO price fields conflict or mix pack sizes. Those prices were left blank. Sales counters were not imported.
 
 ## Weekly maintenance
 
-The existing Monday collector and research automation are retained. Reviewed additions live in `chain-assortments.json`; generated JS, CSV and this report are rebuilt from it. `--check-sources` records link reachability separately and never advances evidence, launch, price or stock dates. The weekly research pass must examine new retailer/manufacturer listings and announcements, validate chain-specific sale evidence, and update the source JSON before publishing. A successful HTTP request is not a completed inventory refresh.
+The existing Monday collector and research automation are retained. Reviewed additions live in `chain-assortments.json`; generated JS, CSV and this report are rebuilt from it. `--check-sources` records link reachability separately and never advances evidence, launch, price or stock dates. The weekly research pass must revisit every chain in the expanded registry, discover additional China toy retailers, examine new retailer/manufacturer listings and announcements, validate chain-specific sale evidence, and update the source JSON before publishing. A successful HTTP request is not a completed inventory refresh.
+
+## Latest retailer review findings
+
+- kule (2026-10-31): Meki Soul Reflection BJD announcement says coming soon. No confirmed chain release date or current sale evidence; not added as sold inventory. [Source](https://www.sina.cn/news/detail/5355791909391402.html)
+- ipstar (2026-10-31): Latest visible October notices include themed-restaurant shikishi and promotional goods; no additional blind-box SKU qualified beyond existing reviewed records. [Source](https://www.sina.cn/media/6509826766)
+- sanfu (2026-10-31): Existing two series retained. Promotional and ambiguous reseller references do not establish additional current chain SKUs. [Source](https://weibo.com/sanfu)
+- green-party (2026-10-31): Accessible retailer feed has category-level and older posts. New Bonnie evidence comes from manufacturer-named chain launch, not the general profile. [Source](https://www.sina.cn/media/5886607680)
+- lenle (2026-10-31): Existing six Supernatural Action Group formats explicitly name Lenle as well as The Green Party. Added retailer relationships without duplicating products. [Source](https://www.sina.cn/news/detail/5344921281366173.html)
+- 52toys (2026-10-31): Five recent named brand launches have prices and dates but no specific retail sale-channel evidence. Kept separately as brand_release_references and excluded from chain assortment counts. Store evidence instead comes from an identified reporter visit. [Source](https://www.sina.cn/media/5537333601)
+
+## Brand releases excluded from chain counts
+
+- Cat Fight Behaviours · 猫猫干架行为大赏PVC盲盒: manufacturer release only; chain sale not established. [Source](https://www.sina.cn/news/detail/5353920588154612.html)
+- Minions & Monsters · Studio Adventure · 小黄人与大怪兽片场冒险系列盲盒: manufacturer release only; chain sale not established. [Source](https://www.sina.cn/news/detail/5352078538440919.html)
+- POUKA · Little Bite · POUKA小小一口萌粒盲盒: manufacturer release only; chain sale not established. [Source](https://www.sina.cn/news/detail/5351716829531991.html)
+- COMUGI · Fruit Cats · COMUGI水果猫猫系列盲盒: manufacturer release only; chain sale not established. [Source](https://www.sina.cn/news/detail/5341297402970790.html)
+- Wigo · Animal Friends Party · Wigo出发家族萌友派对系列盲盒: manufacturer release only; chain sale not established. [Source](https://www.sina.cn/news/detail/5348786839749839.html)
+
+## Unavailable images
+
+- cluebie · Flower Journey: No still product image exposed by the accessible video announcement. [Source](https://www.sina.cn/news/detail/5344901036246461.html)
+- Laura · Chess: No still product image exposed by the accessible video announcement. [Source](https://www.sina.cn/news/detail/5324241390274739.html)
+- MONBOO · Unknown Creatures: No still product image exposed by the accessible video announcement. [Source](https://www.sina.cn/news/detail/5315185732485224.html)
+- Mr. Pa · Ability Company: No still product image exposed by the accessible video announcement. [Source](https://www.sina.cn/news/detail/5265874757878174.html)
+- Mr. Pa · Transformations: No still product image exposed by the accessible video announcement. [Source](https://www.sina.cn/news/detail/5265818193760358.html)
+- Mr. Pa · Cute Creature Wardrobe: No still product image exposed by the accessible video announcement. [Source](https://www.sina.cn/news/detail/5353243982957281.html)
+- Zootopia · Best Partners: No matching still image established: the article’s display photograph shows the separate Marshmallow series. [Source](https://www.jwview.com/jingwei/html/m/12-26/651327.shtml)
 
 ## Rejected or insufficient sources
 

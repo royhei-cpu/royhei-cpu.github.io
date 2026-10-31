@@ -17,6 +17,7 @@
     {name:'IPSTAR · 潮玩星球',kind:'Anime and character-goods retail chain',color:'#4c5daa',url:'https://weibo.com/6509826766',link:'Official operator announcements',domains:[],evidence:'https://wechat.bandainamcotoyshobbysh.com/H5/store.php?id=471',evidenceLabel:'Bandai stockist reference',note:'Retail and themed stores for character merchandise. Manufacturer stockist lists and operator notices support inclusion; individual stores may close or have limited opening periods.'},
     {name:'The Green Party',kind:'Lifestyle retail chain · 绿光派对',color:'#43723b',url:'https://www.smsupermalls.cn/city/jjfloor.aspx',link:'China mall tenant directory',domains:[],note:'China mall retail channel with toys and lifestyle goods. This tenant source confirms a store presence, not a complete inventory.'}
   ];
+  for(const c of window.CHAIN_ASSORTMENTS?.chains||[]){if(c.navigation&&!chains.some(x=>x.name===c.nav_name))chains.push(c.navigation);}
   const data=window.TOY_ATLAS||{},products=data.products||[],sources=[...(data.sources||[])];
   // Include directly captured official product pages as well as configured feeds.
   for(const p of products)for(const l of p.listings||[]){const h=host(l.url);if(!h||sources.some(s=>host(s.url)===h)||!chains.some(c=>inDomain(h,c.domains)))continue;sources.push({id:l.source_id||('shop-'+h),name:l.source||h,url:l.url});}
@@ -48,7 +49,7 @@
   selectChain(selectedIndex<0?0:selectedIndex);
   const updateLink=document.createElement('a');updateLink.className='ca-update-link';updateLink.href='./?chain=miniso#retailChains';updateLink.textContent='New chain assortment review · 31 October 2026 →';section.querySelector('.chains-heading>div').append(updateLink);
   const gaps=chains.filter(c=>!sources.some(s=>matchesSource(c,s)&&products.some(p=>(p.listings||[]).some(l=>l.source_id===s.id||host(l.url)===host(s.url)))));
-  const coverage=document.createElement('p');coverage.className='chain-coverage';coverage.id='chainCoverageGaps';coverage.textContent='All eight requested chain sources reviewed · '+(window.CHAIN_ASSORTMENTS?.summary.first_party_sale_records||0)+' first-party sale records + '+(window.CHAIN_ASSORTMENTS?.summary.secondary_flagship_reports||0)+' secondary MINISO flagship reports. Complete current inventory remains unverified. MINISO’s seven showcase entries remain separate.';section.append(coverage);
+  const coverage=document.createElement('p');coverage.className='chain-coverage';coverage.id='chainCoverageGaps';coverage.textContent=''+(window.CHAIN_ASSORTMENTS?.chains.length||chains.length)+' tracked retailers reviewed · '+(window.CHAIN_ASSORTMENTS?.summary.first_party_sale_records||0)+' first-party sale records + '+(window.CHAIN_ASSORTMENTS?.summary.secondary_flagship_reports||0)+' secondary flagship reports + '+(window.CHAIN_ASSORTMENTS?.summary.independent_store_reports||0)+' independent store reports. Complete current inventory remains unverified. MINISO’s seven showcase entries remain separate.';section.append(coverage);
   const audit=document.createElement('details');audit.id='chainCoverageAudit';audit.className='chain-audit';
   const auditNotes={
     'POP MART':'US official-page sample and brand offers across other shops; mainland store assortment remains incomplete.',
@@ -68,7 +69,7 @@
     const count=products.filter(p=>(p.listings||[]).some(l=>matched.some(s=>l.source_id===s.id||host(l.url)===host(s.url)))).length;
     const showcase=matched.some(s=>s.source_type==='official_showcase');
     const extra=window.ChainAssortmentUI?.stats(c),meta=window.ChainAssortmentUI?.metadata(c);
-    const extraText=extra?.total?extra.confirmed+' sale-announcement records'+(extra.reported?' + '+extra.reported+' secondary reports':'')+(count?'; '+count+(showcase?' showcase entries':' shop records'):''):'';
+    const extraText=extra?.total?extra.confirmed+' sale-announcement records'+(extra.reported?' + '+extra.reported+' secondary reports':'')+(extra.storeReports?' + '+extra.storeReports+' store reports':'')+(count?'; '+count+(showcase?' showcase entries':' shop records'):''):'';
     return '<tr><th scope="row"><a href="'+e(c.url)+'" target="_blank" rel="noopener noreferrer">'+e(c.name)+' ↗</a></th><td>'+(extraText||(count?count+(showcase?' showcase entries':' shop records'):'Not captured'))+'</td><td>'+e(meta?meta.gap:auditNotes[c.name])+'</td></tr>';
   }).join('')+'</tbody></table></div>';section.append(audit);
   const target=document.querySelector('.retailer-section')||document.querySelector('.brand-section');if(target)target.before(section);else document.querySelector('main')?.append(section);

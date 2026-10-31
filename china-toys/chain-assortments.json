@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed": "2026-10-31",
-  "scope": "Product/series evidence for the eight requested retail-chain sources. Historical chain sales evidence is separate from current inventory and secondary reports. Counts are saved records, not a census of SKUs.",
+  "scope": "Reviewed product/series sale evidence across tracked mainland China retail chains. Overseas feeds, manufacturer showcases and secondary seller reports remain distinct. This is not a census or a complete live inventory.",
   "products": [
     {
       "id": "bandai-kamen-rider-honda",
@@ -817,7 +817,8 @@
     {
       "id": "supernatural-childhood-plush",
       "chain_ids": [
-        "green-party"
+        "green-party",
+        "lenle"
       ],
       "brand": "FUN4YEAH",
       "name": "Supernatural Action Team · Childhood Dreams · Magnetic Plush Pendant",
@@ -862,7 +863,8 @@
     {
       "id": "supernatural-childhood-badge",
       "chain_ids": [
-        "green-party"
+        "green-party",
+        "lenle"
       ],
       "brand": "FUN4YEAH",
       "name": "Supernatural Action Team · Childhood Dreams · Tinplate Badge",
@@ -907,7 +909,8 @@
     {
       "id": "supernatural-childhood-acrylic",
       "chain_ids": [
-        "green-party"
+        "green-party",
+        "lenle"
       ],
       "brand": "FUN4YEAH",
       "name": "Supernatural Action Team · Childhood Dreams · Gem Acrylic Pendant",
@@ -952,7 +955,8 @@
     {
       "id": "supernatural-childhood-clear-card",
       "chain_ids": [
-        "green-party"
+        "green-party",
+        "lenle"
       ],
       "brand": "FUN4YEAH",
       "name": "Supernatural Action Team · Childhood Dreams · Transparent Card",
@@ -997,7 +1001,8 @@
     {
       "id": "supernatural-childhood-instant-photo",
       "chain_ids": [
-        "green-party"
+        "green-party",
+        "lenle"
       ],
       "brand": "FUN4YEAH",
       "name": "Supernatural Action Team · Childhood Dreams · Peel-apart Photo",
@@ -1042,7 +1047,8 @@
     {
       "id": "supernatural-childhood-poster",
       "chain_ids": [
-        "green-party"
+        "green-party",
+        "lenle"
       ],
       "brand": "FUN4YEAH",
       "name": "Supernatural Action Team · Childhood Dreams · Poster",
@@ -1849,6 +1855,1357 @@
       "units_sold": null,
       "added": "2026-10-31",
       "checked": "2026-10-31"
+    },
+    {
+      "id": "miniso-liite-candy-dream",
+      "source_id": "5343743571132735",
+      "chain_ids": [
+        "miniso"
+      ],
+      "name": "LIITE · Candy Dream",
+      "name_cn": "莉塔糖果梦境系列搪胶毛绒盲盒",
+      "series": "莉塔糖果梦境系列搪胶毛绒盲盒",
+      "brand": "LIITE / TapDoki",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": {
+        "date": "2026-09-19",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5343743571132735.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/miniso-liite-candy-dream.jpg",
+      "image_source": "https://wx2.sinaimg.cn/middle/b9321eealy1ih4nmknjlrj22yo3y8kjm.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "MINISO participating mainland stores and mini-program; initial 30-store launch",
+      "summary": "MINISO announces an initial 30-store launch, with stores and mini-program named. This does not establish Tmall availability.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "miniso-lisa-yoyo",
+      "source_id": "5336843051599902",
+      "chain_ids": [
+        "miniso"
+      ],
+      "name": "LISA × YOYO · Collaboration Vinyl Blind Box",
+      "name_cn": "LISA联名款YOYO搪胶盲盒",
+      "series": "LISA联名款YOYO搪胶盲盒",
+      "brand": "MINISO / YOYO",
+      "category": "Blind-box figures",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": {
+        "date": "2026-09-12",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5336843051599902.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/miniso-lisa-yoyo.jpg",
+      "image_source": "https://wx2.sinaimg.cn/middle/837473aagy1igg1pkt4p1j242w53m1l8.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "MINISO announcement names Shanghai, Beijing and Shenzhen; exact participating branches not established",
+      "summary": "Vinyl character pendants shown in the retailer announcement; not classified as plush without evidence.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "bonnie-fluffy-melody",
+      "source_id": "5347736691410585",
+      "chain_ids": [
+        "miniso",
+        "green-party",
+        "lenle"
+      ],
+      "name": "Bonnie 8 · Fluffy Melody",
+      "name_cn": "邦倪八代绒绒乐章系列BJD盲盒",
+      "series": "邦倪八代绒绒乐章系列BJD盲盒",
+      "brand": "COME4FREE",
+      "category": "Blind-box articulated dolls",
+      "variants": {
+        "regular": 6,
+        "secret": 1
+      },
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 169,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-09-27",
+          "source": "https://www.sina.cn/news/detail/5347736691410585.html"
+        },
+        {
+          "amount": 1014,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-09-27",
+          "source": "https://www.sina.cn/news/detail/5347736691410585.html"
+        }
+      ],
+      "release": {
+        "date": "2026-10-01",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5347736691410585.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/bonnie-fluffy-melody.jpg",
+      "image_source": "https://wx2.sinaimg.cn/middle/008uDktrgy1ihez5i9ltmj31xg2km1l3.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "Mainland China official release channels named in the source; individual branch stock not verified",
+      "summary": "Manufacturer explicitly names designated MINISO, The Green Party and Lenle stores. Arrival dates may vary. Earlier manufacturer online promotions are not used as chain prices.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "additional_sources": [
+        "https://www.sina.cn/news/detail/5345894154895702.html"
+      ]
+    },
+    {
+      "id": "kkv-zoraa-wings",
+      "source_id": "5275690099805076",
+      "chain_ids": [
+        "kkv"
+      ],
+      "name": "Zoraa · Winged Elf",
+      "name_cn": "Zoraa羽翼精灵系列搪胶毛绒盲盒",
+      "series": "Zoraa羽翼精灵系列搪胶毛绒盲盒",
+      "brand": "Zoraa",
+      "category": "Blind-box plush",
+      "variants": {
+        "regular": 9,
+        "secret": 1
+      },
+      "pack": "One random box",
+      "prices": [],
+      "release": {
+        "date": "2026-03-15",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5275690099805076.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/kkv-zoraa-wings.jpg",
+      "image_source": "https://wx2.sinaimg.cn/middle/008abqrogy1ib3ydtnvchj315o1jkqv7.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "Mainland China official release channels named in the source; individual branch stock not verified",
+      "summary": "Initial 19-store launch followed by gradual rollout; movable eyes, internal armature and removable outfits.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "kkv-emma-bears",
+      "source_id": "5229681940366189",
+      "chain_ids": [
+        "kkv"
+      ],
+      "name": "LOVELYEMMA · Bear Alliance",
+      "name_cn": "LOVELYEMMA熊熊联萌毛绒盲盒",
+      "series": "LOVELYEMMA熊熊联萌毛绒盲盒",
+      "brand": "LOVELYEMMA",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": {
+        "date": "2025-11-08",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5229681940366189.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/kkv-emma-bears.jpg",
+      "image_source": "https://wx1.sinaimg.cn/middle/008abqrogy1i71e8pklq6j30xc18g7o7.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "Mainland China official release channels named in the source; individual branch stock not verified",
+      "summary": "Initial launch in 52 KKV stores; a Shenzhen promotional event does not establish current nationwide stock.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "kkv-butterbear-ootd",
+      "source_id": "5217640093060393",
+      "chain_ids": [
+        "kkv"
+      ],
+      "name": "ButterBear · OOTD",
+      "name_cn": "黄油小熊OOTD换装搪胶毛绒盲盒",
+      "series": "黄油小熊OOTD换装搪胶毛绒盲盒",
+      "brand": "ButterBear",
+      "category": "Blind-box plush",
+      "variants": {
+        "names": [
+          "鬼马少女",
+          "粉红甜心",
+          "夏日牛仔",
+          "田园日记",
+          "闪耀idol",
+          "森系仙子",
+          "海岛辣妹"
+        ],
+        "names_complete": false
+      },
+      "pack": "One random box",
+      "prices": [],
+      "release": {
+        "date": "2025-10-05",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5217640093060393.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/kkv-butterbear-ootd.jpg",
+      "image_source": "https://wx1.sinaimg.cn/middle/008abqrogy1i5upmr321yj30yl1a7keg.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "Mainland China official release channels named in the source; individual branch stock not verified",
+      "summary": "KKV announces an exclusive series and gradual national store rollout. Listed names are those in the post, not an asserted full variant count.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "kkv-pengpeng-furry",
+      "source_id": "5215200241519692",
+      "chain_ids": [
+        "kkv"
+      ],
+      "name": "PENGPENG · Furry Cute Gang",
+      "name_cn": "怦怦PENGPENG绒绒萌煞团系列搪胶毛绒盲盒",
+      "series": "怦怦PENGPENG绒绒萌煞团系列搪胶毛绒盲盒",
+      "brand": "PENGPENG",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": {
+        "date": "2025-10-01",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5215200241519692.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/kkv-pengpeng-furry.jpg",
+      "image_source": "https://wx3.sinaimg.cn/middle/008abqrogy1i5r29cazxfj33zt5c6qva.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "Mainland China official release channels named in the source; individual branch stock not verified",
+      "summary": "Retailer announces mainland store rollout from October 1.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "kkv-pleasant-goat-daily",
+      "source_id": "5220622243463837",
+      "chain_ids": [
+        "kkv"
+      ],
+      "name": "Pleasant Goat · Daily Life on the Green Grassland",
+      "name_cn": "喜羊羊与灰太狼·青青草原的日常系列盲盒",
+      "series": "喜羊羊与灰太狼·青青草原的日常系列盲盒",
+      "brand": "Pleasant Goat and Big Big Wolf",
+      "category": "Blind-box figures",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": null,
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/kkv-pleasant-goat-daily.jpg",
+      "image_source": "https://wx1.sinaimg.cn/middle/008abqrogy1i68gumrq4gj30yl1a7tkp.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "Mainland China official release channels named in the source; individual branch stock not verified",
+      "summary": "KKV reports the flocked figures on sale in its mainland stores. The post does not give an exact launch date.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "toptoy-sofunui-digimon",
+      "source_id": "5354581397342708",
+      "chain_ids": [
+        "top-toy"
+      ],
+      "name": "SofuNui · Digimon Adventure",
+      "name_cn": "SofuNui数码宝贝大冒险搪胶毛绒盲盒",
+      "series": "SofuNui数码宝贝大冒险搪胶毛绒盲盒",
+      "brand": "SofuNui / Digimon (maker not stated)",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 89,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-10-16",
+          "source": "https://www.sina.cn/news/detail/5354581397342708.html"
+        },
+        {
+          "amount": 712,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-10-16",
+          "source": "https://www.sina.cn/news/detail/5354581397342708.html"
+        }
+      ],
+      "release": {
+        "date": "2026-10-23",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5354581397342708.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/toptoy-sofunui-digimon.jpg",
+      "image_source": "https://wx1.sinaimg.cn/middle/008cTm1egy1ii3y3ijvutj323f2sku0y.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "TOP TOY mainland stores, gradual rollout",
+      "summary": "",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "toptoy-zoro-freeny",
+      "source_id": "5346989991789401",
+      "chain_ids": [
+        "top-toy"
+      ],
+      "name": "One Piece × Jason Freeny · Zoro Sword Stances",
+      "name_cn": "航海王×Jason Freeny系列盲盒：索隆剑势录",
+      "series": "航海王×Jason Freeny系列盲盒：索隆剑势录",
+      "brand": "One Piece × Jason Freeny",
+      "category": "Blind-box figures",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 79,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-09-25",
+          "source": "https://www.sina.cn/news/detail/5346989991789401.html"
+        },
+        {
+          "amount": 474,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-09-25",
+          "source": "https://www.sina.cn/news/detail/5346989991789401.html"
+        }
+      ],
+      "release": {
+        "date": "2026-09-30",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5346989991789401.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/toptoy-zoro-freeny.jpg",
+      "image_source": "https://wx1.sinaimg.cn/middle/008cTm1egy1iheu7wm5q9j30lc0sgwnn.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "TOP TOY mainland online and offline channels",
+      "summary": "",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "toptoy-sisi-pet-king",
+      "source_id": "5342643627491723",
+      "chain_ids": [
+        "top-toy"
+      ],
+      "name": "SISI · Pet King",
+      "name_cn": "SISI宠物大王系列毛绒挂饰盲盒",
+      "series": "SISI宠物大王系列毛绒挂饰盲盒",
+      "brand": "SISI",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 89,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-09-13",
+          "source": "https://www.sina.cn/news/detail/5342643627491723.html"
+        },
+        {
+          "amount": 534,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-09-13",
+          "source": "https://www.sina.cn/news/detail/5342643627491723.html"
+        }
+      ],
+      "release": {
+        "date": "2026-09-17",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5342643627491723.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/toptoy-sisi-pet-king.jpg",
+      "image_source": "https://wx4.sinaimg.cn/middle/008cTm1egy1ih1rmtctroj33qw4zvqvc.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "SISI pop-up stores named by TOP TOY; wider branch assortment not established",
+      "summary": "",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "toptoy-toystory5-companions",
+      "source_id": "5309047399777238",
+      "chain_ids": [
+        "top-toy"
+      ],
+      "name": "Toy Story 5 · Forever Companions",
+      "name_cn": "迪士尼玩具总动员5永远的伙伴系列手办盲盒",
+      "series": "迪士尼玩具总动员5永远的伙伴系列手办盲盒",
+      "brand": "Disney / Toy Story (maker not stated)",
+      "category": "Blind-box figures",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 69,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-06-12",
+          "source": "https://www.sina.cn/news/detail/5309047399777238.html"
+        },
+        {
+          "amount": 414,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-06-12",
+          "source": "https://www.sina.cn/news/detail/5309047399777238.html"
+        }
+      ],
+      "release": {
+        "date": "2026-05-22",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5309047399777238.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/toptoy-toystory5-companions.jpg",
+      "image_source": "https://wx4.sinaimg.cn/middle/008cTm1egy1ie2ombgggmj36u2943kjr.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "TOP TOY online and offline channels; May release is explicitly stated in the June source",
+      "summary": "",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "toptoy-ukio-city",
+      "source_id": "5308675088187746",
+      "chain_ids": [
+        "top-toy"
+      ],
+      "name": "ukio · City Impressions",
+      "name_cn": "ukio城市印象系列盲盒",
+      "series": "ukio城市印象系列盲盒",
+      "brand": "ukio",
+      "category": "Blind-box figures",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 79,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-06-11",
+          "source": "https://www.sina.cn/news/detail/5308675088187746.html"
+        },
+        {
+          "amount": 711,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-06-11",
+          "source": "https://www.sina.cn/news/detail/5308675088187746.html"
+        }
+      ],
+      "release": {
+        "date": "2026-06-13",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5308675088187746.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/toptoy-ukio-city.jpg",
+      "image_source": "https://wx1.sinaimg.cn/middle/008cTm1egy1ie1chnpdf7j30yl1a47nj.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "Five named TOP TOY stores initially; national rollout announced from June 19",
+      "summary": "",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "toptoy-sanrio-bear-planet",
+      "source_id": "5282174808099288",
+      "chain_ids": [
+        "top-toy"
+      ],
+      "name": "Sanrio · Little Bear Planet",
+      "name_cn": "三丽鸥家族小小熊星球系列毛绒挂饰盲盒",
+      "series": "三丽鸥家族小小熊星球系列毛绒挂饰盲盒",
+      "brand": "Sanrio (maker not stated)",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 89,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-03-30",
+          "source": "https://www.sina.cn/news/detail/5282174808099288.html"
+        },
+        {
+          "amount": 1068,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-03-30",
+          "source": "https://www.sina.cn/news/detail/5282174808099288.html"
+        }
+      ],
+      "release": {
+        "date": "2026-04-03",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5282174808099288.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/toptoy-sanrio-bear-planet.jpg",
+      "image_source": "https://wx1.sinaimg.cn/middle/008cTm1egy1iboyhx130vj317e1lve3k.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "TOP TOY online and offline rollout",
+      "summary": "",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "bandai-kabutack-vol3",
+      "source_id": "5326348903257719",
+      "chain_ids": [
+        "top-toy",
+        "bandai-namco-shop"
+      ],
+      "name": "Kabutack · BN FIGURE Q Vol. 3",
+      "name_cn": "铁甲小宝BN FIGURE Q盲盒第三弹",
+      "series": "铁甲小宝BN FIGURE Q盲盒第三弹",
+      "brand": "Bandai Namco",
+      "category": "Blind-box figures",
+      "variants": {
+        "regular": 8,
+        "secret": 1
+      },
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 79,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-07-30",
+          "source": "https://www.sina.cn/news/detail/5326348903257719.html"
+        }
+      ],
+      "release": {
+        "date": "2026-08-07",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5326348903257719.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/bandai-kabutack-vol3.jpg",
+      "image_source": "https://wx2.sinaimg.cn/middle/007ZGpdrgy1ifjqhq7bl7j315o1m8tq2.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "Participating TOP TOY and Bandai Namco Shop stores; separate Bandai official online channels also named",
+      "summary": "Manufacturer names TOP TOY, Bandai Namco Shop and Bandai official Tmall/WeChat as exclusive release channels. Price is a suggested retail price; figures about 100–120 mm.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "popmart-mischief-night-squishy-lamp",
+      "source_id": "5345177972507875",
+      "chain_ids": [
+        "pop-mart"
+      ],
+      "name": "Mischief Night · Silicone Squishy Light",
+      "name_cn": "闹闹奇遇夜系列硅胶捏捏灯盲盒",
+      "series": "闹闹奇遇夜系列硅胶捏捏灯盲盒",
+      "brand": "POP MART",
+      "category": "Squishy blind-box lights",
+      "variants": null,
+      "pack": "See source pack basis",
+      "prices": [
+        {
+          "amount": 79,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-09-20",
+          "source": "https://www.sina.cn/news/detail/5345177972507875.html"
+        }
+      ],
+      "release": {
+        "date": "2026-09-24",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5345177972507875.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/popmart-mischief-night-squishy-lamp.jpg",
+      "image_source": "https://wx4.sinaimg.cn/middle/66e54d4fly1ih7xerom8cj22bc334u15.jpg",
+      "image_caption": "Official collection photograph includes the squishy lights and a separate LABUBU bag; bag is not included in the CNY 79 product",
+      "retail_scope": "POP MART official home-delivery channel (送到家), online from 22:00",
+      "summary": "Silicone squeezeable lights. The separate LABUBU bag in the same announcement is not included in this record.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "popmart-ribodiary-forest",
+      "source_id": "5358963811421108",
+      "chain_ids": [
+        "pop-mart"
+      ],
+      "name": "RiboDiary · Forest Gathering Day",
+      "name_cn": "RiboDiary森林欢聚日系列毛绒公仔挂件",
+      "series": "RiboDiary森林欢聚日系列毛绒公仔挂件",
+      "brand": "POP MART / RiboDiary",
+      "category": "Blind-box plush",
+      "variants": {
+        "regular": 6,
+        "secret": 1
+      },
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 129,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-10-28",
+          "source": "https://www.sina.cn/news/detail/5358963811421108.html"
+        },
+        {
+          "amount": 774,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-10-28",
+          "source": "https://www.sina.cn/news/detail/5358963811421108.html"
+        }
+      ],
+      "release": {
+        "date": "2026-10-29",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5358963811421108.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/popmart-ribodiary-forest.jpg",
+      "image_source": "https://wx3.sinaimg.cn/middle/66e54d4fly1iigvw6i6vcj21o02801kz.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "POP MART online October 29 at 22:00; offline October 30. The source warns that store pickup bookings can exhaust branch stock.",
+      "summary": "",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "popmart-baby-molly-princess",
+      "source_id": "5359311099268944",
+      "chain_ids": [
+        "pop-mart"
+      ],
+      "name": "Baby Molly · Disney Princess MINI",
+      "name_cn": "Baby Molly迪士尼公主系列MINI可动人偶",
+      "series": "Baby Molly迪士尼公主系列MINI可动人偶",
+      "brand": "POP MART / Disney",
+      "category": "Blind-box articulated dolls",
+      "variants": {
+        "regular": 8,
+        "secret": 1
+      },
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 89,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-10-23",
+          "source": "https://www.sina.cn/news/detail/5357257568031040.html"
+        },
+        {
+          "amount": 712,
+          "currency": "CNY",
+          "basis": "Full box",
+          "type": "announced retail price",
+          "as_of": "2026-10-23",
+          "source": "https://www.sina.cn/news/detail/5357257568031040.html"
+        }
+      ],
+      "release": {
+        "date": "2026-10-29",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5357257568031040.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/popmart-baby-molly-princess.jpg",
+      "image_source": "https://wx2.sinaimg.cn/middle/66e54d4fly1iii72cou20j23b04eou0z.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "POP MART online October 29 at 22:00; offline October 30. Specific branch stock is not established.",
+      "summary": "",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "additional_sources": [
+        "https://www.sina.cn/news/detail/5357257568031040.html"
+      ]
+    },
+    {
+      "id": "popmart-sanrio-shrimp",
+      "source_id": "5354743502478400",
+      "chain_ids": [
+        "pop-mart"
+      ],
+      "name": "Sanrio · Fried Shrimp Mini Figures",
+      "name_cn": "泡泡萌粒三丽鸥家族炸虾系列公仔",
+      "series": "泡泡萌粒三丽鸥家族炸虾系列公仔",
+      "brand": "POP MART / Sanrio",
+      "category": "Blind-box figures",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 19,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-10-16",
+          "source": "https://www.sina.cn/news/detail/5354743502478400.html"
+        },
+        {
+          "amount": 285,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-10-16",
+          "source": "https://www.sina.cn/news/detail/5354743502478400.html"
+        }
+      ],
+      "release": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5354743502478400.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/popmart-sanrio-shrimp.jpg",
+      "image_source": "https://wx2.sinaimg.cn/middle/66e54d4fly1ii205hq8jdj23h14mq4qw.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "POP MART online October 22 at 22:00; offline October 23",
+      "summary": "Flocked shrimp bodies with glossy tails and chef-hat hanging loops; about 2.9–4.8 cm.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "toycity-monboo-mini-candy",
+      "source_id": "5321359825310722",
+      "chain_ids": [
+        "toycity"
+      ],
+      "name": "MONBOO MINI · Candy House",
+      "name_cn": "MONBOO mini糖果屋毛绒盲盒",
+      "series": "MONBOO mini糖果屋毛绒盲盒",
+      "brand": "TOYCITY / MONBOO",
+      "category": "Blind-box plush",
+      "variants": {
+        "regular": 6,
+        "secret": 1
+      },
+      "pack": "One random box",
+      "prices": [],
+      "release": null,
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/toycity-monboo-mini-candy.jpg",
+      "image_source": "https://wx3.sinaimg.cn/middle/0085SFUbgy1if5yufck7xj30m80m8gwy.jpg",
+      "image_caption": "Official MONBOO Candy House shop-opening bundle graphic; shows packaging and promotional bundles, not every design",
+      "retail_scope": "TOYCITY official Weibo shop exclusive listing",
+      "summary": "Explicitly offered through TOYCITY’s new Weibo shop. The July 16 opening post says on sale but does not establish the original series launch date.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "toycity-cluebie-flower",
+      "source_id": "5344901036246461",
+      "chain_ids": [
+        "toycity"
+      ],
+      "name": "cluebie · Flower Journey",
+      "name_cn": "cluebie花游记系列毛绒盲盒",
+      "series": "cluebie花游记系列毛绒盲盒",
+      "brand": "TOYCITY",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": {
+        "date": "2026-09-25",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5344901036246461.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": null,
+      "image_source": null,
+      "image_caption": "No still product image exposed by the accessible video announcement",
+      "retail_scope": "TOYCITY official announcement explicitly states all TOYCITY platforms; branch stock not established",
+      "summary": "Accessible source is a video announcement. A still product image and retail price could not be captured.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "toycity-laura-chess",
+      "source_id": "5324241390274739",
+      "chain_ids": [
+        "toycity"
+      ],
+      "name": "Laura · Chess",
+      "name_cn": "Laura国际象棋可动人偶盲盒",
+      "series": "Laura国际象棋可动人偶盲盒",
+      "brand": "TOYCITY",
+      "category": "Blind-box articulated dolls",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": null,
+      "evidence_type": "official_sale_announcement",
+      "image": null,
+      "image_source": null,
+      "image_caption": "No still product image exposed by the accessible video announcement",
+      "retail_scope": "TOYCITY official announcement explicitly states all TOYCITY platforms; branch stock not established",
+      "summary": "Accessible source is a video announcement. A still product image and retail price could not be captured.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "toycity-monboo-unknown",
+      "source_id": "5315185732485224",
+      "chain_ids": [
+        "toycity"
+      ],
+      "name": "MONBOO · Unknown Creatures",
+      "name_cn": "MONBOO未知生物复合毛绒盲盒",
+      "series": "MONBOO未知生物复合毛绒盲盒",
+      "brand": "TOYCITY",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": {
+        "date": "2026-06-30",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5315185732485224.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": null,
+      "image_source": null,
+      "image_caption": "No still product image exposed by the accessible video announcement",
+      "retail_scope": "TOYCITY official announcement explicitly states all TOYCITY platforms; branch stock not established",
+      "summary": "Accessible source is a video announcement. A still product image and retail price could not be captured.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "toycity-mrpa-company",
+      "source_id": "5265874757878174",
+      "chain_ids": [
+        "toycity"
+      ],
+      "name": "Mr. Pa · Ability Company",
+      "name_cn": "耙耙能力有限公司毛绒盲盒",
+      "series": "耙耙能力有限公司毛绒盲盒",
+      "brand": "TOYCITY",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": {
+        "date": "2026-02-13",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5265874757878174.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": null,
+      "image_source": null,
+      "image_caption": "No still product image exposed by the accessible video announcement",
+      "retail_scope": "TOYCITY official announcement explicitly states all TOYCITY platforms; branch stock not established",
+      "summary": "Accessible source is a video announcement. A still product image and retail price could not be captured.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "toycity-mrpa-transform",
+      "source_id": "5265818193760358",
+      "chain_ids": [
+        "toycity"
+      ],
+      "name": "Mr. Pa · Transformations",
+      "name_cn": "百变小耙毛绒盲盒",
+      "series": "百变小耙毛绒盲盒",
+      "brand": "TOYCITY",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": {
+        "date": "2026-02-13",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5265818193760358.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": null,
+      "image_source": null,
+      "image_caption": "No still product image exposed by the accessible video announcement",
+      "retail_scope": "TOYCITY official announcement explicitly states all TOYCITY platforms; branch stock not established",
+      "summary": "Accessible source is a video announcement. A still product image and retail price could not be captured.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "mrpa-creature-wardrobe",
+      "source_id": "5353243982957281",
+      "chain_ids": [
+        "snack-busy",
+        "zhao-yiming"
+      ],
+      "name": "Mr. Pa · Cute Creature Wardrobe",
+      "name_cn": "耙耙萌兽衣帽间系列毛绒盲盒",
+      "series": "耙耙萌兽衣帽间系列毛绒盲盒",
+      "brand": "TOYCITY / Mr. Pa",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": {
+        "date": "2026-10-20",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5353243982957281.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": null,
+      "image_source": null,
+      "image_caption": "No still product image exposed by the accessible video announcement",
+      "retail_scope": "Manufacturer explicitly names 零食很忙 and 赵一鸣零食 as exclusive sale channels; participating branches not listed",
+      "summary": "A TOYCITY product sold through two named snack retail chains. It is not assigned to TOYCITY stores merely because TOYCITY is the maker. Still product photo not exposed by the video announcement.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "x11-bikini-bottom-day-trip",
+      "source_id": "5249560424220375",
+      "chain_ids": [
+        "x11"
+      ],
+      "name": "SpongeBob · Bikini Bottom Day Trip",
+      "name_cn": "比奇堡一日游毛绒贴贴盲盒",
+      "series": "比奇堡一日游毛绒贴贴盲盒",
+      "brand": "SpongeBob (maker not stated)",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 49,
+          "currency": "CNY",
+          "basis": "Pair of plush toys",
+          "type": "announced retail price",
+          "as_of": "2025-12-30",
+          "source": "https://www.sina.cn/news/detail/5249560424220375.html"
+        }
+      ],
+      "release": null,
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/x11-bikini-bottom-day-trip.jpg",
+      "image_source": "https://wx1.sinaimg.cn/middle/0089nQWIgy1i8sprqglb0j30u019015r.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "X11 online and offline channels, reported on sale in the dated announcement",
+      "summary": "Includes main and supporting Bikini Bottom characters; price is per pair, not per figure.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "x11-tom-jerry-transform",
+      "source_id": "5249523993545429",
+      "chain_ids": [
+        "x11"
+      ],
+      "name": "Tom and Jerry · Transforming Plush Pairs",
+      "name_cn": "猫和老鼠毛绒贴贴变形挂件",
+      "series": "猫和老鼠毛绒贴贴变形挂件",
+      "brand": "HUGKIS / Tom and Jerry",
+      "category": "Blind-box plush",
+      "variants": {
+        "names": [
+          "惊吓猫",
+          "压扁鼠",
+          "方砖猫",
+          "华夫鼠"
+        ],
+        "names_complete": false
+      },
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 49,
+          "currency": "CNY",
+          "basis": "Bag containing two random plush pendants",
+          "type": "announced retail price",
+          "as_of": "2025-12-30",
+          "source": "https://www.sina.cn/news/detail/5249523993545429.html"
+        }
+      ],
+      "release": {
+        "date": "2025-12-31",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5249523993545429.html"
+      },
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/x11-tom-jerry-transform.jpg",
+      "image_source": "https://wx1.sinaimg.cn/middle/0089nQWIgy1i8ssi9tn4oj30ku0rsjzy.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "X11 mainland stores, gradual rollout",
+      "summary": "",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "one-piece-paldolce-dessert",
+      "source_id": "5255758771653256",
+      "chain_ids": [
+        "march-monster",
+        "x11",
+        "top-toy"
+      ],
+      "name": "One Piece · Paldolce Dream Dessert Party",
+      "name_cn": "航海王Paldolce collection梦幻甜点派对系列盲盒",
+      "series": "航海王Paldolce collection梦幻甜点派对系列盲盒",
+      "brand": "Bandai / BANPRESTO",
+      "category": "Blind-box figures",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": null,
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/one-piece-paldolce-dessert.jpg",
+      "image_source": "https://wx4.sinaimg.cn/middle/008anitqgy1i9cm4p0so4j30u01hc1bg.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "Specified March Monster and TOP TOY branches; gradual rollout to X11 stores",
+      "summary": "Chopper with Straw Hat crew-inspired desserts. Manufacturer gives different rollout dates for each chain; no retail price is stated.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source.",
+      "chain_releases": {
+        "march-monster": {
+          "date": "2026-01-16",
+          "precision": "day",
+          "scope": "Chain-specific rollout start",
+          "source": "https://www.sina.cn/news/detail/5255758771653256.html"
+        },
+        "x11": {
+          "date": "2026-01-17",
+          "precision": "day",
+          "scope": "Chain-specific rollout start",
+          "source": "https://www.sina.cn/news/detail/5255758771653256.html"
+        },
+        "top-toy": {
+          "date": "2026-01-23",
+          "precision": "day",
+          "scope": "Chain-specific rollout start",
+          "source": "https://www.sina.cn/news/detail/5255758771653256.html"
+        }
+      }
+    },
+    {
+      "id": "tomato-pocket-pouka-universe",
+      "source_id": "5293416905704951",
+      "chain_ids": [
+        "tomato-pocket"
+      ],
+      "name": "POUKAPOUKA · Spirits of the Universe",
+      "name_cn": "POUKAPOUKA寰宇之灵系列盲盒",
+      "series": "POUKAPOUKA寰宇之灵系列盲盒",
+      "brand": "52TOYS / POUKAPOUKA",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [],
+      "release": null,
+      "evidence_type": "official_sale_announcement",
+      "image": "images/chains/tomato-pocket-pouka-universe.jpg",
+      "image_source": "https://wx2.sinaimg.cn/middle/67837275ly1iclecv93d8j20u012ngsj.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "Tomato Pocket at Beijing apm L4 only; shopping-centre announcement, not a nationwide inventory claim",
+      "summary": "The verified mall operator explicitly announces this series at its Tomato Pocket tenant. Plush blind boxes include hanging loops; no exact release date or price stated.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_gap": "Retail price not established by this source."
+    },
+    {
+      "id": "jiumu-reported-lulu-prone-squishy",
+      "source_id": "goods_BPydQrnF6t85pPg8AOTprWurte-A7AqqefKn6xbmaoiY",
+      "chain_ids": [
+        "jiumu"
+      ],
+      "name": "LuLu the Pig · Prone Slow-Rise Squishy",
+      "name_cn": "罐头LULU猪慢回弹解压捏捏趴姿公仔",
+      "series": "罐头LULU猪慢回弹解压捏捏趴姿公仔",
+      "brand": "LuLu the Pig",
+      "category": "Squishy toys",
+      "variants": null,
+      "pack": "See source pack basis",
+      "prices": [
+        {
+          "amount": 29.9,
+          "currency": "CNY",
+          "basis": "Reported listing; selected pack / variant not established",
+          "type": "secondary reported listing price",
+          "as_of": "2026-10-31",
+          "source": "https://tao.hooos.com/goods_BPydQrnF6t85pPg8AOTprWurte-A7AqqefKn6xbmaoiY.html"
+        }
+      ],
+      "release": null,
+      "evidence_type": "secondary_flagship_report",
+      "image": "images/chains/jiumu-reported-lulu-prone-squishy.jpg",
+      "image_source": "https://img.alicdn.com/bao/uploaded/i4/2207487286579/O1CN016AIqbm1yTEWsduJpU_!!0-item_pic.jpg_500x500q90",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "Third-party page attributes this listing to the chain’s official Tmall flagship; direct seller inventory not authenticated",
+      "summary": "Third-party page names 九木杂物社官方旗舰店. Seller attribution and displayed price are secondary evidence, not authenticated Tmall stock.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_note": "Reported undiscounted listing price. Promotional prices depend on coupons, coins or memberships and are not treated as verified checkout prices. Pack/variant selection not established."
+    },
+    {
+      "id": "kkv-reported-chimitan-food",
+      "source_id": "goods_mRR9vbmhktJ7J3ejg7FzqnIot3-ejZ00KFzDoaVkDYHj",
+      "chain_ids": [
+        "kkv"
+      ],
+      "name": "CHIMITAN · Delicious Kingdom Squishy",
+      "name_cn": "陌凛奇米蛋好吃王国系列慢回弹捏捏盲盒",
+      "series": "陌凛奇米蛋好吃王国系列慢回弹捏捏盲盒",
+      "brand": "MOLYNK / CHIMITAN",
+      "category": "Squishy blind boxes",
+      "variants": null,
+      "pack": "See source pack basis",
+      "prices": [
+        {
+          "amount": 29.9,
+          "currency": "CNY",
+          "basis": "Reported listing; selected pack / variant not established",
+          "type": "secondary reported listing price",
+          "as_of": "2026-10-31",
+          "source": "https://tao.hooos.com/goods_mRR9vbmhktJ7J3ejg7FzqnIot3-ejZ00KFzDoaVkDYHj.html"
+        }
+      ],
+      "release": null,
+      "evidence_type": "secondary_flagship_report",
+      "image": "images/chains/kkv-reported-chimitan-food.jpg",
+      "image_source": "https://img.alicdn.com/bao/uploaded/i3/2215772922894/O1CN01O55tsT1XFVICM621z_!!4611686018427380750-0-item_pic.jpg_500x500q90",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "Third-party page attributes this listing to the chain’s official Tmall flagship; direct seller inventory not authenticated",
+      "summary": "Third-party page names KKV官方旗舰店. The title uses 陌凛; product photo shows MOLYNK. No authenticated live Tmall inventory captured.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "price_note": "Reported undiscounted listing price. Promotional prices depend on coupons, coins or memberships and are not treated as verified checkout prices. Pack/variant selection not established."
+    },
+    {
+      "id": "52toys-zootopia-best-partners",
+      "source_id": "jwview-52toys-store-20251226",
+      "chain_ids": [
+        "52toys"
+      ],
+      "name": "Zootopia · Best Partners",
+      "name_cn": "疯狂动物城最佳拍档系列盲盒",
+      "series": "疯狂动物城最佳拍档系列盲盒",
+      "brand": "52TOYS / Disney",
+      "category": "Blind-box figures",
+      "variants": null,
+      "pack": "Not established by store report",
+      "prices": [],
+      "price_gap": "Store report does not state a retail price",
+      "release": null,
+      "evidence_type": "independent_store_report",
+      "image": null,
+      "image_source": null,
+      "image_caption": "No matching still image established: the article’s display photograph shows the separate Marshmallow series",
+      "retail_scope": "52TOYS Beijing Changying Paradise Walk store only; reporter visit December 7, 2025, article December 26, 2025",
+      "summary": "A reporter observed a restock and customer purchases at the named store on December 7, 2025. The report names the Sweet Leaning variant; no full design count or retail price is given.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
+    },
+    {
+      "id": "52toys-zootopia-marshmallow",
+      "source_id": "jwview-52toys-store-20251226",
+      "chain_ids": [
+        "52toys"
+      ],
+      "name": "Zootopia · Marshmallow",
+      "name_cn": "疯狂动物城棉花糖系列",
+      "series": "疯狂动物城棉花糖系列",
+      "brand": "52TOYS / Disney",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "Not established by store report",
+      "prices": [],
+      "price_gap": "Store report does not state a retail price",
+      "release": null,
+      "evidence_type": "independent_store_report",
+      "image": "images/chains/52toys-zootopia-store.jpg",
+      "image_source": "https://i2.chinanews.com.cn/simg/cmshd/2025/12/26/82981375fcec4e68a5e25b6f4e6f1c1a.jpg",
+      "image_caption": "Shared store display photograph by Wang Yuling / Sino-Singapore Jingwei; shows multiple Zootopia products, not one selectable SKU",
+      "retail_scope": "52TOYS Beijing Changying Paradise Walk store only; reporter visit December 7, 2025, article December 26, 2025",
+      "summary": "The reporter describes Marshmallow-series Nick, Judy, Bellwether and Flash displayed at the named store. This is historical store assortment evidence, not a 2026 stock check.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers"
     }
   ],
   "sources": [
@@ -2167,6 +3524,357 @@
       "checked": "2026-10-31",
       "kind": "official_sale_announcement",
       "note": "September 20, 21 and 22 product posts provide per-format prices and design counts; account is a rolling feed."
+    },
+    {
+      "id": "5343743571132735",
+      "url": "https://www.sina.cn/news/detail/5343743571132735.html",
+      "publisher": "MINISO名创优品 · official retailer account",
+      "published_date": "2026-09-16",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "a429e7dd441875dad8a37117cef70b568184e26afac0148b4072f60d8d1f2200"
+    },
+    {
+      "id": "5336843051599902",
+      "url": "https://www.sina.cn/news/detail/5336843051599902.html",
+      "publisher": "MINISO名创优品 · official retailer account",
+      "published_date": "2026-08-28",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "5357b16667fca79ef63f4a5e69d1efadc3a48ce017938a5d5575c0ab9c1f6031"
+    },
+    {
+      "id": "5347736691410585",
+      "url": "https://www.sina.cn/news/detail/5347736691410585.html",
+      "publisher": "COME4FREE · official manufacturer account",
+      "published_date": "2026-09-27",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "7fe550f57c3b6e47715d146df2e536924f712974aab044cc1edb47011d0e56fe"
+    },
+    {
+      "id": "5275690099805076",
+      "url": "https://www.sina.cn/news/detail/5275690099805076.html",
+      "publisher": "KKV · official retailer account",
+      "published_date": "2026-03-12",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "bffc27ab51715ec60ee347a1be6640600aa7cadb3c524901ae1d453a62b66f8d"
+    },
+    {
+      "id": "5229681940366189",
+      "url": "https://www.sina.cn/news/detail/5229681940366189.html",
+      "publisher": "KKV · official retailer account",
+      "published_date": "2025-11-05",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "57581ca7c1840b71b87fb60d1f7260935a4072c4665098232f2f4cc79c0bb724"
+    },
+    {
+      "id": "5217640093060393",
+      "url": "https://www.sina.cn/news/detail/5217640093060393.html",
+      "publisher": "KKV · official retailer account",
+      "published_date": "2025-10-03",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "fb520eb375d0f528ca194e54107eb0793e08e7b873302fd8292ce1ed745bfdac"
+    },
+    {
+      "id": "5215200241519692",
+      "url": "https://www.sina.cn/news/detail/5215200241519692.html",
+      "publisher": "KKV · official retailer account",
+      "published_date": "2025-09-26",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "2e0db41469228ba9cc0acc077c2df9a340349238a62831de4409f8d83dba40d6"
+    },
+    {
+      "id": "5220622243463837",
+      "url": "https://www.sina.cn/news/detail/5220622243463837.html",
+      "publisher": "KKV · official retailer account",
+      "published_date": "2025-10-11",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "cc39793efa334ac5417d0db7f6798765b77ac363457117d1cfeefd14030175a4"
+    },
+    {
+      "id": "5354581397342708",
+      "url": "https://www.sina.cn/news/detail/5354581397342708.html",
+      "publisher": "TOPTOY官方 · official retailer account",
+      "published_date": "2026-10-16",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "58ab0e5c21b7559e1895c46dff361411288fd91bab1a4577aaa298e406f81e20"
+    },
+    {
+      "id": "5346989991789401",
+      "url": "https://www.sina.cn/news/detail/5346989991789401.html",
+      "publisher": "TOPTOY官方 · official retailer account",
+      "published_date": "2026-09-25",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "eb366949664f70bbbdb90b959fbdbfd192c5e1c467473519cb4e170c98da38cd"
+    },
+    {
+      "id": "5342643627491723",
+      "url": "https://www.sina.cn/news/detail/5342643627491723.html",
+      "publisher": "TOPTOY官方 · official retailer account",
+      "published_date": "2026-09-13",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "3f8101d1e33410302bf40f9e1dc5f0404576fba3a3959f78bd4f60f2faab0bf5"
+    },
+    {
+      "id": "5309047399777238",
+      "url": "https://www.sina.cn/news/detail/5309047399777238.html",
+      "publisher": "TOPTOY官方 · official retailer account",
+      "published_date": "2026-06-12",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "86b39755ccbdf80eade681ac22bd25670c7e5d343dee47a6de30f00d22954d38"
+    },
+    {
+      "id": "5308675088187746",
+      "url": "https://www.sina.cn/news/detail/5308675088187746.html",
+      "publisher": "TOPTOY官方 · official retailer account",
+      "published_date": "2026-06-11",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "ec315ad05047e59760aef3e96240fac6b60356278021ff394f4e5f0ba3fb2e39"
+    },
+    {
+      "id": "5282174808099288",
+      "url": "https://www.sina.cn/news/detail/5282174808099288.html",
+      "publisher": "TOPTOY官方 · official retailer account",
+      "published_date": "2026-03-30",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "0525def23bf520dac85d868b161e308bfac9fccf258d62a0de5954a137169068"
+    },
+    {
+      "id": "5326348903257719",
+      "url": "https://www.sina.cn/news/detail/5326348903257719.html",
+      "publisher": "万代南梦宫潮玩 · official manufacturer account",
+      "published_date": "2026-07-30",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "05718a258c16a4c0cad47b4e9d7a6be464d669bc447a2f4d6e8e3eb106a927fe"
+    },
+    {
+      "id": "5345177972507875",
+      "url": "https://www.sina.cn/news/detail/5345177972507875.html",
+      "publisher": "POPMART泡泡玛特 · official retailer account",
+      "published_date": "2026-09-20",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "2eb551e21d1fe7b56b9e992531959196c21eec197fdc24ba0de4dca790e3bcad"
+    },
+    {
+      "id": "5358963811421108",
+      "url": "https://www.sina.cn/news/detail/5358963811421108.html",
+      "publisher": "POPMART泡泡玛特 · official retailer account",
+      "published_date": "2026-10-28",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "a54d18893ea607ffa1966c87d370987c1ba77c926e90b8e37b9554c80b97949c"
+    },
+    {
+      "id": "5359311099268944",
+      "url": "https://www.sina.cn/news/detail/5359311099268944.html",
+      "publisher": "POPMART泡泡玛特 · official retailer account",
+      "published_date": "2026-10-29",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "5ca7bdc057dfdf80d0b7baba90077873098f8ee3482486f383cbe18781dec3b1"
+    },
+    {
+      "id": "5354743502478400",
+      "url": "https://www.sina.cn/news/detail/5354743502478400.html",
+      "publisher": "POPMART泡泡玛特 · official retailer account",
+      "published_date": "2026-10-16",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "9a0c23885fa75866ebfbafa3f116c1a00b2360250544424ab3252bc7a885e015"
+    },
+    {
+      "id": "5353920588154612",
+      "url": "https://www.sina.cn/news/detail/5353920588154612.html",
+      "publisher": "52TOYS · official brand / retailer account",
+      "published_date": "2026-10-14",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "c042b00d43152ca5eccb04cfecb164883c591ab5003592261fe4901be9b5839a"
+    },
+    {
+      "id": "5352078538440919",
+      "url": "https://www.sina.cn/news/detail/5352078538440919.html",
+      "publisher": "52TOYS · official brand / retailer account",
+      "published_date": "2026-10-09",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "1b83d2f833ec074720e26a27898cf800e66031a49a168c8b90fa1f32513048cc"
+    },
+    {
+      "id": "5351716829531991",
+      "url": "https://www.sina.cn/news/detail/5351716829531991.html",
+      "publisher": "52TOYS · official brand / retailer account",
+      "published_date": "2026-10-08",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "47fb39d4bf63e507325ba778e5eb2eec3c476fe6c75ae1fee22d2652b1c5e5d6"
+    },
+    {
+      "id": "5341297402970790",
+      "url": "https://www.sina.cn/news/detail/5341297402970790.html",
+      "publisher": "52TOYS · official brand / retailer account",
+      "published_date": "2026-09-09",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "d494bfb6878f33a69cb386369888127baf84665bb9fda015457554ea658f634d"
+    },
+    {
+      "id": "5348786839749839",
+      "url": "https://www.sina.cn/news/detail/5348786839749839.html",
+      "publisher": "52TOYS · official brand / retailer account",
+      "published_date": "2026-09-30",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "530f5a88ca9469ec7aa61aae1f3fe430a10210c851b49ee5e0f84df1272d9604"
+    },
+    {
+      "id": "5321359825310722",
+      "url": "https://www.sina.cn/news/detail/5321359825310722.html",
+      "publisher": "TOYCITY玩具城市 · official brand / retailer account",
+      "published_date": "2026-07-16",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "39d963f5c85b5546c52fc9cd51d723e6c06d104b9330e3805f67dbd04e33fa9b"
+    },
+    {
+      "id": "5344901036246461",
+      "url": "https://www.sina.cn/news/detail/5344901036246461.html",
+      "publisher": "TOYCITY玩具城市 · official brand / retailer account",
+      "published_date": "2026-09-19",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "062b5099933b9eb3ceafd4a9164b00479cfe8e98ff2290bc49a7acd049ea19fc"
+    },
+    {
+      "id": "5324241390274739",
+      "url": "https://www.sina.cn/news/detail/5324241390274739.html",
+      "publisher": "TOYCITY玩具城市 · official brand / retailer account",
+      "published_date": "2026-07-24",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "48b15c405b0f6bd3065225fad55cbb7c5ae3ca345f6c2a49fffc2a8444b52949"
+    },
+    {
+      "id": "5315185732485224",
+      "url": "https://www.sina.cn/news/detail/5315185732485224.html",
+      "publisher": "TOYCITY玩具城市 · official brand / retailer account",
+      "published_date": "2026-06-29",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "546fa34418ab069bb2d10d816556768b7173f449841e2bfb265d9c942aeb1c1b"
+    },
+    {
+      "id": "5265874757878174",
+      "url": "https://www.sina.cn/news/detail/5265874757878174.html",
+      "publisher": "TOYCITY玩具城市 · official brand / retailer account",
+      "published_date": "2026-02-13",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "9b103ee6262d26a3a87eb2449ebe76f202ef4a8da402350e67d9c58a487e5e45"
+    },
+    {
+      "id": "5265818193760358",
+      "url": "https://www.sina.cn/news/detail/5265818193760358.html",
+      "publisher": "TOYCITY玩具城市 · official brand / retailer account",
+      "published_date": "2026-02-13",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "2a5f27a5c4b1ea990da1862a7f58213fc5761b0814c270bf9cc62291c5447a91"
+    },
+    {
+      "id": "5353243982957281",
+      "url": "https://www.sina.cn/news/detail/5353243982957281.html",
+      "publisher": "TOYCITY玩具城市 · official manufacturer account",
+      "published_date": "2026-10-12",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "78cf7c65b7f0b99690bbe342508c170450faef0bcdce7b37b0cd155047c1597d"
+    },
+    {
+      "id": "5249560424220375",
+      "url": "https://www.sina.cn/news/detail/5249560424220375.html",
+      "publisher": "X11潮玩集合 · official retailer account",
+      "published_date": "2025-12-30",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "d18eb397f608f63e7d160d5d513b4645f3bca0c8b71d2501850782e423dd8e13"
+    },
+    {
+      "id": "5249523993545429",
+      "url": "https://www.sina.cn/news/detail/5249523993545429.html",
+      "publisher": "X11潮玩集合 · official retailer account",
+      "published_date": "2025-12-30",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "e9f1b2d5cb13481cbb4fdac812f71ee7d85186805cd265330013634864796409"
+    },
+    {
+      "id": "5255758771653256",
+      "url": "https://www.sina.cn/news/detail/5255758771653256.html",
+      "publisher": "BANPRESTO · official manufacturer account",
+      "published_date": "2026-01-16",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "24c1992a073937e36ab926f468242d5d9144990194a3654f71fa41cef5c107b4"
+    },
+    {
+      "id": "5293416905704951",
+      "url": "https://www.sina.cn/news/detail/5293416905704951.html",
+      "publisher": "北京apm · verified shopping-centre account",
+      "published_date": "2026-04-30",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "791c1bca4c6b2c8bfbe670b33e4904cc78e720c171cda46f19422e80e2517e1f"
+    },
+    {
+      "id": "goods_BPydQrnF6t85pPg8AOTprWurte-A7AqqefKn6xbmaoiY",
+      "url": "https://tao.hooos.com/goods_BPydQrnF6t85pPg8AOTprWurte-A7AqqefKn6xbmaoiY.html",
+      "publisher": "虎窝淘 · third-party report of jiumu flagship listing",
+      "published_date": null,
+      "checked": "2026-10-31",
+      "kind": "secondary_flagship_report",
+      "content_sha256": "0d39554a51f8267c65ea86206b1b489336f968aacb838534c0aa22fb3f98cf85"
+    },
+    {
+      "id": "goods_mRR9vbmhktJ7J3ejg7FzqnIot3-ejZ00KFzDoaVkDYHj",
+      "url": "https://tao.hooos.com/goods_mRR9vbmhktJ7J3ejg7FzqnIot3-ejZ00KFzDoaVkDYHj.html",
+      "publisher": "虎窝淘 · third-party report of kkv flagship listing",
+      "published_date": null,
+      "checked": "2026-10-31",
+      "kind": "secondary_flagship_report",
+      "content_sha256": "02ae42b771e67cabd20fb60872c0202dd1fd2c629b86dd3bcccc5353d7b7ca59"
+    },
+    {
+      "id": "jwview-52toys-store-20251226",
+      "url": "https://www.jwview.com/jingwei/html/m/12-26/651327.shtml",
+      "publisher": "中新经纬 · reporter visit to 52TOYS Beijing Changying Paradise Walk store",
+      "published_date": "2025-12-26",
+      "checked": "2026-10-31",
+      "kind": "independent_store_report",
+      "content_sha256": "1ead2c033204f9ed329e95136778c0aee1aa7543de9dd33c70413f4049c8aa5e"
+    },
+    {
+      "id": "5357257568031040",
+      "url": "https://www.sina.cn/news/detail/5357257568031040.html",
+      "publisher": "POPMART泡泡玛特 · official retailer account",
+      "published_date": "2026-10-23",
+      "checked": "2026-10-31",
+      "kind": "official_sale_announcement",
+      "content_sha256": "8a08047c18f2b5dc70d8d0e07dc4b9b0a4f63a16602a592cc232012ddf64ef21"
     }
   ],
   "chains": [
@@ -2178,8 +3886,11 @@
       "coverage_status": "partial",
       "current_inventory": "not captured",
       "price_status": "Some dated prices; no complete current price feed",
-      "squishy_status": "Product-level evidence captured",
-      "gap": "Direct Tmall page redirected to miniso.world.tmall.com and could not be retrieved. Eight secondary listing reports; none treated as authenticated inventory."
+      "squishy_status": "Secondary flagship squishy evidence and separate official showcase; live assortment unverified",
+      "gap": "Official MINISO mainland sale announcements are now captured separately from seven showcases and eight secondary flagship reports. Direct Tmall inventory remains inaccessible; prices and current stock are incomplete.",
+      "nav_name": "MINISO",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "announcement_reference": "https://www.sina.cn/media/2205447082"
     },
     {
       "id": "x11",
@@ -2190,7 +3901,10 @@
       "current_inventory": "not captured",
       "price_status": "Some dated prices; no complete current price feed",
       "squishy_status": "Further SKU-level squishy sourcing required",
-      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks."
+      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "nav_name": "X11",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "announcement_reference": "https://www.sina.cn/media/7467734752"
     },
     {
       "id": "kkv",
@@ -2200,8 +3914,11 @@
       "coverage_status": "partial",
       "current_inventory": "not captured",
       "price_status": "Some dated prices; no complete current price feed",
-      "squishy_status": "Further SKU-level squishy sourcing required",
-      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks."
+      "squishy_status": "Specific squishy listing captured as secondary flagship evidence; direct inventory not authenticated",
+      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "nav_name": "KKV",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "announcement_reference": "https://www.sina.cn/media/7479549266"
     },
     {
       "id": "jiumu",
@@ -2211,8 +3928,10 @@
       "coverage_status": "partial",
       "current_inventory": "not captured",
       "price_status": "Some dated prices; no complete current price feed",
-      "squishy_status": "Further SKU-level squishy sourcing required",
-      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks."
+      "squishy_status": "Specific squishy listing captured as secondary flagship evidence; direct inventory not authenticated",
+      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "nav_name": "Jiumu · 九木杂物社",
+      "review_scope": "Product evidence review; not a full inventory refresh"
     },
     {
       "id": "kule",
@@ -2223,7 +3942,10 @@
       "current_inventory": "not captured",
       "price_status": "Some dated prices; no complete current price feed",
       "squishy_status": "Product-level evidence captured",
-      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks."
+      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "nav_name": "KuLe · 酷乐潮玩",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "announcement_reference": "https://www.sina.cn/media/6516837361"
     },
     {
       "id": "green-party",
@@ -2234,7 +3956,10 @@
       "current_inventory": "not captured",
       "price_status": "Some dated prices; no complete current price feed",
       "squishy_status": "Further SKU-level squishy sourcing required",
-      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks."
+      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "nav_name": "The Green Party",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "announcement_reference": "https://www.sina.cn/media/5886607680"
     },
     {
       "id": "sanfu",
@@ -2245,7 +3970,9 @@
       "current_inventory": "not captured",
       "price_status": "Some dated prices; no complete current price feed",
       "squishy_status": "Further SKU-level squishy sourcing required",
-      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks."
+      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "nav_name": "SANFU · 三福",
+      "review_scope": "Product evidence review; not a full inventory refresh"
     },
     {
       "id": "ipstar",
@@ -2256,7 +3983,230 @@
       "current_inventory": "not captured",
       "price_status": "Some dated prices; no complete current price feed",
       "squishy_status": "Further SKU-level squishy sourcing required",
-      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks."
+      "gap": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "nav_name": "IPSTAR · 潮玩星球",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "announcement_reference": "https://www.sina.cn/media/6509826766"
+    },
+    {
+      "id": "pop-mart",
+      "name": "POP MART",
+      "nav_name": "POP MART",
+      "official_reference": "https://www.sina.cn/media/1726303567",
+      "reviewed": "2026-10-31",
+      "coverage_status": "partial",
+      "current_inventory": "not captured",
+      "price_status": "Dated prices where supported; no complete current feed",
+      "squishy_status": "Squishy silicone lamp blind box documented; full squishy assortment unknown",
+      "gap": "Mainland dated products now captured alongside the existing international feed; overseas prices are not China retail prices.",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "navigation": {
+        "name": "POP MART",
+        "kind": "Toy brand + retail chain",
+        "color": "#43723b",
+        "url": "https://www.sina.cn/media/1726303567",
+        "link": "Official mainland product announcements",
+        "domains": [],
+        "note": "Mainland dated products now captured alongside the existing international feed; overseas prices are not China retail prices."
+      }
+    },
+    {
+      "id": "top-toy",
+      "name": "TOP TOY",
+      "nav_name": "TOP TOY",
+      "official_reference": "https://www.sina.cn/media/7519571372",
+      "reviewed": "2026-10-31",
+      "coverage_status": "partial",
+      "current_inventory": "not captured",
+      "price_status": "Dated prices where supported; no complete current feed",
+      "squishy_status": "Further SKU-level squishy sourcing required",
+      "gap": "Mainland product announcements and international shop feeds remain separate. Branch stock and full mainland assortment are unavailable.",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "navigation": {
+        "name": "TOP TOY",
+        "kind": "Multi-brand toy retail chain",
+        "color": "#43723b",
+        "url": "https://www.sina.cn/media/7519571372",
+        "link": "Official mainland product announcements",
+        "domains": [],
+        "note": "Mainland product announcements and international shop feeds remain separate. Branch stock and full mainland assortment are unavailable."
+      }
+    },
+    {
+      "id": "52toys",
+      "name": "52TOYS",
+      "nav_name": "52TOYS",
+      "official_reference": "https://www.sina.cn/media/5537333601",
+      "reviewed": "2026-10-31",
+      "coverage_status": "partial",
+      "current_inventory": "not captured",
+      "price_status": "Dated prices where supported; no complete current feed",
+      "squishy_status": "Further SKU-level squishy sourcing required",
+      "gap": "Two independently reported mainland store assortments; current branch inventory and prices unavailable. Five recent manufacturer launches are retained only as brand references, not chain-sale records.",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "navigation": {
+        "name": "52TOYS",
+        "kind": "Toy brand + retail stores",
+        "color": "#43723b",
+        "url": "https://www.sina.cn/media/5537333601",
+        "link": "Official mainland product announcements",
+        "domains": [],
+        "note": "Two independently reported mainland store assortments; current branch inventory and prices unavailable. Five recent manufacturer launches are retained only as brand references, not chain-sale records."
+      }
+    },
+    {
+      "id": "toycity",
+      "name": "TOYCITY · 玩具城市",
+      "nav_name": "TOYCITY · 玩具城市",
+      "official_reference": "https://www.sina.cn/media/7415975135",
+      "reviewed": "2026-10-31",
+      "coverage_status": "partial",
+      "current_inventory": "not captured",
+      "price_status": "Dated prices where supported; no complete current feed",
+      "squishy_status": "Further SKU-level squishy sourcing required",
+      "gap": "Six named products have explicit TOYCITY sale-channel evidence; five accessible video posts expose no still photograph. Prices and current stock are unavailable.",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "navigation": {
+        "name": "TOYCITY · 玩具城市",
+        "kind": "Toy brand + retail / online channels",
+        "color": "#43723b",
+        "url": "https://www.sina.cn/media/7415975135",
+        "link": "Official retail-channel announcements",
+        "domains": [],
+        "note": "Six named products have explicit TOYCITY sale-channel evidence; five accessible video posts expose no still photograph. Prices and current stock are unavailable."
+      }
+    },
+    {
+      "id": "lenle",
+      "name": "Lenle · 伶俐",
+      "nav_name": "Lenle · 伶俐",
+      "official_reference": "https://www.sina.cn/news/detail/5347736691410585.html",
+      "reviewed": "2026-10-31",
+      "coverage_status": "partial",
+      "current_inventory": "not captured",
+      "price_status": "Dated prices where supported; no complete current feed",
+      "squishy_status": "Further SKU-level squishy sourcing required",
+      "gap": "Manufacturer announcements name Lenle for specific products. Complete store and mini-program inventory remains unavailable.",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "navigation": {
+        "name": "Lenle · 伶俐",
+        "kind": "Lifestyle retail chain",
+        "color": "#43723b",
+        "url": "https://www.sina.cn/news/detail/5347736691410585.html",
+        "link": "Manufacturer-named retail release",
+        "domains": [],
+        "note": "Manufacturer announcements name Lenle for specific products. Complete store and mini-program inventory remains unavailable."
+      }
+    },
+    {
+      "id": "bandai-namco-shop",
+      "name": "Bandai Namco Shop",
+      "nav_name": "Bandai Namco Shop",
+      "official_reference": "https://www.sina.cn/news/detail/5326348903257719.html",
+      "reviewed": "2026-10-31",
+      "coverage_status": "partial",
+      "current_inventory": "not captured",
+      "price_status": "Dated prices where supported; no complete current feed",
+      "squishy_status": "Further SKU-level squishy sourcing required",
+      "gap": "A named mainland release supports inclusion; it does not establish a full shop inventory or current stock.",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "navigation": {
+        "name": "Bandai Namco Shop",
+        "kind": "Manufacturer-operated toy shops",
+        "color": "#43723b",
+        "url": "https://www.sina.cn/news/detail/5326348903257719.html",
+        "link": "Official manufacturer retail announcement",
+        "domains": [],
+        "note": "A named mainland release supports inclusion; it does not establish a full shop inventory or current stock."
+      }
+    },
+    {
+      "id": "march-monster",
+      "name": "March Monster · 三月兽",
+      "nav_name": "March Monster · 三月兽",
+      "official_reference": "https://www.sina.cn/news/detail/5255758771653256.html",
+      "reviewed": "2026-10-31",
+      "coverage_status": "partial",
+      "current_inventory": "not captured",
+      "price_status": "Dated prices where supported; no complete current feed",
+      "squishy_status": "Further SKU-level squishy sourcing required",
+      "gap": "Documented release at specified stores only. Prices and complete current assortment remain unavailable.",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "navigation": {
+        "name": "March Monster · 三月兽",
+        "kind": "Anime and collectible retail chain",
+        "color": "#43723b",
+        "url": "https://www.sina.cn/news/detail/5255758771653256.html",
+        "link": "Manufacturer-named retail release",
+        "domains": [],
+        "note": "Documented release at specified stores only. Prices and complete current assortment remain unavailable."
+      }
+    },
+    {
+      "id": "tomato-pocket",
+      "name": "Tomato Pocket · 番茄口袋",
+      "nav_name": "Tomato Pocket · 番茄口袋",
+      "official_reference": "https://www.sina.cn/news/detail/5293416905704951.html",
+      "reviewed": "2026-10-31",
+      "coverage_status": "partial",
+      "current_inventory": "not captured",
+      "price_status": "Dated prices where supported; no complete current feed",
+      "squishy_status": "Further SKU-level squishy sourcing required",
+      "gap": "Product is documented at Beijing apm L4 by the mall operator; national chain availability, price and release date are not established.",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "navigation": {
+        "name": "Tomato Pocket · 番茄口袋",
+        "kind": "Lifestyle retail chain",
+        "color": "#43723b",
+        "url": "https://www.sina.cn/news/detail/5293416905704951.html",
+        "link": "Beijing apm official product notice",
+        "domains": [],
+        "note": "Product is documented at Beijing apm L4 by the mall operator; national chain availability, price and release date are not established."
+      }
+    },
+    {
+      "id": "snack-busy",
+      "name": "Snack Busy · 零食很忙",
+      "nav_name": "Snack Busy · 零食很忙",
+      "official_reference": "https://www.sina.cn/news/detail/5353243982957281.html",
+      "reviewed": "2026-10-31",
+      "coverage_status": "partial",
+      "current_inventory": "not captured",
+      "price_status": "Dated prices where supported; no complete current feed",
+      "squishy_status": "Further SKU-level squishy sourcing required",
+      "gap": "Manufacturer names this chain for one toy exclusive. Participating branches, prices and a still product image are unavailable.",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "navigation": {
+        "name": "Snack Busy · 零食很忙",
+        "kind": "Snack chain with a documented toy exclusive",
+        "color": "#43723b",
+        "url": "https://www.sina.cn/news/detail/5353243982957281.html",
+        "link": "Manufacturer-named exclusive release",
+        "domains": [],
+        "note": "Manufacturer names this chain for one toy exclusive. Participating branches, prices and a still product image are unavailable."
+      }
+    },
+    {
+      "id": "zhao-yiming",
+      "name": "Zhao Yiming · 赵一鸣零食",
+      "nav_name": "Zhao Yiming · 赵一鸣零食",
+      "official_reference": "https://www.sina.cn/news/detail/5353243982957281.html",
+      "reviewed": "2026-10-31",
+      "coverage_status": "partial",
+      "current_inventory": "not captured",
+      "price_status": "Dated prices where supported; no complete current feed",
+      "squishy_status": "Further SKU-level squishy sourcing required",
+      "gap": "Manufacturer names this chain for one toy exclusive. Participating branches, prices and a still product image are unavailable.",
+      "review_scope": "Product evidence review; not a full inventory refresh",
+      "navigation": {
+        "name": "Zhao Yiming · 赵一鸣零食",
+        "kind": "Snack chain with a documented toy exclusive",
+        "color": "#43723b",
+        "url": "https://www.sina.cn/news/detail/5353243982957281.html",
+        "link": "Manufacturer-named exclusive release",
+        "domains": [],
+        "note": "Manufacturer names this chain for one toy exclusive. Participating branches, prices and a still product image are unavailable."
+      }
     }
   ],
   "rejected_evidence": [
@@ -2277,5 +4227,304 @@
       "reason": "HALUU Forest Adventure is named but its product image is not established in this source gallery; not added as a visual product card."
     }
   ],
-  "current_stock_note": "No source in this supplement establishes stock as of 2026-10-31. A title containing 现货 and an old on-sale post are not a live stock check."
+  "current_stock_note": "No source in this supplement establishes stock as of 2026-10-31. A title containing 现货 and an old on-sale post are not a live stock check.",
+  "review_batches": [
+    {
+      "id": "initial-requested-chains",
+      "date": "2026-10-31",
+      "new_records": 47
+    },
+    {
+      "id": "expanded-retailers",
+      "date": "2026-10-31",
+      "new_records": 34,
+      "new_chain_relationships_on_existing_records": 6,
+      "brand_release_references_excluded": 5
+    }
+  ],
+  "review_findings": [
+    {
+      "chain_id": "kule",
+      "checked": "2026-10-31",
+      "source": "https://www.sina.cn/news/detail/5355791909391402.html",
+      "result": "Meki Soul Reflection BJD announcement says coming soon. No confirmed chain release date or current sale evidence; not added as sold inventory."
+    },
+    {
+      "chain_id": "ipstar",
+      "checked": "2026-10-31",
+      "source": "https://www.sina.cn/media/6509826766",
+      "result": "Latest visible October notices include themed-restaurant shikishi and promotional goods; no additional blind-box SKU qualified beyond existing reviewed records."
+    },
+    {
+      "chain_id": "sanfu",
+      "checked": "2026-10-31",
+      "source": "https://weibo.com/sanfu",
+      "result": "Existing two series retained. Promotional and ambiguous reseller references do not establish additional current chain SKUs."
+    },
+    {
+      "chain_id": "green-party",
+      "checked": "2026-10-31",
+      "source": "https://www.sina.cn/media/5886607680",
+      "result": "Accessible retailer feed has category-level and older posts. New Bonnie evidence comes from manufacturer-named chain launch, not the general profile."
+    },
+    {
+      "chain_id": "lenle",
+      "checked": "2026-10-31",
+      "source": "https://www.sina.cn/news/detail/5344921281366173.html",
+      "result": "Existing six Supernatural Action Group formats explicitly name Lenle as well as The Green Party. Added retailer relationships without duplicating products."
+    },
+    {
+      "chain_id": "52toys",
+      "checked": "2026-10-31",
+      "source": "https://www.sina.cn/media/5537333601",
+      "result": "Five recent named brand launches have prices and dates but no specific retail sale-channel evidence. Kept separately as brand_release_references and excluded from chain assortment counts. Store evidence instead comes from an identified reporter visit."
+    }
+  ],
+  "brand_release_references": [
+    {
+      "id": "52toys-cat-fights",
+      "source_id": "5353920588154612",
+      "chain_ids": [],
+      "name": "Cat Fight Behaviours",
+      "name_cn": "猫猫干架行为大赏PVC盲盒",
+      "series": "猫猫干架行为大赏PVC盲盒",
+      "brand": "52TOYS",
+      "category": "Blind-box figures",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 29,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-10-14",
+          "source": "https://www.sina.cn/news/detail/5353920588154612.html"
+        },
+        {
+          "amount": 174,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-10-14",
+          "source": "https://www.sina.cn/news/detail/5353920588154612.html"
+        }
+      ],
+      "release": null,
+      "evidence_type": "official_brand_release",
+      "image": "images/chains/52toys-cat-fights.jpg",
+      "image_source": "https://wx2.sinaimg.cn/middle/0062K5qhly1ii1ofxeyvwj318g18ge83.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "General manufacturer release; sale through a particular retail chain or branch not established",
+      "summary": "PVC cat figures.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "related_chain_id": "52toys",
+      "brand_release": {
+        "date": "2026-10-22",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5353920588154612.html"
+      }
+    },
+    {
+      "id": "52toys-minions-monsters",
+      "source_id": "5352078538440919",
+      "chain_ids": [],
+      "name": "Minions & Monsters · Studio Adventure",
+      "name_cn": "小黄人与大怪兽片场冒险系列盲盒",
+      "series": "小黄人与大怪兽片场冒险系列盲盒",
+      "brand": "52TOYS / Minions",
+      "category": "Blind-box figures",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 79,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-10-09",
+          "source": "https://www.sina.cn/news/detail/5352078538440919.html"
+        },
+        {
+          "amount": 316,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-10-09",
+          "source": "https://www.sina.cn/news/detail/5352078538440919.html"
+        }
+      ],
+      "release": null,
+      "evidence_type": "official_brand_release",
+      "image": "images/chains/52toys-minions-monsters.jpg",
+      "image_source": "https://wx4.sinaimg.cn/middle/0062K5qhly1ihvwvkm3sij318g18gkgt.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "General manufacturer release; sale through a particular retail chain or branch not established",
+      "summary": "Each design has a wind-up or mechanical action; movement differs by variant.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "related_chain_id": "52toys",
+      "brand_release": {
+        "date": "2026-10-15",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5352078538440919.html"
+      }
+    },
+    {
+      "id": "52toys-pouka-little-bite",
+      "source_id": "5351716829531991",
+      "chain_ids": [],
+      "name": "POUKA · Little Bite",
+      "name_cn": "POUKA小小一口萌粒盲盒",
+      "series": "POUKA小小一口萌粒盲盒",
+      "brand": "52TOYS / POUKA",
+      "category": "Blind-box figures",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 19.9,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-10-08",
+          "source": "https://www.sina.cn/news/detail/5351716829531991.html"
+        },
+        {
+          "amount": 298.5,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-10-08",
+          "source": "https://www.sina.cn/news/detail/5351716829531991.html"
+        }
+      ],
+      "release": null,
+      "evidence_type": "official_brand_release",
+      "image": "images/chains/52toys-pouka-little-bite.jpg",
+      "image_source": "https://wx4.sinaimg.cn/middle/0062K5qhly1ihusz4pehtj31fv1fv1kx.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "General manufacturer release; sale through a particular retail chain or branch not established",
+      "summary": "Dessert textures, clear blister shell and bead chain for carrying on a bag.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "related_chain_id": "52toys",
+      "brand_release": {
+        "date": "2026-10-08",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5351716829531991.html"
+      }
+    },
+    {
+      "id": "52toys-comugi-fruit-cats",
+      "source_id": "5341297402970790",
+      "chain_ids": [],
+      "name": "COMUGI · Fruit Cats",
+      "name_cn": "COMUGI水果猫猫系列盲盒",
+      "series": "COMUGI水果猫猫系列盲盒",
+      "brand": "52TOYS / COMUGI",
+      "category": "Blind-box figures",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 49,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-09-09",
+          "source": "https://www.sina.cn/news/detail/5341297402970790.html"
+        },
+        {
+          "amount": 294,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-09-09",
+          "source": "https://www.sina.cn/news/detail/5341297402970790.html"
+        }
+      ],
+      "release": null,
+      "evidence_type": "official_brand_release",
+      "image": "images/chains/52toys-comugi-fruit-cats.jpg",
+      "image_source": "https://wx4.sinaimg.cn/middle/0062K5qhly1igxho9ug2kj318g18gkjn.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "General manufacturer release; sale through a particular retail chain or branch not established",
+      "summary": "Fruit-themed cat blind boxes.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "related_chain_id": "52toys",
+      "brand_release": {
+        "date": "2026-09-17",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5341297402970790.html"
+      }
+    },
+    {
+      "id": "52toys-wigo-animal-friends",
+      "source_id": "5348786839749839",
+      "chain_ids": [],
+      "name": "Wigo · Animal Friends Party",
+      "name_cn": "Wigo出发家族萌友派对系列盲盒",
+      "series": "Wigo出发家族萌友派对系列盲盒",
+      "brand": "52TOYS / Wigo",
+      "category": "Blind-box plush",
+      "variants": null,
+      "pack": "One random box",
+      "prices": [
+        {
+          "amount": 89,
+          "currency": "CNY",
+          "basis": "One random box",
+          "type": "announced retail price",
+          "as_of": "2026-09-30",
+          "source": "https://www.sina.cn/news/detail/5348786839749839.html"
+        },
+        {
+          "amount": 712,
+          "currency": "CNY",
+          "basis": "Full set / end box; see source for contents",
+          "type": "announced retail price",
+          "as_of": "2026-09-30",
+          "source": "https://www.sina.cn/news/detail/5348786839749839.html"
+        }
+      ],
+      "release": null,
+      "evidence_type": "official_brand_release",
+      "image": "images/chains/52toys-wigo-animal-friends.jpg",
+      "image_source": "https://wx3.sinaimg.cn/middle/0062K5qhly1ihlgbygx2xj318g18gb2b.jpg",
+      "image_caption": "Source product / series announcement; may show multiple variants",
+      "retail_scope": "General manufacturer release; sale through a particular retail chain or branch not established",
+      "summary": "A hanging loop allows the toy to be used as a pendant.",
+      "current_stock": null,
+      "units_sold": null,
+      "added": "2026-10-31",
+      "checked": "2026-10-31",
+      "review_batch": "expanded-retailers",
+      "related_chain_id": "52toys",
+      "brand_release": {
+        "date": "2026-10-10",
+        "precision": "day",
+        "scope": "Chain release / rollout start",
+        "source": "https://www.sina.cn/news/detail/5348786839749839.html"
+      }
+    }
+  ]
 }

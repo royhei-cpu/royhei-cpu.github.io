@@ -31,10 +31,10 @@
       "url": "https://www.kkgroup.cn/zh-CN/x11",
       "status": "partial",
       "source_type": "directory",
-      "coverage_note": "8 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
       "checked": "2026-10-31",
       "assortment_file": "chain-assortments.json",
-      "documented_sale_records": 8,
+      "documented_sale_records": 11,
       "secondary_listing_reports": 0,
       "current_inventory_captured": false
     },
@@ -44,11 +44,11 @@
       "url": "https://www.kkgroup.cn/zh-CN/kkv",
       "status": "partial",
       "source_type": "directory",
-      "coverage_note": "5 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
       "checked": "2026-10-31",
       "assortment_file": "chain-assortments.json",
-      "documented_sale_records": 5,
-      "secondary_listing_reports": 0,
+      "documented_sale_records": 10,
+      "secondary_listing_reports": 1,
       "current_inventory_captured": false
     },
     {
@@ -57,11 +57,11 @@
       "url": "https://www.mg-pen.com/chenguangbrand/info.aspx?itemid=30",
       "status": "partial",
       "source_type": "directory",
-      "coverage_note": "7 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
       "checked": "2026-10-31",
       "assortment_file": "chain-assortments.json",
       "documented_sale_records": 7,
-      "secondary_listing_reports": 0,
+      "secondary_listing_reports": 1,
       "current_inventory_captured": false
     },
     {
@@ -70,7 +70,7 @@
       "url": "https://www.maigoo.com/brand/141609.html",
       "status": "partial",
       "source_type": "directory",
-      "coverage_note": "5 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
       "checked": "2026-10-31",
       "assortment_file": "chain-assortments.json",
       "documented_sale_records": 5,
@@ -83,10 +83,10 @@
       "url": "https://www.smsupermalls.cn/city/jjfloor.aspx",
       "status": "partial",
       "source_type": "directory",
-      "coverage_note": "6 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
       "checked": "2026-10-31",
       "assortment_file": "chain-assortments.json",
-      "documented_sale_records": 6,
+      "documented_sale_records": 7,
       "secondary_listing_reports": 0,
       "current_inventory_captured": false
     },
@@ -97,7 +97,7 @@
       "status": "partial",
       "source_type": "directory",
       "checked": "2026-10-31",
-      "coverage_note": "2 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
       "assortment_file": "chain-assortments.json",
       "documented_sale_records": 2,
       "secondary_listing_reports": 0,
@@ -110,7 +110,7 @@
       "status": "partial",
       "source_type": "directory",
       "checked": "2026-10-31",
-      "coverage_note": "11 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
       "assortment_file": "chain-assortments.json",
       "documented_sale_records": 11,
       "secondary_listing_reports": 0,
@@ -568,5 +568,7 @@
     }
   ],
   "assortment_supplement": "chain-assortments.json",
-  "assortment_review": "CHAIN_ASSORTMENT_REVIEW.md"
+  "assortment_review": "CHAIN_ASSORTMENT_REVIEW.md",
+  "expanded_retailer_registry": "chain-assortments.json",
+  "expanded_retailer_count": 18
 }
