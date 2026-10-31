@@ -7,3 +7,6 @@
 .atlas-brand-nav a:focus-visible,.atlas-brand-nav select:focus-visible{outline:3px solid #9258ac;outline-offset:2px}
 #results,#trends,#rankings,#stores,#gaps{scroll-margin-top:125px}
 @media(max-width:740px){.atlas-brand-nav{flex-wrap:wrap;gap:5px;padding:7px 12px}.atlas-brand-nav .atlas-links{flex-basis:100%}.atlas-brand-nav label{font-size:11px;margin-left:auto}.atlas-brand-nav select{max-width:220px;min-height:32px}.atlas-brand-nav a{padding:8px 11px;font-size:11px}}
+
+.atlas-brand-nav .atlas-directory-link{background:#ede0f7;border-color:#cfb3e1;color:#56366f;font-weight:750;flex:none}
+@media(max-width:740px){.atlas-brand-nav .atlas-directory-link{order:-2}.atlas-brand-nav label{order:-1}.atlas-brand-nav .atlas-links{order:0}#directory,#coverage{scroll-margin-top:150px}}
