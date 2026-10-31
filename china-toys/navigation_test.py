@@ -117,7 +117,7 @@ try:
   assert page.locator('[data-executive-brief]').count()>0
   page.locator('#watchTutorialButton').click()
   assert page.locator('#tutorial').evaluate('(e)=>e.open')
-  assert page.locator('#atlasTutorialVideo source').get_attribute('src').endswith('China_Toy_Atlas_Tutorial.mp4')
+  assert page.locator('#atlasTutorialVideo source').get_attribute('src').split('?', 1)[0].endswith('China_Toy_Atlas_Tutorial.mp4')
   checks.append('Weekly brief and embedded narrated-tutorial controls remain present')
   page.locator('#tutorial summary').click()
   page.evaluate('window.scrollTo(0,0)')
