@@ -78,11 +78,19 @@ def write_outputs(root, data, audit):
     if csvpath.exists():
         with csvpath.open(newline='',encoding='utf-8-sig') as f:
             reader=csv.DictReader(f); fields=list(reader.fieldnames); rows=list(reader)
+        products={p['id']:p for p in data['products']}
         offers={l.get('previous_url',l['url']):l for p in data['products'] for l in p.get('listings',[])}
-        fields += [x for x in ('link_status','audit_checked','audit_note') if x not in fields]
+        fields += [x for x in ('link_status','audit_checked','audit_note','image_url','gallery_image_urls','shop_options_json','availability_at_check') if x not in fields]
         for row in rows:
+            p=products.get(row.get('id'),{})
+            image=p.get('image','')
+            absolute=lambda u:u if u.startswith(('https://','http://')) else 'https://royhei-cpu.github.io/china-toys/'+u
+            row['image_url']=absolute(image) if image else ''
+            row['gallery_image_urls']=' | '.join(absolute(u) for u in p.get('gallery',[]))
             l=offers.get(row.get('product_url'))
             if not l: continue
+            row['shop_options_json']=json.dumps(l.get('options',[]),ensure_ascii=False)
+            row['availability_at_check']='Available' if l.get('available') is True else 'Out of stock' if l.get('available') is False else ''
             if l.get('audit_checked'):
                 row.update(product_url=l['url'], audit_checked=l['audit_checked'],audit_note=l.get('audit_note',''),link_status=l.get('link_status',''))
                 if row.get('variant') == l.get('variant'):
