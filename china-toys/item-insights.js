@@ -17,12 +17,13 @@ add('5ccb9a9530219d31 41c4274f931a25cf','Heyone’s MIMI Wander of the Wild has 
 add('15bc2621f954f477 2b9ca24fcce9a473 bbf45eaa62e214d3','TNT SPACE’s DORA Material Vistas has nine regular designs and a secret. KikaGoods lists PVC, ABS and paper, at about 4.3–5.1 inches.','The listed paper component is a useful distinction when comparing construction and handling requirements with all-plastic figures.','Retailers differ in material detail. Verify which component is paper and match the exact design before comparing offers.','https://www.kikagoods.com/products/dora-material-vistas-series-blind-box');
 add('6e826e606451d9b6 ababe0c43baa9605','Finding Unicorn’s Farmer BOB On the Farm has 12 regular designs and two secrets. PVC/ABS figures are listed at about 3.1–3.9 inches.','The wider design range makes pack choice important: a full-set offer and a confirmed open-box design serve different collecting goals.','Check whether the offer is sealed or opened to confirm its design. A 12-piece set does not promise both secrets.','https://www.kikagoods.com/products/farmer-bob-on-the-farm-series-blind-box');
 const good=x=>x!=null&&String(x).trim()&&!/^(unknown|not (?:disclosed|documented|specified)|n\/a)$/i.test(String(x));
+const cleanMaterial=s=>String(s||'').split('|').filter(x=>!/(?:100%\s*authentic|genuine product|authenticity guaranteed)/i.test(x)).join(' · ').trim();
 const clean=s=>String(s||'').replace(/\s*[【\[（(][^\]】)）]*(?:ship|deliver|parcel|order separately)[^\]】)）]*[\]】)）]/ig,'').replace(/\s+/g,' ').trim();
 window.ATLAS_ITEM_INSIGHTS=p=>{
  if(curated[p.id])return {...curated[p.id]};
  const d=p.details||{},name=clean(p.name),facts=[];
  if(good(d.size))facts.push('Listed size: '+d.size);
- if(good(d.material||p.material))facts.push('Material: '+(d.material||p.material));
+ if(good(cleanMaterial(d.material||p.material)))facts.push('Material: '+cleanMaterial(d.material||p.material));
  if(!facts.length&&good(p.regular_designs))facts.push(p.regular_designs+' regular designs'+(good(p.secret_designs)?' and '+p.secret_designs+' secret designs':''));
  const summary=facts.length?facts.slice(0,2).join('. ')+'.':name+' is cataloged as '+String(p.category||'a collectible').toLowerCase()+'. Open the shop source for its exact version.';
  const angle=good(d.size)?'Compare the listed '+d.size+' size of '+name+' with the intended display or carrying space.':good(p.regular_designs)?'For '+name+', compare the '+p.regular_designs+'-design range and the cost of a set against a confirmed single design.':'For '+name+', compare the exact version and pack contents across the linked offers before judging value.';
@@ -50,6 +51,37 @@ document.addEventListener('DOMContentLoaded',()=>{
  new MutationObserver(queue).observe(grid,{childList:true,subtree:true});new MutationObserver(queue).observe(root,{childList:true,subtree:true});queue();
  const style=document.createElement('style');style.textContent=`
  .atlas-detail-fold{border-top:1px solid #dbe6e0;margin:10px 0 0;font-size:13px;line-height:1.6}.atlas-detail-fold>summary{cursor:pointer;padding:12px 0;font-weight:650;color:#235645}.atlas-detail-fold>summary:focus-visible{outline:3px solid #dfad55;outline-offset:2px}.atlas-detail-fold .review-reason,.atlas-detail-fold .review-spec,.atlas-detail-fold .review-details{margin:0;padding-top:8px;border-top:0}.atlas-detail-fold .fact{display:flex;justify-content:space-between;gap:14px;padding:5px 0}.extra-card-facts .fact>span:last-child{max-width:65%;text-align:right}.product-card .card-body{padding:18px}.product-card .product-title{font-size:17px;line-height:1.45}.product-card .available-description{font-size:13px;line-height:1.65;margin:10px 0 15px}.product-card .card-facts{margin-top:12px}.product-card .card-footer{margin-top:auto;gap:14px}.about-source h4{font-size:12px;text-transform:uppercase;letter-spacing:.7px;margin:14px 0 4px;color:#345a49}.detail-content>.atlas-detail-fold{padding:0 14px;border:1px solid #dbe6e0;border-radius:10px;background:#fbfdfb}.detail-content>.atlas-detail-fold[open]{padding-bottom:14px}.atlas-links{flex-wrap:wrap!important;gap:4px!important}.atlas-links a{padding:9px 12px!important;min-height:40px}.retail-chains .chains-eyebrow{display:none}.chain-coverage{font-size:12px;color:#64554a;padding:8px 0}.product-card{display:flex;flex-direction:column}.product-card .card-body{flex:1}.product-card .photo-button{aspect-ratio:1/1}.product-card .photo-button img{object-fit:contain}#results{scroll-margin-top:115px}@media(max-width:600px){.atlas-brand-nav .atlas-links{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));width:100%}.atlas-links a{white-space:normal;text-align:center;padding:8px 5px!important;font-size:11px!important}.atlas-brand-nav{padding:6px!important}.product-card .photo-button{aspect-ratio:4/3}.product-card .card-body{padding:16px}.atlas-detail-fold>summary{min-height:44px}.retail-chains{padding:16px!important}}
+
+ /* Refined browsing density: full text stays in the item dialog and exports. */
+ #results:focus:not(:focus-visible){outline:none}
+ .product-card .photo-button{aspect-ratio:4/3}
+ .product-card .card-body{padding:14px 16px 10px}
+ .product-card .product-title{font-size:15px;line-height:1.45;min-height:44px;margin:7px 0}
+ .product-card .title-button{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+ .product-card .title-button:focus-visible{outline:3px solid #ab7021;outline-offset:2px;overflow:visible;-webkit-line-clamp:unset}
+ .product-card .available-description{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-size:12px;line-height:1.55;min-height:38px;margin:5px 0 12px}
+ .product-card .price-row{margin-top:0}
+ .product-card .price-caption{min-height:0;margin:4px 0 8px;font-size:11px}
+ .product-card .market-price-card{margin:5px 0 10px;padding:9px 10px;border-radius:8px}
+ .product-card .card-facts{margin-top:5px;gap:5px;padding:8px 0 3px}
+ .product-card .atlas-detail-fold{margin-top:4px}
+ .product-card .atlas-detail-fold>summary{padding:11px 0;font-size:12px;min-height:44px}
+ .product-card .compare-select{margin-bottom:4px}
+ .product-card .card-footer{padding-top:9px;padding-bottom:12px}
+ .compare-tools{padding:8px 13px;margin:8px 0 12px;gap:12px}
+ .compare-tools>div{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+ .compare-tools strong{font-size:13px}.compare-tools p{font-size:11px}
+ .compare-tools .compare-primary{padding:9px 14px}
+ .results-bar{padding:18px 0 12px}.context-note{margin-bottom:10px}
+ .weekly-overview.executive-brief{padding:20px 24px 17px!important;margin:18px 0 16px!important}
+ .brief-heading h1{font-size:28px!important}
+ .brief-kpis{gap:10px!important;margin:15px 0 10px!important}
+ .brief-kpi{padding:12px 14px!important;gap:4px!important}
+ .brief-kpi b{font-size:27px!important}
+ .brief-secondary{margin:10px 0 12px!important}
+ .brief-footnote{margin-top:12px!important;padding-top:9px!important}
+ @media(min-width:900px){.brief-expand{display:inline-block;vertical-align:top;width:calc(50% - 6px);box-sizing:border-box}.brief-expand+.brief-expand{margin-left:8px}}
+ @media(max-width:600px){.product-card .card-body{padding:13px 14px 8px}.product-card .product-title{font-size:15px}.product-card .available-description{font-size:13px;min-height:40px}.compare-tools>div{display:block}.weekly-overview.executive-brief{padding:17px!important}.brief-heading h1{font-size:25px!important}.brief-kpi{padding:11px!important}}
  `;document.head.append(style);
 });
 })();

@@ -22,6 +22,12 @@ try:
   expect(page.locator('#search')).to_have_value('')
   expect(page.locator('#resultsTitle')).to_have_text('POP MART')
   expect(page.locator('.product-card').first).to_be_visible()
+  # First-row prices should be scannable without traversing long descriptions.
+  metrics=page.locator('.product-card').first.evaluate('''e => {const r=e.getBoundingClientRect(),p=e.querySelector('.price-row').getBoundingClientRect();return {priceOffset:p.top-r.top,photoRatio:e.querySelector('.photo-button').getBoundingClientRect().width/e.querySelector('.photo-button').getBoundingClientRect().height}}''')
+  assert metrics['priceOffset']<520 and metrics['photoRatio']>1.3,metrics
+  assert page.evaluate('''() => ['ip-rankings','openIPRankings','chinaIntelligencePanel','tutorial'].every(id=>{const e=document.getElementById(id);return !e||!!(document.getElementById('results').compareDocumentPosition(e)&Node.DOCUMENT_POSITION_FOLLOWING)})''')
+  assert page.evaluate('''() => !ATLAS_ITEM_INSIGHTS({name:'Test',details:{material:'PVC | 100% authentic POP MART'}}).summary.includes('authentic')''')
+  checks.append('Price visible within 520px of card top; landscape photos; research follows products; seller authenticity claims excluded from factual overview')
   page.locator('#search').fill('Secret Theatre')
   card=page.locator('.product-card').filter(has_text='Secret Theatre').first
   expect(card.locator('.item-overview')).to_contain_text('animal costumes')

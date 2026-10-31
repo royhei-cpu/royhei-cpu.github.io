@@ -18,8 +18,12 @@
  // Keep the opening path short: weekly brief, shopping controls, products.
  // Research and help remain directly reachable from the main navigation.
  const main=document.querySelector('main'),reading=main?.querySelector('.reading-note');
- for(const id of ['chinaIntelligencePanel','ip-rankings','openIPRankings','brandCoverageReview','tutorial']){
-   const el=document.getElementById(id);if(el&&main){if(reading)reading.before(el);else main.append(el);}
+ const supporting=['chinaIntelligencePanel','ip-rankings','openIPRankings','brandCoverageReview','tutorial'];
+ function orderSections(){
+  const results=document.getElementById('results');if(!main||!results)return;
+  for(const id of supporting){const el=document.getElementById(id);if(el?.parentElement===main&&(el.compareDocumentPosition(results)&Node.DOCUMENT_POSITION_FOLLOWING)){if(reading)reading.before(el);else main.append(el);}}
  }
+ // Some research modules arrive after the initial catalog render.
+ orderSections();if(main)new MutationObserver(orderSections).observe(main,{childList:true});
  if(location.hash)requestAnimationFrame(()=>reveal(location.hash.slice(1)));
 })();
