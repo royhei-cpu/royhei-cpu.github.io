@@ -20,6 +20,7 @@ const good=x=>x!=null&&String(x).trim()&&!/^(unknown|not (?:disclosed|documented
 const cleanMaterial=s=>String(s||'').split('|').filter(x=>!/(?:100%\s*authentic|genuine product|authenticity guaranteed)/i.test(x)).join(' · ').trim();
 const clean=s=>String(s||'').replace(/\s*[【\[（(][^\]】)）]*(?:ship|deliver|parcel|order separately)[^\]】)）]*[\]】)）]/ig,'').replace(/\s+/g,' ').trim();
 window.ATLAS_ITEM_INSIGHTS=p=>{
+ if(p.editorial_profile)return {...p.editorial_profile};
  if(curated[p.id])return {...curated[p.id]};
  const d=p.details||{},name=clean(p.name),facts=[];
  if(good(d.size))facts.push('Listed size: '+d.size);
@@ -30,7 +31,7 @@ window.ATLAS_ITEM_INSIGHTS=p=>{
  const missing=[!good(d.material||p.material)&&'material',!good(d.size)&&'dimensions'].filter(Boolean);
  return {summary,angle,question:missing.length?'Confirm '+missing.join(' and ')+' with the seller; these fields are not established in this record.':'Check that the selected offer matches these specifications and the shown design; prices and stock retain their own check dates.',sources:[...new Set([d.source,p.listings?.[0]?.url].filter(Boolean))],reviewed:null};
 };
-window.ATLAS_ITEM_INSIGHTS_COUNT=Object.keys(curated).length;
+window.ATLAS_ITEM_INSIGHTS_COUNT=new Set([...Object.keys(curated),...(window.TOY_ATLAS?.products||[]).filter(p=>p.editorial_profile).map(p=>p.id)]).size;
 window.ATLAS_ITEM_INSIGHT_FIELDS=p=>{const x=window.ATLAS_ITEM_INSIGHTS(p);return [x.summary,x.angle,x.question,x.sources.join(' | '),x.reviewed||'Saved catalog facts; not newly reviewed'];};
 document.addEventListener('DOMContentLoaded',()=>{
  const grid=document.getElementById('catalogGrid'),root=document.getElementById('productDetail');if(!grid||!root)return;
@@ -38,7 +39,7 @@ document.addEventListener('DOMContentLoaded',()=>{
  function update(){
   for(const card of grid.querySelectorAll('.product-card')){
    if(!card.dataset.factsDone)continue;
-   if(!card.dataset.cleanCard){card.dataset.cleanCard='1';const facts=card.querySelector('.card-facts');if(facts){const extra=[...facts.children].filter(el=>!['Type','Release','Stock at check','Price checked'].includes(el.firstElementChild?.textContent));if(extra.length){const box=document.createElement('div');box.className='extra-card-facts';facts.after(box);extra.forEach(el=>box.append(el));fold(box,'More product facts');}}
+   if(!card.dataset.cleanCard){card.dataset.cleanCard='1';const facts=card.querySelector('.card-facts');if(facts){const extra=[...facts.children].filter(el=>!['Type','Release','Stock at check','Price checked','Source reviewed'].includes(el.firstElementChild?.textContent));if(extra.length){const box=document.createElement('div');box.className='extra-card-facts';facts.after(box);extra.forEach(el=>box.append(el));fold(box,'More product facts');}}
     const title=card.querySelector('.title-button');if(title){const cleaned=clean(title.textContent);if(cleaned!==title.textContent){title.title=title.textContent;title.textContent=cleaned;}}
    }
    fold(card.querySelector('.review-reason'),'Trend evidence & product angle');

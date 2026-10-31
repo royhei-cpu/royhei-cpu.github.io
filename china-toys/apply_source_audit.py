@@ -67,6 +67,8 @@ def apply(data, audit):
     return applied
 
 def write_outputs(root, data, audit):
+    from apply_chain_coverage import apply as apply_chain_coverage
+    apply_chain_coverage(data)
     enrich_market_prices(data)
     packed = json.dumps(data, ensure_ascii=False, separators=(',',':'))
     (root/'catalog.json').write_text(packed)

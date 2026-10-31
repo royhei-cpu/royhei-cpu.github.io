@@ -1,0 +1,515 @@
+{
+  "reviewed": "2026-10-31",
+  "scope": "MINISO official China showcase and explicit gaps for the nine featured retail chains. Not a national completeness audit.",
+  "sources": [
+    {
+      "id": "miniso-china",
+      "name": "MINISO China · official product showcase",
+      "url": "https://www.miniso.cn/product/ip.html",
+      "status": "partial",
+      "source_type": "official_showcase",
+      "checked": "2026-10-31",
+      "eligible_listings": 7,
+      "coverage_note": "Seven documented toy product/series pages or entries; not complete MINISO inventory. Prices and stock are not published on these showcase pages."
+    },
+    {
+      "id": "miniso-tmall",
+      "name": "MINISO official Tmall flagship",
+      "url": "https://miniso.tmall.com/",
+      "status": "not captured",
+      "source_type": "directory",
+      "checked": "2026-10-31",
+      "coverage_note": "Linked as the online shop by miniso.cn. The retrieval redirected to miniso.world.tmall.com and was not accessible; inventory was not captured."
+    },
+    {
+      "id": "chain-x11",
+      "name": "X11 · retail-chain reference",
+      "url": "https://www.kkgroup.cn/zh-CN/x11",
+      "status": "not captured",
+      "source_type": "directory",
+      "coverage_note": "Retail-chain reference only. No captured store assortment; missing data does not mean this retailer sells no toys."
+    },
+    {
+      "id": "chain-kkv",
+      "name": "KKV · retail-chain reference",
+      "url": "https://www.kkv.cn/zh-CN",
+      "status": "not captured",
+      "source_type": "directory",
+      "coverage_note": "Retail-chain reference only. No captured store assortment; missing data does not mean this retailer sells no toys."
+    },
+    {
+      "id": "chain-jiumu",
+      "name": "Jiumu · 九木杂物社 · retail-chain reference",
+      "url": "https://www.mg-pen.com/chenguangbrand/info.aspx?itemid=30",
+      "status": "not captured",
+      "source_type": "directory",
+      "coverage_note": "Retail-chain reference only. No captured store assortment; missing data does not mean this retailer sells no toys."
+    },
+    {
+      "id": "chain-kule",
+      "name": "KuLe · 酷乐潮玩 · retail-chain reference",
+      "url": "https://www.maigoo.com/brand/141609.html",
+      "status": "not captured",
+      "source_type": "directory",
+      "coverage_note": "Retail-chain reference only. No captured store assortment; missing data does not mean this retailer sells no toys."
+    },
+    {
+      "id": "chain-green-party",
+      "name": "The Green Party · retail-chain reference",
+      "url": "https://www.smsupermalls.cn/city/jjfloor.aspx",
+      "status": "not captured",
+      "source_type": "directory",
+      "coverage_note": "Retail-chain reference only. No captured store assortment; missing data does not mean this retailer sells no toys."
+    }
+  ],
+  "products": [
+    {
+      "id": "miniso-cn-toy-story-childhood",
+      "brand": "MINISO",
+      "name": "Toy Story Childhood Bonds Vinyl Plush Blind Box",
+      "name_cn": "玩具总动员童年羁绊系列搪胶毛绒盲盒",
+      "ip": "Toy Story / Andy",
+      "category": "Blind-box plush",
+      "wave": null,
+      "image": "https://www.miniso.cn/vancheerfile/images/2026/8/20260819094050518.jpg",
+      "image_source": "https://www.miniso.cn/vancheerfile/images/2026/8/20260819094050518.jpg",
+      "gallery": [
+        "https://www.miniso.cn/vancheerfile/images/2026/8/20260819094050518.jpg"
+      ],
+      "listings": [
+        {
+          "source": "MINISO China · official product showcase",
+          "source_id": "miniso-china",
+          "kind": "official showcase",
+          "url": "https://www.miniso.cn/product/ip_19.html",
+          "market": "Mainland China",
+          "currency": null,
+          "price": null,
+          "available": null,
+          "variant": "Official product / series showcase; pack not specified",
+          "checked": "2026-10-31",
+          "audit_note": "Product identity and image documented on MINISO China. No current price, store stock, launch date or sales total is stated on this page."
+        }
+      ],
+      "launch": null,
+      "regular_designs": null,
+      "secret_designs": null,
+      "material": null,
+      "first_seen": "2026-10-31",
+      "checked": "2026-10-31",
+      "china_status": "Official MINISO China product showcase; store-level availability unverified",
+      "sales": null,
+      "baseline": false,
+      "history": [],
+      "details": {
+        "source": "https://www.miniso.cn/product/ip_19.html",
+        "checked": "2026-10-31",
+        "description": "Andy appears in costumes inspired by Buzz, Woody, Hamm, Alien, Rex and Slinky Dog, alongside a childhood-Andy design.",
+        "description_source": "https://www.miniso.cn/product/ip_19.html",
+        "description_checked": "2026-10-31"
+      },
+      "image_review": {
+        "status": "Official product / series image",
+        "source": "https://www.miniso.cn/product/ip_19.html",
+        "checked": "2026-10-31",
+        "scope": "Image linked from the official Chinese product page. Series photographs can show multiple designs.",
+        "level": "Source-to-image mapping; no claim of full variant or visual audit",
+        "source_match": true,
+        "visually_reviewed": false
+      },
+      "editorial_profile": {
+        "summary": "Andy appears in costumes inspired by Buzz, Woody, Hamm, Alien, Rex and Slinky Dog, alongside a childhood-Andy design.",
+        "angle": "Compare the costume and character shown in the selected box; a series image does not identify the random design supplied.",
+        "question": "Confirm current store price, exact pack, stock and dimensions with the official shop. These are not established by this showcase.",
+        "sources": [
+          "https://www.miniso.cn/product/ip_19.html"
+        ],
+        "reviewed": "2026-10-31"
+      }
+    },
+    {
+      "id": "miniso-cn-shinchan-surprise-bear",
+      "brand": "MINISO",
+      "name": "Crayon Shin-chan Surprise Bear Vinyl Plush Blind Box",
+      "name_cn": "蜡笔小新惊喜小熊系列搪胶毛绒盲盒",
+      "ip": "Crayon Shin-chan",
+      "category": "Blind-box plush",
+      "wave": null,
+      "image": "https://www.miniso.cn/vancheerfile/images/2026/8/20260819102139304.jpg",
+      "image_source": "https://www.miniso.cn/vancheerfile/images/2026/8/20260819102139304.jpg",
+      "gallery": [
+        "https://www.miniso.cn/vancheerfile/images/2026/8/20260819102139304.jpg"
+      ],
+      "listings": [
+        {
+          "source": "MINISO China · official product showcase",
+          "source_id": "miniso-china",
+          "kind": "official showcase",
+          "url": "https://www.miniso.cn/product/ip_17.html",
+          "market": "Mainland China",
+          "currency": null,
+          "price": null,
+          "available": null,
+          "variant": "Official product / series showcase; pack not specified",
+          "checked": "2026-10-31",
+          "audit_note": "Product identity and image documented on MINISO China. No current price, store stock, launch date or sales total is stated on this page."
+        }
+      ],
+      "launch": null,
+      "regular_designs": null,
+      "secret_designs": null,
+      "material": null,
+      "first_seen": "2026-10-31",
+      "checked": "2026-10-31",
+      "china_status": "Official MINISO China product showcase; store-level availability unverified",
+      "sales": null,
+      "baseline": false,
+      "history": [],
+      "details": {
+        "source": "https://www.miniso.cn/product/ip_17.html",
+        "checked": "2026-10-31",
+        "description": "The Kasukabe characters wear bear outfits. The official page names Shin-chan, Bo, Kazama, Himawari, Nene and Ai.",
+        "description_source": "https://www.miniso.cn/product/ip_17.html",
+        "description_checked": "2026-10-31"
+      },
+      "image_review": {
+        "status": "Official product / series image",
+        "source": "https://www.miniso.cn/product/ip_17.html",
+        "checked": "2026-10-31",
+        "scope": "Image linked from the official Chinese product page. Series photographs can show multiple designs.",
+        "level": "Source-to-image mapping; no claim of full variant or visual audit",
+        "source_match": true,
+        "visually_reviewed": false
+      },
+      "editorial_profile": {
+        "summary": "The Kasukabe characters wear bear outfits. The official page names Shin-chan, Bo, Kazama, Himawari, Nene and Ai.",
+        "angle": "Bear-costume styling distinguishes this collection; confirm the exact character and pendant attachment before comparing offers.",
+        "question": "Confirm current store price, exact pack, stock and dimensions with the official shop. These are not established by this showcase.",
+        "sources": [
+          "https://www.miniso.cn/product/ip_17.html"
+        ],
+        "reviewed": "2026-10-31"
+      }
+    },
+    {
+      "id": "miniso-cn-honor-kings-canyon",
+      "brand": "MINISO",
+      "name": "Honor of Kings Canyon Celebration Pendant Blind Box",
+      "name_cn": "王者荣耀合作款峡谷庆典系列",
+      "ip": "Honor of Kings",
+      "category": "Blind-box figures",
+      "wave": null,
+      "image": "https://www.miniso.cn/vancheerfile/images/2026/4/20260422151241210.jpg",
+      "image_source": "https://www.miniso.cn/vancheerfile/images/2026/4/20260422151241210.jpg",
+      "gallery": [
+        "https://www.miniso.cn/vancheerfile/images/2026/4/20260422151241210.jpg"
+      ],
+      "listings": [
+        {
+          "source": "MINISO China · official product showcase",
+          "source_id": "miniso-china",
+          "kind": "official showcase",
+          "url": "https://www.miniso.cn/product/ip_16.html",
+          "market": "Mainland China",
+          "currency": null,
+          "price": null,
+          "available": null,
+          "variant": "Official product / series showcase; pack not specified",
+          "checked": "2026-10-31",
+          "audit_note": "Product identity and image documented on MINISO China. No current price, store stock, launch date or sales total is stated on this page."
+        }
+      ],
+      "launch": null,
+      "regular_designs": null,
+      "secret_designs": null,
+      "material": null,
+      "first_seen": "2026-10-31",
+      "checked": "2026-10-31",
+      "china_status": "Official MINISO China product showcase; store-level availability unverified",
+      "sales": null,
+      "baseline": false,
+      "history": [],
+      "details": {
+        "source": "https://www.miniso.cn/product/ip_16.html",
+        "checked": "2026-10-31",
+        "description": "A pendant blind-box collection based on Honor of Kings. The official page illustrates ten named characters, including Agudo, Sun Bin and Xiao Qiao.",
+        "description_source": "https://www.miniso.cn/product/ip_16.html",
+        "description_checked": "2026-10-31"
+      },
+      "image_review": {
+        "status": "Official product / series image",
+        "source": "https://www.miniso.cn/product/ip_16.html",
+        "checked": "2026-10-31",
+        "scope": "Image linked from the official Chinese product page. Series photographs can show multiple designs.",
+        "level": "Source-to-image mapping; no claim of full variant or visual audit",
+        "source_match": true,
+        "visually_reviewed": false
+      },
+      "editorial_profile": {
+        "summary": "A pendant blind-box collection based on Honor of Kings. The official page illustrates ten named characters, including Agudo, Sun Bin and Xiao Qiao.",
+        "angle": "Compare character selection and pendant construction. Ten illustrations do not establish a sealed-set quantity or secret-design odds.",
+        "question": "Confirm current store price, exact pack, stock and dimensions with the official shop. These are not established by this showcase.",
+        "sources": [
+          "https://www.miniso.cn/product/ip_16.html"
+        ],
+        "reviewed": "2026-10-31"
+      }
+    },
+    {
+      "id": "miniso-cn-sanrio-fruit",
+      "brand": "MINISO",
+      "name": "Sanrio Fruit Pairing Vinyl Plush Blind Box",
+      "name_cn": "三丽鸥水果对对碰系列搪胶毛绒盲盒",
+      "ip": "Sanrio characters",
+      "category": "Blind-box plush",
+      "wave": null,
+      "image": "https://www.miniso.cn/vancheerfile/images/2026/4/2026042213541097.jpg",
+      "image_source": "https://www.miniso.cn/vancheerfile/images/2026/4/2026042213541097.jpg",
+      "gallery": [
+        "https://www.miniso.cn/vancheerfile/images/2026/4/2026042213541097.jpg"
+      ],
+      "listings": [
+        {
+          "source": "MINISO China · official product showcase",
+          "source_id": "miniso-china",
+          "kind": "official showcase",
+          "url": "https://www.miniso.cn/product/ip_15.html",
+          "market": "Mainland China",
+          "currency": null,
+          "price": null,
+          "available": null,
+          "variant": "Official product / series showcase; pack not specified",
+          "checked": "2026-10-31",
+          "audit_note": "Product identity and image documented on MINISO China. No current price, store stock, launch date or sales total is stated on this page."
+        }
+      ],
+      "launch": null,
+      "regular_designs": null,
+      "secret_designs": null,
+      "material": null,
+      "first_seen": "2026-10-31",
+      "checked": "2026-10-31",
+      "china_status": "Official MINISO China product showcase; store-level availability unverified",
+      "sales": null,
+      "baseline": false,
+      "history": [],
+      "details": {
+        "source": "https://www.miniso.cn/product/ip_15.html",
+        "checked": "2026-10-31",
+        "description": "Sanrio characters take fruit forms: melon Cinnamoroll, mangosteen Kuromi, strawberry My Melody, apple Hello Kitty and pineapple Pompompurin.",
+        "description_source": "https://www.miniso.cn/product/ip_15.html",
+        "description_checked": "2026-10-31"
+      },
+      "image_review": {
+        "status": "Official product / series image",
+        "source": "https://www.miniso.cn/product/ip_15.html",
+        "checked": "2026-10-31",
+        "scope": "Image linked from the official Chinese product page. Series photographs can show multiple designs.",
+        "level": "Source-to-image mapping; no claim of full variant or visual audit",
+        "source_match": true,
+        "visually_reviewed": false
+      },
+      "editorial_profile": {
+        "summary": "Sanrio characters take fruit forms: melon Cinnamoroll, mangosteen Kuromi, strawberry My Melody, apple Hello Kitty and pineapple Pompompurin.",
+        "angle": "The fruit-and-character pairing is the design distinction; verify the random-box format and exact design when matching reseller prices.",
+        "question": "Confirm current store price, exact pack, stock and dimensions with the official shop. These are not established by this showcase.",
+        "sources": [
+          "https://www.miniso.cn/product/ip_15.html"
+        ],
+        "reviewed": "2026-10-31"
+      }
+    },
+    {
+      "id": "miniso-cn-sanrio-gem-forest",
+      "brand": "MINISO",
+      "name": "Sanrio Gem Forest Flocked Pendant Blind Box",
+      "name_cn": "三丽鸥宝石之森系列植绒盲盒挂件",
+      "ip": "Sanrio characters",
+      "category": "Blind-box figures",
+      "wave": null,
+      "image": "https://www.miniso.cn/vancheerfile/images/2026/4/2026042118118103.jpg",
+      "image_source": "https://www.miniso.cn/vancheerfile/images/2026/4/2026042118118103.jpg",
+      "gallery": [
+        "https://www.miniso.cn/vancheerfile/images/2026/4/2026042118118103.jpg"
+      ],
+      "listings": [
+        {
+          "source": "MINISO China · official product showcase",
+          "source_id": "miniso-china",
+          "kind": "official showcase",
+          "url": "https://www.miniso.cn/product/ip_14.html",
+          "market": "Mainland China",
+          "currency": null,
+          "price": null,
+          "available": null,
+          "variant": "Official product / series showcase; pack not specified",
+          "checked": "2026-10-31",
+          "audit_note": "Product identity and image documented on MINISO China. No current price, store stock, launch date or sales total is stated on this page."
+        }
+      ],
+      "launch": null,
+      "regular_designs": null,
+      "secret_designs": null,
+      "material": null,
+      "first_seen": "2026-10-31",
+      "checked": "2026-10-31",
+      "china_status": "Official MINISO China product showcase; store-level availability unverified",
+      "sales": null,
+      "baseline": false,
+      "history": [],
+      "details": {
+        "source": "https://www.miniso.cn/product/ip_14.html",
+        "checked": "2026-10-31",
+        "description": "MINISO presents Sanrio characters as flocked hanging collectibles in its Gem Forest blind-box collection.",
+        "description_source": "https://www.miniso.cn/product/ip_14.html",
+        "description_checked": "2026-10-31"
+      },
+      "image_review": {
+        "status": "Official product / series image",
+        "source": "https://www.miniso.cn/product/ip_14.html",
+        "checked": "2026-10-31",
+        "scope": "Image linked from the official Chinese product page. Series photographs can show multiple designs.",
+        "level": "Source-to-image mapping; no claim of full variant or visual audit",
+        "source_match": true,
+        "visually_reviewed": false
+      },
+      "editorial_profile": {
+        "summary": "MINISO presents Sanrio characters as flocked hanging collectibles in its Gem Forest blind-box collection.",
+        "angle": "Compare the flocked surface and pendant format with vinyl-plush Sanrio collections; they are different constructions and should not share one price range.",
+        "question": "Confirm current store price, exact pack, stock and dimensions with the official shop. These are not established by this showcase.",
+        "sources": [
+          "https://www.miniso.cn/product/ip_14.html"
+        ],
+        "reviewed": "2026-10-31"
+      }
+    },
+    {
+      "id": "miniso-cn-duolingo-duo-pendant",
+      "brand": "MINISO",
+      "name": "Duolingo Duo Plush Pendant Blind Box",
+      "name_cn": "多儿毛绒挂件盲盒",
+      "ip": "Duolingo / Duo",
+      "category": "Blind-box plush",
+      "wave": null,
+      "image": "https://www.miniso.cn/vancheerfile/images/2026/8/20260819110431948.png",
+      "image_source": "https://www.miniso.cn/vancheerfile/images/2026/8/20260819110431948.png",
+      "gallery": [
+        "https://www.miniso.cn/vancheerfile/images/2026/8/20260819110431948.png"
+      ],
+      "listings": [
+        {
+          "source": "MINISO China · official product showcase",
+          "source_id": "miniso-china",
+          "kind": "official showcase",
+          "url": "https://www.miniso.cn/product/index_20.html",
+          "market": "Mainland China",
+          "currency": null,
+          "price": null,
+          "available": null,
+          "variant": "Official product / series showcase; pack not specified",
+          "checked": "2026-10-31",
+          "audit_note": "Product identity and image documented on MINISO China. No current price, store stock, launch date or sales total is stated on this page."
+        }
+      ],
+      "launch": null,
+      "regular_designs": null,
+      "secret_designs": null,
+      "material": null,
+      "first_seen": "2026-10-31",
+      "checked": "2026-10-31",
+      "china_status": "Official MINISO China product showcase; store-level availability unverified",
+      "sales": null,
+      "baseline": false,
+      "history": [],
+      "details": {
+        "source": "https://www.miniso.cn/product/index_20.html",
+        "checked": "2026-10-31",
+        "description": "A Duo plush hanging blind box within MINISO’s Duolingo collection, shown separately from the larger sitting plush toys.",
+        "description_source": "https://www.miniso.cn/product/index_20.html",
+        "description_checked": "2026-10-31"
+      },
+      "image_review": {
+        "status": "Official product / series image",
+        "source": "https://www.miniso.cn/product/index_20.html",
+        "checked": "2026-10-31",
+        "scope": "Image linked from the official Chinese product page. Series photographs can show multiple designs.",
+        "level": "Source-to-image mapping; no claim of full variant or visual audit",
+        "source_match": true,
+        "visually_reviewed": false
+      },
+      "editorial_profile": {
+        "summary": "A Duo plush hanging blind box within MINISO’s Duolingo collection, shown separately from the larger sitting plush toys.",
+        "angle": "Check pendant size and the designs included. Do not compare its price with the sitting Duo plush simply because the character is the same.",
+        "question": "Confirm current store price, exact pack, stock and dimensions with the official shop. These are not established by this showcase.",
+        "sources": [
+          "https://www.miniso.cn/product/index_20.html"
+        ],
+        "reviewed": "2026-10-31"
+      }
+    },
+    {
+      "id": "miniso-cn-duolingo-squishy-cube",
+      "brand": "MINISO",
+      "name": "Duolingo Plush Stress-Relief Squishy Cube",
+      "name_cn": "毛绒解压方块捏捏",
+      "ip": "Duolingo",
+      "category": "Squishy toys",
+      "wave": null,
+      "image": "https://www.miniso.cn/vancheerfile/images/2026/8/20260819110525884.png",
+      "image_source": "https://www.miniso.cn/vancheerfile/images/2026/8/20260819110525884.png",
+      "gallery": [
+        "https://www.miniso.cn/vancheerfile/images/2026/8/20260819110525884.png"
+      ],
+      "listings": [
+        {
+          "source": "MINISO China · official product showcase",
+          "source_id": "miniso-china",
+          "kind": "official showcase",
+          "url": "https://www.miniso.cn/product/index_20.html",
+          "market": "Mainland China",
+          "currency": null,
+          "price": null,
+          "available": null,
+          "variant": "Official product / series showcase; pack not specified",
+          "checked": "2026-10-31",
+          "audit_note": "Product identity and image documented on MINISO China. No current price, store stock, launch date or sales total is stated on this page."
+        }
+      ],
+      "launch": null,
+      "regular_designs": null,
+      "secret_designs": null,
+      "material": null,
+      "first_seen": "2026-10-31",
+      "checked": "2026-10-31",
+      "china_status": "Official MINISO China product showcase; store-level availability unverified",
+      "sales": null,
+      "baseline": false,
+      "history": [],
+      "details": {
+        "source": "https://www.miniso.cn/product/index_20.html",
+        "checked": "2026-10-31",
+        "description": "A plush-covered squeeze cube in the Duolingo collection. MINISO describes a soft textile exterior and resilient inner filling.",
+        "description_source": "https://www.miniso.cn/product/index_20.html",
+        "description_checked": "2026-10-31"
+      },
+      "image_review": {
+        "status": "Official product / series image",
+        "source": "https://www.miniso.cn/product/index_20.html",
+        "checked": "2026-10-31",
+        "scope": "Image linked from the official Chinese product page. Series photographs can show multiple designs.",
+        "level": "Source-to-image mapping; no claim of full variant or visual audit",
+        "source_match": true,
+        "visually_reviewed": false
+      },
+      "editorial_profile": {
+        "summary": "A plush-covered squeeze cube in the Duolingo collection. MINISO describes a soft textile exterior and resilient inner filling.",
+        "angle": "Check the core material and rebound behavior. The official page does not identify silicone, foam composition, dimensions or a safety age.",
+        "question": "Confirm current store price, exact pack, stock and dimensions with the official shop. These are not established by this showcase.",
+        "sources": [
+          "https://www.miniso.cn/product/index_20.html"
+        ],
+        "reviewed": "2026-10-31"
+      }
+    }
+  ]
+}

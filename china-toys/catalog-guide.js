@@ -27,7 +27,7 @@ function enhanceCards(){for(const card of document.querySelectorAll('.product-ca
  const options=l.options||[];
  if(options.length)rows.push(['Shop options',options.length+' listed options']);
  if(typeof l.available==='boolean')rows.push(['Stock at check',l.available?'Available':'Out of stock']);
- if(l.checked)rows.push(['Price checked',fmt(l.checked)]);
+ if(l.checked)rows.push([l.kind==='official showcase'?'Source reviewed':'Price checked',fmt(l.checked)]);
  const facts=card.querySelector('.card-facts');if(facts){facts.innerHTML=rows.map(([k,v])=>`<div class="fact"><span>${esc(k)}</span><span>${esc(short(v,180))}</span></div>`).join('');if(!ld&&l.listing_date)facts.insertAdjacentHTML('beforeend','<p class="fact-label-note">Shop page date is not a confirmed launch date.</p>')}
  const body=card.querySelector('.card-body');if(!body)continue;
  const profile=window.ATLAS_ITEM_INSIGHTS?.(p);if(profile){const el=document.createElement('p');el.className='available-description item-overview';el.textContent=profile.summary;body.querySelector('.product-title')?.after(el)}
@@ -154,7 +154,7 @@ addTutorial();enhanceCards();enhanceDialog();
       ['data-weekly="added"',groups.added.length,'Catalog additions','New here; not necessarily new products'],
       ['data-weekly="launch"',groups.launch.length,'New releases','Source-stated dates in the week shown'],
       ['data-view="trending"',active.length,'Current trend signals','Includes earlier evidence; not a sales rank'],
-      ['data-brief-shops',shopCount,'Shops with listings','Only captured shops, not all of China']
+      ['data-brief-shops',shopCount,'Sources with products','Includes official showcases; not all of China']
     ];
     const highlights = [];
     if (groups.added.length) highlights.push(article({
@@ -198,7 +198,7 @@ addTutorial();enhanceCards();enhanceDialog();
 ${overdue?'<p class="brief-warning"><strong>Full source refresh is overdue.</strong> These are the last saved observations, not a current market check.</p>':''}
 ${highlights.length?`<details class="brief-expand"><summary>Weekly highlights · ${num(eventCount)} changed entries</summary><div class="brief-stories">${highlights.slice(0,3).join('')}</div></details>`:""}
 ${watchCards?`<details class="brief-watch brief-expand"><summary>Current trend evidence · ${num(active.length)} products</summary><div class="brief-stories">${watchCards}</div></details>`:''}
-<p class="brief-footnote">Full source collection: ${esc(fmt(fullDate))}${data.detail_reviewed?' · Item detail review: '+esc(fmt(data.detail_reviewed)):''}. ${failures.length?num(failures.length)+' source checks were incomplete or unavailable; older saved listings may remain. ':''}<button type="button" data-view="coverage">See coverage & missing information</button>.</p></div>`;
+<p class="brief-footnote">${data.chain_coverage_review?'MINISO showcase review: '+esc(fmt(data.chain_coverage_review.reviewed))+' · 7 product / series entries; store inventory unverified. ':''}Full source collection: ${esc(fmt(fullDate))}${data.detail_reviewed?' · Item detail review: '+esc(fmt(data.detail_reviewed)):''}. ${failures.length?num(failures.length)+' source checks were incomplete or unavailable; older saved listings may remain. ':''}<button type="button" data-view="coverage">See coverage & missing information</button>.</p></div>`;
     arrange();
   }
   document.addEventListener('click', e => {

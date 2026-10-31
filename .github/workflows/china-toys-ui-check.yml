@@ -20,7 +20,9 @@ jobs:
           pip install playwright requests beautifulsoup4 Pillow
           python -m playwright install --with-deps chromium
       - name: Apply final product evidence guards to test data
-        run: python china-toys/quality.py
+        run: |
+          python china-toys/quality.py
+          python china-toys/apply_chain_coverage.py --cache-images
       - name: Check desktop and mobile interactions
         run: |
           python - <<'PY'

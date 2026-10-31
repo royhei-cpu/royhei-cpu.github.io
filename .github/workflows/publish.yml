@@ -87,6 +87,7 @@ jobs:
       - name: Add China Toy Atlas
         run: |
           if [ -f china-toys/catalog.json ]; then
+            python3 china-toys/apply_chain_coverage.py --cache-images
             python3 china-toys/build_brand_directory.py
             mkdir -p _site/china-toys
             cp china-toys/brands.html china-toys/brands.js china-toys/brands.css china-toys/brand-directory-data.js china-toys/brand-directory-data.json china-toys/brand-registry.json china-toys/brand-discovery.json _site/china-toys/

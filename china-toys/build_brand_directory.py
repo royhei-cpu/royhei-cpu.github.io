@@ -3,7 +3,8 @@
 import json, collections, hashlib, html, re
 from pathlib import Path
 R=Path(__file__).resolve().parent
-catalog=json.loads((R/'catalog.json').read_text())
+from apply_chain_coverage import write as apply_chain_coverage
+catalog=apply_chain_coverage(R)
 registry=json.loads((R/'brand-registry.json').read_text())
 bylabel=collections.defaultdict(list)
 for p in catalog['products']:bylabel[p.get('brand') or 'Brand not disclosed'].append(p)

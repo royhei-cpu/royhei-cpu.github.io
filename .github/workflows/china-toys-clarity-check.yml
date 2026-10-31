@@ -21,8 +21,10 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Check browsing, evidence and sound controls
         run: |
+          python china-toys/apply_chain_coverage.py --cache-images
           node --check china-toys/item-insights.js
           python china-toys/clarity_test.py
+          python china-toys/chain_coverage_test.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -43,6 +45,7 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Exercise disclosures and all shop and brand combinations
         run: |
+          python china-toys/apply_chain_coverage.py --cache-images
           python china-toys/review_acceptance.py
           python china-toys/navigation_test.py
       - uses: actions/upload-artifact@v4

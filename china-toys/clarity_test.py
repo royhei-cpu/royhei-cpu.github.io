@@ -14,7 +14,7 @@ try:
   page.goto(root,wait_until='domcontentloaded')
   expect(page.locator('.product-card[data-clean-card="1"]').first).to_be_visible()
   audit=page.evaluate('''() => ({total:TOY_ATLAS.products.length, reviewed:ATLAS_ITEM_INSIGHTS_COUNT, missing:TOY_ATLAS.products.filter(p=>{const x=ATLAS_ITEM_INSIGHTS(p);return !x.summary||!x.angle||!x.question}).length})''')
-  assert audit['missing']==0 and audit['reviewed']==17,audit
+  assert audit['missing']==0 and audit['reviewed']>=24,audit
   expect(page.locator('#atlasBrandNav').get_by_role('link',name='Brands & makers')).to_be_visible()
   # A real brand change must clear restrictive search and land on products.
   page.locator('#search').fill('a deliberately impossible product')
@@ -45,7 +45,7 @@ try:
   with page.expect_download() as download:page.locator('#exportButton').click()
   rows=list(csv.DictReader(io.StringIO(Path(download.value.path()).read_text(encoding='utf-8-sig'))))
   assert rows and all(r['Image URL'] and r['Item overview'] and r['Analysis sources'] for r in rows)
-  checks.append('Every record has a summary; 17 curated profiles; brand reset; folded evidence and specifications; CSV retains images and adds analysis')
+  checks.append('Every record has a summary; at least 24 reviewed profiles; brand reset; folded evidence and specifications; CSV retains images and adds analysis')
   page.goto(root,wait_until='domcontentloaded')
   expect(page.locator('#chainDetail .chain-assortment')).to_contain_text('POP MART US')
   page.get_by_role('tab',name='TOP TOY',exact=True).click()
