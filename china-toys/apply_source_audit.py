@@ -4,7 +4,7 @@
 Used for public builds and after weekly collection. Newer observations win.
 No discovery candidate is silently promoted into the product catalog.
 """
-import argparse, csv, json
+import argparse, csv, hashlib, json, re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -68,6 +68,12 @@ def write_outputs(root, data, audit):
     packed = json.dumps(data, ensure_ascii=False, separators=(',',':'))
     (root/'catalog.json').write_text(packed)
     (root/'catalog.js').write_text('window.TOY_ATLAS='+packed+';\n')
+    # Change the asset URL whenever the published data changes, including weekly refreshes.
+    indexpath = root/'index.html'
+    if indexpath.exists():
+        version = hashlib.sha256(packed.encode()).hexdigest()[:16]
+        indexpath.write_text(re.sub(r'src="catalog\.js(?:\?[^\"]*)?"',
+            'src="catalog.js?v='+version+'"', indexpath.read_text()))
     csvpath = root/'catalog.csv'
     if csvpath.exists():
         with csvpath.open(newline='',encoding='utf-8-sig') as f:
