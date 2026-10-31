@@ -31,7 +31,7 @@ try:
         assert page.locator('.brief-story').count() <= 5
         assert page.locator('.brief-story').count() == page.locator('.brief-story .brief-next').count()
         assert page.locator('.brief-story a').count() >= page.locator('.brief-story').count()
-        assert page.locator('.brief-watch').count() == 0 or 'evidence' in page.locator('.brief-watch summary').inner_text()
+        assert page.locator('.brief-watch').count() == 0 or 'evidence' in page.locator('.brief-watch>summary').inner_text()
         assert not page.locator('.brief-expand[open]').count()
         checks.append('Every highlight has sources and next checks; older trend evidence is separate')
         page.screenshot(path=str(O / 'desktop-weekly-brief.png'))
@@ -125,3 +125,4 @@ finally:
     result = {'passed': passed, 'checks': checks, 'page_errors': errors, 'metrics': metrics, 'viewports': ['1440x1000','390x844','768x844'], 'method':'Playwright Chromium; Browser plugin unavailable', 'scope':'Interface behavior and saved-data consistency only; not exhaustive product/source verification'}
     (O / 'results.json').write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps(result, ensure_ascii=False, indent=2))
+
