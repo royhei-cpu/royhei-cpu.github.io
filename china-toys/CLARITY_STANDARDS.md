@@ -1,0 +1,11 @@
+# Browsing and analysis standards
+
+The opening page proceeds from the dated weekly brief to retail selection and products. Research, brand benchmarks, coverage notes and the narrated tutorial remain reachable from navigation below the catalog. Keep one main brand selector and one retailer selector. Changing a brand must clear incompatible filters and move to product results.
+
+Cards show the photograph, character identity when documented, product name, short factual summary, prices with market/pack context, and essential stock/date facts. Additional specifications and trend evidence use native details disclosures. Full source information stays in the item dialog. Do not replace missing facts with marketing copy.
+
+`item-insights.js` supplies source-backed summaries and separate comparison questions. Seventeen product records have individually written profiles reviewed on 31 October 2026. Other summaries use saved structured catalog facts; this is not a fresh audit of all 4,230 records. An analyst comparison angle is not popularity evidence. Keep original price, inventory and trend dates unchanged unless those observations are actually renewed. A shared series-level report must not become fabricated item-level rankings or weekly growth.
+
+The retail section includes nine chain references. A chain profile does not establish captured inventory. Only matched source listings may produce an assortment link; brand-wide products must remain separately labeled. Directory-only chains must explicitly say that no assortment is captured. Third-party chain references are labeled accordingly.
+
+`install_item_insights.py` preserves script loading and the five analysis columns in filtered CSV exports after a weekly rebuild. Image URLs remain in the CSV; CSV cannot embed image pixels. `clarity_test.py` checks the browsing path, disclosures, CSV, chain coverage, viewport fit and persistent mute. The existing narrated video is preserved. Background music starts with a browser-permitted user gesture and the visitor's mute preference persists.
