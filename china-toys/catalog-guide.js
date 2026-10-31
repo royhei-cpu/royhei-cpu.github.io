@@ -136,7 +136,7 @@ addTutorial();enhanceCards();enhanceDialog();
     const main = document.querySelector('main.shell');
     if (main && main.firstElementChild !== root) main.prepend(root);
     const ip = document.getElementById('ip-rankings'), tutorial = document.getElementById('tutorial');
-    const desk=document.getElementById('chinaIntelligence');if(desk&&root.nextElementSibling!==desk)root.after(desk);
+    const desk=document.getElementById('chinaIntelligencePanel')||document.getElementById('chinaIntelligence');if(desk&&root.nextElementSibling!==desk)root.after(desk);
     if (ip && (desk||root).nextElementSibling !== ip) (desk||root).after(ip);
     if (tutorial && (ip || root).nextElementSibling !== tutorial) (ip || root).after(tutorial);
   }
@@ -209,3 +209,4 @@ ${watchCards?`<details class="brief-watch brief-expand"><summary>Current trend e
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',arrange,{once:true});
   requestAnimationFrame(arrange);
 })();
+
