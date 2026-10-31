@@ -24,6 +24,8 @@ try:
   p.goto(root+'brands.html',wait_until='networkidle')
   assert p.locator('.brand-card').count()==24
   expect(p.locator('#directoryStats')).to_contain_text(str(D['catalog_labels']))
+  p.locator('#directorySearch').fill('Baby Three')
+  expect(p.locator('.brand-card h3')).to_have_text('Baby Three')
   p.locator('#directorySearch').fill('TOP TOY')
   expect(p.locator('.brand-card h3')).to_have_text('TOP TOY')
   p.locator('.brand-card a.browse').click()

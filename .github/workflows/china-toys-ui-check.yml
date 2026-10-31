@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['china-toys/brands*', 'china-toys/brand-*', 'china-toys/build_brand_directory.py', 'china-toys/atlas-navigation*', 'china-toys/research*', 'china-toys/build_source_audit_report.py', 'china-toys/app.js', 'china-toys/index.html', 'china-toys/styles.css', 'china-toys/china-intelligence*', 'china-toys/china-market-data.js', 'china-toys/china_intelligence_test.py', '.github/workflows/china-toys-ui-check.yml']
+    paths: ['china-toys/brand_directory_test.py', 'china-toys/refresh_brand_discovery.py', 'china-toys/brands*', 'china-toys/brand-*', 'china-toys/build_brand_directory.py', 'china-toys/atlas-navigation*', 'china-toys/research*', 'china-toys/build_source_audit_report.py', 'china-toys/app.js', 'china-toys/index.html', 'china-toys/styles.css', 'china-toys/china-intelligence*', 'china-toys/china-market-data.js', 'china-toys/china_intelligence_test.py', '.github/workflows/china-toys-ui-check.yml']
 permissions:
   contents: read
 jobs:
