@@ -25,6 +25,8 @@ try:
   assert page.locator('.product-card').count()>0
   page.locator('#openIPRankings').click()
   assert page.locator('#ip-rankings').evaluate('(e)=>e.open')
+  assert page.locator('[data-ip-content="browse"]').is_visible()
+  page.locator('[data-ip-panel="rank"]').click()
   assert page.locator('#ipRevenueRows .ip-rank-row').count()==8
   assert page.locator('#ipRevenueRows .ip-rank-row').first.get_attribute('data-rank-ip')=='the-monsters'
   assert page.locator('#ipRevenueRows .ip-rank-row').nth(1).get_attribute('data-rank-ip')=='twinkle-twinkle'
