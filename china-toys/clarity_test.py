@@ -55,7 +55,8 @@ try:
   assert page.locator('#retailer').input_value()
   page.goto(root,wait_until='domcontentloaded')
   page.get_by_role('tab',name='X11',exact=True).click()
-  expect(page.locator('#chainDetail')).to_contain_text('no captured assortment yet')
+  expect(page.locator('#chainDetail')).to_contain_text('8 first-party sale records')
+  expect(page.locator('#chainDetail .ca-product')).to_have_count(8)
   assert page.locator('#chainDetail .chain-assortment').count()==0
   assert page.locator('#retailChains [role="tab"]').count()==11
   # User gestures unlock audio. Mute survives page navigation/reload.
@@ -66,7 +67,7 @@ try:
   expect(page.locator('#atlasSound')).to_have_text('♫ Sound off')
   page.locator('#atlasBrandNav').get_by_role('link',name='Products',exact=True).click()
   expect(page.locator('#atlasSound')).to_have_text('♫ Sound off')
-  checks.append('Eleven retail references; TOP TOY assortment opens; uncaptured chains have no empty browse link; audio starts on gesture and mute persists')
+  checks.append('Eleven retail references; TOP TOY assortment opens; X11 opens eight documented products without empty catalog links; audio starts on gesture and mute persists')
   for width in [390,768,1440]:
    page.set_viewport_size({'width':width,'height':1000})
    page.goto(root,wait_until='domcontentloaded')
