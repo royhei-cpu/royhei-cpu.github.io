@@ -83,7 +83,7 @@ def write_outputs(root, data, audit):
             reader=csv.DictReader(f); fields=list(reader.fieldnames); rows=list(reader)
         products={p['id']:p for p in data['products']}
         offers={l.get('previous_url',l['url']):l for p in data['products'] for l in p.get('listings',[])}
-        fields += [x for x in ('link_status','audit_checked','audit_note','image_url','gallery_image_urls','shop_options_json','availability_at_check','market_prices_json') if x not in fields]
+        fields += [x for x in ('link_status','audit_checked','audit_note','image_url','gallery_image_urls','shop_options_json','availability_at_check','market_prices_json','observed_low','observed_high','observed_currency','observed_market','observed_pack','observed_listing_count','observed_checked_from','observed_checked_to') if x not in fields]
         for row in rows:
             p=products.get(row.get('id'),{})
             row['market_prices_json']=json.dumps(p.get('market_prices',{}),ensure_ascii=False)
@@ -93,6 +93,9 @@ def write_outputs(root, data, audit):
             row['gallery_image_urls']=' | '.join(absolute(u) for u in p.get('gallery',[]))
             l=offers.get(row.get('product_url'))
             if not l: continue
+            group=next((g for g in p.get('market_prices',{}).get('groups',[]) if any(o['url']==l['url'] and o['variant']==l.get('variant') for o in g['offers'])),{})
+            for column,key in [('low','low'),('high','high'),('currency','currency'),('market','market'),('pack','basis'),('listing_count','listing_count'),('checked_from','checked_from'),('checked_to','checked_to')]:
+                row['observed_'+column]=group.get(key,'')
             row['shop_options_json']=json.dumps(l.get('options',[]),ensure_ascii=False)
             row['availability_at_check']='Available' if l.get('available') is True else 'Out of stock' if l.get('available') is False else ''
             if l.get('audit_checked'):
