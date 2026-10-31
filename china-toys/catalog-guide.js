@@ -33,7 +33,7 @@ function enhanceCards(){for(const card of document.querySelectorAll('.product-ca
  const profile=window.ATLAS_ITEM_INSIGHTS?.(p);if(profile){const el=document.createElement('p');el.className='available-description item-overview';el.textContent=profile.summary;body.querySelector('.product-title')?.after(el)}
  if(!profile&&d.features?.length&&!body.querySelector('.known-feature')){const el=document.createElement('p');el.className='available-description known-feature';el.textContent=short(d.features.join(' · '),230);body.append(el)}
  const foot=card.querySelector('.card-footer button[data-open]');if(foot)foot.textContent='Full product details';
- if(l.price==null&&!p.china_price){const el=card.querySelector('.price-row strong');if(el)el.textContent='See shop options'}
+ if(l.price==null&&!p.china_price){const el=card.querySelector('.price-row strong');if(el)el.textContent=l.kind==='official showcase'?'Price not published':'See shop options'}
  }}
 function enhanceDialog(){const root=document.getElementById('productDetail');if(!root||root.querySelector('.detail-content')?.dataset.factsDone)return;
  const title=root.querySelector('#detailTitle')?.textContent;if(!title)return;const brand=root.querySelector('.brand-line')?.textContent;const p=data.products.find(x=>x.name===title&&x.brand===brand)||data.products.find(x=>x.name===title);if(!p)return;

@@ -184,7 +184,7 @@ function enhanceCards(){
    const signal=named?'100,000+ displayed purchases · Tmall / Douyin study':weak?'Selected by '+((p.listings||[])[0]?.source||'this retailer'):short(t.summary,160);
    reason.innerHTML=`<strong>${esc(title)}</strong><p>${esc(signal)}</p><small>${esc(named?'Q3 2026 · published 8 Oct 2026':(t.market||'Source market')+' · '+t.observed)}</small>${a(t.source,'Source')}`;body.append(reason);
   }
-  if(p.image_review){const note=document.createElement('p');note.className='review-image-note';note.textContent=p.image_review.visually_reviewed?'Photo sample visually checked; open item for scope.':'Source / series photo · blind-box design may vary';body.append(note)}
+  if(p.image_review){const note=document.createElement('p');note.className='review-image-note';note.textContent=p.image_review.visually_reviewed?'Photo sample visually checked; open item for scope.':(p.category.toLowerCase().includes('blind')?'Source / series photo · blind-box design may vary':'Source product photograph');body.append(note)}
  }
 }
 function productFromDialog(root){const title=root.querySelector('#detailTitle')?.textContent;if(!title)return;const label=root.querySelector('.brand-line')?.textContent;return data.products.find(p=>p.name===title&&p.brand===label)||data.products.find(p=>p.name===title)}

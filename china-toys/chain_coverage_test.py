@@ -27,6 +27,7 @@ try:
   expect(page.locator('#resultsHint')).to_have_text('7 products / series')
   expect(page.locator('#retailerStatus')).to_contain_text('Official product showcase only')
   assert page.locator('.product-card').count()==7
+  assert page.locator('.product-card .price-row strong').all_text_contents()==['Price not published']*7
   page.locator('.product-card .photo-button').first.scroll_into_view_if_needed()
   page.wait_for_function("[...document.querySelectorAll('.product-card img')].filter(i=>i.getBoundingClientRect().top<innerHeight).every(i=>i.complete&&i.naturalWidth>0)",timeout=45000)
   page.locator('.product-card .title-button').first.click()
