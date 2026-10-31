@@ -1,6 +1,6 @@
 {
   "reviewed": "2026-10-31",
-  "scope": "MINISO official China showcase and explicit gaps for the nine featured retail chains. Not a national completeness audit.",
+  "scope": "MINISO official China showcase and explicit coverage for eleven featured retail chains. This is an expanding directory, not a complete national census.",
   "sources": [
     {
       "id": "miniso-china",
@@ -27,15 +27,17 @@
       "url": "https://www.kkgroup.cn/zh-CN/x11",
       "status": "not captured",
       "source_type": "directory",
-      "coverage_note": "Retail-chain reference only. No captured store assortment; missing data does not mean this retailer sells no toys."
+      "coverage_note": "Official KK Group profile documents blind boxes, BJD, plush and other collectible categories. Its mini-program and stores need separate SKU capture; category claims are not inventory.",
+      "checked": "2026-10-31"
     },
     {
       "id": "chain-kkv",
       "name": "KKV · retail-chain reference",
-      "url": "https://www.kkv.cn/zh-CN",
+      "url": "https://www.kkgroup.cn/zh-CN/kkv",
       "status": "not captured",
       "source_type": "directory",
-      "coverage_note": "Retail-chain reference only. No captured store assortment; missing data does not mean this retailer sells no toys."
+      "coverage_note": "Official KK Group profile confirms a lifestyle chain with a toy category and links a WeChat mini-program. No store-level toy inventory captured.",
+      "checked": "2026-10-31"
     },
     {
       "id": "chain-jiumu",
@@ -60,6 +62,24 @@
       "status": "not captured",
       "source_type": "directory",
       "coverage_note": "Retail-chain reference only. No captured store assortment; missing data does not mean this retailer sells no toys."
+    },
+    {
+      "id": "chain-sanfu",
+      "name": "SANFU · 三福 · retail-chain reference",
+      "url": "https://www.sanfu.com/about",
+      "status": "not captured",
+      "source_type": "directory",
+      "checked": "2026-10-31",
+      "coverage_note": "Official company profile establishes the chain; its official Weibo promotes blind boxes. No store-level toy inventory, current prices or stock captured."
+    },
+    {
+      "id": "chain-ipstar",
+      "name": "IPSTAR · 潮玩星球 · retail-chain reference",
+      "url": "https://weibo.com/6509826766",
+      "status": "not captured",
+      "source_type": "directory",
+      "checked": "2026-10-31",
+      "coverage_note": "Official operator account publishes retail and theme-store notices; Bandai also lists IPSTAR stockists. Store openings and closures change. No current assortment captured."
     }
   ],
   "products": [

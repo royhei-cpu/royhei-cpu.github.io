@@ -19,8 +19,8 @@ try:
   page.goto('http://127.0.0.1:8799/china-toys/',wait_until='domcontentloaded')
   expect(page.locator('#retailer option[value="miniso-china"]')).to_be_enabled()
   assert page.locator('#retailer option[value="miniso-china"]').evaluate('(e)=>e.parentElement.label').startswith('Official product showcases')
-  for source in ['miniso-tmall','chain-x11','chain-kkv','chain-jiumu','chain-kule','chain-green-party']:
-   expect(page.locator('#retailer option[value="'+source+'"]').first).to_be_disabled()
+  for source in ['miniso-tmall','chain-x11','chain-kkv','chain-jiumu','chain-kule','chain-green-party','chain-sanfu','chain-ipstar']:
+   expect(page.locator('#retailer option[value="'+source+'"]').first).to_have_attribute('disabled','')
   page.locator('#search').fill('a search that cannot match')
   page.locator('#retailer').select_option('miniso-china')
   expect(page.locator('#search')).to_have_value('')
@@ -40,6 +40,12 @@ try:
   expect(page.locator('#chainDetail')).to_contain_text('Tmall inventory')
   expect(page.locator('#chainDetail a[href="https://miniso.tmall.com/"]')).to_be_visible()
   expect(page.locator('#chainCoverageGaps')).to_contain_text('X11')
+  page.locator('#chainCoverageAudit summary').click()
+  expect(page.locator('#chainCoverageAudit tbody tr')).to_have_count(11)
+  for chain in ['SANFU · 三福','IPSTAR · 潮玩星球']:
+   page.get_by_role('tab',name=chain,exact=True).click()
+   expect(page.locator('#chainDetail')).to_contain_text('no captured assortment yet')
+   assert page.locator('#chainDetail .chain-assortment').count()==0
   for width in [390,768,1440]:
    page.set_viewport_size({'width':width,'height':1000});page.locator('#retailer').select_option('miniso-china')
    assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),width
@@ -47,4 +53,4 @@ try:
   assert not errors,errors
   browser.close()
 finally:server.terminate()
-print(json.dumps({'MINISO_official_showcase':7,'uncollected_chain_sources_explicit':6,'photos_and_csv':'pass','price_stock_release_invention':'none','runtime_errors':errors}))
+print(json.dumps({'MINISO_official_showcase':7,'uncollected_chain_sources_explicit':8,'photos_and_csv':'pass','price_stock_release_invention':'none','runtime_errors':errors}))

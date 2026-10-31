@@ -10,6 +10,8 @@ def apply(data):
     sources={s['id']:s for s in data.get('sources',[])}
     for s in supplement['sources']:
         if s['id'] not in sources:data.setdefault('sources',[]).append(s)
+        elif sources[s['id']].get('checked','') <= s.get('checked',''):
+            sources[s['id']].update(s)
     products={p['id']:p for p in data['products']}
     for p in supplement['products']:
         if p['id'] not in products:data['products'].append(p)
@@ -40,11 +42,11 @@ def write(root=ROOT,cache_images=False):
     csvpath=root/'catalog.csv'
     if csvpath.exists():
         with csvpath.open(encoding='utf-8-sig',newline='') as f:reader=csv.DictReader(f);fields=reader.fieldnames;rows=list(reader)
-        ids={r['id'] for r in rows}
+        ids={r.get('id') or (r.get('name'),r.get('product_url')) for r in rows}
         for p in ps:
-            if p['id'] in ids:continue
+            if p['id'] in ids or (p['name'],p['listings'][0]['url']) in ids:continue
             l=p['listings'][0]
-            row={k:p.get(k,'') for k in fields};row.update(retailer=l['source'],market=l['market'],variant=l['variant'],details_source=l['url'],product_url=l['url'],image_url=p['image_source'],image_source=p['image_source'],shop_description=p['details']['description'],description_source=l['url'],description_checked=l['checked'],audit_note=l['audit_note'])
+            row={k:p.get(k,'') for k in fields};row.update(first_seen=p['first_seen'],last_checked=l['checked'],price_market=l['market'],retailer=l['source'],market=l['market'],variant=l['variant'],details_source=l['url'],product_url=l['url'],image_url=p['image_source'],image_source=p['image_source'],shop_description=p['details']['description'],description_source=l['url'],description_checked=l['checked'],audit_note=l['audit_note'])
             rows.append(row)
         with csvpath.open('w',encoding='utf-8-sig',newline='') as f:w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');w.writeheader();w.writerows(rows)
     return data
