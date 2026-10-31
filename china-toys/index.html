@@ -9,11 +9,13 @@
 <script>window.ATLAS_INITIAL_HASH=location.hash;</script>
 <script src="catalog.js?v=97ff5ef30db77bf4" defer></script>
 <script src="ip-market-data.js?v=20261030-ip-market-2" defer></script>
-<script src="ip-directory.js?v=20261030-ip-market-2" defer></script><script src="market-prices.js?v=1ca8635fa428" defer></script><script src="app.js?v=nav-3c8685bafefa" defer></script>
-<script src="catalog-guide.js?v=weekly-brief-eb799b8a6081" defer></script>
+<script src="ip-directory.js?v=6c664785d012" defer></script><script src="market-prices.js?v=1ca8635fa428" defer></script><script src="app.js?v=6452ac4c73b1" defer></script>
+<script src="catalog-guide.js?v=weekly-brief-dcf92727fef9" defer></script>
 <script src="compare.js?v=2c3d4ab301ff" defer></script>
 <script src="source-audit-data.js?v=20261031-1" defer></script>
 <script src="source-audit.js?v=20261031-1" defer></script>
+<link rel="stylesheet" href="china-intelligence.css?v=835f39231820">
+<script src="china-market-data.js?v=12250b749881" defer></script><script src="china-intelligence.js?v=897d920de086" defer></script>
 </head>
 <body>
 <a class="skip" href="#results">Skip to products</a>
@@ -30,7 +32,7 @@
 <section id="weeklyBanner" class="weekly-banner" hidden></section>
 <section id="filters" class="filter-section" aria-label="Product filters">
 <div class="search-line"><label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m15.4 15.4 4.5 4.5"/></svg><input id="search" type="search" placeholder="Search a product, character or series…" aria-label="Search products"></label><label class="category-select"><span>Product type</span><select id="category"><option value="">All product types</option><option>Blind-box figures</option><option>Blind-box plush</option><option>Blind-box dolls</option><option>Squishy toys</option><option>Squishy blind boxes</option></select></label></div>
-<div class="secondary-filters"><label>Information available<select id="evidence"><option value="">All products</option><option value="china-date">China release date with source</option><option value="date">Release date with source</option><option value="china-price">China price with source</option><option value="sales">Units sold reported</option><option value="wave">Wave number known</option></select></label><label>Release year<select id="year"><option value="">All years</option></select></label><label>Price currency<select id="currency"><option value="">All currencies</option></select></label><label>Sort by<select id="sort"><option value="featured">Brand / product name</option><option value="launch">Latest release date</option><option value="first_seen">Recently added to catalog</option><option value="listing">Latest shop listing</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option></select></label><button id="resetFilters" class="text-button">Reset filters</button></div>
+<div class="secondary-filters"><label>Information available<select id="evidence"><option value="">All products</option><option value="china-any">China evidence available</option><option value="in-stock">Available when checked</option><option value="china-date">China release date with source</option><option value="date">Release date with source</option><option value="china-price">China price with source</option><option value="sales">Units sold reported</option><option value="wave">Wave number known</option></select></label><label>Release year<select id="year"><option value="">All years</option></select></label><label>Price currency<select id="currency"><option value="">All currencies</option></select></label><label>Sort by<select id="sort"><option value="featured">Brand / product name</option><option value="launch">Latest release date</option><option value="first_seen">Recently added to catalog</option><option value="listing">Latest shop listing</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option></select></label><button id="resetFilters" class="text-button">Reset filters</button></div>
 </section>
 <section id="results" aria-live="polite" aria-busy="true"><div class="results-bar"><h2 id="resultsTitle">Loading products</h2><span id="resultsHint">Opening the catalog</span></div><div id="contextNote" class="context-note"></div><div id="catalogGrid" class="product-grid"></div><div id="timelinePanel" hidden></div><div id="coveragePanel" hidden></div><div id="emptyState" class="empty-state" hidden></div><div id="pagination" class="pagination"></div></section>
 <section class="reading-note"><strong>Release date and listing date are different.</strong><p><b>Launch</b> is when the product was released, according to the linked source. <b>Listed</b> is when a shop posted it. <b>Added</b> is when it joined this catalog. Overseas prices and releases are labeled separately from mainland China.</p><button class="text-button" id="methodButton">How to read prices and dates <span aria-hidden="true">↗</span></button></section>
@@ -41,4 +43,5 @@
 <div id="toast" role="status" class="toast" hidden></div>
 <noscript><div class="shell reading-note">Enable JavaScript to filter this catalog, or <a href="catalog.csv">open the full CSV</a>.</div></noscript>
 </body></html>
+
 

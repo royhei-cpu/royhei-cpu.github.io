@@ -64,6 +64,7 @@ jobs:
         run: |
           python china-toys/review_acceptance.py
           python china-toys/weekly_brief_test.py
+          python china-toys/china_intelligence_test.py
           python china-toys/navigation_test.py
           python china-toys/compare_test.py
       - name: Save directory changes
@@ -91,6 +92,7 @@ jobs:
             /tmp/china-toys-review-qa/results.json
             /tmp/china-toys-review-qa/*.png
             /tmp/china-toys-weekly-brief-qa/
+            /tmp/china-toys-china-desk-qa/
             /tmp/china-toys-navigation-qa/
             /tmp/china-toys-compare-audit/
           retention-days: 14

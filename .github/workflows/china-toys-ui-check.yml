@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['china-toys/app.js', 'china-toys/index.html', 'china-toys/styles.css', '.github/workflows/china-toys-ui-check.yml']
+    paths: ['china-toys/app.js', 'china-toys/index.html', 'china-toys/styles.css', 'china-toys/china-intelligence*', 'china-toys/china-market-data.js', 'china-toys/china_intelligence_test.py', '.github/workflows/china-toys-ui-check.yml']
 permissions:
   contents: read
 jobs:
@@ -95,10 +95,15 @@ jobs:
             (out/'results.json').write_text(json.dumps({'checks':checks,'errors':errors},indent=2))
             print(json.dumps({'checks':checks,'errors':errors},indent=2))
           PY
+      - name: Check China research dashboard
+        run: python china-toys/china_intelligence_test.py
       - name: Keep review screenshots
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: china-toys-ui-review
-          path: /tmp/china-toys-ui/
+          path: |
+            /tmp/china-toys-ui/
+            /tmp/china-toys-china-desk-qa/
           retention-days: 7
+

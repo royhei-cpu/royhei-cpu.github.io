@@ -114,7 +114,7 @@ addTutorial();enhanceCards();enhanceDialog();
     const retailer = document.getElementById('retailer')?.value || '';
     const pool = products.filter(p => !retailer || (p.listings || []).some(l => retail(l) && key(l) === retailer));
     const select = document.getElementById('retailer');
-    const label = retailer ? (sources.find(s => s.id === retailer)?.name || select?.selectedOptions[0]?.textContent.split(' — ')[0] || 'Selected shop') : 'All tracked shops';
+    const label = retailer ? (sources.find(s => s.id === retailer)?.name || select?.selectedOptions[0]?.textContent.split(' — ')[0] || 'Selected shop') : 'All tracked shops · China & international';
     return {retailer, pool, label};
   }
   function evidenceLinks(items, field, label) {
@@ -136,7 +136,8 @@ addTutorial();enhanceCards();enhanceDialog();
     const main = document.querySelector('main.shell');
     if (main && main.firstElementChild !== root) main.prepend(root);
     const ip = document.getElementById('ip-rankings'), tutorial = document.getElementById('tutorial');
-    if (ip && root.nextElementSibling !== ip) root.after(ip);
+    const desk=document.getElementById('chinaIntelligence');if(desk&&root.nextElementSibling!==desk)root.after(desk);
+    if (ip && (desk||root).nextElementSibling !== ip) (desk||root).after(ip);
     if (tutorial && (ip || root).nextElementSibling !== tutorial) (ip || root).after(tutorial);
   }
   function render() {
