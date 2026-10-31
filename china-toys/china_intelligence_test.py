@@ -36,6 +36,7 @@ try:
         for pid,label in [('a6352811fd423b78','CRYBABY'),('25883b4f5b30a725','Twinkle Twinkle'),('5496b7c05a7bcbb0','DIMOO')]:
             card=p.locator('[data-product-id="'+pid+'"]')
             expect(card.locator('.character-name strong')).to_contain_text(label)
+            card.get_by_text('Trend evidence & product angle',exact=True).click()
             assert 'Named in a Q3' not in card.locator('.review-reason').inner_text()
             assert card.locator('.review-reason').inner_text().count('100,000+')==1
             assert not card.locator('.review-appeal').evaluate('(e)=>e.open')

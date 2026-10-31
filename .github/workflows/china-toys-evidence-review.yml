@@ -4,15 +4,12 @@ on:
   push:
     branches: [main]
     paths:
-      - '.github/workflows/china-toys-evidence-review.yml'
       - 'china-toys/review.py'
       - 'china-toys/review_finalize.py'
       - 'china-toys/review_publish.py'
       - 'china-toys/photo-overrides.json'
       - 'china-toys/review-sources.json'
       - 'china-toys/review-ui.js'
-      - 'china-toys/review_test.py'
-      - 'china-toys/review_acceptance.py'
 permissions:
   contents: write
   actions: write

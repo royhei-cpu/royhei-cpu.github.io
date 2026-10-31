@@ -15,7 +15,10 @@
     {name:'KuLe · 酷乐潮玩',kind:'Collectibles and lifestyle retail chain',color:'#9a4a8b',url:'https://www.maigoo.com/brand/141609.html',link:'Third-party retail profile',domains:[],note:'Retail operator reference for collectible toys and gifts. Product assortment still needs store-level capture.'},
     {name:'The Green Party',kind:'Lifestyle retail chain · 绿光派对',color:'#43723b',url:'https://www.smsupermalls.cn/city/jjfloor.aspx',link:'China mall tenant directory',domains:[],note:'China mall retail channel with toys and lifestyle goods. This tenant source confirms a store presence, not a complete inventory.'}
   ];
-  const data=window.TOY_ATLAS||{},products=data.products||[],sources=data.sources||[];
+  const data=window.TOY_ATLAS||{},products=data.products||[],sources=[...(data.sources||[])];
+  // Include directly captured official product pages as well as configured feeds.
+  for(const p of products)for(const l of p.listings||[]){const h=host(l.url);if(!h||sources.some(s=>host(s.url)===h)||!chains.some(c=>inDomain(h,c.domains)))continue;sources.push({id:l.source_id||('shop-'+h),name:l.source||h,url:l.url});}
+
   const section=document.createElement('section');section.id='retailChains';section.className='retail-chains';section.setAttribute('aria-labelledby','retailChainsTitle');
   function inDomain(h,ds){return ds.some(x=>h===x||h.endsWith('.'+x));}
   function matchesSource(c,s){return inDomain(host(s.url),c.domains);}

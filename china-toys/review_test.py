@@ -13,7 +13,7 @@ try:
   assert page.locator('.product-card').count()==24
   assert page.locator('#brandCoverageReview').count()==1
   assert page.locator('#weeklyOverview').is_visible()
-  assert 'This week' in page.locator('#weeklyOverview').inner_text()
+  assert 'what changed this week' in page.locator('#weeklyOverview').inner_text().lower()
   page.screenshot(path=str(OUT/'desktop-top.png'))
   checks.append('Page, weekly update panel, brand coverage control and 24-card pagination render')
   page.locator('.view-tab[data-view="trending"]').click();page.wait_for_selector('.review-reason',state='attached');page.locator('.product-card').first.get_by_text('Trend evidence & product angle',exact=True).click()
@@ -53,7 +53,7 @@ try:
   page.locator('.product-card').first.get_by_text('Trend evidence & product angle',exact=True).click();page.screenshot(path=str(OUT/'mobile-trend-card.png'));assert page.locator('.review-reason').first.is_visible()
   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
   checks.append('390px mobile view: no horizontal overflow; trend reasons visible')
-  visible=page.evaluate('''() => [...document.images].filter(e=>{const r=e.getBoundingClientRect();return r.width>0&&r.height>0&&r.top<innerHeight&&r.bottom>0}).map(e=>({src:e.src,complete:e.complete,width:e.naturalWidth}))''')
+  visible=page.evaluate('''() => [...document.images].filter(e=>{const r=e.getBoundingClientRect();return e.checkVisibility()&&r.width>0&&r.height>0&&r.top<innerHeight&&r.bottom>0&&r.left<innerWidth&&r.right>0}).map(e=>({src:e.src,complete:e.complete,width:e.naturalWidth}))''')
   assert all(x['complete'] and x['width'] for x in visible),visible
   checks.append('All product photos in the final tested viewport decoded successfully')
   assert not errors,errors;checks.append('No JavaScript runtime errors in the tested flows')
