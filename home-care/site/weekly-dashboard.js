@@ -1,6 +1,6 @@
 /* Weekly summary content is maintained alongside the catalog, without replacing records. */
 (()=>{
-const report={reviewed:'30 October 2026',period:'26–30 October 2026',signals:[{
+const report={reviewed:'31 October 2026',period:'26–31 October 2026',signals:[{
  title:'barebird pairs pet and laundry odor control',status:'Early signal · Announced 28 October',
  changed:'BioLargo announced two fragrance-free 32-ounce products: a pet-odor spray and a laundry additive providing 16 loads. Direct-to-consumer availability is expected first; Amazon and TikTok Shop are planned, not verified live.',
  matters:'A pet-plus-laundry bundle is an opportunity to investigate. Existing Target alternatives mean this announcement alone does not establish an assortment gap.',
@@ -16,6 +16,12 @@ const cats=[...new Set(ITEMS.filter(d=>d.merchantScope==='Home Care').map(d=>d.c
 directory.innerHTML='<h2>Browse categories</h2><p>Choose a competitor below, then narrow the results by category.</p><div class="category-links">'+['All Home Care',...cats,'Cleaning Appliances'].map(c=>`<button type="button" data-category-jump="${esc(c)}" aria-pressed="false">${esc(c)}${c==='Cleaning Appliances'?' · Home / adjacent':''}</button>`).join('')+'</div>';
 section.after(directory);
 if(added.length){const additions=document.createElement('div');additions.className='weekly-additions';additions.innerHTML='<h3>New to the catalog</h3><ul>'+added.slice(0,5).map(d=>'<li><a target="_blank" rel="noopener noreferrer" href="'+esc(d.url)+'">'+esc(d.name)+'</a> · '+esc(d.retailer)+'</li>').join('')+'</ul>';section.append(additions)}
+const coverage=document.createElement('details');coverage.className='coverage-table';
+const retailers=[...new Set(ITEMS.map(d=>d.retailer))].sort();
+coverage.innerHTML='<summary>Competitor coverage — see gaps and latest additions</summary><p>Counts describe this catalog, not each retailer’s full assortment. Discovery searches covered all 19 retailers; new product records were added for seven. Availability and pricing can vary by location.</p><div style="overflow-x:auto"><table><thead><tr><th>Competitor</th><th>Collected</th><th>Added</th><th>Categories represented</th><th>Review status</th></tr></thead><tbody>'+retailers.map(r=>{const rows=ITEMS.filter(d=>d.retailer===r),n=added.filter(d=>d.retailer===r).length;return '<tr><td><button data-retailer-browse="'+esc(r)+'">'+esc(r)+'</button></td><td>'+rows.length+'</td><td>'+n+'</td><td>'+new Set(rows.map(d=>d.categoryLabel)).size+'</td><td>'+(n?(r==='TikTok Shop'?'Public metadata checked; seller and stock unverified':'Additional product sources checked; partial coverage'):'Discovery only this pass; existing records retained')+'</td></tr>'}).join('')+'</tbody></table></div>';
+section.append(coverage);
+coverage.addEventListener('click',e=>{const b=e.target.closest('[data-retailer-browse]');if(b){reset(b.dataset.retailerBrowse);document.getElementById('retailer').scrollIntoView({block:'center'});}});
+if(added.length){const b=document.createElement('button');b.textContent='Browse all '+added.length+' weekly additions';b.className='weekly-jump';b.onclick=()=>{reset('all','all');$('catalog-since').value='2026-10-31';draw();$('product-grid').scrollIntoView({block:'start'});};section.append(b);}
 directory.addEventListener('click',event=>{const b=event.target.closest('[data-category-jump]');if(!b)return;const cat=b.dataset.categoryJump;reset($('retailer').value,cat==='Cleaning Appliances'?'Home / adjacent references':'Home Care');if(cat!=='All Home Care'){$('category').value=cat;draw()}sync();});
 function sync(){for(const b of directory.querySelectorAll('button'))b.setAttribute('aria-pressed',String(b.dataset.categoryJump===($('category').value==='all'?'All Home Care':$('category').value)&&($('scope').value==='Home Care'||b.dataset.categoryJump==='Cleaning Appliances')))}
 document.addEventListener('change',sync);$('reset').addEventListener('click',sync);sync();

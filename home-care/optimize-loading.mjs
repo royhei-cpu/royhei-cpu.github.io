@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import path from 'node:path';
 import assert from 'node:assert/strict';
 const file=process.argv[2]||'home-care/site/index.html';
 let html=fs.readFileSync(file,'utf8');
@@ -6,6 +7,10 @@ if(html.includes('id="catalog-loading"')){console.log('Loading optimization alre
 const start=html.indexOf('const ITEMS=')+12,end=html.indexOf(';\nconst COVERAGE=',start);
 if(start<12||end<start)throw Error('Original catalog dataset not found');
 const items=JSON.parse(html.slice(start,end));
+const additionsFile=path.join(path.dirname(file),'catalog-additions.json');
+const additions=fs.existsSync(additionsFile)?JSON.parse(fs.readFileSync(additionsFile,'utf8')):[];
+const originalIds=new Set(items.map(d=>d.id));
+for(const d of additions){assert.ok(d.id&&d.name&&d.url&&d.image&&d.category&&d.retailer);if(!originalIds.has(d.id)){items.push(d);originalIds.add(d.id)}}
 assert.ok(items.length>=6265, "Existing catalog records must be preserved");
 const keys=[...new Set(items.flatMap(Object.keys))],pool=[],lookup=new Map();
 const rows=items.map(item=>keys.map(k=>{if(!Object.hasOwn(item,k))return -1;const v=item[k],signature=JSON.stringify(v);if(!lookup.has(signature)){lookup.set(signature,pool.length);pool.push(v)}return lookup.get(signature)}));
@@ -26,5 +31,15 @@ const catchErrors='<script>window.addEventListener("error",function(){var n=docu
 html=html.replace('<script>const ITEMS=',catchErrors+'<script>const ITEMS=');
 assert.equal((html.match(/id="catalog-loading"/g)||[]).length,1);
 html=html.replace('</head>','<link rel="stylesheet" href="/home-care/weekly-dashboard.css">\n</head>').replace('</body>','<script src="/home-care/weekly-dashboard.js"></script>\n</body>');
+const counts=Object.fromEntries([...new Set(items.map(d=>d.retailer))].map(r=>[r,items.filter(d=>d.retailer===r).length]));
+html=html.replace('U.S. HOME CARE · 27 OCTOBER 2026','U.S. HOME CARE · UPDATED 31 OCTOBER 2026');
+html=html.replace(/6,265 items/g,items.length.toLocaleString('en-US')+' items');
+html=html.replace(/(<script[^>]*id="weekly-data"[^>]*>)([\s\S]*?)(<\/script>)/,(_,a,j,b)=>{const w=JSON.parse(j);w.checkedAt='2026-10-31';w.newItemIds=[...new Set([...(w.newItemIds||[]),...additions.map(d=>d.id)])];return a+JSON.stringify(w)+b});
+html=html.replace('Checked 27 October 2026.',"Checked '+esc(d.checkedDate||'2026-10-27')+'.");
+html=html.replace('const COVERAGE=', 'const COVERAGE=');
+const covStart=html.indexOf('const COVERAGE=')+15,covEnd=html.indexOf(';\n',covStart);
+const coverage=JSON.parse(html.slice(covStart,covEnd));
+for(const r of Object.keys(counts)){if(coverage[r])coverage[r].note=counts[r]+' collected listings. Partial coverage, not the retailer’s full inventory.'+(additions.some(d=>d.retailer===r)?' Additional product sources checked 31 October 2026.':' Existing records retained; more product research needed.');}
+html=html.slice(0,covStart)+JSON.stringify(coverage)+html.slice(covEnd);
 fs.writeFileSync(file,html);
 console.log(JSON.stringify({records:items.length,initialCards:first.length,bytes:Buffer.byteLength(html),originalDataBytes:end-start,packedDataBytes:Buffer.byteLength(expression),lossless:true}));
