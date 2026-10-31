@@ -76,7 +76,7 @@ try:
   page.locator('#watchTutorialButton').click()
   assert page.locator('#tutorial').evaluate('(e)=>e.open')
   video=page.locator('#atlasTutorialVideo')
-  assert video.locator('source').get_attribute('src')=='tutorial/China_Toy_Atlas_Tutorial.mp4'
+  assert video.locator('source').get_attribute('src').split('?')[0]=='tutorial/China_Toy_Atlas_Tutorial.mp4'
   video.evaluate('(v)=>v.load()')
   page.wait_for_function('document.getElementById("atlasTutorialVideo").readyState>=1',timeout=45000)
   duration=video.evaluate('(v)=>v.duration')
@@ -106,3 +106,4 @@ finally:
  report={'checks':checks,'errors':errors,'viewports':[{'width':1440,'height':1000},{'width':390,'height':844}],'browser':'Playwright Chromium','reason':'Browser plugin not available; CI browser used because local network is unavailable','limitations':['Not every item or photograph individually audited','Not a China-wide all-brand sales ranking','No physical iPhone or new narration listening test']}
  (OUT/'results.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
  print(json.dumps(report,ensure_ascii=False,indent=2))
+

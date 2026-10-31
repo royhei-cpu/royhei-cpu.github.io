@@ -33,7 +33,10 @@ function enhanceCards(){
   spec.innerHTML=parts.slice(0,2).join('<br>');if(parts.length)body.append(spec);
   const t=p.trend;if(active(t)){
    const weak=/retailer/i.test(t.label||'');const reason=document.createElement('section');reason.className='review-reason';
-   reason.innerHTML=`<strong>${weak?'Why this shop highlights it':'Why it’s flagged as trending'}</strong><p>${esc(short(t.summary,245))}</p><small>${esc(t.market||'Market not specified')} · ${esc(t.observed)}<br>${esc(t.level||'Source-reported signal')}</small>${a(t.source,'Read the evidence')}${weak?'<small>Retailer selection only—not measured China-wide growth.</small>':''}`;body.append(reason);
+   const series={'a6352811fd423b78':'CRYBABY · Vacation Mode On','25883b4f5b30a725':'Twinkle Twinkle · Sweet Dreams Forecast','5496b7c05a7bcbb0':'DIMOO · The Secret Theatre Club'};
+   const named=series[p.id],title=named||(window.ATLAS_CHARACTER?.(p)||p.name);
+   const signal=named?'100,000+ displayed purchases · Tmall / Douyin study':weak?'Selected by '+((p.listings||[])[0]?.source||'this retailer'):short(t.summary,160);
+   reason.innerHTML=`<strong>${esc(title)}</strong><p>${esc(signal)}</p><small>${esc(named?'Q3 2026 · published 8 Oct 2026':(t.market||'Source market')+' · '+t.observed)}</small>${a(t.source,'Source')}`;body.append(reason);
   }
   if(p.image_review){const note=document.createElement('p');note.className='review-image-note';note.textContent=p.image_review.visually_reviewed?'Photo sample visually checked; open item for scope.':'Source / series photo · blind-box design may vary';body.append(note)}
  }
@@ -63,3 +66,4 @@ document.addEventListener('click',e=>{
 });
 brandPanel();enhanceCards();enhanceDetail();
 })();
+

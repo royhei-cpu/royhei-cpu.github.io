@@ -29,6 +29,19 @@ try:
         rows=list(csv.DictReader(io.StringIO(Path(d.value.path()).read_text(encoding='utf-8-sig'))))
         assert len(rows)==1 and rows[0]['Market']=='International reference'
         checks.append('China default; market and date filters; future-date exclusion; filtered evidence CSV')
+        assert p.locator('#filters #ipSelect').count()==1
+        for pid,label in [('a6352811fd423b78','CRYBABY'),('25883b4f5b30a725','Twinkle Twinkle'),('5496b7c05a7bcbb0','DIMOO')]:
+            card=p.locator('[data-product-id="'+pid+'"]')
+            expect(card.locator('.character-name strong')).to_contain_text(label)
+            assert 'Named in a Q3' not in card.locator('.review-reason').inner_text()
+            assert card.locator('.review-reason').inner_text().count('100,000+')==1
+            assert not card.locator('.review-appeal').evaluate('(e)=>e.open')
+        assert p.locator('#trendEvidenceNote').count()==1
+        p.locator('#sort').select_option('character')
+        assert p.evaluate("(()=>{const names=[...document.querySelectorAll('.product-card .character-name strong')].map(e=>e.textContent);return names.every((v,i)=>!i||names[i-1].localeCompare(v)<=0)})()")
+        p.locator('#resetFilters').click()
+        checks.append('Prominent character names, accessible character filter and sort; concise distinct trend labels with one shared explanation')
+
         p.locator('[data-cm-tab="rank"]').click()
         assert p.locator('#chinaIntelligence tbody tr').count()==3
         expect(p.locator('[data-cm-content]')).to_contain_text('H1 2026')

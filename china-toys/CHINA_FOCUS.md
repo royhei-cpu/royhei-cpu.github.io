@@ -32,3 +32,7 @@ References: https://www.kikagoods.com/collections/blind-box ; https://help.hobby
 Preserve the compact weekly headline first. Update source research only after verification, retaining original event and measurement dates. Keep market references labeled. Retain source and assortment limitations in the detailed audit. A fresh catalog build must not silently freshen old evidence.
 
 Run `china_intelligence_test.py` alongside existing navigation, weekly, comparison and IP checks. It checks filter boundaries, ranked scope, release deduplication, actual CSV downloads, conflicting-filter resets, local note persistence/deletion, formula-safe exports, responsive layout and deep audit links. Keep new asset copy hooks in publish.yml. Keep the narrated browsing/comparison/export tutorial available.
+
+## Character and trend-card clarity
+
+Keep Character / IP prominently above the series title, the character selector beside the product filters, and the A–Z character sort. Use documented IP values or existing exact-name/brand-constrained aliases; do not invent names for unidentified characters. Keep full evidence in item details. The three Q3 series share one metric, so cards name the individual series and show its short attributed metric rather than repeating the same paragraph. Source limitations belong in one expandable explanation above results; product interpretations stay collapsed on cards. Preserve these changes in review-ui.js and review-polish.js so weekly regeneration cannot restore the repetitive card copy.

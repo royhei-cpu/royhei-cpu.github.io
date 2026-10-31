@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Idempotent integration of source-scoped IP rankings. Does not alter product facts."""
 from pathlib import Path
-import json,re,unicodedata
+import json,re,unicodedata,hashlib
 
 R=Path(__file__).resolve().parent
 ROOT=R.parent
@@ -47,7 +47,8 @@ if 'src="ip-market-data.js' not in idx:
     assert anchor in idx,'Catalog script anchor changed'
     idx=idx.replace(anchor,anchor+'\n<script src="ip-market-data.js?v='+VERSION+'" defer></script>\n<script src="ip-directory.js?v='+VERSION+'" defer></script>',1)
 for asset in ['app.js','ip-market-data.js','ip-directory.js']:
-    idx=re.sub(re.escape(asset)+r'\?v=[^"\s]+',asset+'?v='+VERSION,idx)
+    version=hashlib.sha256((R/asset).read_bytes()).hexdigest()[:12]
+    idx=re.sub(re.escape(asset)+r'\?v=[^"\s]+',asset+'?v='+version,idx)
 (R/'index.html').write_text(idx,encoding='utf-8')
 
 # Workflow hooks are managed separately through authorized repository edits.
@@ -79,3 +80,4 @@ print(json.dumps({'requested_brands':brands,'requested_ips':[{k:v for k,v in ip.
 if __name__ == '__main__':
     from navigation_fix import apply as _apply_navigation_fix
     _apply_navigation_fix(R)
+

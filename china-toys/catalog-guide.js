@@ -16,7 +16,7 @@ const css=document.createElement('style');css.textContent=`
 function enhanceCards(){for(const card of document.querySelectorAll('.product-card[data-product-id]')){
  if(card.dataset.factsDone)continue;card.dataset.factsDone='1';const p=byId.get(card.dataset.productId);if(!p)continue;
  const d=p.details||{},l=current(p),ld=p.launch||p.launch_estimate,rows=[];
- if(good(p.ip))rows.push(['Character',p.ip]);
+ // Character identity is prominent above the series title; do not repeat in facts.
  rows.push(['Type',p.category]);
  if(good(p.regular_designs))rows.push(['Designs',p.regular_designs+' regular'+(good(p.secret_designs)?' + '+p.secret_designs+' secret':'')]);
  if(good(d.age))rows.push(['Age on listing',d.age]);

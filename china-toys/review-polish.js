@@ -8,7 +8,7 @@ const sty=document.createElement('style');sty.textContent='.review-appeal{font-s
 function decorate(){
  for(const card of document.querySelectorAll('.product-card[data-product-id]')){
   if(card.dataset.plainEvidence)continue;const p=d.products.find(p=>p.id===card.dataset.productId);if(!p)continue;
-  const reason=card.querySelector('.review-reason');if(reason&&p.trend?.possible_appeal&&!reason.querySelector('.review-appeal')){const x=document.createElement('div');x.className='review-appeal';x.innerHTML='<strong>Possible appeal — interpretation</strong>'+esc(p.trend.possible_appeal);reason.append(x)}
+  const reason=card.querySelector('.review-reason');if(reason&&p.trend?.possible_appeal&&!reason.querySelector('.review-appeal')){const x=document.createElement('details');x.className='review-appeal';x.innerHTML='<summary>Product angle · interpretation</summary><p>'+esc(p.trend.possible_appeal)+'</p>';reason.append(x)}
   if(card.querySelector('.review-spec')||reason)card.dataset.plainEvidence='1';
  }
  const root=document.getElementById('productDetail');if(!root||!root.querySelector('.review-details'))return;
@@ -23,3 +23,4 @@ let queued=false;const queue=()=>{if(queued)return;queued=true;requestAnimationF
 for(const id of ['catalogGrid','productDetail']){const root=document.getElementById(id);if(root)new MutationObserver(queue).observe(root,{childList:true,subtree:true})}
 decorate();
 })();
+
