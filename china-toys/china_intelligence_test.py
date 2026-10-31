@@ -16,7 +16,10 @@ try:
         p.clock.install(time=__import__('datetime').datetime(2026,10,31,12,tzinfo=__import__('datetime').timezone.utc))
         p.goto('http://127.0.0.1:8797/china-toys/',wait_until='networkidle')
         expect(p.locator('#chinaDeskTitle')).to_have_text('What deserves a closer look?')
-        assert p.evaluate("document.getElementById('weeklyOverview').nextElementSibling.id")=='chinaIntelligence'
+        assert p.evaluate("document.getElementById('weeklyOverview').nextElementSibling.id")=='chinaIntelligencePanel'
+        assert not p.locator('#chinaIntelligencePanel').evaluate('(e)=>e.open')
+        p.locator('#atlasBrandNav a[href="#chinaIntelligencePanel"]').click()
+        expect(p.locator('#chinaDeskTitle')).to_be_visible()
         assert p.locator('#chinaIntelligence .cm-card').count()==3
         p.locator('[data-cm-filter="days"]').select_option('7')
         expect(p.locator('#chinaIntelligence .cm-empty')).to_contain_text('No verified evidence')
@@ -37,6 +40,7 @@ try:
             assert card.locator('.review-reason').inner_text().count('100,000+')==1
             assert not card.locator('.review-appeal').evaluate('(e)=>e.open')
         assert p.locator('#trendEvidenceNote').count()==1
+        p.locator('.atlas-more-filters summary').click()
         p.locator('#sort').select_option('character')
         assert p.evaluate("(()=>{const names=[...document.querySelectorAll('.product-card .character-name strong')].map(e=>e.textContent);return names.every((v,i)=>!i||names[i-1].localeCompare(v)<=0)})()")
         p.locator('#resetFilters').click()
@@ -73,6 +77,7 @@ try:
         expect(p.locator('[data-note-message]')).to_contain_text('Saved')
         p.locator('#closeProduct').click()
         p.reload(wait_until='networkidle')
+        p.locator('#atlasBrandNav a[href="#chinaIntelligencePanel"]').click()
         p.locator('[data-cm-tab="notes"]').click()
         expect(p.locator('[data-cm-content]')).to_contain_text('sample request')
         with p.expect_download() as d:p.locator('[data-cm-export]').click()
@@ -108,13 +113,16 @@ try:
         p.locator('#visualTrends').screenshot(path=str(O/'research-photos.png'))
         for brand in ['POP MART','TOP TOY','52TOYS','Finding Unicorn','Heyone','TNT SPACE']:
             count=sum(x['brand']==brand for x in json.loads((R/'catalog.json').read_text())['products'])
-            p.locator('#atlasBrandNav [data-nav-brand="'+brand+'"]').click()
+            if p.locator('#brandSelect').count():
+                p.locator('#brandSelect').select_option(brand)
+            else:
+                p.locator('#atlasBrandNav [data-nav-brand="'+brand+'"]').click()
             expect(p.locator('#resultsTitle')).to_have_text(brand)
             expect(p.locator('#resultsHint')).to_have_text(str(count)+' products / series')
             expect(p.locator('#search')).to_have_value('')
             assert p.locator('.product-card').count()>0
         p.locator('#search').fill('no-product-could-match-this')
-        p.locator('#atlasBrandNav select').select_option('Rolife')
+        p.locator('#brandSelect').select_option('Rolife')
         expect(p.locator('#resultsTitle')).to_have_text('Rolife')
         expect(p.locator('#search')).to_have_value('')
         assert p.locator('.product-card').count()>0
@@ -122,7 +130,7 @@ try:
         for shop in shops:
             p.locator('#retailer').select_option(shop)
             assert p.locator('.product-card').count()>0,shop
-        checks.append('Persistent native brand links: six brands + More brands; stale search cleared; '+str(len(shops))+' populated retailers')
+        checks.append('Research-to-catalog navigation and seven brand selections; stale search cleared; '+str(len(shops))+' populated retailers')
         p.goto('http://127.0.0.1:8797/china-toys/research.html#trends',wait_until='networkidle')
         for width in [390,768,1440]:
             p.set_viewport_size({'width':width,'height':1000})
