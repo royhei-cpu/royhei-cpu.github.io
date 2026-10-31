@@ -96,6 +96,17 @@ try:
                 o=next(o for o in l['options'] if str(o.get('id') or o['name'])==e['option']);price=o['price']
                 assert row['Shop variant']==o['name']
             if price is not None:assert float(row['Compared price'])==float(price)
+        assert all(row['Image URL'].startswith(('http://','https://')) for row in rows)
+        assert all('Shop options JSON' in row and 'Source status' in row for row in rows)
+        with page.expect_download() as photo:
+            page.locator('#comparePhotoExport').click()
+        photo_path=O/'comparison-photos.html';photo.value.save_as(photo_path)
+        html=photo_path.read_text()
+        assert html.count('class="compare-item-photo"')==3
+        assert '<select' not in html and '<button' not in html
+        for row in rows:
+            assert row['Image URL'].replace('&','&amp;') in html
+        checks.append('Photo sheet exports the selected photos and current options; CSV contains absolute image links and audit status')
         checks.append('Comparison CSV exports exactly selected offers with matching prices, variants, currencies, markets and source links')
         page.locator('[data-compare-remove]').first.click();assert len(selections())==2
         assert page.locator('#compareDialog th[data-compare-product]').count()==2
