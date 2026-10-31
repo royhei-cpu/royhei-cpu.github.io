@@ -45,3 +45,12 @@ Trend annotations carry `observed`, `expires_on`, `source`, `period`, `market`, 
 Local collector command: `python china-toys/enhance.py` (Python 3.12+, requests, beautifulsoup4, Pillow). Local UI: serve the repository with a static HTTP server and open `/china-toys/`.
 
 Brand names, photographs and other product rights belong to their respective owners. This directory links to original sources for research and verification.
+
+
+## Retail-chain assortment evidence
+
+`chain-assortments.json` contains reviewed product/series records for X11, KKV, Jiumu, KuLe, The Green Party, SANFU and IPSTAR, plus separately labeled secondary MINISO flagship reports. It is separate from the seven MINISO showcase records and from general brand listings. The existing chain tabs render these records with search, product-type filters and expandable product details.
+
+Run `python china-toys/build_chain_assortments.py` to validate the source and generate the browser data, CSV and `CHAIN_ASSORTMENT_REVIEW.md`. Publication rebuilds these outputs. The existing weekly workflow also runs `--check-sources`, recording link reachability without changing historical price, release, evidence or stock dates. New products require manual source review by the existing weekly research task; link reachability alone does not update an assortment.
+
+Weekly research must revisit all eight source entries in `chain-coverage.json`, prioritize direct retailer or flagship offers, and retain the distinction between first-party sale announcements, secondary seller reports and promotional showcases. No stock, sales units or completeness claim can be inferred from a company profile. Add new verified records to the source JSON, rebuild outputs and keep the public URL and schedules unchanged.

@@ -1,6 +1,6 @@
 {
   "reviewed": "2026-10-31",
-  "scope": "MINISO official China showcase and explicit coverage for eleven featured retail chains. This is an expanding directory, not a complete national census.",
+  "scope": "MINISO official China showcase and explicit coverage for eleven featured retail chains. This is an expanding directory, not a complete national census. Product-level chain sale announcements and separately labeled secondary flagship reports are now available in the assortment supplement; current inventory is not verified.",
   "sources": [
     {
       "id": "miniso-china",
@@ -19,67 +19,102 @@
       "status": "not captured",
       "source_type": "directory",
       "checked": "2026-10-31",
-      "coverage_note": "Linked as the online shop by miniso.cn. The retrieval redirected to miniso.world.tmall.com and was not accessible; inventory was not captured."
+      "coverage_note": "Official Tmall inventory remains inaccessible. Eight third-party pages name the flagship seller; kept separate as secondary reports, not authenticated assortment.",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 0,
+      "secondary_listing_reports": 8,
+      "current_inventory_captured": false
     },
     {
       "id": "chain-x11",
       "name": "X11 · retail-chain reference",
       "url": "https://www.kkgroup.cn/zh-CN/x11",
-      "status": "not captured",
+      "status": "partial",
       "source_type": "directory",
-      "coverage_note": "Official KK Group profile documents blind boxes, BJD, plush and other collectible categories. Its mini-program and stores need separate SKU capture; category claims are not inventory.",
-      "checked": "2026-10-31"
+      "coverage_note": "8 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "checked": "2026-10-31",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 8,
+      "secondary_listing_reports": 0,
+      "current_inventory_captured": false
     },
     {
       "id": "chain-kkv",
       "name": "KKV · retail-chain reference",
       "url": "https://www.kkgroup.cn/zh-CN/kkv",
-      "status": "not captured",
+      "status": "partial",
       "source_type": "directory",
-      "coverage_note": "Official KK Group profile confirms a lifestyle chain with a toy category and links a WeChat mini-program. No store-level toy inventory captured.",
-      "checked": "2026-10-31"
+      "coverage_note": "5 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "checked": "2026-10-31",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 5,
+      "secondary_listing_reports": 0,
+      "current_inventory_captured": false
     },
     {
       "id": "chain-jiumu",
       "name": "Jiumu · 九木杂物社 · retail-chain reference",
       "url": "https://www.mg-pen.com/chenguangbrand/info.aspx?itemid=30",
-      "status": "not captured",
+      "status": "partial",
       "source_type": "directory",
-      "coverage_note": "Retail-chain reference only. No captured store assortment; missing data does not mean this retailer sells no toys."
+      "coverage_note": "7 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "checked": "2026-10-31",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 7,
+      "secondary_listing_reports": 0,
+      "current_inventory_captured": false
     },
     {
       "id": "chain-kule",
       "name": "KuLe · 酷乐潮玩 · retail-chain reference",
       "url": "https://www.maigoo.com/brand/141609.html",
-      "status": "not captured",
+      "status": "partial",
       "source_type": "directory",
-      "coverage_note": "Retail-chain reference only. No captured store assortment; missing data does not mean this retailer sells no toys."
+      "coverage_note": "5 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "checked": "2026-10-31",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 5,
+      "secondary_listing_reports": 0,
+      "current_inventory_captured": false
     },
     {
       "id": "chain-green-party",
       "name": "The Green Party · retail-chain reference",
       "url": "https://www.smsupermalls.cn/city/jjfloor.aspx",
-      "status": "not captured",
+      "status": "partial",
       "source_type": "directory",
-      "coverage_note": "Retail-chain reference only. No captured store assortment; missing data does not mean this retailer sells no toys."
+      "coverage_note": "6 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "checked": "2026-10-31",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 6,
+      "secondary_listing_reports": 0,
+      "current_inventory_captured": false
     },
     {
       "id": "chain-sanfu",
       "name": "SANFU · 三福 · retail-chain reference",
       "url": "https://www.sanfu.com/about",
-      "status": "not captured",
+      "status": "partial",
       "source_type": "directory",
       "checked": "2026-10-31",
-      "coverage_note": "Official company profile establishes the chain; its official Weibo promotes blind boxes. No store-level toy inventory, current prices or stock captured."
+      "coverage_note": "2 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 2,
+      "secondary_listing_reports": 0,
+      "current_inventory_captured": false
     },
     {
       "id": "chain-ipstar",
       "name": "IPSTAR · 潮玩星球 · retail-chain reference",
       "url": "https://weibo.com/6509826766",
-      "status": "not captured",
+      "status": "partial",
       "source_type": "directory",
       "checked": "2026-10-31",
-      "coverage_note": "Official operator account publishes retail and theme-store notices; Bandai also lists IPSTAR stockists. Store openings and closures change. No current assortment captured."
+      "coverage_note": "11 product/series sale-announcement records captured in the separate chain browser. These are historical channel-specific offers; no complete current stock or price feed.",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 11,
+      "secondary_listing_reports": 0,
+      "current_inventory_captured": false
     }
   ],
   "products": [
@@ -531,5 +566,7 @@
         "reviewed": "2026-10-31"
       }
     }
-  ]
+  ],
+  "assortment_supplement": "chain-assortments.json",
+  "assortment_review": "CHAIN_ASSORTMENT_REVIEW.md"
 }

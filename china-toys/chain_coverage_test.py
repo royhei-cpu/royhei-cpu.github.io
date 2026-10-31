@@ -40,13 +40,26 @@ try:
   expect(page.locator('#chainDetail')).to_contain_text('7 official showcase entries')
   expect(page.locator('#chainDetail')).to_contain_text('Tmall inventory')
   expect(page.locator('#chainDetail a[href="https://miniso.tmall.com/"]')).to_be_visible()
-  expect(page.locator('#chainCoverageGaps')).to_contain_text('X11')
+  expect(page.locator('#chainCoverageGaps')).to_contain_text('39 first-party sale records')
   page.locator('#chainCoverageAudit summary').click()
   expect(page.locator('#chainCoverageAudit tbody tr')).to_have_count(11)
-  for chain in ['SANFU · 三福','IPSTAR · 潮玩星球']:
+  expected={'MINISO':8,'X11':8,'KKV':5,'Jiumu · 九木杂物社':7,'KuLe · 酷乐潮玩':5,'SANFU · 三福':2,'IPSTAR · 潮玩星球':11,'The Green Party':6}
+  for chain,count in expected.items():
    page.get_by_role('tab',name=chain,exact=True).click()
-   expect(page.locator('#chainDetail')).to_contain_text('no captured assortment yet')
-   assert page.locator('#chainDetail .chain-assortment').count()==0
+   expect(page.locator('.ca-product')).to_have_count(count)
+   expect(page.locator('.ca-count')).to_have_text(f'{count} product / series records')
+   page.locator('.ca-search').fill('no matching product here')
+   expect(page.locator('.ca-product')).to_have_count(0)
+   page.locator('.ca-search').fill('')
+   expect(page.locator('.ca-product')).to_have_count(count)
+  page.get_by_role('tab',name='MINISO',exact=True).click()
+  page.locator('.ca-evidence').select_option('official_sale_announcement')
+  expect(page.locator('.ca-product')).to_have_count(0)
+  page.locator('.ca-evidence').select_option('secondary_flagship_report')
+  expect(page.locator('.ca-product')).to_have_count(8)
+  page.goto('http://127.0.0.1:8799/china-toys/?chain=x11#retailChains',wait_until='domcontentloaded')
+  expect(page.locator('#retailChains')).to_have_attribute('data-selected-chain','x11')
+  expect(page.locator('.ca-product')).to_have_count(8)
   for width in [390,768,1440]:
    page.set_viewport_size({'width':width,'height':1000});page.locator('#retailer').select_option('miniso-china')
    assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),width
@@ -54,4 +67,4 @@ try:
   assert not errors,errors
   browser.close()
 finally:server.terminate()
-print(json.dumps({'MINISO_official_showcase':7,'uncollected_chain_sources_explicit':8,'photos_and_csv':'pass','price_stock_release_invention':'none','runtime_errors':errors}))
+print(json.dumps({'MINISO_official_showcase':7,'chain_sources_reviewed':8,'first_party_records':39,'secondary_reports':8,'photos_and_csv':'pass','price_stock_release_invention':'none','runtime_errors':errors}))

@@ -22,6 +22,8 @@ jobs:
       - name: Check browsing, evidence and sound controls
         run: |
           python china-toys/apply_chain_coverage.py --cache-images
+          python china-toys/build_chain_assortments.py
+          node --check china-toys/chain-assortment-ui.js
           node --check china-toys/item-insights.js
           python china-toys/clarity_test.py
           python china-toys/chain_coverage_test.py

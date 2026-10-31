@@ -88,10 +88,12 @@ jobs:
         run: |
           if [ -f china-toys/catalog.json ]; then
             python3 china-toys/apply_chain_coverage.py --cache-images
+            python3 china-toys/build_chain_assortments.py
             python3 china-toys/build_brand_directory.py
             mkdir -p _site/china-toys
             cp china-toys/brands.html china-toys/brands.js china-toys/brands.css china-toys/brand-directory-data.js china-toys/brand-directory-data.json china-toys/brand-registry.json china-toys/brand-discovery.json _site/china-toys/
             cp china-toys/item-insights.js china-toys/retail-chains.js china-toys/atlas-sound.js china-toys/simple-navigation.js china-toys/atlas-navigation.js china-toys/atlas-navigation.css china-toys/china-intelligence.js china-toys/china-intelligence.css china-toys/china-market-data.js china-toys/market-prices.js china-toys/index.html china-toys/styles.css china-toys/app.js china-toys/catalog.js china-toys/catalog.json china-toys/catalog.csv china-toys/report.json _site/china-toys/
+            cp china-toys/chain-assortments.json china-toys/chain-assortments-data.js china-toys/chain-assortment-ui.js china-toys/chain-assortments.css china-toys/chain-assortments.csv china-toys/chain-coverage.json china-toys/CHAIN_ASSORTMENT_REVIEW.md _site/china-toys/
             cp -R china-toys/images _site/china-toys/images
           fi
       - name: Copy China Toy tutorial and facts guide

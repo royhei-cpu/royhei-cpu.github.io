@@ -1,0 +1,344 @@
+{
+  "checked_at": "2026-10-31T08:44:34.827442+00:00",
+  "scope": "Link reachability only; not inventory, identity, price or stock revalidation. HTTP 200 may still contain a login or challenge page.",
+  "sources": [
+    {
+      "url": "https://miniso.tmall.com/",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://login.taobao.com/jump?group=tao&target=https%3A%2F%2Fminiso.world.tmall.com%2Fshop%2Fview_shop.htm%3Ftbpm%3D1",
+      "bytes": 195,
+      "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+    },
+    {
+      "url": "https://tao.hooos.com/goods_650e6n4s8tGxoyevN6Uwwkiot3-JRMPPdFa8gkQkmPcvj.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://tao.hooos.com/goods_650e6n4s8tGxoyevN6Uwwkiot3-JRMPPdFa8gkQkmPcvj.html",
+      "bytes": 18675,
+      "sha256": "5254ab5e880ab6f8e5d5a615fa7f69345ffac8925dfce45e2eef9d51383eaf9f"
+    },
+    {
+      "url": "https://tao.hooos.com/goods_YjrPYBeuptXKPBMd0JIW79F2t6-k5v00Gf8DenWkDas3.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://tao.hooos.com/goods_YjrPYBeuptXKPBMd0JIW79F2t6-k5v00Gf8DenWkDas3.html",
+      "bytes": 18343,
+      "sha256": "eeacc6a137f92d9a552fcd3c5a182c95a90c5c36eebd622e7fed467808fc991f"
+    },
+    {
+      "url": "https://tao.hooos.com/goods_bzPxYPxUgtopX3BDXoIyyzUQt6-BmWKKNHrR6ZGy6vSx.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://tao.hooos.com/goods_bzPxYPxUgtopX3BDXoIyyzUQt6-BmWKKNHrR6ZGy6vSx.html",
+      "bytes": 17632,
+      "sha256": "58fc7dfd608e362fb6c059acf8cc80bf5c1c1c862bb3866d99617cb8dccd1d97"
+    },
+    {
+      "url": "https://tao.hooos.com/goods_oDM4nD2irtK60JeqdAcD9BHntN-4RDrrQF9APkQ3Ydtr.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://tao.hooos.com/goods_oDM4nD2irtK60JeqdAcD9BHntN-4RDrrQF9APkQ3Ydtr.html",
+      "bytes": 18324,
+      "sha256": "84516c0a2971289ed07144288f88bb44a6b273035b5a4fe70f378de27b7f2dee"
+    },
+    {
+      "url": "https://tao.hooos.com/goods_odyyrocrtK6vk63kRHDADFntN-d8ZBBDF0bXZ8DAPHd.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://tao.hooos.com/goods_odyyrocrtK6vk63kRHDADFntN-d8ZBBDF0bXZ8DAPHd.html",
+      "bytes": 17910,
+      "sha256": "d9676085d0f9ddd38769b75e118e6e8a9c771cb95a90a0b54815e6f057773394"
+    },
+    {
+      "url": "https://tao.hooos.com/goods_qmXmo5zc2t4mqO8n3oUgRmSWt0-yz622os6bjpKz7oi4.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://tao.hooos.com/goods_qmXmo5zc2t4mqO8n3oUgRmSWt0-yz622os6bjpKz7oi4.html",
+      "bytes": 18694,
+      "sha256": "6f787a4f4221ac46b5c3b08f265270c3fe937543efa72b82fe048c1b220027e9"
+    },
+    {
+      "url": "https://tao.hooos.com/goods_wdDwXnZFgtDOnP5J6aUooJCbtd-mOZQQNu748MWKeOH9.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://tao.hooos.com/goods_wdDwXnZFgtDOnP5J6aUooJCbtd-mOZQQNu748MWKeOH9.html",
+      "bytes": 18255,
+      "sha256": "60afc80e38c8d1170bf0a8ef67f1f3d0b42ef1c751913efab7a3c6e6f5926cfb"
+    },
+    {
+      "url": "https://tao.hooos.com/goods_yowqAJIRt2pdKQpxnIo53hvtA-rkOPPMuMdN0x3ZkhR.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://tao.hooos.com/goods_yowqAJIRt2pdKQpxnIo53hvtA-rkOPPMuMdN0x3ZkhR.html",
+      "bytes": 18925,
+      "sha256": "3326efa37df72cd9c2cb3e60b438eb22be34c0f2085fd1fd104fc477147debc4"
+    },
+    {
+      "url": "https://weibo.com/6509826766",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F6509826766&domain=weibo.com&ua=ChinaToyAtlas%20evidence-link%20check&_rand=1793436284215&sudaref=",
+      "bytes": 9546,
+      "sha256": "e220cc7a0a7f73b9b0658ce9d1a510619d9a2e6959696f5474bb73dcd49f5c28"
+    },
+    {
+      "url": "https://www.kkgroup.cn/zh-CN/kkv",
+      "status": "unavailable",
+      "error": "HTTP Error 522: Unknown"
+    },
+    {
+      "url": "https://www.kkgroup.cn/zh-CN/x11",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.kkgroup.cn/zh-CN/x11",
+      "bytes": 154274,
+      "sha256": "b4f957b11dab40cdbb987166d197ab9bd28a2ae951f497bdc18ae5c59777ae86"
+    },
+    {
+      "url": "https://www.mg-pen.com/chenguangbrand/info.aspx?itemid=30",
+      "status": "unavailable",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.sanfu.com/about",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sanfu.com/about",
+      "bytes": 40856,
+      "sha256": "8eb9b0076ca240bb0fcac736378c4462896d0a00d0a3d8fd195e563e57afeadc"
+    },
+    {
+      "url": "https://www.sina.cn/media/6516837361",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/media/6516837361",
+      "bytes": 286158,
+      "sha256": "ca319f81264c5b9c031557856c6f013a187ffff9593f719e614477f5e591c865"
+    },
+    {
+      "url": "https://www.sina.cn/media/7970966421",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/media/7970966421",
+      "bytes": 286569,
+      "sha256": "9087b09859d6786a5566184d289aa502e9f5cbaba143d5268fd11b130b7bda4d"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5209752071307943.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5209752071307943.html",
+      "bytes": 32252,
+      "sha256": "76e95666fa46d9b720065e803942ce23f967e058a8181834da23db729dfe4c9a"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5237666602025298.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5237666602025298.html",
+      "bytes": 29905,
+      "sha256": "40821a0bf1c52ae0ff6b1766e8b6c5a8c7bb6586773e71ad2e3b537f575413d7"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5237955084158498.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5237955084158498.html",
+      "bytes": 31200,
+      "sha256": "4045e40011b13b890e9a26a1a34ef13ed0a3cd8cac80112cd2d0f8b7c515d6b5"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5239836350090874.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5239836350090874.html",
+      "bytes": 31232,
+      "sha256": "c9a8e36d5de35098c0072b8f3a1544c668d0bcb076942a46f932e964d2eeeb14"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5244536089741035.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5244536089741035.html",
+      "bytes": 31388,
+      "sha256": "33519df78105172371c16ff056b239c4246c65df01ea59826eaecaf4813674d4"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5247710736419244.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5247710736419244.html",
+      "bytes": 30253,
+      "sha256": "16298b791e59473ff4e3e54f98c589da8adf3afdf8f5f1d9d1dc95cf1691b79e"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5256871663110771.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5256871663110771.html",
+      "bytes": 31819,
+      "sha256": "564ec080fbe6b137dc7ed59a7f6f9cfecf6210e1e698db395ed74c36affc7346"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5259656268353052.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5259656268353052.html",
+      "bytes": 30713,
+      "sha256": "48deb3fd7a67294613bc022e08ac1d56e51cf9a98e5377070f9a99b32f0d7084"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5262538439920963.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5262538439920963.html",
+      "bytes": 31304,
+      "sha256": "75df8ea7cb8df5727b29f2dedd45141d4d8bd88f7130ffe273f7608f231ccfb3"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5262568639170167.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5262568639170167.html",
+      "bytes": 32619,
+      "sha256": "36f6d6d103eeb364fd78492d804ec2bf2d1adf299a5720ac75781d3fa5087c0e"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5278229141129566.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5278229141129566.html",
+      "bytes": 31248,
+      "sha256": "dc02b0452c9e18d6faf6b82d3059f81ec2bd9b0f62b38d57057f0e9f80cf97c6"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5280008803189435.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5280008803189435.html",
+      "bytes": 34039,
+      "sha256": "6e7f8e179f9576a807d5722f9015228b738dff09cee8498e2ff3781f27b35398"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5281128907014857.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5281128907014857.html",
+      "bytes": 32823,
+      "sha256": "ce4526707bfa1c48c2372bee519d61e237cff632918378cda968a4e831e0b0cb"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5305023614682452.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5305023614682452.html",
+      "bytes": 27615,
+      "sha256": "74fc346b36b0f6e64ef9d31462f90e6d2288bccea5818c4ed793f1a840689b96"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5306446457865881.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5306446457865881.html",
+      "bytes": 28425,
+      "sha256": "496d5f24edcd5d96d37862e48577d2fe76a1833ab9cc03a4c7a1d067ca5a34ff"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5308365410140358.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5308365410140358.html",
+      "bytes": 30814,
+      "sha256": "10921aaaa1a473198151637fd159efd2d87ed1515c117266271077a5f1d7a7aa"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5313397501198806.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5313397501198806.html",
+      "bytes": 28452,
+      "sha256": "5c7ae6760579c1ec3a457b65f01ebefdcf3fb347ea8e36b38e800828d2404779"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5315272755905239.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5315272755905239.html",
+      "bytes": 27455,
+      "sha256": "af6f719116192fc21ad6437fde60a547c135e09b1bae682d05287b51ec47da64"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5315542372057566.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5315542372057566.html",
+      "bytes": 27093,
+      "sha256": "755762a143b5bd520e52c161d30cbe92b649cdc9dd630a5ac32178a0de60e798"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5319169098383763.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5319169098383763.html",
+      "bytes": 37670,
+      "sha256": "b6f705c43bf8f6f6ae6fdddb6fd268e10e990f8b001ae791062edcb109d47a0e"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5320286782361788.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5320286782361788.html",
+      "bytes": 29820,
+      "sha256": "198f2e5b703092c40695f57e113bd3976f7e6ebbddb797143cfa707042316d71"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5322453233698189.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5322453233698189.html",
+      "bytes": 30143,
+      "sha256": "cf4592087fd439e1330514c5a685b62d11f101d6cc0477a7ee9bee29f935c8de"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5322815626805766.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5322815626805766.html",
+      "bytes": 27825,
+      "sha256": "b4b2955f46565419321193e08736b1518f4d41935abc5c86a0f7135a209052a8"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5336223972335086.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5336223972335086.html",
+      "bytes": 28281,
+      "sha256": "ce3d9cc7f020ca7e9d6eae6e1182a27c6516a47c340e05ba2e771321827bbf03"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5344830684662289.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5344830684662289.html",
+      "bytes": 29577,
+      "sha256": "504dcce88b568f2db2a745c96cf9879c305b8c40c7baeeeb5916abab513d8a48"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5344921281366173.html",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.sina.cn/news/detail/5344921281366173.html",
+      "bytes": 41088,
+      "sha256": "2850f7d7286d26a5b153d46a1bc97baa1005a7361926a4260c3293bad7cf3679"
+    },
+    {
+      "url": "https://www.smsupermalls.cn/city/jjfloor.aspx",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://www.smsupermalls.cn/city/jjfloor.aspx",
+      "bytes": 244037,
+      "sha256": "346b75922504c6c2384c58e07cf6c13f9659003b6114203a741daa76560d6f61"
+    }
+  ]
+}
