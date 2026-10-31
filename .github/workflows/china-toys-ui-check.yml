@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['china-toys/brand_directory_test.py', 'china-toys/refresh_brand_discovery.py', 'china-toys/brands*', 'china-toys/brand-*', 'china-toys/build_brand_directory.py', 'china-toys/atlas-navigation*', 'china-toys/research*', 'china-toys/build_source_audit_report.py', 'china-toys/app.js', 'china-toys/index.html', 'china-toys/styles.css', 'china-toys/china-intelligence*', 'china-toys/china-market-data.js', 'china-toys/china_intelligence_test.py', '.github/workflows/china-toys-ui-check.yml']
+    paths: ['china-toys/brand_directory_test.py', 'china-toys/refresh_brand_discovery.py', 'china-toys/brands*', 'china-toys/brand-*', 'china-toys/build_brand_directory.py', 'china-toys/atlas-navigation*', 'china-toys/simple-navigation.js', 'china-toys/retail-chains.js', 'china-toys/atlas-sound.js', 'china-toys/research*', 'china-toys/build_source_audit_report.py', 'china-toys/app.js', 'china-toys/index.html', 'china-toys/styles.css', 'china-toys/china-intelligence*', 'china-toys/china-market-data.js', 'china-toys/china_intelligence_test.py', '.github/workflows/china-toys-ui-check.yml']
 permissions:
   contents: read
 jobs:
@@ -45,11 +45,31 @@ jobs:
               images_ready()
               page.screenshot(path=str(out/'desktop-products.png'),full_page=False)
               checks.append('Desktop grid and visible real photographs: pass')
+              assert page.locator('#atlasBrandNav a').count()==5
+              assert not page.locator('#chinaIntelligencePanel').evaluate('(e)=>e.open')
+              assert not page.locator('.atlas-more-filters').evaluate('(e)=>e.open')
+              assert page.locator('#retailChains [role="tab"]').count()==6
+              page.get_by_role('tab',name='TOP TOY',exact=True).click()
+              assert page.locator('#chainDetail h3').inner_text()=='TOP TOY'
+              assert page.locator('#chainDetail article').count()==1
+              page.get_by_role('tab',name='TOP TOY',exact=True).press('ArrowRight')
+              assert page.locator('#chainDetail h3').inner_text()=='52TOYS'
+              page.get_by_role('tab',name='POP MART',exact=True).click()
+              page.locator('#atlasBrandNav a[href="#browseToys"]').click()
+              assert page.locator('#brandSelect').is_visible()
+              page.locator('.atlas-more-filters summary').click()
+              assert page.locator('#sort').is_visible()
+              page.locator('.atlas-more-filters summary').click()
+              page.locator('#atlasSound').click()
+              assert page.locator('#atlasSound').inner_text()=='♫ Sound off'
+              page.reload(wait_until='networkidle')
+              assert page.locator('#atlasSound').inner_text()=='♫ Sound off'
+              checks.append('Five navigation links; six keyboard-accessible retail tabs; expandable filters; persistent mute: pass')
               for brand in ['POP MART','TOP TOY']:
-                page.locator('#brandTabs button').filter(has_text=brand).first.click()
+                page.locator('#brandSelect').select_option(brand)
                 assert page.locator('#resultsTitle').inner_text()==brand
                 assert page.locator('.product-card').count()>0
-                checks.append(brand+' brand tab: pass')
+                checks.append(brand+' brand selector: pass')
               page.locator('.card-footer button[data-open]').first.click()
               assert page.locator('#productDialog').evaluate('(e)=>e.open')
               assert page.locator('#detailTitle').inner_text()
