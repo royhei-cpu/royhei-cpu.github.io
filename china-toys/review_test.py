@@ -16,14 +16,14 @@ try:
   assert 'This week' in page.locator('#weeklyOverview').inner_text()
   page.screenshot(path=str(OUT/'desktop-top.png'))
   checks.append('Page, weekly update panel, brand coverage control and 24-card pagination render')
-  page.locator('.view-tab[data-view="trending"]').click();page.wait_for_selector('.review-reason')
+  page.locator('.view-tab[data-view="trending"]').click();page.wait_for_selector('.review-reason',state='attached');page.locator('.product-card').first.get_by_text('Trend evidence & product angle',exact=True).click()
   assert page.locator('.review-reason').count()>0
   page.locator('#catalogGrid').scroll_into_view_if_needed();page.screenshot(path=str(OUT/'desktop-trend-reasons.png'))
   checks.append('Trending cards contain dated reason and direct evidence link')
   target=page.locator('.product-card').filter(has_text='Sweet Dreams Forecast').first
   if target.count():target.locator('[data-open]').first.click()
   else:page.locator('.product-card [data-open]').first.click()
-  page.wait_for_selector('.review-details');assert page.locator('.review-details h3').count()>=2
+  page.get_by_text('Specifications, photos & variants',exact=True).click();page.wait_for_selector('.review-details');assert page.locator('.review-details h3').count()>=2
   assert page.locator('#productDialog').evaluate('(e)=>e.open')
   page.screenshot(path=str(OUT/'product-specifications.png'))
   checks.append('Product detail exposes specifications, photo-check scope and source links')
@@ -31,7 +31,7 @@ try:
   page.locator('#retailer').select_option('jotoys-official');page.wait_for_timeout(100)
   assert page.locator('.product-card').count()>0
   assert 'JOTOYS' in page.locator('#resultsTitle').inner_text()
-  page.locator('.product-card [data-open]').first.click();page.wait_for_selector('.review-options')
+  page.locator('.product-card [data-open]').first.click();page.get_by_text('Specifications, photos & variants',exact=True).click();page.wait_for_selector('.review-options')
   page.locator('.review-options summary').first.click();assert page.locator('.review-options table').first.is_visible()
   page.locator('#closeProduct').click();checks.append('JOTOYS retailer filter and its per-variant price/options table work')
   page.locator('#resetFilters').click();page.locator('#search').fill('labubu');page.wait_for_timeout(100)
@@ -50,7 +50,7 @@ try:
   page.set_viewport_size({'width':390,'height':844});page.evaluate('scrollTo(0,0)');page.screenshot(path=str(OUT/'mobile-top.png'))
   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
   page.locator('.view-tab[data-view="trending"]').click();page.locator('#catalogGrid').evaluate('(e)=>e.scrollIntoView({block:"start"})');page.wait_for_timeout(300)
-  page.screenshot(path=str(OUT/'mobile-trend-card.png'));assert page.locator('.review-reason').first.is_visible()
+  page.locator('.product-card').first.get_by_text('Trend evidence & product angle',exact=True).click();page.screenshot(path=str(OUT/'mobile-trend-card.png'));assert page.locator('.review-reason').first.is_visible()
   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
   checks.append('390px mobile view: no horizontal overflow; trend reasons visible')
   visible=page.evaluate('''() => [...document.images].filter(e=>{const r=e.getBoundingClientRect();return r.width>0&&r.height>0&&r.top<innerHeight&&r.bottom>0}).map(e=>({src:e.src,complete:e.complete,width:e.naturalWidth}))''')

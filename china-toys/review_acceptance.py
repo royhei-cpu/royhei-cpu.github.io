@@ -15,9 +15,9 @@ try:
   browser=pw.chromium.launch();page=browser.new_page(viewport={'width':1440,'height':1080})
   page.on('pageerror',lambda e:errors.append(str(e)))
   def loaded():
-   page.wait_for_function('''() => [...document.images].filter(e=>{const r=e.getBoundingClientRect();return r.width>0&&r.height>0&&r.top<innerHeight&&r.bottom>0}).every(e=>e.complete&&e.naturalWidth>0)''',timeout=30000)
+   page.wait_for_function('''() => [...document.images].filter(e=>{const r=e.getBoundingClientRect();return e.checkVisibility()&&r.width>0&&r.height>0&&r.top<innerHeight&&r.bottom>0&&r.left<innerWidth&&r.right>0}).every(e=>e.complete&&e.naturalWidth>0)''',timeout=30000)
   page.goto('http://127.0.0.1:8766/china-toys/?view=trending',wait_until='networkidle')
-  page.wait_for_selector('.review-appeal');page.locator('#catalogGrid').evaluate('(e)=>e.scrollIntoView({block:"start"})');loaded()
+  page.wait_for_selector('.review-appeal',state='attached');page.locator('#catalogGrid').evaluate('(e)=>e.scrollIntoView({block:"start"})');loaded()
   page.screenshot(path=str(O/'desktop-reviewed-products.png'))
   checks.append('Reported demand and possible appeal displayed separately; visible desktop photos loaded')
   page.locator('#search').fill('labubu');page.wait_for_timeout(150)
@@ -30,9 +30,9 @@ try:
   page.set_viewport_size({'width':390,'height':844});page.evaluate('scrollTo(0,0)');page.screenshot(path=str(O/'mobile-reviewed-top.png'))
   page.locator('#catalogGrid').evaluate('(e)=>e.scrollIntoView({block:"start"})');loaded();page.screenshot(path=str(O/'mobile-reviewed-product.png'))
   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
-  page.locator('.review-reason').first.evaluate('(e)=>e.scrollIntoView({block:"start"})');loaded();page.screenshot(path=str(O/'mobile-why-trending.png'))
+  page.locator('.product-card').first.get_by_text('Trend evidence & product angle',exact=True).click();page.locator('.review-reason').first.evaluate('(e)=>e.scrollIntoView({block:"start"})');loaded();page.screenshot(path=str(O/'mobile-why-trending.png'))
   checks.append('390px mobile: one readable card per row, reason/source visible, no horizontal overflow')
-  page.locator('.product-card [data-open]').first.click();page.wait_for_selector('.review-details')
+  page.locator('.product-card [data-open]').first.click();page.get_by_text('Specifications, photos & variants',exact=True).click();page.wait_for_selector('.review-details')
   page.locator('.review-details').evaluate('(e)=>e.scrollIntoView({block:"start"})');page.wait_for_timeout(150)
   page.screenshot(path=str(O/'mobile-item-details.png'));checks.append('Photo review scope, material/size and field-source links open in product details')
   assert not errors,errors

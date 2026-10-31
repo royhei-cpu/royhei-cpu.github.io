@@ -29,3 +29,27 @@ jobs:
           name: china-toys-clarity
           path: /tmp/china-toys-clarity-qa/
           retention-days: 7
+  maintenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install regression dependencies
+        run: |
+          pip install playwright requests beautifulsoup4 Pillow
+          python -m playwright install --with-deps chromium
+      - name: Exercise disclosures and all shop and brand combinations
+        run: |
+          python china-toys/review_acceptance.py
+          python china-toys/navigation_test.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: china-toys-maintenance-navigation
+          path: |
+            /tmp/china-toys-review-qa/
+            /tmp/china-toys-navigation-qa/
+          retention-days: 7

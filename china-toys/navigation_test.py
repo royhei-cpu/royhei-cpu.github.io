@@ -31,7 +31,7 @@ try:
   assert page.locator('a[href*="home-care"]').count()==0
   expected=page.evaluate("window.TOY_ATLAS.products.filter(p=>p.brand==='TOP TOY').length")
   assert expected>0
-  page.locator('#brandTabs [data-brand="TOP TOY"]').click()
+  page.locator('#brandSelect').select_option('TOP TOY')
   page.wait_for_timeout(250)
   assert count()==expected,(count(),expected)
   assert page.locator('.view-tab[data-view="catalog"]').get_attribute('aria-pressed')=='true'
@@ -93,7 +93,7 @@ try:
   checks.append('Shops without captured products are visibly unavailable instead of selectable empty assortments')
   page.set_viewport_size({'width':390,'height':844})
   ready('?view=trending')
-  page.locator('#brandTabs [data-brand="TOP TOY"]').click()
+  page.locator('#brandSelect').select_option('TOP TOY')
   page.wait_for_timeout(300)
   assert count()==expected
   page.wait_for_function("[...document.querySelectorAll('#catalogGrid img')].filter(e=>e.getBoundingClientRect().top<innerHeight).every(e=>e.complete&&e.naturalWidth>0)",timeout=30000)
