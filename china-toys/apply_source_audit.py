@@ -7,6 +7,8 @@ No discovery candidate is silently promoted into the product catalog.
 import argparse, csv, hashlib, json, re
 from pathlib import Path
 
+from market_prices import enrich as enrich_market_prices
+
 ROOT = Path(__file__).resolve().parent
 
 def apply(data, audit):
@@ -65,6 +67,7 @@ def apply(data, audit):
     return applied
 
 def write_outputs(root, data, audit):
+    enrich_market_prices(data)
     packed = json.dumps(data, ensure_ascii=False, separators=(',',':'))
     (root/'catalog.json').write_text(packed)
     (root/'catalog.js').write_text('window.TOY_ATLAS='+packed+';\n')
@@ -80,9 +83,10 @@ def write_outputs(root, data, audit):
             reader=csv.DictReader(f); fields=list(reader.fieldnames); rows=list(reader)
         products={p['id']:p for p in data['products']}
         offers={l.get('previous_url',l['url']):l for p in data['products'] for l in p.get('listings',[])}
-        fields += [x for x in ('link_status','audit_checked','audit_note','image_url','gallery_image_urls','shop_options_json','availability_at_check') if x not in fields]
+        fields += [x for x in ('link_status','audit_checked','audit_note','image_url','gallery_image_urls','shop_options_json','availability_at_check','market_prices_json') if x not in fields]
         for row in rows:
             p=products.get(row.get('id'),{})
+            row['market_prices_json']=json.dumps(p.get('market_prices',{}),ensure_ascii=False)
             image=p.get('image','')
             absolute=lambda u:u if u.startswith(('https://','http://')) else 'https://royhei-cpu.github.io/china-toys/'+u
             row['image_url']=absolute(image) if image else ''
@@ -116,3 +120,4 @@ def main():
     result=apply(data,audit);write_outputs(args.site,data,audit);print(json.dumps(result))
 
 if __name__=='__main__': main()
+

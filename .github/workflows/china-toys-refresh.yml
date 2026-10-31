@@ -37,6 +37,8 @@ jobs:
           python -m py_compile china-toys/refresh.py china-toys/enhance.py china-toys/quality.py china-toys/review.py china-toys/review_finalize.py china-toys/review_publish.py china-toys/navigation_fix.py china-toys/navigation_test.py china-toys/install_compare.py china-toys/compare_test.py
           node --check china-toys/app.js
           node --check china-toys/compare.js
+      - name: Check market price grouping
+        run: python china-toys/market_prices_test.py
       - name: Collect products and preserve exact-item evidence
         run: |
           python china-toys/apply_source_audit.py --config
@@ -96,4 +98,5 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run publish.yml --ref main
+
 

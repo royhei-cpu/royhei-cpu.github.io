@@ -88,7 +88,7 @@ jobs:
         run: |
           if [ -f china-toys/catalog.json ]; then
             mkdir -p _site/china-toys
-            cp china-toys/index.html china-toys/styles.css china-toys/app.js china-toys/catalog.js china-toys/catalog.json china-toys/catalog.csv china-toys/report.json _site/china-toys/
+            cp china-toys/market-prices.js china-toys/index.html china-toys/styles.css china-toys/app.js china-toys/catalog.js china-toys/catalog.json china-toys/catalog.csv china-toys/report.json _site/china-toys/
             cp -R china-toys/images _site/china-toys/images
           fi
       - name: Copy China Toy tutorial and facts guide
@@ -101,6 +101,8 @@ jobs:
           if [ -f china-toys/ip-market-data.js ]; then
             cp china-toys/ip-market-data.js china-toys/ip-directory.js china-toys/ip-market.json china-toys/ip-coverage.json _site/china-toys/
           fi
+      - name: Check market price grouping
+        run: python3 china-toys/market_prices_test.py
       - name: Add dated source audit and exact-offer corrections
         run: |
           python3 china-toys/build_source_audit_report.py
@@ -115,4 +117,5 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
 

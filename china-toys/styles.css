@@ -54,3 +54,10 @@ body footer{background:#fffcf7de;border-top-color:#e5d8e7}
   body .view-tabs{padding:13px 10px 0;gap:20px}
 }
 @media(prefers-reduced-motion:reduce){body .product-card{transition:none}}
+
+
+/* Price evidence stays legible on the pastel catalog. */
+.market-price-card{margin:12px 0;padding:11px 12px;background:#f2f3ff;border:1px solid #dadcf2;border-radius:12px;color:#292d45;overflow-wrap:anywhere}
+.market-price-card>span,.market-price-card>strong,.market-price-card>small{display:block}
+.market-price-card>span{font-size:11px;font-weight:650}.market-price-card>strong{font-size:16px;margin:3px 0}.market-price-card>small{font-size:11px;line-height:1.5;color:#4c5069}
+.market-price-detail{margin:18px 0;padding:15px;background:#f5f4fc;border:1px solid #dfdcef;border-radius:14px;overflow-wrap:anywhere}.market-price-detail h3{margin-top:0}.market-price-detail p,.market-price-detail li{font-size:13px;line-height:1.6}.market-price-detail summary{cursor:pointer;font-weight:650;white-space:normal}.market-price-detail ul{padding-left:18px}.market-price-group{border-top:1px solid #dfdcef;padding:12px 0}.market-price-detail>small{display:block;margin-top:12px;color:#4c5069}.compare-table .market-price-detail{min-width:0;padding:10px}.compare-table .market-price-detail h3{font-size:14px}
