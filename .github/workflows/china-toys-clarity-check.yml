@@ -1,0 +1,31 @@
+name: Check China Toy Atlas clarity
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['china-toys/**', '.github/workflows/china-toys-clarity-check.yml']
+permissions:
+  contents: read
+jobs:
+  clarity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test browser
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Check browsing, evidence and sound controls
+        run: |
+          node --check china-toys/item-insights.js
+          python china-toys/clarity_test.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: china-toys-clarity
+          path: /tmp/china-toys-clarity-qa/
+          retention-days: 7

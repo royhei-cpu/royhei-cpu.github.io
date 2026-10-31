@@ -57,6 +57,7 @@ jobs:
           python china-toys/navigation_fix.py
           python china-toys/install_weekly_brief.py
           python china-toys/install_compare.py
+          python china-toys/install_item_insights.py
           node --check china-toys/app.js
           node --check china-toys/catalog-guide.js
           node --check china-toys/compare.js
@@ -67,6 +68,7 @@ jobs:
           python china-toys/china_intelligence_test.py
           python china-toys/navigation_test.py
           python china-toys/compare_test.py
+          python china-toys/clarity_test.py
       - name: Save directory changes
         run: |
           git config user.name 'China Toy Atlas updater'

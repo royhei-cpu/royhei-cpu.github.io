@@ -30,8 +30,8 @@ function enhanceCards(){for(const card of document.querySelectorAll('.product-ca
  if(l.checked)rows.push(['Price checked',fmt(l.checked)]);
  const facts=card.querySelector('.card-facts');if(facts){facts.innerHTML=rows.map(([k,v])=>`<div class="fact"><span>${esc(k)}</span><span>${esc(short(v,180))}</span></div>`).join('');if(!ld&&l.listing_date)facts.insertAdjacentHTML('beforeend','<p class="fact-label-note">Shop page date is not a confirmed launch date.</p>')}
  const body=card.querySelector('.card-body');if(!body)continue;
- if(d.description){const el=document.createElement('p');el.className='available-description';el.innerHTML='<strong>Source description:</strong> '+esc(short(d.description,230));body.querySelector('.product-title')?.after(el)}
- if(d.features?.length&&!body.querySelector('.known-feature')){const el=document.createElement('p');el.className='available-description known-feature';el.textContent=short(d.features.join(' · '),230);body.append(el)}
+ const profile=window.ATLAS_ITEM_INSIGHTS?.(p);if(profile){const el=document.createElement('p');el.className='available-description item-overview';el.textContent=profile.summary;body.querySelector('.product-title')?.after(el)}
+ if(!profile&&d.features?.length&&!body.querySelector('.known-feature')){const el=document.createElement('p');el.className='available-description known-feature';el.textContent=short(d.features.join(' · '),230);body.append(el)}
  const foot=card.querySelector('.card-footer button[data-open]');if(foot)foot.textContent='Full product details';
  if(l.price==null&&!p.china_price){const el=card.querySelector('.price-row strong');if(el)el.textContent='See shop options'}
  }}
@@ -51,7 +51,9 @@ function enhanceDialog(){const root=document.getElementById('productDetail');if(
  }
  if(dl)for(const dt of [...dl.querySelectorAll('dt')])if(dt.textContent.trim()==='Last checked'){dt.nextElementSibling?.remove();dt.remove()}
 
- if(d.description&&!content.querySelector('.about-source')){const s=document.createElement('section');s.className='about-source';s.innerHTML='<h3>About this item — shop description</h3><p>'+esc(d.description)+'</p><span class="available-source-note">'+link(d.description_source||d.source,'Read the full shop description')+(d.description_checked?' · '+esc(fmt(d.description_checked)):'')+'</span>';content.querySelector('#detailTitle')?.after(s)}
+ const profile=window.ATLAS_ITEM_INSIGHTS?.(p);
+ if(profile&&!content.querySelector('.about-source')){const box=document.createElement('section');box.className='about-source';box.innerHTML='<h3>At a glance</h3><p>'+esc(profile.summary)+'</p><h4>What to compare · analyst view</h4><p>'+esc(profile.angle)+'</p><h4>Check before choosing</h4><p>'+esc(profile.question)+'</p><span class="available-source-note">'+profile.sources.map(u=>link(u,'Product source')).join(' · ')+(profile.reviewed?' · Summary reviewed '+esc(fmt(profile.reviewed)):' · Based on saved catalog facts')+'</span>';content.querySelector('#detailTitle')?.after(box)}
+
  if(!p.launch&&!p.launch_estimate&&!gaps.includes('Launch'))gaps.push('Launch date');
  if(!p.wave&&!gaps.includes('Wave'))gaps.push('Wave number');
  if(!p.sales&&!gaps.includes('Units sold'))gaps.push('Units sold');
