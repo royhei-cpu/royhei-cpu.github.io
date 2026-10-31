@@ -88,7 +88,7 @@ jobs:
         run: |
           if [ -f china-toys/catalog.json ]; then
             mkdir -p _site/china-toys
-            cp china-toys/china-intelligence.js china-toys/china-intelligence.css china-toys/china-market-data.js china-toys/market-prices.js china-toys/index.html china-toys/styles.css china-toys/app.js china-toys/catalog.js china-toys/catalog.json china-toys/catalog.csv china-toys/report.json _site/china-toys/
+            cp china-toys/atlas-navigation.js china-toys/atlas-navigation.css china-toys/china-intelligence.js china-toys/china-intelligence.css china-toys/china-market-data.js china-toys/market-prices.js china-toys/index.html china-toys/styles.css china-toys/app.js china-toys/catalog.js china-toys/catalog.json china-toys/catalog.csv china-toys/report.json _site/china-toys/
             cp -R china-toys/images _site/china-toys/images
           fi
       - name: Copy China Toy tutorial and facts guide

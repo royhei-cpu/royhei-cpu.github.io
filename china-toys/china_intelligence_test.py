@@ -101,6 +101,36 @@ try:
         expect(p.locator('#rankings')).to_be_visible()
         expect(p.locator('#chinaDeskTitle')).to_have_text('What deserves a closer look?')
         checks.append('Detailed research page keeps deep audit links accessible')
+        p.goto('http://127.0.0.1:8797/china-toys/research.html#trends',wait_until='networkidle')
+        p.locator('#visualTrends').scroll_into_view_if_needed()
+        p.wait_for_function("[...document.querySelectorAll('#visualTrends img')].every(i=>i.complete&&i.naturalWidth>0)")
+        assert p.locator('#visualTrends img').count()==3
+        p.locator('#visualTrends').screenshot(path=str(O/'research-photos.png'))
+        for brand in ['POP MART','TOP TOY','52TOYS','Finding Unicorn','Heyone','TNT SPACE']:
+            count=sum(x['brand']==brand for x in json.loads((R/'catalog.json').read_text())['products'])
+            p.locator('#atlasBrandNav [data-nav-brand="'+brand+'"]').click()
+            expect(p.locator('#resultsTitle')).to_have_text(brand)
+            expect(p.locator('#resultsHint')).to_have_text(str(count)+' products / series')
+            expect(p.locator('#search')).to_have_value('')
+            assert p.locator('.product-card').count()>0
+        p.locator('#search').fill('no-product-could-match-this')
+        p.locator('#atlasBrandNav select').select_option('Rolife')
+        expect(p.locator('#resultsTitle')).to_have_text('Rolife')
+        expect(p.locator('#search')).to_have_value('')
+        assert p.locator('.product-card').count()>0
+        shops=p.locator('#retailer option:not([disabled])').evaluate_all('(es)=>es.map(e=>e.value).filter(Boolean)')
+        for shop in shops:
+            p.locator('#retailer').select_option(shop)
+            assert p.locator('.product-card').count()>0,shop
+        checks.append('Persistent native brand links: six brands + More brands; stale search cleared; '+str(len(shops))+' populated retailers')
+        p.goto('http://127.0.0.1:8797/china-toys/research.html#trends',wait_until='networkidle')
+        for width in [390,768,1440]:
+            p.set_viewport_size({'width':width,'height':1000})
+            p.locator('#visualTrends').scroll_into_view_if_needed()
+            assert p.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),width
+            assert p.locator('#atlasBrandNav').evaluate('(e)=>e.getBoundingClientRect().top>=0')
+            p.screenshot(path=str(O/f'research-photos-{width}.png'))
+        checks.append('Three source-matched research photos load; persistent brand navigation and visual cards fit phone, tablet and desktop')
         assert not errors,errors
         b.close()
 finally:

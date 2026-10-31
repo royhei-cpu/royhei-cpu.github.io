@@ -1,0 +1,9 @@
+.atlas-brand-nav{position:sticky;top:0;z-index:30;display:flex;align-items:center;gap:12px;padding:10px max(16px,calc((100vw - 1440px)/2));background:#fffcf9f5;backdrop-filter:blur(14px);border-bottom:1px solid #dacfe0;box-shadow:0 3px 12px #3320440a;font:600 12px/1.4 system-ui,sans-serif;color:#263c35}
+.atlas-brand-nav .atlas-links{display:flex;align-items:center;gap:6px;overflow-x:auto;min-width:0;scrollbar-width:thin;flex:1;padding:2px}
+.atlas-brand-nav a{display:block;flex:none;padding:9px 12px;border:1px solid #dfd8e5;border-radius:20px;background:white;text-decoration:none;white-space:nowrap;color:#263c35}
+.atlas-brand-nav a:hover,.atlas-brand-nav a[aria-current]{background:#244e43;color:white;border-color:#244e43}
+.atlas-brand-nav label{flex:none;display:flex;align-items:center;gap:7px}
+.atlas-brand-nav select{max-width:180px;min-height:38px;border:1px solid #d6cbdc;border-radius:8px;background:white;color:#263c35;font:inherit;padding:7px}
+.atlas-brand-nav a:focus-visible,.atlas-brand-nav select:focus-visible{outline:3px solid #9258ac;outline-offset:2px}
+#results,#trends,#rankings,#stores,#gaps{scroll-margin-top:125px}
+@media(max-width:740px){.atlas-brand-nav{flex-wrap:wrap;gap:5px;padding:7px 12px}.atlas-brand-nav .atlas-links{flex-basis:100%}.atlas-brand-nav label{font-size:11px;margin-left:auto}.atlas-brand-nav select{max-width:220px;min-height:32px}.atlas-brand-nav a{padding:8px 11px;font-size:11px}}
