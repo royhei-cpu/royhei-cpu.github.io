@@ -1,0 +1,2179 @@
+{
+ "reviewedAt": "2026-11-01",
+ "sourceCheckedAt": "2026-10-31",
+ "baseline": 6331,
+ "added": 2852,
+ "total": 9183,
+ "scope": "Collected public listings; no full retailer inventory claim",
+ "retailers": [
+  {
+   "retailer": "Ace Hardware",
+   "collected": 3902,
+   "added": 327,
+   "reviewStatus": "Additional sources checked; partial",
+   "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. All six Ace food-storage pages fetched; other categories not fully enumerated.",
+   "sourcePages": [
+    "https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/food-storage?pageSize=999&startIndex=0",
+    "https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/food-storage?pageSize=999&startIndex=1000",
+    "https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/food-storage?pageSize=999&startIndex=200",
+    "https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/food-storage?pageSize=999&startIndex=400",
+    "https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/food-storage?pageSize=999&startIndex=600",
+    "https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/food-storage?pageSize=999&startIndex=800"
+   ],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 259,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 189,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 1963,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 101,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 208,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 313,
+     "added": 313,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 5,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 69,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 233,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 470,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 70,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "Albertsons",
+   "collected": 60,
+   "added": 45,
+   "reviewStatus": "Additional sources checked; partial",
+   "limitations": "Indexed Albertsons product pages checked. Direct category access restricted; matched reference photos explicitly labeled. Store stock and prices not verified.",
+   "sourcePages": [
+    "https://www.albertsons.com/shop/pd/carbona-carpet-cleaner-oxy-powered-2-in-1-value-size-27-5-fl-oz/173200045",
+    "https://www.albertsons.com/shop/pd/dawn-straw-cleaner-brush-4-ct/960302756",
+    "https://www.albertsons.com/shop/pd/dixie-everyday-paper-plates-printed-8-1-2-inch-90-ct/960169883",
+    "https://www.albertsons.com/shop/pd/dixie-everyday-printed-paper-plates-10-1-16-inch-plates-210-ct/970476792",
+    "https://www.albertsons.com/shop/pd/fantastik-fresh-scent-disinfectant-multipurpose-cleaner-spray-bottle-32-oz/960075662",
+    "https://www.albertsons.com/shop/pd/fantastik-lemon-scent-all-purpose-cleaner-trigger-bottle-32-oz/960210286",
+    "https://www.albertsons.com/shop/pd/febreze-air-mist-air-freshener-heavy-duty-crisp-clean-8-1-oz-8-1-oz/971365561",
+    "https://www.albertsons.com/shop/pd/kleenex-ultra-facial-tissue-flat-bundle-pack-480-ct/971294014",
+    "https://www.albertsons.com/shop/pd/libman-roller-mop-nitty-gritty-each/960182931",
+    "https://www.albertsons.com/shop/pd/lysol-lemon-breeze-all-purpose-cleaner-multi-pack-toilet-bowl-cleaner-2-32-oz/970306161",
+    "https://www.albertsons.com/shop/pd/open-nature-cleaner-all-purpose-disinfecting-lemon-scented-32-fl-oz/960096142",
+    "https://www.albertsons.com/shop/pd/open-nature-cleaner-tub-and-tile-32-fl-oz/960480342",
+    "https://www.albertsons.com/shop/pd/open-nature-cleaning-vinegar-64-fl-oz/960477485",
+    "https://www.albertsons.com/shop/pd/pine-sol-multi-surface-cleaner-original-pine-20-fl-oz/970695275",
+    "https://www.albertsons.com/shop/pd/scrub-dad-sponge-daddy-4-ct/960303995",
+    "https://www.albertsons.com/shop/pd/seventh-generation-facial-tissue-2-ply-85-ct/130040013",
+    "https://www.albertsons.com/shop/pd/signature-select-16-fl-oz-spray-bottle-each/971312034",
+    "https://www.albertsons.com/shop/pd/signature-select-brightly-variable-size-paper-towels-2-double-rolls/970586608",
+    "https://www.albertsons.com/shop/pd/signature-select-broom-large-angle-each/960197779",
+    "https://www.albertsons.com/shop/pd/signature-select-brush-scrub-iron-handle-each/960305972",
+    "https://www.albertsons.com/shop/pd/signature-select-clean-all-sponges-for-all-surfaces-handy-size-4-ct/173250185",
+    "https://www.albertsons.com/shop/pd/signature-select-cleaner-toilet-bowl-with-bleach-24-oz/960056277",
+    "https://www.albertsons.com/shop/pd/signature-select-dust-ease-refills-cloth-32-ct/960018884",
+    "https://www.albertsons.com/shop/pd/signature-select-dust-ease-refills-wet-cloth-citrus-scent-24-ct/173450007",
+    "https://www.albertsons.com/shop/pd/signature-select-dust-ease-refills-wet-cloth-fresh-scent-12-ct/173200145",
+    "https://www.albertsons.com/shop/pd/signature-select-floor-duster-microfiber-each/960305970",
+    "https://www.albertsons.com/shop/pd/signature-select-fresh-lemon-disinfectant-wipes-150-ct/970098641",
+    "https://www.albertsons.com/shop/pd/signature-select-glass-cleaner-with-ammonia-32-fl-oz/173100212",
+    "https://www.albertsons.com/shop/pd/signature-select-gloves-flock-lined-medium-1-pair/960557982",
+    "https://www.albertsons.com/shop/pd/signature-select-gloves-flock-lined-small-1-pair/960557981",
+    "https://www.albertsons.com/shop/pd/signature-select-heavy-duty-scrubber-sponges-handy-size-3-ct/960022449",
+    "https://www.albertsons.com/shop/pd/signature-select-heavy-duty-scrubber-sponges-handy-size-6-ct/960022450",
+    "https://www.albertsons.com/shop/pd/signature-select-lemon-fresh-scent-disinfecting-wipes-3-ct/960508865",
+    "https://www.albertsons.com/shop/pd/signature-select-lemon-scent-disinfectant-wipes-35-ct/970098656",
+    "https://www.albertsons.com/shop/pd/signature-select-lemon-scent-disinfectant-wipes-75-ct/970098714",
+    "https://www.albertsons.com/shop/pd/signature-select-mop-sponge-refill-each/960197786",
+    "https://www.albertsons.com/shop/pd/signature-select-multi-purpose-lavender-cleaner-56-fl-oz/971312758",
+    "https://www.albertsons.com/shop/pd/signature-select-no-scratch-multi-purpose-scrubber-sponges-handy-size-3-ct/960036198",
+    "https://www.albertsons.com/shop/pd/signature-select-plunger-with-caddy-each/971312023",
+    "https://www.albertsons.com/shop/pd/signature-select-power-scrubber-and-sponge-each/971312014",
+    "https://www.albertsons.com/shop/pd/signature-select-power-scrubber-each/971312024",
+    "https://www.albertsons.com/shop/pd/signature-select-softly-facial-tissue-box-4-pack-160-ct-4-160-ct/970490315",
+    "https://www.albertsons.com/shop/pd/signature-select-toilet-bowl-brush-with-caddy-1-ea-ea/971319491",
+    "https://www.albertsons.com/shop/pd/swiffer-dusting-kit-with-5-refills-duster-each/173300520",
+    "https://www.albertsons.com/shop/pd/viva-signature-cloth-paper-towels-86-sheets-per-roll-12-ct/971317248"
+   ],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 1,
+     "added": 1,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 2,
+     "added": 2,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 22,
+     "added": 22,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 9,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 2,
+     "added": 2,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 1,
+     "added": 1,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 5,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 3,
+     "added": 3,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 2,
+     "added": 2,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 1,
+     "added": 1,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 8,
+     "added": 8,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 3,
+     "added": 3,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "Amazon US",
+   "collected": 327,
+   "added": 0,
+   "reviewStatus": "Further source review required",
+   "limitations": "No additional source-backed records in this expansion. Existing records retained; full category enumeration remains outstanding.",
+   "sourcePages": [],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 52,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 9,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 54,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 67,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 4,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 2,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 2,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 55,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 16,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 2,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 23,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 35,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 5,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "BJ’s Wholesale",
+   "collected": 3,
+   "added": 0,
+   "reviewStatus": "Further source review required",
+   "limitations": "Earlier source access was denied; no new product evidence recovered. Existing records retained, full category audit remains outstanding.",
+   "sourcePages": [],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "CVS",
+   "collected": 331,
+   "added": 18,
+   "reviewStatus": "Additional sources checked; partial",
+   "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+   "sourcePages": [
+    "https://www.cvs.com/shop/household/paper-plastic/disposable-tableware"
+   ],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 56,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 22,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 41,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 31,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 19,
+     "added": 18,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 7,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 31,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 15,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 2,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 28,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 21,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 42,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 10,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 6,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "Costco",
+   "collected": 128,
+   "added": 0,
+   "reviewStatus": "Further source review required",
+   "limitations": "No additional source-backed records in this expansion. Existing records retained; full category enumeration remains outstanding.",
+   "sourcePages": [],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 6,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 4,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 33,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 8,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 4,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 8,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 4,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 18,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 4,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 11,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 14,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "Dollar General",
+   "collected": 328,
+   "added": 24,
+   "reviewStatus": "Additional sources checked; partial",
+   "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+   "sourcePages": [
+    "https://www.dollargeneral.com/c/household-essentials/paper-products/paper-towels-napkins"
+   ],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 46,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 9,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 28,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 37,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 29,
+     "added": 4,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 8,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 24,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 31,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 20,
+     "added": 20,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 17,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 3,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 47,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 4,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 24,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "Dollar Tree",
+   "collected": 8,
+   "added": 0,
+   "reviewStatus": "Further source review required",
+   "limitations": "No additional publishable product/photo evidence recovered. Existing records retained; category enumeration remains outstanding.",
+   "sourcePages": [],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 2,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 3,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "H-E-B",
+   "collected": 14,
+   "added": 0,
+   "reviewStatus": "Further source review required",
+   "limitations": "Earlier source access was denied; no new product evidence recovered. Existing records retained, full category audit remains outstanding.",
+   "sourcePages": [],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 6,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 3,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 4,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "Home Depot",
+   "collected": 24,
+   "added": 0,
+   "reviewStatus": "Further source review required",
+   "limitations": "Earlier source access was denied; no new product evidence recovered. Existing records retained, full category audit remains outstanding.",
+   "sourcePages": [],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 2,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 2,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 11,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 2,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 5,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "Kroger",
+   "collected": 162,
+   "added": 51,
+   "reviewStatus": "Additional sources checked; partial",
+   "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+   "sourcePages": [
+    "https://www.kroger.com/pl/food-storage-containers/2800200002",
+    "https://www.kroger.com/pl/trash-bags/26020"
+   ],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 3,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 8,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 3,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 24,
+     "added": 24,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 39,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 40,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 15,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 27,
+     "added": 27,
+     "status": "Additional item evidence collected"
+    }
+   ]
+  },
+  {
+   "retailer": "Lowe’s",
+   "collected": 121,
+   "added": 12,
+   "reviewStatus": "Additional sources checked; partial",
+   "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+   "sourcePages": [
+    "https://www.lowes.com/best-sellers/cleaning-supplies/household-essentials/3618734417"
+   ],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 24,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 14,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 9,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 2,
+     "added": 2,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 13,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 4,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 2,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 7,
+     "added": 7,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 40,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 3,
+     "added": 3,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 3,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "Meijer",
+   "collected": 1409,
+   "added": 1392,
+   "reviewStatus": "Additional sources checked; partial",
+   "limitations": "Initial rendered cards from category/subcategory pages checked. Interactive Load More and remaining pages not exhausted.",
+   "sourcePages": [
+    "https://www.meijer.com/shopping/departments/household-essentials",
+    "https://www.meijer.com/shopping/departments/household-essentials/air-fresheners",
+    "https://www.meijer.com/shopping/departments/household-essentials/air-fresheners/candles",
+    "https://www.meijer.com/shopping/departments/household-essentials/air-fresheners/carpet-deodorizer",
+    "https://www.meijer.com/shopping/departments/household-essentials/air-fresheners/plug-ins-refills",
+    "https://www.meijer.com/shopping/departments/household-essentials/air-fresheners/set-leave-air-fresheners",
+    "https://www.meijer.com/shopping/departments/household-essentials/air-fresheners/sprays",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaners",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaners/all-purpose-cleaners",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaners/bathroom-cleaners",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaners/carpet-upholstery",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaners/cleaning-wipes",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaners/drain-septic-care",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaners/furniture-wood-polish",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaners/glass-window-cleaners",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaners/kitchen-cleaners",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaners/surface-care-protection",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaning-tools",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaning-tools/brooms-mops",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaning-tools/dusting",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaning-tools/gloves",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaning-tools/sponges-scrubbers",
+    "https://www.meijer.com/shopping/departments/household-essentials/cleaning-tools/toilet-brushes-plungers",
+    "https://www.meijer.com/shopping/departments/household-essentials/dishwashing",
+    "https://www.meijer.com/shopping/departments/household-essentials/dishwashing/additives",
+    "https://www.meijer.com/shopping/departments/household-essentials/dishwashing/auto-dish-detergent",
+    "https://www.meijer.com/shopping/departments/household-essentials/dishwashing/hand-dish-soap",
+    "https://www.meijer.com/shopping/departments/household-essentials/household-products",
+    "https://www.meijer.com/shopping/departments/household-essentials/household-products/disposable-tableware",
+    "https://www.meijer.com/shopping/departments/household-essentials/household-products/disposable-tableware/bowls",
+    "https://www.meijer.com/shopping/departments/household-essentials/household-products/disposable-tableware/cups",
+    "https://www.meijer.com/shopping/departments/household-essentials/household-products/disposable-tableware/napkins",
+    "https://www.meijer.com/shopping/departments/household-essentials/household-products/disposable-tableware/plates",
+    "https://www.meijer.com/shopping/departments/household-essentials/household-products/disposable-tableware/straws",
+    "https://www.meijer.com/shopping/departments/household-essentials/household-products/disposable-tableware/toothpicks",
+    "https://www.meijer.com/shopping/departments/household-essentials/household-products/disposable-tableware/utensils",
+    "https://www.meijer.com/shopping/departments/household-essentials/household-products/food-storage-foil",
+    "https://www.meijer.com/shopping/departments/household-essentials/household-products/trash-bags",
+    "https://www.meijer.com/shopping/departments/household-essentials/laundry",
+    "https://www.meijer.com/shopping/departments/household-essentials/laundry/baby-laundry",
+    "https://www.meijer.com/shopping/departments/household-essentials/laundry/bleach",
+    "https://www.meijer.com/shopping/departments/household-essentials/laundry/detergent",
+    "https://www.meijer.com/shopping/departments/household-essentials/laundry/dryer-sheets",
+    "https://www.meijer.com/shopping/departments/household-essentials/laundry/liquid-fabric-softener",
+    "https://www.meijer.com/shopping/departments/household-essentials/laundry/scent-booster",
+    "https://www.meijer.com/shopping/departments/household-essentials/laundry/specialty-laundry",
+    "https://www.meijer.com/shopping/departments/household-essentials/paper-products",
+    "https://www.meijer.com/shopping/departments/household-essentials/paper-products/facial-tissues",
+    "https://www.meijer.com/shopping/departments/household-essentials/paper-products/paper-towel-napkins",
+    "https://www.meijer.com/shopping/departments/household-essentials/paper-products/toilet-paper-wipes",
+    "https://www.meijer.com/shopping/departments/household-essentials/sustainable-cleaning",
+    "https://www.meijer.com/shopping/departments/household-essentials/sustainable-cleaning/air-freshener",
+    "https://www.meijer.com/shopping/departments/household-essentials/sustainable-cleaning/household-cleaning",
+    "https://www.meijer.com/shopping/departments/household-essentials/sustainable-cleaning/laundry"
+   ],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 158,
+     "added": 158,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 32,
+     "added": 32,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 151,
+     "added": 151,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 116,
+     "added": 102,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 184,
+     "added": 184,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 49,
+     "added": 49,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 52,
+     "added": 51,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 224,
+     "added": 222,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Naturals",
+     "collected": 84,
+     "added": 84,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 31,
+     "added": 31,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 40,
+     "added": 40,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 143,
+     "added": 143,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 89,
+     "added": 89,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 51,
+     "added": 51,
+     "status": "Additional item evidence collected"
+    }
+   ]
+  },
+  {
+   "retailer": "Publix",
+   "collected": 15,
+   "added": 0,
+   "reviewStatus": "Further source review required",
+   "limitations": "No additional publishable product/photo evidence recovered. Existing records retained; category enumeration remains outstanding.",
+   "sourcePages": [],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 6,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 4,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 2,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "Safeway",
+   "collected": 39,
+   "added": 31,
+   "reviewStatus": "Additional sources checked; partial",
+   "limitations": "Product page metadata checked for additions. Category enumeration remains incomplete; store stock and prices unverified.",
+   "sourcePages": [
+    "https://www.safeway.com/shop/pd/fantastik-fresh-scent-disinfectant-multipurpose-cleaner-spray-bottle-32-oz/960075662",
+    "https://www.safeway.com/shop/pd/fantastik-lemon-scent-all-purpose-cleaner-trigger-bottle-32-oz/960210286",
+    "https://www.safeway.com/shop/pd/lysol-lemon-breeze-all-purpose-cleaner-multi-pack-toilet-bowl-cleaner-2-32-oz/970306161",
+    "https://www.safeway.com/shop/pd/open-nature-cleaner-all-purpose-32-fl-oz/960480341",
+    "https://www.safeway.com/shop/pd/open-nature-cleaner-all-purpose-disinfecting-lemon-scented-32-fl-oz/960096142",
+    "https://www.safeway.com/shop/pd/open-nature-cleaner-tub-and-tile-32-fl-oz/960480342",
+    "https://www.safeway.com/shop/pd/open-nature-cleaning-vinegar-64-fl-oz/960477485",
+    "https://www.safeway.com/shop/pd/signature-select-16-fl-oz-spray-bottle-each/971312034",
+    "https://www.safeway.com/shop/pd/signature-select-broom-large-angle-each/960197779",
+    "https://www.safeway.com/shop/pd/signature-select-brush-scrub-iron-handle-each/960305972",
+    "https://www.safeway.com/shop/pd/signature-select-clean-all-sponges-for-all-surfaces-handy-size-4-ct/173250185",
+    "https://www.safeway.com/shop/pd/signature-select-cleaner-toilet-bowl-with-bleach-24-oz/960056277",
+    "https://www.safeway.com/shop/pd/signature-select-dust-ease-refills-cloth-32-ct/960018884",
+    "https://www.safeway.com/shop/pd/signature-select-dust-ease-refills-wet-cloth-citrus-scent-24-ct/173450007",
+    "https://www.safeway.com/shop/pd/signature-select-dust-ease-refills-wet-cloth-fresh-scent-12-ct/173200145",
+    "https://www.safeway.com/shop/pd/signature-select-floor-duster-microfiber-each/960305970",
+    "https://www.safeway.com/shop/pd/signature-select-fresh-lemon-disinfectant-wipes-150-ct/970098641",
+    "https://www.safeway.com/shop/pd/signature-select-glass-cleaner-with-ammonia-32-fl-oz/173100212",
+    "https://www.safeway.com/shop/pd/signature-select-gloves-flock-lined-medium-1-pair/960557982",
+    "https://www.safeway.com/shop/pd/signature-select-gloves-flock-lined-small-1-pair/960557981",
+    "https://www.safeway.com/shop/pd/signature-select-heavy-duty-scrubber-sponges-handy-size-3-ct/960022449",
+    "https://www.safeway.com/shop/pd/signature-select-heavy-duty-scrubber-sponges-handy-size-6-ct/960022450",
+    "https://www.safeway.com/shop/pd/signature-select-lemon-fresh-scent-disinfecting-wipes-3-ct/960508865",
+    "https://www.safeway.com/shop/pd/signature-select-lemon-scent-disinfectant-wipes-35-ct/970098656",
+    "https://www.safeway.com/shop/pd/signature-select-lemon-scent-disinfectant-wipes-75-ct/970098714",
+    "https://www.safeway.com/shop/pd/signature-select-multi-purpose-lavender-cleaner-56-fl-oz/971312758",
+    "https://www.safeway.com/shop/pd/signature-select-no-scratch-multi-purpose-scrubber-sponges-handy-size-3-ct/960036198",
+    "https://www.safeway.com/shop/pd/signature-select-plunger-with-caddy-each/971312023",
+    "https://www.safeway.com/shop/pd/signature-select-power-scrubber-and-sponge-each/971312014",
+    "https://www.safeway.com/shop/pd/signature-select-power-scrubber-each/971312024",
+    "https://www.safeway.com/shop/pd/signature-select-toilet-bowl-brush-with-caddy-1-ea-ea/971319491"
+   ],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 2,
+     "added": 2,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 17,
+     "added": 17,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 3,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 4,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 4,
+     "added": 4,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 1,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 1,
+     "added": 1,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 7,
+     "added": 7,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "Sam’s Club",
+   "collected": 562,
+   "added": 2,
+   "reviewStatus": "Additional sources checked; partial",
+   "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+   "sourcePages": [
+    "https://www.samsclub.com/browse/cleaning-supplies/1564"
+   ],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 83,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 9,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 60,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 22,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 88,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 8,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 57,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 80,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 11,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 2,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 16,
+     "added": 2,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 29,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 14,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 24,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "TikTok Shop",
+   "collected": 929,
+   "added": 820,
+   "reviewStatus": "Additional sources checked; partial",
+   "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+   "sourcePages": [
+    "https://shop.tiktok.com/us/k/air-freshener",
+    "https://shop.tiktok.com/us/k/airtight-food-storage",
+    "https://shop.tiktok.com/us/k/bed-bug-control",
+    "https://shop.tiktok.com/us/k/bright-paper-for-toilet",
+    "https://shop.tiktok.com/us/k/bugrepellent",
+    "https://shop.tiktok.com/us/k/cheap-toilet-paper",
+    "https://shop.tiktok.com/us/k/cleaning-and-organizing-products",
+    "https://shop.tiktok.com/us/k/cleaning-materials",
+    "https://shop.tiktok.com/us/k/cleaning-product",
+    "https://shop.tiktok.com/us/k/cleaning-products",
+    "https://shop.tiktok.com/us/k/cleaning-products-list",
+    "https://shop.tiktok.com/us/k/cleaning-supplies",
+    "https://shop.tiktok.com/us/k/cleaning-supplies-house",
+    "https://shop.tiktok.com/us/k/cleaning-supplies-you-need",
+    "https://shop.tiktok.com/us/k/cleaning-supply-list",
+    "https://shop.tiktok.com/us/k/cleaning-supply-to-use",
+    "https://shop.tiktok.com/us/k/closet-fresheners",
+    "https://shop.tiktok.com/us/k/cloud-toilet-paper",
+    "https://shop.tiktok.com/us/k/commercial-janitorial-supplies",
+    "https://shop.tiktok.com/us/k/construction-trash-bags",
+    "https://shop.tiktok.com/us/k/containers-for-food-storage",
+    "https://shop.tiktok.com/us/k/containers-for-storage",
+    "https://shop.tiktok.com/us/k/contractor-trash-bags",
+    "https://shop.tiktok.com/us/k/drawstring-trash-bags",
+    "https://shop.tiktok.com/us/k/environmentally-friendly-trash-bags",
+    "https://shop.tiktok.com/us/k/fly-pest-control",
+    "https://shop.tiktok.com/us/k/food-airtight-storage",
+    "https://shop.tiktok.com/us/k/food-grade-containers",
+    "https://shop.tiktok.com/us/k/food-grade-storage-containers",
+    "https://shop.tiktok.com/us/k/food-storage",
+    "https://shop.tiktok.com/us/k/food-storage-organizers",
+    "https://shop.tiktok.com/us/k/food-storage-set",
+    "https://shop.tiktok.com/us/k/foodstoragecontainer",
+    "https://shop.tiktok.com/us/k/fragrance-booster",
+    "https://shop.tiktok.com/us/k/fresh-laundry",
+    "https://shop.tiktok.com/us/k/garbage-bags",
+    "https://shop.tiktok.com/us/k/home-fabric-freshener-spray",
+    "https://shop.tiktok.com/us/k/home-freshner",
+    "https://shop.tiktok.com/us/k/house-cleaning-supplies",
+    "https://shop.tiktok.com/us/k/household-essentials",
+    "https://shop.tiktok.com/us/k/industrial-trash-bags",
+    "https://shop.tiktok.com/us/k/kitchen-bags",
+    "https://shop.tiktok.com/us/k/laundry-booster",
+    "https://shop.tiktok.com/us/k/laundry-fragrance",
+    "https://shop.tiktok.com/us/k/laundry-fregrance",
+    "https://shop.tiktok.com/us/k/laundry-freshener",
+    "https://shop.tiktok.com/us/k/laundry-freshener-spray",
+    "https://shop.tiktok.com/us/k/novelty-toilet-paper",
+    "https://shop.tiktok.com/us/k/paper-products",
+    "https://shop.tiktok.com/us/k/pest-control-brand",
+    "https://shop.tiktok.com/us/k/pest-control-brands",
+    "https://shop.tiktok.com/us/k/pest-control-products",
+    "https://shop.tiktok.com/us/k/pest-control-solutions",
+    "https://shop.tiktok.com/us/k/plant-pest-prevention",
+    "https://shop.tiktok.com/us/k/rat-control",
+    "https://shop.tiktok.com/us/k/recyclable-trash-bags",
+    "https://shop.tiktok.com/us/k/repellent",
+    "https://shop.tiktok.com/us/k/reusable-rags",
+    "https://shop.tiktok.com/us/k/reusable-toilet-paper",
+    "https://shop.tiktok.com/us/k/simplehuman-trash-bags",
+    "https://shop.tiktok.com/us/k/small-spaces-air-freshener",
+    "https://shop.tiktok.com/us/k/soaking-paper",
+    "https://shop.tiktok.com/us/k/solutions-pest-control",
+    "https://shop.tiktok.com/us/k/solutions-pest-lawn",
+    "https://shop.tiktok.com/us/k/storage-food",
+    "https://shop.tiktok.com/us/k/storage-set",
+    "https://shop.tiktok.com/us/k/toilet-paper",
+    "https://shop.tiktok.com/us/k/toilet-paper-brand",
+    "https://shop.tiktok.com/us/k/toilet-papers",
+    "https://shop.tiktok.com/us/k/toiletpaper",
+    "https://shop.tiktok.com/us/k/trash-bags",
+    "https://shop.tiktok.com/us/k/trashbag",
+    "https://shop.tiktok.com/us/k/trashbags",
+    "https://shop.tiktok.com/us/k/where-to-buy-cleaning-supplies"
+   ],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 103,
+     "added": 95,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 14,
+     "added": 8,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 79,
+     "added": 61,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 13,
+     "added": 10,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 6,
+     "added": 2,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 7,
+     "added": 3,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 112,
+     "added": 105,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 126,
+     "added": 107,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Naturals",
+     "collected": 19,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 10,
+     "added": 7,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 123,
+     "added": 123,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 4,
+     "added": 2,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 31,
+     "added": 15,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 101,
+     "added": 101,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 162,
+     "added": 162,
+     "status": "Additional item evidence collected"
+    }
+   ]
+  },
+  {
+   "retailer": "Walgreens",
+   "collected": 136,
+   "added": 87,
+   "reviewStatus": "Additional sources checked; partial",
+   "limitations": "Initial rendered cards from category/subcategory pages checked. Interactive Load More and remaining pages not exhausted.",
+   "sourcePages": [
+    "https://www.walgreens.com/store/c/productlist/$5---$10-cleaning-supplies/N=20000911-1000021",
+    "https://www.walgreens.com/store/c/productlist/30-cleaning-supplies/N=20000911-4294838623",
+    "https://www.walgreens.com/store/c/productlist/45-cleaning-supplies/N=20000911-5000017162",
+    "https://www.walgreens.com/store/c/productlist/60-cleaning-supplies/N=20000911-2999952467",
+    "https://www.walgreens.com/store/c/productlist/air-freshener-sprays-cleaning-supplies/N=20000911-100080667",
+    "https://www.walgreens.com/store/c/productlist/all-purpose-cleaning-liquids-cleaning-supplies/N=20000911-100080542",
+    "https://www.walgreens.com/store/c/productlist/all-purpose-cleaning-sprays-cleaning-supplies/N=20000911-100080655",
+    "https://www.walgreens.com/store/c/productlist/all-purpose-cleaning-wipes-cleaning-supplies/N=20000911-100080654",
+    "https://www.walgreens.com/store/c/productlist/appliance-cleaners-cleaning-supplies/N=20000911-100080779",
+    "https://www.walgreens.com/store/c/productlist/arm-&-hammer-cleaning-supplies/N=20000911-74",
+    "https://www.walgreens.com/store/c/productlist/bathroom-cleaners-cleaning-supplies/N=20000911-2000010053",
+    "https://www.walgreens.com/store/c/productlist/brooms-cleaning-supplies/N=20000911-100080818",
+    "https://www.walgreens.com/store/c/productlist/carpet-cleaners-cleaning-supplies/N=20000911-100080546",
+    "https://www.walgreens.com/store/c/productlist/cleaning-gloves-cleaning-supplies/N=20000911-100080549",
+    "https://www.walgreens.com/store/c/productlist/clorox-cleaning-supplies/N=20000911-1108",
+    "https://www.walgreens.com/store/c/productlist/disinfectant-wipes-cleaning-supplies/N=20000911-100080541",
+    "https://www.walgreens.com/store/c/productlist/drano-cleaning-supplies/N=20000911-29",
+    "https://www.walgreens.com/store/c/productlist/dusters-cleaning-supplies/N=20000911-2000015031",
+    "https://www.walgreens.com/store/c/productlist/ecos-cleaning-supplies/N=20000911-354556",
+    "https://www.walgreens.com/store/c/productlist/finish-cleaning-supplies/N=20000911-308617",
+    "https://www.walgreens.com/store/c/productlist/furniture-polish-cleaning-supplies/N=20000911-100080551",
+    "https://www.walgreens.com/store/c/productlist/glass-cleaners-cleaning-supplies/N=20000911-2000013969",
+    "https://www.walgreens.com/store/c/productlist/libman-cleaning-supplies/N=20000911-375074",
+    "https://www.walgreens.com/store/c/productlist/liquid-cleaning-supplies/N=20000911-5000000970",
+    "https://www.walgreens.com/store/c/productlist/mop-refills-cleaning-supplies/N=20000911-100080759",
+    "https://www.walgreens.com/store/c/productlist/mops-cleaning-supplies/N=20000911-100080822",
+    "https://www.walgreens.com/store/c/productlist/murphy-cleaning-supplies/N=20000911-309617",
+    "https://www.walgreens.com/store/c/productlist/nature's-miracle-cleaning-supplies/N=20000911-521926",
+    "https://www.walgreens.com/store/c/productlist/no-phthalates-cleaning-supplies/N=20000911-2999951422",
+    "https://www.walgreens.com/store/c/productlist/oxiclean-cleaning-supplies/N=20000911-367918",
+    "https://www.walgreens.com/store/c/productlist/pet-stain-removers-cleaning-supplies/N=20000911-100080758",
+    "https://www.walgreens.com/store/c/productlist/scrub-brushes-cleaning-supplies/N=20000911-100080547",
+    "https://www.walgreens.com/store/c/productlist/scrubbing-bubbles-cleaning-supplies/N=20000911-52",
+    "https://www.walgreens.com/store/c/productlist/shower-cleaners-cleaning-supplies/N=20000911-100080656",
+    "https://www.walgreens.com/store/c/productlist/soft-scrub-cleaning-supplies/N=20000911-1511",
+    "https://www.walgreens.com/store/c/productlist/tablets-cleaning-supplies/N=20000911-3000007709",
+    "https://www.walgreens.com/store/c/productlist/toilet-brush-cleaning-supplies/N=20000911-2000013810",
+    "https://www.walgreens.com/store/c/productlist/twin-pack-cleaning-supplies/N=20000911-4294817069",
+    "https://www.walgreens.com/store/c/productlist/wipes-cleaning-supplies/N=20000911-3000007665",
+    "https://www.walgreens.com/store/store/category/productlist.jsp?N=20000911"
+   ],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 2,
+     "added": 1,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 17,
+     "added": 17,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 39,
+     "added": 22,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 14,
+     "added": 5,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 3,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 9,
+     "added": 9,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 18,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 2,
+     "added": 2,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Naturals",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 7,
+     "added": 7,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 25,
+     "added": 24,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 0,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  },
+  {
+   "retailer": "Walmart",
+   "collected": 685,
+   "added": 43,
+   "reviewStatus": "Additional sources checked; partial",
+   "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+   "sourcePages": [
+    "https://www.walmart.com/browse/household-essentials/pest-control/1115193_1025745"
+   ],
+   "categories": [
+    {
+     "category": "Air Care",
+     "collected": 77,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Bathroom & Toilet Cleaning",
+     "collected": 50,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Cleaning Tools",
+     "collected": 113,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Dishwashing",
+     "collected": 66,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Disposable Tabletop",
+     "collected": 27,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Floor & Carpet Care",
+     "collected": 22,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Food Wrap & Storage",
+     "collected": 19,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Laundry Care",
+     "collected": 44,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Naturals",
+     "collected": 10,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Paper Towels",
+     "collected": 14,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Pest Control",
+     "collected": 43,
+     "added": 43,
+     "status": "Additional item evidence collected"
+    },
+    {
+     "category": "Specialty Cleaners",
+     "collected": 45,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Surface Cleaners",
+     "collected": 138,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Toilet Paper & Tissues",
+     "collected": 15,
+     "added": 0,
+     "status": "Further category research required"
+    },
+    {
+     "category": "Trash Bags",
+     "collected": 2,
+     "added": 0,
+     "status": "Further category research required"
+    }
+   ]
+  }
+ ]
+}
