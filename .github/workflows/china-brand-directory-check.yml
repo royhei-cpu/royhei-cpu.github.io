@@ -1,0 +1,32 @@
+name: Check China brand directory
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['china-toys/**', '.github/workflows/china-brand-directory-check.yml']
+permissions:
+  contents: read
+jobs:
+  directory-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test browser
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Reconcile names and check directory interactions
+        run: |
+          python china-toys/build_brand_directory.py
+          python china-toys/brand_directory_test.py
+      - name: Keep directory screenshots and results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: china-brand-directory-review
+          path: /tmp/china-toys-china-desk-qa/
+          retention-days: 7

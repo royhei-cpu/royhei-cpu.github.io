@@ -28,8 +28,8 @@ try:
   expect(p.get_by_role('heading',name='Baby Three',exact=True)).to_be_visible()
   assert p.locator('.brand-card').count()==4
   p.locator('#directorySearch').fill('TOP TOY')
-  expect(p.locator('.brand-card h3')).to_have_text('TOP TOY')
-  p.locator('.brand-card a.browse').click()
+  expect(p.get_by_role('heading',name='TOP TOY',exact=True)).to_be_visible()
+  p.get_by_role('link',name=f'Browse TOP TOY · {expected["TOP TOY"]} →',exact=True).click()
   expect(p.locator('#resultsTitle')).to_have_text('TOP TOY')
   expect(p.locator('#resultsHint')).to_have_text(str(expected['TOP TOY'])+' products / series')
   p.locator('.atlas-directory-link').click()
