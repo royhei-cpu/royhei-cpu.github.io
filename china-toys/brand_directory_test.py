@@ -25,7 +25,8 @@ try:
   assert p.locator('.brand-card').count()==24
   expect(p.locator('#directoryStats')).to_contain_text(str(D['catalog_labels']))
   p.locator('#directorySearch').fill('Baby Three')
-  expect(p.locator('.brand-card h3')).to_have_text('Baby Three')
+  expect(p.get_by_role('heading',name='Baby Three',exact=True)).to_be_visible()
+  assert p.locator('.brand-card').count()==4
   p.locator('#directorySearch').fill('TOP TOY')
   expect(p.locator('.brand-card h3')).to_have_text('TOP TOY')
   p.locator('.brand-card a.browse').click()
