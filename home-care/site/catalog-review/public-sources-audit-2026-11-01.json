@@ -1,0 +1,326 @@
+{
+  "date": "2026-11-01",
+  "baselineRecords": 9377,
+  "added": 20,
+  "totalRecords": 9397,
+  "newByRetailer": {
+    "H-E-B": 10,
+    "BJ’s Wholesale": 9,
+    "Home Depot": 1
+  },
+  "emptyCategoryCellsBefore": 75,
+  "emptyCategoryCellsAfter": 62,
+  "filledCategoryCells": [
+    [
+      "BJ’s Wholesale",
+      "Dishwashing"
+    ],
+    [
+      "BJ’s Wholesale",
+      "Food Wrap & Storage"
+    ],
+    [
+      "BJ’s Wholesale",
+      "Paper Towels"
+    ],
+    [
+      "BJ’s Wholesale",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "BJ’s Wholesale",
+      "Trash Bags"
+    ],
+    [
+      "H-E-B",
+      "Air Care"
+    ],
+    [
+      "H-E-B",
+      "Bathroom & Toilet Cleaning"
+    ],
+    [
+      "H-E-B",
+      "Dishwashing"
+    ],
+    [
+      "H-E-B",
+      "Disposable Tabletop"
+    ],
+    [
+      "H-E-B",
+      "Laundry Care"
+    ],
+    [
+      "H-E-B",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "H-E-B",
+      "Trash Bags"
+    ],
+    [
+      "Home Depot",
+      "Pest Control"
+    ]
+  ],
+  "remainingGaps": [
+    [
+      "Ace Hardware",
+      "Disposable Tabletop"
+    ],
+    [
+      "Ace Hardware",
+      "Pest Control"
+    ],
+    [
+      "Ace Hardware",
+      "Trash Bags"
+    ],
+    [
+      "Albertsons",
+      "Pest Control"
+    ],
+    [
+      "Albertsons",
+      "Trash Bags"
+    ],
+    [
+      "BJ’s Wholesale",
+      "Bathroom & Toilet Cleaning"
+    ],
+    [
+      "BJ’s Wholesale",
+      "Naturals"
+    ],
+    [
+      "BJ’s Wholesale",
+      "Pest Control"
+    ],
+    [
+      "CVS",
+      "Pest Control"
+    ],
+    [
+      "Costco",
+      "Pest Control"
+    ],
+    [
+      "Costco",
+      "Specialty Cleaners"
+    ],
+    [
+      "Costco",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "Costco",
+      "Trash Bags"
+    ],
+    [
+      "Dollar General",
+      "Naturals"
+    ],
+    [
+      "Dollar Tree",
+      "Air Care"
+    ],
+    [
+      "Dollar Tree",
+      "Disposable Tabletop"
+    ],
+    [
+      "Dollar Tree",
+      "Floor & Carpet Care"
+    ],
+    [
+      "Dollar Tree",
+      "Food Wrap & Storage"
+    ],
+    [
+      "Dollar Tree",
+      "Naturals"
+    ],
+    [
+      "Dollar Tree",
+      "Pest Control"
+    ],
+    [
+      "Dollar Tree",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "H-E-B",
+      "Floor & Carpet Care"
+    ],
+    [
+      "H-E-B",
+      "Pest Control"
+    ],
+    [
+      "H-E-B",
+      "Specialty Cleaners"
+    ],
+    [
+      "Home Depot",
+      "Air Care"
+    ],
+    [
+      "Home Depot",
+      "Dishwashing"
+    ],
+    [
+      "Home Depot",
+      "Disposable Tabletop"
+    ],
+    [
+      "Home Depot",
+      "Food Wrap & Storage"
+    ],
+    [
+      "Home Depot",
+      "Paper Towels"
+    ],
+    [
+      "Home Depot",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "Home Depot",
+      "Trash Bags"
+    ],
+    [
+      "Kroger",
+      "Bathroom & Toilet Cleaning"
+    ],
+    [
+      "Kroger",
+      "Floor & Carpet Care"
+    ],
+    [
+      "Kroger",
+      "Pest Control"
+    ],
+    [
+      "Kroger",
+      "Specialty Cleaners"
+    ],
+    [
+      "Lowe’s",
+      "Disposable Tabletop"
+    ],
+    [
+      "Lowe’s",
+      "Food Wrap & Storage"
+    ],
+    [
+      "Lowe’s",
+      "Pest Control"
+    ],
+    [
+      "Lowe’s",
+      "Specialty Cleaners"
+    ],
+    [
+      "Meijer",
+      "Pest Control"
+    ],
+    [
+      "Publix",
+      "Air Care"
+    ],
+    [
+      "Publix",
+      "Bathroom & Toilet Cleaning"
+    ],
+    [
+      "Publix",
+      "Food Wrap & Storage"
+    ],
+    [
+      "Publix",
+      "Naturals"
+    ],
+    [
+      "Publix",
+      "Paper Towels"
+    ],
+    [
+      "Publix",
+      "Pest Control"
+    ],
+    [
+      "Publix",
+      "Specialty Cleaners"
+    ],
+    [
+      "Publix",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "Publix",
+      "Trash Bags"
+    ],
+    [
+      "Safeway",
+      "Air Care"
+    ],
+    [
+      "Safeway",
+      "Disposable Tabletop"
+    ],
+    [
+      "Safeway",
+      "Floor & Carpet Care"
+    ],
+    [
+      "Safeway",
+      "Food Wrap & Storage"
+    ],
+    [
+      "Safeway",
+      "Pest Control"
+    ],
+    [
+      "Safeway",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "Safeway",
+      "Trash Bags"
+    ],
+    [
+      "Sam’s Club",
+      "Naturals"
+    ],
+    [
+      "Walgreens",
+      "Naturals"
+    ],
+    [
+      "Walgreens",
+      "Paper Towels"
+    ],
+    [
+      "Walgreens",
+      "Pest Control"
+    ],
+    [
+      "Walgreens",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "Walgreens",
+      "Trash Bags"
+    ]
+  ],
+  "recordsPreserved": true,
+  "newImagesChecked": 20,
+  "sourceMethod": "Public web retrieval, possibly cached; no Firecrawl",
+  "notes": [
+    "Preserves concurrent Amazon update e68fe124.",
+    "Retailer first-listing dates, launches and sales not established.",
+    "Publix trash-bag page had product text but no usable linked product image; not added.",
+    "H-E-B pumpkin dish soap and Hill Country Fare bleach lacked linked product images; not added."
+  ]
+}

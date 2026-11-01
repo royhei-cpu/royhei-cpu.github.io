@@ -2,8 +2,8 @@
   "reviewedAt": "2026-11-01",
   "sourceCheckedAt": "2026-11-01",
   "baseline": 6331,
-  "added": 3046,
-  "total": 9377,
+  "added": 3066,
+  "total": 9397,
   "scope": "Collected public listings; no full retailer inventory claim",
   "retailers": [
     {
@@ -522,25 +522,34 @@
     },
     {
       "retailer": "BJ’s Wholesale",
-      "collected": 23,
-      "added": 20,
-      "reviewStatus": "Additional evidence checked; partial",
-      "limitations": "20 additional individual product-page records with product images. Cleaning and household categories partially reviewed; other departments and pagination remain incomplete.",
+      "collected": 32,
+      "added": 29,
+      "reviewStatus": "Public item-page evidence added; partial",
+      "limitations": "Public-source follow-up adds 9 exact item-page records with matched photos: dishwashing, tissues, paper towels, storage and trash bags. Earlier 20 additions retained. Retrieved page prices are snapshots; Dawn price omitted due conflicting dated offers. Category pagination remains incomplete.",
       "sourcePages": [
         "https://www.bjs.com/product/air-wick-plug-in-scented-oil----fresh-linen-and-vanilla/3000000000004820269/",
+        "https://www.bjs.com/product/berkley-jensen-aluminum-foil-2-pk250-sq-ft/3000000000005759253/",
+        "https://www.bjs.com/product/berkley-jensen-choose-a-size-ultra-paper-towels-12-ct140-sheets/3000000000004479773/",
+        "https://www.bjs.com/product/berkley-jensen-food-storage-variety-pack-340-ct/3000000000004643787/",
         "https://www.bjs.com/product/berkley-jensen-heavy-duty-cellulose-scrub-sponges-27-ct/3000000000004082287/",
         "https://www.bjs.com/product/berkley-jensen-household-disinfecting-wipes-340-ct/3000000000002556759/",
+        "https://www.bjs.com/product/berkley-jensen-trash-basket-liners-200-ct4-6-gal/3000000000005168757/",
+        "https://www.bjs.com/product/berkley-jensen-ultra-soft-bath-tissue-32-pk224-sheets-per-roll/3000000000005127289/",
+        "https://www.bjs.com/product/berkley-jensen-ultra-strong-bath-tissue-32-pk224-sheets-per-roll/3000000000005127295/",
         "https://www.bjs.com/product/clorox-performance-bleach-121-fl-oz/3000000000002054759/",
         "https://www.bjs.com/product/fabuloso-2x-concentrated-multi-purpose-cleaner---lavender-scent-210-oz/3000000000004334749/",
         "https://www.bjs.com/product/febreze-air-freshener-spray-holiday-mix-4-ct81-oz/3000000000006389753/",
         "https://www.bjs.com/product/febreze-air-mist-odor-fighting-air-freshener-spray-4-pk/3000000000006269249/",
         "https://www.bjs.com/product/febreze-fabric-extra-strength-spray-with-downy-calm-2-pk/3000000000005407759/",
+        "https://www.bjs.com/product/glad-forceflex-tall-kitchen-drawstring-trash-bags---fresh-clean-with-febreze-160-ct13-gal/3000000000005127299/",
         "https://www.bjs.com/product/lysol-all-purpose-cleaner---lemon-breeze-4-pk32-oz/3000000000005362255/",
         "https://www.bjs.com/product/lysol-disinfectant-spray-crisp-linen-scent-3-pk19-oz/3000000000002598755/",
         "https://www.bjs.com/product/mr-clean-all-purpose-mopping--antibacterial-cleaner---lemon-scent-101-oz/3000000000005371761/",
         "https://www.bjs.com/product/mr-clean-extra-durable-scrub-magic-eraser-sponges-18-ct/3000000000005981759/",
+        "https://www.bjs.com/product/name/3000000000005981756/",
         "https://www.bjs.com/product/o-cedar-easywring-spin-mop-and-bucket--bonus-refills/3000000000000706602/",
         "https://www.bjs.com/product/pine-sol-multi-surface-cleaner---original-scent-2-pk60-oz/3000000000004893249/",
+        "https://www.bjs.com/product/puffs-ultra-soft-facial-tissues-10-pk124-tissues-per-box/3000000000002277329/",
         "https://www.bjs.com/product/scrub-daddy-scrub-mommy-sponges-6-ct/3000000000005873297/",
         "https://www.bjs.com/product/sprayway-foaming-action-glass-cleaner-4-pk19-oz/3000000000001690749/",
         "https://www.bjs.com/product/swiffer-duster-starting-kit-with-short-handle-24-duster-refills/3000000000005678281/",
@@ -569,9 +578,9 @@
         },
         {
           "category": "Dishwashing",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "Public item-page evidence collected; partial"
         },
         {
           "category": "Disposable Tabletop",
@@ -587,9 +596,9 @@
         },
         {
           "category": "Food Wrap & Storage",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 2,
+          "added": 2,
+          "status": "Public item-page evidence collected; partial"
         },
         {
           "category": "Laundry Care",
@@ -605,9 +614,9 @@
         },
         {
           "category": "Paper Towels",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "Public item-page evidence collected; partial"
         },
         {
           "category": "Pest Control",
@@ -629,15 +638,15 @@
         },
         {
           "category": "Toilet Paper & Tissues",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 3,
+          "added": 3,
+          "status": "Public item-page evidence collected; partial"
         },
         {
           "category": "Trash Bags",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 2,
+          "added": 2,
+          "status": "Public item-page evidence collected; partial"
         }
       ],
       "sourceCheckedAt": "2026-11-01"
@@ -1057,14 +1066,24 @@
     },
     {
       "retailer": "H-E-B",
-      "collected": 24,
-      "added": 10,
-      "reviewStatus": "Additional evidence checked; partial",
-      "limitations": "10 additional cleaning-tool product-page records. The source cleaning-tools category reports 314 results for its selected store; this catalog captures only a subset. Remaining categories and pages incomplete.",
+      "collected": 34,
+      "added": 20,
+      "reviewStatus": "Public item-page evidence added; partial",
+      "limitations": "Public-source follow-up adds 10 exact item-page records with matched photos: air care, bathroom, dishwashing, tabletop, laundry, toilet paper and trash bags. Earlier tool records retained. Store context is Victoria H-E-B plus!; full inventory and pagination remain incomplete.",
       "sourcePages": [
         "https://www.heb.com/product-detail/clorox-toiletwand-disposable-toilet-cleaning-system-1-ct/1041825",
         "https://www.heb.com/product-detail/clorox-toiletwand-toilet-cleaning-refills-disinfecting-scrubbing-pads-10-ct/960249",
+        "https://www.heb.com/product-detail/febreze-trash-odor-fighter-freshener-starter-kit-fresh-clean/16292541",
+        "https://www.heb.com/product-detail/field-future-by-h-e-b-dishwasher-detergent-pacs-fragrance-free/15891026",
+        "https://www.heb.com/product-detail/h-e-b-10-in-seasonal-winter-paper-plates/16351578",
+        "https://www.heb.com/product-detail/h-e-b-liquid-dish-soap-winter-wonderland/16598045",
+        "https://www.heb.com/product-detail/h-e-b-mi-tienda-suavizante-liquid-fabric-softener-he-compatible-150-loads-country-sunrise/16627525",
+        "https://www.heb.com/product-detail/h-e-b-our-finest-ultra-soft-toilet-paper/2495089",
+        "https://www.heb.com/product-detail/h-e-b-our-finest-ultra-strong-toilet-paper/2495052",
+        "https://www.heb.com/product-detail/h-e-b-texas-tough-large-multipurpose-flex-trash-bags-33-gallon/5524059",
+        "https://www.heb.com/product-detail/h-e-b-texas-tough-tall-kitchen-flex-trash-bags-13-gallon-frosted-pine/16349743",
         "https://www.heb.com/product-detail/libman-extra-large-angle-broom-with-dustpan/2767509",
+        "https://www.heb.com/product-detail/lysol-power-toilet-bowl-cleaner/78082",
         "https://www.heb.com/product-detail/o-cedar-easywring-spin-mop-bucket-system/1901348",
         "https://www.heb.com/product-detail/o-cedar-easywring-spin-mop-microfiber-refill/1901353",
         "https://www.heb.com/product-detail/scrub-daddy-scratch-free-cleaning-tool/1924930",
@@ -1076,15 +1095,15 @@
       "categories": [
         {
           "category": "Air Care",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "Public item-page evidence collected; partial"
         },
         {
           "category": "Bathroom & Toilet Cleaning",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "Public item-page evidence collected; partial"
         },
         {
           "category": "Cleaning Tools",
@@ -1094,15 +1113,15 @@
         },
         {
           "category": "Dishwashing",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 2,
+          "added": 2,
+          "status": "Public item-page evidence collected; partial"
         },
         {
           "category": "Disposable Tabletop",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "Public item-page evidence collected; partial"
         },
         {
           "category": "Floor & Carpet Care",
@@ -1118,9 +1137,9 @@
         },
         {
           "category": "Laundry Care",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "Public item-page evidence collected; partial"
         },
         {
           "category": "Naturals",
@@ -1154,26 +1173,28 @@
         },
         {
           "category": "Toilet Paper & Tissues",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 2,
+          "added": 2,
+          "status": "Public item-page evidence collected; partial"
         },
         {
           "category": "Trash Bags",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 2,
+          "added": 2,
+          "status": "Public item-page evidence collected; partial"
         }
       ],
       "sourceCheckedAt": "2026-11-01"
     },
     {
       "retailer": "Home Depot",
-      "collected": 24,
-      "added": 0,
-      "reviewStatus": "Further source review required",
-      "limitations": "Earlier source access was denied; no new product evidence recovered. Existing records retained, full category audit remains outstanding.",
-      "sourcePages": [],
+      "collected": 25,
+      "added": 1,
+      "reviewStatus": "Public item-page evidence added; partial",
+      "limitations": "Public-source follow-up adds TERRO T300 indoor ant bait, 6-count, with its retailer product photo. Other categories and inventory enumeration remain incomplete.",
+      "sourcePages": [
+        "https://www.homedepot.com/p/TERRO-Indoor-Liquid-Ant-Killer-Baits-6-Count-T300/202532940"
+      ],
       "categories": [
         {
           "category": "Air Care",
@@ -1237,9 +1258,9 @@
         },
         {
           "category": "Pest Control",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "Public item-page evidence collected; partial"
         },
         {
           "category": "Specialty Cleaners",
@@ -1265,7 +1286,8 @@
           "added": 0,
           "status": "Further category research required"
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-01"
     },
     {
       "retailer": "Kroger",
@@ -2392,6 +2414,17 @@
     "productPagesChecked": 109,
     "newRecords": 107,
     "upgradedReferences": 2,
+    "coverageComplete": false
+  },
+  "latestPublicAudit": {
+    "date": "2026-11-01",
+    "newRecords": 20,
+    "byRetailer": {
+      "H-E-B": 10,
+      "BJ’s Wholesale": 9,
+      "Home Depot": 1
+    },
+    "method": "Public retailer pages and linked product images; no Firecrawl",
     "coverageComplete": false
   }
 }

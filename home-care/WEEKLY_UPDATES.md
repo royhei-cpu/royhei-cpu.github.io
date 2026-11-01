@@ -53,3 +53,7 @@ Read AUDIT_2026-11-01.md and site/catalog-review/audit-2026-11-01.json before th
 ## Amazon product-page follow-up — 1 November 2026
 
 107 new exact-ASIN listings and 2 upgraded indexed references, all with cached product-page photos. Current baseline: 9,377 total; 9,251 Home Care, 126 adjacent; Amazon 484 across all 15 Home Care categories. See `AMAZON_COVERAGE_2026-11-01.md`. Preserve part-031.json, upgrades in part-030.json, evidence controls and prior audit. Category representation does not establish exhaustive inventory. Prioritize remaining retailer/category gaps, seller/stock/price verification and 48 limited-evidence Amazon references.
+
+
+## Public sources preference and follow-up — 1 November 2026
+The user requested other public sources. Use public retailer product pages, official manufacturer evidence and standard web search/retrieval by default; do not require Firecrawl credits or use paid Firecrawl calls unless requested. Continue the Monday schedule. Current baseline: 9,397 records (9,271 Home Care, 126 adjacent). Preserve part-032.json and public-sources photo packs, plus all earlier Amazon upgrades and shards. This batch adds 20 item-page records and fills 13 gaps, leaving 62 empty retailer/category cells. See site/catalog-review/public-sources-audit-2026-11-01.json. Retrieval may be cached; keep price snapshots distinct from live checkout offers.

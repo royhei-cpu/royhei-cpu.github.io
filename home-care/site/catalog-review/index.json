@@ -32,9 +32,10 @@
     "part-028.json",
     "part-029.json",
     "part-030.json",
-    "part-031.json"
+    "part-031.json",
+    "part-032.json"
   ],
-  "added": 3046,
+  "added": 3066,
   "photoPacks": [
     "photos-001.json.gz",
     "photos-002.json.gz",
@@ -225,6 +226,14 @@
     "amazon-verified-20261101-11.json.gz",
     "amazon-verified-20261101-12.json.gz",
     "amazon-verified-20261101-13.json.gz",
-    "amazon-verified-20261101-14.json.gz"
+    "amazon-verified-20261101-14.json.gz",
+    "public-sources-20261101-01.json.gz",
+    "public-sources-20261101-02.json.gz",
+    "public-sources-20261101-03.json.gz",
+    "public-sources-20261101-04.json.gz",
+    "public-sources-20261101-05.json.gz",
+    "public-sources-20261101-06.json.gz",
+    "public-sources-20261101-07.json.gz",
+    "public-sources-20261101-08.json.gz"
   ]
 }
