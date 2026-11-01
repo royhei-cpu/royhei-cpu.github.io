@@ -44,3 +44,7 @@ Vercel and Sites are legacy backups; do not restore their catch-all proxy or mak
 ## Validation
 Check records/IDs preserved and valid categories. Test all 19 competitor options, category combinations, search, dates, sort, pagination, selection/deselection across pages, Clear selection, Reset and CSV contents. Verify images and video paths resolve within GitHub Pages without login.
 Only claim tests actually performed. Do not call collected listings complete retailer inventories.
+
+
+## 1 November evidence audit
+Read AUDIT_2026-11-01.md and site/catalog-review/audit-2026-11-01.json before the next refresh. Current retained total is 9,270 records, including 50 new indexed Amazon references whose live offers remain unverified. Preserve the Evidence filter, on-card evidence labels, absolute image-URL CSV column, new part-030.json and audit-photos packs. Upgrade indexed references only after checking exact item/pack, seller and offer evidence; do not silently label them verified. Continue all 76 currently uncollected retailer/category cells and audit repeated source URLs without deleting stable IDs or legitimate variants. Separate per-batch additions from full Monday–Sunday weekly additions. Never equate record totals or distinct source URLs with complete retailer inventory.

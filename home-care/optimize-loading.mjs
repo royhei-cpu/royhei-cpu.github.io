@@ -20,6 +20,12 @@ const weekStart=new Date(checkedAt+'T00:00:00Z');weekStart.setUTCDate(weekStart.
 const since=weekStart.toISOString().slice(0,10);
 const originalIds=new Set(items.map(d=>d.id));
 for(const d of additions){assert.ok(d.id&&d.name&&d.url&&d.image&&d.category&&d.retailer);if(!originalIds.has(d.id)){items.push(d);originalIds.add(d.id)}}
+// Keep reference records, but distinguish them from individual item-page evidence.
+for(const d of items){
+ const u=new URL(d.url);
+ const broad=/\/(?:s|clp|b|browse|category|categories|collections|search|zgbs)(?:\/|$)/i.test(u.pathname)||u.searchParams.has('k')||u.searchParams.has('rh');
+ d.evidenceLevel=d.evidenceLevel||(broad?'Search / category reference':/indexed|access issue|metadata/i.test(d.verificationStatus||'')?'Indexed / limited evidence':'Individual item link');
+}
 assert.ok(items.length>=6265, "Existing catalog records must be preserved");
 const keys=[...new Set(items.flatMap(Object.keys))],pool=[],lookup=new Map();
 const rows=items.map(item=>keys.map(k=>{if(!Object.hasOwn(item,k))return -1;const v=item[k],signature=JSON.stringify(v);if(!lookup.has(signature)){lookup.set(signature,pool.length);pool.push(v)}return lookup.get(signature)}));
@@ -28,6 +34,18 @@ assert.deepEqual(decoded,items);
 const packed=JSON.stringify({keys,pool,rows}).replaceAll('<','\\u003c');
 const expression='(()=>{const p='+packed+';return p.rows.map(r=>Object.fromEntries(p.keys.flatMap((k,i)=>r[i]<0?[]:[[k,p.pool[r[i]]]])))})()';
 html=html.slice(0,start)+expression+html.slice(end);
+// Remove a copied legacy-host challenge script; it does not belong to GitHub Pages.
+html=html.replace(/<script>\(function\(\)\{function c\(\)\{var b=a\.contentDocument[\s\S]*?<\/script>/g,'');
+html=html.replace("const filters=['brand'", `const evidenceField=document.createElement('label');evidenceField.innerHTML='Evidence<select id="evidence-level"><option value="all">All evidence</option><option>Individual item link</option><option>Indexed / limited evidence</option><option>Search / category reference</option></select>';$('verification').parentElement.after(evidenceField);
+const filters=['evidence-level','brand'`);
+html=html.replace("[['brand','brand']", "[['evidence-level','evidenceLevel'],['brand','brand']");
+html=html.replace("const body=c.querySelector('.body'),facts=c.querySelector('.card-facts');", `const body=c.querySelector('.body'),facts=c.querySelector('.card-facts');
+ const evidence=document.createElement('p');evidence.className='scope-label';evidence.textContent=d.evidenceLevel+(d.evidenceLevel==='Individual item link'?' · availability varies':' · current offer unverified');info.prepend(evidence);`);
+html=html.replace("details.prepend(dates);", `details.prepend(dates);const proof=document.createElement('p');proof.textContent=d.verificationNote||d.evidence||'';details.append(proof);`);
+html=html.replace("'photoVerification','url','listingSource'", "'photoVerification','image','evidenceLevel','verificationStatus','checkedDate','url','listingSource'");
+html=html.replace("photoVerification:'Photo note'", "image:'Product image URL',evidenceLevel:'Evidence level',verificationStatus:'Verification status',checkedDate:'Source checked date',photoVerification:'Photo note'");
+html=html.replace("quote((f==='salesPeriod'", "quote(f==='image'?new URL(d.image||cached.get(d.id)?.querySelector('img')?.getAttribute('src')||'',location.href).href:(f==='salesPeriod'");
+html=html.replace(".toLocaleString()+' '+(rows.length===1?'item':'items')", ".toLocaleString()+' '+(rows.length===1?'record':'records')");
 const original=html.match(/<template id="original-cards">([\s\S]*?)<\/template>/)[1];
 const images=new Map([...original.matchAll(/<article[^>]*data-id="([^"]+)"[^>]*>[\s\S]*?<img[^>]*src="([^"]+)"/g)].map(m=>[m[1],m[2]]));
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -42,7 +60,7 @@ assert.equal((html.match(/id="catalog-loading"/g)||[]).length,1);
 html=html.replace('</head>','<link rel="stylesheet" href="/home-care/weekly-dashboard.css">\n</head>').replace('</body>','<script src="/home-care/weekly-dashboard.js"></script>\n</body>');
 const counts=Object.fromEntries([...new Set(items.map(d=>d.retailer))].map(r=>[r,items.filter(d=>d.retailer===r).length]));
 html=html.replace('U.S. HOME CARE · 27 OCTOBER 2026','U.S. HOME CARE · UPDATED '+checkedAt);
-html=html.replace(/6,265 items/g,items.length.toLocaleString('en-US')+' items');
+html=html.replace(/6,265 items/g,items.length.toLocaleString('en-US')+' records');
 html=html.replace(/(<script[^>]*id="weekly-data"[^>]*>)([\s\S]*?)(<\/script>)/,(_,a,j,b)=>{const w=JSON.parse(j);w.checkedAt=checkedAt;w.newItemIds=additions.filter(d=>d.datePosted>=since&&d.datePosted<=checkedAt).map(d=>d.id);return a+JSON.stringify(w)+b});
 html=html.replace('Checked 27 October 2026.',"Checked '+esc(d.checkedDate||'2026-10-27')+'.");
 html=html.replace('const COVERAGE=', 'const COVERAGE=');
@@ -54,4 +72,5 @@ html=html.replace('No matching products.', 'No collected listings match these fi
 for(const asset of ['weekly-dashboard.js','weekly-dashboard.css','opportunities.js','opportunities.css']){const source=path.join(path.dirname(file),asset);if(fs.existsSync(source)){const version=crypto.createHash('sha256').update(fs.readFileSync(source)).digest('hex').slice(0,12);html=html.replaceAll('/home-care/'+asset,'/home-care/'+asset+'?v='+version)}}
 fs.writeFileSync(file,html);
 console.log(JSON.stringify({records:items.length,initialCards:first.length,bytes:Buffer.byteLength(html),originalDataBytes:end-start,packedDataBytes:Buffer.byteLength(expression),lossless:true}));
+
 

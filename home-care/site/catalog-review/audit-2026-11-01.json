@@ -1,0 +1,568 @@
+{
+  "date": "2026-11-01",
+  "baselineRecords": 9183,
+  "newRecords": 87,
+  "totalRecords": 9270,
+  "newByRetailer": {
+    "Amazon US": 50,
+    "BJ’s Wholesale": 20,
+    "H-E-B": 10,
+    "Dollar Tree": 7
+  },
+  "filterCombinationsCheckedBeforeUpdate": 285,
+  "filterFailuresBeforeUpdate": 0,
+  "emptyCategoryCellsBeforeUpdate": 84,
+  "scope": "Retained records and source coverage, not complete inventories",
+  "retailers": [
+    {
+      "retailer": "Ace Hardware",
+      "records": 3902,
+      "distinctSourceURLs": 3867,
+      "repeatedURLRecords": 35,
+      "uncollectedCategories": [
+        "Disposable Tabletop",
+        "Pest Control",
+        "Trash Bags"
+      ],
+      "catalogCategories": {
+        "Air Care": 259,
+        "Bathroom & Toilet Cleaning": 189,
+        "Cleaning Tools": 1963,
+        "Dishwashing": 101,
+        "Disposable Tabletop": 0,
+        "Floor & Carpet Care": 208,
+        "Food Wrap & Storage": 313,
+        "Laundry Care": 5,
+        "Naturals": 1,
+        "Paper Towels": 69,
+        "Pest Control": 0,
+        "Specialty Cleaners": 233,
+        "Surface Cleaners": 470,
+        "Toilet Paper & Tissues": 70,
+        "Trash Bags": 0
+      }
+    },
+    {
+      "retailer": "Albertsons",
+      "records": 60,
+      "distinctSourceURLs": 60,
+      "repeatedURLRecords": 0,
+      "uncollectedCategories": [
+        "Pest Control",
+        "Trash Bags"
+      ],
+      "catalogCategories": {
+        "Air Care": 1,
+        "Bathroom & Toilet Cleaning": 2,
+        "Cleaning Tools": 22,
+        "Dishwashing": 9,
+        "Disposable Tabletop": 2,
+        "Floor & Carpet Care": 1,
+        "Food Wrap & Storage": 1,
+        "Laundry Care": 5,
+        "Naturals": 3,
+        "Paper Towels": 2,
+        "Pest Control": 0,
+        "Specialty Cleaners": 1,
+        "Surface Cleaners": 8,
+        "Toilet Paper & Tissues": 3,
+        "Trash Bags": 0
+      }
+    },
+    {
+      "retailer": "Amazon US",
+      "records": 377,
+      "distinctSourceURLs": 369,
+      "repeatedURLRecords": 8,
+      "uncollectedCategories": [
+        "Pest Control"
+      ],
+      "catalogCategories": {
+        "Air Care": 52,
+        "Bathroom & Toilet Cleaning": 9,
+        "Cleaning Tools": 54,
+        "Dishwashing": 70,
+        "Disposable Tabletop": 16,
+        "Floor & Carpet Care": 2,
+        "Food Wrap & Storage": 2,
+        "Laundry Care": 61,
+        "Naturals": 1,
+        "Paper Towels": 30,
+        "Pest Control": 0,
+        "Specialty Cleaners": 2,
+        "Surface Cleaners": 23,
+        "Toilet Paper & Tissues": 38,
+        "Trash Bags": 17
+      }
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "records": 23,
+      "distinctSourceURLs": 23,
+      "repeatedURLRecords": 0,
+      "uncollectedCategories": [
+        "Bathroom & Toilet Cleaning",
+        "Dishwashing",
+        "Food Wrap & Storage",
+        "Naturals",
+        "Paper Towels",
+        "Pest Control",
+        "Toilet Paper & Tissues",
+        "Trash Bags"
+      ],
+      "catalogCategories": {
+        "Air Care": 4,
+        "Bathroom & Toilet Cleaning": 0,
+        "Cleaning Tools": 7,
+        "Dishwashing": 0,
+        "Disposable Tabletop": 1,
+        "Floor & Carpet Care": 1,
+        "Food Wrap & Storage": 0,
+        "Laundry Care": 2,
+        "Naturals": 0,
+        "Paper Towels": 0,
+        "Pest Control": 0,
+        "Specialty Cleaners": 2,
+        "Surface Cleaners": 6,
+        "Toilet Paper & Tissues": 0,
+        "Trash Bags": 0
+      }
+    },
+    {
+      "retailer": "CVS",
+      "records": 331,
+      "distinctSourceURLs": 295,
+      "repeatedURLRecords": 36,
+      "uncollectedCategories": [
+        "Pest Control"
+      ],
+      "catalogCategories": {
+        "Air Care": 56,
+        "Bathroom & Toilet Cleaning": 22,
+        "Cleaning Tools": 41,
+        "Dishwashing": 31,
+        "Disposable Tabletop": 19,
+        "Floor & Carpet Care": 7,
+        "Food Wrap & Storage": 31,
+        "Laundry Care": 15,
+        "Naturals": 2,
+        "Paper Towels": 28,
+        "Pest Control": 0,
+        "Specialty Cleaners": 21,
+        "Surface Cleaners": 42,
+        "Toilet Paper & Tissues": 10,
+        "Trash Bags": 6
+      }
+    },
+    {
+      "retailer": "Costco",
+      "records": 128,
+      "distinctSourceURLs": 98,
+      "repeatedURLRecords": 30,
+      "uncollectedCategories": [
+        "Pest Control",
+        "Specialty Cleaners",
+        "Toilet Paper & Tissues",
+        "Trash Bags"
+      ],
+      "catalogCategories": {
+        "Air Care": 6,
+        "Bathroom & Toilet Cleaning": 4,
+        "Cleaning Tools": 33,
+        "Dishwashing": 8,
+        "Disposable Tabletop": 4,
+        "Floor & Carpet Care": 8,
+        "Food Wrap & Storage": 4,
+        "Laundry Care": 18,
+        "Naturals": 4,
+        "Paper Towels": 11,
+        "Pest Control": 0,
+        "Specialty Cleaners": 0,
+        "Surface Cleaners": 14,
+        "Toilet Paper & Tissues": 0,
+        "Trash Bags": 0
+      }
+    },
+    {
+      "retailer": "Dollar General",
+      "records": 328,
+      "distinctSourceURLs": 322,
+      "repeatedURLRecords": 6,
+      "uncollectedCategories": [
+        "Naturals"
+      ],
+      "catalogCategories": {
+        "Air Care": 46,
+        "Bathroom & Toilet Cleaning": 9,
+        "Cleaning Tools": 28,
+        "Dishwashing": 37,
+        "Disposable Tabletop": 29,
+        "Floor & Carpet Care": 8,
+        "Food Wrap & Storage": 24,
+        "Laundry Care": 31,
+        "Naturals": 0,
+        "Paper Towels": 20,
+        "Pest Control": 17,
+        "Specialty Cleaners": 3,
+        "Surface Cleaners": 47,
+        "Toilet Paper & Tissues": 4,
+        "Trash Bags": 24
+      }
+    },
+    {
+      "retailer": "Dollar Tree",
+      "records": 15,
+      "distinctSourceURLs": 15,
+      "repeatedURLRecords": 0,
+      "uncollectedCategories": [
+        "Air Care",
+        "Disposable Tabletop",
+        "Floor & Carpet Care",
+        "Food Wrap & Storage",
+        "Naturals",
+        "Pest Control",
+        "Toilet Paper & Tissues"
+      ],
+      "catalogCategories": {
+        "Air Care": 0,
+        "Bathroom & Toilet Cleaning": 1,
+        "Cleaning Tools": 1,
+        "Dishwashing": 2,
+        "Disposable Tabletop": 0,
+        "Floor & Carpet Care": 0,
+        "Food Wrap & Storage": 0,
+        "Laundry Care": 1,
+        "Naturals": 0,
+        "Paper Towels": 1,
+        "Pest Control": 0,
+        "Specialty Cleaners": 1,
+        "Surface Cleaners": 6,
+        "Toilet Paper & Tissues": 0,
+        "Trash Bags": 2
+      }
+    },
+    {
+      "retailer": "H-E-B",
+      "records": 24,
+      "distinctSourceURLs": 24,
+      "repeatedURLRecords": 0,
+      "uncollectedCategories": [
+        "Air Care",
+        "Bathroom & Toilet Cleaning",
+        "Dishwashing",
+        "Disposable Tabletop",
+        "Floor & Carpet Care",
+        "Laundry Care",
+        "Pest Control",
+        "Specialty Cleaners",
+        "Toilet Paper & Tissues",
+        "Trash Bags"
+      ],
+      "catalogCategories": {
+        "Air Care": 0,
+        "Bathroom & Toilet Cleaning": 0,
+        "Cleaning Tools": 10,
+        "Dishwashing": 0,
+        "Disposable Tabletop": 0,
+        "Floor & Carpet Care": 0,
+        "Food Wrap & Storage": 6,
+        "Laundry Care": 0,
+        "Naturals": 3,
+        "Paper Towels": 4,
+        "Pest Control": 0,
+        "Specialty Cleaners": 0,
+        "Surface Cleaners": 1,
+        "Toilet Paper & Tissues": 0,
+        "Trash Bags": 0
+      }
+    },
+    {
+      "retailer": "Home Depot",
+      "records": 24,
+      "distinctSourceURLs": 10,
+      "repeatedURLRecords": 14,
+      "uncollectedCategories": [
+        "Air Care",
+        "Dishwashing",
+        "Disposable Tabletop",
+        "Food Wrap & Storage",
+        "Paper Towels",
+        "Pest Control",
+        "Toilet Paper & Tissues",
+        "Trash Bags"
+      ],
+      "catalogCategories": {
+        "Air Care": 0,
+        "Bathroom & Toilet Cleaning": 2,
+        "Cleaning Tools": 2,
+        "Dishwashing": 0,
+        "Disposable Tabletop": 0,
+        "Floor & Carpet Care": 11,
+        "Food Wrap & Storage": 0,
+        "Laundry Care": 1,
+        "Naturals": 1,
+        "Paper Towels": 0,
+        "Pest Control": 0,
+        "Specialty Cleaners": 2,
+        "Surface Cleaners": 5,
+        "Toilet Paper & Tissues": 0,
+        "Trash Bags": 0
+      }
+    },
+    {
+      "retailer": "Kroger",
+      "records": 162,
+      "distinctSourceURLs": 148,
+      "repeatedURLRecords": 14,
+      "uncollectedCategories": [
+        "Bathroom & Toilet Cleaning",
+        "Floor & Carpet Care",
+        "Pest Control",
+        "Specialty Cleaners"
+      ],
+      "catalogCategories": {
+        "Air Care": 3,
+        "Bathroom & Toilet Cleaning": 0,
+        "Cleaning Tools": 1,
+        "Dishwashing": 8,
+        "Disposable Tabletop": 3,
+        "Floor & Carpet Care": 0,
+        "Food Wrap & Storage": 24,
+        "Laundry Care": 39,
+        "Naturals": 1,
+        "Paper Towels": 40,
+        "Pest Control": 0,
+        "Specialty Cleaners": 0,
+        "Surface Cleaners": 1,
+        "Toilet Paper & Tissues": 15,
+        "Trash Bags": 27
+      }
+    },
+    {
+      "retailer": "Lowe’s",
+      "records": 121,
+      "distinctSourceURLs": 92,
+      "repeatedURLRecords": 29,
+      "uncollectedCategories": [
+        "Disposable Tabletop",
+        "Food Wrap & Storage",
+        "Pest Control",
+        "Specialty Cleaners"
+      ],
+      "catalogCategories": {
+        "Air Care": 24,
+        "Bathroom & Toilet Cleaning": 14,
+        "Cleaning Tools": 9,
+        "Dishwashing": 2,
+        "Disposable Tabletop": 0,
+        "Floor & Carpet Care": 13,
+        "Food Wrap & Storage": 0,
+        "Laundry Care": 4,
+        "Naturals": 2,
+        "Paper Towels": 7,
+        "Pest Control": 0,
+        "Specialty Cleaners": 0,
+        "Surface Cleaners": 40,
+        "Toilet Paper & Tissues": 3,
+        "Trash Bags": 3
+      }
+    },
+    {
+      "retailer": "Meijer",
+      "records": 1409,
+      "distinctSourceURLs": 1409,
+      "repeatedURLRecords": 0,
+      "uncollectedCategories": [
+        "Pest Control"
+      ],
+      "catalogCategories": {
+        "Air Care": 158,
+        "Bathroom & Toilet Cleaning": 32,
+        "Cleaning Tools": 151,
+        "Dishwashing": 116,
+        "Disposable Tabletop": 184,
+        "Floor & Carpet Care": 49,
+        "Food Wrap & Storage": 52,
+        "Laundry Care": 224,
+        "Naturals": 84,
+        "Paper Towels": 31,
+        "Pest Control": 0,
+        "Specialty Cleaners": 40,
+        "Surface Cleaners": 143,
+        "Toilet Paper & Tissues": 89,
+        "Trash Bags": 51
+      }
+    },
+    {
+      "retailer": "Publix",
+      "records": 15,
+      "distinctSourceURLs": 15,
+      "repeatedURLRecords": 0,
+      "uncollectedCategories": [
+        "Air Care",
+        "Bathroom & Toilet Cleaning",
+        "Food Wrap & Storage",
+        "Naturals",
+        "Paper Towels",
+        "Pest Control",
+        "Specialty Cleaners",
+        "Toilet Paper & Tissues",
+        "Trash Bags"
+      ],
+      "catalogCategories": {
+        "Air Care": 0,
+        "Bathroom & Toilet Cleaning": 0,
+        "Cleaning Tools": 1,
+        "Dishwashing": 6,
+        "Disposable Tabletop": 1,
+        "Floor & Carpet Care": 1,
+        "Food Wrap & Storage": 0,
+        "Laundry Care": 4,
+        "Naturals": 0,
+        "Paper Towels": 0,
+        "Pest Control": 0,
+        "Specialty Cleaners": 0,
+        "Surface Cleaners": 2,
+        "Toilet Paper & Tissues": 0,
+        "Trash Bags": 0
+      }
+    },
+    {
+      "retailer": "Safeway",
+      "records": 39,
+      "distinctSourceURLs": 39,
+      "repeatedURLRecords": 0,
+      "uncollectedCategories": [
+        "Air Care",
+        "Disposable Tabletop",
+        "Floor & Carpet Care",
+        "Food Wrap & Storage",
+        "Pest Control",
+        "Toilet Paper & Tissues",
+        "Trash Bags"
+      ],
+      "catalogCategories": {
+        "Air Care": 0,
+        "Bathroom & Toilet Cleaning": 2,
+        "Cleaning Tools": 17,
+        "Dishwashing": 3,
+        "Disposable Tabletop": 0,
+        "Floor & Carpet Care": 0,
+        "Food Wrap & Storage": 0,
+        "Laundry Care": 4,
+        "Naturals": 4,
+        "Paper Towels": 1,
+        "Pest Control": 0,
+        "Specialty Cleaners": 1,
+        "Surface Cleaners": 7,
+        "Toilet Paper & Tissues": 0,
+        "Trash Bags": 0
+      }
+    },
+    {
+      "retailer": "Sam’s Club",
+      "records": 562,
+      "distinctSourceURLs": 545,
+      "repeatedURLRecords": 17,
+      "uncollectedCategories": [
+        "Naturals"
+      ],
+      "catalogCategories": {
+        "Air Care": 83,
+        "Bathroom & Toilet Cleaning": 9,
+        "Cleaning Tools": 60,
+        "Dishwashing": 22,
+        "Disposable Tabletop": 88,
+        "Floor & Carpet Care": 8,
+        "Food Wrap & Storage": 57,
+        "Laundry Care": 80,
+        "Naturals": 0,
+        "Paper Towels": 11,
+        "Pest Control": 2,
+        "Specialty Cleaners": 16,
+        "Surface Cleaners": 29,
+        "Toilet Paper & Tissues": 14,
+        "Trash Bags": 24
+      }
+    },
+    {
+      "retailer": "TikTok Shop",
+      "records": 929,
+      "distinctSourceURLs": 896,
+      "repeatedURLRecords": 33,
+      "uncollectedCategories": [],
+      "catalogCategories": {
+        "Air Care": 103,
+        "Bathroom & Toilet Cleaning": 14,
+        "Cleaning Tools": 79,
+        "Dishwashing": 13,
+        "Disposable Tabletop": 6,
+        "Floor & Carpet Care": 7,
+        "Food Wrap & Storage": 112,
+        "Laundry Care": 126,
+        "Naturals": 19,
+        "Paper Towels": 10,
+        "Pest Control": 123,
+        "Specialty Cleaners": 4,
+        "Surface Cleaners": 31,
+        "Toilet Paper & Tissues": 101,
+        "Trash Bags": 162
+      }
+    },
+    {
+      "retailer": "Walgreens",
+      "records": 136,
+      "distinctSourceURLs": 133,
+      "repeatedURLRecords": 3,
+      "uncollectedCategories": [
+        "Naturals",
+        "Paper Towels",
+        "Pest Control",
+        "Toilet Paper & Tissues",
+        "Trash Bags"
+      ],
+      "catalogCategories": {
+        "Air Care": 2,
+        "Bathroom & Toilet Cleaning": 17,
+        "Cleaning Tools": 39,
+        "Dishwashing": 14,
+        "Disposable Tabletop": 3,
+        "Floor & Carpet Care": 9,
+        "Food Wrap & Storage": 18,
+        "Laundry Care": 2,
+        "Naturals": 0,
+        "Paper Towels": 0,
+        "Pest Control": 0,
+        "Specialty Cleaners": 7,
+        "Surface Cleaners": 25,
+        "Toilet Paper & Tissues": 0,
+        "Trash Bags": 0
+      }
+    },
+    {
+      "retailer": "Walmart",
+      "records": 685,
+      "distinctSourceURLs": 670,
+      "repeatedURLRecords": 15,
+      "uncollectedCategories": [],
+      "catalogCategories": {
+        "Air Care": 77,
+        "Bathroom & Toilet Cleaning": 50,
+        "Cleaning Tools": 113,
+        "Dishwashing": 66,
+        "Disposable Tabletop": 27,
+        "Floor & Carpet Care": 22,
+        "Food Wrap & Storage": 19,
+        "Laundry Care": 44,
+        "Naturals": 10,
+        "Paper Towels": 14,
+        "Pest Control": 43,
+        "Specialty Cleaners": 45,
+        "Surface Cleaners": 138,
+        "Toilet Paper & Tissues": 15,
+        "Trash Bags": 2
+      }
+    }
+  ],
+  "emptyCategoryCellsAfterUpdate": 76
+}
