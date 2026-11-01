@@ -31,9 +31,10 @@
     "part-027.json",
     "part-028.json",
     "part-029.json",
-    "part-030.json"
+    "part-030.json",
+    "part-031.json"
   ],
-  "added": 2939,
+  "added": 3046,
   "photoPacks": [
     "photos-001.json.gz",
     "photos-002.json.gz",
@@ -210,6 +211,20 @@
     "audit-photos-032.json.gz",
     "audit-photos-033.json.gz",
     "audit-photos-034.json.gz",
-    "audit-photos-035.json.gz"
+    "audit-photos-035.json.gz",
+    "amazon-verified-20261101-01.json.gz",
+    "amazon-verified-20261101-02.json.gz",
+    "amazon-verified-20261101-03.json.gz",
+    "amazon-verified-20261101-04.json.gz",
+    "amazon-verified-20261101-05.json.gz",
+    "amazon-verified-20261101-06.json.gz",
+    "amazon-verified-20261101-07.json.gz",
+    "amazon-verified-20261101-08.json.gz",
+    "amazon-verified-20261101-09.json.gz",
+    "amazon-verified-20261101-10.json.gz",
+    "amazon-verified-20261101-11.json.gz",
+    "amazon-verified-20261101-12.json.gz",
+    "amazon-verified-20261101-13.json.gz",
+    "amazon-verified-20261101-14.json.gz"
   ]
 }

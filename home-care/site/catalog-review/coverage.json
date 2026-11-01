@@ -2,8 +2,8 @@
   "reviewedAt": "2026-11-01",
   "sourceCheckedAt": "2026-11-01",
   "baseline": 6331,
-  "added": 2939,
-  "total": 9270,
+  "added": 3046,
+  "total": 9377,
   "scope": "Collected public listings; no full retailer inventory claim",
   "retailers": [
     {
@@ -261,10 +261,10 @@
     },
     {
       "retailer": "Amazon US",
-      "collected": 377,
-      "added": 50,
-      "reviewStatus": "Additional evidence checked; partial",
-      "limitations": "50 additional indexed ASIN references with matched thumbnails, sourced 31 October. Current offers, sellers, stock, prices and exact packs unverified. Direct Amazon retrieval was unavailable in this audit. Pest control and food storage still need deeper coverage.",
+      "collected": 484,
+      "added": 157,
+      "reviewStatus": "Product pages checked; partial inventory coverage",
+      "limitations": "107 additional exact-ASIN product pages and photos checked 1 November; 2 earlier indexed references upgraded. 484 collected listings across all 15 Home Care categories. Full inventory, seller offers, stock and regular checkout prices remain unverified. Search pages returned service errors; 48 earlier indexed references remain limited evidence.",
       "sourcePages": [
         "https://www.amazon.com/clp/B0014EAPGA",
         "https://www.amazon.com/clp/B001KFWJJ4",
@@ -315,101 +315,210 @@
         "https://www.amazon.com/clp/B0FM2YH81M",
         "https://www.amazon.com/clp/B0FN5154SV",
         "https://www.amazon.com/clp/B0G228Y2M9",
-        "https://www.amazon.com/clp/B0G4ZYK464"
+        "https://www.amazon.com/clp/B0G4ZYK464",
+        "https://www.amazon.com/dp/B00007J6CX",
+        "https://www.amazon.com/dp/B000ARPVIY",
+        "https://www.amazon.com/dp/B000BQT5IG",
+        "https://www.amazon.com/dp/B000KL1LDE",
+        "https://www.amazon.com/dp/B000S5VEA2",
+        "https://www.amazon.com/dp/B000V6YLNA",
+        "https://www.amazon.com/dp/B00119UGEE",
+        "https://www.amazon.com/dp/B0013FMNCE",
+        "https://www.amazon.com/dp/B0014D0T9E",
+        "https://www.amazon.com/dp/B0014D5NVS",
+        "https://www.amazon.com/dp/B001ACMBJK",
+        "https://www.amazon.com/dp/B00279LYL6",
+        "https://www.amazon.com/dp/B00360DG9S",
+        "https://www.amazon.com/dp/B0036QO8M6",
+        "https://www.amazon.com/dp/B003UEGZNE",
+        "https://www.amazon.com/dp/B00555EWJU",
+        "https://www.amazon.com/dp/B005GPJCHQ",
+        "https://www.amazon.com/dp/B005ITAWEC",
+        "https://www.amazon.com/dp/B007AHO6CO",
+        "https://www.amazon.com/dp/B007E83LUM",
+        "https://www.amazon.com/dp/B009R8BBF4",
+        "https://www.amazon.com/dp/B00B28ZYPU",
+        "https://www.amazon.com/dp/B00B9CTFWW",
+        "https://www.amazon.com/dp/B00BFC5HE6",
+        "https://www.amazon.com/dp/B00BFUSDO4",
+        "https://www.amazon.com/dp/B00D600PLA",
+        "https://www.amazon.com/dp/B00E4GACB8",
+        "https://www.amazon.com/dp/B00EME5KZ0",
+        "https://www.amazon.com/dp/B00HG1GGGS",
+        "https://www.amazon.com/dp/B00JLHNQ90",
+        "https://www.amazon.com/dp/B00JUDE5IG",
+        "https://www.amazon.com/dp/B00KKC6C2I",
+        "https://www.amazon.com/dp/B00LOQD5LA",
+        "https://www.amazon.com/dp/B00M8ZEAW4",
+        "https://www.amazon.com/dp/B00NES7LMU",
+        "https://www.amazon.com/dp/B00QIT9K94",
+        "https://www.amazon.com/dp/B014P0K2A8",
+        "https://www.amazon.com/dp/B015VBOE1S",
+        "https://www.amazon.com/dp/B01BZ0N69U",
+        "https://www.amazon.com/dp/B01DIOY0S2",
+        "https://www.amazon.com/dp/B01EIG6A4Q",
+        "https://www.amazon.com/dp/B01MRHXM0I",
+        "https://www.amazon.com/dp/B01N0TGJHB",
+        "https://www.amazon.com/dp/B0748J34WZ",
+        "https://www.amazon.com/dp/B074H73HP2",
+        "https://www.amazon.com/dp/B074H73J1Q",
+        "https://www.amazon.com/dp/B074H78XRY",
+        "https://www.amazon.com/dp/B074PY4Y8Y",
+        "https://www.amazon.com/dp/B079Z6MJB1",
+        "https://www.amazon.com/dp/B07JBRJH79",
+        "https://www.amazon.com/dp/B07JGH35XZ",
+        "https://www.amazon.com/dp/B07MF3DY3C",
+        "https://www.amazon.com/dp/B07PXDFSNL",
+        "https://www.amazon.com/dp/B07QPRV62S",
+        "https://www.amazon.com/dp/B07RHTQP68",
+        "https://www.amazon.com/dp/B07T869RNY",
+        "https://www.amazon.com/dp/B07T9C5CQR",
+        "https://www.amazon.com/dp/B07VH667FV",
+        "https://www.amazon.com/dp/B07VQM78DM",
+        "https://www.amazon.com/dp/B07WD9PF7T",
+        "https://www.amazon.com/dp/B07WHJW3FR",
+        "https://www.amazon.com/dp/B07ZGHZVRY",
+        "https://www.amazon.com/dp/B08492F6Y9",
+        "https://www.amazon.com/dp/B08492PZ8Y",
+        "https://www.amazon.com/dp/B085V5PPP8",
+        "https://www.amazon.com/dp/B08QTXPR9G",
+        "https://www.amazon.com/dp/B08RFC3VH7",
+        "https://www.amazon.com/dp/B093WMWKBP",
+        "https://www.amazon.com/dp/B093WNNDLD",
+        "https://www.amazon.com/dp/B093WS3YGV",
+        "https://www.amazon.com/dp/B093X4M4QF",
+        "https://www.amazon.com/dp/B0953XG36F",
+        "https://www.amazon.com/dp/B095PL2MPZ",
+        "https://www.amazon.com/dp/B097F7XJM1",
+        "https://www.amazon.com/dp/B09B1QWDCY",
+        "https://www.amazon.com/dp/B09CD6Z7GB",
+        "https://www.amazon.com/dp/B09F8PHR1L",
+        "https://www.amazon.com/dp/B09KTW8731",
+        "https://www.amazon.com/dp/B09PZLN5ZF",
+        "https://www.amazon.com/dp/B09S4T74JD",
+        "https://www.amazon.com/dp/B09Z2LFBJC",
+        "https://www.amazon.com/dp/B0B3SJ8WTT",
+        "https://www.amazon.com/dp/B0BBPNPZTC",
+        "https://www.amazon.com/dp/B0BMF11RVJ",
+        "https://www.amazon.com/dp/B0BSNXFDML",
+        "https://www.amazon.com/dp/B0BYLN716Y",
+        "https://www.amazon.com/dp/B0C1DWC251",
+        "https://www.amazon.com/dp/B0C2CY22B8",
+        "https://www.amazon.com/dp/B0C2D1ZH9M",
+        "https://www.amazon.com/dp/B0C2D2P54Y",
+        "https://www.amazon.com/dp/B0C3FTCYZL",
+        "https://www.amazon.com/dp/B0C3WM5G7H",
+        "https://www.amazon.com/dp/B0CGW6XZGT",
+        "https://www.amazon.com/dp/B0CGWF2BRF",
+        "https://www.amazon.com/dp/B0CH92KWTG",
+        "https://www.amazon.com/dp/B0CJHCXS4V",
+        "https://www.amazon.com/dp/B0CK9RZGDX",
+        "https://www.amazon.com/dp/B0CNJVRFMX",
+        "https://www.amazon.com/dp/B0CP4HBLB2",
+        "https://www.amazon.com/dp/B0CTKVBS6G",
+        "https://www.amazon.com/dp/B0D3FLH435",
+        "https://www.amazon.com/dp/B0D5RMVMWF",
+        "https://www.amazon.com/dp/B0DGN26QNF",
+        "https://www.amazon.com/dp/B0DGN9C8QF",
+        "https://www.amazon.com/dp/B0DN7Z7P17",
+        "https://www.amazon.com/dp/B0DN8C9MTN",
+        "https://www.amazon.com/dp/B0DPXT5433",
+        "https://www.amazon.com/dp/B0FFCT17PS",
+        "https://www.amazon.com/dp/B0FLFR269F"
       ],
       "categories": [
         {
           "category": "Air Care",
-          "collected": 52,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 61,
+          "added": 9,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Bathroom & Toilet Cleaning",
-          "collected": 9,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 14,
+          "added": 5,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Cleaning Tools",
-          "collected": 54,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 58,
+          "added": 4,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Dishwashing",
-          "collected": 70,
-          "added": 3,
-          "status": "Indexed references added; offer unverified"
+          "collected": 72,
+          "added": 5,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Disposable Tabletop",
-          "collected": 16,
-          "added": 12,
-          "status": "Indexed references added; offer unverified"
+          "collected": 23,
+          "added": 19,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Floor & Carpet Care",
-          "collected": 2,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 7,
+          "added": 5,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Food Wrap & Storage",
-          "collected": 2,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 29,
+          "added": 27,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Laundry Care",
-          "collected": 61,
-          "added": 6,
-          "status": "Indexed references added; offer unverified"
+          "collected": 66,
+          "added": 11,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Naturals",
-          "collected": 1,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 5,
+          "added": 4,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Paper Towels",
-          "collected": 30,
-          "added": 14,
-          "status": "Indexed references added; offer unverified"
+          "collected": 32,
+          "added": 16,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Pest Control",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 15,
+          "added": 15,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Specialty Cleaners",
-          "collected": 2,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 11,
+          "added": 9,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Surface Cleaners",
-          "collected": 23,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 29,
+          "added": 6,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Toilet Paper & Tissues",
-          "collected": 38,
-          "added": 3,
-          "status": "Indexed references added; offer unverified"
+          "collected": 40,
+          "added": 5,
+          "status": "Additional product pages checked; inventory incomplete"
         },
         {
           "category": "Trash Bags",
-          "collected": 17,
-          "added": 12,
-          "status": "Indexed references added; offer unverified"
+          "collected": 22,
+          "added": 17,
+          "status": "Additional product pages checked; inventory incomplete"
         }
       ],
-      "sourceCheckedAt": "2026-10-31"
+      "sourceCheckedAt": "2026-11-01"
     },
     {
       "retailer": "BJ’s Wholesale",
@@ -2276,6 +2385,13 @@
     "newRecords": 87,
     "itemPageRecords": 37,
     "indexedReferences": 50,
+    "coverageComplete": false
+  },
+  "latestAmazonAudit": {
+    "date": "2026-11-01",
+    "productPagesChecked": 109,
+    "newRecords": 107,
+    "upgradedReferences": 2,
     "coverageComplete": false
   }
 }

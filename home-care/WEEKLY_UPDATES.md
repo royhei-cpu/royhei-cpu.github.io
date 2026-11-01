@@ -48,3 +48,8 @@ Only claim tests actually performed. Do not call collected listings complete ret
 
 ## 1 November evidence audit
 Read AUDIT_2026-11-01.md and site/catalog-review/audit-2026-11-01.json before the next refresh. Current retained total is 9,270 records, including 50 new indexed Amazon references whose live offers remain unverified. Preserve the Evidence filter, on-card evidence labels, absolute image-URL CSV column, new part-030.json and audit-photos packs. Upgrade indexed references only after checking exact item/pack, seller and offer evidence; do not silently label them verified. Continue all 76 currently uncollected retailer/category cells and audit repeated source URLs without deleting stable IDs or legitimate variants. Separate per-batch additions from full Monday–Sunday weekly additions. Never equate record totals or distinct source URLs with complete retailer inventory.
+
+
+## Amazon product-page follow-up — 1 November 2026
+
+107 new exact-ASIN listings and 2 upgraded indexed references, all with cached product-page photos. Current baseline: 9,377 total; 9,251 Home Care, 126 adjacent; Amazon 484 across all 15 Home Care categories. See `AMAZON_COVERAGE_2026-11-01.md`. Preserve part-031.json, upgrades in part-030.json, evidence controls and prior audit. Category representation does not establish exhaustive inventory. Prioritize remaining retailer/category gaps, seller/stock/price verification and 48 limited-evidence Amazon references.
