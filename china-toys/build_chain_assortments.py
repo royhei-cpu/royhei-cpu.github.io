@@ -3,7 +3,7 @@
 --check-sources records reachability only. It never promotes a notice to live stock,
 changes a release/price date, or automatically approves a new product.
 """
-import argparse,csv,hashlib,json,concurrent.futures,urllib.request
+import argparse,csv,hashlib,json,re,concurrent.futures,urllib.request
 from datetime import datetime,timezone
 from pathlib import Path
 
@@ -76,6 +76,12 @@ def build(check_sources=False):
         c['secondary_records']=sum(p['evidence_type']=='secondary_flagship_report' for p in ps)
     packed=json.dumps(d,ensure_ascii=False,separators=(',',':'))
     (ROOT/'chain-assortments-data.js').write_text('window.CHAIN_ASSORTMENTS='+packed+';\n')
+    # Change the asset URL when reviewed records change, including repeat visits.
+    version=hashlib.sha256(packed.encode('utf-8')).hexdigest()[:12]
+    index=ROOT/'index.html'
+    html=index.read_text()
+    html=re.sub(r'chain-assortments-data\.js(?:\?[^"\s]*)?', 'chain-assortments-data.js?v='+version, html)
+    index.write_text(html)
     with (ROOT/'chain-assortments.csv').open('w',encoding='utf-8-sig',newline='') as f:
         keys=['id','name','name_cn','brand','chains','category','evidence_type','retail_scope','variants','pack','prices','chain_release','chain_specific_releases','image_status','source_published','evidence_checked','current_stock','units_sold','image_source','source_url']
         w=csv.DictWriter(f,fieldnames=keys,lineterminator='\n');w.writeheader()
