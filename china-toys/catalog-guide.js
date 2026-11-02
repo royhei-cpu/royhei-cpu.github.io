@@ -138,7 +138,7 @@ addTutorial();enhanceCards();enhanceDialog();
     const main = document.querySelector('main.shell');
     if (main && main.firstElementChild !== root) main.prepend(root);
     const ip = document.getElementById('ip-rankings'), tutorial = document.getElementById('tutorial');
-    const desk=document.getElementById('chinaIntelligencePanel')||document.getElementById('chinaIntelligence');if(desk&&root.nextElementSibling!==desk)root.after(desk);
+    const desk=document.getElementById('chinaIntelligence');if(desk&&root.nextElementSibling!==desk)root.after(desk);
     if (ip && (desk||root).nextElementSibling !== ip) (desk||root).after(ip);
     if (tutorial && (ip || root).nextElementSibling !== tutorial) (ip || root).after(tutorial);
   }
@@ -154,7 +154,7 @@ addTutorial();enhanceCards();enhanceDialog();
       ['data-weekly="added"',groups.added.length,'Catalog additions','New here; not necessarily new products'],
       ['data-weekly="launch"',groups.launch.length,'New releases','Source-stated dates in the week shown'],
       ['data-view="trending"',active.length,'Current trend signals','Includes earlier evidence; not a sales rank'],
-      ['data-brief-shops',shopCount,'Sources with products','Includes official showcases; not all of China']
+      ['data-brief-shops',shopCount,'Shops with listings','Only captured shops, not all of China']
     ];
     const highlights = [];
     if (groups.added.length) highlights.push(article({
@@ -198,7 +198,7 @@ addTutorial();enhanceCards();enhanceDialog();
 ${overdue?'<p class="brief-warning"><strong>Full source refresh is overdue.</strong> These are the last saved observations, not a current market check.</p>':''}
 ${highlights.length?`<details class="brief-expand"><summary>Weekly highlights · ${num(eventCount)} changed entries</summary><div class="brief-stories">${highlights.slice(0,3).join('')}</div></details>`:""}
 ${watchCards?`<details class="brief-watch brief-expand"><summary>Current trend evidence · ${num(active.length)} products</summary><div class="brief-stories">${watchCards}</div></details>`:''}
-<p class="brief-footnote">${data.chain_coverage_review?'MINISO showcase review: '+esc(fmt(data.chain_coverage_review.reviewed))+' · 7 product / series entries; store inventory unverified. ':''}Full source collection: ${esc(fmt(fullDate))}${data.detail_reviewed?' · Item detail review: '+esc(fmt(data.detail_reviewed)):''}. ${failures.length?num(failures.length)+' source checks were incomplete or unavailable; older saved listings may remain. ':''}<button type="button" data-view="coverage">See coverage & missing information</button>.</p></div>`;
+<p class="brief-footnote">Full source collection: ${esc(fmt(fullDate))}${data.detail_reviewed?' · Item detail review: '+esc(fmt(data.detail_reviewed)):''}. ${failures.length?num(failures.length)+' source checks were incomplete or unavailable; older saved listings may remain. ':''}<button type="button" data-view="coverage">See coverage & missing information</button>.</p></div>`;
     arrange();
   }
   document.addEventListener('click', e => {
@@ -211,4 +211,3 @@ ${watchCards?`<details class="brief-watch brief-expand"><summary>Current trend e
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',arrange,{once:true});
   requestAnimationFrame(arrange);
 })();
-
