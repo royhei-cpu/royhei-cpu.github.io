@@ -64,9 +64,15 @@ def record_scenes(meta):
                 i=info['index'];context=browser.new_context(viewport={'width':1600,'height':900},record_video_dir=str(WORK/'recordings'),record_video_size={'width':1600,'height':900},accept_downloads=True)
                 page=context.new_page();page.on('pageerror',lambda e:errors.append(str(e)))
                 page.goto('http://127.0.0.1:8785/china-toys/',wait_until='domcontentloaded');page.wait_for_selector('.product-card');page.wait_for_timeout(350)
+                def reveal(sel):
+                    for ancestor in page.locator(sel).first.locator('xpath=ancestor::details').all():
+                        if ancestor.get_attribute('open') is None:
+                            ancestor.locator(':scope > summary').first.click()
                 def scroll(sel):
+                    reveal(sel)
                     page.locator(sel).first.evaluate('(e)=>e.scrollIntoView({block:"center",behavior:"instant"})');page.wait_for_timeout(250)
                 def focus(sel):
+                    reveal(sel)
                     page.evaluate('document.querySelectorAll(".tour-focus").forEach(e=>e.classList.remove("tour-focus"))')
                     el=page.locator(sel).first;el.evaluate('(e)=>e.classList.add("tour-focus")');rect=el.bounding_box()
                     if rect:page.evaluate('p=>{const e=document.getElementById("tourPointer");if(e){e.style.left=p.x+"px";e.style.top=p.y+"px"}}',{'x':rect['x']+min(rect['width']*.5,180),'y':rect['y']+min(rect['height']*.5,55)})
