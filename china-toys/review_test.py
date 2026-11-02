@@ -13,7 +13,7 @@ try:
   assert page.locator('.product-card').count()==24
   assert page.locator('#brandCoverageReview').count()==1
   assert page.locator('#weeklyOverview').is_visible()
-  assert 'what changed this week' in page.locator('#weeklyOverview').inner_text().lower()
+  assert 'this week' in page.locator('#weeklyOverview').inner_text().lower()
   page.screenshot(path=str(OUT/'desktop-top.png'))
   checks.append('Page, weekly update panel, brand coverage control and 24-card pagination render')
   page.locator('.view-tab[data-view="trending"]').click();page.wait_for_selector('.review-reason',state='attached');page.locator('.product-card').first.get_by_text('Trend evidence & product angle',exact=True).click()

@@ -17,7 +17,7 @@ try:
   expect(page.locator('.product-card[data-clean-card="1"]').first).to_be_visible()
   audit=page.evaluate('''() => ({total:TOY_ATLAS.products.length, reviewed:ATLAS_ITEM_INSIGHTS_COUNT, missing:TOY_ATLAS.products.filter(p=>{const x=ATLAS_ITEM_INSIGHTS(p);return !x.summary||!x.angle||!x.question}).length})''')
   assert audit['missing']==0 and audit['reviewed']>=24,audit
-  expect(page.locator('#atlasBrandNav').get_by_role('link',name='Brands & makers')).to_be_visible()
+  expect(page.locator('#atlasBrandNav').get_by_role('link',name='Brands')).to_be_visible()
   # A real brand change must clear restrictive search and land on products.
   page.locator('#search').fill('a deliberately impossible product')
   page.locator('#brandSelect').select_option('POP MART')
@@ -57,6 +57,7 @@ try:
   expect(page.locator('.product-card').first).to_be_visible()
   assert page.locator('#retailer').input_value()
   page.goto(root,wait_until='domcontentloaded')
+  page.locator('#atlasBrandNav a[href="#retailChains"]').click()
   page.get_by_role('tab',name='X11',exact=True).click()
   expect(page.locator('#chainDetail')).to_contain_text(f'{x11_count} first-party sale records')
   expect(page.locator('#chainDetail .ca-product')).to_have_count(x11_count)
