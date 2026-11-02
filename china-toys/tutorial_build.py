@@ -135,7 +135,7 @@ def record_scenes(meta):
                 elif i==6:
                     scroll('#weeklyOverview');at(.15);click('.dashboard-weekly-details summary')
                     at(.38);focus('.dashboard-weekly-details')
-                    at(.55);page.locator('[data-view="trending"]').first.click()
+                    at(.55);page.locator('[data-view="trending"]:visible').first.click()
                     scroll('.product-card')
                     reasons=page.locator('.product-card details').filter(has=page.locator('.review-reason'))
                     if reasons.count():reasons.first.locator('summary').click()
