@@ -1,15 +1,19 @@
 /* Original, locally synthesized music. No audio tracking or external media. */
 (() => {
   'use strict';
-  const host=document.querySelector('.header-links');
+  const host=document.querySelector('.header-links') || document.querySelector('header nav') || document.querySelector('header');
   if(!host || document.getElementById('atlasSound'))return;
   const key='china-toy-atlas-sound-v1';
   let enabled=true;try{enabled=localStorage.getItem(key)!=='off';}catch{}
+  let level='normal';try{level=localStorage.getItem(key+'-level')||'normal';}catch{} if(!['soft','normal','lively'].includes(level))level='normal';
+  const levels={soft:.08,normal:.16,lively:.25};
   let ctx,music,fx,master,clock=null,next=0,step=0,busy=false,lastFx=-1;
   const button=document.createElement('button');
   button.id='atlasSound';button.type='button';button.className='text-button atlas-sound';
   host.prepend(button);
-  const style=document.createElement('style');style.textContent='.atlas-sound{white-space:nowrap;border:1px solid #a9c8bb!important;border-radius:999px;padding:8px 12px!important;min-height:40px;background:#f2fff7;color:#174c3d}.atlas-sound[aria-pressed="true"]{background:#174c3d;color:#fff}.atlas-sound:focus-visible{outline:3px solid #e7ad48;outline-offset:3px}@media(max-width:600px){.header-links{gap:6px;flex-wrap:wrap}.atlas-sound{font-size:12px;padding:7px 9px!important}}';document.head.append(style);
+  const volume=document.createElement('select');volume.id='atlasSoundLevel';volume.setAttribute('aria-label','Music volume');volume.innerHTML='<option value="soft">Music: soft</option><option value="normal">Music: medium</option><option value="lively">Music: lively</option>';volume.value=level;button.after(volume);
+  volume.addEventListener('change',()=>{level=volume.value;try{localStorage.setItem(key+'-level',level);}catch{}pump();});
+  const style=document.createElement('style');style.textContent='#atlasSoundLevel{max-width:145px;min-height:40px;border:1px solid #a9c8bb;border-radius:8px;background:#fff;color:#174c3d;font:inherit;font-size:12px;padding:6px}.atlas-sound{white-space:nowrap;border:1px solid #a9c8bb!important;border-radius:999px;padding:8px 12px!important;min-height:40px;background:#f2fff7;color:#174c3d}.atlas-sound[aria-pressed="true"]{background:#174c3d;color:#fff}.atlas-sound:focus-visible{outline:3px solid #e7ad48;outline-offset:3px}@media(max-width:600px){.header-links{gap:6px;flex-wrap:wrap}.atlas-sound{font-size:12px;padding:7px 9px!important}}';document.head.append(style);
   function playingMedia(){return [...document.querySelectorAll('video,audio')].some(el=>!el.paused&&!el.ended&&!el.muted);}
   function visible(){return !document.hidden&&!playingMedia();}
   function paint(){
@@ -17,7 +21,7 @@
     button.textContent=on?'♫ Sound on':enabled?'♫ Play music':'♫ Sound off';
     button.setAttribute('aria-pressed',String(on));
     button.setAttribute('aria-label',on?'Mute background music and click sounds':enabled?'Start background music and click sounds':'Enable background music and click sounds');
-    button.title=on?'Quiet music and click sounds · tap to mute':enabled?'Music begins with your first tap':'Tap to enable music and click sounds';
+    button.title=on?'Music and button sounds · tap to mute':enabled?'Music begins with your first tap':'Tap to enable music and click sounds';
   }
   const hz=n=>440*Math.pow(2,(n-69)/12);
   function note(n,t,dur,vol,bus,type='sine'){
@@ -35,14 +39,15 @@
       if(slot===0){for(const n of ch)note(n,next,2.65,.13,music,'sine');note(ch[0]-12,next,1.35,.16,music,'sine');}
       if(slot===4)note(ch[0]-12,next,.95,.1,music,'sine');
       const lead=melody[bar%8][slot];if(lead!=null)note(lead+(bar>7&&slot===0?12:0),next,.8,.2,music,'sine');
-      if(slot===2||slot===6)note(ch[2]+12,next,.5,.07,music,'triangle');
+      if(slot===2||slot===6)note(ch[2]+12,next,.5,.1,music,'triangle');
+      if(bar>=8&&slot%2===1)note(ch[(slot+1)%4]+12,next,.26,.055,music,'triangle');
       next+=beat/2;step++;
     }
   }
   function pump(){
     if(!ctx)return;
     const run=enabled&&ctx.state==='running'&&visible();
-    music.gain.cancelScheduledValues(ctx.currentTime);music.gain.setTargetAtTime(run?.075:0,ctx.currentTime,.1);
+    music.gain.cancelScheduledValues(ctx.currentTime);music.gain.setTargetAtTime(run?levels[level]:0,ctx.currentTime,.1);
     if(run&&!clock){next=ctx.currentTime+.04;schedule();clock=setInterval(schedule,80);}
     else if(!run&&clock){clearInterval(clock);clock=null;}
     paint();
@@ -52,7 +57,7 @@
     try{
       if(!ctx){const AC=window.AudioContext||window.webkitAudioContext;if(!AC){button.textContent='Sound unavailable';button.disabled=true;return;}
         ctx=new AC();master=ctx.createGain();master.gain.value=.8;const limiter=ctx.createDynamicsCompressor();limiter.threshold.value=-14;limiter.knee.value=10;limiter.ratio.value=6;
-        master.connect(limiter).connect(ctx.destination);music=ctx.createGain();music.gain.value=0;music.connect(master);fx=ctx.createGain();fx.gain.value=.12;fx.connect(master);
+        master.connect(limiter).connect(ctx.destination);music=ctx.createGain();music.gain.value=0;music.connect(master);fx=ctx.createGain();fx.gain.value=.2;fx.connect(master);
         ctx.addEventListener('statechange',pump);
       }
       await ctx.resume();pump();
@@ -76,13 +81,16 @@
     if(e.target.closest('#atlasSound'))return;
     // A user gesture unlocks browser audio. No autoplay-policy bypass.
     if(enabled){await wake();if(master)master.gain.setTargetAtTime(.8,ctx.currentTime,.04);}
-    const el=e.target.closest('button,a,summary,[role="button"],input[type="checkbox"],input[type="radio"]');
+    const el=e.target.closest('button,a,summary,select,[role="button"],[role="tab"],input[type="checkbox"],input[type="radio"]');
     if(!el||el.disabled||el.getAttribute('aria-disabled')==='true')return;
     const kind=el.matches('[data-save]')?'save':el.matches('[data-open],[data-product],.photo-button,.product-card')?'open':el.matches('.dialog-close')?'close':'tap';clickSound(kind);
-  });
+  },true);
   document.addEventListener('change',e=>{if(e.target.matches('select,input[type="checkbox"],input[type="radio"]')){wake().then(()=>clickSound());}});
+  document.addEventListener('pointerdown',e=>{if(enabled&&!e.target.closest('#atlasSound'))wake();},{passive:true});
+  window.addEventListener('pageshow',()=>{if(enabled&&ctx)wake();});
+  window.addEventListener('focus',()=>{if(enabled&&ctx)wake();});
   document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&!e.repeat&&enabled)wake();});
-  document.addEventListener('visibilitychange',pump);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden&&enabled&&ctx)wake();else pump();});
   ['play','pause','ended','volumechange'].forEach(event=>document.addEventListener(event,()=>setTimeout(pump,0),true));
   window.addEventListener('pagehide',()=>{if(clock)clearInterval(clock);clock=null;if(ctx?.state==='running')ctx.suspend().catch(()=>{});});
   paint();
