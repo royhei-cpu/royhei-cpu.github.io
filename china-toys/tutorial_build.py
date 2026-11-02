@@ -15,17 +15,7 @@ OUT=ROOT/'tutorial'
 WORK=Path('/tmp/china-toys-tutorial-build')
 QA=Path('/tmp/china-toys-tutorial-qa')
 for p in (OUT,WORK,QA):p.mkdir(parents=True,exist_ok=True)
-SCENES=[
-('Start here','Welcome to China Toy Atlas. This tour shows you how to find blind boxes and squishy toys, read the details we have, and make a useful shortlist. You are looking at the actual catalog. It is a growing research directory, not a complete list of every product sold in China.'),
-('Weekly updates','Start with this week\'s updates. Added to catalog means newly added here, not necessarily newly launched. New releases have release dates in the week shown. Price changes and back in stock refer to tracked shops. Click a number to see the matching items, and check the last completed update date.'),
-('Choose a shop','Choose a retailer or shop to see its own listings. Here, select Top Toy\'s international store. The results and weekly counts change with your selection. The price belongs to the shop and market shown. An overseas store price must not be treated as a mainland China retail price.'),
-('Search a brand or item','Reset the filters, then choose a brand or type a product name. In this example, search for Crybaby, Cry Me An Ocean. Product cards now put available facts first, such as material, size, character and design options. Missing wave numbers are not repeated as empty labels.'),
-('Read all available details','Open Full product details. Read the shop description, available dimensions and materials, and follow their source links. Expand listed options to compare a single blind box with a full set or a specific character. Prices for different packs are not directly comparable. Source photographs may show example designs, not the guaranteed contents of one random box.'),
-('Understand the dates','The information still to verify is kept separately. Missing facts are never guessed. A launch date is a release date supported by a source. A shop page date is when that retailer published its listing. They are different. Launches and waves shows supported dates and clearly marked estimates, with the market identified.'),
-('Read the trend reason','Open Trending and read the reason on the card, not just the badge. A reported purchase counter, a dated demand report and a retailer\'s hot pick are different kinds of evidence. Possible product appeal is shown separately as interpretation. A shop recommendation does not prove nationwide popularity or measured sales growth.'),
-('Save and export','Use the bookmark on a product photo to save it. Open Shortlist to review your saved items on this device. Download C S V exports the filtered list, including available specifications, source links and price options. The Full C S V link at the bottom downloads the whole catalog. You can open these files in Excel.'),
-('Check coverage and share','Finally, open Brand coverage and item checks to see what is partial or missing. Weekly updates use the same website link. Check the actual completed-update date rather than assuming every shop was refreshed. Share this as a product-discovery tool, and verify the original listing before making a purchasing decision.')
-]
+SCENES=json.loads(r'''[["Start here","Welcome to China Toy Atlas. Find Chinese blind boxes, squishies and character toys. Start with a brand, shop or character. Tap a product photo for details. This guide is still growing. Its product counts describe what we have collected, not everything a retailer sells."],["Browse a retailer in one tap","Open Retail chains and tap Top Toy. Its captured shop catalog opens immediately. There is no second product link to choose. These are international store listings, with that market's prices. Other retailers may have only a partial listing. A small count means our research is incomplete, not that the shop sells only a few toys."],["Find your character","Use Brand, Product type and the search box to narrow your choices. Here we select Pop Mart and search for Cry Me An Ocean. Reset filters returns to browsing. Use the Brands page to explore more makers. A character name and the company that makes it are different things."],["Read a product","Tap Full product details. Check the character, size, material and the pictured design. Open the shop options to see whether an offer is one random box, a full set, or a confirmed character. Keep the shop, country and currency in mind. A launch price can be historical. Follow the shop link for today's price and availability."],["Compare your picks","Select two to six products, then open Compare. The table places their photographs, prices, packs and available facts side by side. Compare the same pack and currency. Different character options can have different prices. Blank information means unconfirmed, not zero."],["Save and download","The bookmark saves favourites on this browser. Open Saved favourites to see them again. Download CSV exports the current filtered list. In Compare, Download comparison CSV saves your selected products, and Download photo sheet gives you an illustrated file. CSV contains photo links, not embedded images. You can open CSV in Excel."],["Understand this week and trends","This week shows the saved catalog period and latest source update. Expand it for changes and sources. Added to this guide does not necessarily mean a new product launch. Trending can mean reported demand or a shop's recommendation. Open the evidence to check the date and market. These signals do not automatically establish nationwide rankings or weekly sales growth."],["Music and button sounds","Music and click sounds begin after your first tap, when your browser allows audio. Choose Soft, Medium or Lively. Use Sound on to mute, and tap Sound off to enable it again. Your preference is remembered. Brands and Research also have these controls. Music pauses during the tutorial so you can hear the narration."],["What a partial listing means","Some shops have many captured products, while others have a small researched sample. Partial listing marks this difference. China release highlights are separate from an international shop catalog. The coverage notes explain remaining gaps. Check the original seller before buying, and use the dates shown to judge how recent each price or release is."]]''')
 
 
 def run(args):
@@ -33,30 +23,9 @@ def run(args):
 
 
 def patch_sources():
-    p=ROOT/'review_publish.py';text=p.read_text()
-    if 'import source_copy' not in text:
-        text=text.replace('import review_finalize as f','import review_finalize as f\nimport source_copy\nsource_copy.install(f.v)')
-        text=text.replace('    f.main()\n','    f.main()\n    source_copy.export(R)\n')
-        p.write_text(text)
-    run([sys.executable,ROOT/'review_publish.py'])
-    p=ROOT/'index.html';text=p.read_text()
-    if 'catalog-guide.js' not in text:
-        text=text.replace('</head>','<script src="catalog-guide.js?v=20261030-facts-tutorial-1" defer></script>\n</head>')
-    if 'ATLAS_INITIAL_HASH' not in text:
-        text=text.replace('<script src="catalog.js"','<script>window.ATLAS_INITIAL_HASH=location.hash;</script>\n<script src="catalog.js"')
-    p.write_text(text)
-    guide=ROOT/'catalog-guide.js';ui=guide.read_text().replace("if(location.hash==='#tutorial')","if(location.hash==='#tutorial'||window.ATLAS_INITIAL_HASH==='#tutorial')")
-    ui=ui.replace('.header-links #exportButton{display:none}', '.header-links{width:100%;justify-content:space-between}.header-links #exportButton{display:inline-flex}.topbar-inner{flex-wrap:wrap;padding:12px 0}')
-    guide.write_text(ui)
-    p=ROOT.parent/'.github/workflows/publish.yml';text=p.read_text()
-    if 'Copy China Toy tutorial and facts guide' not in text:
-        needle='      - name: Configure Pages\n'
-        assert needle in text
-        text=text.replace(needle,'      - name: Copy China Toy tutorial and facts guide\n        run: |\n          if [ -f china-toys/catalog-guide.js ]; then cp china-toys/catalog-guide.js _site/china-toys/; fi\n          if [ -d china-toys/tutorial ]; then cp -R china-toys/tutorial _site/china-toys/tutorial; fi\n'+needle)
-        p.write_text(text)
+    # Tutorial production must not regenerate or overwrite researched catalog data.
     run(['node','--check',ROOT/'catalog-guide.js'])
-    run(['node','--check',ROOT/'app.js'])
-
+    run(['node','--check',ROOT/'retail-chains.js'])
 
 def make_audio():
     from kokoro import KPipeline
@@ -108,48 +77,74 @@ def record_scenes(meta):
                 def find_example():
                     reset();page.locator('#brandSelect').select_option('POP MART')
                     page.locator('#search').fill('Cry Me An Ocean');page.wait_for_timeout(300);assert page.locator('.product-card').count()>0
-                if i==0:page.evaluate('scrollTo(0,0)')
-                elif i==1:scroll('#weeklyOverview')
-                elif i==2:scroll('.retailer-section')
-                elif i==3:scroll('.retailer-section')
-                elif i in (4,5):
-                    find_example();page.locator('.card-footer button[data-open]').first.click();page.wait_for_selector('.review-details');scroll('.review-details')
-                elif i==6:
-                    reset();page.locator('.view-tab[data-view="trending"]').click();page.wait_for_selector('.review-reason');scroll('.review-reason')
-                elif i==7:find_example();scroll('.product-card')
-                elif i==8:scroll('#brandCoverageReview')
                 page.evaluate(BANNER,{'title':info['label'],'step':i+1})
                 start=time.monotonic();duration=info['duration']
                 def at(fraction):
                     remaining=start+duration*fraction-time.monotonic()
                     if remaining>0:page.wait_for_timeout(round(remaining*1000))
+                def chains():
+                    page.locator('#atlasBrandNav a[href="#retailChains"]').click()
                 if i==0:
-                    at(.32);scroll('#weeklyOverview');focus('#weeklyOverview')
-                    at(.7);scroll('.retailer-section');focus('#retailer')
+                    page.evaluate('scrollTo(0,0)')
+                    at(.25);click('.collector-help summary')
+                    at(.65);scroll('#browseToys');focus('#retailer')
                 elif i==1:
-                    at(.12);focus('[data-weekly="added"]');at(.30);focus('[data-weekly="launch"]');at(.5);focus('[data-weekly="price"]');at(.63);focus('[data-weekly="restock"]');at(.77);click('[data-weekly="launch"]');scroll('#results')
+                    chains();at(.15)
+                    page.get_by_role('tab',name='TOP TOY',exact=True).click()
+                    assert 'TOP TOY' in page.locator('#resultsTitle').inner_text()
+                    checks.append('One TOP TOY tab click opens its shop catalog')
+                    at(.45);scroll('#results');focus('#resultsHint')
+                    at(.70);scroll('.product-card');focus('.price-caption')
                 elif i==2:
-                    at(.18);focus('#retailer');page.select_option('#retailer','toptoy');page.wait_for_timeout(400)
-                    assert 'TOP TOY' in page.locator('#resultsTitle').inner_text();checks.append('TOP TOY retailer filter changes results')
-                    at(.46);scroll('.product-card');focus('.price-caption');at(.74);focus('.card-facts')
+                    scroll('#browseToys');at(.12)
+                    page.locator('#brandSelect').select_option('POP MART')
+                    at(.35);scroll('#search');page.locator('#search').fill('Cry Me An Ocean')
+                    at(.65);scroll('.product-card');focus('.product-title')
                 elif i==3:
-                    at(.10);focus('#brandSelect');page.select_option('#brandSelect','POP MART');at(.27);scroll('#search');focus('#search');page.locator('#search').press_sequentially('Cry Me An Ocean',delay=45);page.wait_for_timeout(300)
-                    at(.55);scroll('.product-card');focus('.review-spec');at(.76);focus('.card-facts')
+                    find_example();at(.10);click('.card-footer button[data-open]')
+                    at(.35);scroll('.detail-content');focus('#detailTitle')
+                    if page.locator('.review-options').count():
+                        at(.55);scroll('.review-options');click('.review-options summary')
+                    at(.80);scroll('.offer');focus('.offer')
                 elif i==4:
-                    at(.10);focus('.review-details');at(.35);scroll('.review-options');click('.review-options summary');at(.58);focus('.review-options table');at(.77);scroll('.review-photos');focus('.review-photos')
+                    scroll('#catalogGrid');at(.10)
+                    page.locator('[data-compare-select]').nth(0).click()
+                    at(.25);page.locator('[data-compare-select]').nth(1).click()
+                    at(.40);click('#compareDockOpen')
+                    assert page.locator('#compareDialog').is_visible()
+                    checks.append('Two products open side-by-side comparison')
+                    at(.60);focus('#compareScroll')
+                    at(.82);focus('#compareExport')
                 elif i==5:
-                    at(.12);scroll('.info-gaps');click('.info-gaps summary');at(.36);page.locator('#closeProduct').click();page.locator('#resetFilters').click();page.locator('.view-tab[data-view="timeline"]').click();scroll('#timelinePanel');at(.62);focus('.timeline-item');at(.82);focus('#contextNote')
-                elif i==6:
-                    at(.12);focus('.review-reason');at(.58)
-                    if page.locator('.review-appeal').count():scroll('.review-appeal');focus('.review-appeal')
-                    at(.8);scroll('.review-reason')
-                elif i==7:
-                    at(.13);click('.product-card .save-button');at(.28);click('.view-tab[data-view="saved"]');scroll('#catalogGrid');at(.50);scroll('#exportButton');focus('#exportButton')
+                    find_example();scroll('.product-card');at(.10);click('.save-button')
+                    at(.25);click('[data-view="saved"]');scroll('#results')
+                    at(.45);scroll('#exportButton')
                     with page.expect_download() as dl:page.locator('#exportButton').click()
-                    dl.value.save_as(str(QA/'shortlist-export.csv'));checks.append('Shortlist CSV download completed')
-                    at(.76);scroll('footer');focus('footer a[href="catalog.csv"]')
+                    dl.value.save_as(str(QA/'favourites-export.csv'))
+                    checks.append('Saved favourites CSV exported')
+                    at(.65);page.locator('#resetFilters').click()
+                    page.locator('[data-compare-select]').nth(0).click()
+                    page.locator('[data-compare-select]').nth(1).click()
+                    click('#compareDockOpen');focus('#comparePhotoExport')
+                elif i==6:
+                    scroll('#weeklyOverview');at(.15);click('.dashboard-weekly-details summary')
+                    at(.38);focus('.dashboard-weekly-details')
+                    at(.55);page.locator('[data-view="trending"]').first.click()
+                    scroll('.product-card')
+                    reasons=page.locator('.product-card details').filter(has=page.locator('.review-reason'))
+                    if reasons.count():reasons.first.locator('summary').click()
+                    at(.80);focus('.card-badge')
+                elif i==7:
+                    page.evaluate('scrollTo(0,0)');at(.15);focus('#atlasSound')
+                    page.locator('#atlasSoundLevel').select_option('lively')
+                    at(.42);focus('#atlasSoundLevel')
+                    at(.65);page.locator('#atlasSound').click()
+                    at(.80);focus('#watchTutorialButton')
                 elif i==8:
-                    at(.10);click('#brandCoverageReview>summary');at(.30);scroll('.review-table-wrap');focus('.review-table-wrap');at(.64);page.locator('#brandCoverageReview>summary').click();scroll('#weeklyOverview');focus('#lastUpdated')
+                    chains();at(.20);page.get_by_role('tab',name='X11',exact=True).click()
+                    scroll('.chain-partial-label');focus('.chain-partial-label')
+                    at(.52);scroll('.ca-product');focus('.ca-count')
+                    at(.78);scroll('#chainCoverageAudit');click('#chainCoverageAudit summary')
                 at(.90)
                 page.screenshot(path=str(QA/f'chapter-{i+1:02}.png'))
                 at(1.0)
@@ -184,7 +179,7 @@ def assemble(meta):
             length=(x['duration']-1)*len(sentence.split())/words
             vtt.extend([f'{stamp(pos)} --> {stamp(pos+length)}',sentence,'']);pos+=length
         duration+=x['duration']
-    (OUT/'chapters.json').write_text(json.dumps({'duration':duration,'chapters':chapters,'recorded':'2026-10-30','voice':'English synthetic male narration','captions':'Sentence timings proportional within each narrated chapter'},indent=2))
+    (OUT/'chapters.json').write_text(json.dumps({'duration':duration,'chapters':chapters,'recorded':'2026-11-02','voice':'English synthetic male narration','captions':'Sentence timings proportional within each narrated chapter'},indent=2))
     (OUT/'transcript.txt').write_text('\n'.join(transcript))
     (OUT/'captions.vtt').write_text('\n'.join(vtt))
     (QA/'narration-generation.json').write_text(json.dumps(meta,indent=2))
@@ -198,7 +193,7 @@ def assemble(meta):
     assert any(s['codec_type']=='audio' for s in probe['streams'])
     assert any(s.get('width')==1920 and s.get('height')==1080 for s in probe['streams'])
     assert video.stat().st_size<95_000_000
-    audit={'duration_seconds':float(probe['format']['duration']),'bytes':video.stat().st_size,'sha256':hashlib.sha256(video.read_bytes()).hexdigest(),'resolution':'1920x1080','narration':'Kokoro am_fenrir, English','full_decode':'passed','captions':'Optional, proportionally timed sentences','scope':'Actual website interactions, recorded 2026-10-30; not a product-data certification'}
+    audit={'duration_seconds':float(probe['format']['duration']),'bytes':video.stat().st_size,'sha256':hashlib.sha256(video.read_bytes()).hexdigest(),'resolution':'1920x1080','narration':'Kokoro am_fenrir, English','full_decode':'passed','captions':'Optional, proportionally timed sentences','scope':'Actual website interactions, recorded 2026-11-02; not a product-data certification'}
     (QA/'video-check.json').write_text(json.dumps(audit,indent=2));return audit
 
 
@@ -212,6 +207,7 @@ def playback_qa():
                 page=browser.new_page(viewport={'width':width,'height':height});page.on('pageerror',lambda e:errors.append(str(e)))
                 page.goto('http://127.0.0.1:8785/china-toys/#tutorial',wait_until='domcontentloaded');page.wait_for_selector('#atlasTutorialVideo');page.wait_for_timeout(500)
                 assert page.locator('#tutorial').get_attribute('open') is not None
+                page.locator('#atlasSound').click()
                 page.locator('#atlasTutorialVideo').evaluate('(v)=>{v.muted=false;v.volume=1;return v.play()}');page.wait_for_timeout(1600)
                 media=page.locator('#atlasTutorialVideo').evaluate('(v)=>({time:v.currentTime,duration:v.duration,muted:v.muted,paused:v.paused,error:v.error?.message,ready:v.readyState})')
                 assert media['time']>0 and not media['paused'] and not media['muted'] and not media.get('error'),media
@@ -232,7 +228,14 @@ def playback_qa():
 
 def main():
     patch_sources()
-    meta=make_audio();record_scenes(meta);audit=assemble(meta);playback_qa()
+    meta=make_audio();record_scenes(meta);audit=assemble(meta)
+    guide=ROOT/'catalog-guide.js'
+    guide.write_text(guide.read_text().replace('20261031-2','20261102-collector-tour').replace('Recorded examples are dated; live prices can change.','Updated 2 November 2026: one-tap retailers, comparison, exports and sound. Prices in recorded examples can change.'))
+    index=ROOT/'index.html'
+    text=index.read_text()
+    text=re.sub(r'catalog-guide\\.js\\?v=[^" ]+', 'catalog-guide.js?v='+hashlib.sha256(guide.read_bytes()).hexdigest()[:12], text)
+    index.write_text(text)
+    playback_qa()
     print('TUTORIAL_COMPLETE '+json.dumps(audit),flush=True)
 
 if __name__=='__main__':main()
