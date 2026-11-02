@@ -29,7 +29,7 @@ def validate(d):
             assert chain in p['chain_ids'] and release['date']<=p['checked'] and release['source']
         assert p['checked']<=d['reviewed']
         for o in p['prices']:
-            assert o['amount']>0 and o['currency']=='CNY' and o['basis'] and o['as_of'] and o['source'].startswith('https://')
+            assert o['amount']>0 and o['currency'] in {'CNY','USD'} and o['basis'] and o['as_of'] and o['source'].startswith('https://')
         if p['release']:
             assert p['release']['date']<=p['checked'] and p['release']['source']
         if p['evidence_type']=='secondary_flagship_report':assert p['release'] is None
@@ -75,7 +75,7 @@ def build(check_sources=False):
     for c in d['chains']:report.append(f"| {c['name']} | {c['first_party_records']} | {c['secondary_records']} | {c['store_report_records']} | {c['gap']} Squishies: {c['squishy_status']}. |")
     report+=['','## Newly documented products','', '| Product / series | Chain(s) | Evidence | Source date | Chain release | Price basis |','|---|---|---|---|---|---|']
     for p in d['products']:
-        s=sources[p['source_id']];price='; '.join(f"CNY {o['amount']:g} / {o['basis']} ({o['type']}, {o['as_of']})" for o in p['prices']) or 'Not established'
+        s=sources[p['source_id']];price='; '.join(f"{o['currency']} {o['amount']:g} / {o['basis']} ({o['type']}, {o['as_of']})" for o in p['prices']) or 'Not established'
         release='; '.join(c+': '+r['date'] for c,r in p.get('chain_releases',{}).items()) or (p['release'] or {}).get('date','Not established')
         report.append(f"| {p['name']} · {p['name_cn']} | {', '.join(p['chain_ids'])} | [{p['evidence_type']}]({s['url']}) | {s.get('published_date') or 'Not stated'} | {release} | {price} |")
     report+=['','## Unresolved evidence','', '- MINISO Tmall redirected to its world.tmall.com store and was inaccessible to the retrieval tool. Third-party seller labels are reports, not an authenticated flagship inventory.', '- No live stock quantities, units sold or complete chain SKU totals are asserted. Product variant counts are not inventory counts.', '- Several chains use mini-programs or per-store assortments. Corporate profiles and retailer opening notices are excluded from product evidence.', '- Manufacturer notices may establish suggested/announced prices, not the price charged today. New record date is not launch date.', '- No first-party product-level squishy assortment was established for X11, KKV, Jiumu, The Green Party, SANFU or IPSTAR in this pass. KKV and Jiumu now have separately labeled secondary squishy reports. Category-level references and ambiguous reseller offers were not promoted into confirmed products.', '- Some secondary MINISO price fields conflict or mix pack sizes. Those prices were left blank. Sales counters were not imported.', '', '## Weekly maintenance','', 'The existing Monday collector and research automation are retained. Reviewed additions live in `chain-assortments.json`; generated JS, CSV and this report are rebuilt from it. `--check-sources` records link reachability separately and never advances evidence, launch, price or stock dates. The weekly research pass must revisit every chain in the expanded registry, discover additional China toy retailers, examine new retailer/manufacturer listings and announcements, validate chain-specific sale evidence, and update the source JSON before publishing. A successful HTTP request is not a completed inventory refresh.']

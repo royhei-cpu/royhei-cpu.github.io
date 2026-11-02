@@ -33,7 +33,8 @@
     const review=data.website_review;
     const body='<a href="./?chain=miniso#retailChains"><strong>'+chains+' retail chains · '+count+' documented product / series records</strong> →</a> · Chain evidence reviewed '+esc(data.reviewed)+'.'+
       (review?' Live navigation checked '+esc(review.checked)+'.':'')+
-      ' Weekly research: Mondays, 9:30 a.m. China time. Catalog, price and stock dates remain separate.';
+      ' Weekly research: Mondays, 9:30 a.m. China time. Catalog, price and stock dates remain separate.'+
+      (data.enrichment_review?' Photo & price enrichment '+esc(data.enrichment_review.checked)+': '+data.enrichment_review.photos_added+' photos restored; '+data.enrichment_review.price_records_added+' records gained price evidence. '+data.products.filter(p=>!p.prices.length).length+' records still lack prices.':'');
     let note=root.querySelector('#weeklyChainReview');
     if(!note){note=document.createElement('p');note.id='weeklyChainReview';note.className='review-small';note.style.cssText='margin:12px 0 0;padding-top:10px;border-top:1px solid #d5e2da;line-height:1.6';root.append(note);}
     if(note.innerHTML!==body)note.innerHTML=body;

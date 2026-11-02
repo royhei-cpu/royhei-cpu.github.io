@@ -2705,7 +2705,26 @@
         "secret": 1
       },
       "pack": "One random box",
-      "prices": [],
+      "prices": [
+        {
+          "amount": 59,
+          "currency": "CNY",
+          "basis": "one random blind box",
+          "as_of": "2026-07-10",
+          "source": "https://www.mowanmi.com/post/8103.html",
+          "type": "China launch price — reported by Mowanmi",
+          "checked": "2026-11-02"
+        },
+        {
+          "amount": 354,
+          "currency": "CNY",
+          "basis": "display set of 6 boxes",
+          "as_of": "2026-07-10",
+          "source": "https://www.mowanmi.com/post/8103.html",
+          "type": "China launch price — reported by Mowanmi",
+          "checked": "2026-11-02"
+        }
+      ],
       "release": null,
       "evidence_type": "official_sale_announcement",
       "image": "images/chains/toycity-monboo-mini-candy.jpg",
@@ -2718,7 +2737,10 @@
       "added": "2026-10-31",
       "checked": "2026-10-31",
       "review_batch": "expanded-retailers",
-      "price_gap": "Retail price not established by this source."
+      "price_gap": "Current store selling price and stock remain unverified.",
+      "additional_sources": [
+        "https://www.mowanmi.com/post/8103.html"
+      ]
     },
     {
       "id": "toycity-cluebie-flower",
@@ -2731,9 +2753,31 @@
       "series": "cluebie花游记系列毛绒盲盒",
       "brand": "TOYCITY",
       "category": "Blind-box plush",
-      "variants": null,
+      "variants": {
+        "regular": 8,
+        "secret": 1
+      },
       "pack": "One random box",
-      "prices": [],
+      "prices": [
+        {
+          "amount": 69,
+          "currency": "CNY",
+          "basis": "one random blind box",
+          "as_of": "2026-09-23",
+          "source": "https://www.mowanmi.com/post/8393.html",
+          "type": "China launch price — reported by Mowanmi",
+          "checked": "2026-11-02"
+        },
+        {
+          "amount": 552,
+          "currency": "CNY",
+          "basis": "display set of 8 boxes",
+          "as_of": "2026-09-23",
+          "source": "https://www.mowanmi.com/post/8393.html",
+          "type": "China launch price — reported by Mowanmi",
+          "checked": "2026-11-02"
+        }
+      ],
       "release": {
         "date": "2026-09-25",
         "precision": "day",
@@ -2741,17 +2785,21 @@
         "source": "https://www.sina.cn/news/detail/5344901036246461.html"
       },
       "evidence_type": "official_sale_announcement",
-      "image": null,
-      "image_source": null,
-      "image_caption": "No still product image exposed by the accessible video announcement",
+      "image": "https://www.mowanmi.com/zb_users/upload/2026/09/202609231790148055834924.jpg",
+      "image_source": "https://www.mowanmi.com/post/8393.html",
+      "image_caption": "Mowanmi product report; CLUEBIE Flower Journey series photograph.",
       "retail_scope": "TOYCITY official announcement explicitly states all TOYCITY platforms; branch stock not established",
-      "summary": "Accessible source is a video announcement. A still product image and retail price could not be captured.",
+      "summary": "Travel-themed CLUEBIE plush series with eight regular designs and a hidden Wind design. China launch pricing is reported separately for one box and an eight-box display.",
       "current_stock": null,
       "units_sold": null,
       "added": "2026-10-31",
       "checked": "2026-10-31",
       "review_batch": "expanded-retailers",
-      "price_gap": "Retail price not established by this source."
+      "price_gap": "Current store selling price and stock remain unverified.",
+      "image_checked": "2026-11-02",
+      "additional_sources": [
+        "https://www.mowanmi.com/post/8393.html"
+      ]
     },
     {
       "id": "toycity-laura-chess",
@@ -2764,22 +2812,48 @@
       "series": "Laura国际象棋可动人偶盲盒",
       "brand": "TOYCITY",
       "category": "Blind-box articulated dolls",
-      "variants": null,
+      "variants": {
+        "regular": 6,
+        "secret": 1
+      },
       "pack": "One random box",
-      "prices": [],
+      "prices": [
+        {
+          "amount": 99,
+          "currency": "CNY",
+          "basis": "one random blind box",
+          "as_of": "2026-07-20",
+          "source": "https://www.mowanmi.com/post/8136.html",
+          "type": "China launch price — reported by Mowanmi",
+          "checked": "2026-11-02"
+        },
+        {
+          "amount": 594,
+          "currency": "CNY",
+          "basis": "display set of 6 boxes",
+          "as_of": "2026-07-20",
+          "source": "https://www.mowanmi.com/post/8136.html",
+          "type": "China launch price — reported by Mowanmi",
+          "checked": "2026-11-02"
+        }
+      ],
       "release": null,
       "evidence_type": "official_sale_announcement",
-      "image": null,
-      "image_source": null,
-      "image_caption": "No still product image exposed by the accessible video announcement",
+      "image": "https://toydolls.shop/cdn/shop/files/imgi_179_7_e6a5c2e064d8ea03493eba7778dfcf25.png?v=1784863184&width=416",
+      "image_source": "https://toydolls.shop/products/laura-chess-series-bjd-action-figure-blind-box",
+      "image_caption": "Jane Toys international listing; Laura Chess series image, not proof of China stock.",
       "retail_scope": "TOYCITY official announcement explicitly states all TOYCITY platforms; branch stock not established",
-      "summary": "Accessible source is a video announcement. A still product image and retail price could not be captured.",
+      "summary": "Chess-themed articulated Laura dolls: White Knight, Soldier, Queen, Black Knight, Castle and Bishop, plus hidden King. China launch prices come from a dated product report; the photograph comes from an international seller.",
       "current_stock": null,
       "units_sold": null,
       "added": "2026-10-31",
       "checked": "2026-10-31",
       "review_batch": "expanded-retailers",
-      "price_gap": "Retail price not established by this source."
+      "price_gap": "Current store selling price and stock remain unverified.",
+      "image_checked": "2026-11-02",
+      "additional_sources": [
+        "https://www.mowanmi.com/post/8136.html"
+      ]
     },
     {
       "id": "toycity-monboo-unknown",
@@ -2792,9 +2866,31 @@
       "series": "MONBOO未知生物复合毛绒盲盒",
       "brand": "TOYCITY",
       "category": "Blind-box plush",
-      "variants": null,
+      "variants": {
+        "regular": 6,
+        "secret": 1
+      },
       "pack": "One random box",
-      "prices": [],
+      "prices": [
+        {
+          "amount": 59,
+          "currency": "CNY",
+          "basis": "one random blind box",
+          "as_of": "2026-06-29",
+          "source": "https://www.mowanmi.com/post/8056.html",
+          "type": "China launch price — reported by Mowanmi",
+          "checked": "2026-11-02"
+        },
+        {
+          "amount": 354,
+          "currency": "CNY",
+          "basis": "display set of 6 boxes",
+          "as_of": "2026-06-29",
+          "source": "https://www.mowanmi.com/post/8056.html",
+          "type": "China launch price — reported by Mowanmi",
+          "checked": "2026-11-02"
+        }
+      ],
       "release": {
         "date": "2026-06-30",
         "precision": "day",
@@ -2802,17 +2898,21 @@
         "source": "https://www.sina.cn/news/detail/5315185732485224.html"
       },
       "evidence_type": "official_sale_announcement",
-      "image": null,
-      "image_source": null,
-      "image_caption": "No still product image exposed by the accessible video announcement",
+      "image": "https://www.disburst.com/sites/default/files/TOCI0078_01.png",
+      "image_source": "https://www.disburst.com/TOCI0078",
+      "image_caption": "Disburst distributor image; MONBOO Unknown Creatures series.",
       "retail_scope": "TOYCITY official announcement explicitly states all TOYCITY platforms; branch stock not established",
-      "summary": "Accessible source is a video announcement. A still product image and retail price could not be captured.",
+      "summary": "Six regular creature designs plus a hidden design, combining vinyl and plush. Distributor photography supplements the original TOYCITY announcement; reported launch prices are not a current store quote.",
       "current_stock": null,
       "units_sold": null,
       "added": "2026-10-31",
       "checked": "2026-10-31",
       "review_batch": "expanded-retailers",
-      "price_gap": "Retail price not established by this source."
+      "price_gap": "Current store selling price and stock remain unverified.",
+      "image_checked": "2026-11-02",
+      "additional_sources": [
+        "https://www.mowanmi.com/post/8056.html"
+      ]
     },
     {
       "id": "toycity-mrpa-company",
@@ -2827,7 +2927,17 @@
       "category": "Blind-box plush",
       "variants": null,
       "pack": "One random box",
-      "prices": [],
+      "prices": [
+        {
+          "amount": 74.15,
+          "currency": "USD",
+          "basis": "display set of 6 boxes · Toypaimall cross-border offer",
+          "as_of": "2026-11-02",
+          "source": "https://www.toypaimall.com/products/1725",
+          "type": "International asking price — not China chain retail",
+          "checked": "2026-11-02"
+        }
+      ],
       "release": {
         "date": "2026-02-13",
         "precision": "day",
@@ -2835,17 +2945,21 @@
         "source": "https://www.sina.cn/news/detail/5265874757878174.html"
       },
       "evidence_type": "official_sale_announcement",
-      "image": null,
-      "image_source": null,
-      "image_caption": "No still product image exposed by the accessible video announcement",
+      "image": "https://www.toypaimall.com/catalog/demo/social/T/t15/%E8%AF%A6%E6%83%85%E5%9B%BE01.jpg",
+      "image_source": "https://www.toypaimall.com/products/1725",
+      "image_caption": "Toypaimall product image; MR.PA Ability Company series.",
       "retail_scope": "TOYCITY official announcement explicitly states all TOYCITY platforms; branch stock not established",
-      "summary": "Accessible source is a video announcement. A still product image and retail price could not be captured.",
+      "summary": "MR.PA Ability Company plush series. A cross-border seller supplies product photography and a USD price for a six-box display; this does not establish TOYCITY China pricing.",
       "current_stock": null,
       "units_sold": null,
       "added": "2026-10-31",
       "checked": "2026-10-31",
       "review_batch": "expanded-retailers",
-      "price_gap": "Retail price not established by this source."
+      "price_gap": "China retail price remains unverified; USD quote is for six boxes, before checkout charges.",
+      "image_checked": "2026-11-02",
+      "additional_sources": [
+        "https://www.toypaimall.com/products/1725"
+      ]
     },
     {
       "id": "toycity-mrpa-transform",
@@ -2868,17 +2982,18 @@
         "source": "https://www.sina.cn/news/detail/5265818193760358.html"
       },
       "evidence_type": "official_sale_announcement",
-      "image": null,
-      "image_source": null,
-      "image_caption": "No still product image exposed by the accessible video announcement",
+      "image": "https://img.alicdn.com/bao/uploaded/i2/2210147840069/O1CN018OCzjN1CNeS4h8Tgt_%21%214611686018427383877-0-item_pic.jpg_500x500q90",
+      "image_source": "https://tao.hooos.com/goods_aVyB2YKfotMY5M4dXRuQQ7tjty-5Bmqq9U6VKdw95WhZ.html",
+      "image_caption": "Hooos secondary flagship listing image; Transformations earphone-pouch blind box. Seller attribution not independently authenticated.",
       "retail_scope": "TOYCITY official announcement explicitly states all TOYCITY platforms; branch stock not established",
-      "summary": "Accessible source is a video announcement. A still product image and retail price could not be captured.",
+      "summary": "MR.PA Transformations blind-box earphone pouches. A matching secondary flagship listing provides a still photograph. Its promotional price has not been imported because the exact selected selling option is not established.",
       "current_stock": null,
       "units_sold": null,
       "added": "2026-10-31",
       "checked": "2026-10-31",
       "review_batch": "expanded-retailers",
-      "price_gap": "Retail price not established by this source."
+      "price_gap": "Retail price not established by this source.",
+      "image_checked": "2026-11-02"
     },
     {
       "id": "mrpa-creature-wardrobe",
@@ -2892,9 +3007,31 @@
       "series": "耙耙萌兽衣帽间系列毛绒盲盒",
       "brand": "TOYCITY / Mr. Pa",
       "category": "Blind-box plush",
-      "variants": null,
+      "variants": {
+        "regular": 12,
+        "secret": 1
+      },
       "pack": "One random box",
-      "prices": [],
+      "prices": [
+        {
+          "amount": 9.9,
+          "currency": "CNY",
+          "basis": "one random blind box",
+          "as_of": "2026-10-13",
+          "source": "https://mowanmi.com/post/8439.html",
+          "type": "China launch price — reported by Mowanmi",
+          "checked": "2026-11-02"
+        },
+        {
+          "amount": 118.8,
+          "currency": "CNY",
+          "basis": "display set of 12 boxes",
+          "as_of": "2026-10-13",
+          "source": "https://mowanmi.com/post/8439.html",
+          "type": "China launch price — reported by Mowanmi",
+          "checked": "2026-11-02"
+        }
+      ],
       "release": {
         "date": "2026-10-20",
         "precision": "day",
@@ -2902,17 +3039,21 @@
         "source": "https://www.sina.cn/news/detail/5353243982957281.html"
       },
       "evidence_type": "official_sale_announcement",
-      "image": null,
-      "image_source": null,
-      "image_caption": "No still product image exposed by the accessible video announcement",
+      "image": "https://www.mowanmi.com/zb_users/upload/2026/10/202610131791882564562590.jpg",
+      "image_source": "https://mowanmi.com/post/8439.html",
+      "image_caption": "Mowanmi product report; one design from the Cute Creature Wardrobe series.",
       "retail_scope": "Manufacturer explicitly names 零食很忙 and 赵一鸣零食 as exclusive sale channels; participating branches not listed",
-      "summary": "A TOYCITY product sold through two named snack retail chains. It is not assigned to TOYCITY stores merely because TOYCITY is the maker. Still product photo not exposed by the video announcement.",
+      "summary": "Animal-costume mini plush series with 12 regular designs and one hidden design. TOYCITY names Snack Busy and Zhao Yiming as exclusive channels; a dated product report supplies photos and launch prices.",
       "current_stock": null,
       "units_sold": null,
       "added": "2026-10-31",
       "checked": "2026-10-31",
       "review_batch": "expanded-retailers",
-      "price_gap": "Retail price not established by this source."
+      "price_gap": "Current store selling price and stock remain unverified.",
+      "image_checked": "2026-11-02",
+      "additional_sources": [
+        "https://mowanmi.com/post/8439.html"
+      ]
     },
     {
       "id": "x11-bikini-bottom-day-trip",
@@ -3164,20 +3305,34 @@
       "category": "Blind-box figures",
       "variants": null,
       "pack": "Not established by store report",
-      "prices": [],
-      "price_gap": "Store report does not state a retail price",
+      "prices": [
+        {
+          "amount": 69,
+          "currency": "CNY",
+          "basis": "one random blind box",
+          "as_of": "2025-12-04",
+          "source": "https://news.caijingmobile.com/article/detail/560157?open_tag=0&source_id=40",
+          "type": "Historical China price — reported by China News Service/JWView",
+          "checked": "2026-11-02"
+        }
+      ],
+      "price_gap": "CNY69 is a December 2025 reported price, not a current store quote.",
       "release": null,
       "evidence_type": "independent_store_report",
-      "image": null,
-      "image_source": null,
-      "image_caption": "No matching still image established: the article’s display photograph shows the separate Marshmallow series",
+      "image": "https://fluffy.sale/cdn/shop/files/2_6_b202f452-501a-4071-a811-9d2d512da757.jpg?v=1770698440&width=1090",
+      "image_source": "https://fluffy.sale/products/52toys-disney-zootopia-best-partners-series-blind-box",
+      "image_caption": "Fluffy Monster Room international listing; sample Best Partners design, not the photographed China store inventory.",
       "retail_scope": "52TOYS Beijing Changying Paradise Walk store only; reporter visit December 7, 2025, article December 26, 2025",
       "summary": "A reporter observed a restock and customer purchases at the named store on December 7, 2025. The report names the Sweet Leaning variant; no full design count or retail price is given.",
       "current_stock": null,
       "units_sold": null,
       "added": "2026-10-31",
       "checked": "2026-10-31",
-      "review_batch": "expanded-retailers"
+      "review_batch": "expanded-retailers",
+      "image_checked": "2026-11-02",
+      "additional_sources": [
+        "https://news.caijingmobile.com/article/detail/560157?open_tag=0&source_id=40"
+      ]
     },
     {
       "id": "52toys-zootopia-marshmallow",
@@ -4555,5 +4710,21 @@
       "Seven chain records lack still photographs; 32 have no captured price evidence.",
       "Main catalog snapshot remains 2026-10-30; chain evidence review remains 2026-10-31."
     ]
+  },
+  "enrichment_review": {
+    "checked": "2026-11-02",
+    "photos_added": 7,
+    "price_records_added": 7,
+    "scope": "Supplementary product photo and price evidence only. Original chain-sale evidence dates, stock and sales quantities unchanged.",
+    "records": [
+      "toycity-cluebie-flower",
+      "toycity-laura-chess",
+      "toycity-monboo-unknown",
+      "toycity-mrpa-company",
+      "toycity-mrpa-transform",
+      "mrpa-creature-wardrobe",
+      "52toys-zootopia-best-partners"
+    ],
+    "remaining_price_gaps": 25
   }
 }
