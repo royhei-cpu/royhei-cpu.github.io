@@ -9,10 +9,9 @@ on:
       - 'china-toys/install_compare.py'
       - '.github/workflows/china-toys-compare-audit.yml'
 permissions:
-  contents: write
-  actions: write
+  contents: read
 concurrency:
-  group: china-toys-evidence-review
+  group: china-toys-compare-audit
   cancel-in-progress: false
 jobs:
   audit:
@@ -59,19 +58,3 @@ jobs:
             /tmp/china-toys-weekly-brief-qa/
           if-no-files-found: ignore
           retention-days: 14
-      - name: Save tested integration
-        if: ${{ hashFiles('china-toys/compare_test.py') != '' }}
-        run: |
-          git config user.name 'China Toy Atlas UI audit'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add china-toys/index.html china-toys/compare.js
-          if ! git diff --cached --quiet; then
-            git commit -m 'Enable tested Select and Compare controls in China Toy Atlas'
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
-      - name: Publish tested catalog
-        if: ${{ hashFiles('china-toys/compare_test.py') != '' }}
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run publish.yml --ref main
