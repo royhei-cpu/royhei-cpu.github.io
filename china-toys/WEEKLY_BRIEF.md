@@ -29,3 +29,8 @@ The IP table retains its existing **POP MART H1 2026 global revenue** basis. Do 
 ## Tests
 
 Run `python china-toys/install_weekly_brief.py`, `node --check china-toys/catalog-guide.js`, and `python china-toys/weekly_brief_test.py` with Playwright Chromium installed. The existing Monday refresh includes these steps. Tests cover metric-to-result consistency, retailer scope, product detail links, ranking scope, tutorial playback/audio-track presence, no JavaScript errors and 1440px/768px/390px layouts. Screenshots are saved outside source under `/tmp/china-toys-weekly-brief-qa/`. Inspect them before making visual-quality claims. This is not an exhaustive product/source audit or a physical-device listening test.
+
+
+## Chain review in the headline
+
+The chain-assortment UI adds one compact `#weeklyChainReview` line within the existing headline. It derives counts and the evidence review date from CHAIN_ASSORTMENTS, and displays a separate website navigation check date from `website_review` when recorded. Never replace the main catalog saved date with a website check. The Monday research task runs at 09:30 Asia/Shanghai, after the 08:30 collector. Refresh chain sources, record supported changes and gaps, rebuild, then test the public deployment. The November 2 live check visited all 18 chain tabs; a 14-page evidence sample is recorded without claiming full current inventory verification.

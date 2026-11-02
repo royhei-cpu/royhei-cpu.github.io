@@ -4526,5 +4526,34 @@
         "source": "https://www.sina.cn/news/detail/5348786839749839.html"
       }
     }
-  ]
+  ],
+  "website_review": {
+    "checked": "2026-11-02",
+    "scope": "Live chain navigation and filtered evidence cards, plus a sample of 14 public evidence pages covering the 18 tracked retailers. Not a fresh inventory/price or full photo audit.",
+    "chain_tabs_checked": 18,
+    "product_series_records": 81,
+    "source_pages_opened": [
+      "https://tao.hooos.com/goods_odyyrocrtK6vk63kRHDADFntN-d8ZBBDF0bXZ8DAPHd.html",
+      "https://www.sina.cn/news/detail/5209752071307943.html",
+      "https://www.sina.cn/news/detail/5336223972335086.html",
+      "https://www.sina.cn/news/detail/5305023614682452.html",
+      "https://www.sina.cn/news/detail/5344921281366173.html",
+      "https://www.sina.cn/news/detail/5344830684662289.html",
+      "https://www.sina.cn/news/detail/5313397501198806.html",
+      "https://www.sina.cn/news/detail/5345177972507875.html",
+      "https://www.jwview.com/jingwei/html/m/12-26/651327.shtml",
+      "https://www.sina.cn/news/detail/5321359825310722.html",
+      "https://www.sina.cn/news/detail/5326348903257719.html",
+      "https://www.sina.cn/news/detail/5255758771653256.html",
+      "https://www.sina.cn/news/detail/5293416905704951.html",
+      "https://www.sina.cn/news/detail/5353243982957281.html"
+    ],
+    "weekly_research": "Mondays 09:30 Asia/Shanghai",
+    "findings": [
+      "All 18 chain tabs opened nonempty matching record panels.",
+      "X11 product search narrowed to Kamen Rider; MINISO first-party filter returned three sale records.",
+      "Seven chain records lack still photographs; 32 have no captured price evidence.",
+      "Main catalog snapshot remains 2026-10-30; chain evidence review remains 2026-10-31."
+    ]
+  }
 }

@@ -24,5 +24,23 @@
     wrap.addEventListener('error',ev=>{if(ev.target.tagName==='IMG'){const p=ev.target.parentElement;p.textContent='Photo unavailable — open original image ↗';p.classList.add('ca-photo-error');}},true);
     panel.append(wrap);update();
   }
+
+  // Surface the independently maintained chain review in the headline.
+  // Do not change the catalog snapshot date or turn a navigation check into an inventory audit.
+  function headlineChainReview(){
+    const root=document.getElementById('weeklyOverview');if(!root)return;
+    const count=data.products.length,chains=data.chains.length;
+    const review=data.website_review;
+    const body='<a href="./?chain=miniso#retailChains"><strong>'+chains+' retail chains · '+count+' documented product / series records</strong> →</a> · Chain evidence reviewed '+esc(data.reviewed)+'.'+
+      (review?' Live navigation checked '+esc(review.checked)+'.':'')+
+      ' Weekly research: Mondays, 9:30 a.m. China time. Catalog, price and stock dates remain separate.';
+    let note=root.querySelector('#weeklyChainReview');
+    if(!note){note=document.createElement('p');note.id='weeklyChainReview';note.className='review-small';note.style.cssText='margin:12px 0 0;padding-top:10px;border-top:1px solid #d5e2da;line-height:1.6';root.append(note);}
+    if(note.innerHTML!==body)note.innerHTML=body;
+  }
+  headlineChainReview();
+  const brief=document.getElementById('weeklyOverview');
+  if(brief)new MutationObserver(headlineChainReview).observe(brief,{childList:true,subtree:true});
+
   window.ChainAssortmentUI={render,stats,metadata,names};
 })();
