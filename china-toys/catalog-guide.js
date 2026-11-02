@@ -19,16 +19,16 @@ function enhanceCards(){for(const card of document.querySelectorAll('.product-ca
  // Character identity is prominent above the series title; do not repeat in facts.
  rows.push(['Type',p.category]);
  if(good(p.regular_designs))rows.push(['Designs',p.regular_designs+' regular'+(good(p.secret_designs)?' + '+p.secret_designs+' secret':'')]);
- if(good(d.age))rows.push(['Age on listing',d.age]);
+ if(good(d.age))rows.push(['Suggested age',d.age]);
  if(good(p.wave))rows.push(['Wave',p.wave]);
  if(ld?.date)rows.push(['Release',((ld.approximate||ld.precision!=='day')?'≈ ':'')+(ld.display||fmt(ld.date))+' · '+(ld.market||'Source market not stated')]);
  else if(l.listing_date)rows.push(['Shop page date',fmt(l.listing_date)]);
  if(good(p.sales?.display))rows.push(['Reported sales',p.sales.display]);
  const options=l.options||[];
  if(options.length)rows.push(['Shop options',options.length+' listed options']);
- if(typeof l.available==='boolean')rows.push(['Stock at check',l.available?'Available':'Out of stock']);
+ if(typeof l.available==='boolean')rows.push(['Availability when checked',l.available?'Available':'Out of stock']);
  if(l.checked)rows.push([l.kind==='official showcase'?'Source reviewed':'Price checked',fmt(l.checked)]);
- const facts=card.querySelector('.card-facts');if(facts){facts.innerHTML=rows.map(([k,v])=>`<div class="fact"><span>${esc(k)}</span><span>${esc(short(v,180))}</span></div>`).join('');if(!ld&&l.listing_date)facts.insertAdjacentHTML('beforeend','<p class="fact-label-note">Shop page date is not a confirmed launch date.</p>')}
+ const facts=card.querySelector('.card-facts');if(facts){const draw=items=>items.map(([k,v])=>`<div class="fact"><span>${esc(k)}</span><span>${esc(short(v,180))}</span></div>`).join('');const primary=rows.filter(([k])=>['Type','Designs','Release','Availability when checked'].includes(k));const extra=rows.filter(r=>!primary.includes(r));facts.innerHTML=draw(primary)+(extra.length?'<details class="collector-extra"><summary>More product information</summary>'+draw(extra)+'</details>':'');if(!ld&&l.listing_date)facts.insertAdjacentHTML('beforeend','<p class="fact-label-note">Shop page date is not a confirmed launch date.</p>')}
  const body=card.querySelector('.card-body');if(!body)continue;
  const profile=window.ATLAS_ITEM_INSIGHTS?.(p);if(profile){const el=document.createElement('p');el.className='available-description item-overview';el.textContent=profile.summary;body.querySelector('.product-title')?.after(el)}
  if(!profile&&d.features?.length&&!body.querySelector('.known-feature')){const el=document.createElement('p');el.className='available-description known-feature';el.textContent=short(d.features.join(' · '),230);body.append(el)}
@@ -52,7 +52,7 @@ function enhanceDialog(){const root=document.getElementById('productDetail');if(
  if(dl)for(const dt of [...dl.querySelectorAll('dt')])if(dt.textContent.trim()==='Last checked'){dt.nextElementSibling?.remove();dt.remove()}
 
  const profile=window.ATLAS_ITEM_INSIGHTS?.(p);
- if(profile&&!content.querySelector('.about-source')){const box=document.createElement('section');box.className='about-source';box.innerHTML='<h3>At a glance</h3><p>'+esc(profile.summary)+'</p><h4>What to compare · analyst view</h4><p>'+esc(profile.angle)+'</p><h4>Check before choosing</h4><p>'+esc(profile.question)+'</p><span class="available-source-note">'+profile.sources.map(u=>link(u,'Product source')).join(' · ')+(profile.reviewed?' · Summary reviewed '+esc(fmt(profile.reviewed)):' · Based on saved catalog facts')+'</span>';content.querySelector('#detailTitle')?.after(box)}
+ if(profile&&!content.querySelector('.about-source')){const box=document.createElement('section');box.className='about-source';box.innerHTML='<h3>At a glance</h3><p>'+esc(profile.summary)+'</p><h4>Collector tips · our interpretation</h4><p>'+esc(profile.angle)+'</p><h4>Check before choosing</h4><p>'+esc(profile.question)+'</p><span class="available-source-note">'+profile.sources.map(u=>link(u,'Product source')).join(' · ')+(profile.reviewed?' · Summary reviewed '+esc(fmt(profile.reviewed)):' · Based on saved catalog facts')+'</span>';content.querySelector('#detailTitle')?.after(box)}
 
  if(!p.launch&&!p.launch_estimate&&!gaps.includes('Launch'))gaps.push('Launch date');
  if(!p.wave&&!gaps.includes('Wave'))gaps.push('Wave number');

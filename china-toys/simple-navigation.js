@@ -37,7 +37,7 @@
   const box=document.createElement('details');box.className='atlas-dashboard-fold';if(id)box.id=id;
   const title=document.createElement('summary');title.textContent=label;box.append(title);el.before(box);box.append(el);return box;
  }
- const intro=main.querySelector('.intro');if(intro){main.prepend(intro);intro.querySelector('h1').innerHTML='Find your next <span>China toy.</span>';intro.querySelector('p').textContent='Search blind boxes, squishies and character collectibles. Compare products, then export your selection.';}
+ const intro=main.querySelector('.intro');if(intro){main.prepend(intro);intro.querySelector('h1').innerHTML='Find your next <span>China toy.</span>';intro.querySelector('p').textContent='Explore Chinese blind boxes, squishies and character toys. Find a favourite, compare shop prices and save your picks.';}
  const stats=document.getElementById('stats');if(stats)stats.hidden=true;
  const weekly=document.getElementById('weeklyOverview');
  function compactWeekly(){
@@ -76,3 +76,6 @@
  function revealHash(){const id=location.hash.slice(1);const el=document.getElementById(id);if(el)for(let x=el;x;x=x.parentElement)if(x.tagName==='DETAILS')x.open=true;}
  window.addEventListener('hashchange',revealHash);revealHash();
 })();
+
+/* Plain-language help for shoppers and collectors. */
+(()=>{'use strict';const intro=document.querySelector('.intro');if(!intro)return;const help=document.createElement('details');help.className='collector-help';help.innerHTML='<summary>New here? Start with these 3 steps</summary><ol><li><b>Find a toy.</b> Choose a brand or shop, or search for a character. Use Product type to find blind boxes or squishies.</li><li><b>Explore and compare.</b> Tap a photo for details and shop links. Select 2–6 products to compare. The bookmark saves favourites on this device.</li><li><b>Save your research.</b> Download a CSV for Excel with product details and photo links. CSV files contain image links, not embedded pictures.</li></ol><p><b>Collector basics:</b> A blind box contains a surprise design. A secret is a special design in a series; check the seller for its odds. A wave is a release within a series.</p><p><b>Before buying:</b> Check whether the price is for one box, a full set or a specific character. Prices and availability can change. Follow the shop link to buy; this website is a discovery guide.</p>';intro.after(help);const style=document.createElement('style');style.textContent='.collector-help{background:#fff8e9;border:1px solid #eadcc0;border-radius:12px;padding:14px 18px;margin:0 0 16px;font-size:14px;line-height:1.7}.collector-help summary,.collector-extra summary{cursor:pointer;font-weight:650;color:#174c3d}.collector-help ol{padding-left:22px}.collector-help li{margin:8px 0}.collector-help p{margin:10px 0}.collector-extra{margin-top:10px}.collector-extra summary{font-size:12px;margin-bottom:8px}.product-card .available-description{font-size:13px;line-height:1.6}.product-card .character-name span{font-size:11px}.product-card .card-footer{gap:12px}';document.head.append(style);})();
