@@ -42,7 +42,7 @@ try:
   assert len(rows)==7 and all(r['Image URL'] and r['Analysis sources'] for r in rows)
   page.locator('#atlasBrandNav a[href="#retailChains"]').click()
   page.get_by_role('tab',name='MINISO',exact=True).click()
-  expect(page.locator('#chainDetail')).to_contain_text('7 official showcase entries')
+  expect(page.locator('#chainDetail')).to_contain_text('official product showcase · 7 entries')
   expect(page.locator('#chainDetail')).to_contain_text('Tmall inventory')
   expect(page.locator('#chainDetail a[href="https://miniso.tmall.com/"]')).to_be_visible()
   expect(page.locator('#chainCoverageGaps')).to_contain_text(f'{official} first-party sale records')
@@ -50,6 +50,7 @@ try:
   expect(page.locator('#chainCoverageAudit tbody tr')).to_have_count(len(expected))
   for chain,count in expected.items():
    page.get_by_role('tab',name=chain,exact=True).click()
+   if page.locator('.chain-release-notes').count(): page.locator('.chain-release-notes summary').first.click()
    expect(page.locator('.ca-product')).to_have_count(count)
    expect(page.locator('.ca-count')).to_have_text(f'{count} documented highlights · not total store inventory')
    page.locator('.ca-search').fill('no matching product here')
@@ -57,6 +58,7 @@ try:
    page.locator('.ca-search').fill('')
    expect(page.locator('.ca-product')).to_have_count(count)
   page.get_by_role('tab',name='52TOYS',exact=True).click()
+  if page.locator('.chain-release-notes').count(): page.locator('.chain-release-notes summary').first.click()
   expect(page.locator('.ca-product')).to_have_count(expected['52TOYS'])
   for reference in supplement['brand_release_references']:
    assert page.locator('[data-product-id="'+reference['id']+'"]').count()==0
