@@ -86,6 +86,9 @@
  const group=document.createElement('details');group.id='sourcesResearch';group.className='atlas-dashboard-fold';
  group.innerHTML='<summary>Sources & research</summary><p class="research-intro">Optional: explore trends, launch dates, source checks and what the catalog covers.</p>';
  results.after(group);
+ const links=document.createElement('div');links.className='research-links';group.append(links);
+ document.querySelectorAll('footer a[href="report.json"],footer a[href*="github.com"],.header-links a[href="research.html"]').forEach(a=>links.append(a));
+ const reading=main.querySelector('.reading-note');if(reading)group.append(reading);
  function collect(){
   for(const el of Array.from(main.children)){
    const title=el.querySelector(':scope > summary')?.textContent||'';
@@ -96,5 +99,5 @@
  }
  collect();new MutationObserver(collect).observe(main,{childList:true});
  const link=document.querySelector('#atlasBrandNav a[href="#chinaIntelligencePanel"]');if(link){link.href='#sourcesResearch';link.textContent='Research';}
- const css=document.createElement('style');css.textContent='#sourcesResearch{margin-top:24px}#sourcesResearch>.research-intro{padding:0 18px;font-size:13px;color:#53645d}#sourcesResearch>details{margin:8px 14px;border:0;border-top:1px solid #e2e9e4;border-radius:0;background:transparent}#sourcesResearch>.ip-top-button{display:none}#sourcesResearch>summary{font-size:15px}';document.head.append(css);
+ const css=document.createElement('style');css.textContent='#sourcesResearch{margin-top:24px}#sourcesResearch>.research-intro{padding:0 18px;font-size:13px;color:#53645d}#sourcesResearch>details{margin:8px 14px;border:0;border-top:1px solid #e2e9e4;border-radius:0;background:transparent}#sourcesResearch>.ip-top-button{display:none}#sourcesResearch>summary{font-size:15px}.research-links{display:flex;flex-wrap:wrap;gap:16px;padding:12px 18px;font-size:13px}';document.head.append(css);
 })();
