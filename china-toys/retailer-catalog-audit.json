@@ -1,0 +1,195 @@
+{
+  "checked": "2026-11-02",
+  "scope": "Public reference-page and access review of all 18 tracked retailer chains; not a full assortment audit",
+  "complete_inventories_verified": 0,
+  "retailers": [
+    {
+      "id": "miniso",
+      "name": "MINISO / 名创优品",
+      "reference": "https://miniso.tmall.com/",
+      "reference_status": "timeout",
+      "captured_series_records": 12,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "x11",
+      "name": "X11",
+      "reference": "https://www.kkgroup.cn/zh-CN/x11",
+      "reference_status": "read",
+      "captured_series_records": 11,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "kkv",
+      "name": "KKV",
+      "reference": "https://www.kkgroup.cn/zh-CN/kkv",
+      "reference_status": "read",
+      "captured_series_records": 11,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "jiumu",
+      "name": "Jiumu / 九木杂物社",
+      "reference": "https://www.mg-pen.com/chenguangbrand/info.aspx?itemid=30",
+      "reference_status": "target_http_error",
+      "captured_series_records": 9,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "kule",
+      "name": "KuLe / 酷乐潮玩",
+      "reference": "https://www.sina.cn/media/6516837361",
+      "reference_status": "read",
+      "captured_series_records": 5,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "green-party",
+      "name": "The Green Party / 绿光派对",
+      "reference": "https://www.smsupermalls.cn/city/jjfloor.aspx",
+      "reference_status": "read",
+      "captured_series_records": 7,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "sanfu",
+      "name": "SANFU / 三福",
+      "reference": "https://www.sanfu.com/about",
+      "reference_status": "read",
+      "captured_series_records": 5,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "ipstar",
+      "name": "IPSTAR / 潮玩星球",
+      "reference": "https://weibo.com/6509826766",
+      "reference_status": "timeout",
+      "captured_series_records": 11,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "pop-mart",
+      "name": "POP MART",
+      "reference": "https://www.sina.cn/media/1726303567",
+      "reference_status": "read",
+      "captured_series_records": 4,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "top-toy",
+      "name": "TOP TOY",
+      "reference": "https://www.sina.cn/media/7519571372",
+      "reference_status": "read",
+      "captured_series_records": 9,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "52toys",
+      "name": "52TOYS",
+      "reference": "https://www.sina.cn/media/5537333601",
+      "reference_status": "read",
+      "captured_series_records": 2,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "toycity",
+      "name": "TOYCITY · 玩具城市",
+      "reference": "https://www.sina.cn/media/7415975135",
+      "reference_status": "read",
+      "captured_series_records": 6,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "lenle",
+      "name": "Lenle · 伶俐",
+      "reference": "https://www.sina.cn/news/detail/5347736691410585.html",
+      "reference_status": "read",
+      "captured_series_records": 7,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "bandai-namco-shop",
+      "name": "Bandai Namco Shop",
+      "reference": "https://www.sina.cn/news/detail/5326348903257719.html",
+      "reference_status": "read",
+      "captured_series_records": 1,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "march-monster",
+      "name": "March Monster · 三月兽",
+      "reference": "https://www.sina.cn/news/detail/5255758771653256.html",
+      "reference_status": "read",
+      "captured_series_records": 1,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "tomato-pocket",
+      "name": "Tomato Pocket · 番茄口袋",
+      "reference": "https://www.sina.cn/news/detail/5293416905704951.html",
+      "reference_status": "read",
+      "captured_series_records": 1,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "snack-busy",
+      "name": "Snack Busy · 零食很忙",
+      "reference": "https://www.sina.cn/news/detail/5353243982957281.html",
+      "reference_status": "read",
+      "captured_series_records": 1,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    },
+    {
+      "id": "zhao-yiming",
+      "name": "Zhao Yiming · 赵一鸣零食",
+      "reference": "https://www.sina.cn/news/detail/5353243982957281.html",
+      "reference_status": "read",
+      "captured_series_records": 1,
+      "full_catalog_verified": false,
+      "inventory_total": null,
+      "next_step": "Reconcile SKU-level catalog categories, pagination and advertised totals; announcements alone do not establish full assortment."
+    }
+  ],
+  "sanfu": {
+    "official_store": "https://sffs.tmall.com/",
+    "store_result": "Login/navigation shell; no products captured",
+    "mobile_store": "https://m.sanfu.com",
+    "mobile_result": "Empty content",
+    "official_posts_inspected": 100,
+    "additional_verified_series": 3
+  }
+}

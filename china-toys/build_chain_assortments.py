@@ -50,8 +50,20 @@ def source_health(d):
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:rows=list(pool.map(get,urls))
     (ROOT/'chain-source-health.json').write_text(json.dumps({'checked_at':checked,'scope':'Link reachability only; not inventory, identity, price or stock revalidation. HTTP 200 may still contain a login or challenge page.','sources':rows},ensure_ascii=False,indent=2)+'\n')
 
+def cache_missing_photos(d):
+    """Cache reviewed source images; do not substitute unrelated placeholders."""
+    for p in d['products']:
+        path=p.get('image') or ''
+        if not path.startswith('images/chains/') or (ROOT/path).is_file():continue
+        target=(ROOT/path).resolve()
+        assert target.is_relative_to((ROOT/'images/chains').resolve())
+        req=urllib.request.Request(p['image_source'],headers={'User-Agent':'Mozilla/5.0','Referer':'https://www.sina.cn/'})
+        with urllib.request.urlopen(req,timeout=30) as response:raw=response.read(8000001)
+        assert 100<len(raw)<=8000000 and (raw.startswith(bytes([255,216,255])) or raw.startswith(bytes([137,80,78,71]))),'Invalid source photo: '+path
+        target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(raw)
+
 def build(check_sources=False):
-    d=json.loads((ROOT/'chain-assortments.json').read_text());validate(d)
+    d=json.loads((ROOT/'chain-assortments.json').read_text());cache_missing_photos(d);validate(d)
     sources={s['id']:s for s in d['sources']}
     official=[p for p in d['products'] if p['evidence_type']=='official_sale_announcement']
     reported=[p for p in d['products'] if p['evidence_type']=='secondary_flagship_report']
