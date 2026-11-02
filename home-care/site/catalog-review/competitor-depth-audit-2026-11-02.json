@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-02",
+  "baseline": 9572,
+  "added": 51,
+  "total": 9623,
+  "byRetailer": {
+    "TikTok Shop": 2,
+    "Albertsons": 9,
+    "Home Depot": 26,
+    "Walgreens": 8,
+    "Costco": 2,
+    "Safeway": 4
+  },
+  "categoryChecks": [
+    {
+      "retailer": "Costco",
+      "category": "Trash Bags",
+      "url": "https://www.costco.com/trash-bags.html?refine=30836",
+      "checkedDate": "2026-11-02",
+      "discoveredItemLinks": 0,
+      "status": "initial category response checked",
+      "error": null,
+      "pagination": "Not established as exhausted; further pagination remains required"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Toilet Paper & Tissues",
+      "url": "https://www.costco.com/toilet-paper.html",
+      "checkedDate": "2026-11-02",
+      "discoveredItemLinks": 0,
+      "status": "initial category response checked",
+      "error": null,
+      "pagination": "Not established as exhausted; further pagination remains required"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Dishwashing",
+      "url": "https://www.homedepot.com/b/Cleaning-Cleaning-Products-Dish-Soap/Dawn/Liquid/Original/N-5yc1vZch5tZ1u2Z1z0lpcgZ1z0w0lj",
+      "checkedDate": "2026-11-02",
+      "discoveredItemLinks": 8,
+      "status": "initial category response checked",
+      "error": null,
+      "pagination": "Not established as exhausted; further pagination remains required"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Paper Towels",
+      "url": "https://www.homedepot.com/b/Cleaning-Paper-Products-Paper-Towels/N-5yc1vZcb4b",
+      "checkedDate": "2026-11-02",
+      "discoveredItemLinks": 23,
+      "status": "initial category response checked",
+      "error": null,
+      "pagination": "Not established as exhausted; further pagination remains required"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Trash Bags",
+      "url": "https://www.homedepot.com/b/Cleaning-Trash-Recycling-Trash-Bags/N-5yc1vZcb24",
+      "checkedDate": "2026-11-02",
+      "discoveredItemLinks": 19,
+      "status": "initial category response checked",
+      "error": null,
+      "pagination": "Not established as exhausted; further pagination remains required"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Paper Towels",
+      "url": "https://www.walgreens.com/q/paper-towels",
+      "checkedDate": "2026-11-02",
+      "discoveredItemLinks": 9,
+      "status": "initial category response checked",
+      "error": null,
+      "pagination": "Not established as exhausted; further pagination remains required"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Food Wrap & Storage",
+      "url": "https://www.safeway.com/aisles/paper-cleaning-home/plastic-foil-storage.2600.html?page=1&sort=",
+      "checkedDate": "2026-11-02",
+      "discoveredItemLinks": 0,
+      "status": "initial category response checked",
+      "error": null,
+      "pagination": "Not established as exhausted; further pagination remains required"
+    }
+  ],
+  "heldOrExcluded": [
+    {
+      "url": "https://www.homedepot.com/p/sets/Select-A-Size-Paper-Towel-12-Rolls-Lemon-Scent-Wipes-3-Pack-7-Gal-Trash-Can-and-10-Gal-Bags-250-Count/339886082",
+      "name": "Select-A-Size Paper Towel (12 Rolls), Lemon Scent Wipes (3-Pack), 7 Gal. Trash Can, and 10 Gal. Bags (250-Count)",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Ekena-Millwork-10-1-2-in-W-x-75-in-H-Americraft-3-Board-Exterior-Real-Wood-Joined-Board-and-Batten-Shutters-Black-ARW101BB311X75BLH/323800001",
+      "name": "Ekena Millwork 10-1/2 in. W x 75 in. H Americraft 3 Board Exterior Real Wood Joined Board and Batten Shutters Black ARW101BB311X75BLH",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Ekena-Millwork-12-in-x-48-in-True-Fit-PVC-Single-X-Board-Farmhouse-Fixed-Mount-Board-and-Batten-Shutters-Pepper-Red-Per-Pair-TFP001FH12X048MR/319542110",
+      "name": "Ekena Millwork 12 in. x 48 in. True Fit PVC Single X-Board Farmhouse Fixed Mount Board and Batten Shutters, Pepper Red (Per Pair) TFP001FH12X048MR",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/SAFAVIEH-Craft-Gray-Gold-2-ft-x-18-ft-Distressed-Abstract-Runner-Rug-CFT877F-218/312749055",
+      "name": "SAFAVIEH Craft Gray/Gold 2 ft. x 18 ft. Distressed Abstract Runner Rug CFT877F-218",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Custom-Building-Products-SimpleGrout-165-Delorean-Gray-1-qt-Premixed-Grout-PMG165QT/100676313",
+      "name": "Custom Building Products SimpleGrout #165 Delorean Gray 1 qt. Premixed Grout PMG165QT",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Misopily-6-Tine-Lawn-Aerator-Manual-Core-Aerator-Tool-Stainless-Steel-Hollow-Tine-Yard-Aerator-Relieves-Compacted-Soil-SA1128B980/342979517",
+      "name": "Misopily 6-Tine Lawn Aerator Manual Core Aerator Tool Stainless Steel Hollow Tine Yard Aerator Relieves Compacted Soil SA1128B980",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/VEIKOUS-8-ft-x-2-ft-x-2-ft-Galvanized-Steel-Raised-Garden-Bed-Planter-Box-Outdoor-Olive-Green-PG0102-10OG-5/339713117",
+      "name": "VEIKOUS 8 ft. x 2 ft. x 2 ft. Galvanized Steel Raised Garden Bed Planter Box Outdoor, Olive Green PG0102-10OG-5",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Home-Decorators-Collection-White-Cordless-Faux-Wood-Blinds-for-Windows-w-2-in-Slats-10-875-in-W-x-64-in-L-Actual-Size-10-375-in-W-x-64-in-L-10197747590301/341879295",
+      "name": "Home Decorators Collection White Cordless Faux Wood Blinds for Windows w/ 2 in. Slats-10.875 in. W x 64 in. L (Actual Size 10.375 in. W x 64 in. L) 10197747590301",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/ACHIM-Florence-White-Cordless-Blackout-Pleated-Polyester-Roman-Shades-35-in-W-x-64-in-L-RSCO35WH04/305274630",
+      "name": "ACHIM Florence White Cordless Blackout Pleated Polyester Roman Shades 35 in. W x 64 in. L RSCO35WH04",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Sun-Zero-Duran-Gray-Polyester-Solid-50-in-W-x-95-in-L-Noise-Cancelling-Grommet-Blackout-Curtain-Single-Panel-55982/317639407",
+      "name": "Sun Zero Duran Gray Polyester Solid 50 in. W x 95 in. L Noise Cancelling Grommet Blackout Curtain (Single Panel) 55982",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/The-Home-Depot-30-Gal-Paper-Lawn-and-Leaf-Bags-5-Count-THDLL305/329061227",
+      "name": "The Home Depot 30 Gal. Paper Lawn and Leaf Bags (5 Count) THDLL305",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Husky-42-Gal-Contractor-Bags-50-Count-HK42WC050B/202973825",
+      "name": "Husky 42 Gal. Contractor Bags (50-Count) HK42WC050B",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/WM-Bagster-Dumpster-in-a-Bag-Holds-up-to-3-300-lb-775-658/202228840",
+      "name": "WM Bagster Dumpster in a Bag (Holds up to 3,300 lb.) 775-658",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/sets/24-in-High-Power-Multi-Surface-Squeegee-Push-Broom-and-42-Gal-Contractor-Bags-50-Count-Combo/339899317",
+      "name": "24 in. High Power Multi-Surface Squeegee Push Broom and 42 Gal. Contractor Bags (50-Count) Combo",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/sets/High-Power-Indoor-Outdoor-Angle-Broom-and-Dustpan-Set-and-42-Gal-Heavy-Duty-Clean-Up-Bags-32-Count/344214940",
+      "name": "High Power Indoor/Outdoor Angle Broom and Dustpan Set and 42 Gal. Heavy Duty Clean-Up Bags (32-Count)",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Husky-42-Gal-Heavy-Duty-Contractor-Clean-Up-Bags-with-20-PCR-50-Count-HKR42WC050B/323136216",
+      "name": "Husky 42 Gal. Heavy-Duty Contractor Clean-Up Bags with 20% PCR (50-Count) HKR42WC050B",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Ultrasac-Heavy-Duty-Contractor-Bags-with-Flaps-42-gal-3-Mil-Thick-Industrial-Strength-Extra-Large-Trash-Bags-50-Count-HMD-719963/100127524",
+      "name": "Ultrasac Heavy Duty Contractor Bags with Flaps - 42 gal. 3 Mil Thick Industrial Strength Extra Large Trash Bags (50 Count) HMD 719963",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Husky-42-Gal-Heavy-Duty-Clean-Up-Bags-32-Count-HK42WC032B/100063659",
+      "name": "Husky 42 Gal. Heavy Duty Clean-Up Bags (32-Count) HK42WC032B",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Masonite-36-in-x-80-in-Left-Hand-Inswing-Premium-Full-Lite-Clear-Glass-Primed-Steel-Prehung-Front-Door-with-Brickmold-27631/100032548",
+      "name": "Masonite 36 in. x 80 in. Left-Hand/Inswing Premium Full Lite Clear Glass Primed Steel Prehung Front Door with Brickmold 27631",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Ekena-Millwork-15-in-W-x-79-in-H-True-Fit-PVC-Diagonal-Slat-Modern-Style-Fixed-Mount-Shutters-White-TFP001DG15X079WH/325029250",
+      "name": "Ekena Millwork 15-in W x 79-in H True Fit PVC Diagonal Slat Modern Style Fixed Mount Shutters, White TFP001DG15X079WH",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/Ekena-Millwork-10-1-2-in-W-x-63-in-H-Americraft-Exterior-Real-Wood-Joined-Board-and-Batten-Shutters-with-Elliptical-Top-Ocean-Swell-ARW101BE311X63CHH/323805857",
+      "name": "Ekena Millwork 10-1/2 in. W x 63 in. H Americraft Exterior Real Wood Joined Board and Batten Shutters with Elliptical Top Ocean Swell ARW101BE311X63CHH",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/SAFAVIEH-Micro-Loop-Grey-Ivory-8-ft-x-10-ft-Abstract-Geometric-Area-Rug-MLP174F-8/323617568",
+      "name": "SAFAVIEH Micro-Loop Grey/Ivory 8 ft. x 10 ft. Abstract Geometric Area Rug MLP174F-8",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.homedepot.com/p/JONATHAN-Y-Elm-White-Black-2-ft-x-10-ft-Diamond-Stripe-Geometric-Shag-Runner-Rug-MOH408A-210/316857874",
+      "name": "JONATHAN Y Elm White/Black 2 ft. x 10 ft. Diamond Stripe Geometric Shag Runner Rug MOH408A-210",
+      "reason": "Outside household scope, mixed-category bundle, or unresolved pack/photo"
+    },
+    {
+      "url": "https://www.walgreens.com/store/c/beauty-products/ID=359434-tier1",
+      "name": null,
+      "reason": "No exact Product structured record recovered"
+    },
+    {
+      "url": "https://sameday.costco.com/store/costco/products/123105-kirkland-signature-drawstring-trash-bags-90-x-33-gal-90-ct",
+      "name": null,
+      "reason": "No exact Product structured record recovered"
+    },
+    {
+      "url": "https://sameday.costco.com/store/costco/products/41266514-kirkland-signature-compactor-kitchen-trash-bags-white-18-gal",
+      "name": null,
+      "reason": "No exact Product structured record recovered"
+    },
+    {
+      "url": "https://sameday.costco.com/store/costco/products/16643314-kirkland-signature-flex-tech-kitchen-bags-200-x-13-gal-200-ct",
+      "name": null,
+      "reason": "No exact Product structured record recovered"
+    }
+  ],
+  "amazon": "Preserved 484 records and 46 upgrades from latest main. Two remaining exact-ASIN retries returned HTTP 500. Full inventory remains unverified.",
+  "emptyCells": 51,
+  "completeInventory": false
+}

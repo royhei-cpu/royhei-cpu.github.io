@@ -20,6 +20,7 @@ $('opportunity-products').onclick=e=>{const b=e.target.closest('button');if(!b)r
 $('nav-opportunities').onclick=()=>{showCatalogView(false);renderOpportunities();};
 $('nav-catalog').onclick=()=>showCatalogView(true);
 const reviewNote=document.createElement('p');reviewNote.className='exec-note';reviewNote.textContent='Evidence review: 1 November 2026 · New catalog references added to six opportunity areas. Ranking unchanged: research priorities, not measured market rankings. Home Organization retained as adjacent scope; no material change. Prices and sales remain dated source snapshots.';$('executive-view').prepend(reviewNote);
+const depthNote=document.createElement('p');depthNote.className='exec-note';depthNote.textContent='2 November competitor follow-up: additional cleaning tools, paper products and storage listings. No ranking movement claimed; complete seven-area reassessment remains pending.';$('executive-view').prepend(depthNote);
 renderOpportunities();
 
 showCatalogView(true); // Default to browsing competitors on every visit.

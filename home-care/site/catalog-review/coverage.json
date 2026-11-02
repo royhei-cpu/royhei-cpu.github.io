@@ -2,8 +2,8 @@
   "reviewedAt": "2026-11-01",
   "sourceCheckedAt": "2026-11-01",
   "baseline": 6331,
-  "added": 3241,
-  "total": 9572,
+  "added": 3292,
+  "total": 9623,
   "scope": "Collected public listings; no full retailer inventory claim",
   "retailers": [
     {
@@ -211,10 +211,10 @@
     },
     {
       "retailer": "Albertsons",
-      "collected": 60,
+      "collected": 69,
       "added": 45,
       "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Indexed Albertsons product pages checked. Direct category access restricted; matched reference photos explicitly labeled. Store stock and prices not verified.",
+      "limitations": "Indexed Albertsons product pages checked. Direct category access restricted; matched reference photos explicitly labeled. Store stock and prices not verified. 2 November follow-up: 9 additional exact product pages and matched photos; no complete inventory claim.",
       "sourcePages": [
         "https://www.albertsons.com/shop/pd/carbona-carpet-cleaner-oxy-powered-2-in-1-value-size-27-5-fl-oz/173200045",
         "https://www.albertsons.com/shop/pd/dawn-straw-cleaner-brush-4-ct/960302756",
@@ -277,7 +277,7 @@
         },
         {
           "category": "Cleaning Tools",
-          "collected": 22,
+          "collected": 31,
           "added": 22,
           "status": "Additional item evidence collected"
         },
@@ -617,7 +617,7 @@
       "sourceCheckedAt": "2026-11-02"
     },
     {
-      "retailer": "BJ’s Wholesale",
+      "retailer": "BJ\u2019s Wholesale",
       "collected": 32,
       "added": 29,
       "reviewStatus": "Public item-page evidence added; partial",
@@ -851,10 +851,10 @@
     },
     {
       "retailer": "Costco",
-      "collected": 128,
+      "collected": 130,
       "added": 0,
       "reviewStatus": "Further source review required",
-      "limitations": "No additional source-backed records in this expansion. Existing records retained; full category enumeration remains outstanding.",
+      "limitations": "No additional source-backed records in this expansion. Existing records retained; full category enumeration remains outstanding. 2 November follow-up: 2 additional exact product pages and matched photos; no complete inventory claim.",
       "sourcePages": [],
       "categories": [
         {
@@ -937,7 +937,7 @@
         },
         {
           "category": "Toilet Paper & Tissues",
-          "collected": 0,
+          "collected": 2,
           "added": 0,
           "status": "Further category research required"
         },
@@ -1056,7 +1056,7 @@
       "collected": 15,
       "added": 7,
       "reviewStatus": "Additional evidence checked; partial",
-      "limitations": "7 additional product-page records from the retailer’s same-day storefront. Fulfillment and prices are location-dependent. Other departments and pagination remain incomplete.",
+      "limitations": "7 additional product-page records from the retailer\u2019s same-day storefront. Fulfillment and prices are location-dependent. Other departments and pagination remain incomplete.",
       "sourcePages": [
         "https://sameday.dollartree.com/store/dollar-tree/products/17131411-goodsense-30-gallon-trash-bags-10-ct",
         "https://sameday.dollartree.com/store/dollar-tree/products/17318485-mr-clean-magic-eraser-original-cleaning-pads-with-durafoam-1-0-ct",
@@ -1284,10 +1284,10 @@
     },
     {
       "retailer": "Home Depot",
-      "collected": 25,
+      "collected": 51,
       "added": 1,
       "reviewStatus": "Public item-page evidence added; partial",
-      "limitations": "Public-source follow-up adds TERRO T300 indoor ant bait, 6-count, with its retailer product photo. Other categories and inventory enumeration remain incomplete.",
+      "limitations": "Public-source follow-up adds TERRO T300 indoor ant bait, 6-count, with its retailer product photo. Other categories and inventory enumeration remain incomplete. 2 November follow-up: 26 additional exact product pages and matched photos; no complete inventory claim.",
       "sourcePages": [
         "https://www.homedepot.com/p/TERRO-Indoor-Liquid-Ant-Killer-Baits-6-Count-T300/202532940"
       ],
@@ -1312,7 +1312,7 @@
         },
         {
           "category": "Dishwashing",
-          "collected": 0,
+          "collected": 8,
           "added": 0,
           "status": "Further category research required"
         },
@@ -1348,7 +1348,7 @@
         },
         {
           "category": "Paper Towels",
-          "collected": 0,
+          "collected": 13,
           "added": 0,
           "status": "Further category research required"
         },
@@ -1378,7 +1378,7 @@
         },
         {
           "category": "Trash Bags",
-          "collected": 0,
+          "collected": 5,
           "added": 0,
           "status": "Further category research required"
         }
@@ -1489,7 +1489,7 @@
       ]
     },
     {
-      "retailer": "Lowe’s",
+      "retailer": "Lowe\u2019s",
       "collected": 121,
       "added": 12,
       "reviewStatus": "Additional sources checked; partial",
@@ -1929,10 +1929,10 @@
     },
     {
       "retailer": "Safeway",
-      "collected": 39,
+      "collected": 43,
       "added": 31,
       "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Product page metadata checked for additions. Category enumeration remains incomplete; store stock and prices unverified.",
+      "limitations": "Product page metadata checked for additions. Category enumeration remains incomplete; store stock and prices unverified. 2 November follow-up: 4 additional exact product pages and matched photos; no complete inventory claim.",
       "sourcePages": [
         "https://www.safeway.com/shop/pd/fantastik-fresh-scent-disinfectant-multipurpose-cleaner-spray-bottle-32-oz/960075662",
         "https://www.safeway.com/shop/pd/fantastik-lemon-scent-all-purpose-cleaner-trigger-bottle-32-oz/960210286",
@@ -2005,7 +2005,7 @@
         },
         {
           "category": "Food Wrap & Storage",
-          "collected": 0,
+          "collected": 2,
           "added": 0,
           "status": "Further category research required"
         },
@@ -2053,14 +2053,14 @@
         },
         {
           "category": "Trash Bags",
-          "collected": 0,
+          "collected": 2,
           "added": 0,
           "status": "Further category research required"
         }
       ]
     },
     {
-      "retailer": "Sam’s Club",
+      "retailer": "Sam\u2019s Club",
       "collected": 562,
       "added": 2,
       "reviewStatus": "Additional sources checked; partial",
@@ -2163,10 +2163,10 @@
     },
     {
       "retailer": "TikTok Shop",
-      "collected": 929,
+      "collected": 931,
       "added": 820,
       "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+      "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted. 2 November follow-up: 2 additional exact product pages and matched photos; no complete inventory claim.",
       "sourcePages": [
         "https://shop.tiktok.com/us/k/air-freshener",
         "https://shop.tiktok.com/us/k/airtight-food-storage",
@@ -2258,7 +2258,7 @@
         },
         {
           "category": "Cleaning Tools",
-          "collected": 79,
+          "collected": 81,
           "added": 61,
           "status": "Additional item evidence collected"
         },
@@ -2338,10 +2338,10 @@
     },
     {
       "retailer": "Walgreens",
-      "collected": 136,
+      "collected": 144,
       "added": 87,
       "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Initial rendered cards from category/subcategory pages checked. Interactive Load More and remaining pages not exhausted.",
+      "limitations": "Initial rendered cards from category/subcategory pages checked. Interactive Load More and remaining pages not exhausted. 2 November follow-up: 8 additional exact product pages and matched photos; no complete inventory claim.",
       "sourcePages": [
         "https://www.walgreens.com/store/c/productlist/$5---$10-cleaning-supplies/N=20000911-1000021",
         "https://www.walgreens.com/store/c/productlist/30-cleaning-supplies/N=20000911-4294838623",
@@ -2441,7 +2441,7 @@
         },
         {
           "category": "Paper Towels",
-          "collected": 0,
+          "collected": 8,
           "added": 0,
           "status": "Further category research required"
         },
@@ -2604,5 +2604,19 @@
     "amazonUpgrades": 46,
     "coverageComplete": false,
     "itemLinksAttempted": 231
+  },
+  "latestCompetitorFollowup": {
+    "date": "2026-11-02",
+    "added": 51,
+    "byRetailer": {
+      "TikTok Shop": 2,
+      "Albertsons": 9,
+      "Home Depot": 26,
+      "Walgreens": 8,
+      "Costco": 2,
+      "Safeway": 4
+    },
+    "completeInventory": false,
+    "sources": "competitor-depth-audit-2026-11-02.json"
   }
 }

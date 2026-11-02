@@ -34,9 +34,10 @@
     "part-030.json",
     "part-031.json",
     "part-032.json",
-    "part-033.json"
+    "part-033.json",
+    "part-034.json"
   ],
-  "added": 3241,
+  "added": 3292,
   "photoPacks": [
     "photos-001.json.gz",
     "photos-002.json.gz",
@@ -279,6 +280,26 @@
     "public-sources-20261102-41.json.gz",
     "public-sources-20261102-42.json.gz",
     "public-sources-20261102-43.json.gz",
-    "public-sources-20261102-44.json.gz"
-  ]
+    "public-sources-20261102-44.json.gz",
+    "competitor-followup-20261102-01.json.gz",
+    "competitor-followup-20261102-02.json.gz",
+    "competitor-followup-20261102-03.json.gz",
+    "competitor-followup-20261102-04.json.gz",
+    "competitor-followup-20261102-05.json.gz",
+    "competitor-followup-20261102-06.json.gz",
+    "competitor-followup-20261102-07.json.gz",
+    "competitor-followup-20261102-08.json.gz",
+    "competitor-followup-20261102-09.json.gz",
+    "competitor-followup-20261102-10.json.gz",
+    "competitor-followup-20261102-11.json.gz",
+    "competitor-followup-20261102-12.json.gz",
+    "competitor-followup-20261102-13.json.gz",
+    "competitor-followup-20261102-14.json.gz",
+    "competitor-followup-20261102-15.json.gz",
+    "competitor-followup-20261102-16.json.gz",
+    "competitor-followup-20261102-17.json.gz",
+    "competitor-followup-20261102-18.json.gz",
+    "competitor-followup-20261102-19.json.gz"
+  ],
+  "reviewScope": "Partial competitor depth follow-up; full inventories unverified"
 }
