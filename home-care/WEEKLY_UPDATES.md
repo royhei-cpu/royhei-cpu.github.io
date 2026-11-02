@@ -68,3 +68,8 @@ The user reconfirmed Amazon and ALL competitors must be included weekly. Follow 
 ## Competitor follow-up — 2 November 2026
 Preserves all 9,572 current records, including 175 recent Ace/Publix additions and 46 Amazon reference upgrades. Adds 51 exact item-page records with matched photos: Home Depot 26, Albertsons 9, Walgreens 8, Safeway 4, Costco 2, TikTok Shop 2. Total 9,623. All additions are new to this catalog; no new launches or retailer first-listing dates are inferred. Unknown checkout prices and sales remain unknown.
 51 empty retailer/category cells remain. Read COMPETITOR_FOLLOWUP_2026-11-02.md before the next pass; continue all 19 retailers and do not equate category representation with inventory completeness.
+
+
+## Targeted coverage-gap follow-up — 2 November 2026
+Preserved all 9,623 prior records and added 510 verified product-page references, for 10,133 total. Albertsons: 8, Amazon US: 252, BJ’s Wholesale: 5, CVS: 19, Costco: 4, Dollar General: 2, Dollar Tree: 7, Home Depot: 53, Kroger: 33, Lowe’s: 30, Publix: 13, Safeway: 11, Sam’s Club: 6, TikTok Shop: 9, Walgreens: 12, Walmart: 46. Amazon now has 736 records; 160 new records have item-specific Date First Available evidence. Empty retailer/category cells fell from 51 to 11. These are catalog additions, not launch claims. All seven opportunity areas reviewed; no rank movement. Full inventories and the comprehensive 285-cell source review remain incomplete.
+Read GAP_REVIEW_2026-11-02.md. Do not call this a complete inventory review.

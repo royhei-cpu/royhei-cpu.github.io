@@ -1,0 +1,28 @@
+{
+  "records": 10133,
+  "retailers": 19,
+  "combinations": 285,
+  "opportunityRows": 7,
+  "selected": [
+    "CMP-001",
+    "CMP-008"
+  ],
+  "newBadges": 736,
+  "selectionReload": true,
+  "selectedOnlyCsv": true,
+  "clearSelection": true,
+  "newPhotos": 510,
+  "errors": [],
+  "checkedDate": "2026-11-02",
+  "preservedPriorRecords": 9623,
+  "priorShardsAndPhotoPacksByteUnchanged": true,
+  "sourceCoverageComplete": false,
+  "standalone": {
+    "records": 10133,
+    "selectDeselect": true,
+    "reload": true,
+    "clear": true,
+    "details": true,
+    "errors": []
+  }
+}

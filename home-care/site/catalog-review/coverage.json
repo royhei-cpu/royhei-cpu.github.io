@@ -1,17 +1,17 @@
 {
   "reviewedAt": "2026-11-01",
-  "sourceCheckedAt": "2026-11-01",
+  "sourceCheckedAt": "2026-11-02",
   "baseline": 6331,
-  "added": 3292,
-  "total": 9623,
+  "added": 3802,
+  "total": 10133,
   "scope": "Collected public listings; no full retailer inventory claim",
   "retailers": [
     {
       "retailer": "Ace Hardware",
       "collected": 3997,
       "added": 422,
-      "reviewStatus": "Individual product links attempted; incomplete",
-      "limitations": "2 November: all 192 public trash-bag category results retrieved. 97 household-relevant product links attempted; 95 verified missing products added. Construction-only, yard and unrelated formats excluded. This enumerates one source snapshot, not all Home Care categories or local stock.",
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "Two public category snapshots enumerated: 1,043 mixed tableware results and 199 insect-bait results. 134 candidate photo requests returned HTTP 403; no candidates with inaccessible photos were added. These source snapshots are not full Home Care inventory coverage.",
       "sourcePages": [
         "https://www.acehardware.com/ace-13-gal-fresh-kitchen-trash-bags-drawstring-80-pk/p/6093665",
         "https://www.acehardware.com/ace-13-gal-fresh-tall-kitchen-bags-drawstring-40-pk/p/6037628",
@@ -120,101 +120,131 @@
           "category": "Air Care",
           "collected": 259,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 189,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 1963,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 101,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 0,
           "added": 0,
-          "status": "Further category research required"
+          "status": "category snapshot enumerated; item photos blocked",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 208,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 313,
           "added": 313,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 5,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 69,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
           "collected": 0,
           "added": 0,
-          "status": "Further category research required"
+          "status": "category snapshot enumerated; item photos blocked",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 233,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 470,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 70,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 95,
           "added": 95,
-          "status": "Individual item pages checked; partial inventory"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Albertsons",
-      "collected": 69,
-      "added": 45,
-      "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Indexed Albertsons product pages checked. Direct category access restricted; matched reference photos explicitly labeled. Store stock and prices not verified. 2 November follow-up: 9 additional exact product pages and matched photos; no complete inventory claim.",
+      "collected": 77,
+      "added": 53,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 8 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
       "sourcePages": [
         "https://www.albertsons.com/shop/pd/carbona-carpet-cleaner-oxy-powered-2-in-1-value-size-27-5-fl-oz/173200045",
         "https://www.albertsons.com/shop/pd/dawn-straw-cleaner-brush-4-ct/960302756",
@@ -260,107 +290,146 @@
         "https://www.albertsons.com/shop/pd/signature-select-softly-facial-tissue-box-4-pack-160-ct-4-160-ct/970490315",
         "https://www.albertsons.com/shop/pd/signature-select-toilet-bowl-brush-with-caddy-1-ea-ea/971319491",
         "https://www.albertsons.com/shop/pd/swiffer-dusting-kit-with-5-refills-duster-each/173300520",
-        "https://www.albertsons.com/shop/pd/viva-signature-cloth-paper-towels-86-sheets-per-roll-12-ct/971317248"
+        "https://www.albertsons.com/shop/pd/viva-signature-cloth-paper-towels-86-sheets-per-roll-12-ct/971317248",
+        "https://www.albertsons.com/shop/pd/terro-spider-and-insect-trap-4-ct/970839173",
+        "https://www.albertsons.com/shop/pd/glad-forceflex-tall-kitchen-drawstring-trash-bags-13-gallon-gain-fresh-clean-with-febreze-40-ct/960056114",
+        "https://www.albertsons.com/shop/pd/glad-forceflex-maxstrength-scented-tall-kitchen-trash-bags-13-gallon-20-bags-20-ct/971258726",
+        "https://www.albertsons.com/shop/product-details.960019788.html",
+        "https://www.albertsons.com/shop/product-details.960110470.html",
+        "https://www.albertsons.com/shop/product-details.130030382.html",
+        "https://www.albertsons.com/shop/product-details.970988845.html",
+        "https://www.albertsons.com/shop/product-details.960041853.html"
       ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 1,
           "added": 1,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 2,
           "added": 2,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 31,
           "added": 22,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 9,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
-          "collected": 2,
-          "added": 2,
-          "status": "Additional item evidence collected"
+          "collected": 4,
+          "added": 4,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 1,
           "added": 1,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 5,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 3,
           "added": 3,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 2,
           "added": 2,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 1,
           "added": 1,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 8,
           "added": 8,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 3,
           "added": 3,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 5,
+          "added": 5,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Amazon US",
-      "collected": 484,
-      "added": 157,
-      "reviewStatus": "Individual product links attempted; incomplete",
-      "limitations": "484 retained records across all 15 Home Care categories. 2 November: 48 limited-evidence exact-ASIN links attempted; 46 upgraded after title/photo verification. Unsuccessful attempts retain previous evidence labels. Full search pagination, seller offers, stock and checkout prices remain unverified.",
+      "collected": 736,
+      "added": 409,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "736 retained Amazon records across all 15 Home Care categories. This follow-up checked 370 missing exact ASIN pages, adding 252; 160 additions have item-specific Date First Available evidence. Category access returned HTTP 503. Seller offers and complete search/category pagination remain unverified.",
       "sourcePages": [
         "https://www.amazon.com/clp/B0014EAPGA",
         "https://www.amazon.com/clp/B001KFWJJ4",
@@ -520,108 +589,390 @@
         "https://www.amazon.com/dp/B0DN8C9MTN",
         "https://www.amazon.com/dp/B0DPXT5433",
         "https://www.amazon.com/dp/B0FFCT17PS",
-        "https://www.amazon.com/dp/B0FLFR269F"
+        "https://www.amazon.com/dp/B0FLFR269F",
+        "https://www.amazon.com/dp/B000ALLJW2",
+        "https://www.amazon.com/dp/B000EIFS2I",
+        "https://www.amazon.com/dp/B000QRAXSG",
+        "https://www.amazon.com/dp/B0012XH8WM",
+        "https://www.amazon.com/dp/B0019BGM60",
+        "https://www.amazon.com/dp/B001EGMZC0",
+        "https://www.amazon.com/dp/B001TJKEFC",
+        "https://www.amazon.com/dp/B0026SYO5G",
+        "https://www.amazon.com/dp/B002FL3JC8",
+        "https://www.amazon.com/dp/B003YOVGCK",
+        "https://www.amazon.com/dp/B0041PSXYA",
+        "https://www.amazon.com/dp/B004SC2G9O",
+        "https://www.amazon.com/dp/B007760MGM",
+        "https://www.amazon.com/dp/B007ZM1384",
+        "https://www.amazon.com/dp/B009UY0QJM",
+        "https://www.amazon.com/dp/B009WU6H5Q",
+        "https://www.amazon.com/dp/B00A9T30I6",
+        "https://www.amazon.com/dp/B00AK6PM3Y",
+        "https://www.amazon.com/dp/B00BLJM8M2",
+        "https://www.amazon.com/dp/B00BPT7CII",
+        "https://www.amazon.com/dp/B00BSH2V60",
+        "https://www.amazon.com/dp/B00BT9JVAG",
+        "https://www.amazon.com/dp/B00G530DW6",
+        "https://www.amazon.com/dp/B00HX4FJAW",
+        "https://www.amazon.com/dp/B00IJGC6F4",
+        "https://www.amazon.com/dp/B00J0419NO",
+        "https://www.amazon.com/dp/B00J2LD2KS",
+        "https://www.amazon.com/dp/B00JCER6U2",
+        "https://www.amazon.com/dp/B00LUPNFGA",
+        "https://www.amazon.com/dp/B00MR1TK4C",
+        "https://www.amazon.com/dp/B00NZDRC14",
+        "https://www.amazon.com/dp/B00OCGUG02",
+        "https://www.amazon.com/dp/B00ODBU2XM",
+        "https://www.amazon.com/dp/B00T7PCQBK",
+        "https://www.amazon.com/dp/B010OW13V8",
+        "https://www.amazon.com/dp/B010SJR5SM",
+        "https://www.amazon.com/dp/B01283XSRI",
+        "https://www.amazon.com/dp/B013CX8D3W",
+        "https://www.amazon.com/dp/B019ZTZTVQ",
+        "https://www.amazon.com/dp/B01BZ0MDH6",
+        "https://www.amazon.com/dp/B01C5JN8KM",
+        "https://www.amazon.com/dp/B01FSY4YKO",
+        "https://www.amazon.com/dp/B01G8KYP7Y",
+        "https://www.amazon.com/dp/B01H7WMLX2",
+        "https://www.amazon.com/dp/B01IH2TWFQ",
+        "https://www.amazon.com/dp/B01JLPJKVO",
+        "https://www.amazon.com/dp/B01JLPJM7G",
+        "https://www.amazon.com/dp/B01LWZ3HK3",
+        "https://www.amazon.com/dp/B01LYO7RQO",
+        "https://www.amazon.com/dp/B01MYU7OH4",
+        "https://www.amazon.com/dp/B01N0QRBAE",
+        "https://www.amazon.com/dp/B01N5D2WMT",
+        "https://www.amazon.com/dp/B06Y5B4YY3",
+        "https://www.amazon.com/dp/B07119XFQ1",
+        "https://www.amazon.com/dp/B0745DCG3W",
+        "https://www.amazon.com/dp/B074BR4F76",
+        "https://www.amazon.com/dp/B075HP5G2D",
+        "https://www.amazon.com/dp/B0764VD7ZW",
+        "https://www.amazon.com/dp/B079YYY9C1",
+        "https://www.amazon.com/dp/B079Z6PWWJ",
+        "https://www.amazon.com/dp/B079Z6XH36",
+        "https://www.amazon.com/dp/B07BL5X3VF",
+        "https://www.amazon.com/dp/B07BZP9W9R",
+        "https://www.amazon.com/dp/B07CMM6HHJ",
+        "https://www.amazon.com/dp/B07CMM6JVF",
+        "https://www.amazon.com/dp/B07CMNVTS7",
+        "https://www.amazon.com/dp/B07DQQ34QW",
+        "https://www.amazon.com/dp/B07FLZW7F1",
+        "https://www.amazon.com/dp/B07GT5T56N",
+        "https://www.amazon.com/dp/B07GVQTKG1",
+        "https://www.amazon.com/dp/B07GVRTZZJ",
+        "https://www.amazon.com/dp/B07L185Y9X",
+        "https://www.amazon.com/dp/B07L5J9RXN",
+        "https://www.amazon.com/dp/B07M6R579F",
+        "https://www.amazon.com/dp/B07N36H48H",
+        "https://www.amazon.com/dp/B07NN4NRRJ",
+        "https://www.amazon.com/dp/B07NQNS9CR",
+        "https://www.amazon.com/dp/B07NRZ1RV3",
+        "https://www.amazon.com/dp/B07PZ8HLWD",
+        "https://www.amazon.com/dp/B07Q1DBLX9",
+        "https://www.amazon.com/dp/B07Q2M9GV8",
+        "https://www.amazon.com/dp/B07Q2VRL84",
+        "https://www.amazon.com/dp/B07Q41N8K1",
+        "https://www.amazon.com/dp/B07QKL4W1V",
+        "https://www.amazon.com/dp/B07QLQ3QP4",
+        "https://www.amazon.com/dp/B07QLQ3QP5",
+        "https://www.amazon.com/dp/B07R3GFPSL",
+        "https://www.amazon.com/dp/B07YD6VTBN",
+        "https://www.amazon.com/dp/B07ZT8G6ZF",
+        "https://www.amazon.com/dp/B081RYXC56",
+        "https://www.amazon.com/dp/B083B9PXZJ",
+        "https://www.amazon.com/dp/B086ZJTVS5",
+        "https://www.amazon.com/dp/B089F8GH8K",
+        "https://www.amazon.com/dp/B08LM5WYD4",
+        "https://www.amazon.com/dp/B08Q2G7D88",
+        "https://www.amazon.com/dp/B08RFXZW6V",
+        "https://www.amazon.com/dp/B08TSBLYFT",
+        "https://www.amazon.com/dp/B08X6R75Q8",
+        "https://www.amazon.com/dp/B08XGHNVFP",
+        "https://www.amazon.com/dp/B09158614F",
+        "https://www.amazon.com/dp/B091D4D831",
+        "https://www.amazon.com/dp/B093X5W8SQ",
+        "https://www.amazon.com/dp/B095PMD8JG",
+        "https://www.amazon.com/dp/B09718S3MK",
+        "https://www.amazon.com/dp/B097QF6MVP",
+        "https://www.amazon.com/dp/B097QGXSZQ",
+        "https://www.amazon.com/dp/B097QH33NC",
+        "https://www.amazon.com/dp/B09F36NRTF",
+        "https://www.amazon.com/dp/B09J71BQN8",
+        "https://www.amazon.com/dp/B09M67JL2N",
+        "https://www.amazon.com/dp/B09M6D5NYQ",
+        "https://www.amazon.com/dp/B09MZSVBJC",
+        "https://www.amazon.com/dp/B09N9WLCNM",
+        "https://www.amazon.com/dp/B09N9YTDYP",
+        "https://www.amazon.com/dp/B09NW8M4P1",
+        "https://www.amazon.com/dp/B09PJ1KR72",
+        "https://www.amazon.com/dp/B09R2B2YDW",
+        "https://www.amazon.com/dp/B09R4TJV94",
+        "https://www.amazon.com/dp/B09T3T1FYN",
+        "https://www.amazon.com/dp/B09TKM5J5B",
+        "https://www.amazon.com/dp/B09V1R3GWC",
+        "https://www.amazon.com/dp/B09YM9XLSH",
+        "https://www.amazon.com/dp/B0B3SH4MQT",
+        "https://www.amazon.com/dp/B0B41XMKBT",
+        "https://www.amazon.com/dp/B0B683XGV2",
+        "https://www.amazon.com/dp/B0B84Z49FQ",
+        "https://www.amazon.com/dp/B0BBP4LCR5",
+        "https://www.amazon.com/dp/B0BBZKM8LD",
+        "https://www.amazon.com/dp/B0BDT4XZR4",
+        "https://www.amazon.com/dp/B0BFVKVY1B",
+        "https://www.amazon.com/dp/B0BHM19J41",
+        "https://www.amazon.com/dp/B0BL1XTJCW",
+        "https://www.amazon.com/dp/B0BL42J9P9",
+        "https://www.amazon.com/dp/B0BRMY17P6",
+        "https://www.amazon.com/dp/B0BTPFX66L",
+        "https://www.amazon.com/dp/B0C2VRDKB8",
+        "https://www.amazon.com/dp/B0C3PDTYYX",
+        "https://www.amazon.com/dp/B0C3WWC4Q7",
+        "https://www.amazon.com/dp/B0C792ZQJ7",
+        "https://www.amazon.com/dp/B0C8VJ69QS",
+        "https://www.amazon.com/dp/B0CB97R25C",
+        "https://www.amazon.com/dp/B0CBVVPRR7",
+        "https://www.amazon.com/dp/B0CCGC3C32",
+        "https://www.amazon.com/dp/B0CF2S6369",
+        "https://www.amazon.com/dp/B0CGGGV7Y7",
+        "https://www.amazon.com/dp/B0CH929RS5",
+        "https://www.amazon.com/dp/B0CKGBWW8D",
+        "https://www.amazon.com/dp/B0CKLV6ZZN",
+        "https://www.amazon.com/dp/B0CL5BWFT9",
+        "https://www.amazon.com/dp/B0CN7BG8XJ",
+        "https://www.amazon.com/dp/B0CN7BWQCB",
+        "https://www.amazon.com/dp/B0CP4GPTGC",
+        "https://www.amazon.com/dp/B0CP4GXQVY",
+        "https://www.amazon.com/dp/B0CPKZLV35",
+        "https://www.amazon.com/dp/B0CS3TLL78",
+        "https://www.amazon.com/dp/B0CTCP99J2",
+        "https://www.amazon.com/dp/B0CVK91Y8M",
+        "https://www.amazon.com/dp/B0CWJH36LX",
+        "https://www.amazon.com/dp/B0CXNHPLY9",
+        "https://www.amazon.com/dp/B0CYGCRC6F",
+        "https://www.amazon.com/dp/B0CZH9XFP6",
+        "https://www.amazon.com/dp/B0CZHD5WR9",
+        "https://www.amazon.com/dp/B0CZLPY8LM",
+        "https://www.amazon.com/dp/B0CZNQ53H4",
+        "https://www.amazon.com/dp/B0D14XPK5N",
+        "https://www.amazon.com/dp/B0D14XW3Y4",
+        "https://www.amazon.com/dp/B0D14YCNG6",
+        "https://www.amazon.com/dp/B0D3JM7H5Q",
+        "https://www.amazon.com/dp/B0D47XN3HX",
+        "https://www.amazon.com/dp/B0D481PBBC",
+        "https://www.amazon.com/dp/B0D5SSSCR7",
+        "https://www.amazon.com/dp/B0D79WT5M2",
+        "https://www.amazon.com/dp/B0D7TPNQRY",
+        "https://www.amazon.com/dp/B0D9PKV5VX",
+        "https://www.amazon.com/dp/B0DBM5QVKV",
+        "https://www.amazon.com/dp/B0DCK7G6NW",
+        "https://www.amazon.com/dp/B0DCVT4T7D",
+        "https://www.amazon.com/dp/B0DF32MG2Z",
+        "https://www.amazon.com/dp/B0DF3VY3CN",
+        "https://www.amazon.com/dp/B0DF43SBHV",
+        "https://www.amazon.com/dp/B0DGMXJPT3",
+        "https://www.amazon.com/dp/B0DGMY3JQW",
+        "https://www.amazon.com/dp/B0DGMZSRW8",
+        "https://www.amazon.com/dp/B0DGN1RHLK",
+        "https://www.amazon.com/dp/B0DGN24WLS",
+        "https://www.amazon.com/dp/B0DGN257YW",
+        "https://www.amazon.com/dp/B0DGN3JPG4",
+        "https://www.amazon.com/dp/B0DGN8RD6F",
+        "https://www.amazon.com/dp/B0DGN8SZRX",
+        "https://www.amazon.com/dp/B0DGNDYV95",
+        "https://www.amazon.com/dp/B0DGNHJVLY",
+        "https://www.amazon.com/dp/B0DJCHT68B",
+        "https://www.amazon.com/dp/B0DKMFBGK1",
+        "https://www.amazon.com/dp/B0DLXYZM42",
+        "https://www.amazon.com/dp/B0DMZ5WYR9",
+        "https://www.amazon.com/dp/B0DNGH7HYF",
+        "https://www.amazon.com/dp/B0DPLM1MS3",
+        "https://www.amazon.com/dp/B0DPLMB7C9",
+        "https://www.amazon.com/dp/B0DPLMRV33",
+        "https://www.amazon.com/dp/B0DR3J967V",
+        "https://www.amazon.com/dp/B0DR9835VR",
+        "https://www.amazon.com/dp/B0DRXHVYXY",
+        "https://www.amazon.com/dp/B0DWRS3SKQ",
+        "https://www.amazon.com/dp/B0DYDX77BL",
+        "https://www.amazon.com/dp/B0DZ6W5HJZ",
+        "https://www.amazon.com/dp/B0DZFL2V3T",
+        "https://www.amazon.com/dp/B0F1H2HHGR",
+        "https://www.amazon.com/dp/B0F43FHM2B",
+        "https://www.amazon.com/dp/B0F4DXFJB4",
+        "https://www.amazon.com/dp/B0F75RQRLP",
+        "https://www.amazon.com/dp/B0F7M3ZTV9",
+        "https://www.amazon.com/dp/B0F8GTJH7P",
+        "https://www.amazon.com/dp/B0F8HPN7HK",
+        "https://www.amazon.com/dp/B0FBD3F3RL",
+        "https://www.amazon.com/dp/B0FF3SC1VZ",
+        "https://www.amazon.com/dp/B0FF767Y5S",
+        "https://www.amazon.com/dp/B0FGXQZ3D8",
+        "https://www.amazon.com/dp/B0FH1767FG",
+        "https://www.amazon.com/dp/B0FM1RG6Q2",
+        "https://www.amazon.com/dp/B0FM2G3NYF",
+        "https://www.amazon.com/dp/B0FM2R5TXG",
+        "https://www.amazon.com/dp/B0FM312LHN",
+        "https://www.amazon.com/dp/B0FQK38CLC",
+        "https://www.amazon.com/dp/B0FSK54BJ8",
+        "https://www.amazon.com/dp/B0FT91H4CN",
+        "https://www.amazon.com/dp/B0FX5HKTDD",
+        "https://www.amazon.com/dp/B0FX5J7PYL",
+        "https://www.amazon.com/dp/B0G1N4B5J9",
+        "https://www.amazon.com/dp/B0G1VCK27R",
+        "https://www.amazon.com/dp/B0G4NM8GM4",
+        "https://www.amazon.com/dp/B0G62CKXR5",
+        "https://www.amazon.com/dp/B0G76XN78C",
+        "https://www.amazon.com/dp/B0GD7PYSS9",
+        "https://www.amazon.com/dp/B0GJRKLHSY",
+        "https://www.amazon.com/dp/B0GJRLN3WS",
+        "https://www.amazon.com/dp/B0GQ332PR2",
+        "https://www.amazon.com/dp/B0GS6SY63G",
+        "https://www.amazon.com/dp/B0GS6ZCFGC",
+        "https://www.amazon.com/dp/B0GSS5376P",
+        "https://www.amazon.com/dp/B0GSS5J6PF",
+        "https://www.amazon.com/dp/B0GT62ZBQR",
+        "https://www.amazon.com/dp/B0GY538TC1",
+        "https://www.amazon.com/dp/B0H2W87PXX",
+        "https://www.amazon.com/dp/B0H7WQWN4R",
+        "https://www.amazon.com/dp/B0H8QCCBB3",
+        "https://www.amazon.com/dp/B0H8QGYG9X",
+        "https://www.amazon.com/dp/B0H8XW4JXH",
+        "https://www.amazon.com/dp/B0HBPD1KSR",
+        "https://www.amazon.com/dp/B0HC856S3B",
+        "https://www.amazon.com/dp/B0HCNDZ16X",
+        "https://www.amazon.com/dp/B0HH3V2YR4",
+        "https://www.amazon.com/dp/B0HJ2ZJ1F2"
       ],
       "categories": [
         {
           "category": "Air Care",
-          "collected": 61,
-          "added": 9,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 83,
+          "added": 31,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
-          "collected": 14,
-          "added": 5,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 24,
+          "added": 15,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
-          "collected": 58,
-          "added": 4,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 76,
+          "added": 22,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
-          "collected": 72,
-          "added": 5,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 88,
+          "added": 21,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
-          "collected": 23,
-          "added": 19,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 34,
+          "added": 30,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
-          "collected": 7,
-          "added": 5,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 25,
+          "added": 23,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
-          "collected": 29,
-          "added": 27,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 64,
+          "added": 62,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
-          "collected": 66,
-          "added": 11,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 80,
+          "added": 25,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
-          "collected": 5,
-          "added": 4,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 6,
+          "added": 5,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
-          "collected": 32,
-          "added": 16,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 42,
+          "added": 26,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
-          "collected": 15,
-          "added": 15,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 37,
+          "added": 37,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
-          "collected": 11,
-          "added": 9,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 21,
+          "added": 19,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
-          "collected": 29,
-          "added": 6,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 55,
+          "added": 32,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
-          "collected": 40,
-          "added": 5,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 65,
+          "added": 30,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
-          "collected": 22,
-          "added": 17,
-          "status": "Additional product pages checked; inventory incomplete"
+          "collected": 36,
+          "added": 31,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
     },
     {
-      "retailer": "BJ\u2019s Wholesale",
-      "collected": 32,
-      "added": 29,
-      "reviewStatus": "Public item-page evidence added; partial",
-      "limitations": "Public-source follow-up adds 9 exact item-page records with matched photos: dishwashing, tissues, paper towels, storage and trash bags. Earlier 20 additions retained. Retrieved page prices are snapshots; Dawn price omitted due conflicting dated offers. Category pagination remains incomplete.",
+      "retailer": "BJ’s Wholesale",
+      "collected": 37,
+      "added": 34,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 5 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete. Naturals category still has no collected records; this is a research gap, not absence of products.",
       "sourcePages": [
         "https://www.bjs.com/product/air-wick-plug-in-scented-oil----fresh-linen-and-vanilla/3000000000004820269/",
         "https://www.bjs.com/product/berkley-jensen-aluminum-foil-2-pk250-sq-ft/3000000000005759253/",
@@ -651,412 +1002,566 @@
         "https://www.bjs.com/product/swiffer-duster-starting-kit-with-short-handle-24-duster-refills/3000000000005678281/",
         "https://www.bjs.com/product/swiffer-powermop-multi-surface-refill-bundle-10-mopping-pads--2-floor-cleaning-solutions/3000000000005140301/",
         "https://www.bjs.com/product/swiffer-wet-mopping-cloths---lavender-scent-64-ct/3000000000001118098/",
-        "https://www.bjs.com/product/windex-original-glass-cleaner-4-pk32-fl-oz/3000000000005841387/"
+        "https://www.bjs.com/product/windex-original-glass-cleaner-4-pk32-fl-oz/3000000000005841387/",
+        "https://www.bjs.com/product/clorox-toilet-bowl-cleaner-with-bleach---rain-clean-scent-6-pk24-oz/3000000000000431124/",
+        "https://www.bjs.com/product/lysol-advanced-toilet-bowl-cleaner-4-pk32-oz/3000000000001794277",
+        "https://www.bjs.com/product/name/3000000000004310266",
+        "https://www.bjs.com/product/raid-ant-and-roach-killer-spray--3-pk--17-5-oz-/3000000000000157815",
+        "https://www.bjs.com/product/combat-max-roach-killing-bait-12-ct-and-gel-60g/3000000000005411253/"
       ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 4,
           "added": 4,
-          "status": "Additional item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 2,
+          "added": 2,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 7,
           "added": 7,
-          "status": "Additional item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 1,
           "added": 1,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 1,
           "added": 1,
-          "status": "Additional item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 2,
           "added": 2,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
-          "collected": 2,
-          "added": 1,
-          "status": "Additional item-page evidence collected; partial"
+          "collected": 3,
+          "added": 2,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 0,
           "added": 0,
-          "status": "Further category research required"
+          "status": "discovery checked; no verified addition",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 1,
           "added": 1,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 2,
+          "added": 2,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 2,
           "added": 2,
-          "status": "Additional item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 6,
           "added": 5,
-          "status": "Additional item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 3,
           "added": 3,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 2,
           "added": 2,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
       ],
-      "sourceCheckedAt": "2026-11-01"
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "CVS",
-      "collected": 331,
-      "added": 18,
-      "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+      "collected": 350,
+      "added": 37,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 19 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
       "sourcePages": [
-        "https://www.cvs.com/shop/household/paper-plastic/disposable-tableware"
+        "https://www.cvs.com/shop/household/paper-plastic/disposable-tableware",
+        "https://www.cvs.com/shop/zevo-flying-insect-trap-model-3-starter-kit-prodid-809148",
+        "https://www.cvs.com/shop/raid-ant-roach-killer-spray-fragrance-free-prodid-263426",
+        "https://www.cvs.com/shop/stem-fruit-fly-trap-5-4-fl-oz-prodid-356354",
+        "https://www.cvs.com/shop/raid-child-resistant-ant-killer-bait-trays-4-ct-prodid-296897",
+        "https://www.cvs.com/shop/stem-ant-roach-fly-botanical-insect-killer-spray-12-fl-oz-prodid-484377",
+        "https://www.cvs.com/shop/raid-max-liquid-ant-baits-4-ct-prodid-348290",
+        "https://www.cvs.com/shop/raid-house-garden-bug-killer-spray-11-oz-prodid-517789",
+        "https://www.cvs.com/shop/d-con-no-view-no-touch-slim-mouse-trap-prodid-580461",
+        "https://www.cvs.com/shop/raid-essentials-flying-insect-light-trap-refill-2-ct-prodid-528998",
+        "https://www.cvs.com/shop/stem-ant-roach-spider-killer-spray-10-oz-prodid-469252",
+        "https://www.cvs.com/shop/d-con-no-view-no-touch-mouse-trap-2-ct-prodid-655227",
+        "https://www.cvs.com/shop/raid-essentials-flying-insect-light-trap-2-ct-prodid-501472",
+        "https://www.cvs.com/shop/raid-ant-killer-spray-pine-forest-17-5-oz-prodid-453416",
+        "https://www.cvs.com/shop/terro-ant-killer-spray-16-oz-prodid-550328",
+        "https://www.cvs.com/shop/combat-max-large-roach-killing-bait-8-ct-prodid-587815",
+        "https://www.cvs.com/shop/bayer-advanced-home-pest-control-insect-killer-spray-indoor-outdoor-1-gal-prodid-520545",
+        "https://www.cvs.com/shop/zevo-flying-insect-trap-model-3-refills-2-ct-prodid-618963",
+        "https://www.cvs.com/shop/zevo-instant-action-multi-insect-killer-spray-12-oz-prodid-483676",
+        "https://www.cvs.com/shop/grant-s-liquid-ant-bait-prodid-424854"
       ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 56,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 22,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 41,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 31,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 19,
           "added": 18,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 7,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 31,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 15,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 2,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 28,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 19,
+          "added": 19,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 21,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 42,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 10,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 6,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Costco",
-      "collected": 130,
-      "added": 0,
-      "reviewStatus": "Further source review required",
-      "limitations": "No additional source-backed records in this expansion. Existing records retained; full category enumeration remains outstanding. 2 November follow-up: 2 additional exact product pages and matched photos; no complete inventory claim.",
-      "sourcePages": [],
+      "collected": 134,
+      "added": 4,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 4 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
+      "sourcePages": [
+        "https://www.costco.com/p/-/bugmd-essential-pest-control-fast-acting-family-kit/4000375185",
+        "https://www.costco.com/p/-/zevo-flying-insect-trap-starter-kit-2-devices--6-refills/4000193139",
+        "https://www.costcobusinessdelivery.com/p/-/sprayway-stainless-steel-cleaner-and-polish-15-oz-2-ct/11032968",
+        "https://www.costco.com/p/-/kirkland-signature-18-gallon-compactor-kitchen-trash-bag-70-count/4000101585"
+      ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 6,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 4,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 33,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 8,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 4,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 8,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 4,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 18,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 4,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 11,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 2,
+          "added": 2,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 14,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 2,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Dollar General",
-      "collected": 328,
-      "added": 24,
-      "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+      "collected": 330,
+      "added": 26,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 2 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
       "sourcePages": [
-        "https://www.dollargeneral.com/c/household-essentials/paper-products/paper-towels-napkins"
+        "https://www.dollargeneral.com/c/household-essentials/paper-products/paper-towels-napkins",
+        "https://www.dollargeneral.com/p/ecos-all-purpose-cleaner-orange-plus-22-oz/749174097064",
+        "https://www.dollargeneral.com/p/ecos-dish-soap-pear-25-oz/749174097200"
       ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 46,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 9,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 28,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
-          "collected": 37,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 38,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 29,
           "added": 4,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 8,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 24,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 31,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 20,
           "added": 20,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
           "collected": 17,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 3,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 47,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 4,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 24,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Dollar Tree",
-      "collected": 15,
-      "added": 7,
-      "reviewStatus": "Additional evidence checked; partial",
-      "limitations": "7 additional product-page records from the retailer\u2019s same-day storefront. Fulfillment and prices are location-dependent. Other departments and pagination remain incomplete.",
+      "collected": 22,
+      "added": 14,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 7 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete. Naturals category still has no collected records; this is a research gap, not absence of products.",
       "sourcePages": [
         "https://sameday.dollartree.com/store/dollar-tree/products/17131411-goodsense-30-gallon-trash-bags-10-ct",
         "https://sameday.dollartree.com/store/dollar-tree/products/17318485-mr-clean-magic-eraser-original-cleaning-pads-with-durafoam-1-0-ct",
@@ -1064,108 +1569,145 @@
         "https://sameday.dollartree.com/store/dollar-tree/products/21360083-la-s-totally-awesome-bathroom-cleaner-32-fl-oz",
         "https://sameday.dollartree.com/store/dollar-tree/products/25336697-essentials-13-gallon-drawstring-trash-bags-10-ct",
         "https://sameday.dollartree.com/store/dollar-tree/products/30327107-multi-purpose-cleaning-paste-7-oz",
-        "https://sameday.dollartree.com/store/dollar-tree/products/47632835-bounty-essential-select-a-size-paper-towels-4-count-4-ct"
+        "https://sameday.dollartree.com/store/dollar-tree/products/47632835-bounty-essential-select-a-size-paper-towels-4-count-4-ct",
+        "https://sameday.dollartree.com/store/dollar-tree/products/127126-air-wick-air-freshener-crisp-breeze-2-ea",
+        "https://sameday.dollartree.com/store/dollar-tree/products/16950747-awesome-products-inc-floor-cleaner-lavender-48-oz",
+        "https://sameday.dollartree.com/store/dollar-tree/products/2596972-glad-zipper-food-storage-plastic-bags-22-ct",
+        "https://sameday.dollartree.com/store/dollar-tree/products/2585009-pic-roach-prison-2-ct",
+        "https://sameday.dollartree.com/store/dollar-tree/products/21933699-scott-comfortplus-regular-roll-toilet-paper-bath-tissue-4-ct",
+        "https://sameday.dollartree.com/store/dollar-tree/products/17282513-dixie-ultra-paper-plates-8-5-inch-lunch-dinner-plate-designs-may-vary-30-0-ct",
+        "https://sameday.dollartree.com/store/dollar-tree/products/16923145-dixie-ultra-paper-plates-10-inch-dinner-plate-designs-may-vary-20-0-ct"
       ],
       "categories": [
         {
           "category": "Air Care",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 1,
           "added": 1,
-          "status": "Additional item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 2,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 2,
+          "added": 2,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 0,
           "added": 0,
-          "status": "Further category research required"
+          "status": "discovery checked; no verified addition",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 1,
           "added": 1,
-          "status": "Additional item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 6,
           "added": 3,
-          "status": "Additional item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 2,
           "added": 2,
-          "status": "Additional item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
       ],
-      "sourceCheckedAt": "2026-11-01"
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "H-E-B",
       "collected": 34,
       "added": 20,
-      "reviewStatus": "Public item-page evidence added; partial",
-      "limitations": "Public-source follow-up adds 10 exact item-page records with matched photos: air care, bathroom, dishwashing, tabletop, laundry, toilet paper and trash bags. Earlier tool records retained. Store context is Victoria H-E-B plus!; full inventory and pagination remain incomplete.",
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "Targeted gap discovery attempted. Candidate pages returned a security/interstitial resource rather than product evidence; no additions promoted. Floor/carpet, pest and specialty-cleaner gaps remain. Existing records preserved; store-specific coverage incomplete.",
       "sourcePages": [
         "https://www.heb.com/product-detail/clorox-toiletwand-disposable-toilet-cleaning-system-1-ct/1041825",
         "https://www.heb.com/product-detail/clorox-toiletwand-toilet-cleaning-refills-disinfecting-scrubbing-pads-10-ct/960249",
@@ -1193,409 +1735,647 @@
           "category": "Air Care",
           "collected": 1,
           "added": 1,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 1,
           "added": 1,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 10,
           "added": 9,
-          "status": "Additional item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 2,
           "added": 2,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 1,
           "added": 1,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 0,
           "added": 0,
-          "status": "Further category research required"
+          "status": "blocked / location-dependent",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 6,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 1,
           "added": 1,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 3,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 4,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
           "collected": 0,
           "added": 0,
-          "status": "Further category research required"
+          "status": "blocked / location-dependent",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 0,
           "added": 0,
-          "status": "Further category research required"
+          "status": "blocked / location-dependent",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 1,
           "added": 1,
-          "status": "Additional item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 2,
           "added": 2,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 2,
           "added": 2,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
       ],
-      "sourceCheckedAt": "2026-11-01"
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Home Depot",
-      "collected": 51,
-      "added": 1,
-      "reviewStatus": "Public item-page evidence added; partial",
-      "limitations": "Public-source follow-up adds TERRO T300 indoor ant bait, 6-count, with its retailer product photo. Other categories and inventory enumeration remain incomplete. 2 November follow-up: 26 additional exact product pages and matched photos; no complete inventory claim.",
+      "collected": 104,
+      "added": 54,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 53 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
       "sourcePages": [
-        "https://www.homedepot.com/p/TERRO-Indoor-Liquid-Ant-Killer-Baits-6-Count-T300/202532940"
+        "https://www.homedepot.com/p/TERRO-Indoor-Liquid-Ant-Killer-Baits-6-Count-T300/202532940",
+        "https://www.homedepot.com/p/Cottonelle-Ultra-Clean-Care-White-Toilet-Tissue-Paper-284-Sheets-Per-Roll-30-Rolls-Per-Pack-55481/335718968",
+        "https://www.homedepot.com/p/700516331",
+        "https://www.homedepot.com/p/700516333",
+        "https://www.homedepot.com/p/Febreze-Fade-Defy-0-87-oz-Linen-and-Sky-Scented-Oil-Plug-In-Automatic-Air-Freshener-Refill-3-Count-003077213846/324082431",
+        "https://www.homedepot.com/p/Febreze-Air-Effects-8-8-Oz-Linen-and-Sky-Scent-Air-Freshener-Spray-2-Count-003077217340/300851962",
+        "https://www.homedepot.com/p/Febreze-2-63-oz-Variety-Pack-Linen-Gain-Original-and-April-Fresh-Scented-Oil-Plug-In-Automatic-Air-Freshener-Refill-3-Count-003077210199/325924099",
+        "https://www.homedepot.com/p/Febreze-Noticeables-Dual-Scented-Oil-Warmer-Plug-In-Air-Freshener-003700068232/305917521",
+        "https://www.homedepot.com/p/Febreze-Noticeables-0-879-oz-Linen-and-Sky-Dual-Scented-Oil-Refill-with-Free-Warmer-003700068235/205423428",
+        "https://www.homedepot.com/p/Clorox-8-oz-PURE-Allergen-Neutralizer-Clean-Breeze-Air-Freshener-Spray-10044600607525/338590794",
+        "https://www.homedepot.com/p/Febreze-Trash-Odor-Fighter-Starter-Kit-16-fl-oz-Linen-and-Sky-Scented-Oil-Holder-and-Refill-Automatic-Air-Freshener-Dispenser-003077224037/339775368",
+        "https://www.homedepot.com/p/Febreze-Air-Mist-8-1-oz-Variety-Scent-Air-Freshener-Spray-3-Count-003077220553/339563301",
+        "https://www.homedepot.com/p/Air-Wick-0-67-oz-Lavender-and-Chamomile-Scented-Oil-Plug-In-Automatic-Air-Freshener-Refill-6-Refills-006233801299/338783386",
+        "https://www.homedepot.com/p/Glade-3-35-fl-oz-Cashmere-Woods-Scented-Oil-Plug-In-Air-Freshener-Refill-5-Count-322828/303480535",
+        "https://www.homedepot.com/p/Febreze-Fade-Defy-0-87-oz-Ocean-Scented-Oil-Plug-In-Automatic-Air-Freshener-Refill-3-Count-003077213835/317897671",
+        "https://www.homedepot.com/p/Febreze-0-87-oz-Light-Bamboo-Scented-Oil-Plug-In-Automatic-Air-Freshener-Refill-3-Count-003077213838/334058834",
+        "https://www.homedepot.com/p/Genuine-Joe-10-in-Printed-Disposable-Paper-Plates-125-Pack-GJO10319/335393259",
+        "https://www.homedepot.com/p/Green-Label-9-in-Uncoated-Disposable-Paper-Plates-in-White-1200-Per-Case-AJMPP9GRA/338753346",
+        "https://www.homedepot.com/p/Genuine-Joe-7-in-Multicolor-Striped-Disposable-Paper-Plates-125-Pack-GJO10321/335394203",
+        "https://www.homedepot.com/p/Adrinfly-10-in-Disposable-Paper-Plates-300-Count-Heavy-Duty-Dinner-Plates-for-Parties-Picnics-and-Everyday-Use-SA1029B048/336512831",
+        "https://www.homedepot.com/p/KHKFY-300-Count-10-in-Large-Disposable-Paper-Dinner-Plates-Bulk-Pack-Soak-Proof-and-Cut-Resistant-RMWNZJPZ/343914085",
+        "https://www.homedepot.com/p/8-5-in-White-Disposable-Paper-Plate-500-Per-Case-203959/344175862",
+        "https://www.homedepot.com/p/Wudkey-140-Pack-10-in-Disposable-Paper-Plates-Soak-Proof-Cut-Proof-Paper-Plates-for-BBQs-Parties-Weddings-BZ6H87-7/344379907",
+        "https://www.homedepot.com/p/KHKFY-10-Inch-Disposable-Paper-Plates-Bulk-300-Count-Thickened-Heavy-Duty-Large-Dinner-Plates-for-Holiday-Party-and-Picnic-WCTU35AE/343914087",
+        "https://www.homedepot.com/p/KHKFY-6-Inch-Compostable-Dessert-Paper-Plates-Made-from-Sugarcane-Fibers-500-Pack-DK66T7BE/344003771",
+        "https://www.homedepot.com/p/Adrinfly-300-Piece-Eco-Friendly-Disposable-Tableware-Set-with-Plates-and-Cutlery-SA1029B070/336512857",
+        "https://www.homedepot.com/p/KHKFY-150-Pack-7-in-Heavy-Duty-Disposable-Paper-Dessert-Plate-Soak-Proof-Cut-Proof-Floral-Print-Party-JOLLY-N97AB343/344007710",
+        "https://www.homedepot.com/p/KHKFY-Compostable-Paper-Plates-and-Cutlery-Set-350-Pieces-Plant-Based-Dinnerware-with-Cups-and-Straws-for-50-Guests-YRXR8T6P/343914091",
+        "https://www.homedepot.com/p/Anqtovp-6-oz-White-Paper-Cone-Wax-Coated-Leakproof-Disposable-Tableware-Cone-Cups-for-Water-Ice-Cream-100-Piece-KC124PH033/341935991",
+        "https://www.homedepot.com/p/Anqtovp-16-oz-Silver-Grey-Kraft-Paper-Disposable-Insulated-Ripple-Coffee-Cups-With-Lids-and-Straws-80-Piece-Case-KC111PH033/341936012",
+        "https://www.homedepot.com/p/KHKFY-100-Pack-12-oz-Disposable-Paper-Coffee-Cups-with-Lids-and-Sleeves-for-Hot-Beverages-DKAURH32/344235780",
+        "https://www.homedepot.com/p/Lynzavix-3-in-White-White-Family-Disposable-Paper-Coffee-Cups-with-Lids-Hot-Cold-Drink-Cups-100-Per-Case-16-oz-Spill-Proof-29DPH005624/339020809",
+        "https://www.homedepot.com/p/Genuine-Joe-16-oz-Brown-Ripple-Hot-Disposable-Beverage-Cups-GJO11257/304547152",
+        "https://www.homedepot.com/p/Anqtovp-Heavy-duty-Series-6-in-White-Disposable-Paper-Cups-White-Color-Family-Disposable-Tableware-200-Piece-Per-Case-KC137PH033/341936006",
+        "https://www.homedepot.com/p/GREAT-NORTHERN-46-oz-Paper-Disposable-Cups-Popcorn-Boxes-100-Pack-83-DT6182-100/331412607",
+        "https://www.homedepot.com/p/Anqtovp-Paper-Cups-8-oz-Kraft-Brown-Disposable-Paper-Disposable-Tableware-Product-Type-1000-Piece-Per-Case-for-Hot-Cold-Drinks-KC132PH033/341935990",
+        "https://www.homedepot.com/p/KHKFY-12-oz-Disposable-Paper-Coffee-Cups-with-Lids-and-Kraft-Sleeves-100-Pack-Leak-Proof-To-Go-Travel-Cups-WGJ8Q8DZ/343984901",
+        "https://www.homedepot.com/p/Anqtovp-16-oz-Grey-Disposable-Paper-Double-Wall-Insulated-Corrugated-Coffee-Cups-with-Lids-To-Go-Hot-Drinks-100-Set-KC136PH033/341936005",
+        "https://www.homedepot.com/p/LAIFUCAM-Reusable-Aluminum-Foil-Sealable-Storage-Bags-30-Pack-3-Sizes-Stand-Up-Zipper-Pouches-with-Labels-for-Food-Storage-KG036SA11/344909931",
+        "https://www.homedepot.com/p/LAIFUCAM-Reusable-Aluminum-Foil-Food-Storage-Bags-20-Pack-Large-Freezer-Bags-with-Zipper-Seal-and-Labels-for-Kitchen-KG002SA11/344909855",
+        "https://www.homedepot.com/p/Scott-White-Toilet-Tissue-1000-Sheet-12-Rolls-Per-Pack-10060/312631958",
+        "https://www.homedepot.com/p/Cottonelle-Ultra-Clean-Toilet-Paper-312-Sheet-Per-Roll-12-Rolls-Per-Pack-54151/319855096",
+        "https://www.homedepot.com/p/Charmin-Essentials-Soft-Toilet-Paper-Rolls-12-Mega-Rolls-003077203154/321300726",
+        "https://www.homedepot.com/p/Charmin-Ultra-Strong-Toilet-Paper-Roll-12-Mega-Plus-Rolls-003077213445/330291815",
+        "https://www.homedepot.com/p/Charmin-Essentials-Strong-Toilet-Paper-Rolls-12-Mega-Rolls-003077203156/321300219",
+        "https://www.homedepot.com/p/SEVENTH-GENERATION-4-in-x-4-in-Bath-Tissue-2-Ply-12-Pack-SEV13733/205817592",
+        "https://www.homedepot.com/p/Scott-White-Toilet-Tissue-1000-Sheet-12-Rolls-Per-Pack-4-Pack-of-12-Rolls-10060/321708996",
+        "https://www.homedepot.com/p/Marcal-100-Recycled-Soft-and-Absorbent-Toilet-Tissue-168-Sheets-Per-Roll-16-Per-Pack-MRC16466PK/313646695",
+        "https://www.homedepot.com/p/SKILCRAFT-Single-Ply-Toilet-Tissue-Paper-1200-Sheets-per-Roll-80-Rolls-per-Box-NSN5303770/313646698",
+        "https://www.homedepot.com/p/SKILCRAFT-1-Ply-PCF-individual-Toilet-Tissue-Rolls-1000-Sheets-per-Roll-96-Rolls-per-Carton-NSN6308728/313646690",
+        "https://www.homedepot.com/p/SKILCRAFT-Facial-Quality-Toilet-Tissue-Paper-550-Sheets-per-Roll-40-Rolls-per-Box-NSN5547678/313646693",
+        "https://www.homedepot.com/p/2-Ply-Premium-White-Toilet-Tissue-500-Sheets-per-Roll-80-Rolls-per-Carton-SOL21545/313646677",
+        "https://www.homedepot.com/p/SKILCRAFT-2-Ply-Toilet-Tissue-Paper-550-Sheets-per-Roll-80-Rolls-per-Box-NSN3800690/313646696",
+        "https://www.homedepot.com/p/Charmin-Ultra-Soft-Smooth-Tear-Toilet-Paper-Rolls-30-Mega-Rolls-003077216562/337736610"
       ],
       "categories": [
         {
           "category": "Air Care",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 12,
+          "added": 12,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 2,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 2,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 8,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 22,
+          "added": 22,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 11,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 4,
+          "added": 4,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 13,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
           "collected": 1,
           "added": 1,
-          "status": "Public item-page evidence collected; partial"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 2,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 5,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 15,
+          "added": 15,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 5,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
       ],
-      "sourceCheckedAt": "2026-11-01"
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Kroger",
-      "collected": 162,
-      "added": 51,
-      "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+      "collected": 195,
+      "added": 84,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 33 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
       "sourcePages": [
         "https://www.kroger.com/pl/food-storage-containers/2800200002",
-        "https://www.kroger.com/pl/trash-bags/26020"
+        "https://www.kroger.com/pl/trash-bags/26020",
+        "https://www.kroger.com/p/raid-ant-roach-killer-indoor-insecticide-residual-killing-power-17-5-oz-pack-of-2/0004650011952",
+        "https://www.kroger.com/p/easy-off-fume-free-oven-cleaner-destroys-tough-burnt-on-food-and-grease-14-5-oz/0006233887977",
+        "https://www.kroger.com/p/soft-scrub-duo-cubes-clear-water-lemon-fresh/0002340007271",
+        "https://www.kroger.com/p/lysol-power-toilet-bowl-cleaner-atlantic-fresh/0001920079174",
+        "https://www.kroger.com/p/kroger-fresh-scent-toilet-bowl-cleaner-with-bleach/0001111012535",
+        "https://www.kroger.com/p/clorox-toilet-bowl-cleaner-ocean-mist/0004460030619",
+        "https://www.kroger.com/p/lysol-brand-new-day-toilet-bowl-cleaner-lavender-cotton-blossom/0001920056251",
+        "https://www.kroger.com/p/lysol-lime-and-rust-toilet-bowl-cleaner-lime-rust/0001920080088",
+        "https://www.kroger.com/p/lysol-power-toilet-bowl-cleaner-atlantic-fresh/0001920002522",
+        "https://www.kroger.com/p/clorox-toilet-bowl-cleaner-ocean-mist/0004460030627",
+        "https://www.kroger.com/p/clorox-toiletwand-disinfecting-scrubbing-toilet-cleaning-refill-pads/0004460001717",
+        "https://www.kroger.com/p/kroger-fresh-scent-toilet-bowl-cleaner-with-bleach-value-pack/0001111015281",
+        "https://www.kroger.com/p/scrubbing-bubbles-toilet-tablets-continuous-clean-toilet-drop-ins/0001980070480",
+        "https://www.kroger.com/p/scrubbing-bubbles-fresh-gel-toilet-cleaning-stamp-rainshower-dispenser-with-6-gel-stamps-1-34-oz/0002570071381",
+        "https://www.kroger.com/p/lysol-toilet-bowl-cleaner-lime-rust-remover-twin-pack/0001920095766",
+        "https://www.kroger.com/p/clorox-plus-tilex-mold-and-mildew-remover/0004460001195",
+        "https://www.kroger.com/p/clorox-bathroom-foamer-with-bleach-ocean-mist/0004460030614",
+        "https://www.kroger.com/p/kroger-foaming-bathroom-cleaner-with-bleach/0001111015848",
+        "https://www.kroger.com/p/scrubbing-bubbles-bathroom-grime-fighter-disinfectant-cleaner-citrus-scent-32oz/0002570070755",
+        "https://www.kroger.com/p/clorox-toiletwand-disinfecting-scrubbing-toilet-cleaning-starter-kit/0004460003191",
+        "https://www.kroger.com/p/scrubbing-bubbles-mega-shower-foamer-bathroom-cleaner-rainshower-scent-32-oz/0002570071016",
+        "https://www.kroger.com/p/clorox-bathroom-disinfecting-cleaner-original/0004460008033",
+        "https://www.kroger.com/p/lysol-power-bathroom-foamer-bathroom-cleaner/0001920002699",
+        "https://www.kroger.com/p/scrubbing-bubbles-bathroom-grime-fighter-disinfectant-cleaner-petal-paradise-scent-32oz/0002570000615",
+        "https://www.kroger.com/p/clorox-toiletwand-disinfecting-scrubbing-toilet-cleaning-refill-pads-rainforest-rush/0004460031392",
+        "https://www.kroger.com/p/clean-shower-fresh-clean-scent-daily-shower-cleaner/0079271600032",
+        "https://www.kroger.com/p/zevo-flying-insect-killer-spray/0081012129047",
+        "https://www.kroger.com/p/zevo-ant-roach-fly-multi-insect-trigger-spray/0081012129023",
+        "https://www.kroger.com/p/stem-light-trap-attracts-and-traps-flying-insects-emits-soft-blue-light/0004650004523",
+        "https://www.kroger.com/p/combat-for-small-and-large-roach-killing-bait-stations/0002340099774",
+        "https://www.kroger.com/p/bugmd-plant-based-multi-insect-killer-essential-pest-control-spray/0081009857588",
+        "https://www.kroger.com/p/zevo-max-flying-insect-indoor-fly-trap-easy-mess-free-solution/0081012129000",
+        "https://www.kroger.com/p/bona-hard-surface-floor-cleaner/0073702500027"
       ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 3,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 24,
+          "added": 24,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 8,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 3,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 24,
           "added": 24,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 39,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 40,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 7,
+          "added": 7,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 15,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 27,
           "added": 27,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-02"
     },
     {
-      "retailer": "Lowe\u2019s",
-      "collected": 121,
-      "added": 12,
-      "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+      "retailer": "Lowe’s",
+      "collected": 151,
+      "added": 42,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 30 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
       "sourcePages": [
-        "https://www.lowes.com/best-sellers/cleaning-supplies/household-essentials/3618734417"
+        "https://www.lowes.com/best-sellers/cleaning-supplies/household-essentials/3618734417",
+        "https://www.lowes.com/pd/Etokfoks-100-Pieces-Resealable-Foil-Food-Storage-Bags-with-Clear-Window-Coffee-Beans-Candy-Packaging-Pouch-for-Food-Small-Business/105575912",
+        "https://www.lowes.com/pd/CYIKE-Reusable-Aluminum-Foil-Sealable-Storage-Bags-30-Pack-Small-Stand-Up-Resealable-Zipper-Pouches-for-Food-with-Label-and-Zip-Lock/106108350",
+        "https://www.lowes.com/pd/BLACK-FLAG-Roach-Motel-Insect-Trap-12-Pack-for-Effective-Roach-Control/7582241",
+        "https://www.lowes.com/pd/TERRO-Indoor-Insect-Trap-12-Pack/5005520579",
+        "https://www.lowes.com/pd/TERRO-Indoor-Insect-Trap/5014571031",
+        "https://www.lowes.com/pd/Dixie-Pathways-Soak-Proof-Shield-Mediumweight-Paper-Plates-8-5-in-dia-Green-Burgundy-125-Pack/8970219",
+        "https://www.lowes.com/pd/AJM-Packaging-Corporation-Packaging-Green-Label-Economy-Paper-Plates-100-Bag-9in-Diameter-Plate-Paper-Microwave-Safe-White-1200-Carton/1003142472",
+        "https://www.lowes.com/pd/Dixie-Pathways-Design-Everyday-Paper-Plates-125-Pack-8-50in-Diameter-Plate-Paper-White-1000-Carton/1002787066",
+        "https://www.lowes.com/pd/Dart-Round-Foam-Dinnerware-Plate-9in-Diameter-Plate-Foam-500-Carton/1002786594",
+        "https://www.lowes.com/pd/Dart-Unlaminated-Foam-Compartment-Plates-10-25in-Diameter-Plate-Foam-White-500-Carton/1002786474",
+        "https://www.lowes.com/pd/Aoibox-60-Pack-Clear-Plastic-Plates-Gold-Rim-Heavy-Duty-Disposable-Hammered-Design-Includes-30-Dinner-Plates-and-30-Dessert-Plates-for-Parties/8062337",
+        "https://www.lowes.com/pd/Dixie-Pathways-Soak-Proof-Shield-Heavyweight-Paper-Plates-10-13-in-dia-Green-Burgundy-125-Pack/8914744",
+        "https://www.lowes.com/pd/Dart-25-Count-10-oz-Styrofoam-Cup/1002714800",
+        "https://www.lowes.com/pd/Dart-Insulated-Foam-Cup-12-fl-oz-1000-Carton-White-Foam-Coffee-Soft-Drink-Hot-Cider-Hot-Chocolate-Juice-Cappuccino-Tea-Cold-Drink/1002700626",
+        "https://www.lowes.com/pd/Genuine-Joe-Hot-Cold-Foam-Cup-10-fl-oz-1000-Carton-White-Foam-Hot-Drink-Cold-Drink/1002700050",
+        "https://www.lowes.com/pd/Dart-Insulated-Foam-Cup-14-fl-oz-1000-Carton-White-Foam-Cold-Drink-Hot-Drink-Soft-Drink/1002700722",
+        "https://www.lowes.com/pd/JAM-Paper-20-Count-12-oz-Plastic/1003190488",
+        "https://www.lowes.com/pd/Dart-Insulated-Foam-Cup-12-fl-oz-Round-1000-Carton-White-Foam-Beverage-Tea-Coffee-Soft-Drink-Juice-Hot-Cider-Hot-Chocolate-Cappuccino-Cold-Drink-Hot-Drink/1002700642",
+        "https://www.lowes.com/pd/Genuine-Joe-Translucent-Plastic-Beverage-Cup-200-Sleeve-9-fl-oz-2400-Carton-Clear-Plastic-Cold-Drink/1002703436",
+        "https://www.lowes.com/pd/WNA-WNA-Comet-Square-to-Round-Tumbler-10-fl-oz-Square-to-Round-16-Pack-Clear-Polystyrene-General-Purpose/1002703278",
+        "https://www.lowes.com/pd/TERRO-Ant-Bait-Station-4-Pack/1001151804",
+        "https://www.lowes.com/pd/Stay-Away-2-Count-Ant-and-Roach-Natural-Deet-Free-Indoor-Outdoor-Pouch/5016185631",
+        "https://www.lowes.com/pd/Easy-Off-24-Ounce-s-Foam-Oven-Cleaner/5016565187",
+        "https://www.lowes.com/pd/Zep-Commercial-19-Ounce-S-Foam-Oven-Cleaner/3621318",
+        "https://www.lowes.com/pd/Easy-Off-24-Ounce-s-Foam-Oven-Cleaner/5016565171",
+        "https://www.lowes.com/pd/Weiman-Products-22-fl-oz-Stainless-Steel-Cleaner/1001326608",
+        "https://www.lowes.com/pd/GLISTEN-12-oz-Dishwasher-Cleaner-Liquid/1000240999",
+        "https://www.lowes.com/pd/Zep-14-oz-Stainless-Steel-Cleaner/4383171",
+        "https://www.lowes.com/pd/Weiman-Products-30-Pack-30-Count-Stainless-Steel-Cleaner/5014006041",
+        "https://www.lowes.com/pd/affresh-3-Count-Washing-Machine-Cleaner-Tablets/1000192615"
       ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 24,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 14,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 9,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 2,
           "added": 2,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 15,
+          "added": 15,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 13,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 2,
+          "added": 2,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 4,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 2,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 7,
           "added": 7,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 5,
+          "added": 5,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 8,
+          "added": 8,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 40,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 3,
           "added": 3,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 3,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Meijer",
       "collected": 1409,
       "added": 1392,
-      "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Initial rendered cards from category/subcategory pages checked. Interactive Load More and remaining pages not exhausted.",
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "Pest-control candidate links returned generic Meijer landing pages, so no new item evidence was accepted. Existing records preserved; category Load More and the held-out photo candidates remain pending.",
       "sourcePages": [
         "https://www.meijer.com/shopping/departments/household-essentials",
         "https://www.meijer.com/shopping/departments/household-essentials/air-fresheners",
@@ -1657,100 +2437,131 @@
           "category": "Air Care",
           "collected": 158,
           "added": 158,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 32,
           "added": 32,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 151,
           "added": 151,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 116,
           "added": 102,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 184,
           "added": 184,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 49,
           "added": 49,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 52,
           "added": 51,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 224,
           "added": 222,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 84,
           "added": 84,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 31,
           "added": 31,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
           "collected": 0,
           "added": 0,
-          "status": "Further category research required"
+          "status": "item evidence unavailable; generic landing pages",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 40,
           "added": 40,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 143,
           "added": 143,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 89,
           "added": 89,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 51,
           "added": 51,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Publix",
-      "collected": 95,
-      "added": 80,
-      "reviewStatus": "Individual product links attempted; incomplete",
-      "limitations": "2 November: 80 verified missing paper/air-care products added after individual item-page checks. Initial category results only; Load More not exhausted. Other categories remain incomplete.",
+      "collected": 108,
+      "added": 93,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 13 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
       "sourcePages": [
         "https://www.publix.com/pd/air-wick-essential-mist-fragrance-mist-lavender-almond-blossom-starter-kit/RIO-PCI-550797",
         "https://www.publix.com/pd/air-wick-essential-mist-starter-kit-linen-petals/RIO-PCI-605941",
@@ -1831,108 +2642,151 @@
         "https://www.publix.com/pd/swiffer-sweeper-sweep-mop-wet-pads-refill-floor-cleaner-gain-12ct/RIO-PCI-138551",
         "https://www.publix.com/pd/vanity-fair-everyday-napkins-everyday-casual-2-ply/RIO-PPR-116559",
         "https://www.publix.com/pd/vanity-fair-napkins-classic-entertain/RIO-PCI-163203",
-        "https://www.publix.com/pd/viva-signature-cloth-1-ply-choose-a-sheet-double-rolls-towels/RIO-PCI-588369"
+        "https://www.publix.com/pd/viva-signature-cloth-1-ply-choose-a-sheet-double-rolls-towels/RIO-PCI-588369",
+        "https://delivery.publix.com/store/publix/products/39485-clorox-toilet-bowl-cleaner-bleach-fresh-breeze-scent-24-fl-oz",
+        "https://www.publix.com/pd/ecos-window-cleaner-vinegar/RIO-PCI-190861",
+        "https://www.publix.com/pd/ecos-laundry-detergent-plant-powered-free-and-clear/RIO-PCI-169526",
+        "https://www.publix.com/pd/combat-ant-killing-bait/RIO-PCI-624120",
+        "https://www.publix.com/pd/hot-shot-discreet-and-compact-flying-insect-trap/RIO-PCI-633612",
+        "https://www.publix.com/pd/easy-off-oven-cleaner-fresh-scent-heavy-duty/RIO-PCI-117153",
+        "https://delivery.publix.com/store/publix/products/313292-publix-tall-kitchen-bags-with-drawstring-closure-system-22-ct",
+        "https://delivery.publix.com/store/publix/products/3321529-publix-trash-bags-with-flap-ties-closure-system-21-ct",
+        "https://www.publix.com/pd/glad-quick-tie-13-gallon-tall-kitchen-quick-tie-trash-bags/RIO-PCI-116878",
+        "https://delivery.publix.com/store/publix/products/74517491-ziploc-brand-seal-top-freezer-bags-with-stay-open-design-0-5-gal",
+        "https://www.publix.com/pd/ziploc-sandwich-bags/RIO-PCI-116669",
+        "https://www.publix.com/pd/ziploc--gallon-storage-bags-stay-open-design-easy-to-fill-22-count/RIO-PCI-116766",
+        "https://delivery.publix.com/store/publix/products/2692792-ziploc-freezer-bags-storage-bag-60-ct"
       ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 35,
           "added": 35,
-          "status": "Individual item pages checked; partial inventory"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 2,
           "added": 1,
-          "status": "Individual item pages checked; partial inventory"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 6,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 4,
           "added": 3,
-          "status": "Individual item pages checked; partial inventory"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 4,
+          "added": 4,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
-          "collected": 4,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 5,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 10,
           "added": 10,
-          "status": "Individual item pages checked; partial inventory"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 2,
+          "added": 2,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 2,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 31,
           "added": 31,
-          "status": "Individual item pages checked; partial inventory"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 3,
+          "added": 3,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Safeway",
-      "collected": 43,
-      "added": 31,
-      "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Product page metadata checked for additions. Category enumeration remains incomplete; store stock and prices unverified. 2 November follow-up: 4 additional exact product pages and matched photos; no complete inventory claim.",
+      "collected": 54,
+      "added": 42,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 11 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
       "sourcePages": [
         "https://www.safeway.com/shop/pd/fantastik-fresh-scent-disinfectant-multipurpose-cleaner-spray-bottle-32-oz/960075662",
         "https://www.safeway.com/shop/pd/fantastik-lemon-scent-all-purpose-cleaner-trigger-bottle-32-oz/960210286",
@@ -1964,209 +2818,288 @@
         "https://www.safeway.com/shop/pd/signature-select-plunger-with-caddy-each/971312023",
         "https://www.safeway.com/shop/pd/signature-select-power-scrubber-and-sponge-each/971312014",
         "https://www.safeway.com/shop/pd/signature-select-power-scrubber-each/971312024",
-        "https://www.safeway.com/shop/pd/signature-select-toilet-bowl-brush-with-caddy-1-ea-ea/971319491"
+        "https://www.safeway.com/shop/pd/signature-select-toilet-bowl-brush-with-caddy-1-ea-ea/971319491",
+        "https://www.safeway.com/shop/pd/dixie-to-go-paper-cups-and-lids-12-oz-26-ct/960064362",
+        "https://www.safeway.com/shop/pd/mop-and-glo-multi-surface-floor-cleaner-32-oz/960090145",
+        "https://www.safeway.com/shop/pd/raid-max-ant-and-roach-killer-insecticide-aerosol-spray-14-5-oz/970063963",
+        "https://www.safeway.com/shop/pd/raid-ant-and-roach-kitchen-defense-insecticide-trigger-spray-bottle-22-oz/970028485",
+        "https://www.safeway.com/shop/pd/value-corner-bath-tissue-12-rolls/960225870",
+        "https://www.safeway.com/shop/pd/signature-select-ultra-strong-bath-tissue-12-mega-rolls/960274145",
+        "https://www.safeway.com/shop/product-details.960015284.html",
+        "https://www.safeway.com/shop/product-details.970006893.html",
+        "https://www.safeway.com/shop/product-details.970300094.html",
+        "https://www.safeway.com/shop/product-details.960333625.html",
+        "https://www.safeway.com/shop/product-details.971076064.html"
       ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 0,
           "added": 0,
-          "status": "Further category research required"
+          "status": "discovery checked; no verified addition",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 2,
           "added": 2,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 17,
           "added": 17,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 3,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 2,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 4,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 4,
           "added": 4,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 1,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 2,
+          "added": 2,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 1,
           "added": 1,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 7,
           "added": 7,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 7,
+          "added": 7,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 2,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-02"
     },
     {
-      "retailer": "Sam\u2019s Club",
-      "collected": 562,
-      "added": 2,
-      "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+      "retailer": "Sam’s Club",
+      "collected": 568,
+      "added": 8,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 6 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete. Naturals category still has no collected records; this is a research gap, not absence of products.",
       "sourcePages": [
-        "https://www.samsclub.com/browse/cleaning-supplies/1564"
+        "https://www.samsclub.com/browse/cleaning-supplies/1564",
+        "https://www.samsclub.com/ip/Dawn-Professional-Plus-Manual-Pot-Pan-Dish-Detergent-1-gal/20082624055",
+        "https://www.samsclub.com/ip/OdoBan-Neutral-pH-Floor-Cleaner-Concentrate-1-gal-4-pk/13862759144",
+        "https://www.samsclub.com/ip/Dawn-Professional-Manual-Pot-and-Pan-Detergent-Dish-Soap-Lemon-1-gal/3700031352",
+        "https://www.samsclub.com/ip/DCT-Professional-Grade-Oven-Grill-Fryer-Cleaner-32-fl-oz-4-ct/14183824547",
+        "https://www.samsclub.com/ip/Sprayway-Industrial-Strength-Oven-Cleaner-20-oz-6-pk/13606761740",
+        "https://www.samsclub.com/ip/Member-s-Mark-Commercial-Dish-Detergent-1-Gallon-Jugs/13882308123"
       ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 83,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 9,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
           "collected": 60,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
-          "collected": 22,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 25,
+          "added": 3,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 88,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
-          "collected": 8,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 9,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 57,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 80,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 0,
           "added": 0,
-          "status": "Further category research required"
+          "status": "discovery checked; no verified addition",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 11,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
           "collected": 2,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
-          "collected": 16,
-          "added": 2,
-          "status": "Additional item evidence collected"
+          "collected": 18,
+          "added": 4,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 29,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 14,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 24,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "TikTok Shop",
-      "collected": 931,
-      "added": 820,
-      "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted. 2 November follow-up: 2 additional exact product pages and matched photos; no complete inventory claim.",
+      "collected": 940,
+      "added": 829,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "9 additional exact public product pages with matched photos and named seller evidence. Seller names distinguish brand stores from resellers. Offers, stock, listing dates and complete marketplace pagination remain unverified; earlier limited-evidence references keep their status.",
       "sourcePages": [
         "https://shop.tiktok.com/us/k/air-freshener",
         "https://shop.tiktok.com/us/k/airtight-food-storage",
@@ -2241,107 +3174,147 @@
         "https://shop.tiktok.com/us/k/trash-bags",
         "https://shop.tiktok.com/us/k/trashbag",
         "https://shop.tiktok.com/us/k/trashbags",
-        "https://shop.tiktok.com/us/k/where-to-buy-cleaning-supplies"
+        "https://shop.tiktok.com/us/k/where-to-buy-cleaning-supplies",
+        "https://shop.tiktok.com/us/pdp/scrub-dye-free-cleaning-sponge-reusable-odor-resistant/1731647226464866696",
+        "https://shop.tiktok.com/us/pdp/electric-spin-scrubber-ipx7-waterproof-3x-high-torque/1729623697122366354",
+        "https://shop.tiktok.com/us/pdp/dish-scrubber-5-pack-durable-non-scratch-reusable-scrubbies-multi-surface-cleaning/1732298475948839564",
+        "https://shop.tiktok.com/us/pdp/bamboo-dish-scrubber-brush-by-casa-agave-with-agave-fiber-bristles/1729421741499060753",
+        "https://shop.tiktok.com/us/pdp/power-scrubber-with-360-rotating-cleaning-ipx7-waterproof-4hr-battery/1732281192415203765",
+        "https://shop.tiktok.com/us/pdp/scrubber-sponge-set-scrub-original-6-count-individually-wrapped/1730552677686612707",
+        "https://shop.tiktok.com/us/pdp/scrubbie-special-edition-spooky-dual-sided-scrubber-sponge/1731737423898383075",
+        "https://shop.tiktok.com/us/pdp/scrubbare-con-forme-di-halloween-2025-zucca-fantasma/1731856932692529891",
+        "https://shop.tiktok.com/us/pdp/reveal-power-scrubber-brush-powerful-versatile-cleaner/1731858172286636717"
       ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 103,
           "added": 95,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 14,
           "added": 8,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
-          "collected": 81,
-          "added": 61,
-          "status": "Additional item evidence collected"
+          "collected": 90,
+          "added": 70,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 13,
           "added": 10,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 6,
           "added": 2,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 7,
           "added": 3,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 112,
           "added": 105,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
-          "collected": 126,
+          "collected": 119,
           "added": 107,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 19,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 10,
           "added": 7,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
           "collected": 123,
           "added": 123,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 4,
           "added": 2,
-          "status": "Additional item evidence collected"
+          "status": "discovery checked; no verified addition",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 31,
           "added": 15,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 101,
           "added": 101,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 162,
           "added": 162,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Walgreens",
-      "collected": 144,
-      "added": 87,
-      "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Initial rendered cards from category/subcategory pages checked. Interactive Load More and remaining pages not exhausted. 2 November follow-up: 8 additional exact product pages and matched photos; no complete inventory claim.",
+      "collected": 156,
+      "added": 99,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 12 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete. Naturals category still has no collected records; this is a research gap, not absence of products.",
       "sourcePages": [
         "https://www.walgreens.com/store/c/productlist/$5---$10-cleaning-supplies/N=20000911-1000021",
         "https://www.walgreens.com/store/c/productlist/30-cleaning-supplies/N=20000911-4294838623",
@@ -2382,202 +3355,322 @@
         "https://www.walgreens.com/store/c/productlist/toilet-brush-cleaning-supplies/N=20000911-2000013810",
         "https://www.walgreens.com/store/c/productlist/twin-pack-cleaning-supplies/N=20000911-4294817069",
         "https://www.walgreens.com/store/c/productlist/wipes-cleaning-supplies/N=20000911-3000007665",
-        "https://www.walgreens.com/store/store/category/productlist.jsp?N=20000911"
+        "https://www.walgreens.com/store/store/category/productlist.jsp?N=20000911",
+        "https://www.walgreens.com/store/c/hot-shot-maxattrax-ant-bait/ID=prod6143999-product",
+        "https://www.walgreens.com/store/c/raid-ant-&-roach-killer,-indoor-insecticide,-residual-killing-power,-spray-fragrance-free/ID=prod4007-product",
+        "https://www.walgreens.com/store/c/raid-ant-&-roach-killer,-indoor-insecticide,-residual-killing-power,-spray-outdoor-fresh/ID=prod3996-product",
+        "https://www.walgreens.com/store/c/walgreens-facial-tissue-flat-box/ID=prod6376467-product",
+        "https://www.walgreens.com/store/c/puffs-facial-tissues-plus-lotion-vicks,-48-tissues-per-box/ID=prod6210936-product",
+        "https://www.walgreens.com/store/c/walgreens-pocket-facial-tissue-8-pack/ID=prod6376479-product",
+        "https://www.walgreens.com/store/c/walgreens-drawstring-tall-kitchen-bags-13-gallon/ID=prod6373299-product",
+        "https://www.walgreens.com/store/c/walgreens-handle-tie-tall-kitchen-bags-13-gallon/ID=prod6376412-product",
+        "https://www.walgreens.com/store/c/glad-odorshield-tall-kitchen-drawstring-bags-fresh-clean-febreze,-13-gallon/ID=prod6109704-product",
+        "https://www.walgreens.com/store/c/walgreens-twist-tie-small-trash-bags-4-gallon,-white/ID=prod6376439-product",
+        "https://www.walgreens.com/store/c/glad-tall-kitchen-drawstring-bags-gain-lavender,-13-gallon/ID=prod6112483-product",
+        "https://www.walgreens.com/store/c/libman-big-job-kitchen-brush/ID=prod6200979-product"
       ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 2,
           "added": 1,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 17,
           "added": 17,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
-          "collected": 39,
-          "added": 22,
-          "status": "Additional item evidence collected"
+          "collected": 40,
+          "added": 23,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
           "collected": 14,
           "added": 5,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 3,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 9,
           "added": 9,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 18,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 2,
           "added": 2,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
           "collected": 0,
           "added": 0,
-          "status": "Further category research required"
+          "status": "discovery checked; no verified addition",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 8,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 3,
+          "added": 3,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 7,
           "added": 7,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
           "collected": 25,
           "added": 24,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 3,
+          "added": 3,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
-          "collected": 0,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 5,
+          "added": 5,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Walmart",
-      "collected": 685,
-      "added": 43,
-      "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+      "collected": 731,
+      "added": 89,
+      "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
+      "limitations": "2 November targeted gap review: 46 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
       "sourcePages": [
-        "https://www.walmart.com/browse/household-essentials/pest-control/1115193_1025745"
+        "https://www.walmart.com/browse/household-essentials/pest-control/1115193_1025745",
+        "https://www.walmart.com/ip/1570554642",
+        "https://www.walmart.com/ip/20611613774",
+        "https://www.walmart.com/ip/18375367241",
+        "https://www.walmart.com/ip/25357842",
+        "https://www.walmart.com/ip/19633924569",
+        "https://www.walmart.com/ip/SZRSTH-Electric-Spin-Scrubber-450RPM-Cordless-Power-Scrubber-with-Adjustable-Handle-8-Heads-Shower-Cleaning-Brush-for-Bathroom-Floor/1595857467",
+        "https://www.walmart.com/ip/Casabella-Power-Spin-Scrubber-Electric-Cleaning-Brush-with-Adjustable-Head/6012523023",
+        "https://www.walmart.com/ip/Bell-Howell-Scrubtastic-Max-Spin-Scrubber-Rechargeable-Spin-Scrubber-Multipurpose-Cordless-Power-Electric-Cleaner-with-2-Brush-Heads/202538573",
+        "https://www.walmart.com/ip/Electric-Spin-Scrubber-Cordless-500RPM-Power-Scrubber-Shower-Cleaning-Bathroom-Scrub-Brush-7-Replaceable-Brush-Heads-Extendable-Handle-2-Speed-Electr/14334055434",
+        "https://www.walmart.com/ip/Electric-Spin-Scrubber-Cordless-Bath-Tub-Power-Scrubber-Long-Handle-9-Replaceable-Heads-Detachable-Short-Handle-Shower-Cleaning-Floor-Tile-Sink-Windo/14317220139",
+        "https://www.walmart.com/ip/Electric-Spin-Scrubber-Cordless-Bath-Tub-Power-Scrubber-Long-Handle-7-Replaceable-Heads-Detachable-Short-Handle-Shower-Cleaning-Brush-Household-Tools/1934221930",
+        "https://www.walmart.com/ip/Electric-Spin-Scrubber-Cordless-25W-500RPM-Power-Scrubber-9-Replaceable-Heads-Shower-Tile-Grout-Waterproof-Scrub-Brush-Extension-Handle-Dual-Speed-Ba/5169109710",
+        "https://www.walmart.com/ip/Amiluo-Electric-Spin-Scrubber-Cordless-Bathtub-Power-Scrubber-Long-Handle-7-Replaceable-Heads-Two-Speed-360-Motorized-Rotating-Brush-Shower-Cleaning/5351899822",
+        "https://www.walmart.com/ip/Rubbermaid-Cordless-Power-Scrubber-Electric-Handheld-Cleaning-Brush-for-Bathroom-Tile-Grout-with-2-Heads/316896815",
+        "https://www.walmart.com/ip/LifEasy-7-in-1-Electric-Spin-Scrubber-Cordless-Power-Cleaning-Brush-with-10-Level-Digital-Display-Telescopic-Extension-Pole-for-Tub-Tile-Floor/20569873555",
+        "https://www.walmart.com/ip/BIMZUC-Electric-Spin-Scrubber-Cordless-Cleaning-Brush-7-Replaceable-Heads-Extendable-Handle-White/11653454354",
+        "https://www.walmart.com/ip/Amiluo-Electric-Spin-Scrubber-2000-mAh-Battery-Cordless-Handheld-Cleaning-Brush-2-Speeds-Power-Scrubber-6-Replaceable-Heads-Display-Bathroom-Shower-S/19896159593",
+        "https://www.walmart.com/ip/STARBIAO-Electric-Spin-Scrubber-Adjustable-Head-Bending-Bathroom-Cleaner-Cordless-Power-Scrubber-Long-Handle-9-Brush-Heads-2-Speeds-Waterproof-Tub-Ti/19616951004",
+        "https://www.walmart.com/ip/Lightweight-Electric-Spin-Scrubber-Adjustable-Handle-3-Speed-Mode-Power-Electric-Scrubber-Cleaning-Cordless-Shower-Cleaning-Brush-8-Brush-Heads-Bathr/16601155637",
+        "https://www.walmart.com/ip/POWEART-Electric-Spin-Scrubber-Cordless-Power-Scrubber-450-RPM-5-Replaceable-Brush-Heads-Adjustable-Telescopic-Handle-Waterproof-Shower-Cleaning-Brus/20187519230",
+        "https://www.walmart.com/ip/Scootworks-Electric-Spin-Scrubber-1000RPM-Cordless-Power-Cleaning-Brush-8-Replaceable-Heads-Adjustable-Handle-Cleaning-Tools-Bathroom-Tile-Floor/19645853146",
+        "https://www.walmart.com/ip/Kibhous-Electric-Spin-Scrubber-with-3-Replaceable-Brush-Heads-Adjustable-Extension-Arm/163342298",
+        "https://www.walmart.com/ip/BIMZUC-Electric-Spin-Scrubber-Cordless-Cleaning-Brush-8-Replaceable-Heads-Adjustable-Handle-400-RPM-Power-for-Bathroom-Kitchen-Floors-White/11693065815",
+        "https://www.walmart.com/ip/Amiluo-Electric-Spin-Scrubber-6000-mAh-Large-Battery-1200-RPM-Cordless-Cleaning-Brush-8-Replaceable-Heads-Extension-Handle-Display-Power-Brush-Bathro/10687851329",
+        "https://www.walmart.com/ip/Amiluo-Electric-Spin-Scrubber-5000-mAh-Battery-Cordless-Handheld-Cleaning-Brush-3-Speeds-Power-Scrubber-5-Replaceable-Heads-Display-Bathroom-Shower-S/5477214176",
+        "https://www.walmart.com/ip/Electric-Spin-Scrubber-ClnEZ-Cordless-Shower-Scrub-Brush-with-6-Replaceable-Brush-Heads-Cordless-Bathroom-and-Kitchen-Cleaner/5558406740",
+        "https://www.walmart.com/ip/Electric-Spin-Scrubber-Cordless-Power-Shower-Scrubber-Extendable-Handle-9-Brush-Heads-2-Speeds-90Min-Runtime-Bathroom-Cleaning-Brush-Tub-Tile-Floor-G/20606516725",
+        "https://www.walmart.com/ip/Electric-Spin-Scrubber-2-Speed-Power-Cleaner-8-Brush-Heads-Type-C-Fast-Charging-90-Mins-Runtime-Cordless-Shower-Scrubber-Long-Handle-Tub-Tile-Bathroo/18656015739",
+        "https://www.walmart.com/ip/VAETTLO-Cordless-Electric-Spin-Scrubber-1300mAh-Battery-3-Speeds-350-400-450-RPM-Extendable-Handle-37-7-48-8-Brush-Heads-Bathroom-Tile-Shower-Cleanin/18975970067",
+        "https://www.walmart.com/ip/Leebein-Electric-Spin-Scrubber-2024-Upgraded-Electric-Scrubber-Cleaning-Spin-Scrubber-Long-Handle-8-Replaceable-Brush-Heads-for-Bathroom-Floor-Black/5199437025",
+        "https://www.walmart.com/ip/7-In-1-Replacement-Brush-Heads-Set-Electric-Spin-Scrubber-Cleaning-Portable-Cordless-Shower-Power-Scrubber-Heads-Household-Tools-Bathroom-Kitchen-Bat/5657012224",
+        "https://www.walmart.com/ip/HOTO-Cordless-Electric-Spin-Scrubber-IPX7-Full-Body-Waterproof-Long-Handle-Scrub-Brush-with-6-Brush-Heads-for-Bathroom-Tile-Floor-Shower/14341514282",
+        "https://www.walmart.com/ip/Electric-Spin-Scrubber-Cordless-Cleaning-Brush-with-8-Heads-Long-Handle-Power-Shower-Scrubber-for-Bathroom-Kitchen-Tile-Floor-White/5365014572",
+        "https://www.walmart.com/ip/Airrobo-BC200-Electric-Spin-Scrubber-Cordless-Cleaning-Brush-with-Power-Shower-Scrubber-Extension-Handle-6-Heads-Electronics-Cleaning-Brush/17400651517",
+        "https://www.walmart.com/ip/PUSCRIENO-Electric-Spin-Scrubber-Cordless-Electric-Cleaning-Brush-Shower-Scrubber-7-Interchangeable-Heads-Extendable-Handle-Bluetooth-Control-Bathroo/16616660480",
+        "https://www.walmart.com/ip/Electric-Spin-Scrubber-Cordless-Shower-Scrubber-5-Replaceable-Heads-3-Speeds-Electric-Power-Scrubber-Cleaning-Full-Waterproof-Cleaning-Brush-Bathroom/16530859069",
+        "https://www.walmart.com/ip/SYNOSHI-PRO-Electric-Spin-Scrubber-Cordless-Cleaning-Brush-Bathroom-Scrubber-Waterproof-Shower-Cleaner-Brush-Adjustable-Angles-2-Speed-180Min-Work-Ti/19611951376",
+        "https://www.walmart.com/ip/delpattern-Electric-Spin-Scrubber-Cordless-Cleaning-Brush-8-Replaceable-Heads-Five-Speed-Power-Scrubber-Adjustable-Handle-Bathroom-Tub-Floor-Tile-Car/19649017104",
+        "https://www.walmart.com/ip/LOHEER-Electric-Spin-Scrubber-Cordless-Bathroom-Scrubber-Cleaning-Brush-for-Floor-Bathtub-Kitchen/6000874676",
+        "https://www.walmart.com/ip/Scrubtastic-Electric-Spin-Scrubber-Brush-Cleaning-for-Bathroom-Shower-Toilet-Kitchen-Floor-Grout-Rechargeable-3-Brush-Heads/177919385",
+        "https://www.walmart.com/ip/KOLAGAN-Electric-Rotating-Cleaning-Brush-8-Brush-Heads-suitable-for-bathroom-tiles-and-bathtubs/20434070013",
+        "https://www.walmart.com/ip/Safely-Universal-Cleaner-Frasier-Fir-Scent-Plant-Based-Multi-Purpose-Spray-Bleach-Free-Safe-Family-Pet-Tough-Messes-Gentle-Surfaces-All-Purpose-Clean/18122613335",
+        "https://www.walmart.com/ip/Safely-Biodegradable-Dish-Soap-Rise-Scent-16-fl-oz/841157633",
+        "https://www.walmart.com/ip/Safely-Dish-Soap-Handwashing-and-Dishwasher-Approved-Calm-Scent-16-fl-oz/907097023",
+        "https://www.walmart.com/ip/Safely-Universal-Cleaner-Multi-Surface-Cleaner-Rise-Scent-28-fl-oz/408954581",
+        "https://www.walmart.com/ip/Love-Home-and-Planet-Multipurpose-Cleaner-Spray-Citrus-Yuzu-Vanilla-23-oz/939090850"
       ],
       "categories": [
         {
           "category": "Air Care",
           "collected": 77,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Bathroom & Toilet Cleaning",
           "collected": 50,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Cleaning Tools",
-          "collected": 113,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 150,
+          "added": 37,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Dishwashing",
-          "collected": 66,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 68,
+          "added": 2,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Disposable Tabletop",
           "collected": 27,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Floor & Carpet Care",
           "collected": 22,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Food Wrap & Storage",
           "collected": 19,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Laundry Care",
           "collected": 44,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Naturals",
-          "collected": 10,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 14,
+          "added": 4,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Paper Towels",
           "collected": 14,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Pest Control",
           "collected": 43,
           "added": 43,
-          "status": "Additional item evidence collected"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Specialty Cleaners",
           "collected": 45,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Surface Cleaners",
-          "collected": 138,
-          "added": 0,
-          "status": "Further category research required"
+          "collected": 141,
+          "added": 3,
+          "status": "partial",
+          "checkedDate": "2026-11-02",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Toilet Paper & Tissues",
           "collected": 15,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         },
         {
           "category": "Trash Bags",
           "collected": 2,
           "added": 0,
-          "status": "Further category research required"
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
-      ]
+      ],
+      "sourceCheckedAt": "2026-11-02"
     }
   ],
   "latestAudit": {
@@ -2618,5 +3711,32 @@
     },
     "completeInventory": false,
     "sources": "competitor-depth-audit-2026-11-02.json"
+  },
+  "latestGapReview": {
+    "date": "2026-11-02",
+    "added": 510,
+    "byRetailer": {
+      "Albertsons": 8,
+      "BJ’s Wholesale": 5,
+      "Costco": 4,
+      "Dollar General": 2,
+      "Dollar Tree": 7,
+      "Home Depot": 53,
+      "Kroger": 33,
+      "Lowe’s": 30,
+      "Publix": 13,
+      "Safeway": 11,
+      "TikTok Shop": 9,
+      "Walmart": 46,
+      "Sam’s Club": 6,
+      "Walgreens": 12,
+      "Amazon US": 252,
+      "CVS": 19
+    },
+    "emptyCellsBefore": 51,
+    "emptyCellsAfter": 11,
+    "audit": "gap-audit-2026-11-02.json",
+    "matrix": "coverage-matrix-2026-11-02.json",
+    "scope": "Targeted gap review; not a completed comprehensive inventory refresh"
   }
 }
