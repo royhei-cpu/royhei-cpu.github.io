@@ -37,7 +37,7 @@
       (data.enrichment_review?' Photo & price enrichment '+esc(data.enrichment_review.checked)+': '+data.enrichment_review.photos_added+' photos restored; '+data.enrichment_review.price_records_added+' records gained price evidence. '+data.products.filter(p=>!p.prices.length).length+' records still lack prices.':'');
     let note=root.querySelector('#weeklyChainReview');
     if(!note){note=document.createElement('p');note.id='weeklyChainReview';note.className='review-small';note.style.cssText='margin:12px 0 0;padding-top:10px;border-top:1px solid #d5e2da;line-height:1.6';root.append(note);}
-    if(note.innerHTML!==body)note.innerHTML=body;
+    if(note.dataset.reviewBody!==body){note.dataset.reviewBody=body;note.innerHTML=body;}
   }
   headlineChainReview();
   const brief=document.getElementById('weeklyOverview');
