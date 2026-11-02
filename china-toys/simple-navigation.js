@@ -27,3 +27,48 @@
  orderSections();if(main)new MutationObserver(orderSections).observe(main,{childList:true});
  if(location.hash)requestAnimationFrame(()=>reveal(location.hash.slice(1)));
 })();
+
+/* Task-first landing page: keep detail available without making it the dashboard. */
+(() => {
+ 'use strict';
+ const main=document.querySelector('main'); if(!main)return;
+ function fold(el,label,id){
+  if(!el||el.closest('.atlas-dashboard-fold'))return;
+  const box=document.createElement('details');box.className='atlas-dashboard-fold';if(id)box.id=id;
+  const title=document.createElement('summary');title.textContent=label;box.append(title);el.before(box);box.append(el);return box;
+ }
+ const intro=main.querySelector('.intro');if(intro){main.prepend(intro);intro.querySelector('h1').innerHTML='Find your next <span>China toy.</span>';intro.querySelector('p').textContent='Search blind boxes, squishies and character collectibles. Compare products, then export your selection.';}
+ const stats=document.getElementById('stats');if(stats)stats.hidden=true;
+ const weekly=document.getElementById('weeklyOverview');
+ if(weekly){
+  intro?.after(weekly);
+  const heading=weekly.querySelector('h1');if(heading){const h=document.createElement('h2');h.textContent='This week';heading.replaceWith(h);}
+  const root=weekly.querySelector('[data-executive-brief]')||weekly;
+  const detail=document.createElement('details');detail.className='dashboard-weekly-details';detail.innerHTML='<summary>View weekly changes & sources</summary>';
+  const targets=Array.from(root.children).filter(e=>!e.classList.contains('brief-heading'));
+  root.append(detail);targets.forEach(e=>detail.append(e));
+  const counts=document.createElement('p');counts.className='dashboard-weekly-line';
+  const parts=[['added','added to the catalog'],['launch','release dates this week']].map(([key,label])=>{const n=detail.querySelector('[data-weekly="'+key+'"] b');return n?n.textContent+' '+label:'';}).filter(Boolean);
+  counts.textContent=parts.join(' · ');detail.before(counts);
+ }
+ const chain=document.getElementById('retailChains');fold(chain,'Browse retail chains · MINISO, POP MART, TOP TOY & more','chainBrowser');
+ const audit=document.getElementById('externalSourceAudit'),results=document.getElementById('results');
+ if(audit&&results){results.after(audit);fold(audit,'Source checks & coverage');}
+ const tabs=main.querySelector('.view-tabs');
+ if(tabs){const advanced=document.createElement('details');advanced.className='atlas-dashboard-fold';advanced.innerHTML='<summary>Launch timeline & coverage</summary>';
+ const body=document.createElement('div');advanced.append(body);
+ tabs.querySelectorAll('[data-view="timeline"],[data-view="coverage"]').forEach(b=>body.append(b));results?.after(advanced);}
+ const nav=document.querySelector('#atlasBrandNav .atlas-links');
+ if(nav)nav.innerHTML='<a href="#browseToys">Products</a><a href="brands.html">Brands</a><a href="#retailChains">Retail chains</a><a href="#weeklyOverview">This week</a><a href="#chinaIntelligencePanel">Research</a>';
+ const css=document.createElement('style');css.textContent=`
+ #stats[hidden]{display:none!important}.intro .update-note{display:none}.intro{margin:0!important;padding:24px 0 18px!important}.intro h1{font-size:clamp(26px,4vw,40px)!important}.intro p{font-size:15px!important;max-width:720px}
+ #weeklyOverview{padding:16px 20px!important;margin:0 0 18px!important;border-radius:16px}
+ #weeklyOverview .brief-heading{align-items:center}#weeklyOverview h2{font-size:20px;margin:0 0 5px}#weeklyOverview .brief-kicker,#weeklyOverview .brief-scope,#weeklyOverview .brief-heading>a{display:none}
+ #weeklyOverview .brief-period{margin:0;font-size:12px}.dashboard-weekly-line{margin:10px 0;font-weight:600;font-size:14px}.dashboard-weekly-details>summary{font-size:13px;cursor:pointer;color:#174c3d}
+ .atlas-dashboard-fold{border:1px solid #d4e1d8;border-radius:12px;background:#fff;margin:12px 0}.atlas-dashboard-fold>summary{padding:14px 18px;cursor:pointer;font-size:14px;font-weight:650;color:#174c3d}.atlas-dashboard-fold>section{margin:0!important;border:0!important}.atlas-dashboard-fold>div{padding:12px}
+ #browseToys{padding:16px!important;margin:12px 0!important}.view-tabs{margin:12px 0!important}.filter-section{padding-top:12px!important}.atlas-directory-shortcut{display:none}
+ #weeklyChainReview{font-size:13px}.atlas-brand-nav{position:static!important}
+ `;document.head.append(css);
+ function revealHash(){const id=location.hash.slice(1);const el=document.getElementById(id);if(el)for(let x=el;x;x=x.parentElement)if(x.tagName==='DETAILS')x.open=true;}
+ window.addEventListener('hashchange',revealHash);revealHash();
+})();
