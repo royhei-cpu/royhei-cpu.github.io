@@ -10,10 +10,10 @@
   let ctx,music,fx,master,clock=null,next=0,step=0,busy=false,lastFx=-1;
   const button=document.createElement('button');
   button.id='atlasSound';button.type='button';button.className='text-button atlas-sound';
-  host.prepend(button);
+  host.classList.add('atlas-audio-host');host.prepend(button);
   const volume=document.createElement('select');volume.id='atlasSoundLevel';volume.setAttribute('aria-label','Music volume');volume.innerHTML='<option value="soft">Music: soft</option><option value="normal">Music: medium</option><option value="lively">Music: lively</option>';volume.value=level;button.after(volume);
   volume.addEventListener('change',()=>{level=volume.value;try{localStorage.setItem(key+'-level',level);}catch{}pump();});
-  const style=document.createElement('style');style.textContent='#atlasSoundLevel{max-width:145px;min-height:40px;border:1px solid #a9c8bb;border-radius:8px;background:#fff;color:#174c3d;font:inherit;font-size:12px;padding:6px}.atlas-sound{white-space:nowrap;border:1px solid #a9c8bb!important;border-radius:999px;padding:8px 12px!important;min-height:40px;background:#f2fff7;color:#174c3d}.atlas-sound[aria-pressed="true"]{background:#174c3d;color:#fff}.atlas-sound:focus-visible{outline:3px solid #e7ad48;outline-offset:3px}@media(max-width:600px){.header-links{gap:6px;flex-wrap:wrap}.atlas-sound{font-size:12px;padding:7px 9px!important}}';document.head.append(style);
+  const style=document.createElement('style');style.textContent='.atlas-audio-host{flex-wrap:wrap;align-items:center;gap:8px}#atlasSoundLevel{max-width:145px;min-height:40px;border:1px solid #a9c8bb;border-radius:8px;background:#fff;color:#174c3d;font:inherit;font-size:12px;padding:6px}.atlas-sound{white-space:nowrap;border:1px solid #a9c8bb!important;border-radius:999px;padding:8px 12px!important;min-height:40px;background:#f2fff7;color:#174c3d}.atlas-sound[aria-pressed="true"]{background:#174c3d;color:#fff}.atlas-sound:focus-visible{outline:3px solid #e7ad48;outline-offset:3px}@media(max-width:600px){.header-links{gap:6px;flex-wrap:wrap}.atlas-sound{font-size:12px;padding:7px 9px!important}}';document.head.append(style);
   function playingMedia(){return [...document.querySelectorAll('video,audio')].some(el=>!el.paused&&!el.ended&&!el.muted);}
   function visible(){return !document.hidden&&!playingMedia();}
   function paint(){
