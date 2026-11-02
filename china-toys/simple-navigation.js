@@ -102,6 +102,12 @@
  const css=document.createElement('style');css.textContent='#sourcesResearch{margin-top:24px}#sourcesResearch>.research-intro{padding:0 18px;font-size:13px;color:#53645d}#sourcesResearch>details{margin:8px 14px;border:0;border-top:1px solid #e2e9e4;border-radius:0;background:transparent}#sourcesResearch>.ip-top-button{display:none}#sourcesResearch>summary{font-size:15px}.research-links{display:flex;flex-wrap:wrap;gap:16px;padding:12px 18px;font-size:13px}';document.head.append(css);
 })();
 
+/* Popularity browsing starts fresh, just like choosing a shop or brand. */
+document.addEventListener('click',event=>{
+ if(event.target.closest('[data-view="trending"]'))
+  document.dispatchEvent(new CustomEvent('atlas:catalog-preset',{detail:{}}));
+},true);
+
 /* Explain popularity in the product view without opening the research dashboard. */
 (() => {
  'use strict';

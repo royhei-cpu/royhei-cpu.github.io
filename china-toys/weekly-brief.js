@@ -59,6 +59,8 @@
   document.head.append(css);
   root.classList.add('executive-brief');
   function arrange() {
+    // The shopping layout owns placement after its optional research group exists.
+    if (document.getElementById('sourcesResearch')) return;
     const main = document.querySelector('main.shell');
     if (main && main.firstElementChild !== root) main.prepend(root);
     const ip = document.getElementById('ip-rankings'), tutorial = document.getElementById('tutorial');
