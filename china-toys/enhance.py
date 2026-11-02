@@ -125,6 +125,9 @@ def collect_heartfelt(s):
 original_collect=r.collect_source
 def collect(s):
     if s['id']=='heartfelt':return collect_heartfelt(s)
+    if s['id']=='rolife':
+        from rolife_collection import collect as collect_rolife
+        return collect_rolife(s)
     ps,report=original_collect(s)
     if s.get('only_brands'):
         ps=[p for p in ps if p['brand'] in s['only_brands']];report['eligible_listings']=len(ps)
