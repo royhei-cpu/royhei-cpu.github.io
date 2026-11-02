@@ -57,6 +57,8 @@ jobs:
               assert page.locator('#chainBrowser').evaluate('(e)=>e.open')
               page.get_by_role('tab',name='TOP TOY',exact=True).click()
               assert page.locator('#chainDetail .chain-card h3').inner_text()=='TOP TOY'
+              assert 'TOP TOY' in page.locator('#resultsTitle').inner_text()
+              assert page.locator('#retailer').input_value()=='toptoy'
               assert page.locator('#chainDetail .chain-card').count()==1
               assert page.locator('#chainDetail .ca-product').count()==sum('top-toy' in p['chain_ids'] for p in supplement['products'])
               page.get_by_role('tab',name='TOP TOY',exact=True).press('ArrowRight')
@@ -72,6 +74,7 @@ jobs:
               page.reload(wait_until='networkidle')
               assert page.locator('#atlasSound').inner_text()=='♫ Sound off'
               checks.append('Five navigation links; registry-backed keyboard-accessible retail tabs; expandable filters; persistent mute: pass')
+              page.locator('#resetFilters').click()
               for brand in ['POP MART','TOP TOY']:
                 page.locator('#brandSelect').select_option(brand)
                 assert page.locator('#resultsTitle').inner_text()==brand
