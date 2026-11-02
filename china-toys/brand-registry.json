@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-10-31",
+  "reviewed": "2026-11-02",
   "entries": [
     {
       "name": "POP MART",
@@ -1311,6 +1311,60 @@
       "source": "https://www.china-toy-expo.com/en/exhibitor/Dongguan-Shouyao-Cultural-and-Creative-Co-Ltd-10071",
       "reviewed": "2026-10-31",
       "note": "Named as an IP in the operator’s exhibitor profile; separate from the manufacturer."
+    },
+    {
+      "name": "Blokees",
+      "name_cn": "布鲁可",
+      "aliases": [
+        "Blokees",
+        "BLOKS"
+      ],
+      "source": "https://blokees.com/pages/about-us",
+      "note": "Assembly-character and model-kit brand. The official shop separates surprise boxes from individually identified model kits; these formats must not be treated as interchangeable.",
+      "region": "China market; international storefront evidence",
+      "kind": "brand",
+      "parent": "",
+      "reviewed": "2026-11-02"
+    },
+    {
+      "name": "LAMTOYS",
+      "name_cn": "乐之宝",
+      "aliases": [
+        "LAMTOYS",
+        "LAM TOYS"
+      ],
+      "source": "https://www.chinalicensingexpo.com/cn/media_center/13331",
+      "note": "Designer-toy brand profiled by China Licensing Expo in 2021, with street-culture, half-mechanical and anatomical design themes. The historical identity source does not establish current assortment or sales.",
+      "region": "China market",
+      "kind": "brand",
+      "parent": "",
+      "reviewed": "2026-11-02"
+    },
+    {
+      "name": "ROBBiART",
+      "name_cn": "",
+      "aliases": [
+        "ROBBiART"
+      ],
+      "source": "https://poptoyshow.com.sg/exhibitor/robbi/",
+      "note": "Shanghai art-toy brand identified by POP TOY SHOW. ROBBi is its core character IP; artist and brand collaborations are central to the profile. Current China product listings still need collection.",
+      "region": "China / Shanghai",
+      "kind": "brand",
+      "parent": "",
+      "reviewed": "2026-11-02"
+    },
+    {
+      "name": "ROBBi",
+      "name_cn": "",
+      "aliases": [
+        "ROBBi"
+      ],
+      "kind": "ip",
+      "parent": "ROBBiART",
+      "source": "https://poptoyshow.com.sg/exhibitor/robbi/",
+      "note": "Core character IP of ROBBiART, as identified by the exhibition organizer. Kept separate from the brand/operator profile.",
+      "region": "China market",
+      "reviewed": "2026-11-02"
     }
   ]
 }
