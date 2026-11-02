@@ -79,3 +79,22 @@
 
 /* Plain-language help for shoppers and collectors. */
 (()=>{'use strict';const intro=document.querySelector('.intro');if(!intro)return;const help=document.createElement('details');help.className='collector-help';help.innerHTML='<summary>New here? Start with these 3 steps</summary><ol><li><b>Find a toy.</b> Choose a brand or shop, or search for a character. Use Product type to find blind boxes or squishies.</li><li><b>Explore and compare.</b> Tap a photo for details and shop links. Select 2–6 products to compare. The bookmark saves favourites on this device.</li><li><b>Save your research.</b> Download a CSV for Excel with product details and photo links. CSV files contain image links, not embedded pictures.</li></ol><p><b>Collector basics:</b> A blind box contains a surprise design. A secret is a special design in a series; check the seller for its odds. A wave is a release within a series.</p><p><b>Before buying:</b> Check whether the price is for one box, a full set or a specific character. Prices and availability can change. Follow the shop link to buy; this website is a discovery guide.</p>';intro.after(help);const style=document.createElement('style');style.textContent='.collector-help{background:#fff8e9;border:1px solid #eadcc0;border-radius:12px;padding:14px 18px;margin:0 0 16px;font-size:14px;line-height:1.7}.collector-help summary,.collector-extra summary{cursor:pointer;font-weight:650;color:#174c3d}.collector-help ol{padding-left:22px}.collector-help li{margin:8px 0}.collector-help p{margin:10px 0}.collector-extra{margin-top:10px}.collector-extra summary{font-size:12px;margin-bottom:8px}.product-card .available-description{font-size:13px;line-height:1.6}.product-card .character-name span{font-size:11px}.product-card .card-footer{gap:12px}';document.head.append(style);})();
+
+/* Keep optional research together, away from the shopping path. */
+(()=>{'use strict';
+ const main=document.querySelector('main'),results=document.getElementById('results');if(!main||!results)return;
+ const group=document.createElement('details');group.id='sourcesResearch';group.className='atlas-dashboard-fold';
+ group.innerHTML='<summary>Sources & research</summary><p class="research-intro">Optional: explore trends, launch dates, source checks and what the catalog covers.</p>';
+ results.after(group);
+ function collect(){
+  for(const el of Array.from(main.children)){
+   const title=el.querySelector(':scope > summary')?.textContent||'';
+   if(['chinaIntelligencePanel','brandCoverageReview','ip-rankings','openIPRankings'].includes(el.id)||['Launch timeline & coverage','Source checks & coverage'].includes(title))group.append(el);
+  }
+  const tutorial=document.getElementById('tutorial');
+  if(tutorial){const summary=tutorial.querySelector(':scope > summary');if(summary&&!summary.dataset.simpleHelp){summary.textContent='How to use · video tutorial';summary.dataset.simpleHelp='true';}}
+ }
+ collect();new MutationObserver(collect).observe(main,{childList:true});
+ const link=document.querySelector('#atlasBrandNav a[href="#chinaIntelligencePanel"]');if(link){link.href='#sourcesResearch';link.textContent='Research';}
+ const css=document.createElement('style');css.textContent='#sourcesResearch{margin-top:24px}#sourcesResearch>.research-intro{padding:0 18px;font-size:13px;color:#53645d}#sourcesResearch>details{margin:8px 14px;border:0;border-top:1px solid #e2e9e4;border-radius:0;background:transparent}#sourcesResearch>.ip-top-button{display:none}#sourcesResearch>summary{font-size:15px}';document.head.append(css);
+})();
