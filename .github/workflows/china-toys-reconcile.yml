@@ -1,0 +1,28 @@
+name: Reconcile China toy source coverage
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['china-toys/reconcile_sources.py']
+permissions:
+  contents: write
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4 Pillow
+      - run: python china-toys/apply_source_audit.py --config
+      - run: python china-toys/reconcile_sources.py
+      - name: Preserve reconciliation evidence
+        run: |
+          git config user.name 'China Toy Atlas updater'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add china-toys/source-reconciliation.json china-toys/source-reconciliation-candidates.json
+          git diff --cached --quiet || git commit -m 'Reconcile accessible toy storefronts and capture missing listing candidates'
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
