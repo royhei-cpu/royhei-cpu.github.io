@@ -9,6 +9,7 @@ on:
       - 'china-toys/enhance.py'
       - 'china-toys/rolife_collection.py'
       - 'china-toys/quality.py'
+      - 'china-toys/weekly_brief_test.py'
       - 'china-toys/enrichment.json'
   schedule:
     - cron: '30 0 * * 1'

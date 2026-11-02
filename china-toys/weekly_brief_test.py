@@ -23,11 +23,13 @@ try:
         page.on('pageerror', lambda e: errors.append(str(e)))
         page.goto('http://127.0.0.1:8792/china-toys/', wait_until='networkidle')
         expect(page.locator('[data-executive-brief]')).to_be_visible()
-        expect(page.locator('.brief-heading h1')).to_have_text('What changed this week')
-        assert page.evaluate("document.querySelector('main.shell').firstElementChild.id") == 'weeklyOverview'
+        expect(page.locator('.brief-heading h2')).to_have_text('This week')
+        expect(page.locator('.dashboard-weekly-details')).not_to_have_attribute('open', '')
+        page.locator('.dashboard-weekly-details > summary').click()
+        assert page.locator('.intro').evaluate('(el)=>Boolean(el.compareDocumentPosition(document.getElementById("weeklyOverview")) & Node.DOCUMENT_POSITION_FOLLOWING)')
         assert page.title().startswith('China Toy Atlas')
         metrics['all_shops'] = page.locator('.brief-kpi').all_inner_texts()
-        checks.append('Weekly brief is the first content section and populated metrics render')
+        checks.append('Weekly summary follows the introduction; detailed metrics expand on request')
         assert page.locator('.brief-story').count() <= 5
         assert page.locator('.brief-story').count() == page.locator('.brief-story .brief-next').count()
         assert page.locator('.brief-story a').count() >= page.locator('.brief-story').count()
@@ -42,6 +44,8 @@ try:
             if not button.count():
                 continue
             expected = int(re.search(r'[\d,]+', button.inner_text()).group(0).replace(',', ''))
+            if not page.locator('.dashboard-weekly-details').evaluate('(el)=>el.open'):
+                page.locator('.dashboard-weekly-details > summary').click()
             button.click()
             page.wait_for_function('(k) => new URLSearchParams(location.search).get("change") === k', arg=key)
             actual = int(re.search(r'[\d,]+', page.locator('#resultsHint').inner_text()).group(0).replace(',', ''))
@@ -56,6 +60,8 @@ try:
         page.locator('#retailer').select_option('')
         expect(page.locator('.brief-scope')).to_contain_text('All tracked shops')
         if page.locator('#weeklyOverview [data-open]').count():
+            if not page.locator('.dashboard-weekly-details').evaluate('(el)=>el.open'):
+                page.locator('.dashboard-weekly-details > summary').click()
             page.locator('.brief-expand>summary').first.click()
             expected_title = page.locator('#weeklyOverview [data-open]').first.inner_text()
             page.locator('#weeklyOverview [data-open]').first.click()
@@ -63,6 +69,7 @@ try:
             expect(page.locator('#detailTitle')).to_have_text(expected_title)
             page.locator('#closeProduct').click()
             checks.append('Highlighted product opens the correct existing details dialog')
+        page.locator('#sourcesResearch > summary').click()
         page.locator('#openIPRankings').click()
         assert page.locator('#ip-rankings').evaluate('(el)=>el.open')
         expect(page.locator('.ip-subtitle')).to_contain_text('global revenue')
@@ -87,6 +94,8 @@ try:
             expect(page.locator('[data-executive-brief]')).to_be_visible()
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth + 1'), width
             page.screenshot(path=str(O / f'weekly-brief-{width}.png'))
+            if not page.locator('.dashboard-weekly-details').evaluate('(el)=>el.open'):
+                page.locator('.dashboard-weekly-details > summary').click()
             if width == 390 and page.locator('.brief-story').count():
                 page.locator('.brief-story .brief-next summary').first.click()
                 assert page.locator('.brief-story .brief-next').first.evaluate('(el)=>el.open')
