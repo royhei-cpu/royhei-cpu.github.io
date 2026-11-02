@@ -132,7 +132,7 @@ try:
             page.screenshot(path=str(O/f'comparison-{width}.png'))
         checks.append('390px phone and 768px tablet: comparison scrolls internally, controls visible, no page overflow')
         page.keyboard.press('Escape');assert not page.locator('#compareDialog').evaluate('(e)=>e.open')
-        assert 'compare-open-lock' not in page.locator('html').get_attribute('class')
+        expect(page.locator('html')).not_to_have_class(re.compile(r'(^|\s)compare-open-lock(\s|$)'))
         page.locator('#compareClear').click()
         page.set_viewport_size({'width':1440,'height':1000})
         page.select_option('#retailer','');page.locator('#search').fill('nevermatch-audit-xyz')
