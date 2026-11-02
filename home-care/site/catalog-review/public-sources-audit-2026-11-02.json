@@ -1,0 +1,1896 @@
+{
+  "date": "2026-11-02",
+  "newRecords": 175,
+  "byRetailer": {
+    "Ace Hardware": 95,
+    "Publix": 80
+  },
+  "amazonUpgrades": 46,
+  "coverageComplete": false,
+  "itemLinksAttempted": 231,
+  "baselineRecords": 9397,
+  "totalRecords": 9572,
+  "emptyCategoryCells": 58,
+  "remainingGaps": [
+    [
+      "Ace Hardware",
+      "Disposable Tabletop"
+    ],
+    [
+      "Ace Hardware",
+      "Pest Control"
+    ],
+    [
+      "Albertsons",
+      "Pest Control"
+    ],
+    [
+      "Albertsons",
+      "Trash Bags"
+    ],
+    [
+      "BJ’s Wholesale",
+      "Bathroom & Toilet Cleaning"
+    ],
+    [
+      "BJ’s Wholesale",
+      "Naturals"
+    ],
+    [
+      "BJ’s Wholesale",
+      "Pest Control"
+    ],
+    [
+      "CVS",
+      "Pest Control"
+    ],
+    [
+      "Costco",
+      "Pest Control"
+    ],
+    [
+      "Costco",
+      "Specialty Cleaners"
+    ],
+    [
+      "Costco",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "Costco",
+      "Trash Bags"
+    ],
+    [
+      "Dollar General",
+      "Naturals"
+    ],
+    [
+      "Dollar Tree",
+      "Air Care"
+    ],
+    [
+      "Dollar Tree",
+      "Disposable Tabletop"
+    ],
+    [
+      "Dollar Tree",
+      "Floor & Carpet Care"
+    ],
+    [
+      "Dollar Tree",
+      "Food Wrap & Storage"
+    ],
+    [
+      "Dollar Tree",
+      "Naturals"
+    ],
+    [
+      "Dollar Tree",
+      "Pest Control"
+    ],
+    [
+      "Dollar Tree",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "H-E-B",
+      "Floor & Carpet Care"
+    ],
+    [
+      "H-E-B",
+      "Pest Control"
+    ],
+    [
+      "H-E-B",
+      "Specialty Cleaners"
+    ],
+    [
+      "Home Depot",
+      "Air Care"
+    ],
+    [
+      "Home Depot",
+      "Dishwashing"
+    ],
+    [
+      "Home Depot",
+      "Disposable Tabletop"
+    ],
+    [
+      "Home Depot",
+      "Food Wrap & Storage"
+    ],
+    [
+      "Home Depot",
+      "Paper Towels"
+    ],
+    [
+      "Home Depot",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "Home Depot",
+      "Trash Bags"
+    ],
+    [
+      "Kroger",
+      "Bathroom & Toilet Cleaning"
+    ],
+    [
+      "Kroger",
+      "Floor & Carpet Care"
+    ],
+    [
+      "Kroger",
+      "Pest Control"
+    ],
+    [
+      "Kroger",
+      "Specialty Cleaners"
+    ],
+    [
+      "Lowe’s",
+      "Disposable Tabletop"
+    ],
+    [
+      "Lowe’s",
+      "Food Wrap & Storage"
+    ],
+    [
+      "Lowe’s",
+      "Pest Control"
+    ],
+    [
+      "Lowe’s",
+      "Specialty Cleaners"
+    ],
+    [
+      "Meijer",
+      "Pest Control"
+    ],
+    [
+      "Publix",
+      "Bathroom & Toilet Cleaning"
+    ],
+    [
+      "Publix",
+      "Food Wrap & Storage"
+    ],
+    [
+      "Publix",
+      "Naturals"
+    ],
+    [
+      "Publix",
+      "Pest Control"
+    ],
+    [
+      "Publix",
+      "Specialty Cleaners"
+    ],
+    [
+      "Publix",
+      "Trash Bags"
+    ],
+    [
+      "Safeway",
+      "Air Care"
+    ],
+    [
+      "Safeway",
+      "Disposable Tabletop"
+    ],
+    [
+      "Safeway",
+      "Floor & Carpet Care"
+    ],
+    [
+      "Safeway",
+      "Food Wrap & Storage"
+    ],
+    [
+      "Safeway",
+      "Pest Control"
+    ],
+    [
+      "Safeway",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "Safeway",
+      "Trash Bags"
+    ],
+    [
+      "Sam’s Club",
+      "Naturals"
+    ],
+    [
+      "Walgreens",
+      "Naturals"
+    ],
+    [
+      "Walgreens",
+      "Paper Towels"
+    ],
+    [
+      "Walgreens",
+      "Pest Control"
+    ],
+    [
+      "Walgreens",
+      "Toilet Paper & Tissues"
+    ],
+    [
+      "Walgreens",
+      "Trash Bags"
+    ]
+  ],
+  "retailerNotes": {
+    "Ace Hardware": "2 November: all 192 public trash-bag category results retrieved. 97 household-relevant product links attempted; 95 verified missing products added. Construction-only, yard and unrelated formats excluded. This enumerates one source snapshot, not all Home Care categories or local stock.",
+    "Publix": "2 November: 80 verified missing paper/air-care products added after individual item-page checks. Initial category results only; Load More not exhausted. Other categories remain incomplete.",
+    "Amazon US": "484 retained records across all 15 Home Care categories. 2 November: 48 limited-evidence exact-ASIN links attempted; 46 upgraded after title/photo verification. Unsuccessful attempts retain previous evidence labels. Full search pagination, seller offers, stock and checkout prices remain unverified."
+  },
+  "allRetailersRechecked": false,
+  "weeklySchedule": "Monday 08:00 Asia/Shanghai",
+  "sourceScopes": [
+    {
+      "url": "https://www.acehardware.com/departments/home-and-decor/trash-and-recycling/trash-bags?pageSize=999&startIndex=0",
+      "returned": 192,
+      "reportedTotal": 192,
+      "pagination": "Exhausted for this category snapshot; not full Home Care inventory"
+    },
+    {
+      "url": "https://www.publix.com/c/paper-products/b8b3267c-c4d0-47c4-a075-db11fac96cbc",
+      "pagination": "Partial initial results; Load More outstanding"
+    },
+    {
+      "url": "https://www.publix.com/c/air-fresheners-and-candles/40d3eb24-7610-4255-96ba-6b7eaf4ba7a6",
+      "pagination": "Partial initial results; Load More outstanding"
+    }
+  ],
+  "itemChecks": [
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-33-gal-no-scent-trash-bags-drawstring-50-pk/p/6208805",
+      "productId": "6208805",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-13-gal-no-scent-tall-kitchen-bags-drawstring-90-pk/p/6297956",
+      "productId": "6297956",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-force-flex-13-gal-fresh-tall-kitchen-bags-drawstring-110-pk/p/6030445",
+      "productId": "6030445",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-forceflex-plus-20-gal-fresh-trash-bags-drawstring-30-pk/p/6501951",
+      "productId": "6501951",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-cinchsak-30-gal-no-scent-trash-bags-drawstring-56-pk/p/6266696",
+      "productId": "6266696",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-33-gal-no-scent-trash-bags-flap-tie-60-pk/p/6186845",
+      "productId": "6186845",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-33-gal-no-scent-trash-bags-drawstring-20-pk/p/6214910",
+      "productId": "6214910",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-13-gal-no-scent-tall-kitchen-bags-drawstring-45-pk/p/6187116",
+      "productId": "6187116",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-18-gal-no-scent-compactor-bags-twist-tie-20-pk/p/6041061",
+      "productId": "6041061",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-strong-13-gal-no-scent-kitchen-trash-bags-drawstring-90-pk/p/6105050",
+      "productId": "6105050",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-forceflex-13-gal-fresh-tall-kitchen-bags-drawstring-40-pk/p/6185789",
+      "productId": "6185789",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-extra-strong-33-gal-no-scent-trash-bags-drawstring-20-pk/p/6109383",
+      "productId": "6109383",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-13-gal-no-scent-tall-kitchen-bags-drawstring-45-pk/p/6237747",
+      "productId": "6237747",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-33-gal-mint-trash-bags-drawstring-40-pk/p/6037034",
+      "productId": "6037034",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-30-gal-no-scent-trash-bags-drawstring-36-pk/p/6414239",
+      "productId": "6414239",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/bestair-10-gal-compactor-bags-flat-top-8-pk/p/6067829",
+      "productId": "6067829",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-ultra-strong-13-gal-fabuloso-tall-kitchen-bags-drawstring-40-pk/p/6031806",
+      "productId": "6031806",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-force-flex-plus-13-gal-mountain-air-tall-kitchen-bags-drawstring-34-pk/p/6030447",
+      "productId": "6030447",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-forceflex-13-gal-pine-kitchen-trash-bags-drawstring-40-pk/p/6079506",
+      "productId": "6079506",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-forceflex-30-gal-no-scent-trash-bags-drawstring-50-pk/p/6237762",
+      "productId": "6237762",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-force-flex-13-gal-no-scent-kitchen-trash-bags-drawstring-100-pk/p/6082744",
+      "productId": "6082744",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-13-gal-mint-kitchen-trash-bags-drawstring-40-pk/p/6037035",
+      "productId": "6037035",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-forceflex-plus-30-gal-no-scent-trash-bags-drawstring-25-pk/p/6108328",
+      "productId": "6108328",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-13-gal-lavender-tall-kitchen-bags-drawstring-40-pk/p/6037629",
+      "productId": "6037629",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-4-gal-lemon-kitchen-trash-bags-drawstring-34-pk/p/6030443",
+      "productId": "6030443",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-ultra-strong-30-gal-no-scent-trash-bags-drawstring-25-pk/p/6185805",
+      "productId": "6185805",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-4-gal-no-scent-trash-bags-twist-tie-36-pk/p/6297923",
+      "productId": "6297923",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-force-flex-plus-13-gal-lemon-tall-kitchen-bags-drawstring-34-pk/p/6030448",
+      "productId": "6030448",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-13-gal-fresh-tall-kitchen-bags-drawstring-40-pk/p/6037628",
+      "productId": "6037628",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-force-flex-13-gal-no-scent-kitchen-trash-bags-drawstring-40-pk/p/6082745",
+      "productId": "6082745",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-forceflex-13-gal-lavender-tall-kitchen-bags-drawstring-40-pk/p/6292239",
+      "productId": "6292239",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-force-flex-30-gal-mountain-air-trash-bags-drawstring-25-pk/p/6030446",
+      "productId": "6030446",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-leakguard-13-gal-fresh-kitchen-trash-bags-drawstring-34-pk/p/6093626",
+      "productId": "6093626",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-leakguard-13-gal-lemon-kitchen-trash-bags-drawstring-34-pk/p/6093625",
+      "productId": "6093625",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-13-gal-fresh-kitchen-trash-bags-drawstring-80-pk/p/6093665",
+      "productId": "6093665",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-30-gal-trash-bags-quick-tie-40-pk/p/6085264",
+      "productId": "6085264",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-13-gal-original-kitchen-trash-bags-quick-tie-68-pk/p/6085263",
+      "productId": "6085263",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ace-8-gal-no-scent-kitchen-trash-bags-flap-tie-40-pk/p/6041058",
+      "productId": "6041058",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-ultra-strong-13-gal-fabuloso-tall-kitchen-bags-drawstring-80-pk/p/6031804",
+      "productId": "6031804",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-forceflex-13-gal-fresh-trash-bags-drawstring-40-pk/p/6498422",
+      "productId": "6498422",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-strong-13-gal-no-scent-kitchen-trash-bags-drawstring-45-pk/p/6105027",
+      "productId": "6105027",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-febreze-4-gal-fresh-trash-bags-quick-tie-26-pk/p/6498364",
+      "productId": "6498364",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-ultra-strong-13-gal-no-scent-kitchen-trash-bags-drawstring-40-pk/p/6339121",
+      "productId": "6339121",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-4-gal-no-scent-trash-bags-drawstring-34-pk/p/6077602",
+      "productId": "6077602",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-forceflex-13-gal-no-scent-tall-kitchen-bags-drawstring-45-pk/p/6185706",
+      "productId": "6185706",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-ultra-strong-13-gal-fresh-kitchen-trash-bags-drawstring-40-pk/p/6105043",
+      "productId": "6105043",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-8-gal-ocean-water-trash-bags-drawstring-26-pk/p/6077853",
+      "productId": "6077853",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-ultra-strong-13-gal-lavender-vanilla-kitchen-trash-bags-drawstring-80-pk/p/6339154",
+      "productId": "6339154",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/iron-hold-right-fit-13-gal-fresh-tall-kitchen-bags-drawstring-40-pk/p/6041199",
+      "productId": "6041199",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/trashrac-3-gal-trash-bags-handle-tie-24-pk/p/6192660",
+      "productId": "6192660",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ruffies-pro-13-gal-tall-kitchen-bags-wing-ties-120-pk/p/6209654",
+      "productId": "6209654",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-4-gal-fabuloso-trash-bags-drawstring-34-pk/p/6077601",
+      "productId": "6077601",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/noramco-t-series-45-gal-trash-bags-twist-tie-100-pk/p/6290795",
+      "productId": "6290795",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ruffies-pro-39-gal-trash-bags-wing-ties-40-pk/p/6102602",
+      "productId": "6102602",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-26-gal-no-scent-compost-bags-flap-tie-20-pk/p/6086906",
+      "productId": "6086906",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/simplehuman-13-gal-tall-kitchen-bags-drawstring-50-pk/p/6074681",
+      "productId": "6074681",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/iron-hold-30-gal-no-scent-trash-bags-drawstring-20-pk/p/6041196",
+      "productId": "6041196",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/color-scents-8-gal-vanilla-trash-bags-twist-tie-45-pk/p/6043458",
+      "productId": "6043458",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/iron-hold-right-fit-33-gal-no-scent-trash-bags-drawstring-20-pk/p/6041064",
+      "productId": "6041064",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/trashrac-3-gal-trash-bags-handle-tie-96-pk/p/6192686",
+      "productId": "6192686",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/trashrac-5-gal-trash-bags-handle-tie-20-pk/p/6192678",
+      "productId": "6192678",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/iron-hold-right-fit-13-gal-lavender-tall-kitchen-bags-drawstring-40-pk/p/6041116",
+      "productId": "6041116",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/iron-hold-13-gal-no-scent-tall-kitchen-bags-drawstring-30-pk/p/6041304",
+      "productId": "6041304",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/color-scents-4-gal-lavender-trash-bags-twist-tie-60-pk/p/6043449",
+      "productId": "6043449",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/mint-x-33-gal-mint-trash-bags-drawstring-40-pk/p/6037033",
+      "productId": "6037033",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/iron-hold-right-fit-13-gal-no-scent-tall-kitchen-bags-drawstring-150-pk/p/6041194",
+      "productId": "6041194",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/noramco-st-series-55-gal-trash-bags-twist-tie-100-pk/p/6290894",
+      "productId": "6290894",
+      "httpStatus": 200,
+      "accepted": false
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/trashrac-5-gal-trash-bags-handle-tie-72-pk/p/6192694",
+      "productId": "6192694",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-ultra-strong-13-gal-citrus-kitchen-trash-bags-drawstring-40-pk/p/6339139",
+      "productId": "6339139",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/iron-hold-13-gal-no-scent-tall-kitchen-bags-twist-tie-30-pk/p/6029079",
+      "productId": "6029079",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/mint-x-13-gal-mint-tall-kitchen-bags-drawstring-40-pk/p/6036924",
+      "productId": "6036924",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rsvp-international-endurance-6-gal-compost-bags-twist-tie-50-pk/p/6537930",
+      "productId": "6537930",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-eco-liner-15-gal-compost-bags-flat-top-40-pk/p/6024357",
+      "productId": "6024357",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/naturezway-3-gal-unscented-compost-bags-twist-tie-30-pk/p/6535330",
+      "productId": "6535330",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/glad-forceflex-30-gal-no-scent-trash-bags-drawstring-70-pk/p/6012739",
+      "productId": "6012739",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/dogipot-smart-liner-trash-bags-15-gal-trash-bags-drawstring-50-pk/p/6004178",
+      "productId": "6004178",
+      "httpStatus": 200,
+      "accepted": false
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ruffies-pro-33-gal-trash-bags-drawstring-30-pk/p/6029101",
+      "productId": "6029101",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ruffies-pro-33-gal-trash-bags-drawstring-25-pk/p/6724819",
+      "productId": "6724819",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/full-circle-for-good-4-gal-trash-bags-open-25-pk/p/5037111",
+      "productId": "5037111",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ruffies-pro-45-gal-trash-bags-wing-ties-30-pk/p/6029100",
+      "productId": "6029100",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ruffies-pro-13-gal-tall-kitchen-bags-wing-ties-120-pk/p/6029080",
+      "productId": "6029080",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/noramco-pgb-series-45-gal-trash-bags-twist-tie-100-pk/p/6366215",
+      "productId": "6366215",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ruffies-pro-13-gal-tall-kitchen-bags-drawstring-20-pk/p/6029081",
+      "productId": "6029081",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/full-circle-for-good-13-gal-trash-bags-drawstring-15-pk/p/5037110",
+      "productId": "5037110",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/greenpolly-13-gal-kitchen-trash-bags-drawstring-20-pk/p/5038115",
+      "productId": "5038115",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ruffies-pro-33-gal-trash-bags-wing-ties-60-pk/p/6029098",
+      "productId": "6029098",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/if-you-care-13-gal-trash-bags-drawstring-12-pk/p/5040776",
+      "productId": "5040776",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/if-you-care-30-gal-trash-bags-drawstring-10-pk/p/5040774",
+      "productId": "5040774",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hefty-30-gal-pine-trash-bags-drawstring-25-pk/p/6487797",
+      "productId": "6487797",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ruffies-pro-33-gal-trash-bags-drawstring-10-pk/p/6724785",
+      "productId": "6724785",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ruffies-pro-13-gal-tall-kitchen-bags-drawstring-64-pk/p/6658835",
+      "productId": "6658835",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hic-kitchen-35-gal-compost-bags-open-1-pk/p/6084244",
+      "productId": "6084244",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/if-you-care-13-gal-compost-bags-wing-ties-12-pk/p/5040777",
+      "productId": "5040777",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/jacent-13-gal-no-scent-trash-bags-flat-top-2-pk/p/6001719",
+      "productId": "6001719",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/simplehuman-13-gal-tall-kitchen-bags-drawstring-40-pk/p/6074680",
+      "productId": "6074680",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/if-you-care-3-gal-compost-bags-wing-ties-30-pk/p/5040778",
+      "productId": "5040778",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ruffies-pro-13-gal-tall-kitchen-bags-drawstring-54-pk/p/6658884",
+      "productId": "6658884",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/bounty-paper-towels-select-a-size-6-count/RIO-PCI-535674",
+      "productId": "RIO-PCI-535674",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/charmin-ultra-soft-toilet-paper-9-mega-rolls/RIO-PCI-163937",
+      "productId": "RIO-PCI-163937",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/angel-soft-angel-soft-toilet-paper-12-mega-rolls/RIO-PCI-599063",
+      "productId": "RIO-PCI-599063",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/sparkle-tear-a-square-white-2-ply-double-rolls-paper-towels/RIO-PCI-176269",
+      "productId": "RIO-PCI-176269",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/quilted-northern-ultra-plush-toilet-paper-unscented-mega-rolls-3-ply/RIO-PCI-536312",
+      "productId": "RIO-PCI-536312",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/scott-one-ply-unscented-bathroom-tissue/RIO-PCI-109171",
+      "productId": "RIO-PCI-109171",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/charmin-bathroom-tissue-9-36-mega-rolls-ultra-strong/RIO-PCI-167964",
+      "productId": "RIO-PCI-167964",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/quilted-northern-toilet-paper-unscented-mega-rolls-3-ply/RIO-PCI-578970",
+      "productId": "RIO-PCI-578970",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/scott-paper-towels-fast-absorbing-choose-a-sheet-double-rolls-one-ply/RIO-PCI-600107",
+      "productId": "RIO-PCI-600107",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/publix-bathroom-tissue-4-16-mega-rolls-super-soft/RIO-PCI-116575",
+      "productId": "RIO-PCI-116575",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/bounty-paper-towels-select-a-size-12-count/RIO-PCI-578208",
+      "productId": "RIO-PCI-578208",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/scott-one-ply-unscented-bathroom-tissue/RIO-PCI-116577",
+      "productId": "RIO-PCI-116577",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/charmin-ultra-soft-toilet-paper-6-mega-rolls/RIO-PCI-163939",
+      "productId": "RIO-PCI-163939",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/quilted-northern-ultra-soft-strong-2-ply-unscented-mega-rolls-bathroom-tissue/RIO-PCI-584148",
+      "productId": "RIO-PCI-584148",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/charmin-bathroom-tissue-6-24-mega-rolls-ultra-strong/RIO-PCI-163938",
+      "productId": "RIO-PCI-163938",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/quilted-northern-ultra-plush-white-3-ply-unscented-mega-rolls-bathroom-tissue/RIO-PCI-584149",
+      "productId": "RIO-PCI-584149",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/cottonelle-ultra-soft-2-ply-mega-rolls-toilet-paper/RIO-PCI-578969",
+      "productId": "RIO-PCI-578969",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/quilted-northern-ultra-soft-strong-2-ply-unscented-mega-rolls-bathroom-tissue/RIO-PCI-578972",
+      "productId": "RIO-PCI-578972",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/viva-signature-cloth-1-ply-choose-a-sheet-double-rolls-towels/RIO-PCI-588369",
+      "productId": "RIO-PCI-588369",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/publix-everyday-paper-towels-1-big-roll-white/RIO-PCI-116704",
+      "productId": "RIO-PCI-116704",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/angel-soft-2-ply-unscented-mega-rolls-bathroom-tissue/RIO-PCI-599058",
+      "productId": "RIO-PCI-599058",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/cottonelle-freshcare-flushable-wipes/RIO-PCI-120958",
+      "productId": "RIO-PCI-120958",
+      "httpStatus": 200,
+      "accepted": false
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/cottonelle-ultra-soft-2-ply-mega-rolls-toilet-paper/RIO-PCI-588836",
+      "productId": "RIO-PCI-588836",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/charmin-bathroom-tissue-12-48-mega-rolls-ultra-strong/RIO-PCI-172746",
+      "productId": "RIO-PCI-172746",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/brawny-pick-a-size-white-3-ply-double-rolls-paper-towels/RIO-PCI-535678",
+      "productId": "RIO-PCI-535678",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/charmin-ultra-soft-toilet-paper-12-mega-rolls/RIO-PCI-173138",
+      "productId": "RIO-PCI-173138",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/angel-soft-toilet-paper-unscented-mega-rolls-2-ply/RIO-PCI-599061",
+      "productId": "RIO-PCI-599061",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/vanity-fair-everyday-napkins-everyday-casual-2-ply/RIO-PPR-116559",
+      "productId": "RIO-PPR-116559",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/cottonelle-ultra-clean-toilet-paper-mega-1-ply/RIO-PCI-578996",
+      "productId": "RIO-PCI-578996",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/cottonelle-fresh-care-flushable-wipes/RIO-PCI-536310",
+      "productId": "RIO-PCI-536310",
+      "httpStatus": 200,
+      "accepted": false
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/cottonelle-ultra-clean-1-ply-mega-rolls-toilet-paper/RIO-PCI-598906",
+      "productId": "RIO-PCI-598906",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/quilted-northern-3-ply-unscented-mega-rolls-bathroom-tissue/RIO-PCI-530365",
+      "productId": "RIO-PCI-530365",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/publix-bathroom-tissue-12-48-mega-rolls-super-soft/RIO-PCI-164261",
+      "productId": "RIO-PCI-164261",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/bounty-paper-napkins-white-200-count/RIO-PPR-161023",
+      "productId": "RIO-PPR-161023",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/angel-soft-toilet-paper-unscented-mega-rolls/RIO-PCI-584143",
+      "productId": "RIO-PCI-584143",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/quilted-northern-2-ply-unscented-mega-rolls-bathroom-tissue/RIO-PCI-588851",
+      "productId": "RIO-PCI-588851",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/bounty-paper-towels-full-sheet-6-count/RIO-PCI-599885",
+      "productId": "RIO-PCI-599885",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/quilted-northern-toilet-paper-unscented-mega-rolls-3-ply/RIO-PCI-599062",
+      "productId": "RIO-PCI-599062",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/publix-ultra-paper-towels-12-24-double-rolls-multi-size-sheets-white/RIO-PCI-596630",
+      "productId": "RIO-PCI-596630",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/kleenex-ultra-soft-3-ply-tissues/RIO-PCI-168369",
+      "productId": "RIO-PCI-168369",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/puffs-ultra-soft-facial-tissues-1-count/RIO-PCI-557739",
+      "productId": "RIO-PCI-557739",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/publix-facial-tissues-cube-2-ply/RIO-PCI-167583",
+      "productId": "RIO-PCI-167583",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/lil-dude-wipes-flushable-fragrance-free-xl-wipes/RIO-PCI-599497",
+      "productId": "RIO-PCI-599497",
+      "httpStatus": 200,
+      "accepted": false
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/bounty-paper-towels-select-a-size-2-count/RIO-PCI-588349",
+      "productId": "RIO-PCI-588349",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/charmin-ultra-soft-toilet-paper-30-mega-rolls/RIO-PCI-599030",
+      "productId": "RIO-PCI-599030",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/swiffer-sweeper-sweep-mop-wet-pads-refill-floor-cleaner-gain-12ct/RIO-PCI-138551",
+      "productId": "RIO-PCI-138551",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/greenwise-bath-tissue-double-roll-2-ply/RIO-PCI-166394",
+      "productId": "RIO-PCI-166394",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/vanity-fair-napkins-classic-entertain/RIO-PCI-163203",
+      "productId": "RIO-PCI-163203",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/lysol-air-sanitizer-simple-fresh-scen/RIO-PCI-597078",
+      "productId": "RIO-PCI-597078",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/lysol-neutraair-disinfectant-spray-iii-2-in-1-driftwood-waters-scent/RIO-PCI-273359",
+      "productId": "RIO-PCI-273359",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/air-wick-essential-mist-fragrance-mist-lavender-almond-blossom-starter-kit/RIO-PCI-550797",
+      "productId": "RIO-PCI-550797",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/air-wick-scented-oil-warmer/RIO-PCI-122046",
+      "productId": "RIO-PCI-122046",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/gulf-wax-paraffin-wax-household/RIO-PCI-117033",
+      "productId": "RIO-PCI-117033",
+      "httpStatus": 200,
+      "accepted": false
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-air-mist-air-freshener-spray-linen-sky-scent-8-1oz/RIO-PCI-122815",
+      "productId": "RIO-PCI-122815",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-bathroom-air-freshener-odor-fighting-linen-sky-0-5-fl-oz/RIO-PCI-177038",
+      "productId": "RIO-PCI-177038",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-plug-odor-fighting-air-freshener-warmer-device-1-count/RIO-PCI-173599",
+      "productId": "RIO-PCI-173599",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-odor-fighting-plug-air-freshener-refill-hawaiian-aloha-3-87-fl-oz-oil-refills/RIO-PCI-550760",
+      "productId": "RIO-PCI-550760",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/air-wick-essential-mist-starter-kit-linen-petals/RIO-PCI-605941",
+      "productId": "RIO-PCI-605941",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/glade-automatic-spray-holder-air-freshener/RIO-PCI-526928",
+      "productId": "RIO-PCI-526928",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/glade-plugins-scented-oil-2-warmers-air-freshener/RIO-PCI-528585",
+      "productId": "RIO-PCI-528585",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-plug-in-air-freshener-scented-oil-refill-gain-2ct/RIO-PCI-177473",
+      "productId": "RIO-PCI-177473",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-plug-air-freshener-linen-sky-2-87-oz-oil-refills/RIO-PCI-125207",
+      "productId": "RIO-PCI-125207",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/glade-plugins-scented-oil-2-refills-air-freshener-cashmere-woods-essential-oil-infused-wall-plug-in-1-34-fl-oz-pack-of-2/RIO-PCI-138155",
+      "productId": "RIO-PCI-138155",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/air-wick-essential-oils-scented-oil-refills-fresh-linen/RIO-PCI-184822",
+      "productId": "RIO-PCI-184822",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-air-mist-air-freshener-spray-twilight-lavender-scent-8-1oz/RIO-PCI-177195",
+      "productId": "RIO-PCI-177195",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/little-trees-air-fresheners-new-car-scent/RIO-PCI-135930",
+      "productId": "RIO-PCI-135930",
+      "httpStatus": 200,
+      "accepted": false
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/renuzit-air-freshener-blissful-apple-cinnamon-gel/RIO-PCI-116897",
+      "productId": "RIO-PCI-116897",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/little-trees-air-fresheners-black-ice/RIO-PCI-135625",
+      "productId": "RIO-PCI-135625",
+      "httpStatus": 200,
+      "accepted": false
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-air-mist-air-freshener-spray-hawaiian-aloha-8-1oz-1ct/RIO-PCI-128933",
+      "productId": "RIO-PCI-128933",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-air-air-freshener-spray-gain-island-fresh-scent-8-1oz/RIO-PCI-507722",
+      "productId": "RIO-PCI-507722",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-light-plug-in-air-freshener-scented-oil-refill-light-bamboo-3ct/RIO-PCI-587861",
+      "productId": "RIO-PCI-587861",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/air-wick-essential-oils-scented-oil-refills-lavender-chamomile/RIO-PCI-122724",
+      "productId": "RIO-PCI-122724",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/airboss-odor-neutralizer-closet-fragrance-free/RIO-PCI-251676",
+      "productId": "RIO-PCI-251676",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/glade-automatic-spray-refill-air-freshener-clean-linen-6-2-oz/RIO-PCI-132459",
+      "productId": "RIO-PCI-132459",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/renuzit-gel-air-freshener-lovely-lavender/RIO-PCI-114611",
+      "productId": "RIO-PCI-114611",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/air-wick-essential-oils-scented-oil-refills-apple-cinnamon-medley/RIO-PCI-127326",
+      "productId": "RIO-PCI-127326",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-air-mist-air-freshener-spray-gain-original-scent-8-1oz-2ct/RIO-PCI-507654",
+      "productId": "RIO-PCI-507654",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/renuzit-gel-air-freshener-after-the-rain/RIO-PCI-116882",
+      "productId": "RIO-PCI-116882",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/glade-plugins-scented-oil-2-refills-air-freshener-clean-linen-essential-oil-infused-wall-plug-in-1-34-fl-oz-pack-of-2/RIO-PCI-106466",
+      "productId": "RIO-PCI-106466",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-bathroom-air-freshener-odor-fighting-gain-scent-0-5-fl-oz/RIO-PCI-587863",
+      "productId": "RIO-PCI-587863",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/glade-plugins-scented-oil-refill-clean-linen-essential-oil-infused-wall-plug-in-3-35-fl-oz-pack-of-5/RIO-PCI-565962",
+      "productId": "RIO-PCI-565962",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-plug-air-freshener-odor-fighter-starter-kit-with-gain-original-1-87-fl-oz-oil-refill/RIO-PCI-528555",
+      "productId": "RIO-PCI-528555",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-odor-fighting-plug-air-freshener-refill-linen-sky-3-87-fl-oz-oil-refills/RIO-PCI-550764",
+      "productId": "RIO-PCI-550764",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/febreze-plug-in-air-freshener-scented-oil-refill-twilight-lav-2ct/RIO-PCI-177041",
+      "productId": "RIO-PCI-177041",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/glade-automatic-spray-refill-apple-cinnamon/RIO-PCI-132575",
+      "productId": "RIO-PCI-132575",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/glade-plugins-scented-oil-2-refills-air-freshener-sheer-vanilla-embrace-essential-oil-infused-wall-plug-in-1-34-fl-oz-pack-of-2/RIO-PCI-106467",
+      "productId": "RIO-PCI-106467",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B087N6RRTK",
+      "productId": "B087N6RRTK",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0CLH1VCLC",
+      "productId": "B0CLH1VCLC",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0FHYLGHFT",
+      "productId": "B0FHYLGHFT",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B005WEAAOU",
+      "productId": "B005WEAAOU",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B06Y2HHGXK",
+      "productId": "B06Y2HHGXK",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B07MWMPNQ2",
+      "productId": "B07MWMPNQ2",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B09TS25D8K",
+      "productId": "B09TS25D8K",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0F9LLL71F",
+      "productId": "B0F9LLL71F",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B07MWVB41Y",
+      "productId": "B07MWVB41Y",
+      "httpStatus": 500,
+      "accepted": false
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B06XGYB161",
+      "productId": "B06XGYB161",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B01BZ0MRDQ",
+      "productId": "B01BZ0MRDQ",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0DZ34T4HN",
+      "productId": "B0DZ34T4HN",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B001KFWJJ4",
+      "productId": "B001KFWJJ4",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B00MY2TEN6",
+      "productId": "B00MY2TEN6",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B09J1RHC1C",
+      "productId": "B09J1RHC1C",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B00QVPNABY",
+      "productId": "B00QVPNABY",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0CQKQSPWX",
+      "productId": "B0CQKQSPWX",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0CTKV616W",
+      "productId": "B0CTKV616W",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0FM2YH81M",
+      "productId": "B0FM2YH81M",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B07H9QHMHM",
+      "productId": "B07H9QHMHM",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B00HWZW2U2",
+      "productId": "B00HWZW2U2",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B00J4YXFNM",
+      "productId": "B00J4YXFNM",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B00J4GTA7A",
+      "productId": "B00J4GTA7A",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0014EAPGA",
+      "productId": "B0014EAPGA",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B01NGTV4J5",
+      "productId": "B01NGTV4J5",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B004YLCKXG",
+      "productId": "B004YLCKXG",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0G4ZYK464",
+      "productId": "B0G4ZYK464",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B01IEBF1FU",
+      "productId": "B01IEBF1FU",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B005SG4CZK",
+      "productId": "B005SG4CZK",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0087RZHLK",
+      "productId": "B0087RZHLK",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B01DDQB11Y",
+      "productId": "B01DDQB11Y",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0BV7J4B5V",
+      "productId": "B0BV7J4B5V",
+      "httpStatus": 500,
+      "accepted": false
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B07MHJFRBJ",
+      "productId": "B07MHJFRBJ",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B019DM86LA",
+      "productId": "B019DM86LA",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0DQYP1L95",
+      "productId": "B0DQYP1L95",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0DQYPYVB6",
+      "productId": "B0DQYPYVB6",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B07MF2937F",
+      "productId": "B07MF2937F",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0G228Y2M9",
+      "productId": "B0G228Y2M9",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0DK7TKZPC",
+      "productId": "B0DK7TKZPC",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B07RMWFVGW",
+      "productId": "B07RMWFVGW",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B09R4WJ2HG",
+      "productId": "B09R4WJ2HG",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0FN5154SV",
+      "productId": "B0FN5154SV",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B09M5XF6JV",
+      "productId": "B09M5XF6JV",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B00BT2WX1C",
+      "productId": "B00BT2WX1C",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0040ZOEYY",
+      "productId": "B0040ZOEYY",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B00HNW8CXA",
+      "productId": "B00HNW8CXA",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B01BZ0MR54",
+      "productId": "B01BZ0MR54",
+      "httpStatus": 200,
+      "accepted": true
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B00M8ZEALK",
+      "productId": "B00M8ZEALK",
+      "httpStatus": 200,
+      "accepted": true
+    }
+  ],
+  "limitations": [
+    "Home Depot paper and dishwashing category HTTP access returned 403.",
+    "Safeway category content was reachable but product-image coverage remains incomplete; no additions claimed.",
+    "Other retailer/category and existing-link reviews remain incomplete.",
+    "No first-listing dates or launch dates inferred from research timestamps."
+  ]
+}

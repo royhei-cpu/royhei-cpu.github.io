@@ -66,7 +66,7 @@ html=html.replace('Checked 27 October 2026.',"Checked '+esc(d.checkedDate||'2026
 html=html.replace('const COVERAGE=', 'const COVERAGE=');
 const covStart=html.indexOf('const COVERAGE=')+15,covEnd=html.indexOf(';\n',covStart);
 const coverage=JSON.parse(html.slice(covStart,covEnd));
-for(const r of Object.keys(counts)){if(coverage[r])coverage[r].note=counts[r]+' collected listings. Partial coverage, not the retailer’s full inventory.'+(additions.some(d=>d.retailer===r)?' Additional product sources checked '+checkedAt+'.':' Existing records retained; more product research needed.');}
+for(const r of Object.keys(counts)){if(coverage[r])coverage[r].note=counts[r]+' collected listings. Partial coverage, not the retailer’s full inventory.'+(additions.some(d=>d.retailer===r)?' Latest collected evidence dated '+additions.filter(d=>d.retailer===r).map(d=>d.checkedDate||'').filter(Boolean).sort().at(-1)+'.':' Existing records retained; more product research needed.');}
 html=html.slice(0,covStart)+JSON.stringify(coverage)+html.slice(covEnd);
 html=html.replace('No matching products.', 'No collected listings match these filters. An empty category does not mean the retailer stocks no products.');
 for(const asset of ['weekly-dashboard.js','weekly-dashboard.css','opportunities.js','opportunities.css']){const source=path.join(path.dirname(file),asset);if(fs.existsSync(source)){const version=crypto.createHash('sha256').update(fs.readFileSync(source)).digest('hex').slice(0,12);html=html.replaceAll('/home-care/'+asset,'/home-care/'+asset+'?v='+version)}}
