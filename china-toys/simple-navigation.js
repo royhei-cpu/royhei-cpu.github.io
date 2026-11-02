@@ -129,6 +129,8 @@ document.addEventListener('click',event=>{
   for(const card of grid.querySelectorAll('.product-card')){
    const reason=card.querySelector('.review-reason'),fold=reason?.closest('details.atlas-detail-fold');
    if(!fold||!active||fold.dataset.popularityExplained)continue;
+   const reasonTitle=reason.querySelector('strong'),cleanTitle=card.querySelector('.title-button')?.textContent;
+   if(reasonTitle&&cleanTitle&&/customers|checkout|delivery|support/i.test(reasonTitle.textContent))reasonTitle.textContent=cleanTitle;
    fold.dataset.popularityExplained='true';
    fold.open=true;
    const summary=fold.querySelector(':scope > summary');if(summary)summary.textContent='Why this toy is featured';
