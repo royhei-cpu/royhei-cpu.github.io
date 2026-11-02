@@ -63,7 +63,7 @@
  const nav=document.querySelector('#atlasBrandNav .atlas-links');
  if(nav)nav.innerHTML='<a href="#browseToys">Products</a><a href="brands.html">Brands</a><a href="#retailChains">Retail chains</a><a href="#weeklyOverview">This week</a><a href="#chinaIntelligencePanel">Research</a>';
  const css=document.createElement('style');css.textContent=`
- #stats[hidden]{display:none!important}.intro .update-note{display:none}.intro{margin:0!important;padding:24px 0 18px!important}.intro h1{font-size:clamp(26px,4vw,40px)!important}.intro p{font-size:15px!important;max-width:720px}
+ #stats[hidden]{display:none!important}.intro .update-note{display:none}.intro{display:flex!important;margin:0!important;padding:24px 0 18px!important}.intro h1{font-size:clamp(26px,4vw,40px)!important}.intro p{font-size:15px!important;max-width:720px}
  #weeklyOverview{padding:16px 20px!important;margin:0 0 18px!important;border-radius:16px}
  #weeklyOverview .brief-heading{align-items:center}#weeklyOverview h2{font-size:20px;margin:0 0 5px}#weeklyOverview .brief-kicker,#weeklyOverview .brief-scope,#weeklyOverview .brief-heading>a{display:none}
  #weeklyOverview .brief-period{margin:0;font-size:12px}.dashboard-weekly-line{margin:10px 0;font-weight:600;font-size:14px}.dashboard-weekly-details>summary{font-size:13px;cursor:pointer;color:#174c3d}

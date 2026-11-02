@@ -49,10 +49,12 @@ jobs:
               images_ready()
               page.screenshot(path=str(out/'desktop-products.png'),full_page=False)
               checks.append('Desktop grid and visible real photographs: pass')
-              assert page.locator('#atlasBrandNav a').count()==6
+              assert page.locator('#atlasBrandNav a').count()==5
               assert not page.locator('#chinaIntelligencePanel').evaluate('(e)=>e.open')
               assert not page.locator('.atlas-more-filters').evaluate('(e)=>e.open')
               assert page.locator('#retailChains [role="tab"]').count()==len(supplement['chains'])
+              page.locator('#atlasBrandNav a[href="#retailChains"]').click()
+              assert page.locator('#chainBrowser').evaluate('(e)=>e.open')
               page.get_by_role('tab',name='TOP TOY',exact=True).click()
               assert page.locator('#chainDetail .chain-card h3').inner_text()=='TOP TOY'
               assert page.locator('#chainDetail .chain-card').count()==1
@@ -69,7 +71,7 @@ jobs:
               assert page.locator('#atlasSound').inner_text()=='♫ Sound off'
               page.reload(wait_until='networkidle')
               assert page.locator('#atlasSound').inner_text()=='♫ Sound off'
-              checks.append('Six navigation links; registry-backed keyboard-accessible retail tabs; expandable filters; persistent mute: pass')
+              checks.append('Five navigation links; registry-backed keyboard-accessible retail tabs; expandable filters; persistent mute: pass')
               for brand in ['POP MART','TOP TOY']:
                 page.locator('#brandSelect').select_option(brand)
                 assert page.locator('#resultsTitle').inner_text()==brand
@@ -94,6 +96,7 @@ jobs:
               assert page.locator('#savedCount').inner_text()=='1'
               checks.append('Squishy filter and shortlist bookmark: pass')
               page.locator('#resetFilters').click()
+              page.get_by_text('Launch timeline & coverage',exact=True).click()
               page.locator('.view-tab[data-view="timeline"]').click()
               assert page.locator('.timeline-item').count()>0
               checks.append('Release timeline: pass')
