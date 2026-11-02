@@ -233,7 +233,7 @@ def main():
     guide.write_text(guide.read_text().replace('20261031-2','20261102-collector-tour').replace('Recorded examples are dated; live prices can change.','Updated 2 November 2026: one-tap retailers, comparison, exports and sound. Prices in recorded examples can change.'))
     index=ROOT/'index.html'
     text=index.read_text()
-    text=re.sub(r'catalog-guide\\.js\\?v=[^" ]+', 'catalog-guide.js?v='+hashlib.sha256(guide.read_bytes()).hexdigest()[:12], text)
+    text=re.sub(r'catalog-guide\.js\?v=[^" ]+', 'catalog-guide.js?v='+hashlib.sha256(guide.read_bytes()).hexdigest()[:12], text)
     index.write_text(text)
     playback_qa()
     print('TUTORIAL_COMPLETE '+json.dumps(audit),flush=True)

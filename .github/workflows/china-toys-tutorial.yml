@@ -9,8 +9,8 @@ permissions:
   contents: write
   actions: write
 concurrency:
-  group: china-toys-evidence-review
-  cancel-in-progress: false
+  group: china-toys-tutorial
+  cancel-in-progress: true
 jobs:
   tutorial:
     runs-on: ubuntu-latest
