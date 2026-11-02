@@ -42,7 +42,7 @@ try:
   page.locator('.save-button').first.click();assert page.locator('#savedCount').inner_text()=='1'
   with page.expect_download() as dl:page.locator('#exportButton').click()
   assert dl.value.suggested_filename.endswith('.csv');checks.append('Search, squishy filter, shortlist and filtered CSV export respond')
-  page.locator('#resetFilters').click();page.locator('#brandCoverageReview summary').first.click()
+  page.locator('#resetFilters').click();page.locator('#sourcesResearch > summary').click();page.locator('#brandCoverageReview summary').first.click()
   assert page.locator('.review-table tbody tr').count()==len(data['brand_checklist'])
   assert 'Missing' in page.locator('#brandCoverageReview').inner_text()
   page.screenshot(path=str(OUT/'brand-coverage.png'));checks.append('Every priority brand has an explicit partial/missing coverage row')

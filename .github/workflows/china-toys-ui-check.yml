@@ -99,6 +99,7 @@ jobs:
               assert page.locator('#savedCount').inner_text()=='1'
               checks.append('Squishy filter and shortlist bookmark: pass')
               page.locator('#resetFilters').click()
+              page.locator('#sourcesResearch > summary').click()
               page.get_by_text('Launch timeline & coverage',exact=True).click()
               page.locator('.view-tab[data-view="timeline"]').click()
               assert page.locator('.timeline-item').count()>0
