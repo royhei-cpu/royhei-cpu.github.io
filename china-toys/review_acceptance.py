@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Run regression suite, then capture loaded-photo evidence for the final UI."""
 import json,pathlib,runpy,subprocess,sys
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, expect
 R=pathlib.Path(__file__).resolve().parent;O=pathlib.Path('/tmp/china-toys-review-qa')
 runpy.run_path(str(R/'review_test.py'),run_name='__main__')
 d=json.loads((R/'catalog.json').read_text());ps=d['products']
@@ -30,7 +30,7 @@ try:
   page.set_viewport_size({'width':390,'height':844});page.evaluate('scrollTo(0,0)');page.screenshot(path=str(O/'mobile-reviewed-top.png'))
   page.locator('#catalogGrid').evaluate('(e)=>e.scrollIntoView({block:"start"})');loaded();page.screenshot(path=str(O/'mobile-reviewed-product.png'))
   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
-  page.locator('.product-card').first.get_by_text('Trend evidence & product angle',exact=True).click();page.locator('.review-reason').first.evaluate('(e)=>e.scrollIntoView({block:"start"})');loaded();page.screenshot(path=str(O/'mobile-why-trending.png'))
+  expect(page.locator('.review-reason').first).to_be_visible();page.locator('.review-reason').first.evaluate('(e)=>e.scrollIntoView({block:"start"})');loaded();page.screenshot(path=str(O/'mobile-why-trending.png'))
   checks.append('390px mobile: one readable card per row, reason/source visible, no horizontal overflow')
   page.locator('.product-card [data-open]').first.click();page.get_by_text('Specifications, photos & variants',exact=True).click();page.wait_for_selector('.review-details')
   page.locator('.review-details').evaluate('(e)=>e.scrollIntoView({block:"start"})');page.wait_for_timeout(150)
