@@ -11,8 +11,8 @@ catalog=json.loads((R/'catalog.json').read_text())
 def norm(u):return re.sub(r'^https?://(?:www\.)?','',u).split('?')[0].rstrip('/')
 existing={norm(l['url']) for p in catalog['products'] for l in p.get('listings',[])}
 def audit(s):
- rows,report=e.original_collect(s)
- report['scope']='Accessible public storefront feed; not mainland or nationwide store inventory'
+ rows,report=e.collect(s)
+ report.setdefault('scope','Accessible public storefront feed; not mainland or nationwide store inventory')
  report['new_listing_urls']=[p['listings'][0]['url'] for p in rows if norm(p['listings'][0]['url']) not in existing]
  report['already_captured']=sum(norm(p['listings'][0]['url']) in existing for p in rows)
  report['complete_current_inventory']=False
