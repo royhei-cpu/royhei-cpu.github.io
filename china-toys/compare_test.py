@@ -46,7 +46,7 @@ try:
         ready('?view=trending')
         assert not page.locator('a[href*="home-care"]').count()
         expect(page.locator('#compareOpen')).to_be_disabled()
-        page.locator('#brandTabs [data-brand="TOP TOY"]').click()
+        page.locator('#brandSelect').select_option('TOP TOY')
         assert count()==sum(p['brand']=='TOP TOY' for p in products)
         assert page.locator('.view-tab[data-view="catalog"]').get_attribute('aria-pressed')=='true'
         page.locator('.compare-select').first.click()
@@ -138,6 +138,8 @@ try:
         page.select_option('#retailer','');page.locator('#search').fill('nevermatch-audit-xyz')
         assert count()==0
         page.locator('#emptyState [data-reset]').click();assert count()==len(products)
+        if not page.locator('.atlas-more-filters').evaluate('(e)=>e.open'):
+            page.locator('.atlas-more-filters > summary').click()
         page.select_option('#category','Squishy toys')
         assert count()==sum(p['category']=='Squishy toys' for p in products)
         page.locator('#resetFilters').click();page.select_option('#currency','USD');page.select_option('#sort','price-asc')
@@ -172,7 +174,7 @@ try:
         browser.close()
         wb=pw.webkit.launch();wc=wb.new_context(viewport={'width':390,'height':844},is_mobile=True,has_touch=True);wp=wc.new_page();wp.on('pageerror',lambda e:errors.append('WebKit: '+str(e)))
         wp.goto(base+'?view=trending',wait_until='domcontentloaded',timeout=60000);wp.wait_for_function('window.ATLAS_COMPARE && document.querySelectorAll(".compare-select").length>1')
-        wp.locator('#brandTabs [data-brand="TOP TOY"]').click();wp.wait_for_timeout(200)
+        wp.locator('#brandSelect').select_option('TOP TOY');wp.wait_for_timeout(200)
         assert wp.locator('.view-tab[data-view="catalog"]').get_attribute('aria-pressed')=='true'
         wp.locator('#catalogGrid .compare-select').nth(0).click();wp.locator('#catalogGrid .compare-select').nth(1).click();wp.locator('#compareDockOpen').click()
         expect(wp.locator('#compareDialog')).to_be_visible();assert wp.locator('th[data-compare-product]').count()==2
