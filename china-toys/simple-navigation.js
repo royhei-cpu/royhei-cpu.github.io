@@ -101,3 +101,44 @@
  const link=document.querySelector('#atlasBrandNav a[href="#chinaIntelligencePanel"]');if(link){link.href='#sourcesResearch';link.textContent='Research';}
  const css=document.createElement('style');css.textContent='#sourcesResearch{margin-top:24px}#sourcesResearch>.research-intro{padding:0 18px;font-size:13px;color:#53645d}#sourcesResearch>details{margin:8px 14px;border:0;border-top:1px solid #e2e9e4;border-radius:0;background:transparent}#sourcesResearch>.ip-top-button{display:none}#sourcesResearch>summary{font-size:15px}.research-links{display:flex;flex-wrap:wrap;gap:16px;padding:12px 18px;font-size:13px}';document.head.append(css);
 })();
+
+/* Explain popularity in the product view without opening the research dashboard. */
+(() => {
+ 'use strict';
+ const grid=document.getElementById('catalogGrid'),title=document.getElementById('resultsTitle');
+ if(!grid||!title)return;
+ const trendTab=document.querySelector('.view-tab[data-view="trending"]');
+ if(trendTab?.firstChild?.nodeType===Node.TEXT_NODE)trendTab.firstChild.textContent='Popular & featured ';
+ function explain(){
+  const active=trendTab?.getAttribute('aria-pressed')==='true';
+  if(active){
+   if(title.textContent!=='Popular & featured toys')title.textContent='Popular & featured toys';
+   const banner=document.getElementById('weeklyBanner');
+   const intro='<strong>Why are these toys here?</strong> <b>Reported demand</b> means a source reported interest in that product or series. <b>Shop pick</b> means a retailer featured it. These are different signals—not a China-wide bestseller ranking.';
+   if(banner&&banner.innerHTML!==intro)banner.innerHTML=intro;
+   const note=document.getElementById('contextNote');
+   const help='Each card shows the reason, evidence date and original source. Evidence may be older than this week; a shop feature does not prove sales growth.';
+   if(note&&note.textContent!==help)note.textContent=help;
+  }
+  for(const card of grid.querySelectorAll('.product-card')){
+   const reason=card.querySelector('.review-reason'),fold=reason?.closest('details.atlas-detail-fold');
+   if(!fold||!active||fold.dataset.popularityExplained)continue;
+   fold.dataset.popularityExplained='true';
+   fold.open=true;
+   const summary=fold.querySelector(':scope > summary');if(summary)summary.textContent='Why this toy is featured';
+  }
+ }
+ let pending=false;
+ const queue=()=>{if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;explain()})};
+ new MutationObserver(queue).observe(grid,{childList:true,subtree:true});
+ new MutationObserver(queue).observe(title,{childList:true});
+ document.addEventListener('click',event=>{
+  if(!event.target.closest('[data-view="trending"]'))return;
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
+   explain();const results=document.getElementById('results');
+   results?.setAttribute('tabindex','-1');results?.focus({preventScroll:true});
+   results?.scrollIntoView({block:'start',behavior:'auto'});
+  }));
+ });
+ explain();
+})();

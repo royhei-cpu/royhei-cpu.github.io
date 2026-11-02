@@ -81,6 +81,20 @@ try:
    page.locator('#atlasBrandNav').get_by_role('link',name='Products',exact=True).click()
    page.screenshot(path=str(O/f'products-{width}.png'))
   checks.append('Phone, tablet and desktop layouts fit without horizontal overflow')
+  page.set_viewport_size({'width':1440,'height':1000})
+  page.goto(root,wait_until='domcontentloaded')
+  page.locator('.view-tab[data-view="trending"]').click()
+  expect(page.locator('#resultsTitle')).to_have_text('Popular & featured toys')
+  expect(page.locator('#weeklyBanner')).to_contain_text('Reported demand')
+  expect(page.locator('#weeklyBanner')).to_contain_text('Shop pick')
+  expect(page.locator('#chinaIntelligencePanel #chinaIntelligence')).to_have_count(1)
+  expect(page.locator('#chinaIntelligence')).not_to_be_visible()
+  assert page.locator('.product-card .review-reason').count()>0
+  for reason in page.locator('.product-card .review-reason').all():
+   expect(reason).to_be_visible()
+   assert reason.locator('a[href^="http"]').count()>0
+  assert page.locator('#results').evaluate('(e)=>e.getBoundingClientRect().top < innerHeight')
+  checks.append('Popular & featured explains demand versus shop picks, reveals each source, and keeps detailed research below products')
   assert not errors,errors
   browser.close()
 finally:
