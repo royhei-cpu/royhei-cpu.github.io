@@ -50,6 +50,8 @@
   const counts=document.createElement('p');counts.className='dashboard-weekly-line';
   const parts=[['added','added to the catalog'],['launch','release dates this week']].map(([key,label])=>{const n=detail.querySelector('[data-weekly="'+key+'"] b');return n?n.textContent+' '+label:'';}).filter(Boolean);
   counts.textContent=parts.join(' · ');detail.before(counts);
+  const chainNote=weekly.querySelector('#weeklyChainReview');if(chainNote)detail.append(chainNote);
+  const enrichment=window.CHAIN_ASSORTMENTS?.enrichment_review;if(enrichment){const stamp=document.createElement('p');stamp.className='dashboard-weekly-line';stamp.textContent='Latest source update: '+enrichment.checked+' · Photos and prices';counts.after(stamp);}
  }
  const chain=document.getElementById('retailChains');fold(chain,'Browse retail chains · MINISO, POP MART, TOP TOY & more','chainBrowser');
  const audit=document.getElementById('externalSourceAudit'),results=document.getElementById('results');
