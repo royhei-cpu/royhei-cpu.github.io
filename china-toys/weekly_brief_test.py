@@ -43,7 +43,7 @@ try:
             button = page.locator(selector)
             if not button.count():
                 continue
-            expected = int(re.search(r'[\d,]+', button.inner_text()).group(0).replace(',', ''))
+            expected = int(re.search(r'[\d,]+', button.text_content()).group(0).replace(',', ''))
             if not page.locator('.dashboard-weekly-details').evaluate('(el)=>el.open'):
                 page.locator('.dashboard-weekly-details > summary').click()
             button.click()
