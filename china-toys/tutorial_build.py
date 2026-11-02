@@ -138,7 +138,7 @@ def record_scenes(meta):
                     at(.55);page.locator('[data-view="trending"]:visible').first.click()
                     scroll('.product-card')
                     reasons=page.locator('.product-card details').filter(has=page.locator('.review-reason'))
-                    if reasons.count():reasons.first.locator('summary').click()
+                    if reasons.count():reasons.first.locator(':scope > summary').click()
                     at(.80);focus('.card-badge')
                 elif i==7:
                     page.evaluate('scrollTo(0,0)');at(.15);focus('#atlasSound')
@@ -222,7 +222,7 @@ def playback_qa():
                 page.locator('#atlasTutorialVideo').evaluate('(v)=>v.pause()');page.locator('#tutorial>summary').click()
                 page.locator('#search').fill('Cry Me An Ocean');page.wait_for_timeout(300);page.locator('#catalogGrid').scroll_into_view_if_needed();page.screenshot(path=str(QA/f'facts-first-{width}.png'))
                 text=page.locator('.card-facts').all_inner_texts();assert not any(re.search(r'Not (?:disclosed|documented|numbered)',x) for x in text)
-                page.locator('.card-footer button[data-open]').first.click();page.wait_for_selector('.info-gaps');page.locator('.review-details').scroll_into_view_if_needed();page.screenshot(path=str(QA/f'full-details-{width}.png'))
+                page.locator('.card-footer button[data-open]').first.click();page.wait_for_selector('.info-gaps');page.get_by_text('Specifications, photos & variants',exact=True).click();page.locator('.review-details').scroll_into_view_if_needed();page.screenshot(path=str(QA/f'full-details-{width}.png'))
                 assert page.locator('.review-options').count()>0
                 page.close()
             browser.close()
