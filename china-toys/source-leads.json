@@ -18,7 +18,7 @@
         "url": "https://didapop.com/products/pre-order-pop-mart-the-monsters-labubu-fashion-outfits",
         "market": "International",
         "currency": "USD",
-        "checked": "2026-10-30",
+        "checked": "2026-11-02",
         "price": 19.99,
         "variant": "Default Title",
         "available": true,
@@ -34,35 +34,45 @@
             "id": "46493930225912"
           }
         ],
-        "options_checked": "2026-10-30"
+        "options_checked": "2026-11-02"
       }
     ],
     "launch": null,
     "regular_designs": null,
     "secret_designs": null,
     "material": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Mainland SKU availability not yet verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/387fac6f38e089a0.jpg",
     "details": {
       "source": "https://didapop.com/products/pre-order-pop-mart-the-monsters-labubu-fashion-outfits",
-      "checked": "2026-10-30",
-      "source_product_type": "Blind Box"
+      "checked": "2026-11-02",
+      "source_product_type": "Blind Box",
+      "field_sources": {
+        "description": {
+          "url": "https://didapop.com/products/pre-order-pop-mart-the-monsters-labubu-fashion-outfits",
+          "checked": "2026-11-02",
+          "kind": "Attributed shop excerpt"
+        }
+      },
+      "description": "Labubu Fashion Outfits Pre-Order Set is a general fashion costume set for the Labubu vinyl plush doll, covering contemporary fashion themes across multiple outfit options. Each set provides a complete look for your existing Labubu with coordinated costume pieces. Doll not included - fashion costume set only. Brand: POP MART | IP: THE MONSTERS (Kasing Lung) Format: Pre-order fashion outfit set (doll not included) - ships in 3-5 days",
+      "description_source": "https://didapop.com/products/pre-order-pop-mart-the-monsters-labubu-fashion-outfits",
+      "description_checked": "2026-11-02"
     },
     "image_review": {
       "status": "Same-product source image",
       "source": "https://didapop.com/products/pre-order-pop-mart-the-monsters-labubu-fashion-outfits",
-      "checked": "2026-10-30",
+      "checked": "2026-11-02",
       "level": "Source-link and file check; not a full visual audit",
       "scope": "Series / example photo; random blind-box contents may differ.",
       "visually_reviewed": false,
       "source_match": true
     },
-    "details_checked": "2026-10-30",
+    "details_checked": "2026-11-02",
+    "stale": false,
     "exclusion_reason": "Accessory or merchandise listing, not a blind-box or squishy toy",
     "excluded_from_product_counts": true
   },
@@ -85,7 +95,7 @@
         "url": "https://didapop.com/products/pre-order-pop-mart-the-monsters-labubu-fashion-outfits-motorcycle-clothes",
         "market": "International",
         "currency": "USD",
-        "checked": "2026-10-30",
+        "checked": "2026-11-02",
         "price": 19.99,
         "variant": "Default Title",
         "available": true,
@@ -101,35 +111,45 @@
             "id": "46493910794488"
           }
         ],
-        "options_checked": "2026-10-30"
+        "options_checked": "2026-11-02"
       }
     ],
     "launch": null,
     "regular_designs": null,
     "secret_designs": null,
     "material": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Mainland SKU availability not yet verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/3de5a85959f40e06.jpg",
     "details": {
       "source": "https://didapop.com/products/pre-order-pop-mart-the-monsters-labubu-fashion-outfits-motorcycle-clothes",
-      "checked": "2026-10-30",
-      "source_product_type": "Blind Box"
+      "checked": "2026-11-02",
+      "source_product_type": "Blind Box",
+      "field_sources": {
+        "description": {
+          "url": "https://didapop.com/products/pre-order-pop-mart-the-monsters-labubu-fashion-outfits-motorcycle-clothes",
+          "checked": "2026-11-02",
+          "kind": "Attributed shop excerpt"
+        }
+      },
+      "description": "Labubu Motorcycle Fashion Outfits is a pre-order costume set with a motorcycle biker aesthetic - leather jacket, riding trousers, boots and helmet accessories for your existing Labubu vinyl plush doll. The motorcycle theme gives Labubu's wild character an appropriately rebellious vehicle aesthetic. Doll not included - costume set only. Brand: POP MART | IP: THE MONSTERS (Kasing Lung) Format: Pre-order motorcycle outfit set (doll not included) - ships in 3-5 days",
+      "description_source": "https://didapop.com/products/pre-order-pop-mart-the-monsters-labubu-fashion-outfits-motorcycle-clothes",
+      "description_checked": "2026-11-02"
     },
     "image_review": {
       "status": "Same-product source image",
       "source": "https://didapop.com/products/pre-order-pop-mart-the-monsters-labubu-fashion-outfits-motorcycle-clothes",
-      "checked": "2026-10-30",
+      "checked": "2026-11-02",
       "level": "Source-link and file check; not a full visual audit",
       "scope": "Series / example photo; random blind-box contents may differ.",
       "visually_reviewed": false,
       "source_match": true
     },
-    "details_checked": "2026-10-30",
+    "details_checked": "2026-11-02",
+    "stale": false,
     "exclusion_reason": "Accessory or merchandise listing, not a blind-box or squishy toy",
     "excluded_from_product_counts": true
   },
@@ -156,16 +176,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/b05c9f754d032a91.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -193,16 +212,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/12c0c38b8ec9f3bb.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -230,16 +248,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/2bbfee6acf212d65.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -267,16 +284,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/ae4cb0169f84e250.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -304,16 +320,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/7a10a27c5e1a1109.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -341,16 +356,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/47b9721df4412d1b.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -378,16 +392,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/2a1e401fe7709667.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -415,16 +428,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/cadea8edd61c15c8.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -452,16 +464,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/b6467c5abf30d825.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -489,16 +500,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/f0f34142ef5865cf.jpg",
     "exclusion_reason": "Accessory or merchandise listing, not a blind-box or squishy toy",
     "excluded_from_product_counts": true
@@ -526,16 +536,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/49a4fea4c4ba12b7.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -563,16 +572,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/8809ea71d66c9356.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -600,16 +608,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/de30f979f8e662b3.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -637,16 +644,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/f87489fe40c15ecf.jpg",
     "exclusion_reason": "Shopping service, not one product",
     "excluded_from_product_counts": true
@@ -674,16 +680,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/e1deaffd6e099448.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -711,16 +716,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/07793dc29687ce20.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -748,16 +752,15 @@
         "variant": "See listing options",
         "available": null,
         "listing_date": null,
-        "checked": "2026-10-29"
+        "checked": "2026-11-02"
       }
     ],
     "launch": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Listed in retailer Chinese-squishy category; mainland SKU availability not independently verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/d6d45800d59e3c40.jpg",
     "exclusion_reason": "Mixed-product collection listing; separate items need individual records",
     "excluded_from_product_counts": true
@@ -782,7 +785,7 @@
         "url": "https://didapop.com/products/pre-order-labubu-gdragon-clothes-labubu-outfits",
         "market": "International",
         "currency": "USD",
-        "checked": "2026-10-30",
+        "checked": "2026-11-02",
         "price": 28.0,
         "variant": "Dark Blue",
         "available": true,
@@ -807,35 +810,45 @@
             "id": "46493904208120"
           }
         ],
-        "options_checked": "2026-10-30"
+        "options_checked": "2026-11-02"
       }
     ],
     "launch": null,
     "regular_designs": null,
     "secret_designs": null,
     "material": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Mainland SKU availability not yet verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/a211ccc64f3c53cc.jpg",
     "details": {
       "source": "https://didapop.com/products/pre-order-labubu-gdragon-clothes-labubu-outfits",
-      "checked": "2026-10-30",
-      "source_product_type": "Blind Box"
+      "checked": "2026-11-02",
+      "source_product_type": "Blind Box",
+      "field_sources": {
+        "description": {
+          "url": "https://didapop.com/products/pre-order-labubu-gdragon-clothes-labubu-outfits",
+          "checked": "2026-11-02",
+          "kind": "Attributed shop excerpt"
+        }
+      },
+      "description": "Labubu GDragon Collaboration Outfits is a pre-order costume set inspired by G-Dragon's collaboration with Labubu - outfits referencing the Korean artist's distinctive fashion aesthetic for use with existing Labubu vinyl plush dolls. GDragon's collaboration brought Labubu to new K-pop audiences and the costume set lets collectors style their Labubu in GD-influenced looks. Doll not included. Brand: POP MART x G-Dragon | IP: THE MONSTERS - Labubu Format: Pre-order outfit set (doll not included) - ships…",
+      "description_source": "https://didapop.com/products/pre-order-labubu-gdragon-clothes-labubu-outfits",
+      "description_checked": "2026-11-02"
     },
     "image_review": {
       "status": "Same-product source image",
       "source": "https://didapop.com/products/pre-order-labubu-gdragon-clothes-labubu-outfits",
-      "checked": "2026-10-30",
+      "checked": "2026-11-02",
       "level": "Source-link and file check; not a full visual audit",
       "scope": "Series / example photo; random blind-box contents may differ.",
       "visually_reviewed": false,
       "source_match": true
     },
-    "details_checked": "2026-10-30",
+    "details_checked": "2026-11-02",
+    "stale": false,
     "exclusion_reason": "Accessory or merchandise listing, not a blind-box or squishy toy",
     "excluded_from_product_counts": true
   },
@@ -858,7 +871,7 @@
         "url": "https://jotoys.store/products/blind-box-collectors-bundle",
         "market": "International",
         "currency": "USD",
-        "checked": "2026-10-30",
+        "checked": "2026-11-02",
         "price": null,
         "variant": null,
         "available": null,
@@ -874,195 +887,48 @@
             "id": "67752758739017"
           }
         ],
-        "options_checked": "2026-10-30"
+        "options_checked": "2026-11-02"
       }
     ],
     "launch": null,
     "regular_designs": null,
     "secret_designs": null,
     "material": null,
-    "first_seen": "2026-10-30",
-    "checked": "2026-10-30",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Official overseas reference; mainland SKU availability needs confirmation",
     "sales": null,
     "baseline": false,
     "history": [],
     "details": {
       "source": "https://jotoys.store/products/blind-box-collectors-bundle",
-      "checked": "2026-10-30",
-      "source_product_type": "product",
-      "field_sources": {}
-    },
-    "image_review": {
-      "status": "Same-product source image",
-      "source": "https://jotoys.store/products/blind-box-collectors-bundle",
-      "checked": "2026-10-30",
-      "level": "Source-link and file check; not a full visual audit",
-      "scope": "Series / example photo; random blind-box contents may differ.",
-      "visually_reviewed": false,
-      "source_match": true
-    },
-    "details_checked": "2026-10-30",
-    "image": "images/15ad341289c9244d-373ce9ee.jpg",
-    "stale": false,
-    "exclusion_reason": "Mixed-series bundle; not an individual series",
-    "excluded_from_product_counts": true
-  },
-  {
-    "id": "baf89ccfb7606dca",
-    "brand": "Jotoys Official Website",
-    "name": "Blind Box Collector's Bundle",
-    "ip": null,
-    "category": "Blind-box figures",
-    "wave": null,
-    "image_source": "https://cdn.shopify.com/s/files/1/0659/8868/9993/files/1792486528478-ad7de8d3-parent.png?v=1792486530",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/0659/8868/9993/files/1792486528478-ad7de8d3-parent.png?v=1792486530"
-    ],
-    "listings": [
-      {
-        "source": "JOTOYS international store",
-        "source_id": "jotoys-official",
-        "kind": "retailer",
-        "url": "https://jotoys.store/products/blind-box-collectors-bundle",
-        "market": "International",
-        "currency": "USD",
-        "checked": "2026-10-30",
-        "price": null,
-        "variant": null,
-        "available": null,
-        "listing_date": "2026-10-20",
-        "options": [
-          {
-            "name": "Default Title",
-            "sku": null,
-            "price": 0.0,
-            "currency": "USD",
-            "available": true,
-            "image": null,
-            "id": "67752758739017"
-          }
-        ],
-        "options_checked": "2026-10-30"
-      }
-    ],
-    "launch": null,
-    "regular_designs": null,
-    "secret_designs": null,
-    "material": null,
-    "first_seen": "2026-10-30",
-    "checked": "2026-10-30",
-    "china_status": "Official overseas reference; mainland SKU availability needs confirmation",
-    "sales": null,
-    "baseline": false,
-    "history": [],
-    "details": {
-      "source": "https://jotoys.store/products/blind-box-collectors-bundle",
-      "checked": "2026-10-30",
+      "checked": "2026-11-02",
       "source_product_type": "product",
       "field_sources": {
         "description": {
           "url": "https://jotoys.store/products/blind-box-collectors-bundle",
-          "checked": "2026-10-30",
+          "checked": "2026-11-02",
           "kind": "Attributed shop excerpt"
         }
       },
       "description": "The Blind Box Collector's Bundle invites you to curate a personalized collection of delightful surprises. You begin by selecting from an array of soft plush blind boxes that bring warmth and companionship to your space. Next, you can choose from themed series & bags that capture the joy of everyday adventures and playful characters. Your bundle continues with a selection of intricate pvc figures & dolls that add a touch of magic and artistry to…",
       "description_source": "https://jotoys.store/products/blind-box-collectors-bundle",
-      "description_checked": "2026-10-30"
+      "description_checked": "2026-11-02"
     },
     "image_review": {
       "status": "Same-product source image",
       "source": "https://jotoys.store/products/blind-box-collectors-bundle",
-      "checked": "2026-10-30",
+      "checked": "2026-11-02",
       "level": "Source-link and file check; not a full visual audit",
       "scope": "Series / example photo; random blind-box contents may differ.",
       "visually_reviewed": false,
       "source_match": true
     },
-    "details_checked": "2026-10-30",
+    "details_checked": "2026-11-02",
     "stale": false,
     "_new_photo": "https://cdn.shopify.com/s/files/1/0659/8868/9993/files/1792486528478-ad7de8d3-parent.png?v=1792486530",
     "exclusion_reason": "Mixed-series bundle; not an individual series",
     "excluded_from_product_counts": true
-  },
-  {
-    "id": "6795ac535d4629da",
-    "brand": "Molynk",
-    "name": "A Piece of Cake - Six-colour Slice Cake Squishy",
-    "category": "Squishy toys",
-    "image_source": "https://x0.ifengimg.com/res/2026/00FA6AE0F0AA96865D4E6B72420EB61B362EDBB7_size1014_w900_h1350.jpg",
-    "gallery": [
-      "https://x0.ifengimg.com/res/2026/00FA6AE0F0AA96865D4E6B72420EB61B362EDBB7_size1014_w900_h1350.jpg"
-    ],
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
-    "listings": [
-      {
-        "source": "Xinmin Evening News reporting",
-        "url": "https://finance.sina.com.cn/jjxw/2026-10-06/doc-iniuhiti5724409.shtml",
-        "kind": "source evidence",
-        "market": "Mainland China",
-        "currency": null,
-        "price": null,
-        "variant": null,
-        "checked": "2026-10-29",
-        "listing_date": null,
-        "available": null
-      }
-    ],
-    "china_status": "Product-specific mainland release evidence",
-    "sales": null,
-    "name_cn": "A Piece of Cake 六色切片蛋糕捏捏",
-    "notes": "Six individually playable cake slices form one whole cake. Product photograph supplied to the news report. No verified current price or sold-unit count; initial supply of 3,000 must not be counted as sales.",
-    "launch": {
-      "date": "2026-10-01",
-      "precision": "day",
-      "market": "Mainland China",
-      "source": "https://www.51ldb.com/shsldb/cj/content/01a0f7733b01c001000066d533acd97d.html",
-      "confidence": "medium",
-      "evidence": "On-location reporting dated October 1, 2026 says the Shanghai pop-up opened that day with the simultaneous global debut of A Piece of Cake. Corrects the earlier month-only estimate. No product price or sold-unit count is established.",
-      "offline_date": null
-    },
-    "baseline": true,
-    "history": [],
-    "image": "images/6795ac535d4629da.jpg",
-    "wave": null,
-    "details": {
-      "features": [
-        "Separate coloured cake slices combine into a whole cake",
-        "Each slice can be played with separately",
-        "Cake-style carry gift box"
-      ],
-      "source": "https://www.51ldb.com/shsldb/cj/content/01a0f7733b01c001000066d533acd97d.html",
-      "checked": "2026-10-30"
-    },
-    "image_review": {
-      "status": "Source photo recorded; page match not rechecked",
-      "source": "https://finance.sina.com.cn/jjxw/2026-10-06/doc-iniuhiti5724409.shtml",
-      "level": "Cached file check only",
-      "scope": "Product / series example photograph",
-      "visually_reviewed": false,
-      "file_ok": true,
-      "width": 427,
-      "height": 640,
-      "file_checked": "2026-10-30"
-    },
-    "exclusion_reason": "The available photograph shows a general store display, not a clearly verified A Piece of Cake six-slice product. Keep launch research as a source lead until a matching product photograph is verified.",
-    "excluded_from_product_counts": true,
-    "research_trend_context": {
-      "label": "Reported launch interest",
-      "level": "Early observed demand",
-      "summary": "A reporter at the October 1 Shanghai launch described crowds at the cake pop-up where A Piece of Cake debuted. The separable cake-slice format and gift packaging are product features; the report does not establish sell-through or national growth.",
-      "market": "Shanghai, mainland China",
-      "period": "October 1, 2026 launch event",
-      "observed": "2026-10-01",
-      "expires_on": "2026-11-05",
-      "source": "https://www.51ldb.com/shsldb/cj/content/01a0f7733b01c001000066d533acd97d.html",
-      "metric": "Observed launch attendance; no sold-unit disclosure",
-      "scope": "Local launch event, not nationwide popularity",
-      "possible_appeal": "Tactile cake slices can be shared or assembled, with cake-box gift presentation. These features may support gifting and hands-on play; the source only verifies launch interest."
-    }
   },
   {
     "id": "c0a4733ada5087db",
@@ -1083,7 +949,7 @@
         "url": "https://gotoptoy.com/products/nommi-disney-101-dalmatians-crossbody-bag",
         "market": "International",
         "currency": "USD",
-        "checked": "2026-10-30",
+        "checked": "2026-11-02",
         "price": 40.0,
         "variant": "ONE BAG",
         "available": true,
@@ -1099,30 +965,29 @@
             "id": "46569576464534"
           }
         ],
-        "options_checked": "2026-10-30"
+        "options_checked": "2026-11-02"
       }
     ],
     "launch": null,
     "regular_designs": null,
     "secret_designs": null,
     "material": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Mainland SKU availability not yet verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/c0a4733ada5087db.jpg",
     "details": {
       "source": "https://gotoptoy.com/products/nommi-disney-101-dalmatians-crossbody-bag",
-      "checked": "2026-10-30",
+      "checked": "2026-11-02",
       "source_product_type": "Blind Boxes",
       "field_sources": {}
     },
     "image_review": {
       "status": "Source-linked variant image",
       "source": "https://gotoptoy.com/products/nommi-disney-101-dalmatians-crossbody-bag",
-      "checked": "2026-10-30",
+      "checked": "2026-11-02",
       "level": "Exact source/variant mapping and file check; not a complete visual audit",
       "scope": "Store image associated with the priced variant. Other options and random designs may differ.",
       "visually_reviewed": false,
@@ -1130,9 +995,9 @@
       "file_ok": true,
       "width": 640,
       "height": 640,
-      "file_checked": "2026-10-30"
+      "file_checked": "2026-11-02"
     },
-    "details_checked": "2026-10-30",
+    "details_checked": "2026-11-02",
     "stale": false,
     "exclusion_reason": "TOP TOY's product title and ONE BAG option identify a Nommi x Disney 101 Dalmatians crossbody bag, not a blind-box figure or squishy. The product photograph shows a functional handbag. Preserve as related IP merchandise outside toy and trend counts.",
     "excluded_from_product_counts": true
@@ -1156,7 +1021,7 @@
         "url": "https://gotoptoy.com/products/nommi-disney-marie-crossbody-bag",
         "market": "International",
         "currency": "USD",
-        "checked": "2026-10-30",
+        "checked": "2026-11-02",
         "price": 40.0,
         "variant": "ONE BAG",
         "available": true,
@@ -1172,30 +1037,29 @@
             "id": "46569570730134"
           }
         ],
-        "options_checked": "2026-10-30"
+        "options_checked": "2026-11-02"
       }
     ],
     "launch": null,
     "regular_designs": null,
     "secret_designs": null,
     "material": null,
-    "first_seen": "2026-10-29",
-    "checked": "2026-10-29",
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
     "china_status": "Mainland SKU availability not yet verified",
     "sales": null,
-    "baseline": true,
-    "history": [],
+    "baseline": false,
     "image": "images/9a025b5159edcad7.jpg",
     "details": {
       "source": "https://gotoptoy.com/products/nommi-disney-marie-crossbody-bag",
-      "checked": "2026-10-30",
+      "checked": "2026-11-02",
       "source_product_type": "Blind Boxes",
       "field_sources": {}
     },
     "image_review": {
       "status": "Source-linked variant image",
       "source": "https://gotoptoy.com/products/nommi-disney-marie-crossbody-bag",
-      "checked": "2026-10-30",
+      "checked": "2026-11-02",
       "level": "Exact source/variant mapping and file check; not a complete visual audit",
       "scope": "Store image associated with the priced variant. Other options and random designs may differ.",
       "visually_reviewed": false,
@@ -1203,11 +1067,88 @@
       "file_ok": true,
       "width": 640,
       "height": 640,
-      "file_checked": "2026-10-30"
+      "file_checked": "2026-11-02"
     },
-    "details_checked": "2026-10-30",
+    "details_checked": "2026-11-02",
     "stale": false,
     "exclusion_reason": "TOP TOY's product title and ONE BAG option identify a Nommi x Disney Marie crossbody bag, not a blind-box figure or squishy. Preserve as related IP merchandise outside toy and trend counts; do not treat ordinary bag offers as random figure boxes.",
     "excluded_from_product_counts": true
+  },
+  {
+    "id": "6795ac535d4629da",
+    "brand": "Molynk",
+    "name": "A Piece of Cake - Six-colour Slice Cake Squishy",
+    "category": "Squishy toys",
+    "image_source": "https://x0.ifengimg.com/res/2026/00FA6AE0F0AA96865D4E6B72420EB61B362EDBB7_size1014_w900_h1350.jpg",
+    "gallery": [
+      "https://x0.ifengimg.com/res/2026/00FA6AE0F0AA96865D4E6B72420EB61B362EDBB7_size1014_w900_h1350.jpg"
+    ],
+    "first_seen": "2026-11-02",
+    "checked": "2026-11-02",
+    "listings": [
+      {
+        "source": "Xinmin Evening News reporting",
+        "url": "https://finance.sina.com.cn/jjxw/2026-10-06/doc-iniuhiti5724409.shtml",
+        "kind": "source evidence",
+        "market": "Mainland China",
+        "currency": null,
+        "price": null,
+        "variant": null,
+        "checked": "2026-11-02",
+        "listing_date": null,
+        "available": null
+      }
+    ],
+    "china_status": "Product-specific mainland release evidence",
+    "sales": null,
+    "name_cn": "A Piece of Cake 六色切片蛋糕捏捏",
+    "notes": "Six individually playable cake slices form one whole cake. Product photograph supplied to the news report. No verified current price or sold-unit count; initial supply of 3,000 must not be counted as sales.",
+    "launch": {
+      "date": "2026-10-01",
+      "precision": "day",
+      "market": "Mainland China",
+      "source": "https://www.51ldb.com/shsldb/cj/content/01a0f7733b01c001000066d533acd97d.html",
+      "confidence": "medium",
+      "evidence": "On-location reporting dated October 1, 2026 says the Shanghai pop-up opened that day with the simultaneous global debut of A Piece of Cake. Corrects the earlier month-only estimate. No product price or sold-unit count is established.",
+      "offline_date": null
+    },
+    "baseline": false,
+    "image": "images/6795ac535d4629da.jpg",
+    "wave": null,
+    "details": {
+      "features": [
+        "Separate coloured cake slices combine into a whole cake",
+        "Each slice can be played with separately",
+        "Cake-style carry gift box"
+      ],
+      "source": "https://www.51ldb.com/shsldb/cj/content/01a0f7733b01c001000066d533acd97d.html",
+      "checked": "2026-11-02"
+    },
+    "image_review": {
+      "status": "Source photo recorded; page match not rechecked",
+      "source": "https://finance.sina.com.cn/jjxw/2026-10-06/doc-iniuhiti5724409.shtml",
+      "level": "Cached file check only",
+      "scope": "Product / series example photograph",
+      "visually_reviewed": false,
+      "file_ok": true,
+      "width": 427,
+      "height": 640,
+      "file_checked": "2026-11-02"
+    },
+    "exclusion_reason": "The available photograph shows a general store display, not a clearly verified A Piece of Cake six-slice product. Keep launch research as a source lead until a matching product photograph is verified.",
+    "excluded_from_product_counts": true,
+    "research_trend_context": {
+      "label": "Reported launch interest",
+      "level": "Early observed demand",
+      "summary": "A reporter at the October 1 Shanghai launch described crowds at the cake pop-up where A Piece of Cake debuted. The separable cake-slice format and gift packaging are product features; the report does not establish sell-through or national growth.",
+      "market": "Shanghai, mainland China",
+      "period": "October 1, 2026 launch event",
+      "observed": "2026-10-01",
+      "expires_on": "2026-11-05",
+      "source": "https://www.51ldb.com/shsldb/cj/content/01a0f7733b01c001000066d533acd97d.html",
+      "metric": "Observed launch attendance; no sold-unit disclosure",
+      "scope": "Local launch event, not nationwide popularity",
+      "possible_appeal": "Tactile cake slices can be shared or assembled, with cake-box gift presentation. These features may support gifting and hands-on play; the source only verifies launch interest."
+    }
   }
 ]

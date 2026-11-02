@@ -1,43 +1,43 @@
 {
-  "updated": "2026-10-30",
-  "last_full_collection": "2026-10-29",
-  "detail_reviewed": "2026-10-30",
+  "updated": "2026-11-02",
+  "last_full_collection": "2026-11-02",
+  "detail_reviewed": "2026-11-02",
   "stats": {
-    "products": 4230,
-    "brands": 778,
-    "squishy": 424,
-    "with_images": 4230,
+    "products": 4326,
+    "brands": 782,
+    "squishy": 441,
+    "with_images": 4326,
     "with_launch_dates": 31,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4228,
+    "with_source_prices": 4324,
     "image_research_queue": 0,
-    "with_trend_signals": 8,
-    "with_specifications": 2459,
-    "with_dimensions": 1713,
-    "with_variant_options": 3948,
-    "source_linked_images": 3948,
-    "source_leads_excluded": 25,
+    "with_trend_signals": 7,
+    "with_specifications": 2485,
+    "with_dimensions": 1731,
+    "with_variant_options": 4035,
+    "source_linked_images": 4035,
+    "source_leads_excluded": 24,
     "visually_reviewed_sample": 8,
-    "with_shop_descriptions": 3479
+    "with_shop_descriptions": 3535
   },
   "brands": {
-    "POP MART": 202,
-    "TOP TOY": 285,
-    "52TOYS": 122,
+    "POP MART": 203,
+    "TOP TOY": 289,
+    "52TOYS": 123,
     "Finding Unicorn": 50,
-    "TNT SPACE": 82,
+    "TNT SPACE": 83,
     "ToyCity": 8,
     "Heyone": 31,
-    "Rolife": 20,
-    "TOYZEROPLUS": 34,
+    "Rolife": 31,
+    "TOYZEROPLUS": 75,
     "MINISO": 10,
     "HERE": 23,
     "MJ Studio": 1,
     "RiCO": 4,
     "Molynk": 3,
-    "Meichai": 47,
+    "Meichai": 48,
     "DODOWO": 11,
     "SIMONTOYS": 3,
     "Come4free": 3,
@@ -47,10 +47,10 @@
     "Hachimi": 16,
     "FULL": 34,
     "3AN / SAN": 1,
-    "SWEETBUNS": 46,
-    "RonRon": 36,
-    "Lisa": 27,
-    "Nunu": 20,
+    "SWEETBUNS": 47,
+    "RonRon": 38,
+    "Lisa": 32,
+    "Nunu": 25,
     "Dudo": 11,
     "Zoey": 15,
     "Baay": 6,
@@ -63,7 +63,7 @@
     "AET": 24,
     "AET x ALIEN STAGE": 2,
     "AIWAVECULTURE": 1,
-    "ALL FOR PLAY": 3,
+    "ALL FOR PLAY": 4,
     "AMLLS": 33,
     "ANIMAL HEAVENLY BODY": 3,
     "ANIPLEX": 1,
@@ -86,7 +86,6 @@
     "AngryAmiee": 2,
     "Awoo": 2,
     "Azukisan (Musshu)": 2,
-    "B.DUCK": 1,
     "BABOO MEOW": 1,
     "BABY BILLIE": 1,
     "BABY DORA (TNT SPACE)": 1,
@@ -120,7 +119,7 @@
     "Basaka": 1,
     "BeanBin": 1,
     "Bella": 1,
-    "Bingbing": 15,
+    "Bingbing": 16,
     "Bingbing Squishy": 8,
     "Bingo": 1,
     "Bisprin": 1,
@@ -130,7 +129,7 @@
     "Bobbito": 2,
     "Bonini": 1,
     "Bonnie": 3,
-    "Brand not disclosed": 636,
+    "Brand not disclosed": 645,
     "Funism": 6,
     "Sonny Angel": 63,
     "SMISKI": 3,
@@ -175,7 +174,6 @@
     "Chucky": 1,
     "Clever/Qualia/Kitan": 4,
     "Coconut": 2,
-    "Colliegogo": 1,
     "Corner Rice": 1,
     "Cos": 4,
     "Cosbi Lilo & Stitch Series Plush Coin Bag Blind Box": 1,
@@ -235,7 +233,8 @@
     "FURFUR": 1,
     "FUYOU": 1,
     "FUZZY BEAN": 1,
-    "Ft.Fire": 9,
+    "Fancy Chill": 1,
+    "Ft.Fire": 10,
     "Fuggler": 5,
     "Fujiya (Peko)": 1,
     "Fuku Cat": 1,
@@ -284,6 +283,7 @@
     "Impopo": 1,
     "Inedible Doll": 6,
     "Iris Squishy": 8,
+    "JANDOON": 1,
     "JIANGJIANG": 1,
     "JIIMO": 1,
     "JOJOY": 1,
@@ -317,7 +317,7 @@
     "Keyki": 1,
     "Kilikili": 1,
     "Kimmon": 10,
-    "Kira Squishy": 1,
+    "Kira Squishy": 2,
     "Kokosa": 1,
     "Kouocmi": 1,
     "LAM TOYS": 1,
@@ -367,7 +367,7 @@
     "MALTESE": 9,
     "MALTese": 1,
     "MAN CHAO": 9,
-    "MARCHMONSTER": 4,
+    "MARCHMONSTER": 7,
     "MATATA": 1,
     "MAYMEI": 7,
     "MAYMEI (HI TOY)": 1,
@@ -611,19 +611,17 @@
     "SANMI": 1,
     "SANMI RABBIT": 1,
     "SHI YI QU WAN": 1,
-    "SHOWU TOYS": 1,
     "SIMONTOYS x NORMAL PUPPY": 1,
     "SINONO": 3,
     "SKULLPANDA": 4,
     "SKYPIER TOYS": 1,
     "SLLO": 2,
     "SODA": 1,
-    "SUGAR POCKET": 1,
     "SUNNIE QUEENIE": 1,
     "SUNZTONZ": 1,
     "SUPERGG": 2,
     "SUPERTUTU": 1,
-    "SURE FUN": 26,
+    "SURE FUN": 27,
     "SURI": 3,
     "SUTOYS": 1,
     "SWEETIE": 1,
@@ -703,21 +701,19 @@
     "Treein Land": 42,
     "Two Dots": 1,
     "UFdoll": 2,
-    "UKI DOKI": 1,
     "UNTUNZAI": 1,
     "USAGI": 1,
     "UU&MEOW": 1,
     "UUTOY": 7,
     "Ukio": 1,
     "Ukio (JOTOYS)": 1,
-    "Unveiled Door": 2,
     "Upset Duck": 3,
     "VIORA": 1,
     "VIVICAT": 1,
     "VIVISTAR": 1,
     "VUUYOO": 2,
     "VUYOO": 1,
-    "Vava": 2,
+    "Vava": 4,
     "Vava Squishy": 5,
     "Vicoco": 1,
     "WALOSEEK": 2,
@@ -729,7 +725,7 @@
     "WENDY (DODO SUGAR)": 1,
     "WLLEMART": 11,
     "WOKII": 1,
-    "WOWLOI TOY": 2,
+    "WOWLOI": 1,
     "WUWU": 1,
     "Whatshisname": 2,
     "Wongdudu": 1,
@@ -800,7 +796,15 @@
     "zZoton": 5,
     "zZoton x Sanrio": 2,
     "大漂亮潮玩": 24,
-    "超级元气": 1
+    "模言": 1,
+    "超级元气": 2,
+    "B.DUCK": 1,
+    "Colliegogo": 1,
+    "SHOWU TOYS": 1,
+    "SUGAR POCKET": 1,
+    "UKI DOKI": 1,
+    "Unveiled Door": 2,
+    "WOWLOI TOY": 1
   },
   "sources": [
     {
@@ -808,52 +812,85 @@
       "name": "KikaGoods",
       "url": "https://www.kikagoods.com",
       "status": "complete",
-      "products_inspected": 932,
-      "eligible_listings": 616,
-      "checked": "2026-10-29",
-      "currency": "USD"
+      "products_inspected": 931,
+      "eligible_listings": 611,
+      "checked": "2026-11-02",
+      "currency": "USD",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Partial; changes found",
+        "finding": "613 of 616 saved URLs matched the feed; one renamed Honkai page redirects correctly and two return 404. New toy candidates include Great Power Fortune Cat and MayMei Greedy Bear. Acrylic badges, coasters and cards need separate scope review."
+      }
     },
     {
       "id": "toptoy",
       "name": "TOP TOY international store",
       "url": "https://gotoptoy.com",
       "status": "complete",
-      "products_inspected": 251,
-      "eligible_listings": 247,
-      "checked": "2026-10-29",
-      "currency": "USD"
+      "products_inspected": 250,
+      "eligible_listings": 246,
+      "checked": "2026-11-02",
+      "currency": "USD",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Partial; changes found",
+        "finding": "243 of 245 saved URLs matched; two return 404. Nommi Christmas Forest Feast and both Zootopia releases are already captured. Piropiroo is a new candidate; two Nommi crossbody bags are intentionally outside toy counts. Christmas Forest Feast single-box asking price is now USD 29.99, with availability not yet enabled."
+      }
     },
     {
       "id": "52toys",
       "name": "52TOYS international store",
       "url": "https://hi52toys.com",
       "status": "complete",
-      "products_inspected": 199,
-      "eligible_listings": 96,
-      "checked": "2026-10-29",
-      "currency": "USD"
+      "products_inspected": 200,
+      "eligible_listings": 97,
+      "checked": "2026-11-02",
+      "currency": "USD",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Saved assortment matched",
+        "finding": "All 96 saved URLs matched the 199-record feed; no saved-variant price or stock differences found. This validates the captured international assortment, not every mainland product."
+      }
     },
     {
       "id": "rolife",
       "name": "Rolife international store",
-      "url": "https://www.rolifeonline.com",
-      "status": "unavailable",
-      "products_inspected": 0,
-      "eligible_listings": 0,
-      "checked": "2026-10-29",
+      "url": "https://www.rolifeonline.com/collections/blind-box",
+      "status": "partial",
+      "products_inspected": 17,
+      "eligible_listings": 11,
+      "checked": "2026-11-02",
       "currency": "USD",
-      "issue": "Source could not be fully read; previously collected data retained."
+      "scope": "Public blind-box collection links; no advertised inventory denominator captured",
+      "pages": [
+        {
+          "url": "https://www.rolifeonline.com/collections/blind-box",
+          "product_links": 17,
+          "new_links": 17
+        }
+      ],
+      "issues": [],
+      "complete_current_inventory": false,
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Readable; direct assortment missing",
+        "finding": "The surprise-figure collection shows 28 items, while no direct-store offers are captured. BabyNanci Milk Tea has an exact product page describing six regular designs and one hidden design. DIY buildings and craft kits are outside this catalog."
+      }
     },
     {
       "id": "toyzero",
       "name": "TOYZEROPLUS",
-      "url": "https://toyzero-plus.com",
-      "status": "unavailable",
-      "products_inspected": 0,
-      "eligible_listings": 0,
-      "checked": "2026-10-29",
+      "url": "https://toyzeroplus.com",
+      "status": "complete",
+      "products_inspected": 322,
+      "eligible_listings": 41,
+      "checked": "2026-11-02",
       "currency": "HKD",
-      "issue": "Source could not be fully read; previously collected data retained."
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Corrected address; direct assortment missing",
+        "finding": "The working address is toyzeroplus.com, without a hyphen. Its 322-record feed contains 41 broad-rule blind-box candidates. These are missing direct-store offers; some series may already appear through resellers. Non-blind art toys, bags and accessories are excluded."
+      }
     },
     {
       "id": "molynk",
@@ -862,9 +899,14 @@
       "status": "unavailable",
       "products_inspected": 0,
       "eligible_listings": 0,
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "currency": "USD",
-      "issue": "Source could not be fully read; previously collected data retained."
+      "issue": "Source could not be fully read; previously collected data retained.",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Readable; direct assortment missing",
+        "finding": "Product pages are readable at /product/, although the previous Shopify-style collector failed. Wishful Bite Cake is listed at USD 79.99 with two named options. Unigo has conflicting design counts in its own description, so its assortment count remains unverified. Store identity assertions are not an independent authorization check."
+      }
     },
     {
       "id": "findingunicorn",
@@ -873,9 +915,14 @@
       "status": "unavailable",
       "products_inspected": 0,
       "eligible_listings": 0,
-      "checked": "2026-10-29",
+      "checked": "2026-11-02",
       "currency": "USD",
-      "issue": "Source could not be fully read; previously collected data retained."
+      "issue": "Source could not be fully read; previously collected data retained.",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Could not revalidate",
+        "finding": "The configured direct-store URL could not be retrieved in this audit. Reseller listings do not establish that the direct shop works or that its full assortment is covered. No empty-store conclusion is justified."
+      }
     },
     {
       "id": "kouhigh",
@@ -884,8 +931,13 @@
       "status": "complete",
       "products_inspected": 248,
       "eligible_listings": 122,
-      "checked": "2026-10-29",
-      "currency": "USD"
+      "checked": "2026-11-02",
+      "currency": "USD",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Maintenance; historical offers",
+        "finding": "The store opens a password/maintenance page. Its 122 captured records remain historical; current product identity, prices and stock could not be rechecked. A reopening message is not proof that trading resumed."
+      }
     },
     {
       "id": "toybeta",
@@ -893,91 +945,271 @@
       "url": "https://toybeta.com",
       "status": "complete",
       "products_inspected": 1280,
-      "eligible_listings": 1136,
-      "checked": "2026-10-29",
-      "currency": "USD"
+      "eligible_listings": 1134,
+      "checked": "2026-11-02",
+      "currency": "USD",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Partial; changes found",
+        "finding": "1,127 of 1,136 saved URLs matched; nine now return 404. Six new candidates include Rayan ROOM In My Heart and Peach Riot Sugar Mode. The Sweet Dreams Forecast page is correct despite its older Moon Gelato URL slug."
+      }
     },
     {
       "id": "didapop",
       "name": "DidaPop",
       "url": "https://didapop.com",
       "status": "complete",
-      "products_inspected": 1737,
-      "eligible_listings": 1540,
-      "checked": "2026-10-29",
-      "currency": "USD"
+      "products_inspected": 1747,
+      "eligible_listings": 1547,
+      "checked": "2026-11-02",
+      "currency": "USD",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Partial; changes found",
+        "finding": "1,536 of 1,537 saved listing URLs matched; one Nommi preorder page returns 404. Two new figure candidates were found. Three clothing pages pass the loose blind-box keyword rule but remain excluded. One product can have multiple offers, so listing URLs differ from card counts."
+      }
     },
     {
       "id": "pawmiga",
       "name": "Pawmiga World",
       "url": "https://pawmiga.myshopify.com",
       "status": "complete",
-      "products_inspected": 130,
-      "eligible_listings": 16,
-      "checked": "2026-10-29",
-      "currency": "USD"
+      "products_inspected": 138,
+      "eligible_listings": 22,
+      "checked": "2026-11-02",
+      "currency": "USD",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Partial; new listings found",
+        "finding": "All 16 saved URLs matched. Six additional named Lisa/Kira squishy listings were found. The store also lists many maker products without the word squishy; a keyword-only importer cannot establish full assortment coverage."
+      }
     },
     {
       "id": "iris",
       "name": "Iris Squishy",
       "url": "https://irissquishy.com",
       "status": "complete",
-      "products_inspected": 105,
-      "eligible_listings": 86,
-      "checked": "2026-10-29",
-      "currency": "USD"
+      "products_inspected": 104,
+      "eligible_listings": 85,
+      "checked": "2026-11-02",
+      "currency": "USD",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Partial; broken link found",
+        "finding": "85 of 86 saved URLs matched. The SmileGogo Lucky Cat page now returns 404. No differences were found in matched saved variants. Retailer authenticity and maker-authorization claims were not independently certified."
+      }
     },
     {
       "id": "ronron",
       "name": "RonRon Squishy",
       "url": "https://ronronsquishy.com",
       "status": "complete",
-      "products_inspected": 36,
-      "eligible_listings": 36,
-      "checked": "2026-10-29",
-      "currency": "USD"
+      "products_inspected": 38,
+      "eligible_listings": 38,
+      "checked": "2026-11-02",
+      "currency": "USD",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Saved assortment matched",
+        "finding": "All 36 saved URLs matched the 36-record feed, with no saved-variant differences. Chocolate Afternoon Tea and Butter & Cocoa are shown sold out on the storefront; historical presence should not be read as current availability."
+      }
     },
     {
       "id": "anthill",
       "name": "ANTHILL shopNplay",
       "url": "https://anthillshop.com",
       "status": "complete",
-      "products_inspected": 453,
+      "products_inspected": 525,
       "eligible_listings": 1,
-      "checked": "2026-10-29",
-      "currency": "USD"
+      "checked": "2026-11-02",
+      "currency": "USD",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Intentionally narrow collection",
+        "finding": "The one saved Molynk offer matched. The broader store feed has 509 records and 83 additional keyword candidates, including imported characters. The current collector deliberately restricts this source to Molynk; this is not a complete shop assortment."
+      }
     },
     {
       "id": "heartfelt",
       "name": "Heartfelt Chinese-squishy specialist",
       "url": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies",
       "status": "complete",
-      "products_inspected": 336,
-      "eligible_listings": 295,
-      "checked": "2026-10-29",
-      "currency": "HKD"
+      "products_inspected": 345,
+      "eligible_listings": 303,
+      "checked": "2026-11-02",
+      "currency": "HKD",
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Saved category links matched",
+        "finding": "All 278 saved listing URLs remain in the 336-link Chinese-squishy category crawl. The other 58 links need classification; some are mixed-product compilations or shopping services. Page prices localized to USD in this audit, so they were not compared with saved HKD prices."
+      }
     },
     {
       "id": "jotoys-official",
       "name": "JOTOYS international store",
       "url": "https://jotoys.store",
       "status": "complete",
-      "checked": "2026-10-30",
+      "checked": "2026-11-02",
       "raw_products_read": 56,
       "currency": "USD",
       "products_inspected": 56,
-      "eligible_listings": 37
+      "eligible_listings": 37,
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Partial; changes found",
+        "finding": "All 36 saved URLs matched. One saved full-set option returned to stock. OYO Portable Bag Mini and KOKOSA Fruit Party need product review; the mixed Collector’s Bundle is excluded. The Best Sellers label is retailer curation without published unit volumes."
+      }
     },
     {
       "id": "sonnyangel-jp",
       "name": "Sonny Angel Japan official store",
       "url": "https://www.sonnyangelstore.com",
       "status": "complete",
-      "checked": "2026-10-30",
+      "checked": "2026-11-02",
       "raw_products_read": 104,
       "currency": "JPY",
       "products_inspected": 104,
-      "eligible_listings": 56
+      "eligible_listings": 56,
+      "external_audit": {
+        "checked": "2026-10-31",
+        "status": "Saved assortment matched",
+        "finding": "All 56 saved URLs matched the 104-record Japanese feed; three variant stock differences were found. Japanese names defeat the English keyword rule, so its zero candidate count is not a completeness finding. SMISKI and other Dreams products must retain their own identities."
+      }
+    },
+    {
+      "id": "miniso-china",
+      "name": "MINISO China · official product showcase",
+      "url": "https://www.miniso.cn/product/ip.html",
+      "status": "partial",
+      "source_type": "official_showcase",
+      "checked": "2026-10-31",
+      "eligible_listings": 7,
+      "coverage_note": "Seven documented toy product/series pages or entries; not complete MINISO inventory. Prices and stock are not published on these showcase pages."
+    },
+    {
+      "id": "miniso-tmall",
+      "name": "MINISO official Tmall flagship",
+      "url": "https://miniso.tmall.com/",
+      "status": "not captured",
+      "source_type": "directory",
+      "checked": "2026-10-31",
+      "coverage_note": "Official Tmall inventory remains inaccessible. Eight third-party pages name the flagship seller; kept separate as secondary reports, not authenticated assortment.",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 0,
+      "secondary_listing_reports": 8,
+      "current_inventory_captured": false
+    },
+    {
+      "id": "chain-x11",
+      "name": "X11 · retail-chain reference",
+      "url": "https://www.kkgroup.cn/zh-CN/x11",
+      "status": "partial",
+      "source_type": "directory",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "checked": "2026-10-31",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 11,
+      "secondary_listing_reports": 0,
+      "current_inventory_captured": false
+    },
+    {
+      "id": "chain-kkv",
+      "name": "KKV · retail-chain reference",
+      "url": "https://www.kkgroup.cn/zh-CN/kkv",
+      "status": "partial",
+      "source_type": "directory",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "checked": "2026-10-31",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 10,
+      "secondary_listing_reports": 1,
+      "current_inventory_captured": false
+    },
+    {
+      "id": "chain-jiumu",
+      "name": "Jiumu · 九木杂物社 · retail-chain reference",
+      "url": "https://www.mg-pen.com/chenguangbrand/info.aspx?itemid=30",
+      "status": "partial",
+      "source_type": "directory",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "checked": "2026-11-02",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 8,
+      "secondary_listing_reports": 1,
+      "current_inventory_captured": false
+    },
+    {
+      "id": "chain-kule",
+      "name": "KuLe · 酷乐潮玩 · retail-chain reference",
+      "url": "https://www.maigoo.com/brand/141609.html",
+      "status": "partial",
+      "source_type": "directory",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "checked": "2026-10-31",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 5,
+      "secondary_listing_reports": 0,
+      "current_inventory_captured": false
+    },
+    {
+      "id": "chain-green-party",
+      "name": "The Green Party · retail-chain reference",
+      "url": "https://www.smsupermalls.cn/city/jjfloor.aspx",
+      "status": "partial",
+      "source_type": "directory",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "checked": "2026-10-31",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 7,
+      "secondary_listing_reports": 0,
+      "current_inventory_captured": false
+    },
+    {
+      "id": "chain-sanfu",
+      "name": "SANFU · 三福 · retail-chain reference",
+      "url": "https://www.sanfu.com/about",
+      "status": "partial",
+      "source_type": "directory",
+      "checked": "2026-11-02",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 5,
+      "secondary_listing_reports": 0,
+      "current_inventory_captured": false
+    },
+    {
+      "id": "chain-ipstar",
+      "name": "IPSTAR · 潮玩星球 · retail-chain reference",
+      "url": "https://weibo.com/6509826766",
+      "status": "partial",
+      "source_type": "directory",
+      "checked": "2026-10-31",
+      "coverage_note": "Dated sale announcements captured; a complete store/mini-program inventory feed remains unavailable. Prices and branch stock require fresh checks.",
+      "assortment_file": "chain-assortments.json",
+      "documented_sale_records": 11,
+      "secondary_listing_reports": 0,
+      "current_inventory_captured": false
     }
-  ]
+  ],
+  "external_source_audit": {
+    "checked": "2026-10-31",
+    "scope": "All 18 configured store/evidence destinations checked; 12 public feeds reconciled. Feed URL identity and saved variant differences checked, not a manual visual or authenticity audit of every product. No all-China completeness claim.",
+    "summary": {
+      "catalog_products": 4230,
+      "catalog_listing_urls": 4262,
+      "stores_checked": 18,
+      "feeds_completed": 12,
+      "live_feed_records": 5679,
+      "saved_feed_urls_matched": 3845,
+      "heartfelt_urls_matched": 278,
+      "broken_product_links": 15,
+      "renamed_links": 1,
+      "variant_changes": 83,
+      "price_differences": 38,
+      "stock_differences": 52,
+      "products_with_variant_changes": 48,
+      "broad_rule_candidates": 153
+    },
+    "report": "research.html"
+  }
 }
