@@ -2,8 +2,8 @@
   "reviewedAt": "2026-11-01",
   "sourceCheckedAt": "2026-11-01",
   "baseline": 6331,
-  "added": 3066,
-  "total": 9397,
+  "added": 3077,
+  "total": 9408,
   "scope": "Collected public listings; no full retailer inventory claim",
   "retailers": [
     {
@@ -115,10 +115,10 @@
     },
     {
       "retailer": "Albertsons",
-      "collected": 60,
+      "collected": 69,
       "added": 45,
       "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Indexed Albertsons product pages checked. Direct category access restricted; matched reference photos explicitly labeled. Store stock and prices not verified.",
+      "limitations": "Indexed Albertsons product pages checked. Direct category access restricted; matched reference photos explicitly labeled. Store stock and prices not verified. Partial expansion 2 November: 9 exact cleaning-tool listings with matched photos; category enumeration remains incomplete.",
       "sourcePages": [
         "https://www.albertsons.com/shop/pd/carbona-carpet-cleaner-oxy-powered-2-in-1-value-size-27-5-fl-oz/173200045",
         "https://www.albertsons.com/shop/pd/dawn-straw-cleaner-brush-4-ct/960302756",
@@ -181,7 +181,7 @@
         },
         {
           "category": "Cleaning Tools",
-          "collected": 22,
+          "collected": 31,
           "added": 22,
           "status": "Additional item evidence collected"
         },
@@ -521,7 +521,7 @@
       "sourceCheckedAt": "2026-11-01"
     },
     {
-      "retailer": "BJ’s Wholesale",
+      "retailer": "BJ\u2019s Wholesale",
       "collected": 32,
       "added": 29,
       "reviewStatus": "Public item-page evidence added; partial",
@@ -960,7 +960,7 @@
       "collected": 15,
       "added": 7,
       "reviewStatus": "Additional evidence checked; partial",
-      "limitations": "7 additional product-page records from the retailer’s same-day storefront. Fulfillment and prices are location-dependent. Other departments and pagination remain incomplete.",
+      "limitations": "7 additional product-page records from the retailer\u2019s same-day storefront. Fulfillment and prices are location-dependent. Other departments and pagination remain incomplete.",
       "sourcePages": [
         "https://sameday.dollartree.com/store/dollar-tree/products/17131411-goodsense-30-gallon-trash-bags-10-ct",
         "https://sameday.dollartree.com/store/dollar-tree/products/17318485-mr-clean-magic-eraser-original-cleaning-pads-with-durafoam-1-0-ct",
@@ -1393,7 +1393,7 @@
       ]
     },
     {
-      "retailer": "Lowe’s",
+      "retailer": "Lowe\u2019s",
       "collected": 121,
       "added": 12,
       "reviewStatus": "Additional sources checked; partial",
@@ -1882,7 +1882,7 @@
       ]
     },
     {
-      "retailer": "Sam’s Club",
+      "retailer": "Sam\u2019s Club",
       "collected": 562,
       "added": 2,
       "reviewStatus": "Additional sources checked; partial",
@@ -1985,10 +1985,10 @@
     },
     {
       "retailer": "TikTok Shop",
-      "collected": 929,
+      "collected": 931,
       "added": 820,
       "reviewStatus": "Additional sources checked; partial",
-      "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted.",
+      "limitations": "Public category/discovery cards only; local price and availability may vary. Recovery re-fetch may differ from earlier snapshot. Pagination/marketplace inventory not exhausted. Partial expansion 2 November: 2 exact cleaning-tool listings with matched photos; category enumeration remains incomplete.",
       "sourcePages": [
         "https://shop.tiktok.com/us/k/air-freshener",
         "https://shop.tiktok.com/us/k/airtight-food-storage",
@@ -2080,7 +2080,7 @@
         },
         {
           "category": "Cleaning Tools",
-          "collected": 79,
+          "collected": 81,
           "added": 61,
           "status": "Additional item evidence collected"
         },
@@ -2421,10 +2421,22 @@
     "newRecords": 20,
     "byRetailer": {
       "H-E-B": 10,
-      "BJ’s Wholesale": 9,
+      "BJ\u2019s Wholesale": 9,
       "Home Depot": 1
     },
     "method": "Public retailer pages and linked product images; no Firecrawl",
     "coverageComplete": false
+  },
+  "latestPartialExpansion": {
+    "date": "2026-11-02",
+    "byRetailer": {
+      "Albertsons": 9,
+      "TikTok Shop": 2
+    },
+    "comprehensiveReviewComplete": false,
+    "accessChecks": 449,
+    "accessFailuresOrChallenges": 72,
+    "emptyRetailerCategoryCells": 62,
+    "note": "Access checks do not establish complete product/category verification; previous full review dates retained."
   }
 }

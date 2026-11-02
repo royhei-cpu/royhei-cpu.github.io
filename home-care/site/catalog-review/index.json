@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-01",
-  "sourceCheckedAt": "2026-11-01",
+  "reviewedAt": "2026-11-02",
+  "sourceCheckedAt": "2026-11-02",
   "files": [
     "part-001.json",
     "part-002.json",
@@ -33,9 +33,10 @@
     "part-029.json",
     "part-030.json",
     "part-031.json",
-    "part-032.json"
+    "part-032.json",
+    "part-033.json"
   ],
-  "added": 3066,
+  "added": 3077,
   "photoPacks": [
     "photos-001.json.gz",
     "photos-002.json.gz",
@@ -234,6 +235,8 @@
     "public-sources-20261101-05.json.gz",
     "public-sources-20261101-06.json.gz",
     "public-sources-20261101-07.json.gz",
-    "public-sources-20261101-08.json.gz"
-  ]
+    "public-sources-20261101-08.json.gz",
+    "partial-20261102-photos.json.gz"
+  ],
+  "reviewScope": "Partial expansion only; comprehensive review incomplete"
 }
