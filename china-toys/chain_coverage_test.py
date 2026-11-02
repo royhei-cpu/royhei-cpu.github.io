@@ -40,6 +40,7 @@ try:
   with page.expect_download() as d:page.locator('#exportButton').click()
   rows=list(csv.DictReader(io.StringIO(Path(d.value.path()).read_text(encoding='utf-8-sig'))))
   assert len(rows)==7 and all(r['Image URL'] and r['Analysis sources'] for r in rows)
+  page.locator('#atlasBrandNav a[href="#retailChains"]').click()
   page.get_by_role('tab',name='MINISO',exact=True).click()
   expect(page.locator('#chainDetail')).to_contain_text('7 official showcase entries')
   expect(page.locator('#chainDetail')).to_contain_text('Tmall inventory')

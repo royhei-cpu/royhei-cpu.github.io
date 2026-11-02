@@ -50,6 +50,7 @@ try:
   checks.append('Every record has a summary; at least 24 reviewed profiles; brand reset; folded evidence and specifications; CSV retains images and adds analysis')
   page.goto(root,wait_until='domcontentloaded')
   expect(page.locator('#chainDetail .chain-assortment')).to_contain_text('POP MART US')
+  page.locator('#atlasBrandNav a[href="#retailChains"]').click()
   page.get_by_role('tab',name='TOP TOY',exact=True).click()
   expect(page.locator('#chainDetail')).to_contain_text('Brand products across all shops')
   page.locator('#chainDetail .chain-assortment').first.click()
