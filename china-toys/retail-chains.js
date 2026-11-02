@@ -47,7 +47,7 @@
     if(primary&&highlights){const more=document.createElement('details');more.className='chain-release-notes';more.innerHTML='<summary>Additional China release notes</summary>';highlights.before(more);more.append(highlights);}
     if(!primary){const status=document.createElement('p');status.className='chain-partial-label';status.textContent='Partial listing · '+assortment.total+' researched products. More products still need to be added.';panel.querySelector('.chain-card')?.after(status);}
     if(browse&&primary){const select=document.getElementById('retailer');if(select&&Array.from(select.options).some(o=>o.value===primary.source.id)){select.value=primary.source.id;select.dispatchEvent(new Event('change',{bubbles:true}));document.getElementById('results')?.scrollIntoView({behavior:'auto',block:'start'});}}
-    else if(browse){highlights?.scrollIntoView({behavior:'auto',block:'start'});}
+    else if(browse){document.getElementById('resetFilters')?.click();highlights?.scrollIntoView({behavior:'auto',block:'start'});}
 
     section.dataset.selectedChain=window.ChainAssortmentUI?.names[c.name]||'';
   }
