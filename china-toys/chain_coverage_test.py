@@ -51,7 +51,7 @@ try:
   for chain,count in expected.items():
    page.get_by_role('tab',name=chain,exact=True).click()
    expect(page.locator('.ca-product')).to_have_count(count)
-   expect(page.locator('.ca-count')).to_have_text(f'{count} product / series records')
+   expect(page.locator('.ca-count')).to_have_text(f'{count} documented highlights · not total store inventory')
    page.locator('.ca-search').fill('no matching product here')
    expect(page.locator('.ca-product')).to_have_count(0)
    page.locator('.ca-search').fill('')
