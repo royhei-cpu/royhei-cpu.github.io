@@ -40,7 +40,8 @@
  const intro=main.querySelector('.intro');if(intro){main.prepend(intro);intro.querySelector('h1').innerHTML='Find your next <span>China toy.</span>';intro.querySelector('p').textContent='Search blind boxes, squishies and character collectibles. Compare products, then export your selection.';}
  const stats=document.getElementById('stats');if(stats)stats.hidden=true;
  const weekly=document.getElementById('weeklyOverview');
- if(weekly){
+ function compactWeekly(){
+  if(!weekly||weekly.querySelector('.dashboard-weekly-details'))return;
   intro?.after(weekly);
   const heading=weekly.querySelector('h1');if(heading){const h=document.createElement('h2');h.textContent='This week';heading.replaceWith(h);}
   const root=weekly.querySelector('[data-executive-brief]')||weekly;
@@ -53,6 +54,7 @@
   const chainNote=weekly.querySelector('#weeklyChainReview');if(chainNote)detail.append(chainNote);
   const enrichment=window.CHAIN_ASSORTMENTS?.enrichment_review;if(enrichment){const stamp=document.createElement('p');stamp.className='dashboard-weekly-line';stamp.textContent='Latest source update: '+enrichment.checked+' · Photos and prices';counts.after(stamp);}
  }
+ compactWeekly();if(weekly)new MutationObserver(compactWeekly).observe(weekly,{childList:true,subtree:true});
  const chain=document.getElementById('retailChains');fold(chain,'Browse retail chains · MINISO, POP MART, TOP TOY & more','chainBrowser');
  const audit=document.getElementById('externalSourceAudit'),results=document.getElementById('results');
  if(audit&&results){results.after(audit);fold(audit,'Source checks & coverage');}
