@@ -2,7 +2,7 @@ name: Publish Tariff Signal Mirror
 on:
   push:
     branches: [main]
-    paths: ['pawlish/**', 'home-care/**', 'china-toys/**', '.github/workflows/publish.yml']
+    paths: ['pawlish/**', 'home-care/**', 'china-toys/**', 'luggage-atlas/**', '.github/workflows/publish.yml']
   workflow_dispatch:
   schedule:
     - cron: "15 1 * * *"
@@ -113,6 +113,11 @@ jobs:
           python3 china-toys/build_source_audit_report.py
           python3 china-toys/apply_source_audit.py --site _site/china-toys
           cp china-toys/research.html china-toys/research.css china-toys/research.js china-toys/source-audit.json china-toys/source-audit-data.js china-toys/source-audit.js _site/china-toys/
+      - name: Add Luggage Atlas research
+        run: |
+          python3 luggage-atlas/validate.py
+          node --check luggage-atlas/app.js
+          cp -R luggage-atlas _site/luggage-atlas
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
