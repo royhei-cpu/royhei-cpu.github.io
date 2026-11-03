@@ -34,7 +34,8 @@ async function init(){
  const panel=root.querySelector('#analysisPanel');let mode='demand';
  const bars=rows=>{const max=Math.max(1,...rows.map(r=>r.value));return '<div class="analysis-bars">'+rows.map(r=>`<div class="analysis-row"><a href="${esc(r.href)}">${esc(r.name)}</a><div class="analysis-track" aria-hidden="true"><span style="width:${Math.max(0,r.value/max*100)}%"></span></div><strong>${esc(r.label??fmt(r.value))}</strong></div>`).join('')+'</div>'};
 
- function portrait(name){const term=String(name).replace(/^#\d+\s*/,'').toLowerCase();const p=data.products.find(p=>p.image&&!String(p.image).includes('dfea347bb75e6f7e-4a9be7b8')&&((p.ip||'').toLowerCase()===term||String(p.name||'').toLowerCase().includes(term)));return p?'<img class="chart-portrait" src="'+esc(p.image)+'" alt="'+esc(p.name)+' · example product" loading="lazy" onerror="this.hidden=true">':'';}
+ function portrait(name){const norm=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');const term=norm(name);const pop=['themonsters','labubu','twinkletwinkle','crybaby','dimoo','skullpanda','hirono','molly','zsiga'].includes(term);const p=data.products.find(p=>p.image&&!String(p.image).includes('dfea347bb75e6f7e-4a9be7b8')&&(!pop||norm(p.brand)==='popmart')&&(norm(p.name).includes(term)||(term==='themonsters'&&norm(p.name).includes('labubu'))));return p?'<img class="chart-portrait" src="'+esc(p.image)+'" alt="'+esc(p.name)+' · example product" loading="lazy" onerror="this.hidden=true">':'';}
+
  function retailers(layout='total'){
  const host=u=>{try{return new URL(u).hostname.replace(/^www\\./,'')}catch{return ''}};
  const byHost=new Map((data.sources||[]).map(s=>[host(s.url),s.id]));
