@@ -23,6 +23,12 @@ class WriterWorkflowTests(unittest.TestCase):
                 self.assertNotIn("pull_request:", text)
         self.assertEqual(len(writers), 9)
 
+    def test_artifact_recovery_requires_explicit_dispatch(self):
+        release = (WORKFLOWS / 'china-toys-tutorial-release.yml').read_text()
+        self.assertIn('  workflow_dispatch:', release)
+        self.assertNotIn('  push:', release)
+        self.assertNotIn('  schedule:', release)
+
     def test_schedules_are_preserved(self):
         self.assertIn("cron: '30 0 * * 1'", (WORKFLOWS / "china-toys-refresh.yml").read_text())
         self.assertIn('cron: "15 1 * * *"', (WORKFLOWS / "publish.yml").read_text())

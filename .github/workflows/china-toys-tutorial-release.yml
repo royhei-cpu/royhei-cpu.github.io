@@ -1,9 +1,8 @@
 name: Release China Toy Atlas Tutorial
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['.github/workflows/china-toys-tutorial-release.yml']
+# Artifact recovery is an explicit release action. Maintenance edits to this
+# workflow must not replace newer checked-in tutorial media with an old artifact.
 permissions:
   contents: write
   actions: write
