@@ -120,16 +120,44 @@
       "audienceBasis": "Analyst inference from the named collection’s design, features and price positioning; not measured buyer age, gender, income or market share.",
       "test": "Compare like-for-like capacity, weight, warranty and delivered price against Open Story.",
       "supplier": {
-        "status": "Origin only; factory unnamed",
-        "entity": "Amazon Basics is the listed brand, not a verified assembly factory",
-        "factory": "Not verified",
-        "origin": "China or Cambodia (product-page statement)",
-        "scope": "ASIN B071VG5N9D says the product may originate in either country. The actual supplier and factory of a particular unit are not established.",
-        "source": "https://www.amazon.com/dp/B071VG5N9D",
+        "status": "Exact ASIN listing; factory role unconfirmed",
+        "entity": "Zhejiang New Comer Bags Marketing Co. Ltd. — listed manufacturer",
+        "factory": "Zhejiang Jaslight Luggage and Bags Manufacturing Co., Ltd. — listed packer; assembly role not confirmed.",
+        "origin": "Both listing addresses: Cross of Pingxing Road & Shixin Road, Xindai Town, Pinghu, Zhejiang, China 314211.",
+        "scope": "Desertcart product metadata matches ASIN B071VG5N9D and model LN20164-20. It names New Comer as manufacturer and Jaslight as packer. Regional listing metadata does not confirm the factory for a current US production lot.",
+        "source": "https://fiji.desertcart.com/products/64663872-amazon-basics-polycarbonate-hard-53-cms-suitcase-n989-black",
         "components": "",
-        "tradeLead": "",
+        "tradeLead": "The third-party page has regional importer details and inconsistent title/material/capacity fields. Confirm a current model label and manufacturer declaration. Newcomer’s own site corroborates luggage manufacturing in Pinghu, but not this Amazon order.",
         "checked": "2026-11-03",
-        "skuFactoryVerified": false
+        "skuFactoryVerified": false,
+        "records": [
+          {
+            "date": "2026-11-03",
+            "reference": "ASIN B071VG5N9D · model LN20164-20 · GTIN 00841710177176",
+            "finding": "Manufacturer and packer fields captured; no production-lot identifier."
+          }
+        ],
+        "sources": [
+          {
+            "label": "Desertcart · exact ASIN manufacturer / packer",
+            "url": "https://fiji.desertcart.com/products/64663872-amazon-basics-polycarbonate-hard-53-cms-suitcase-n989-black",
+            "kind": "Third-party product metadata",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "Newcomer · group manufacturing profile",
+            "url": "https://www.newcomer.cn/about/show.php?id=124&lang=en",
+            "kind": "Official company context",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "Amazon US · sampled ASIN",
+            "url": "https://www.amazon.com/dp/B071VG5N9D",
+            "kind": "Official product reference",
+            "checked": "2026-11-03"
+          }
+        ],
+        "modelMatch": "Exact ASIN matched in third-party listing; assembly factory / lot unconfirmed"
       },
       "checked": "2026-11-03"
     },
@@ -168,16 +196,44 @@
       "audienceBasis": "Analyst inference from the named collection’s design, features and price positioning; not measured buyer age, gender, income or market share.",
       "test": "Test finish durability, recognition at baggage claim and willingness to pay for subtle design.",
       "supplier": {
-        "status": "Not verified",
-        "entity": "Not publicly verified in this research",
-        "factory": "Not publicly verified in this research",
-        "origin": "Not verified",
-        "scope": "Brand home and seller identity do not establish manufacturing origin or factory. Obtain a manufacturer disclosure tied to the exact model and production lot.",
-        "source": null,
+        "status": "Trade-linked manufacturer; model unassigned",
+        "entity": "PT Jinlin Luggage Indonesia → ATR Brands USA Inc trading as Antler",
+        "factory": "PT Jinlin Luggage Indonesia — Central Java. Trade address: Jl Raya Jepara–Kudus Km 28, Sengonbugel, Mayong, Jepara.",
+        "origin": "Indonesia — Jinlin company location; individual item origin not assigned.",
+        "scope": "Importer trading name and trolley-case shipment establish the Antler supplier link. No retail model or production lot is specified.",
+        "source": "https://www.importgenius.com/importers/atr-brands-usa-inc-trading-as-antle",
         "components": "",
-        "tradeLead": "",
+        "tradeLead": "Address conflict: Travel Sentry lists Gatot Subroto, block 8 no. 1, Semarang; trade records list Jepara. Active assembly site for the selected model is unresolved. Routing countries in manifests are not treated as factory origin.",
         "checked": "2026-11-03",
-        "skuFactoryVerified": false
+        "skuFactoryVerified": false,
+        "records": [
+          {
+            "date": "2026-10-26",
+            "reference": "BOL SQXNSRGOS26I0083",
+            "finding": "Trolley cases supplied by PT Jinlin to ATR Brands USA Inc trading as Antler."
+          }
+        ],
+        "sources": [
+          {
+            "label": "ImportGenius · Antler importer shipment",
+            "url": "https://www.importgenius.com/importers/atr-brands-usa-inc-trading-as-antle",
+            "kind": "Third-party shipment records",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "ImportGenius · Jinlin shipments",
+            "url": "https://www.importgenius.com/suppliers/pt-jinlin-luggage-indonesia",
+            "kind": "Third-party shipment records",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "Travel Sentry · manufacturer profile",
+            "url": "https://www.luggage-factories.com/es/company-profile/15943",
+            "kind": "Supplier-submitted industry directory",
+            "checked": "2026-11-03"
+          }
+        ],
+        "modelMatch": "Brand / cargo evidence; exact SKU / lot unassigned"
       },
       "checked": "2026-11-03"
     },
@@ -240,16 +296,44 @@
       "audienceBasis": "Analyst inference from the named collection’s design, features and price positioning; not measured buyer age, gender, income or market share.",
       "test": "Test packed access, floor space, lost volume and tipping; distinguish laptop pockets from full main-compartment access.",
       "supplier": {
-        "status": "Not verified",
-        "entity": "Not publicly verified in this research",
-        "factory": "Not publicly verified in this research",
-        "origin": "Not verified",
-        "scope": "Brand home and seller identity do not establish manufacturing origin or factory. Obtain a manufacturer disclosure tied to the exact model and production lot.",
-        "source": null,
+        "status": "Trade-linked manufacturer; model unassigned",
+        "entity": "PT Jinlin Luggage Indonesia; Eminent Luggage Corp.",
+        "factory": "PT Jinlin Luggage Indonesia — Central Java. Trade address: Jl Raya Jepara–Kudus Km 28, Sengonbugel, Mayong, Jepara. Eminent assembly site for this shipment not established.",
+        "origin": "Indonesia — Jinlin company location; individual item origin not assigned.",
+        "scope": "JRSK Inc d/b/a Away is named in trade records. Jinlin is a listed partner; a separate dated suitcase shipment names Eminent. These are supplier relationships across the brand, not a factory assignment for the pictured collection.",
+        "source": "https://www.importgenius.com/importers/jrsk-inc-dba-away",
         "components": "",
-        "tradeLead": "",
+        "tradeLead": "Address conflict: Travel Sentry lists Gatot Subroto, block 8 no. 1, Semarang; trade records list Jepara. Active assembly site for the selected model is unresolved. Routing countries in manifests are not treated as factory origin.",
         "checked": "2026-11-03",
-        "skuFactoryVerified": false
+        "skuFactoryVerified": false,
+        "records": [
+          {
+            "date": "2026-07-08",
+            "reference": "BOL SDBJJA00514663",
+            "finding": "Suitcases from Eminent Luggage Corp. to JRSK Inc d/b/a Away."
+          }
+        ],
+        "sources": [
+          {
+            "label": "ImportGenius · Away importer / Eminent shipment",
+            "url": "https://www.importgenius.com/importers/jrsk-inc-dba-away",
+            "kind": "Third-party shipment records",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "ImportGenius · Jinlin shipments",
+            "url": "https://www.importgenius.com/suppliers/pt-jinlin-luggage-indonesia",
+            "kind": "Third-party shipment records",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "Travel Sentry · manufacturer profile",
+            "url": "https://www.luggage-factories.com/es/company-profile/15943",
+            "kind": "Supplier-submitted industry directory",
+            "checked": "2026-11-03"
+          }
+        ],
+        "modelMatch": "Brand / cargo evidence; exact SKU / lot unassigned"
       },
       "checked": "2026-11-03"
     },
@@ -336,16 +420,44 @@
       "audienceBasis": "Analyst inference from the named collection’s design, features and price positioning; not measured buyer age, gender, income or market share.",
       "test": "Test laptop access, wheel noise, handle wobble and repair turnaround with frequent travelers.",
       "supplier": {
-        "status": "Historical trade lead; not factory proof",
-        "entity": "C&C Luggage Manufacturing Co., Ltd. (trade-record lead)",
-        "factory": "Not verified",
-        "origin": "Supplier reported in China; product origin not established",
-        "scope": "Public ImportGenius preview reports past shipments to Briggs and Riley Travelware. Shipment date/model not visible in this preview; not proof of current manufacture or of Sympatico.",
-        "source": "https://www.importgenius.com/importers/briggs-and-riley-travelware",
+        "status": "Trade-linked manufacturer; model unassigned",
+        "entity": "PT Jinlin Luggage Indonesia → Briggs & Riley Travelware LLC",
+        "factory": "PT Jinlin Luggage Indonesia — Central Java. Trade address: Jl Raya Jepara–Kudus Km 28, Sengonbugel, Mayong, Jepara.",
+        "origin": "Indonesia — Jinlin company location; individual item origin not assigned.",
+        "scope": "ImportInfo associates Briggs & Riley Travelware LLC with Jinlin. This supports a company-level supplier relationship; the public association table does not identify a particular product, material or lot.",
+        "source": "https://www.importinfo.com/pt-jinlin-luggage-indonesia",
         "components": "",
-        "tradeLead": "Request a dated bill of lading plus manufacturer legal entity, production address and exact model link before relying on this relationship.",
+        "tradeLead": "Address conflict: Travel Sentry lists Gatot Subroto, block 8 no. 1, Semarang; trade records list Jepara. Active assembly site for the selected model is unresolved. Routing countries in manifests are not treated as factory origin.",
         "checked": "2026-11-03",
-        "skuFactoryVerified": false
+        "skuFactoryVerified": false,
+        "records": [
+          {
+            "date": "2026-11-03",
+            "reference": "PT Jinlin · Associated Companies",
+            "finding": "Briggs & Riley Travelware LLC appears in the trade association table; no exact model assigned."
+          }
+        ],
+        "sources": [
+          {
+            "label": "ImportInfo · Jinlin importer associations",
+            "url": "https://www.importinfo.com/pt-jinlin-luggage-indonesia",
+            "kind": "Third-party trade associations",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "ImportGenius · Jinlin shipments",
+            "url": "https://www.importgenius.com/suppliers/pt-jinlin-luggage-indonesia",
+            "kind": "Third-party shipment records",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "Travel Sentry · manufacturer profile",
+            "url": "https://www.luggage-factories.com/es/company-profile/15943",
+            "kind": "Supplier-submitted industry directory",
+            "checked": "2026-11-03"
+          }
+        ],
+        "modelMatch": "Brand / cargo evidence; exact SKU / lot unassigned"
       },
       "checked": "2026-11-03"
     },
@@ -384,16 +496,43 @@
       "audienceBasis": "Analyst inference from the named collection’s design, features and price positioning; not measured buyer age, gender, income or market share.",
       "test": "Test color preference and scuff visibility; separate a color launch from proven sell-through.",
       "supplier": {
-        "status": "Not verified",
-        "entity": "Not publicly verified in this research",
-        "factory": "Not publicly verified in this research",
-        "origin": "Not verified",
-        "scope": "Brand home and seller identity do not establish manufacturing origin or factory. Obtain a manufacturer disclosure tied to the exact model and production lot.",
-        "source": null,
+        "status": "Trade-linked manufacturer; model unassigned",
+        "entity": "PT Jinlin Luggage Indonesia → Beach House Group Sales LLC",
+        "factory": "PT Jinlin Luggage Indonesia — Central Java. Trade address: Jl Raya Jepara–Kudus Km 28, Sengonbugel, Mayong, Jepara.",
+        "origin": "Indonesia — Jinlin company location; individual item origin not assigned.",
+        "scope": "Shipment descriptions explicitly name BÉIS. The Carry-On Roller shipment identifies Black and Maple colors, but no retail SKU or production lot is established.",
+        "source": "https://www.importgenius.com/suppliers/pt-jinlin-luggage-indonesia",
         "components": "",
-        "tradeLead": "",
+        "tradeLead": "Address conflict: Travel Sentry lists Gatot Subroto, block 8 no. 1, Semarang; trade records list Jepara. Active assembly site for the selected model is unresolved. Routing countries in manifests are not treated as factory origin.",
         "checked": "2026-11-03",
-        "skuFactoryVerified": false
+        "skuFactoryVerified": false,
+        "records": [
+          {
+            "date": "2026-10-29",
+            "reference": "BOL FLXT00004066364A",
+            "finding": "Trolley cases explicitly branded Beis, importer Beach House Group Sales LLC."
+          },
+          {
+            "date": "2026-10-29",
+            "reference": "BOL FLXT00004066362A",
+            "finding": "Carry-On Roller in Black and Maple to the same importer."
+          }
+        ],
+        "sources": [
+          {
+            "label": "ImportGenius · Jinlin shipments",
+            "url": "https://www.importgenius.com/suppliers/pt-jinlin-luggage-indonesia",
+            "kind": "Third-party shipment records",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "Travel Sentry · manufacturer profile",
+            "url": "https://www.luggage-factories.com/es/company-profile/15943",
+            "kind": "Supplier-submitted industry directory",
+            "checked": "2026-11-03"
+          }
+        ],
+        "modelMatch": "Brand / cargo evidence; exact SKU / lot unassigned"
       },
       "checked": "2026-11-03"
     },
@@ -576,16 +715,38 @@
       "audienceBasis": "Analyst inference from the named collection’s design, features and price positioning; not measured buyer age, gender, income or market share.",
       "test": "Test color preference and scuff visibility; separate a color launch from proven sell-through.",
       "supplier": {
-        "status": "Not verified",
-        "entity": "Not publicly verified in this research",
-        "factory": "Not publicly verified in this research",
-        "origin": "Not verified",
-        "scope": "Brand home and seller identity do not establish manufacturing origin or factory. Obtain a manufacturer disclosure tied to the exact model and production lot.",
-        "source": null,
+        "status": "Trade-linked manufacturer; model unassigned",
+        "entity": "PT Jinlin Luggage Indonesia → DELSEY Luggage Inc",
+        "factory": "PT Jinlin Luggage Indonesia — Central Java. Trade address: Jl Raya Jepara–Kudus Km 28, Sengonbugel, Mayong, Jepara.",
+        "origin": "Indonesia — Jinlin company location; individual item origin not assigned.",
+        "scope": "Dated trolley-case shipments name DELSEY as importer. Evidence is at brand and cargo-category level; the pictured collection is not identified.",
+        "source": "https://www.importgenius.com/suppliers/pt-jinlin-luggage-indonesia",
         "components": "",
-        "tradeLead": "",
+        "tradeLead": "Address conflict: Travel Sentry lists Gatot Subroto, block 8 no. 1, Semarang; trade records list Jepara. Active assembly site for the selected model is unresolved. Routing countries in manifests are not treated as factory origin.",
         "checked": "2026-11-03",
-        "skuFactoryVerified": false
+        "skuFactoryVerified": false,
+        "records": [
+          {
+            "date": "2026-11-01",
+            "reference": "BOL HLCUJK1260789323",
+            "finding": "Trolley cases shipped to DELSEY Luggage Inc."
+          }
+        ],
+        "sources": [
+          {
+            "label": "ImportGenius · Jinlin shipments",
+            "url": "https://www.importgenius.com/suppliers/pt-jinlin-luggage-indonesia",
+            "kind": "Third-party shipment records",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "Travel Sentry · manufacturer profile",
+            "url": "https://www.luggage-factories.com/es/company-profile/15943",
+            "kind": "Supplier-submitted industry directory",
+            "checked": "2026-11-03"
+          }
+        ],
+        "modelMatch": "Brand / cargo evidence; exact SKU / lot unassigned"
       },
       "checked": "2026-11-03"
     },
@@ -1248,16 +1409,32 @@
       "audienceBasis": "Analyst inference from the named collection’s design, features and price positioning; not measured buyer age, gender, income or market share.",
       "test": "Test finish durability, recognition at baggage claim and willingness to pay for subtle design.",
       "supplier": {
-        "status": "Not verified",
-        "entity": "Not publicly verified in this research",
-        "factory": "Not publicly verified in this research",
-        "origin": "Not verified",
-        "scope": "Brand home and seller identity do not establish manufacturing origin or factory. Obtain a manufacturer disclosure tied to the exact model and production lot.",
-        "source": null,
+        "status": "Trade-linked supplier; factory unknown",
+        "entity": "Allied Winner (HK) Limited → Monos Travel Ltd.",
+        "factory": "Assembly factory not established. Allied Winner’s Hong Kong trade contact is not evidence of a production site.",
+        "origin": "Shipment database lists China; exact manufacturing plant unresolved.",
+        "scope": "A dated aluminum-luggage shipment names Monos Travel Ltd. as importer and Allied Winner as supplier. Do not apply this relationship to Monos polycarbonate collections or label the exporter as a factory.",
+        "source": "https://www.importgenius.com/suppliers/allied-winner-hk-limited",
         "components": "",
-        "tradeLead": "",
+        "tradeLead": "Resolve the exporter-to-assembly-factory relationship and exact model before factory assignment.",
         "checked": "2026-11-03",
-        "skuFactoryVerified": false
+        "skuFactoryVerified": false,
+        "records": [
+          {
+            "date": "2026-10-01",
+            "reference": "BOL EGLV142654875459",
+            "finding": "Aluminum luggage from Allied Winner (HK) Limited to Monos Travel Ltd."
+          }
+        ],
+        "sources": [
+          {
+            "label": "ImportGenius · Allied Winner / Monos shipment",
+            "url": "https://www.importgenius.com/suppliers/allied-winner-hk-limited",
+            "kind": "Third-party shipment records",
+            "checked": "2026-11-03"
+          }
+        ],
+        "modelMatch": "Aluminum-luggage category matched; exact SKU / lot unassigned"
       },
       "checked": "2026-11-03"
     },
@@ -1608,16 +1785,56 @@
       "audienceBasis": "Analyst inference from the named collection’s design, features and price positioning; not measured buyer age, gender, income or market share.",
       "test": "Test finish durability, recognition at baggage claim and willingness to pay for subtle design.",
       "supplier": {
-        "status": "Origin only; factory unnamed",
-        "entity": "Final assembly supplier not publicly identified in reviewed sources",
-        "factory": "Not verified",
-        "origin": "Quanzhou, China and Indonesia (listed possible origins)",
-        "scope": "Quince product disclosure supplies origin locations, not a named assembly company. No evidence that Quince and Away share a factory. Check exact SKU/lot origin label.",
-        "source": "https://www.quince.com/unisex/carry-on-plus-polycarbonate-suitcase?color=wine",
+        "status": "Trade-linked manufacturer; model unassigned",
+        "entity": "PT Jinlin Luggage Indonesia; Quanzhou Jinlin High New Environmen (trade-record name)",
+        "factory": "PT Jinlin Luggage Indonesia — Central Java. Trade address: Jl Raya Jepara–Kudus Km 28, Sengonbugel, Mayong, Jepara. China supplier address: Bang De Industrial Area, Yongchun, Quanzhou, Fujian.",
+        "origin": "Indonesia and China — supplier locations, not the origin of every Quince item.",
+        "scope": "Quince identifies its legal entity as Last Brand Inc. ImportInfo links that entity to both Jinlin companies; ImportGenius also lists Last Brand as a Quanzhou Jinlin partner. This establishes a brand-level supplier link, not a particular Carry-On variant or exclusive supplier.",
+        "source": "https://www.importinfo.com/last-brand-inc",
         "components": "YKK zippers are listed on the reviewed Carry-On page. A named zipper supplier does not identify the suitcase factory.",
-        "tradeLead": "",
+        "tradeLead": "Address conflict: Travel Sentry lists Gatot Subroto, block 8 no. 1, Semarang; trade records list Jepara. Active assembly site for the selected model is unresolved. Routing countries in manifests are not treated as factory origin.",
         "checked": "2026-11-03",
-        "skuFactoryVerified": false
+        "skuFactoryVerified": false,
+        "records": [
+          {
+            "date": "2026-11-03",
+            "reference": "Last Brand Inc · Associated Companies",
+            "finding": "PT Jinlin and Quanzhou Jinlin appear in the importer association table; individual Quince SKU and shipment date not established from this table."
+          }
+        ],
+        "sources": [
+          {
+            "label": "ImportInfo · Last Brand supplier associations",
+            "url": "https://www.importinfo.com/last-brand-inc",
+            "kind": "Third-party trade associations",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "Quince · Last Brand legal identity",
+            "url": "https://www.quince.com/warranty",
+            "kind": "Official legal identity",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "ImportGenius · Quanzhou Jinlin partners",
+            "url": "https://www.importgenius.com/suppliers/quanzhou-jinlin-high-new-environmen",
+            "kind": "Third-party trade associations",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "ImportGenius · Jinlin shipments",
+            "url": "https://www.importgenius.com/suppliers/pt-jinlin-luggage-indonesia",
+            "kind": "Third-party shipment records",
+            "checked": "2026-11-03"
+          },
+          {
+            "label": "Travel Sentry · manufacturer profile",
+            "url": "https://www.luggage-factories.com/es/company-profile/15943",
+            "kind": "Supplier-submitted industry directory",
+            "checked": "2026-11-03"
+          }
+        ],
+        "modelMatch": "Brand legal entity matched; exact product / lot unassigned"
       },
       "checked": "2026-11-03"
     },

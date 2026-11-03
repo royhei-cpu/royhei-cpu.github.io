@@ -49,6 +49,15 @@ Run `python3 luggage-atlas/validate.py` from the repository root and `node --che
 
 ## Style, shopper and manufacturing extension — 3 November 2026
 
-98 brand/collection assessments, 47 retail channels and 67 price observations. Quince was added with two official US price references and two clearly differentiated image references. Amazon remains sampled rather than exhaustive. `fashion.json` provides an assessment and sourcing status for every brand. Shopper groups are editorial need-based hypotheses, not measured demographics. Trend evidence distinguishes launch/collection activity, a marketplace snapshot and unverified growth. There are 15 profiles with sourced manufacturing context of differing strength; none establishes an exact SKU/lot factory match. Unknown factories stay unknown. Recheck dated trade leads before treating a supplier as current.
+98 brand/collection assessments, 47 retail channels and 67 price observations. Quince was added with two official US price references and two clearly differentiated image references. Amazon remains sampled rather than exhaustive. `fashion.json` provides an assessment and sourcing status for every brand. Shopper groups are editorial need-based hypotheses, not measured demographics. Trend evidence distinguishes launch/collection activity, a marketplace snapshot and unverified growth. There are 20 profiles with sourced manufacturing context of differing strength; none establishes an exact SKU/lot factory match. Unknown factories stay unknown. Recheck dated trade leads before treating a supplier as current.
 
 Maintain `fashion.json` and `fashion.js` together. New profiles must have a style assessment, signal provenance and explicit supplier status. Do not infer OEM relationships from visual resemblance, brand home, retailer identity or component suppliers. All filters, shortlist comparison and CSV exports include the new fields.
+
+
+## Third-party supplier research — 3 November 2026
+
+Eight profiles now include named trade suppliers or listing entities: Quince, Amazon Basics, Away, BÉIS, DELSEY PARIS, Antler, Briggs & Riley, and Monos. Open the **Suppliers & factories** tab, search a brand, then expand **Verify with sources**. Company names and factory/site fields also appear in each brand profile and comparison.
+
+Each new record preserves source type, retrieval date, shipment reference where visible, entity role and model-match scope. Quince’s Last Brand legal identity is bridged to trade associations. Amazon’s exact ASIN listing names a manufacturer and a packer, with regional metadata conflicts disclosed. Monos’s exporter is not promoted to a factory. Jinlin’s Jepara trade address and Semarang directory address remain unresolved. Directory certifications/customer logos are supplier claims, not independently validated audits or proof of a Target Open Story relationship. No exact production-lot factory match is claimed.
+
+Weekly updates should check these sources and seek new model/lot evidence. Preserve previous observations rather than treating a rolling public shipment table as a permanent snapshot. Customs databases may reuse the same underlying manifests; two database listings are not two independent audits. Avoid inferring sales, exclusivity or identical product quality from shared suppliers.

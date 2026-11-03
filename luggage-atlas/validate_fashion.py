@@ -12,8 +12,16 @@ for bid,r in f['records'].items():
  s=r['supplier'];assert s['skuFactoryVerified'] is False
  assert all(s[k] for k in ['status','entity','factory','origin','scope','checked'])
  if s['status']!='Not verified':assert s['source'].startswith('https://')
-assert f['records']['quince']['supplier']['status']=='Origin only; factory unnamed'
-assert f['records']['amazon-basics']['supplier']['factory']=='Not verified'
+assert 'PT Jinlin' in f['records']['quince']['supplier']['entity']
+assert 'packer' in f['records']['amazon-basics']['supplier']['factory']
+assert 'B071VG5N9D' in f['records']['amazon-basics']['supplier']['records'][0]['reference']
+for r in f['records'].values():
+ s=r['supplier']
+ for x in s.get('sources',[]):
+  assert all(x[k] for k in ['label','kind','checked']) and x['url'].startswith('https://')
+ for x in s.get('records',[]):
+  assert all(x[k] for k in ['date','reference','finding'])
+ if s.get('records'):assert s.get('sources') and s.get('modelMatch')
 assert any(r['name']=='Amazon US' for r in d['retailers'])
 assert any(r['name']=='Quince' for r in d['retailers'])
 assert len([x for x in d['prices'] if x['brand']=='Quince'])==2
