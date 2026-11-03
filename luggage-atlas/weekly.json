@@ -5,7 +5,7 @@
   "baseline": true,
   "schedule": "Mondays around 10:00 a.m. Shenzhen time",
   "nextScheduled": "2026-11-09",
-  "coverage": "Focused global launch scan plus the existing 97-brand / 46-channel source map. This is not an exhaustive worldwide launch census.",
+  "coverage": "Focused global launch scan plus the existing 98-brand / 47-channel source map. This is not an exhaustive worldwide launch census.",
   "items": [
     {
       "id": "kith-tumi-2026",
@@ -53,7 +53,16 @@
       "source": "https://www.mistore.jp/store/shinjuku/shops/men/travelbag/shopnews_list/shopnews016.html",
       "implication": "Check whether a soft neutral improves the coordinated travel story. The modular divider merits packing tests rather than assuming a color launch creates new demand.",
       "theme": "Color & coordination",
-      "photoId": null
+      "photoId": null,
+      "photo": {
+        "id": "weekly2",
+        "imageUrl": "https://ug7rtk3vglg3.global.ssl.fastly.net/images/thumbnail/max-width/810/images/upload/2026/10/45887b9d91860c09e6256b11a8ea9225.jpg",
+        "caption": "BRIEFING SD Light Beige · Isetan campaign reference",
+        "source": "https://www.imn.jp/en/post/108057209067",
+        "view": "Exterior / launch collection",
+        "checked": "2026-11-03",
+        "scope": "Official Isetan editorial photograph for the SD Light Beige launch. Exterior campaign reference; not an interior view or proof of current stock."
+      }
     },
     {
       "id": "delsey-burgundy-coverage",

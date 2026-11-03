@@ -72,3 +72,7 @@ Weekly updates should check these sources and seek new model/lot evidence. Prese
 - Premium styling is in `premium.css`. Keep the research scope, dated observations and exact-model limitations visible.
 
 Validation: `python validate.py`, `node --check app.js`, `node --check workbench.js`, and `node test_workbench.cjs`. Test cost arithmetic, missing inputs, FX isolation, persistence, four-offer limit and selected CSV.
+
+
+## Weekly dashboard interaction repair — 3 November 2026
+Counts and chart bars now drill into matching records. Release status, brand and design-direction dropdowns combine; reset restores the six-record briefing. Every title/card opens a launch-detail dialog with a source-linked photograph, observed pricing and Open Story implication. Directory and interior-photo counts open their corresponding collections. Weekly CSV exports the visible filtered rows and resolves both shared photo IDs and weekly inline photos. BRIEFING SD Light Beige uses a bundled photograph from Isetan’s official editorial article, with original URL, caption and scope retained.
