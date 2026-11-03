@@ -61,3 +61,14 @@ Eight profiles now include named trade suppliers or listing entities: Quince, Am
 Each new record preserves source type, retrieval date, shipment reference where visible, entity role and model-match scope. Quince’s Last Brand legal identity is bridged to trade associations. Amazon’s exact ASIN listing names a manufacturer and a packer, with regional metadata conflicts disclosed. Monos’s exporter is not promoted to a factory. Jinlin’s Jepara trade address and Semarang directory address remain unresolved. Directory certifications/customer logos are supplier claims, not independently validated audits or proof of a Target Open Story relationship. No exact production-lot factory match is claimed.
 
 Weekly updates should check these sources and seek new model/lot evidence. Preserve previous observations rather than treating a rolling public shipment table as a permanent snapshot. Customs databases may reuse the same underlying manifests; two database listings are not two independent audits. Avoid inferring sales, exclusivity or identical product quality from shared suppliers.
+
+
+## Premium research desk — November 2026
+
+- `#workbench` compares up to four exact priced offers. Selections and user cost assumptions remain in this browser's local storage; there is no server upload. Export Selected CSV contains the selected offers, sources, exterior/interior photo URLs and scenario inputs/results.
+- Cost scenarios use USD. Landed unit cost = FOB + freight + FOB × duty allowance + other unit costs. Gross margin = (planned retail − landed cost) / planned retail. This is simplified planning, not a supplier quote or verified tariff calculation. Blank required costs remain unknown. Non-USD retail conversion needs a user-entered FX rate and does not fill cost inputs.
+- `#innovation` maps eight sourced mechanisms/design directions with guest benefits, likely shopper hypotheses, evidence scope and Open Story development questions. Brand performance claims are distinguished from independent tests; assortment activity is not measured demand growth.
+- `#tutorial` includes a narrated guided walkthrough, English captions, transcript and MP4 download. The captures use illustrative cost inputs. Media lives in `tutorial/`; update the guide when the visible workflow materially changes.
+- Premium styling is in `premium.css`. Keep the research scope, dated observations and exact-model limitations visible.
+
+Validation: `python validate.py`, `node --check app.js`, `node --check workbench.js`, and `node test_workbench.cjs`. Test cost arithmetic, missing inputs, FX isolation, persistence, four-offer limit and selected CSV.
