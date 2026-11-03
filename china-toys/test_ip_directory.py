@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Browser checks for the exact requested examples; not a full data-accuracy audit."""
+"""Browser checks for character navigation and source-scoped charts; not a full inventory audit."""
 import csv,json,pathlib,subprocess,sys,threading,http.server,socketserver
 from playwright.sync_api import sync_playwright
 

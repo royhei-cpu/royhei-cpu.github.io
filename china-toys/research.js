@@ -58,5 +58,5 @@ async function init(){
  const chinaButton=document.createElement('button');chinaButton.dataset.analysis='china';chinaButton.textContent='China popularity';root.querySelector('.analysis-tabs').prepend(chinaButton);root.querySelector('[data-analysis="demand"]').textContent='Revenue & growth';
  root.querySelectorAll('[data-analysis]').forEach(b=>{b.setAttribute('aria-pressed',String(b===chinaButton));b.onclick=()=>{mode=b.dataset.analysis;root.querySelectorAll('[data-analysis]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));({china,demand,price,coverage})[mode]()}});china();
 }
-if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
+if(document.readyState!=='complete')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
