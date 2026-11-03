@@ -45,3 +45,10 @@ Product and campaign photos belong to their respective brands/retailers. Their s
 ## Validation
 
 Run `python3 luggage-atlas/validate.py` from the repository root and `node --check luggage-atlas/app.js`. Verify desktop and mobile navigation, filtering, profile/compare controls, currency separation and CSV downloads in a browser after deployment.
+
+
+## Style, shopper and manufacturing extension — 3 November 2026
+
+98 brand/collection assessments, 47 retail channels and 67 price observations. Quince was added with two official US price references and two clearly differentiated image references. Amazon remains sampled rather than exhaustive. `fashion.json` provides an assessment and sourcing status for every brand. Shopper groups are editorial need-based hypotheses, not measured demographics. Trend evidence distinguishes launch/collection activity, a marketplace snapshot and unverified growth. There are 15 profiles with sourced manufacturing context of differing strength; none establishes an exact SKU/lot factory match. Unknown factories stay unknown. Recheck dated trade leads before treating a supplier as current.
+
+Maintain `fashion.json` and `fashion.js` together. New profiles must have a style assessment, signal provenance and explicit supplier status. Do not infer OEM relationships from visual resemblance, brand home, retailer identity or component suppliers. All filters, shortlist comparison and CSV exports include the new fields.

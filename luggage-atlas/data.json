@@ -3071,6 +3071,54 @@
       ]
     },
     {
+      "id": "quince",
+      "name": "Quince",
+      "country": "United States",
+      "region": "North America",
+      "collection": "Carry-On / Expandable / Front Pocket",
+      "style": "Minimal tonal shells · Accessible premium styling",
+      "features": [
+        "Polycarbonate shell",
+        "Compression panels",
+        "Removable laundry bag",
+        "YKK zippers"
+      ],
+      "observation": "Official product pages show tonal cases and an organization-focused interior. Front Pocket is a separate model at USD 169.90. Country of production is disclosed but the final assembly company is not named in the reviewed sources.",
+      "source": "https://www.quince.com/unisex/carry-on-plus-polycarbonate-suitcase?color=navy",
+      "official": "https://www.quince.com/about-us",
+      "originSource": "https://trust.quince.com/",
+      "originNote": "US retail brand; product manufacturing origin is a separate field.",
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Value",
+      "tierDetail": "Accessible premium positioning",
+      "price": {
+        "brand": "Quince",
+        "product": "Carry-On Suitcase · Navy",
+        "amount": 129.9,
+        "currency": "USD",
+        "market": "United States",
+        "retailer": "Quince",
+        "kind": "Displayed product price",
+        "format": "Carry-on",
+        "date": "2026-11-03",
+        "source": "https://www.quince.com/unisex/carry-on-plus-polycarbonate-suitcase?color=navy",
+        "note": "Indexed official page; price and stock may change. Traditional-retail comparison is not a previous Quince selling price."
+      },
+      "channels": [
+        {
+          "name": "Quince direct online store",
+          "url": "https://www.quince.com/unisex/carry-on-plus-polycarbonate-suitcase?color=navy"
+        }
+      ],
+      "groups": [
+        "Minimalist",
+        "Organization"
+      ]
+    },
+    {
       "id": "rawrow",
       "name": "RAWROW",
       "country": "South Korea",
@@ -5771,6 +5819,32 @@
       "source": "https://shop.tiktok.com/us/pdp/durable-4-piece-luggage-set-expandable-suitcases-tsa-lock/1732041409039864788",
       "note": "Seller AAIVV Family. Seller total 6,118 sold covers the shop and is NOT luggage SKU sales. Do not multiply current price by rounded sold count to estimate revenue.",
       "format": "Set"
+    },
+    {
+      "brand": "Quince",
+      "product": "Carry-On Suitcase · Navy",
+      "amount": 129.9,
+      "currency": "USD",
+      "market": "United States",
+      "retailer": "Quince",
+      "kind": "Displayed product price",
+      "format": "Carry-on",
+      "date": "2026-11-03",
+      "source": "https://www.quince.com/unisex/carry-on-plus-polycarbonate-suitcase?color=navy",
+      "note": "Indexed official page; price and stock may change. Traditional-retail comparison is not a previous Quince selling price."
+    },
+    {
+      "brand": "Quince",
+      "product": "Front Pocket Carry-On Suitcase · Navy",
+      "amount": 169.9,
+      "currency": "USD",
+      "market": "United States",
+      "retailer": "Quince",
+      "kind": "Displayed product price",
+      "format": "Carry-on",
+      "date": "2026-11-03",
+      "source": "https://www.quince.com/unisex/front-pocket-hard-shell-carry-on-suitcase?color=navy",
+      "note": "Separate front-pocket model; indexed official US page. Comparative retail value is not a markdown."
     }
   ],
   "retailers": [
@@ -6572,6 +6646,21 @@
       "scope_note": "Travel luggage category; full SKU data not captured.",
       "source_url": "https://www.takealot.com/luggage-travel/travel_luggage",
       "source_ref": "turn56search13",
+      "checked_date": "2026-11-03",
+      "sku_catalogue_complete": false
+    },
+    {
+      "name": "Quince",
+      "market": "United States",
+      "region": "North America",
+      "channel": "Brand direct / ecommerce",
+      "url": "https://www.quince.com/home/travel",
+      "observed_brands": [
+        "Quince"
+      ],
+      "status": "Two product price references captured",
+      "scope_note": "Carry-On and Front Pocket Carry-On sampled. Additional sizes, colors and bundles exist; full assortment and stock not audited.",
+      "source_url": "https://www.quince.com/unisex/carry-on-plus-polycarbonate-suitcase?color=navy",
       "checked_date": "2026-11-03",
       "sku_catalogue_complete": false
     }

@@ -2130,6 +2130,26 @@
       "imageUrl": "https://uppercase.co.in/cdn/shop/files/11_615c6f84-4a4a-4478-82ca-10175545d815.png?crop=center&height=2048&v=1774859775&width=2048",
       "checked": "2026-11-03",
       "scope": "Photo reference shown by this source; model, size, color and revision may differ from the separately priced item."
+    },
+    {
+      "id": "p6000",
+      "brandId": "quince",
+      "view": "Exterior",
+      "caption": "Quince Expandable Carry-On · Navy (different model from standard Carry-On price)",
+      "source": "https://www.quince.com/unisex/expandable-carry-on-hard-shell-suitcase-21?color=navy",
+      "imageUrl": "https://images.quince.com/2A9vwHxVs3jEFI9w24C7oU/aa68aa5c1a9680a93185cafa8e14379f/U-OTH-25-NVY_1.jpeg?h=2000&q=90&reqOrigin=website-ssr&w=1600",
+      "checked": "2026-11-03",
+      "scope": "Separate model reference, not a matched exterior/interior pair or proof of the priced variant."
+    },
+    {
+      "id": "p6001",
+      "brandId": "quince",
+      "view": "Interior",
+      "caption": "Quince Carry-On · editorial review sample; color and revision may differ",
+      "source": "https://www.housebeautiful.com/shopping/a45685017/quince-luggage-review/",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/img-3268-67211e6aad1f7.jpg?resize=980%3A%2A",
+      "checked": "2026-11-03",
+      "scope": "Separate model reference, not a matched exterior/interior pair or proof of the priced variant."
     }
   ],
   "byBrand": {
@@ -2539,6 +2559,10 @@
       "p165",
       "p166",
       "p167"
+    ],
+    "quince": [
+      "p6000",
+      "p6001"
     ]
   },
   "note": "Galleries compare sourced product and collection references. Each image has its own model/collection caption and source. An interior from another model is not evidence of the priced model’s construction."

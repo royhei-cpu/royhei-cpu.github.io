@@ -42,3 +42,5 @@ print(f"Validated {len(ids)} brands, {len(data['prices'])} prices, {len(data['re
 
 import runpy
 runpy.run_path(str(ROOT / "validate_photos.py"))
+
+runpy.run_path(str(ROOT / "validate_fashion.py"))
