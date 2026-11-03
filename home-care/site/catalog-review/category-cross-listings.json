@@ -1,0 +1,47 @@
+[
+  {
+    "id": "HC-a410455ee2fc",
+    "secondaryCategories": [
+      "Naturals"
+    ],
+    "coverageBrand": "ECOS",
+    "coverageSize": "210 fl oz; 230 loads",
+    "coverageVerifiedDate": "2026-11-04",
+    "categoryEvidenceSource": "https://www.bjs.com/product/name/3000000000004310266",
+    "categoryEvidenceNote": "Official BJ’s product page lists coconut-based cleaning agents and plant-powered surfactants. Retrieved offer $18.29; store/checkout not confirmed.",
+    "observedPrice": 18.29,
+    "observedPriceSource": "https://www.bjs.com/product/name/3000000000004310266",
+    "observedPriceNote": "Official BJ’s product page lists coconut-based cleaning agents and plant-powered surfactants. Retrieved offer $18.29; store/checkout not confirmed.",
+    "priceObservedDate": "2026-11-04"
+  },
+  {
+    "id": "HC-1b33b5a5452c",
+    "secondaryCategories": [
+      "Naturals"
+    ],
+    "coverageBrand": "ECOS",
+    "coverageSize": "210 fl oz; 230 loads",
+    "coverageVerifiedDate": "2026-11-04",
+    "categoryEvidenceSource": "https://www.samsclub.com/browse/laundry-detergent/1110167?rootDimension=Brand%3AEcos",
+    "categoryEvidenceNote": "Official product page confirms plant-powered formulation. Current retrieved category lists $18.48; older product snapshot shows $17.98. Conflicting snapshot prices; checkout recheck required.",
+    "observedPrice": 18.48,
+    "observedPriceSource": "https://www.samsclub.com/browse/laundry-detergent/1110167?rootDimension=Brand%3AEcos",
+    "observedPriceNote": "Official product page confirms plant-powered formulation. Current retrieved category lists $18.48; older product snapshot shows $17.98. Conflicting snapshot prices; checkout recheck required.",
+    "priceObservedDate": "2026-11-04"
+  },
+  {
+    "id": "HC-c6c9e3d46f67",
+    "secondaryCategories": [
+      "Naturals"
+    ],
+    "coverageBrand": "Method",
+    "coverageSize": "25 fl oz",
+    "coverageVerifiedDate": "2026-11-04",
+    "categoryEvidenceSource": "https://www.walgreens.com/store/c/productlist/method-natural-cleaning-supplies/N=20000923-368910",
+    "categoryEvidenceNote": "Retailer explicitly includes this exact wood-floor cleaner in Natural Cleaning Supplies. Category-card $7.79 re-observed; product page body incomplete in text retrieval. No independent sustainability claim.",
+    "observedPrice": 7.79,
+    "observedPriceSource": "https://www.walgreens.com/store/c/productlist/method-natural-cleaning-supplies/N=20000923-368910",
+    "observedPriceNote": "Retailer explicitly includes this exact wood-floor cleaner in Natural Cleaning Supplies. Category-card $7.79 re-observed; product page body incomplete in text retrieval. No independent sustainability claim.",
+    "priceObservedDate": "2026-11-04"
+  }
+]
