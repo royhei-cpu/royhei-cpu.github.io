@@ -59,7 +59,8 @@ def run(scope='all'):
               'limits': 'Interface, stored-data consistency and image decoding; not a full SKU identity or national-market audit.'}
     try:
         with sync_playwright() as pw:
-            browser = pw.chromium.launch()
+            browser = pw.chromium.launch(executable_path=os.environ.get('ATLAS_CHROMIUM_PATH') or None,
+                                         args=['--enable-unsafe-swiftshader'])
             context = browser.new_context(viewport={'width': 1440, 'height': 1080}, accept_downloads=True)
             page = context.new_page()
             page.set_default_timeout(20000)
@@ -240,6 +241,10 @@ def run(scope='all'):
                     page.locator('#currency').select_option('USD')
                     no_overflow()
                 page.screenshot(path=str(out / f'workspace-{width}.png'))
+            if scope in ('retail', 'all'):
+                from retail_acceptance import check_retail
+                page.set_viewport_size({'width': 1440, 'height': 1080})
+                checks.append(check_retail(page, context, out))
             assert not errors, errors
             report['status'] = 'PASSED'
             checks.append('1440px, 847px and 390px layouts fit; mobile filters work; no JavaScript errors')
