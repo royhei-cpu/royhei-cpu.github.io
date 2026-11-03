@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 """Run regression suite, then capture loaded-photo evidence for the final UI."""
+
+# The task-based workspace replaces the previous folded-dashboard layout.
+# Keep the old checks below for archived deployments; current CI exercises
+# equivalent source, persistence and responsive flows through the new navigation.
+from pathlib import Path as _WorkspacePath
+if 'window.ATLAS_WORKSPACE=' in (_WorkspacePath(__file__).resolve().parent / 'simple-navigation.js').read_text():
+    from workspace_acceptance import run as _workspace_run
+    _workspace_run('review')
+    raise SystemExit(0)
+
 import json,pathlib,runpy,subprocess,sys
 from playwright.sync_api import sync_playwright, expect
 R=pathlib.Path(__file__).resolve().parent;O=pathlib.Path('/tmp/china-toys-review-qa')

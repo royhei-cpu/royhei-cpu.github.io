@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 """Regression tests for real product navigation, including all shop/brand pairs."""
+
+# The task-based workspace replaces the previous folded-dashboard layout.
+# Keep the old checks below for archived deployments; current CI exercises
+# equivalent source, persistence and responsive flows through the new navigation.
+from pathlib import Path as _WorkspacePath
+if 'window.ATLAS_WORKSPACE=' in (_WorkspacePath(__file__).resolve().parent / 'simple-navigation.js').read_text():
+    from workspace_acceptance import run as _workspace_run
+    _workspace_run('navigation')
+    raise SystemExit(0)
+
 from pathlib import Path
 import json, os, subprocess, sys, time, urllib.request
 from playwright.sync_api import sync_playwright

@@ -1,155 +1,139 @@
-/* Keep the existing catalog capabilities, with a short browsing path. */
+/* China Toy Atlas: one workspace for discovery, evidence and comparison.
+   Reuses the catalog, source-backed details and persistent comparison engine. */
 (() => {
- 'use strict';
- const nav=document.getElementById('atlasBrandNav');
- if(nav){nav.setAttribute('aria-label','Main navigation');nav.innerHTML='<div class="atlas-links"><a href="#weeklyOverview">This week</a><a href="#browseToys">Products</a><a href="brands.html">Brands & makers</a><a href="#retailChains">Retail chains</a><a href="#chinaIntelligencePanel">Trends & research</a><a href="#tutorial">How to use</a></div>';}
- const browse=document.querySelector('.retailer-section');if(browse)browse.id='browseToys';
- const more=document.querySelector('.secondary-filters');
- if(more){const details=document.createElement('details');details.className='atlas-more-filters';const summary=document.createElement('summary');summary.textContent='More filters & sorting';details.append(summary);more.before(details);details.append(more);}
- // One brand selector in the browsing controls replaces duplicate brand strips.
- const brands=document.querySelector('.brand-section');if(brands)brands.hidden=true;
- const brandControl=document.getElementById('brandControl');if(brandControl){const link=document.createElement('a');link.href='brands.html';link.textContent='All brands & makers →';link.className='atlas-directory-shortcut atlas-directory-link';brandControl.parentElement.after(link);}
- const reset=document.getElementById('resetFilters');if(reset&&more)more.parentElement.after(reset);
- const desk=document.getElementById('chinaIntelligence');
- if(desk&&!document.getElementById('chinaIntelligencePanel')){const details=document.createElement('details');details.id='chinaIntelligencePanel';details.className='atlas-research-fold';const summary=document.createElement('summary');summary.textContent='Trends, rankings & market research';details.append(summary);desk.before(details);details.append(desk);}
- function reveal(id){const el=document.getElementById(id);if(!el)return;for(let x=el;x;x=x.parentElement)if(x.tagName==='DETAILS')x.open=true;el.setAttribute('tabindex','-1');el.focus({preventScroll:true});el.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});}
- nav?.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;e.preventDefault();reveal(a.hash.slice(1));});
- const style=document.createElement('style');style.textContent='.atlas-directory-shortcut{display:inline-block;margin:10px 0 0;font-size:13px;color:#174c3d}#resetFilters{margin-top:8px}.atlas-more-filters,.atlas-research-fold{border:1px solid #d4e1d8;background:#f8fcf9;border-radius:12px;margin:14px 0;scroll-margin-top:100px}.atlas-more-filters>summary,.atlas-research-fold>summary{cursor:pointer;padding:15px 18px;color:#174c3d;font-size:14px;font-weight:700}.atlas-more-filters .secondary-filters{padding:4px 18px 18px}.atlas-research-fold .china-desk{margin:0;border:0}.brand-section[hidden]{display:none!important}#browseToys,#filters,#weeklyOverview,#tutorial{scroll-margin-top:100px}.intro{padding-top:20px!important;padding-bottom:20px!important}.intro h1{font-size:clamp(25px,4vw,38px)!important}.atlas-brand-nav .atlas-links{width:100%;justify-content:center}@media(max-width:600px){.atlas-brand-nav .atlas-links{justify-content:flex-start}.atlas-brand-nav a{font-size:12px}.intro br.desktop{display:none}}';document.head.append(style);
- // Keep the opening path short: weekly brief, shopping controls, products.
- // Research and help remain directly reachable from the main navigation.
- const main=document.querySelector('main'),reading=main?.querySelector('.reading-note');
- const supporting=['chinaIntelligencePanel','ip-rankings','openIPRankings','brandCoverageReview','tutorial'];
- function orderSections(){
-  const results=document.getElementById('results');if(!main||!results)return;
-  for(const id of supporting){const el=document.getElementById(id);if(el?.parentElement===main&&(el.compareDocumentPosition(results)&Node.DOCUMENT_POSITION_FOLLOWING)){if(reading)reading.before(el);else main.append(el);}}
+'use strict';
+const init=()=>{
+ const D=window.TOY_ATLAS,main=document.querySelector('main');
+ if(!D?.products?.length||!main||document.getElementById('workspaceSidebar'))return;
+ const retained=new Map([...document.querySelectorAll('[id]')].map(el=>[el.id,el]));
+ const $=id=>document.getElementById(id)||retained.get(id),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const ps=D.products,byId=new Map(ps.map(p=>[p.id,p])),num=n=>Number(n||0).toLocaleString('en-US');
+ const icons={explore:'<circle cx="12" cy="12" r="9"/><path d="m16 8-2.5 5.5L8 16l2.5-5.5Z"/>',rankings:'<path d="M5 20V12M12 20V4M19 20V8"/>',compare:'<rect x="3" y="3" width="12" height="12" rx="2"/><rect x="9" y="9" width="12" height="12" rx="2"/>',inspiration:'<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8" r="1.5"/><path d="m3 17 5-5 4 4 4-6 5 7"/>',saved:'<path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/>',brands:'<path d="M3 10h18v11H3ZM3 10l2-7h14l2 7M8 21v-7h8v7M3 10c2 3 4 3 6 0 2 3 4 3 6 0 2 3 4 3 6 0"/>',chains:'<path d="M3 4h2l3 12h11l2-8H6"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/>',weekly:'<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/>',sources:'<path d="M12 5C7 2 3 4 3 4v16s4-2 9 1c5-3 9-1 9-1V4s-4-2-9 1ZM12 5v16"/>',arrow:'<path d="M4 12h16M14 6l6 6-6 6"/>',search:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>',grid:'<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',list:'<path d="M8 5h13M8 12h13M8 19h13M3 5h1M3 12h1M3 19h1"/>'};
+ const icon=name=>`<svg viewBox="0 0 24 24" aria-hidden="true">${icons[name]||icons.explore}</svg>`;
+ const photo=(p,extra='')=>p?`<img src="${esc(p.image)}" alt="${esc(p.name)}" ${extra}>`:'';
+ const sample=(id,fallback)=>byId.get(id)||ps.find(fallback)||ps[0];
+ const featured=[sample('a6352811fd423b78'),sample('cda530057d017fb2'),sample('b4d02b231d54bcfc')];
+ const boards=[
+ {id:'small-joys',name:'Small joys, big personalities',desc:'Little characters. Entire worlds of expression.',category:'Blind-box figures',color:'lavender',terms:/hirono|dimoo|molinta|skullpanda/i,hero:['cda530057d017fb2','6e826e606451d9b6'],match:p=>p.category==='Blind-box figures'},
+ {id:'soft-spot',name:'Soft spot for squishies',desc:'Bread, tiny treats, and satisfying shapes.',category:'Squishy toys',color:'butter',terms:/bread|bun|toast|cake|cookie|squishy/i,hero:['b4d02b231d54bcfc','aa79fc26efea062a'],match:p=>p.category.includes('Squishy')},
+ {id:'go-everywhere',name:'Made to go everywhere',desc:'A little company for your everyday carry.',category:'Blind-box plush',color:'peach',terms:/pendant|keychain|charm/i,hero:['a6352811fd423b78','5496b7c05a7bcbb0'],match:p=>p.category==='Blind-box plush'&&/pendant|keychain|charm/i.test(p.name)},
+ {id:'dream-worlds',name:'Somewhere in a daydream',desc:'Celestial details and make-believe places.',color:'sky',terms:/dream|moon|star|fairy|wonder|fantasy/i,hero:['25883b4f5b30a725'],match:p=>/dream|moon|star|fairy|wonder|fantasy/i.test(p.name)},
+ {id:'express-yourself',name:'A face for every feeling',desc:'Explore CRYBABY, HIRONO and expressive characters.',color:'rose',terms:/crybaby|hirono|angry|grump/i,hero:['a6352811fd423b78'],match:p=>/crybaby|hirono|angry|grump/i.test(p.name)},
+ {id:'farm-friends',name:'A softer kind of wild',desc:'Cats, forest friends and animal costumes.',color:'sage',terms:/cat|bunny|rabbit|farm|bear|animal|panda/i,hero:['6e826e606451d9b6','5496b7c05a7bcbb0'],match:p=>/cat|bunny|rabbit|farm|bear|animal|panda/i.test(p.name)}
+ ];
+ for(const b of boards){b.products=ps.filter(b.match);b.cover=b.hero.map(id=>byId.get(id)).filter(Boolean);if(!b.cover.length)b.cover=b.products.slice(0,2)}
+ const old=[...main.children],legacy=document.createElement('div');legacy.id='workspaceLegacy';legacy.hidden=true;old.forEach(el=>legacy.append(el));main.append(legacy);
+ document.body.classList.add('atlas-workspace');main.className='workspace-main';
+ const sidebar=document.createElement('aside');sidebar.id='workspaceSidebar';sidebar.className='workspace-sidebar';
+ const wordmark=document.querySelector('.wordmark');
+ sidebar.innerHTML=`<div class="workspace-brand"></div><nav class="workspace-primary" aria-label="Main navigation">${[['explore','Explore'],['rankings','Rankings'],['compare','Compare'],['inspiration','Inspiration'],['saved','Saved collection']].map(([key,label])=>`<a href="#${key}" data-workspace="${key}">${icon(key)}<span>${label}</span>${['compare','saved'].includes(key)?`<small id="nav-${key}-count">0</small>`:''}</a>`).join('')}</nav><nav class="workspace-secondary" aria-label="Research and directories"><a href="brands.html">${icon('brands')}<span>Brands & makers</span></a>${[['chains','Retail chains'],['weekly','Weekly brief'],['sources','Sources & methods']].map(([key,label])=>`<a href="#${key}" data-workspace="${key}">${icon(key)}<span>${label}</span></a>`).join('')}</nav><div class="workspace-sidebar-foot"><p>A growing atlas.<br>A little room for discovery.</p><button type="button" class="workspace-help">How to use this atlas ${icon('arrow')}</button></div>`;
+ sidebar.querySelector('.workspace-brand').append(wordmark);document.body.prepend(sidebar);
+ const top=document.createElement('div');top.className='workspace-top';top.innerHTML=`<span>Blind boxes, squishies & character toys</span><span>Catalog · ${esc(new Date(D.updated+'T12:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}))}</span>`;
+ const panels={};for(const key of ['explore','rankings','compare','inspiration','chains','weekly','sources']){const el=document.createElement('section');el.id='workspace-'+key;el.dataset.workspacePanel=key;el.setAttribute('aria-label',key[0].toUpperCase()+key.slice(1));panels[key]=el}
+ const hero=document.createElement('section');hero.className='workspace-hero';hero.innerHTML=`<div><h1>A little curiosity.<br>A world of toys.</h1><p>Find your next favourite. Explore the catalog, compare the details,<br class="desktop"> and follow what catches your eye.</p></div><div class="workspace-hero-photos">${featured.map((p,i)=>`<button data-open="${esc(p.id)}" aria-label="Explore ${esc(p.name)}" class="hero-photo hero-photo-${i}">${photo(p,'fetchpriority="high"')}</button>`).join('')}</div>`;
+ const search=document.createElement('form');search.className='workspace-search';search.setAttribute('role','search');
+ const originalSearch=document.querySelector('.search-box');search.append(originalSearch);const sb=document.createElement('button');sb.type='submit';sb.className='workspace-search-button';sb.textContent='Search';search.append(sb);$('search').placeholder='Search products, characters or brands';search.addEventListener('submit',e=>{e.preventDefault();$('results').scrollIntoView({block:'start',behavior:'smooth'})});
+ const categories=document.createElement('nav');categories.className='workspace-categories';categories.setAttribute('aria-label','Toy categories');
+ categories.innerHTML=[['','All toys'],['Blind-box figures','Figures'],['Blind-box plush','Plush & pendants'],['squishy','Squishy toys'],['Blind-box dolls','Dolls']].map(([v,t])=>`<button data-category-preset="${esc(v)}" aria-pressed="false">${esc(t)}</button>`).join('');
+ const collections=document.createElement('section');collections.className='workspace-collections';collections.innerHTML=`<div class="workspace-section-heading"><h2>Find your kind of curious</h2><a href="#inspiration" data-workspace="inspiration">All collections ${icon('arrow')}</a></div><div class="workspace-collection-grid">${boards.slice(0,3).map(boardTile).join('')}</div>`;
+ const editHeading=document.createElement('div');editHeading.className='workspace-edit-heading';editHeading.innerHTML=`<div><h2 id="workspaceEditTitle">The toy edit</h2><span>${num(ps.length)} photographed listings</span></div><div class="workspace-layout-buttons" aria-label="Catalog layout"><button data-layout="grid" aria-pressed="true">${icon('grid')} Grid</button><button data-layout="table" aria-pressed="false">${icon('list')} Table</button></div>`;
+ const sortControl=$('sort').closest('label');$('sort').querySelector('[value=featured]').textContent='Research highlights';const editTools=document.createElement('div');editTools.className='workspace-edit-tools';editTools.append(editHeading.querySelector('.workspace-layout-buttons'),sortControl);editHeading.append(editTools);
+ const catalogLayout=document.createElement('div');catalogLayout.id='workspaceCatalog';catalogLayout.className='workspace-catalog';catalogLayout.dataset.layout='grid';
+ const rail=document.createElement('aside');rail.className='workspace-filter-rail';rail.setAttribute('aria-label','Narrow the catalog');rail.innerHTML='<h3>Narrow your search</h3>';
+ const retail=document.querySelector('.retailer-section'),filters=$('filters'),secondary=document.querySelector('.secondary-filters');
+ rail.append(retail);const filterToggle=document.createElement('button');filterToggle.type='button';filterToggle.className='workspace-filter-toggle';filterToggle.textContent='More filters & sorting';filterToggle.setAttribute('aria-expanded','false');rail.dataset.expanded='false';filterToggle.onclick=()=>{const expanded=rail.dataset.expanded!=='true';rail.dataset.expanded=String(expanded);filterToggle.setAttribute('aria-expanded',String(expanded));filterToggle.textContent=expanded?'Fewer filters':'More filters & sorting'};rail.append(filterToggle);const ip=document.querySelector('.ip-select-control');if(ip)rail.append(ip);
+ rail.append(document.querySelector('.category-select'));rail.append(secondary);filters.append(rail);
+ const reset=$('resetFilters');reset.textContent='Reset all filters';rail.append(reset);const mobileExport=document.createElement('button');mobileExport.type='button';mobileExport.className='workspace-export-results';mobileExport.textContent='Download results CSV';mobileExport.onclick=()=>$('exportButton').click();rail.append(mobileExport);
+ const catalogColumn=document.createElement('div');catalogColumn.className='workspace-catalog-column';catalogColumn.append($('weeklyBanner'),$('results'));catalogLayout.append(filters,catalogColumn);
+ panels.explore.append(hero,search,categories,collections,editHeading,catalogLayout);
+ panels.rankings.innerHTML=`<div class="workspace-page-heading"><h1>Rankings with a reason.</h1><p>Know what is being measured before you follow the numbers.</p></div><div class="workspace-ranking-tabs" role="group" aria-label="Ranking basis"><button data-rank-basis="revenue" aria-pressed="true">Global IP revenue</button><button data-rank-basis="signals" aria-pressed="false">Product signals</button><button data-rank-basis="coverage" aria-pressed="false">Catalog coverage</button></div><div id="workspaceRanking"></div>`;
+ panels.compare.innerHTML=`<div class="workspace-page-heading"><h1>Good choices start side by side.</h1><p>Compare 2–6 products or shop offers. Keep the pack, market and price date in view.</p></div><div class="workspace-compare-steps"><span><b>1</b> Find something you like</span><span><b>2</b> Select for comparison</span><span><b>3</b> Compare the details</span></div><div id="workspaceComparePreview"></div><div class="workspace-action-row"><button class="button" id="workspaceOpenCompare">Open side-by-side comparison</button><a href="#explore" data-workspace="explore" class="button outline">Keep exploring</a><button class="text-button" id="workspaceClearCompare">Clear selection</button></div><p class="workspace-note">Your selections stay on this browser. The comparison includes source-linked specifications, shop options, release dates, asking prices and photo-sheet / CSV exports.</p>`;
+ panels.inspiration.innerHTML=`<div class="workspace-page-heading"><h1>Follow your curiosity.</h1><p>Start with a mood, a material or a tiny detail. See where it takes you.</p></div><div class="workspace-inspiration-intro"><p>Collections are discovery prompts, grouped by product type or title keywords. They are not popularity rankings.</p><button class="text-button" id="workspaceSurprise">Surprise me ${icon('arrow')}</button></div><div class="workspace-board-grid">${boards.map(boardTile).join('')}</div><section id="workspaceBoardResults" hidden></section>`;
+ panels.chains.innerHTML='<div class="workspace-page-heading"><h1>Explore the places behind the toys.</h1><p>Browse 18 documented retail chains, with captured assortments and coverage gaps.</p></div>';
+ if($('retailChains'))panels.chains.append($('retailChains'));
+ panels.weekly.innerHTML='<div class="workspace-page-heading"><h1>A week of little discoveries.</h1><p>New to the catalog, price changes, restocks and dated research. Each keeps its own timeline.</p></div>';
+ if($('weeklyOverview'))panels.weekly.append($('weeklyOverview'));
+ panels.sources.innerHTML=`<div class="workspace-page-heading"><h1>A clearer picture, sources included.</h1><p>A broad discovery guide to ${num(ps.length)} photographed listings, with visible limits.</p></div><div class="workspace-method-strip">${[[ps.length,'Photographed listings'],[ps.filter(p=>p.china_price).length,'China price records'],[ps.filter(p=>(p.launch||p.launch_estimate)?.market==='Mainland China').length,'Mainland release records'],[ps.filter(p=>p.sales).length,'Product sales disclosures']].map(([n,t])=>`<div><strong>${num(n)}</strong><span>${t}</span></div>`).join('')}</div><div class="workspace-method-notes"><h2>Read the evidence at its own scale.</h2><p>Most catalog offers are international or Hong Kong references. A Chinese brand’s overseas listing does not establish mainland availability. A source-label count is not a verified count of manufacturers.</p><p><b>Asking price:</b> the shop’s advertised offer. <b>China launch RRP:</b> a dated historical reference. Match currency, market, quantity and variant before comparing. The atlas does not estimate missing prices.</p><p><b>Added:</b> when an item joined this catalog. <b>Released:</b> when the product launched, with evidence. <b>Checked:</b> when a shop observation was captured. These dates stay separate.</p><p><b>Rankings:</b> source-specific metrics and periods. Revenue, platform sales displays and retailer picks are different kinds of evidence. Missing information means unverified.</p><a href="research.html#comparisonCharts" class="button outline">Open the full research notebook ${icon('arrow')}</a></div><div class="workspace-source-catalog-actions"><button class="button outline" data-view="timeline">View launch timeline</button><button class="button outline" data-view="coverage">See coverage & missing facts</button></div><div id="workspaceSourceDetails"></div>`;
+ const supporting=$('workspaceSourceDetails')||panels.sources.querySelector('#workspaceSourceDetails');
+ for(const el of [...legacy.children]){if(['stats','atlasBrandNav','openIPRankings'].includes(el.id)||el.classList.contains('intro')||el.classList.contains('brand-section')||el.classList.contains('view-tabs')||el.classList.contains('filter-section'))continue;if(el.id==='tutorial'||el.id==='ip-rankings'||el.id==='chinaIntelligence'||el.id==='brandCoverageReview'||el.classList.contains('reading-note')||el.classList.contains('review-bar')||el.id==='externalSourceAudit')supporting.append(el)}
+ main.replaceChildren(top,...Object.values(panels),legacy);
+ // Utilities retain their original listeners and narrated tutorial.
+ const utility=document.createElement('div');utility.className='workspace-utilities';
+ if($('exportButton'))utility.append($('exportButton'));top.append(utility);
+ $('workspaceOpenCompare').onclick=()=>window.ATLAS_COMPARE?.open();$('workspaceClearCompare').onclick=()=>{window.ATLAS_COMPARE?.clear();syncCounts()};
+ sidebar.querySelector('.workspace-help').onclick=()=>{$('guideDialog')?.showModal()};
+ $('workspaceSurprise').onclick=()=>openBoard(boards[Math.floor(Math.random()*boards.length)].id,true);
+ let section='explore',rankBasis='revenue';
+ function boardTile(b){return `<button class="workspace-board-tile" data-board="${esc(b.id)}"><span class="workspace-board-media ${b.color}">${b.cover.slice(0,2).map(p=>photo(p,'loading="lazy"')).join('')}</span><strong>${esc(b.name)}</strong><span class="workspace-board-link">Explore collection ${icon('arrow')}</span></button>`}
+ function show(key,options={}){
+  const saved=key==='saved';if(saved)key='explore';if(!panels[key])key='explore';section=saved?'saved':key;
+  Object.entries(panels).forEach(([k,el])=>el.hidden=k!==key);
+  document.querySelectorAll('[data-workspace]').forEach(a=>{const active=a.dataset.workspace===section;a.classList.toggle('workspace-active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
+  if(saved){document.querySelector('.view-tab[data-view="saved"]')?.click();$('workspaceEditTitle').textContent='Your saved collection'}
+  else if(key==='explore'&&!options.keepView){const current=new URLSearchParams(location.search).get('view');if(['saved','trending','new','coverage','timeline'].includes(current))document.querySelector('.view-tab[data-view="catalog"]')?.click();$('workspaceEditTitle').textContent='The toy edit'}
+  for(const el of [hero,collections])el.hidden=saved;
+  if(key==='rankings')renderRankings();if(key==='compare')syncCounts();
+  if(options.history!==false&&location.hash!=='#'+section)history.pushState(null,'',location.pathname+location.search+'#'+section);
+  if(options.scroll!==false){window.scrollTo({top:0,behavior:'instant'});const target=saved?editHeading:panels[key];target.tabIndex=-1;target.focus({preventScroll:true})}
  }
- // Some research modules arrive after the initial catalog render.
- orderSections();if(main)new MutationObserver(orderSections).observe(main,{childList:true});
- if(location.hash)requestAnimationFrame(()=>reveal(location.hash.slice(1)));
-})();
-
-/* Task-first landing page: keep detail available without making it the dashboard. */
-(() => {
- 'use strict';
- const main=document.querySelector('main'); if(!main)return;
- function fold(el,label,id){
-  if(!el||el.closest('.atlas-dashboard-fold'))return;
-  const box=document.createElement('details');box.className='atlas-dashboard-fold';if(id)box.id=id;
-  const title=document.createElement('summary');title.textContent=label;box.append(title);el.before(box);box.append(el);return box;
+ function setControl(id,value){const el=$(id);if(el){el.value=value;el.dispatchEvent(new Event('change',{bubbles:true}))}}
+ function browsePreset(category){show('explore');document.dispatchEvent(new CustomEvent('atlas:catalog-preset',{detail:{category:category==='squishy'?'Squishy toys':category}}));syncCategories();$('results').scrollIntoView({block:'start'})}
+ function syncCategories(){const value=$('category').value;for(const b of categories.querySelectorAll('button'))b.setAttribute('aria-pressed',String(b.dataset.categoryPreset===value||(b.dataset.categoryPreset==='squishy'&&value.includes('Squishy'))))}
+ function syncCounts(){
+  const selections=window.ATLAS_COMPARE?.getSelections()||[];let saved=[];try{saved=JSON.parse(localStorage.getItem('toy-atlas-shortlist')||'[]')}catch{}
+  $('nav-compare-count').textContent=selections.length;$('nav-saved-count').textContent=saved.length;
+  for(const b of document.querySelectorAll('.workspace-inspire-actions [data-save]')){const on=saved.includes(b.dataset.save);b.textContent=on?'Saved ✓':'Save to collection';b.setAttribute('aria-pressed',String(on))}for(const b of document.querySelectorAll('[data-inspiration-compare]')){const on=selections.some(s=>s.id===b.dataset.inspirationCompare);b.textContent=on?'Selected ✓':'+ Compare';b.setAttribute('aria-pressed',String(on))}
+  $('workspaceOpenCompare').disabled=selections.length<2;$('workspaceClearCompare').hidden=!selections.length;
+  $('workspaceComparePreview').innerHTML=selections.length?`<p class="workspace-selection-count">${selections.length} of 6 offers selected</p><div class="workspace-compare-preview-grid">${selections.map(s=>{const p=byId.get(s.id),l=p?.listings.find(l=>l.url===s.url);return p?`<article>${photo(p)}<small>${esc(p.brand)}</small><h3>${esc(p.name)}</h3><p>${esc(l?.source||'Saved offer')} · ${esc(l?.market||'Market unverified')}</p></article>`:''}).join('')}</div>`:'<div class="workspace-empty"><span>'+icon('compare')+'</span><h2>A little perspective goes a long way.</h2><p>Use “Select for comparison” on a product card. Your selected offers will appear here.</p></div>';
  }
- const intro=main.querySelector('.intro');if(intro){main.prepend(intro);intro.querySelector('h1').innerHTML='Find your next <span>China toy.</span>';intro.querySelector('p').textContent='Explore Chinese blind boxes, squishies and character toys. Find a favourite, compare shop prices and save your picks.';}
- const stats=document.getElementById('stats');if(stats)stats.hidden=true;
- const weekly=document.getElementById('weeklyOverview');
- function compactWeekly(){
-  if(!weekly||weekly.querySelector('.dashboard-weekly-details'))return;
-  intro?.after(weekly);
-  const heading=weekly.querySelector('h1');if(heading){const h=document.createElement('h2');h.textContent='This week';heading.replaceWith(h);}
-  const root=weekly.querySelector('[data-executive-brief]')||weekly;
-  const detail=document.createElement('details');detail.className='dashboard-weekly-details';detail.innerHTML='<summary>View weekly changes & sources</summary>';
-  const targets=Array.from(root.children).filter(e=>!e.classList.contains('brief-heading'));
-  root.append(detail);targets.forEach(e=>detail.append(e));
-  const counts=document.createElement('p');counts.className='dashboard-weekly-line';
-  const parts=[['added','added to the catalog'],['launch','release dates this week']].map(([key,label])=>{const n=detail.querySelector('[data-weekly="'+key+'"] b');return n?n.textContent+' '+label:'';}).filter(Boolean);
-  counts.textContent=parts.join(' · ');detail.before(counts);
-  const chainNote=weekly.querySelector('#weeklyChainReview');if(chainNote)detail.append(chainNote);
-  const enrichment=window.CHAIN_ASSORTMENTS?.enrichment_review;if(enrichment){const stamp=document.createElement('p');stamp.className='dashboard-weekly-line';stamp.textContent='Latest source update: '+enrichment.checked+' · Photos and prices';counts.after(stamp);}
- }
- compactWeekly();if(weekly)new MutationObserver(compactWeekly).observe(weekly,{childList:true,subtree:true});
- const chain=document.getElementById('retailChains');fold(chain,'Browse retail chains · MINISO, POP MART, TOP TOY & more','chainBrowser');
- const audit=document.getElementById('externalSourceAudit'),results=document.getElementById('results');
- if(audit&&results){results.after(audit);fold(audit,'Source checks & coverage');}
- const tabs=main.querySelector('.view-tabs');
- if(tabs){const advanced=document.createElement('details');advanced.className='atlas-dashboard-fold';advanced.innerHTML='<summary>Launch timeline & coverage</summary>';
- const body=document.createElement('div');advanced.append(body);
- tabs.querySelectorAll('[data-view="timeline"],[data-view="coverage"]').forEach(b=>body.append(b));results?.after(advanced);}
- const nav=document.querySelector('#atlasBrandNav .atlas-links');
- if(nav)nav.innerHTML='<a href="#browseToys">Products</a><a href="brands.html">Brands</a><a href="#retailChains">Retail chains</a><a href="#weeklyOverview">This week</a><a href="#chinaIntelligencePanel">Research</a>';
- const css=document.createElement('style');css.textContent=`
- #stats[hidden]{display:none!important}.intro .update-note{display:none}.intro{display:flex!important;margin:0!important;padding:24px 0 18px!important}.intro h1{font-size:clamp(26px,4vw,40px)!important}.intro p{font-size:15px!important;max-width:720px}
- #weeklyOverview{padding:16px 20px!important;margin:0 0 18px!important;border-radius:16px}
- #weeklyOverview .brief-heading{align-items:center}#weeklyOverview h2{font-size:20px;margin:0 0 5px}#weeklyOverview .brief-kicker,#weeklyOverview .brief-scope,#weeklyOverview .brief-heading>a{display:none}
- #weeklyOverview .brief-period{margin:0;font-size:12px}.dashboard-weekly-line{margin:10px 0;font-weight:600;font-size:14px}.dashboard-weekly-details>summary{font-size:13px;cursor:pointer;color:#174c3d}
- .atlas-dashboard-fold{border:1px solid #d4e1d8;border-radius:12px;background:#fff;margin:12px 0}.atlas-dashboard-fold>summary{padding:14px 18px;cursor:pointer;font-size:14px;font-weight:650;color:#174c3d}.atlas-dashboard-fold>section{margin:0!important;border:0!important}.atlas-dashboard-fold>div{padding:12px}
- #browseToys{padding:16px!important;margin:12px 0!important}.view-tabs{margin:12px 0!important}.filter-section{padding-top:12px!important}.atlas-directory-shortcut{display:none}
- #weeklyChainReview{font-size:13px}.atlas-brand-nav{position:static!important}
- `;document.head.append(css);
- function revealHash(){const id=location.hash.slice(1);const el=document.getElementById(id);if(el)for(let x=el;x;x=x.parentElement)if(x.tagName==='DETAILS')x.open=true;}
- window.addEventListener('hashchange',revealHash);revealHash();
-})();
-
-/* Plain-language help for shoppers and collectors. */
-(()=>{'use strict';const intro=document.querySelector('.intro');if(!intro)return;const help=document.createElement('details');help.className='collector-help';help.innerHTML='<summary>New here? Start with these 3 steps</summary><ol><li><b>Find a toy.</b> Choose a brand or shop, or search for a character. Use Product type to find blind boxes or squishies.</li><li><b>Explore and compare.</b> Tap a photo for details and shop links. Select 2–6 products to compare. The bookmark saves favourites on this device.</li><li><b>Save your research.</b> Download a CSV for Excel with product details and photo links. CSV files contain image links, not embedded pictures.</li></ol><p><b>Collector basics:</b> A blind box contains a surprise design. A secret is a special design in a series; check the seller for its odds. A wave is a release within a series.</p><p><b>Before buying:</b> Check whether the price is for one box, a full set or a specific character. Prices and availability can change. Follow the shop link to buy; this website is a discovery guide.</p>';intro.after(help);const style=document.createElement('style');style.textContent='.collector-help{background:#fff8e9;border:1px solid #eadcc0;border-radius:12px;padding:14px 18px;margin:0 0 16px;font-size:14px;line-height:1.7}.collector-help summary,.collector-extra summary{cursor:pointer;font-weight:650;color:#174c3d}.collector-help ol{padding-left:22px}.collector-help li{margin:8px 0}.collector-help p{margin:10px 0}.collector-extra{margin-top:10px}.collector-extra summary{font-size:12px;margin-bottom:8px}.product-card .available-description{font-size:13px;line-height:1.6}.product-card .character-name span{font-size:11px}.product-card .card-footer{gap:12px}';document.head.append(style);})();
-
-/* Keep optional research together, away from the shopping path. */
-(()=>{'use strict';
- const main=document.querySelector('main'),results=document.getElementById('results');if(!main||!results)return;
- const group=document.createElement('details');group.id='sourcesResearch';group.className='atlas-dashboard-fold';
- group.innerHTML='<summary>Sources & research</summary><p class="research-intro">Optional: explore trends, launch dates, source checks and what the catalog covers.</p>';
- results.after(group);
- const links=document.createElement('div');links.className='research-links';group.append(links);
- document.querySelectorAll('footer a[href="report.json"],footer a[href*="github.com"],.header-links a[href="research.html"]').forEach(a=>links.append(a));
- const reading=main.querySelector('.reading-note');if(reading)group.append(reading);
- function collect(){
-  for(const el of Array.from(main.children)){
-   const title=el.querySelector(':scope > summary')?.textContent||'';
-   if(['chinaIntelligencePanel','brandCoverageReview','ip-rankings','openIPRankings'].includes(el.id)||['Launch timeline & coverage','Source checks & coverage'].includes(title))group.append(el);
-  }
-  const tutorial=document.getElementById('tutorial');
-  if(tutorial){const summary=tutorial.querySelector(':scope > summary');if(summary&&!summary.dataset.simpleHelp){summary.textContent='How to use · video tutorial';summary.dataset.simpleHelp='true';}}
- }
- collect();new MutationObserver(collect).observe(main,{childList:true});
- const link=document.querySelector('#atlasBrandNav a[href="#chinaIntelligencePanel"]');if(link){link.href='#sourcesResearch';link.textContent='Research';}
- const css=document.createElement('style');css.textContent='#sourcesResearch{margin-top:24px}#sourcesResearch>.research-intro{padding:0 18px;font-size:13px;color:#53645d}#sourcesResearch>details{margin:8px 14px;border:0;border-top:1px solid #e2e9e4;border-radius:0;background:transparent}#sourcesResearch>.ip-top-button{display:none}#sourcesResearch>summary{font-size:15px}.research-links{display:flex;flex-wrap:wrap;gap:16px;padding:12px 18px;font-size:13px}';document.head.append(css);
-})();
-
-/* Popularity browsing starts fresh, just like choosing a shop or brand. */
-document.addEventListener('click',event=>{
- if(event.target.closest('[data-view="trending"]'))
-  document.dispatchEvent(new CustomEvent('atlas:catalog-preset',{detail:{}}));
-},true);
-
-/* Explain popularity in the product view without opening the research dashboard. */
-(() => {
- 'use strict';
- const grid=document.getElementById('catalogGrid'),title=document.getElementById('resultsTitle');
- if(!grid||!title)return;
- const trendTab=document.querySelector('.view-tab[data-view="trending"]');
- if(trendTab?.firstChild?.nodeType===Node.TEXT_NODE)trendTab.firstChild.textContent='Popular & featured ';
- function explain(){
-  const active=trendTab?.getAttribute('aria-pressed')==='true';
-  if(active){
-   if(title.textContent!=='Popular & featured toys')title.textContent='Popular & featured toys';
-   const banner=document.getElementById('weeklyBanner');
-   const intro='<strong>Why are these toys here?</strong> <b>Reported demand</b> means a source reported interest in that product or series. <b>Shop pick</b> means a retailer featured it. These are different signals—not a China-wide bestseller ranking.';
-   if(banner&&banner.innerHTML!==intro)banner.innerHTML=intro;
-   const note=document.getElementById('contextNote');
-   const help='Each card shows the reason, evidence date and original source. Evidence may be older than this week; a shop feature does not prove sales growth.';
-   if(note&&note.textContent!==help)note.textContent=help;
-  }
-  for(const card of grid.querySelectorAll('.product-card')){
-   const reason=card.querySelector('.review-reason'),fold=reason?.closest('details.atlas-detail-fold');
-   if(!fold||!active||fold.dataset.popularityExplained)continue;
-   const reasonTitle=reason.querySelector('strong'),cleanTitle=card.querySelector('.title-button')?.textContent;
-   if(reasonTitle&&cleanTitle&&/customers|checkout|delivery|support/i.test(reasonTitle.textContent))reasonTitle.textContent=cleanTitle;
-   fold.dataset.popularityExplained='true';
-   fold.open=true;
-   const summary=fold.querySelector(':scope > summary');if(summary)summary.textContent='Why this toy is featured';
+ function chipLabel(value,label){const el=$(value);return el?.value?`<button data-clear-control="${esc(value)}">${esc(label+': '+(el.selectedOptions?.[0]?.textContent||el.value))} <span aria-hidden="true">×</span></button>`:''}
+ const chips=document.createElement('div');chips.className='workspace-active-filters';chips.id='workspaceActiveFilters';editHeading.after(chips);
+ function syncFilters(){const view=new URLSearchParams(location.search).get('view');$('workspaceEditTitle').textContent=section==='saved'?'Your saved collection':({coverage:'Coverage & missing facts',timeline:'Launches & waves',new:'This week’s changes',trending:'Products with dated signals'}[view]||'The toy edit');editHeading.querySelector('div>span').textContent=$('resultsHint').textContent;chips.innerHTML=[chipLabel('search','Search'),chipLabel('ipSelect','Character'),chipLabel('brandSelect','Brand'),chipLabel('retailer','Shop'),chipLabel('category','Type'),chipLabel('evidence','Evidence'),chipLabel('currency','Currency'),chipLabel('year','Release')].join('');syncCategories();syncCounts()}
+ function openBoard(id,scroll=true){const b=boards.find(x=>x.id===id);if(!b)return;show('inspiration',{scroll:false});const root=$('workspaceBoardResults');root.hidden=false;const preferred=b.products.filter(p=>b.terms.test(p.name));const records=[...new Map([...preferred,...b.products].map(p=>[p.id,p])).values()].slice(0,12);root.innerHTML=`<div class="workspace-section-heading"><div><h2>${esc(b.name)}</h2><p>${esc(b.desc)} ${num(b.products.length)} matching catalog listings.</p></div>${b.category?`<button class="text-button" data-category-preset="${esc(b.category)}">Browse all in catalog ${icon('arrow')}</button>`:''}</div><div class="workspace-inspire-products">${records.map(p=>`<article class="workspace-inspire-product"><button class="workspace-inspire-photo" data-open="${esc(p.id)}">${photo(p,'loading="lazy"')}</button><small>${esc(p.brand)} · ${esc(p.category)}</small><h3><button data-open="${esc(p.id)}">${esc(p.name)}</button></h3><div class="workspace-inspire-actions"><button class="text-button" data-save="${esc(p.id)}">Save to collection</button><button class="text-button" data-inspiration-compare="${esc(p.id)}">+ Compare</button></div></article>`).join('')}</div>`;syncCounts();if(scroll)root.scrollIntoView({block:'start',behavior:'smooth'})}
+ function renderRankings(){
+  const root=$('workspaceRanking');
+  document.querySelectorAll('[data-rank-basis]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.rankBasis===rankBasis)));
+  if(rankBasis==='revenue'){
+   const cfg=window.ATLAS_IP_DATA?.ranking;if(!cfg){root.innerHTML='<p>Ranking evidence unavailable. Open Sources & methods for the research notebook.</p>';return}
+   const rows=[...cfg.rows].sort((a,b)=>b.revenue-a.revenue),max=rows[0]?.revenue||1;
+   root.innerHTML=`<div class="workspace-rank-intro"><div><h2>Characters, in perspective.</h2><p>${esc(cfg.subtitle)}</p></div><button class="button outline" id="workspaceExportRanking">Download ranking CSV</button></div><div class="workspace-evidence-note"><b>8 disclosed IP families · company-reported, unaudited global revenue.</b> Multiple product formats are included. This is a scoped benchmark; no all-China sales league table has been verified.</div><div class="workspace-rank-table-wrap"><table class="workspace-rank-table"><caption class="workspace-sr-only">POP MART disclosed IPs ranked by H1 2026 global revenue</caption><thead><tr><th scope="col">Rank</th><th scope="col">Character / IP family</th><th scope="col">Revenue · CNY million</th><th scope="col">Year-on-year</th><th scope="col">Explore</th></tr></thead><tbody>${rows.map((r,i)=>{const p=ps.find(p=>window.ATLAS_IP_MATCH?.(p,r.ip));const growth=(r.revenue/r.prior_revenue-1)*100;return `<tr><td class="workspace-rank-number">${String(i+1).padStart(2,'0')}</td><td><div class="workspace-rank-identity">${photo(p,'loading="lazy"')}<strong>${esc(r.name)}</strong></div></td><td><strong>${(r.revenue/1000).toLocaleString('en-US',{minimumFractionDigits:1,maximumFractionDigits:1})}</strong><span class="workspace-revenue-bar" style="--bar:${100*r.revenue/max}%"></span></td><td><span class="${growth<0?'workspace-growth-down':'workspace-growth-up'}">${growth>=0?'+':''}${growth.toFixed(1)}%</span></td><td><button class="text-button" data-rank-ip="${esc(r.ip)}">View toys ${icon('arrow')}</button></td></tr>`}).join('')}</tbody></table></div><p class="workspace-note">THE MONSTERS includes LABUBU; the total is not LABUBU-only revenue. Source unit: CNY thousand; the table displays CNY million. Other artist IPs are grouped and cannot be individually ranked.</p><a class="workspace-source-link" href="${esc(cfg.source)}" target="_blank" rel="noopener noreferrer">Read the company filing · printed page 30 ↗</a><p class="workspace-note">Published ${esc(cfg.published)} · Sales period ${esc(cfg.period_start)} – ${esc(cfg.period_end)}. A catalog refresh does not change this period.</p>`;
+   $('workspaceExportRanking').onclick=()=>$('exportIPRanking')?.click();
+  }else if(rankBasis==='signals'){
+   const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+   const signals=ps.filter(p=>p.trend?.source&&p.trend.observed&&p.trend.observed<=today&&(!p.trend.expires_on||p.trend.expires_on>=today));
+   root.innerHTML=`<div class="workspace-rank-intro"><div><h2>What caught someone’s attention?</h2><p>${num(signals.length)} current product signals · source order, unranked.</p></div></div><div class="workspace-evidence-note">Reported platform displays and retailer curation have different meanings. Every signal retains its market, observation date and source. Views, reviews and retailer picks do not establish unit sales.</div><div class="workspace-signal-list">${signals.map(p=>`<article>${photo(p,'loading="lazy"')}<div><small>${esc(p.brand)} · ${esc(p.trend.label||'Dated source signal')}</small><h3><button class="text-button" data-open="${esc(p.id)}">${esc(p.name)}</button></h3><p>${esc(p.trend.summary)}</p><span>${esc(p.trend.market||'Market not specified')} · ${esc(p.trend.observed)}${p.trend.expires_on?' · Expires '+esc(p.trend.expires_on):''}</span><a href="${esc(/^https?:\/\//.test(p.trend.source)?p.trend.source:'#')}" target="_blank" rel="noopener noreferrer">Read source ↗</a></div></article>`).join('')||'<p>No unexpired product-specific signals are documented in this snapshot.</p>'}</div>`;
+  }else{
+   const counts=new Map;for(const p of ps)counts.set(p.brand,(counts.get(p.brand)||0)+1);
+   const rows=[...counts].filter(([b])=>b!=='Brand not disclosed').sort((a,b)=>b[1]-a[1]).slice(0,20);
+   root.innerHTML=`<div class="workspace-rank-intro"><div><h2>The most represented in this atlas.</h2><p>Top 20 named source labels by captured product / series records.</p></div></div><div class="workspace-evidence-note">These positions measure catalog coverage, not sales, popularity or market share. Labels can be brands, studios, characters or aliases. Cross-shop records can remain separate; “Brand not disclosed” is excluded from this named-label table.</div><table class="workspace-rank-table"><thead><tr><th scope="col">Position</th><th scope="col">Brand / source label</th><th scope="col">Catalog listings</th><th scope="col">Explore</th></tr></thead><tbody>${rows.map(([brand,n],i)=>`<tr><td class="workspace-rank-number">${String(i+1).padStart(2,'0')}</td><td><strong>${esc(brand)}</strong></td><td>${num(n)}</td><td><button class="text-button" data-brand="${esc(brand)}">View toys ${icon('arrow')}</button></td></tr>`).join('')}</tbody></table><p class="workspace-note">Snapshot ${esc(D.updated)} · Duplicate source aliases are not consolidated into manufacturer groups. The full brand directory keeps the remaining labels.</p>`;
   }
  }
- let pending=false;
- const queue=()=>{if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;explain()})};
- new MutationObserver(queue).observe(grid,{childList:true,subtree:true});
- new MutationObserver(queue).observe(title,{childList:true});
- document.addEventListener('click',event=>{
-  if(!event.target.closest('[data-view="trending"]'))return;
-  requestAnimationFrame(()=>requestAnimationFrame(()=>{
-   explain();const results=document.getElementById('results');
-   results?.setAttribute('tabindex','-1');results?.focus({preventScroll:true});
-   results?.scrollIntoView({block:'start',behavior:'auto'});
-  }));
+ document.addEventListener('click',e=>{
+  const inspirationCompare=e.target.closest('[data-inspiration-compare]');if(inspirationCompare){window.ATLAS_COMPARE?.toggleProduct(inspirationCompare.dataset.inspirationCompare);syncCounts();return}
+  const nav=e.target.closest('[data-workspace]');if(nav){e.preventDefault();show(nav.dataset.workspace);return}
+  const board=e.target.closest('[data-board]');if(board){openBoard(board.dataset.board);return}
+  const cat=e.target.closest('[data-category-preset]');if(cat){browsePreset(cat.dataset.categoryPreset);return}
+  const layout=e.target.closest('[data-layout]');if(layout?.tagName==='BUTTON'){catalogLayout.dataset.layout=layout.dataset.layout;document.querySelectorAll('.workspace-layout-buttons button').forEach(b=>b.setAttribute('aria-pressed',String(b===layout)));return}
+  const rank=e.target.closest('[data-rank-basis]');if(rank){rankBasis=rank.dataset.rankBasis;renderRankings();return}
+  const ip=e.target.closest('[data-rank-ip]');if(ip){show('explore');document.dispatchEvent(new CustomEvent('atlas:choose-ip',{detail:{id:ip.dataset.rankIp}}));$('results').scrollIntoView({block:'start'});return}
+  const clear=e.target.closest('[data-clear-control]');if(clear){setControl(clear.dataset.clearControl,'');syncFilters();return}
+  if(e.target.closest('[data-brand],[data-retailer],[data-review-brand],[data-open-ip]')){show('explore',{keepView:true,scroll:false});$('results').scrollIntoView({block:'start'})}
+  const legacyView=e.target.closest('[data-view]');if(legacyView&&!legacyView.classList.contains('view-tab'))show('explore',{keepView:true,scroll:false});
+  if(e.target.closest('[data-weekly]'))show('explore',{keepView:true,scroll:false});
+  if(e.target.closest('#watchTutorialButton')){show('sources',{scroll:false});const tutorial=$('tutorial');if(tutorial){tutorial.open=true;tutorial.scrollIntoView({block:'start'})}}
+  if(e.target.closest('[data-save],[data-compare-select],[data-compare-remove],#compareClear'))syncCounts();
  });
- explain();
+ document.addEventListener('atlas:catalog-preset',()=>show('explore',{keepView:true,scroll:false}));
+ document.addEventListener('change',e=>{if(e.target.closest('#filters'))syncFilters()});
+ document.addEventListener('input',e=>{if(e.target.id==='search'&&section!=='explore')show('explore',{keepView:true,scroll:false})});
+ new MutationObserver(syncFilters).observe($('catalogGrid'),{childList:true});
+ new MutationObserver(syncFilters).observe($('resultsTitle'),{childList:true});
+ if($('compareSelectedCount'))new MutationObserver(syncCounts).observe($('compareSelectedCount'),{childList:true});
+ addEventListener('storage',syncCounts);
+ let firstRoute=true;const route=()=>{const hash=location.hash.slice(1),map={results:'explore',filters:'explore',browseToys:'explore','ip-rankings':'rankings',retailChains:'chains',weeklyOverview:'weekly',tutorial:'sources',chinaIntelligence:'sources',sourcesResearch:'sources',chinaIntelligencePanel:'sources'};const key=map[hash]||hash||((new URLSearchParams(location.search).get('view')==='saved')?'saved':'explore');show(key,{history:false,scroll:false,keepView:firstRoute||!['saved','explore'].includes(key)});firstRoute=false;if(hash==='tutorial'&&$('tutorial'))$('tutorial').open=true;};
+ addEventListener('hashchange',route);addEventListener('popstate',route);
+ syncFilters();route();
+ window.ATLAS_WORKSPACE={version:'20261104-discovery-1',show,openBoard};
+};
+if(document.readyState==='loading'||document.readyState==='interactive')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
-
-/* Direct entry to the consumer comparison charts. */
-(()=>{const linkAnalysis=()=>{const a=document.querySelector('#atlasBrandNav a[href="#sourcesResearch"]');if(a){a.href='research.html#comparisonCharts';a.textContent='Rankings & analysis';}};if(document.readyState==='complete')linkAnalysis();else document.addEventListener('DOMContentLoaded',()=>requestAnimationFrame(linkAnalysis),{once:true});})();

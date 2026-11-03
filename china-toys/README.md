@@ -6,13 +6,15 @@ An image-led research directory for blind-box and squishy products associated wi
 
 ## Use the catalog
 
-- Select a brand tab, or **Show all brands** to find a smaller maker or source label.
-- Use **Product type** to distinguish figures, plush, dolls, squishies and squishy blind boxes.
-- **Trending** shows dated evidence, not a popularity guess. A retailer's hot-list inclusion is labeled a weak retailer signal.
-- **Launches & waves** shows only sourced releases or explicitly supported approximate periods. The actual named series stays intact; no invented chronological wave numbers.
-- **New this week** separates new discoveries, recent documented launches, price changes and restocks. Initial imports are baseline records, not new launches.
-- **Details & evidence** opens the product photograph, date provenance, variant/pack basis, market, source links and any sales/trend evidence.
-- Bookmark products into a device-local **Shortlist**. **Export CSV** exports the current selection; the footer's full CSV exports the entire directory.
+- **Explore** searches every captured product / series, with brand, shop, character, type, currency, release and evidence filters. Selected filters remain visible. Switch between grid and table presentations. Additional mobile filters expand on demand.
+- **Rankings** separates eight disclosed global POP MART IP revenues, unranked dated product signals, and catalog-coverage positions. Each view explains its metric, period, source and limits. A position in this catalog is not a sales position.
+- **Compare** selects two to six shop offers, preserves them on this browser, and shows source-specific prices, market, pack, dates, specifications and variants. Export selected offers as CSV or a photo sheet. Products can also be selected directly from an inspiration board.
+- **Inspiration** groups real catalog records into six discovery collections, using explicit product categories or title keywords. These are editorial browsing prompts, not demand claims. All photos remain the existing linked source photos.
+- **Saved collection** keeps bookmarked products on this device. It is independent of comparison selection and is not synchronized across devices.
+- **Retail chains**, **Weekly brief**, and **Sources & methods** preserve the detailed chain evidence, dated additions / changes, research notebook, launch timeline, coverage gaps, and narrated tutorial. Brands & makers opens the full directory.
+- **Download results CSV** exports the currently filtered catalog, including original photo URLs and evidence. CSV files contain photo links, not embedded images.
+
+`simple-navigation.js` provides the unified workspace around the existing catalog and comparison engines; scoped styles in `styles.css` preserve the standalone brand and research pages. Existing scheduled publication copies both files. `workspace_acceptance.py` covers the new navigation, scoped rankings, persistent selections, exports and responsive layouts; legacy UI test entry points delegate to the equivalent workspace checks.
 
 ## Dates and prices
 

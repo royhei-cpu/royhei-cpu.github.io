@@ -91,7 +91,7 @@ dialog.addEventListener('change',e=>{const s=e.target.closest('[data-compare-opt
 document.addEventListener('click',e=>{const b=e.target.closest('[data-compare-select]');if(b){const p=byId.get(b.dataset.compareSelect);if(p)toggle(selectedOffer(p))}});
 new MutationObserver(decorate).observe($('catalogGrid'),{childList:true});new MutationObserver(decorate).observe($('productDetail'),{childList:true,subtree:true});
 addEventListener('storage',e=>{if(e.key!==KEY)return;try{const a=JSON.parse(e.newValue||'[]');chosen=Array.isArray(a)?a.filter(x=>x&&byId.has(x.id)&&typeof x.url==='string').slice(0,MAX):[]}catch{chosen=[]}refresh();if(dialog.open)renderDialog()});
-window.ATLAS_COMPARE={version:VERSION,getSelections:()=>JSON.parse(JSON.stringify(chosen)),open,clear};
+window.ATLAS_COMPARE={version:VERSION,getSelections:()=>JSON.parse(JSON.stringify(chosen)),open,clear,toggleProduct:id=>{const p=byId.get(id);if(!p)return;const l=p.listings.find(l=>l.price!=null)||p.listings[0]||{};toggle({id:p.id,url:l.url||'',mode:p.china_price?'china-launch':'listing'})}};
 const help=document.createElement('p');help.className='tutorial-status';help.textContent='CSV keeps photo URLs and available details. Download photo sheet provides a visual comparison with linked photos.';$('tutorial')?.querySelector('.tutorial-inner')?.append(help);
 refresh();
 })();

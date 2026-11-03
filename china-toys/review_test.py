@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 """UI regression checks on final reviewed data. Screenshots are CI artifacts, not proof of every SKU."""
+
+# The task-based workspace replaces the previous folded-dashboard layout.
+# Keep the old checks below for archived deployments; current CI exercises
+# equivalent source, persistence and responsive flows through the new navigation.
+from pathlib import Path as _WorkspacePath
+if 'window.ATLAS_WORKSPACE=' in (_WorkspacePath(__file__).resolve().parent / 'simple-navigation.js').read_text():
+    from workspace_acceptance import run as _workspace_run
+    _workspace_run('review')
+    raise SystemExit(0)
+
 import json,pathlib,subprocess,sys,time,shutil
 from playwright.sync_api import sync_playwright, expect
 ROOT=pathlib.Path(__file__).resolve().parent;OUT=pathlib.Path('/tmp/china-toys-review-qa');OUT.mkdir(exist_ok=True)
