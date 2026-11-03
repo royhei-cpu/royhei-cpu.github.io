@@ -2150,6 +2150,864 @@
       "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/img-3268-67211e6aad1f7.jpg?resize=980%3A%2A",
       "checked": "2026-11-03",
       "scope": "Separate model reference, not a matched exterior/interior pair or proof of the priced variant."
+    },
+    {
+      "id": "offer-assembly-1",
+      "brandId": "assembly",
+      "offerId": "offer-1730d13",
+      "view": "Exterior",
+      "caption": "Assembly RoverPro — 20-inch Cabin Pro / 50L, Moon White: Cabin Pro lifestyle view",
+      "source": "https://assemblytravel.com/products/roverpro-moon-white-cabin-hard-luggage",
+      "imageUrl": "https://assemblytravel.com/cdn/shop/files/Ajio_Lifestyle_2_0093_DSC01013_copy.jpg?v=1770104734&width=1080",
+      "localPath": "offer-photo-assets/offer-assembly-1.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RoverPro",
+        "size": "20-inch Cabin Pro / 50L",
+        "color": "Moon White",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Buy RoverPro | Moon-White | Cabin Hard Luggage – Cabin Hard Luggage Online in India | Assembly",
+        "visualChecked": true,
+        "imageSha256": "af1b675c207a1243b2b403776e2b286cbc63c3bfd7249016ab95cdb40c01ca23"
+      }
+    },
+    {
+      "id": "offer-assembly-0",
+      "brandId": "assembly",
+      "offerId": "offer-1730d13",
+      "view": "Compartment",
+      "caption": "Assembly RoverPro — 20-inch Cabin Pro / 50L, Moon White: Front laptop compartment open",
+      "source": "https://assemblytravel.com/products/roverpro-moon-white-cabin-hard-luggage",
+      "imageUrl": "https://assemblytravel.com/cdn/shop/files/Rover-Pdps-Amazon-white_cover_redos-2Artboard_4_copy.jpg?v=1767767125&width=1080",
+      "localPath": "offer-photo-assets/offer-assembly-0.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RoverPro",
+        "size": "20-inch Cabin Pro / 50L",
+        "color": "Moon White",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Buy RoverPro | Moon-White | Cabin Hard Luggage – Cabin Hard Luggage Online in India | Assembly",
+        "visualChecked": true,
+        "imageSha256": "c5bdd5a283c4e341dae7eaa1b6e64d813e9d36d70ef98bb706a790452f31eac4"
+      }
+    },
+    {
+      "id": "offer-assembly-4",
+      "brandId": "assembly",
+      "offerId": "offer-1730d13",
+      "view": "Compartment",
+      "caption": "Assembly RoverPro — 20-inch Cabin Pro / 50L, Moon White: Laptop compartment detail",
+      "source": "https://assemblytravel.com/products/roverpro-moon-white-cabin-hard-luggage",
+      "imageUrl": "https://assemblytravel.com/cdn/shop/files/Artboard_6_copy_60b6e378-7901-4a9b-912f-b871cd9cc897.jpg?v=1770104734&width=1080",
+      "localPath": "offer-photo-assets/offer-assembly-4.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RoverPro",
+        "size": "20-inch Cabin Pro / 50L",
+        "color": "Moon White",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Buy Rover Pro Combo | Moon-White | Set of 3 Luggage – Set of 3, Cabin + Check In Hard Luggage Online in India | Assembly",
+        "visualChecked": true,
+        "imageSha256": "75463d03798c40a5154b4a67d38304e536bd709943494a28b5ddb126841f5123"
+      }
+    },
+    {
+      "id": "offer-assembly-3",
+      "brandId": "assembly",
+      "offerId": "offer-1730d13",
+      "view": "Interior",
+      "caption": "Assembly Rover Pro collection — Moon White: shared packing-organizer image; size unverified",
+      "source": "https://assemblytravel.com/products/roverpro-moon-white-cabin-hard-luggage",
+      "imageUrl": "https://assemblytravel.com/cdn/shop/files/Packing_Cube-1_copy_2_778cbf71-2558-4406-aebe-472764701081.jpg?v=1770104892&width=1080",
+      "localPath": "offer-photo-assets/offer-assembly-3.jpg",
+      "checked": "2026-11-04",
+      "scope": "Official shared Rover Pro set image. Moon-White collection is visible, but photographed size/revision are not verified. Not an exact Cabin Pro interior match.",
+      "verificationStatus": "collection-alternative",
+      "identity": {
+        "model": "Rover Pro collection / shared set",
+        "size": null,
+        "color": "Moon White",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Buy Rover Pro Combo | Moon-White | Set of 3 Luggage – Set of 3, Cabin + Check In Hard Luggage Online in India | Assembly",
+        "visualChecked": true,
+        "imageSha256": "502eb88794544558541d867474a673a98b8acb8f05e4bee1380c298c6a8edde4"
+      }
+    },
+    {
+      "id": "offer-assembly-6",
+      "brandId": "assembly",
+      "offerId": "offer-1730d13",
+      "view": "Dimensions",
+      "caption": "Assembly RoverPro — 20-inch Cabin Pro / 50L, Moon White: Cabin Pro size diagram",
+      "source": "https://assemblytravel.com/products/roverpro-moon-white-cabin-hard-luggage",
+      "imageUrl": "https://assemblytravel.com/cdn/shop/files/rover_size_chart_edits_0015_Pro.jpg?v=1770104734&width=1080",
+      "localPath": "offer-photo-assets/offer-assembly-6.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RoverPro",
+        "size": "20-inch Cabin Pro / 50L",
+        "color": "Moon White",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Buy RoverPro | Moon-White | Cabin Hard Luggage – Cabin Hard Luggage Online in India | Assembly",
+        "visualChecked": true,
+        "imageSha256": "04f5fa98bf3aeec44ad6f573892dfdb61206c37443d042d02bb3722641282024"
+      }
+    },
+    {
+      "id": "offer-kathmandu-0",
+      "brandId": "kathmandu",
+      "offerId": "offer-92f1aeb3",
+      "view": "Exterior",
+      "caption": "Kathmandu Hybrid Trolley v5 — 70L, Pure Navy: Front three-quarter view",
+      "source": "https://www.kathmandu.com.au/products/hybrid-trolley-v5-70l-pure-navy",
+      "imageUrl": "https://www.kathmandu.com.au/cdn/shop/files/b0293_oje_hybrid_trolley_a.jpg?v=1746140948&width=1400",
+      "localPath": "offer-photo-assets/offer-kathmandu-0.jpg",
+      "checked": "2026-11-04",
+      "scope": "Official v5 product gallery and visual inspection match model, size, color and named revision.",
+      "verificationStatus": "model-size-color-revision-matched",
+      "identity": {
+        "model": "Hybrid Trolley v5",
+        "size": "70L",
+        "color": "Pure Navy",
+        "revision": "v5",
+        "sku": "B0293 / OJE"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "b0293_oje_hybrid_trolley_a_1743628701000",
+        "visualChecked": true,
+        "imageSha256": "2282c6164edf5a498ae2e5dc54e32038b43e06b35c92c4872efd95771ce2c906"
+      }
+    },
+    {
+      "id": "offer-kathmandu-9",
+      "brandId": "kathmandu",
+      "offerId": "offer-92f1aeb3",
+      "view": "Interior",
+      "caption": "Kathmandu Hybrid Trolley v5 — 70L, Pure Navy: Main packing cavity and compression strap",
+      "source": "https://www.kathmandu.com.au/products/hybrid-trolley-v5-70l-pure-navy",
+      "imageUrl": "https://www.kathmandu.com.au/cdn/shop/files/b0293_oje_hybrid_trolley_j.jpg?v=1746140948&width=1400",
+      "localPath": "offer-photo-assets/offer-kathmandu-9.jpg",
+      "checked": "2026-11-04",
+      "scope": "Official v5 product gallery and visual inspection match model, size, color and named revision.",
+      "verificationStatus": "model-size-color-revision-matched",
+      "identity": {
+        "model": "Hybrid Trolley v5",
+        "size": "70L",
+        "color": "Pure Navy",
+        "revision": "v5",
+        "sku": "B0293 / OJE"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "b0293_oje_hybrid_trolley_j_1743629321000",
+        "visualChecked": true,
+        "imageSha256": "9b59b51329d4be7dd1ce3eb83946ab0733e468158929fe614be705972d6deea5"
+      }
+    },
+    {
+      "id": "offer-kathmandu-6",
+      "brandId": "kathmandu",
+      "offerId": "offer-92f1aeb3",
+      "view": "Organization",
+      "caption": "Kathmandu Hybrid Trolley v5 — 70L, Pure Navy: Backpack harness storage",
+      "source": "https://www.kathmandu.com.au/products/hybrid-trolley-v5-70l-pure-navy",
+      "imageUrl": "https://www.kathmandu.com.au/cdn/shop/files/b0293_oje_hybrid_trolley_g.jpg?v=1746140948&width=1400",
+      "localPath": "offer-photo-assets/offer-kathmandu-6.jpg",
+      "checked": "2026-11-04",
+      "scope": "Official v5 product gallery and visual inspection match model, size, color and named revision.",
+      "verificationStatus": "model-size-color-revision-matched",
+      "identity": {
+        "model": "Hybrid Trolley v5",
+        "size": "70L",
+        "color": "Pure Navy",
+        "revision": "v5",
+        "sku": "B0293 / OJE"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "b0293_oje_hybrid_trolley_g_1743628655000",
+        "visualChecked": true,
+        "imageSha256": "c36534fc7ceea6c6557a966890704f0460128268398bd7201b1daa2f429115d4"
+      }
+    },
+    {
+      "id": "offer-nasher-0",
+      "brandId": "nasher-miles",
+      "offerId": "offer-fec120e7",
+      "view": "Exterior",
+      "caption": "Nasher Miles Dubai — 20-inch / 55cm, Pastel Green / Navy Blue: Front three-quarter view",
+      "source": "https://nashermiles.com/collections/advanced-hardside-luggage/products/nasher-miles-dubai-hard-sided-polypropylene-cabin-luggage-pastel-green-navy-blue-20-inch-55cm-trolley-bag",
+      "imageUrl": "https://nashermiles.com/cdn/shop/files/S_427e3cdf-c55d-4bfb-8a00-b2927bf36736.jpg?crop=center&height=2000&v=1737005940&width=2000",
+      "localPath": "offer-photo-assets/offer-nasher-0.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Dubai",
+        "size": "20-inch / 55cm",
+        "color": "Pastel Green / Navy Blue",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Dubai",
+        "visualChecked": true,
+        "imageSha256": "6cfc996d06e5c52777489f32a8197884da053210f37c07bef12030edd3fb8dda"
+      }
+    },
+    {
+      "id": "offer-nasher-4",
+      "brandId": "nasher-miles",
+      "offerId": "offer-fec120e7",
+      "view": "Interior",
+      "caption": "Nasher Miles Dubai — 20-inch / 55cm, Pastel Green / Navy Blue: Wet pouch, zip pockets, hinge pocket and straps",
+      "source": "https://nashermiles.com/collections/advanced-hardside-luggage/products/nasher-miles-dubai-hard-sided-polypropylene-cabin-luggage-pastel-green-navy-blue-20-inch-55cm-trolley-bag",
+      "imageUrl": "https://nashermiles.com/cdn/shop/files/S5_e82c6fa2-5f77-4152-a981-bcd27303eeef.jpg?crop=center&height=2000&v=1740376794&width=2000",
+      "localPath": "offer-photo-assets/offer-nasher-4.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Dubai",
+        "size": "20-inch / 55cm",
+        "color": "Pastel Green / Navy Blue",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Dubai",
+        "visualChecked": true,
+        "imageSha256": "64b0c4edff8f27ced4074d814eee44db14edcf0c5814ed457faa44f1d489d1bd"
+      }
+    },
+    {
+      "id": "offer-nasher-2",
+      "brandId": "nasher-miles",
+      "offerId": "offer-fec120e7",
+      "view": "Detail",
+      "caption": "Nasher Miles Dubai — 20-inch / 55cm, Pastel Green / Navy Blue: TSA lock and wheel detail",
+      "source": "https://nashermiles.com/collections/advanced-hardside-luggage/products/nasher-miles-dubai-hard-sided-polypropylene-cabin-luggage-pastel-green-navy-blue-20-inch-55cm-trolley-bag",
+      "imageUrl": "https://nashermiles.com/cdn/shop/files/S3_e1b89b81-babf-4dfd-ae06-7260ba23fca2.jpg?crop=center&height=2000&v=1740376794&width=2000",
+      "localPath": "offer-photo-assets/offer-nasher-2.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Dubai",
+        "size": "20-inch / 55cm",
+        "color": "Pastel Green / Navy Blue",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Dubai",
+        "visualChecked": true,
+        "imageSha256": "5bb9ada9b98a3d4291f840fafd71ace2fec18200d03e8a5a35b089cf478cc050"
+      }
+    },
+    {
+      "id": "offer-safari-8",
+      "brandId": "safari",
+      "offerId": "offer-39bdd129",
+      "view": "Exterior",
+      "caption": "Safari Select Aerolite — Cabin / 55cm, Black: Front exterior",
+      "source": "https://safaribags.com/products/safari-select-aerolite-black-cabin-trolley-bag-with-laptop-compartment-tsa-lock-dual-wheels-and-anti-theft-zipper",
+      "imageUrl": "https://safaribags.com/cdn/shop/files/FrontAngle_1500x.jpg?v=1743595695",
+      "localPath": "offer-photo-assets/offer-safari-8.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Select Aerolite",
+        "size": "Cabin / 55cm",
+        "color": "Black",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Safari Select Aerolite Cabin Trolley Bag - Black",
+        "visualChecked": true,
+        "imageSha256": "b658b695a1330b3141fb18960ec27390b40e6487dc50418b20382f82657297a9"
+      }
+    },
+    {
+      "id": "offer-safari-2",
+      "brandId": "safari",
+      "offerId": "offer-39bdd129",
+      "view": "Interior",
+      "caption": "Safari Select Aerolite — Cabin / 55cm, Black: Packed interior, divider and cross straps",
+      "source": "https://safaribags.com/products/safari-select-aerolite-black-cabin-trolley-bag-with-laptop-compartment-tsa-lock-dual-wheels-and-anti-theft-zipper",
+      "imageUrl": "https://safaribags.com/cdn/shop/files/AeroliteAmazonPDP4-100_1500x.jpg?v=1743595769",
+      "localPath": "offer-photo-assets/offer-safari-2.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Select Aerolite",
+        "size": "Cabin / 55cm",
+        "color": "Black",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Safari Select Aerolite Cabin Trolley Bag - Black",
+        "visualChecked": true,
+        "imageSha256": "2cd1cc62364acb1c3de959e49d29a1c15b271ffb0d3ce58237112be7e123ee44"
+      }
+    },
+    {
+      "id": "offer-samsonite-1",
+      "brandId": "samsonite",
+      "offerId": "offer-a8bb8cf6",
+      "view": "Exterior",
+      "caption": "Samsonite Paralux Medium Spinner — Medium, Olive: Front three-quarter view",
+      "source": "https://shop.samsonite.com/luggage-checked-luggage/paralux-medium-spinner/156525XXXX.html?dwvar_156525XXXX_color=1565251633",
+      "imageUrl": "https://shop.samsonite.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dw806f051c/collections/_samsonite/Paralux_HS_F740/500x500/156525-1633_F740_FRONT34-reddot.png?sw=912&sh=912",
+      "localPath": "offer-photo-assets/offer-samsonite-1.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Paralux Medium Spinner",
+        "size": "Medium",
+        "color": "Olive",
+        "revision": null,
+        "sku": "156525-1633"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Paralux Medium Spinner in the color Olive. image number 0",
+        "visualChecked": true,
+        "imageSha256": "5f5a58a82b43a2778034490acb3d65c53ce6f689d88993a5d97f30b062372a1c"
+      }
+    },
+    {
+      "id": "offer-samsonite-2",
+      "brandId": "samsonite",
+      "offerId": "offer-a8bb8cf6",
+      "view": "Interior",
+      "caption": "Samsonite Paralux Medium Spinner — Medium, Olive: Main clamshell packing and cubes",
+      "source": "https://shop.samsonite.com/luggage-checked-luggage/paralux-medium-spinner/156525XXXX.html?dwvar_156525XXXX_color=1565251633",
+      "imageUrl": "https://shop.samsonite.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dw416cd9b0/collections/_samsonite/Paralux_HS_F740/500x500/156525-1633-INTERIOR-10.jpg?sw=912&sh=912",
+      "localPath": "offer-photo-assets/offer-samsonite-2.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Paralux Medium Spinner",
+        "size": "Medium",
+        "color": "Olive",
+        "revision": null,
+        "sku": "156525-1633"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Paralux Medium Spinner in the color Olive. image number 1",
+        "visualChecked": true,
+        "imageSha256": "d83390e3a27f8f424144dce7cc1224055e8e8b132b3df33025a7ba7b84eeae59"
+      }
+    },
+    {
+      "id": "offer-samsonite-3",
+      "brandId": "samsonite",
+      "offerId": "offer-a8bb8cf6",
+      "view": "Compartment",
+      "caption": "Samsonite Paralux Medium Spinner — Medium, Olive: Front access and interior organizer",
+      "source": "https://shop.samsonite.com/luggage-checked-luggage/paralux-medium-spinner/156525XXXX.html?dwvar_156525XXXX_color=1565251633",
+      "imageUrl": "https://shop.samsonite.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dw4a60eece/collections/_samsonite/Paralux_HS_F740/500x500/156525-1633-INTERIOR-12.jpg?sw=912&sh=912",
+      "localPath": "offer-photo-assets/offer-samsonite-3.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Paralux Medium Spinner",
+        "size": "Medium",
+        "color": "Olive",
+        "revision": null,
+        "sku": "156525-1633"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Paralux Medium Spinner in the color Olive. image number 2",
+        "visualChecked": true,
+        "imageSha256": "b417ee19fd85d4981dd3a1e6e100dda827d87519c1024d2629619c868c74a963"
+      }
+    },
+    {
+      "id": "offer-samsonite-5",
+      "brandId": "samsonite",
+      "offerId": "offer-a8bb8cf6",
+      "view": "Organization",
+      "caption": "Samsonite Paralux Medium Spinner — Medium, Olive: Interior mesh pocket and accessory clip",
+      "source": "https://shop.samsonite.com/luggage-checked-luggage/paralux-medium-spinner/156525XXXX.html?dwvar_156525XXXX_color=1565251633",
+      "imageUrl": "https://shop.samsonite.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dwe4ecb2d7/collections/_samsonite/Paralux_HS_F740/500x500/156525-1633-ACCESSORY_CLIP-6.jpg?sw=912&sh=912",
+      "localPath": "offer-photo-assets/offer-samsonite-5.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Paralux Medium Spinner",
+        "size": "Medium",
+        "color": "Olive",
+        "revision": null,
+        "sku": "156525-1633"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Paralux Medium Spinner in the color Olive. image number 4",
+        "visualChecked": true,
+        "imageSha256": "4c1755e96f96de25786d1469492b3295cb1e24287b3d13cdd1aff60777f5740c"
+      }
+    },
+    {
+      "id": "offer-samsonite-8",
+      "brandId": "samsonite",
+      "offerId": "offer-a8bb8cf6",
+      "view": "Organization",
+      "caption": "Samsonite Paralux Medium Spinner — Medium, Olive: Packing cubes",
+      "source": "https://shop.samsonite.com/luggage-checked-luggage/paralux-medium-spinner/156525XXXX.html?dwvar_156525XXXX_color=1565251633",
+      "imageUrl": "https://shop.samsonite.com/dw/image/v2/BBZB_PRD/on/demandware.static/-/Sites-product-catalog/default/dw1da0fe35/collections/_samsonite/Paralux_HS_F740/500x500/156525-1633-PACKABLE-14.jpg?sw=912&sh=912",
+      "localPath": "offer-photo-assets/offer-samsonite-8.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Paralux Medium Spinner",
+        "size": "Medium",
+        "color": "Olive",
+        "revision": null,
+        "sku": "156525-1633"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Paralux Medium Spinner in the color Olive. image number 7",
+        "visualChecked": true,
+        "imageSha256": "4e749a7be9b473dba658e1e93ee0fefea86426cf39d7fb5167c6112672759561"
+      }
+    },
+    {
+      "id": "offer-skybags-0",
+      "brandId": "skybags",
+      "offerId": "offer-baa5a155",
+      "view": "Exterior",
+      "caption": "Skybags Twentyfour7 Pro — Cabin / 55cm, Cobalt Blue: Cobalt Blue exterior",
+      "source": "https://vipbags.com/products/skybags-twentyfour7-pro-cabin",
+      "imageUrl": "https://vipbags.com/cdn/shop/files/1_9cce64c6-cecd-4394-b7c6-c3a5f6ea8c1d.webp?v=1783958001&width=832",
+      "localPath": "offer-photo-assets/offer-skybags-0.jpg",
+      "checked": "2026-11-04",
+      "scope": "Official Cobalt Blue cabin gallery, SKU STTWP8W55CBL. Model and size match; the saved offer has no color. Revision not stated.",
+      "verificationStatus": "model-size-matched-color-unspecified",
+      "identity": {
+        "model": "Twentyfour7 Pro",
+        "size": "Cabin / 55cm",
+        "color": "Cobalt Blue",
+        "revision": null,
+        "sku": "STTWP8W55CBL"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "STTWP8W55CBL 1.webp",
+        "visualChecked": true,
+        "imageSha256": "fb16546ee3cfd6d5685a317f481710480d733fb9e023de4a7665471230b65098"
+      }
+    },
+    {
+      "id": "offer-skybags-5",
+      "brandId": "skybags",
+      "offerId": "offer-baa5a155",
+      "view": "Interior",
+      "caption": "Skybags Twentyfour7 Pro — Cabin / 55cm, Cobalt Blue: Packed interior and toiletry pouch",
+      "source": "https://vipbags.com/products/skybags-twentyfour7-pro-cabin",
+      "imageUrl": "https://vipbags.com/cdn/shop/files/6_57ec9552-1e22-41e7-bc2d-81f11f387c77.webp?v=1783958006&width=832",
+      "localPath": "offer-photo-assets/offer-skybags-5.jpg",
+      "checked": "2026-11-04",
+      "scope": "Official Cobalt Blue cabin gallery, SKU STTWP8W55CBL. Model and size match; the saved offer has no color. Revision not stated.",
+      "verificationStatus": "model-size-matched-color-unspecified",
+      "identity": {
+        "model": "Twentyfour7 Pro",
+        "size": "Cabin / 55cm",
+        "color": "Cobalt Blue",
+        "revision": null,
+        "sku": "STTWP8W55CBL"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "STTWP8W55CBL 6.webp",
+        "visualChecked": true,
+        "imageSha256": "f9fe415811e1ffd34f09fca38ac4327583b432befc1b434fc20f6a2baf819fd1"
+      }
+    },
+    {
+      "id": "offer-skybags-6",
+      "brandId": "skybags",
+      "offerId": "offer-baa5a155",
+      "view": "Compartment",
+      "caption": "Skybags Twentyfour7 Pro — Cabin / 55cm, Cobalt Blue: Front laptop compartment",
+      "source": "https://vipbags.com/products/skybags-twentyfour7-pro-cabin",
+      "imageUrl": "https://vipbags.com/cdn/shop/files/7_698070d5-8fa3-438f-8a45-2ac2ac326a5d.webp?v=1783958006&width=832",
+      "localPath": "offer-photo-assets/offer-skybags-6.jpg",
+      "checked": "2026-11-04",
+      "scope": "Official Cobalt Blue cabin gallery, SKU STTWP8W55CBL. Model and size match; the saved offer has no color. Revision not stated.",
+      "verificationStatus": "model-size-matched-color-unspecified",
+      "identity": {
+        "model": "Twentyfour7 Pro",
+        "size": "Cabin / 55cm",
+        "color": "Cobalt Blue",
+        "revision": null,
+        "sku": "STTWP8W55CBL"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "STTWP8W55CBL 7.webp",
+        "visualChecked": true,
+        "imageSha256": "1562d0730e70dd175bc4fc63362fd0f40ebfeb2c763fb80afb6dfee9bb9a971b"
+      }
+    },
+    {
+      "id": "offer-skybags-13",
+      "brandId": "skybags",
+      "offerId": "offer-baa5a155",
+      "view": "Dimensions",
+      "caption": "Skybags Twentyfour7 Pro — Cabin / 55cm, Cobalt Blue: Cabin dimensions and expansion",
+      "source": "https://vipbags.com/products/skybags-twentyfour7-pro-cabin",
+      "imageUrl": "https://vipbags.com/cdn/shop/files/9_36f11a1a-981c-4efb-8acb-771c43c07332.webp?v=1783958008&width=832",
+      "localPath": "offer-photo-assets/offer-skybags-13.jpg",
+      "checked": "2026-11-04",
+      "scope": "Official Cobalt Blue cabin gallery, SKU STTWP8W55CBL. Model and size match; the saved offer has no color. Revision not stated.",
+      "verificationStatus": "model-size-matched-color-unspecified",
+      "identity": {
+        "model": "Twentyfour7 Pro",
+        "size": "Cabin / 55cm",
+        "color": "Cobalt Blue",
+        "revision": null,
+        "sku": "STTWP8W55CBL"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "STTWP8W55CBL 9.webp",
+        "visualChecked": true,
+        "imageSha256": "9cab69849f28ba4e4045bf681592d81e8fdd078799099864c1171f4873c8afb3"
+      }
+    },
+    {
+      "id": "offer-skyline-0",
+      "brandId": "skyline",
+      "offerId": "offer-e74871e",
+      "view": "Exterior",
+      "caption": "Skyline Hardside Carry-On Spinner — 20-inch carry-on, Tan / Oxford Tan: Tan front exterior",
+      "source": "https://www.target.com/p/skyline-hardside-carry-on-spinner-suitcase-oxford-tan/-/A-92118303",
+      "imageUrl": "https://target.scene7.com/is/image/Target/GUEST_17057bc9-8b20-43e3-ad71-9cc9a3f4db88",
+      "localPath": "offer-photo-assets/offer-skyline-0.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Hardside Carry-On Spinner",
+        "size": "20-inch carry-on",
+        "color": "Tan / Oxford Tan",
+        "revision": null,
+        "sku": "TCIN 92118303; DPCI 069-04-6240; UPC 618842548149"
+      },
+      "evidence": {
+        "type": "Retailer exact-item gallery",
+        "galleryAlt": "Skyline Tan TCIN 92118303 retailer gallery",
+        "visualChecked": true,
+        "imageSha256": "6a2081449b563a4ed599c0b2e1799e1f08a00d7c2d524124a51196a11e004714"
+      }
+    },
+    {
+      "id": "offer-skyline-4",
+      "brandId": "skyline",
+      "offerId": "offer-e74871e",
+      "view": "Interior",
+      "caption": "Skyline Hardside Carry-On Spinner — 20-inch carry-on, Tan / Oxford Tan: Zip divider and cross straps",
+      "source": "https://www.target.com/p/skyline-hardside-carry-on-spinner-suitcase-oxford-tan/-/A-92118303",
+      "imageUrl": "https://target.scene7.com/is/image/Target/GUEST_282e0251-b0e7-4f47-8dba-eefcb01592de",
+      "localPath": "offer-photo-assets/offer-skyline-4.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Hardside Carry-On Spinner",
+        "size": "20-inch carry-on",
+        "color": "Tan / Oxford Tan",
+        "revision": null,
+        "sku": "TCIN 92118303; DPCI 069-04-6240; UPC 618842548149"
+      },
+      "evidence": {
+        "type": "Retailer exact-item gallery",
+        "galleryAlt": "Skyline Tan TCIN 92118303 retailer gallery",
+        "visualChecked": true,
+        "imageSha256": "42e2ae73207285ea2177bbadf75d588b41bb844f61c9401bdac04a5db8ff05b3"
+      }
+    },
+    {
+      "id": "offer-skyline-5",
+      "brandId": "skyline",
+      "offerId": "offer-e74871e",
+      "view": "Organization",
+      "caption": "Skyline Hardside Carry-On Spinner — 20-inch carry-on, Tan / Oxford Tan: Main cavity and zippered lid organizer",
+      "source": "https://www.target.com/p/skyline-hardside-carry-on-spinner-suitcase-oxford-tan/-/A-92118303",
+      "imageUrl": "https://target.scene7.com/is/image/Target/GUEST_643f0f62-d053-40f8-b451-e9c48cca22d4",
+      "localPath": "offer-photo-assets/offer-skyline-5.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Hardside Carry-On Spinner",
+        "size": "20-inch carry-on",
+        "color": "Tan / Oxford Tan",
+        "revision": null,
+        "sku": "TCIN 92118303; DPCI 069-04-6240; UPC 618842548149"
+      },
+      "evidence": {
+        "type": "Retailer exact-item gallery",
+        "galleryAlt": "Skyline Tan TCIN 92118303 retailer gallery",
+        "visualChecked": true,
+        "imageSha256": "d5731dc96098d9ddc13c5ba525c868df183fd206743ff360ef386192bcd91158"
+      }
+    },
+    {
+      "id": "offer-skyline-2",
+      "brandId": "skyline",
+      "offerId": "offer-e74871e",
+      "view": "Dimensions",
+      "caption": "Skyline Hardside Carry-On Spinner — 20-inch carry-on, Tan / Oxford Tan: Exterior dimensions diagram",
+      "source": "https://www.target.com/p/skyline-hardside-carry-on-spinner-suitcase-oxford-tan/-/A-92118303",
+      "imageUrl": "https://target.scene7.com/is/image/Target/GUEST_53b8fa64-e67e-4bc1-b91d-8358f4e7ed5f",
+      "localPath": "offer-photo-assets/offer-skyline-2.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Hardside Carry-On Spinner",
+        "size": "20-inch carry-on",
+        "color": "Tan / Oxford Tan",
+        "revision": null,
+        "sku": "TCIN 92118303; DPCI 069-04-6240; UPC 618842548149"
+      },
+      "evidence": {
+        "type": "Retailer exact-item gallery",
+        "galleryAlt": "Skyline Tan TCIN 92118303 retailer gallery",
+        "visualChecked": true,
+        "imageSha256": "bb0ee832e7cc7e43babe16603c34ef06231215c329adfc45bbaca4f9bc87f648"
+      }
+    },
+    {
+      "id": "offer-flatform-0",
+      "brandId": "samsonite",
+      "offerId": "offer-d24eb6fb",
+      "view": "Exterior",
+      "caption": "Samsonite FLATFORM — 55cm / 34–44L, Dark Moss: Dark Moss front exterior",
+      "source": "https://www.yodobashi.com/product/100000001010283165/",
+      "imageUrl": "https://image.yodobashi.com/product/100/000/001/010/283/165/100000001010283165_10204.jpg",
+      "localPath": "offer-photo-assets/offer-flatform-0.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "FLATFORM",
+        "size": "55cm / 34–44L",
+        "color": "Dark Moss",
+        "revision": null,
+        "sku": "UM0*18001; Yodobashi 100000001010283165"
+      },
+      "evidence": {
+        "type": "Retailer exact-item gallery",
+        "galleryAlt": "flatform retailer gallery",
+        "visualChecked": true,
+        "imageSha256": "fe7e9f1dd242b67aa312be514631a5bc8bffe027a1074925a422c942e79e3108"
+      }
+    },
+    {
+      "id": "offer-flatform-7",
+      "brandId": "samsonite",
+      "offerId": "offer-d24eb6fb",
+      "view": "Interior",
+      "caption": "Samsonite FLATFORM — 55cm / 34–44L, Dark Moss: Main compartment and pocketed lid",
+      "source": "https://www.yodobashi.com/product/100000001010283165/",
+      "imageUrl": "https://image.yodobashi.com/product/100/000/001/010/283/165/100000001010283165_10274.jpg",
+      "localPath": "offer-photo-assets/offer-flatform-7.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "FLATFORM",
+        "size": "55cm / 34–44L",
+        "color": "Dark Moss",
+        "revision": null,
+        "sku": "UM0*18001; Yodobashi 100000001010283165"
+      },
+      "evidence": {
+        "type": "Retailer exact-item gallery",
+        "galleryAlt": "flatform retailer gallery",
+        "visualChecked": true,
+        "imageSha256": "ed5d393c399585ecb9fd921e7dc98fdfd93c7d4763475ff2352881e161df1a87"
+      }
+    },
+    {
+      "id": "offer-flatform-4",
+      "brandId": "samsonite",
+      "offerId": "offer-d24eb6fb",
+      "view": "Compartment",
+      "caption": "Samsonite FLATFORM — 55cm / 34–44L, Dark Moss: Front access to main compartment",
+      "source": "https://www.yodobashi.com/product/100000001010283165/",
+      "imageUrl": "https://image.yodobashi.com/product/100/000/001/010/283/165/100000001010283165_10244.jpg",
+      "localPath": "offer-photo-assets/offer-flatform-4.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "FLATFORM",
+        "size": "55cm / 34–44L",
+        "color": "Dark Moss",
+        "revision": null,
+        "sku": "UM0*18001; Yodobashi 100000001010283165"
+      },
+      "evidence": {
+        "type": "Retailer exact-item gallery",
+        "galleryAlt": "flatform retailer gallery",
+        "visualChecked": true,
+        "imageSha256": "0805e96c70e51ad6af4c8c93c535dc5d26072f70a76a9bf84b5ea31a3f7caf89"
+      }
+    },
+    {
+      "id": "offer-flatform-12",
+      "brandId": "samsonite",
+      "offerId": "offer-d24eb6fb",
+      "view": "Organization",
+      "caption": "Samsonite FLATFORM — 55cm / 34–44L, Dark Moss: Laptop and tablet pockets",
+      "source": "https://www.yodobashi.com/product/100000001010283165/",
+      "imageUrl": "https://image.yodobashi.com/product/100/000/001/010/283/165/100000001010283165_10249.jpg",
+      "localPath": "offer-photo-assets/offer-flatform-12.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "FLATFORM",
+        "size": "55cm / 34–44L",
+        "color": "Dark Moss",
+        "revision": null,
+        "sku": "UM0*18001; Yodobashi 100000001010283165"
+      },
+      "evidence": {
+        "type": "Retailer exact-item gallery",
+        "galleryAlt": "flatform retailer gallery",
+        "visualChecked": true,
+        "imageSha256": "74cd57f648d855716a9203e92fe8ce2259bc6a9d7f8b98b3bde79ebfe63987d1"
+      }
+    },
+    {
+      "id": "offer-upscape-0",
+      "brandId": "samsonite",
+      "offerId": "offer-e1d531ef",
+      "view": "Exterior",
+      "caption": "Samsonite Upscape — 75cm / 104–114L, Blue Nights: Blue Nights front exterior",
+      "source": "https://www.yodobashi.com/product/100000001008919813/",
+      "imageUrl": "https://image.yodobashi.com/product/100/000/001/008/919/813/100000001008919813_10204.jpg",
+      "localPath": "offer-photo-assets/offer-upscape-0.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Upscape",
+        "size": "75cm / 104–114L",
+        "color": "Blue Nights",
+        "revision": null,
+        "sku": "KJ1*01003; Yodobashi 100000001008919813"
+      },
+      "evidence": {
+        "type": "Retailer exact-item gallery",
+        "galleryAlt": "upscape retailer gallery",
+        "visualChecked": true,
+        "imageSha256": "10c36a0cad2e65d1f752ddf279f5c1418488363f966cb054c0b681235e74e72b"
+      }
+    },
+    {
+      "id": "offer-upscape-7",
+      "brandId": "samsonite",
+      "offerId": "offer-e1d531ef",
+      "view": "Interior",
+      "caption": "Samsonite Upscape — 75cm / 104–114L, Blue Nights: Zippered divider and compression straps",
+      "source": "https://www.yodobashi.com/product/100000001008919813/",
+      "imageUrl": "https://image.yodobashi.com/product/100/000/001/008/919/813/100000001008919813_10229.jpg",
+      "localPath": "offer-photo-assets/offer-upscape-7.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Upscape",
+        "size": "75cm / 104–114L",
+        "color": "Blue Nights",
+        "revision": null,
+        "sku": "KJ1*01003; Yodobashi 100000001008919813"
+      },
+      "evidence": {
+        "type": "Retailer exact-item gallery",
+        "galleryAlt": "upscape retailer gallery",
+        "visualChecked": true,
+        "imageSha256": "0b00fd09f41d03efcdf9a2c88a5ffbb856fc550d328bdc65c5a99631710037fe"
+      }
+    },
+    {
+      "id": "offer-upscape-3",
+      "brandId": "samsonite",
+      "offerId": "offer-e1d531ef",
+      "view": "Detail",
+      "caption": "Samsonite Upscape — 75cm / 104–114L, Blue Nights: TSA lock",
+      "source": "https://www.yodobashi.com/product/100000001008919813/",
+      "imageUrl": "https://image.yodobashi.com/product/100/000/001/008/919/813/100000001008919813_10234.jpg",
+      "localPath": "offer-photo-assets/offer-upscape-3.jpg",
+      "checked": "2026-11-04",
+      "scope": "Product-page gallery and visual inspection match the named model, size and color. Revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Upscape",
+        "size": "75cm / 104–114L",
+        "color": "Blue Nights",
+        "revision": null,
+        "sku": "KJ1*01003; Yodobashi 100000001008919813"
+      },
+      "evidence": {
+        "type": "Retailer exact-item gallery",
+        "galleryAlt": "upscape retailer gallery",
+        "visualChecked": true,
+        "imageSha256": "d4dd61e481006d8445da5a03265e4f5f17c2675216fdc128bf54a703b3294bfe"
+      }
     }
   ],
   "byBrand": {
@@ -2185,7 +3043,12 @@
       "p13"
     ],
     "assembly": [
-      "p14"
+      "p14",
+      "offer-assembly-1",
+      "offer-assembly-0",
+      "offer-assembly-4",
+      "offer-assembly-3",
+      "offer-assembly-6"
     ],
     "away": [
       "p16",
@@ -2327,7 +3190,10 @@
       "p3009"
     ],
     "kathmandu": [
-      "p3006"
+      "p3006",
+      "offer-kathmandu-0",
+      "offer-kathmandu-9",
+      "offer-kathmandu-6"
     ],
     "kenneth-cole-reaction": [
       "p2012",
@@ -2380,7 +3246,10 @@
       "p3035"
     ],
     "nasher-miles": [
-      "p100"
+      "p100",
+      "offer-nasher-0",
+      "offer-nasher-4",
+      "offer-nasher-2"
     ],
     "nere": [
       "p103",
@@ -2451,10 +3320,24 @@
       "p131"
     ],
     "safari": [
-      "p132"
+      "p132",
+      "offer-safari-8",
+      "offer-safari-2"
     ],
     "samsonite": [
-      "p3002"
+      "p3002",
+      "offer-samsonite-1",
+      "offer-samsonite-2",
+      "offer-samsonite-3",
+      "offer-samsonite-5",
+      "offer-samsonite-8",
+      "offer-flatform-0",
+      "offer-flatform-7",
+      "offer-flatform-4",
+      "offer-flatform-12",
+      "offer-upscape-0",
+      "offer-upscape-7",
+      "offer-upscape-3"
     ],
     "sestini": [
       "p2019",
@@ -2466,10 +3349,18 @@
       "p3070"
     ],
     "skybags": [
-      "p136"
+      "p136",
+      "offer-skybags-0",
+      "offer-skybags-5",
+      "offer-skybags-6",
+      "offer-skybags-13"
     ],
     "skyline": [
-      "p137"
+      "p137",
+      "offer-skyline-0",
+      "offer-skyline-4",
+      "offer-skyline-5",
+      "offer-skyline-2"
     ],
     "solgaard": [
       "p138",
@@ -2565,5 +3456,270 @@
       "p6001"
     ]
   },
-  "note": "Galleries compare sourced product and collection references. Each image has its own model/collection caption and source. An interior from another model is not evidence of the priced model’s construction."
+  "note": "Galleries compare sourced product and collection references. Each image has its own model/collection caption and source. An interior from another model is not evidence of the priced model’s construction.",
+  "offerAudits": [
+    {
+      "offerId": "offer-1730d13",
+      "offerIdentity": {
+        "brand": "Assembly",
+        "product": "RoverPro Moon-White Cabin",
+        "currency": "INR",
+        "retailer": "Brand / source storefront",
+        "source": "https://assemblytravel.com/collections/hard-luggage"
+      },
+      "checked": "2026-11-04",
+      "productPage": "https://assemblytravel.com/products/roverpro-moon-white-cabin-hard-luggage",
+      "identity": {
+        "model": "RoverPro",
+        "size": "20-inch Cabin Pro / 50L",
+        "color": "Moon White",
+        "revision": null,
+        "sku": null
+      },
+      "photoIds": [
+        "offer-assembly-1",
+        "offer-assembly-0",
+        "offer-assembly-4",
+        "offer-assembly-3",
+        "offer-assembly-6"
+      ],
+      "gaps": [
+        "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established.",
+        "Main packing/organizer image is shared with the Rover Pro set gallery; the photographed size is unverified. Front laptop compartment is matched to Cabin Pro."
+      ],
+      "note": "Live product page identifies the 20-inch Cabin Pro at INR 5,499; original offer and price retained. Shared-set image is separately qualified."
+    },
+    {
+      "offerId": "offer-92f1aeb3",
+      "offerIdentity": {
+        "brand": "Kathmandu",
+        "product": "Hybrid Trolley v5 70L, Pure Navy",
+        "currency": "AUD",
+        "retailer": "Brand / source storefront",
+        "source": "https://www.kathmandu.com.au/collections/travel"
+      },
+      "checked": "2026-11-04",
+      "productPage": "https://www.kathmandu.com.au/products/hybrid-trolley-v5-70l-pure-navy",
+      "identity": {
+        "model": "Hybrid Trolley v5",
+        "size": "70L",
+        "color": "Pure Navy",
+        "revision": "v5",
+        "sku": "B0293 / OJE"
+      },
+      "photoIds": [
+        "offer-kathmandu-0",
+        "offer-kathmandu-9",
+        "offer-kathmandu-6"
+      ],
+      "gaps": [
+        "No separate small-pocket close-up captured. Black Stingray interior marketing image on this page was excluded from the Pure Navy match."
+      ],
+      "note": ""
+    },
+    {
+      "offerId": "offer-fec120e7",
+      "offerIdentity": {
+        "brand": "Nasher Miles",
+        "product": "Dubai 20-inch dual-color cabin",
+        "currency": "INR",
+        "retailer": "Brand / source storefront",
+        "source": "https://nashermiles.com/collections/advanced-hardside-luggage/products/nasher-miles-dubai-hard-sided-polypropylene-cabin-luggage-pastel-green-navy-blue-20-inch-55cm-trolley-bag"
+      },
+      "checked": "2026-11-04",
+      "productPage": "https://nashermiles.com/collections/advanced-hardside-luggage/products/nasher-miles-dubai-hard-sided-polypropylene-cabin-luggage-pastel-green-navy-blue-20-inch-55cm-trolley-bag",
+      "identity": {
+        "model": "Dubai",
+        "size": "20-inch / 55cm",
+        "color": "Pastel Green / Navy Blue",
+        "revision": null,
+        "sku": null
+      },
+      "photoIds": [
+        "offer-nasher-0",
+        "offer-nasher-4",
+        "offer-nasher-2"
+      ],
+      "gaps": [
+        "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established."
+      ],
+      "note": ""
+    },
+    {
+      "offerId": "offer-39bdd129",
+      "offerIdentity": {
+        "brand": "Safari",
+        "product": "Select Aerolite Cabin black",
+        "currency": "INR",
+        "retailer": "Brand / source storefront",
+        "source": "https://safaribags.com/products/safari-select-aerolite-black-cabin-trolley-bag-with-laptop-compartment-tsa-lock-dual-wheels-and-anti-theft-zipper"
+      },
+      "checked": "2026-11-04",
+      "productPage": "https://safaribags.com/products/safari-select-aerolite-black-cabin-trolley-bag-with-laptop-compartment-tsa-lock-dual-wheels-and-anti-theft-zipper",
+      "identity": {
+        "model": "Select Aerolite",
+        "size": "Cabin / 55cm",
+        "color": "Black",
+        "revision": null,
+        "sku": null
+      },
+      "photoIds": [
+        "offer-safari-8",
+        "offer-safari-2"
+      ],
+      "gaps": [
+        "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established.",
+        "No separately verified open laptop-compartment photograph captured; the packed main interior is shown."
+      ],
+      "note": ""
+    },
+    {
+      "offerId": "offer-a8bb8cf6",
+      "offerIdentity": {
+        "brand": "Samsonite",
+        "product": "Paralux Medium Spinner, Olive",
+        "currency": "USD",
+        "retailer": "Brand / source storefront",
+        "source": "https://shop.samsonite.com/luggage-checked-luggage/paralux-medium-spinner/156525XXXX.html?dwvar_156525XXXX_color=1565251633"
+      },
+      "checked": "2026-11-04",
+      "productPage": "https://shop.samsonite.com/luggage-checked-luggage/paralux-medium-spinner/156525XXXX.html?dwvar_156525XXXX_color=1565251633",
+      "identity": {
+        "model": "Paralux Medium Spinner",
+        "size": "Medium",
+        "color": "Olive",
+        "revision": null,
+        "sku": "156525-1633"
+      },
+      "photoIds": [
+        "offer-samsonite-1",
+        "offer-samsonite-2",
+        "offer-samsonite-3",
+        "offer-samsonite-5",
+        "offer-samsonite-8"
+      ],
+      "gaps": [
+        "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established."
+      ],
+      "note": ""
+    },
+    {
+      "offerId": "offer-baa5a155",
+      "offerIdentity": {
+        "brand": "Skybags",
+        "product": "Twentyfour7 Pro Cabin",
+        "currency": "INR",
+        "retailer": "Brand / source storefront",
+        "source": "https://vipbags.com/collections/trolley-bags"
+      },
+      "checked": "2026-11-04",
+      "productPage": "https://vipbags.com/products/skybags-twentyfour7-pro-cabin",
+      "identity": {
+        "model": "Twentyfour7 Pro",
+        "size": "Cabin / 55cm",
+        "color": "Cobalt Blue",
+        "revision": null,
+        "sku": "STTWP8W55CBL"
+      },
+      "photoIds": [
+        "offer-skybags-0",
+        "offer-skybags-5",
+        "offer-skybags-6",
+        "offer-skybags-13"
+      ],
+      "gaps": [
+        "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established.",
+        "Saved priced offer does not specify color. Photos show Cobalt Blue STTWP8W55CBL; color linkage to the saved offer remains unverified."
+      ],
+      "note": ""
+    },
+    {
+      "offerId": "offer-e74871e",
+      "offerIdentity": {
+        "brand": "Skyline",
+        "product": "20-inch Hardside Carry-On Tan",
+        "currency": "USD",
+        "retailer": "Brand / source storefront",
+        "source": "https://www.target.com/b/skyline/-/N-5vjwk"
+      },
+      "checked": "2026-11-04",
+      "productPage": "https://www.target.com/p/skyline-hardside-carry-on-spinner-suitcase-oxford-tan/-/A-92118303",
+      "identity": {
+        "model": "Hardside Carry-On Spinner",
+        "size": "20-inch carry-on",
+        "color": "Tan / Oxford Tan",
+        "revision": null,
+        "sku": "TCIN 92118303; DPCI 069-04-6240; UPC 618842548149"
+      },
+      "photoIds": [
+        "offer-skyline-0",
+        "offer-skyline-4",
+        "offer-skyline-5",
+        "offer-skyline-2"
+      ],
+      "gaps": [
+        "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established."
+      ],
+      "note": ""
+    },
+    {
+      "offerId": "offer-d24eb6fb",
+      "offerIdentity": {
+        "brand": "Samsonite",
+        "product": "FLATFORM 55 cm Dark Moss",
+        "currency": "JPY",
+        "retailer": "Yodobashi",
+        "source": "https://www.yodobashi.com/product/100000001010283165/"
+      },
+      "checked": "2026-11-04",
+      "productPage": "https://www.yodobashi.com/product/100000001010283165/",
+      "identity": {
+        "model": "FLATFORM",
+        "size": "55cm / 34–44L",
+        "color": "Dark Moss",
+        "revision": null,
+        "sku": "UM0*18001; Yodobashi 100000001010283165"
+      },
+      "photoIds": [
+        "offer-flatform-0",
+        "offer-flatform-7",
+        "offer-flatform-4",
+        "offer-flatform-12"
+      ],
+      "gaps": [
+        "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established."
+      ],
+      "note": ""
+    },
+    {
+      "offerId": "offer-e1d531ef",
+      "offerIdentity": {
+        "brand": "Samsonite",
+        "product": "Upscape 75 cm Blue Nights",
+        "currency": "JPY",
+        "retailer": "Yodobashi",
+        "source": "https://www.yodobashi.com/product/100000001008919813/"
+      },
+      "checked": "2026-11-04",
+      "productPage": "https://www.yodobashi.com/product/100000001008919813/",
+      "identity": {
+        "model": "Upscape",
+        "size": "75cm / 104–114L",
+        "color": "Blue Nights",
+        "revision": null,
+        "sku": "KJ1*01003; Yodobashi 100000001008919813"
+      },
+      "photoIds": [
+        "offer-upscape-0",
+        "offer-upscape-7",
+        "offer-upscape-3"
+      ],
+      "gaps": [
+        "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established.",
+        "No separate close-up of the removable liner/organization captured; the full interior shows the divider and straps."
+      ],
+      "note": ""
+    }
+  ],
+  "offerPhotoChecked": "2026-11-04"
 }

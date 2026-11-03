@@ -76,3 +76,9 @@ Validation: `python validate.py`, `node --check app.js`, `node --check workbench
 
 ## Weekly dashboard interaction repair — 3 November 2026
 Counts and chart bars now drill into matching records. Release status, brand and design-direction dropdowns combine; reset restores the six-record briefing. Every title/card opens a launch-detail dialog with a source-linked photograph, observed pricing and Open Story implication. Directory and interior-photo counts open their corresponding collections. Weekly CSV exports the visible filtered rows and resolves both shared photo IDs and weekly inline photos. BRIEFING SD Light Beige uses a bundled photograph from Isetan’s official editorial article, with original URL, caption and scope retained.
+
+
+
+## Offer photography verification
+
+See [the 4 November photo review](PHOTO_REVIEW_2026-11-04.md) for offer-linked photos, unresolved matches and maintenance rules. Keep `photos.json` / `photos.js` synchronized and preserve `offerAudits` during weekly updates. `node test_offer_photos.cjs` checks that comparisons and exports never infer an exact match from a brand alone. The review is a proposed change pending explicit approval.

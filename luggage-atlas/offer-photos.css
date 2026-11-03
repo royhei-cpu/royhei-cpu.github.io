@@ -1,0 +1,17 @@
+.photo-verification{display:block;margin:.5rem 0;color:#35594c;font-weight:650;font-size:.8rem;line-height:1.5}
+.photo-verification.alternative{color:#8a4b13}
+.offer-photo-card{padding:1.1rem 0;border-top:1px solid #ddd7cd}
+.offer-photo-card h3{font-size:1.05rem;line-height:1.45}
+.offer-photo-card .desk-photo-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}
+.offer-photo-card img,.desk-photo-pair img{object-fit:contain;width:100%;background:#fff}
+.photo-card>details{padding:1rem;border-top:1px solid #ddd7cd}
+.photo-card>details summary{cursor:pointer;font-weight:600}
+.photo-load-error{display:grid;place-items:center;min-height:140px;padding:1rem;background:#f3eee6;color:#70411e}
+#photoLightbox .photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+#photoLightbox .photo-grid img{max-height:320px;object-fit:contain}
+.offer-image .offer-photo-button{position:absolute;bottom:.5rem;right:.5rem;max-width:90%;background:#fff;padding:.5rem;font-size:.75rem;border:1px solid #ccc}
+@media(max-width:600px){#photoLightbox .photo-grid{grid-template-columns:1fr}.offer-photo-card .desk-photo-pair{grid-template-columns:1fr 1fr}}
+#photoLightbox{overflow-x:hidden;padding:32px;box-sizing:border-box}
+#photoLightbox .close{width:auto;min-width:72px;height:auto;font:14px/1.2 Arial,sans-serif;padding:8px 10px;top:8px;right:12px;white-space:nowrap;background:#fff;border:1px solid #ccc;border-radius:4px}
+#photoLightboxBody{min-width:0;overflow-wrap:anywhere}
+#photoLightboxBody h2{padding-right:55px}

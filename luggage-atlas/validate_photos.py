@@ -8,7 +8,9 @@ assert all(a['byBrand'].values())
 assets={}
 for f in p.glob('photo-assets-*.js'):
  s=f.read_text();assets.update(json.loads(s[s.index('{',s.index('||{}')+4):s.rfind('}')+1]))
-assert set(ids)==set(assets)
+assert set(ids)==set(assets)|{x['id'] for x in a['photos'] if x.get('localPath')}
+for x in a['photos']:
+ if x.get('localPath'):assert (p/x['localPath']).is_file()
 for x in a['photos']:
  assert x['source'].startswith('https://') and x['imageUrl'].startswith(('https://','http://'))
  assert x['caption'] and x['view'] and x['scope']
