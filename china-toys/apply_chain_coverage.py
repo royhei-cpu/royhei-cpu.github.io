@@ -1,5 +1,7 @@
 """Preserve sourced chain entries across builds without inventing store inventory."""
 import argparse, csv, hashlib, json, re, urllib.request
+from collections import Counter
+from datetime import date
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -16,9 +18,35 @@ def apply(data):
     for p in supplement['products']:
         if p['id'] not in products:data['products'].append(p)
     data['chain_coverage_review']={k:v for k,v in supplement.items() if k not in ('sources','products')}
+    # The supplement is applied after the reviewed export. Recount the final
+    # population, not just the original collector population, without changing
+    # collection/review dates or the evidence on any product.
     ps=data['products'];stats=data.setdefault('stats',{})
-    stats.update(products=len(ps),brands=len({p['brand'] for p in ps}),squishy=sum('squishy' in p['category'].lower() for p in ps),with_images=sum(bool(p.get('image')) for p in ps))
-    data['brands']=sorted({p['brand'] for p in ps}) if isinstance(data.get('brands'),list) and all(isinstance(x,str) for x in data['brands']) else data.get('brands')
+    counts=Counter(p['brand'] for p in ps)
+    data['brands']=dict(counts)
+    stats.update(
+        products=len(ps), brands=len(counts),
+        squishy=sum('squishy' in p['category'].lower() for p in ps),
+        with_images=sum(bool(p.get('image')) for p in ps),
+        with_launch_dates=sum(bool(p.get('launch') or p.get('launch_estimate')) for p in ps),
+        with_mainland_launch_dates=sum((p.get('launch') or p.get('launch_estimate') or {}).get('market')=='Mainland China' for p in ps),
+        with_china_prices=sum(bool(p.get('china_price')) for p in ps),
+        with_sales=sum(bool(p.get('sales')) for p in ps),
+        with_trend_signals=sum(bool(p.get('trend') and p['trend'].get('expires_on','')>=date.today().isoformat()) for p in ps),
+        with_source_prices=sum(any(l.get('price') is not None for l in p.get('listings',[])) for p in ps),
+        source_linked_images=sum(bool(p.get('image_review',{}).get('source_match')) for p in ps),
+        with_specifications=sum(bool(p.get('details',{}).get('size') or p.get('details',{}).get('material') or p.get('material')) for p in ps),
+        with_dimensions=sum(bool(p.get('details',{}).get('size')) for p in ps),
+        with_variant_options=sum(any(l.get('options') for l in p.get('listings',[])) for p in ps),
+        with_shop_descriptions=sum(bool(p.get('details',{}).get('description')) for p in ps),
+    )
+    for entry in data.get('brand_checklist', []):
+        matches=[p for p in ps if p['brand'].casefold()==entry['brand'].casefold() or (entry['brand']=='SOWII' and 'sowii' in p['name'].lower())]
+        entry.update(records=len(matches),
+                     with_details=sum(bool(p.get('details',{}).get('size') or p.get('details',{}).get('material') or p.get('material')) for p in matches),
+                     with_china_price=sum(bool(p.get('china_price')) for p in matches),
+                     with_release=sum(bool(p.get('launch') or p.get('launch_estimate')) for p in matches),
+                     status='Partial — more series and China evidence needed' if matches else 'Missing — product research needed')
     return data
 
 def write(root=ROOT,cache_images=False):
@@ -49,8 +77,20 @@ def write(root=ROOT,cache_images=False):
             row={k:p.get(k,'') for k in fields};row.update(first_seen=p['first_seen'],last_checked=l['checked'],price_market=l['market'],retailer=l['source'],market=l['market'],variant=l['variant'],details_source=l['url'],product_url=l['url'],image_url=p['image_source'],image_source=p['image_source'],shop_description=p['details']['description'],description_source=l['url'],description_checked=l['checked'],audit_note=l['audit_note'])
             rows.append(row)
         with csvpath.open('w',encoding='utf-8-sig',newline='') as f:w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');w.writeheader();w.writerows(rows)
+    # Keep report metadata (including visual-review scope) intact while making
+    # all exported summary counts describe exactly the catalog just written.
+    for name in ('report.json', 'review-report.json'):
+        path=root/name
+        report=json.loads(path.read_text()) if path.exists() else {}
+        if name=='report.json':
+            report.update({k:data[k] for k in ('updated','last_full_collection','detail_reviewed','brands','sources') if k in data})
+        if name=='review-report.json' and 'brand_checklist' in data:
+            report['checklist']=data['brand_checklist']
+        report['stats']=data['stats']
+        path.write_text(json.dumps(report,ensure_ascii=False,indent=2))
     return data
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--cache-images',action='store_true');args=parser.parse_args()
     d=write(cache_images=args.cache_images);print(json.dumps({'products':len(d['products']),'miniso_showcase':sum(p['id'].startswith('miniso-cn-') for p in d['products'])}))
+

@@ -10,7 +10,7 @@ permissions:
   contents: write
   actions: write
 concurrency:
-  group: china-toys-evidence-review
+  group: china-toys-generated-writers
   cancel-in-progress: false
 jobs:
   final:
@@ -18,6 +18,9 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -38,8 +41,7 @@ jobs:
           git add china-toys/index.html china-toys/compare.js china-toys/catalog.json china-toys/catalog.js china-toys/catalog.csv china-toys/report.json china-toys/review-report.json china-toys/source_copy.py
           if ! git diff --cached --quiet; then
             git commit -m 'Remove media fallback descriptions and protect Compare controls'
-            git pull --rebase --autostash origin main
-            git push origin HEAD:main
+            bash .github/scripts/push-generated.sh
           fi
       - name: Publish corrected website
         env:
@@ -103,3 +105,4 @@ jobs:
             /tmp/china-toys-final-cleanup/
             /tmp/china-toys-final-live/
           retention-days: 14
+

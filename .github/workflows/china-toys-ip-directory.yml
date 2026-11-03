@@ -13,7 +13,7 @@ permissions:
   contents: write
   actions: write
 concurrency:
-  group: china-toys-evidence-review
+  group: china-toys-generated-writers
   cancel-in-progress: false
 jobs:
   integrate:
@@ -21,6 +21,9 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -61,14 +64,10 @@ jobs:
           git add china-toys/app.js china-toys/index.html china-toys/ip-market-data.js china-toys/ip-coverage.json
           if ! git diff --cached --quiet; then
             git commit -m 'Add verified IP revenue reference, character filters and screenshot coverage'
-            for attempt in 1 2 3; do
-              git pull --rebase origin main
-              git push origin HEAD:main && break
-              if [ "$attempt" = 3 ]; then exit 1; fi
-              sleep 2
-            done
+            bash .github/scripts/push-generated.sh
           fi
       - name: Republish the same public directory
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run publish.yml --ref main
+
