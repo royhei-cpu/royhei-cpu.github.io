@@ -3,6 +3,7 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import zlib from 'node:zlib';
 import crypto from 'node:crypto';
+import { addSalesRanking } from './sales-ranking-build.mjs';
 const file=process.argv[2]||'home-care/site/index.html';
 let html=fs.readFileSync(file,'utf8');
 if(html.includes('id="catalog-loading"')){console.log('Loading optimization already applied');process.exit(0)}
@@ -69,8 +70,10 @@ const coverage=JSON.parse(html.slice(covStart,covEnd));
 for(const r of Object.keys(counts)){if(coverage[r])coverage[r].note=counts[r]+' collected listings. Partial coverage, not the retailer’s full inventory.'+(additions.some(d=>d.retailer===r)?' Latest collected evidence dated '+additions.filter(d=>d.retailer===r).map(d=>d.checkedDate||'').filter(Boolean).sort().at(-1)+'.':' Existing records retained; more product research needed.');}
 html=html.slice(0,covStart)+JSON.stringify(coverage)+html.slice(covEnd);
 html=html.replace('No matching products.', 'No collected listings match these filters. An empty category does not mean the retailer stocks no products.');
-for(const asset of ['weekly-dashboard.js','weekly-dashboard.css','opportunities.js','opportunities.css']){const source=path.join(path.dirname(file),asset);if(fs.existsSync(source)){const version=crypto.createHash('sha256').update(fs.readFileSync(source)).digest('hex').slice(0,12);html=html.replaceAll('/home-care/'+asset,'/home-care/'+asset+'?v='+version)}}
+html=addSalesRanking(html);
+for(const asset of ['weekly-dashboard.js','weekly-dashboard.css','opportunities.js','opportunities.css','sales-ranking-model.js','sales-ranking.js','sales-ranking.css']){const source=path.join(path.dirname(file),asset);if(fs.existsSync(source)){const version=crypto.createHash('sha256').update(fs.readFileSync(source)).digest('hex').slice(0,12);html=html.replaceAll('/home-care/'+asset,'/home-care/'+asset+'?v='+version)}}
 fs.writeFileSync(file,html);
 console.log(JSON.stringify({records:items.length,initialCards:first.length,bytes:Buffer.byteLength(html),originalDataBytes:end-start,packedDataBytes:Buffer.byteLength(expression),lossless:true}));
+
 
 

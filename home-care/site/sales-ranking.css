@@ -1,0 +1,25 @@
+.hc-sales-panel{margin:14px 0;padding:16px 18px;border:1px solid #d9e1d4;border-radius:12px;background:#f6f8f2;color:#243326}
+.hc-sales-heading{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.hc-sales-heading strong{font-size:15px}
+.hc-sales-heading p{font-size:12px;line-height:1.5;color:#53634e;margin:4px 0 0;max-width:880px}
+#rank-by-sales{white-space:nowrap;background:#28472f;color:#fff;border:1px solid #28472f;padding:10px 15px;border-radius:8px;font-weight:700;cursor:pointer;min-height:42px}
+#rank-by-sales:hover{background:#1e3924}
+#rank-by-sales[aria-pressed=true]{background:#fff;color:#28472f}
+#sales-ranking-controls{margin-top:14px;padding-top:13px;border-top:1px solid #d9e1d4}
+#sales-ranking-controls[hidden]{display:none}
+#sales-ranking-controls label{display:block;font-size:12px;font-weight:650;color:#344930}
+#sales-comparison-group{display:block;width:100%;max-width:780px;margin-top:6px;padding:10px 12px;min-height:42px;border:1px solid #becab6;border-radius:7px;background:#fff;font:inherit;font-size:13px;color:#243326}
+.hc-sales-explainer{font-size:12px;line-height:1.6;color:#59634e;margin:10px 0;max-width:1000px}
+.hc-sales-back{border:0;background:transparent;text-decoration:underline;text-underline-offset:3px;padding:4px 0;color:#385b32;font:inherit;font-size:12px;cursor:pointer}
+.hc-sales-evidence{padding:10px 0 11px;margin-top:4px;border-top:1px solid #e7eade;font-size:11px;line-height:1.5;color:#5b6654}
+.hc-sales-evidence p{margin:0 0 5px}
+.hc-sales-value{display:flex;flex-direction:column;gap:2px}
+.hc-sales-value strong{font-size:14px;color:#263b28;line-height:1.4}
+.hc-sales-value span{font-size:10px;color:#6b715f}
+.hc-sales-evidence a{color:#385f36;text-underline-offset:2px}
+.hc-sales-unavailable{color:#74796f;font-size:11px}
+.hc-sales-rank{display:inline-block;align-self:flex-start;margin:0 0 9px;padding:5px 8px;border-radius:5px;background:#e7efdf;color:#26492b;font-size:11px;font-weight:750;line-height:1.35}
+.hc-sales-caution{font-size:10px;color:#795c28}
+.hc-sales-method{font-size:11px;line-height:1.6}
+.hc-sales-panel button:focus-visible,.hc-sales-panel select:focus-visible{outline:3px solid #688a54;outline-offset:3px}
+@media(max-width:640px){.hc-sales-panel{padding:13px}.hc-sales-heading{align-items:flex-start;gap:10px;flex-direction:column}.hc-sales-heading strong{font-size:14px}#rank-by-sales{width:100%}#sales-comparison-group{font-size:12px;max-width:100%}.hc-sales-heading p{font-size:11px}.hc-sales-explainer{font-size:11px}}
