@@ -1,44 +1,44 @@
 {
-  "duration": 185.37499999999997,
+  "duration": 180.725,
   "chapters": [
     {
       "start": 0,
       "label": "Start here"
     },
     {
-      "start": 18.8,
-      "label": "Browse a retailer in one tap"
+      "start": 18.775,
+      "label": "Weekly updates"
     },
     {
-      "start": 40.125,
-      "label": "Find your character"
+      "start": 38.125,
+      "label": "Choose a shop"
     },
     {
-      "start": 58.575,
-      "label": "Read a product"
+      "start": 57.05,
+      "label": "Search a brand or item"
     },
     {
-      "start": 79.75,
-      "label": "Compare your picks"
+      "start": 75.95,
+      "label": "Read all available details"
     },
     {
-      "start": 98.5,
-      "label": "Save and download"
+      "start": 97.975,
+      "label": "Understand the dates"
     },
     {
-      "start": 120.7,
-      "label": "Understand this week and trends"
+      "start": 118.4,
+      "label": "Read the trend reason"
     },
     {
-      "start": 143.35,
-      "label": "Music and button sounds"
+      "start": 139.175,
+      "label": "Save and export"
     },
     {
-      "start": 164.05,
-      "label": "What a partial listing means"
+      "start": 160.175,
+      "label": "Check coverage and share"
     }
   ],
-  "recorded": "2026-11-02",
+  "recorded": "2026-10-30",
   "voice": "English synthetic male narration",
   "captions": "Sentence timings proportional within each narrated chapter"
 }
