@@ -5,6 +5,8 @@ from pathlib import Path
 R=Path(__file__).resolve().parent
 from apply_chain_coverage import write as apply_chain_coverage
 catalog=apply_chain_coverage(R)
+from product_scope import eligible
+catalog={**catalog,'products':[p for p in catalog['products'] if eligible(p)]}
 registry=json.loads((R/'brand-registry.json').read_text())
 bylabel=collections.defaultdict(list)
 for p in catalog['products']:bylabel[p.get('brand') or 'Brand not disclosed'].append(p)

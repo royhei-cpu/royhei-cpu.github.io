@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Reconcile every label and test real directory filters, CSV and navigation."""
-import csv,io,json,subprocess,sys,time
+import csv,io,json,os,subprocess,sys,time
 from collections import Counter
 from pathlib import Path
 from playwright.sync_api import sync_playwright,expect
 R=Path(__file__).resolve().parent
 D=json.loads((R/'brand-directory-data.json').read_text())
 C=json.loads((R/'catalog.json').read_text())
+from product_scope import eligible
+C['products']=[p for p in C['products'] if eligible(p)]
 expected=Counter(p['brand'] for p in C['products'])
 actual={l['name']:l['count'] for e in D['entries'] for l in e['labels']}
 assert actual==dict(expected)
@@ -19,7 +21,7 @@ checks=[];errors=[]
 try:
  time.sleep(.4)
  with sync_playwright() as pw:
-  b=pw.chromium.launch();p=b.new_page(viewport={'width':1440,'height':1000});p.on('pageerror',lambda e:errors.append(str(e)))
+  b=pw.chromium.launch(executable_path=os.environ.get('ATLAS_CHROMIUM_PATH') or None);p=b.new_page(viewport={'width':1440,'height':1000});p.on('pageerror',lambda e:errors.append(str(e)))
   root='http://127.0.0.1:8798/china-toys/'
   p.goto(root+'brands.html',wait_until='networkidle')
   assert p.locator('.brand-card').count()==24

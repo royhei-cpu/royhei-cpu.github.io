@@ -38,6 +38,10 @@ def run(scope='all'):
     assert any(p['category'] == 'Squishy toys' for p in showcases)
     assert all(not p.get('launch') and not p.get('sales') and
                all(l['price'] is None and l['available'] is None for l in p['listings']) for p in showcases)
+    # Research snapshots retain audit history; the user-facing directory has a narrower scope.
+    from product_scope import eligible
+    products = [p for p in products if eligible(p)]
+    by_id = {p['id']: p for p in products}
     if scope == 'compare':
         from PIL import Image
         for p in products:

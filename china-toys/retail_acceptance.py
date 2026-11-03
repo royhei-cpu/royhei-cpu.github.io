@@ -10,6 +10,34 @@ def check_retail(page, context, out):
     page.locator('.workspace-sidebar [data-workspace="retail"]').click()
     expect(page.locator('#workspace-retail')).to_be_visible()
     page.wait_for_function('window.ATLAS_RETAIL?.getSceneStats()?.webgl')
+    # Scope is shared by browsing, chain references, imports and the aisle library.
+    assert page.evaluate('window.TOY_ATLAS.products.every(window.ATLAS_PRODUCT_SCOPE.eligible)')
+    assert page.evaluate('window.CHAIN_ASSORTMENTS.products.every(window.ATLAS_PRODUCT_SCOPE.eligible)')
+    assert page.evaluate('window.ATLAS_RETAIL.getProduct("72cd90b800079520") === undefined')
+    assert page.evaluate('window.ATLAS_RETAIL.getProduct("chain-motor-nuclear-hero-vol2") === undefined')
+    assert page.locator('#retailCategory option').count() == 6
+    assert page.evaluate('''() => {
+      const D=window.ATLAS_RETAIL_DATA,p=D.newPlan();
+      p.customs=[{id:'custom-nope',name:'LEGO building blocks',category:'Blind-box figures'},
+                 {id:'custom-yes',name:'My blind-box plush',category:'Blind-box plush'}];
+      p.items=[{uid:'bad',id:'custom-nope'},{uid:'good',id:'custom-yes'}];
+      const n=D.validate(p,[]);return n.customs.length===1&&n.items.length===1&&n.items[0].uid==='good';
+    }''')
+    page.locator('#retailClear').click()
+    page.locator('#retailSourceRetailer').select_option('chain:miniso')
+    expect(page.locator('#retailStockHeading')).to_contain_text('MINISO')
+    page.locator('#retailProducts [data-retail-add]').first.click()
+    chain_item=page.evaluate('window.ATLAS_RETAIL.getState().items[0]')
+    assert chain_item['retailerKey']=='chain:miniso' and chain_item['offerUrl'].startswith('https://')
+    expect(page.locator('#retailInspector')).to_contain_text('MINISO')
+    page.locator('#retailDisplay').select_option('hanger')
+    assert page.evaluate('window.ATLAS_RETAIL.getState().items[0].display') == 'hanger'
+    page.locator('.retail-appearance summary').click()
+    page.locator('#retailTheme').select_option('wood')
+    page.locator('#retailPlanCurrency').select_option('CNY')
+    page.locator('.retail-appearance summary').click()
+    page.locator('#retailSourceRetailer').select_option('shop:52toys')
+    assert page.evaluate('window.ATLAS_RETAIL.getState().items.length') == 1
     page.locator('#retailStarter').click()
     original = page.evaluate('window.ATLAS_RETAIL.getState()')
     assert len(original['items']) == 12
@@ -37,10 +65,20 @@ def check_retail(page, context, out):
     expect(page.locator('#retailProducts .retail-product')).to_have_count(2)
     expect(page.locator('#retailProducts')).to_contain_text('$4.99')
     expect(page.locator('#retailProducts')).to_contain_text('$19.99')
-    page.locator('#retailScope').select_option('all')
+    page.locator('#retailSourceRetailer').select_option('shop:52toys')
     page.locator('#retailSearch').fill('Cat Fight Showdown')
+    expect(page.locator('#retailProducts')).to_contain_text('$9.99')
     page.locator('#retailProducts [data-retail-add="cda530057d017fb2"]').click()
     assert page.evaluate('window.ATLAS_RETAIL.getState().items.length') == 13
+    assert page.evaluate('window.ATLAS_RETAIL.getState().items.at(-1).retailerKey') == 'shop:52toys'
+    expect(page.locator('#retailInspector')).to_contain_text('Reference $9.99')
+    page.reload(wait_until='domcontentloaded')
+    page.wait_for_function('window.ATLAS_RETAIL?.getState().items.length===13')
+    assert page.evaluate('window.ATLAS_RETAIL.getState().items.at(-1).retailerKey') == 'shop:52toys'
+    # The selected offer can change without replacing the product or planned ticket.
+    page.locator('#retailItemRetailer').select_option('shop:kikagoods')
+    expect(page.locator('#retailInspector')).to_contain_text('Reference $8.99')
+    page.locator('#retailItemRetailer').select_option('shop:52toys')
     page.locator('#retailOwnProduct').click()
     page.locator('#retailCustomForm [name="name"]').fill('=QA Custom Toy')
     page.locator('#retailCustomForm [name="brand"]').fill('My shop')
@@ -63,6 +101,8 @@ def check_retail(page, context, out):
     rows = list(csv.DictReader(io.StringIO(sheet.read_text(encoding='utf-8-sig'))))
     assert len(rows) == len(parsed['items'])
     assert next(r for r in rows if r['Product ID'] == 'target-mofusand-clip')['Reference URL'].startswith('https://www.target.com/p/')
+    selected_offer=next(r for r in rows if r['Product ID']=='cda530057d017fb2' and r['Selected retailer key']=='shop:52toys')
+    assert selected_offer['Reference currency']=='USD' and float(selected_offer['Reference price (original currency)'])==9.99
     custom_rows = [r for r in rows if r['Brand'] == 'My shop']
     assert custom_rows and custom_rows[0]['Product / series'].startswith("'=QA")
     glb = download('#retailGLB', 'retail-plan.glb')
@@ -75,6 +115,8 @@ def check_retail(page, context, out):
     lines = [n for n in document['nodes'] if n.get('extras', {}).get('assortmentLine')]
     assert len(lines) == len(parsed['items'])
     assert all('dimensions' in n['extras'] for n in lines)
+    exact=next(n['extras'] for n in lines if n['extras'].get('retailerKey')=='shop:52toys')
+    assert exact['referenceCurrency']=='USD' and exact['referencePrice']==9.99 and exact['sourceURL'].startswith('https://')
     page.locator('#retailImport').set_input_files(str(plan))
     expect(page.locator('#retailMessage')).to_contain_text('Opened your saved aisle')
     page.locator('[data-retail-close="retailExportDialog"]').click()
@@ -83,6 +125,9 @@ def check_retail(page, context, out):
         page.locator(f'[data-retail-camera="{view}"]').click()
     photo = download('#retailPhoto', 'retail-aisle.png')
     assert photo.read_bytes().startswith(b'\x89PNG')
+    from PIL import Image, ImageStat
+    with Image.open(photo) as image:
+        assert min(image.size)>300 and sum(ImageStat.Stat(image.convert('RGB')).stddev)>45
     page.locator('#retailClear').click()
     assert not page.evaluate('window.ATLAS_RETAIL.getState().items')
     page.locator('#retailUndo').click()
@@ -98,4 +143,4 @@ def check_retail(page, context, out):
     page.set_viewport_size({'width': 1440, 'height': 1080})
     # Leave clean planner state for subsequent suite sections.
     page.locator('#retailStarter').click()
-    return 'Retail: selection, facings/tickets, move, undo/redo, persistence, Target references, custom concept, JSON restore, CSV, GLB with photo textures, PNG, 3 responsive layouts'
+    return 'Retail: blind-box/squishy scope, retailer library, exact source persistence and switching, display format, finish/currency, selection, facings/tickets, move, undo/redo, custom concept, JSON restore, CSV, source-linked GLB textures, nonblank PNG, 3 responsive layouts'

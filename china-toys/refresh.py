@@ -59,7 +59,7 @@ def category(p,s):
     title = p.get('title','')
     typ = p.get('product_type','')
     tags = ' '.join(p.get('tags',[])) if isinstance(p.get('tags'),list) else str(p.get('tags',''))
-    if re.search(r'lucky bag|gift card|protective case|display case|doll clothes|outfit only',title,re.I): return None
+    if re.search(r'lucky bag|gift card|protective case|display case|doll clothes|outfit only|\blego\b|building[ -]blocks?|construction[ -]sets?|model[ -]kits?|\bbuildable\b|积木|拼装',title,re.I): return None
     blind = bool(re.search(r'blind\s*(box|bag)|盲盒|盲袋',title+' '+typ,re.I))
     squish = bool(re.search(r'squish|slow.?ris|slow.?rebound|捏捏|慢回弹|squeez',title+' '+typ,re.I) or s.get('squishy_all'))
     if not blind and not squish: return None
