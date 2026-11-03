@@ -1443,8 +1443,888 @@
         "db4ec6a61e71984b"
       ],
       "status": "Partial assortment"
+    },
+    {
+      "id": "mimi",
+      "name": "MIMI",
+      "records": 16,
+      "product_ids": [
+        "271b7527dadf8709",
+        "86034748d3108f29",
+        "5ccb9a9530219d31",
+        "73b19a17f0053fe9",
+        "cf595017cfa95680",
+        "c08909339ddc405d",
+        "9ea82e809b8682af",
+        "4fc216c32cc9aadd",
+        "41c4274f931a25cf",
+        "26612b05e73695d8",
+        "43fd3d19d0aedddb",
+        "38a9517be2b6f14c",
+        "c9cbbfa172bba299",
+        "384090d77fc9f27f",
+        "3146a05291405e65",
+        "d7813fd0d147e3b2"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "ninnic",
+      "name": "NINNIC",
+      "records": 4,
+      "product_ids": [
+        "73760c86705de3ef",
+        "fa32c8dffb5d0266",
+        "4aaec3a38d701df9",
+        "6bae0c5e79b8fc39"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "poukapouka",
+      "name": "POUKAPOUKA",
+      "records": 5,
+      "product_ids": [
+        "801c54f6a486d5c4",
+        "cad6f77e9d246855",
+        "9cb4822614cbb76c",
+        "c7c701328890ecb7",
+        "3b198a6769637c47"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "cicilu",
+      "name": "CiCiLu",
+      "records": 5,
+      "product_ids": [
+        "2692fc62577e6f07",
+        "4afdd68648d3a570",
+        "07cf928cbc58bacc",
+        "7faa1ef0508992cd",
+        "78c2da2572378aec"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "little-buns",
+      "name": "LITTLE BUNS",
+      "records": 7,
+      "product_ids": [
+        "3a77004705619388",
+        "b65d1894f8d1c28f",
+        "413c10dcb369453f",
+        "7d4092332a618c6b",
+        "64d3231f73e20115",
+        "6a5437ae1dff3334",
+        "f99b0926260401ae"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "lilith",
+      "name": "LILITH",
+      "records": 9,
+      "product_ids": [
+        "ef81df22b716e1c5",
+        "cf7070a0691ec525",
+        "3007006b2be44c6a",
+        "494a83fc0c934464",
+        "3b89b8d80c2a425f",
+        "5fcf16292433379b",
+        "1047452cc94b2a88",
+        "e1b2955d398deb65",
+        "7c095bcfda6a94f0"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "ghody",
+      "name": "GHODY",
+      "records": 5,
+      "product_ids": [
+        "1767357fed62071b",
+        "3afc1ff0cbe2cbe8",
+        "2791e1bf91343881",
+        "08d878f1b8b18c25",
+        "34588dd892159ddf"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "laplly",
+      "name": "LAPLLY",
+      "records": 3,
+      "product_ids": [
+        "bedc58fc3f5fdd8b",
+        "9aef990ac3af1a86",
+        "1475ce36ad3095a1"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "crayon-shin-chan",
+      "name": "Crayon Shin-chan",
+      "records": 42,
+      "product_ids": [
+        "fae769cd9be06f0a",
+        "8bba72ff2988f5bd",
+        "adf6211df055e71d",
+        "9fcc3f88e831ce9d",
+        "6f0a8b29332749bc",
+        "657793b83aa2744f",
+        "46030801f4d25c9a",
+        "a855d4b6ba3d3c2c",
+        "3beb534b61062698",
+        "146d80cf06b932bb",
+        "4031d0495c28c1c6",
+        "42986244ae3aa2a9",
+        "8e81a225844a08ff",
+        "726a430eb51b4eca",
+        "2d6acca97629c443",
+        "43e5711a805f5221",
+        "5c3e14ec5bae4a84",
+        "0eda41edbc181b27",
+        "d8317381271e4f64",
+        "1ee58069fb81e798",
+        "ed18d38031a2b72b",
+        "63e5c69107a28e89",
+        "4d4aea68ae064374",
+        "c59405d72ec1aedb",
+        "be1e27cdd0ba7fbc",
+        "292c63cafc5ea0e2",
+        "85442db7595632ce",
+        "ca719166d65f1156",
+        "a5fb96ebc198f36f",
+        "f553db3d55fb076b",
+        "e07194de1645c71f",
+        "a520d4c8ed635f2d",
+        "e41fbc2ea865bb5e",
+        "9e4c5f76ee28d8ea",
+        "e4584d4db5c585ab",
+        "076988c6daae55eb",
+        "a5d5c2aa02286100",
+        "8c2bc5fdeda897fa",
+        "9fb2f8d80f45898d",
+        "af718971cd4d6746",
+        "49f7699d04017f8e",
+        "miniso-cn-shinchan-surprise-bear"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "minions",
+      "name": "Minions",
+      "records": 4,
+      "product_ids": [
+        "4591f5c03a8681d5",
+        "1b98d613e50ba469",
+        "23d11410d5e889e9",
+        "3905cf4514b2b8cd"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "how-to-train-your-dragon",
+      "name": "How to Train Your Dragon",
+      "records": 2,
+      "product_ids": [
+        "bfb2757720f8298d",
+        "9839a0c7b075327a"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "ribodiary",
+      "name": "RIBODIARY",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "kubo",
+      "name": "KUBO",
+      "records": 3,
+      "product_ids": [
+        "6b446b85dfdaadb0",
+        "bf653881b09be01b",
+        "370e47c689134d2c"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "nyota",
+      "name": "NYOTA",
+      "records": 3,
+      "product_ids": [
+        "7c022ee16fe9da66",
+        "0fc54180d16e8f9a",
+        "437b628fcd03d069"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "chaka",
+      "name": "CHAKA",
+      "records": 3,
+      "product_ids": [
+        "12dac89ed6783edf",
+        "0223c7d9884c4e3d",
+        "58550c7c1d2ceeda"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "polar",
+      "name": "POLAR",
+      "records": 3,
+      "product_ids": [
+        "05646670b7603b37",
+        "53f22ada41bcea0b",
+        "9a6490f52a489974"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "pino-jelly",
+      "name": "PINO JELLY",
+      "records": 1,
+      "product_ids": [
+        "fddc41b70d3bee30"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "inosoul",
+      "name": "INOSOUL",
+      "records": 2,
+      "product_ids": [
+        "46e1ac60a3a622c0",
+        "0d7e34485e101184"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "tiny-tiny",
+      "name": "TINY TINY",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "duckoo",
+      "name": "DUCKOO",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "merodi",
+      "name": "MERODI",
+      "records": 1,
+      "product_ids": [
+        "24072365d7b0e5e3"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "sweet-bean",
+      "name": "SWEET BEAN",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "1001moons",
+      "name": "1001MOONS",
+      "records": 3,
+      "product_ids": [
+        "0abfa27326929bb2",
+        "6bc38b1a67c571fa",
+        "3e3704e7d88b731e"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "supertutu",
+      "name": "SUPERTUTU",
+      "records": 1,
+      "product_ids": [
+        "d664e93f33ac3264"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "keya",
+      "name": "KeyA",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "ukio",
+      "name": "Ukio",
+      "records": 7,
+      "product_ids": [
+        "a2b05b42afc03398",
+        "85a8582ef6e0367e",
+        "959af8a4bf582a64",
+        "a90ca05888bb4e7a",
+        "561c24482dd743e2",
+        "b7a9653f0ca96f5f",
+        "fbacb268365940ca"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "shadure",
+      "name": "SHADURE",
+      "records": 3,
+      "product_ids": [
+        "d911b931d5dafc61",
+        "12c35fd3117412ae",
+        "293f371c7b76f330"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "suntobear",
+      "name": "SunToBear",
+      "records": 1,
+      "product_ids": [
+        "fb3742e3d79165e8"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "knowknow",
+      "name": "KnowKnow",
+      "records": 3,
+      "product_ids": [
+        "7df1c734b910a0d2",
+        "2307e0398d7e5458",
+        "bb0f92f0b193113f"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "q-kid",
+      "name": "Q KID",
+      "records": 35,
+      "product_ids": [
+        "b099ecaa2d442c03",
+        "1c03aa22fffc0459",
+        "088fe75166020efd",
+        "018e05f06d94d322",
+        "22bbaf7915726cf3",
+        "5a4b3646f51bafc1",
+        "9f1b77cfb8a8102c",
+        "470f9b7d3bd6fb8c",
+        "57986e0e4cb27880",
+        "6041529c4cdbb582",
+        "01ec41a2cc07c31b",
+        "e48d558b0fce54ad",
+        "53a0ea71236bfac8",
+        "98b00f897f56c601",
+        "4775021104ed98bd",
+        "d70ecd9f6ebe9b26",
+        "258dcaf77455fc4d",
+        "e78f77f5dcb1f5c3",
+        "dda1110b0e9b93f2",
+        "e0ead161d39c9acd",
+        "72c98352e9262298",
+        "6b1e811745617aa9",
+        "47fd2f7ea2295125",
+        "712bfe35ac1618a2",
+        "e079c8674d4d7a5f",
+        "110c1671077f1a68",
+        "013860859c25aa6a",
+        "1351a3b16f354349",
+        "08df713d24569b1f",
+        "9b80e30dd4f7109f",
+        "8c20a57a758d23c5",
+        "2f5b79b0e64ec235",
+        "5318f353a2038cbb",
+        "8d11859d89551875",
+        "dd8ee5003c398bc5"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "miana",
+      "name": "MIANA",
+      "records": 11,
+      "product_ids": [
+        "e8c1e19f1c2ccdc4",
+        "8d45fb830e84092c",
+        "6cb024b473bedae3",
+        "1423640ca62c210a",
+        "2653d8261866a16c",
+        "5b608b5722c37bb6",
+        "a8d2dd1c8ea70007",
+        "1cb559268cd78564",
+        "1a0121c7e17c4cc2",
+        "650f85a4e8590634",
+        "b9514ac818d76d40"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "oyo",
+      "name": "OYO",
+      "records": 9,
+      "product_ids": [
+        "2faf05700c66a6e7",
+        "8fefbd33aa27c04e",
+        "9eff641abb3f4b0b",
+        "8afdfbd164b35367",
+        "ce43d4df449c0fbb",
+        "3ddfe9d2acdd9428",
+        "1cd86306c8437212",
+        "78081af684746484",
+        "8269681132a7deaa"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "yumo",
+      "name": "YUMO",
+      "records": 18,
+      "product_ids": [
+        "d01ee0dd04c0feb1",
+        "9a02e4c920208d67",
+        "cc2eb237f2f589ec",
+        "33196022c6d8e42c",
+        "041fe83a47fb40ff",
+        "c888b10c952ca9f0",
+        "f1080ca154b1923a",
+        "d1a4683e57a03590",
+        "3338487c95f556c2",
+        "3c0daf1863fc081c",
+        "9832fd832706cb1f",
+        "701fb07af88a6dc8",
+        "0eaeb331ab75ba3e",
+        "7596d2b69c4a5895",
+        "1d7eab531981b0f1",
+        "b3eb87105b8de493",
+        "076c0041a0b4aedd",
+        "37d44c3bb993c828"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "kokosa",
+      "name": "KOKOSA",
+      "records": 10,
+      "product_ids": [
+        "541b2b42344f6035",
+        "1b7bf97bdb79b3c2",
+        "1b0830a7d57f78dc",
+        "c525f525cf42eae7",
+        "87c686a3bf56922a",
+        "ccae8d8bf04f8206",
+        "6b440944886438dd",
+        "b047c2ea982b07b1",
+        "8da070b19208b887",
+        "2c08af1885115fbb"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "boompipi",
+      "name": "BOOMPIPI",
+      "records": 1,
+      "product_ids": [
+        "34f6c2fbd2e4efec"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "buubee",
+      "name": "BUUBEE",
+      "records": 1,
+      "product_ids": [
+        "9e2e308f919a0178"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "gate-unopened",
+      "name": "Gate Unopened",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "mehoo",
+      "name": "MEHOO",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "guaibaby",
+      "name": "GUAIBABY",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "laura",
+      "name": "LAURA",
+      "records": 4,
+      "product_ids": [
+        "ad2404bdd53caa53",
+        "b0d51e52b1a8c3dc",
+        "aed1c0267b04cfab",
+        "97872367a749f8c5"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "mika",
+      "name": "MiKA",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "mia",
+      "name": "Mia",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "dululu",
+      "name": "Dululu",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "harry-potter",
+      "name": "Harry Potter",
+      "records": 4,
+      "product_ids": [
+        "562b819f14572fc7",
+        "fd674a78b8d4df57",
+        "0bc28ff85e083e77",
+        "0acb39d57b7ca35b"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "snoopy",
+      "name": "Snoopy",
+      "records": 6,
+      "product_ids": [
+        "5bc6645199910555",
+        "d35dfe23c10e5bf1",
+        "2f8e3645f2b7157c",
+        "47bb63e7e4440d6d",
+        "c4c09267c83a5372",
+        "f1e88b2f757445b1"
+      ],
+      "status": "Partial assortment"
+    },
+    {
+      "id": "bt21",
+      "name": "BT21",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "loopy",
+      "name": "LOOPY",
+      "records": 0,
+      "product_ids": [],
+      "status": "Not yet captured"
+    },
+    {
+      "id": "one-piece",
+      "name": "One Piece",
+      "records": 3,
+      "product_ids": [
+        "12976e86eb4cdd66",
+        "55e6ae50d3934e49",
+        "7fbf06f44894e705"
+      ],
+      "status": "Partial assortment"
     }
   ],
   "scope": "Matching product/series listings, not distinct SKUs or sales. All screenshot examples present does not imply complete China-market coverage.",
-  "ranking_source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000354_c.pdf#page=30"
+  "ranking_source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000354_c.pdf#page=30",
+  "unrepresented_character_labels": [
+    {
+      "character": "Emma",
+      "records": 72,
+      "sample_sources": [
+        "https://toybeta.com/products/emma-ocean-bubble-beans-series-blind-box",
+        "https://toybeta.com/products/lovely-emma-bunny-alliance-series-plush-blind-box",
+        "https://toybeta.com/products/emma-be-loved-series-blind-box"
+      ]
+    },
+    {
+      "character": "LuLu",
+      "records": 31,
+      "sample_sources": [
+        "https://www.kikagoods.com/products/capylulus-daily-vibes-series-blind-box",
+        "https://didapop.com/products/lulumi-candy-series-mini-plush-toy-blind-box",
+        "https://toybeta.com/products/the-luluelf-story-bjd-series-blind-box"
+      ]
+    },
+    {
+      "character": "MIMI",
+      "records": 24,
+      "sample_sources": [
+        "https://toybeta.com/products/ghost-john-mimimaomao-series-figures-blind-box",
+        "https://toybeta.com/products/mimi-bobo-day-out-series-beans-blind-bag",
+        "https://toybeta.com/products/mimiz-home-diary-mini-series-blind-box"
+      ]
+    },
+    {
+      "character": "Joy",
+      "records": 17,
+      "sample_sources": [
+        "https://www.kikagoods.com/products/zzoton-little-countryside-joys-series-mini-blind-box",
+        "https://toybeta.com/products/zzoton-winters-small-joys-series-plush-blind-box",
+        "https://toybeta.com/products/zzoton-joy-in-a-twist-series-uliuli-blind-box"
+      ]
+    },
+    {
+      "character": "MR.PA",
+      "records": 16,
+      "sample_sources": [
+        "https://www.kikagoods.com/products/mr-pa-dinosaur-paradise-series-plush-blind-box",
+        "https://www.kikagoods.com/products/mr-pa-no-work-today-series-blind-box",
+        "https://www.kikagoods.com/products/mr-pa-warm-hug-series-plush-blind-box"
+      ]
+    },
+    {
+      "character": "SLEEP",
+      "records": 13,
+      "sample_sources": [
+        "https://toyzeroplus.com/products/ultraman-sleeping-kaiju-blind-box",
+        "https://toybeta.com/products/sleep-tales-of-enchanted-dreams-series-figures-blind-box",
+        "https://toybeta.com/products/sleep-fable-series-figures-blind-box"
+      ]
+    },
+    {
+      "character": "DORA",
+      "records": 9,
+      "sample_sources": [
+        "https://toybeta.com/products/opps-strangely-cute-series-plush-blind-box",
+        "https://didapop.com/products/baby-three-weirdly-adorable-mini-plush-blind-box",
+        "https://didapop.com/products/babythree-cute-and-adorable-blind-bag"
+      ]
+    },
+    {
+      "character": "ANMOO",
+      "records": 7,
+      "sample_sources": [
+        "https://kouhightoys.com/products/tnt-space-anmoo-a-hidden-corner-series-blind-box",
+        "https://kouhightoys.com/products/tnt-space-anmoo-imperfect-world-series-blind-box",
+        "https://toybeta.com/products/anmoo-a-hidden-corner-series-figures"
+      ]
+    },
+    {
+      "character": "FurFur",
+      "records": 6,
+      "sample_sources": [
+        "https://toybeta.com/products/furfur-flower-dreamscape-series-plush-blind-box",
+        "https://toybeta.com/products/furfur-diy-styling-series-plush-blind-box-heyone",
+        "https://toybeta.com/products/furfur-superpower-magic-club-series-plush-blind-box"
+      ]
+    },
+    {
+      "character": "AAMY",
+      "records": 4,
+      "sample_sources": [
+        "https://www.kikagoods.com/products/aamy-mind-of-the-sea-series-blind-box",
+        "https://toybeta.com/products/plush-ornament-dolls-toy",
+        "https://www.kikagoods.com/products/aamy-witchs-little-kitchen-series-blind-box"
+      ]
+    },
+    {
+      "character": "SIINONO",
+      "records": 3,
+      "sample_sources": [
+        "https://toybeta.com/products/sinono-let-me-tell-you-a-secret-series-plush-blind-box",
+        "https://toybeta.com/products/siinono-ta-whispers-series-plush-blind-box",
+        "https://didapop.com/products/siinono-whispers-of-ta-series-vinyl-plush-doll-blind-box"
+      ]
+    },
+    {
+      "character": "Cassy",
+      "records": 2,
+      "sample_sources": [
+        "https://toybeta.com/products/cassie-cat-24-hour-convenience-store",
+        "https://toybeta.com/products/cassy-cat-zodiac-series-blind-box"
+      ]
+    },
+    {
+      "character": "DUDOO",
+      "records": 2,
+      "sample_sources": [
+        "https://toybeta.com/products/dudoo-islander-series-blind-box",
+        "https://toybeta.com/products/dudoo-theme-park-series-3-blind-box"
+      ]
+    },
+    {
+      "character": "Mitao Cat",
+      "records": 2,
+      "sample_sources": [
+        "https://www.kikagoods.com/products/mitao-cat-love-like-peach-season-4-blind-box",
+        "https://www.kikagoods.com/products/mitao-cat-peach-and-gomas-sweet-mini-universe-series-blind-bag"
+      ]
+    },
+    {
+      "character": "OONA",
+      "records": 2,
+      "sample_sources": [
+        "https://toybeta.com/products/oona-the-last-forsaken-land-series-figures-heyone",
+        "https://didapop.com/products/oona-each-ending-of-oona-figure-series-blind-box"
+      ]
+    },
+    {
+      "character": "Sanrio characters",
+      "records": 2,
+      "sample_sources": [
+        "https://www.miniso.cn/product/ip_15.html",
+        "https://www.miniso.cn/product/ip_14.html"
+      ]
+    },
+    {
+      "character": "Capybara",
+      "records": 1,
+      "sample_sources": [
+        "https://didapop.com/products/capybara-tuntunzai-bakery-v2-series-mini-beans-blind-bag"
+      ]
+    },
+    {
+      "character": "Duolingo",
+      "records": 1,
+      "sample_sources": [
+        "https://www.miniso.cn/product/index_20.html"
+      ]
+    },
+    {
+      "character": "Duolingo / Duo",
+      "records": 1,
+      "sample_sources": [
+        "https://www.miniso.cn/product/index_20.html"
+      ]
+    },
+    {
+      "character": "Honor of Kings",
+      "records": 1,
+      "sample_sources": [
+        "https://www.miniso.cn/product/ip_16.html"
+      ]
+    },
+    {
+      "character": "Hudodo",
+      "records": 1,
+      "sample_sources": [
+        "https://toybeta.com/products/hudodo-joumey-of-energy-series-plush-dolls-blind-box"
+      ]
+    },
+    {
+      "character": "Liroro",
+      "records": 1,
+      "sample_sources": [
+        "https://toybeta.com/products/liroro-animal-land-pink-castle-blind-box"
+      ]
+    },
+    {
+      "character": "OZAI",
+      "records": 1,
+      "sample_sources": [
+        "https://toybeta.com/products/maozai-please-behave-yourself-series-mini-figures-blind-box-material-resin"
+      ]
+    },
+    {
+      "character": "Suri",
+      "records": 1,
+      "sample_sources": [
+        "https://www.rolifeonline.com/products/rolife-surprise-figure-dolls-suri-paradise-guardians"
+      ]
+    },
+    {
+      "character": "Teennar",
+      "records": 1,
+      "sample_sources": [
+        "https://toybeta.com/products/teennar-wear-on-campus-series-blind-box"
+      ]
+    },
+    {
+      "character": "Toy Story / Andy",
+      "records": 1,
+      "sample_sources": [
+        "https://www.miniso.cn/product/ip_19.html"
+      ]
+    }
+  ],
+  "zero_result_characters": [
+    {
+      "id": "faya",
+      "name": "FAYA"
+    },
+    {
+      "id": "ribodiary",
+      "name": "RIBODIARY"
+    },
+    {
+      "id": "tiny-tiny",
+      "name": "TINY TINY"
+    },
+    {
+      "id": "duckoo",
+      "name": "DUCKOO"
+    },
+    {
+      "id": "sweet-bean",
+      "name": "SWEET BEAN"
+    },
+    {
+      "id": "keya",
+      "name": "KeyA"
+    },
+    {
+      "id": "gate-unopened",
+      "name": "Gate Unopened"
+    },
+    {
+      "id": "mehoo",
+      "name": "MEHOO"
+    },
+    {
+      "id": "guaibaby",
+      "name": "GUAIBABY"
+    },
+    {
+      "id": "mika",
+      "name": "MiKA"
+    },
+    {
+      "id": "mia",
+      "name": "Mia"
+    },
+    {
+      "id": "dululu",
+      "name": "Dululu"
+    },
+    {
+      "id": "bt21",
+      "name": "BT21"
+    },
+    {
+      "id": "loopy",
+      "name": "LOOPY"
+    }
+  ],
+  "completeness_verified": false,
+  "completeness_note": "Counts measure collected listings only. Missing character labels and zero-result filters require source reconciliation; no national or full-chain catalog completeness is established."
 }
