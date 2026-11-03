@@ -73,3 +73,19 @@ Preserves all 9,572 current records, including 175 recent Ace/Publix additions a
 ## Targeted coverage-gap follow-up — 2 November 2026
 Preserved all 9,623 prior records and added 510 verified product-page references, for 10,133 total. Albertsons: 8, Amazon US: 252, BJ’s Wholesale: 5, CVS: 19, Costco: 4, Dollar General: 2, Dollar Tree: 7, Home Depot: 53, Kroger: 33, Lowe’s: 30, Publix: 13, Safeway: 11, Sam’s Club: 6, TikTok Shop: 9, Walgreens: 12, Walmart: 46. Amazon now has 736 records; 160 new records have item-specific Date First Available evidence. Empty retailer/category cells fell from 51 to 11. These are catalog additions, not launch claims. All seven opportunity areas reviewed; no rank movement. Full inventories and the comprehensive 285-cell source review remain incomplete.
 Read GAP_REVIEW_2026-11-02.md. Do not call this a complete inventory review.
+
+## Charts, expanding white-space analysis and comparison — user request 3 November 2026
+
+Add and maintain a dynamic Sales & analysis view with cohort-specific sales charts, research coverage, data availability and eligible USD offer-price bands. Expand candidate white-space analysis as the catalogue grows; retain the original seven directions in order and add supported research hypotheses beyond them. The current analysis contains 18 directions, with concrete own-brand concepts, supporting records/retailers, dated comparable sales evidence, source links and next Target validation questions. Do not treat missing collected products as confirmed Target or competitor assortment gaps.
+
+This is an analysis/feature release using 10,133 retained records; it adds no new product/source observations. Latest saved general checks are through 2 November and eligible sales snapshots through 1 November. The previous seven-area source review remains dated 2 November. Keep all dates honest and refresh analytical commentary and candidate concepts during subsequent completed research reviews.
+
+The user also requests product selection, side-by-side comparison, and selected-only CSV with photos and links. Preserve shared selections across browsing, sales/price analysis, opportunity examples and reloads. Compare selected renders photos and dated evidence; CSV includes absolute image URLs plus item and sales-source links because CSV cannot embed photos. Pagination in comparison must not truncate the exported selection.
+
+Existing task 6aceec1967208191bfcb0c91c109cf31 was updated to cover graphs, sales analysis, expanding opportunities and comparison/export validation. It remains enabled at Monday 08:00 Asia/Shanghai. All-retailer catalogue expansion and incomplete source coverage requirements continue to apply.
+
+### Added Target brand-fit comparisons in the same release
+
+A later user instruction requested Target inspiration against its Open Story private brand. Four official Open Story travel benchmarks were retrieved separately on 3 November, with product photos, exact links and dated public listing price snapshots. They remain outside the 10,133 competitor catalogue records and can be selected with competitor products for comparison/export. Clear-pouch source freshness is uncertain and its price must be rechecked.
+
+Maintain the three initial feature-enhancement hypotheses: travel fabric-care organization, clean/used laundry separation, and a tested secondary carrier for the existing refill system. Show the already-offered Target baseline and what would need to improve. Open Story travel fit does not establish fit for Home Care chemistry; route those concepts to the proper merchant brief. The weekly automation now includes reviewing these comparisons and checking mixed Target/competitor selection, Saved, photos and CSV links.

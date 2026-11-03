@@ -106,6 +106,14 @@
   }
 
   function exportValue(item, field) {
+    const targetValue = window.HCTargetInspiration?.exportValue?.(item, field);
+    if (targetValue !== undefined) return targetValue;
+    if (field === 'salesRankInView' || field === 'salesRankingGroup') {
+      const analysisRank = window.HCMerchantAnalytics?.exportRank?.(item);
+      if (analysisRank) return analysisRank[field];
+      // A hidden browse filter must not label comparisons or opportunity exports.
+      if ($('catalog-view')?.hidden) return '';
+    }
     const metric = metricFor(item);
     const ranked = $('sort').value === 'sales' && rankById.get(item.id);
     const values = {

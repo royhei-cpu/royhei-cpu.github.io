@@ -25,3 +25,25 @@ CSV exports include rank in the current view, comparison group, numeric count, q
 
 Run the ranking model checks with `node --test home-care/sales-ranking-model.test.cjs`. Build integration anchors are asserted so source-layout changes cannot silently omit the feature.
 
+
+## Merchant charts, expanding opportunities and product comparison — 3 November 2026
+
+The optional **Sales & analysis** view derives its charts from the current merged ITEMS dataset. Preserve merchant-analytics-model.js, merchant-analytics.js and merchant-analytics.css, and their build injection in optimize-loading.mjs. It shows dated sales leaders within the existing strict comparison cohorts, category/retailer research coverage, sales evidence availability and conservatively screened USD offer-price bands. Coverage is collected records, not market share. Offer prices are not normalized for pack size; sub-$1, conditional, unit-price, ambiguous or insufficiently sourced values are excluded from the price chart without changing the original records. Revenue and growth remain unestablished without appropriate comparable data.
+
+The **White-space opportunities** view now has 18 candidate merchant research directions. The seven original priorities retain their order; eleven additional directions are marked Explore. opportunity-model.js derives matched references, retailer breadth, sales cohorts and dated evidence from current records. Preserve the model's category-specific matching rules, bounded word matching, exact-listing deduplication and balanced retailer examples. New additions can expand evidence automatically; adding/refining directions and confirming product fit still require research review. The model must not infer demand, environmental benefit, safety or a Target assortment gap from a title match. Target assortment, guest needs, costs, margin and performance remain validation gates. Source check dates are retained separately from the 3 November analysis release date.
+
+product-compare.js and product-compare.css add **Compare selected** using the existing shared picks selection and hc-merchant-picks storage. Selection works across Browse, analysis examples and opportunity examples. Comparison includes photos, prices, category/pack context, dated sales evidence and direct source/photo links, with explicit paging for larger selections. Export remains selected-only and includes absolute photo URLs, product links, exact sales listing URLs and evidence URLs; CSV does not embed images. Do not silently discard selections when switching filters, tabs or comparison pages.
+
+Browse competitors remains the default opening view. Charts and analysis are derived from saved evidence, not a claim that retailer pages were rechecked on the feature-release date. No catalogue records or underlying prices/sales were changed in this release. Continue adding source-backed product coverage in the existing weekly task, alongside refreshing analysis and reviewing candidate directions. Keep the same public URL and preserve other repository projects.
+
+Checks: run node --test with sales-ranking-model.test.cjs, merchant-analytics-model.test.cjs and opportunity-model.test.cjs under home-care/. Also exercise graph filters/cohorts, all opportunity directions, shared selection, comparison pagination/removal and CSV photo/source links against the built page. Preserve original record values.
+
+## Target / Open Story inspiration — 3 November 2026
+
+The user also requested identification of competitor ideas that could fit Target, compared with Open Story. The optional Target inspiration view uses target-inspiration-data.js, target-inspiration.js and target-inspiration.css. Four exact official Open Story benchmarks have cached product photos under site/target-photos/. Their IDs use TARGET-OPENSTORY-<TCIN>. They register in byId for shared selection, comparison, Saved view and CSV; they are deliberately not appended to competitor ITEMS or its counts/charts.
+
+This is a separate, focused Target source review on 3 November, alongside the unchanged Home Care evidence described above. Record public-source retrieval dates and price caveats. The clear-pouch source returned mixed crawl ages up to five months; the stored $12 offer requires rechecking. No Target unit sales or first-listing dates were established.
+
+Open Story is a travel brand. The initial three ideas are a travel fabric-care pouch, clean/used laundry module, and refill-system secondary carrier. Each shows what Target already offers, a competitor feature to learn from, a differentiated concept and validation questions. Do not infer a full Target gap or copy a household formula into a travel brand. Preserve the Home Care/Travel merchant-routing distinction, performance qualifications and Target's existing bottle/pouch/packing-system baseline.
+
+Benchmark IDs stored before page load must be restored after registration without losing competitor picks. The selected-only Browse view reads byId entries so selected Target references are visible there too. Ordinary Browse and all sales analytics continue to use canonical ITEMS.
