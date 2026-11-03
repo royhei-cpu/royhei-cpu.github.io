@@ -1,6 +1,8 @@
 'use strict';
 const assert = require('node:assert/strict');
 const test = require('node:test');
+const fs = require('node:fs');
+const path = require('node:path');
 const model = require('./site/opportunity-model.js');
 
 const item = (name,category,extra={}) => ({id:'fixture',name,category,retailer:'Amazon US',merchantScope:'Home Care',...extra});
@@ -17,10 +19,26 @@ test('retains the seven existing directions, order, priorities and explicit seed
     'Pet Odor Control','Pest Control','Home Organization'
   ]);
   assert.deepEqual(model.definitions.slice(0,7).map(d=>d.priority),['High','High','High','High','High','Medium','Medium']);
-  assert.equal(model.definitions.length,18);
+  assert.equal(model.definitions.length,39);
   assert.ok(model.definitions.slice(0,7).every(d=>d.seedIds.length&&d.original));
   assert.ok(model.definitions.slice(7).every(d=>d.priority==='Explore'&&!d.original));
   assert.ok(model.definitions.every(d=>d.gapLabel.includes('not established')));
+});
+
+test('places every direction in a substantive platform with a complete customer and merchant brief',()=>{
+  assert.equal(model.platforms.length,8);
+  assert.equal(new Set(model.definitions.map(d=>d.id)).size,model.definitions.length);
+  for(const definition of model.definitions){
+    const platform=model.platforms.find(p=>p.id===definition.platformId);
+    assert.ok(platform,definition.id);
+    assert.equal(definition.platform,platform.title);
+    assert.equal(definition.portfolioRoleKey,definition.original?'umbrella':'concept');
+    assert.equal(definition.portfolioRole,definition.original?'Umbrella direction':'Specific concept');
+    for(const field of ['customerNeed','differentiation','concept','rationale','next','matchRule','caveat']){
+      assert.ok(typeof definition[field]==='string'&&definition[field].length>30,definition.id+': '+field);
+    }
+  }
+  assert.ok(model.platforms.every(p=>p.customerNeed&&p.description));
 });
 
 test('matches product format and category, without substring or generic-claim shortcuts',()=>{
@@ -67,6 +85,100 @@ test('matches product format and category, without substring or generic-claim sh
     ['fiber-tabletop','Sugarcane fiber bowls 50 count','Disposable Tabletop',true],
     ['toilet-wand','Toilet cleaner liquid refill','Bathroom & Toilet Cleaning',false],
     ['toilet-wand','ToiletWand replacement heads','Bathroom & Toilet Cleaning',true]
+  ];
+  for(const [id,name,category,expected]of cases) assert.equal(model.match(item(name,category),id),expected,id+': '+name);
+});
+
+test('new task matchers separate tools, formulas, compatible formats and scent names',()=>{
+  const cases=[
+    ['mop-bucket-system','Spin mop and bucket system with 2 replacement heads','Cleaning Tools',true],
+    ['mop-bucket-system','Bucket organizer and towel holder','Cleaning Tools',false],
+    ['mop-bucket-system','Electric spray mop, no bucket needed','Cleaning Tools',false],
+    ['mop-bucket-system','Spin mop with bucket','Food Wrap & Storage',false],
+    ['quick-floor-system','Microfiber spray mop kit','Cleaning Tools',true],
+    ['quick-floor-system','Disposable mop pads refill','Floor & Carpet Care',true],
+    ['quick-floor-system','Spray bottle and cleaning cloth','Cleaning Tools',false],
+    ['quick-floor-system','Looped cotton string mop refill','Cleaning Tools',false],
+    ['dust-hair-tools','Pet hair remover lint roller','Cleaning Tools',true],
+    ['dust-hair-tools','Extendable surface duster kit','Cleaning Tools',true],
+    ['dust-hair-tools','Compressed air duster','Cleaning Tools',false],
+    ['dust-hair-tools','Diatomaceous earth pesticide duster','Cleaning Tools',false],
+    ['sink-side-tools','Non-scratch scrub sponges','Cleaning Tools',true],
+    ['sink-side-tools','Soap-dispensing dish brush','Cleaning Tools',true],
+    ['sink-side-tools','Dishwand replacement sponge heads','Cleaning Tools',true],
+    ['sink-side-tools','Soap dispenser with sponge holder','Cleaning Tools',false],
+    ['sink-side-tools','Gentle dish liquid soap','Dishwashing',false],
+    ['reusable-cloth-system','Reusable Swedish dishcloths','Cleaning Tools',true],
+    ['reusable-cloth-system','Microfiber cloth kitchen pack','Cleaning Tools',true],
+    ['reusable-cloth-system','Microfiber car drying towel','Cleaning Tools',false],
+    ['reusable-cloth-system','Reusable microfiber mop pads and sweeping cloths','Cleaning Tools',false],
+    ['reusable-cloth-system','Disposable paper towels','Paper Towels',false],
+    ['glass-mirror-care','Glass and mirror cleaner spray','Specialty Cleaners',true],
+    ['glass-mirror-care','Window cleaning squeegee','Cleaning Tools',true],
+    ['glass-mirror-care','Glass food storage container','Food Wrap & Storage',false],
+    ['glass-mirror-care','Automotive windshield cleaner','Specialty Cleaners',false],
+    ['glass-mirror-care','Cooktop cleaner for glass cooking surfaces','Surface Cleaners',false],
+    ['kitchen-grease','Oven and grill cleaner foam','Specialty Cleaners',true],
+    ['kitchen-grease','Kitchen grease remover','Surface Cleaners',true],
+    ['kitchen-grease','Kitchen antibacterial all purpose cleaner','Surface Cleaners',false],
+    ['kitchen-grease','Melamine sponge cleaning pads for oven and kitchen, universal cleaner','Surface Cleaners',false],
+    ['appliance-surface-care','Stainless steel appliance cleaner and polish','Specialty Cleaners',true],
+    ['appliance-surface-care','Cooktop cleaning cream','Specialty Cleaners',true],
+    ['appliance-surface-care','Microfiber cloth for cleaning wood and stainless steel','Surface Cleaners',false],
+    ['appliance-surface-care','Dishwasher cleaner for stainless steel machines','Specialty Cleaners',false],
+    ['appliance-surface-care','Stainless steel cleaner for cookware pots and pans','Specialty Cleaners',false],
+    ['wood-furniture-care','Wood cabinet cleaner and polish','Specialty Cleaners',true],
+    ['wood-furniture-care','Microfiber cloth for cleaning wood and furniture','Surface Cleaners',false],
+    ['wood-furniture-care','Wood floor cleaner','Specialty Cleaners',false],
+    ['wood-furniture-care','Outdoor plastic furniture cleaner','Specialty Cleaners',false],
+    ['stone-surface-care','Granite Gold Quartz Clean & Shine','Specialty Cleaners',true],
+    ['stone-surface-care','Granite and marble countertop cleaner','Surface Cleaners',true],
+    ['stone-surface-care','Granite Gold all purpose cleaner','Specialty Cleaners',false],
+    ['stone-surface-care','Cloth for glass, wood and granite','Surface Cleaners',false],
+    ['floor-surface-care','Hardwood and laminate floor cleaner refill','Floor & Carpet Care',true],
+    ['floor-surface-care','Hardwood spray mop kit with cleaner','Floor & Carpet Care',false],
+    ['floor-surface-care','Hardwood and laminate floor cleaner','Food Wrap & Storage',false],
+    ['carpet-upholstery-care','Upholstery spot stain remover spray 16 oz','Floor & Carpet Care',true],
+    ['carpet-upholstery-care','Carpet machine cleaning solution 1 gal','Floor & Carpet Care',true],
+    ['carpet-upholstery-care','Cordless carpet cleaner vacuum 16 oz tank','Floor & Carpet Care',false],
+    ['carpet-upholstery-care','Carpet brush replacement','Floor & Carpet Care',false],
+    ['shower-routine','Daily shower cleaner spray','Bathroom & Toilet Cleaning',true],
+    ['shower-routine','Bathroom soap scum remover','Bathroom & Toilet Cleaning',true],
+    ['shower-routine','Bathroom all purpose cleaner','Bathroom & Toilet Cleaning',false],
+    ['shower-routine','Shower cleaning brush','Surface Cleaners',false],
+    ['shower-routine','Mold remover for shower grout','Bathroom & Toilet Cleaning',false],
+    ['laundry-dose','Laundry detergent sheets 60 loads','Laundry Care',true],
+    ['laundry-dose','Tide PODS original liquid laundry detergent','Laundry Care',true],
+    ['laundry-dose','Laundry tablets, detergent pacs with storage tin','Naturals',true],
+    ['laundry-dose','Liquid laundry detergent, pack of 2','Laundry Care',false],
+    ['laundry-dose','Laundry detergent for bed sheets','Laundry Care',false],
+    ['laundry-dose','Dishwasher detergent tablets','Dishwashing',false],
+    ['fabric-finishing','Wool dryer balls 6 pack','Laundry Care',true],
+    ['fabric-finishing','Unscented fabric softener','Laundry Care',true],
+    ['fabric-finishing','Laundry detergent with fabric softener','Laundry Care',false],
+    ['fabric-finishing','5 in 1 laundry pods, fragrance and fabric softener','Laundry Care',false],
+    ['fabric-finishing','In-wash scent booster beads','Laundry Care',false],
+    ['fabric-refresh','Fabric odor-fighting spray','Air Care',true],
+    ['fabric-refresh','Room and linen mist','Air Care',true],
+    ['fabric-refresh','Linen and Sky air freshener spray','Air Care',false],
+    ['fabric-refresh','Pure Linen Scent Air Freshener Spray','Air Care',false],
+    ['fabric-refresh','Laundry detergent, fabric refresher formula','Laundry Care',false],
+    ['passive-odor-care','Activated charcoal odor absorber','Air Care',true],
+    ['passive-odor-care','Hanging moisture absorber eliminates musty odors','Air Care',true],
+    ['passive-odor-care','Charcoal grey room fragrance diffuser','Air Care',false],
+    ['passive-odor-care','Odor eliminator spray','Air Care',false],
+    ['passive-odor-care','Odor absorber aerosol 10 oz','Air Care',false],
+    ['bath-tissue','2-ply bath tissue family pack','Toilet Paper & Tissues',true],
+    ['bath-tissue','Flushable wet wipes, toilet paper companion','Toilet Paper & Tissues',false],
+    ['facial-tissue','Lotion facial tissues pocket pack','Toilet Paper & Tissues',true],
+    ['facial-tissue','Facial makeup removal wipes','Toilet Paper & Tissues',false],
+    ['prep-liners','Unbleached parchment paper roll','Food Wrap & Storage',true],
+    ['prep-liners','Silicone baking mat','Food Wrap & Storage',true],
+    ['prep-liners','Silicone furniture cover','Food Wrap & Storage',false],
+    ['prep-liners','Reusable aluminum foil storage bags with zipper','Food Wrap & Storage',false],
+    ['drinkware-serving','Insulated paper hot drink cups with lids','Disposable Tabletop',true],
+    ['drinkware-serving','Plastic measuring cup','Disposable Tabletop',false],
+    ['drinkware-serving','Paper plate and bowl pack','Disposable Tabletop',false]
   ];
   for(const [id,name,category,expected]of cases) assert.equal(model.match(item(name,category),id),expected,id+': '+name);
 });
@@ -182,4 +294,62 @@ test('empty evidence is labelled unknown, never a proven market or Target gap',(
   assert.equal(result.counts.distinctListings,0);
   assert.match(result.evidenceLabel,/not proof of a market gap/);
   assert.match(result.gapLabel,/not established/);
+});
+
+test('platform evidence is a deduplicated union rather than a sum of overlapping directions',()=>{
+  const a=sourceItem('a',{name:'Fragrance-free concentrated laundry detergent pods refill',metricDate:'2026-10-27'});
+  const b=sourceItem('b',{name:'Fragrance-free concentrated laundry detergent pods refill',url:'https://www.amazon.com/product-name/dp/B012345678?ref=new',metricDate:'2026-11-01'});
+  const out=model.analyze([a,b],{analyzedAt:'2026-11-03'});
+  const platform=out.platforms.find(p=>p.id==='refill-formula');
+  assert.equal(platform.counts.records,2);
+  assert.equal(platform.counts.distinctListings,1);
+  assert.equal(platform.counts.duplicatesRemoved,1);
+  assert.equal(platform.counts.sourceBackedSales,1);
+  assert.equal(platform.counts.rankableSales,1);
+  assert.equal(platform.lastSalesDate,'2026-11-01');
+  assert.equal(platform.latestCheckedDate,'2026-11-02');
+  assert.equal(platform.umbrellaCount,1);
+  assert.equal(platform.conceptCount,1);
+  assert.ok(platform.opportunityIds.includes('sustainable-formats'));
+  assert.ok(platform.opportunityIds.includes('fragrance-free'));
+  assert.match(platform.countBasis,/do not sum/);
+  assert.equal(out.summary.uniqueMatchedRecords,2);
+  assert.equal(out.summary.uniqueMatchedListings,1);
+  assert.ok(out.platforms.reduce((sum,p)=>sum+p.counts.distinctListings,0)>out.summary.uniqueMatchedListings);
+  assert.equal(model.analyze([]).summary.supportedPlatformCount,0);
+});
+
+const snapshotPath=path.join(__dirname,'site/all-items-snapshot.json');
+test('full saved catalogue supports each added direction and covers the existing category breadth',{skip:!fs.existsSync(snapshotPath)},()=>{
+  const rows=JSON.parse(fs.readFileSync(snapshotPath,'utf8'));
+  const out=model.analyze(rows,{analyzedAt:'2026-11-03'});
+  assert.equal(out.summary.supportedCount,39);
+  assert.equal(out.summary.supportedPlatformCount,8);
+  assert.equal(out.summary.umbrellaCount,7);
+  assert.equal(out.summary.conceptCount,32);
+  assert.deepEqual(out.summary.matchedCategories,[...new Set(rows.map(row=>row.category))].sort());
+  for(const direction of out.opportunities.slice(18)){
+    assert.ok(direction.counts.titleMatched>=3,direction.id+' needs multiple actual format matches');
+    assert.ok(direction.counts.retailers>=2,direction.id+' needs comparison breadth');
+    assert.ok(direction.counts.individualItemLinks>=2,direction.id+' needs exact listing references');
+  }
+  const known=[
+    ['mop-bucket-system','CMP-197'],['quick-floor-system','CMP-028'],['dust-hair-tools','CMP-104'],
+    ['sink-side-tools','CMP-060'],['reusable-cloth-system','CMP-011'],['glass-mirror-care','CMP-052'],
+    ['kitchen-grease','CMP-049'],['appliance-surface-care','HC-43ad1f8e1559'],['wood-furniture-care','CMP-180'],
+    ['stone-surface-care','HC-935ebea987db'],['floor-surface-care','CMP-029'],['carpet-upholstery-care','CMP-275'],
+    ['shower-routine','CMP-030'],['laundry-dose','CMP-115'],['fabric-finishing','CMP-373'],
+    ['fabric-refresh','CMP-079'],['passive-odor-care','CMP-380'],['bath-tissue','HC-5550449df59e'],
+    ['facial-tissue','HC-f6847b8ab1be'],['prep-liners','NEW-433'],['drinkware-serving','NEW-436']
+  ];
+  for(const [definitionId,id] of known){
+    const row=rows.find(row=>row.id===id);
+    assert.ok(row,id);
+    assert.ok(model.match(row,definitionId),definitionId+': '+id);
+  }
+  const uniqueRecords=new Set(out.opportunities.flatMap(o=>o.recordIds));
+  const expectedListings=new Set(rows.filter(row=>uniqueRecords.has(row.id)).map(model.listingIdentity).map(identity=>identity.key));
+  assert.equal(out.summary.uniqueMatchedRecords,uniqueRecords.size);
+  assert.equal(out.summary.uniqueMatchedListings,expectedListings.size);
+  assert.ok(out.summary.uniqueMatchedListings<rows.length);
 });

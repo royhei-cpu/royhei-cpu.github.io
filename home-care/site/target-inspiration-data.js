@@ -1,316 +1,3480 @@
-/* Official Target benchmarks and merchant research hypotheses.
- * Retrieved 2026-11-03. These records are separate from the Home Care catalogue.
- * Prices are public listing snapshots, not live checkout quotes. No sales inferred.
+/* Official Target and travel-brand snapshots; retrieved 2026-11-03.
+ * Separate from canonical Home Care ITEMS. Merchant hypotheses, not confirmed assortment gaps or sales forecasts.
  */
-(function (root, factory) {
-  if (typeof module === 'object' && module.exports) module.exports = factory();
-  else root.HCTargetInspirationData = factory();
-})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
-  'use strict';
-
-  var checkedAt = '2026-11-03';
-  var brandUrl = 'https://corporate.target.com/about/products-services/target-brands';
-  var priceNote = 'Public Target listing snapshot retrieved 3 November 2026. Store, variant, promotion and checkout prices may differ; current checkout price and stock were not verified.';
-
-  var sources = [
-    {
-      id: 'target-brands',
-      title: 'Target Brands — Open Story, Everspring and up&up',
-      url: brandUrl,
-      retrievedAt: checkedAt,
-      sourceFreshness: 'Search provider reports page crawled on the retrieval date',
-      scope: 'Official brand positioning; not a complete assortment audit'
-    },
-    {
-      id: 'target-92150659',
-      title: '7pc Packing Cube Set with Compression — Open Story, Black',
-      url: 'https://www.target.com/p/-/A-92150659',
-      retrievedAt: checkedAt,
-      sourceFreshness: 'Search provider reports page crawled on the retrieval date',
-      scope: 'Exact selected Black item, TCIN 92150659'
-    },
-    {
-      id: 'target-86391375',
-      title: '8pc Complete Silicone Travel Toiletry Set, Dark Ivy — Open Story',
-      url: 'https://www.target.com/p/-/A-86391375',
-      retrievedAt: checkedAt,
-      sourceFreshness: 'Search provider reports page crawled on the retrieval date',
-      scope: 'Exact Dark Ivy item, TCIN 86391375'
-    },
-    {
-      id: 'target-92150657',
-      title: 'Silicone Bottle Caps — Open Story',
-      url: 'https://www.target.com/p/-/A-92150657',
-      retrievedAt: checkedAt,
-      sourceFreshness: 'Search provider reports page crawled on the retrieval date',
-      scope: 'Exact five-cap item, TCIN 92150657'
-    },
-    {
-      id: 'target-92172601',
-      title: '5pc Clear Toiletry Set — Open Story',
-      url: 'https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601',
-      retrievedAt: checkedAt,
-      sourceFreshness: 'Cached public listing; retrieval providers returned mixed crawl ages (today to 5 months). Recheck current offer.',
-      scope: 'Exact five-pouch item and Target staff Q&A, TCIN 92172601'
-    }
-  ];
-
-  function benchmark(item) {
-    var out = Object.assign({
-      retailer: 'Target',
-      brand: 'Open Story',
-      type: 'Target owned brand',
-      merchantScope: 'Target inspiration benchmark',
-      merchantDepartment: 'Luggage & Travel',
-      merchantScopeBasis: 'Official Target travel brand benchmark; separate from the Home Care research catalogue',
-      targetReviewRoute: 'Open Story travel accessories; potential enhancement requires merchant validation',
-      isTargetBenchmark: true,
-      hasSales: false,
-      sales: '',
-      displaySales: '',
-      salesPeriod: '',
-      metricDate: '',
-      metricSource: '',
-      salesEvidenceKind: '',
-      salesReviewStatus: 'No comparable sales evidence collected for this Target benchmark',
-      salesVerifiedThisPass: false,
-      checkedAt: checkedAt,
-      checkedDate: checkedAt,
-      sourceCheckedAt: checkedAt,
-      priceObservedAt: checkedAt,
-      priceNote: priceNote,
-      priceBasis: priceNote,
-      evidenceLevel: 'Individual item link',
-      verificationStatus: 'Official Target product page retrieved',
-      verificationNote: 'Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.',
-      sourceNote: 'Official Target item page and product photo retrieved 3 November 2026. Retailer descriptions are not independent performance tests.',
-      photoVerification: 'Official product-page main image downloaded and visually matched to this exact pack and variant on 3 November 2026',
-      photoVerificationDate: checkedAt,
-      photoAvailable: true,
-      alreadyOffered: true,
-      status: 'Already offered by Open Story',
-      gapStatus: 'No Target assortment gap established',
-      retailerListedDate: '',
-      retailerListedStatus: 'First available date not established',
-      retailerDateSource: '',
-      dateEvidenceType: 'Not publicly established',
-      dateEvidenceDate: '',
-      datePosted: checkedAt,
-      catalogDateBasis: 'Target benchmark added to comparison research; not a product launch date'
-    }, item);
-    out.id = 'TARGET-OPENSTORY-' + out.tcin;
-    out.title = out.name;
-    out.categoryLabel = out.category;
-    out.packSize = out.pack;
-    out.price = out.displayPrice;
-    out.originalDisplayPrice = out.displayPrice;
-    out.currentSource = out.url;
-    out.listingSource = out.url;
-    out.photoSource = out.url;
-    out.imageSourceUrl = out.image;
-    out.imageSource = out.image;
-    out.originalImage = out.image;
-    out.image = '/home-care/target-photos/' + out.tcin + '.jpg';
-    out.sourceFreshness = sources.filter(function (source) { return source.id === out.sourceId; })[0].sourceFreshness;
-    out.observedPrice = { amount: out.priceAmount, currency: 'USD', display: out.displayPrice, retrievedAt: checkedAt };
-    return out;
-  }
-
-  var benchmarks = [
-    benchmark({
-      tcin: '92150659',
-      name: '7pc Packing Cube Set with Compression — Open Story, Black',
-      url: 'https://www.target.com/p/-/A-92150659',
-      sourceId: 'target-92150659',
-      category: 'Travel Packing Organizers',
-      pack: '7 pieces: 4 clothing cubes, 2 small accessory cubes and 1 drawstring shoe bag',
-      displayPrice: '$35.00',
-      priceAmount: 35,
-      image: 'https://target.scene7.com/is/image/Target/GUEST_9658cafb-90da-4ece-9c70-007fd3eed72c?fmt=pjpeg&hei=300&wid=300',
-      features: [
-        'Separate spaces for clothes, small accessories and footwear',
-        'Mesh panels make contents visible; carry handles and zipper closures',
-        'Listed material: recycled polyester; care: spot or wipe clean'
-      ],
-      alreadyOfferedSummary: 'Coordinated travel packing and footwear separation are already part of Open Story.',
-      limitations: 'The title uses “with Compression”; this review did not measure compression, capacity, washability or moisture isolation.'
-    }),
-    benchmark({
-      tcin: '86391375',
-      name: '8pc Complete Silicone Travel Toiletry Set, Dark Ivy — Open Story',
-      url: 'https://www.target.com/p/-/A-86391375',
-      sourceId: 'target-86391375',
-      category: 'Travel Toiletry Containers',
-      pack: '8 containers with clear zipper pouch; listed capacities 0.33–3.38 fl oz',
-      displayPrice: '$15.00',
-      priceAmount: 15,
-      image: 'https://target.scene7.com/is/image/Target/GUEST_5e949b14-621a-4f9d-b47b-a8c20e165a91?fmt=pjpeg&hei=300&wid=300',
-      features: [
-        'Lotion and spray formats, two silicone bottles, two rolling bottles and two jars',
-        'Clear zippered carry pouch',
-        'Listed materials: silicone and PET; care: soap and water'
-      ],
-      alreadyOfferedSummary: 'A multi-format refillable toiletry container system is already offered.',
-      limitations: 'Container compatibility and leak resistance were not independently tested. The retailer’s travel claims are not a blanket assurance for every formula, bag or journey.'
-    }),
-    benchmark({
-      tcin: '92150657',
-      name: 'Silicone Bottle Caps — Open Story',
-      url: 'https://www.target.com/p/-/A-92150657',
-      sourceId: 'target-92150657',
-      category: 'Travel Spill-Control Accessories',
-      pack: '5 silicone caps in different colors',
-      displayPrice: '$5.00',
-      priceAmount: 5,
-      image: 'https://target.scene7.com/is/image/Target/GUEST_4f3f3e9b-2fff-477c-bf3a-3242b1733a26?fmt=pjpeg&hei=300&wid=300',
-      features: [
-        'Flexible covers intended to help contain bottle spills',
-        'Ribbed surface and distinct colors',
-        'Listed care: spot or wipe clean'
-      ],
-      alreadyOfferedSummary: 'Secondary covers for travel bottles are already offered.',
-      limitations: 'No universal bottle-fit or leakproof performance claim is established by this comparison.'
-    }),
-    benchmark({
-      tcin: '92172601',
-      name: '5pc Clear Toiletry Set — Open Story',
-      url: 'https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601',
-      sourceId: 'target-92172601',
-      category: 'Travel Toiletry Organizers',
-      pack: '5 clear zippered pouches',
-      displayPrice: '$12.00',
-      priceAmount: 12,
-      priceNote: 'Retrieved 3 November 2026 from a cached public Target listing. Providers returned mixed crawl ages (today to 5 months); recheck the current offer. Checkout price and stock were not verified.',
-      priceBasis: 'Cached public listing retrieved 3 November 2026; crawl-age reports vary from today to 5 months. The $12.00 pack offer needs a current checkout check.',
-      image: 'https://target.scene7.com/is/image/Target/GUEST_8f7f45f3-8dcc-489b-ac93-6b884210a582?fmt=pjpeg&hei=300&wid=300',
-      features: [
-        'Transparent mesh-style design for seeing contents',
-        'Zipper closures and multiple pouch sizes',
-        'Listed material: PEVA; care: spot or wipe clean'
-      ],
-      alreadyOfferedSummary: 'Visible, modular toiletry organization is already offered.',
-      limitations: 'Target staff Q&A describes this set as water-resistant, not leakproof. Conflicting drainage answers were not treated as verified performance.'
-    })
-  ];
-
-  var recommendations = [
-    {
-      id: 'travel-fabric-care-pouch',
-      title: 'Travel fabric-care pouch',
-      fit: 'Strong accessory fit; chemistry requires separate review',
-      status: 'Potential enhancement — Target gap not established',
-      competitorIds: ['HC-c6ee13cb2027', 'HC-f67966085d93', 'HC-c2fe9922cf3e'],
-      benchmarkTcins: ['92172601'],
-      targetBaseline: 'Open Story already offers clear organizer pouches. This proposal gives one a specific fabric-care use.',
-      featureToAdapt: 'Pocket-size stain pens and individually carried wipes suggest a compact clothing-emergency kit.',
-      whyFit: 'Clothing care during business trips and short breaks is a plausible travel-accessory occasion. This is a merchant hypothesis, not evidence of unmet demand.',
-      concept: 'Test a slim pouch with a pen loop, separate wipe sleeve and removable washable liner. Evaluate an accessory-only offer first; any bundled formula needs its own brand and category review.',
-      validation: [
-        'Check current Target travel and fabric-care assortments for an existing equivalent before claiming a gap.',
-        'Test whether travelers need this kit and can use it quickly; compare the added organization with a standard pouch.',
-        'Verify pen and wipe fit, closure durability, cleaning method and compatibility with any proposed stain-care product.',
-        'Confirm cost, pack contents, labeling and merchant ownership before choosing a price or brand extension.'
-      ],
-      comparisons: [
-        { id: 'HC-c6ee13cb2027', title: 'Tide To Go travel-size stain pens, 5 count', retailer: 'Amazon US', url: 'https://www.amazon.com/dp/B0CGL1CNZK', checkedAt: '2026-10-27', featureToLearn: 'Compact stain-pen format', limitation: 'Saved catalogue listing; not reverified in this pass. No sales evidence collected.' },
-        { id: 'HC-f67966085d93', title: 'Tide To Go stain pen, 0.33 oz', retailer: 'Ace Hardware', url: 'https://www.acehardware.com/tide-to-go-no-scent-stain-pen-033-oz-liquid/p/1261452', checkedAt: '2026-10-27', featureToLearn: 'Single-pen pack for an individual travel kit', limitation: 'Saved pack wording; formula performance and fabric compatibility require testing.' },
-        { id: 'HC-c2fe9922cf3e', title: 'Shout Wipe & Go instant stain remover, 12 wipes', retailer: 'Meijer', url: 'https://www.meijer.com/shopping/product/shout-wipe-go-instant-stain-remover-12-wipes/4650002246', checkedAt: '2026-10-31', featureToLearn: 'Wipe format as an alternative to a liquid pen', limitation: 'Saved catalogue listing; no evidence here of demand, travel compliance or suitability for every fabric.' }
-      ],
-      sources: [
-        { label: 'Open Story clear pouches already offered', url: 'https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601' },
-        { label: 'Official Target brand positioning', url: brandUrl }
-      ],
-      sourceIds: ['target-brands', 'target-92172601']
-    },
-    {
-      id: 'clean-used-laundry-module',
-      title: 'Clean / used laundry module',
-      fit: 'Strong travel-organization fit',
-      status: 'Potential enhancement — Target gap not established',
-      competitorIds: ['HC-33cd8399cfb7', 'HC-44318cd6f1a6'],
-      benchmarkTcins: ['92150659', '92172601'],
-      targetBaseline: 'Open Story already separates clothes, accessories and footwear with its packing set. General pouch organization is also established.',
-      featureToAdapt: 'A compact laundry bag and collapsible household basket provide ideas for separating used clothing and packing the organizer flat.',
-      whyFit: 'A defined clean-to-used clothing workflow extends the packing-cube use occasion. The household basket is a handling reference, not a travel price or size benchmark.',
-      concept: 'Prototype a compact module with clean/used labels, an easy-carry loop and removable liner. Evaluate dry laundry separation first; add damp-item containment only if construction and cleaning tests support it.',
-      validation: [
-        'Check the full Open Story and Target laundry/travel assortment for existing clean/dirty or wet/dry products.',
-        'Test fit inside the existing packing system, packed volume, carrying comfort and repeated opening.',
-        'Validate laundering, drying and odor-transfer performance; test seams and closures before making damp-item claims.',
-        'Research the traveler’s preferred capacity and whether a removable liner adds value at an achievable cost.'
-      ],
-      comparisons: [
-        { id: 'HC-33cd8399cfb7', title: 'Fabric laundry bag with elastic strip, described for travel and home', retailer: 'TikTok Shop', url: 'https://shop.tiktok.com/us/pdp/durable-fabric-laundry-bag-with-elastic-strip-ideal-for-travel-home-use/1732193880230236743', checkedAt: '2026-10-27', featureToLearn: 'Portable fabric bag and laundry-separation use occasion', limitation: 'Saved seller description; washability, drying and moisture containment not independently verified.' },
-        { id: 'HC-44318cd6f1a6', title: 'Laundry Turtle collapsible laundry basket', retailer: 'TikTok Shop', url: 'https://shop.tiktok.com/us/pdp/collapsible-laundry-basket-by-laundry-turtle-21-portable-hamper/1730811990203142375', checkedAt: '2026-10-27', featureToLearn: 'Fold-flat storage and easy handling', limitation: 'Adjacent household reference. Its size, construction and price are not directly comparable with a travel module.' }
-      ],
-      sources: [
-        { label: 'Open Story packing set already offered', url: 'https://www.target.com/p/-/A-92150659' },
-        { label: 'Clear pouch construction and limitations', url: 'https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601' }
-      ],
-      sourceIds: ['target-92150659', 'target-92172601']
-    },
-    {
-      id: 'refill-secondary-containment',
-      title: 'Refill kit with tested secondary containment',
-      fit: 'Strong travel-accessory fit; material suitability unproven',
-      status: 'Potential enhancement — Target gap not established',
-      competitorIds: ['US-052', 'CMP-068'],
-      benchmarkTcins: ['86391375', '92150657', '92172601'],
-      targetBaseline: 'Open Story already offers refill containers, bottle covers and clear pouches. An ordinary bottle kit or spill cap would repeat the existing proposition.',
-      featureToAdapt: 'Reusable food-storage pouches offer closure, wide-opening and stand-up-format references for a secondary carrier.',
-      whyFit: 'A validated containment and cleaning workflow could improve the existing toiletry system. The value would need to come from tested compatibility and ease of use.',
-      concept: 'Study a washable secondary carrier with clear closure cues, easy access and compatibility guidance for intended toiletries. Prototype around the existing Open Story bottles before adding another container set.',
-      validation: [
-        'Audit the current Target travel range and test the existing bottles, caps and pouches before defining any missing benefit.',
-        'Test closure cycles, leakage, cleaning and compatibility with specifically intended toiletries.',
-        'Do not transfer food-contact claims to cosmetics or household chemicals; establish the intended material and formula requirements.',
-        'Check current applicable travel rules before making compliance claims, then validate cost and consumer preference.'
-      ],
-      comparisons: [
-        { id: 'US-052', title: 'Stasher reusable silicone half-gallon storage bag, 64 oz', retailer: 'Walmart', url: 'https://business.walmart.com/ip/Stasher-Premium-Food-Safe-Reusable-Silicone-Half-Gallon-Food-Storage-Bag-Aqua-64-oz/124284323', checkedAt: '2026-10-27', featureToLearn: 'Reusable flexible storage and access/closure design', limitation: 'Food-storage reference. Size, price and food-contact claims do not establish suitability for toiletries.' },
-        { id: 'CMP-068', title: 'Reusable stand-up silicone storage pouch', retailer: 'TikTok Shop', url: 'https://shop.tiktok.com/us/pdp/reusable-stand-up-silicone-bag-plastic-free-food-storage-solution/1730953996872225688', checkedAt: '2026-10-27', featureToLearn: 'Stand-up pouch format', limitation: 'Saved listing with limited evidence. Its published count has no stated reporting period and is not used to infer demand.' }
-      ],
-      sources: [
-        { label: 'Open Story refill containers already offered', url: 'https://www.target.com/p/-/A-86391375' },
-        { label: 'Open Story bottle covers already offered', url: 'https://www.target.com/p/-/A-92150657' },
-        { label: 'Clear pouch performance qualification', url: 'https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601' }
-      ],
-      sourceIds: ['target-86391375', 'target-92150657', 'target-92172601']
-    }
-  ];
-
-  recommendations.forEach(function (item) {
-    item.brandFit = item.fit;
-    item.comparisonIds = item.competitorIds.slice();
-    item.benchmarkIds = item.benchmarkTcins.map(function (tcin) { return 'TARGET-OPENSTORY-' + tcin; });
-    item.alreadyOffered = item.targetBaseline;
-    item.potentialEnhancement = item.concept;
-    item.evidenceBasis = 'Official Target benchmarks plus saved competitor catalogue references; merchant hypothesis, not new competitor source verification';
-  });
-
+(function(root,factory){
+  if(typeof module === "object" && module.exports) module.exports=factory();
+  else root.HCTargetInspirationData=factory();
+})(typeof globalThis !== "undefined" ? globalThis : this,function(){
+  "use strict";
   return {
-    checkedAt: checkedAt,
-    reviewedAt: checkedAt,
-    sources: sources,
-    brand: {
-      name: 'Open Story',
-      description: 'Target positions Open Story around premium luggage and functional, stylish travel accessories, including packing cubes. Travel organization is the relevant bridge from this Home Care catalogue.',
-      positioning: 'Luggage and travel accessories',
-      sourceUrl: brandUrl,
-      sourceId: 'target-brands',
-      fitGuidance: 'Fit assessments below are research judgments. They favor compact organization and care during travel, while each proposed benefit still needs consumer, construction and commercial testing.',
-      homeCareRouting: 'Target describes Everspring as a household-essentials brand and up&up as everyday essentials spanning home, personal care and food storage. Household formulas need the appropriate merchant and brand brief.',
-      weakFit: 'Bulk cleaning formulas, drain care, pest control and large powered cleaning tools have weak direct Open Story fit without a credible travel occasion. Keep those in the Home Care research route.'
+  "checkedAt": "2026-11-03",
+  "reviewedAt": "2026-11-03",
+  "sources": [
+    {
+      "id": "target-brands",
+      "title": "Target Brands — Open Story, Everspring and up&up",
+      "url": "https://corporate.target.com/about/products-services/target-brands",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Search provider reports page crawled on the retrieval date",
+      "scope": "Official brand positioning; not a complete assortment audit"
     },
-    benchmarks: benchmarks,
-    recommendations: recommendations,
-    methodology: [
-      'Four exact official Target products were reviewed on 3 November 2026; this is a focused benchmark review, not a complete Target assortment audit.',
-      'Already offered describes the observed Target baseline. Potential enhancement is a research hypothesis; none of these ideas is a confirmed white space, sales forecast or priority score.',
-      'Competitor comparisons use saved catalogue references dated 27–31 October 2026. They were not reverified during this Target pass, and product titles are not independent performance evidence.',
-      'Target prices are selected-pack public listing snapshots. Packs and use occasions differ; this analysis does not calculate normalized unit cost, margin or price advantage.',
-      'Official product photos are provided for visual comparison with their source links. Brand fit comes from use, function and consumer need; develop original product and packaging designs.',
-      'No Target sales figures were collected. These four benchmarks remain separate from the Home Care catalogue, retailer coverage and sales rankings.'
-    ]
-  };
+    {
+      "id": "target-92150659",
+      "title": "7pc Packing Cube Set with Compression — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-92150659",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Search provider reports page crawled on the retrieval date",
+      "scope": "Exact selected Black item, TCIN 92150659"
+    },
+    {
+      "id": "target-86391375",
+      "title": "8pc Complete Silicone Travel Toiletry Set, Dark Ivy — Open Story",
+      "url": "https://www.target.com/p/-/A-86391375",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Search provider reports page crawled on the retrieval date",
+      "scope": "Exact Dark Ivy item, TCIN 86391375"
+    },
+    {
+      "id": "target-92150657",
+      "title": "Silicone Bottle Caps — Open Story",
+      "url": "https://www.target.com/p/-/A-92150657",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Search provider reports page crawled on the retrieval date",
+      "scope": "Exact five-cap item, TCIN 92150657"
+    },
+    {
+      "id": "target-92172601",
+      "title": "5pc Clear Toiletry Set — Open Story",
+      "url": "https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Cached public listing; retrieval providers returned mixed crawl ages (today to 5 months). Recheck current offer.",
+      "scope": "Exact five-pouch item and Target staff Q&A, TCIN 92172601"
+    },
+    {
+      "id": "target-92443469",
+      "title": "Hardside Carry-On Suitcase with Front Pocket — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-92443469",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official selected-item page retrieved 3 November 2026; rendered listing may be cached.",
+      "scope": "Exact selected item, TCIN 92443469; retailer claims, not independent testing"
+    },
+    {
+      "id": "target-87249354",
+      "title": "Signature Hardside Carry-On Suitcase — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-87249354",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official selected-item page retrieved 3 November 2026; rendered listing may be cached.",
+      "scope": "Exact selected item, TCIN 87249354; retailer claims, not independent testing"
+    },
+    {
+      "id": "target-87249356",
+      "title": "Signature Hardside Large Checked Suitcase — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-87249356",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Search provider reports exact Black item page crawled on retrieval date; $210 offer observed.",
+      "scope": "Exact selected item, TCIN 87249356; retailer claims, not independent testing"
+    },
+    {
+      "id": "target-86391372",
+      "title": "Signature Hardside Trunk Large Checked Suitcase — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-86391372",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Cached official selected-item listing retrieved 3 November 2026; provider reported crawl within the preceding week.",
+      "scope": "Exact selected item, TCIN 86391372; retailer claims, not independent testing"
+    },
+    {
+      "id": "target-86391380",
+      "title": "35L Travel Backpack — Open Story, Gray",
+      "url": "https://www.target.com/p/-/A-86391380",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Exact Gray item retrieved 3 November 2026; search provider reported crawl in the preceding week.",
+      "scope": "Exact selected item, TCIN 86391380; retailer claims, not independent testing"
+    },
+    {
+      "id": "target-88563245",
+      "title": "Signature 16-inch Commuter Adaptive Backpack — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-88563245",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official selected-item page retrieved 3 November 2026; rendered listing may be cached.",
+      "scope": "Exact selected item, TCIN 88563245; retailer claims, not independent testing"
+    },
+    {
+      "id": "target-92172563",
+      "title": "Garment Duffel Bag — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-92172563",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Exact Black item page retrieved 3 November 2026; provider reports crawl today and $37.50 clearance / $50 regular.",
+      "scope": "Exact selected item, TCIN 92172563; retailer claims, not independent testing"
+    },
+    {
+      "id": "target-92172566",
+      "title": "Weekender Bag with Drop-Bottom — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-92172566",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official selected-item page retrieved 3 November 2026; rendered listing may be cached.",
+      "scope": "Exact selected item, TCIN 92172566; retailer claims, not independent testing"
+    },
+    {
+      "id": "target-92172564",
+      "title": "Packable 100L Duffel Bag — Open Story, Gray",
+      "url": "https://www.target.com/p/-/A-92172564",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official selected-item page retrieved 3 November 2026; rendered listing may be cached.",
+      "scope": "Exact selected item, TCIN 92172564; retailer claims, not independent testing"
+    },
+    {
+      "id": "travel-lojel-cubo-small",
+      "title": "Cubo Small — Blushed Earth photo; US family offer",
+      "url": "https://us.lojel.com/product/cubo-small/",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-july-capsule",
+      "title": "Capsule Carry On Pro — Dune",
+      "url": "https://july.com/us/luggage/capsule-carry-on-pro/",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-away-carry-on-3",
+      "title": "The Carry-On 3 — Electric Iris",
+      "url": "https://www.awaytravel.com/products/carry-on-3-electric-iris",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-bellroy-transit-carry",
+      "title": "Transit Carry-On — Black",
+      "url": "https://bellroy.com/products/transit-carry-on",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-july-light",
+      "title": "Carry On Light — Sand",
+      "url": "https://july.com/us/luggage/carry-on-light/",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-bellroy-workpack",
+      "title": "Transit Workpack Pro — Black; 22 L / 28 L family",
+      "url": "https://bellroy.com/products/transit-workpack-pro",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-travelpro-soft-tote",
+      "title": "Maxlite 5 Soft Tote — Black",
+      "url": "https://travelpro.com/products/maxlite%C2%AE-5-soft-tote?variant=19641784762466",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-work-trip-checkin",
+      "title": "VersaPack+ Medium Check-In Spinner — Estate Blue",
+      "url": "https://travelpro.com/collections/shop-all-luggage/products/versapack%C2%AE-medium-check-in-expandable-softside-spinner?variant=41197973602402",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-briggs-sympatico",
+      "title": "Sympatico Essential 22-inch Expandable Carry-On — Navy",
+      "url": "https://www.briggs-riley.com/products/essential-carry-on-expandable-spinner?variant=41544563130410",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-halfday-duffel",
+      "title": "The Garment Duffel 45L — Shadow",
+      "url": "https://halfdaytravel.com/products/garment-duffel?variant=48014018805953",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-beis-mini-weekender",
+      "title": "The Mini Weekender — Black",
+      "url": "https://beistravel.com/products/the-mini-weekender-in-black",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-patagonia-55",
+      "title": "Black Hole Duffel 55L — Cinder Brown",
+      "url": "https://www.patagonia.com/product/black-hole-duffel-bag-55-liters/49343.html?dwvar_49343_color=CIBN",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-muji-75",
+      "title": "Adjustable Handle Hard Shell Suitcase 75L — Off White",
+      "url": "https://www.muji.us/products/adjustable-handle-hard-shell-suitcase-75l-check-in-eee46a5a?variant=45329538580670",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "travel-calpak-hue",
+      "title": "Hue Carry-On Luggage — Glazed Black",
+      "url": "https://www.calpaktravel.com/products/hue-carry-on-luggage/glazed-black",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "scope": "Official US product / selected-variant feature and price reference"
+    },
+    {
+      "id": "bellroy-repair",
+      "title": "Bellroy luggage repair programme",
+      "url": "https://bellroy.com/replacement",
+      "retrievedAt": "2026-11-03",
+      "sourceFreshness": "Official policy and instructions retrieved 3 November 2026",
+      "scope": "Repair process and component instructions; eligibility remains conditional"
+    }
+  ],
+  "brand": {
+    "name": "Open Story",
+    "description": "Target positions Open Story around luggage and functional travel accessories. This review covers full luggage, backpack and travel-bag platforms, plus the three original travel-care accessory ideas.",
+    "positioning": "Luggage and travel accessories",
+    "sourceUrl": "https://corporate.target.com/about/products-services/target-brands",
+    "sourceId": "target-brands",
+    "fitGuidance": "The main platforms address packing, access, carrying and ownership tasks. Review order is a qualitative merchant judgment based on feature evidence and validation effort, not a sales ranking or predicted market size.",
+    "homeCareRouting": "Target describes Everspring as a household-essentials brand and up&up as everyday essentials spanning home, personal care and food storage. Household formulas need the appropriate merchant and brand brief.",
+    "weakFit": "Bulk cleaning formulas, drain care, pest control and large powered cleaning tools have weak direct Open Story fit without a credible travel occasion. Keep those in the Home Care research route."
+  },
+  "benchmarks": [
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story travel accessories; potential enhancement requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Public Target listing snapshot retrieved 3 November 2026. Store, variant, promotion and checkout prices may differ; current checkout price and stock were not verified.",
+      "priceBasis": "Public Target listing snapshot retrieved 3 November 2026. Store, variant, promotion and checkout prices may differ; current checkout price and stock were not verified.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official Target item page and product photo retrieved 3 November 2026. Retailer descriptions are not independent performance tests.",
+      "photoVerification": "Official product-page main image downloaded and visually matched to this exact pack and variant on 3 November 2026",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "92150659",
+      "name": "7pc Packing Cube Set with Compression — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-92150659",
+      "sourceId": "target-92150659",
+      "category": "Travel Packing Organizers",
+      "pack": "7 pieces: 4 clothing cubes, 2 small accessory cubes and 1 drawstring shoe bag",
+      "displayPrice": "$35.00",
+      "priceAmount": 35,
+      "image": "/home-care/target-photos/92150659.jpg",
+      "features": [
+        "Separate spaces for clothes, small accessories and footwear",
+        "Mesh panels make contents visible; carry handles and zipper closures",
+        "Listed material: recycled polyester; care: spot or wipe clean"
+      ],
+      "alreadyOfferedSummary": "Coordinated travel packing and footwear separation are already part of Open Story.",
+      "limitations": "The title uses “with Compression”; this review did not measure compression, capacity, washability or moisture isolation.",
+      "id": "TARGET-OPENSTORY-92150659",
+      "title": "7pc Packing Cube Set with Compression — Open Story, Black",
+      "categoryLabel": "Travel Packing Organizers",
+      "packSize": "7 pieces: 4 clothing cubes, 2 small accessory cubes and 1 drawstring shoe bag",
+      "price": "$35.00",
+      "originalDisplayPrice": "$35.00",
+      "currentSource": "https://www.target.com/p/-/A-92150659",
+      "listingSource": "https://www.target.com/p/-/A-92150659",
+      "photoSource": "https://www.target.com/p/-/A-92150659",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_9658cafb-90da-4ece-9c70-007fd3eed72c?fmt=pjpeg&hei=300&wid=300",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_9658cafb-90da-4ece-9c70-007fd3eed72c?fmt=pjpeg&hei=300&wid=300",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_9658cafb-90da-4ece-9c70-007fd3eed72c?fmt=pjpeg&hei=300&wid=300",
+      "sourceFreshness": "Search provider reports page crawled on the retrieval date",
+      "observedPrice": {
+        "amount": 35,
+        "currency": "USD",
+        "display": "$35.00",
+        "retrievedAt": "2026-11-03"
+      }
+    },
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story travel accessories; potential enhancement requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Public Target listing snapshot retrieved 3 November 2026. Store, variant, promotion and checkout prices may differ; current checkout price and stock were not verified.",
+      "priceBasis": "Public Target listing snapshot retrieved 3 November 2026. Store, variant, promotion and checkout prices may differ; current checkout price and stock were not verified.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official Target item page and product photo retrieved 3 November 2026. Retailer descriptions are not independent performance tests.",
+      "photoVerification": "Official product-page main image downloaded and visually matched to this exact pack and variant on 3 November 2026",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "86391375",
+      "name": "8pc Complete Silicone Travel Toiletry Set, Dark Ivy — Open Story",
+      "url": "https://www.target.com/p/-/A-86391375",
+      "sourceId": "target-86391375",
+      "category": "Travel Toiletry Containers",
+      "pack": "8 containers with clear zipper pouch; listed capacities 0.33–3.38 fl oz",
+      "displayPrice": "$15.00",
+      "priceAmount": 15,
+      "image": "/home-care/target-photos/86391375.jpg",
+      "features": [
+        "Lotion and spray formats, two silicone bottles, two rolling bottles and two jars",
+        "Clear zippered carry pouch",
+        "Listed materials: silicone and PET; care: soap and water"
+      ],
+      "alreadyOfferedSummary": "A multi-format refillable toiletry container system is already offered.",
+      "limitations": "Container compatibility and leak resistance were not independently tested. The retailer’s travel claims are not a blanket assurance for every formula, bag or journey.",
+      "id": "TARGET-OPENSTORY-86391375",
+      "title": "8pc Complete Silicone Travel Toiletry Set, Dark Ivy — Open Story",
+      "categoryLabel": "Travel Toiletry Containers",
+      "packSize": "8 containers with clear zipper pouch; listed capacities 0.33–3.38 fl oz",
+      "price": "$15.00",
+      "originalDisplayPrice": "$15.00",
+      "currentSource": "https://www.target.com/p/-/A-86391375",
+      "listingSource": "https://www.target.com/p/-/A-86391375",
+      "photoSource": "https://www.target.com/p/-/A-86391375",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_5e949b14-621a-4f9d-b47b-a8c20e165a91?fmt=pjpeg&hei=300&wid=300",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_5e949b14-621a-4f9d-b47b-a8c20e165a91?fmt=pjpeg&hei=300&wid=300",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_5e949b14-621a-4f9d-b47b-a8c20e165a91?fmt=pjpeg&hei=300&wid=300",
+      "sourceFreshness": "Search provider reports page crawled on the retrieval date",
+      "observedPrice": {
+        "amount": 15,
+        "currency": "USD",
+        "display": "$15.00",
+        "retrievedAt": "2026-11-03"
+      }
+    },
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story travel accessories; potential enhancement requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Public Target listing snapshot retrieved 3 November 2026. Store, variant, promotion and checkout prices may differ; current checkout price and stock were not verified.",
+      "priceBasis": "Public Target listing snapshot retrieved 3 November 2026. Store, variant, promotion and checkout prices may differ; current checkout price and stock were not verified.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official Target item page and product photo retrieved 3 November 2026. Retailer descriptions are not independent performance tests.",
+      "photoVerification": "Official product-page main image downloaded and visually matched to this exact pack and variant on 3 November 2026",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "92150657",
+      "name": "Silicone Bottle Caps — Open Story",
+      "url": "https://www.target.com/p/-/A-92150657",
+      "sourceId": "target-92150657",
+      "category": "Travel Spill-Control Accessories",
+      "pack": "5 silicone caps in different colors",
+      "displayPrice": "$5.00",
+      "priceAmount": 5,
+      "image": "/home-care/target-photos/92150657.jpg",
+      "features": [
+        "Flexible covers intended to help contain bottle spills",
+        "Ribbed surface and distinct colors",
+        "Listed care: spot or wipe clean"
+      ],
+      "alreadyOfferedSummary": "Secondary covers for travel bottles are already offered.",
+      "limitations": "No universal bottle-fit or leakproof performance claim is established by this comparison.",
+      "id": "TARGET-OPENSTORY-92150657",
+      "title": "Silicone Bottle Caps — Open Story",
+      "categoryLabel": "Travel Spill-Control Accessories",
+      "packSize": "5 silicone caps in different colors",
+      "price": "$5.00",
+      "originalDisplayPrice": "$5.00",
+      "currentSource": "https://www.target.com/p/-/A-92150657",
+      "listingSource": "https://www.target.com/p/-/A-92150657",
+      "photoSource": "https://www.target.com/p/-/A-92150657",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_4f3f3e9b-2fff-477c-bf3a-3242b1733a26?fmt=pjpeg&hei=300&wid=300",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_4f3f3e9b-2fff-477c-bf3a-3242b1733a26?fmt=pjpeg&hei=300&wid=300",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_4f3f3e9b-2fff-477c-bf3a-3242b1733a26?fmt=pjpeg&hei=300&wid=300",
+      "sourceFreshness": "Search provider reports page crawled on the retrieval date",
+      "observedPrice": {
+        "amount": 5,
+        "currency": "USD",
+        "display": "$5.00",
+        "retrievedAt": "2026-11-03"
+      }
+    },
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story travel accessories; potential enhancement requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Retrieved 3 November 2026 from a cached public Target listing. Providers returned mixed crawl ages (today to 5 months); recheck the current offer. Checkout price and stock were not verified.",
+      "priceBasis": "Cached public listing retrieved 3 November 2026; crawl-age reports vary from today to 5 months. The $12.00 pack offer needs a current checkout check.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official Target item page and product photo retrieved 3 November 2026. Retailer descriptions are not independent performance tests.",
+      "photoVerification": "Official product-page main image downloaded and visually matched to this exact pack and variant on 3 November 2026",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "92172601",
+      "name": "5pc Clear Toiletry Set — Open Story",
+      "url": "https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601",
+      "sourceId": "target-92172601",
+      "category": "Travel Toiletry Organizers",
+      "pack": "5 clear zippered pouches",
+      "displayPrice": "$12.00",
+      "priceAmount": 12,
+      "image": "/home-care/target-photos/92172601.jpg",
+      "features": [
+        "Transparent mesh-style design for seeing contents",
+        "Zipper closures and multiple pouch sizes",
+        "Listed material: PEVA; care: spot or wipe clean"
+      ],
+      "alreadyOfferedSummary": "Visible, modular toiletry organization is already offered.",
+      "limitations": "Target staff Q&A describes this set as water-resistant, not leakproof. Conflicting drainage answers were not treated as verified performance.",
+      "id": "TARGET-OPENSTORY-92172601",
+      "title": "5pc Clear Toiletry Set — Open Story",
+      "categoryLabel": "Travel Toiletry Organizers",
+      "packSize": "5 clear zippered pouches",
+      "price": "$12.00",
+      "originalDisplayPrice": "$12.00",
+      "currentSource": "https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601",
+      "listingSource": "https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601",
+      "photoSource": "https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_8f7f45f3-8dcc-489b-ac93-6b884210a582?fmt=pjpeg&hei=300&wid=300",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_8f7f45f3-8dcc-489b-ac93-6b884210a582?fmt=pjpeg&hei=300&wid=300",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_8f7f45f3-8dcc-489b-ac93-6b884210a582?fmt=pjpeg&hei=300&wid=300",
+      "sourceFreshness": "Cached public listing; retrieval providers returned mixed crawl ages (today to 5 months). Recheck current offer.",
+      "observedPrice": {
+        "amount": 12,
+        "currency": "USD",
+        "display": "$12.00",
+        "retrievedAt": "2026-11-03"
+      }
+    },
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story luggage and travel; proposed differentiation requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official selected Target item page and product photo retrieved 3 November 2026. Product and promotion snapshots are not launch dates, independent tests or evidence of demand.",
+      "photoVerification": "Official selected-item gallery photo downloaded and visually checked for product form and color on 3 November 2026. It does not verify performance.",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "92443469",
+      "name": "Hardside Carry-On Suitcase with Front Pocket — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-92443469",
+      "sourceId": "target-92443469",
+      "category": "Carry-On Luggage",
+      "pack": "1 suitcase; front laptop pocket",
+      "displayPrice": "$80.00 clearance (reg $100.00)",
+      "priceAmount": 80,
+      "image": "/home-care/target-photos/92443469.jpg",
+      "features": [
+        "Front zip pocket includes a laptop sleeve; main packing space closes separately.",
+        "Spinner wheels, telescoping handle and internal cross straps are already offered.",
+        "Published overall dimensions: 21.75 × 14.25 × 9.75 in."
+      ],
+      "alreadyOfferedSummary": "Front laptop access is already offered; a new concept must improve access to the main packed compartment or another measured task.",
+      "limitations": "Clearance offer is not a permanent price tier. The page has inconsistent weight figures, so weight is omitted. Published dimensions do not establish acceptance by every airline.",
+      "id": "TARGET-OPENSTORY-92443469",
+      "title": "Hardside Carry-On Suitcase with Front Pocket — Open Story, Black",
+      "categoryLabel": "Carry-On Luggage",
+      "packSize": "1 suitcase; front laptop pocket",
+      "price": "$80.00 clearance (reg $100.00)",
+      "originalDisplayPrice": "$80.00 clearance (reg $100.00)",
+      "currentSource": "https://www.target.com/p/-/A-92443469",
+      "listingSource": "https://www.target.com/p/-/A-92443469",
+      "photoSource": "https://www.target.com/p/-/A-92443469",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_96ef65bf-c08b-4e44-99e6-83e6eaf4a58e?fmt=pjpeg&hei=800&wid=800",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_96ef65bf-c08b-4e44-99e6-83e6eaf4a58e?fmt=pjpeg&hei=800&wid=800",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_96ef65bf-c08b-4e44-99e6-83e6eaf4a58e?fmt=pjpeg&hei=800&wid=800",
+      "sourceFreshness": "Official selected-item page retrieved 3 November 2026; rendered listing may be cached.",
+      "observedPrice": {
+        "amount": 80,
+        "currency": "USD",
+        "display": "$80.00 clearance (reg $100.00)",
+        "retrievedAt": "2026-11-03"
+      },
+      "priceCurrency": "USD",
+      "priceRegion": "United States"
+    },
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story luggage and travel; proposed differentiation requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official selected Target item page and product photo retrieved 3 November 2026. Product and promotion snapshots are not launch dates, independent tests or evidence of demand.",
+      "photoVerification": "Official selected-item gallery photo downloaded and visually checked for product form and color on 3 November 2026. It does not verify performance.",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "87249354",
+      "name": "Signature Hardside Carry-On Suitcase — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-87249354",
+      "sourceId": "target-87249354",
+      "category": "Carry-On Luggage",
+      "pack": "1 polycarbonate suitcase; removable compression pad",
+      "displayPrice": "$160.00",
+      "priceAmount": 160,
+      "image": "/home-care/target-photos/87249354.jpg",
+      "features": [
+        "Interior pockets, cross straps and a removable compression pad are included.",
+        "Spinner wheels, top/side handles and an adjustable trolley handle.",
+        "Specifications list 7.71 lb and 21.5 × 14.5 × 9.75 in; description rounds weight to 8 lb."
+      ],
+      "alreadyOfferedSummary": "A structured carry-on with packing compression is already offered.",
+      "limitations": "Use specification weight only as a published reference; physical capacity, loaded durability and handling were not tested. Airline fit depends on carrier, route and packed size.",
+      "id": "TARGET-OPENSTORY-87249354",
+      "title": "Signature Hardside Carry-On Suitcase — Open Story, Black",
+      "categoryLabel": "Carry-On Luggage",
+      "packSize": "1 polycarbonate suitcase; removable compression pad",
+      "price": "$160.00",
+      "originalDisplayPrice": "$160.00",
+      "currentSource": "https://www.target.com/p/-/A-87249354",
+      "listingSource": "https://www.target.com/p/-/A-87249354",
+      "photoSource": "https://www.target.com/p/-/A-87249354",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_76e06f78-2f96-4daa-b136-0796979b9613?fmt=pjpeg&hei=800&wid=800",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_76e06f78-2f96-4daa-b136-0796979b9613?fmt=pjpeg&hei=800&wid=800",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_76e06f78-2f96-4daa-b136-0796979b9613?fmt=pjpeg&hei=800&wid=800",
+      "sourceFreshness": "Official selected-item page retrieved 3 November 2026; rendered listing may be cached.",
+      "observedPrice": {
+        "amount": 160,
+        "currency": "USD",
+        "display": "$160.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "priceCurrency": "USD",
+      "priceRegion": "United States"
+    },
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story luggage and travel; proposed differentiation requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official selected Target item page and product photo retrieved 3 November 2026. Product and promotion snapshots are not launch dates, independent tests or evidence of demand.",
+      "photoVerification": "Official selected-item gallery photo downloaded and visually checked for product form and color on 3 November 2026. It does not verify performance.",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "87249356",
+      "name": "Signature Hardside Large Checked Suitcase — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-87249356",
+      "sourceId": "target-87249356",
+      "category": "Checked Luggage",
+      "pack": "1 large checked suitcase; removable compression pad",
+      "displayPrice": "$210.00",
+      "priceAmount": 210,
+      "image": "/home-care/target-photos/87249356.jpg",
+      "features": [
+        "Polycarbonate shell, interior compartments and a removable compression pad.",
+        "Four spinner wheels with telescoping, top and side handles.",
+        "Published size 30 × 21 × 12 in; empty weight 11.8 lb."
+      ],
+      "alreadyOfferedSummary": "Large checked luggage and interior compression are already offered.",
+      "limitations": "This is checked luggage. The published dimensions total 63 linear inches; assess actual airline size and weight rules. Older cached promotional offers differ from the $210 page retrieved in this review.",
+      "id": "TARGET-OPENSTORY-87249356",
+      "title": "Signature Hardside Large Checked Suitcase — Open Story, Black",
+      "categoryLabel": "Checked Luggage",
+      "packSize": "1 large checked suitcase; removable compression pad",
+      "price": "$210.00",
+      "originalDisplayPrice": "$210.00",
+      "currentSource": "https://www.target.com/p/-/A-87249356",
+      "listingSource": "https://www.target.com/p/-/A-87249356",
+      "photoSource": "https://www.target.com/p/-/A-87249356",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_1036751d-759f-4257-8052-5ff900654faa?fmt=pjpeg&hei=800&wid=800",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_1036751d-759f-4257-8052-5ff900654faa?fmt=pjpeg&hei=800&wid=800",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_1036751d-759f-4257-8052-5ff900654faa?fmt=pjpeg&hei=800&wid=800",
+      "sourceFreshness": "Search provider reports exact Black item page crawled on retrieval date; $210 offer observed.",
+      "observedPrice": {
+        "amount": 210,
+        "currency": "USD",
+        "display": "$210.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "priceCurrency": "USD",
+      "priceRegion": "United States"
+    },
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story luggage and travel; proposed differentiation requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official selected Target item page and product photo retrieved 3 November 2026. Product and promotion snapshots are not launch dates, independent tests or evidence of demand.",
+      "photoVerification": "Official selected-item gallery photo downloaded and visually checked for product form and color on 3 November 2026. It does not verify performance.",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "86391372",
+      "name": "Signature Hardside Trunk Large Checked Suitcase — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-86391372",
+      "sourceId": "target-86391372",
+      "category": "Checked Luggage",
+      "pack": "1 trunk-style checked suitcase",
+      "displayPrice": "$178.50 clearance (reg $210.00)",
+      "priceAmount": 178.5,
+      "image": "/home-care/target-photos/86391372.jpg",
+      "features": [
+        "Trunk format with a polycarbonate shell.",
+        "Hinomoto Silent Run spinner wheels are already specified by Target.",
+        "Removable compression pad, interior pockets and top/side lifting handles."
+      ],
+      "alreadyOfferedSummary": "A trunk shape, quiet-wheel proposition and interior compression are already present.",
+      "limitations": "Clearance snapshot. Quiet rolling is a retailer claim, not a measured noise result. This benchmark does not establish a missing trunk or quiet-wheel offer.",
+      "id": "TARGET-OPENSTORY-86391372",
+      "title": "Signature Hardside Trunk Large Checked Suitcase — Open Story, Black",
+      "categoryLabel": "Checked Luggage",
+      "packSize": "1 trunk-style checked suitcase",
+      "price": "$178.50 clearance (reg $210.00)",
+      "originalDisplayPrice": "$178.50 clearance (reg $210.00)",
+      "currentSource": "https://www.target.com/p/-/A-86391372",
+      "listingSource": "https://www.target.com/p/-/A-86391372",
+      "photoSource": "https://www.target.com/p/-/A-86391372",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_00778fc9-6cca-4b33-bf8e-7d384437b99a?fmt=pjpeg&hei=800&wid=800",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_00778fc9-6cca-4b33-bf8e-7d384437b99a?fmt=pjpeg&hei=800&wid=800",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_00778fc9-6cca-4b33-bf8e-7d384437b99a?fmt=pjpeg&hei=800&wid=800",
+      "sourceFreshness": "Cached official selected-item listing retrieved 3 November 2026; provider reported crawl within the preceding week.",
+      "observedPrice": {
+        "amount": 178.5,
+        "currency": "USD",
+        "display": "$178.50 clearance (reg $210.00)",
+        "retrievedAt": "2026-11-03"
+      },
+      "priceCurrency": "USD",
+      "priceRegion": "United States"
+    },
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story luggage and travel; proposed differentiation requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official selected Target item page and product photo retrieved 3 November 2026. Product and promotion snapshots are not launch dates, independent tests or evidence of demand.",
+      "photoVerification": "Official selected-item gallery photo downloaded and visually checked for product form and color on 3 November 2026. It does not verify performance.",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "86391380",
+      "name": "35L Travel Backpack — Open Story, Gray",
+      "url": "https://www.target.com/p/-/A-86391380",
+      "sourceId": "target-86391380",
+      "category": "Travel Backpacks",
+      "pack": "1 backpack; published 35 L capacity",
+      "displayPrice": "$42.50 clearance (reg $50.00)",
+      "priceAmount": 42.5,
+      "image": "/home-care/target-photos/86391380.jpg",
+      "features": [
+        "Zip-around opening, internal mesh compartments and laptop pocket for devices up to 17 in.",
+        "Padded shoulder straps and a luggage-handle sleeve.",
+        "Published overall dimensions 19.25 × 13 × 8.25 in; weight 2.42 lb."
+      ],
+      "alreadyOfferedSummary": "Clothing organization, laptop storage and suitcase stacking already exist in Open Story backpacks.",
+      "limitations": "The family URL A-88289704 resolves to selected Gray TCIN 86391380; this record uses the exact TCIN and Gray gallery image. A 35 L title is not a universal personal-item fit claim.",
+      "id": "TARGET-OPENSTORY-86391380",
+      "title": "35L Travel Backpack — Open Story, Gray",
+      "categoryLabel": "Travel Backpacks",
+      "packSize": "1 backpack; published 35 L capacity",
+      "price": "$42.50 clearance (reg $50.00)",
+      "originalDisplayPrice": "$42.50 clearance (reg $50.00)",
+      "currentSource": "https://www.target.com/p/-/A-86391380",
+      "listingSource": "https://www.target.com/p/-/A-86391380",
+      "photoSource": "https://www.target.com/p/-/A-86391380",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_1ba23f46-8c6d-4b4a-802e-3c7e6bf6fc9d?fmt=pjpeg&hei=800&wid=800",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_1ba23f46-8c6d-4b4a-802e-3c7e6bf6fc9d?fmt=pjpeg&hei=800&wid=800",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_1ba23f46-8c6d-4b4a-802e-3c7e6bf6fc9d?fmt=pjpeg&hei=800&wid=800",
+      "sourceFreshness": "Exact Gray item retrieved 3 November 2026; search provider reported crawl in the preceding week.",
+      "observedPrice": {
+        "amount": 42.5,
+        "currency": "USD",
+        "display": "$42.50 clearance (reg $50.00)",
+        "retrievedAt": "2026-11-03"
+      },
+      "priceCurrency": "USD",
+      "priceRegion": "United States"
+    },
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story luggage and travel; proposed differentiation requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official selected Target item page and product photo retrieved 3 November 2026. Product and promotion snapshots are not launch dates, independent tests or evidence of demand.",
+      "photoVerification": "Official selected-item gallery photo downloaded and visually checked for product form and color on 3 November 2026. It does not verify performance.",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "88563245",
+      "name": "Signature 16-inch Commuter Adaptive Backpack — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-88563245",
+      "sourceId": "target-88563245",
+      "category": "Travel Backpacks",
+      "pack": "1 backpack; 23 L listed; laptop pocket up to 15 in",
+      "displayPrice": "$50.00",
+      "priceAmount": 50,
+      "image": "/home-care/target-photos/88563245.jpg",
+      "features": [
+        "A chair-handle mount and trolley sleeve are already offered.",
+        "Laptop, tablet, mesh and bottle storage are listed.",
+        "Published size 16 × 12 × 7.5 in; 1.85 lb."
+      ],
+      "alreadyOfferedSummary": "Adaptive attachment is already part of the Open Story range; inclusive design proposals must improve a validated user task.",
+      "limitations": "The 16-inch name describes bag height, not laptop fit. Compatibility with every chair or mobility aid is not established. Any wheelchair in the official contextual photo is not included.",
+      "id": "TARGET-OPENSTORY-88563245",
+      "title": "Signature 16-inch Commuter Adaptive Backpack — Open Story, Black",
+      "categoryLabel": "Travel Backpacks",
+      "packSize": "1 backpack; 23 L listed; laptop pocket up to 15 in",
+      "price": "$50.00",
+      "originalDisplayPrice": "$50.00",
+      "currentSource": "https://www.target.com/p/-/A-88563245",
+      "listingSource": "https://www.target.com/p/-/A-88563245",
+      "photoSource": "https://www.target.com/p/-/A-88563245",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_f4e27f30-8831-465f-a5d4-b54f88df5dc4?fmt=pjpeg&hei=800&wid=800",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_f4e27f30-8831-465f-a5d4-b54f88df5dc4?fmt=pjpeg&hei=800&wid=800",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_f4e27f30-8831-465f-a5d4-b54f88df5dc4?fmt=pjpeg&hei=800&wid=800",
+      "sourceFreshness": "Official selected-item page retrieved 3 November 2026; rendered listing may be cached.",
+      "observedPrice": {
+        "amount": 50,
+        "currency": "USD",
+        "display": "$50.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "priceCurrency": "USD",
+      "priceRegion": "United States"
+    },
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story luggage and travel; proposed differentiation requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official selected Target item page and product photo retrieved 3 November 2026. Product and promotion snapshots are not launch dates, independent tests or evidence of demand.",
+      "photoVerification": "Official selected-item gallery photo downloaded and visually checked for product form and color on 3 November 2026. It does not verify performance.",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "92172563",
+      "name": "Garment Duffel Bag — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-92172563",
+      "sourceId": "target-92172563",
+      "category": "Duffels & Weekenders",
+      "pack": "1 garment duffel; detachable shoulder strap",
+      "displayPrice": "$37.50 clearance (reg $50.00)",
+      "priceAmount": 37.5,
+      "image": "/home-care/target-photos/92172563.jpg",
+      "features": [
+        "Garment-oriented duffel with separate shoe and organizer pockets.",
+        "Collapsible construction, two carry handles and a detachable shoulder strap.",
+        "Published overall dimensions 22 × 12 × 11 in; 2 lb."
+      ],
+      "alreadyOfferedSummary": "A garment duffel and shoe separation are already offered.",
+      "limitations": "Observed clearance is $37.50 on the exact page; other retrievals may show another offer. Garment wrinkle control, packed capacity and carrier acceptance were not tested.",
+      "id": "TARGET-OPENSTORY-92172563",
+      "title": "Garment Duffel Bag — Open Story, Black",
+      "categoryLabel": "Duffels & Weekenders",
+      "packSize": "1 garment duffel; detachable shoulder strap",
+      "price": "$37.50 clearance (reg $50.00)",
+      "originalDisplayPrice": "$37.50 clearance (reg $50.00)",
+      "currentSource": "https://www.target.com/p/-/A-92172563",
+      "listingSource": "https://www.target.com/p/-/A-92172563",
+      "photoSource": "https://www.target.com/p/-/A-92172563",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_9e6e380e-5c45-4231-9044-98ca07ae8f9b?fmt=pjpeg&hei=800&wid=800",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_9e6e380e-5c45-4231-9044-98ca07ae8f9b?fmt=pjpeg&hei=800&wid=800",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_9e6e380e-5c45-4231-9044-98ca07ae8f9b?fmt=pjpeg&hei=800&wid=800",
+      "sourceFreshness": "Exact Black item page retrieved 3 November 2026; provider reports crawl today and $37.50 clearance / $50 regular.",
+      "observedPrice": {
+        "amount": 37.5,
+        "currency": "USD",
+        "display": "$37.50 clearance (reg $50.00)",
+        "retrievedAt": "2026-11-03"
+      },
+      "priceCurrency": "USD",
+      "priceRegion": "United States"
+    },
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story luggage and travel; proposed differentiation requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official selected Target item page and product photo retrieved 3 November 2026. Product and promotion snapshots are not launch dates, independent tests or evidence of demand.",
+      "photoVerification": "Official selected-item gallery photo downloaded and visually checked for product form and color on 3 November 2026. It does not verify performance.",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "92172566",
+      "name": "Weekender Bag with Drop-Bottom — Open Story, Black",
+      "url": "https://www.target.com/p/-/A-92172566",
+      "sourceId": "target-92172566",
+      "category": "Duffels & Weekenders",
+      "pack": "1 weekender; drop-bottom section",
+      "displayPrice": "$50.00",
+      "priceAmount": 50,
+      "image": "/home-care/target-photos/92172566.jpg",
+      "features": [
+        "Drop-bottom format with interior and exterior pockets.",
+        "Laptop pocket is listed for devices up to 14 in.",
+        "Two handles, adjustable shoulder strap and water-resistant construction are listed."
+      ],
+      "alreadyOfferedSummary": "A separate lower compartment and laptop-capable weekender already exist.",
+      "limitations": "Drop-bottom does not establish a removable bottom. No independent loaded-carry, leak-resistance or airline-fit testing was performed.",
+      "id": "TARGET-OPENSTORY-92172566",
+      "title": "Weekender Bag with Drop-Bottom — Open Story, Black",
+      "categoryLabel": "Duffels & Weekenders",
+      "packSize": "1 weekender; drop-bottom section",
+      "price": "$50.00",
+      "originalDisplayPrice": "$50.00",
+      "currentSource": "https://www.target.com/p/-/A-92172566",
+      "listingSource": "https://www.target.com/p/-/A-92172566",
+      "photoSource": "https://www.target.com/p/-/A-92172566",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_6850b169-217c-42fb-a79e-b0f49d71bcef?fmt=pjpeg&hei=800&wid=800",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_6850b169-217c-42fb-a79e-b0f49d71bcef?fmt=pjpeg&hei=800&wid=800",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_6850b169-217c-42fb-a79e-b0f49d71bcef?fmt=pjpeg&hei=800&wid=800",
+      "sourceFreshness": "Official selected-item page retrieved 3 November 2026; rendered listing may be cached.",
+      "observedPrice": {
+        "amount": 50,
+        "currency": "USD",
+        "display": "$50.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "priceCurrency": "USD",
+      "priceRegion": "United States"
+    },
+    {
+      "retailer": "Target",
+      "brand": "Open Story",
+      "type": "Target owned brand",
+      "merchantScope": "Target inspiration benchmark",
+      "merchantDepartment": "Luggage & Travel",
+      "merchantScopeBasis": "Official Target travel brand benchmark; separate from the Home Care research catalogue",
+      "targetReviewRoute": "Open Story luggage and travel; proposed differentiation requires merchant validation",
+      "isTargetBenchmark": true,
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesReviewStatus": "No comparable sales evidence collected for this Target benchmark",
+      "salesVerifiedThisPass": false,
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "priceObservedAt": "2026-11-03",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official Target product page retrieved",
+      "verificationNote": "Exact TCIN and selected variant matched to the official page. Public listing snapshot; no checkout verification.",
+      "sourceNote": "Official selected Target item page and product photo retrieved 3 November 2026. Product and promotion snapshots are not launch dates, independent tests or evidence of demand.",
+      "photoVerification": "Official selected-item gallery photo downloaded and visually checked for product form and color on 3 November 2026. It does not verify performance.",
+      "photoVerificationDate": "2026-11-03",
+      "photoAvailable": true,
+      "alreadyOffered": true,
+      "status": "Already offered by Open Story",
+      "gapStatus": "No Target assortment gap established",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Target benchmark added to comparison research; not a product launch date",
+      "tcin": "92172564",
+      "name": "Packable 100L Duffel Bag — Open Story, Gray",
+      "url": "https://www.target.com/p/-/A-92172564",
+      "sourceId": "target-92172564",
+      "category": "Duffels & Weekenders",
+      "pack": "1 packable duffel; published 100 L capacity",
+      "displayPrice": "$30.00",
+      "priceAmount": 30,
+      "image": "/home-care/target-photos/92172564.jpg",
+      "features": [
+        "Packable soft construction with main, interior and external zip storage.",
+        "Top handles and a detachable adjustable shoulder strap.",
+        "Published size 26 × 16 × 13 in; 1.26 lb."
+      ],
+      "alreadyOfferedSummary": "A very large, light packable duffel is already offered.",
+      "limitations": "Do not treat this as underseat or universally cabin-compliant despite generic placement wording on the retailer page. The 100 L format has a different job from smaller structured gear bags.",
+      "id": "TARGET-OPENSTORY-92172564",
+      "title": "Packable 100L Duffel Bag — Open Story, Gray",
+      "categoryLabel": "Duffels & Weekenders",
+      "packSize": "1 packable duffel; published 100 L capacity",
+      "price": "$30.00",
+      "originalDisplayPrice": "$30.00",
+      "currentSource": "https://www.target.com/p/-/A-92172564",
+      "listingSource": "https://www.target.com/p/-/A-92172564",
+      "photoSource": "https://www.target.com/p/-/A-92172564",
+      "imageSourceUrl": "https://target.scene7.com/is/image/Target/GUEST_1eb86eb9-6616-4335-9f27-98f3cf9445da?fmt=pjpeg&hei=800&wid=800",
+      "imageSource": "https://target.scene7.com/is/image/Target/GUEST_1eb86eb9-6616-4335-9f27-98f3cf9445da?fmt=pjpeg&hei=800&wid=800",
+      "originalImage": "https://target.scene7.com/is/image/Target/GUEST_1eb86eb9-6616-4335-9f27-98f3cf9445da?fmt=pjpeg&hei=800&wid=800",
+      "sourceFreshness": "Official selected-item page retrieved 3 November 2026; rendered listing may be cached.",
+      "observedPrice": {
+        "amount": 30,
+        "currency": "USD",
+        "display": "$30.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "priceCurrency": "USD",
+      "priceRegion": "United States"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "front-access-cabin-platform",
+      "title": "Carry-on that opens usefully in a small room",
+      "platform": "Carry-on luggage",
+      "priority": "Prioritize for review",
+      "priorityBasis": "A main-compartment opening is a substantial construction decision with two direct feature references and a clear access task to test.",
+      "travelerJob": "Reach clothes or a work item in a tight hotel room without spreading both halves across the floor.",
+      "benchmarkTcins": [
+        "92443469",
+        "87249354"
+      ],
+      "targetBaseline": "Open Story already sells a front laptop-pocket case and a Signature carry-on. A front pocket alone would repeat the existing range.",
+      "featureToAdapt": "Study top/main-compartment access and a divider that opens independently of the front tech section.",
+      "whyFit": "This can change the whole case architecture and daily packing experience, beyond adding an organizer.",
+      "concept": "Develop a cabin case whose main packing bay is accessible upright or on a narrow luggage stand, with a stable lid, serviceable hinges or zips, and an optional removable liner.",
+      "priceArchitecture": "Observed US anchors: Target front-pocket $80 clearance / $100 regular and Signature $160; July Capsule $395. LOJEL shows a from-$306 family offer, not an exact pictured-color quote. These define feature tiers to cost, not a proposed Target price.",
+      "validation": [
+        "Demonstrate access to the bottom of a fully packed case on a narrow stand and compare with the existing Target front-pocket model.",
+        "Test tip stability, lid force, zipper or hinge life, water entry and packable volume at the same outer dimensions.",
+        "Audit Target’s current assortment before claiming absence; cost shell tooling, liner removal and repair access."
+      ],
+      "scale": "Major product platform",
+      "status": "Product-platform hypothesis — Target gap not established",
+      "fit": "Open Story travel-platform fit; differentiation requires validation",
+      "competitorIds": [
+        "TRAVEL-LOJEL-CUBO-SMALL",
+        "TRAVEL-JULY-CAPSULE"
+      ],
+      "comparisons": [
+        {
+          "id": "TRAVEL-LOJEL-CUBO-SMALL",
+          "title": "Cubo Small — Blushed Earth photo; US family offer",
+          "retailer": "LOJEL US official",
+          "url": "https://us.lojel.com/product/cubo-small/",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Top access to the main packing area reduces the floor space needed to open the case.",
+          "limitation": "The page advertises a family price from $306. That is not an exact quote for the pictured Blushed Earth color. No independent washability, capacity or durability result is inferred."
+        },
+        {
+          "id": "TRAVEL-JULY-CAPSULE",
+          "title": "Capsule Carry On Pro — Dune",
+          "retailer": "July US official",
+          "url": "https://july.com/us/luggage/capsule-carry-on-pro/",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Top opening and a magnetically secured quick-access section.",
+          "limitation": "Tracking setup, network compatibility and wheel behavior require use testing. Tracking cannot guarantee recovery. This exact product includes a lock; it is not merely a generic tracker pocket."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Target baseline: Hardside Carry-On Suitcase with Front Pocket — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-92443469"
+        },
+        {
+          "label": "Target baseline: Signature Hardside Carry-On Suitcase — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-87249354"
+        },
+        {
+          "label": "Feature reference: Cubo Small — Blushed Earth photo; US family offer",
+          "url": "https://us.lojel.com/product/cubo-small/"
+        },
+        {
+          "label": "Feature reference: Capsule Carry On Pro — Dune",
+          "url": "https://july.com/us/luggage/capsule-carry-on-pro/"
+        }
+      ],
+      "sourceIds": [
+        "target-92443469",
+        "target-87249354",
+        "travel-lojel-cubo-small",
+        "travel-july-capsule"
+      ],
+      "evidenceBasis": "Official selected Target and travel-brand sources retrieved 3 November 2026; proposed benefit and review order are merchant judgments, not demand or gap evidence.",
+      "brandFit": "Open Story travel-platform fit; differentiation requires validation",
+      "comparisonIds": [
+        "TRAVEL-LOJEL-CUBO-SMALL",
+        "TRAVEL-JULY-CAPSULE"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-92443469",
+        "TARGET-OPENSTORY-87249354"
+      ],
+      "alreadyOffered": "Open Story already sells a front laptop-pocket case and a Signature carry-on. A front pocket alone would repeat the existing range.",
+      "potentialEnhancement": "Develop a cabin case whose main packing bay is accessible upright or on a narrow luggage stand, with a stable lid, serviceable hinges or zips, and an optional removable liner."
+    },
+    {
+      "id": "serviceable-rolling-platform",
+      "title": "Luggage designed for wheel and handle servicing",
+      "platform": "Luggage ownership & service",
+      "priority": "Prioritize for review",
+      "priorityBasis": "Repair access affects the shell, mounting hardware and after-sales programme; official repair references make a concrete engineering brief possible.",
+      "travelerJob": "Keep a regularly used case rolling after a damaged wheel or handle rather than lose the whole case during a trip.",
+      "benchmarkTcins": [
+        "87249354",
+        "86391372"
+      ],
+      "targetBaseline": "Open Story already has spinner and named quiet-wheel offerings. The existing warranty is not evidence that a stocked, user-serviceable parts system is offered or absent.",
+      "featureToAdapt": "Use accessible part mounts and explicit repair instructions; separately evaluate brakes for stationary handling.",
+      "whyFit": "The product, spare parts and service process form a durable luggage platform with a measurable ownership benefit.",
+      "concept": "Prototype replaceable wheel pods and an accessible trolley assembly. Design a spare-parts catalogue, clear fitting instructions and a tested service path alongside the case.",
+      "priceArchitecture": "Target Signature carry-on $160; trunk $178.50 clearance / $210 regular; Away Carry-On 3 $328. Bellroy’s retrieved page did not expose a USD price. Cost parts inventory and service separately before defining any upgraded Target tier.",
+      "validation": [
+        "Confirm existing Open Story service provisions and parts availability before writing a differentiation claim.",
+        "Time wheel and handle replacement by ordinary users; test incorrect assembly, fastener retention and post-repair rolling.",
+        "Cost spare-parts availability, warranty administration, freight and repair support, not just factory unit cost."
+      ],
+      "scale": "Major product platform",
+      "status": "Product-platform hypothesis — Target gap not established",
+      "fit": "Open Story travel-platform fit; differentiation requires validation",
+      "competitorIds": [
+        "TRAVEL-BELLROY-TRANSIT-CARRY",
+        "TRAVEL-AWAY-CARRY-ON-3"
+      ],
+      "comparisons": [
+        {
+          "id": "TRAVEL-BELLROY-TRANSIT-CARRY",
+          "title": "Transit Carry-On — Black",
+          "retailer": "Bellroy US official",
+          "url": "https://bellroy.com/products/transit-carry-on",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Bellroy describes owner-replaceable luggage components and provides Fix-it kit instructions.",
+          "limitation": "Exact price was not recoverable from the retrieved product page. Repair eligibility, kit contents and component availability need a current policy check; a warranty is not proof of repair speed or lifetime durability."
+        },
+        {
+          "id": "TRAVEL-AWAY-CARRY-ON-3",
+          "title": "The Carry-On 3 — Electric Iris",
+          "retailer": "Away US official",
+          "url": "https://www.awaytravel.com/products/carry-on-3-electric-iris",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Rear-wheel brakes and a height-adjustable trolley handle.",
+          "limitation": "Quiet rolling is a brand claim, not measured here. Tracker is not included. Size and loaded expansion must be checked against the relevant carrier; no universal cabin fit is asserted."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Target baseline: Signature Hardside Carry-On Suitcase — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-87249354"
+        },
+        {
+          "label": "Target baseline: Signature Hardside Trunk Large Checked Suitcase — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-86391372"
+        },
+        {
+          "label": "Feature reference: Transit Carry-On — Black",
+          "url": "https://bellroy.com/products/transit-carry-on"
+        },
+        {
+          "label": "Feature reference: The Carry-On 3 — Electric Iris",
+          "url": "https://www.awaytravel.com/products/carry-on-3-electric-iris"
+        },
+        {
+          "label": "Bellroy repair instructions",
+          "url": "https://bellroy.com/replacement"
+        }
+      ],
+      "sourceIds": [
+        "target-87249354",
+        "target-86391372",
+        "travel-bellroy-transit-carry",
+        "travel-away-carry-on-3"
+      ],
+      "evidenceBasis": "Official selected Target and travel-brand sources retrieved 3 November 2026; proposed benefit and review order are merchant judgments, not demand or gap evidence.",
+      "brandFit": "Open Story travel-platform fit; differentiation requires validation",
+      "comparisonIds": [
+        "TRAVEL-BELLROY-TRANSIT-CARRY",
+        "TRAVEL-AWAY-CARRY-ON-3"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-87249354",
+        "TARGET-OPENSTORY-86391372"
+      ],
+      "alreadyOffered": "Open Story already has spinner and named quiet-wheel offerings. The existing warranty is not evidence that a stocked, user-serviceable parts system is offered or absent.",
+      "potentialEnhancement": "Prototype replaceable wheel pods and an accessible trolley assembly. Design a spare-parts catalogue, clear fitting instructions and a tested service path alongside the case."
+    },
+    {
+      "id": "lightweight-cabin-platform",
+      "title": "Lower-weight cabin luggage without losing usability",
+      "platform": "Carry-on luggage",
+      "priority": "Prioritize for review",
+      "priorityBasis": "Empty weight provides a measurable engineering target, but capacity and durability must be held constant before the concept earns a claim.",
+      "travelerJob": "Lift a packed bag into storage and carry useful belongings within a route-specific baggage weight allowance.",
+      "benchmarkTcins": [
+        "87249354"
+      ],
+      "targetBaseline": "Target Signature specifications list 7.71 lb. Its removable compression pad and handling features are part of the baseline to retain or consciously trade off.",
+      "featureToAdapt": "Contrast a stripped-weight shell and hardware approach with a more complex compression/expansion architecture.",
+      "whyFit": "A clear light-versus-feature-rich choice can guide a whole cabin-luggage tier, subject to real performance testing.",
+      "concept": "Develop a lighter cabin chassis and compare two interiors: simple open packing and a removable organizer version. Select the configuration on measured volume, handling and damage resistance.",
+      "priceArchitecture": "US observed references: Target Signature $160; July Carry On Light $255; Briggs & Riley Essential $695. These differ in size, mechanism, service and brand proposition; no like-for-like price advantage or Target retail is inferred.",
+      "validation": [
+        "Weigh production-representative samples including wheels, handles and all included inserts; measure usable internal volume.",
+        "Run repeated drop, tumble, curb and loaded rolling tests against the same-size existing case.",
+        "Measure lift comfort and check current route-specific cabin limits; publish exact outer dimensions, including expanded depth."
+      ],
+      "scale": "Major product platform",
+      "status": "Product-platform hypothesis — Target gap not established",
+      "fit": "Open Story travel-platform fit; differentiation requires validation",
+      "competitorIds": [
+        "TRAVEL-JULY-LIGHT",
+        "TRAVEL-BRIGGS-SYMPATICO"
+      ],
+      "comparisons": [
+        {
+          "id": "TRAVEL-JULY-LIGHT",
+          "title": "Carry On Light — Sand",
+          "retailer": "July US official",
+          "url": "https://july.com/us/luggage/carry-on-light/",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Brand states an empty weight of 3.9 lb.",
+          "limitation": "Weight is a brand specification. Internal volume, wheel/handle inclusion and performance must be normalized before comparing with another case. Lower empty weight does not prove greater usable payload or durability."
+        },
+        {
+          "id": "TRAVEL-BRIGGS-SYMPATICO",
+          "title": "Sympatico Essential 22-inch Expandable Carry-On — Navy",
+          "retailer": "Briggs & Riley US official",
+          "url": "https://www.briggs-riley.com/products/essential-carry-on-expandable-spinner?variant=41544563130410",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Asymmetric 70/30 opening changes how packing space is accessed.",
+          "limitation": "Premium feature benchmark, not a proposed Target retail. Expanded depth can exceed carrier limits. Capacity and ease-of-use claims require comparison at the same packed size."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Target baseline: Signature Hardside Carry-On Suitcase — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-87249354"
+        },
+        {
+          "label": "Feature reference: Carry On Light — Sand",
+          "url": "https://july.com/us/luggage/carry-on-light/"
+        },
+        {
+          "label": "Feature reference: Sympatico Essential 22-inch Expandable Carry-On — Navy",
+          "url": "https://www.briggs-riley.com/products/essential-carry-on-expandable-spinner?variant=41544563130410"
+        }
+      ],
+      "sourceIds": [
+        "target-87249354",
+        "travel-july-light",
+        "travel-briggs-sympatico"
+      ],
+      "evidenceBasis": "Official selected Target and travel-brand sources retrieved 3 November 2026; proposed benefit and review order are merchant judgments, not demand or gap evidence.",
+      "brandFit": "Open Story travel-platform fit; differentiation requires validation",
+      "comparisonIds": [
+        "TRAVEL-JULY-LIGHT",
+        "TRAVEL-BRIGGS-SYMPATICO"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-87249354"
+      ],
+      "alreadyOffered": "Target Signature specifications list 7.71 lb. Its removable compression pad and handling features are part of the baseline to retain or consciously trade off.",
+      "potentialEnhancement": "Develop a lighter cabin chassis and compare two interiors: simple open packing and a removable organizer version. Select the configuration on measured volume, handling and damage resistance."
+    },
+    {
+      "id": "work-to-trip-backpack-platform",
+      "title": "A backpack that moves from workday to short trip",
+      "platform": "Backpacks",
+      "priority": "Prioritize for review",
+      "priorityBasis": "Open Story has an established backpack baseline; the opportunity is a defined workflow across work gear and clothing, with direct organizational references.",
+      "travelerJob": "Carry a laptop and daily essentials, then pack a short trip without losing quick access or carrying comfort.",
+      "benchmarkTcins": [
+        "86391380",
+        "88563245"
+      ],
+      "targetBaseline": "Open Story already offers a 35 L travel backpack and an adaptive commuter with laptop storage and travel attachment features.",
+      "featureToAdapt": "Separate a work-access zone from the clothing volume and test the harness in more than one size.",
+      "whyFit": "This is a backpack range brief: layout, fit, materials and carrying system can be designed together.",
+      "concept": "Develop compact and travel-capacity versions sharing an accessible tech compartment, stable bottle storage and removable clothing organization. Test access while the bag is on a luggage handle.",
+      "priceArchitecture": "Target Gray 35 L $42.50 clearance / $50 regular; adaptive commuter $50. Bellroy Pro 22 L / 28 L provides feature references but no verified USD offer in this retrieval. Do not compare those sizes as one price tier.",
+      "validation": [
+        "Test representative laptop dimensions, charger access, spill separation and full clothing loads.",
+        "Fit-test shoulder pressure, back panel and sternum position with different bodies and seated users.",
+        "Audit overlaps with existing Target commuters, then cost distinct size and material tiers before selecting a retail."
+      ],
+      "scale": "Major product platform",
+      "status": "Product-platform hypothesis — Target gap not established",
+      "fit": "Open Story travel-platform fit; differentiation requires validation",
+      "competitorIds": [
+        "TRAVEL-BELLROY-WORKPACK"
+      ],
+      "comparisons": [
+        {
+          "id": "TRAVEL-BELLROY-WORKPACK",
+          "title": "Transit Workpack Pro — Black; 22 L / 28 L family",
+          "retailer": "Bellroy US official",
+          "url": "https://bellroy.com/products/transit-workpack-pro",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Separate laptop and tech storage, quick-access pockets and a luggage pass-through.",
+          "limitation": "Official family photo is Black; exact size/price of the photo variant was not established. Do not merge the two sizes or use this as a like-for-like price comparison with a 35 L bag."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Target baseline: 35L Travel Backpack — Open Story, Gray",
+          "url": "https://www.target.com/p/-/A-86391380"
+        },
+        {
+          "label": "Target baseline: Signature 16-inch Commuter Adaptive Backpack — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-88563245"
+        },
+        {
+          "label": "Feature reference: Transit Workpack Pro — Black; 22 L / 28 L family",
+          "url": "https://bellroy.com/products/transit-workpack-pro"
+        }
+      ],
+      "sourceIds": [
+        "target-86391380",
+        "target-88563245",
+        "travel-bellroy-workpack"
+      ],
+      "evidenceBasis": "Official selected Target and travel-brand sources retrieved 3 November 2026; proposed benefit and review order are merchant judgments, not demand or gap evidence.",
+      "brandFit": "Open Story travel-platform fit; differentiation requires validation",
+      "comparisonIds": [
+        "TRAVEL-BELLROY-WORKPACK"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-86391380",
+        "TARGET-OPENSTORY-88563245"
+      ],
+      "alreadyOffered": "Open Story already offers a 35 L travel backpack and an adaptive commuter with laptop storage and travel attachment features.",
+      "potentialEnhancement": "Develop compact and travel-capacity versions sharing an accessible tech compartment, stable bottle storage and removable clothing organization. Test access while the bag is on a luggage handle."
+    },
+    {
+      "id": "measured-personal-item-platform",
+      "title": "Compact personal-item bags with a measured fit brief",
+      "platform": "Personal-item bags",
+      "priority": "Develop next",
+      "priorityBasis": "A smaller travel system is a meaningful format decision; source dimension inconsistencies make physical fit validation essential.",
+      "travelerJob": "Keep one small bag accessible under a seat and move it easily with rolling luggage.",
+      "benchmarkTcins": [
+        "86391380",
+        "88563245"
+      ],
+      "targetBaseline": "The 35 L Target travel backpack is 19.25 × 13 × 8.25 in; the adaptive commuter is smaller. Neither the title nor capacity guarantees a particular underseat fit.",
+      "featureToAdapt": "Study a soft tote’s low weight and direct access alongside a mini weekender’s structured opening and separate bottom area.",
+      "whyFit": "A fit-defined compact format is a separate traveler job, not simply a smaller colorway of a large backpack.",
+      "concept": "Design a compact tote/backpack pair around named carrier measurements and a realistic packed envelope, with restrained expansion and externally reachable essentials.",
+      "priceArchitecture": "Target backpack references $42.50 clearance / $50 regular and $50; Travelpro tote $78 sale / $90 regular; BÉIS Mini $108. Capacity, shape and carrying methods differ; establish the fit job before positioning a price.",
+      "validation": [
+        "Choose target carriers and routes, verify current published allowances, then test fully packed bags in representative sizers and seat spaces.",
+        "Resolve Travelpro’s 16-versus-18-inch width discrepancy before using it as a dimensional target.",
+        "Measure comfort, tipping, foot space and access; avoid universal airline-compliance language."
+      ],
+      "scale": "Major product platform",
+      "status": "Product-platform hypothesis — Target gap not established",
+      "fit": "Open Story travel-platform fit; differentiation requires validation",
+      "competitorIds": [
+        "TRAVEL-TRAVELPRO-SOFT-TOTE",
+        "TRAVEL-BEIS-MINI-WEEKENDER"
+      ],
+      "comparisons": [
+        {
+          "id": "TRAVEL-TRAVELPRO-SOFT-TOTE",
+          "title": "Maxlite 5 Soft Tote — Black",
+          "retailer": "Travelpro US official",
+          "url": "https://travelpro.com/products/maxlite%C2%AE-5-soft-tote?variant=19641784762466",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Compact soft bag with quick-access front storage and a suitcase-handle strap.",
+          "limitation": "Visible specifications give 11 × 16 × 8 in, while embedded page data also lists an 18-inch overall width. Resolve dimensions on a sample before an airline-fit claim; underseat acceptance is not universal."
+        },
+        {
+          "id": "TRAVEL-BEIS-MINI-WEEKENDER",
+          "title": "The Mini Weekender — Black",
+          "retailer": "BÉIS US official",
+          "url": "https://beistravel.com/products/the-mini-weekender-in-black",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Wide opening, separate bottom storage and a padded laptop section.",
+          "limitation": "This is the current Mini Weekender, not the older Convertible Mini. A removable bottom is not established. Dimensions do not establish a fit for every underseat space."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Target baseline: 35L Travel Backpack — Open Story, Gray",
+          "url": "https://www.target.com/p/-/A-86391380"
+        },
+        {
+          "label": "Target baseline: Signature 16-inch Commuter Adaptive Backpack — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-88563245"
+        },
+        {
+          "label": "Feature reference: Maxlite 5 Soft Tote — Black",
+          "url": "https://travelpro.com/products/maxlite%C2%AE-5-soft-tote?variant=19641784762466"
+        },
+        {
+          "label": "Feature reference: The Mini Weekender — Black",
+          "url": "https://beistravel.com/products/the-mini-weekender-in-black"
+        }
+      ],
+      "sourceIds": [
+        "target-86391380",
+        "target-88563245",
+        "travel-travelpro-soft-tote",
+        "travel-beis-mini-weekender"
+      ],
+      "evidenceBasis": "Official selected Target and travel-brand sources retrieved 3 November 2026; proposed benefit and review order are merchant judgments, not demand or gap evidence.",
+      "brandFit": "Open Story travel-platform fit; differentiation requires validation",
+      "comparisonIds": [
+        "TRAVEL-TRAVELPRO-SOFT-TOTE",
+        "TRAVEL-BEIS-MINI-WEEKENDER"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-86391380",
+        "TARGET-OPENSTORY-88563245"
+      ],
+      "alreadyOffered": "The 35 L Target travel backpack is 19.25 × 13 × 8.25 in; the adaptive commuter is smaller. Neither the title nor capacity guarantees a particular underseat fit.",
+      "potentialEnhancement": "Design a compact tote/backpack pair around named carrier measurements and a realistic packed envelope, with restrained expansion and externally reachable essentials."
+    },
+    {
+      "id": "organized-checked-platform",
+      "title": "Checked luggage organized for long trips and shared packing",
+      "platform": "Checked luggage",
+      "priority": "Develop next",
+      "priorityBasis": "Checked formats support larger construction and organization decisions, with existing Target shells and a concrete removable-module reference.",
+      "travelerJob": "Pack several days or more than one traveler, then retrieve one person’s belongings without unpacking the entire case.",
+      "benchmarkTcins": [
+        "87249356",
+        "86391372"
+      ],
+      "targetBaseline": "Open Story already has large checked and trunk forms with compression pads. A new large shell alone is not a demonstrated gap.",
+      "featureToAdapt": "Use removable packing modules and compare asymmetric opening to conventional halves; the Briggs carry-on is an access-mechanism reference, not a checked-size benchmark.",
+      "whyFit": "A coherent checked-luggage platform combines shell proportions, stability, lifting and interior organization.",
+      "concept": "Prototype long-trip and shared-packing layouts using identifiable removable modules, balanced wheel loading and accessible lifting points. Keep expansion visibly distinct from normal packing capacity.",
+      "priceArchitecture": "Target large checked $210 and trunk $178.50 clearance / $210 regular; Travelpro medium checked $365. They differ in size and construction. Briggs $695 is only a premium mechanism reference, not a checked-luggage price comparison.",
+      "validation": [
+        "Audit existing inserts; compare unload/repack time and organization retention during a multi-stop trip.",
+        "Test lifting from car boots, wheel stability, loaded handle loads and packed weight distribution.",
+        "Measure outer dimensions with wheels and handles; validate airline limits and module cost without assuming a sales uplift."
+      ],
+      "scale": "Major product platform",
+      "status": "Product-platform hypothesis — Target gap not established",
+      "fit": "Open Story travel-platform fit; differentiation requires validation",
+      "competitorIds": [
+        "TRAVEL-WORK-TRIP-CHECKIN",
+        "TRAVEL-BRIGGS-SYMPATICO"
+      ],
+      "comparisons": [
+        {
+          "id": "TRAVEL-WORK-TRIP-CHECKIN",
+          "title": "VersaPack+ Medium Check-In Spinner — Estate Blue",
+          "retailer": "Travelpro US official",
+          "url": "https://travelpro.com/collections/shop-all-luggage/products/versapack%C2%AE-medium-check-in-expandable-softside-spinner?variant=41197973602402",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Two removable packing cubes, a laundry bag and a separate water-resistant pocket.",
+          "limitation": "This is medium checked luggage, not directly equal to the Target large checked case. Organizer usefulness, stability when expanded and moisture separation require physical testing."
+        },
+        {
+          "id": "TRAVEL-BRIGGS-SYMPATICO",
+          "title": "Sympatico Essential 22-inch Expandable Carry-On — Navy",
+          "retailer": "Briggs & Riley US official",
+          "url": "https://www.briggs-riley.com/products/essential-carry-on-expandable-spinner?variant=41544563130410",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Asymmetric 70/30 opening changes how packing space is accessed.",
+          "limitation": "Premium feature benchmark, not a proposed Target retail. Expanded depth can exceed carrier limits. Capacity and ease-of-use claims require comparison at the same packed size."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Target baseline: Signature Hardside Large Checked Suitcase — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-87249356"
+        },
+        {
+          "label": "Target baseline: Signature Hardside Trunk Large Checked Suitcase — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-86391372"
+        },
+        {
+          "label": "Feature reference: VersaPack+ Medium Check-In Spinner — Estate Blue",
+          "url": "https://travelpro.com/collections/shop-all-luggage/products/versapack%C2%AE-medium-check-in-expandable-softside-spinner?variant=41197973602402"
+        },
+        {
+          "label": "Feature reference: Sympatico Essential 22-inch Expandable Carry-On — Navy",
+          "url": "https://www.briggs-riley.com/products/essential-carry-on-expandable-spinner?variant=41544563130410"
+        }
+      ],
+      "sourceIds": [
+        "target-87249356",
+        "target-86391372",
+        "travel-work-trip-checkin",
+        "travel-briggs-sympatico"
+      ],
+      "evidenceBasis": "Official selected Target and travel-brand sources retrieved 3 November 2026; proposed benefit and review order are merchant judgments, not demand or gap evidence.",
+      "brandFit": "Open Story travel-platform fit; differentiation requires validation",
+      "comparisonIds": [
+        "TRAVEL-WORK-TRIP-CHECKIN",
+        "TRAVEL-BRIGGS-SYMPATICO"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-87249356",
+        "TARGET-OPENSTORY-86391372"
+      ],
+      "alreadyOffered": "Open Story already has large checked and trunk forms with compression pads. A new large shell alone is not a demonstrated gap.",
+      "potentialEnhancement": "Prototype long-trip and shared-packing layouts using identifiable removable modules, balanced wheel loading and accessible lifting points. Keep expansion visibly distinct from normal packing capacity."
+    },
+    {
+      "id": "garment-weekender-platform",
+      "title": "Garment travel that also works as a weekender",
+      "platform": "Duffels & weekenders",
+      "priority": "Develop next",
+      "priorityBasis": "A direct Target garment baseline prevents a false gap claim and lets the work focus on garment handling and trip usability.",
+      "travelerJob": "Transport business or occasion clothes with ordinary trip gear and reach each without rebuilding the whole bag.",
+      "benchmarkTcins": [
+        "92172563",
+        "92172566"
+      ],
+      "targetBaseline": "Open Story already sells a garment duffel with shoe storage and a separate drop-bottom weekender.",
+      "featureToAdapt": "Study how the garment panel, hanger retention and shoe pockets interact as the bag changes shape.",
+      "whyFit": "The development brief spans the full bag structure, folding sequence and carrying experience.",
+      "concept": "Improve garment-to-duffel conversion, offer a defined garment length and hanger interface, and test a stable loaded shape with accessible shoes and small items.",
+      "priceArchitecture": "Target garment offer $37.50 clearance / $50 regular; drop-bottom weekender $50; Halfday 45 L $128. Different dimensions and garment layouts require sample comparison; a premium is not justified by format alone.",
+      "validation": [
+        "Compare wrinkling after a standardized packed journey using the same garments, folding and handling.",
+        "Test hanger retention, zipper strain, shoe intrusion into garment space and loading order.",
+        "Measure full-bag carrying comfort and actual exterior size; validate consumer preference before choosing an upgraded tier."
+      ],
+      "scale": "Major product platform",
+      "status": "Product-platform hypothesis — Target gap not established",
+      "fit": "Open Story travel-platform fit; differentiation requires validation",
+      "competitorIds": [
+        "TRAVEL-HALFDAY-DUFFEL"
+      ],
+      "comparisons": [
+        {
+          "id": "TRAVEL-HALFDAY-DUFFEL",
+          "title": "The Garment Duffel 45L — Shadow",
+          "retailer": "Halfday US official",
+          "url": "https://halfdaytravel.com/products/garment-duffel?variant=48014018805953",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "A garment compartment folds into a duffel with shoe pockets.",
+          "limitation": "Wrinkle reduction is not independently established here. Product and apparel sizes vary; compare actual garments, packing method and loaded-carry comfort."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Target baseline: Garment Duffel Bag — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-92172563"
+        },
+        {
+          "label": "Target baseline: Weekender Bag with Drop-Bottom — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-92172566"
+        },
+        {
+          "label": "Feature reference: The Garment Duffel 45L — Shadow",
+          "url": "https://halfdaytravel.com/products/garment-duffel?variant=48014018805953"
+        }
+      ],
+      "sourceIds": [
+        "target-92172563",
+        "target-92172566",
+        "travel-halfday-duffel"
+      ],
+      "evidenceBasis": "Official selected Target and travel-brand sources retrieved 3 November 2026; proposed benefit and review order are merchant judgments, not demand or gap evidence.",
+      "brandFit": "Open Story travel-platform fit; differentiation requires validation",
+      "comparisonIds": [
+        "TRAVEL-HALFDAY-DUFFEL"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-92172563",
+        "TARGET-OPENSTORY-92172566"
+      ],
+      "alreadyOffered": "Open Story already sells a garment duffel with shoe storage and a separate drop-bottom weekender.",
+      "potentialEnhancement": "Improve garment-to-duffel conversion, offer a defined garment length and hanger interface, and test a stable loaded shape with accessible shoes and small items."
+    },
+    {
+      "id": "structured-weekender-platform",
+      "title": "Weekender access and carrying comfort as one system",
+      "platform": "Duffels & weekenders",
+      "priority": "Develop next",
+      "priorityBasis": "A weekender is already offered; a useful next step must outperform that baseline in access, load balance or comfort.",
+      "travelerJob": "Find a laptop, shoes or overnight essentials quickly while carrying one moderately packed bag through several transfers.",
+      "benchmarkTcins": [
+        "92172566"
+      ],
+      "targetBaseline": "Open Story already combines drop-bottom storage, a laptop pocket and multiple carrying options.",
+      "featureToAdapt": "Compare a wide, self-supporting opening with a lighter soft-tote construction and test how each behaves on a suitcase handle.",
+      "whyFit": "Shell structure, base design, handle drop and strap geometry define the whole bag experience.",
+      "concept": "Develop a stable-opening weekender with a weight-balanced base, a reachable laptop compartment and comfortable handles. Add a smaller companion only if the two sizes serve distinct packing jobs.",
+      "priceArchitecture": "Target $50; BÉIS Mini $108; Travelpro tote $78 sale / $90 regular. Size, laptop accommodation and structure differ. Cost the selected experience and construction before assigning Target tier or retail.",
+      "validation": [
+        "Time one-handed access and test tipping when partly empty, fully packed and stacked on a trolley.",
+        "Assess shoulder and hand pressure across representative loaded weights and handle heights.",
+        "Test bottom-compartment intrusion, lining cleanability and dimension compliance; do not assume the bottom detaches."
+      ],
+      "scale": "Major product platform",
+      "status": "Product-platform hypothesis — Target gap not established",
+      "fit": "Open Story travel-platform fit; differentiation requires validation",
+      "competitorIds": [
+        "TRAVEL-BEIS-MINI-WEEKENDER",
+        "TRAVEL-TRAVELPRO-SOFT-TOTE"
+      ],
+      "comparisons": [
+        {
+          "id": "TRAVEL-BEIS-MINI-WEEKENDER",
+          "title": "The Mini Weekender — Black",
+          "retailer": "BÉIS US official",
+          "url": "https://beistravel.com/products/the-mini-weekender-in-black",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Wide opening, separate bottom storage and a padded laptop section.",
+          "limitation": "This is the current Mini Weekender, not the older Convertible Mini. A removable bottom is not established. Dimensions do not establish a fit for every underseat space."
+        },
+        {
+          "id": "TRAVEL-TRAVELPRO-SOFT-TOTE",
+          "title": "Maxlite 5 Soft Tote — Black",
+          "retailer": "Travelpro US official",
+          "url": "https://travelpro.com/products/maxlite%C2%AE-5-soft-tote?variant=19641784762466",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Compact soft bag with quick-access front storage and a suitcase-handle strap.",
+          "limitation": "Visible specifications give 11 × 16 × 8 in, while embedded page data also lists an 18-inch overall width. Resolve dimensions on a sample before an airline-fit claim; underseat acceptance is not universal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Target baseline: Weekender Bag with Drop-Bottom — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-92172566"
+        },
+        {
+          "label": "Feature reference: The Mini Weekender — Black",
+          "url": "https://beistravel.com/products/the-mini-weekender-in-black"
+        },
+        {
+          "label": "Feature reference: Maxlite 5 Soft Tote — Black",
+          "url": "https://travelpro.com/products/maxlite%C2%AE-5-soft-tote?variant=19641784762466"
+        }
+      ],
+      "sourceIds": [
+        "target-92172566",
+        "travel-beis-mini-weekender",
+        "travel-travelpro-soft-tote"
+      ],
+      "evidenceBasis": "Official selected Target and travel-brand sources retrieved 3 November 2026; proposed benefit and review order are merchant judgments, not demand or gap evidence.",
+      "brandFit": "Open Story travel-platform fit; differentiation requires validation",
+      "comparisonIds": [
+        "TRAVEL-BEIS-MINI-WEEKENDER",
+        "TRAVEL-TRAVELPRO-SOFT-TOTE"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-92172566"
+      ],
+      "alreadyOffered": "Open Story already combines drop-bottom storage, a laptop pocket and multiple carrying options.",
+      "potentialEnhancement": "Develop a stable-opening weekender with a weight-balanced base, a reachable laptop compartment and comfortable handles. Add a smaller companion only if the two sizes serve distinct packing jobs."
+    },
+    {
+      "id": "modular-family-travel-system",
+      "title": "A coordinated packing system across carry-on and checked bags",
+      "platform": "Packing systems",
+      "priority": "Validate before tooling",
+      "priorityBasis": "This can become a larger product family, but compatibility and actual use must be proved before multiplying SKUs.",
+      "travelerJob": "Move each traveler’s organized belongings between bags and accommodation without repacking every loose item.",
+      "benchmarkTcins": [
+        "92150659",
+        "87249354",
+        "87249356"
+      ],
+      "targetBaseline": "Open Story already sells seven-piece packing cubes and luggage with removable compression pads.",
+      "featureToAdapt": "Use removable modules as a dimensional system; coordinated appearance is a supporting choice, not the functional benefit.",
+      "whyFit": "A compatible cabin/check-in/packing range is a broader platform with cross-product engineering and assortment choices.",
+      "concept": "Define a small set of module dimensions that fit the current luggage interiors, use visible identification and make replacement modules available individually. Test family sharing and accommodation unloading.",
+      "priceArchitecture": "Target cubes $35, carry-on $160 and large checked $210 are separate observed offers. Travelpro $365 includes modules; CALPAK carry-on $215 is a coordinated-family reference. Do not infer a bundle price or savings from these unlike offers.",
+      "validation": [
+        "Map usable interior dimensions and wheel/handle intrusions; prove module fit in both cabin and checked formats.",
+        "Test repeated switching, label readability, compression interaction and washing instructions.",
+        "Validate which modules consumers use, then cost replenishment and individual replacements before committing to a multi-SKU set."
+      ],
+      "scale": "Major product platform",
+      "status": "Product-platform hypothesis — Target gap not established",
+      "fit": "Open Story travel-platform fit; differentiation requires validation",
+      "competitorIds": [
+        "TRAVEL-WORK-TRIP-CHECKIN",
+        "TRAVEL-CALPAK-HUE"
+      ],
+      "comparisons": [
+        {
+          "id": "TRAVEL-WORK-TRIP-CHECKIN",
+          "title": "VersaPack+ Medium Check-In Spinner — Estate Blue",
+          "retailer": "Travelpro US official",
+          "url": "https://travelpro.com/collections/shop-all-luggage/products/versapack%C2%AE-medium-check-in-expandable-softside-spinner?variant=41197973602402",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Two removable packing cubes, a laundry bag and a separate water-resistant pocket.",
+          "limitation": "This is medium checked luggage, not directly equal to the Target large checked case. Organizer usefulness, stability when expanded and moisture separation require physical testing."
+        },
+        {
+          "id": "TRAVEL-CALPAK-HUE",
+          "title": "Hue Carry-On Luggage — Glazed Black",
+          "retailer": "CALPAK US official",
+          "url": "https://www.calpaktravel.com/products/hue-carry-on-luggage/glazed-black",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Expandable carry-on within a coordinated travel family.",
+          "limitation": "Coordination of color and formats does not prove attachment compatibility or consumer demand. Evaluate nesting, handling and total system cost before proposing a matched set."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Target baseline: 7pc Packing Cube Set with Compression — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-92150659"
+        },
+        {
+          "label": "Target baseline: Signature Hardside Carry-On Suitcase — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-87249354"
+        },
+        {
+          "label": "Target baseline: Signature Hardside Large Checked Suitcase — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-87249356"
+        },
+        {
+          "label": "Feature reference: VersaPack+ Medium Check-In Spinner — Estate Blue",
+          "url": "https://travelpro.com/collections/shop-all-luggage/products/versapack%C2%AE-medium-check-in-expandable-softside-spinner?variant=41197973602402"
+        },
+        {
+          "label": "Feature reference: Hue Carry-On Luggage — Glazed Black",
+          "url": "https://www.calpaktravel.com/products/hue-carry-on-luggage/glazed-black"
+        }
+      ],
+      "sourceIds": [
+        "target-92150659",
+        "target-87249354",
+        "target-87249356",
+        "travel-work-trip-checkin",
+        "travel-calpak-hue"
+      ],
+      "evidenceBasis": "Official selected Target and travel-brand sources retrieved 3 November 2026; proposed benefit and review order are merchant judgments, not demand or gap evidence.",
+      "brandFit": "Open Story travel-platform fit; differentiation requires validation",
+      "comparisonIds": [
+        "TRAVEL-WORK-TRIP-CHECKIN",
+        "TRAVEL-CALPAK-HUE"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-92150659",
+        "TARGET-OPENSTORY-87249354",
+        "TARGET-OPENSTORY-87249356"
+      ],
+      "alreadyOffered": "Open Story already sells seven-piece packing cubes and luggage with removable compression pads.",
+      "potentialEnhancement": "Define a small set of module dimensions that fit the current luggage interiors, use visible identification and make replacement modules available individually. Test family sharing and accommodation unloading."
+    },
+    {
+      "id": "durable-gear-duffel-platform",
+      "title": "A gear duffel built for carrying loads, not just overflow",
+      "platform": "Duffels & weekenders",
+      "priority": "Validate before tooling",
+      "priorityBasis": "It is a distinct use case from Target’s large packable duffel, but material and harness costs need a clear consumer brief.",
+      "travelerJob": "Carry a dense load through stations, cars and outdoor stays while keeping packing and handling manageable.",
+      "benchmarkTcins": [
+        "92172564"
+      ],
+      "targetBaseline": "Open Story already offers a very light 100 L packable duffel. A tougher, smaller carrying system would trade off that packability and price proposition.",
+      "featureToAdapt": "Study load-bearing straps, protected wear areas and optional backpack carry for a medium gear format.",
+      "whyFit": "The concept changes materials, reinforcement, harness and capacity together rather than adding a pouch.",
+      "concept": "Explore a medium-volume gear duffel with replaceable carrying straps, reinforced load paths and serviceable zipper pulls. Define weather resistance only to the level supported by testing.",
+      "priceArchitecture": "Target packable 100 L $30; Patagonia Black Hole 55 L $179. These serve different loads and constructions. The comparison is a product-platform reference, not a normalized price gap.",
+      "validation": [
+        "Research whether the shopper needs packable overflow or a primary gear hauler before selecting size and materials.",
+        "Test strap anchoring, seam failure, base abrasion, repeated loading and carrying transitions.",
+        "Validate water-resistance claims and drying; cost reinforcement and harness separately from the basic bag body."
+      ],
+      "scale": "Major product platform",
+      "status": "Product-platform hypothesis — Target gap not established",
+      "fit": "Open Story travel-platform fit; differentiation requires validation",
+      "competitorIds": [
+        "TRAVEL-PATAGONIA-55"
+      ],
+      "comparisons": [
+        {
+          "id": "TRAVEL-PATAGONIA-55",
+          "title": "Black Hole Duffel 55L — Cinder Brown",
+          "retailer": "Patagonia US official",
+          "url": "https://www.patagonia.com/product/black-hole-duffel-bag-55-liters/49343.html?dwvar_49343_color=CIBN",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Structured gear-hauling duffel with removable backpack straps.",
+          "limitation": "Different capacity and construction from a 100 L packable tote. Durability, weather resistance and environmental claims were not independently tested; this is not a price-per-liter value ranking."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Target baseline: Packable 100L Duffel Bag — Open Story, Gray",
+          "url": "https://www.target.com/p/-/A-92172564"
+        },
+        {
+          "label": "Feature reference: Black Hole Duffel 55L — Cinder Brown",
+          "url": "https://www.patagonia.com/product/black-hole-duffel-bag-55-liters/49343.html?dwvar_49343_color=CIBN"
+        }
+      ],
+      "sourceIds": [
+        "target-92172564",
+        "travel-patagonia-55"
+      ],
+      "evidenceBasis": "Official selected Target and travel-brand sources retrieved 3 November 2026; proposed benefit and review order are merchant judgments, not demand or gap evidence.",
+      "brandFit": "Open Story travel-platform fit; differentiation requires validation",
+      "comparisonIds": [
+        "TRAVEL-PATAGONIA-55"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-92172564"
+      ],
+      "alreadyOffered": "Open Story already offers a very light 100 L packable duffel. A tougher, smaller carrying system would trade off that packability and price proposition.",
+      "potentialEnhancement": "Explore a medium-volume gear duffel with replaceable carrying straps, reinforced load paths and serviceable zipper pulls. Define weather resistance only to the level supported by testing."
+    },
+    {
+      "id": "inclusive-travel-handling-platform",
+      "title": "Travel hardware designed with a wider range of users",
+      "platform": "Inclusive travel handling",
+      "priority": "Validate before tooling",
+      "priorityBasis": "There are concrete controls and attachment references, but benefit must be co-designed and tested with intended users rather than inferred from a feature label.",
+      "travelerJob": "Park, open, lift or attach luggage with less reach, grip force or awkward repositioning.",
+      "benchmarkTcins": [
+        "88563245",
+        "86391372"
+      ],
+      "targetBaseline": "Open Story already has a chair-mount adaptive backpack and a trunk with named quiet wheels. Inclusive design is an improvement brief, not an absent category.",
+      "featureToAdapt": "Study reachable brake controls, more usable handle settings and closure cues across a coordinated luggage/backpack system.",
+      "whyFit": "Inclusive handling can shape a shared hardware platform spanning bags and cases.",
+      "concept": "Co-design larger grasp points, low-force controls and accessible attachment positions. Select mechanisms only after seated and standing users can operate them safely with realistic loads.",
+      "priceArchitecture": "Target adaptive backpack $50 and trunk $178.50 clearance / $210 regular; Away $328 and July Capsule $395 are different luggage references. MUJI Off White 75 L shows $209.99 final sale but sold out. None is a proposed Target retail.",
+      "validation": [
+        "Recruit intended users with different heights, grip strength and mobility equipment; define success by the specific task.",
+        "Measure operating force, reach, brake holding, accidental release and pinch risks under loaded conditions.",
+        "Confirm chair/handle compatibility and documentation; avoid universal accessibility or medical benefit claims."
+      ],
+      "scale": "Major product platform",
+      "status": "Product-platform hypothesis — Target gap not established",
+      "fit": "Open Story travel-platform fit; differentiation requires validation",
+      "competitorIds": [
+        "TRAVEL-MUJI-75",
+        "TRAVEL-AWAY-CARRY-ON-3",
+        "TRAVEL-JULY-CAPSULE"
+      ],
+      "comparisons": [
+        {
+          "id": "TRAVEL-MUJI-75",
+          "title": "Adjustable Handle Hard Shell Suitcase 75L — Off White",
+          "retailer": "MUJI US official",
+          "url": "https://www.muji.us/products/adjustable-handle-hard-shell-suitcase-75l-check-in-eee46a5a?variant=45329538580670",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Push-button wheel locking and a handle adjustable in 1 cm increments.",
+          "limitation": "The retrieved Off White offer is marked sold out; other variants show different prices and stock. This is a handling reference, not an available purchase quote or carry-on example."
+        },
+        {
+          "id": "TRAVEL-AWAY-CARRY-ON-3",
+          "title": "The Carry-On 3 — Electric Iris",
+          "retailer": "Away US official",
+          "url": "https://www.awaytravel.com/products/carry-on-3-electric-iris",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Rear-wheel brakes and a height-adjustable trolley handle.",
+          "limitation": "Quiet rolling is a brand claim, not measured here. Tracker is not included. Size and loaded expansion must be checked against the relevant carrier; no universal cabin fit is asserted."
+        },
+        {
+          "id": "TRAVEL-JULY-CAPSULE",
+          "title": "Capsule Carry On Pro — Dune",
+          "retailer": "July US official",
+          "url": "https://july.com/us/luggage/capsule-carry-on-pro/",
+          "checkedAt": "2026-11-03",
+          "featureToLearn": "Top opening and a magnetically secured quick-access section.",
+          "limitation": "Tracking setup, network compatibility and wheel behavior require use testing. Tracking cannot guarantee recovery. This exact product includes a lock; it is not merely a generic tracker pocket."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Target baseline: Signature 16-inch Commuter Adaptive Backpack — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-88563245"
+        },
+        {
+          "label": "Target baseline: Signature Hardside Trunk Large Checked Suitcase — Open Story, Black",
+          "url": "https://www.target.com/p/-/A-86391372"
+        },
+        {
+          "label": "Feature reference: Adjustable Handle Hard Shell Suitcase 75L — Off White",
+          "url": "https://www.muji.us/products/adjustable-handle-hard-shell-suitcase-75l-check-in-eee46a5a?variant=45329538580670"
+        },
+        {
+          "label": "Feature reference: The Carry-On 3 — Electric Iris",
+          "url": "https://www.awaytravel.com/products/carry-on-3-electric-iris"
+        },
+        {
+          "label": "Feature reference: Capsule Carry On Pro — Dune",
+          "url": "https://july.com/us/luggage/capsule-carry-on-pro/"
+        }
+      ],
+      "sourceIds": [
+        "target-88563245",
+        "target-86391372",
+        "travel-muji-75",
+        "travel-away-carry-on-3",
+        "travel-july-capsule"
+      ],
+      "evidenceBasis": "Official selected Target and travel-brand sources retrieved 3 November 2026; proposed benefit and review order are merchant judgments, not demand or gap evidence.",
+      "brandFit": "Open Story travel-platform fit; differentiation requires validation",
+      "comparisonIds": [
+        "TRAVEL-MUJI-75",
+        "TRAVEL-AWAY-CARRY-ON-3",
+        "TRAVEL-JULY-CAPSULE"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-88563245",
+        "TARGET-OPENSTORY-86391372"
+      ],
+      "alreadyOffered": "Open Story already has a chair-mount adaptive backpack and a trunk with named quiet wheels. Inclusive design is an improvement brief, not an absent category.",
+      "potentialEnhancement": "Co-design larger grasp points, low-force controls and accessible attachment positions. Select mechanisms only after seated and standing users can operate them safely with realistic loads."
+    },
+    {
+      "id": "travel-fabric-care-pouch",
+      "title": "Travel fabric-care pouch",
+      "fit": "Strong accessory fit; chemistry requires separate review",
+      "status": "Potential enhancement — Target gap not established",
+      "competitorIds": [
+        "HC-c6ee13cb2027",
+        "HC-f67966085d93",
+        "HC-c2fe9922cf3e"
+      ],
+      "benchmarkTcins": [
+        "92172601"
+      ],
+      "targetBaseline": "Open Story already offers clear organizer pouches. This proposal gives one a specific fabric-care use.",
+      "featureToAdapt": "Pocket-size stain pens and individually carried wipes suggest a compact clothing-emergency kit.",
+      "whyFit": "Clothing care during business trips and short breaks is a plausible travel-accessory occasion. This is a merchant hypothesis, not evidence of unmet demand.",
+      "concept": "Test a slim pouch with a pen loop, separate wipe sleeve and removable washable liner. Evaluate an accessory-only offer first; any bundled formula needs its own brand and category review.",
+      "validation": [
+        "Check current Target travel and fabric-care assortments for an existing equivalent before claiming a gap.",
+        "Test whether travelers need this kit and can use it quickly; compare the added organization with a standard pouch.",
+        "Verify pen and wipe fit, closure durability, cleaning method and compatibility with any proposed stain-care product.",
+        "Confirm cost, pack contents, labeling and merchant ownership before choosing a price or brand extension."
+      ],
+      "comparisons": [
+        {
+          "id": "HC-c6ee13cb2027",
+          "title": "Tide To Go travel-size stain pens, 5 count",
+          "retailer": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0CGL1CNZK",
+          "checkedAt": "2026-10-27",
+          "featureToLearn": "Compact stain-pen format",
+          "limitation": "Saved catalogue listing; not reverified in this pass. No sales evidence collected."
+        },
+        {
+          "id": "HC-f67966085d93",
+          "title": "Tide To Go stain pen, 0.33 oz",
+          "retailer": "Ace Hardware",
+          "url": "https://www.acehardware.com/tide-to-go-no-scent-stain-pen-033-oz-liquid/p/1261452",
+          "checkedAt": "2026-10-27",
+          "featureToLearn": "Single-pen pack for an individual travel kit",
+          "limitation": "Saved pack wording; formula performance and fabric compatibility require testing."
+        },
+        {
+          "id": "HC-c2fe9922cf3e",
+          "title": "Shout Wipe & Go instant stain remover, 12 wipes",
+          "retailer": "Meijer",
+          "url": "https://www.meijer.com/shopping/product/shout-wipe-go-instant-stain-remover-12-wipes/4650002246",
+          "checkedAt": "2026-10-31",
+          "featureToLearn": "Wipe format as an alternative to a liquid pen",
+          "limitation": "Saved catalogue listing; no evidence here of demand, travel compliance or suitability for every fabric."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Open Story clear pouches already offered",
+          "url": "https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601"
+        },
+        {
+          "label": "Official Target brand positioning",
+          "url": "https://corporate.target.com/about/products-services/target-brands"
+        }
+      ],
+      "sourceIds": [
+        "target-brands",
+        "target-92172601"
+      ],
+      "brandFit": "Strong accessory fit; chemistry requires separate review",
+      "comparisonIds": [
+        "HC-c6ee13cb2027",
+        "HC-f67966085d93",
+        "HC-c2fe9922cf3e"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-92172601"
+      ],
+      "alreadyOffered": "Open Story already offers clear organizer pouches. This proposal gives one a specific fabric-care use.",
+      "potentialEnhancement": "Test a slim pouch with a pen loop, separate wipe sleeve and removable washable liner. Evaluate an accessory-only offer first; any bundled formula needs its own brand and category review.",
+      "evidenceBasis": "Official Target benchmarks plus saved competitor catalogue references; merchant hypothesis, not new competitor source verification",
+      "scale": "Accessory enhancement",
+      "priority": "Accessory follow-up",
+      "priorityBasis": "Keep as a focused extension after larger travel-platform needs and existing assortment overlap are validated.",
+      "platform": "Travel care accessories",
+      "travelerJob": "Deal with a small clothing-care incident while away from home.",
+      "priceArchitecture": "Target clear-pouch benchmark is a cached $12 pack snapshot. Stain pens and wipes vary in pack and chemistry; no bundled Target retail has been established."
+    },
+    {
+      "id": "clean-used-laundry-module",
+      "title": "Clean / used laundry module",
+      "fit": "Strong travel-organization fit",
+      "status": "Potential enhancement — Target gap not established",
+      "competitorIds": [
+        "HC-33cd8399cfb7",
+        "HC-44318cd6f1a6"
+      ],
+      "benchmarkTcins": [
+        "92150659",
+        "92172601"
+      ],
+      "targetBaseline": "Open Story already separates clothes, accessories and footwear with its packing set. General pouch organization is also established.",
+      "featureToAdapt": "A compact laundry bag and collapsible household basket provide ideas for separating used clothing and packing the organizer flat.",
+      "whyFit": "A defined clean-to-used clothing workflow extends the packing-cube use occasion. The household basket is a handling reference, not a travel price or size benchmark.",
+      "concept": "Prototype a compact module with clean/used labels, an easy-carry loop and removable liner. Evaluate dry laundry separation first; add damp-item containment only if construction and cleaning tests support it.",
+      "validation": [
+        "Check the full Open Story and Target laundry/travel assortment for existing clean/dirty or wet/dry products.",
+        "Test fit inside the existing packing system, packed volume, carrying comfort and repeated opening.",
+        "Validate laundering, drying and odor-transfer performance; test seams and closures before making damp-item claims.",
+        "Research the traveler’s preferred capacity and whether a removable liner adds value at an achievable cost."
+      ],
+      "comparisons": [
+        {
+          "id": "HC-33cd8399cfb7",
+          "title": "Fabric laundry bag with elastic strip, described for travel and home",
+          "retailer": "TikTok Shop",
+          "url": "https://shop.tiktok.com/us/pdp/durable-fabric-laundry-bag-with-elastic-strip-ideal-for-travel-home-use/1732193880230236743",
+          "checkedAt": "2026-10-27",
+          "featureToLearn": "Portable fabric bag and laundry-separation use occasion",
+          "limitation": "Saved seller description; washability, drying and moisture containment not independently verified."
+        },
+        {
+          "id": "HC-44318cd6f1a6",
+          "title": "Laundry Turtle collapsible laundry basket",
+          "retailer": "TikTok Shop",
+          "url": "https://shop.tiktok.com/us/pdp/collapsible-laundry-basket-by-laundry-turtle-21-portable-hamper/1730811990203142375",
+          "checkedAt": "2026-10-27",
+          "featureToLearn": "Fold-flat storage and easy handling",
+          "limitation": "Adjacent household reference. Its size, construction and price are not directly comparable with a travel module."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Open Story packing set already offered",
+          "url": "https://www.target.com/p/-/A-92150659"
+        },
+        {
+          "label": "Clear pouch construction and limitations",
+          "url": "https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601"
+        }
+      ],
+      "sourceIds": [
+        "target-92150659",
+        "target-92172601"
+      ],
+      "brandFit": "Strong travel-organization fit",
+      "comparisonIds": [
+        "HC-33cd8399cfb7",
+        "HC-44318cd6f1a6"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-92150659",
+        "TARGET-OPENSTORY-92172601"
+      ],
+      "alreadyOffered": "Open Story already separates clothes, accessories and footwear with its packing set. General pouch organization is also established.",
+      "potentialEnhancement": "Prototype a compact module with clean/used labels, an easy-carry loop and removable liner. Evaluate dry laundry separation first; add damp-item containment only if construction and cleaning tests support it.",
+      "evidenceBasis": "Official Target benchmarks plus saved competitor catalogue references; merchant hypothesis, not new competitor source verification",
+      "scale": "Accessory enhancement",
+      "priority": "Accessory follow-up",
+      "priorityBasis": "Keep as a focused extension after larger travel-platform needs and existing assortment overlap are validated.",
+      "platform": "Travel care accessories",
+      "travelerJob": "Separate used clothing while keeping a packing system organized.",
+      "priceArchitecture": "Observed Target cube set $35 and cached clear-pouch set $12 are different packs. Price a proposed laundry module only after capacity, material and cleaning requirements are defined."
+    },
+    {
+      "id": "refill-secondary-containment",
+      "title": "Refill kit with tested secondary containment",
+      "fit": "Strong travel-accessory fit; material suitability unproven",
+      "status": "Potential enhancement — Target gap not established",
+      "competitorIds": [
+        "US-052",
+        "CMP-068"
+      ],
+      "benchmarkTcins": [
+        "86391375",
+        "92150657",
+        "92172601"
+      ],
+      "targetBaseline": "Open Story already offers refill containers, bottle covers and clear pouches. An ordinary bottle kit or spill cap would repeat the existing proposition.",
+      "featureToAdapt": "Reusable food-storage pouches offer closure, wide-opening and stand-up-format references for a secondary carrier.",
+      "whyFit": "A validated containment and cleaning workflow could improve the existing toiletry system. The value would need to come from tested compatibility and ease of use.",
+      "concept": "Study a washable secondary carrier with clear closure cues, easy access and compatibility guidance for intended toiletries. Prototype around the existing Open Story bottles before adding another container set.",
+      "validation": [
+        "Audit the current Target travel range and test the existing bottles, caps and pouches before defining any missing benefit.",
+        "Test closure cycles, leakage, cleaning and compatibility with specifically intended toiletries.",
+        "Do not transfer food-contact claims to cosmetics or household chemicals; establish the intended material and formula requirements.",
+        "Check current applicable travel rules before making compliance claims, then validate cost and consumer preference."
+      ],
+      "comparisons": [
+        {
+          "id": "US-052",
+          "title": "Stasher reusable silicone half-gallon storage bag, 64 oz",
+          "retailer": "Walmart",
+          "url": "https://business.walmart.com/ip/Stasher-Premium-Food-Safe-Reusable-Silicone-Half-Gallon-Food-Storage-Bag-Aqua-64-oz/124284323",
+          "checkedAt": "2026-10-27",
+          "featureToLearn": "Reusable flexible storage and access/closure design",
+          "limitation": "Food-storage reference. Size, price and food-contact claims do not establish suitability for toiletries."
+        },
+        {
+          "id": "CMP-068",
+          "title": "Reusable stand-up silicone storage pouch",
+          "retailer": "TikTok Shop",
+          "url": "https://shop.tiktok.com/us/pdp/reusable-stand-up-silicone-bag-plastic-free-food-storage-solution/1730953996872225688",
+          "checkedAt": "2026-10-27",
+          "featureToLearn": "Stand-up pouch format",
+          "limitation": "Saved listing with limited evidence. Its published count has no stated reporting period and is not used to infer demand."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Open Story refill containers already offered",
+          "url": "https://www.target.com/p/-/A-86391375"
+        },
+        {
+          "label": "Open Story bottle covers already offered",
+          "url": "https://www.target.com/p/-/A-92150657"
+        },
+        {
+          "label": "Clear pouch performance qualification",
+          "url": "https://www.target.com/p/5pc-clear-toiletry-set-open-story-8482/-/A-92172601"
+        }
+      ],
+      "sourceIds": [
+        "target-86391375",
+        "target-92150657",
+        "target-92172601"
+      ],
+      "brandFit": "Strong travel-accessory fit; material suitability unproven",
+      "comparisonIds": [
+        "US-052",
+        "CMP-068"
+      ],
+      "benchmarkIds": [
+        "TARGET-OPENSTORY-86391375",
+        "TARGET-OPENSTORY-92150657",
+        "TARGET-OPENSTORY-92172601"
+      ],
+      "alreadyOffered": "Open Story already offers refill containers, bottle covers and clear pouches. An ordinary bottle kit or spill cap would repeat the existing proposition.",
+      "potentialEnhancement": "Study a washable secondary carrier with clear closure cues, easy access and compatibility guidance for intended toiletries. Prototype around the existing Open Story bottles before adding another container set.",
+      "evidenceBasis": "Official Target benchmarks plus saved competitor catalogue references; merchant hypothesis, not new competitor source verification",
+      "scale": "Accessory enhancement",
+      "priority": "Accessory follow-up",
+      "priorityBasis": "Keep as a focused extension after larger travel-platform needs and existing assortment overlap are validated.",
+      "platform": "Travel care accessories",
+      "travelerJob": "Organize intended toiletries and contain a tested accidental spill.",
+      "priceArchitecture": "Target refill set $15, five caps $5 and cached five-pouch pack $12 establish existing accessory offers. Food-storage references are construction studies, not like-for-like prices."
+    }
+  ],
+  "methodology": [
+    "Thirteen selected official Target benchmarks were reviewed on 3 November 2026. This focused sample includes existing luggage, backpacks and duffels; it is not a complete Target assortment audit.",
+    "Fourteen official travel-brand references are registered separately for comparison. They do not add listings, retailer coverage or sales evidence to the Home Care catalogue. Original Home Care accessory references retain their 27–31 October 2026 source dates.",
+    "Eleven major product-platform hypotheses and the three original accessory ideas are distinct merchant briefs, not confirmed Target gaps. Review order is qualitative; there is no market-size, growth, market-share, demand or attractiveness score.",
+    "Target baseline, competitor feature and proposed differentiation are separate. Existing front access, compression, trunk, garment, drop-bottom and adaptive formats are acknowledged before proposing an improvement.",
+    "All new quoted prices are observed US-dollar offers from official US sources; promotions, sold-out variants, family from-prices and unavailable prices are marked. No currency conversions, invented Target retails, normalized value ranking, margins or bundle savings are calculated.",
+    "Dimensions, weights, capacities and construction features are source statements, not independent measurements. Different model sizes and packs are not interchangeable. Airline fit requires current carrier rules and the actual packed dimensions.",
+    "Official photos were downloaded and visually checked against product form and source variants. Some family-level references are explicitly labeled. Photographs do not prove construction, inclusion of contextual props or performance.",
+    "No travel sales or launch dates were inferred. A source-retrieval date is not a product introduction date. Product claims, repair provisions and consumer benefits need the stated engineering, merchant and user validation."
+  ],
+  "competitorReferences": [
+    {
+      "id": "TRAVEL-LOJEL-CUBO-SMALL",
+      "brand": "LOJEL",
+      "retailer": "LOJEL US official",
+      "name": "Cubo Small — Blushed Earth photo; US family offer",
+      "title": "Cubo Small — Blushed Earth photo; US family offer",
+      "category": "Carry-On Luggage",
+      "categoryLabel": "Carry-On Luggage",
+      "pack": "Small model; 37–42 L stated",
+      "packSize": "Small model; 37–42 L stated",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://us.lojel.com/product/cubo-small/",
+      "currentSource": "https://us.lojel.com/product/cubo-small/",
+      "listingSource": "https://us.lojel.com/product/cubo-small/",
+      "photoSource": "https://us.lojel.com/product/cubo-small/",
+      "image": "/home-care/target-photos/TRAVEL-LOJEL-CUBO-SMALL.jpg",
+      "originalImage": "https://s1.lojelcdn.com/wp-content/uploads/sites/3/2026/09/lojel-cubo-blushed-earth-front-small.webp",
+      "imageSource": "https://s1.lojelcdn.com/wp-content/uploads/sites/3/2026/09/lojel-cubo-blushed-earth-front-small.webp",
+      "imageSourceUrl": "https://s1.lojelcdn.com/wp-content/uploads/sites/3/2026/09/lojel-cubo-blushed-earth-front-small.webp",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "From $306.00 (variant / Final Call offer)",
+      "price": "From $306.00 (variant / Final Call offer)",
+      "originalDisplayPrice": "From $306.00 (variant / Final Call offer)",
+      "priceAmount": null,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "US official family page retrieved 3 November 2026. From $306 includes variant / Final Call offers; price for pictured Blushed Earth was not established. No exact numerical price assigned.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": null,
+        "currency": "USD",
+        "display": "From $306.00 (variant / Final Call offer)",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-lojel-cubo-small",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Top access to the main packing area reduces the floor space needed to open the case.",
+        "Front laptop storage, a magnetic divider and a removable washable lining.",
+        "Published small-model weight 3.4 kg; expansion changes the packed depth."
+      ],
+      "limitations": "The page advertises a family price from $306. That is not an exact quote for the pictured Blushed Earth color. No independent washability, capacity or durability result is inferred.",
+      "alreadyOfferedSummary": "Top access to the main packing area reduces the floor space needed to open the case.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    },
+    {
+      "id": "TRAVEL-JULY-CAPSULE",
+      "brand": "July",
+      "retailer": "July US official",
+      "name": "Capsule Carry On Pro — Dune",
+      "title": "Capsule Carry On Pro — Dune",
+      "category": "Carry-On Luggage",
+      "categoryLabel": "Carry-On Luggage",
+      "pack": "1 carry-on; CaseSafe tracking lock included",
+      "packSize": "1 carry-on; CaseSafe tracking lock included",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://july.com/us/luggage/capsule-carry-on-pro/",
+      "currentSource": "https://july.com/us/luggage/capsule-carry-on-pro/",
+      "listingSource": "https://july.com/us/luggage/capsule-carry-on-pro/",
+      "photoSource": "https://july.com/us/luggage/capsule-carry-on-pro/",
+      "image": "/home-care/target-photos/TRAVEL-JULY-CAPSULE.jpg",
+      "originalImage": "https://images.july-cdn.com/cdn-cgi/image/width%3D1920%2Cformat%3Dauto%2Cquality%3D70%2Cfit%3Dscale-down/https%3A//july-cms-images.s3.ap-southeast-2.amazonaws.com/CAPSULE_Dune_1_54c5823932.png",
+      "imageSource": "https://images.july-cdn.com/cdn-cgi/image/width%3D1920%2Cformat%3Dauto%2Cquality%3D70%2Cfit%3Dscale-down/https%3A//july-cms-images.s3.ap-southeast-2.amazonaws.com/CAPSULE_Dune_1_54c5823932.png",
+      "imageSourceUrl": "https://images.july-cdn.com/cdn-cgi/image/width%3D1920%2Cformat%3Dauto%2Cquality%3D70%2Cfit%3Dscale-down/https%3A//july-cms-images.s3.ap-southeast-2.amazonaws.com/CAPSULE_Dune_1_54c5823932.png",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "$395.00",
+      "price": "$395.00",
+      "originalDisplayPrice": "$395.00",
+      "priceAmount": 395,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": 395,
+        "currency": "USD",
+        "display": "$395.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-july-capsule",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Top opening and a magnetically secured quick-access section.",
+        "Lockable wheels and an included CaseSafe tracking lock.",
+        "Brand states support for Apple and Google location networks through the included lock."
+      ],
+      "limitations": "Tracking setup, network compatibility and wheel behavior require use testing. Tracking cannot guarantee recovery. This exact product includes a lock; it is not merely a generic tracker pocket.",
+      "alreadyOfferedSummary": "Top opening and a magnetically secured quick-access section.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    },
+    {
+      "id": "TRAVEL-AWAY-CARRY-ON-3",
+      "brand": "Away",
+      "retailer": "Away US official",
+      "name": "The Carry-On 3 — Electric Iris",
+      "title": "The Carry-On 3 — Electric Iris",
+      "category": "Carry-On Luggage",
+      "categoryLabel": "Carry-On Luggage",
+      "pack": "1 carry-on; published 41 L capacity",
+      "packSize": "1 carry-on; published 41 L capacity",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://www.awaytravel.com/products/carry-on-3-electric-iris",
+      "currentSource": "https://www.awaytravel.com/products/carry-on-3-electric-iris",
+      "listingSource": "https://www.awaytravel.com/products/carry-on-3-electric-iris",
+      "photoSource": "https://www.awaytravel.com/products/carry-on-3-electric-iris",
+      "image": "/home-care/target-photos/TRAVEL-AWAY-CARRY-ON-3.jpg",
+      "originalImage": "http://www.awaytravel.com/cdn/shop/files/PDP_PC3_CAR_electriciris_04_2.jpg?v=1788972561",
+      "imageSource": "http://www.awaytravel.com/cdn/shop/files/PDP_PC3_CAR_electriciris_04_2.jpg?v=1788972561",
+      "imageSourceUrl": "http://www.awaytravel.com/cdn/shop/files/PDP_PC3_CAR_electriciris_04_2.jpg?v=1788972561",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "$328.00",
+      "price": "$328.00",
+      "originalDisplayPrice": "$328.00",
+      "priceAmount": 328,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": 328,
+        "currency": "USD",
+        "display": "$328.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-away-carry-on-3",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Rear-wheel brakes and a height-adjustable trolley handle.",
+        "Compression pad, grab handles and a tracker pocket are included.",
+        "Published overall size 22.1 × 14.4 × 9.1 in; 8.6 lb."
+      ],
+      "limitations": "Quiet rolling is a brand claim, not measured here. Tracker is not included. Size and loaded expansion must be checked against the relevant carrier; no universal cabin fit is asserted.",
+      "alreadyOfferedSummary": "Rear-wheel brakes and a height-adjustable trolley handle.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    },
+    {
+      "id": "TRAVEL-BELLROY-TRANSIT-CARRY",
+      "brand": "Bellroy",
+      "retailer": "Bellroy US official",
+      "name": "Transit Carry-On — Black",
+      "title": "Transit Carry-On — Black",
+      "category": "Carry-On Luggage",
+      "categoryLabel": "Carry-On Luggage",
+      "pack": "1 carry-on; standard size product reference",
+      "packSize": "1 carry-on; standard size product reference",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://bellroy.com/products/transit-carry-on",
+      "currentSource": "https://bellroy.com/products/transit-carry-on",
+      "listingSource": "https://bellroy.com/products/transit-carry-on",
+      "photoSource": "https://bellroy.com/products/transit-carry-on",
+      "image": "/home-care/target-photos/TRAVEL-BELLROY-TRANSIT-CARRY.jpg",
+      "originalImage": "https://bellroy-product-images.imgix.net/bellroy_dot_com_gallery_image/USD/LTCA-BLK-506/0",
+      "imageSource": "https://bellroy-product-images.imgix.net/bellroy_dot_com_gallery_image/USD/LTCA-BLK-506/0",
+      "imageSourceUrl": "https://bellroy-product-images.imgix.net/bellroy_dot_com_gallery_image/USD/LTCA-BLK-506/0",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "Price unavailable in retrieved source",
+      "price": "Price unavailable in retrieved source",
+      "originalDisplayPrice": "Price unavailable in retrieved source",
+      "priceAmount": null,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US product page retrieved 3 November 2026, but selected USD offer was not exposed. Feature reference only; no price estimate.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": null,
+        "currency": "USD",
+        "display": "Price unavailable in retrieved source",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-bellroy-transit-carry",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Bellroy describes owner-replaceable luggage components and provides Fix-it kit instructions.",
+        "The hard-case format provides a concrete reference for designing service access around rolling luggage."
+      ],
+      "limitations": "Exact price was not recoverable from the retrieved product page. Repair eligibility, kit contents and component availability need a current policy check; a warranty is not proof of repair speed or lifetime durability.",
+      "alreadyOfferedSummary": "Bellroy describes owner-replaceable luggage components and provides Fix-it kit instructions.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established",
+      "supportingSources": [
+        {
+          "label": "Bellroy luggage repair and Fix-it instructions",
+          "url": "https://bellroy.com/replacement"
+        }
+      ]
+    },
+    {
+      "id": "TRAVEL-JULY-LIGHT",
+      "brand": "July",
+      "retailer": "July US official",
+      "name": "Carry On Light — Sand",
+      "title": "Carry On Light — Sand",
+      "category": "Carry-On Luggage",
+      "categoryLabel": "Carry-On Luggage",
+      "pack": "1 lightweight cabin case",
+      "packSize": "1 lightweight cabin case",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://july.com/us/luggage/carry-on-light/",
+      "currentSource": "https://july.com/us/luggage/carry-on-light/",
+      "listingSource": "https://july.com/us/luggage/carry-on-light/",
+      "photoSource": "https://july.com/us/luggage/carry-on-light/",
+      "image": "/home-care/target-photos/TRAVEL-JULY-LIGHT.jpg",
+      "originalImage": "https://images.july-cdn.com/cdn-cgi/image/width=640,format=auto,quality=70,fit=scale-down/https://july-cms-images.s3.ap-southeast-2.amazonaws.com/COL_Sand_1_6cbb4d75fe.png",
+      "imageSource": "https://images.july-cdn.com/cdn-cgi/image/width=640,format=auto,quality=70,fit=scale-down/https://july-cms-images.s3.ap-southeast-2.amazonaws.com/COL_Sand_1_6cbb4d75fe.png",
+      "imageSourceUrl": "https://images.july-cdn.com/cdn-cgi/image/width=640,format=auto,quality=70,fit=scale-down/https://july-cms-images.s3.ap-southeast-2.amazonaws.com/COL_Sand_1_6cbb4d75fe.png",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "$255.00",
+      "price": "$255.00",
+      "originalDisplayPrice": "$255.00",
+      "priceAmount": 255,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": 255,
+        "currency": "USD",
+        "display": "$255.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-july-light",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Brand states an empty weight of 3.9 lb.",
+        "Polycarbonate case, twin-bar handle and double spinner wheels."
+      ],
+      "limitations": "Weight is a brand specification. Internal volume, wheel/handle inclusion and performance must be normalized before comparing with another case. Lower empty weight does not prove greater usable payload or durability.",
+      "alreadyOfferedSummary": "Brand states an empty weight of 3.9 lb.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    },
+    {
+      "id": "TRAVEL-BELLROY-WORKPACK",
+      "brand": "Bellroy",
+      "retailer": "Bellroy US official",
+      "name": "Transit Workpack Pro — Black; 22 L / 28 L family",
+      "title": "Transit Workpack Pro — Black; 22 L / 28 L family",
+      "category": "Travel Backpacks",
+      "categoryLabel": "Travel Backpacks",
+      "pack": "Workpack Pro family; sizes are separate variants",
+      "packSize": "Workpack Pro family; sizes are separate variants",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://bellroy.com/products/transit-workpack-pro",
+      "currentSource": "https://bellroy.com/products/transit-workpack-pro",
+      "listingSource": "https://bellroy.com/products/transit-workpack-pro",
+      "photoSource": "https://bellroy.com/products/transit-workpack-pro",
+      "image": "/home-care/target-photos/TRAVEL-BELLROY-WORKPACK.jpg",
+      "originalImage": "https://bellroy-product-images.imgix.net//bellroy_dot_com_gallery_image/USD/BPWA-BLK-215/0",
+      "imageSource": "https://bellroy-product-images.imgix.net//bellroy_dot_com_gallery_image/USD/BPWA-BLK-215/0",
+      "imageSourceUrl": "https://bellroy-product-images.imgix.net//bellroy_dot_com_gallery_image/USD/BPWA-BLK-215/0",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "Price unavailable in retrieved source",
+      "price": "Price unavailable in retrieved source",
+      "originalDisplayPrice": "Price unavailable in retrieved source",
+      "priceAmount": null,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US product-family page retrieved 3 November 2026; selected size and USD offer were not exposed. Feature reference only.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": null,
+        "currency": "USD",
+        "display": "Price unavailable in retrieved source",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-bellroy-workpack",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Separate laptop and tech storage, quick-access pockets and a luggage pass-through.",
+        "Padded harness and a removable sternum strap support loaded-carry evaluation.",
+        "The product family is offered in 22 L and 28 L sizes."
+      ],
+      "limitations": "Official family photo is Black; exact size/price of the photo variant was not established. Do not merge the two sizes or use this as a like-for-like price comparison with a 35 L bag.",
+      "alreadyOfferedSummary": "Separate laptop and tech storage, quick-access pockets and a luggage pass-through.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    },
+    {
+      "id": "TRAVEL-TRAVELPRO-SOFT-TOTE",
+      "brand": "Travelpro",
+      "retailer": "Travelpro US official",
+      "name": "Maxlite 5 Soft Tote — Black",
+      "title": "Maxlite 5 Soft Tote — Black",
+      "category": "Personal-Item Bags",
+      "categoryLabel": "Personal-Item Bags",
+      "pack": "1 soft tote; published 28 L",
+      "packSize": "1 soft tote; published 28 L",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://travelpro.com/products/maxlite%C2%AE-5-soft-tote?variant=19641784762466",
+      "currentSource": "https://travelpro.com/products/maxlite%C2%AE-5-soft-tote?variant=19641784762466",
+      "listingSource": "https://travelpro.com/products/maxlite%C2%AE-5-soft-tote?variant=19641784762466",
+      "photoSource": "https://travelpro.com/products/maxlite%C2%AE-5-soft-tote?variant=19641784762466",
+      "image": "/home-care/target-photos/TRAVEL-TRAVELPRO-SOFT-TOTE.jpg",
+      "originalImage": "https://travelpro.com/cdn/shop/files/401170301_-1500x1500-f3a2c67.jpg?v=1766084673&width=1920",
+      "imageSource": "https://travelpro.com/cdn/shop/files/401170301_-1500x1500-f3a2c67.jpg?v=1766084673&width=1920",
+      "imageSourceUrl": "https://travelpro.com/cdn/shop/files/401170301_-1500x1500-f3a2c67.jpg?v=1766084673&width=1920",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "$78.00 sale (reg $90.00)",
+      "price": "$78.00 sale (reg $90.00)",
+      "originalDisplayPrice": "$78.00 sale (reg $90.00)",
+      "priceAmount": 78,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": 78,
+        "currency": "USD",
+        "display": "$78.00 sale (reg $90.00)",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-travelpro-soft-tote",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Compact soft bag with quick-access front storage and a suitcase-handle strap.",
+        "Brand states 1.6 lb and a 28 L volume."
+      ],
+      "limitations": "Visible specifications give 11 × 16 × 8 in, while embedded page data also lists an 18-inch overall width. Resolve dimensions on a sample before an airline-fit claim; underseat acceptance is not universal.",
+      "alreadyOfferedSummary": "Compact soft bag with quick-access front storage and a suitcase-handle strap.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    },
+    {
+      "id": "TRAVEL-WORK-TRIP-CHECKIN",
+      "brand": "Travelpro",
+      "retailer": "Travelpro US official",
+      "name": "VersaPack+ Medium Check-In Spinner — Estate Blue",
+      "title": "VersaPack+ Medium Check-In Spinner — Estate Blue",
+      "category": "Checked Luggage",
+      "categoryLabel": "Checked Luggage",
+      "pack": "1 medium checked bag; 2 packing cubes and laundry bag",
+      "packSize": "1 medium checked bag; 2 packing cubes and laundry bag",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://travelpro.com/collections/shop-all-luggage/products/versapack%C2%AE-medium-check-in-expandable-softside-spinner?variant=41197973602402",
+      "currentSource": "https://travelpro.com/collections/shop-all-luggage/products/versapack%C2%AE-medium-check-in-expandable-softside-spinner?variant=41197973602402",
+      "listingSource": "https://travelpro.com/collections/shop-all-luggage/products/versapack%C2%AE-medium-check-in-expandable-softside-spinner?variant=41197973602402",
+      "photoSource": "https://travelpro.com/collections/shop-all-luggage/products/versapack%C2%AE-medium-check-in-expandable-softside-spinner?variant=41197973602402",
+      "image": "/home-care/target-photos/TRAVEL-WORK-TRIP-CHECKIN.jpg",
+      "originalImage": "https://travelpro.com/cdn/shop/files/417246502-versapack-plus-medium-blue-spinner-check-in.jpg?v=1775672994",
+      "imageSource": "https://travelpro.com/cdn/shop/files/417246502-versapack-plus-medium-blue-spinner-check-in.jpg?v=1775672994",
+      "imageSourceUrl": "https://travelpro.com/cdn/shop/files/417246502-versapack-plus-medium-blue-spinner-check-in.jpg?v=1775672994",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "$365.00",
+      "price": "$365.00",
+      "originalDisplayPrice": "$365.00",
+      "priceAmount": 365,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": 365,
+        "currency": "USD",
+        "display": "$365.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-work-trip-checkin",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Two removable packing cubes, a laundry bag and a separate water-resistant pocket.",
+        "Expandable softside construction and self-aligning spinner-wheel design.",
+        "Published overall dimensions 27.25 × 18 × 11 in; empty weight 9.8 lb."
+      ],
+      "limitations": "This is medium checked luggage, not directly equal to the Target large checked case. Organizer usefulness, stability when expanded and moisture separation require physical testing.",
+      "alreadyOfferedSummary": "Two removable packing cubes, a laundry bag and a separate water-resistant pocket.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    },
+    {
+      "id": "TRAVEL-BRIGGS-SYMPATICO",
+      "brand": "Briggs & Riley",
+      "retailer": "Briggs & Riley US official",
+      "name": "Sympatico Essential 22-inch Expandable Carry-On — Navy",
+      "title": "Sympatico Essential 22-inch Expandable Carry-On — Navy",
+      "category": "Carry-On Luggage",
+      "categoryLabel": "Carry-On Luggage",
+      "pack": "1 carry-on; SKU SU322CXSP-5",
+      "packSize": "1 carry-on; SKU SU322CXSP-5",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://www.briggs-riley.com/products/essential-carry-on-expandable-spinner?variant=41544563130410",
+      "currentSource": "https://www.briggs-riley.com/products/essential-carry-on-expandable-spinner?variant=41544563130410",
+      "listingSource": "https://www.briggs-riley.com/products/essential-carry-on-expandable-spinner?variant=41544563130410",
+      "photoSource": "https://www.briggs-riley.com/products/essential-carry-on-expandable-spinner?variant=41544563130410",
+      "image": "/home-care/target-photos/TRAVEL-BRIGGS-SYMPATICO.jpg",
+      "originalImage": "http://www.briggs-riley.com/cdn/shop/files/SU322CXSP-5_Front.jpg?v=1769089730",
+      "imageSource": "http://www.briggs-riley.com/cdn/shop/files/SU322CXSP-5_Front.jpg?v=1769089730",
+      "imageSourceUrl": "http://www.briggs-riley.com/cdn/shop/files/SU322CXSP-5_Front.jpg?v=1769089730",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "$695.00",
+      "price": "$695.00",
+      "originalDisplayPrice": "$695.00",
+      "priceAmount": 695,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": 695,
+        "currency": "USD",
+        "display": "$695.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-briggs-sympatico",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Asymmetric 70/30 opening changes how packing space is accessed.",
+        "Expansion/compression mechanism is described as adding up to 25% capacity.",
+        "Published volume 41–51 L, weight 8.8 lb and depth 9–11.25 in."
+      ],
+      "limitations": "Premium feature benchmark, not a proposed Target retail. Expanded depth can exceed carrier limits. Capacity and ease-of-use claims require comparison at the same packed size.",
+      "alreadyOfferedSummary": "Asymmetric 70/30 opening changes how packing space is accessed.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    },
+    {
+      "id": "TRAVEL-HALFDAY-DUFFEL",
+      "brand": "Halfday",
+      "retailer": "Halfday US official",
+      "name": "The Garment Duffel 45L — Shadow",
+      "title": "The Garment Duffel 45L — Shadow",
+      "category": "Duffels & Weekenders",
+      "categoryLabel": "Duffels & Weekenders",
+      "pack": "1 convertible garment duffel; 45 L stated",
+      "packSize": "1 convertible garment duffel; 45 L stated",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://halfdaytravel.com/products/garment-duffel?variant=48014018805953",
+      "currentSource": "https://halfdaytravel.com/products/garment-duffel?variant=48014018805953",
+      "listingSource": "https://halfdaytravel.com/products/garment-duffel?variant=48014018805953",
+      "photoSource": "https://halfdaytravel.com/products/garment-duffel?variant=48014018805953",
+      "image": "/home-care/target-photos/TRAVEL-HALFDAY-DUFFEL.jpg",
+      "originalImage": "https://halfdaytravel.com/cdn/shop/files/halfday-garment-duffel-shadow_078_648e40e7-2307-4d87-9462-a433deaffdce.png?v=1775228212&width=1920",
+      "imageSource": "https://halfdaytravel.com/cdn/shop/files/halfday-garment-duffel-shadow_078_648e40e7-2307-4d87-9462-a433deaffdce.png?v=1775228212&width=1920",
+      "imageSourceUrl": "https://halfdaytravel.com/cdn/shop/files/halfday-garment-duffel-shadow_078_648e40e7-2307-4d87-9462-a433deaffdce.png?v=1775228212&width=1920",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "$128.00",
+      "price": "$128.00",
+      "originalDisplayPrice": "$128.00",
+      "priceAmount": 128,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": 128,
+        "currency": "USD",
+        "display": "$128.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-halfday-duffel",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "A garment compartment folds into a duffel with shoe pockets.",
+        "Hanger loops, a trolley sleeve and flat storage support business-trip use.",
+        "Published size 22 × 12 × 12 in; 2.3 lb."
+      ],
+      "limitations": "Wrinkle reduction is not independently established here. Product and apparel sizes vary; compare actual garments, packing method and loaded-carry comfort.",
+      "alreadyOfferedSummary": "A garment compartment folds into a duffel with shoe pockets.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    },
+    {
+      "id": "TRAVEL-BEIS-MINI-WEEKENDER",
+      "brand": "BÉIS",
+      "retailer": "BÉIS US official",
+      "name": "The Mini Weekender — Black",
+      "title": "The Mini Weekender — Black",
+      "category": "Duffels & Weekenders",
+      "categoryLabel": "Duffels & Weekenders",
+      "pack": "1 mini weekender; 32 L stated",
+      "packSize": "1 mini weekender; 32 L stated",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://beistravel.com/products/the-mini-weekender-in-black",
+      "currentSource": "https://beistravel.com/products/the-mini-weekender-in-black",
+      "listingSource": "https://beistravel.com/products/the-mini-weekender-in-black",
+      "photoSource": "https://beistravel.com/products/the-mini-weekender-in-black",
+      "image": "/home-care/target-photos/TRAVEL-BEIS-MINI-WEEKENDER.jpg",
+      "originalImage": "http://beistravel.com/cdn/shop/files/BEIS181502-TheMiniWeekender-Black-Product-0415.jpg?v=1783370665",
+      "imageSource": "http://beistravel.com/cdn/shop/files/BEIS181502-TheMiniWeekender-Black-Product-0415.jpg?v=1783370665",
+      "imageSourceUrl": "http://beistravel.com/cdn/shop/files/BEIS181502-TheMiniWeekender-Black-Product-0415.jpg?v=1783370665",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "$108.00",
+      "price": "$108.00",
+      "originalDisplayPrice": "$108.00",
+      "priceAmount": 108,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": 108,
+        "currency": "USD",
+        "display": "$108.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-beis-mini-weekender",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Wide opening, separate bottom storage and a padded laptop section.",
+        "Trolley sleeve, shoulder carry and a listed laptop fit up to 16 in.",
+        "Published size 16.14 × 15.75 × 7.87 in; 3.11 lb."
+      ],
+      "limitations": "This is the current Mini Weekender, not the older Convertible Mini. A removable bottom is not established. Dimensions do not establish a fit for every underseat space.",
+      "alreadyOfferedSummary": "Wide opening, separate bottom storage and a padded laptop section.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    },
+    {
+      "id": "TRAVEL-PATAGONIA-55",
+      "brand": "Patagonia",
+      "retailer": "Patagonia US official",
+      "name": "Black Hole Duffel 55L — Cinder Brown",
+      "title": "Black Hole Duffel 55L — Cinder Brown",
+      "category": "Duffels & Weekenders",
+      "categoryLabel": "Duffels & Weekenders",
+      "pack": "1 gear duffel; 55 L stated",
+      "packSize": "1 gear duffel; 55 L stated",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://www.patagonia.com/product/black-hole-duffel-bag-55-liters/49343.html?dwvar_49343_color=CIBN",
+      "currentSource": "https://www.patagonia.com/product/black-hole-duffel-bag-55-liters/49343.html?dwvar_49343_color=CIBN",
+      "listingSource": "https://www.patagonia.com/product/black-hole-duffel-bag-55-liters/49343.html?dwvar_49343_color=CIBN",
+      "photoSource": "https://www.patagonia.com/product/black-hole-duffel-bag-55-liters/49343.html?dwvar_49343_color=CIBN",
+      "image": "/home-care/target-photos/TRAVEL-PATAGONIA-55.jpg",
+      "originalImage": "https://dis.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwec0f777b/images/hi-res/49343_CIBN.jpg?sw=256&sh=256&sfrm=png&q=95&bgcolor=f3f4ef",
+      "imageSource": "https://dis.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwec0f777b/images/hi-res/49343_CIBN.jpg?sw=256&sh=256&sfrm=png&q=95&bgcolor=f3f4ef",
+      "imageSourceUrl": "https://dis.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwec0f777b/images/hi-res/49343_CIBN.jpg?sw=256&sh=256&sfrm=png&q=95&bgcolor=f3f4ef",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "$179.00",
+      "price": "$179.00",
+      "originalDisplayPrice": "$179.00",
+      "priceAmount": 179,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": 179,
+        "currency": "USD",
+        "display": "$179.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-patagonia-55",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Structured gear-hauling duffel with removable backpack straps.",
+        "Brand describes coated fabric intended for abrasion and weather resistance."
+      ],
+      "limitations": "Different capacity and construction from a 100 L packable tote. Durability, weather resistance and environmental claims were not independently tested; this is not a price-per-liter value ranking.",
+      "alreadyOfferedSummary": "Structured gear-hauling duffel with removable backpack straps.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    },
+    {
+      "id": "TRAVEL-MUJI-75",
+      "brand": "MUJI",
+      "retailer": "MUJI US official",
+      "name": "Adjustable Handle Hard Shell Suitcase 75L — Off White",
+      "title": "Adjustable Handle Hard Shell Suitcase 75L — Off White",
+      "category": "Checked Luggage",
+      "categoryLabel": "Checked Luggage",
+      "pack": "1 checked suitcase; 75 L stated",
+      "packSize": "1 checked suitcase; 75 L stated",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://www.muji.us/products/adjustable-handle-hard-shell-suitcase-75l-check-in-eee46a5a?variant=45329538580670",
+      "currentSource": "https://www.muji.us/products/adjustable-handle-hard-shell-suitcase-75l-check-in-eee46a5a?variant=45329538580670",
+      "listingSource": "https://www.muji.us/products/adjustable-handle-hard-shell-suitcase-75l-check-in-eee46a5a?variant=45329538580670",
+      "photoSource": "https://www.muji.us/products/adjustable-handle-hard-shell-suitcase-75l-check-in-eee46a5a?variant=45329538580670",
+      "image": "/home-care/target-photos/TRAVEL-MUJI-75.jpg",
+      "originalImage": "https://www.muji.us/cdn/shop/files/75L_White_Suitcase_1200x1200.jpg?v=1775757407",
+      "imageSource": "https://www.muji.us/cdn/shop/files/75L_White_Suitcase_1200x1200.jpg?v=1775757407",
+      "imageSourceUrl": "https://www.muji.us/cdn/shop/files/75L_White_Suitcase_1200x1200.jpg?v=1775757407",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "$209.99 final sale (reg $249.00; selected color sold out)",
+      "price": "$209.99 final sale (reg $249.00; selected color sold out)",
+      "originalDisplayPrice": "$209.99 final sale (reg $249.00; selected color sold out)",
+      "priceAmount": 209.99,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US page and selected Off White variant retrieved 3 November 2026: $209.99 final sale, original $249; selected color shown sold out. Other colors and embedded stock signals differ. Recheck before quoting.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": 209.99,
+        "currency": "USD",
+        "display": "$209.99 final sale (reg $249.00; selected color sold out)",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-muji-75",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Push-button wheel locking and a handle adjustable in 1 cm increments.",
+        "Published empty weight 4.6 kg.",
+        "The US page identifies this 75 L size as checked luggage."
+      ],
+      "limitations": "The retrieved Off White offer is marked sold out; other variants show different prices and stock. This is a handling reference, not an available purchase quote or carry-on example.",
+      "alreadyOfferedSummary": "Push-button wheel locking and a handle adjustable in 1 cm increments.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    },
+    {
+      "id": "TRAVEL-CALPAK-HUE",
+      "brand": "CALPAK",
+      "retailer": "CALPAK US official",
+      "name": "Hue Carry-On Luggage — Glazed Black",
+      "title": "Hue Carry-On Luggage — Glazed Black",
+      "category": "Carry-On Luggage",
+      "categoryLabel": "Carry-On Luggage",
+      "pack": "1 carry-on; coordinated Hue product family",
+      "packSize": "1 carry-on; coordinated Hue product family",
+      "type": "Official travel reference",
+      "merchantScope": "Travel inspiration reference",
+      "merchantDepartment": "Luggage & Travel",
+      "isTravelReference": true,
+      "url": "https://www.calpaktravel.com/products/hue-carry-on-luggage/glazed-black",
+      "currentSource": "https://www.calpaktravel.com/products/hue-carry-on-luggage/glazed-black",
+      "listingSource": "https://www.calpaktravel.com/products/hue-carry-on-luggage/glazed-black",
+      "photoSource": "https://www.calpaktravel.com/products/hue-carry-on-luggage/glazed-black",
+      "image": "/home-care/target-photos/TRAVEL-CALPAK-HUE.jpg",
+      "originalImage": "https://www.calpaktravel.com/cdn/shop/files/LHU1020_HUE_CARRY_ON_GLAZEDBLACK_1.jpg?v=1770839681&width=1200",
+      "imageSource": "https://www.calpaktravel.com/cdn/shop/files/LHU1020_HUE_CARRY_ON_GLAZEDBLACK_1.jpg?v=1770839681&width=1200",
+      "imageSourceUrl": "https://www.calpaktravel.com/cdn/shop/files/LHU1020_HUE_CARRY_ON_GLAZEDBLACK_1.jpg?v=1770839681&width=1200",
+      "photoAvailable": true,
+      "photoVerification": "Official product or exact-variant photo downloaded and visually checked for product form and displayed color on 3 November 2026; no performance verification.",
+      "photoVerificationDate": "2026-11-03",
+      "displayPrice": "$215.00",
+      "price": "$215.00",
+      "originalDisplayPrice": "$215.00",
+      "priceAmount": 215,
+      "priceCurrency": "USD",
+      "priceRegion": "United States",
+      "priceBasis": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceNote": "Official US public listing retrieved 3 November 2026; selected variant and offer only. Price, promotion and availability can change. Checkout, tax and shipping were not verified.",
+      "priceObservedAt": "2026-11-03",
+      "observedPrice": {
+        "amount": 215,
+        "currency": "USD",
+        "display": "$215.00",
+        "retrievedAt": "2026-11-03"
+      },
+      "checkedAt": "2026-11-03",
+      "checkedDate": "2026-11-03",
+      "sourceCheckedAt": "2026-11-03",
+      "sourceFreshness": "Official US product page retrieved 3 November 2026; public listing snapshot, with no checkout or independent product testing.",
+      "sourceId": "travel-calpak-hue",
+      "evidenceLevel": "Individual item link",
+      "verificationStatus": "Official product source retrieved",
+      "verificationNote": "Product family and stated selected variant checked; source caveats retained.",
+      "sourceNote": "Official product description used for feature study. It is not evidence of market demand, Target availability, superior performance or a product launch.",
+      "hasSales": false,
+      "sales": "",
+      "displaySales": "",
+      "salesPeriod": "",
+      "metricDate": "",
+      "metricSource": "",
+      "salesEvidenceKind": "",
+      "salesVerifiedThisPass": false,
+      "salesReviewStatus": "No comparable unit-sales evidence collected for this travel reference",
+      "retailerListedDate": "",
+      "retailerListedStatus": "First available date not established",
+      "retailerDateSource": "",
+      "dateEvidenceType": "Not publicly established",
+      "dateEvidenceDate": "",
+      "datePosted": "2026-11-03",
+      "catalogDateBasis": "Added to travel benchmark research; not a launch date",
+      "features": [
+        "Expandable carry-on within a coordinated travel family.",
+        "Organized interior, spinner wheels and an adjustable trolley handle."
+      ],
+      "limitations": "Coordination of color and formats does not prove attachment compatibility or consumer demand. Evaluate nesting, handling and total system cost before proposing a matched set.",
+      "alreadyOfferedSummary": "Expandable carry-on within a coordinated travel family.",
+      "targetReviewRoute": "Open Story travel feature study; no Target assortment gap established",
+      "gapStatus": "No Target assortment gap established"
+    }
+  ]
+};
 });

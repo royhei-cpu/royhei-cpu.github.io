@@ -45,7 +45,7 @@ html=html.replace("const body=c.querySelector('.body'),facts=c.querySelector('.c
 html=html.replace("details.prepend(dates);", `details.prepend(dates);const proof=document.createElement('p');proof.textContent=d.verificationNote||d.evidence||'';details.append(proof);`);
 html=html.replace("'photoVerification','url','listingSource'", "'photoVerification','image','evidenceLevel','verificationStatus','checkedDate','url','listingSource'");
 html=html.replace("photoVerification:'Photo note'", "image:'Product image URL',evidenceLevel:'Evidence level',verificationStatus:'Verification status',checkedDate:'Source checked date',photoVerification:'Photo note'");
-html=html.replace("quote((f==='salesPeriod'", "quote(f==='image'?new URL(d.image||cached.get(d.id)?.querySelector('img')?.getAttribute('src')||'',location.href).href:(f==='salesPeriod'");
+html=html.replace("quote((f==='salesPeriod'", "quote(f==='image'?((value)=>{if(!value)return '';try{const url=new URL(value,location.href);return ['http:','https:'].includes(url.protocol)?url.href:''}catch{return ''}})(d.image||cached.get(d.id)?.querySelector('img')?.getAttribute('src')||''):(f==='salesPeriod'");
 html=html.replace(".toLocaleString()+' '+(rows.length===1?'item':'items')", ".toLocaleString()+' '+(rows.length===1?'record':'records')");
 const original=html.match(/<template id="original-cards">([\s\S]*?)<\/template>/)[1];
 const images=new Map([...original.matchAll(/<article[^>]*data-id="([^"]+)"[^>]*>[\s\S]*?<img[^>]*src="([^"]+)"/g)].map(m=>[m[1],m[2]]));
@@ -74,7 +74,7 @@ html=addSalesRanking(html);
 assert.equal(html.split("const fields=['salesRankInView'").length-1,1,'Target CSV integration changed');
 html=html.replace("const fields=['salesRankInView'", "const fields=['targetInspirationRole','targetInspirationIdeas','targetFeatureToLearn','targetProposedConcept','targetValidationSteps','targetInspirationSources','salesRankInView'");
 html=html.replace("const headers={salesRankInView:","const headers={targetInspirationRole:'Target inspiration role',targetInspirationIdeas:'Target inspiration ideas',targetFeatureToLearn:'Target baseline or feature to learn',targetProposedConcept:'Proposed Target concept (hypothesis)',targetValidationSteps:'Target validation questions',targetInspirationSources:'Target inspiration source links',salesRankInView:");
-// Selected Target travel benchmarks live outside ITEMS but remain exportable and visible in Saved.
+// Target and external travel references live outside ITEMS but remain exportable and visible in Saved.
 assert.equal(html.split('let rows=ITEMS.filter(d=>').length-1,1,'Selected records integration changed');
 html=html.replace('let rows=ITEMS.filter(d=>','let rows=(savedOnly?[...byId.values()]:ITEMS).filter(d=>');
 // Merchant analysis uses the same merged records and shared product selections.
