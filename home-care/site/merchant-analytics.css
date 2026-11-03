@@ -36,7 +36,7 @@
 .ma-item-actions{display:flex;align-items:center;justify-content:flex-end;gap:14px;flex-wrap:wrap}
 #analysis-view a{color:#486d3d;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
 .ma-pick{border:1px solid #bdcbb2;background:#fff;color:#46613c;padding:6px 10px;border-radius:6px;font-size:11px;line-height:1.3;min-height:30px;cursor:pointer;white-space:nowrap}
-.ma-pick[aria-pressed=true]{background:#e8f0dd;border-color:#72905f;font-weight:700}
+.ma-pick[aria-pressed=true]{background:#e8f0dd;border-color:#72905f;color:#355b2b;font-weight:700}
 .ma-method-note,.ma-small-note,.ma-footer-note{font-size:11px;line-height:1.65;color:#748069;margin:16px 0 0}
 .ma-small-note{margin:10px 0}
 .ma-chart-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
@@ -53,7 +53,7 @@
 .ma-price-chart{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;align-items:end;padding:4px 0 0}
 .ma-price-band{display:flex;flex-direction:column;gap:7px;align-items:center;min-width:0;box-sizing:border-box;padding:8px 3px 7px;background:transparent;border:1px solid transparent;border-radius:7px;cursor:pointer;color:#4e6543;font-family:inherit}
 .ma-price-band:hover{background:#f7f9f3}
-.ma-price-band[aria-pressed=true]{border-color:#9bb38a;background:#f4f8ed}
+.ma-price-band[aria-pressed=true]{border-color:#9bb38a;background:#f4f8ed;color:#355b2b}
 .ma-price-band:disabled{cursor:default;opacity:.65}
 .ma-price-band>strong{font-size:12px;line-height:1.3;font-weight:700}
 .ma-price-track{height:125px;display:flex;width:72%;align-items:flex-end;background:#f1f4eb;border-radius:5px 5px 0 0;overflow:hidden}
