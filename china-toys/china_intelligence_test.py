@@ -18,7 +18,7 @@ try:
         expect(p.locator('#chinaDeskTitle')).to_have_text('What deserves a closer look?')
         assert p.evaluate("!!(document.getElementById('results').compareDocumentPosition(document.getElementById('chinaIntelligencePanel')) & Node.DOCUMENT_POSITION_FOLLOWING)")
         assert not p.locator('#chinaIntelligencePanel').evaluate('(e)=>e.open')
-        p.locator('#atlasBrandNav a[href="#sourcesResearch"]').click()
+        p.locator('#sourcesResearch > summary').click()
         p.locator('#chinaIntelligencePanel > summary').click()
         expect(p.locator('#chinaDeskTitle')).to_be_visible()
         assert p.locator('#chinaIntelligence .cm-card').count()==3
@@ -79,7 +79,7 @@ try:
         expect(p.locator('[data-note-message]')).to_contain_text('Saved')
         p.locator('#closeProduct').click()
         p.reload(wait_until='networkidle')
-        p.locator('#atlasBrandNav a[href="#sourcesResearch"]').click()
+        p.locator('#sourcesResearch > summary').click()
         p.locator('#chinaIntelligencePanel > summary').click()
         p.locator('[data-cm-tab="notes"]').click()
         expect(p.locator('[data-cm-content]')).to_contain_text('sample request')
