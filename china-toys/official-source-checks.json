@@ -1,0 +1,197 @@
+{
+  "checked": "2026-11-03",
+  "method": "Public web retrieval of each recorded reference. Cached retrieval timestamps may differ; this is not a live inventory or stock audit.",
+  "complete_catalogs_verified": 0,
+  "chains": [
+    {
+      "id": "miniso",
+      "name": "MINISO / 名创优品",
+      "url": "https://miniso.tmall.com/",
+      "result": "redirect inaccessible",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "x11",
+      "name": "X11",
+      "url": "https://www.kkgroup.cn/zh-CN/x11",
+      "result": "company profile only",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "kkv",
+      "name": "KKV",
+      "url": "https://www.kkgroup.cn/zh-CN/kkv",
+      "result": "company profile only",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "jiumu",
+      "name": "Jiumu / 九木杂物社",
+      "url": "https://www.mg-pen.com/chenguangbrand/info.aspx?itemid=30",
+      "result": "HTTP 503",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "kule",
+      "name": "KuLe / 酷乐潮玩",
+      "url": "https://www.sina.cn/media/6516837361",
+      "result": "operator profile only",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "green-party",
+      "name": "The Green Party / 绿光派对",
+      "url": "https://www.smsupermalls.cn/city/jjfloor.aspx",
+      "result": "mall directory only",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "sanfu",
+      "name": "SANFU / 三福",
+      "url": "https://www.sanfu.com/about",
+      "result": "company profile only",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "ipstar",
+      "name": "IPSTAR / 潮玩星球",
+      "url": "https://weibo.com/6509826766",
+      "result": "inaccessible",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "pop-mart",
+      "name": "POP MART",
+      "url": "https://www.sina.cn/media/1726303567",
+      "result": "operator profile only",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "top-toy",
+      "name": "TOP TOY",
+      "url": "https://www.sina.cn/media/7519571372",
+      "result": "operator profile only",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "52toys",
+      "name": "52TOYS",
+      "url": "https://www.sina.cn/media/5537333601",
+      "result": "operator profile only",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "toycity",
+      "name": "TOYCITY · 玩具城市",
+      "url": "https://www.sina.cn/media/7415975135",
+      "result": "operator profile only",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "lenle",
+      "name": "Lenle · 伶俐",
+      "url": "https://www.sina.cn/news/detail/5347736691410585.html",
+      "result": "dated sale announcement",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "bandai-namco-shop",
+      "name": "Bandai Namco Shop",
+      "url": "https://www.sina.cn/news/detail/5326348903257719.html",
+      "result": "dated sale announcement",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "march-monster",
+      "name": "March Monster · 三月兽",
+      "url": "https://www.sina.cn/news/detail/5255758771653256.html",
+      "result": "dated sale announcement",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "tomato-pocket",
+      "name": "Tomato Pocket · 番茄口袋",
+      "url": "https://www.sina.cn/news/detail/5293416905704951.html",
+      "result": "mall sale announcement",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "snack-busy",
+      "name": "Snack Busy · 零食很忙",
+      "url": "https://www.sina.cn/news/detail/5353243982957281.html",
+      "result": "dated sale announcement",
+      "full_catalog_verified": false
+    },
+    {
+      "id": "zhao-yiming",
+      "name": "Zhao Yiming · 赵一鸣零食",
+      "url": "https://www.sina.cn/news/detail/5353243982957281.html",
+      "result": "dated sale announcement",
+      "full_catalog_verified": false
+    }
+  ],
+  "additional_catalog_pages": [
+    {
+      "url": "https://www.popmart.com/us/collection/crybaby?page=1",
+      "result": "Product collection retrieved; reconcile exact in-scope products across all pages"
+    },
+    {
+      "url": "https://www.popmart.com/us/collection/crybaby?page=2",
+      "result": "Collection retrieved; inventory reconciliation outstanding"
+    },
+    {
+      "url": "https://www.popmart.com/us/collection/crybaby?page=3",
+      "result": "Collection retrieved; inventory reconciliation outstanding"
+    },
+    {
+      "url": "https://www.popmart.com/us/collection/crybaby?page=4",
+      "result": "Collection retrieved; includes non-toy accessories; not all entries are eligible"
+    },
+    {
+      "url": "https://gotoptoy.com/collections/all",
+      "result": "Product collection retrieved"
+    },
+    {
+      "url": "https://hi52toys.com/collections/all",
+      "result": "Product collection retrieved"
+    },
+    {
+      "url": "https://www.findingunicorn.net",
+      "result": "HTTP 502 through retrieval tool"
+    },
+    {
+      "url": "https://www.rolifeonline.com/collections/blind-box",
+      "result": "Retrieval timeout"
+    },
+    {
+      "url": "https://toyzeroplus.com",
+      "result": "Products and categories retrieved"
+    },
+    {
+      "url": "https://www.molynk.shop",
+      "result": "No readable content"
+    },
+    {
+      "url": "https://jotoys.store",
+      "result": "Products and character menu retrieved"
+    },
+    {
+      "url": "https://www.miniso.com",
+      "result": "Showcase and official US e-shop link retrieved; not mainland SKU inventory"
+    },
+    {
+      "url": "https://m.sanfu.com",
+      "result": "No readable content"
+    },
+    {
+      "url": "https://sffs.tmall.com/",
+      "result": "Inaccessible through retrieval tool"
+    }
+  ],
+  "next_steps": [
+    "Traverse each accessible official category to its terminal page and reconcile unique product IDs.",
+    "Resolve restricted mainland catalogs through authorized readable official alternatives; never infer an empty store from access failure.",
+    "Classify blind boxes and squishies separately from apparel, bags and unrelated accessories.",
+    "Continue exact product/photo/pack/market/date checking; do not treat these reference checks as complete inventory verification."
+  ]
+}

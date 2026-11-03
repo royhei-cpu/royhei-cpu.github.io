@@ -7,6 +7,12 @@ ROOT=pathlib.Path(__file__).resolve().parent.parent
 OUT=pathlib.Path('/tmp/china-toys-ip-qa');OUT.mkdir(exist_ok=True)
 cfg=json.loads((ROOT/'china-toys/ip-market.json').read_text())
 checks=[];errors=[]
+def open_rankings(page):
+ if not page.locator('#sourcesResearch').evaluate('(e)=>e.open'):
+  page.locator('#sourcesResearch > summary').click()
+ if not page.locator('#ip-rankings').evaluate('(e)=>e.open'):
+  page.locator('#ip-rankings > summary').click()
+
 class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self,*args,**kwargs):super().__init__(*args,directory=str(ROOT),**kwargs)
     def log_message(self,*args):pass
@@ -23,7 +29,7 @@ try:
   page.wait_for_selector('#ipSelect')
   assert 'China Toy Atlas' in page.title()
   assert page.locator('.product-card').count()>0
-  page.locator('#openIPRankings').click()
+  open_rankings(page)
   assert page.locator('#ip-rankings').evaluate('(e)=>e.open')
   assert page.locator('[data-ip-content="browse"]').is_visible()
   page.locator('[data-ip-panel="rank"]').click()
@@ -57,6 +63,7 @@ try:
    assert page.locator('.product-card').count()>0
    assert page.eval_on_selector_all('.product-card','(cards)=>cards.every(c=>{const p=window.TOY_ATLAS.products.find(p=>p.id===c.dataset.productId);return window.ATLAS_IP_MATCH(p,new URLSearchParams(location.search).get("ip"))})')
    checks.append(k+' exact character filter: '+actual+'; pass')
+  if not page.locator('#resetFilters').is_visible(): page.locator('.atlas-more-filters > summary').click()
   page.locator('#resetFilters').click()
   assert 'ip=' not in page.url
   page.wait_for_function('document.getElementById("ipSelect").value===""')
@@ -73,7 +80,7 @@ try:
   assert page.locator('#detailTitle').inner_text()
   page.locator('#closeProduct').click()
   checks.append('Nommi deep link, main item detail open/close and existing data flow; pass')
-  page.locator('#watchTutorialButton').click()
+  page.locator('#tutorial > summary').click()
   assert page.locator('#tutorial').evaluate('(e)=>e.open')
   video=page.locator('#atlasTutorialVideo')
   assert video.locator('source').get_attribute('src').split('?')[0]=='tutorial/China_Toy_Atlas_Tutorial.mp4'
@@ -84,7 +91,7 @@ try:
   checks.append('Embedded tutorial source loads video metadata; duration '+str(round(duration,1))+' seconds. Voice quality not re-audited.')
   page.locator('#tutorial').evaluate('(e)=>e.open=false')
   page.set_viewport_size({'width':390,'height':844})
-  page.locator('#openIPRankings').click()
+  open_rankings(page)
   page.locator('[data-ip-panel="rank"]').click()
   page.locator('#ip-rankings').evaluate('(e)=>e.scrollIntoView({block:"start"})')
   page.screenshot(path=str(OUT/'mobile-ip-ranking.png'),full_page=False)
@@ -98,6 +105,28 @@ try:
   page.screenshot(path=str(OUT/'mobile-nommi-products.png'),full_page=False)
   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
   checks.append('390px mobile ranking, example checklist, Nommi result photos and no horizontal page overflow; pass')
+  page.goto(url+'research.html',wait_until='networkidle')
+  page.wait_for_selector('#comparisonCharts .analysis-row')
+  assert page.locator('#analysisPanel .analysis-row').count()==3
+  assert 'appearances' in page.locator('#analysisPanel').inner_text()
+  page.locator('[data-analysis="demand"]').click()
+  assert page.locator('.analysis-pair').count()==8
+  page.locator('#demandSort').select_option('growth')
+  assert 'Twinkle' in page.locator('.analysis-pair>a').first.inner_text()
+  page.locator('[data-analysis="price"]').click()
+  page.locator('#chartCurrency').select_option('CNY')
+  assert 'same-item' in page.locator('#analysisPanel').inner_text()
+  page.locator('[data-analysis="coverage"]').click()
+  assert page.locator('.analysis-row').count()>6
+  assert 'not sales' in page.locator('#analysisPanel').inner_text()
+  for width in [390,1440]:
+   page.set_viewport_size({'width':width,'height':1000})
+   for tab in ['china','demand','price','coverage']:
+    page.locator('[data-analysis="'+tab+'"]').click()
+    assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),(width,tab)
+   page.locator('[data-analysis="demand"]').click()
+   page.screenshot(path=str(OUT/('analysis-'+str(width)+'.png')),full_page=True)
+  checks.append('China visibility, revenue/growth sort, currency-separated price ranges and catalog coverage charts work at 390px and 1440px')
   assert not errors,errors
   checks.append('No JavaScript page errors during tested paths')
   browser.close()
