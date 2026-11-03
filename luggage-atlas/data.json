@@ -126,7 +126,7 @@
         "product": "Carry-On",
         "market": "United States",
         "date": "2026-11-03",
-        "kind": "Product-page structured price",
+        "kind": "Displayed product price",
         "source": "https://aersf.com/products/carry-on?variant=40835750297696",
         "note": "Retrieved from official product JSON-LD; promotions and availability can change.",
         "regular": null
@@ -445,7 +445,7 @@
         "product": "The Carry-On 3 in Electric Iris",
         "market": "United States",
         "date": "2026-11-03",
-        "kind": "Product-page structured price",
+        "kind": "Displayed product price",
         "source": "https://www.awaytravel.com/products/carry-on-3-electric-iris",
         "note": "Official product JSON-LD; promotions and availability can change.",
         "regular": null
@@ -798,7 +798,7 @@
         "product": "Hue Carry-On Luggage - GLAZED BLACK",
         "market": "United States",
         "date": "2026-11-03",
-        "kind": "Product-page structured price",
+        "kind": "Displayed product price",
         "source": "https://www.calpaktravel.com/products/hue-carry-on-luggage/glazed-black",
         "note": "Retrieved from official product JSON-LD; promotions and availability can change.",
         "regular": null
@@ -896,7 +896,7 @@
         "product": "Cellini Sonic Carry On 4-Wheel Trolley Case",
         "market": "South Africa",
         "date": "2026-11-03",
-        "kind": "Product-page structured price",
+        "kind": "Displayed product price",
         "source": "https://www.celliniluggage.co.za/products/cellini-sonic-large-4-wheel-trolley-case-5?variant=42749896294518",
         "note": "Retrieved from official product JSON-LD; promotions and availability can change.",
         "regular": null
@@ -2397,7 +2397,7 @@
         "product": "Aluminum Carry-On Plus",
         "market": "United States",
         "date": "2026-11-03",
-        "kind": "Product-page structured price",
+        "kind": "Displayed product price",
         "source": "https://monos.com/products/aluminum-carry-on-plus?variant=44949490860231",
         "note": "Official product JSON-LD; promotions and availability can change.",
         "regular": null
@@ -2829,7 +2829,7 @@
         "product": "Aviator Carry-On Luggage - Newport Red",
         "market": "United States",
         "date": "2026-11-03",
-        "kind": "Product-page structured price",
+        "kind": "Displayed product price",
         "source": "https://paravel.com/products/aviator-carry-on-luggage-red?variant=57274854474108",
         "note": "Retrieved from official product JSON-LD; promotions and availability can change.",
         "regular": null
@@ -4109,7 +4109,7 @@
         "product": "VersaPack®+ Carry-On Spinner - DESERT SAGE GREEN",
         "market": "United States",
         "date": "2026-11-03",
-        "kind": "Product-page structured price",
+        "kind": "Displayed product price",
         "source": "https://travelpro.com/products/versapack%C2%AE-carry-on-expandable-softside-spinner?variant=41198078525538",
         "note": "Retrieved from official product JSON-LD; promotions and availability can change.",
         "regular": null
@@ -4470,7 +4470,7 @@
       "title": "Rodeo Check translates vintage car upholstery to metal",
       "detail": "The Pre-Merger collaboration uses debossed check patterning on aluminum luggage. Current brand collection confirms Rodeo Check variants.",
       "source": "https://monos.com/collections/aluminum",
-      "dateSource": null
+      "dateSource": "https://malakye.com/news/brand/hiconsumption/monos-built-aluminum-luggage-from-vintage-g-wagen-plaid-and-is-giving-away-the/13057"
     },
     {
       "brand": "Away",
@@ -4550,7 +4550,7 @@
       "title": "Topside moves toward compact-space packing",
       "detail": "Top opening and wheel brakes target train aisles and confined packing spaces.",
       "source": "https://www.amtrak.com/away",
-      "dateSource": null
+      "dateSource": "https://www.fastcompany.com/91539811/aways-topside-luggage-designed-for-train-travel"
     },
     {
       "brand": "RIMOWA",
@@ -4876,7 +4876,7 @@
       "product": "Carry-On",
       "market": "United States",
       "date": "2026-11-03",
-      "kind": "Product-page structured price",
+      "kind": "Displayed product price",
       "source": "https://aersf.com/products/carry-on?variant=40835750297696",
       "note": "Retrieved from official product JSON-LD; promotions and availability can change.",
       "regular": null,
@@ -4932,7 +4932,7 @@
       "product": "The Carry-On 3 in Electric Iris",
       "market": "United States",
       "date": "2026-11-03",
-      "kind": "Product-page structured price",
+      "kind": "Displayed product price",
       "source": "https://www.awaytravel.com/products/carry-on-3-electric-iris",
       "note": "Official product JSON-LD; promotions and availability can change.",
       "regular": null,
@@ -4988,7 +4988,7 @@
       "product": "Hue Carry-On Luggage - GLAZED BLACK",
       "market": "United States",
       "date": "2026-11-03",
-      "kind": "Product-page structured price",
+      "kind": "Displayed product price",
       "source": "https://www.calpaktravel.com/products/hue-carry-on-luggage/glazed-black",
       "note": "Retrieved from official product JSON-LD; promotions and availability can change.",
       "regular": null,
@@ -5016,7 +5016,7 @@
       "product": "Cellini Sonic Carry On 4-Wheel Trolley Case",
       "market": "South Africa",
       "date": "2026-11-03",
-      "kind": "Product-page structured price",
+      "kind": "Displayed product price",
       "source": "https://www.celliniluggage.co.za/products/cellini-sonic-large-4-wheel-trolley-case-5?variant=42749896294518",
       "note": "Retrieved from official product JSON-LD; promotions and availability can change.",
       "regular": null,
@@ -5310,7 +5310,7 @@
       "product": "Aluminum Carry-On Plus",
       "market": "United States",
       "date": "2026-11-03",
-      "kind": "Product-page structured price",
+      "kind": "Displayed product price",
       "source": "https://monos.com/products/aluminum-carry-on-plus?variant=44949490860231",
       "note": "Official product JSON-LD; promotions and availability can change.",
       "regular": null,
@@ -5394,7 +5394,7 @@
       "product": "Aviator Carry-On Luggage - Newport Red",
       "market": "United States",
       "date": "2026-11-03",
-      "kind": "Product-page structured price",
+      "kind": "Displayed product price",
       "source": "https://paravel.com/products/aviator-carry-on-luggage-red?variant=57274854474108",
       "note": "Retrieved from official product JSON-LD; promotions and availability can change.",
       "regular": null,
@@ -5604,7 +5604,7 @@
       "product": "VersaPack®+ Carry-On Spinner - DESERT SAGE GREEN",
       "market": "United States",
       "date": "2026-11-03",
-      "kind": "Product-page structured price",
+      "kind": "Displayed product price",
       "source": "https://travelpro.com/products/versapack%C2%AE-carry-on-expandable-softside-spinner?variant=41198078525538",
       "note": "Retrieved from official product JSON-LD; promotions and availability can change.",
       "regular": null,
@@ -6838,14 +6838,6 @@
   ],
   "groupSalesSource": "https://www.prnewswire.com/news-releases/samsonite-group-sa-announces-results-for-the-period-ended-june-30-2026-302850827.html",
   "otherSales": [
-    {
-      "brand": "Amazon Basics",
-      "metric": "Amazon recent-purchase badge",
-      "value": "6K+ bought in past month",
-      "scope": "Main product faceout for B071VG5N9D, black carry-on; rounded lower-bound badge, not exact unit sales; variants may share signals",
-      "date": "2026-11-03",
-      "source": "https://www.amazon.com/dp/B071VG5N9D"
-    },
     {
       "brand": "Mokobara",
       "metric": "Operating revenue",
