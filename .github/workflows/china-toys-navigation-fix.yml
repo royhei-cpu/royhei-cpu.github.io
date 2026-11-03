@@ -9,7 +9,7 @@ permissions:
   contents: write
   actions: write
 concurrency:
-  group: china-toys-evidence-review
+  group: china-toys-generated-writers
   cancel-in-progress: false
 jobs:
   repair:
@@ -17,6 +17,9 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -48,14 +51,10 @@ jobs:
           git add china-toys/app.js china-toys/index.html china-toys/review_publish.py china-toys/build_ip_directory.py
           if ! git diff --cached --quiet; then
             git commit -m 'Fix empty brand navigation, show selected products and keep toy-only header'
-            for attempt in 1 2 3; do
-              git pull --rebase origin main
-              git push origin HEAD:main && break
-              if [ "$attempt" = 3 ]; then exit 1; fi
-              sleep 3
-            done
+            bash .github/scripts/push-generated.sh
           fi
       - name: Publish the same catalog address
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run publish.yml --ref main
+

@@ -1,0 +1,27 @@
+name: Test China Toy Atlas maintenance
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/**'
+      - '.github/scripts/**'
+      - 'china-toys/apply_chain_coverage.py'
+      - 'china-toys/chain-coverage.json'
+      - 'china-toys/test_chain_report_consistency.py'
+permissions:
+  contents: read
+jobs:
+  offline-regressions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check syntax and maintenance regressions
+        run: |
+          bash -n .github/scripts/push-generated.sh
+          python -m py_compile china-toys/apply_chain_coverage.py china-toys/test_chain_report_consistency.py .github/scripts/test_push_generated.py .github/scripts/test_writer_workflows.py
+          python china-toys/test_chain_report_consistency.py
+          python .github/scripts/test_push_generated.py
+          python .github/scripts/test_writer_workflows.py
