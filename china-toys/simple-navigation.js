@@ -150,3 +150,6 @@ document.addEventListener('click',event=>{
  });
  explain();
 })();
+
+/* Direct entry to the consumer comparison charts. */
+(()=>{const linkAnalysis=()=>{const a=document.querySelector('#atlasBrandNav a[href="#sourcesResearch"]');if(a){a.href='research.html#comparisonCharts';a.textContent='Rankings & analysis';}};if(document.readyState==='complete')linkAnalysis();else document.addEventListener('DOMContentLoaded',()=>requestAnimationFrame(linkAnalysis),{once:true});})();
