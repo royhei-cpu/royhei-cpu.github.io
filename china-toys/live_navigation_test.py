@@ -1,79 +1,64 @@
 #!/usr/bin/env python3
-"""Read-only live smoke test. No mutations, purchases or external-store visits."""
+"""Standalone live smoke test; sparse checkout needs only this file.
 
-# The task-based workspace replaces the previous folded-dashboard layout.
-# Keep the old checks below for archived deployments; current CI exercises
-# equivalent source, persistence and responsive flows through the new navigation.
-from pathlib import Path as _WorkspacePath
-if 'window.ATLAS_WORKSPACE=' in (_WorkspacePath(__file__).resolve().parent / 'simple-navigation.js').read_text():
-    from workspace_acceptance import run as _workspace_run
-    _workspace_run('live')
-    raise SystemExit(0)
-
+Uses the published catalog for expected counts. No purchases, external-store visits
+or server-side mutations are made. Filters are exercised in an isolated browser.
+"""
 from pathlib import Path
 import json
-from playwright.sync_api import sync_playwright
+import os
+from playwright.sync_api import sync_playwright, expect, TimeoutError
 
-O=Path('/tmp/china-toys-live-navigation');O.mkdir(parents=True,exist_ok=True)
-URL='https://royhei-cpu.github.io/china-toys/?v=nav-ee381c6f8607-live-check&view=trending'
-result={'url':URL,'brand_checks':[],'shop_checks':[],'errors':[],'status':'RUNNING'}
+OUT = Path('/tmp/china-toys-live-navigation')
+OUT.mkdir(parents=True, exist_ok=True)
+URL = os.environ.get('ATLAS_TEST_URL', 'https://royhei-cpu.github.io/china-toys/?v=workspace-live-20261104')
+result = {'url': URL, 'status': 'FAILED', 'brand_checks': [], 'shop_checks': [], 'errors': []}
 try:
- with sync_playwright() as p:
-  browser=p.chromium.launch()
-  page=browser.new_page(viewport={'width':1440,'height':1000})
-  page.on('pageerror',lambda e:result['errors'].append(str(e)))
-  page.goto(URL,wait_until='domcontentloaded',timeout=60000)
-  page.wait_for_function("window.ATLAS_NAVIGATION_VERSION==='20261030-navigation-repair-1'",timeout=45000)
-  page.wait_for_selector('#brandTabs button[data-brand="TOP TOY"]')
-  result['script_version']=page.evaluate('window.ATLAS_NAVIGATION_VERSION')
-  result['title']=page.title()
-  def current_count():
-   return int(''.join(c for c in page.locator('#resultsHint').inner_text().split(' products')[0] if c.isdigit()))
-  for brand in ['TOP TOY','POP MART','52TOYS','Finding Unicorn','Heyone','TNT SPACE']:
-   page.locator('.view-tab[data-view="trending"]').click()
-   page.locator('#brandTabs button[data-brand="'+brand+'"]').click()
-   page.wait_for_timeout(120)
-   expected=page.evaluate('(b)=>window.TOY_ATLAS.products.filter(x=>x.brand===b).length',brand)
-   count=current_count()
-   assert count==expected and count>0,(brand,count,expected)
-   assert page.locator('#resultsTitle').inner_text()==brand
-   assert page.locator('.view-tab[data-view="catalog"]').get_attribute('aria-pressed')=='true'
-   assert page.locator('.product-card').count()==min(24,expected)
-   assert page.locator('#results').bounding_box()['y']<1000
-   result['brand_checks'].append({'brand':brand,'expected':expected,'actual':count,'cards':page.locator('.product-card').count(),'passed':True})
-  shops=page.locator('#retailer').evaluate('(e)=>[...e.options].filter(o=>o.value&&!o.disabled).map(o=>({id:o.value,label:o.textContent}))')
-  for shop in shops:
-   page.select_option('#retailer',shop['id'])
-   page.wait_for_timeout(80)
-   assert current_count()>0 and page.locator('.product-card').count()>0,shop
-   assert page.locator('.view-tab[data-view="catalog"]').get_attribute('aria-pressed')=='true'
-   result['shop_checks'].append({'shop':shop['label'],'count':current_count(),'passed':True})
-  page.select_option('#retailer','')
-  page.set_viewport_size({'width':390,'height':844})
-  page.locator('.view-tab[data-view="trending"]').click()
-  page.locator('#brandTabs button[data-brand="TOP TOY"]').click()
-  page.wait_for_timeout(300)
-  assert current_count()==result['brand_checks'][0]['actual']
-  assert page.locator('#results').bounding_box()['y']<844
-  assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
-  page.screenshot(path=str(O/'live-top-toy-brand-mobile.png'))
-  page.select_option('#retailer','toptoy')
-  page.wait_for_timeout(300)
-  page.wait_for_function("[...document.querySelectorAll('#catalogGrid img')].filter(e=>{const r=e.getBoundingClientRect();return r.top<innerHeight&&r.bottom>0}).every(e=>e.complete&&e.naturalWidth>0)",timeout=30000)
-  result['top_toy_store_count']=current_count()
-  page.screenshot(path=str(O/'live-top-toy-shop-mobile.png'))
-  page.locator('.product-card [data-open]').first.click()
-  page.wait_for_selector('#productDialog[open]')
-  result['opened_product']=page.locator('#detailTitle').inner_text()
-  page.locator('#closeProduct').click()
-  assert not page.locator('#productDialog').evaluate('(e)=>e.open')
-  assert page.locator('a[href*="home-care"]').count()==0
-  assert 'home care' not in page.locator('body').inner_text().lower()
-  result['home_care_removed']=True
-  result['mobile_products_and_details']='PASS at 390x844'
-  assert not result['errors'],result['errors']
-  result['status']='PASS'
-  browser.close()
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch()
+        page = browser.new_page(viewport={'width': 1440, 'height': 1080})
+        page.on('pageerror', lambda e: result['errors'].append(str(e)))
+        # A push can start this job while Pages is still publishing the same revision.
+        for attempt in range(4):
+            page.goto(URL, wait_until='domcontentloaded', timeout=60000)
+            try:
+                page.wait_for_selector('#workspaceSidebar', timeout=30000)
+                break
+            except TimeoutError:
+                if attempt == 3:
+                    raise
+        expect(page.locator('#results')).to_have_attribute('aria-busy', 'false')
+        counts = page.evaluate("Object.fromEntries((window.TOY_ATLAS.priority_brands||[]).slice(0,6).map(b=>[b,window.TOY_ATLAS.products.filter(p=>p.brand===b).length]))")
+        for brand, expected in counts.items():
+            if not expected:
+                continue
+            page.locator('#search').fill('no-product-could-match-this')
+            page.locator('#brandSelect').select_option(brand)
+            expect(page.locator('#search')).to_have_value('')
+            expect(page.locator('#resultsHint')).to_have_text(f'{expected:,} products / series')
+            result['brand_checks'].append({'brand': brand, 'records': expected})
+        page.locator('#resetFilters').click()
+        shops = page.locator('#retailer option:not([disabled])').evaluate_all('(es)=>es.map(e=>e.value).filter(Boolean)')
+        for shop in shops:
+            page.locator('#retailer').select_option(shop)
+            assert page.locator('#catalogGrid .product-card').count() > 0, shop
+            result['shop_checks'].append(shop)
+        page.locator('#resetFilters').click()
+        page.locator('.workspace-primary [data-workspace="rankings"]').click()
+        assert page.locator('#workspaceRanking tbody tr').count() == 8
+        assert 'global revenue' in page.locator('#workspaceRanking').inner_text()
+        page.locator('.workspace-primary [data-workspace="inspiration"]').click()
+        assert page.locator('.workspace-board-grid [data-board]').count() == 6
+        page.locator('.workspace-primary [data-workspace="explore"]').click()
+        page.screenshot(path=str(OUT / 'desktop-workspace.png'))
+        page.set_viewport_size({'width': 390, 'height': 844})
+        assert page.evaluate('document.documentElement.scrollWidth <= innerWidth + 1')
+        page.locator('.workspace-filter-toggle').click()
+        expect(page.locator('#currency')).to_be_visible()
+        page.screenshot(path=str(OUT / 'mobile-workspace.png'))
+        assert not result['errors'], result['errors']
+        result['status'] = 'PASSED'
+        browser.close()
 finally:
- (O/'results.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
- print('LIVE_NAVIGATION_RESULT '+json.dumps(result,ensure_ascii=False),flush=True)
+    (OUT / 'results.json').write_text(json.dumps(result, indent=2))
+    print(json.dumps(result, indent=2))

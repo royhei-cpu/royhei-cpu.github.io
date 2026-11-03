@@ -199,6 +199,7 @@ def run(scope='all'):
                 checks.append('Eighteen retail-chain tabs, MINISO assortment and preserved unknown showcase fields')
 
             if scope in ('clarity', 'review', 'all'):
+                reset()
                 page.locator('#catalogGrid .save-button').first.click()
                 nav('saved')
                 assert count() == 1
