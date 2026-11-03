@@ -6,9 +6,9 @@ Live path: https://royhei-cpu.github.io/luggage-atlas/
 
 ## This edition
 
-- 97 brand profiles across established, design-led, value, outdoor and children's travel segments.
-- 46 retail channels, each with explicit coverage status; brand stores are linked separately.
-- 65 product/collection price observations in original currencies, with model, market, price basis and date.
+- 98 brand profiles across established, design-led, value, outdoor and children's travel segments.
+- 47 retail channels, each with explicit coverage status; brand stores are linked separately.
+- 67 product/collection price observations in original currencies, with model, market, price basis and date.
 - Eight design directions and 22 dated, seasonal or year-qualified market signals.
 - 18 model-level feature records; unknown features are distinct from absent features.
 - Seven captured Yodobashi bestseller positions, plus separate Amazon and TikTok marketplace signals.
@@ -30,7 +30,7 @@ Guest themes are purposively selected, non-random qualitative accounts. Historic
 - `data.json`: readable research dataset and source URLs.
 - `data.js`: identical data assigned to `window.ATLAS` for buildless hosting.
 - `weekly.json` / `weekly.js`: weekly launch briefing, status counts, dated evidence and Open Story hypotheses. Baseline window: 28 October–3 November 2026.
-- `photos.json` / `photos.js`: 213 visually reviewed photo references across all 97 existing brand profiles, including interior references for 80 brands. This is not matched photo coverage of every priced SKU. Each photo retains its own model/collection caption and source; cross-model references are disclosed.
+- `photos.json` / `photos.js`: 250 photo references across all 98 brand profiles, including interior references for 88 brands. Of these, 35 are linked to nine reviewed priced offers, with match status and unresolved views recorded separately. This is not matched photo coverage of every priced SKU. Each photo retains its own model/collection caption and source; cross-model references are disclosed.
 - `photo-assets-*.js`: compressed source-photo previews. Original image URLs remain in the photo dataset and CSV.
 - `atlas-upgrade.js` / `upgrade.css`: weekly dashboard, photo gallery, enlarged viewer and photo exports.
 - `assets.js`: small bundled source-photo previews keyed by brand ID. Original source image URLs remain in the dataset and CSV export.
@@ -81,4 +81,14 @@ Counts and chart bars now drill into matching records. Release status, brand and
 
 ## Offer photography verification
 
-See [the 4 November photo review](PHOTO_REVIEW_2026-11-04.md) for offer-linked photos, unresolved matches and maintenance rules. Keep `photos.json` / `photos.js` synchronized and preserve `offerAudits` during weekly updates. `node test_offer_photos.cjs` checks that comparisons and exports never infer an exact match from a brand alone. The review is a proposed change pending explicit approval.
+See [the original 4 November photo review](PHOTO_REVIEW_2026-11-04.md) for the previously added 33 offer-linked photos and [the follow-up review](PHOTO_REVIEW_FOLLOWUP_2026-11-04.md) for two additional Safari details, verified identifiers, source-check limits and stricter match handling. Ryan approved publishing the follow-up on 4 November 2026. Keep `photos.json` / `photos.js` synchronized and preserve `offerAudits` during weekly updates. `node test_offer_photos.cjs` checks that comparisons and exports never infer an exact match from a brand, unknown status or different offer. Color-unverified photographs have separate CSV columns; ordinary matched-photo columns retain model/size/color matching with revision limitations disclosed.
+
+## Unified directory and Open Story design studio
+
+The default entry point now shows all 67 saved priced offers, with search, region/currency/type/photo-evidence filters, sorting, local follows and one four-offer shortlist shared with Compare & cost and the new `studio.html`. The research library keeps all previous sections available; weekly records and their update system are preserved. Following stores a local list and does not enable notifications. The photo-gap audit exports all visible offers with reviewed versus unreviewed status. A visual comparison HTML export embeds the available source photographs; CSV retains links and evidence fields.
+
+`studio.html` adds an original Blender-generated concept with shell/trim colors, three formats, compression/cube/divider interiors, front access, wet-pocket and wheel-service options, plus exterior/inside/exploded views. Traveler presets recommend a development starting point with source-linked mechanisms, trade-offs and prototype validation tasks. This is not an existing Open Story product or production CAD; dimensions are nominal design targets, and capacity, mass, cost, material grade and airline fit remain unverified.
+
+The studio exports a Markdown brief, JSON configuration, a concept-versus-shortlist CSV and a customized GLB. `models/open-story-concept.blend` is the editable base model. [The rebuild instructions](design-source/README.md) explain how the JSON configuration regenerates an editable Blender scene. Three.js 0.187.0 is vendored locally with its MIT license; rendering does not depend on a third-party CDN or API. Reference photographs remain separate from generated concept renders.
+
+Additional checks: `node test_directory.cjs`, `node test_studio.mjs`, `node test_studio_ui.cjs`. The last test uses a simulated DOM, not a rendered browser. See [the directory and studio review](DIRECTORY_STUDIO_REVIEW_2026-11-04.md) for verification and remaining gaps. Ryan approved this release for the original GitHub site on 4 November 2026. Rendered-browser verification remains incomplete as documented in the review.

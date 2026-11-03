@@ -1,0 +1,25 @@
+{
+  "blender": "5.2.2 LTS",
+  "scope": "Original Open Story development concept; not existing-product photography, production CAD, performance certification or a measured product",
+  "caseDimensionsCm": [
+    55.00000000000001,
+    36.0,
+    23.0
+  ],
+  "configuration": {},
+  "groups": [
+    "FrontShell",
+    "FrontAccess",
+    "CompressionPanel",
+    "PackingCubes",
+    "Divider",
+    "WetPocket",
+    "RepairMarkers",
+    "Wheels",
+    "Handle"
+  ],
+  "renderViews": [
+    "exterior",
+    "interior"
+  ]
+}

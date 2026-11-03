@@ -2168,13 +2168,15 @@
         "size": "20-inch Cabin Pro / 50L",
         "color": "Moon White",
         "revision": null,
-        "sku": null
+        "sku": "rover-pro-moon-white20; GTIN 8906183091625"
       },
       "evidence": {
         "type": "Official product gallery",
         "galleryAlt": "Buy RoverPro | Moon-White | Cabin Hard Luggage – Cabin Hard Luggage Online in India | Assembly",
         "visualChecked": true,
-        "imageSha256": "af1b675c207a1243b2b403776e2b286cbc63c3bfd7249016ab95cdb40c01ca23"
+        "imageSha256": "af1b675c207a1243b2b403776e2b286cbc63c3bfd7249016ab95cdb40c01ca23",
+        "identifierSource": "Official Product JSON-LD",
+        "identifierChecked": "2026-11-04"
       }
     },
     {
@@ -2194,13 +2196,15 @@
         "size": "20-inch Cabin Pro / 50L",
         "color": "Moon White",
         "revision": null,
-        "sku": null
+        "sku": "rover-pro-moon-white20; GTIN 8906183091625"
       },
       "evidence": {
         "type": "Official product gallery",
         "galleryAlt": "Buy RoverPro | Moon-White | Cabin Hard Luggage – Cabin Hard Luggage Online in India | Assembly",
         "visualChecked": true,
-        "imageSha256": "c5bdd5a283c4e341dae7eaa1b6e64d813e9d36d70ef98bb706a790452f31eac4"
+        "imageSha256": "c5bdd5a283c4e341dae7eaa1b6e64d813e9d36d70ef98bb706a790452f31eac4",
+        "identifierSource": "Official Product JSON-LD",
+        "identifierChecked": "2026-11-04"
       }
     },
     {
@@ -2220,13 +2224,15 @@
         "size": "20-inch Cabin Pro / 50L",
         "color": "Moon White",
         "revision": null,
-        "sku": null
+        "sku": "rover-pro-moon-white20; GTIN 8906183091625"
       },
       "evidence": {
         "type": "Official product gallery",
         "galleryAlt": "Buy Rover Pro Combo | Moon-White | Set of 3 Luggage – Set of 3, Cabin + Check In Hard Luggage Online in India | Assembly",
         "visualChecked": true,
-        "imageSha256": "75463d03798c40a5154b4a67d38304e536bd709943494a28b5ddb126841f5123"
+        "imageSha256": "75463d03798c40a5154b4a67d38304e536bd709943494a28b5ddb126841f5123",
+        "identifierSource": "Official Product JSON-LD",
+        "identifierChecked": "2026-11-04"
       }
     },
     {
@@ -2272,13 +2278,15 @@
         "size": "20-inch Cabin Pro / 50L",
         "color": "Moon White",
         "revision": null,
-        "sku": null
+        "sku": "rover-pro-moon-white20; GTIN 8906183091625"
       },
       "evidence": {
         "type": "Official product gallery",
         "galleryAlt": "Buy RoverPro | Moon-White | Cabin Hard Luggage – Cabin Hard Luggage Online in India | Assembly",
         "visualChecked": true,
-        "imageSha256": "04f5fa98bf3aeec44ad6f573892dfdb61206c37443d042d02bb3722641282024"
+        "imageSha256": "04f5fa98bf3aeec44ad6f573892dfdb61206c37443d042d02bb3722641282024",
+        "identifierSource": "Official Product JSON-LD",
+        "identifierChecked": "2026-11-04"
       }
     },
     {
@@ -2454,13 +2462,15 @@
         "size": "Cabin / 55cm",
         "color": "Black",
         "revision": null,
-        "sku": null
+        "sku": "AEROLITE554WBLK; GTIN 8901229199808"
       },
       "evidence": {
         "type": "Official product gallery",
         "galleryAlt": "Safari Select Aerolite Cabin Trolley Bag - Black",
         "visualChecked": true,
-        "imageSha256": "b658b695a1330b3141fb18960ec27390b40e6487dc50418b20382f82657297a9"
+        "imageSha256": "b658b695a1330b3141fb18960ec27390b40e6487dc50418b20382f82657297a9",
+        "identifierSource": "Official Product JSON-LD",
+        "identifierChecked": "2026-11-04"
       }
     },
     {
@@ -2480,13 +2490,15 @@
         "size": "Cabin / 55cm",
         "color": "Black",
         "revision": null,
-        "sku": null
+        "sku": "AEROLITE554WBLK; GTIN 8901229199808"
       },
       "evidence": {
         "type": "Official product gallery",
         "galleryAlt": "Safari Select Aerolite Cabin Trolley Bag - Black",
         "visualChecked": true,
-        "imageSha256": "2cd1cc62364acb1c3de959e49d29a1c15b271ffb0d3ce58237112be7e123ee44"
+        "imageSha256": "2cd1cc62364acb1c3de959e49d29a1c15b271ffb0d3ce58237112be7e123ee44",
+        "identifierSource": "Official Product JSON-LD",
+        "identifierChecked": "2026-11-04"
       }
     },
     {
@@ -3008,6 +3020,64 @@
         "visualChecked": true,
         "imageSha256": "d4dd61e481006d8445da5a03265e4f5f17c2675216fdc128bf54a703b3294bfe"
       }
+    },
+    {
+      "id": "offer-safari-lock-detail",
+      "brandId": "safari",
+      "offerId": "offer-39bdd129",
+      "view": "Detail",
+      "caption": "Safari Select Aerolite — Cabin / 55cm, Black: TSA lock and adjustable trolley handle detail",
+      "source": "https://safaribags.com/products/safari-select-aerolite-black-cabin-trolley-bag-with-laptop-compartment-tsa-lock-dual-wheels-and-anti-theft-zipper",
+      "imageUrl": "https://safaribags.com/cdn/shop/files/AeroliteAmazonPDP5-100_1500x.jpg?v=1743595769",
+      "localPath": "offer-photo-assets/offer-safari-lock-detail.jpg",
+      "checked": "2026-11-04",
+      "scope": "Official black Cabin product gallery, SKU AEROLITE554WBLK. Model, size and color matched. Detail photograph does not verify the open laptop compartment; revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Select Aerolite",
+        "size": "Cabin / 55cm",
+        "color": "Black",
+        "revision": null,
+        "sku": "AEROLITE554WBLK; GTIN 8901229199808"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Safari Select Aerolite Cabin Trolley Bag - Black",
+        "visualChecked": true,
+        "imageSha256": "46c53d547521a7249f84d9da06cd36034ba31260a1b2f5ae57f1f42856a39f77",
+        "originalImageSha256": "6329fa478d4735ba5049a32e0c68b7bbc9042d098fbe3891727eadea35aa77ed",
+        "identifierSource": "Official Product JSON-LD",
+        "identifierChecked": "2026-11-04"
+      }
+    },
+    {
+      "id": "offer-safari-wheel-zip-detail",
+      "brandId": "safari",
+      "offerId": "offer-39bdd129",
+      "view": "Detail",
+      "caption": "Safari Select Aerolite — Cabin / 55cm, Black: Dual-wheel and zipper close-ups",
+      "source": "https://safaribags.com/products/safari-select-aerolite-black-cabin-trolley-bag-with-laptop-compartment-tsa-lock-dual-wheels-and-anti-theft-zipper",
+      "imageUrl": "https://safaribags.com/cdn/shop/files/AeroliteAmazonPDP6-100_1500x.jpg?v=1743595769",
+      "localPath": "offer-photo-assets/offer-safari-wheel-zip-detail.jpg",
+      "checked": "2026-11-04",
+      "scope": "Official black Cabin product gallery, SKU AEROLITE554WBLK. Model, size and color matched. Detail photograph does not verify the open laptop compartment; revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Select Aerolite",
+        "size": "Cabin / 55cm",
+        "color": "Black",
+        "revision": null,
+        "sku": "AEROLITE554WBLK; GTIN 8901229199808"
+      },
+      "evidence": {
+        "type": "Official product gallery",
+        "galleryAlt": "Safari Select Aerolite Cabin Trolley Bag - Black",
+        "visualChecked": true,
+        "imageSha256": "c86e5f3dc7aae9203c056eda2063ff273fe1c140e3f4f4aa3b56c7e66732b3c3",
+        "originalImageSha256": "cd973f903f410f52b6a1ec39a3ef2bf05d5a1a6da2f4448bd3618c8b12284a38",
+        "identifierSource": "Official Product JSON-LD",
+        "identifierChecked": "2026-11-04"
+      }
     }
   ],
   "byBrand": {
@@ -3322,7 +3392,9 @@
     "safari": [
       "p132",
       "offer-safari-8",
-      "offer-safari-2"
+      "offer-safari-2",
+      "offer-safari-lock-detail",
+      "offer-safari-wheel-zip-detail"
     ],
     "samsonite": [
       "p3002",
@@ -3474,7 +3546,7 @@
         "size": "20-inch Cabin Pro / 50L",
         "color": "Moon White",
         "revision": null,
-        "sku": null
+        "sku": "rover-pro-moon-white20; GTIN 8906183091625"
       },
       "photoIds": [
         "offer-assembly-1",
@@ -3487,7 +3559,14 @@
         "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established.",
         "Main packing/organizer image is shared with the Rover Pro set gallery; the photographed size is unverified. Front laptop compartment is matched to Cabin Pro."
       ],
-      "note": "Live product page identifies the 20-inch Cabin Pro at INR 5,499; original offer and price retained. Shared-set image is separately qualified."
+      "note": "Official direct-page Product JSON-LD identifies RoverPro Moon-White Cabin, variant 42940090646581, SKU rover-pro-moon-white20, GTIN 8906183091625. Saved price observation retained. Shared-set interior remains separately qualified.",
+      "sourceRecheck": {
+        "date": "2026-11-04",
+        "method": "Direct product-page HTML",
+        "liveHtmlVerified": true,
+        "limitations": [],
+        "htmlSha256": "09a4c7eb5ffb2b172ed6f107f3ec8bb198e462646bbd037f65c3a719056b101a"
+      }
     },
     {
       "offerId": "offer-92f1aeb3",
@@ -3515,7 +3594,14 @@
       "gaps": [
         "No separate small-pocket close-up captured. Black Stingray interior marketing image on this page was excluded from the Pure Navy match."
       ],
-      "note": ""
+      "note": "",
+      "sourceRecheck": {
+        "date": "2026-11-04",
+        "method": "Direct product-page HTML",
+        "liveHtmlVerified": true,
+        "limitations": [],
+        "htmlSha256": "c2eda87bd5272da6e16cb89390e00e6398e2ea93447dc8a2151cfe19292bb3c3"
+      }
     },
     {
       "offerId": "offer-fec120e7",
@@ -3543,7 +3629,14 @@
       "gaps": [
         "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established."
       ],
-      "note": ""
+      "note": "",
+      "sourceRecheck": {
+        "date": "2026-11-04",
+        "method": "Direct product-page HTML",
+        "liveHtmlVerified": true,
+        "limitations": [],
+        "htmlSha256": "7cbdee4b521a1f928c0bc84e993eff6d42ae0ab1dd184a6471d924c36ac6769f"
+      }
     },
     {
       "offerId": "offer-39bdd129",
@@ -3561,17 +3654,26 @@
         "size": "Cabin / 55cm",
         "color": "Black",
         "revision": null,
-        "sku": null
+        "sku": "AEROLITE554WBLK; GTIN 8901229199808"
       },
       "photoIds": [
         "offer-safari-8",
-        "offer-safari-2"
+        "offer-safari-2",
+        "offer-safari-lock-detail",
+        "offer-safari-wheel-zip-detail"
       ],
       "gaps": [
         "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established.",
         "No separately verified open laptop-compartment photograph captured; the packed main interior is shown."
       ],
-      "note": ""
+      "note": "",
+      "sourceRecheck": {
+        "date": "2026-11-04",
+        "method": "Direct product-page HTML",
+        "liveHtmlVerified": true,
+        "limitations": [],
+        "htmlSha256": "3075059c79712db8f3eb4099d92f4087389d97e82274733064776563c6c2d463"
+      }
     },
     {
       "offerId": "offer-a8bb8cf6",
@@ -3601,7 +3703,16 @@
       "gaps": [
         "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established."
       ],
-      "note": ""
+      "note": "",
+      "sourceRecheck": {
+        "date": "2026-11-04",
+        "method": "Web-indexed product-page text; direct HTML unavailable",
+        "liveHtmlVerified": false,
+        "limitations": [
+          "HTTP Error 406: Not Acceptable",
+          "Indexed source content may predate this review."
+        ]
+      }
     },
     {
       "offerId": "offer-baa5a155",
@@ -3631,7 +3742,14 @@
         "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established.",
         "Saved priced offer does not specify color. Photos show Cobalt Blue STTWP8W55CBL; color linkage to the saved offer remains unverified."
       ],
-      "note": ""
+      "note": "",
+      "sourceRecheck": {
+        "date": "2026-11-04",
+        "method": "Direct product-page HTML",
+        "liveHtmlVerified": true,
+        "limitations": [],
+        "htmlSha256": "7e55b65651a97c505da28c63dcf8b1cc6ddd0228588f9ef3569f1f2e7a0b2373"
+      }
     },
     {
       "offerId": "offer-e74871e",
@@ -3660,7 +3778,14 @@
       "gaps": [
         "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established."
       ],
-      "note": ""
+      "note": "",
+      "sourceRecheck": {
+        "date": "2026-11-04",
+        "method": "Direct product-page HTML",
+        "liveHtmlVerified": true,
+        "limitations": [],
+        "htmlSha256": "d91e3fa3191190674cc428e65fcd7057fe9b273e06e31d403641a564d20a871b"
+      }
     },
     {
       "offerId": "offer-d24eb6fb",
@@ -3689,7 +3814,16 @@
       "gaps": [
         "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established."
       ],
-      "note": ""
+      "note": "",
+      "sourceRecheck": {
+        "date": "2026-11-04",
+        "method": "Web-indexed product-page text; direct HTML unavailable",
+        "liveHtmlVerified": false,
+        "limitations": [
+          "The read operation timed out",
+          "Indexed source content may predate this review."
+        ]
+      }
     },
     {
       "offerId": "offer-e1d531ef",
@@ -3718,7 +3852,16 @@
         "Revision is not stated by the source; continuity with the November 3 priced record cannot be independently established.",
         "No separate close-up of the removable liner/organization captured; the full interior shows the divider and straps."
       ],
-      "note": ""
+      "note": "",
+      "sourceRecheck": {
+        "date": "2026-11-04",
+        "method": "Web-indexed product-page text; direct HTML unavailable",
+        "liveHtmlVerified": false,
+        "limitations": [
+          "The read operation timed out",
+          "Indexed source content may predate this review."
+        ]
+      }
     }
   ],
   "offerPhotoChecked": "2026-11-04"
