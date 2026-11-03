@@ -71,6 +71,21 @@ for ip in cfg['ips']:
     ips.append({'id':ip['id'],'name':ip['name'],'records':len(ps),'product_ids':[p['id'] for p in ps],'status':'Partial assortment' if ps else 'Not yet captured'})
 brands=[{'brand':b,'records':sum(norm(p['brand'])==norm(b) for p in d['products']),'status':'Partial assortment'} for b in cfg['requested_brands']]
 coverage={'catalog_date':d['updated'],'sales_evidence_reviewed':cfg['reviewed'],'requested_brands':brands,'requested_ips':[ip for ip in ips if ip['id'] in cfg['requested_ips']],'all_character_filters':ips,'scope':'Matching product/series listings, not distinct SKUs or sales. All screenshot examples present does not imply complete China-market coverage.','ranking_source':cfg['ranking']['source']}
+# Surface known product characters that cannot be reached through a character filter.
+unrepresented={}
+for p in d['products']:
+    label=str(p.get('ip') or '').strip()
+    if not label or norm(label) in ('unknown','not documented','n/a'): continue
+    if any(match(p,ip) for ip in cfg['ips']): continue
+    row=unrepresented.setdefault(label,{'character':label,'records':0,'sample_sources':[]})
+    row['records']+=1
+    for listing in p.get('listings',[]):
+        url=listing.get('url')
+        if url and url not in row['sample_sources'] and len(row['sample_sources'])<3: row['sample_sources'].append(url)
+coverage['unrepresented_character_labels']=sorted(unrepresented.values(),key=lambda r:(-r['records'],r['character']))
+coverage['zero_result_characters']=[{'id':ip['id'],'name':ip['name']} for ip in ips if not ip['records']]
+coverage['completeness_verified']=False
+coverage['completeness_note']='Counts measure collected listings only. Missing character labels and zero-result filters require source reconciliation; no national or full-chain catalog completeness is established.'
 assert all(b['records']>0 for b in brands),'A screenshot brand has no listings'
 assert all(ip['records']>0 for ip in coverage['requested_ips']),'A screenshot IP has no listings'
 (R/'ip-coverage.json').write_text(json.dumps(coverage,ensure_ascii=False,indent=2))
