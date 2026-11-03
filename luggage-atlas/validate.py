@@ -39,3 +39,6 @@ assert [r['rank'] for r in data['ranks']] == list(range(1, 8))
 for filename in ('index.html', 'styles.css', 'hero.css', 'assets.js', 'app.js'):
     assert (ROOT / filename).stat().st_size > 0, filename
 print(f"Validated {len(ids)} brands, {len(data['prices'])} prices, {len(data['retailers'])} retailers and linked evidence.")
+
+import runpy
+runpy.run_path(str(ROOT / "validate_photos.py"))

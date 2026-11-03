@@ -9,7 +9,7 @@ Live path: https://royhei-cpu.github.io/luggage-atlas/
 - 97 brand profiles across established, design-led, value, outdoor and children's travel segments.
 - 46 retail channels, each with explicit coverage status; brand stores are linked separately.
 - 65 product/collection price observations in original currencies, with model, market, price basis and date.
-- Eight design directions and 20 dated, seasonal or year-qualified market signals.
+- Eight design directions and 22 dated, seasonal or year-qualified market signals.
 - 18 model-level feature records; unknown features are distinct from absent features.
 - Seven captured Yodobashi bestseller positions, plus separate Amazon and TikTok marketplace signals.
 - Published sales with reporting entity, period and scope retained.
@@ -29,12 +29,16 @@ Guest themes are purposively selected, non-random qualitative accounts. Historic
 
 - `data.json`: readable research dataset and source URLs.
 - `data.js`: identical data assigned to `window.ATLAS` for buildless hosting.
+- `weekly.json` / `weekly.js`: weekly launch briefing, status counts, dated evidence and Open Story hypotheses. Baseline window: 28 October–3 November 2026.
+- `photos.json` / `photos.js`: 213 visually reviewed photo references across all 97 existing brand profiles, including interior references for 80 brands. This is not matched photo coverage of every priced SKU. Each photo retains its own model/collection caption and source; cross-model references are disclosed.
+- `photo-assets-*.js`: compressed source-photo previews. Original image URLs remain in the photo dataset and CSV.
+- `atlas-upgrade.js` / `upgrade.css`: weekly dashboard, photo gallery, enlarged viewer and photo exports.
 - `assets.js`: small bundled source-photo previews keyed by brand ID. Original source image URLs remain in the dataset and CSV export.
 - `hero.css`: embedded illustrative still life. It depicts no named brand.
 - `index.html`, `styles.css`, `app.js`: responsive application, filters, shortlist comparison, profile drawer and Excel-compatible CSV exports.
 - `validate.py`: structural data integrity check.
 
-The website has no automatic research/price refresh. To update it, revisit the sources; preserve each measure's market, period and scope; revise both data formats; validate; and commit. Do not merely change the edition date. The shared GitHub Pages workflow copies this directory into the site's output.
+A weekly research task is scheduled for Monday mornings around 10:00 Asia/Shanghai, beginning 9 November 2026. The site is not a live price/stock feed; a successful research run must update the checked date and preserve earlier editions. To update it, revisit the sources; preserve each measure's market, period and scope; revise both data formats; validate; and commit. Do not merely change the edition date. The shared GitHub Pages workflow copies this directory into the site's output.
 
 Product and campaign photos belong to their respective brands/retailers. Their source links are retained. The opening image is an AI-generated editorial illustration and is labeled as such on the website.
 
