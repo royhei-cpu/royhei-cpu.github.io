@@ -34,11 +34,13 @@ def check_retail(page, context, out):
     assert page.evaluate('window.ATLAS_RETAIL.getState().items[0].display') == 'hanger'
     page.locator('.retail-appearance summary').click()
     page.locator('#retailTheme').select_option('wood')
-    page.locator('#retailPlanCurrency').select_option('CNY')
+    expect(page.locator('#retailPlanCurrency')).to_have_value('USD')
+    expect(page.locator('#retailPlanCurrency')).to_have_attribute('readonly', '')
     page.locator('.retail-appearance summary').click()
     page.locator('#retailSourceRetailer').select_option('shop:52toys')
     assert page.evaluate('window.ATLAS_RETAIL.getState().items.length') == 1
     page.locator('#retailStarter').click()
+    assert page.evaluate('''() => {const D=window.ATLAS_RETAIL_DATA,p=D.newPlan();p.config.currency='HKD';p.items=[{uid:'fx',id:'target-rms-dumpling',ticket:65}];const x=D.validate(p,['target-rms-dumpling']);const y=D.validate(x,['target-rms-dumpling']);return x.config.currency==='USD'&&x.items[0].ticket===8.28&&x.items[0].originalTicket.currency==='HKD'&&y.items[0].ticket===8.28}''')
     original = page.evaluate('window.ATLAS_RETAIL.getState()')
     assert len(original['items']) == 12
     assert page.evaluate('window.ATLAS_RETAIL.getSceneStats().products') == 12
@@ -103,6 +105,8 @@ def check_retail(page, context, out):
     assert next(r for r in rows if r['Product ID'] == 'target-mofusand-clip')['Reference URL'].startswith('https://www.target.com/p/')
     selected_offer=next(r for r in rows if r['Product ID']=='cda530057d017fb2' and r['Selected retailer key']=='shop:52toys')
     assert selected_offer['Reference currency']=='USD' and float(selected_offer['Reference price (original currency)'])==9.99
+    converted_row=next(r for r in rows if r['Product ID']=='b4d02b231d54bcfc')
+    assert converted_row['Reference currency']=='HKD' and abs(float(converted_row['Reference price USD'])-8.284517)<.001 and converted_row['FX date']
     custom_rows = [r for r in rows if r['Brand'] == 'My shop']
     assert custom_rows and custom_rows[0]['Product / series'].startswith("'=QA")
     glb = download('#retailGLB', 'retail-plan.glb')
@@ -116,6 +120,11 @@ def check_retail(page, context, out):
     assert len(lines) == len(parsed['items'])
     assert all('dimensions' in n['extras'] for n in lines)
     exact=next(n['extras'] for n in lines if n['extras'].get('retailerKey')=='shop:52toys')
+    converted=next(n['extras'] for n in lines if n['extras'].get('atlasProductId')=='b4d02b231d54bcfc')
+    assert converted['referenceCurrency']=='HKD' and converted['referencePrice']==65
+    assert abs(converted['referencePriceUSD']-8.284517)<.001 and converted['referenceIsConverted']
+    assert any('Cow-print bun' in n.get('name','') for n in document['nodes'])
+    assert any('Reviewed source packaging' in n.get('name','') for n in document['nodes'])
     assert exact['referenceCurrency']=='USD' and exact['referencePrice']==9.99 and exact['sourceURL'].startswith('https://')
     page.locator('#retailImport').set_input_files(str(plan))
     expect(page.locator('#retailMessage')).to_contain_text('Opened your saved aisle')
@@ -143,4 +152,4 @@ def check_retail(page, context, out):
     page.set_viewport_size({'width': 1440, 'height': 1080})
     # Leave clean planner state for subsequent suite sections.
     page.locator('#retailStarter').click()
-    return 'Retail: blind-box/squishy scope, retailer library, exact source persistence and switching, display format, finish/currency, selection, facings/tickets, move, undo/redo, custom concept, JSON restore, CSV, source-linked GLB textures, nonblank PNG, 3 responsive layouts'
+    return 'Retail: blind-box/squishy scope, USD-only prices and saved-plan FX migration, source packaging UVs and squishy geometry, retailer library, exact source persistence and switching, display format, finish/currency, selection, facings/tickets, move, undo/redo, custom concept, JSON restore, CSV, source-linked GLB textures, nonblank PNG, 3 responsive layouts'

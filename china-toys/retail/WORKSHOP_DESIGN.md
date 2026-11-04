@@ -89,3 +89,47 @@ used the Codex in-app browser through CUA; existing Playwright CLI acceptance
 scripts supplied automated regression and download checks. Tested Chromium only.
 The environment is generic artwork; packs remain dimension estimates, and dated
 shop/chain observations do not claim present-day store inventory.
+
+## USD and physical scene revision · 4 November 2026
+
+This revision responds to the request for USD and a more credible retail scene.
+The atlas tokens, navigation, retailer chooser and inspector remain consistent.
+The new concept reference is `exec-d66ae3be-7e6c-41fc-bee7-1615b6295350.png`.
+The concept and actual 1600 × 1100 browser capture were viewed together after
+implementation. The concept is a direction reference, not a promised photograph.
+
+| Reference point | Implemented result and deliberate differences |
+| --- | --- |
+| White retail fixture with red fascia | Editable metal fixture, rounded edges, brackets, pegboard and clean sans-serif fascia. |
+| Credible printed cartons | Four reviewed source photos have independently mapped front, right and top faces. Real source artwork replaces the concept's invented artwork. Other products use source-photo presentation packs. |
+| Mixed shelf heights and stock density | Four rows, three bays and vertical stock stacking in the revised starter. Existing plans retain their selections and editable dimensions. |
+| Squishy merchandise in trays | Clear trays with illustrative cow-print bun and confetti dumpling shape studies. They are not scanned SKU models. Other squishies retain source-photo references. |
+| Consistent architectural perspective | Native floor, wall, skirting, pillars and ceiling replace the photographic backdrop seam. Architecture remains intentionally neutral. |
+| Softer lighting and contact | CC0 Studio Small 09 HDR environment, area lighting, contact shadows and optional progressive studio rendering. The fast interactive preview remains the default. |
+| USD shelf labels and inspector | All displayed prices, sorting, planned tickets and labels use USD. Converted reference prices carry ≈. The concept's illustrative prices are replaced with captured amounts. |
+| Retailer selection above scene | Real source identities and counts, source-aware library and per-item source switching. Workshop scope is 4,414 records: 4,347 catalog records, 65 chain references and two benchmarks. |
+
+USD reference conversions use the official ECB snapshot dated 2026-11-03.
+Original currency, amount, source URL and pack basis remain in evidence and
+exports. For example, HKD 65 displays as approximately USD 8.28. Old saved plans
+migrate planned tickets to rounded USD exactly once, retaining original-ticket
+metadata. An unavailable rate does not relabel the source amount as USD.
+The publish workflow refreshes rates and retains the last honestly dated snapshot
+if the ECB endpoint is unavailable.
+
+Verification: the full workspace suite passed, including browse, compare,
+rankings, chains, saved collection and inspiration. Expanded retail checks passed
+for USD, one-time legacy-plan migration, exact source identity, JSON/CSV/GLB,
+nonblank PNG and 1440/847/390px layouts, without application JavaScript errors.
+Blender 5.2.2 LTS imported the textured GLB, retained original and USD metadata,
+packed 28 images and saved an editable scene. The helper uses Cycles, denoising,
+AgX, area lights and a perspective camera. Manual Chromium review exercised the
+optional studio renderer through its 256-sample completion. Dependency deprecation
+warnings remain; optional rendering also depends on the device's WebGL support.
+
+Remaining fidelity limits: carton dimensions are editable estimates, only four
+packaging profiles have reviewed face mapping, hanging merchandise uses image
+cards, and the two loose squishy studies approximate shape and material. The
+progressive preview is not a final production photograph; Blender exports allow
+further geometry, material and lighting work. No exact scanned toy meshes or
+verified current store inventory are claimed.

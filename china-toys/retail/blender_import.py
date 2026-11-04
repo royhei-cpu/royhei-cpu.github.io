@@ -38,25 +38,33 @@ for image in images:
         image.pack()
 scene.unit_settings.system = "METRIC"
 scene.world = bpy.data.worlds.new("Atlas studio world")
-scene.world.color = (0.7, 0.7, 0.7)
+scene.world.use_nodes = True
+background = scene.world.node_tree.nodes.get("Background")
+background.inputs["Color"].default_value = (0.82, 0.85, 0.86, 1)
+background.inputs["Strength"].default_value = 0.35
+scene.render.engine = "CYCLES"
+scene.cycles.samples = 64
+scene.cycles.use_denoising = True
+scene.view_settings.view_transform = "AgX"
 scene["Atlas note"] = "Retail concept. Product photos on estimated display packs. Planned tickets are user assumptions. Not a Target planogram."
 camera_data = bpy.data.cameras.new("Atlas aisle camera")
 camera = bpy.data.objects.new("Atlas aisle camera", camera_data)
 collection.objects.link(camera)
-camera.location = (2.1, -5.6, 2.9)
+camera.location = (2.0, -5.7, 2.2)
 camera.rotation_euler = (Vector((0, 0, 1.1)) - camera.location).to_track_quat("-Z", "Y").to_euler()
-camera_data.type = "ORTHO"
-camera_data.ortho_scale = 4.8
+camera_data.type = "PERSP"
+camera_data.lens = 48
 scene.camera = camera
 for name, location, energy, size in [("Atlas soft key", (-3, -4, 6), 1100, 5),
-                                     ("Atlas fill", (4, -1, 4), 650, 4)]:
+                                     ("Atlas fill", (4, -1, 4), 650, 4),
+                                     ("Atlas overhead", (0, 0, 4), 900, 3)]:
     light_data = bpy.data.lights.new(name, "AREA")
     light_data.energy, light_data.shape, light_data.size = energy, "DISK", size
     light = bpy.data.objects.new(name, light_data)
     collection.objects.link(light)
     light.location = location
     light.rotation_euler = (Vector((0, 0, 1)) - light.location).to_track_quat("-Z", "Y").to_euler()
-scene.render.resolution_x, scene.render.resolution_y = 1440, 1000
+scene.render.resolution_x, scene.render.resolution_y = 1920, 1440
 scene.render.resolution_percentage = 100
 if imported:
     for area in bpy.context.screen.areas if bpy.context.screen else []:

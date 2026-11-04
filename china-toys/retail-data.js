@@ -67,23 +67,26 @@ function score(p,brief={}){
  return {total,parts:{format,value,facts,stock,audience},offer:o,gaps,reason:/Squishy/.test(p.category)?'Tactile entry-price idea; test durability and handling.':/plush/.test(p.category)?'Portable gifting and character discovery; verify attachment quality.':/dolls/.test(p.category)?'Character-led gifting; give the story room on shelf.':'Small collectible footprint; keep age and blind-box terms visible.'};
 }
 function defaults(p){return /plush/.test(p.category)?{width:16,height:24,packDepth:14}:/Squishy/.test(p.category)?{width:13,height:14,packDepth:12}:{width:12,height:18,packDepth:10}}
-const newPlan=()=>({version:1,config:{title:'Little discoveries',retailer:'Target-inspired',sourceRetailer:'',theme:'bright',currency:'USD',color:'#cc3937',bays:3,shelves:4,bayWidth:120,maxTicket:20,audience:'collector'},items:[],customs:[],selected:null,shelf:{bay:0,row:1}});
+const newPlan=()=>({version:1,config:{title:'Little discoveries',retailer:'Target-inspired',sourceRetailer:'',theme:'bright',visualVersion:3,currency:'USD',color:'#cc3937',bays:3,shelves:4,bayWidth:120,maxTicket:20,audience:'collector'},items:[],customs:[],selected:null,shelf:{bay:0,row:1}});
 function validate(raw,ids){
  if(!raw||raw.version!==1||!raw.config||!Array.isArray(raw.items))throw new Error('Choose an Atlas retail plan JSON file (version 1).');
  const n=newPlan(),c=raw.config;
  n.config={...n.config,title:String(c.title||n.config.title).slice(0,60),retailer:c.retailer==='My retail'?'My retail':'Target-inspired',color:/^#[0-9a-f]{6}$/i.test(c.color)?c.color:n.config.color,bays:Math.max(1,Math.min(4,Math.round(Number(c.bays)||3))),shelves:Math.max(3,Math.min(5,Math.round(Number(c.shelves)||4))),bayWidth:[90,120].includes(Number(c.bayWidth))?Number(c.bayWidth):120,maxTicket:Math.max(1,Math.min(500,Number(c.maxTicket)||20)),audience:c.audience==='family'?'family':'collector'};
  n.config.sourceRetailer=/^(shop|chain):[\w-]+$/.test(c.sourceRetailer||'')?c.sourceRetailer:'';
  n.config.theme=['bright','wood','dark'].includes(c.theme)?c.theme:'bright';
- n.config.currency=['USD','CNY','HKD','JPY','EUR','GBP'].includes(c.currency)?c.currency:'USD';
+ n.config.currency='USD';
  n.customs=(raw.customs||[]).slice(0,30).filter(p=>eligible(p)&&/^custom-[\w-]+$/.test(p.id)&&p.name).map(p=>({id:p.id,name:String(p.name).slice(0,180),brand:String(p.brand||'My product').slice(0,80),category:categories.includes(p.category)?p.category:categories[0],image:/^data:image\/(png|jpeg|webp);base64,/.test(p.image||'')&&p.image.length<180000?p.image:'',details:{},listings:[],custom:true}));
  const known=new Set([...ids,...n.customs.map(p=>p.id)]),used=new Set();
  for(const item of raw.items.slice(0,120)){
   if(!known.has(item.id)||used.has(item.uid)||typeof item.uid!=='string')continue;
   const i={uid:item.uid.slice(0,80),id:item.id,bay:Math.max(0,Math.min(n.config.bays-1,Math.round(Number(item.bay)||0))),row:Math.max(0,Math.min(n.config.shelves-1,Math.round(Number(item.row)||0))),facings:Math.max(1,Math.min(12,Math.round(Number(item.facings)||1))),depth:Math.max(1,Math.min(6,Math.round(Number(item.depth)||1))),width:Math.max(3,Math.min(90,Number(item.width)||12)),height:Math.max(3,Math.min(70,Number(item.height)||18)),packDepth:Math.max(3,Math.min(50,Number(item.packDepth)||10)),ticket:item.ticket===null||item.ticket===''?null:Math.max(0,Math.min(9999,Number(item.ticket)||0))};
-  i.display=['box','hanger'].includes(item.display)?item.display:'box';
+  if(i.ticket!==null&&c.currency&&c.currency!=='USD'){const converted=window.ATLAS_USD.convert(i.ticket,c.currency);i.ticket=converted===null?null:Math.round(converted*100)/100;i.originalTicket={amount:item.ticket,currency:c.currency,fxDate:window.ATLAS_USD.fx.date}}else if(item.originalTicket)i.originalTicket=item.originalTicket;
+  i.stacked=typeof item.stacked==='boolean'?item.stacked:true;
+  i.display=['box','hanger','tray'].includes(item.display)?item.display:'box';
   i.retailerKey=/^(shop|chain):[\w-]+$/.test(item.retailerKey||'')?item.retailerKey:'';
   i.offerUrl=/^https?:\/\//.test(item.offerUrl||'')?String(item.offerUrl).slice(0,2048):'';
   i.offerVariant=String(item.offerVariant||'').slice(0,250);
+  if(c.visualVersion!==3){if(['target-rms-dumpling','b4d02b231d54bcfc'].includes(i.id))i.display='tray';else if(window.ATLAS_RETAIL_PACKS?.[i.id])i.display='box'}
   n.items.push(i);used.add(i.uid);
  }
  n.selected=n.items.some(i=>i.uid===raw.selected)?raw.selected:n.items[0]?.uid||null;

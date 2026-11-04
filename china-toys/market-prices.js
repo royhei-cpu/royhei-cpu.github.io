@@ -1,9 +1,9 @@
-/* Dated market asking-price evidence. No estimated or converted prices. */
+/* Dated market asking-price evidence. Original source groups are preserved; USD presentation uses dated reference rates. */
 (() => {
 'use strict';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const cash=(n,c)=>`${c} ${Number(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})}`;
-const range=g=>g.low===g.high?cash(g.low,g.currency):`${cash(g.low,g.currency)}–${Number(g.high).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})}`;
+const cash=(n,c)=>n==null?'—':window.ATLAS_USD.format(n,c);
+const range=g=>g.low===g.high?cash(g.low,g.currency):`${cash(g.low,g.currency)}–${cash(g.high,g.currency)}`;
 const groups=p=>p.market_prices?.groups||[];
 const selected=(p,l)=>groups(p).find(g=>g.offers.some(o=>o.url===l?.url&&o.variant===l?.variant));
 const note=g=>`${g.market} · ${g.basis} · ${g.listing_count} listing${g.listing_count===1?'':'s'} / ${g.shop_count} shop${g.shop_count===1?'':'s'}`;

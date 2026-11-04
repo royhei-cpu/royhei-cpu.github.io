@@ -1,7 +1,16 @@
 {
   "private": true,
   "type": "module",
-  "scripts": {"build": "esbuild scene.js --bundle --minify --format=esm --outfile=../retail-scene.js --legal-comments=eof"},
-  "dependencies": {"three": "0.187.0"},
-  "devDependencies": {"esbuild": "0.28.2"}
+  "scripts": {
+    "build": "esbuild scene.js --bundle --minify --format=esm --outfile=../retail-scene.js --legal-comments=eof && node normalize_bundle.mjs"
+  },
+  "dependencies": {
+    "three": "0.185.0",
+    "three-gpu-pathtracer": "0.0.27",
+    "three-mesh-bvh": "0.9.18",
+    "xatlas-web": "0.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
 }
