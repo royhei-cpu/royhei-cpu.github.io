@@ -1,10 +1,10 @@
 {
-  "catalog_date": "2026-11-03",
+  "catalog_date": "2026-11-04",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
       "brand": "POP MART",
-      "records": 203,
+      "records": 204,
       "status": "Partial assortment"
     },
     {
@@ -14,7 +14,7 @@
     },
     {
       "brand": "52TOYS",
-      "records": 123,
+      "records": 126,
       "status": "Partial assortment"
     },
     {
@@ -169,6 +169,7 @@
       "records": 15,
       "product_ids": [
         "07c9e603bca825ac",
+        "cc516edf86d6a350",
         "0fc084ba59ef267e",
         "9042297eb908d168",
         "562b819f14572fc7",
@@ -180,7 +181,6 @@
         "ca779f08a8d93a13",
         "98d77546364454b8",
         "60bcd09f6a456d57",
-        "cc516edf86d6a350",
         "8922be49a7a071c1",
         "a7e1ddd8ef26f97f"
       ],
@@ -189,7 +189,7 @@
     {
       "id": "nommi",
       "name": "Nommi / 糯米儿",
-      "records": 83,
+      "records": 84,
       "product_ids": [
         "bb4961c84498f50b",
         "af9b85a45ced5ebb",
@@ -215,16 +215,15 @@
         "e6782656fbee3528",
         "02d0a0c8e5ac681e",
         "e4ff163f88e9b373",
-        "c0cda6ba0b21939b",
         "4c50ee1bcc91ab0c",
         "316c1f384a7d64e2",
         "70eca319c4ffe2ab",
         "b548757a9f4a0fa8",
+        "55dd089aff6c8c51",
         "8c65c568c4ad9dce",
         "429569e256cf6d5e",
         "15126baacb8a5b7a",
         "234f4161d8a4d6e5",
-        "81b21408898ad315",
         "4b2db05d07ad2869",
         "2faf62f5a9060f90",
         "5d5e4150202d88b6",
@@ -273,6 +272,8 @@
         "8db2bbf10c5c17e6",
         "ebe4377834f128cd",
         "c695dd2c7a4289f7",
+        "c0cda6ba0b21939b",
+        "81b21408898ad315",
         "9eb8d6c4fa1a2560"
       ],
       "status": "Partial assortment"
@@ -448,6 +449,7 @@
       "records": 15,
       "product_ids": [
         "07c9e603bca825ac",
+        "cc516edf86d6a350",
         "0fc084ba59ef267e",
         "9042297eb908d168",
         "562b819f14572fc7",
@@ -459,7 +461,6 @@
         "ca779f08a8d93a13",
         "98d77546364454b8",
         "60bcd09f6a456d57",
-        "cc516edf86d6a350",
         "8922be49a7a071c1",
         "a7e1ddd8ef26f97f"
       ],
@@ -468,7 +469,7 @@
     {
       "id": "nommi",
       "name": "Nommi / 糯米儿",
-      "records": 83,
+      "records": 84,
       "product_ids": [
         "bb4961c84498f50b",
         "af9b85a45ced5ebb",
@@ -494,16 +495,15 @@
         "e6782656fbee3528",
         "02d0a0c8e5ac681e",
         "e4ff163f88e9b373",
-        "c0cda6ba0b21939b",
         "4c50ee1bcc91ab0c",
         "316c1f384a7d64e2",
         "70eca319c4ffe2ab",
         "b548757a9f4a0fa8",
+        "55dd089aff6c8c51",
         "8c65c568c4ad9dce",
         "429569e256cf6d5e",
         "15126baacb8a5b7a",
         "234f4161d8a4d6e5",
-        "81b21408898ad315",
         "4b2db05d07ad2869",
         "2faf62f5a9060f90",
         "5d5e4150202d88b6",
@@ -552,6 +552,8 @@
         "8db2bbf10c5c17e6",
         "ebe4377834f128cd",
         "c695dd2c7a4289f7",
+        "c0cda6ba0b21939b",
+        "81b21408898ad315",
         "9eb8d6c4fa1a2560"
       ],
       "status": "Partial assortment"
@@ -593,12 +595,13 @@
     {
       "id": "twinkle-twinkle",
       "name": "Twinkle Twinkle / 星星人",
-      "records": 10,
+      "records": 11,
       "product_ids": [
         "f255adb57cf7838d",
         "0e7029a8b60f4e79",
         "c0b0ed7c4ad35aca",
         "e8944d990eab4d0d",
+        "42fd2ea8df0cc34d",
         "0673e80c4ef7257b",
         "f2a21fc9a8319033",
         "25883b4f5b30a725",
@@ -1234,7 +1237,6 @@
         "964ff60855ae2ebe",
         "e3f2ea3a4ef79ac5",
         "aa0f37f1f6e30387",
-        "575dce5f1d68f766",
         "e45ba49c22493e7c",
         "98aa74a49a717a82",
         "5d37371f1f9be0ca",
@@ -1244,7 +1246,8 @@
         "0567de55d49f5288",
         "14b1fa0c4bfe05ee",
         "d1bc76cda536a3d7",
-        "9706d5ba199927ff"
+        "9706d5ba199927ff",
+        "575dce5f1d68f766"
       ],
       "status": "Partial assortment"
     },
@@ -1257,8 +1260,8 @@
         "9c50c3e10a0762b9",
         "429569e256cf6d5e",
         "8344916aa0fcf1bc",
-        "81b21408898ad315",
-        "12b28b78b5197139"
+        "12b28b78b5197139",
+        "81b21408898ad315"
       ],
       "status": "Partial assortment"
     },
@@ -1407,7 +1410,7 @@
     {
       "id": "zootopia",
       "name": "Zootopia",
-      "records": 18,
+      "records": 19,
       "product_ids": [
         "cd32d7bd10389b6f",
         "3f535eb98fff8e58",
@@ -1416,7 +1419,6 @@
         "de841ac4dc6c383a",
         "02d0a0c8e5ac681e",
         "e4ff163f88e9b373",
-        "c0cda6ba0b21939b",
         "4c50ee1bcc91ab0c",
         "5102d48578b49d7c",
         "f9145c02ccb6b519",
@@ -1424,9 +1426,11 @@
         "6b1836548186d165",
         "3e495bdb0ec09710",
         "d944b8c131a1f2c7",
+        "55dd089aff6c8c51",
         "8c65c568c4ad9dce",
         "2c5f54bc0435a640",
-        "7198b87c2455e2dd"
+        "7198b87c2455e2dd",
+        "c0cda6ba0b21939b"
       ],
       "status": "Partial assortment"
     },
@@ -1435,11 +1439,11 @@
       "name": "Chiikawa",
       "records": 6,
       "product_ids": [
-        "72cd90b800079520",
         "71f6d1bb0c35490b",
         "2bb6ac2a69572fae",
         "613be99fb5fefa9c",
         "6b5fc72ee833213d",
+        "72cd90b800079520",
         "db4ec6a61e71984b"
       ],
       "status": "Partial assortment"
@@ -1530,21 +1534,22 @@
         "cf7070a0691ec525",
         "3007006b2be44c6a",
         "494a83fc0c934464",
-        "3b89b8d80c2a425f",
         "5fcf16292433379b",
         "1047452cc94b2a88",
         "e1b2955d398deb65",
-        "7c095bcfda6a94f0"
+        "7c095bcfda6a94f0",
+        "3b89b8d80c2a425f"
       ],
       "status": "Partial assortment"
     },
     {
       "id": "ghody",
       "name": "GHODY",
-      "records": 5,
+      "records": 6,
       "product_ids": [
         "1767357fed62071b",
         "3afc1ff0cbe2cbe8",
+        "9549ac448570a234",
         "2791e1bf91343881",
         "08d878f1b8b18c25",
         "34588dd892159ddf"
@@ -2086,7 +2091,7 @@
     },
     {
       "character": "Joy",
-      "records": 17,
+      "records": 18,
       "sample_sources": [
         "https://www.kikagoods.com/products/zzoton-little-countryside-joys-series-mini-blind-box",
         "https://toybeta.com/products/zzoton-winters-small-joys-series-plush-blind-box",
@@ -2097,9 +2102,9 @@
       "character": "MR.PA",
       "records": 16,
       "sample_sources": [
-        "https://www.kikagoods.com/products/mr-pa-dinosaur-paradise-series-plush-blind-box",
         "https://www.kikagoods.com/products/mr-pa-no-work-today-series-blind-box",
-        "https://www.kikagoods.com/products/mr-pa-warm-hug-series-plush-blind-box"
+        "https://www.kikagoods.com/products/mr-pa-warm-hug-series-plush-blind-box",
+        "https://toybeta.com/products/mr-pa-warm-hug-series-plush-blind-box"
       ]
     },
     {
