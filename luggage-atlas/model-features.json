@@ -6509,6 +6509,478 @@
       "featureCount": 1,
       "format": "Collection / multiple sizes",
       "photoScope": "Model / collection source reference; exact variant not independently matched."
+    },
+    {
+      "id": "research-lojel-cubo",
+      "brandId": "lojel",
+      "brand": "LOJEL",
+      "model": "Cubo · flat-top access and wheel repair",
+      "source": "https://us.lojel.com/luggage/cubo/",
+      "checked": "2026-11-04",
+      "scope": "Official model or product-family source; claims are not independently performance-tested. Confirm size and revision.",
+      "image": "studio-reference-assets/lojel.jpg",
+      "gallery": [],
+      "features": {
+        "opening": {
+          "value": "Flat-top opening for access in tight spaces",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "expansion": {
+          "value": "Expandable body",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "repair": {
+          "value": "Replaceable wheels; brand publishes Cubo wheel repair instructions",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 3,
+      "region": "Asia",
+      "market": "Japan",
+      "aliases": [],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
+    },
+    {
+      "id": "research-briggs-baseline",
+      "brandId": "briggs-riley",
+      "brand": "Briggs & Riley",
+      "model": "Baseline Essential 22-inch · CX and Outsider",
+      "source": "https://www.briggs-riley.com/products/essential-carry-on-spinner",
+      "checked": "2026-11-04",
+      "scope": "Official model or product-family source; claims are not independently performance-tested. Confirm size and revision.",
+      "image": null,
+      "gallery": [],
+      "features": {
+        "compression": {
+          "value": "CX expansion and compression system",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "expansion": {
+          "value": "CX expansion",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "handle": {
+          "value": "External Outsider handle keeps the packing floor flat",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "organization": {
+          "value": "Flat packing floor without interior trolley ridges",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 4,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
+    },
+    {
+      "id": "research-muji-stopper",
+      "brandId": "muji",
+      "brand": "MUJI",
+      "model": "Adjustable Handle Hard Shell Suitcase · 36 L",
+      "source": "https://www.muji.us/products/adjustable-handle-hard-shell-suitcase-36l-carry-on-eee45a5a",
+      "checked": "2026-11-04",
+      "scope": "Official model or product-family source; claims are not independently performance-tested. Confirm size and revision.",
+      "image": null,
+      "gallery": [],
+      "features": {
+        "brake": {
+          "value": "Rear button locks two wheels",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "handle": {
+          "value": "Handle adjusts in 1 cm increments",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "wheels": {
+          "value": "Twin 360° caster wheels; quiet-running claim",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "capacity": {
+          "value": "36 L",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "lock": {
+          "value": "TSA-compatible lock",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 5,
+      "region": "Asia",
+      "market": "Japan",
+      "aliases": [],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
+    },
+    {
+      "id": "research-travelpro-platinum",
+      "brandId": "travelpro",
+      "brand": "Travelpro",
+      "model": "Platinum Elite 21-inch · PrecisionGlide",
+      "source": "https://travelpro.com/collections/carry-on-luggage/products/platinum%C2%AE-elite-21-expandable-carry-on-spinner",
+      "checked": "2026-11-04",
+      "scope": "Official model or product-family source; claims are not independently performance-tested. Confirm size and revision.",
+      "image": null,
+      "gallery": [],
+      "features": {
+        "wheels": {
+          "value": "MagnaTrac self-aligning twin spinner wheels",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "handle": {
+          "value": "Four-stop PowerScope handle with contoured grip",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 2,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
+    },
+    {
+      "id": "research-july-trunk",
+      "brandId": "july",
+      "brand": "July",
+      "model": "Carry On Trunk · latch frame and ejectable battery",
+      "source": "https://july.com/us/luggage/carry-on-trunk/",
+      "checked": "2026-11-04",
+      "scope": "Official model or product-family source; claims are not independently performance-tested. Confirm size and revision.",
+      "image": null,
+      "gallery": [],
+      "features": {
+        "opening": {
+          "value": "Zipperless latch closure",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "frame": {
+          "value": "Anodized aluminum frame",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "material": {
+          "value": "Polycarbonate shell",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "charging": {
+          "value": "Ejectable battery with USB-C",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "handle": {
+          "value": "20-height telescopic handle",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "organization": {
+          "value": "Hidden laundry bag",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "compression": {
+          "value": "Y-strap compression",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "wheels": {
+          "value": "SilentMove twin spinner wheels",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "lock": {
+          "value": "Two integrated TSA latch locks",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 9,
+      "region": "Oceania",
+      "market": "Australia",
+      "aliases": [],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
+    },
+    {
+      "id": "research-solgaard-closet",
+      "brandId": "solgaard",
+      "brand": "Solgaard",
+      "model": "Carry-On Closet · five-shelf packing system",
+      "source": "https://solgaard.co/products/carry-on-closet",
+      "checked": "2026-11-04",
+      "scope": "Official model or product-family source; claims are not independently performance-tested. Confirm size and revision.",
+      "image": null,
+      "gallery": [],
+      "features": {
+        "organization": {
+          "value": "Removable five-shelf hanging closet organizer",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "compression": {
+          "value": "Compressible shelving system",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "material": {
+          "value": "Polycarbonate shell",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "charging": {
+          "value": "Integrated USB port; confirm battery requirements",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 4,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
+    },
+    {
+      "id": "research-rollink-flex",
+      "brandId": "rollink",
+      "brand": "Rollink",
+      "model": "Flex 360 · foldable spinner",
+      "source": "https://rollinkusa.com/products/flex-360-foldable-suitcase",
+      "checked": "2026-11-04",
+      "scope": "Official model or product-family source; claims are not independently performance-tested. Confirm size and revision.",
+      "image": null,
+      "gallery": [],
+      "features": {
+        "folding": {
+          "value": "Foldable body for compact storage",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "wheels": {
+          "value": "360° spinner wheels",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 2,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
+    },
+    {
+      "id": "research-maimo-repair",
+      "brandId": "maimo",
+      "brand": "MAIMO",
+      "model": "COLOR YOU · replaceable caster system",
+      "source": "https://maimo-travel.com/pages/faq",
+      "checked": "2026-11-04",
+      "scope": "Official model or product-family source; claims are not independently performance-tested. Confirm size and revision.",
+      "image": null,
+      "gallery": [],
+      "features": {
+        "repair": {
+          "value": "Wheel replacement using a hex wrench; brand publishes removal and installation steps",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "organization": {
+          "value": "Hex-wrench storage pocket behind the upper lining",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 2,
+      "region": "Asia",
+      "market": "Japan",
+      "aliases": [],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
+    },
+    {
+      "id": "research-tuplus-balance",
+      "brandId": "tuplus",
+      "brand": "TUPLUS",
+      "model": "Balance · central wide handle",
+      "source": "https://tuplus.com/products/tuplus-balance-suitcase",
+      "checked": "2026-11-04",
+      "scope": "Official model or product-family source; claims are not independently performance-tested. Confirm size and revision.",
+      "image": null,
+      "gallery": [],
+      "features": {
+        "handle": {
+          "value": "Central wide handle",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "wheels": {
+          "value": "Spinner wheels",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 2,
+      "region": "Asia",
+      "market": "International",
+      "aliases": [],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
+    },
+    {
+      "id": "research-beis-indicator",
+      "brandId": "beis",
+      "brand": "BÉIS",
+      "model": "Carry-On Roller · mechanical weight indicator",
+      "source": "https://beistravel.com/products/the-carry-on-roller-in-maple",
+      "checked": "2026-11-04",
+      "scope": "Official model or product-family source; claims are not independently performance-tested. Confirm size and revision.",
+      "image": null,
+      "gallery": [],
+      "features": {
+        "scale": {
+          "value": "Built-in weight-limit indicator in carry handle; battery-free, not a numerical scale",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 1,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
+    },
+    {
+      "id": "research-stokke-bedbox",
+      "brandId": "stokke-jetkids",
+      "brand": "Stokke JetKids",
+      "model": "JetKids BedBox · ride-on and bed function",
+      "source": "https://www.stokke.com/USA/en-us/travel/jetkids/6768.html",
+      "checked": "2026-11-04",
+      "scope": "Official model or product-family source; claims are not independently performance-tested. Confirm size and revision.",
+      "image": null,
+      "gallery": [],
+      "features": {
+        "seat": {
+          "value": "Ride-on suitcase with integrated mattress / bed function; airline and age restrictions apply",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 1,
+      "region": "Europe",
+      "market": "Norway",
+      "aliases": [],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
+    },
+    {
+      "id": "dta-deep-access-20",
+      "brandId": "dta-nova",
+      "brand": "DTA / DTA Nova",
+      "model": "USB expandable carry-on · cream · 1:9 opening reference",
+      "source": "https://dtanova.com/",
+      "checked": "2026-11-04",
+      "scope": "Affiliate-page and supplied product-graphic reference. Exact SKU and site operator unverified. The claimed +30% capacity has no verified comparison baseline and is not treated as a measured gain.",
+      "image": "https://m.media-amazon.com/images/I/71WCeP3H6YL._AC_SL1500_.jpg",
+      "gallery": [
+        "https://m.media-amazon.com/images/I/71WCeP3H6YL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71ow0lS37zL._AC_SL1500_.jpg"
+      ],
+      "features": {
+        "opening": {
+          "value": "1:9 side-opening / shallow lid and deep packing well shown",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "cup": {
+          "value": "One-touch cup holder",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "phone": {
+          "value": "Phone holder",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "hook": {
+          "value": "Metal bag hook",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "charging": {
+          "value": "USB charging port shown; battery not verified",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "wheels": {
+          "value": "Quiet 360° twin spinner wheels claimed",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "lock": {
+          "value": "TSA-compatible lock",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "material": {
+          "value": "Polycarbonate claimed",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 8,
+      "region": "Not verified",
+      "market": "International",
+      "aliases": [
+        "DTA",
+        "DTA Nova"
+      ],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
+    },
+    {
+      "id": "dta-usb-frame-interior",
+      "brandId": "dta-nova",
+      "brand": "DTA / DTA Nova",
+      "model": "USB zipperless carry-on · removable-divider interior reference",
+      "source": "https://dtanova.com/",
+      "checked": "2026-11-04",
+      "scope": "Affiliate-page and supplied product-graphic reference; exact size/color/SKU unverified. This interior is not assigned to the other DTA cases.",
+      "image": "https://m.media-amazon.com/images/I/61aCOyUocQL._AC_SL1500_.jpg",
+      "gallery": [
+        "https://m.media-amazon.com/images/I/61blVXiUdIL._AC_SL1500_.jpg"
+      ],
+      "features": {
+        "opening": {
+          "value": "Zipperless closure",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "frame": {
+          "value": "Aluminum frame",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "organization": {
+          "value": "Removable divider panel, zipped compartments, ventilated mesh and small-item storage",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        },
+        "wet": {
+          "value": "Dry / wet split storage zone shown",
+          "basis": "Source model claim, checked 4 November 2026; prototype validation required for adaptation."
+        }
+      },
+      "featureCount": 4,
+      "region": "Not verified",
+      "market": "International",
+      "aliases": [
+        "DTA",
+        "DTA Nova"
+      ],
+      "recordType": "Named model / family",
+      "format": "Carry-on",
+      "photoScope": "Source product reference; exact variant is not independently matched.",
+      "opportunity": "Adapt the guest benefit to a new Open Story concept. Validate the selected construction, capacity, mass and component cost."
     }
   ],
   "brandCount": 173,

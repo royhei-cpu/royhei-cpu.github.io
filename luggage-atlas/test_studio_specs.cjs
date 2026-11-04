@@ -65,9 +65,10 @@ assert(markdown.includes('retail reference'));
 const html = fs.readFileSync(path.join(__dirname, 'studio.html'), 'utf8');
 assert(html.includes('id="specifications"')); assert(html.includes('id="upgrade-details"'));
 assert(html.includes('<details class="full-specifications"><summary>View all 16'));
-for(const step of ['1 · Real brand references','2 · Customize','3 · Review changes','4 · Compare and export'])assert(html.includes(step));
+for(const step of ['1 · Opportunities &amp; white space','2 · Add features','3 · 3D workshop','4 · Component BOM','5 · Review &amp; export'])assert(html.includes(step));
 assert(html.indexOf('id="national-brand-references"')<html.indexOf('class="studio-layout"'));
 assert(html.indexOf('studio-config.js?') < html.indexOf('studio-specs.js?'));
 assert(html.indexOf('studio-specs.js?') < html.indexOf('src="studio.js?'));
 if (process.env.STUDIO_SPEC_CSV_EXPORT) fs.writeFileSync(process.env.STUDIO_SPEC_CSV_EXPORT, csv);
 console.log('PASS: 3 exact retail baselines; retailer conflicts preserved; 27 format/interior/baseline combinations; off-state exclusions; no invented mass/capacity/cost; 16 aligned CSV rows and full upgrade brief; simple navigation and collapsed technical details.');
+

@@ -20,11 +20,11 @@ run("location.hash='#research'");windowEvents.get('hashchange')();assert(el('#re
 run("itemSelection.clear();saveDesk();location.hash='#workbench';render()");assert(el('#deskComparison').innerHTML.includes('Choose your first products'));assert(el('#deskComparison').innerHTML.includes('href="#directory"'));assert.equal(el('#navShortlistCount').hidden,true);
 const index=fs.readFileSync(path.join(root,'index.html'),'utf8'),studio=fs.readFileSync(path.join(root,'studio.html'),'utf8');
 assert.equal((index.match(/class="start-card"/g)||[]).length,3,'The first screen must exist before JavaScript loads.');
-for(const html of [index,studio,fs.readFileSync(path.join(root,'open-story.html'),'utf8')])for(const label of ['Start here','Browse luggage','Compare','Design workshop'])assert(html.includes(label),label);
+for(const html of [index,studio,fs.readFileSync(path.join(root,'features.html'),'utf8'),fs.readFileSync(path.join(root,'tutorial.html'),'utf8')])for(const label of ['Weekly dashboard','Find luggage','All brands','Compare','Develop Open Story','Tutorial video'])assert(html.includes(label),label);
 for(const target of ['brands','photos','prices','features','overview','fashion','innovation','trends','signals','suppliers','retailers','methodology','tutorial'])assert(index.includes(`data-tab="${target}"`),target);
-assert(!index.includes('class="atlas-journey"'));
+assert(!index.includes('class="atlas-journey"'));assert(fs.readFileSync(path.join(root,'open-story.html'),'utf8').includes('studio.html#opportunities')); 
 assert(studio.indexOf('id="national-brand-references"')<studio.indexOf('class="studio-layout"'));
-const refs=studio.slice(studio.indexOf('id="national-brand-references"'),studio.indexOf('class="studio-layout"'));
+const refs=studio.slice(studio.indexOf('id="national-brand-references"'),studio.indexOf('id="feature-library"'));
 assert(!refs.includes('<details'));for(const asset of ['offer-photo-assets/offer-samsonite-3.jpg','studio-reference-assets/lojel.jpg','studio-reference-assets/briggs-riley.jpg'])assert(refs.includes(asset));
 assert(refs.includes('Collection image; exact priced size, color and revision not verified.'));
 console.log('PASS: first-screen content, search/legacy routes, keyboard-accessible research library, comparison anchor without state loss, saved shortlist/cost continuity, clear empty state, shared navigation and visible authentic workshop references. Browser layout is not covered.');
