@@ -13,11 +13,19 @@ source of product facts. Retail planning assumptions never edit that catalog.
 3. Select a pack to edit facings, stock depth, planned ticket and shelf. Pack
    dimensions and arrangement are expandable. Shelf plan supports drag between
    shelves, keyboard selection and explicit move controls.
-4. Rename the aisle, choose Target-inspired or My retail, and adjust the fixture.
+4. In **Store appearance**, rename the aisle, choose a finish, and adjust bays
+   and shelves.
    Width/depth/height issues remain visible. Undo/redo protects changes.
-5. Export JSON for a portable editable plan, CSV for the assortment, PNG for a
-   view or GLB for Blender. In Blender use File → Import → glTF 2.0, or run
-   `blender_import.py -- /absolute/path/to/aisle.glb`. It saves a packed `.blend`.
+5. Open **How to use** for the current four-step tutorial with buttons that jump
+   to the actual controls. **Save & download** offers **Save aisle file** (.json,
+   reopen here), **Save aisle picture** (.png), and **Save assortment sheet**
+   (.csv, Excel/Sheets). Opening a saved file returns to the editable workshop.
+6. **Open in Blender** is optional and requires a computer. Download the .glb,
+   choose Blender **File → Import → glTF 2.0**, use **Material Preview** for
+   textures, and **File → Save As** for a .blend. The normal flow needs no script.
+   The advanced helper is separate: `blender --background --python
+   blender_import.py -- /absolute/path/to/aisle.glb`. Blender edits do not import
+   back into the website; keep the .json backup for continued website editing.
 
 Current plans and up to 30 custom product photos are stored on this browser.
 The original directory's favorites and compare selections are separate. JSON
@@ -60,7 +68,7 @@ npm install
 npm run build
 ```
 
-Pinned versions: Three.js 0.187.0, esbuild 0.28.2. Update content hashes in the
+Pinned versions: Three.js 0.185.0, esbuild 0.28.2. Update content hashes in the
 index and the lazy import after rebuilding. GitHub Pages copies the bundle and
 the required photo/helper/license assets explicitly in `publish.yml`.
 

@@ -10,6 +10,22 @@ def check_retail(page, context, out):
     page.locator('.workspace-sidebar [data-workspace="retail"]').click()
     expect(page.locator('#workspace-retail')).to_be_visible()
     page.wait_for_function('window.ATLAS_RETAIL?.getSceneStats()?.webgl')
+    # The tutorial jumps to real controls without changing the assortment.
+    before_help = page.evaluate('JSON.stringify(window.ATLAS_RETAIL.getState().items)')
+    expect(page.locator('#retailExportOpen')).to_have_text('Save & download')
+    page.locator('#retailHelpOpen').click()
+    expect(page.locator('#retailHelpDialog')).to_be_visible()
+    page.locator('[data-retail-guide-go="plan"]').click()
+    expect(page.locator('#retailPlan')).to_be_visible()
+    assert page.evaluate('JSON.stringify(window.ATLAS_RETAIL.getState().items)') == before_help
+    page.locator('#retailHelpOpen').click()
+    page.locator('[data-retail-guide-go="downloads"]').click()
+    expect(page.locator('#retailHelpDialog')).not_to_be_visible()
+    expect(page.locator('#retailExportDialog')).to_be_visible()
+    expect(page.locator('#retailGLB')).not_to_be_visible()
+    expect(page.locator('#retailExportPhoto')).to_be_visible()
+    page.get_by_role('button', name='Close retail exports').click()
+    page.locator('[data-retail-view="3d"]').click()
     # Scope is shared by browsing, chain references, imports and the aisle library.
     assert page.evaluate('window.TOY_ATLAS.products.every(window.ATLAS_PRODUCT_SCOPE.eligible)')
     assert page.evaluate('window.CHAIN_ASSORTMENTS.products.every(window.ATLAS_PRODUCT_SCOPE.eligible)')
@@ -98,6 +114,7 @@ def check_retail(page, context, out):
 
     plan = download('#retailJSON', 'retail-plan.json')
     parsed = json.loads(plan.read_text())
+    expect(page.locator('#retailExportStatus')).to_contain_text('.json')
     assert parsed['items'] and parsed['customs'][0]['name'] == '=QA Custom Toy'
     sheet = download('#retailCSV', 'retail-plan.csv')
     rows = list(csv.DictReader(io.StringIO(sheet.read_text(encoding='utf-8-sig'))))
@@ -109,6 +126,8 @@ def check_retail(page, context, out):
     assert converted_row['Reference currency']=='HKD' and abs(float(converted_row['Reference price USD'])-8.284517)<.001 and converted_row['FX date']
     custom_rows = [r for r in rows if r['Brand'] == 'My shop']
     assert custom_rows and custom_rows[0]['Product / series'].startswith("'=QA")
+    page.locator('#retailBlenderGuide > summary').click()
+    expect(page.locator('#retailBlenderGuide')).to_contain_text('File → Import → glTF 2.0')
     glb = download('#retailGLB', 'retail-plan.glb')
     b = glb.read_bytes()
     assert b[:4] == b'glTF' and struct.unpack('<I', b[4:8])[0] == 2
@@ -127,12 +146,15 @@ def check_retail(page, context, out):
     assert any('Reviewed source packaging' in n.get('name','') for n in document['nodes'])
     assert exact['referenceCurrency']=='USD' and exact['referencePrice']==9.99 and exact['sourceURL'].startswith('https://')
     page.locator('#retailImport').set_input_files(str(plan))
-    expect(page.locator('#retailMessage')).to_contain_text('Opened your saved aisle')
-    page.locator('[data-retail-close="retailExportDialog"]').click()
+    expect(page.locator('#retailMessage')).to_contain_text('retail-plan.json')
+    expect(page.locator('#retailExportDialog')).not_to_be_visible()
     page.locator('[data-retail-view="3d"]').click()
     for view in ['front', 'top', 'reset']:
         page.locator(f'[data-retail-camera="{view}"]').click()
-    photo = download('#retailPhoto', 'retail-aisle.png')
+    page.locator('#retailExportOpen').click()
+    photo = download('#retailExportPhoto', 'retail-aisle.png')
+    expect(page.locator('#retailExportStatus')).to_contain_text('.png')
+    page.get_by_role('button', name='Close retail exports').click()
     assert photo.read_bytes().startswith(b'\x89PNG')
     from PIL import Image, ImageStat
     with Image.open(photo) as image:
@@ -149,6 +171,12 @@ def check_retail(page, context, out):
         expect(page.locator('#retailPlan')).to_be_visible()
         assert page.locator('.retail-plan-shelf').count() == 12
         page.screenshot(path=str(out / f'retail-{width}.png'))
+        page.locator('#retailHelpOpen').click()
+        assert page.locator('#retailHelpDialog').evaluate('(e)=>e.scrollWidth<=e.clientWidth+1')
+        page.get_by_role('button', name='Close workshop tutorial').click()
+        page.locator('#retailExportOpen').click()
+        assert page.locator('#retailExportDialog').evaluate('(e)=>e.scrollWidth<=e.clientWidth+1')
+        page.get_by_role('button', name='Close retail exports').click()
     page.set_viewport_size({'width': 1440, 'height': 1080})
     # Leave clean planner state for subsequent suite sections.
     page.locator('#retailStarter').click()

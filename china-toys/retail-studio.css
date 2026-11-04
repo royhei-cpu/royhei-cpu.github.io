@@ -42,3 +42,23 @@
 @media(min-width:1051px){.atlas-retail-open .retail-canvas{height:650px}}@media(min-width:681px) and (max-width:1050px){.atlas-retail-open .retail-canvas{height:540px}}@media(max-width:680px){.atlas-retail-open .retail-canvas{height:420px}}.retail-stack-control{display:flex!important;align-items:center;gap:8px;font-size:12px;padding:10px 0}.retail-stack-control input{width:auto!important}
 
 .retail-quality-status{font-size:11px;color:#647268;padding:0 12px;text-align:center;margin:0 0 6px}
+
+/* Clear saving choices and the current workshop tutorial. */
+.retail-heading-actions{display:flex;gap:9px;flex-wrap:wrap;flex-shrink:0}.retail-heading-actions .button{white-space:nowrap}
+#retailHelpDialog,#retailExportDialog{width:min(700px,calc(100vw - 28px));max-width:calc(100vw - 28px);max-height:88dvh;box-sizing:border-box;padding:26px;background:#faf9f6;color:#173e35;border:1px solid #d9ddd6;border-radius:12px;overflow:auto;overscroll-behavior:contain}
+#retailHelpDialog::backdrop{background:#1b2c2166}
+#retailHelpDialog h2,#retailExportDialog h2{font:700 30px/1.15 Georgia,serif;letter-spacing:-.6px;margin:8px 28px 12px 0}
+#retailHelpDialog p,#retailExportDialog p{font:400 14px/1.65 system-ui,sans-serif;color:#536158;margin:8px 0 14px}
+#retailHelpDialog h3,#retailExportDialog h3{font:650 16px/1.4 system-ui,sans-serif;margin:0 0 5px;color:#173e35}
+#retailHelpDialog .button,#retailExportDialog .button{min-height:44px;font-size:13px;line-height:1.4;white-space:normal;text-align:center}
+#retailHelpDialog .text-button,#retailExportDialog .text-button{font-size:13px;line-height:1.5;text-align:left;padding:7px 0;min-height:40px}
+#retailHelpDialog .dialog-close,#retailExportDialog .dialog-close{position:sticky;float:right;top:0;right:0;width:36px;height:36px;background:#fff;border:1px solid #d9ddd6;z-index:1}
+#retailHelpDialog button:focus-visible,#retailExportDialog button:focus-visible,#retailHelpDialog summary:focus-visible,#retailExportDialog summary:focus-visible{outline:2px solid #df694c;outline-offset:3px}
+.retail-guide-eyebrow{display:block;font:650 10px/1.6 system-ui,sans-serif;letter-spacing:.75px;color:#65796b}
+.retail-guide-steps{list-style:none;counter-reset:workshop;padding:0;margin:22px 0}.retail-guide-steps>li{counter-increment:workshop;display:flex;gap:14px;padding:17px 0;border-top:1px solid #d9ddd6}.retail-guide-steps>li::before{content:counter(workshop);display:grid;place-items:center;flex:0 0 28px;height:28px;background:#e9eee8;border-radius:50%;font:650 13px/1 system-ui,sans-serif;color:#173e35}.retail-guide-steps>li>div{min-width:0}
+.retail-guide-faq{border-top:1px solid #d9ddd6;margin:0 0 20px;padding:15px 0}.retail-guide-faq>summary,.retail-helper-guide>summary{cursor:pointer;font:600 14px/1.6 system-ui,sans-serif}
+.retail-download-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}.retail-download-card{background:white;border:1px solid #d9ddd6;border-radius:8px;padding:17px;min-width:0}.retail-download-card:first-child{grid-column:1/-1}.retail-download-card .button{width:100%;margin:6px 0}.retail-download-card small,.retail-blender-guide small{display:block;font:400 12px/1.6 system-ui,sans-serif;color:#637369;margin:4px 0 8px;overflow-wrap:anywhere}.retail-download-card .retail-import-label{margin-top:12px}.retail-download-location{border-left:3px solid #cbd5cb;padding:0 0 0 13px}
+.retail-blender-guide{margin:22px 0 16px;padding:16px 0;border-top:1px solid #d9ddd6;border-bottom:1px solid #d9ddd6}.retail-blender-guide>summary{cursor:pointer;font:650 16px/1.5 system-ui,sans-serif}.retail-blender-guide>summary>span{display:block;margin:3px 0 0 18px;font:400 12px/1.5 system-ui,sans-serif;color:#637369}.retail-blender-guide ol{padding-left:22px;font:400 14px/1.6 system-ui,sans-serif}.retail-blender-guide li{padding:8px 0 10px 4px}.retail-blender-guide a{font-size:13px;text-decoration:underline}.retail-helper-guide{margin:18px 0 0}
+#retailExportStatus:not(:empty){padding:12px;border-radius:6px;background:#e9eee8;overflow-wrap:anywhere}
+.tutorial-workshop-guide{padding:4px 0 20px;margin-bottom:20px;border-bottom:1px solid #cbded2}.tutorial-workshop-guide strong{font-size:18px}.tutorial-workshop-guide p,.retail-atlas-help{font-size:14px;line-height:1.6}.tutorial-workshop-guide .tutorial-trigger{cursor:pointer;min-height:44px}
+@media(max-width:600px){.retail-page-heading{display:block}.retail-heading-actions{margin-top:16px}#retailHelpDialog,#retailExportDialog{padding:20px;max-height:90dvh}#retailHelpDialog h2,#retailExportDialog h2{font-size:27px}.retail-download-grid{grid-template-columns:1fr}.retail-guide-steps>li{gap:11px}.retail-guide-eyebrow{max-width:calc(100% - 38px)}}
