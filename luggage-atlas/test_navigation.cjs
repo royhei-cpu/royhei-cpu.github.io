@@ -5,11 +5,11 @@ const ctx={window:{addEventListener:(name,fn)=>windowEvents.set(name,fn),scrollT
 vm.createContext(ctx);
 for(const file of ['data.js','photos.js','weekly.js','atlas-upgrade.js','fashion.js','fashion-ui.js','innovation.js','innovation-ui.js','workbench.js','tutorial.js','offer-photos.js','directory.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),ctx);
 const run=s=>vm.runInContext(s,ctx);
-assert.equal(run('tab'),'start');assert.equal((el('#view').innerHTML.match(/class="start-card"/g)||[]).length,3);
+assert.equal(run('tab'),'start');assert.equal(el('#hero').hidden,false,'The home travel hero stays visible after rendering');assert.equal(el('#innerHeading').hidden,true);assert.equal((el('#view').innerHTML.match(/class="start-card"/g)||[]).length,3);
 assert(el('#view').innerHTML.includes('Find luggage by features'));assert.equal(el('#routeContext').hidden,true);
 assert.equal(run("atlasRoute('', '?q=Open%20Story')"),'directory');assert.equal(run("atlasRoute('#brands')"),'brands');assert.equal(run("atlasRoute('#costTableAnchor')"),'workbench');assert.equal(run("atlasRoute('#old-missing-section')"),'start');
 el('#researchToggle').listeners.get('click')();assert.equal(el('#researchMenu').open,true);assert.equal(el('#researchToggle')['aria-expanded'],'true');assert(el('#researchMenu').scrolled);assert(el('#research-summary').focused);
-run("location.hash='#directory'");windowEvents.get('hashchange')();assert.equal(run('tab'),'directory');assert.equal(el('#researchMenu').open,false);assert(el('#innerHeading h1').focused);
+run("location.hash='#directory'");windowEvents.get('hashchange')();assert.equal(run('tab'),'directory');assert.equal(el('#hero').hidden,true,'Research pages keep compact headings');assert.equal(el('#researchMenu').open,false);assert(el('#innerHeading h1').focused);
 run("directoryToggle('offer-a8bb8cf6');costScenarios['offer-a8bb8cf6']={fob:'50',freight:'7',duty:'10',other:'0',retail:'160',quantity:'100'};saveDesk()");assert.equal(el('#navShortlistCount').textContent,'1');assert.equal(el('#navShortlistCount').hidden,false);
 run("location.hash='#workbench'");windowEvents.get('hashchange')();assert(el('#view').innerHTML.indexOf('id="costTableAnchor"')<el('#view').innerHTML.indexOf('id="deskOfferPicker"'));
 assert(el('#deskComparison').innerHTML.includes('Paralux'));assert(el('#deskComparison').innerHTML.includes('optional-costs'));assert.equal(run("scenarioFor(selectedOffers()[0]).fob"),'50');
