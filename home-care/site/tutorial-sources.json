@@ -1,8 +1,8 @@
 {
   "updated": "2026-11-04",
-  "release": "20261104-workshop-steps",
-  "interfaceCommit": "5a0b74b06093fb94f8da9f78e34a581fc8dcab74",
-  "format": "Illustrated feature guide with actual product photos and A0 Blender renders; not a screen recording.",
+  "release": "20261104-workshop-a1",
+  "interfaceCommit": "b47fc1365cd24f59c31effcc3e11eae890039f59",
+  "format": "Illustrated feature guide with actual product photos and A0/A1 Blender design studies; not a screen recording.",
   "voice": "none",
   "reviewLimitations": {
     "liveBrowserCapture": "Unavailable: admin security-policy check did not permit browser access. No alternative browser capture used.",
@@ -47,51 +47,51 @@
     {
       "id": "workshop",
       "title": "Home care, beyond cleaning.",
-      "url": "/home-care/?view=workshop#homecare-workspace",
+      "url": "/home-care/workshop/laundry-sorter.html#wl-real-products",
       "start": 71.2542857142857,
-      "end": 85.21428571428571
+      "end": 85.6142857142857
     },
     {
       "id": "benchmarks",
       "title": "Compare real brand products.",
-      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
-      "start": 85.21428571428571,
-      "end": 99.69714285714286
+      "url": "/home-care/workshop/laundry-sorter.html#wl-real-products",
+      "start": 85.6142857142857,
+      "end": 100.09714285714286
     },
     {
       "id": "changes",
       "title": "Make the difference specific.",
-      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
-      "start": 99.69714285714285,
-      "end": 115.26571428571428
+      "url": "/home-care/workshop/laundry-sorter.html#wl-development-case",
+      "start": 100.09714285714284,
+      "end": 115.66571428571427
     },
     {
       "id": "specs",
       "title": "Review dimensions and finishes.",
-      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
-      "start": 115.26571428571428,
-      "end": 129.7485714285714
+      "url": "/home-care/workshop/laundry-sorter.html#wl-proposed-design",
+      "start": 115.66571428571427,
+      "end": 137.1942857142857
     },
     {
       "id": "pricing",
       "title": "Build a cost scenario.",
-      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
-      "start": 129.7485714285714,
-      "end": 141.36571428571426
+      "url": "/home-care/workshop/laundry-sorter.html#wl-proposed-design",
+      "start": 137.1942857142857,
+      "end": 148.81142857142856
     },
     {
       "id": "downloads",
       "title": "Save a complete development brief.",
-      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
-      "start": 141.36571428571426,
-      "end": 159.56285714285713
+      "url": "/home-care/workshop/laundry-sorter.html#wl-proposed-design",
+      "start": 148.81142857142856,
+      "end": 169.17999999999998
     },
     {
       "id": "opportunities",
       "title": "Investigate opportunities last.",
       "url": "/home-care/",
-      "start": 159.56285714285713,
-      "end": 172.49428571428572
+      "start": 169.17999999999998,
+      "end": 182.11142857142855
     }
   ],
   "photos": [

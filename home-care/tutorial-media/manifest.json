@@ -1,21 +1,24 @@
 {
-  "duration": 172.4942857142857,
-  "size": 2147218,
-  "base64": 2862960,
-  "sha256": "c1e9f4e6b4ef4935b422adffbf1cc2e90a804bb454773fb44143bd3205d25654",
+  "duration": 182.11142857142855,
+  "size": 2355394,
+  "base64": 3140528,
+  "sha256": "6e8177b2fe09334d1021d8010c3ffeec3cc3240c0a5f71102c50e9a55acb31fc",
   "updated": "2026-11-04",
-  "release": "20261104-workshop-steps",
-  "interfaceCommit": "5a0b74b06093fb94f8da9f78e34a581fc8dcab74",
+  "release": "20261104-workshop-a1",
+  "interfaceCommit": "b47fc1365cd24f59c31effcc3e11eae890039f59",
   "interfaceSources": {
-    "ui-src/upgrade.jsx": "3cf829bf8a2fb6df52ac72f31ab2879a56734c33910ed79bb67123e5f08c09dc",
+    "ui-src/upgrade.jsx": "9577cdcdafdebbd01dd3a5d34efb86cf91ae5898961b7c2f7430a56ab8b2ab6d",
     "ui-src/upgrade-model.js": "35022659dda91be460b47038d76332df48c20a1473e2f8da9ce8282ab4dbfcdc",
-    "ui-src/workshop-ui.jsx": "7bcfd8e678de978610c761cb3c71e55d98c9db48c613a58cd494e12c7ea1eab3",
-    "ui-src/workshop-logic.js": "e330d1d0671272a93da615eafa1a402b721e65256297c727a9a3833e49f019bf",
+    "ui-src/workshop-ui.jsx": "bce967ebbe436db4fdde520314410cf4e8c2168806b5b08092478a8929e66d55",
+    "ui-src/workshop-logic.js": "39c7d74628421413f9cc9f1b878b8567a907d13bdd5dc98244beb72116886a60",
     "ui-src/workshop-reference-evidence.json": "dcde520b30609610c3c8054ce29b5b413803563d9ef6f1a232f26eb6fb25a1d4",
     "ui-src/audio-ui.jsx": "e5622323d80f105da2f392a78c76adeab52f8518f3b056584fa503a7927e6ae2",
-    "homecare-upgrade-build.mjs": "869884fd94f1625b89d26fd084a12d15d980101de2dba411068fd3a4666fb1b1"
+    "homecare-upgrade-build.mjs": "29b92822ba0c3e315d2bc7bdf867b2329158f55893721ff6921d51c685d99cb2",
+    "ui-src/workshop-page.jsx": "45c27fb177c3db804d619fda67996491bc4364c04a8cee6493ce4f5b87cebea9",
+    "ui-src/workshop-visuals.json": "e2f0e12554808261513ed9b57826cc1b26c0719afae94e72b7d96f37cbcaf5b6",
+    "ui-src/workshop-viewer.js": "cfc2a142f77ed0a41a8d07237d698954fa8eb5dd7724f88bd11d049aba07d7a8"
   },
-  "format": "Illustrated feature guide with actual product photos and A0 Blender renders; not a screen recording.",
+  "format": "Illustrated feature guide with actual product photos and A0/A1 Blender design studies; not a screen recording.",
   "voice": "none",
   "captions": "Burned-in English captions; WebVTT also available as a download.",
   "parts": [
@@ -29,7 +32,8 @@
     "part-007.b64",
     "part-008.b64",
     "part-009.b64",
-    "part-010.b64"
+    "part-010.b64",
+    "part-011.b64"
   ],
   "chapters": [
     {
@@ -70,51 +74,51 @@
     {
       "id": "workshop",
       "title": "Home care, beyond cleaning.",
-      "url": "/home-care/?view=workshop#homecare-workspace",
+      "url": "/home-care/workshop/laundry-sorter.html#wl-real-products",
       "start": 71.2542857142857,
-      "end": 85.21428571428571
+      "end": 85.6142857142857
     },
     {
       "id": "benchmarks",
       "title": "Compare real brand products.",
-      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
-      "start": 85.21428571428571,
-      "end": 99.69714285714286
+      "url": "/home-care/workshop/laundry-sorter.html#wl-real-products",
+      "start": 85.6142857142857,
+      "end": 100.09714285714286
     },
     {
       "id": "changes",
       "title": "Make the difference specific.",
-      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
-      "start": 99.69714285714285,
-      "end": 115.26571428571428
+      "url": "/home-care/workshop/laundry-sorter.html#wl-development-case",
+      "start": 100.09714285714284,
+      "end": 115.66571428571427
     },
     {
       "id": "specs",
       "title": "Review dimensions and finishes.",
-      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
-      "start": 115.26571428571428,
-      "end": 129.7485714285714
+      "url": "/home-care/workshop/laundry-sorter.html#wl-proposed-design",
+      "start": 115.66571428571427,
+      "end": 137.1942857142857
     },
     {
       "id": "pricing",
       "title": "Build a cost scenario.",
-      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
-      "start": 129.7485714285714,
-      "end": 141.36571428571426
+      "url": "/home-care/workshop/laundry-sorter.html#wl-proposed-design",
+      "start": 137.1942857142857,
+      "end": 148.81142857142856
     },
     {
       "id": "downloads",
       "title": "Save a complete development brief.",
-      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
-      "start": 141.36571428571426,
-      "end": 159.56285714285713
+      "url": "/home-care/workshop/laundry-sorter.html#wl-proposed-design",
+      "start": 148.81142857142856,
+      "end": 169.17999999999998
     },
     {
       "id": "opportunities",
       "title": "Investigate opportunities last.",
       "url": "/home-care/",
-      "start": 159.56285714285713,
-      "end": 172.49428571428572
+      "start": 169.17999999999998,
+      "end": 182.11142857142855
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "duration": 172.4942857142857,
+  "duration": 182.11142857142855,
   "voice": "none",
   "speed": 1.0,
   "sampleRate": 48000,
   "listeningReview": "not_performed",
-  "sourceRelease": "20261104-workshop-steps",
+  "sourceRelease": "20261104-workshop-a1",
   "cues": [
     {
       "scene": 0,
@@ -141,171 +141,185 @@
     },
     {
       "scene": 5,
-      "text": "Explore laundry, storage, waste, odor control, and accessories.",
+      "text": "Each concept has a direct page that loads national-brand photos first.",
       "start": 75.89142857142856,
-      "end": 79.49142857142856,
-      "holdEnd": 79.67142857142856
+      "end": 79.89142857142856,
+      "holdEnd": 80.07142857142857
     },
     {
       "scene": 5,
       "text": "Follow the three review steps: Real products, Why and what changes, then Design and costs.",
-      "start": 79.67142857142856,
-      "end": 84.8142857142857,
-      "holdEnd": 85.21428571428571
+      "start": 80.07142857142856,
+      "end": 85.2142857142857,
+      "holdEnd": 85.6142857142857
     },
     {
       "scene": 6,
       "text": "Start with National-brand photo references.",
-      "start": 85.21428571428571,
-      "end": 87.67142857142856,
-      "holdEnd": 87.85142857142857
+      "start": 85.6142857142857,
+      "end": 88.07142857142856,
+      "holdEnd": 88.25142857142856
     },
     {
       "scene": 6,
       "text": "The laundry sorter uses Joseph Joseph and Brabantia.",
-      "start": 87.85142857142857,
-      "end": 90.82285714285715,
-      "holdEnd": 91.00285714285715
+      "start": 88.25142857142856,
+      "end": 91.22285714285714,
+      "holdEnd": 91.40285714285714
     },
     {
       "scene": 6,
       "text": "Choose View full-size photo to inspect the image.",
-      "start": 91.00285714285714,
-      "end": 93.80285714285714,
-      "holdEnd": 93.98285714285714
+      "start": 91.40285714285713,
+      "end": 94.20285714285713,
+      "holdEnd": 94.38285714285713
     },
     {
       "scene": 6,
       "text": "Read its match note, Size and capacity, Manufacturer data, and Photo source before comparing.",
-      "start": 93.98285714285714,
-      "end": 99.29714285714286,
-      "holdEnd": 99.69714285714286
+      "start": 94.38285714285713,
+      "end": 99.69714285714285,
+      "holdEnd": 100.09714285714286
     },
     {
       "scene": 7,
       "text": "Next, open Why and what changes.",
-      "start": 99.69714285714285,
-      "end": 102.09714285714286,
-      "holdEnd": 102.27714285714286
+      "start": 100.09714285714284,
+      "end": 102.49714285714285,
+      "holdEnd": 102.67714285714285
     },
     {
       "scene": 7,
       "text": "Read Why consider white label, then expand Brand reference and proof needed.",
-      "start": 102.27714285714285,
-      "end": 106.61999999999999,
-      "holdEnd": 106.8
+      "start": 102.67714285714284,
+      "end": 107.01999999999998,
+      "holdEnd": 107.19999999999999
     },
     {
       "scene": 7,
       "text": "Suggested changes also compares existing features, proposed improvements, and validation.",
-      "start": 106.8,
-      "end": 111.88571428571429,
-      "holdEnd": 112.0657142857143
+      "start": 107.19999999999999,
+      "end": 112.28571428571428,
+      "holdEnd": 112.46571428571428
     },
     {
       "scene": 7,
       "text": "These ideas still need a Target assortment check.",
-      "start": 112.06571428571428,
-      "end": 114.86571428571428,
-      "holdEnd": 115.26571428571428
+      "start": 112.46571428571427,
+      "end": 115.26571428571427,
+      "holdEnd": 115.66571428571427
     },
     {
       "scene": 8,
-      "text": "Continue to Design and costs for the proposed Blender concept.",
-      "start": 115.26571428571428,
-      "end": 118.80857142857143,
-      "holdEnd": 118.98857142857143
+      "text": "Continue to Design and costs.",
+      "start": 115.66571428571427,
+      "end": 118.06571428571428,
+      "holdEnd": 118.24571428571429
     },
     {
       "scene": 8,
-      "text": "Use Specs and dimensions to switch between millimetres and inches.",
-      "start": 118.98857142857142,
-      "end": 122.75999999999999,
-      "holdEnd": 122.94
+      "text": "The laundry sorter has Studio, Front, Inside, Details, and Exploded renders.",
+      "start": 118.24571428571427,
+      "end": 122.58857142857141,
+      "holdEnd": 122.76857142857142
     },
     {
       "scene": 8,
-      "text": "Choose a finish to update the interactive model.",
-      "start": 122.93999999999998,
-      "end": 125.68285714285713,
-      "holdEnd": 125.86285714285714
+      "text": "Choose Rotate in 3D to inspect the interactive model.",
+      "start": 122.76857142857142,
+      "end": 125.79714285714284,
+      "holdEnd": 125.97714285714285
     },
     {
       "scene": 8,
-      "text": "Perspective, Front, and Exploded show different design views.",
-      "start": 125.86285714285712,
-      "end": 129.3485714285714,
-      "holdEnd": 129.7485714285714
+      "text": "Finishes change the frame and lid; the canvas stays natural.",
+      "start": 125.97714285714285,
+      "end": 129.40571428571428,
+      "holdEnd": 129.5857142857143
+    },
+    {
+      "scene": 8,
+      "text": "Specs and dimensions switches millimetres and inches.",
+      "start": 129.5857142857143,
+      "end": 132.61428571428573,
+      "holdEnd": 132.79428571428573
+    },
+    {
+      "scene": 8,
+      "text": "A1 is a visual revision; A0 engineering targets still need validation.",
+      "start": 132.7942857142857,
+      "end": 136.7942857142857,
+      "holdEnd": 137.1942857142857
     },
     {
       "scene": 9,
       "text": "BOM and pricing lets you adjust component costs and assumptions.",
-      "start": 129.7485714285714,
-      "end": 133.40571428571425,
-      "holdEnd": 133.58571428571426
+      "start": 137.1942857142857,
+      "end": 140.85142857142856,
+      "holdEnd": 141.03142857142856
     },
     {
       "scene": 9,
       "text": "Enter a duty rate before calculating landed cost.",
-      "start": 133.58571428571426,
-      "end": 136.38571428571427,
-      "holdEnd": 136.56571428571428
+      "start": 141.03142857142856,
+      "end": 143.83142857142857,
+      "holdEnd": 144.01142857142858
     },
     {
       "scene": 9,
       "text": "Costs and proposed retail prices are planning estimates, not supplier quotes.",
-      "start": 136.56571428571425,
-      "end": 140.96571428571426,
-      "holdEnd": 141.36571428571426
+      "start": 144.01142857142855,
+      "end": 148.41142857142856,
+      "holdEnd": 148.81142857142856
     },
     {
       "scene": 10,
-      "text": "Download the Blender development pack for the base Sage model, renders, dimensions, specifications, and BOM.",
-      "start": 141.36571428571426,
-      "end": 147.53714285714284,
-      "holdEnd": 147.71714285714285
+      "text": "Download the Blender development pack for the base Sage model, five renders, national-brand reference photos, dimensions, specifications, and BOM.",
+      "start": 148.81142857142856,
+      "end": 157.15428571428572,
+      "holdEnd": 157.33428571428573
     },
     {
       "scene": 10,
       "text": "Save brief with comparison photos keeps your selected finish and pricing edits in an HTML brief.",
-      "start": 147.71714285714285,
-      "end": 153.20285714285714,
-      "holdEnd": 153.38285714285715
+      "start": 157.3342857142857,
+      "end": 162.82,
+      "holdEnd": 163.0
     },
     {
       "scene": 10,
       "text": "Export references and changes saves a source-linked CSV.",
-      "start": 153.38285714285712,
-      "end": 156.5828571428571,
-      "holdEnd": 156.76285714285711
+      "start": 162.99999999999997,
+      "end": 166.19999999999996,
+      "holdEnd": 166.37999999999997
     },
     {
       "scene": 10,
       "text": "Review Validation before proceeding.",
-      "start": 156.76285714285711,
-      "end": 159.16285714285712,
-      "holdEnd": 159.56285714285713
+      "start": 166.37999999999997,
+      "end": 168.77999999999997,
+      "holdEnd": 169.17999999999998
     },
     {
       "scene": 11,
       "text": "Use Opportunities last to investigate possible gaps after reviewing the products and evidence.",
-      "start": 159.56285714285713,
-      "end": 164.9342857142857,
-      "holdEnd": 165.1142857142857
+      "start": 169.17999999999998,
+      "end": 174.55142857142854,
+      "holdEnd": 174.73142857142855
     },
     {
       "scene": 11,
       "text": "Music and button sounds have separate controls.",
-      "start": 165.1142857142857,
-      "end": 167.79999999999998,
-      "holdEnd": 167.98
+      "start": 174.73142857142855,
+      "end": 177.41714285714284,
+      "holdEnd": 177.59714285714284
     },
     {
       "scene": 11,
       "text": "You can keep the workspace quiet while you browse, compare, and develop.",
-      "start": 167.98,
-      "end": 172.09428571428572,
-      "holdEnd": 172.49428571428572
+      "start": 177.59714285714284,
+      "end": 181.71142857142854,
+      "holdEnd": 182.11142857142855
     }
   ]
 }

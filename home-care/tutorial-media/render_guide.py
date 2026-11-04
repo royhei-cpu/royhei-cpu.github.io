@@ -102,12 +102,13 @@ def draw_scene(index,phase=9,caption=''):
    x=100+i*585;text(d,(x,375),title,23,ACCENT,bold=True,width=535);text(d,(x,450),value,40,bold=i==1,width=515)
   text(d,(100,790),'A design hypothesis is not a verified Target assortment gap.',31,MUTED,width=1690)
  elif kind=='specs':
-  photo(im,'workshop-assets/laundry-sorter-front.jpg',(75,277,915,850))
+  photo(im,'workshop-models/laundry-sorter-a1-inside.jpg',(75,277,915,850))
   text(d,(1000,300),'520 × 350 × 650 mm',55,bold=True,width=810)
   text(d,(1000,381),'Proposed W × D × H',27,MUTED)
   for i,(name,c) in enumerate([('Sage','#93a183'),('Chalk','#e5e2d6'),('Clay','#b87963'),('Ink','#303b37')]):
    x=1000+i*195;d.rounded_rectangle((x,492,x+155,568),radius=7,fill=c);text(d,(x,588),name,28)
-  text(d,(1000,710),'Perspective / Front / Exploded',31,bold=True,width=815)
+  text(d,(1000,690),'Studio / Front / Inside / Details / Exploded',28,bold=True,width=815)
+  text(d,(1000,744),'A1 visualization · A0 engineering targets',25,ACCENT,width=815)
   text(d,(1000,785),'Switch mm / inches in Specs & dimensions.',28,MUTED,width=810)
  elif kind=='pricing':
   p=next(p for p in json.loads((ROOT.parent/'ui-src/workshop-data.json').read_text())['concepts'] if p['id']=='laundry-sorter')
@@ -117,7 +118,7 @@ def draw_scene(index,phase=9,caption=''):
   text(d,(110,827),'Enter duty to calculate landed cost.  Supplier quotes still needed.',29,ACCENT,bold=True,width=1680)
  elif kind=='downloads':
   text(d,(115,300),'Blender development pack',46,bold=True)
-  text(d,(115,390),'.blend   /   GLB   /   renders   /   dimensions   /   specifications   /   BOM',34,MUTED,width=1670)
+  text(d,(115,390),'.blend / GLB / five renders / brand photos / dimensions / specifications / BOM',33,MUTED,width=1670)
   d.line((115,491,1790,491),fill='#cbd5c4',width=2)
   text(d,(115,550),'Save brief with comparison photos',46,bold=True,width=1650)
   text(d,(115,640),'Selected finish + pricing edits + benchmark photos → HTML brief',33,MUTED,width=1660)

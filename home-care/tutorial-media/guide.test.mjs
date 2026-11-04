@@ -22,6 +22,9 @@ test('the tutorial covers the current navigation and controls, with Opportunitie
  for(const name of ['China listings','Real products','Why and what changes','Design and costs','National-brand photo references','View full-size photo','Manufacturer data','Photo source','Suggested changes','Specs and dimensions','BOM and pricing','Save brief with comparison photos','Joseph Joseph','Brabantia'])assert.ok(transcript.includes(name),name);
  assert.ok(!transcript.includes('View larger'));assert.ok(!transcript.includes('Dimensions and source details'));
  for(const [file,expected] of Object.entries(manifest.interfaceSources)){assert.equal(hash(fs.readFileSync(path.join(root,'..',file))),expected,'Interface changed; review and refresh the tutorial: '+file);}
+ for(const label of ['Studio','Front','Inside','Details','Exploded','Rotate in 3D','A1 is a visual revision'])assert.ok(transcript.includes(label),label);
+ for(const id of ['workshop','benchmarks','changes','specs','pricing','downloads'])assert.ok(guide.scenes.find(scene=>scene.id===id).url.startsWith('/home-care/workshop/laundry-sorter.html#'));
+ assert.ok(fs.readFileSync(path.join(root,'render_guide.py'),'utf8').includes('workshop-models/laundry-sorter-a1-inside.jpg'));
  assert.match(guide.format,/not a screen recording/);
 });
 
