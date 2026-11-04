@@ -29,6 +29,7 @@ for(const format of Object.keys(D.formats))for(const color of Object.keys(D.colo
 }
 const settings={dimensions:[55,36,23],shellColor:'#94a28a',trimColor:'#183e34',interior:'compression',frontAccess:true,wetPocket:true,repairable:true};
 applyStudioModel(model,{...settings,handleExtended:false},'exterior',defaults);const retracted=new THREE.Box3().setFromObject(model).getSize(new THREE.Vector3());assert(retracted.y<.58);
+const linerFloor=visibleBounds(model.getObjectByName('BackQuiltedFloor'));let railCount=0;model.getObjectByName('Handle').traverse(o=>{if(o.name.startsWith('LowerTrolleyTube')){railCount++;assert(linerFloor.min.z>visibleBounds(o).max.z+.002,'retracted metal rails must sit behind the packing-well liner');}});assert.equal(railCount,2);
 applyStudioModel(model,{...settings,handleExtended:true},'exterior',defaults);const extended=new THREE.Box3().setFromObject(model).getSize(new THREE.Vector3());assert(extended.y>.99);assert(extended.y-retracted.y>.4);
 const frontWheelBefore=model.getObjectByName('FrontWheels').getWorldPosition(new THREE.Vector3());
 applyStudioModel(model,settings,'inside',defaults);assert(model.getObjectByName('FrontWheels').getWorldPosition(new THREE.Vector3()).distanceTo(frontWheelBefore)>.1);assert(Math.abs(model.getObjectByName('FrontShell').quaternion.y)>.5);
