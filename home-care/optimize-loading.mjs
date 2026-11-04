@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import zlib from 'node:zlib';
 import crypto from 'node:crypto';
 import { addSalesRanking } from './sales-ranking-build.mjs';
+import { addBrandFactories, addFactoryInterface } from './brand-factory-build.mjs';
 const file=process.argv[2]||'home-care/site/index.html';
 let html=fs.readFileSync(file,'utf8');
 if(html.includes('id="catalog-loading"')){console.log('Loading optimization already applied');process.exit(0)}
@@ -32,6 +33,7 @@ for(const d of items){
  d.evidenceLevel=d.evidenceLevel||(broad?'Search / category reference':/indexed|access issue|metadata/i.test(d.verificationStatus||'')?'Indexed / limited evidence':'Individual item link');
 }
 assert.ok(items.length>=6265, "Existing catalog records must be preserved");
+const factoryStats=addBrandFactories(items,path.dirname(file));
 const keys=[...new Set(items.flatMap(Object.keys))],pool=[],lookup=new Map();
 const rows=items.map(item=>keys.map(k=>{if(!Object.hasOwn(item,k))return -1;const v=item[k],signature=JSON.stringify(v);if(!lookup.has(signature)){lookup.set(signature,pool.length);pool.push(v)}return lookup.get(signature)}));
 const decoded=rows.map(r=>Object.fromEntries(keys.flatMap((k,i)=>r[i]<0?[]:[[k,pool[r[i]]]])));
@@ -97,7 +99,9 @@ html=html.replace('</body>','<script src="/home-care/merchant-analytics-model.js
 for(const asset of ['weekly-dashboard.js','weekly-dashboard.css','opportunities.js','opportunities.css','opportunity-model.js','merchant-analytics-model.js','merchant-analytics.js','merchant-analytics.css','product-compare.js','product-compare.css','target-inspiration-data.js','target-inspiration.js','target-inspiration.css','sales-ranking-model.js','sales-ranking.js','sales-ranking.css']){const source=path.join(path.dirname(file),asset);if(fs.existsSync(source)){const version=crypto.createHash('sha256').update(fs.readFileSync(source)).digest('hex').slice(0,12);html=html.replaceAll('/home-care/'+asset,'/home-care/'+asset+'?v='+version)}}
 html=html.replace("const fields=['", "const fields=['secondaryCategories','coverageBrand','coverageSize','coverageVerifiedDate','categoryEvidenceSource','categoryEvidenceNote','observedPrice','observedPriceSource','observedPriceNote','priceObservedDate','size','");
 html=html.replace("const headers={", "const headers={secondaryCategories:'Also listed in',coverageBrand:'Verified brand',coverageSize:'Verified size',coverageVerifiedDate:'Coverage verification date',categoryEvidenceSource:'Category evidence URL',categoryEvidenceNote:'Category evidence note',observedPrice:'Observed USD price',observedPriceSource:'Observed price source',observedPriceNote:'Observed price limitations',priceObservedDate:'Price evidence retrieved date',size:'Size / pack',");
+html=addFactoryInterface(html);
 fs.writeFileSync(file,html);
+console.log(JSON.stringify({factoryStats}));
 console.log(JSON.stringify({records:items.length,initialCards:first.length,bytes:Buffer.byteLength(html),originalDataBytes:end-start,packedDataBytes:Buffer.byteLength(expression),lossless:true}));
 
 

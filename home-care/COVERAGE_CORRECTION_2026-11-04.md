@@ -1,6 +1,6 @@
-# Proposed Home Care coverage correction — 4 November 2026
+# Home Care coverage correction — 4 November 2026
 
-**Unpublished. Explicit owner approval required before merging or publishing.**
+**Owner approved publication in the conversation and additionally requested factory names for all brands.** Publication status is recorded in PR #3; this document records evidence and validation, not deployment success.
 
 10,133 retained records → **10,141**: eight new retailer listings and three evidence-backed Naturals cross-listings. All original record fields, IDs, primary categories, historical prices and dates are preserved. No weekly automation or publishing workflow changes.
 
@@ -44,9 +44,44 @@ All evidence retrieved/reviewed 4 November 2026. Observed prices are USD snapsho
 - Executed the actual built filtering function against all 285 all-scope retailer/category combinations; counts matched the corrected matrix. Naturals dropdown membership verified through the actual dropdown function with a lightweight DOM adapter.
 - Executed the actual selected-product CSV handler with 11 selected review products. Exactly 11 data rows; selection-only behavior, category cross-listings, observed-price caveats and absolute product/photo/evidence URLs checked. CSV links photos; it does not embed image files.
 - Downloaded and visually inspected all eight addition photos, plus the three existing cross-listing photos. Matched identities/packs and documented packaging exceptions above.
-- Existing regression suite: 37 passed, 1 optional full-catalog test skipped, 0 failed. Build's lossless packing assertion passed.
+- Existing regression suite: 38 passed, 1 optional full-catalog test skipped, 0 failed. Build's lossless packing assertion passed.
 - **Rendered browser QA remains unverified:** managed preview started at http://terminal.local:4173/ but browser navigation returned `net::ERR_CONNECTION_RESET`; preview status remained running. No claim of verified rendered clicking, responsive layout or browser download behavior. Code-level tests are not a substitute for that final visual check.
 
-## Approval scope
+## Approved scope
 
-Approve only this Home Care correction: new part-038, three category cross-listings, seven newly cached photos (Folex reuses an existing photo), coverage matrix, and filter/export/dashboard integration. Preserve the current URL, original records, other projects and weekly automation. Before merging, rebase on latest main, rebuild and recheck counts; complete rendered browser QA if preview routing is available. Do not merge automatically.
+The approved Home Care correction includes: new part-038, three category cross-listings, seven newly cached photos (Folex reuses an existing photo), coverage matrix, and filter/export/dashboard integration. Preserve the current URL, original records, other projects and weekly automation. Before merging, rebase on latest main, rebuild and recheck counts; complete rendered browser QA if preview routing is available. The owner subsequently approved publication and requested the factory directory described below.
+
+
+## Brand / manufacturer / factory extension
+
+Every one of the 10,141 collected records receives separate supplemental owner, manufacturer/supplier, disclosed brand factory, source, research status and exact-SKU factory fields at build time. Source brand labels and every pre-existing field are preserved. The new Brands & factories link opens a searchable directory with a status filter and full CSV download; the selected-product CSV also includes these fields.
+
+| Measure | Result |
+|---|---:|
+| Distinct nonempty brand labels (case/spelling variants retained) | 840 |
+| Brand labels with owner or manufacturer/supplier evidence | 108 |
+| Brand labels with disclosed manufacturing facilities | 31 |
+| Product records associated with those brand-level facilities | 1,050 |
+| Brand labels awaiting brand-specific factory research | 731 |
+| Additional reviewed label with no company evidence (Rejoice cleaner) | 1 |
+| Product records with no recorded brand | 3,414 |
+| Exact SKU/batch factories verified | 0 |
+
+This is **not a completed factory identification for every brand**. The fields cover all records; the public evidence is partial. Pending research is distinct from a researched but unresolved factory. Unresearched entries receive no fabricated verification date. A brand owner, distributor, headquarters, mailing address, supplier address or country of origin is not automatically a factory. Disclosed facilities may manufacture only part of a brand's assortment, and no exact SKU plant is asserted.
+
+Factory evidence and review dates are maintained in `site/brand-factories.json`. Major official sources include [SC Johnson manufacturing](https://jobs.scjohnson.com/en/manufacturing-careers), [P&G Tabler Station](https://www.pgplantjobs.com/us/en/tabler-station), [Libman](https://www.libman.com/), [Method's regional factory page](https://www.methodhome.com.sg/pages/soap-factory), [ECOS history](https://www.ecos.com/our-story/), [Dart Chicago](https://corporate.dartcontainer.com/location/chicago-il/), [Persil FAQ](https://www.persillaundry.com/us/en/laundry-help/faq.html), [PurposeBuilt facilities](https://purposebuiltbrands.com/company), [Star Brands FAQ](https://www.starbrandsltd.co.uk/pages/faqs), [Bar Keepers Friend](https://bkfclean.com/about-us/our-story/), and [OdoBan](https://www.odoban.com/our-story/). Each directory entry links its own company and factory sources.
+
+Important exceptions:
+
+- Folex's professional-product SDS names FOLEXPORT, INC. as manufacturer/supplier. Its PO box is not a factory, and the SDS is not exact retail SKU traceability. The unrelated film-coating company at folex.com is excluded.
+- TERRO ownership is supported by Woodstream; an exact manufacturing plant remains unresolved.
+- Rejoice cleaner is not assigned to the unrelated Rejoice hair-care brand.
+- Weiman's company relationship is documented separately from the PurposeBuilt production network; the network page does not map Weiman SKUs to a plant.
+- Method and Raid brand facilities do not prove where the cross-listed floor cleaner or roach baits were produced.
+- Essential Home brands use the completed 31 December 2025 divestment disclosure, not stale Air Wick website wording that still names Reckitt alone. The announcement body date is used; its page header is inconsistent.
+- Bona factory network evidence is explicitly dated to its 2024 report. Current SKU routing is unverified.
+- Supplier outreach, confidential factory lists, retailer/vendor documents and SKU/batch-specific labels may be needed to close the remaining factory gaps. No outreach was sent.
+
+Factory validation: all 841 directory CSV rows (840 labels plus missing-brand group) sum to 10,141 records. Tested actual generated search/status handler, alias boundaries, missing brand fallback, owner-only records, retained fields, safe HTML/CSV handling and selected-product factory exports. All 11 selected correction records export a research status and explicitly unverified exact SKU factory. Browser rendering remains unverified: preview routing failed, and a later attempt to select the preview tab was rejected by browser URL policy. No browser workaround was attempted.
+
+The existing optimizer generates `brand-factories.html`, `brand-factory-directory.json` and `brand-factory-directory.csv` on each build. Existing publishing and weekly schedules remain unchanged.
