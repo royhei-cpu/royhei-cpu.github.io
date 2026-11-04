@@ -18,7 +18,7 @@
     "with_dimensions": 1738,
     "with_variant_options": 4051,
     "source_linked_images": 4058,
-    "source_leads_excluded": 24,
+    "source_leads_excluded": 25,
     "visually_reviewed_sample": 8,
     "with_shop_descriptions": 3571
   },
@@ -1045,38 +1045,6 @@
       }
     },
     {
-      "id": "jotoys-official",
-      "name": "JOTOYS international store",
-      "url": "https://jotoys.store",
-      "status": "complete",
-      "checked": "2026-11-04",
-      "raw_products_read": 56,
-      "currency": "USD",
-      "products_inspected": 56,
-      "eligible_listings": 37,
-      "external_audit": {
-        "checked": "2026-10-31",
-        "status": "Partial; changes found",
-        "finding": "All 36 saved URLs matched. One saved full-set option returned to stock. OYO Portable Bag Mini and KOKOSA Fruit Party need product review; the mixed Collector’s Bundle is excluded. The Best Sellers label is retailer curation without published unit volumes."
-      }
-    },
-    {
-      "id": "sonnyangel-jp",
-      "name": "Sonny Angel Japan official store",
-      "url": "https://www.sonnyangelstore.com",
-      "status": "complete",
-      "checked": "2026-11-04",
-      "raw_products_read": 104,
-      "currency": "JPY",
-      "products_inspected": 104,
-      "eligible_listings": 56,
-      "external_audit": {
-        "checked": "2026-10-31",
-        "status": "Saved assortment matched",
-        "finding": "All 56 saved URLs matched the 104-record Japanese feed; three variant stock differences were found. Japanese names defeat the English keyword rule, so its zero candidate count is not a completeness finding. SMISKI and other Dreams products must retain their own identities."
-      }
-    },
-    {
       "id": "miniso-china",
       "name": "MINISO China · official product showcase",
       "url": "https://www.miniso.cn/product/ip.html",
@@ -1189,27 +1157,28 @@
       "documented_sale_records": 11,
       "secondary_listing_reports": 0,
       "current_inventory_captured": false
-    }
-  ],
-  "external_source_audit": {
-    "checked": "2026-10-31",
-    "scope": "All 18 configured store/evidence destinations checked; 12 public feeds reconciled. Feed URL identity and saved variant differences checked, not a manual visual or authenticity audit of every product. No all-China completeness claim.",
-    "summary": {
-      "catalog_products": 4230,
-      "catalog_listing_urls": 4262,
-      "stores_checked": 18,
-      "feeds_completed": 12,
-      "live_feed_records": 5679,
-      "saved_feed_urls_matched": 3845,
-      "heartfelt_urls_matched": 278,
-      "broken_product_links": 15,
-      "renamed_links": 1,
-      "variant_changes": 83,
-      "price_differences": 38,
-      "stock_differences": 52,
-      "products_with_variant_changes": 48,
-      "broad_rule_candidates": 153
     },
-    "report": "research.html"
-  }
+    {
+      "id": "jotoys-official",
+      "name": "JOTOYS international store",
+      "url": "https://jotoys.store",
+      "status": "complete",
+      "checked": "2026-11-04",
+      "raw_products_read": 56,
+      "currency": "USD",
+      "products_inspected": 56,
+      "eligible_listings": 37
+    },
+    {
+      "id": "sonnyangel-jp",
+      "name": "Sonny Angel Japan official store",
+      "url": "https://www.sonnyangelstore.com",
+      "status": "complete",
+      "checked": "2026-11-04",
+      "raw_products_read": 104,
+      "currency": "JPY",
+      "products_inspected": 104,
+      "eligible_listings": 56
+    }
+  ]
 }

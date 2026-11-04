@@ -1150,5 +1150,83 @@
       "scope": "Local launch event, not nationwide popularity",
       "possible_appeal": "Tactile cake slices can be shared or assembled, with cake-box gift presentation. These features may support gifting and hands-on play; the source only verifies launch interest."
     }
+  },
+  {
+    "id": "baf89ccfb7606dca",
+    "brand": "Jotoys Official Website",
+    "name": "Blind Box Collector's Bundle",
+    "ip": null,
+    "category": "Blind-box figures",
+    "wave": null,
+    "image_source": "https://cdn.shopify.com/s/files/1/0659/8868/9993/files/1792486528478-ad7de8d3-parent.png?v=1792486530",
+    "gallery": [
+      "https://cdn.shopify.com/s/files/1/0659/8868/9993/files/1792486528478-ad7de8d3-parent.png?v=1792486530"
+    ],
+    "listings": [
+      {
+        "source": "JOTOYS international store",
+        "source_id": "jotoys-official",
+        "kind": "retailer",
+        "url": "https://jotoys.store/products/blind-box-collectors-bundle",
+        "market": "International",
+        "currency": "USD",
+        "checked": "2026-11-04",
+        "price": null,
+        "variant": null,
+        "available": null,
+        "listing_date": "2026-10-20",
+        "options": [
+          {
+            "name": "Default Title",
+            "sku": null,
+            "price": 0.0,
+            "currency": "USD",
+            "available": true,
+            "image": null,
+            "id": "67752758739017"
+          }
+        ],
+        "options_checked": "2026-11-04"
+      }
+    ],
+    "launch": null,
+    "regular_designs": null,
+    "secret_designs": null,
+    "material": null,
+    "first_seen": "2026-11-04",
+    "checked": "2026-11-04",
+    "china_status": "Official overseas reference; mainland SKU availability needs confirmation",
+    "sales": null,
+    "baseline": false,
+    "history": [],
+    "details": {
+      "source": "https://jotoys.store/products/blind-box-collectors-bundle",
+      "checked": "2026-11-04",
+      "source_product_type": "product",
+      "field_sources": {
+        "description": {
+          "url": "https://jotoys.store/products/blind-box-collectors-bundle",
+          "checked": "2026-11-04",
+          "kind": "Attributed shop excerpt"
+        }
+      },
+      "description": "The Blind Box Collector's Bundle invites you to curate a personalized collection of delightful surprises. You begin by selecting from an array of soft plush blind boxes that bring warmth and companionship to your space. Next, you can choose from themed series & bags that capture the joy of everyday adventures and playful characters. Your bundle continues with a selection of intricate pvc figures & dolls that add a touch of magic and artistry to…",
+      "description_source": "https://jotoys.store/products/blind-box-collectors-bundle",
+      "description_checked": "2026-11-04"
+    },
+    "image_review": {
+      "status": "Same-product source image",
+      "source": "https://jotoys.store/products/blind-box-collectors-bundle",
+      "checked": "2026-11-04",
+      "level": "Source-link and file check; not a full visual audit",
+      "scope": "Series / example photo; random blind-box contents may differ.",
+      "visually_reviewed": false,
+      "source_match": true
+    },
+    "details_checked": "2026-11-04",
+    "stale": false,
+    "_new_photo": "https://cdn.shopify.com/s/files/1/0659/8868/9993/files/1792486528478-ad7de8d3-parent.png?v=1792486530",
+    "exclusion_reason": "Mixed-series bundle; not an individual series",
+    "excluded_from_product_counts": true
   }
 ]
