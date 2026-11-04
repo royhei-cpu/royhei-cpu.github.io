@@ -856,7 +856,14 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/crie-mood-diary-mini-plush-singles-sets-guide",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/didapop-blog-crie-mood-diary-2026-11-03.png?v=1793711259",
+        "alt": "DidaPop: CRIE Mood Diary Mini Plush: Singles, Sets and Packaging",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "src": "images/news/97bda975194452e79169.jpg"
+      }
     },
     {
       "id": "feed-4eab44901501cb7d",
@@ -871,7 +878,14 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/kiki-night-elves-plush-vs-mini-beans-guide",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/didapop-blog-kiki-night-elves-2026-11-03.png?v=1793711266",
+        "alt": "DidaPop: KIKI Night Elves Plush or Mini Beans? A Buying Guide",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "src": "images/news/77aec4aec176760997de.jpg"
+      }
     },
     {
       "id": "52toys-tsum-arrival",
@@ -886,7 +900,15 @@
       "type": "Shop release note",
       "url": "https://hi52toys.com/products/disney-tsum-tsum-8-bit-all-star-series-plush-keychain-blind-box",
       "publisher": "52TOYS international store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://hi52toys.com/cdn/shop/files/1200_526e65b6-03f4-4a29-af78-51316f4136cf.webp?v=1793675648&width=2048",
+        "alt": "52TOYS international store: 52TOYS marks an 8-bit Disney plush blind box arrival",
+        "credit": "52TOYS international store",
+        "kind": "Article image",
+        "source_page": "https://hi52toys.com/products/disney-tsum-tsum-8-bit-all-star-series-plush-keychain-blind-box",
+        "src": "images/news/d4c8f6dc0cb764bbe5f1.jpg"
+      }
     },
     {
       "id": "feed-57a77d858b4055ed",
@@ -901,7 +923,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/2026-christmas-wishlist-blind-box-gifts-that-arrive-on-time",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/e4aba5dfe832fad3746fe63c27403d4f.jpg?v=1793322901",
+        "alt": "Nommi Christmas Forest Feast Series Plush Doll Blind Box",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/9786be30c6ce09fe97aa.jpg"
+      }
     },
     {
       "id": "release-5359311099268944",
@@ -920,6 +949,14 @@
       "product_ids": [
         "popmart-baby-molly-princess"
       ],
+      "image": {
+        "src": "images/chains/popmart-baby-molly-princess.jpg",
+        "url": "images/chains/popmart-baby-molly-princess.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5359311099268944.html",
+        "alt": "Baby Molly · Disney Princess MINI",
+        "credit": "POPMART泡泡玛特 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -939,6 +976,14 @@
       "product_ids": [
         "popmart-ribodiary-forest"
       ],
+      "image": {
+        "src": "images/chains/popmart-ribodiary-forest.jpg",
+        "url": "images/chains/popmart-ribodiary-forest.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5358963811421108.html",
+        "alt": "RiboDiary · Forest Gathering Day",
+        "credit": "POPMART泡泡玛特 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -954,7 +999,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/christmas-gifts-2026-build-the-perfect-wishlist-in-the-us",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/christmas-gifts-flat-lay-with-nommi-plush.png?v=1793087340",
+        "alt": "Christmas gifts flat lay with NOMMI plush",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/285cdf897c30b95e8dc5.jpg"
+      }
     },
     {
       "id": "release-5357121672840067",
@@ -973,6 +1025,14 @@
       "product_ids": [
         "sanfu-rilakkuma-october-figures"
       ],
+      "image": {
+        "src": "images/chains/sanfu-rilakkuma-october.jpg",
+        "url": "images/chains/sanfu-rilakkuma-october.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5357121672840067.html",
+        "alt": "Rilakkuma · October Blind-Draw Figures",
+        "credit": "SANFU · verified retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -989,6 +1049,14 @@
       "url": "https://prtimes.jp/main/html/rd/p/000000042.000062707.html",
       "publisher": "POP MART Japan via PR TIMES",
       "checked": "2026-11-04",
+      "image": {
+        "url": "https://prcdn.freetls.fastly.net/release_image/62707/42/62707-42-abc7011a97205614f77e1ee130ed0e4c-1080x1350.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+        "alt": "POP MART Japan via PR TIMES: POP MART plans an ocean-themed Okinawa store",
+        "credit": "POP MART Japan via PR TIMES",
+        "kind": "Article image",
+        "source_page": "https://prtimes.jp/main/html/rd/p/000000042.000062707.html",
+        "src": "images/news/32b6a3363bf386227690.jpg"
+      },
       "date_kind": "Published"
     },
     {
@@ -1004,7 +1072,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/when-is-black-friday-2026-blind-box-deals-toy-sales",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/hello-kitty-heartbeat-photoshoot-series-plush-charms-on-desk-angled-view.png?v=1792651991",
+        "alt": "Hello Kitty Heartbeat Photoshoot series plush charms on desk - angled view",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/f110236d59a1453f2f1e.jpg"
+      }
     },
     {
       "id": "feed-fc3a48ad23cf636b",
@@ -1019,7 +1094,14 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/nora-spring-outing-team-boxed-vs-no-box-guide",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/blog-2026-10-20-nora-branded.png?v=1792494420",
+        "alt": "DidaPop: NORA Spring Outing Team: Boxed vs No-Box Plush Guide",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "src": "images/news/9eacf7c76ba255f0025b.jpg"
+      }
     },
     {
       "id": "feed-a897b0ca1e68f228",
@@ -1034,7 +1116,14 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/maymei-greedy-bear-plush-buying-guide",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/7_SUREFUN_c187140d-25b0-491b-8fe7-f3314d99ecb8.png?v=1792496749",
+        "alt": "DidaPop: MAYMEI Greedy Bear Plush: Buying and Packaging Guide",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "src": "images/news/a0caf47c8b617f2449f9.jpg"
+      }
     },
     {
       "id": "feed-199ef84ec97434e2",
@@ -1049,7 +1138,14 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/tookie-squishy-jeyy-mini-beans-blind-bag-guide",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/3____1_74615dd0-c12f-4323-ae95-37fae8a5ecd8.jpg?v=1792484915",
+        "alt": "DidaPop: TOOKIE Squishy Jeyy Mini Beans: What’s in One Bag?",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "src": "images/news/8c825aadcb01fd7ea53b.jpg"
+      }
     },
     {
       "id": "feed-f04d73d91f9c2a5f",
@@ -1064,7 +1160,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/black-friday-2026-toy-deals-a-us-collectors-gift-guide",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/nommi_christmas_flat_lay.png?v=1792475553",
+        "alt": "[Image: Flat lay of Nommi blind box figures and gift boxes on a dark table with warm holiday lights]",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/aa72eb09c9b1119c14a8.jpg"
+      }
     },
     {
       "id": "miniso-land-columbus",
@@ -1080,6 +1183,14 @@
       "url": "https://www.miniso.com/brand/news_208.html",
       "publisher": "MINISO",
       "checked": "2026-11-04",
+      "image": {
+        "url": "https://www.miniso.com/vancheerfile/images/2026/10/202610270917503121.png",
+        "alt": "MINISO LAND Columbus opening photograph from MINISO’s announcement",
+        "credit": "MINISO",
+        "kind": "Article image",
+        "source_page": "https://www.miniso.com/brand/news_208.html",
+        "src": "images/news/d8fc2d74dc15e4f53377.jpg"
+      },
       "date_kind": "Published"
     },
     {
@@ -1099,6 +1210,14 @@
       "product_ids": [
         "popmart-sanrio-shrimp"
       ],
+      "image": {
+        "src": "images/chains/popmart-sanrio-shrimp.jpg",
+        "url": "images/chains/popmart-sanrio-shrimp.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5354743502478400.html",
+        "alt": "Sanrio · Fried Shrimp Mini Figures",
+        "credit": "POPMART泡泡玛特 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1118,6 +1237,14 @@
       "product_ids": [
         "toptoy-sofunui-digimon"
       ],
+      "image": {
+        "src": "images/chains/toptoy-sofunui-digimon.jpg",
+        "url": "images/chains/toptoy-sofunui-digimon.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5354581397342708.html",
+        "alt": "SofuNui · Digimon Adventure",
+        "credit": "TOPTOY官方 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1133,7 +1260,14 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/hirono-harry-potter-figures-buying-guide",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/Hironox__1__POPMART.jpg?v=1791874230",
+        "alt": "DidaPop: HIRONO × Harry Potter: Characters, Size & Buying Options",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "src": "images/news/62fed753aefa9be64f60.jpg"
+      }
     },
     {
       "id": "feed-45aed4b310cb9943",
@@ -1148,7 +1282,14 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/blind-box-vs-confirmed-figure-vs-full-set",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/POP_MART_Hirono_Le_Petit_Prince_Series_Blind_Box.jpg?v=1791874188",
+        "alt": "DidaPop: Blind Box vs Confirmed Figure vs Full Set: How to Choose",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "src": "images/news/b49e1efdb72753d4dcbf.jpg"
+      }
     },
     {
       "id": "release-5353243982957281",
@@ -1168,6 +1309,14 @@
       "product_ids": [
         "mrpa-creature-wardrobe"
       ],
+      "image": {
+        "src": "images/news/aae4f0a5ecff57569b01.jpg",
+        "url": "https://www.mowanmi.com/zb_users/upload/2026/10/202610131791882564562590.jpg",
+        "source_page": "https://mowanmi.com/post/8439.html",
+        "alt": "Mr. Pa · Cute Creature Wardrobe",
+        "credit": "mowanmi.com",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1183,7 +1332,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/sa-app-renewal-release",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/SA_APP_JP_banner_release.png?v=1791293048",
+        "alt": "Sonny Angel Store: Sonny Angelアプリがリニューアルしました！",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/sa-app-renewal-release",
+        "src": "images/news/aaa66156ac86df67b0d8.jpg"
+      }
     },
     {
       "id": "target-holiday-discovery",
@@ -1198,6 +1355,14 @@
       "url": "https://corporate.target.com/news-features/article/2026/10/target-holiday-kids-catalog",
       "publisher": "Target",
       "checked": "2026-11-04",
+      "image": {
+        "url": "https://target.scene7.com/is/image/Target/GUEST_c5edb84d-7ac2-4597-b154-375b9473fb29?fmt=pjpeg&hei=600&wid=600",
+        "alt": "Catalog example: RMS Mystery Squishy Dumpling Fidget Toy at Target",
+        "credit": "Target",
+        "kind": "Catalog example",
+        "source_page": "https://www.target.com/p/rms-usa-mystery-squish-dumpling-fidget-toy-confetti/-/A-95253515",
+        "src": "images/news/55f6a8565557e0d75f95.jpg"
+      },
       "date_kind": "Published"
     },
     {
@@ -1213,7 +1378,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/notice_of_newsaapp2",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/shopify_SA_APP_JP_banner_1001_rev.jpg?v=1790826100",
+        "alt": "Sonny Angel Store: Sonny Angelアプリ リニューアルのお知らせ",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/notice_of_newsaapp2",
+        "src": "images/news/eb49cef430b41278c0e9.jpg"
+      }
     },
     {
       "id": "feed-1c894b72199dd1d2",
@@ -1228,7 +1401,15 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/how-much-is-a-dimoo-price-guide-2026",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0708/9612/4152/files/POP_MART_DIMOO_Weaving_Wondeis_Series_Blind_Box_Confirmed_Figure_Art_Toys_Gift1.jpg?v=1753338493",
+        "alt": "How much is a DIMOO – POP MART DIMOO Weaving Wonders series confirmed figure at DidaPop",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "source_page": "https://didapop.com/blogs/news/how-much-is-a-dimoo-price-guide-2026",
+        "src": "images/news/008930de10d4c09a2956.jpg"
+      }
     },
     {
       "id": "feed-0645a461519295f4",
@@ -1243,7 +1424,15 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/new-blind-box-releases-september-2026-week-6",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0708/9612/4152/files/2_848f1889-2e44-4048-aec3-f0a2cb279c33.jpg?v=1790604999",
+        "alt": "Babythree Cool Cubes Fantasy Mirror blind box bags at DidaPop",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "source_page": "https://didapop.com/blogs/news/new-blind-box-releases-september-2026-week-6",
+        "src": "images/news/d49543759d03f467822e.jpg"
+      }
     },
     {
       "id": "release-5347736691410585",
@@ -1264,6 +1453,14 @@
       "product_ids": [
         "bonnie-fluffy-melody"
       ],
+      "image": {
+        "src": "images/chains/bonnie-fluffy-melody.jpg",
+        "url": "images/chains/bonnie-fluffy-melody.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5347736691410585.html",
+        "alt": "Bonnie 8 · Fluffy Melody",
+        "credit": "COME4FREE · official manufacturer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1279,7 +1476,15 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/how-much-is-a-sanrio-blind-box-price-guide-2026",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0708/9612/4152/files/3_d790838f-9aa8-4b56-bbc8-350427070c6c.jpg?v=1770133024",
+        "alt": "Sanrio Masterpieces Series plush blind box lineup at DidaPop – Hello Kitty, Kuromi and Pompompurin as famous paintings",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "source_page": "https://didapop.com/blogs/news/how-much-is-a-sanrio-blind-box-price-guide-2026",
+        "src": "images/news/e0e8b2bd0bd3343d0bf2.jpg"
+      }
     },
     {
       "id": "feed-57864a3adb39d793",
@@ -1294,7 +1499,15 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/new-blind-box-releases-september-2026-week-5",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0708/9612/4152/files/2_52TOYS_d19e8483-e028-40e6-a875-4e36c9639374.jpg?v=1790431758",
+        "alt": "Stitch LET's Make Mischief Series plush by 52TOYS at DidaPop",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "source_page": "https://didapop.com/blogs/news/new-blind-box-releases-september-2026-week-5",
+        "src": "images/news/a61349542fb06313fdc8.jpg"
+      }
     },
     {
       "id": "feed-3ba20443cf13c32d",
@@ -1324,7 +1537,15 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/bjd-blind-box-buying-guide-2026",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0708/9612/4152/files/BJD__5_TheGreenParty_3303bc63-44a1-4311-97e5-33c82b5bded5.png?v=1780458714",
+        "alt": "Minty Ocean Gem Series 1/8 scale BJD blind box doll at DidaPop – recommended first BJD blind box",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "source_page": "https://didapop.com/blogs/news/bjd-blind-box-buying-guide-2026",
+        "src": "images/news/260cb031b7af1ae27cdb.jpg"
+      }
     },
     {
       "id": "release-5346989991789401",
@@ -1343,6 +1564,14 @@
       "product_ids": [
         "toptoy-zoro-freeny"
       ],
+      "image": {
+        "src": "images/chains/toptoy-zoro-freeny.jpg",
+        "url": "images/chains/toptoy-zoro-freeny.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5346989991789401.html",
+        "alt": "One Piece × Jason Freeny · Zoro Sword Stances",
+        "credit": "TOPTOY官方 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1358,7 +1587,15 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/why-is-miffy-so-popular-2026",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/2_80568925-2119-4617-8deb-7a481b21c1dc.jpg?v=1790057700",
+        "alt": "DidaPop: Why Is Miffy So Popular in 2026? Inside the 70-Year-Old Bunny's Blind Box Takeover",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "source_page": "https://didapop.com/blogs/news/why-is-miffy-so-popular-2026",
+        "src": "images/news/c3620451bee14ac18741.jpg"
+      }
     },
     {
       "id": "feed-91b235ef3afcc610",
@@ -1373,7 +1610,15 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/new-blind-box-releases-september-2026-week-4",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0708/9612/4152/files/cosbi__1.jpg?v=1790006352",
+        "alt": "Spider-Man Brand New Day plush keychain blind box collection at DidaPop",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "source_page": "https://didapop.com/blogs/news/new-blind-box-releases-september-2026-week-4",
+        "src": "images/news/98c9c3efc2cbddccf462.jpg"
+      }
     },
     {
       "id": "release-5345177972507875",
@@ -1392,6 +1637,14 @@
       "product_ids": [
         "popmart-mischief-night-squishy-lamp"
       ],
+      "image": {
+        "src": "images/chains/popmart-mischief-night-squishy-lamp.jpg",
+        "url": "images/chains/popmart-mischief-night-squishy-lamp.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5345177972507875.html",
+        "alt": "Mischief Night · Silicone Squishy Light",
+        "credit": "POPMART泡泡玛特 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1412,6 +1665,14 @@
       "product_ids": [
         "supernatural-childhood-plush"
       ],
+      "image": {
+        "src": "images/chains/5344921281366173-6.jpg",
+        "url": "images/chains/5344921281366173-6.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5344921281366173.html",
+        "alt": "Supernatural Action Team · Childhood Dreams · Magnetic Plush Pendant",
+        "credit": "FUN4YEAH · verified manufacturer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1431,6 +1692,14 @@
       "product_ids": [
         "toycity-cluebie-flower"
       ],
+      "image": {
+        "src": "images/news/38fbf84479dc15c6e86e.jpg",
+        "url": "https://www.mowanmi.com/zb_users/upload/2026/09/202609231790148055834924.jpg",
+        "source_page": "https://www.mowanmi.com/post/8393.html",
+        "alt": "cluebie · Flower Journey",
+        "credit": "mowanmi.com",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1450,6 +1719,14 @@
       "product_ids": [
         "luoxiaohei-meow-burger"
       ],
+      "image": {
+        "src": "images/chains/5344830684662289.jpg",
+        "url": "images/chains/5344830684662289.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5344830684662289.html",
+        "alt": "The Legend of Hei · Meow Burger",
+        "credit": "三福百货 · verified retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1469,6 +1746,14 @@
       "product_ids": [
         "miniso-liite-candy-dream"
       ],
+      "image": {
+        "src": "images/chains/miniso-liite-candy-dream.jpg",
+        "url": "images/chains/miniso-liite-candy-dream.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5343743571132735.html",
+        "alt": "LIITE · Candy Dream",
+        "credit": "MINISO名创优品 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1484,7 +1769,14 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/how-much-is-a-lulu-the-piggy-price-guide-2026",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/LULU_THE_PIGGY_Original_V2_Figure_Series_Blind_Box1.webp?v=1789473752",
+        "alt": "DidaPop: How Much Is a LuLu the Piggy? The 2026 LuLu Price Guide: Figures, Plush, Teddy Minis, and the LULUMI Sub-Brands",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "src": "images/news/d6eb362b8cb806ccd77d.jpg"
+      }
     },
     {
       "id": "feed-a248234821e032c5",
@@ -1499,7 +1791,15 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/halloween-blind-boxes-2026",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0708/9612/4152/files/20251012-002004.webp?v=1760491054",
+        "alt": "Sanrio Halloween Mischief Night series blind box at DidaPop",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "source_page": "https://didapop.com/blogs/news/halloween-blind-boxes-2026",
+        "src": "images/news/6f3dbf6dd05021f91244.jpg"
+      }
     },
     {
       "id": "feed-9b649976c8bb79e5",
@@ -1514,7 +1814,14 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/how-much-is-a-skullpanda-price-guide-2026",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/POP_MART_Skullpanda_The_Mare_of_Animals_Series_Blind_Box_Confirmed_Figure_Toys1_The_Mare_of_Animals_Series_Blind_Box_Confirmed_Figure_Toys1.jpg?v=1789473589",
+        "alt": "DidaPop: How Much Is a SKULLPANDA? The 2026 SKULLPANDA Price Guide: Retail vs Resale, Secrets, and Every Format",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "src": "images/news/c5bcbfbabe2451643cbf.jpg"
+      }
     },
     {
       "id": "feed-75a7a14e5ba500cf",
@@ -1529,7 +1836,14 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/baby-three-big-bite-series-guide",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/Baby_Three_Big_Bite_Plush_Series_Blind_Box2.webp?v=1789474255",
+        "alt": "DidaPop: Baby Three Big Bite Series Explained: The Food-Scale Plush Line, Set Size, Secret, Price, and Why It Sells Out (2026)",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "src": "images/news/fc3a8d43ca1a1e12b7ff.jpg"
+      }
     },
     {
       "id": "feed-53a301318571f1fe",
@@ -1544,7 +1858,15 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/skullpanda-off-mode-series-guide",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/1785310537917_05ed216de61315dc07ebaade1b6c5bec_fc30003e-7ed1-465c-86a9-d6ca67eb2a4a.webp?v=1789474160",
+        "alt": "DidaPop: SKULLPANDA Off Mode Series Explained: All 12 Designs, the Self Mode Secret, Prices, and Whether to Buy the Plush or the POP ATTACH (2026)",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "source_page": "https://didapop.com/blogs/news/skullpanda-off-mode-series-guide",
+        "src": "images/news/ecefea24a7bceb871c01.jpg"
+      }
     },
     {
       "id": "feed-2d46826da56139de",
@@ -1559,7 +1881,14 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/how-much-is-a-nommi-price-guide-2026",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/NOMMI_V5_Puppy_Diary_Plush_Series_Blind_Box_128962ac-b440-4c1b-9b15-dd86c5b6d0d7.webp?v=1789473669",
+        "alt": "DidaPop: How Much Is a Nommi? The 2026 Nommi Price Guide: Every Size, Every Series, and What's Overpriced",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "src": "images/news/fc4d6cb0aaad08d69947.jpg"
+      }
     },
     {
       "id": "feed-0ffa4d7ff285c48e",
@@ -1574,7 +1903,14 @@
       "type": "Retailer journal",
       "url": "https://didapop.com/blogs/news/baby-three-zodiac-series-guide",
       "publisher": "DidaPop",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://didapop.com/cdn/shop/articles/Baby_Three_Zodiac_V2_Plush_Series_Blind_Box.webp?v=1789474219",
+        "alt": "DidaPop: Baby Three Zodiac Series Explained: All 12 Animals, the Hidden Edition, V1 vs V2, Sizes, and Prices (2026)",
+        "credit": "DidaPop",
+        "kind": "Article image",
+        "src": "images/news/ada57223fa336d8d3300.jpg"
+      }
     },
     {
       "id": "feed-03228fe847659aac",
@@ -1589,7 +1925,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/naruto-blind-box-guide-for-us-beginners-shippuden-characters",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/21_fca30b4a-b752-4499-9eae-2574ec06514d.jpg?v=1789530322",
+        "alt": "Full set of Naruto KittyLand plush blind boxes, characters wearing cat ear plush costumes on display.",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/9b3e26f9e74a1de197b6.jpg"
+      }
     },
     {
       "id": "release-5342643627491723",
@@ -1608,6 +1951,14 @@
       "product_ids": [
         "toptoy-sisi-pet-king"
       ],
+      "image": {
+        "src": "images/chains/toptoy-sisi-pet-king.jpg",
+        "url": "images/chains/toptoy-sisi-pet-king.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5342643627491723.html",
+        "alt": "SISI · Pet King",
+        "credit": "TOPTOY官方 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1623,7 +1974,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/notice_of_newsaapp",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/img_saappnotice.jpg?v=1789050933",
+        "alt": "Sonny Angel Store: 「Sonny Angelアプリ」 リニューアルに伴うSAポイントアイテム申請等についてのお知らせ",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/notice_of_newsaapp",
+        "src": "images/news/d8b25505598bd95b4cd1.jpg"
+      }
     },
     {
       "id": "52toys-ciftis",
@@ -1638,6 +1997,14 @@
       "url": "https://www.xinhuanet.com/house/20260911/f37fb55d297949479643f5804f579f1a/c.html",
       "publisher": "Xinhua",
       "checked": "2026-11-04",
+      "image": {
+        "url": "https://www.xinhuanet.com/house/20260911/f37fb55d297949479643f5804f579f1a/20260911f37fb55d297949479643f5804f579f1a_202609117cc6f3a5b13a47b990e6fccff7d3954d.jpg",
+        "alt": "52TOYS at CIFTIS, photographed in the original report",
+        "credit": "Xinhua / 52TOYS",
+        "kind": "Article image",
+        "source_page": "https://www.xinhuanet.com/house/20260911/f37fb55d297949479643f5804f579f1a/c.html",
+        "src": "images/news/a00ac973ad92d644f7db.jpg"
+      },
       "date_kind": "Published"
     },
     {
@@ -1659,6 +2026,14 @@
       "product_ids": [
         "dearnikki-lucky-dessert-mini"
       ],
+      "image": {
+        "src": "images/chains/dearnikki-lucky-dessert-mini.jpg",
+        "url": "images/chains/dearnikki-lucky-dessert-mini.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5339394866679357.html",
+        "alt": "DearNikki Lucky Dessert House · Mini Figures",
+        "credit": "DearNikki · verified manufacturer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1674,7 +2049,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/the-10-best-wedding-gift-ideas-for-couples-ultimate-guide",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/8_4cbd229a-0f4c-4fbd-ae80-3568aef24e83.jpg?v=1788342356",
+        "alt": "Stacked pastel‑colored gift boxes with satin ribbons, elegant wedding‑themed table decor with white roses",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/d9a1a60c5e147de80e1a.jpg"
+      }
     },
     {
       "id": "release-5336843051599902",
@@ -1693,6 +2075,14 @@
       "product_ids": [
         "miniso-lisa-yoyo"
       ],
+      "image": {
+        "src": "images/chains/miniso-lisa-yoyo.jpg",
+        "url": "images/chains/miniso-lisa-yoyo.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5336843051599902.html",
+        "alt": "LISA × YOYO · Collaboration Vinyl Blind Box",
+        "credit": "MINISO名创优品 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1708,7 +2098,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/hello-kitty-and-dear-daniel-the-ultimate-guide-for-us-fans",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/2_85663ad0-5bb4-4efb-a3ac-055cbae24527.jpg?v=1786499798",
+        "alt": "[Image: Dear Daniel character profile illustration showing his signature blue outfit and spiky hair]",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/ce186e82039d52aafebb.jpg"
+      }
     },
     {
       "id": "feed-9cb7507f89139011",
@@ -1723,7 +2120,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/summerholiday2026",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/img_summerholiday2026.png?v=1785806183",
+        "alt": "Sonny Angel Store: 2026年度 夏季休業のご案内 8/13(木)～8/16(日)",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/summerholiday2026",
+        "src": "images/news/9627765af5171daceea1.jpg"
+      }
     },
     {
       "id": "feed-3b025a0e9edd3cc5",
@@ -1738,7 +2143,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/giveaway_originalsticker",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/img_giveaway_originalsticker.png?v=1785229069",
+        "alt": "Sonny Angel Store: [キャンペーンは終了しました]当ストアで商品を購入すると「Sonny Angelオリジナルステッカー」をプレゼント！",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/giveaway_originalsticker",
+        "src": "images/news/30945dad8f8b2dd5d874.jpg"
+      }
     },
     {
       "id": "feed-3a6c93841cb3b4e1",
@@ -1753,7 +2166,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/heymi-blind-box-the-ultimate-guide-for-us-collectors",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/4_f7894224-e44a-40b0-897d-e3a1d9f653f9.png?v=1785491874",
+        "alt": "[Image: Heymi and Nommi displayed side by side, showcasing the contrast between dark and pastel aesthetics]",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/2e313ed080d87b66a33f.jpg"
+      }
     },
     {
       "id": "release-5326348903257719",
@@ -1773,6 +2193,14 @@
       "product_ids": [
         "bandai-kabutack-vol3"
       ],
+      "image": {
+        "src": "images/chains/bandai-kabutack-vol3.jpg",
+        "url": "images/chains/bandai-kabutack-vol3.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5326348903257719.html",
+        "alt": "Kabutack · BN FIGURE Q Vol. 3",
+        "credit": "万代南梦宫潮玩 · official manufacturer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1788,7 +2216,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/one-piece-manga-amp-characters-a-us-fans-collector-guide",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/1_ccafafc3-b008-4892-a8e4-c7bb4cbc77b3.png?v=1785399046",
+        "alt": "TOP TOY: One Piece Manga & Characters: A US Fan's Collector Guide",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/02d114866ae289b2c00c.jpg"
+      }
     },
     {
       "id": "feed-2de69a436534006e",
@@ -1803,7 +2238,15 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/news/toptoy-wins-sanrio-annual-licensing-award-celebrating-a-new-milestone-with-sanrio-fans-worldwide",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/396c3685-16d7-4266-b92c-0fb5d7b2f9d2.png?v=1785376228",
+        "alt": "Hand holding cute brown puppy costume Hello Kitty plush and TOP TOY Sanrio 2026 licensing award trophy at Sanrio brand cooperation ceremony",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "source_page": "https://gotoptoy.com/blogs/news/toptoy-wins-sanrio-annual-licensing-award-celebrating-a-new-milestone-with-sanrio-fans-worldwide",
+        "src": "images/news/47564c5dfad89a645fb1.jpg"
+      }
     },
     {
       "id": "release-5324241390274739",
@@ -1822,6 +2265,14 @@
       "product_ids": [
         "toycity-laura-chess"
       ],
+      "image": {
+        "src": "images/news/eaeba778c914de91d8b4.jpg",
+        "url": "https://toydolls.shop/cdn/shop/files/imgi_179_7_e6a5c2e064d8ea03493eba7778dfcf25.png?v=1784863184&width=416",
+        "source_page": "https://toydolls.shop/products/laura-chess-series-bjd-action-figure-blind-box",
+        "alt": "Laura · Chess",
+        "credit": "toydolls.shop",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1837,7 +2288,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/one-piece-characters-the-ultimate-chopper-guide-for-manga-anime-fans",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/Chiikawa_baby_plush_collection_arranged_on_a_pastel_shelf_display_12.jpg?v=1784791046",
+        "alt": "Close-up anime shot of Tony Tony Chopper from One Piece with cheerful open-mouthed expression, hat printed with glowing ONE PIECE lettering, patterned pink background",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/80006d66e2dd71aa2b84.jpg"
+      }
     },
     {
       "id": "feed-91c70e1d52b11db0",
@@ -1852,7 +2310,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/one-piece-at-sdcc-2026-the-us-fans-ultimate-guide",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/Chiikawa_baby_plush_collection_arranged_on_a_pastel_shelf_display.png?v=1784716402",
+        "alt": "Attendees walking outdoors at San Diego Comic-Con, featuring prominent One Piece cosplays: Buggy the Clown at center, Monkey D. Luffy on the left, alongside other convention guests wearing event badges and carrying merchandise, palm trees a",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/15fd3b35c42382ab490c.jpg"
+      }
     },
     {
       "id": "release-5322453233698189",
@@ -1872,6 +2337,14 @@
       "product_ids": [
         "bandai-gundam-head-vol4"
       ],
+      "image": {
+        "src": "images/chains/5322453233698189.jpg",
+        "url": "images/chains/5322453233698189.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5322453233698189.html",
+        "alt": "Gundam Head Collection Vol. 4",
+        "credit": "万代南梦宫玩具 · verified Bandai Namco Guangzhou account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1891,6 +2364,14 @@
       "product_ids": [
         "toycity-monboo-mini-candy"
       ],
+      "image": {
+        "src": "images/chains/toycity-monboo-mini-candy.jpg",
+        "url": "images/chains/toycity-monboo-mini-candy.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5321359825310722.html",
+        "alt": "MONBOO MINI · Candy House",
+        "credit": "TOYCITY玩具城市 · official brand / retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1906,7 +2387,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/sdcc-2026-gift-guide-best-san-diego-comic-con-buys-in-the-us",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/2026-07-16T173502.694.jpg?v=1784194523",
+        "alt": "Crowded outdoor walkway at San Diego Comic-Con, attendees walking side by side including two cosplayers in full Deadpool and Spider-Man suits, many guests carrying merch bags and event lanyards, Comic-Con signage visible on the convention b",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/7da693f73fdd2dc72b1f.jpg"
+      }
     },
     {
       "id": "feed-31065974de8c6576",
@@ -1921,7 +2409,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/sdcc-2026-what-to-expect-at-san-diego-comic-con-in-the-us",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/Chiikawa_baby_plush_collection_arranged_on_a_pastel_shelf_display_6.jpg?v=1784017330",
+        "alt": "San Diego Comic-Con International exterior shot featuring official event banners and palm trees on the concrete convention center building wall",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/0f3795c1e140309af3e4.jpg"
+      }
     },
     {
       "id": "release-5320286782361788",
@@ -1940,6 +2435,14 @@
       "product_ids": [
         "arknights-pajamars-mofu"
       ],
+      "image": {
+        "src": "images/chains/5320286782361788-1.jpg",
+        "url": "images/chains/5320286782361788-1.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5320286782361788.html",
+        "alt": "Arknights BNFQ Pajamars Mofu",
+        "credit": "酷乐潮玩 · verified retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1960,6 +2463,14 @@
         "gintama-potepotte-vol2",
         "gintama-elizabeth"
       ],
+      "image": {
+        "src": "images/chains/5319169098383763.jpg",
+        "url": "images/chains/5319169098383763.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5319169098383763.html",
+        "alt": "Gintama POTEPOTTE-R Vol. 2",
+        "credit": "万代南梦宫潮玩 · manufacturer",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -1975,7 +2486,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/rilakkuma-and-korilakkuma-the-ultimate-plush-collector-guide",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/Chiikawa_baby_plush_collection_arranged_on_a_pastel_shelf_display_2.webp?v=1783388637",
+        "alt": "A side-by-side comparison of a classic Rilakkuma bear plush and a Korilakkuma white bear plush doll]",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/b3b277a477d77f12c8e0.jpg"
+      }
     },
     {
       "id": "feed-25e136efd54602f3",
@@ -1990,7 +2508,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/the-ultimate-guide-to-chiikawa-sanrio-merch-in-the-us",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/4daea32c-b819-4ef8-9074-adb4926eddd4.webp?v=1783310233",
+        "alt": "Side-by-side comparison of Chiikawa plushies and Sanrio characters on a retail shelf",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/0922b1295b84fa7ee634.jpg"
+      }
     },
     {
       "id": "release-5315542372057566",
@@ -2009,6 +2534,14 @@
       "product_ids": [
         "x11-umaru-daily"
       ],
+      "image": {
+        "src": "images/chains/5315542372057566.jpg",
+        "url": "images/chains/5315542372057566.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5315542372057566.html",
+        "alt": "Himouto! Umaru-chan · Daily Life",
+        "credit": "干物妹小埋 · verified official IP account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2028,6 +2561,14 @@
       "product_ids": [
         "diko-lucky-bunny"
       ],
+      "image": {
+        "src": "images/chains/5315272755905239.jpg",
+        "url": "images/chains/5315272755905239.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5315272755905239.html",
+        "alt": "DIKO Lucky Bunny",
+        "credit": "酷乐潮玩 · verified retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2047,6 +2588,14 @@
       "product_ids": [
         "toycity-monboo-unknown"
       ],
+      "image": {
+        "src": "images/news/2b06a39d3610978f21d0.jpg",
+        "url": "https://www.disburst.com/sites/default/files/TOCI0078_01.png",
+        "source_page": "https://www.disburst.com/TOCI0078",
+        "alt": "MONBOO · Unknown Creatures",
+        "credit": "disburst.com",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2066,6 +2615,14 @@
       "product_ids": [
         "sanfu-balala-penny-bjd"
       ],
+      "image": {
+        "src": "images/chains/sanfu-balala-penny-bjd.jpg",
+        "url": "images/chains/sanfu-balala-penny-bjd.jpg",
+        "source_page": "https://weibo.com/sanfu?source=blog",
+        "alt": "Balala the Fairies × Penny’s Box · 1/8 BJD",
+        "credit": "SANFU · verified retailer account; indexed June 25 sale notice",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2081,7 +2638,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/top-10-naruto-blind-box-sets-every-us-collector-must-own",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/Hello_Kitty_and_her_friends_gathered_around_a_table_painting_and_crafting_together_showcasing_the_creative_and_cooperative_themes_of_Supercute_Adventures._33.jpg?v=1782348733",
+        "alt": "Dual-panel photo of Naruto Kitty Land plush keychain blind box collection, colorful fuzzy cat costume plush dolls of Naruto, Sasuke, Sakura, Hinata and other anime characters displayed with retail packaging boxes",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/34ae36c72a73b073bca6.jpg"
+      }
     },
     {
       "id": "feed-9749a6d577a2d598",
@@ -2096,7 +2660,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/nommi-blind-box-the-ultimate-guide-for-us-collectors",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/Hello_Kitty_and_her_friends_gathered_around_a_table_painting_and_crafting_together_showcasing_the_creative_and_cooperative_themes_of_Supercute_Adventures._9.jpg?v=1781590671",
+        "alt": "A colorful Nommi blind box display shelf featuring multiple series side by side, including Another World, Dessert Party, and Wonderland variants",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/d2fa6c89a05cd455c7b5.jpg"
+      }
     },
     {
       "id": "feed-8f53c202f0ea2129",
@@ -2111,7 +2682,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/kuromi-and-melody-the-ultimate-introduction-to-sanrio-s-most-dynamic-duo",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/Hello_Kitty_and_her_friends_gathered_around_a_table_painting_and_crafting_together_showcasing_the_creative_and_cooperative_themes_of_Supercute_Adventures._21.jpg?v=1782100458",
+        "alt": "Kuromi and My Melody standing side by side, showcasing their contrasting black punk style and pink bunny aesthetic",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/945974de844e8d864367.jpg"
+      }
     },
     {
       "id": "feed-97ad084fb42bd8ee",
@@ -2126,7 +2704,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/best-jessie-toy-story-5-collectibles-for-fans-in-2026",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/Hello_Kitty_and_her_friends_gathered_around_a_table_painting_and_crafting_together_showcasing_the_creative_and_cooperative_themes_of_Supercute_Adventures._31.jpg?v=1782294666",
+        "alt": "Jessie the Yodeling Cowgirl from Toy Story — official character render",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/964248af270e8a4e8547.jpg"
+      }
     },
     {
       "id": "feed-d8860fefa872852d",
@@ -2141,7 +2726,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/hello-kitty-penguin-name-the-rebellious-charm-of-badtz-maru-and-sanrio-s-most-iconic-bird",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/3371b525-996b-4e49-8116-50c90a846d72.png?v=1781577618",
+        "alt": "Badtz Maru standing confidently with his signature eye patch and skull emblem, contrasting with pastel Hello Kitty merchandise.",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/8a10576e3d339adc58db.jpg"
+      }
     },
     {
       "id": "feed-bec660d241693d98",
@@ -2156,7 +2748,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/unboxingcampaign",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/img_tiktokunboxing.png?v=1781163946",
+        "alt": "Sonny Angel Store: Sonny Angel Unboxing動画投稿キャンペーン",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/unboxingcampaign",
+        "src": "images/news/80389798003b43c0e299.jpg"
+      }
     },
     {
       "id": "release-5309047399777238",
@@ -2175,6 +2775,14 @@
       "product_ids": [
         "toptoy-toystory5-companions"
       ],
+      "image": {
+        "src": "images/chains/toptoy-toystory5-companions.jpg",
+        "url": "images/chains/toptoy-toystory5-companions.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5309047399777238.html",
+        "alt": "Toy Story 5 · Forever Companions",
+        "credit": "TOPTOY官方 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2194,6 +2802,14 @@
       "product_ids": [
         "toptoy-ukio-city"
       ],
+      "image": {
+        "src": "images/chains/toptoy-ukio-city.jpg",
+        "url": "images/chains/toptoy-ukio-city.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5308675088187746.html",
+        "alt": "ukio · City Impressions",
+        "credit": "TOPTOY官方 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2209,7 +2825,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/hello-kitty-artist-plushies-what-you-purchased-may-be-unauthorized",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/ChatGPT_Image_2026_6_10_10_16_31.webp?v=1781058188",
+        "alt": "Comparison image showing a side-by-side view of an official Hello Kitty plush versus a generic streetwear style plush with questionable quality.",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/24045035323c9b7e2f0d.jpg"
+      }
     },
     {
       "id": "feed-bf915a62d5f0c097",
@@ -2224,7 +2847,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/articles/daniel-sanrio-is-hello-kitty-married-5-fun-facts-you-need-to-know",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/ChatGPT_Image_2026_6_9_14_43_22.png?v=1780987421",
+        "alt": "Hello Kitty and Dear Daniel standing together in a whimsical garden setting",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/916340d1aa0bcc58f57d.jpg"
+      }
     },
     {
       "id": "release-5305023614682452",
@@ -2243,6 +2873,14 @@
       "product_ids": [
         "koucomi-every-moment"
       ],
+      "image": {
+        "src": "images/chains/5305023614682452.jpg",
+        "url": "images/chains/5305023614682452.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5305023614682452.html",
+        "alt": "KOUCOMI Every Moment",
+        "credit": "酷乐潮玩 · verified retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2262,6 +2900,14 @@
       "product_ids": [
         "tomato-pocket-pouka-universe"
       ],
+      "image": {
+        "src": "images/chains/tomato-pocket-pouka-universe.jpg",
+        "url": "images/chains/tomato-pocket-pouka-universe.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5293416905704951.html",
+        "alt": "POUKAPOUKA · Spirits of the Universe",
+        "credit": "北京apm · verified shopping-centre account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2277,7 +2923,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/news/toptoys-first-global-ambassador-rosy",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://gotoptoy.com/cdn/shop/articles/38_6f920e2e-2111-419e-acb1-10d692aaaf51.webp?v=1777342469",
+        "alt": "TOP TOY: TOPTOY's First Global Ambassador: Rosy",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "src": "images/news/72bf8f702d3d81149bd1.jpg"
+      }
     },
     {
       "id": "feed-7951355241acfbbe",
@@ -2292,7 +2945,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/gwholiday2026",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/Banner_GWHoliday2026_01.jpg?v=1776836113",
+        "alt": "Sonny Angel Store: 2026年度 GW休業期間についてのお知らせ 5/2日(土)〜5/6(水)",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/gwholiday2026",
+        "src": "images/news/feb5720e19f2ebf62c0e.jpg"
+      }
     },
     {
       "id": "release-5282174808099288",
@@ -2311,6 +2972,14 @@
       "product_ids": [
         "toptoy-sanrio-bear-planet"
       ],
+      "image": {
+        "src": "images/chains/toptoy-sanrio-bear-planet.jpg",
+        "url": "images/chains/toptoy-sanrio-bear-planet.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5282174808099288.html",
+        "alt": "Sanrio · Little Bear Planet",
+        "credit": "TOPTOY官方 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2330,6 +2999,14 @@
       "product_ids": [
         "gududu-i-am"
       ],
+      "image": {
+        "src": "images/chains/5281128907014857.jpg",
+        "url": "images/chains/5281128907014857.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5281128907014857.html",
+        "alt": "I Am GUDUDU",
+        "credit": "九木杂物社 · verified retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2345,6 +3022,14 @@
       "url": "https://www.kikagoods.com/blogs/q-a/pennys-box-q-a",
       "publisher": "KikaGoods",
       "checked": "2026-11-04",
+      "image": {
+        "url": "http://www.kikagoods.com/cdn/shop/articles/Penny_s_box_image_1_8e93a571-2441-4386-a993-e72966908352.jpg?v=1774407451",
+        "alt": "KikaGoods: Meet the thinking behind Penny’s Box",
+        "credit": "KikaGoods",
+        "kind": "Article image",
+        "source_page": "https://www.kikagoods.com/blogs/q-a/pennys-box-q-a",
+        "src": "images/news/972bd05d0a9c961f6542.jpg"
+      },
       "date_kind": "Published"
     },
     {
@@ -2364,6 +3049,14 @@
       "product_ids": [
         "bonnie-rabbit-dream"
       ],
+      "image": {
+        "src": "images/chains/5278229141129566.jpg",
+        "url": "images/chains/5278229141129566.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5278229141129566.html",
+        "alt": "Bonnie Rabbit Dream Box BJD",
+        "credit": "九木杂物社 · verified retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2383,6 +3076,14 @@
       "product_ids": [
         "kkv-zoraa-wings"
       ],
+      "image": {
+        "src": "images/chains/kkv-zoraa-wings.jpg",
+        "url": "images/chains/kkv-zoraa-wings.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5275690099805076.html",
+        "alt": "Zoraa · Winged Elf",
+        "credit": "KKV · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2398,7 +3099,14 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/middle-east-shipping-fee",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://www.sonnyangelstore.com/cdn/shop/articles/pickup_delivery_ems_dhl_75f9f17c-ce5c-40aa-82fa-ee8bece6a63b_1200x1200.png?v=1776418196",
+        "alt": "Sonny Angel Store: 中東地域宛て配送に関する重要なお知らせ",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "src": "images/news/ce17e240663150db2c3a.jpg"
+      }
     },
     {
       "id": "release-5265874757878174",
@@ -2417,6 +3125,14 @@
       "product_ids": [
         "toycity-mrpa-company"
       ],
+      "image": {
+        "src": "images/news/ca5041704823acf3b5a0.jpg",
+        "url": "https://www.toypaimall.com/catalog/demo/social/T/t15/%E8%AF%A6%E6%83%85%E5%9B%BE01.jpg",
+        "source_page": "https://www.toypaimall.com/products/1725",
+        "alt": "Mr. Pa · Ability Company",
+        "credit": "toypaimall.com",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2436,6 +3152,14 @@
       "product_ids": [
         "toycity-mrpa-transform"
       ],
+      "image": {
+        "src": "images/news/8539c8724d323d8f1c1b.jpg",
+        "url": "https://img.alicdn.com/bao/uploaded/i2/2210147840069/O1CN018OCzjN1CNeS4h8Tgt_%21%214611686018427383877-0-item_pic.jpg_500x500q90",
+        "source_page": "https://tao.hooos.com/goods_aVyB2YKfotMY5M4dXRuQQ7tjty-5Bmqq9U6VKdw95WhZ.html",
+        "alt": "Mr. Pa · Transformations",
+        "credit": "tao.hooos.com",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2455,6 +3179,14 @@
       "product_ids": [
         "electric-street-bjd"
       ],
+      "image": {
+        "src": "images/chains/5262568639170167.jpg",
+        "url": "images/chains/5262568639170167.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5262568639170167.html",
+        "alt": "Transformation Electric Street BJD",
+        "credit": "九木杂物社 · verified retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2474,6 +3206,14 @@
       "product_ids": [
         "haluu-family"
       ],
+      "image": {
+        "src": "images/chains/5262538439920963-1.jpg",
+        "url": "images/chains/5262538439920963-1.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5262538439920963.html",
+        "alt": "HALUU × Departure Family Plush Pendant",
+        "credit": "QQ音乐扑淘商城 · verified product-release account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2489,7 +3229,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/smiski_10th_campaign",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/img_smiski_10th_sticker_banner.png?v=1769600470",
+        "alt": "Sonny Angel Store: [キャンペーンは終了しました] スミスキー ミニフィギュア商品を2個以上お買い上げのお客様に、『スミスキー 10周年記念 蓄光ロゴステッカー』 をプレゼント！",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/smiski_10th_campaign",
+        "src": "images/news/9e1b7c82711c2c902c4c.jpg"
+      }
     },
     {
       "id": "release-5259656268353052",
@@ -2508,6 +3256,14 @@
       "product_ids": [
         "dundun-beast-plush"
       ],
+      "image": {
+        "src": "images/chains/5259656268353052.jpg",
+        "url": "images/chains/5259656268353052.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5259656268353052.html",
+        "alt": "Dundun Beast Plush Blind Box",
+        "credit": "酷乐潮玩 · verified retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2527,6 +3283,14 @@
       "product_ids": [
         "ziyuli-cloud-dream"
       ],
+      "image": {
+        "src": "images/chains/5256871663110771.jpg",
+        "url": "images/chains/5256871663110771.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5256871663110771.html",
+        "alt": "ZIYULI Hugging Clouds Dream",
+        "credit": "HERE奇梦岛 · verified manufacturer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2548,6 +3312,14 @@
       "product_ids": [
         "one-piece-paldolce-dessert"
       ],
+      "image": {
+        "src": "images/chains/one-piece-paldolce-dessert.jpg",
+        "url": "images/chains/one-piece-paldolce-dessert.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5255758771653256.html",
+        "alt": "One Piece · Paldolce Dream Dessert Party",
+        "credit": "BANPRESTO · official manufacturer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2567,6 +3339,14 @@
       "product_ids": [
         "x11-bikini-bottom-day-trip"
       ],
+      "image": {
+        "src": "images/chains/x11-bikini-bottom-day-trip.jpg",
+        "url": "images/chains/x11-bikini-bottom-day-trip.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5249560424220375.html",
+        "alt": "SpongeBob · Bikini Bottom Day Trip",
+        "credit": "X11潮玩集合 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2586,6 +3366,14 @@
       "product_ids": [
         "x11-tom-jerry-transform"
       ],
+      "image": {
+        "src": "images/chains/x11-tom-jerry-transform.jpg",
+        "url": "images/chains/x11-tom-jerry-transform.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5249523993545429.html",
+        "alt": "Tom and Jerry · Transforming Plush Pairs",
+        "credit": "X11潮玩集合 · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2606,6 +3394,14 @@
       "product_ids": [
         "gismow-forest-friends"
       ],
+      "image": {
+        "src": "images/chains/5247710736419244.jpg",
+        "url": "images/chains/5247710736419244.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5247710736419244.html",
+        "alt": "GISMOW Fantasy Forest Friends",
+        "credit": "范趣町FUNCINATING · manufacturer",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2621,7 +3417,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/newyearcard2026",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/img_nyc2026_dither.png?v=1766037468",
+        "alt": "Sonny Angel Store: 2026年版 年賀状の受付は、2025年12月22日(月)正午12時より開始いたします。",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/newyearcard2026",
+        "src": "images/news/fc312f7110a352d2552d.jpg"
+      }
     },
     {
       "id": "feed-b37de04fd696613c",
@@ -2636,7 +3440,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/newyearholiday2026",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/img_newyearholiday2025_02.png?v=1766109498",
+        "alt": "Sonny Angel Store: 2025年度 年末年始休業のお知らせ",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/newyearholiday2026",
+        "src": "images/news/fdbbdcc5371e95b0d848.jpg"
+      }
     },
     {
       "id": "release-5244536089741035",
@@ -2655,6 +3467,14 @@
       "product_ids": [
         "tuntunzai-chocolate-squishy"
       ],
+      "image": {
+        "src": "images/chains/5244536089741035.jpg",
+        "url": "images/chains/5244536089741035.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5244536089741035.html",
+        "alt": "Tuntunzai Chocolate Workshop Slow-Rise Squishy",
+        "credit": "豚豚崽官号 · product account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2674,6 +3494,14 @@
       "product_ids": [
         "tomiz-pets-dimension"
       ],
+      "image": {
+        "src": "images/chains/5239836350090874.jpg",
+        "url": "images/chains/5239836350090874.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5239836350090874.html",
+        "alt": "Tomiz Cute Pets in Another Dimension",
+        "credit": "九木杂物社 · verified retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2693,6 +3521,14 @@
       "product_ids": [
         "fuggler-keychain-gen6"
       ],
+      "image": {
+        "src": "images/chains/5237955084158498.jpg",
+        "url": "images/chains/5237955084158498.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5237955084158498.html",
+        "alt": "Fuggler Keychain Series · Generation 6",
+        "credit": "九木杂物社 · verified retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2712,6 +3548,14 @@
       "product_ids": [
         "maktub-miffy-winter"
       ],
+      "image": {
+        "src": "images/chains/5237666602025298.jpg",
+        "url": "images/chains/5237666602025298.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5237666602025298.html",
+        "alt": "Miffy Winter Plush Pendant",
+        "credit": "九木杂物社 · verified retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2727,7 +3571,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/shipping_dhl",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/img_delivery_ems_dhl.png?v=1762351038",
+        "alt": "Sonny Angel Store: アメリカ宛てのご注文に関する注意事項",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/shipping_dhl",
+        "src": "images/news/845d7c24310f8a7450e6.jpg"
+      }
     },
     {
       "id": "release-5229681940366189",
@@ -2746,6 +3598,14 @@
       "product_ids": [
         "kkv-emma-bears"
       ],
+      "image": {
+        "src": "images/chains/kkv-emma-bears.jpg",
+        "url": "images/chains/kkv-emma-bears.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5229681940366189.html",
+        "alt": "LOVELYEMMA · Bear Alliance",
+        "credit": "KKV · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2765,6 +3625,14 @@
       "product_ids": [
         "kkv-pleasant-goat-daily"
       ],
+      "image": {
+        "src": "images/chains/kkv-pleasant-goat-daily.jpg",
+        "url": "images/chains/kkv-pleasant-goat-daily.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5220622243463837.html",
+        "alt": "Pleasant Goat · Daily Life on the Green Grassland",
+        "credit": "KKV · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2784,6 +3652,14 @@
       "product_ids": [
         "kkv-butterbear-ootd"
       ],
+      "image": {
+        "src": "images/chains/kkv-butterbear-ootd.jpg",
+        "url": "images/chains/kkv-butterbear-ootd.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5217640093060393.html",
+        "alt": "ButterBear · OOTD",
+        "credit": "KKV · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2803,6 +3679,14 @@
       "product_ids": [
         "kkv-pengpeng-furry"
       ],
+      "image": {
+        "src": "images/chains/kkv-pengpeng-furry.jpg",
+        "url": "images/chains/kkv-pengpeng-furry.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5215200241519692.html",
+        "alt": "PENGPENG · Furry Cute Gang",
+        "credit": "KKV · official retailer account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2823,6 +3707,14 @@
       "product_ids": [
         "bandai-kamen-rider-honda"
       ],
+      "image": {
+        "src": "images/chains/5209752071307943.jpg",
+        "url": "images/chains/5209752071307943.jpg",
+        "source_page": "https://www.sina.cn/news/detail/5209752071307943.html",
+        "alt": "Kamen Rider × Honda · BN FIGURE Q",
+        "credit": "万代南梦宫潮玩 · verified Bandai Namco account",
+        "kind": "Release / series image"
+      },
       "date_kind": "Published"
     },
     {
@@ -2838,7 +3730,15 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/news/hello-kitty-skyland-a-new-vr-adventure-for-sanrio-fans",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/Hello_Kitty_Skyland_Creator_Program.png?v=1757499215",
+        "alt": "Hello Kitty Skyland",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "source_page": "https://gotoptoy.com/blogs/news/hello-kitty-skyland-a-new-vr-adventure-for-sanrio-fans",
+        "src": "images/news/3feb2626d8f7e79f83df.jpg"
+      }
     },
     {
       "id": "feed-078e0b45a2656360",
@@ -2853,7 +3753,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/giveaway_pumpkinpatch",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/img_pumpkinpatch_15.png?v=1756879136",
+        "alt": "Sonny Angel Store: [キャンペーンは終了しました] Sonny Angel mini figure Pumpkin Patch Seriesを2個以上お買い上げのお客様に、ジップバッグをプレゼント",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/giveaway_pumpkinpatch",
+        "src": "images/news/e08a7365d4baeea564f2.jpg"
+      }
     },
     {
       "id": "feed-84409554f7f79212",
@@ -2868,7 +3776,15 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/news/toptoy-to-open-first-retail-store-in-japan-at-sunshine-city-tokyo",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/LED_-1080x1920-2.webp?v=1756203274",
+        "alt": "TOPTOY JAPAN STORE",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "source_page": "https://gotoptoy.com/blogs/news/toptoy-to-open-first-retail-store-in-japan-at-sunshine-city-tokyo",
+        "src": "images/news/f940b5f530fdd48d1e4d.jpg"
+      }
     },
     {
       "id": "feed-7a00e9d2edc33fe8",
@@ -2883,7 +3799,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/suspension_of_orders_to_the_united_states",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://www.sonnyangelstore.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12_1200x1200.gif",
+        "alt": "Sonny Angel Store: アメリカ宛てのご注文受付停止につきまして",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/suspension_of_orders_to_the_united_states",
+        "src": "images/news/c87e3923022628378cf4.jpg"
+      }
     },
     {
       "id": "feed-a2387af913fc65ba",
@@ -2898,7 +3822,15 @@
       "type": "Retailer journal",
       "url": "https://www.sonnyangelstore.com/blogs/news/summerholiday2025",
       "publisher": "Sonny Angel Store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0082/3168/2103/files/img_holidaynoticeJP2025_1000x625_01.png?v=1754014063",
+        "alt": "Sonny Angel Store: 2025年度 夏季休業のご案内 8/13(水)～8/17(日)",
+        "credit": "Sonny Angel Store",
+        "kind": "Article image",
+        "source_page": "https://www.sonnyangelstore.com/blogs/news/summerholiday2025",
+        "src": "images/news/b90ee1a7b975b7f09779.jpg"
+      }
     },
     {
       "id": "feed-e9effcfd6be660a7",
@@ -2913,7 +3845,15 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/news/my-melody-kuromi-stop-motion-series",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/My_Melody_Kuromi_Stop-Motion_Series.jpg?v=1753177872",
+        "alt": "My Melody & Kuromi Stop-Motion Series on Netflix",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "source_page": "https://gotoptoy.com/blogs/news/my-melody-kuromi-stop-motion-series",
+        "src": "images/news/c95af7e9900bdae684f3.jpg"
+      }
     },
     {
       "id": "feed-eff0238aa1215fdf",
@@ -2928,7 +3868,15 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/news/melody-50th-anniversary-plush-a-collector-s-dream-for-my-melody-fans",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/TOPTOY_SANRIO_Melody_50th_Anniversary_Plush_Blind_Box_3cc53f3f-9ec2-49c2-abd5-4cac58cebe9d_600x600.jpg?v=1742799764",
+        "alt": "TOP TOY SANRIO Melody 50th Anniversary Plush Blind Box",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "source_page": "https://gotoptoy.com/blogs/news/melody-50th-anniversary-plush-a-collector-s-dream-for-my-melody-fans",
+        "src": "images/news/4f8fde4acc2ffd67ebe8.jpg"
+      }
     },
     {
       "id": "feed-19c84e21cf14532b",
@@ -2943,7 +3891,14 @@
       "type": "Retailer journal",
       "url": "https://kouhightoys.com/blogs/newsroom/debut-sooya-studios-the-overture-series",
       "publisher": "Kouhigh Toys",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfFxkqsZzie-NCl3X5_DNGuQRUK8Li9TBzTuesOlfiwHepjY5mjNzx_KgVwkPRlp8y59i6FDWCwH2ouuTJpqwhECOlVdk6FqYpGn1mOb5PP3a6TI7fgkLo929ickpHNRoX7wbDtVg?key=vXyi4X6kRqDZjwy2K34bi-mj",
+        "alt": "Sooya Studio Image 1",
+        "credit": "Kouhigh Toys",
+        "kind": "Article image",
+        "source_page": "https://kouhightoys.com/blogs/newsroom/debut-sooya-studios-the-overture-series"
+      }
     },
     {
       "id": "feed-82746a8aeff3a0ce",
@@ -2958,7 +3913,15 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/news/toptoy-opens-new-store-in-indonesia-a-thrilling-milestone-for-fans",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/TOPTOY_Indonesia_Store_600x600.jpg?v=1733993542",
+        "alt": "TOPTOY Jakarta",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "source_page": "https://gotoptoy.com/blogs/news/toptoy-opens-new-store-in-indonesia-a-thrilling-milestone-for-fans",
+        "src": "images/news/f7e516033c57e8fd5856.jpg"
+      }
     },
     {
       "id": "feed-3c620ace6ed16297",
@@ -2973,7 +3936,14 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/news/8-surprising-facts-about-sanrio-characters",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://gotoptoy.com/blogs/news/8-surprising-facts-about-sanrio-characters",
+        "alt": "TOP TOY: 8 Surprising Facts About Sanrio Characters",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "source_page": "https://gotoptoy.com/blogs/news/8-surprising-facts-about-sanrio-characters"
+      }
     },
     {
       "id": "feed-82b9f7a6bab8ad5a",
@@ -2988,7 +3958,15 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/news/malaysia-s-first-toptoy-opens-at-fahrenheit88-shopping-mall",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/toptoy_malaysia_new_store_1024x1024.jpg?v=1731660056",
+        "alt": "toptoy malaysia new store",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "source_page": "https://gotoptoy.com/blogs/news/malaysia-s-first-toptoy-opens-at-fahrenheit88-shopping-mall",
+        "src": "images/news/2884dc070e9a88d41cae.jpg"
+      }
     },
     {
       "id": "feed-96df332f6ba19213",
@@ -3003,7 +3981,15 @@
       "type": "Retailer journal",
       "url": "https://gotoptoy.com/blogs/news/toptoy-celebrates-its-first-store-opening-in-thailand",
       "publisher": "TOP TOY",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0657/8064/6038/files/TOPTOY_THAILAND_NEW_OPEN_STORE.jpg_1_480x480.jpg?v=1729517414",
+        "alt": "TOP TOY: TOPTOY Celebrates Its First Store Opening in Thailand!",
+        "credit": "TOP TOY",
+        "kind": "Article image",
+        "source_page": "https://gotoptoy.com/blogs/news/toptoy-celebrates-its-first-store-opening-in-thailand",
+        "src": "images/news/ce22e94b08a3d53c89ca.jpg"
+      }
     }
   ],
   "feed_health": [
@@ -3017,9 +4003,10 @@
     {
       "url": "https://gotoptoy.com/blogs/articles.atom",
       "retailer_id": "top-toy",
-      "status": "read",
+      "status": "unavailable; retained dated cache",
       "checked": "2026-11-04",
-      "last_success": "2026-11-04"
+      "last_success": "2026-11-04",
+      "error": "HTTPError"
     },
     {
       "url": "https://kouhightoys.com/blogs/newsroom.atom",

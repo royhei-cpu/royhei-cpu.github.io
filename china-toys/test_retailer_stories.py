@@ -5,6 +5,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 from build_retailer_stories import build,parse_feed,refresh_feed
+from retailer_news_images import extract_image,cache_photo
 
 class RetailerStoryTests(unittest.TestCase):
  def test_feed_uses_publication_date_and_filters_other_products(self):
@@ -15,6 +16,16 @@ class RetailerStoryTests(unittest.TestCase):
   prior=dict(last_success='2026-10-30',items=[dict(title='Prior squishy post',checked='2026-10-30')])
   with patch('build_retailer_stories.urlopen',side_effect=TimeoutError):r=refresh_feed(dict(url='https://example.com/feed',retailer_id='a'),prior,'2026-11-04')
   self.assertEqual(r['items'],prior['items']);self.assertEqual(r['last_success'],'2026-10-30');self.assertIn('unavailable',r['status'])
+ def test_publisher_photo_ignores_icons_and_unsafe_sources(self):
+  markup='<img src="javascript:alert(1)"><img><img src="/logo.png"><img src="/tracker.png" width="1"><img src="//cdn.example.com/series.jpg" alt="Squishy &amp; friends">'
+  photo=extract_image(markup,'https://example.com/news/story','Example Shop','Squishy release')
+  self.assertEqual(photo['url'],'https://cdn.example.com/series.jpg');self.assertEqual(photo['alt'],'Squishy & friends');self.assertEqual(photo['source_page'],'https://example.com/news/story')
+  meta=extract_image('<meta property="og:image" content="/feature.jpg">','https://example.com/story','Shop','Story',True)
+  self.assertEqual(meta['url'],'https://example.com/feature.jpg');self.assertEqual(meta['credit'],'Shop')
+ def test_failed_photo_does_not_publish_broken_image_path(self):
+  with tempfile.TemporaryDirectory() as folder,patch('retailer_news_images.urlopen',side_effect=TimeoutError):
+   photo=cache_photo(dict(url='https://example.com/photo.jpg',credit='Shop'),Path(folder))
+   self.assertNotIn('src',photo);self.assertEqual(photo['url'],'https://example.com/photo.jpg')
  def test_build_excludes_future_posts_and_deduplicates_article_tags(self):
   with tempfile.TemporaryDirectory() as folder:
    root=Path(folder);profile=lambda id:dict(id=id,name=id,source_ids=[id],chain_ids=[],background='A sourced shop profile.',background_sources=[dict(url='https://example.com/about')])

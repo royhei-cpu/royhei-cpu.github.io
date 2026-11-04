@@ -853,7 +853,14 @@
       "type": "Company announcement",
       "url": "https://www.miniso.com/brand/news_208.html",
       "publisher": "MINISO",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://www.miniso.com/vancheerfile/images/2026/10/202610270917503121.png",
+        "alt": "MINISO LAND Columbus opening photograph from MINISO’s announcement",
+        "credit": "MINISO",
+        "kind": "Article image",
+        "source_page": "https://www.miniso.com/brand/news_208.html"
+      }
     },
     {
       "id": "pop-mart-okinawa-parco",
@@ -868,7 +875,14 @@
       "type": "Company announcement",
       "url": "https://prtimes.jp/main/html/rd/p/000000042.000062707.html",
       "publisher": "POP MART Japan via PR TIMES",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://prcdn.freetls.fastly.net/release_image/62707/42/62707-42-abc7011a97205614f77e1ee130ed0e4c-1080x1350.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+        "alt": "POP MART Japan via PR TIMES: POP MART plans an ocean-themed Okinawa store",
+        "credit": "POP MART Japan via PR TIMES",
+        "kind": "Article image",
+        "source_page": "https://prtimes.jp/main/html/rd/p/000000042.000062707.html"
+      }
     },
     {
       "id": "target-holiday-discovery",
@@ -882,7 +896,14 @@
       "type": "Company announcement",
       "url": "https://corporate.target.com/news-features/article/2026/10/target-holiday-kids-catalog",
       "publisher": "Target",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://target.scene7.com/is/image/Target/GUEST_c5edb84d-7ac2-4597-b154-375b9473fb29?fmt=pjpeg&hei=600&wid=600",
+        "alt": "Catalog example: RMS Mystery Squishy Dumpling Fidget Toy at Target",
+        "credit": "Target",
+        "kind": "Catalog example",
+        "source_page": "https://www.target.com/p/rms-usa-mystery-squish-dumpling-fidget-toy-confetti/-/A-95253515"
+      }
     },
     {
       "id": "52toys-ciftis",
@@ -896,7 +917,14 @@
       "type": "Independent reporting",
       "url": "https://www.xinhuanet.com/house/20260911/f37fb55d297949479643f5804f579f1a/c.html",
       "publisher": "Xinhua",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "https://www.xinhuanet.com/house/20260911/f37fb55d297949479643f5804f579f1a/20260911f37fb55d297949479643f5804f579f1a_202609117cc6f3a5b13a47b990e6fccff7d3954d.jpg",
+        "alt": "52TOYS at CIFTIS, photographed in the original report",
+        "credit": "Xinhua / 52TOYS",
+        "kind": "Article image",
+        "source_page": "https://www.xinhuanet.com/house/20260911/f37fb55d297949479643f5804f579f1a/c.html"
+      }
     },
     {
       "id": "kika-pennys-box-interview",
@@ -910,7 +938,14 @@
       "type": "Retailer journal",
       "url": "https://www.kikagoods.com/blogs/q-a/pennys-box-q-a",
       "publisher": "KikaGoods",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://www.kikagoods.com/cdn/shop/articles/Penny_s_box_image_1_8e93a571-2441-4386-a993-e72966908352.jpg?v=1774407451",
+        "alt": "KikaGoods: Meet the thinking behind Penny’s Box",
+        "credit": "KikaGoods",
+        "kind": "Article image",
+        "source_page": "https://www.kikagoods.com/blogs/q-a/pennys-box-q-a"
+      }
     },
     {
       "id": "52toys-tsum-arrival",
@@ -925,7 +960,14 @@
       "type": "Shop release note",
       "url": "https://hi52toys.com/products/disney-tsum-tsum-8-bit-all-star-series-plush-keychain-blind-box",
       "publisher": "52TOYS international store",
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "image": {
+        "url": "http://hi52toys.com/cdn/shop/files/1200_526e65b6-03f4-4a29-af78-51316f4136cf.webp?v=1793675648&width=2048",
+        "alt": "52TOYS international store: 52TOYS marks an 8-bit Disney plush blind box arrival",
+        "credit": "52TOYS international store",
+        "kind": "Article image",
+        "source_page": "https://hi52toys.com/products/disney-tsum-tsum-8-bit-all-star-series-plush-keychain-blind-box"
+      }
     }
   ],
   "feeds": [

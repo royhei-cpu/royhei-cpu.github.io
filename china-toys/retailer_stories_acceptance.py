@@ -10,8 +10,24 @@ def check_stories(page,context,out):
  assert page.locator('#storiesRetailer option').count()==len(expected['retailers'])+1
  assert page.evaluate('window.ATLAS_RETAILER_STORIES.updates.every(n=>n.published<=window.ATLAS_RETAILER_STORIES.generated)')
  assert page.locator('#storiesResults .stories-news-meta').filter(has_text='Retailer journal').count()==0
+ def check_photos():
+  cards=page.locator('#storiesResults .stories-news-card');photos=page.locator('#storiesResults .stories-news-image')
+  assert photos.count()==cards.count()>0
+  for photo in photos.all():
+   photo.scroll_into_view_if_needed()
+   expect(photo).to_be_visible()
+   page.wait_for_function('(img)=>img.complete&&img.naturalWidth>=80',arg=photo.element_handle())
+   assert photo.get_attribute('alt')
+  assert page.locator('#storiesResults .stories-news-visual figcaption a').count()==cards.count()
+ check_photos()
+ # A failed source photo should show a labeled catalog example and keep the story usable.
+ image=page.locator('#storiesResults .stories-news-image').first
+ image.evaluate("img=>{img.src='/china-toys/missing-news-photo-for-qa.jpg'}")
+ expect(page.locator('#storiesResults .stories-photo-credit').first).to_contain_text('Catalog example')
+ page.wait_for_function('(img)=>img.complete&&img.naturalWidth>=80',arg=image.element_handle())
  page.locator('[data-stories-tab="journals"]').click()
  expect(page.locator('#storiesResults .stories-news-meta').first).to_contain_text('Retailer journal')
+ check_photos()
  page.locator('[data-stories-tab="profiles"]').click()
  expect(page.locator('#storiesCount')).to_contain_text(str(len(expected['retailers'])))
  # Each retailer has a real story dialog and linked evidence, even when news is unavailable.
@@ -52,4 +68,4 @@ def check_stories(page,context,out):
   assert page.locator('#retailerStoryDialog').evaluate('(e)=>e.scrollWidth<=e.clientWidth+1')
   page.get_by_role('button',name='Close retailer story').click();page.locator('#storiesReset').click();page.screenshot(path=str(out/f'retailer-stories-{width}.png'))
  page.set_viewport_size(dict(width=1440,height=1080))
- return 'Retailer stories: all configured sources/chains covered, publication/event dates separated, news/journals split, 34 story dialogs and sources, filters/archive/empty states, linked aisle selection preserves products, mobile filters and responsive dialogs'
+ return 'Retailer stories: news and journal images decode, captions/source credits, failed-photo fallback, all configured sources/chains covered, publication/event dates separated, 34 story dialogs, filters/archive/empty states, linked aisle selection preserves products, mobile layouts'

@@ -26,6 +26,16 @@ Retailer-arrival dates do not become worldwide product launch dates. Manufacture
 announcements name the participating chains. Retailer interviews and buying
 guides are in Shop journals, separate from news and independent reporting.
 
+News and journal cards include locally cached publisher photos or the exact
+series photograph already documented in the release evidence. Captions link to
+the image's source, which can differ from the article publisher. Exceptionally
+tall release posters show a labeled image detail. When no usable article photo
+is available, the card shows a clearly labeled retailer catalog example. The
+Target wish-list article uses a scoped squishy example rather than wider toys.
+Failed image loads also fall back to a catalog example, preserving the source
+link and avoiding a broken-image icon. Images have descriptive alternative text,
+reserved space, lazy loading and a responsive layout.
+
 The initial archive contains 129 dated items, including 21 news/release entries
 and 32 journal entries in the latest 90 days. Twenty-two profiles have a dated
 item somewhere in the archive. The other profiles explicitly show no verified
@@ -36,6 +46,10 @@ dated update; this does not assert that those retailers have no activity.
 `retailer-stories.json` contains the reviewed backgrounds, curated summaries and
 an allowlist of public journal feeds. `build_retailer_stories.py` merges those
 with existing scoped manufacturer/chain announcements and a dated feed cache.
+`retailer_news_images.py` reads article/feed imagery, caches validated image
+files, and retains photo attribution. Existing images are reused on later builds;
+an unavailable image does not fail the news refresh. New image files are copied
+by the existing Pages images step. No image service or generated news art is used.
 
 The existing Pages build runs `--refresh-feeds`. Six discovered public Atom
 feeds, belonging to five retailers, are checked concurrently. The existing weekly

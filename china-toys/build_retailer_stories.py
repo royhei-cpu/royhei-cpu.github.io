@@ -10,6 +10,7 @@ from email.utils import parsedate_to_datetime
 import argparse, hashlib, html, json, re
 import xml.etree.ElementTree as ET
 from product_scope import eligible
+from retailer_news_images import extract_image,enrich_feed_images,prepare_images
 ROOT=Path(__file__).resolve().parent
 TOPIC=re.compile(r'blind[ -]?box|squish|collectib|designer[ -]?toy|plush|sanrio|sonny[ -]?angel|pop[ -]?mart|top[ -]?toy|52toys|nanci|nommi|penny.?s[ -]?box|盲盒|捏捏|潮玩|毛绒|毛絨|ソニーエンジェル|フィギュア|ブラインド|新商品|発売',re.I)
 OUTSIDE=re.compile(r'\blego\b|building[ -]blocks?|model[ -]kits?|\bcamera\b|tamagotchi|happy[ -]meal|\b(?:400|600|1000)%|calendar|カレンダー|積木|拼装|拼裝',re.I)
@@ -37,15 +38,19 @@ def parse_feed(raw,feed,checked):
         if not published:published=day(value('updated'));date_kind='Updated by publisher'
         link=entry.find('{http://www.w3.org/2005/Atom}link');url=link.get('href','') if link is not None else value('link')
         if not valid_url(url) or not published:continue
-        items.append(dict(id='feed-'+hashlib.sha256(url.encode()).hexdigest()[:16],retailer_ids=[feed['retailer_id']],title=title[:160],summary='Retailer-published journal entry. Open the original for its full story and any current terms.',published=published,date_kind=date_kind,market=feed.get('market','Source store market'),type='Retailer journal',url=url,publisher=feed['publisher'],checked=checked))
+        item=dict(id='feed-'+hashlib.sha256(url.encode()).hexdigest()[:16],retailer_ids=[feed['retailer_id']],title=title[:160],summary='Retailer-published journal entry. Open the original for its full story and any current terms.',published=published,date_kind=date_kind,market=feed.get('market','Source store market'),type='Retailer journal',url=url,publisher=feed['publisher'],checked=checked)
+        image=extract_image(value('content') or value('description') or value('summary'),url,feed['publisher'],title)
+        if image:item['image']=image
+        items.append(item)
     return items[:35]
 def refresh_feed(feed,prior,checked):
     try:
         assert valid_url(feed['url'])
-        request=Request(feed['url'],headers={'User-Agent':'ChinaToyAtlas/1.0 (retailer news directory)'})
+        request=Request(feed['url'],headers={'User-Agent':'Mozilla/5.0'})
         with urlopen(request,timeout=12) as response:raw=response.read(2_000_001)
         if len(raw)>2_000_000:raise ValueError('Feed too large')
         items=parse_feed(raw,feed,checked)
+        enrich_feed_images(items,prior.get('items',[]))
         return dict(url=feed['url'],retailer_id=feed['retailer_id'],status='read',checked=checked,last_success=checked,items=items)
     except Exception as error:
         return dict(url=feed['url'],retailer_id=feed['retailer_id'],status='unavailable; retained dated cache' if prior.get('items') else 'unavailable',checked=checked,last_success=prior.get('last_success'),items=prior.get('items',[]),error=type(error).__name__)
@@ -75,7 +80,14 @@ def build(refresh=False,root=ROOT,as_of=None):
     for url,g in grouped.items():
         if not g['retailers']:continue
         src=g['source'];p=g['products'][0];detail=re.split(r'(?<=[.!?])\s+',p.get('summary',''))[0];detail=detail if len(detail)<=230 else detail[:220].rsplit(' ',1)[0]+'…';names=', '.join(by_id[id]['name'] for id in sorted(g['retailers']));release=p.get('release') or {}
-        news.append(dict(id='release-'+src['id'],retailer_ids=sorted(g['retailers']),title=p['name']+(' and other series' if len(g['products'])>1 else '')+' · retail release',summary='The source names '+names+' for this '+p['category'].lower()+' release. '+detail,published=src['published_date'],event_date=release.get('date'),market='Mainland China',type='Release announcement',url=url,publisher=src.get('publisher','Manufacturer / retailer'),checked=src.get('checked'),product_ids=[x['id'] for x in g['products']]))
+        item=dict(id='release-'+src['id'],retailer_ids=sorted(g['retailers']),title=p['name']+(' and other series' if len(g['products'])>1 else '')+' · retail release',summary='The source names '+names+' for this '+p['category'].lower()+' release. '+detail,published=src['published_date'],event_date=release.get('date'),market='Mainland China',type='Release announcement',url=url,publisher=src.get('publisher','Manufacturer / retailer'),checked=src.get('checked'),product_ids=[x['id'] for x in g['products']])
+        image_product=next((x for x in g['products'] if x.get('image')),None)
+        if image_product:
+            image=image_product['image'];source=image_product.get('image_source') or url
+            photo_page=url if re.search(r'\.(?:jpe?g|png|webp)(?:\?|$)',source,re.I) else source
+            credit=src.get('publisher','Manufacturer / retailer') if photo_page==url else urlsplit(photo_page).hostname.removeprefix('www.')
+            item['image']=dict(src=image if image.startswith('images/') else '',url=image,source_page=photo_page,alt=image_product['name'],credit=credit,kind='Release / series image')
+        news.append(item)
     for f in cache['feeds']:news.extend(f.get('items',[]))
     # Deduplicate by original article URL, preserving curated summaries and merging retailer tags.
     unique={}
@@ -85,6 +97,7 @@ def build(refresh=False,root=ROOT,as_of=None):
         if item['url'] in unique:unique[item['url']]['retailer_ids']=sorted(set(unique[item['url']]['retailer_ids']+item['retailer_ids']))
         else:unique[item['url']]=dict(item,date_kind=item.get('date_kind','Published'))
     news=sorted(unique.values(),key=lambda n:(n['published'],n['id']),reverse=True)
+    prepare_images(news,root)
     result=dict(version=1,generated=today,feeds_checked=max((f['checked'] for f in cache['feeds']),default=None),background_reviewed=seed['reviewed'],catalog_updated=catalog.get('updated'),scope=seed['scope'],retailers=profiles,updates=news,feed_health=[{k:v for k,v in f.items() if k!='items'} for f in cache['feeds']],methods='Company news, retailer journals, manufacturer release announcements and catalog observations are separate. No new post does not mean no retailer activity. Store stock and launch dates require their own evidence. Public configured journals are checked during the existing site build; background stories and curated announcements retain their review dates.')
     (root/'retailer-stories-data.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');(root/'retailer-stories-data.js').write_text('window.ATLAS_RETAILER_STORIES='+json.dumps(result,ensure_ascii=False,separators=(',',':'))+';\n')
     # Keep these assets present and cache-busted after the existing catalog generators run.
