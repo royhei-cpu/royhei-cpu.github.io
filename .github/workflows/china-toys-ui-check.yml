@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['china-toys/currency.js', 'china-toys/update_usd_rates.py', 'china-toys/product*scope*', 'china-toys/apply-product-scope.mjs', 'china-toys/workspace_acceptance.py', 'china-toys/chain-assortment*', 'china-toys/brand_directory_test.py', 'china-toys/refresh_brand_discovery.py', 'china-toys/brands*', 'china-toys/brand-*', 'china-toys/build_brand_directory.py', 'china-toys/atlas-navigation*', 'china-toys/simple-navigation.js', 'china-toys/retail*', 'china-toys/retail/**', 'china-toys/retail-chains.js', 'china-toys/atlas-sound.js', 'china-toys/research*', 'china-toys/build_source_audit_report.py', 'china-toys/app.js', 'china-toys/index.html', 'china-toys/styles.css', 'china-toys/china-intelligence*', 'china-toys/china-market-data.js', 'china-toys/china_intelligence_test.py', '.github/workflows/china-toys-ui-check.yml']
+    paths: ['china-toys/build_retailer_stories.py', 'china-toys/test_retailer_stories.py', 'china-toys/currency.js', 'china-toys/update_usd_rates.py', 'china-toys/product*scope*', 'china-toys/apply-product-scope.mjs', 'china-toys/workspace_acceptance.py', 'china-toys/chain-assortment*', 'china-toys/brand_directory_test.py', 'china-toys/refresh_brand_discovery.py', 'china-toys/brands*', 'china-toys/brand-*', 'china-toys/build_brand_directory.py', 'china-toys/atlas-navigation*', 'china-toys/simple-navigation.js', 'china-toys/retail*', 'china-toys/retail/**', 'china-toys/retail-chains.js', 'china-toys/atlas-sound.js', 'china-toys/research*', 'china-toys/build_source_audit_report.py', 'china-toys/app.js', 'china-toys/index.html', 'china-toys/styles.css', 'china-toys/china-intelligence*', 'china-toys/china-market-data.js', 'china-toys/china_intelligence_test.py', '.github/workflows/china-toys-ui-check.yml']
 permissions:
   contents: read
 jobs:
@@ -24,6 +24,8 @@ jobs:
           python china-toys/quality.py
           python china-toys/apply_chain_coverage.py --cache-images
           python china-toys/build_chain_assortments.py
+      - name: Check retailer news evidence and cached-feed behavior
+        run: python china-toys/test_retailer_stories.py
       - name: Check desktop and mobile interactions
         run: python china-toys/workspace_acceptance.py
       - name: Check China research dashboard

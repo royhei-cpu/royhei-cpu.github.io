@@ -249,6 +249,10 @@ def run(scope='all'):
                 from retail_acceptance import check_retail
                 page.set_viewport_size({'width': 1440, 'height': 1080})
                 checks.append(check_retail(page, context, out))
+            if scope in ('stories', 'all'):
+                from retailer_stories_acceptance import check_stories
+                page.set_viewport_size({'width': 1440, 'height': 1080})
+                checks.append(check_stories(page, context, out))
             assert not errors, errors
             report['status'] = 'PASSED'
             checks.append('1440px, 847px and 390px layouts fit; mobile filters work; no JavaScript errors')

@@ -1,0 +1,3054 @@
+{
+  "version": 1,
+  "generated": "2026-11-04",
+  "feeds_checked": "2026-11-04",
+  "background_reviewed": "2026-11-04",
+  "catalog_updated": "2026-11-04",
+  "scope": "All retailers tracked by the Atlas, not every retailer in the market. Blind boxes and squishies only in product links. Background, published news and catalog observations remain separate.",
+  "retailers": [
+    {
+      "id": "pop-mart",
+      "name": "POP MART",
+      "kind": "Brand & retailer",
+      "market": "China + international",
+      "background": "Founded in 2010, POP MART develops artist-led characters into collectible series and retail experiences. Its Japan team describes characters such as CRYBABY through emotional storytelling, extending the world of a toy into store displays.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000042.000062707.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Group a few character families together and give each a short story card.",
+      "source_ids": [],
+      "chain_ids": [
+        "pop-mart"
+      ],
+      "retailer_keys": [
+        "chain:pop-mart",
+        "shop:pop-mart-us-official-product-page"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "top-toy",
+      "name": "TOP TOY",
+      "kind": "Brand & retailer",
+      "market": "China + international",
+      "background": "TOP TOY began in December 2020. Its own history describes a combination of original characters, licensed collaborations and stores designed for collecting; the international storefront and mainland retail channels have separate offers.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://gotoptoy.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Balance an original character collection with a familiar licensed blind-box collection.",
+      "source_ids": [
+        "toptoy"
+      ],
+      "chain_ids": [
+        "top-toy"
+      ],
+      "retailer_keys": [
+        "shop:toptoy",
+        "chain:top-toy"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "52toys",
+      "name": "52TOYS",
+      "kind": "Brand & retailer",
+      "market": "China + international",
+      "background": "52TOYS dates its founding to May 2015 and describes its name as both a play on “I love” in Chinese and the 52 weeks of the year. Its original and licensed characters span a wider toy business; this atlas keeps the blind-box and squishy portion.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://hi52toys.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use a small entry-price blind-box section beside a clearly signed character collection.",
+      "source_ids": [
+        "52toys"
+      ],
+      "chain_ids": [
+        "52toys"
+      ],
+      "retailer_keys": [
+        "shop:52toys",
+        "chain:52toys"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "miniso",
+      "name": "MINISO",
+      "kind": "Lifestyle chain",
+      "market": "China + international",
+      "background": "MINISO traces its beginnings to Ye Guofu’s retail idea in 2013. It has evolved from everyday lifestyle retail toward character-led collections and experiential store formats; blind boxes are one part of its wider assortment.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://www.miniso.com/brand/index.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Create a compact discovery zone with clear categories and an easy first-price step.",
+      "source_ids": [
+        "miniso-china",
+        "miniso-tmall"
+      ],
+      "chain_ids": [
+        "miniso"
+      ],
+      "retailer_keys": [
+        "shop:miniso-china",
+        "chain:miniso"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "kikagoods",
+      "name": "KikaGoods",
+      "kind": "Collectible shop",
+      "market": "International",
+      "background": "KikaGoods says it started as an online store in 2021. Its assortment brings together designer blind boxes and articulated blind-box dolls, while its interviews introduce the makers and design decisions behind individual series.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://www.kikagoods.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Pair one character-led shelf with a short maker Q&A or material explanation.",
+      "source_ids": [
+        "kikagoods"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:kikagoods"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "toybeta",
+      "name": "ToyBeta",
+      "kind": "Collectible shop",
+      "market": "International",
+      "background": "ToyBeta describes its 2022 start around livestream blind-box sales and real-time unboxing. Its shop mixes figure series, plush pendants and small surprise formats for collectors following several characters.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://toybeta.com/pages/about-toybeta",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use a small unboxing demonstration area and keep sealed random boxes distinct from confirmed designs.",
+      "source_ids": [
+        "toybeta"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:toybeta"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "didapop",
+      "name": "DidaPop",
+      "kind": "Collectible shop",
+      "market": "International",
+      "background": "DidaPop’s origin story centers on a collector juggling releases across many separate brand sites. The store presents its answer as bringing different character worlds into one place; these are the retailer’s own account of its background.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://didapop.com/pages/about-didapop",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Organize a multi-brand shelf by character or mood so shoppers can compare across brands.",
+      "source_ids": [
+        "didapop"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:didapop"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "kouhigh",
+      "name": "Kouhigh Toys",
+      "kind": "Collectible shop",
+      "market": "United States",
+      "background": "Kouhigh says it was founded in Los Angeles in 2022 by young Asian toy enthusiasts. Its story combines collectible toys with interactive community experiences, alongside a shop journal about character worlds and events.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://kouhightoys.com/pages/about-kouhightoys",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Reserve a small feature spot for an artist story or collector event.",
+      "source_ids": [
+        "kouhigh"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:kouhigh"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "toyzero",
+      "name": "TOYZEROPLUS",
+      "kind": "Brand & retailer",
+      "market": "Hong Kong + international",
+      "background": "TOYZEROPLUS describes itself as a Hong Kong toy brand connecting artists and collectors through design, production and retail. Its “plus” idea is about developing original character worlds and sharing them with more collectors.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://toyzeroplus.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Present a character family as a small coherent world, with a clear random-box explanation.",
+      "source_ids": [
+        "toyzero"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:toyzero"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "rolife",
+      "name": "Rolife",
+      "kind": "Brand & retailer",
+      "market": "International",
+      "background": "Rolife’s captured blind-box collection features character figures and surprise plush such as Nanci. The wider business sells other craft products, which are outside this atlas; a fuller company history remains to be verified.",
+      "background_basis": "Catalog context · history incomplete",
+      "background_sources": [
+        {
+          "url": "https://www.rolifeonline.com/collections/blind-box",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Keep the Nanci blind-box story together and label figure and plush formats clearly.",
+      "source_ids": [
+        "rolife"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:rolife"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "finding-unicorn",
+      "name": "Finding Unicorn",
+      "kind": "Brand & retailer",
+      "market": "China + international",
+      "background": "Finding Unicorn appears in this atlas through series such as Farmer BOB and ShinWoo stocked by other shops. The configured direct international storefront could not be revalidated in the source review, so its current operation and full company story remain incomplete.",
+      "background_basis": "Catalog context · direct source unavailable",
+      "background_sources": [
+        {
+          "url": "https://www.findingunicorn.net",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use the captured character series as inspiration, then verify the vendor and exact offer separately.",
+      "source_ids": [
+        "findingunicorn"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "molynk",
+      "name": "Hello Molynk",
+      "kind": "Squishy specialist",
+      "market": "International",
+      "background": "Hello Molynk’s storefront presents small collectible squishies as tactile objects for everyday play. Captured examples include food-inspired designs; a verified founding timeline and complete direct-store assortment are not yet available.",
+      "background_basis": "Storefront context · history incomplete",
+      "background_sources": [
+        {
+          "url": "https://www.molynk.shop",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Group food-shaped squishies in a small tray with texture and care information.",
+      "source_ids": [
+        "molynk"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "heartfelt",
+      "name": "Heartfelt Squishy",
+      "kind": "Squishy specialist",
+      "market": "Hong Kong + international",
+      "background": "Heartfelt’s Chinese-squishy category brings together maker-led collections rather than a single character brand. The captured range includes dessert, bread and animal designs, with options and preorder terms that need checking item by item.",
+      "background_basis": "Storefront context · founding story unverified",
+      "background_sources": [
+        {
+          "url": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Arrange squishies by shape or texture and make preorder terms easy to spot.",
+      "source_ids": [
+        "heartfelt"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:heartfelt"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "iris",
+      "name": "Iris Squishy",
+      "kind": "Squishy specialist",
+      "market": "International",
+      "background": "Iris Squishy says its name comes from the founder’s cats, Iris and Milktea. The founder’s story links its start to discovering slow-rising toys during university exams. Today the shop describes its focus as softness, companionship and original character designs.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://irissquishy.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Create a calm tactile shelf with clear material and care labels.",
+      "source_ids": [
+        "iris"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:iris"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "ronron",
+      "name": "RonRon Squishy",
+      "kind": "Squishy specialist",
+      "market": "International",
+      "background": "RonRon describes designing soft collectible squishies inspired by desserts and gentle everyday scenes. Its own story emphasizes shape, color and texture, with handmade or hand-finished details that can vary between pieces.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://ronronsquishy.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use a small dessert collection and explain expected handmade variation.",
+      "source_ids": [
+        "ronron"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:ronron"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "pawmiga",
+      "name": "Pawmiga World",
+      "kind": "Squishy specialist",
+      "market": "International",
+      "background": "Pawmiga World’s captured listings bring together squishies associated with several makers, including Lisa, Kira and Zoey. That gives a view of a specialist stockist’s mix; the founder’s story and a complete maker-authorization history remain unverified.",
+      "background_basis": "Catalog context · founding story unverified",
+      "background_sources": [
+        {
+          "url": "https://pawmiga.myshopify.com",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Compare shapes and pack quantities across makers rather than treating every item as one brand.",
+      "source_ids": [
+        "pawmiga"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:pawmiga"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "anthill",
+      "name": "ANTHILL shopNplay",
+      "kind": "Lifestyle shop",
+      "market": "United States",
+      "background": "ANTHILL describes itself as a family lifestyle boutique in Tustin, California, with a shop-and-play approach dating to 2016. Blind boxes and squishies sit within a wider family-gifting assortment; the atlas currently captures a narrow toy sample.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://anthillshop.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Build a giftable small-format collection and keep age information visible.",
+      "source_ids": [
+        "anthill"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:anthill"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "jotoys",
+      "name": "JOTOYS",
+      "kind": "Brand & retailer",
+      "market": "China + international",
+      "background": "JOTOYS describes its work as building complete character worlds and longer-term stories around its IP. Its international shop includes blind-box series across several character families, separate from other retailers’ offers.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://jotoys.store/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Give each character world a short introduction before showing the different series.",
+      "source_ids": [
+        "jotoys-official"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:jotoys-official"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "sonny-angel",
+      "name": "Sonny Angel Store",
+      "kind": "Brand & retailer",
+      "market": "Japan",
+      "background": "The official Sonny Angel store is operated by Dreams. Its character introduction centers on a small angel with changing headgear, with regular and seasonal mini-figure series sold in blind boxes. Japan-store news and availability belong to that market.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://www.sonnyangelstore.com/pages/about",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Separate regular series from seasonal editions and explain the random design clearly.",
+      "source_ids": [
+        "sonnyangel-jp"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:sonnyangel-jp"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "target",
+      "name": "Target",
+      "kind": "General retailer",
+      "market": "United States",
+      "background": "Target is a U.S. general merchandise retailer. Its toy discovery approach includes a digital holiday catalog and wish lists; the two Target.com examples in this workshop are planning benchmarks, not a complete store assortment or proof of a particular branch’s stock.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://corporate.target.com/about",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Make it easy to discover, compare and save a few well-explained blind-box and squishy choices.",
+      "source_ids": [],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:target"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "x11",
+      "name": "X11",
+      "kind": "Collectible chain",
+      "market": "Mainland China",
+      "background": "KK Group introduced X11 in 2020 as a multi-brand entry point to collectible-toy culture. Its name combines “mix” with “one by one,” while its stores bring different character worlds and artists into a shared retail setting.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://www.kkgroup.cn/zh-CN/x11",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use a clear multi-brand layout with room for a rotating character feature.",
+      "source_ids": [
+        "chain-x11"
+      ],
+      "chain_ids": [
+        "x11"
+      ],
+      "retailer_keys": [
+        "chain:x11"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "kkv",
+      "name": "KKV",
+      "kind": "Lifestyle chain",
+      "market": "Mainland China + international",
+      "background": "KKV is KK Group’s lifestyle retail format, bringing many everyday categories into a single shopping space. Relevant blind-box collections are part of that larger mix; the atlas’s dated toy announcements do not represent every KKV store.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://www.kkgroup.cn/zh-CN/kkv",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Keep a compact toy discovery zone with strong category signs.",
+      "source_ids": [
+        "chain-kkv"
+      ],
+      "chain_ids": [
+        "kkv"
+      ],
+      "retailer_keys": [
+        "chain:kkv"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "sanfu",
+      "name": "SANFU · 三福",
+      "kind": "Lifestyle chain",
+      "market": "Mainland China",
+      "background": "SANFU traces its history to a Fuzhou department-store business in 1992. Its own timeline describes a 2021 move toward a broader lifestyle collection format, where character goods and blind boxes sit among other everyday categories.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://www.sanfu.com/about",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Connect a small character assortment to everyday gifting, while keeping the toy section clearly defined.",
+      "source_ids": [
+        "chain-sanfu"
+      ],
+      "chain_ids": [
+        "sanfu"
+      ],
+      "retailer_keys": [
+        "chain:sanfu"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "jiumu",
+      "name": "Jiumu · 九木杂物社",
+      "kind": "Lifestyle chain",
+      "market": "Mainland China",
+      "background": "M&G’s Jiumu is a creative lifestyle retail channel. The atlas follows specific blind-box and squishy references within its broader stationery and gifting mix; a fuller verified origin story remains to be added.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.mg-pen.com/chenguangbrand/info.aspx?itemid=30",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Group small collectibles as gifts and make size and age information easy to compare.",
+      "source_ids": [
+        "chain-jiumu"
+      ],
+      "chain_ids": [
+        "jiumu"
+      ],
+      "retailer_keys": [
+        "chain:jiumu"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "kule",
+      "name": "KuLe · 酷乐潮玩",
+      "kind": "Collectible chain",
+      "market": "Mainland China",
+      "background": "KuLe is documented here as a collectibles and lifestyle retail chain. Manufacturer posts name it for particular blind-box releases; the saved company reference is a third-party profile, so founder and ownership details remain unverified.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.maigoo.com/brand/141609.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use a few distinct character stories with clear shelf-level explanations.",
+      "source_ids": [
+        "chain-kule"
+      ],
+      "chain_ids": [
+        "kule"
+      ],
+      "retailer_keys": [
+        "chain:kule"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "green-party",
+      "name": "The Green Party",
+      "kind": "Lifestyle chain",
+      "market": "Mainland China",
+      "background": "The Green Party appears in China mall tenant records and manufacturer release notices. The atlas follows named blind-box and squishy products within that lifestyle channel; it does not infer nationwide inventory from one store or one announcement.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.smsupermalls.cn/city/jjfloor.aspx",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use small themed collections that fit into an everyday lifestyle shopping trip.",
+      "source_ids": [
+        "chain-green-party"
+      ],
+      "chain_ids": [
+        "green-party"
+      ],
+      "retailer_keys": [
+        "chain:green-party"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "ipstar",
+      "name": "IPSTAR · 潮玩星球",
+      "kind": "Character-goods chain",
+      "market": "Mainland China",
+      "background": "IPSTAR is represented by operator announcements and manufacturer retail-channel references for anime and character goods. Some products are blind-box collectibles; named stores and limited release periods should be checked individually.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://weibo.com/6509826766",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Let familiar character worlds guide discovery, with a short explanation of each blind-box series.",
+      "source_ids": [
+        "chain-ipstar"
+      ],
+      "chain_ids": [
+        "ipstar"
+      ],
+      "retailer_keys": [
+        "chain:ipstar"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "toycity",
+      "name": "TOYCITY · 玩具城市",
+      "kind": "Brand & retailer",
+      "market": "Mainland China",
+      "background": "TOYCITY’s official channel combines original character storytelling with product and retail announcements. Captured series include Mr. Pa, Monboo and cluebie; the current evidence follows specific releases rather than a complete chain inventory.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/media/7415975135",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Create a small original-character feature that can rotate between series.",
+      "source_ids": [],
+      "chain_ids": [
+        "toycity"
+      ],
+      "retailer_keys": [
+        "chain:toycity"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "lenle",
+      "name": "Lenle · 伶俐",
+      "kind": "Lifestyle chain",
+      "market": "Mainland China",
+      "background": "Lenle is named in manufacturer announcements as a participating retail channel for specific blind-box series. The atlas can trace those releases, while the company’s founding story and complete store assortment still need verification.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5347736691410585.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Bring a few approachable blind-box stories into a compact gifting section.",
+      "source_ids": [],
+      "chain_ids": [
+        "lenle"
+      ],
+      "retailer_keys": [
+        "chain:lenle"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "bandai-namco-shop",
+      "name": "Bandai Namco Shop",
+      "kind": "Manufacturer retail",
+      "market": "Mainland China",
+      "background": "Bandai Namco’s manufacturer-operated shops are represented here by a named mainland blind-box release. This provides a manufacturer-to-retail connection; it does not establish the full assortment of each shop.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5326348903257719.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Separate licensed character series so shoppers can recognize their world quickly.",
+      "source_ids": [],
+      "chain_ids": [
+        "bandai-namco-shop"
+      ],
+      "retailer_keys": [
+        "chain:bandai-namco-shop"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "march-monster",
+      "name": "March Monster · 三月兽",
+      "kind": "Character-goods chain",
+      "market": "Mainland China",
+      "background": "March Monster is documented through a manufacturer notice naming stores for a character-figure release. The evidence supports a specific retail connection; a fuller operator history and current national assortment remain incomplete.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5255758771653256.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use a clearly signed licensed-character feature rather than mixing unrelated series.",
+      "source_ids": [],
+      "chain_ids": [
+        "march-monster"
+      ],
+      "retailer_keys": [
+        "chain:march-monster"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "tomato-pocket",
+      "name": "Tomato Pocket · 番茄口袋",
+      "kind": "Lifestyle chain",
+      "market": "Mainland China",
+      "background": "Tomato Pocket’s saved evidence includes a Beijing apm mall notice about a named character product. This local retail context is useful for inspiration but is not a chain-wide availability claim or a verified founding history.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5293416905704951.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Try a small character feature within a wider lifestyle display.",
+      "source_ids": [],
+      "chain_ids": [
+        "tomato-pocket"
+      ],
+      "retailer_keys": [
+        "chain:tomato-pocket"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "snack-busy",
+      "name": "Snack Busy · 零食很忙",
+      "kind": "Retail crossover",
+      "market": "Mainland China",
+      "background": "A TOYCITY manufacturer announcement names Snack Busy for a Mr. Pa blind-box exclusive. It shows a toy-and-snack retail crossover; the evidence does not identify every participating branch or the chain’s full toy assortment.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5353243982957281.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Test a small surprise-toy feature with unmistakable product, age and price labels.",
+      "source_ids": [],
+      "chain_ids": [
+        "snack-busy"
+      ],
+      "retailer_keys": [
+        "chain:snack-busy"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "zhao-yiming",
+      "name": "Zhao Yiming · 赵一鸣零食",
+      "kind": "Retail crossover",
+      "market": "Mainland China",
+      "background": "A TOYCITY manufacturer announcement names Zhao Yiming for a Mr. Pa blind-box exclusive. It is a documented crossover channel for one series, with participating stores and current stock still to be checked.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5353243982957281.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Keep a small impulse-discovery feature focused on one clearly explained blind-box series.",
+      "source_ids": [],
+      "chain_ids": [
+        "zhao-yiming"
+      ],
+      "retailer_keys": [
+        "chain:zhao-yiming"
+      ],
+      "checked": "2026-11-04"
+    }
+  ],
+  "updates": [
+    {
+      "id": "feed-ba2e69a3f40dfb08",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "CRIE Mood Diary Mini Plush: Singles, Sets and Packaging",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-11-03",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/crie-mood-diary-mini-plush-singles-sets-guide",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-4eab44901501cb7d",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "KIKI Night Elves Plush or Mini Beans? A Buying Guide",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-11-03",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/kiki-night-elves-plush-vs-mini-beans-guide",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "52toys-tsum-arrival",
+      "retailer_ids": [
+        "52toys"
+      ],
+      "title": "52TOYS marks an 8-bit Disney plush blind box arrival",
+      "summary": "The international storefront places the Disney Tsum Tsum 8-Bit All-Star plush keychain blind box under November 3 new arrivals. This is a retailer-marked arrival date, not a verified worldwide launch date.",
+      "published": "2026-11-03",
+      "date_kind": "Arrival listed",
+      "market": "International store",
+      "type": "Shop release note",
+      "url": "https://hi52toys.com/products/disney-tsum-tsum-8-bit-all-star-series-plush-keychain-blind-box",
+      "publisher": "52TOYS international store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-57a77d858b4055ed",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "2026 Christmas Wishlist: Blind Box Gifts That Arrive on Time",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-11-01",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/2026-christmas-wishlist-blind-box-gifts-that-arrive-on-time",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5359311099268944",
+      "retailer_ids": [
+        "pop-mart"
+      ],
+      "title": "Baby Molly · Disney Princess MINI · retail release",
+      "summary": "The source names POP MART for this blind-box articulated dolls release. ",
+      "published": "2026-10-29",
+      "event_date": "2026-10-29",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5359311099268944.html",
+      "publisher": "POPMART泡泡玛特 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "popmart-baby-molly-princess"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5358963811421108",
+      "retailer_ids": [
+        "pop-mart"
+      ],
+      "title": "RiboDiary · Forest Gathering Day · retail release",
+      "summary": "The source names POP MART for this blind-box plush release. ",
+      "published": "2026-10-28",
+      "event_date": "2026-10-29",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5358963811421108.html",
+      "publisher": "POPMART泡泡玛特 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "popmart-ribodiary-forest"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-a9446f4498a188ef",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Christmas Gifts 2026: Build the Perfect Wishlist in the US",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-10-27",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/christmas-gifts-2026-build-the-perfect-wishlist-in-the-us",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5357121672840067",
+      "retailer_ids": [
+        "sanfu"
+      ],
+      "title": "Rilakkuma · October Blind-Draw Figures · retail release",
+      "summary": "The source names SANFU · 三福 for this blind-box figures release. SANFU’s October 23 shop announcement includes Rilakkuma blind-draw display figures alongside bags, slippers and other merchandise.",
+      "published": "2026-10-23",
+      "event_date": null,
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5357121672840067.html",
+      "publisher": "SANFU · verified retailer account",
+      "checked": "2026-11-02",
+      "product_ids": [
+        "sanfu-rilakkuma-october-figures"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "pop-mart-okinawa-parco",
+      "retailer_ids": [
+        "pop-mart"
+      ],
+      "title": "POP MART plans an ocean-themed Okinawa store",
+      "summary": "POP MART Japan announced a November 6 opening at Urasoe PARCO CITY. CRYBABY’s ocean story informs the store’s visuals and installations; the opening was still upcoming when checked.",
+      "published": "2026-10-23",
+      "event_date": "2026-11-06",
+      "market": "Japan",
+      "type": "Company announcement",
+      "url": "https://prtimes.jp/main/html/rd/p/000000042.000062707.html",
+      "publisher": "POP MART Japan via PR TIMES",
+      "checked": "2026-11-04",
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-e8bcfb6666a5cd12",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "When Is Black Friday 2026? Blind Box Deals & Toy Sales",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-10-22",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/when-is-black-friday-2026-blind-box-deals-toy-sales",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-fc3a48ad23cf636b",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "NORA Spring Outing Team: Boxed vs No-Box Plush Guide",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-10-20",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/nora-spring-outing-team-boxed-vs-no-box-guide",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-a897b0ca1e68f228",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "MAYMEI Greedy Bear Plush: Buying and Packaging Guide",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-10-20",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/maymei-greedy-bear-plush-buying-guide",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-199ef84ec97434e2",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "TOOKIE Squishy Jeyy Mini Beans: What’s in One Bag?",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-10-20",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/tookie-squishy-jeyy-mini-beans-blind-bag-guide",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-f04d73d91f9c2a5f",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Black Friday 2026 Toy Deals: A US Collector's Gift Guide",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-10-19",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/black-friday-2026-toy-deals-a-us-collectors-gift-guide",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "miniso-land-columbus",
+      "retailer_ids": [
+        "miniso"
+      ],
+      "title": "MINISO brings its LAND format to Columbus",
+      "summary": "MINISO announced its first U.S. MINISO LAND at Easton Town Center, with character-led zones including YOYO, Sanrio and Disney. The store-opening story is context for discovery-led retail, not confirmation of any individual SKU.",
+      "published": "2026-10-17",
+      "event_date": "2026-10-17",
+      "market": "United States",
+      "type": "Company announcement",
+      "url": "https://www.miniso.com/brand/news_208.html",
+      "publisher": "MINISO",
+      "checked": "2026-11-04",
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5354743502478400",
+      "retailer_ids": [
+        "pop-mart"
+      ],
+      "title": "Sanrio · Fried Shrimp Mini Figures · retail release",
+      "summary": "The source names POP MART for this blind-box figures release. Flocked shrimp bodies with glossy tails and chef-hat hanging loops; about 2.9–4.8 cm.",
+      "published": "2026-10-16",
+      "event_date": "2026-10-22",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5354743502478400.html",
+      "publisher": "POPMART泡泡玛特 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "popmart-sanrio-shrimp"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5354581397342708",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "SofuNui · Digimon Adventure · retail release",
+      "summary": "The source names TOP TOY for this blind-box plush release. ",
+      "published": "2026-10-16",
+      "event_date": "2026-10-23",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5354581397342708.html",
+      "publisher": "TOPTOY官方 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "toptoy-sofunui-digimon"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-d32697fb1f5d440a",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "HIRONO × Harry Potter: Characters, Size & Buying Options",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-10-13",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/hirono-harry-potter-figures-buying-guide",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-45aed4b310cb9943",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "Blind Box vs Confirmed Figure vs Full Set: How to Choose",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-10-13",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/blind-box-vs-confirmed-figure-vs-full-set",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5353243982957281",
+      "retailer_ids": [
+        "snack-busy",
+        "zhao-yiming"
+      ],
+      "title": "Mr. Pa · Cute Creature Wardrobe · retail release",
+      "summary": "The source names Snack Busy · 零食很忙, Zhao Yiming · 赵一鸣零食 for this blind-box plush release. Animal-costume mini plush series with 12 regular designs and one hidden design.",
+      "published": "2026-10-12",
+      "event_date": "2026-10-20",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5353243982957281.html",
+      "publisher": "TOYCITY玩具城市 · official manufacturer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "mrpa-creature-wardrobe"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-180c708022e5a330",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "Sonny Angelアプリがリニューアルしました！",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-10-07",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/sa-app-renewal-release",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "target-holiday-discovery",
+      "retailer_ids": [
+        "target"
+      ],
+      "title": "Target turns holiday toy browsing into a digital wish list",
+      "summary": "Target’s October announcement describes a digital holiday catalog with toy demonstrations and shareable wish lists. It is a useful example of guided discovery; the article covers a wider toy range than this blind-box and squishy directory.",
+      "published": "2026-10-05",
+      "market": "United States",
+      "type": "Company announcement",
+      "url": "https://corporate.target.com/news-features/article/2026/10/target-holiday-kids-catalog",
+      "publisher": "Target",
+      "checked": "2026-11-04",
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-86dae013b157978a",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "Sonny Angelアプリ リニューアルのお知らせ",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-10-01",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/notice_of_newsaapp2",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-1c894b72199dd1d2",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "How Much Is a DIMOO? The 2026 DIMOO Price Guide: Blind Boxes, Confirmed Figures, Plush, POP BEAN and Secrets",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-29",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/how-much-is-a-dimoo-price-guide-2026",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-0645a461519295f4",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "New Blind Box Releases This Week at DidaPop: Baby Three Cool Cubes, NOMMI Gummy Plan, and a Bonnie Symphony BJD (September 2026)",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-29",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/new-blind-box-releases-september-2026-week-6",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5347736691410585",
+      "retailer_ids": [
+        "green-party",
+        "lenle",
+        "miniso"
+      ],
+      "title": "Bonnie 8 · Fluffy Melody · retail release",
+      "summary": "The source names The Green Party, Lenle · 伶俐, MINISO for this blind-box articulated dolls release. Manufacturer explicitly names designated MINISO, The Green Party and Lenle stores.",
+      "published": "2026-09-27",
+      "event_date": "2026-10-01",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5347736691410585.html",
+      "publisher": "COME4FREE · official manufacturer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "bonnie-fluffy-melody"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-c02fdbe8d4b211cd",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "How Much Is a Sanrio Blind Box? The 2026 Sanrio Price Guide: Hello Kitty & Kuromi Plush, Beans, Pendants, Figures and Crossovers",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-27",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/how-much-is-a-sanrio-blind-box-price-guide-2026",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-57864a3adb39d793",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "New Blind Box Releases This Week at DidaPop: Stitch Makes Mischief, Baby Three Grows Up, and Hello Kitty Goes Full Bunny (September 2026)",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-27",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/new-blind-box-releases-september-2026-week-5",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-3ba20443cf13c32d",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "Where to Buy Authentic Labubu Online in 2026 (Outside China): POP MART, Amazon, StockX and Specialty Stores Compared",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-27",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/where-to-buy-authentic-labubu-online-2026",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-16be9e5cc54cbaea",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "BJD Blind Box Buying Guide 2026: 1/12 vs 1/8 vs 1/6 Scale, What They Cost, Which Brands to Trust, and the Best First Set",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-27",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/bjd-blind-box-buying-guide-2026",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5346989991789401",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "One Piece × Jason Freeny · Zoro Sword Stances · retail release",
+      "summary": "The source names TOP TOY for this blind-box figures release. ",
+      "published": "2026-09-25",
+      "event_date": "2026-09-30",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5346989991789401.html",
+      "publisher": "TOPTOY官方 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "toptoy-zoro-freeny"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-f4a0c53de639e935",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "Why Is Miffy So Popular in 2026? Inside the 70-Year-Old Bunny's Blind Box Takeover",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-22",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/why-is-miffy-so-popular-2026",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-91b235ef3afcc610",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "New Blind Box Releases This Week at DidaPop: Spider-Man Swings In, Miffy Suits Up in a Raincoat, and LuLu Crashes the Ghost Festival (September 2026)",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-22",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/new-blind-box-releases-september-2026-week-4",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5345177972507875",
+      "retailer_ids": [
+        "pop-mart"
+      ],
+      "title": "Mischief Night · Silicone Squishy Light · retail release",
+      "summary": "The source names POP MART for this squishy blind-box lights release. Silicone squeezeable lights.",
+      "published": "2026-09-20",
+      "event_date": "2026-09-24",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5345177972507875.html",
+      "publisher": "POPMART泡泡玛特 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "popmart-mischief-night-squishy-lamp"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5344921281366173",
+      "retailer_ids": [
+        "green-party",
+        "lenle"
+      ],
+      "title": "Supernatural Action Team · Childhood Dreams · Magnetic Plush Pendant · retail release",
+      "summary": "The source names The Green Party, Lenle · 伶俐 for this blind-box plush release. Product-specific release names The Green Party and Lenle.",
+      "published": "2026-09-19",
+      "event_date": "2026-09-25",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5344921281366173.html",
+      "publisher": "FUN4YEAH · verified manufacturer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "supernatural-childhood-plush"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5344901036246461",
+      "retailer_ids": [
+        "toycity"
+      ],
+      "title": "cluebie · Flower Journey · retail release",
+      "summary": "The source names TOYCITY · 玩具城市 for this blind-box plush release. Travel-themed CLUEBIE plush series with eight regular designs and a hidden Wind design.",
+      "published": "2026-09-19",
+      "event_date": "2026-09-25",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5344901036246461.html",
+      "publisher": "TOYCITY玩具城市 · official brand / retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "toycity-cluebie-flower"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5344830684662289",
+      "retailer_ids": [
+        "sanfu"
+      ],
+      "title": "The Legend of Hei · Meow Burger · retail release",
+      "summary": "The source names SANFU · 三福 for this blind-box figures release. Single-box price CNY39.9; full boxes contain eight.",
+      "published": "2026-09-19",
+      "event_date": "2026-09-25",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5344830684662289.html",
+      "publisher": "三福百货 · verified retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "luoxiaohei-meow-burger"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5343743571132735",
+      "retailer_ids": [
+        "miniso"
+      ],
+      "title": "LIITE · Candy Dream · retail release",
+      "summary": "The source names MINISO for this blind-box plush release. MINISO announces an initial 30-store launch, with stores and mini-program named.",
+      "published": "2026-09-16",
+      "event_date": "2026-09-19",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5343743571132735.html",
+      "publisher": "MINISO名创优品 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "miniso-liite-candy-dream"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-b8d9d3884db92c21",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "How Much Is a LuLu the Piggy? The 2026 LuLu Price Guide: Figures, Plush, Teddy Minis, and the LULUMI Sub-Brands",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-15",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/how-much-is-a-lulu-the-piggy-price-guide-2026",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-a248234821e032c5",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "Halloween Blind Boxes 2026: What's Already Selling Out, What's Still Coming, and What to Buy This Week",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-15",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/halloween-blind-boxes-2026",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-9b649976c8bb79e5",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "How Much Is a SKULLPANDA? The 2026 SKULLPANDA Price Guide: Retail vs Resale, Secrets, and Every Format",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-15",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/how-much-is-a-skullpanda-price-guide-2026",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-75a7a14e5ba500cf",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "Baby Three Big Bite Series Explained: The Food-Scale Plush Line, Set Size, Secret, Price, and Why It Sells Out (2026)",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-15",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/baby-three-big-bite-series-guide",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-53a301318571f1fe",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "SKULLPANDA Off Mode Series Explained: All 12 Designs, the Self Mode Secret, Prices, and Whether to Buy the Plush or the POP ATTACH (2026)",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-15",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/skullpanda-off-mode-series-guide",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-2d46826da56139de",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "How Much Is a Nommi? The 2026 Nommi Price Guide: Every Size, Every Series, and What's Overpriced",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-15",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/how-much-is-a-nommi-price-guide-2026",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-0ffa4d7ff285c48e",
+      "retailer_ids": [
+        "didapop"
+      ],
+      "title": "Baby Three Zodiac Series Explained: All 12 Animals, the Hidden Edition, V1 vs V2, Sizes, and Prices (2026)",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-15",
+      "date_kind": "Published",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://didapop.com/blogs/news/baby-three-zodiac-series-guide",
+      "publisher": "DidaPop",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-03228fe847659aac",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Naruto Blind Box Guide for US Beginners: Shippuden Characters",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-15",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/naruto-blind-box-guide-for-us-beginners-shippuden-characters",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5342643627491723",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "SISI · Pet King · retail release",
+      "summary": "The source names TOP TOY for this blind-box plush release. ",
+      "published": "2026-09-13",
+      "event_date": "2026-09-17",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5342643627491723.html",
+      "publisher": "TOPTOY官方 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "toptoy-sisi-pet-king"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-87c14a2ea5355bbe",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "「Sonny Angelアプリ」 リニューアルに伴うSAポイントアイテム申請等についてのお知らせ",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-11",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/notice_of_newsaapp",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "52toys-ciftis",
+      "retailer_ids": [
+        "52toys"
+      ],
+      "title": "52TOYS takes character storytelling to CIFTIS",
+      "summary": "Xinhua reported on 52TOYS’ role at the September 2026 China International Fair for Trade in Services. The feature connects original characters and immersive exhibition design with the company’s international expansion.",
+      "published": "2026-09-11",
+      "market": "China / international",
+      "type": "Independent reporting",
+      "url": "https://www.xinhuanet.com/house/20260911/f37fb55d297949479643f5804f579f1a/c.html",
+      "publisher": "Xinhua",
+      "checked": "2026-11-04",
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5339394866679357",
+      "retailer_ids": [
+        "jiumu",
+        "miniso",
+        "sanfu"
+      ],
+      "title": "DearNikki Lucky Dessert House · Mini Figures · retail release",
+      "summary": "The source names Jiumu · 九木杂物社, MINISO, SANFU · 三福 for this blind-box figures release. Nikki in miniature dessert-inspired designs.",
+      "published": "2026-09-04",
+      "event_date": "2026-09-10",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5339394866679357.html",
+      "publisher": "DearNikki · verified manufacturer account",
+      "checked": "2026-11-02",
+      "product_ids": [
+        "dearnikki-lucky-dessert-mini"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-14f74610d776de9c",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "The 10 Best Wedding Gift Ideas for Couples: Ultimate Guide",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-09-03",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/the-10-best-wedding-gift-ideas-for-couples-ultimate-guide",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5336843051599902",
+      "retailer_ids": [
+        "miniso"
+      ],
+      "title": "LISA × YOYO · Collaboration Vinyl Blind Box · retail release",
+      "summary": "The source names MINISO for this blind-box figures release. Vinyl character pendants shown in the retailer announcement; not classified as plush without evidence.",
+      "published": "2026-08-28",
+      "event_date": "2026-09-12",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5336843051599902.html",
+      "publisher": "MINISO名创优品 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "miniso-lisa-yoyo"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-44b355172dc5836d",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Hello Kitty and Dear Daniel: The Ultimate Guide for US Fans",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-08-11",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/hello-kitty-and-dear-daniel-the-ultimate-guide-for-us-fans",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-9cb7507f89139011",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "2026年度 夏季休業のご案内 8/13(木)～8/16(日)",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-08-04",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/summerholiday2026",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-3b025a0e9edd3cc5",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "[キャンペーンは終了しました]当ストアで商品を購入すると「Sonny Angelオリジナルステッカー」をプレゼント！",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-08-03",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/giveaway_originalsticker",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-3a6c93841cb3b4e1",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Heymi Blind Box: The Ultimate Guide for US Collectors",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-07-31",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/heymi-blind-box-the-ultimate-guide-for-us-collectors",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5326348903257719",
+      "retailer_ids": [
+        "bandai-namco-shop",
+        "top-toy"
+      ],
+      "title": "Kabutack · BN FIGURE Q Vol. 3 · retail release",
+      "summary": "The source names Bandai Namco Shop, TOP TOY for this blind-box figures release. Manufacturer names TOP TOY, Bandai Namco Shop and Bandai official Tmall/WeChat as exclusive release channels.",
+      "published": "2026-07-30",
+      "event_date": "2026-08-07",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5326348903257719.html",
+      "publisher": "万代南梦宫潮玩 · official manufacturer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "bandai-kabutack-vol3"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-e6b8a082f4c584e7",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "One Piece Manga & Characters: A US Fan's Collector Guide",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-07-30",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/one-piece-manga-amp-characters-a-us-fans-collector-guide",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-2de69a436534006e",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "TOPTOY Wins Sanrio Annual Licensing Award: Celebrating a New Milestone with Sanrio Fans Worldwide",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-07-30",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/news/toptoy-wins-sanrio-annual-licensing-award-celebrating-a-new-milestone-with-sanrio-fans-worldwide",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5324241390274739",
+      "retailer_ids": [
+        "toycity"
+      ],
+      "title": "Laura · Chess · retail release",
+      "summary": "The source names TOYCITY · 玩具城市 for this blind-box articulated dolls release. Chess-themed articulated Laura dolls: White Knight, Soldier, Queen, Black Knight, Castle and Bishop, plus hidden King.",
+      "published": "2026-07-24",
+      "event_date": null,
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5324241390274739.html",
+      "publisher": "TOYCITY玩具城市 · official brand / retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "toycity-laura-chess"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-877281e88193749a",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "One Piece Characters: The Ultimate Chopper Guide for Manga & Anime Fans",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-07-23",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/one-piece-characters-the-ultimate-chopper-guide-for-manga-anime-fans",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-91c70e1d52b11db0",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "One Piece at SDCC 2026: The US Fan's Ultimate Guide",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-07-22",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/one-piece-at-sdcc-2026-the-us-fans-ultimate-guide",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5322453233698189",
+      "retailer_ids": [
+        "kkv",
+        "x11"
+      ],
+      "title": "Gundam Head Collection Vol. 4 · retail release",
+      "summary": "The source names KKV, X11 for this blind-box figures release. Six head models with bases; two hidden versions have light-up bases.",
+      "published": "2026-07-19",
+      "event_date": null,
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5322453233698189.html",
+      "publisher": "万代南梦宫玩具 · verified Bandai Namco Guangzhou account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "bandai-gundam-head-vol4"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5321359825310722",
+      "retailer_ids": [
+        "toycity"
+      ],
+      "title": "MONBOO MINI · Candy House · retail release",
+      "summary": "The source names TOYCITY · 玩具城市 for this blind-box plush release. Explicitly offered through TOYCITY’s new Weibo shop.",
+      "published": "2026-07-16",
+      "event_date": null,
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5321359825310722.html",
+      "publisher": "TOYCITY玩具城市 · official brand / retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "toycity-monboo-mini-candy"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-f986e8eb1d3d216f",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "SDCC 2026 Gift Guide: Best San Diego Comic-Con Buys in the US",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-07-16",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/sdcc-2026-gift-guide-best-san-diego-comic-con-buys-in-the-us",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-31065974de8c6576",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "SDCC 2026: What to Expect at San Diego Comic-Con in the US",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-07-14",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/sdcc-2026-what-to-expect-at-san-diego-comic-con-in-the-us",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5320286782361788",
+      "retailer_ids": [
+        "kule"
+      ],
+      "title": "Arknights BNFQ Pajamars Mofu · retail release",
+      "summary": "The source names KuLe · 酷乐潮玩 for this blind-box figures release. Flocked Arknights figures in pajama costumes.",
+      "published": "2026-07-13",
+      "event_date": "2026-07-13",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5320286782361788.html",
+      "publisher": "酷乐潮玩 · verified retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "arknights-pajamars-mofu"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5319169098383763",
+      "retailer_ids": [
+        "x11"
+      ],
+      "title": "Gintama POTEPOTTE-R Vol. 2 and other series · retail release",
+      "summary": "The source names X11 for this blind-box plush release. Manufacturer explicitly names X11 as an early sales channel.",
+      "published": "2026-07-10",
+      "event_date": "2026-07-17",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5319169098383763.html",
+      "publisher": "万代南梦宫潮玩 · manufacturer",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "gintama-potepotte-vol2",
+        "gintama-elizabeth"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-f68677d54fc5e7db",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Rilakkuma and Korilakkuma: The Ultimate Plush Collector Guide",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-07-06",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/rilakkuma-and-korilakkuma-the-ultimate-plush-collector-guide",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-25e136efd54602f3",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "The Ultimate Guide to Chiikawa Sanrio Merch in the US",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-07-05",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/the-ultimate-guide-to-chiikawa-sanrio-merch-in-the-us",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5315542372057566",
+      "retailer_ids": [
+        "x11"
+      ],
+      "title": "Himouto! Umaru-chan · Daily Life · retail release",
+      "summary": "The source names X11 for this blind-box plush release. Licensed Umaru plush collection.",
+      "published": "2026-06-30",
+      "event_date": "2026-06-30",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5315542372057566.html",
+      "publisher": "干物妹小埋 · verified official IP account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "x11-umaru-daily"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5315272755905239",
+      "retailer_ids": [
+        "kule"
+      ],
+      "title": "DIKO Lucky Bunny · retail release",
+      "summary": "The source names KuLe · 酷乐潮玩 for this blind-box plush release. KuLe’s announcement names two launch stores, one in Shanghai and one in Shenzhen; no price or complete variant count is given.",
+      "published": "2026-06-29",
+      "event_date": "2026-07-04",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5315272755905239.html",
+      "publisher": "酷乐潮玩 · verified retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "diko-lucky-bunny"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5315185732485224",
+      "retailer_ids": [
+        "toycity"
+      ],
+      "title": "MONBOO · Unknown Creatures · retail release",
+      "summary": "The source names TOYCITY · 玩具城市 for this blind-box plush release. Six regular creature designs plus a hidden design, combining vinyl and plush.",
+      "published": "2026-06-29",
+      "event_date": "2026-06-30",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5315185732485224.html",
+      "publisher": "TOYCITY玩具城市 · official brand / retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "toycity-monboo-unknown"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-sanfu-balala-20260625",
+      "retailer_ids": [
+        "sanfu"
+      ],
+      "title": "Balala the Fairies × Penny’s Box · 1/8 BJD · retail release",
+      "summary": "The source names SANFU · 三福 for this blind-box dolls release. A 1/8-scale articulated doll collaboration recreating Balala the Fairies characters.",
+      "published": "2026-06-25",
+      "event_date": "2026-06-25",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://weibo.com/sanfu?source=blog",
+      "publisher": "SANFU · verified retailer account; indexed June 25 sale notice",
+      "checked": "2026-11-02",
+      "product_ids": [
+        "sanfu-balala-penny-bjd"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-f39119e437b78644",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Top 10 Naruto Blind Box Sets Every US Collector Must Own",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-06-25",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/top-10-naruto-blind-box-sets-every-us-collector-must-own",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-9749a6d577a2d598",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Nommi Blind Box: The Ultimate Guide for US Collectors",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-06-24",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/nommi-blind-box-the-ultimate-guide-for-us-collectors",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-8f53c202f0ea2129",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Kuromi and Melody: The Ultimate Introduction to Sanrio’s Most Dynamic Duo",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-06-23",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/kuromi-and-melody-the-ultimate-introduction-to-sanrio-s-most-dynamic-duo",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-97ad084fb42bd8ee",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Best Jessie Toy Story 5 Collectibles for Fans in 2026",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-06-22",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/best-jessie-toy-story-5-collectibles-for-fans-in-2026",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-d8860fefa872852d",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Hello Kitty Penguin Name: The Rebellious Charm of Badtz Maru and Sanrio’s Most Iconic Bird",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-06-17",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/hello-kitty-penguin-name-the-rebellious-charm-of-badtz-maru-and-sanrio-s-most-iconic-bird",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-bec660d241693d98",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "Sonny Angel Unboxing動画投稿キャンペーン",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-06-15",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/unboxingcampaign",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5309047399777238",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Toy Story 5 · Forever Companions · retail release",
+      "summary": "The source names TOP TOY for this blind-box figures release. ",
+      "published": "2026-06-12",
+      "event_date": "2026-05-22",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5309047399777238.html",
+      "publisher": "TOPTOY官方 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "toptoy-toystory5-companions"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5308675088187746",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "ukio · City Impressions · retail release",
+      "summary": "The source names TOP TOY for this blind-box figures release. ",
+      "published": "2026-06-11",
+      "event_date": "2026-06-13",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5308675088187746.html",
+      "publisher": "TOPTOY官方 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "toptoy-ukio-city"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-5a143b929d67fb0f",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Hello Kitty Artist Plushies: What You Purchased May Be Unauthorized",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-06-11",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/hello-kitty-artist-plushies-what-you-purchased-may-be-unauthorized",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-bf915a62d5f0c097",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Daniel Sanrio: Is Hello Kitty Married? 5 Fun Facts You Need to Know",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-06-09",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/articles/daniel-sanrio-is-hello-kitty-married-5-fun-facts-you-need-to-know",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5305023614682452",
+      "retailer_ids": [
+        "kule"
+      ],
+      "title": "KOUCOMI Every Moment · retail release",
+      "summary": "The source names KuLe · 酷乐潮玩 for this blind-box plush release. KuLe announces a first physical-store release.",
+      "published": "2026-06-01",
+      "event_date": "2026-06-01",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5305023614682452.html",
+      "publisher": "酷乐潮玩 · verified retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "koucomi-every-moment"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5293416905704951",
+      "retailer_ids": [
+        "tomato-pocket"
+      ],
+      "title": "POUKAPOUKA · Spirits of the Universe · retail release",
+      "summary": "The source names Tomato Pocket · 番茄口袋 for this blind-box plush release. The verified mall operator explicitly announces this series at its Tomato Pocket tenant.",
+      "published": "2026-04-30",
+      "event_date": null,
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5293416905704951.html",
+      "publisher": "北京apm · verified shopping-centre account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "tomato-pocket-pouka-universe"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-a9b01fe3411c1972",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "TOPTOY's First Global Ambassador: Rosy",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-04-27",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/news/toptoys-first-global-ambassador-rosy",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-7951355241acfbbe",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "2026年度 GW休業期間についてのお知らせ 5/2日(土)〜5/6(水)",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-04-22",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/gwholiday2026",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5282174808099288",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Sanrio · Little Bear Planet · retail release",
+      "summary": "The source names TOP TOY for this blind-box plush release. ",
+      "published": "2026-03-30",
+      "event_date": "2026-04-03",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5282174808099288.html",
+      "publisher": "TOPTOY官方 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "toptoy-sanrio-bear-planet"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5281128907014857",
+      "retailer_ids": [
+        "jiumu"
+      ],
+      "title": "I Am GUDUDU · retail release",
+      "summary": "The source names Jiumu · 九木杂物社 for this blind-box figures release. First GUDUDU figure series.",
+      "published": "2026-03-27",
+      "event_date": "2026-03-27",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5281128907014857.html",
+      "publisher": "九木杂物社 · verified retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "gududu-i-am"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "kika-pennys-box-interview",
+      "retailer_ids": [
+        "kikagoods"
+      ],
+      "title": "Meet the thinking behind Penny’s Box",
+      "summary": "KikaGoods’ maker Q&A introduces the Penny’s Box series through a retailer-published interview. It is background reading for articulated blind-box dolls, rather than a new product launch or independent review.",
+      "published": "2026-03-24",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://www.kikagoods.com/blogs/q-a/pennys-box-q-a",
+      "publisher": "KikaGoods",
+      "checked": "2026-11-04",
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5278229141129566",
+      "retailer_ids": [
+        "jiumu"
+      ],
+      "title": "Bonnie Rabbit Dream Box BJD · retail release",
+      "summary": "The source names Jiumu · 九木杂物社 for this blind-box dolls release. Articulated BJD collection with six regular designs and one hidden design.",
+      "published": "2026-03-19",
+      "event_date": "2026-03-20",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5278229141129566.html",
+      "publisher": "九木杂物社 · verified retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "bonnie-rabbit-dream"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5275690099805076",
+      "retailer_ids": [
+        "kkv"
+      ],
+      "title": "Zoraa · Winged Elf · retail release",
+      "summary": "The source names KKV for this blind-box plush release. Initial 19-store launch followed by gradual rollout; movable eyes, internal armature and removable outfits.",
+      "published": "2026-03-12",
+      "event_date": "2026-03-15",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5275690099805076.html",
+      "publisher": "KKV · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "kkv-zoraa-wings"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-2269d5124db22a63",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "中東地域宛て配送に関する重要なお知らせ",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-03-10",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/middle-east-shipping-fee",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5265874757878174",
+      "retailer_ids": [
+        "toycity"
+      ],
+      "title": "Mr. Pa · Ability Company · retail release",
+      "summary": "The source names TOYCITY · 玩具城市 for this blind-box plush release. MR.PA Ability Company plush series.",
+      "published": "2026-02-13",
+      "event_date": "2026-02-13",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5265874757878174.html",
+      "publisher": "TOYCITY玩具城市 · official brand / retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "toycity-mrpa-company"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5265818193760358",
+      "retailer_ids": [
+        "toycity"
+      ],
+      "title": "Mr. Pa · Transformations · retail release",
+      "summary": "The source names TOYCITY · 玩具城市 for this blind-box plush release. MR.PA Transformations blind-box earphone pouches.",
+      "published": "2026-02-13",
+      "event_date": "2026-02-13",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5265818193760358.html",
+      "publisher": "TOYCITY玩具城市 · official brand / retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "toycity-mrpa-transform"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5262568639170167",
+      "retailer_ids": [
+        "jiumu"
+      ],
+      "title": "Transformation Electric Street BJD · retail release",
+      "summary": "The source names Jiumu · 九木杂物社 for this blind-box dolls release. Seven named doll designs.",
+      "published": "2026-02-04",
+      "event_date": null,
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5262568639170167.html",
+      "publisher": "九木杂物社 · verified retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "electric-street-bjd"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5262538439920963",
+      "retailer_ids": [
+        "kkv"
+      ],
+      "title": "HALUU × Departure Family Plush Pendant · retail release",
+      "summary": "The source names KKV for this blind-box plush release. QQ Music’s verified Putao store account announces the KKV launch of HALUU × Departure Family plush pendants.",
+      "published": "2026-02-04",
+      "event_date": "2026-02-06",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5262538439920963.html",
+      "publisher": "QQ音乐扑淘商城 · verified product-release account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "haluu-family"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-8de2ceaaa41d0792",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "[キャンペーンは終了しました] スミスキー ミニフィギュア商品を2個以上お買い上げのお客様に、『スミスキー 10周年記念 蓄光ロゴステッカー』 をプレゼント！",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2026-02-02",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/smiski_10th_campaign",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5259656268353052",
+      "retailer_ids": [
+        "kule"
+      ],
+      "title": "Dundun Beast Plush Blind Box · retail release",
+      "summary": "The source names KuLe · 酷乐潮玩 for this blind-box plush release. KuLe specifies a February 1 launch at Shanghai Global Harbor B2.",
+      "published": "2026-01-27",
+      "event_date": "2026-02-01",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5259656268353052.html",
+      "publisher": "酷乐潮玩 · verified retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "dundun-beast-plush"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5256871663110771",
+      "retailer_ids": [
+        "sanfu"
+      ],
+      "title": "ZIYULI Hugging Clouds Dream · retail release",
+      "summary": "The source names SANFU · 三福 for this blind-box plush release. Manufacturer names SANFU for January 25 offline release.",
+      "published": "2026-01-19",
+      "event_date": "2026-01-25",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5256871663110771.html",
+      "publisher": "HERE奇梦岛 · verified manufacturer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "ziyuli-cloud-dream"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5255758771653256",
+      "retailer_ids": [
+        "march-monster",
+        "top-toy",
+        "x11"
+      ],
+      "title": "One Piece · Paldolce Dream Dessert Party · retail release",
+      "summary": "The source names March Monster · 三月兽, TOP TOY, X11 for this blind-box figures release. Chopper with Straw Hat crew-inspired desserts.",
+      "published": "2026-01-16",
+      "event_date": null,
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5255758771653256.html",
+      "publisher": "BANPRESTO · official manufacturer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "one-piece-paldolce-dessert"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5249560424220375",
+      "retailer_ids": [
+        "x11"
+      ],
+      "title": "SpongeBob · Bikini Bottom Day Trip · retail release",
+      "summary": "The source names X11 for this blind-box plush release. Includes main and supporting Bikini Bottom characters; price is per pair, not per figure.",
+      "published": "2025-12-30",
+      "event_date": null,
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5249560424220375.html",
+      "publisher": "X11潮玩集合 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "x11-bikini-bottom-day-trip"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5249523993545429",
+      "retailer_ids": [
+        "x11"
+      ],
+      "title": "Tom and Jerry · Transforming Plush Pairs · retail release",
+      "summary": "The source names X11 for this blind-box plush release. ",
+      "published": "2025-12-30",
+      "event_date": "2025-12-31",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5249523993545429.html",
+      "publisher": "X11潮玩集合 · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "x11-tom-jerry-transform"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5247710736419244",
+      "retailer_ids": [
+        "kkv",
+        "x11"
+      ],
+      "title": "GISMOW Fantasy Forest Friends · retail release",
+      "summary": "The source names KKV, X11 for this blind-box plush release. Manufacturer confirms sale through specified KKV and X11 branches.",
+      "published": "2025-12-25",
+      "event_date": null,
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5247710736419244.html",
+      "publisher": "范趣町FUNCINATING · manufacturer",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "gismow-forest-friends"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-6535c68158224d09",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "2026年版 年賀状の受付は、2025年12月22日(月)正午12時より開始いたします。",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2025-12-22",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/newyearcard2026",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-b37de04fd696613c",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "2025年度 年末年始休業のお知らせ",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2025-12-19",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/newyearholiday2026",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5244536089741035",
+      "retailer_ids": [
+        "kule"
+      ],
+      "title": "Tuntunzai Chocolate Workshop Slow-Rise Squishy · retail release",
+      "summary": "The source names KuLe · 酷乐潮玩 for this squishy blind boxes release. Chocolate-workshop squishy collection explicitly announced for KuLe stores.",
+      "published": "2025-12-16",
+      "event_date": "2025-12-19",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5244536089741035.html",
+      "publisher": "豚豚崽官号 · product account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "tuntunzai-chocolate-squishy"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5239836350090874",
+      "retailer_ids": [
+        "jiumu"
+      ],
+      "title": "Tomiz Cute Pets in Another Dimension · retail release",
+      "summary": "The source names Jiumu · 九木杂物社 for this blind-box figures release. Cyber-styled Tomiz figures, sold by box or full set.",
+      "published": "2025-12-03",
+      "event_date": null,
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5239836350090874.html",
+      "publisher": "九木杂物社 · verified retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "tomiz-pets-dimension"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5237955084158498",
+      "retailer_ids": [
+        "jiumu"
+      ],
+      "title": "Fuggler Keychain Series · Generation 6 · retail release",
+      "summary": "The source names Jiumu · 九木杂物社 for this blind-box plush release. Sixth-generation Fuggler keychain collection.",
+      "published": "2025-11-28",
+      "event_date": "2025-11-28",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5237955084158498.html",
+      "publisher": "九木杂物社 · verified retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "fuggler-keychain-gen6"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5237666602025298",
+      "retailer_ids": [
+        "jiumu"
+      ],
+      "title": "Miffy Winter Plush Pendant · retail release",
+      "summary": "The source names Jiumu · 九木杂物社 for this blind-box plush release. Winter-themed Miffy plush pendants.",
+      "published": "2025-11-27",
+      "event_date": null,
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5237666602025298.html",
+      "publisher": "九木杂物社 · verified retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "maktub-miffy-winter"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-27d46560590a758c",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "アメリカ宛てのご注文に関する注意事項",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2025-11-06",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/shipping_dhl",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "release-5229681940366189",
+      "retailer_ids": [
+        "kkv"
+      ],
+      "title": "LOVELYEMMA · Bear Alliance · retail release",
+      "summary": "The source names KKV for this blind-box plush release. Initial launch in 52 KKV stores; a Shenzhen promotional event does not establish current nationwide stock.",
+      "published": "2025-11-05",
+      "event_date": "2025-11-08",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5229681940366189.html",
+      "publisher": "KKV · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "kkv-emma-bears"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5220622243463837",
+      "retailer_ids": [
+        "kkv"
+      ],
+      "title": "Pleasant Goat · Daily Life on the Green Grassland · retail release",
+      "summary": "The source names KKV for this blind-box figures release. KKV reports the flocked figures on sale in its mainland stores.",
+      "published": "2025-10-11",
+      "event_date": null,
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5220622243463837.html",
+      "publisher": "KKV · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "kkv-pleasant-goat-daily"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5217640093060393",
+      "retailer_ids": [
+        "kkv"
+      ],
+      "title": "ButterBear · OOTD · retail release",
+      "summary": "The source names KKV for this blind-box plush release. KKV announces an exclusive series and gradual national store rollout.",
+      "published": "2025-10-03",
+      "event_date": "2025-10-05",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5217640093060393.html",
+      "publisher": "KKV · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "kkv-butterbear-ootd"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5215200241519692",
+      "retailer_ids": [
+        "kkv"
+      ],
+      "title": "PENGPENG · Furry Cute Gang · retail release",
+      "summary": "The source names KKV for this blind-box plush release. Retailer announces mainland store rollout from October 1.",
+      "published": "2025-09-26",
+      "event_date": "2025-10-01",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5215200241519692.html",
+      "publisher": "KKV · official retailer account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "kkv-pengpeng-furry"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "release-5209752071307943",
+      "retailer_ids": [
+        "kkv",
+        "x11"
+      ],
+      "title": "Kamen Rider × Honda · BN FIGURE Q · retail release",
+      "summary": "The source names KKV, X11 for this blind-box figures release. Motorcycle-riding mini figures, about 110 mm high.",
+      "published": "2025-09-11",
+      "event_date": "2025-09-30",
+      "market": "Mainland China",
+      "type": "Release announcement",
+      "url": "https://www.sina.cn/news/detail/5209752071307943.html",
+      "publisher": "万代南梦宫潮玩 · verified Bandai Namco account",
+      "checked": "2026-10-31",
+      "product_ids": [
+        "bandai-kamen-rider-honda"
+      ],
+      "date_kind": "Published"
+    },
+    {
+      "id": "feed-3ea1c8a3f3399313",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Hello Kitty Skyland: A New VR Adventure for Sanrio Fans",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2025-09-10",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/news/hello-kitty-skyland-a-new-vr-adventure-for-sanrio-fans",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-078e0b45a2656360",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "[キャンペーンは終了しました] Sonny Angel mini figure Pumpkin Patch Seriesを2個以上お買い上げのお客様に、ジップバッグをプレゼント",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2025-09-04",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/giveaway_pumpkinpatch",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-84409554f7f79212",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "TOPTOY to Open First Retail Store in Japan at Sunshine City, Tokyo",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2025-08-26",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/news/toptoy-to-open-first-retail-store-in-japan-at-sunshine-city-tokyo",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-7a00e9d2edc33fe8",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "アメリカ宛てのご注文受付停止につきまして",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2025-08-26",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/suspension_of_orders_to_the_united_states",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-a2387af913fc65ba",
+      "retailer_ids": [
+        "sonny-angel"
+      ],
+      "title": "2025年度 夏季休業のご案内 8/13(水)～8/17(日)",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2025-08-01",
+      "date_kind": "Published",
+      "market": "Japan",
+      "type": "Retailer journal",
+      "url": "https://www.sonnyangelstore.com/blogs/news/summerholiday2025",
+      "publisher": "Sonny Angel Store",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-e9effcfd6be660a7",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "My Melody & Kuromi Stop-Motion Series on Netflix: The Cutest Chaos You Didn’t Know You Needed",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2025-07-22",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/news/my-melody-kuromi-stop-motion-series",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-eff0238aa1215fdf",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Melody 50th Anniversary Plush – A Collector’s Dream for My Melody Fans",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2025-03-24",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/news/melody-50th-anniversary-plush-a-collector-s-dream-for-my-melody-fans",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-19c84e21cf14532b",
+      "retailer_ids": [
+        "kouhigh"
+      ],
+      "title": "【12/21/2024 U.S. Official Release】 Sooya Studio's The Overture Series",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2024-12-19",
+      "date_kind": "Published",
+      "market": "United States",
+      "type": "Retailer journal",
+      "url": "https://kouhightoys.com/blogs/newsroom/debut-sooya-studios-the-overture-series",
+      "publisher": "Kouhigh Toys",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-82746a8aeff3a0ce",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "TOPTOY Opens New Store in Indonesia – A Thrilling Milestone for Fans!",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2024-12-12",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/news/toptoy-opens-new-store-in-indonesia-a-thrilling-milestone-for-fans",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-3c620ace6ed16297",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "8 Surprising Facts About Sanrio Characters",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2024-11-25",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/news/8-surprising-facts-about-sanrio-characters",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-82b9f7a6bab8ad5a",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "Malaysia’s First TOPTOY Opens at Fahrenheit88 Shopping Mall",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2024-11-15",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/news/malaysia-s-first-toptoy-opens-at-fahrenheit88-shopping-mall",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "feed-96df332f6ba19213",
+      "retailer_ids": [
+        "top-toy"
+      ],
+      "title": "TOPTOY Celebrates Its First Store Opening in Thailand!",
+      "summary": "Retailer-published journal entry. Open the original for its full story and any current terms.",
+      "published": "2024-10-21",
+      "date_kind": "Published",
+      "market": "China + international",
+      "type": "Retailer journal",
+      "url": "https://gotoptoy.com/blogs/news/toptoy-celebrates-its-first-store-opening-in-thailand",
+      "publisher": "TOP TOY",
+      "checked": "2026-11-04"
+    }
+  ],
+  "feed_health": [
+    {
+      "url": "https://gotoptoy.com/blogs/news.atom",
+      "retailer_id": "top-toy",
+      "status": "read",
+      "checked": "2026-11-04",
+      "last_success": "2026-11-04"
+    },
+    {
+      "url": "https://gotoptoy.com/blogs/articles.atom",
+      "retailer_id": "top-toy",
+      "status": "read",
+      "checked": "2026-11-04",
+      "last_success": "2026-11-04"
+    },
+    {
+      "url": "https://kouhightoys.com/blogs/newsroom.atom",
+      "retailer_id": "kouhigh",
+      "status": "read",
+      "checked": "2026-11-04",
+      "last_success": "2026-11-04"
+    },
+    {
+      "url": "https://didapop.com/blogs/news.atom",
+      "retailer_id": "didapop",
+      "status": "read",
+      "checked": "2026-11-04",
+      "last_success": "2026-11-04"
+    },
+    {
+      "url": "https://anthillshop.com/blogs/news.atom",
+      "retailer_id": "anthill",
+      "status": "read",
+      "checked": "2026-11-04",
+      "last_success": "2026-11-04"
+    },
+    {
+      "url": "https://www.sonnyangelstore.com/blogs/news.atom",
+      "retailer_id": "sonny-angel",
+      "status": "read",
+      "checked": "2026-11-04",
+      "last_success": "2026-11-04"
+    }
+  ],
+  "methods": "Company news, retailer journals, manufacturer release announcements and catalog observations are separate. No new post does not mean no retailer activity. Store stock and launch dates require their own evidence. Public configured journals are checked during the existing site build; background stories and curated announcements retain their review dates."
+}

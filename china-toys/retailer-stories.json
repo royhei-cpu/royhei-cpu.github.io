@@ -1,0 +1,957 @@
+{
+  "version": 1,
+  "reviewed": "2026-11-04",
+  "scope": "All retailers tracked by the Atlas, not every retailer in the market. Blind boxes and squishies only in product links. Background, published news and catalog observations remain separate.",
+  "retailers": [
+    {
+      "id": "pop-mart",
+      "name": "POP MART",
+      "kind": "Brand & retailer",
+      "market": "China + international",
+      "background": "Founded in 2010, POP MART develops artist-led characters into collectible series and retail experiences. Its Japan team describes characters such as CRYBABY through emotional storytelling, extending the world of a toy into store displays.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000042.000062707.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Group a few character families together and give each a short story card.",
+      "source_ids": [],
+      "chain_ids": [
+        "pop-mart"
+      ],
+      "retailer_keys": [
+        "chain:pop-mart",
+        "shop:pop-mart-us-official-product-page"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "top-toy",
+      "name": "TOP TOY",
+      "kind": "Brand & retailer",
+      "market": "China + international",
+      "background": "TOP TOY began in December 2020. Its own history describes a combination of original characters, licensed collaborations and stores designed for collecting; the international storefront and mainland retail channels have separate offers.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://gotoptoy.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Balance an original character collection with a familiar licensed blind-box collection.",
+      "source_ids": [
+        "toptoy"
+      ],
+      "chain_ids": [
+        "top-toy"
+      ],
+      "retailer_keys": [
+        "shop:toptoy",
+        "chain:top-toy"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "52toys",
+      "name": "52TOYS",
+      "kind": "Brand & retailer",
+      "market": "China + international",
+      "background": "52TOYS dates its founding to May 2015 and describes its name as both a play on “I love” in Chinese and the 52 weeks of the year. Its original and licensed characters span a wider toy business; this atlas keeps the blind-box and squishy portion.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://hi52toys.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use a small entry-price blind-box section beside a clearly signed character collection.",
+      "source_ids": [
+        "52toys"
+      ],
+      "chain_ids": [
+        "52toys"
+      ],
+      "retailer_keys": [
+        "shop:52toys",
+        "chain:52toys"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "miniso",
+      "name": "MINISO",
+      "kind": "Lifestyle chain",
+      "market": "China + international",
+      "background": "MINISO traces its beginnings to Ye Guofu’s retail idea in 2013. It has evolved from everyday lifestyle retail toward character-led collections and experiential store formats; blind boxes are one part of its wider assortment.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://www.miniso.com/brand/index.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Create a compact discovery zone with clear categories and an easy first-price step.",
+      "source_ids": [
+        "miniso-china",
+        "miniso-tmall"
+      ],
+      "chain_ids": [
+        "miniso"
+      ],
+      "retailer_keys": [
+        "shop:miniso-china",
+        "chain:miniso"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "kikagoods",
+      "name": "KikaGoods",
+      "kind": "Collectible shop",
+      "market": "International",
+      "background": "KikaGoods says it started as an online store in 2021. Its assortment brings together designer blind boxes and articulated blind-box dolls, while its interviews introduce the makers and design decisions behind individual series.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://www.kikagoods.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Pair one character-led shelf with a short maker Q&A or material explanation.",
+      "source_ids": [
+        "kikagoods"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:kikagoods"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "toybeta",
+      "name": "ToyBeta",
+      "kind": "Collectible shop",
+      "market": "International",
+      "background": "ToyBeta describes its 2022 start around livestream blind-box sales and real-time unboxing. Its shop mixes figure series, plush pendants and small surprise formats for collectors following several characters.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://toybeta.com/pages/about-toybeta",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use a small unboxing demonstration area and keep sealed random boxes distinct from confirmed designs.",
+      "source_ids": [
+        "toybeta"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:toybeta"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "didapop",
+      "name": "DidaPop",
+      "kind": "Collectible shop",
+      "market": "International",
+      "background": "DidaPop’s origin story centers on a collector juggling releases across many separate brand sites. The store presents its answer as bringing different character worlds into one place; these are the retailer’s own account of its background.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://didapop.com/pages/about-didapop",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Organize a multi-brand shelf by character or mood so shoppers can compare across brands.",
+      "source_ids": [
+        "didapop"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:didapop"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "kouhigh",
+      "name": "Kouhigh Toys",
+      "kind": "Collectible shop",
+      "market": "United States",
+      "background": "Kouhigh says it was founded in Los Angeles in 2022 by young Asian toy enthusiasts. Its story combines collectible toys with interactive community experiences, alongside a shop journal about character worlds and events.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://kouhightoys.com/pages/about-kouhightoys",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Reserve a small feature spot for an artist story or collector event.",
+      "source_ids": [
+        "kouhigh"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:kouhigh"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "toyzero",
+      "name": "TOYZEROPLUS",
+      "kind": "Brand & retailer",
+      "market": "Hong Kong + international",
+      "background": "TOYZEROPLUS describes itself as a Hong Kong toy brand connecting artists and collectors through design, production and retail. Its “plus” idea is about developing original character worlds and sharing them with more collectors.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://toyzeroplus.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Present a character family as a small coherent world, with a clear random-box explanation.",
+      "source_ids": [
+        "toyzero"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:toyzero"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "rolife",
+      "name": "Rolife",
+      "kind": "Brand & retailer",
+      "market": "International",
+      "background": "Rolife’s captured blind-box collection features character figures and surprise plush such as Nanci. The wider business sells other craft products, which are outside this atlas; a fuller company history remains to be verified.",
+      "background_basis": "Catalog context · history incomplete",
+      "background_sources": [
+        {
+          "url": "https://www.rolifeonline.com/collections/blind-box",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Keep the Nanci blind-box story together and label figure and plush formats clearly.",
+      "source_ids": [
+        "rolife"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:rolife"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "finding-unicorn",
+      "name": "Finding Unicorn",
+      "kind": "Brand & retailer",
+      "market": "China + international",
+      "background": "Finding Unicorn appears in this atlas through series such as Farmer BOB and ShinWoo stocked by other shops. The configured direct international storefront could not be revalidated in the source review, so its current operation and full company story remain incomplete.",
+      "background_basis": "Catalog context · direct source unavailable",
+      "background_sources": [
+        {
+          "url": "https://www.findingunicorn.net",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use the captured character series as inspiration, then verify the vendor and exact offer separately.",
+      "source_ids": [
+        "findingunicorn"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "molynk",
+      "name": "Hello Molynk",
+      "kind": "Squishy specialist",
+      "market": "International",
+      "background": "Hello Molynk’s storefront presents small collectible squishies as tactile objects for everyday play. Captured examples include food-inspired designs; a verified founding timeline and complete direct-store assortment are not yet available.",
+      "background_basis": "Storefront context · history incomplete",
+      "background_sources": [
+        {
+          "url": "https://www.molynk.shop",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Group food-shaped squishies in a small tray with texture and care information.",
+      "source_ids": [
+        "molynk"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "heartfelt",
+      "name": "Heartfelt Squishy",
+      "kind": "Squishy specialist",
+      "market": "Hong Kong + international",
+      "background": "Heartfelt’s Chinese-squishy category brings together maker-led collections rather than a single character brand. The captured range includes dessert, bread and animal designs, with options and preorder terms that need checking item by item.",
+      "background_basis": "Storefront context · founding story unverified",
+      "background_sources": [
+        {
+          "url": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Arrange squishies by shape or texture and make preorder terms easy to spot.",
+      "source_ids": [
+        "heartfelt"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:heartfelt"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "iris",
+      "name": "Iris Squishy",
+      "kind": "Squishy specialist",
+      "market": "International",
+      "background": "Iris Squishy says its name comes from the founder’s cats, Iris and Milktea. The founder’s story links its start to discovering slow-rising toys during university exams. Today the shop describes its focus as softness, companionship and original character designs.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://irissquishy.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Create a calm tactile shelf with clear material and care labels.",
+      "source_ids": [
+        "iris"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:iris"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "ronron",
+      "name": "RonRon Squishy",
+      "kind": "Squishy specialist",
+      "market": "International",
+      "background": "RonRon describes designing soft collectible squishies inspired by desserts and gentle everyday scenes. Its own story emphasizes shape, color and texture, with handmade or hand-finished details that can vary between pieces.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://ronronsquishy.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use a small dessert collection and explain expected handmade variation.",
+      "source_ids": [
+        "ronron"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:ronron"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "pawmiga",
+      "name": "Pawmiga World",
+      "kind": "Squishy specialist",
+      "market": "International",
+      "background": "Pawmiga World’s captured listings bring together squishies associated with several makers, including Lisa, Kira and Zoey. That gives a view of a specialist stockist’s mix; the founder’s story and a complete maker-authorization history remain unverified.",
+      "background_basis": "Catalog context · founding story unverified",
+      "background_sources": [
+        {
+          "url": "https://pawmiga.myshopify.com",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Compare shapes and pack quantities across makers rather than treating every item as one brand.",
+      "source_ids": [
+        "pawmiga"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:pawmiga"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "anthill",
+      "name": "ANTHILL shopNplay",
+      "kind": "Lifestyle shop",
+      "market": "United States",
+      "background": "ANTHILL describes itself as a family lifestyle boutique in Tustin, California, with a shop-and-play approach dating to 2016. Blind boxes and squishies sit within a wider family-gifting assortment; the atlas currently captures a narrow toy sample.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://anthillshop.com/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Build a giftable small-format collection and keep age information visible.",
+      "source_ids": [
+        "anthill"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:anthill"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "jotoys",
+      "name": "JOTOYS",
+      "kind": "Brand & retailer",
+      "market": "China + international",
+      "background": "JOTOYS describes its work as building complete character worlds and longer-term stories around its IP. Its international shop includes blind-box series across several character families, separate from other retailers’ offers.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://jotoys.store/pages/about-us",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Give each character world a short introduction before showing the different series.",
+      "source_ids": [
+        "jotoys-official"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:jotoys-official"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "sonny-angel",
+      "name": "Sonny Angel Store",
+      "kind": "Brand & retailer",
+      "market": "Japan",
+      "background": "The official Sonny Angel store is operated by Dreams. Its character introduction centers on a small angel with changing headgear, with regular and seasonal mini-figure series sold in blind boxes. Japan-store news and availability belong to that market.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://www.sonnyangelstore.com/pages/about",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Separate regular series from seasonal editions and explain the random design clearly.",
+      "source_ids": [
+        "sonnyangel-jp"
+      ],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:sonnyangel-jp"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "target",
+      "name": "Target",
+      "kind": "General retailer",
+      "market": "United States",
+      "background": "Target is a U.S. general merchandise retailer. Its toy discovery approach includes a digital holiday catalog and wish lists; the two Target.com examples in this workshop are planning benchmarks, not a complete store assortment or proof of a particular branch’s stock.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://corporate.target.com/about",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Make it easy to discover, compare and save a few well-explained blind-box and squishy choices.",
+      "source_ids": [],
+      "chain_ids": [],
+      "retailer_keys": [
+        "shop:target"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "x11",
+      "name": "X11",
+      "kind": "Collectible chain",
+      "market": "Mainland China",
+      "background": "KK Group introduced X11 in 2020 as a multi-brand entry point to collectible-toy culture. Its name combines “mix” with “one by one,” while its stores bring different character worlds and artists into a shared retail setting.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://www.kkgroup.cn/zh-CN/x11",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use a clear multi-brand layout with room for a rotating character feature.",
+      "source_ids": [
+        "chain-x11"
+      ],
+      "chain_ids": [
+        "x11"
+      ],
+      "retailer_keys": [
+        "chain:x11"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "kkv",
+      "name": "KKV",
+      "kind": "Lifestyle chain",
+      "market": "Mainland China + international",
+      "background": "KKV is KK Group’s lifestyle retail format, bringing many everyday categories into a single shopping space. Relevant blind-box collections are part of that larger mix; the atlas’s dated toy announcements do not represent every KKV store.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://www.kkgroup.cn/zh-CN/kkv",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Keep a compact toy discovery zone with strong category signs.",
+      "source_ids": [
+        "chain-kkv"
+      ],
+      "chain_ids": [
+        "kkv"
+      ],
+      "retailer_keys": [
+        "chain:kkv"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "sanfu",
+      "name": "SANFU · 三福",
+      "kind": "Lifestyle chain",
+      "market": "Mainland China",
+      "background": "SANFU traces its history to a Fuzhou department-store business in 1992. Its own timeline describes a 2021 move toward a broader lifestyle collection format, where character goods and blind boxes sit among other everyday categories.",
+      "background_basis": "Retailer background",
+      "background_sources": [
+        {
+          "url": "https://www.sanfu.com/about",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Connect a small character assortment to everyday gifting, while keeping the toy section clearly defined.",
+      "source_ids": [
+        "chain-sanfu"
+      ],
+      "chain_ids": [
+        "sanfu"
+      ],
+      "retailer_keys": [
+        "chain:sanfu"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "jiumu",
+      "name": "Jiumu · 九木杂物社",
+      "kind": "Lifestyle chain",
+      "market": "Mainland China",
+      "background": "M&G’s Jiumu is a creative lifestyle retail channel. The atlas follows specific blind-box and squishy references within its broader stationery and gifting mix; a fuller verified origin story remains to be added.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.mg-pen.com/chenguangbrand/info.aspx?itemid=30",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Group small collectibles as gifts and make size and age information easy to compare.",
+      "source_ids": [
+        "chain-jiumu"
+      ],
+      "chain_ids": [
+        "jiumu"
+      ],
+      "retailer_keys": [
+        "chain:jiumu"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "kule",
+      "name": "KuLe · 酷乐潮玩",
+      "kind": "Collectible chain",
+      "market": "Mainland China",
+      "background": "KuLe is documented here as a collectibles and lifestyle retail chain. Manufacturer posts name it for particular blind-box releases; the saved company reference is a third-party profile, so founder and ownership details remain unverified.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.maigoo.com/brand/141609.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use a few distinct character stories with clear shelf-level explanations.",
+      "source_ids": [
+        "chain-kule"
+      ],
+      "chain_ids": [
+        "kule"
+      ],
+      "retailer_keys": [
+        "chain:kule"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "green-party",
+      "name": "The Green Party",
+      "kind": "Lifestyle chain",
+      "market": "Mainland China",
+      "background": "The Green Party appears in China mall tenant records and manufacturer release notices. The atlas follows named blind-box and squishy products within that lifestyle channel; it does not infer nationwide inventory from one store or one announcement.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.smsupermalls.cn/city/jjfloor.aspx",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use small themed collections that fit into an everyday lifestyle shopping trip.",
+      "source_ids": [
+        "chain-green-party"
+      ],
+      "chain_ids": [
+        "green-party"
+      ],
+      "retailer_keys": [
+        "chain:green-party"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "ipstar",
+      "name": "IPSTAR · 潮玩星球",
+      "kind": "Character-goods chain",
+      "market": "Mainland China",
+      "background": "IPSTAR is represented by operator announcements and manufacturer retail-channel references for anime and character goods. Some products are blind-box collectibles; named stores and limited release periods should be checked individually.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://weibo.com/6509826766",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Let familiar character worlds guide discovery, with a short explanation of each blind-box series.",
+      "source_ids": [
+        "chain-ipstar"
+      ],
+      "chain_ids": [
+        "ipstar"
+      ],
+      "retailer_keys": [
+        "chain:ipstar"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "toycity",
+      "name": "TOYCITY · 玩具城市",
+      "kind": "Brand & retailer",
+      "market": "Mainland China",
+      "background": "TOYCITY’s official channel combines original character storytelling with product and retail announcements. Captured series include Mr. Pa, Monboo and cluebie; the current evidence follows specific releases rather than a complete chain inventory.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/media/7415975135",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Create a small original-character feature that can rotate between series.",
+      "source_ids": [],
+      "chain_ids": [
+        "toycity"
+      ],
+      "retailer_keys": [
+        "chain:toycity"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "lenle",
+      "name": "Lenle · 伶俐",
+      "kind": "Lifestyle chain",
+      "market": "Mainland China",
+      "background": "Lenle is named in manufacturer announcements as a participating retail channel for specific blind-box series. The atlas can trace those releases, while the company’s founding story and complete store assortment still need verification.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5347736691410585.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Bring a few approachable blind-box stories into a compact gifting section.",
+      "source_ids": [],
+      "chain_ids": [
+        "lenle"
+      ],
+      "retailer_keys": [
+        "chain:lenle"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "bandai-namco-shop",
+      "name": "Bandai Namco Shop",
+      "kind": "Manufacturer retail",
+      "market": "Mainland China",
+      "background": "Bandai Namco’s manufacturer-operated shops are represented here by a named mainland blind-box release. This provides a manufacturer-to-retail connection; it does not establish the full assortment of each shop.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5326348903257719.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Separate licensed character series so shoppers can recognize their world quickly.",
+      "source_ids": [],
+      "chain_ids": [
+        "bandai-namco-shop"
+      ],
+      "retailer_keys": [
+        "chain:bandai-namco-shop"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "march-monster",
+      "name": "March Monster · 三月兽",
+      "kind": "Character-goods chain",
+      "market": "Mainland China",
+      "background": "March Monster is documented through a manufacturer notice naming stores for a character-figure release. The evidence supports a specific retail connection; a fuller operator history and current national assortment remain incomplete.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5255758771653256.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Use a clearly signed licensed-character feature rather than mixing unrelated series.",
+      "source_ids": [],
+      "chain_ids": [
+        "march-monster"
+      ],
+      "retailer_keys": [
+        "chain:march-monster"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "tomato-pocket",
+      "name": "Tomato Pocket · 番茄口袋",
+      "kind": "Lifestyle chain",
+      "market": "Mainland China",
+      "background": "Tomato Pocket’s saved evidence includes a Beijing apm mall notice about a named character product. This local retail context is useful for inspiration but is not a chain-wide availability claim or a verified founding history.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5293416905704951.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Try a small character feature within a wider lifestyle display.",
+      "source_ids": [],
+      "chain_ids": [
+        "tomato-pocket"
+      ],
+      "retailer_keys": [
+        "chain:tomato-pocket"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "snack-busy",
+      "name": "Snack Busy · 零食很忙",
+      "kind": "Retail crossover",
+      "market": "Mainland China",
+      "background": "A TOYCITY manufacturer announcement names Snack Busy for a Mr. Pa blind-box exclusive. It shows a toy-and-snack retail crossover; the evidence does not identify every participating branch or the chain’s full toy assortment.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5353243982957281.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Test a small surprise-toy feature with unmistakable product, age and price labels.",
+      "source_ids": [],
+      "chain_ids": [
+        "snack-busy"
+      ],
+      "retailer_keys": [
+        "chain:snack-busy"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "zhao-yiming",
+      "name": "Zhao Yiming · 赵一鸣零食",
+      "kind": "Retail crossover",
+      "market": "Mainland China",
+      "background": "A TOYCITY manufacturer announcement names Zhao Yiming for a Mr. Pa blind-box exclusive. It is a documented crossover channel for one series, with participating stores and current stock still to be checked.",
+      "background_basis": "Documented retail context · history partial",
+      "background_sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5353243982957281.html",
+          "label": "Read background source",
+          "checked": "2026-11-04"
+        }
+      ],
+      "aisle_idea": "Keep a small impulse-discovery feature focused on one clearly explained blind-box series.",
+      "source_ids": [],
+      "chain_ids": [
+        "zhao-yiming"
+      ],
+      "retailer_keys": [
+        "chain:zhao-yiming"
+      ],
+      "checked": "2026-11-04"
+    }
+  ],
+  "curated_updates": [
+    {
+      "id": "miniso-land-columbus",
+      "retailer_ids": [
+        "miniso"
+      ],
+      "title": "MINISO brings its LAND format to Columbus",
+      "summary": "MINISO announced its first U.S. MINISO LAND at Easton Town Center, with character-led zones including YOYO, Sanrio and Disney. The store-opening story is context for discovery-led retail, not confirmation of any individual SKU.",
+      "published": "2026-10-17",
+      "event_date": "2026-10-17",
+      "market": "United States",
+      "type": "Company announcement",
+      "url": "https://www.miniso.com/brand/news_208.html",
+      "publisher": "MINISO",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "pop-mart-okinawa-parco",
+      "retailer_ids": [
+        "pop-mart"
+      ],
+      "title": "POP MART plans an ocean-themed Okinawa store",
+      "summary": "POP MART Japan announced a November 6 opening at Urasoe PARCO CITY. CRYBABY’s ocean story informs the store’s visuals and installations; the opening was still upcoming when checked.",
+      "published": "2026-10-23",
+      "event_date": "2026-11-06",
+      "market": "Japan",
+      "type": "Company announcement",
+      "url": "https://prtimes.jp/main/html/rd/p/000000042.000062707.html",
+      "publisher": "POP MART Japan via PR TIMES",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "target-holiday-discovery",
+      "retailer_ids": [
+        "target"
+      ],
+      "title": "Target turns holiday toy browsing into a digital wish list",
+      "summary": "Target’s October announcement describes a digital holiday catalog with toy demonstrations and shareable wish lists. It is a useful example of guided discovery; the article covers a wider toy range than this blind-box and squishy directory.",
+      "published": "2026-10-05",
+      "market": "United States",
+      "type": "Company announcement",
+      "url": "https://corporate.target.com/news-features/article/2026/10/target-holiday-kids-catalog",
+      "publisher": "Target",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "52toys-ciftis",
+      "retailer_ids": [
+        "52toys"
+      ],
+      "title": "52TOYS takes character storytelling to CIFTIS",
+      "summary": "Xinhua reported on 52TOYS’ role at the September 2026 China International Fair for Trade in Services. The feature connects original characters and immersive exhibition design with the company’s international expansion.",
+      "published": "2026-09-11",
+      "market": "China / international",
+      "type": "Independent reporting",
+      "url": "https://www.xinhuanet.com/house/20260911/f37fb55d297949479643f5804f579f1a/c.html",
+      "publisher": "Xinhua",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "kika-pennys-box-interview",
+      "retailer_ids": [
+        "kikagoods"
+      ],
+      "title": "Meet the thinking behind Penny’s Box",
+      "summary": "KikaGoods’ maker Q&A introduces the Penny’s Box series through a retailer-published interview. It is background reading for articulated blind-box dolls, rather than a new product launch or independent review.",
+      "published": "2026-03-24",
+      "market": "International",
+      "type": "Retailer journal",
+      "url": "https://www.kikagoods.com/blogs/q-a/pennys-box-q-a",
+      "publisher": "KikaGoods",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "52toys-tsum-arrival",
+      "retailer_ids": [
+        "52toys"
+      ],
+      "title": "52TOYS marks an 8-bit Disney plush blind box arrival",
+      "summary": "The international storefront places the Disney Tsum Tsum 8-Bit All-Star plush keychain blind box under November 3 new arrivals. This is a retailer-marked arrival date, not a verified worldwide launch date.",
+      "published": "2026-11-03",
+      "date_kind": "Arrival listed",
+      "market": "International store",
+      "type": "Shop release note",
+      "url": "https://hi52toys.com/products/disney-tsum-tsum-8-bit-all-star-series-plush-keychain-blind-box",
+      "publisher": "52TOYS international store",
+      "checked": "2026-11-04"
+    }
+  ],
+  "feeds": [
+    {
+      "retailer_id": "top-toy",
+      "url": "https://gotoptoy.com/blogs/news.atom"
+    },
+    {
+      "retailer_id": "top-toy",
+      "url": "https://gotoptoy.com/blogs/articles.atom"
+    },
+    {
+      "retailer_id": "kouhigh",
+      "url": "https://kouhightoys.com/blogs/newsroom.atom"
+    },
+    {
+      "retailer_id": "didapop",
+      "url": "https://didapop.com/blogs/news.atom"
+    },
+    {
+      "retailer_id": "anthill",
+      "url": "https://anthillshop.com/blogs/news.atom"
+    },
+    {
+      "retailer_id": "sonny-angel",
+      "url": "https://www.sonnyangelstore.com/blogs/news.atom"
+    }
+  ]
+}
