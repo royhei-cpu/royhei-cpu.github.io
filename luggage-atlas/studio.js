@@ -65,6 +65,10 @@ function updateModel(){if(!model)return;applyStudioModel(model,{dimensions:Desig
 function updateAssemblyGuides(){
  if(assemblyGuides){scene.remove(assemblyGuides);assemblyGuides.geometry.dispose();assemblyGuides.material.dispose();assemblyGuides=null;}if(currentView!=='exploded')return;const points=inspectionLinks(model).flat();if(!points.length)return;assemblyGuides=new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(points),new THREE.LineDashedMaterial({color:0x819078,dashSize:.008,gapSize:.007,transparent:true,opacity:.65}));assemblyGuides.computeLineDistances();scene.add(assemblyGuides);
 }
+function renderInspectionControls(){
+ $('component-list').innerHTML=inspectionParts.map(p=>`<button type="button" data-component="${p.id}" aria-pressed="${p.id===selectedPart}"><span>${p.number}</span>${esc(p.label)}</button>`).join('');
+ $('model-annotations').innerHTML=inspectionParts.map(p=>`<button type="button" data-component="${p.id}" aria-label="${p.number} · ${esc(p.label)}" aria-pressed="${p.id===selectedPart}">${p.number}</button>`).join('');
+}
 function updateInspection(){
  const inside=currentView==='inside',exploded=currentView==='exploded';
  $('inside-inspection').hidden=!inside;$('exploded-inspection').hidden=!exploded;
@@ -73,10 +77,9 @@ function updateInspection(){
  $('organizer-toggle').textContent=organizersVisible?'Lift organizers · see packing wells':'Restore organizers';$('organizer-toggle').setAttribute('aria-pressed',String(!organizersVisible));
  $('model-fallback').src='models/open-story-'+({exterior:'exterior',inside:organizersVisible?'interior':'packing-wells',exploded:'exploded'})[currentView]+'.webp?v=20261104-interior6';
  $('model-fallback').alt='Blender development render: '+(inside?(organizersVisible?'laid-flat interior with sewn lining and open mesh organization':'empty packing wells with organizers lifted'):exploded?'separated shell, lining, packing, wheel and trolley assemblies':'sage exterior');
- $('component-list').innerHTML=inspectionParts.map(p=>`<button type="button" data-component="${p.id}" aria-pressed="${p.id===selectedPart}"><span>${p.number}</span>${esc(p.label)}</button>`).join('');
+ document.querySelectorAll('[data-component]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.component===selectedPart)));
  $('isolate-component').textContent=isolatePart?'Show all assemblies':'Isolate selected assembly';$('isolate-component').setAttribute('aria-pressed',String(isolatePart));const part=inspectionParts.find(p=>p.id===selectedPart);$('component-detail').textContent=part.number+' · '+part.label+'. '+part.description;
  if(!model)return;$('model-annotations').hidden=!exploded;
- if(exploded)$('model-annotations').innerHTML=inspectionParts.map(p=>`<button type="button" data-component="${p.id}" aria-label="${p.number} · ${esc(p.label)}" aria-pressed="${p.id===selectedPart}">${p.number}</button>`).join('');
  updateAnnotations();
 }
 function updateAnnotations(){
@@ -119,4 +122,4 @@ function chooseComponent(e){const b=e.target.closest('[data-component]');if(!b)r
 $('isolate-component').onclick=()=>{if(!model)return;isolatePart=!isolatePart;updateInspection();updateModel();resetCamera();};
 $('component-list').addEventListener('click',chooseComponent);$('model-annotations').addEventListener('click',chooseComponent);
 $('handle-toggle').onclick=()=>{if(!model)return;handleExtended=!handleExtended;$('handle-toggle').setAttribute('aria-pressed',String(handleExtended));$('handle-toggle').textContent=handleExtended?'Retract handle':'Extend handle';updateModel();resetCamera();window.AtlasAudio?.play('repair');};
-document.querySelectorAll('[data-orbit]').forEach(b=>b.onclick=()=>{if(!camera)return;const delta=camera.position.clone().sub(controls.target);delta.applyAxisAngle(new THREE.Vector3(0,1,0),Number(b.dataset.orbit)*Math.PI/8);camera.position.copy(controls.target).add(delta);controls.update();});document.querySelectorAll('[data-zoom]').forEach(b=>b.onclick=()=>{if(!camera)return;const delta=camera.position.clone().sub(controls.target).multiplyScalar(Number(b.dataset.zoom));if(delta.length()>=controls.minDistance&&delta.length()<=controls.maxDistance)camera.position.copy(controls.target).add(delta);controls.update();});window.addEventListener('storage',e=>{if(e.key==='luggage-atlas-cost-desk-v1')renderComparison();});updateInspection();sync();start3D();
+document.querySelectorAll('[data-orbit]').forEach(b=>b.onclick=()=>{if(!camera)return;const delta=camera.position.clone().sub(controls.target);delta.applyAxisAngle(new THREE.Vector3(0,1,0),Number(b.dataset.orbit)*Math.PI/8);camera.position.copy(controls.target).add(delta);controls.update();});document.querySelectorAll('[data-zoom]').forEach(b=>b.onclick=()=>{if(!camera)return;const delta=camera.position.clone().sub(controls.target).multiplyScalar(Number(b.dataset.zoom));if(delta.length()>=controls.minDistance&&delta.length()<=controls.maxDistance)camera.position.copy(controls.target).add(delta);controls.update();});window.addEventListener('storage',e=>{if(e.key==='luggage-atlas-cost-desk-v1')renderComparison();});renderInspectionControls();updateInspection();sync();start3D();
