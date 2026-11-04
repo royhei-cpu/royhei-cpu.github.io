@@ -1,0 +1,55 @@
+{
+  "release": "2026-11-04-a1",
+  "concepts": {
+    "laundry-sorter": {
+      "visualRevision": "A1",
+      "engineeringRevision": "A0",
+      "model": "/home-care/workshop-models/laundry-sorter-a1.glb",
+      "blend": "/home-care/workshop-models/laundry-sorter-a1.blend",
+      "pack": "/home-care/workshop-models/laundry-sorter-a1-development-pack.zip",
+      "posters": {
+        "perspective": "/home-care/workshop-models/laundry-sorter-a1-studio.jpg",
+        "front": "/home-care/workshop-models/laundry-sorter-a1-front.jpg",
+        "inside": "/home-care/workshop-models/laundry-sorter-a1-inside.jpg",
+        "exploded": "/home-care/workshop-models/laundry-sorter-a1-exploded.jpg",
+        "detail": "/home-care/workshop-models/laundry-sorter-a1-detail.jpg"
+      },
+      "scope": "A1 Blender visualization with shaped canvas, sewn hems, webbing handles, readable task labels and radiused molded PP. A0 dimensions, BOM and load targets remain unvalidated.",
+      "finishNote": "The selected finish colors the molded PP frame and lid. Canvas and webbing retain their natural textile tones.",
+      "assemblies": [
+        "Molded frame and feet",
+        "Left removable bag",
+        "Right removable bag",
+        "Lift-off split lid"
+      ],
+      "posterPins": {
+        "exploded": [
+          {
+            "number": 1,
+            "label": "Molded frame and feet",
+            "x": 46.535,
+            "y": 37.057
+          },
+          {
+            "number": 2,
+            "label": "Left removable bag",
+            "x": 25.551,
+            "y": 19.449
+          },
+          {
+            "number": 3,
+            "label": "Right removable bag",
+            "x": 70.75,
+            "y": 26.117
+          },
+          {
+            "number": 4,
+            "label": "Lift-off split lid",
+            "x": 47.857,
+            "y": 5.415
+          }
+        ]
+      }
+    }
+  }
+}

@@ -79,3 +79,24 @@ test('all 50 national-brand photo references are saved, traceable and dimensione
  assert.equal(evidence.references['bd-dustbuster'].sourceType,'Retailer');
  assert.match(evidence.references['bd-dustbuster'].verificationNote,/unavailable/);
 });
+
+
+test('all workshop pages ship their exact national-brand photos in HTML before JavaScript and keep catalog loading separate',()=>{
+ const manifest=JSON.parse(fs.readFileSync(path.join(site,'ui-assets/manifest.json')));assert.ok(manifest.workshopEntry);
+ for(const p of library.concepts){
+  const html=fs.readFileSync(path.join(site,'workshop',p.id+'.html'),'utf8');
+  assert.ok(html.length<140000);assert.equal((html.match(/data-benchmark-id=/g)||[]).length,2);
+  assert.ok(html.indexOf('id="wl-real-products"')<html.indexOf('id="wl-proposed-design"'));
+  for(const id of p.benchmarks)assert.ok(html.includes('/home-care/workshop-reference-photos/'+id+'.webp'));
+  assert.ok(html.includes(manifest.workshopEntry));assert.ok(!html.includes('const ITEMS='));assert.ok(!html.includes('global-reference-products.json'));
+ }
+ const boot=fs.readFileSync(path.join(dir,'ui-src/upgrade.jsx'),'utf8');assert.ok(boot.includes("location.replace(workshopPath(params.get('concept'))+'#wl-real-products')"));
+});
+
+test('A1 deliverables have intact hashes and all five renders while every A0 development pack remains present',()=>{
+ const assets=JSON.parse(fs.readFileSync(path.join(site,'workshop-models/assets.json')));
+ assert.equal(assets.files.length,9);
+ for(const f of assets.files){const content=fs.readFileSync(path.join(site,f.path.replace('/home-care/','')));assert.equal(content.length,f.bytes);assert.equal(crypto.createHash('sha256').update(content).digest('hex'),f.sha256);}
+ for(const view of ['studio','front','inside','detail','exploded'])assert.ok(assets.files.some(f=>f.path.endsWith('-'+view+'.jpg')));
+ assert.ok(fs.existsSync(path.join(site,'workshop-assets/laundry-sorter-development-pack.zip')));
+});

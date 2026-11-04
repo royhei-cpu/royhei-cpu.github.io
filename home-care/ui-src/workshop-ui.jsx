@@ -1,5 +1,5 @@
 import React,{useEffect,useRef,useState} from 'react';
-import {workshopLibrary as library,defaultScenario,costScenario,money,benchmarkPrice,envelopeText,bomCSV,configuredBriefHTML,benchmarkEvidence,photoMatchLabels,proposalBenchmarks,benchmarkCSV,proposalEvidenceNote} from './workshop-logic.js';
+import {workshopLibrary as library,defaultScenario,costScenario,money,benchmarkPrice,envelopeText,bomCSV,configuredBriefHTML,benchmarkEvidence,photoMatchLabels,proposalBenchmarks,benchmarkCSV,proposalEvidenceNote,conceptMedia} from './workshop-logic.js';
 
 const base='/home-care/workshop-assets/';
 const publicBase=()=>new URL(base,window.location.href).href;
@@ -7,36 +7,38 @@ const external={target:'_blank',rel:'noreferrer'};
 const tabs=[['compare','Suggested changes'],['specs','Specs & dimensions'],['cost','BOM & pricing'],['validation','Validation']];
 function save(name,content,type){const url=URL.createObjectURL(new Blob([content],{type})),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 
-function ModelPreview({proposal,color,onEnableColor}){
+function ModelPreview({proposal,color}){
+ const media=conceptMedia(proposal);
  const [enabled,setEnabled]=useState(false),[view,setView]=useState('perspective'),[status,setStatus]=useState('poster');
  const host=useRef(null),viewer=useRef(null),settings=useRef({color,view});settings.current={color,view};
  useEffect(()=>{
   if(!enabled||!host.current)return;
   const controller=new AbortController();setStatus('loading');
-  import('./workshop-viewer.js').then(module=>module.createWorkshopViewer(host.current,base+proposal.id+'.glb',{color:settings.current.color.hex,view:settings.current.view,signal:controller.signal})).then(value=>{if(controller.signal.aborted){value.dispose();return;}viewer.current=value;value.setColor(settings.current.color.hex);value.setView(settings.current.view);setStatus('ready');}).catch(()=>{if(!controller.signal.aborted)setStatus('unavailable');});
+  import('./workshop-viewer.js').then(module=>module.createWorkshopViewer(host.current,media.model,{color:settings.current.color.hex,view:settings.current.view,signal:controller.signal})).then(value=>{if(controller.signal.aborted){value.dispose();return;}viewer.current=value;value.setColor(settings.current.color.hex);value.setView(settings.current.view);setStatus('ready');}).catch(()=>{if(!controller.signal.aborted)setStatus('unavailable');});
   return()=>{controller.abort();viewer.current?.dispose();viewer.current=null;};
- },[enabled,proposal.id]);
- useEffect(()=>{viewer.current?.setColor(color.hex);if(color.id!=='sage'&&!enabled){setEnabled(true);onEnableColor?.();}},[color,enabled,onEnableColor]);
+ },[enabled,media.model]);
+ useEffect(()=>{viewer.current?.setColor(color.hex);if(color.id!=='sage'&&!enabled)setEnabled(true);},[color,enabled]);
  useEffect(()=>{viewer.current?.setView(view);},[view]);
- function choose(value){setView(value);if(value==='exploded')setEnabled(true);}
- const ready=status==='ready';
+ function choose(value){setView(value);if(!media.posters[value])setEnabled(true);}
+ const ready=status==='ready',poster=media.posters[view]||media.posters.perspective;
  return <figure className="wl-preview">
-  <div className="wl-preview-toolbar" aria-label="Concept render views">{[['perspective','Perspective'],['front','Front'],['exploded','Exploded']].map(([id,label])=><button key={id} aria-pressed={view===id} onClick={()=>choose(id)}>{label}</button>)}</div>
+  <div className="wl-preview-toolbar" aria-label="Concept render views">{[['perspective','Studio'],['front','Front'],...(media.posters.inside?[['inside','Inside']]:[]),...(media.posters.detail?[['detail','Details']]:[]),['exploded','Exploded']].map(([id,label])=><button key={id} aria-pressed={view===id} onClick={()=>choose(id)}>{label}</button>)}</div>
   <div className="wl-model-stage">
-   {!ready&&<img src={`${base}${proposal.id}${view==='front'?'-front':''}.jpg`} alt={`${proposal.name}, Sage exterior design study rendered in Blender`} width="1200" height="900"/>}
-   <div className={`wl-webgl${ready?' is-ready':''}`} ref={host} aria-hidden={!ready}/>
+   {!ready&&<img src={poster} alt={`${proposal.name}, ${view} view, Sage frame, Blender ${media.visualRevision} visualization; not a product photograph`} width={media.visualRevision==='A1'?1400:1200} height={media.visualRevision==='A1'?1100:900}/>}{!ready&&(media.posterPins?.[view]||[]).map(pin=><span key={pin.number} className="wl-poster-pin" style={{left:pin.x+'%',top:pin.y+'%'}} title={pin.label} aria-label={pin.number+' · '+pin.label}>{pin.number}</span>)}<div className={`wl-webgl${ready?' is-ready':''}`} ref={host} aria-hidden={!ready}/>
    {!enabled&&<button className="wl-enable-3d" onClick={()=>setEnabled(true)}>Rotate in 3D</button>}
-   {status==='loading'&&<p className="wl-preview-status" role="status">Loading the editable 3D concept…</p>}
-   {status==='unavailable'&&<p className="wl-preview-status" role="status">Interactive 3D is unavailable here. The Sage Blender render and model downloads remain available.</p>}
+   {status==='loading'&&<p className="wl-preview-status" role="status">Loading the textured 3D model…</p>}
+   {status==='unavailable'&&<p className="wl-preview-status" role="status">Interactive 3D is unavailable here. The Blender renders and model downloads remain available.</p>}
   </div>
-  <figcaption>{ready?`${color.name} · drag to orbit; pinch or scroll to zoom.`:'Sage studio render · Blender 5.2.'} {view==='exploded'&&'Parts separated for design review; not an assembly instruction.'} Exterior concept; internal engineering unresolved.</figcaption>
+  <figcaption><b>{media.visualRevision} visualization · {ready?color.name+' frame; drag to orbit and scroll to zoom.':'Sage frame · Blender studio render.'}</b> {media.scope} {view==='exploded'&&'Illustrative separation of intact assemblies; not an assembly instruction.'}</figcaption>
+  {view==='exploded'&&media.assemblies&&<ol className="wl-assembly-legend" aria-label="Exploded assembly key">{media.assemblies.map((name,i)=><li key={name}><b>{i+1}</b>{name}</li>)}</ol>}
+  <a className="wl-reference-return" href="#wl-real-products">Compare with the real national-brand photographs ↑</a>
  </figure>;
 }
 
 function ReferencePhoto({benchmark}){
  const r=benchmarkEvidence(benchmark.id),[failed,setFailed]=useState(false);
  return <figure className="wl-reference-photo">
-  {r.path&&!failed?<a className="wl-benchmark-photo" href={r.path} {...external} aria-label={`View full-size photo of ${benchmark.brand} ${benchmark.name}`}><img src={r.path} alt={`${benchmark.brand} — ${benchmark.name}. ${r.verificationNote}`} width={r.width} height={r.height} loading="lazy" decoding="async" onError={()=>setFailed(true)}/><span>View full-size photo ↗</span></a>:<div className="wl-photo-gap" role="status"><b>Product photo unavailable</b><span>{failed?'The saved photo could not load. Open the source below.':'A verified image could not be saved. Open the source below; no substitute model is shown.'}</span></div>}
+  {r.path&&!failed?<a className="wl-benchmark-photo" href={r.path} {...external} aria-label={`View full-size photo of ${benchmark.brand} ${benchmark.name}`}><img src={r.path} alt={`${benchmark.brand} — ${benchmark.name}. ${r.verificationNote}`} width={r.width} height={r.height} loading="eager" fetchPriority="high" decoding="async" onError={()=>setFailed(true)}/><span>View full-size photo ↗</span></a>:<div className="wl-photo-gap" role="status"><b>Product photo unavailable</b><span>{failed?'The saved photo could not load. Open the source below.':'A verified image could not be saved. Open the source below; no substitute model is shown.'}</span></div>}
   <figcaption><span className={`wl-match-badge${r.match.includes('matched')?' is-matched':''}`}>{photoMatchLabels[failed?'unavailable':r.match]}</span><p>{r.verificationNote}</p><small>{r.sourceTitle||r.sourceType||'Source'} · photo checked {r.checkedAt}</small></figcaption>
  </figure>;
 }
@@ -73,16 +75,16 @@ function Pricing({proposal,scenario,setScenario,color,result}){
 
 function WorkshopDetail({proposal,catalog,onOpen,onCompare,selected}){
  const [tab,setTab]=useState('compare'),[colorId,setColorId]=useState('sage'),[unit,setUnit]=useState('mm'),[scenario,setScenario]=useState(()=>defaultScenario(proposal));
- const color=library.palette.find(c=>c.id===colorId),result=costScenario(proposal,scenario,color);
+ const color=library.palette.find(c=>c.id===colorId),result=costScenario(proposal,scenario,color),media=conceptMedia(proposal);
  function tabKey(e){const index=tabs.findIndex(([id])=>id===tab),next=e.key==='ArrowRight'?(index+1)%tabs.length:e.key==='ArrowLeft'?(index+tabs.length-1)%tabs.length:e.key==='Home'?0:e.key==='End'?tabs.length-1:null;if(next===null)return;e.preventDefault();setTab(tabs[next][0]);e.currentTarget.parentElement.querySelector(`#wl-tab-${tabs[next][0]}`)?.focus();}
  return <div className="wl-detail" data-concept={proposal.id}>
-  <div className="wl-detail-heading"><div><p className="eyebrow">{proposal.code} · {proposal.category}</p><h3>{proposal.name}</h3></div><span className="wl-concept-status">Design concept · A0</span></div>
+  <div className="wl-detail-heading"><div><p className="eyebrow">{proposal.code} · {proposal.category}</p><h3>{proposal.name}</h3></div><span className="wl-concept-status">Concept · {media.visualRevision} visualization</span></div>
   <nav className="wl-journey" aria-label="Workshop review steps"><a href="#wl-real-products">1 · Real products</a><a href="#wl-development-case">2 · Why & what changes</a><a href="#wl-proposed-design">3 · Design & costs</a></nav>
   <Benchmarks proposal={proposal} catalog={catalog} onOpen={onOpen} onCompare={onCompare} selected={selected}/>
   <DevelopmentCase proposal={proposal}/>
   <div id="wl-proposed-design" className="wl-design-heading"><p className="eyebrow">03 · Develop the proposal</p><h3>Proposed white-label design</h3><p>The render below is a concept study. Compare it with the real national-brand photographs above.</p></div>
   <div className="wl-proposal-board"><div className="wl-concept-column"><div className="wl-board-label"><span>Proposed white-label concept</span><span>Blender design study</span></div><ModelPreview proposal={proposal} color={color}/><div className="wl-measurements"><div><b>{proposal.envelope.join(' × ')} mm</b><span>W × D × H · proposed envelope</span></div><div><b>{money(Number(scenario.retail))}</b><span>Proposed retail target · USD · unquoted</span></div></div></div><div className="wl-proposal-notes"><h4>Design intent</h4><p>{proposal.recommendation}</p><h4>Construction to verify</h4><p>{proposal.wallSpec}</p><h4>Materials & finish</h4><p>{proposal.materialNote}</p><p className="wl-task-note">A0 design study. Dimensions, mass and retail are planning targets; engineering and supplier quotations remain open.</p></div></div>
-  <div className="wl-design-controls"><fieldset className="wl-colors"><legend>Choose a finish</legend><div>{library.palette.map(c=><button key={c.id} aria-label={`Choose ${c.name} finish`} aria-pressed={c.id===colorId} onClick={()=>setColorId(c.id)}><span style={{backgroundColor:c.hex}}>{c.id===colorId?'✓':''}</span>{c.name}</button>)}</div><small>{color.name} · {color.hex} · {proposal.finishDescription} Screen reference; approve physical samples.</small></fieldset><div className="wl-downloads"><a className="wl-primary" href={`${base}${proposal.id}-development-pack.zip`} download>Download Blender development pack ↓</a><div className="wl-file-links"><a href={`${base}${proposal.id}.blend`} download>Blender scene</a><a href={`${base}${proposal.id}.glb`} download>3D model</a><button onClick={()=>save(`${proposal.code}-${color.id}-configured-brief.html`,configuredBriefHTML(proposal,scenario,color,publicBase()),'text/html;charset=utf-8')}>Save brief with comparison photos ↓</button></div><p className="wl-download-caption">Sage A0 pack: .blend, GLB, studio renders, dimension reference, specifications and BOM. Updated photo match notes are in the configured brief and reference CSV. Save your brief/BOM to retain selected finish and pricing edits.</p></div></div>
+  <div className="wl-design-controls"><fieldset className="wl-colors"><legend>Choose a finish</legend><div>{library.palette.map(c=><button key={c.id} aria-label={`Choose ${c.name} finish`} aria-pressed={c.id===colorId} onClick={()=>setColorId(c.id)}><span style={{backgroundColor:c.hex}}>{c.id===colorId?'✓':''}</span>{c.name}</button>)}</div><small>{color.name} · {color.hex} · {media.finishNote} Screen reference; approve physical samples.</small></fieldset><div className="wl-downloads"><a className="wl-primary" href={media.pack} download>Download Blender development pack ↓</a><div className="wl-file-links"><a href={media.blend} download>Blender scene</a><a href={media.model} download>3D model</a><button onClick={()=>save(`${proposal.code}-${color.id}-configured-brief.html`,configuredBriefHTML(proposal,scenario,color,publicBase()),'text/html;charset=utf-8')}>Save brief with comparison photos ↓</button></div><p className="wl-download-caption">{media.visualRevision} visualization pack: .blend, GLB, renders, dimensions and the original A0 specifications/BOM. Updated photo match notes are in the configured brief and reference CSV. Save your brief/BOM to retain selected finish and pricing edits.</p></div></div>
   <div className="wl-tabs" role="tablist" aria-label="White Label Workshop details">{tabs.map(([id,label])=><button key={id} role="tab" id={`wl-tab-${id}`} aria-selected={tab===id} tabIndex={tab===id?0:-1} aria-controls="wl-detail-panel" onClick={()=>setTab(id)} onKeyDown={tabKey}>{label}</button>)}</div>
   <div role="tabpanel" id="wl-detail-panel" aria-labelledby={`wl-tab-${tab}`}>
    {tab==='compare'&&<section aria-label="Benchmark reality and proposed improvements"><div className="wl-section-heading"><div><h3>What should we do differently?</h3><p>Each change starts with an existing brand feature and a testable design proposal.</p></div></div><div className="wl-change-grid">{proposal.changes.map(([decision,reality,change,proof],i)=><article className="wl-change-card" key={decision}><h4><span>{String(i+1).padStart(2,'0')}</span>{decision}</h4><dl><div><dt>What brands already offer</dt><dd>{reality}</dd></div><div className="wl-proposed-change"><dt>Our proposed change</dt><dd>{change}</dd></div><div><dt>How to prove it</dt><dd>{proof}</dd></div></dl></article>)}</div><details className="wl-development-rationale"><summary>Research rationale & Target baseline</summary><h4>Why investigate</h4><p>{proposal.why}</p><h4>Distinctive design direction</h4><p>{proposal.recommendation}</p><h4>Target baseline</h4><p>{proposal.targetBaseline}</p></details></section>}

@@ -1,0 +1,93 @@
+{
+  "id": "laundry-sorter",
+  "visualRevision": "A1",
+  "engineeringRevision": "A0",
+  "dimensionsMm": [
+    520,
+    350,
+    650
+  ],
+  "visualChanges": [
+    "Shaped, hollow sewn canvas bags with rolled hems",
+    "Four attached woven carry handles and reinforced edge stitching",
+    "Two readable text-and-shape task labels",
+    "Radiused molded PP frame and split lid with recessed grips",
+    "Packed textile color and normal textures for GLB",
+    "Named, intact bag assemblies for a non-radial exploded view"
+  ],
+  "scope": "Development visualization. No sampled product, supplier quotation, load test or production engineering approval. Natural canvas with a selectable PP frame finish.",
+  "assemblies": [
+    {
+      "name": "Molded frame and feet",
+      "explodeOffset": [
+        0,
+        0,
+        0
+      ],
+      "role": "assembly"
+    },
+    {
+      "name": "Left removable bag",
+      "explodeOffset": [
+        -0.33,
+        0.2,
+        0.0
+      ],
+      "role": "assembly"
+    },
+    {
+      "name": "Right removable bag",
+      "explodeOffset": [
+        0.33,
+        0.2,
+        0.0
+      ],
+      "role": "assembly"
+    },
+    {
+      "name": "Lift-off split lid",
+      "explodeOffset": [
+        0.0,
+        0.4,
+        -0.04
+      ],
+      "role": "lid"
+    }
+  ],
+  "posterPins": {
+    "exploded": [
+      {
+        "number": 1,
+        "label": "Molded frame and feet",
+        "x": 46.535,
+        "y": 37.057
+      },
+      {
+        "number": 2,
+        "label": "Left removable bag",
+        "x": 25.551,
+        "y": 19.449
+      },
+      {
+        "number": 3,
+        "label": "Right removable bag",
+        "x": 70.75,
+        "y": 26.117
+      },
+      {
+        "number": 4,
+        "label": "Lift-off split lid",
+        "x": 47.857,
+        "y": 5.415
+      }
+    ]
+  },
+  "meshCount": 61,
+  "vertices": 36480,
+  "measuredVisualizationEnvelopeMm": [
+    521,
+    353.4,
+    650
+  ],
+  "envelopeNote": "Nominal A0 envelope is 520 \u00d7 350 \u00d7 650 mm. Visual seams, feet and fastener heads project slightly; this visualization is not production CAD or a validated package-fit model."
+}

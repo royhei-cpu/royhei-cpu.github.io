@@ -1,5 +1,6 @@
 import React,{useEffect,useMemo,useState} from 'react';
 import {createRoot} from 'react-dom/client';
+import {workshopPath} from './workshop-logic.js';
 import {AudioControls} from './audio-ui.jsx';
 import {catalogRows,globalCounts,matchingRows,asNativeReference,reorderNavigation} from './upgrade-model.js';
 const Workshop=React.lazy(()=>import('./workshop-ui.jsx').then(m=>({default:m.WhiteLabelWorkshop})));
@@ -38,6 +39,7 @@ export function mount(context){
  if(!nav||!opportunities||document.getElementById('homecare-upgrade-root'))return;
  const params=new URLSearchParams(location.search),initial=params.get('view');
  const requested=initial==='workshop'?'workshop':['global','retailers'].includes(initial)?'global':null;
+ if(requested==='workshop'){location.replace(workshopPath(params.get('concept'))+'#wl-real-products');return;}
  const rows=catalogRows(context.items,id=>context.cached.get(id)?.querySelector('img')?.getAttribute('src')||'',context.references);
  for(const p of context.references)if(!context.byId.has(p.id))context.byId.set(p.id,asNativeReference(p));
  try{const saved=JSON.parse(localStorage.getItem('hc-merchant-picks')||'[]');if(Array.isArray(saved))for(const id of saved)if(context.byId.has(id))context.picks.add(id);}catch{}
@@ -46,6 +48,7 @@ export function mount(context){
  function updateAddress(mode,country){const u=new URL(location.href);if(mode){u.searchParams.set('view',mode);u.hash='homecare-workspace';}else{if(['global','retailers','workshop'].includes(u.searchParams.get('view')))u.searchParams.delete('view');u.searchParams.delete('concept');u.hash='category-directory';}if(country)u.searchParams.set('country',country);else if(mode!=='global')u.searchParams.delete('country');history.replaceState(null,'',u);}
  function hide(){if(!controller.mode)return;controller.mode=null;controller.renderMode(null);for(const id of ['nav-global','nav-workshop'])document.getElementById(id)?.setAttribute('aria-pressed','false');updateAddress(null);}
  function show(mode,country){
+  if(mode==='workshop'){location.href=workshopPath(params.get('concept'))+'#wl-real-products';return;}
   controller.mode=mode;for(const id of nativeViewIds){const node=document.getElementById(id);if(node)node.hidden=true;}
   for(const b of nav.querySelectorAll('button'))b.setAttribute('aria-pressed',String(b.id==='nav-'+mode));
   controller.renderMode(mode);updateAddress(mode,country);

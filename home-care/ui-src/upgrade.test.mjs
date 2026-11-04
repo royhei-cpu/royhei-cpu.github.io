@@ -3,7 +3,9 @@ import assert from 'node:assert/strict';
 import React from 'react';
 import {create,act} from 'react-test-renderer';
 import {renderToStaticMarkup} from 'react-dom/server';
-import {workshopLibrary,referenceEvidence,benchmarkEvidence,benchmarkCSV,configuredBriefHTML,defaultScenario} from './workshop-logic.js';
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {workshopLibrary,referenceEvidence,benchmarkEvidence,benchmarkCSV,configuredBriefHTML,defaultScenario,conceptMedia,workshopPath} from './workshop-logic.js';
 import {build} from 'esbuild';
 import {mkdtemp,rm,readFile} from 'node:fs/promises';
 import {fileURLToPath,pathToFileURL} from 'node:url';
@@ -13,7 +15,9 @@ const dir=path.dirname(fileURLToPath(import.meta.url)),temp=await mkdtemp(path.j
 await build({entryPoints:[path.join(dir,'upgrade.jsx')],bundle:true,packages:'external',platform:'node',format:'esm',outfile:path.join(temp,'app.mjs'),logLevel:'silent'});
 const {GlobalListings}=await import(pathToFileURL(path.join(temp,'app.mjs')));
 await build({entryPoints:[path.join(dir,'workshop-ui.jsx')],bundle:true,packages:'external',platform:'node',format:'esm',outfile:path.join(temp,'workshop.mjs'),logLevel:'silent'});
-const {WhiteLabelWorkshop}=await import(pathToFileURL(path.join(temp,'workshop.mjs')));await rm(temp,{recursive:true});
+const {WhiteLabelWorkshop}=await import(pathToFileURL(path.join(temp,'workshop.mjs')));
+await build({entryPoints:[path.join(dir,'workshop-viewer.js')],bundle:true,packages:'external',platform:'node',format:'esm',outfile:path.join(temp,'viewer.mjs'),logLevel:'silent'});
+const {prepareModel}=await import(pathToFileURL(path.join(temp,'viewer.mjs')));await rm(temp,{recursive:true});
 const refs=JSON.parse(await readFile(path.join(dir,'../site/global-reference-products.json')));
 const text=n=>typeof n==='string'||typeof n==='number'?String(n):(n?.children||[]).map(text).join('');
 globalThis.IS_REACT_ACT_ENVIRONMENT=true;
@@ -98,4 +102,40 @@ test('every concept retains two national-brand photos and working detail control
   await clickTab('validation');assert.ok(text(screen.root).includes('Stop condition:'));
   assert.equal(screen.root.findAllByProps({className:'wl-benchmark-card'}).length,2);
  }finally{if(screen)await act(async()=>screen.unmount());}
+});
+
+
+test('A1 inside, detail and exploded renders work without requiring WebGL, with a matching assembly key',async()=>{
+ let screen;const p=workshopLibrary.concepts.find(p=>p.id==='laundry-sorter'),media=conceptMedia(p);
+ try{
+  await act(async()=>{screen=create(React.createElement(WhiteLabelWorkshop,{conceptId:p.id,catalog:[],selected:[],onOpen(){},onCompare(){},setConceptId(){}}));});
+  for(const [label,id] of [['Inside','inside'],['Details','detail'],['Exploded','exploded']]){
+   await act(async()=>screen.root.findByProps({'aria-label':'Concept render views'}).findAllByType('button').find(b=>text(b)===label).props.onClick());
+   const image=screen.root.findByProps({className:'wl-model-stage'}).findByType('img');assert.equal(image.props.src,media.posters[id]);
+  }
+  assert.equal(screen.root.findByProps({'aria-label':'Exploded assembly key'}).findAllByType('li').length,4);
+  assert.equal(screen.root.findAllByProps({className:'wl-poster-pin'}).length,4);
+  assert.equal(screen.root.findAllByProps({className:'wl-enable-3d'}).length,1);
+ }finally{if(screen)await act(async()=>screen.unmount());}
+});
+
+test('the actual textured GLB keeps complete bag assemblies together, restores views and limits finish changes to PP',async()=>{
+ const p=workshopLibrary.concepts.find(p=>p.id==='laundry-sorter'),media=conceptMedia(p),bytes=await readFile(path.join(dir,'../site/workshop-models/laundry-sorter-a1.glb'));
+ const json=JSON.parse(bytes.subarray(20,20+bytes.readUInt32LE(12)).toString());
+ assert.ok(json.images.length>=5);assert.ok(json.images.every(i=>Number.isInteger(i.bufferView)));
+ assert.ok(json.materials.some(m=>m.name.includes('Canvas')&&m.normalTexture&&m.pbrMetallicRoughness.baseColorTexture));
+ const loader=new GLTFLoader();loader.register(()=>({name:'GEOMETRY_ONLY_TEST',loadTexture:()=>Promise.resolve(null)}));
+ const {scene}=await loader.parseAsync(bytes.buffer.slice(bytes.byteOffset,bytes.byteOffset+bytes.byteLength),'');const model=prepareModel(scene);
+ try{
+  assert.deepEqual(model.assemblies.map(a=>a.label),media.assemblies);
+  const span=model.bounds().getSize(new THREE.Vector3());assert.ok(Math.abs(span.x-.520)<.003);assert.ok(Math.abs(span.y-.650)<.003);assert.ok(Math.abs(span.z-.350)<.005);
+  const bag=model.assemblies[1],origin=bag.object.position.clone(),handle=bag.object.children.find(o=>o.userData.partCode==='HA-13-03'),local=handle.position.clone();
+  model.setView('exploded');assert.ok(bag.object.position.clone().sub(origin).distanceTo(bag.offset)<1e-8);assert.ok(handle.position.distanceTo(local)<1e-8);
+  const exploded=bag.object.position.clone();model.setView('exploded');assert.ok(bag.object.position.distanceTo(exploded)<1e-8);
+  model.setView('inside');assert.equal(model.assemblies.find(a=>a.role==='lid').object.visible,false);assert.ok(bag.object.position.distanceTo(origin)<1e-8);
+  model.setView('front');assert.equal(model.assemblies.find(a=>a.role==='lid').object.visible,true);
+  const materials=[];scene.traverse(o=>{if(o.isMesh)materials.push(...(Array.isArray(o.material)?o.material:[o.material]));});
+  const canvas=materials.find(m=>m.name.includes('Canvas')),before=canvas.color.clone();model.setColor('#b5725c');assert.ok(canvas.color.equals(before));assert.ok(materials.find(m=>m.name.startsWith('HA_body')).color.equals(new THREE.Color('#b5725c')));
+ }finally{model.dispose();}
+ assert.equal(workshopPath('../bad-path'),'/home-care/workshop/laundry-sorter.html');
 });

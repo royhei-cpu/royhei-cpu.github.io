@@ -1,0 +1,51 @@
+{
+  "visualRevision": "A1",
+  "engineeringRevision": "A0",
+  "files": [
+    {
+      "path": "/home-care/workshop-models/laundry-sorter-a1-detail.jpg",
+      "bytes": 150247,
+      "sha256": "0c20bcec7fce0ee7c86e4052f3ae86105145db1455c015f017e61f3a6a70fc1f"
+    },
+    {
+      "path": "/home-care/workshop-models/laundry-sorter-a1-development-pack.zip",
+      "bytes": 3178986,
+      "sha256": "fb3a282704e0e2bf6dc3309d4a3ccdcc038858290c18556caf2d58f9fc511f1a"
+    },
+    {
+      "path": "/home-care/workshop-models/laundry-sorter-a1-exploded.jpg",
+      "bytes": 93930,
+      "sha256": "0f7b09fc4062350066211f8e6de65330d411c4a249add33220fe68b9bbc1773d"
+    },
+    {
+      "path": "/home-care/workshop-models/laundry-sorter-a1-front.jpg",
+      "bytes": 111055,
+      "sha256": "80957f045f07671ac0de6f78730c3b02aa79fd2487816f7b6beec912dac204b9"
+    },
+    {
+      "path": "/home-care/workshop-models/laundry-sorter-a1-inside.jpg",
+      "bytes": 93305,
+      "sha256": "10480053cd67db1357171a62a706cf0e48c37a5fa79ccce0aaa8e831ce9a7040"
+    },
+    {
+      "path": "/home-care/workshop-models/laundry-sorter-a1-studio.jpg",
+      "bytes": 96603,
+      "sha256": "05fb2d8835bb3f8082a893bd5a0a50102a2625bf5c2f89499199ec95c8f9a9fb"
+    },
+    {
+      "path": "/home-care/workshop-models/laundry-sorter-a1-visualization.json",
+      "bytes": 2143,
+      "sha256": "a9507721a3a1abfb7ec1157f8004e86866cd57fc08edab97c95acc10633cadbb"
+    },
+    {
+      "path": "/home-care/workshop-models/laundry-sorter-a1.blend",
+      "bytes": 1294982,
+      "sha256": "2a79f94a54e6b7d7da860395e3f91cff691e515359317fd5dce7dccf7ecb2ff8"
+    },
+    {
+      "path": "/home-care/workshop-models/laundry-sorter-a1.glb",
+      "bytes": 2579256,
+      "sha256": "4d3cdfce96ef4b4c24a03f833359da7e0b1bf6e54b23a7fafd2bdcc4ac81a941"
+    }
+  ]
+}
