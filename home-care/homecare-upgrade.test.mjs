@@ -48,6 +48,14 @@ test('all 36 workshop concepts keep national-brand references, specs, BOM costs 
  assert.match(fs.readFileSync(path.join(dir,'ui-src/workshop-ui.jsx'),'utf8'),/\/home-care\/workshop-assets\//);
 });
 
+test('all 50 national-brand photographs are shipped locally with intact bytes and source attribution',()=>{
+ const photos=JSON.parse(fs.readFileSync(path.join(dir,'ui-src/benchmark-photos.json')));
+ assert.deepEqual(Object.keys(photos).sort(),library.benchmarks.map(b=>b.id).sort());
+ for(const b of library.benchmarks){const p=photos[b.id];assert.match(p.image,/^\/home-care\/benchmark-photos\/[a-z0-9-]+\.jpg$/);assert.match(p.sourcePage,/^https:\/\//);assert.match(p.sourceImage,/^https:\/\//);assert.ok(p.credit.length>2);assert.equal(p.reviewedAt,'2026-11-04');assert.ok(p.width>=250&&p.height>=250);
+  const bytes=fs.readFileSync(path.join(site,'benchmark-photos',path.basename(p.image)));assert.equal(bytes.length,p.bytes);assert.equal(bytes.subarray(0,3).toString('hex'),'ffd8ff');assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),p.sha256,b.id);
+ }
+});
+
 test('the shipped compiled module matches its authored source and resolves all local chunks',()=>{
  const assetDir=path.join(site,'ui-assets');const m=JSON.parse(fs.readFileSync(path.join(assetDir,'manifest.json')));
  for(const [name,hash] of Object.entries(m.sources)){const content=fs.readFileSync(path.join(dir,'ui-src',name));assert.equal(crypto.createHash('sha256').update(content).digest('hex'),hash,name);}
