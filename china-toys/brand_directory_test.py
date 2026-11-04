@@ -34,6 +34,8 @@ try:
   p.get_by_role('link',name=f'Browse TOP TOY · {expected["TOP TOY"]} →',exact=True).click()
   expect(p.locator('#resultsTitle')).to_have_text('TOP TOY')
   expect(p.locator('#resultsHint')).to_have_text(str(expected['TOP TOY'])+' products / series')
+  if p.locator('#workspaceResearch').get_attribute('open') is None:
+   p.locator('#workspaceResearch > summary').click()
   p.locator('#workspaceSidebar a[href="brands.html"]').click()
   p.locator('#directorySearch').fill('TeDou')
   expect(p.locator('.brand-card h3')).to_have_text('TeDou')
