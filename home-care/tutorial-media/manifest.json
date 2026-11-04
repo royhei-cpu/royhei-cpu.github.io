@@ -1,10 +1,10 @@
 {
-  "duration": 182.11142857142855,
-  "size": 2355394,
-  "base64": 3140528,
-  "sha256": "6e8177b2fe09334d1021d8010c3ffeec3cc3240c0a5f71102c50e9a55acb31fc",
+  "duration": 181.38702083333328,
+  "size": 4451349,
+  "base64": 5935132,
+  "sha256": "2faac2a6c1d6b3b4eced5847b549aef01960c8714a65f0cc4571afa959321865",
   "updated": "2026-11-04",
-  "release": "20261104-workshop-a1",
+  "release": "20261104-narrated-workshop",
   "interfaceCommit": "b47fc1365cd24f59c31effcc3e11eae890039f59",
   "interfaceSources": {
     "ui-src/upgrade.jsx": "9577cdcdafdebbd01dd3a5d34efb86cf91ae5898961b7c2f7430a56ab8b2ab6d",
@@ -12,14 +12,22 @@
     "ui-src/workshop-ui.jsx": "bce967ebbe436db4fdde520314410cf4e8c2168806b5b08092478a8929e66d55",
     "ui-src/workshop-logic.js": "39c7d74628421413f9cc9f1b878b8567a907d13bdd5dc98244beb72116886a60",
     "ui-src/workshop-reference-evidence.json": "dcde520b30609610c3c8054ce29b5b413803563d9ef6f1a232f26eb6fb25a1d4",
-    "ui-src/audio-ui.jsx": "e5622323d80f105da2f392a78c76adeab52f8518f3b056584fa503a7927e6ae2",
-    "homecare-upgrade-build.mjs": "29b92822ba0c3e315d2bc7bdf867b2329158f55893721ff6921d51c685d99cb2",
-    "ui-src/workshop-page.jsx": "45c27fb177c3db804d619fda67996491bc4364c04a8cee6493ce4f5b87cebea9",
     "ui-src/workshop-visuals.json": "e2f0e12554808261513ed9b57826cc1b26c0719afae94e72b7d96f37cbcaf5b6",
-    "ui-src/workshop-viewer.js": "cfc2a142f77ed0a41a8d07237d698954fa8eb5dd7724f88bd11d049aba07d7a8"
+    "ui-src/workshop-page.jsx": "45c27fb177c3db804d619fda67996491bc4364c04a8cee6493ce4f5b87cebea9",
+    "ui-src/workshop-viewer.js": "cfc2a142f77ed0a41a8d07237d698954fa8eb5dd7724f88bd11d049aba07d7a8",
+    "ui-src/audio-ui.jsx": "e5622323d80f105da2f392a78c76adeab52f8518f3b056584fa503a7927e6ae2",
+    "homecare-upgrade-build.mjs": "29b92822ba0c3e315d2bc7bdf867b2329158f55893721ff6921d51c685d99cb2"
   },
-  "format": "Illustrated feature guide with actual product photos and A0/A1 Blender design studies; not a screen recording.",
-  "voice": "none",
+  "format": "Illustrated feature guide with actual product photos and A0/A1 Blender renders; not a screen recording.",
+  "voice": "Samantha",
+  "voiceSource": {
+    "engine": "macOS built-in speech",
+    "voice": "Samantha",
+    "locale": "en_US",
+    "wordsPerMinute": 160,
+    "playbackSpeed": 1.0,
+    "approval": "User approved the built-in English voice fallback."
+  },
   "captions": "Burned-in English captions; WebVTT also available as a download.",
   "parts": [
     "part-000.b64",
@@ -33,7 +41,18 @@
     "part-008.b64",
     "part-009.b64",
     "part-010.b64",
-    "part-011.b64"
+    "part-011.b64",
+    "part-012.b64",
+    "part-013.b64",
+    "part-014.b64",
+    "part-015.b64",
+    "part-016.b64",
+    "part-017.b64",
+    "part-018.b64",
+    "part-019.b64",
+    "part-020.b64",
+    "part-021.b64",
+    "part-022.b64"
   ],
   "chapters": [
     {
@@ -41,84 +60,84 @@
       "title": "Browse. Compare. Develop.",
       "url": "/home-care/",
       "start": 0.0,
-      "end": 12.008571428571429
+      "end": 12.0334375
     },
     {
       "id": "navigation",
       "title": "Find the right section.",
       "url": "/home-care/",
-      "start": 12.008571428571429,
-      "end": 27.69142857142857
+      "start": 12.0334375,
+      "end": 26.702604166666667
     },
     {
       "id": "global",
       "title": "Find international products.",
       "url": "/home-care/?view=global&country=China#homecare-workspace",
-      "start": 27.691428571428574,
-      "end": 42.11714285714286
+      "start": 26.702604166666667,
+      "end": 41.892375
     },
     {
       "id": "shortlist",
       "title": "Keep a useful shortlist.",
       "url": "/home-care/?view=global#homecare-workspace",
-      "start": 42.11714285714286,
-      "end": 57.51428571428571
+      "start": 41.892375,
+      "end": 57.47114583333334
     },
     {
       "id": "analysis",
       "title": "Read the evidence carefully.",
       "url": "/home-care/",
-      "start": 57.51428571428571,
-      "end": 71.25428571428571
+      "start": 57.47114583333334,
+      "end": 71.49818750000001
     },
     {
       "id": "workshop",
       "title": "Home care, beyond cleaning.",
       "url": "/home-care/workshop/laundry-sorter.html#wl-real-products",
-      "start": 71.2542857142857,
-      "end": 85.6142857142857
+      "start": 71.49818750000001,
+      "end": 89.43352083333335
     },
     {
       "id": "benchmarks",
       "title": "Compare real brand products.",
       "url": "/home-care/workshop/laundry-sorter.html#wl-real-products",
-      "start": 85.6142857142857,
-      "end": 100.09714285714286
+      "start": 89.43352083333335,
+      "end": 104.92864583333335
     },
     {
       "id": "changes",
       "title": "Make the difference specific.",
       "url": "/home-care/workshop/laundry-sorter.html#wl-development-case",
-      "start": 100.09714285714284,
-      "end": 115.66571428571427
+      "start": 104.92864583333335,
+      "end": 120.69816666666668
     },
     {
       "id": "specs",
       "title": "Review dimensions and finishes.",
       "url": "/home-care/workshop/laundry-sorter.html#wl-proposed-design",
-      "start": 115.66571428571427,
-      "end": 137.1942857142857
+      "start": 120.69816666666668,
+      "end": 137.21943750000003
     },
     {
       "id": "pricing",
       "title": "Build a cost scenario.",
       "url": "/home-care/workshop/laundry-sorter.html#wl-proposed-design",
-      "start": 137.1942857142857,
-      "end": 148.81142857142856
+      "start": 137.2194375,
+      "end": 149.35829166666664
     },
     {
       "id": "downloads",
       "title": "Save a complete development brief.",
       "url": "/home-care/workshop/laundry-sorter.html#wl-proposed-design",
-      "start": 148.81142857142856,
-      "end": 169.17999999999998
+      "start": 149.35829166666664,
+      "end": 168.6563333333333
     },
     {
       "id": "opportunities",
       "title": "Investigate opportunities last.",
       "url": "/home-care/",
-      "start": 169.17999999999998,
-      "end": 182.11142857142855
+      "start": 168.6563333333333,
+      "end": 181.38702083333328
     }
   ]
 }

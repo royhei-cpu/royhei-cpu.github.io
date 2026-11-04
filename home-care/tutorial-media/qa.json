@@ -1,0 +1,29 @@
+{
+  "release": "20261104-narrated-workshop",
+  "sha256": "2faac2a6c1d6b3b4eced5847b549aef01960c8714a65f0cc4571afa959321865",
+  "fullDecode": "passed",
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "color": "Rec.709",
+    "duration": 181.4
+  },
+  "audio": {
+    "voice": "macOS Samantha (en_US)",
+    "wordsPerMinute": 160,
+    "speed": 1.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "codec": "AAC",
+    "sourceDuration": 181.38702083333334,
+    "integratedLUFS": -16.09,
+    "truePeakDbTP": -4.33,
+    "nonSilentSpokenCues": 45,
+    "listeningReview": "Unavailable in this session: audio input is not supported.",
+    "recordingReuse": "Accepted sentence WAVs reused with exact script/voice identity checks; no new synthesis."
+  },
+  "captions": "Sentence timing measured from each original speech recording; 45 cues.",
+  "browserPlayback": "Not verified: admin browser security policy prevented live access.",
+  "visualInspection": "Representative encoded chapters 1, 3, 7, 8, 9 and 11."
+}

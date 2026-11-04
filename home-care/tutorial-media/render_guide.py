@@ -107,9 +107,10 @@ def draw_scene(index,phase=9,caption=''):
   text(d,(1000,381),'Proposed W × D × H',27,MUTED)
   for i,(name,c) in enumerate([('Sage','#93a183'),('Chalk','#e5e2d6'),('Clay','#b87963'),('Ink','#303b37')]):
    x=1000+i*195;d.rounded_rectangle((x,492,x+155,568),radius=7,fill=c);text(d,(x,588),name,28)
-  text(d,(1000,690),'Studio / Front / Inside / Details / Exploded',28,bold=True,width=815)
-  text(d,(1000,744),'A1 visualization · A0 engineering targets',25,ACCENT,width=815)
-  text(d,(1000,785),'Switch mm / inches in Specs & dimensions.',28,MUTED,width=810)
+  text(d,(1000,685),'Studio / Front / Inside / Details / Exploded',28,bold=True,width=815)
+  text(d,(1000,732),'Rotate in 3D · finish colors the frame and lid',25,ACCENT,width=815)
+  text(d,(1000,775),'A1 visualization · A0 engineering targets',25,ACCENT,width=815)
+  text(d,(1000,827),'Switch mm / inches in Specs & dimensions.',25,MUTED,width=810)
  elif kind=='pricing':
   p=next(p for p in json.loads((ROOT.parent/'ui-src/workshop-data.json').read_text())['concepts'] if p['id']=='laundry-sorter')
   text(d,(110,292),'BOM & pricing',46,bold=True)
@@ -145,19 +146,24 @@ def make_visuals(work):
 
 def main():
  global FONTDIR
- parser=argparse.ArgumentParser();parser.add_argument('--work',type=Path,required=True);parser.add_argument('--fonts-dir',type=Path);parser.add_argument('--visuals-only',action='store_true');parser.add_argument('--voice',choices=['Samantha','none']);args=parser.parse_args()
+ parser=argparse.ArgumentParser();parser.add_argument('--work',type=Path,required=True);parser.add_argument('--fonts-dir',type=Path);parser.add_argument('--visuals-only',action='store_true');parser.add_argument('--voice',choices=['Samantha','none']);parser.add_argument('--reuse-audio',action='store_true');args=parser.parse_args()
  if args.fonts_dir:FONTDIR=args.fonts_dir
  make_visuals(args.work)
  if args.visuals_only:return
  if not args.voice:raise SystemExit('Choose --voice Samantha only after the requested voice fallback is approved, or --voice none for an approved captions-only version.')
+ if args.reuse_audio:
+  accepted=json.loads((args.work/'timeline.json').read_text())
+  assert accepted['voice']==args.voice
+  assert [c['text'] for c in accepted['cues']]==[sentence for scene in GUIDE['scenes'] for sentence in re.split(r'(?<=[.!?])\s+',scene['speech'])], 'Accepted recording does not match the script.'
  ff=ffmpeg_path();cues=[];clock=0.;audio=[];work=args.work
  for si,scene in enumerate(GUIDE['scenes']):
   for li,sentence in enumerate(re.split(r'(?<=[.!?])\s+',scene['speech'])):
    ident=f'{si:02d}-{li:02d}';duration=max(2.4,len(sentence)/17.5)
    if args.voice!='none':
     aiff=work/f'{ident}.aiff';wav=work/f'{ident}.wav'
-    subprocess.run(['/usr/bin/say','-v',args.voice,'-r','160','-o',str(aiff),sentence],check=True)
-    subprocess.run([ff,'-v','error','-y','-i',str(aiff),'-ar','48000','-ac','1','-c:a','pcm_s16le',str(wav)],check=True)
+    if not args.reuse_audio:
+     subprocess.run(['/usr/bin/say','-v',args.voice,'-r','160','-o',str(aiff),sentence],check=True)
+     subprocess.run([ff,'-v','error','-y','-i',str(aiff),'-ar','48000','-ac','1','-c:a','pcm_s16le',str(wav)],check=True)
     with wave.open(str(wav)) as r:samples=r.readframes(r.getnframes());duration=r.getnframes()/r.getframerate()
     audio.append(samples)
    # A short, explicit sentence boundary preserves natural delivery at 1.0x.
