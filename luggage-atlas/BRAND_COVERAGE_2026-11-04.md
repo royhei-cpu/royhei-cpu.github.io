@@ -1,6 +1,6 @@
 # Brand coverage refresh — 2026-11-04
 
-Expanded from 98 to 173 brand profiles (+75); 90 priced offers and 371 photo references.
+Expanded from 98 to 173 brand profiles (+75); 90 priced offers and 412 photo references.
 
 All brand references in prices, launches, rankings, marketplace signals, reviews, guest feedback and feature models resolve to a profile or explicit alias. Existing offer identities and source dates are retained.
 
@@ -20,4 +20,10 @@ No complete worldwide brand census or full SKU assortment is claimed. The machin
 
 250 named-model, priced-offer and collection references cover all 173 recorded brand profiles. 27 specification fields, combined feature filters, region/market/brand/type/currency/price filters, four-model comparison and CSV export. Unknown features remain unknown. DTA screenshot models are separate from the pink priced offer.
 
-The combined Develop Open Story workspace adds 27 feature modules, 14 opportunity studies, custom feature requirements and an editable component BOM. Source-specific ideas can transfer from the finder into the workshop. Modeled placements and brief-only requirements are labeled separately.
+The combined Develop Open Story workspace adds 28 feature modules, 14 opportunity studies, custom feature requirements and an editable component BOM. Source-specific ideas can transfer from the finder into the workshop. Modeled placements and brief-only requirements are labeled separately.
+
+## Research and image refresh
+
+Finder records now have 216 image references (including 19 explicitly labeled different-model brand references), with 34 image gaps remaining. 135 records have documented feature callouts; all 250 records retain source links and brand background. These counts do not establish exact SKU/photo matching or complete specifications. See research-gaps.json for the unresolved queue.
+
+Added source-specific sales/search charts and six feature-watch directions, including owner repair. The integrated tracking module is brief/BOM only, separate from the visual tracker pocket.

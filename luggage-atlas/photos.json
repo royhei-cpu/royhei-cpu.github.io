@@ -4409,11 +4409,469 @@
       "checked": "2026-11-04",
       "remoteReference": true,
       "scope": "Model shown in the user-provided screenshot. Affiliate-page product graphic; operator and exact SKU not independently verified. Separate from the pink top-opening offer. Dimensions graphic distinguishes 20-inch and 24-inch sizes."
+    },
+    {
+      "id": "research-photo-0",
+      "brandId": "aer",
+      "view": "Product / source gallery",
+      "caption": "Carry-On",
+      "source": "https://aersf.com/products/carry-on?variant=40835750297696",
+      "imageUrl": "https://aersf.com/cdn/shop/files/AERL1102_carryon_black_34hero_900x.jpg?v=1740114177",
+      "localPath": "research-photo-assets/386e069b79146be5.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-1",
+      "brandId": "arlo-skye",
+      "view": "Product / source gallery",
+      "caption": "Original Frame Carry-On Max",
+      "source": "https://arloskye.com/collections/luggage",
+      "imageUrl": "https://arloskye.com/cdn/shop/products/frame-23-black-angle-12-2021.jpg?v=1759334708&width=1200",
+      "localPath": "research-photo-assets/c375c73ec3dcdf2b.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-3",
+      "brandId": "calpak",
+      "view": "Product / source gallery",
+      "caption": "Hue Carry-On Luggage - GLAZED BLACK",
+      "source": "https://www.calpaktravel.com/products/hue-carry-on-luggage/glazed-black",
+      "imageUrl": "https://www.calpaktravel.com/cdn/shop/files/LHU1020_HUE_CARRY_ON_GLAZEDBLACK_1.jpg?v=1770839681&width=1200",
+      "localPath": "research-photo-assets/b83cd9700ed59ee4.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-5",
+      "brandId": "hartmann",
+      "view": "Product / source gallery",
+      "caption": "Tweed Global Carry-On",
+      "source": "https://shop.hartmann.com/luggage/carry-on/tweed-global-carry-on/154302XXXX.html",
+      "imageUrl": "https://shop.hartmann.com/on/demandware.static/-/Sites-product-catalog/default/dwb4e03242/collections/_hartmann/New-Tweed/500x500/154302-4211-FRONT34.jpg",
+      "localPath": "research-photo-assets/6eca8a4bb54240e8.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-6",
+      "brandId": "july",
+      "view": "Product / source gallery",
+      "caption": "Capsule Carry On Pro - Dune",
+      "source": "https://july.com/us/luggage/capsule-carry-on-pro/",
+      "imageUrl": "https://images.july-cdn.com/cdn-cgi/image/width=1200,format=auto,quality=70,fit=scale-down/https://july-cms-images.s3.ap-southeast-2.amazonaws.com/CAPSULE_Dune_1_54c5823932.png",
+      "localPath": "research-photo-assets/1d6cac197959891f.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-7",
+      "brandId": "lipault",
+      "view": "Product / source gallery",
+      "caption": "Plume Cabin",
+      "source": "https://www.lipault-usa.com/luggage/carry-on/plume-cabin/135890XXXX.html?cgid=best-sellers%2Cbest-sellers&dwvar_135890XXXX_color=135890A893",
+      "imageUrl": "https://www.lipault-usa.com/on/demandware.static/-/Sites-product-catalog/default/dw0e3e67dc/collections/_lipault/plume/500x500/135890-A893-FRONT34-3.jpg",
+      "localPath": "research-photo-assets/6115ef97cbc3120a.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-8",
+      "brandId": "nasher-miles",
+      "view": "Product / source gallery",
+      "caption": "Dubai",
+      "source": "https://nashermiles.com/collections/advanced-hardside-luggage/products/nasher-miles-dubai-hard-sided-polypropylene-cabin-luggage-pastel-green-navy-blue-20-inch-55cm-trolley-bag",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0563/5289/9156/files/S_427e3cdf-c55d-4bfb-8a00-b2927bf36736.jpg?v=1737005940",
+      "localPath": "research-photo-assets/3ba7bdbd4acdfdda.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-9",
+      "brandId": "sestini",
+      "view": "Product / source gallery",
+      "caption": "Mala de Viagem Bordo 10 kg Polipropileno com Rodas 360° PP Essencial - Branco",
+      "source": "https://www.sestini.com.br/",
+      "imageUrl": "https://sestini.vtexassets.com/arquivos/ids/278950/mala-bordo-360-pp-essencial-20-branco-sestini-041132-24-esquerda.png?v=639281913827930000",
+      "localPath": "research-photo-assets/8dda631fb5d3f3bd.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-10",
+      "brandId": "titan",
+      "view": "Product / source gallery",
+      "caption": "Trolley S",
+      "source": "https://www.titan-bags.com/en/LITRON-FRAME-Trolley-S/700346-22",
+      "imageUrl": "https://www.titan-bags.com/media/b4/e0/6d/1710779182/titan-litron-frame-koffer-trolley-petrol-S-1a.webp?ts=1712132344",
+      "localPath": "research-photo-assets/7ab3ab2e6475d22b.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-11",
+      "brandId": "gucci",
+      "view": "Product / source gallery",
+      "caption": "Gucci Porter cabin plus trolley",
+      "source": "https://www.gucci.com/us/en/pr/men/travel-for-men/trolleys-for-men/cabin-trolleys/gucci-porter-cabin-plus-trolley-p-7403919AAED1000",
+      "imageUrl": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1782828909/740391_9AAED_1000_001_085_0000_Light-gucci-porter-cabin-plus-trolley.jpg",
+      "localPath": "research-photo-assets/d875c184a9e3455c.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-13",
+      "brandId": "american-green-travel",
+      "view": "Product / source gallery",
+      "caption": "American Green Travel Harbor 3-Piece Hardside Expandable Spinner Luggage Set AGL920-3E-BLK",
+      "source": "https://www.homedepot.com/b/American-Green-Travel/N-5yc1vZn1x",
+      "imageUrl": "https://images.thdstatic.com/productImages/dca41573075b4aa4af27e7712a2e09c1/svn/black-american-green-travel-luggage-sets-agl920-3e-blk-64_100.jpg",
+      "localPath": "research-photo-assets/0930455c0d3e990c.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-14",
+      "brandId": "july",
+      "view": "Product / source gallery",
+      "caption": "Capsule Carry On Pro",
+      "source": "https://july.com/us/luggage/capsule-carry-on-pro/",
+      "imageUrl": "https://images.july-cdn.com/cdn-cgi/image/width=1200,format=auto,quality=70,fit=scale-down/https://july-cms-images.s3.ap-southeast-2.amazonaws.com/CAPSULE_Dune_1_54c5823932.png",
+      "localPath": "research-photo-assets/1d6cac197959891f.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-15",
+      "brandId": "lojel",
+      "view": "Product / source gallery",
+      "caption": "Cubo Small",
+      "source": "https://us.lojel.com/product/cubo-small/",
+      "imageUrl": "https://us.lojel.com/wp-content/uploads/sites/3/2026/09/lojel-cubo-blushed-earth-front-small.webp",
+      "localPath": "research-photo-assets/bcedcf356993b7ef.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-16",
+      "brandId": "muji",
+      "view": "Product / source gallery",
+      "caption": "Adjustable Handle Hard Shell Suitcase 75L | Check-In",
+      "source": "https://www.muji.us/products/adjustable-handle-hard-shell-suitcase-75l-check-in-eee46a5a",
+      "imageUrl": "https://www.muji.us/cdn/shop/files/75L_White_Suitcase.jpg?v=1775757407&width=480",
+      "localPath": "research-photo-assets/80ce2594207d0f86.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-19",
+      "brandId": "eminent",
+      "view": "Product / source gallery",
+      "caption": "Kapstadt Premium Edition - Front Pocket / Silver",
+      "source": "https://www.eminent.com/products/kapstadt-premium-edition-front-pocket-silver",
+      "imageUrl": "https://www.eminent.com/cdn/shop/files/4715670163240-KC28V-20-1_1_1024x1024.jpg?v=1745403863",
+      "localPath": "research-photo-assets/52c4e110a47fd0af.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-20",
+      "brandId": "safari",
+      "view": "Product / source gallery",
+      "caption": "Safari Select Aerolite Cabin Trolley Bag - Black",
+      "source": "https://safaribags.com/products/safari-select-aerolite-black-cabin-trolley-bag-with-laptop-compartment-tsa-lock-dual-wheels-and-anti-theft-zipper",
+      "imageUrl": "https://safaribags.com/cdn/shop/files/45Angle_02_2.jpg?v=1741153141&width=1024",
+      "localPath": "research-photo-assets/bccf94b0202ba96c.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-21",
+      "brandId": "xiaomi",
+      "view": "Product / source gallery",
+      "caption": "Xiaomi Luggage Classic Pro",
+      "source": "https://www.mi.com/global/product/xiaomi-luggage-classic-pro/",
+      "imageUrl": "https://i02.appmifile.com/365_operatorx_operatorx_opx/31/05/2024/5fb2219a5e6b2018d1c06c98553cfbf7.png",
+      "localPath": "research-photo-assets/338184914add815e.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-22",
+      "brandId": "nasher-miles",
+      "view": "Product / source gallery",
+      "caption": "Dubai",
+      "source": "https://nashermiles.com/collections/advanced-hardside-luggage/products/nasher-miles-dubai-hard-sided-polypropylene-cabin-luggage-pastel-green-navy-blue-20-inch-55cm-trolley-bag",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0563/5289/9156/files/S_427e3cdf-c55d-4bfb-8a00-b2927bf36736.jpg?v=1737005940",
+      "localPath": "research-photo-assets/3ba7bdbd4acdfdda.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-23",
+      "brandId": "jekyll-hide",
+      "view": "Product / source gallery",
+      "caption": "Carry-On",
+      "source": "https://www.jekyllandhide.co.uk/products/4-wheel-cabin-trolley-55cm?variant=55161353011577",
+      "imageUrl": "https://www.jekyllandhide.co.uk/cdn/shop/files/carry-oncarry-on-trolleyjekyll-hidecolt-4260442.jpg?v=1775797903&width=1200",
+      "localPath": "research-photo-assets/45a1ebe4bed768ff.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-24",
+      "brandId": "polo-sa",
+      "view": "Product / source gallery",
+      "caption": "Freedom Travel Large Trolley Case",
+      "source": "https://www.polo.co.za/accessories/men-s-accessories/luggage",
+      "imageUrl": "https://www.polo.co.za/api/catalog/product/l/a/large_2_wheel_trolley_duffel_with_tsa_lock_black_po_601805_copy.jpg?width=392&height=522&store=default&image-type=small_image",
+      "localPath": "research-photo-assets/f8835ddb8791fe19.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-25",
+      "brandId": "briggs-riley",
+      "view": "Product / source gallery",
+      "caption": "Essential 22\" Carry-On Expandable Spinner",
+      "source": "https://www.briggs-riley.com/products/essential-carry-on-spinner",
+      "imageUrl": "https://www.briggs-riley.com/cdn/shop/files/BLU122CXSP-4f_4_1024x1024.jpg?v=1774477904",
+      "localPath": "research-photo-assets/f071942124b73aa3.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-26",
+      "brandId": "muji",
+      "view": "Product / source gallery",
+      "caption": "Adjustable Handle Hard Shell Suitcase 36L | Carry-On",
+      "source": "https://www.muji.us/products/adjustable-handle-hard-shell-suitcase-36l-carry-on-eee45a5a",
+      "imageUrl": "https://www.muji.us/cdn/shop/files/36L_White_Suitcase.jpg?v=1775159050&width=480",
+      "localPath": "research-photo-assets/46d0e4fc88fe6618.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-27",
+      "brandId": "travelpro",
+      "view": "Product / source gallery",
+      "caption": "Travelpro® Platinum® Elite Carry-On Spinner",
+      "source": "https://travelpro.com/collections/carry-on-luggage/products/platinum%C2%AE-elite-21-expandable-carry-on-spinner",
+      "imageUrl": "https://travelpro.com/cdn/shop/files/409186122_aa667a37-a74f-42a0-82cb-10fe11159f35.jpg?v=1775252544&width=1920",
+      "localPath": "research-photo-assets/bce908428229e9a4.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-28",
+      "brandId": "july",
+      "view": "Product / source gallery",
+      "caption": "Carry On Trunk",
+      "source": "https://july.com/us/luggage/carry-on-trunk/",
+      "imageUrl": "https://images.july-cdn.com/cdn-cgi/image/width=1200,format=auto,quality=70,fit=scale-down/https://july-cms-images.s3.ap-southeast-2.amazonaws.com/COPBT_Glossy_Green_1_87c96fb0b3.png",
+      "localPath": "research-photo-assets/0c31e64120920a65.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-29",
+      "brandId": "solgaard",
+      "view": "Product / source gallery",
+      "caption": "Carry-On Closet Original",
+      "source": "https://solgaard.co/products/carry-on-closet",
+      "imageUrl": "https://solgaard.co/cdn/shop/files/Gallery-CoC-L-Animation-Black_ac239fb1-2b6b-4b9b-89dc-33a1da49bddc.gif?v=1741628582&width=1200",
+      "localPath": "research-photo-assets/01bec56261d52af4.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-30",
+      "brandId": "rollink",
+      "view": "Product / source gallery",
+      "caption": "Flex 360 Spinner Foldable Suitcase",
+      "source": "https://rollinkusa.com/products/flex-360-foldable-suitcase",
+      "imageUrl": "https://rollinkusa.com/cdn/shop/files/6_32ae8e82-36eb-4e28-ad34-3662c5f41233.jpg?v=1774449456&width=1200",
+      "localPath": "research-photo-assets/1898466e8512a322.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-31",
+      "brandId": "beis",
+      "view": "Product / source gallery",
+      "caption": "The Carry-On Roller in Maple",
+      "source": "https://beistravel.com/products/the-carry-on-roller-in-maple",
+      "imageUrl": "https://beistravel.com/cdn/shop/files/BEIS180804-TheCarryOnRoller-Maple-Product_0207_d6adce9f-6a51-47c9-bded-746159d5c7c6.jpg?v=1783367809&width=1024",
+      "localPath": "research-photo-assets/b1b728652b272ea9.webp",
+      "checked": "2026-11-04",
+      "scope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-33",
+      "brandId": "aaivv",
+      "view": "Product / source gallery",
+      "caption": "Luggage Sets 4 Piece Hard Shell with TSA Lock - TikTok Shop",
+      "source": "https://shop.tiktok.com/us/pdp/durable-4-piece-luggage-set-expandable-suitcases-tsa-lock/1732041409039864788",
+      "imageUrl": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ba4c86cb8aaf43ba93e9bf32775dc45d~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+      "localPath": "research-photo-assets/23afecf73dc5a261.webp",
+      "checked": "2026-11-04",
+      "scope": "Brand / collection reference; not an exact model match. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-37",
+      "brandId": "dakine",
+      "view": "Product / source gallery",
+      "caption": "Luggage, Travel Bags, & Roller Bags | Dakine",
+      "source": "https://www.dakine.com/collections/luggage-roller-bags",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0242/3141/1792/collections/20W_DAKINE_AUS_CV5A6719_AEDAN_10255175-8f7b-499b-b9d9-4fadf4613982.jpg?v=1753300044",
+      "localPath": "research-photo-assets/51a6c8c4af24b363.webp",
+      "checked": "2026-11-04",
+      "scope": "Brand / collection reference; not an exact model match. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-38",
+      "brandId": "diplomat",
+      "view": "Product / source gallery",
+      "caption": "【Diplomat 外交官】Diplomat-外交官-20吋雙輪式四輪行李箱 行李箱20吋 登機箱 HM-23102",
+      "source": "https://www.momoshop.com.tw/TP/TP0009394/goodsDetail/TP00093940000041",
+      "imageUrl": "https://i6.momoshop.com.tw/1777218624/goodsimg/TP000/9394/0000/041/TP00093940000041_L_m.jpg",
+      "localPath": "research-photo-assets/3d4fac19c35115d3.webp",
+      "checked": "2026-11-04",
+      "scope": "Brand / collection reference; not an exact model match. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-40",
+      "brandId": "flylite",
+      "view": "Product / source gallery",
+      "caption": "Check-In Luggage - Medium & Large Suitcases\n    \n– Strandbags Australia",
+      "source": "https://www.strandbags.com.au/collections/check-in-luggage",
+      "imageUrl": "http://www.strandbags.com.au/cdn/shop/collections/06_Collections_V12.jpg?v=1751945701",
+      "localPath": "research-photo-assets/545dce5841c7e313.webp",
+      "checked": "2026-11-04",
+      "scope": "Brand / collection reference; not an exact model match. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-44",
+      "brandId": "maimo",
+      "view": "Product / source gallery",
+      "caption": "スーツケース\n – MAIMO公式オンラインショップ",
+      "source": "https://maimo-travel.com/collections/suitcases",
+      "imageUrl": "http://maimo-travel.com/cdn/shop/files/559626f164730359ad116905b5fb867fc7bca229-original.jpg?v=1682068111",
+      "localPath": "research-photo-assets/e7e34a385262db82.webp",
+      "checked": "2026-11-04",
+      "scope": "Brand / collection reference; not an exact model match. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-46",
+      "brandId": "merax",
+      "view": "Product / source gallery",
+      "caption": "Merax 26.2 in Blue ABS Hardside Luggage Double Spinner Expandable Suitcase with 3-Digit TSA Lock, 3-Step Telescoping Handle LJYXB0036AAC - The Home Depot",
+      "source": "https://www.homedepot.com/p/339713420",
+      "imageUrl": "https://images.thdstatic.com/productImages/6d240bcc-3391-46e1-865a-fd0574f1e83e/svn/blue-merax-suitcases-ljyxb0036aac-64_1000.jpg",
+      "localPath": "research-photo-assets/ed523c238f74ad61.webp",
+      "checked": "2026-11-04",
+      "scope": "Brand / collection reference; not an exact model match. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-48",
+      "brandId": "new-trip",
+      "view": "Product / source gallery",
+      "caption": "ヨドバシ.com - ニュートリップ NEW TRIP スーツケース 拡張機能付 ファスナータイプ TSAロック搭載 Mサイズ 旅行日数目安：4～7泊 60L/拡張時74L シャンパンゴールド NT-GB0201 通販【全品無料配達】",
+      "source": "https://www.yodobashi.com/product/100000001008401599/",
+      "imageUrl": "https://image.yodobashi.com/product/100/000/001/008/401/599/100000001008401599_10203.jpg",
+      "localPath": "research-photo-assets/9310aae71a73b927.webp",
+      "checked": "2026-11-04",
+      "scope": "Brand / collection reference; not an exact model match. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-49",
+      "brandId": "olympia",
+      "view": "Product / source gallery",
+      "caption": "Olympia U.S.A. Expandable Luggage in Luggage - Walmart.com",
+      "source": "https://www.walmart.com/browse/home/expandable-luggage/olympia-u-s-a-/4044_7333633_9945530/YnJhbmQ6T2x5bXBpYSBVLlMuQS4ie",
+      "imageUrl": "https://i5.walmartimages.com/seo/Olympia-U-S-A-Fashion-Rolling-Tote-Bag-Small-Carry-On-Luggage-Black-Purple_19c42697-7a86-476c-aed8-da7ee946ab9a_1.6ed9fbbe61078802d92dba25e1d87e18.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+      "localPath": "research-photo-assets/7b9d875b53bdad02.webp",
+      "checked": "2026-11-04",
+      "scope": "Brand / collection reference; not an exact model match. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-photo-51",
+      "brandId": "prada",
+      "view": "Product / source gallery",
+      "caption": "Black Polycarbonate Trolley | PRADA - United States",
+      "source": "https://www.prada.com/us/en/p/polycarbonate-trolley/2VQ006_2C0N_F0002_V_OOO",
+      "imageUrl": "https://www.prada.com/content/dam/pradabkg_products/2/2VQ/2VQ006/2C0NF0002/2VQ006_2C0N_F0002_V_OOO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1200.1200.jpg",
+      "localPath": "research-photo-assets/816386c1bc5ac351.webp",
+      "checked": "2026-11-04",
+      "scope": "Brand / collection reference; not an exact model match. Image downloaded and visually checked; exact offer revision remains unverified."
+    },
+    {
+      "id": "research-offer-5a0fb9b0",
+      "brandId": "ali",
+      "view": "Product / source gallery",
+      "caption": "FiL Pake ALI-6060-18W Navy",
+      "source": "https://www.yodobashi.com/product/100000001007840985/",
+      "imageUrl": "https://image.yodobashi.com/product/100/000/001/007/840/985/100000001007840985_10201.jpg",
+      "localPath": "research-photo-assets/f65de3c609101627.webp",
+      "checked": "2026-11-04",
+      "scope": "Named model photograph from source listing; visually checked. Offer revision and current availability not independently verified."
+    },
+    {
+      "id": "research-offer-aba247d2",
+      "brandId": "frequenter",
+      "view": "Product / source gallery",
+      "caption": "Lieve FQ1-530CR Cream",
+      "source": "https://www.yodobashi.com/product/100000001009236409/",
+      "imageUrl": "https://image.yodobashi.com/product/100/000/001/009/236/409/100000001009236409_10201.jpg",
+      "localPath": "research-photo-assets/642d4b0a8fae4050.webp",
+      "checked": "2026-11-04",
+      "scope": "Named model photograph from source listing; visually checked. Offer revision and current availability not independently verified."
+    },
+    {
+      "id": "research-offer-80c04ed6",
+      "brandId": "ali",
+      "view": "Product / source gallery",
+      "caption": "MAXBOX ALI-8511-18 Mocha",
+      "source": "https://www.yodobashi.com/product/100000001009138182/",
+      "imageUrl": "https://image.yodobashi.com/product/100/000/001/009/138/182/100000001009138182_10201.jpg",
+      "localPath": "research-photo-assets/1fa5e3354ada8c79.webp",
+      "checked": "2026-11-04",
+      "scope": "Named model photograph from source listing; visually checked. Offer revision and current availability not independently verified."
+    },
+    {
+      "id": "research-offer-d26efed3",
+      "brandId": "pelican",
+      "view": "Product / source gallery",
+      "caption": "22-inch ATX Carry-On",
+      "source": "https://www.pelican.com/us/en/products/travel",
+      "imageUrl": "https://pelicanweb-prod.s3.us-west-1.amazonaws.com/public/products/travel/HC22/2026_Pel_TRVL_atx22_DarkEmber_Handle_Med-t.jpg",
+      "localPath": "research-photo-assets/42f5db88179c9ab6.webp",
+      "checked": "2026-11-04",
+      "scope": "Named model photograph from source listing; visually checked. Offer revision and current availability not independently verified."
+    },
+    {
+      "id": "research-offer-45a7b6f5",
+      "brandId": "pelican",
+      "view": "Product / source gallery",
+      "caption": "1535TRVL Carry-On Air Travel Case",
+      "source": "https://www.pelican.com/us/en/products/travel",
+      "imageUrl": "https://pelicanweb-prod.s3.us-west-1.amazonaws.com/public/products/cases/1535TRVL/pelican-1535-air-travel-rolling-case-t.jpg",
+      "localPath": "research-photo-assets/b8aeef94853f8a52.webp",
+      "checked": "2026-11-04",
+      "scope": "Named model photograph from source listing; visually checked. Offer revision and current availability not independently verified."
     }
   ],
   "byBrand": {
     "90fun": [
       "p3014"
+    ],
+    "ali": [
+      "research-offer-5a0fb9b0",
+      "research-offer-80c04ed6"
+    ],
+    "aaivv": [
+      "research-photo-33"
     ],
     "ace": [
       "p0",
@@ -4421,13 +4879,18 @@
     ],
     "aer": [
       "p2",
-      "p4"
+      "p4",
+      "research-photo-0"
     ],
     "airwheel": [
       "p2000"
     ],
     "amazon-basics": [
       "p5000"
+    ],
+    "american-flyer": [],
+    "american-green-travel": [
+      "research-photo-13"
     ],
     "american-tourister": [
       "p3086",
@@ -4437,11 +4900,17 @@
       "p7",
       "p3020"
     ],
+    "aristocrat": [],
     "arlo-skye": [
       "p8",
       "p9",
       "p11",
-      "p13"
+      "p13",
+      "research-photo-1"
+    ],
+    "arowana": [],
+    "artrips": [
+      "refresh-artrips"
     ],
     "assembly": [
       "p14",
@@ -4455,10 +4924,27 @@
       "p16",
       "p17"
     ],
+    "bagsmart": [
+      "refresh-bagsmart-f571de240b",
+      "refresh-bagsmart-d5dcddb21b"
+    ],
+    "bebe": [],
     "bellroy": [
       "p19",
       "p3015"
     ],
+    "ben-sherman": [
+      "refresh-ben-sherman-dfaa204a51"
+    ],
+    "biaggi": [
+      "refresh-biaggi-619b84ed11",
+      "refresh-biaggi-008ffc3382",
+      "refresh-biaggi-4ce3c2b569",
+      "refresh-biaggi-abc86b7641",
+      "refresh-biaggi-80f390e731",
+      "refresh-biaggi-3cda1632e2"
+    ],
+    "binhao": [],
     "boss": [
       "p21",
       "p3046"
@@ -4467,18 +4953,26 @@
       "p23",
       "p3028"
     ],
+    "briefing": [
+      "refresh-briefing-113d7ebc05",
+      "refresh-briefing-241a135deb"
+    ],
     "briggs-riley": [
       "p25",
       "p3017",
-      "p3023"
+      "p3023",
+      "research-photo-25"
     ],
+    "bubule": [],
     "bugatti-collections": [
       "p30",
       "p31"
     ],
+    "burton": [],
     "beis": [
       "p34",
-      "p3047"
+      "p3047",
+      "research-photo-31"
     ],
     "caggioni": [
       "p35",
@@ -4486,16 +4980,20 @@
     ],
     "calpak": [
       "p39",
-      "p41"
+      "p41",
+      "research-photo-3"
     ],
     "carl-friedrik": [
       "p43",
       "p3026"
     ],
+    "carlton": [],
+    "cat": [],
     "cellini": [
       "p45",
       "p3049"
     ],
+    "commodore": [],
     "coolife": [
       "p3008"
     ],
@@ -4503,10 +5001,15 @@
       "p46",
       "p3045"
     ],
+    "crown": [],
+    "dakine": [
+      "research-photo-37"
+    ],
     "db": [
       "p47",
       "p3044"
     ],
+    "dejuno": [],
     "delsey-paris": [
       "p48",
       "p3018"
@@ -4514,6 +5017,31 @@
     "departure": [
       "p2002",
       "p2004"
+    ],
+    "dior": [],
+    "diplomat": [
+      "research-photo-38"
+    ],
+    "dta-nova": [
+      "refresh-dta-nova-1",
+      "refresh-dta-nova-2",
+      "refresh-dta-nova-3",
+      "refresh-dta-nova-4",
+      "refresh-dta-nova-5",
+      "refresh-dta-nova-6",
+      "refresh-dta-nova-7",
+      "dta-user-reference-0",
+      "dta-user-reference-1",
+      "dta-user-reference-2",
+      "dta-user-reference-3"
+    ],
+    "dukap": [
+      "refresh-dukap-a7b970fe96",
+      "refresh-dukap-28477e9d73",
+      "refresh-dukap-034e224239",
+      "refresh-dukap-7df2bd32a2",
+      "refresh-dukap-f5d9d8aae1",
+      "refresh-dukap-53f6e5647d"
     ],
     "eagle-creek": [
       "p2006",
@@ -4529,18 +5057,39 @@
     ],
     "eminent": [
       "p53",
-      "p3053"
+      "p3053",
+      "research-photo-19"
     ],
+    "epic": [],
     "floyd": [
       "p55",
       "p57",
       "p58"
     ],
+    "flylite": [
+      "research-photo-40"
+    ],
+    "fpm-milano": [
+      "refresh-fpm-milano-f80f9f9a98",
+      "refresh-fpm-milano-f53c352225",
+      "refresh-fpm-milano-37ecacd4c2",
+      "refresh-fpm-milano-cb6195ca14",
+      "refresh-fpm-milano-6238f3380c",
+      "refresh-fpm-milano-4002c50508"
+    ],
+    "frequenter": [
+      "research-offer-aba247d2"
+    ],
+    "gabol": [],
+    "gladiator": [],
     "globe-trotter": [
       "p60",
       "p61",
       "p62",
       "p63"
+    ],
+    "gucci": [
+      "research-photo-11"
     ],
     "hanke": [
       "p2008",
@@ -4553,7 +5102,8 @@
     ],
     "hartmann": [
       "p3005",
-      "p3052"
+      "p3052",
+      "research-photo-5"
     ],
     "hedgren": [
       "p66",
@@ -4575,6 +5125,18 @@
       "p73",
       "p3037"
     ],
+    "imiomo": [
+      "refresh-imiomo"
+    ],
+    "innovator": [],
+    "inusa": [
+      "refresh-inusa-5268c67786",
+      "refresh-inusa-0912f631ee",
+      "refresh-inusa-2e49bcd38a",
+      "refresh-inusa-52137e098c",
+      "refresh-inusa-254c17c451",
+      "refresh-inusa-ca22244b66"
+    ],
     "it-luggage": [
       "p74",
       "p3041"
@@ -4583,13 +5145,28 @@
       "p75",
       "p3040"
     ],
+    "jekyll-hide": [
+      "research-photo-23"
+    ],
     "july": [
       "p77",
       "p1028",
       "p1033",
       "p1034",
-      "p3009"
+      "p3009",
+      "research-photo-6",
+      "research-photo-14",
+      "research-photo-28"
     ],
+    "jump": [
+      "refresh-jump-57b0663266",
+      "refresh-jump-f73cfc1cc2",
+      "refresh-jump-e9b410d72e",
+      "refresh-jump-48ce4e0548",
+      "refresh-jump-399bd5b69e",
+      "refresh-jump-261c5e072f"
+    ],
+    "kamiliant": [],
     "kathmandu": [
       "p3006",
       "offer-kathmandu-0",
@@ -4601,6 +5178,8 @@
       "p2013",
       "p2014"
     ],
+    "kono": [],
+    "kroser": [],
     "legend-walker": [
       "p2015",
       "p2016",
@@ -4612,14 +5191,24 @@
     ],
     "lipault": [
       "p3000",
-      "p5001"
+      "p5001",
+      "research-photo-7"
     ],
     "lojel": [
       "p82",
-      "p3019"
+      "p3019",
+      "research-photo-15"
     ],
+    "london-fog": [],
     "louis-vuitton": [
       "p3003"
+    ],
+    "maimo": [
+      "research-photo-44"
+    ],
+    "mandarina-duck": [],
+    "merax": [
+      "research-photo-46"
     ],
     "mixi": [
       "p3001"
@@ -4644,20 +5233,48 @@
     ],
     "muji": [
       "p97",
-      "p3035"
+      "p3035",
+      "research-photo-16",
+      "research-photo-26"
     ],
     "nasher-miles": [
       "p100",
       "offer-nasher-0",
       "offer-nasher-4",
-      "offer-nasher-2"
+      "offer-nasher-2",
+      "research-photo-8",
+      "research-photo-22"
     ],
+    "nautica": [],
     "nere": [
       "p103",
       "p3033"
     ],
+    "new-trip": [
+      "research-photo-48"
+    ],
+    "nobl": [
+      "refresh-nobl-8111b38255",
+      "refresh-nobl-1b72d5ec7d",
+      "refresh-nobl-60014bcb3a",
+      "refresh-nobl-f106fb1c6d",
+      "refresh-nobl-0292898b75",
+      "refresh-nobl-05947cb15e"
+    ],
+    "nortvi": [],
     "nudient": [
       "p3013"
+    ],
+    "oiwas": [
+      "refresh-oiwas-e3820e2f3e",
+      "refresh-oiwas-3085bff4d2",
+      "refresh-oiwas-72c5236e89",
+      "refresh-oiwas-a1373b0a47",
+      "refresh-oiwas-8494e658e8",
+      "refresh-oiwas-2e86b92f9a"
+    ],
+    "olympia": [
+      "research-photo-49"
     ],
     "open-story": [
       "p106",
@@ -4667,6 +5284,7 @@
       "p109",
       "p3042"
     ],
+    "paklite": [],
     "paravel": [
       "p110",
       "p3032"
@@ -4675,12 +5293,22 @@
       "p111",
       "p3039"
     ],
+    "pelican": [
+      "research-offer-d26efed3",
+      "research-offer-45a7b6f5"
+    ],
     "piquadro": [
       "p113",
       "p3060"
     ],
+    "polo-sa": [
+      "research-photo-24"
+    ],
     "porsche-design": [
       "p115"
+    ],
+    "prada": [
+      "research-photo-51"
     ],
     "president": [
       "p2017",
@@ -4693,6 +5321,11 @@
       "p1021",
       "p1024",
       "p1025"
+    ],
+    "puccini": [],
+    "quince": [
+      "p6000",
+      "p6001"
     ],
     "rawrow": [
       "p119",
@@ -4713,8 +5346,25 @@
       "p3062",
       "p3067"
     ],
+    "rock": [
+      "refresh-rock-913a1a9b5e",
+      "refresh-rock-52789a6107",
+      "refresh-rock-a5c3eec31e",
+      "refresh-rock-d46fc54461",
+      "refresh-rock-cc2e81dec8",
+      "refresh-rock-801dd4f9d2"
+    ],
     "rockland": [
       "p3011"
+    ],
+    "rollink": [
+      "refresh-rollink-61528d9c29",
+      "refresh-rollink-7e91815da7",
+      "refresh-rollink-83eab054cc",
+      "refresh-rollink-c16ca93e22",
+      "refresh-rollink-af2f1c0eb7",
+      "refresh-rollink-4b4b3780c2",
+      "research-photo-30"
     ],
     "roncato": [
       "p129",
@@ -4725,7 +5375,8 @@
       "offer-safari-8",
       "offer-safari-2",
       "offer-safari-lock-detail",
-      "offer-safari-wheel-zip-detail"
+      "offer-safari-wheel-zip-detail",
+      "research-photo-20"
     ],
     "samsonite": [
       "p3002",
@@ -4742,11 +5393,28 @@
       "offer-upscape-7",
       "offer-upscape-3"
     ],
+    "santino": [
+      "refresh-santino-8109add4eb",
+      "refresh-santino-a1b2feaa98",
+      "refresh-santino-06a4027592",
+      "refresh-santino-109dd3121e",
+      "refresh-santino-fa93d40342",
+      "refresh-santino-0c06de233e"
+    ],
     "sestini": [
       "p2019",
       "p2020",
       "p2021",
-      "p3075"
+      "p3075",
+      "research-photo-9"
+    ],
+    "showkoo": [
+      "refresh-showkoo-44a784787b",
+      "refresh-showkoo-afb30924d6",
+      "refresh-showkoo-b750b0740b",
+      "refresh-showkoo-14d2e10782",
+      "refresh-showkoo-2c172613e0",
+      "refresh-showkoo-13c0148298"
     ],
     "siffler": [
       "p3070"
@@ -4765,9 +5433,17 @@
       "offer-skyline-5",
       "offer-skyline-2"
     ],
+    "skyway": [
+      "refresh-skyway-f78e1e8f80",
+      "refresh-skyway-5311110ac1",
+      "refresh-skyway-c136a12445",
+      "refresh-skyway-d89adefe3d",
+      "refresh-skyway-9f4b9afdde"
+    ],
     "solgaard": [
       "p138",
-      "p140"
+      "p140",
+      "research-photo-29"
     ],
     "steamline": [
       "p142"
@@ -4780,6 +5456,17 @@
       "p144",
       "p3069"
     ],
+    "swiss-tech": [],
+    "tach": [],
+    "take-off": [
+      "refresh-take-off-8e486f281e",
+      "refresh-take-off-bee62fea55",
+      "refresh-take-off-5e3234586e",
+      "refresh-take-off-ef103aae04",
+      "refresh-take-off-17b90b0227",
+      "refresh-take-off-fcea194cd0"
+    ],
+    "ted-baker": [],
     "the-north-face": [
       "p145",
       "p146",
@@ -4792,7 +5479,17 @@
     ],
     "titan": [
       "p149",
-      "p3078"
+      "p3078",
+      "research-photo-10"
+    ],
+    "tommy-hilfiger": [],
+    "tosca": [
+      "refresh-tosca-a57867fe62",
+      "refresh-tosca-5a2c0b876c",
+      "refresh-tosca-92830ed63b",
+      "refresh-tosca-fdc1ce36f8",
+      "refresh-tosca-f0c367a8f9",
+      "refresh-tosca-35801c300b"
     ],
     "travelers-club": [
       "p151",
@@ -4815,7 +5512,8 @@
     "travelpro": [
       "p157",
       "p158",
-      "p159"
+      "p159",
+      "research-photo-27"
     ],
     "trunki": [
       "p161",
@@ -4830,15 +5528,35 @@
       "p1015",
       "p1017"
     ],
+    "tuplus": [
+      "refresh-tuplus-73e4ad0b90",
+      "refresh-tuplus-c9c1f6090e",
+      "refresh-tuplus-7c573303cc",
+      "refresh-tuplus-d1fd70ce80",
+      "refresh-tuplus-93c3499ab8",
+      "refresh-tuplus-4d6a1e997b"
+    ],
+    "us-traveler": [
+      "refresh-us-traveler-ea410f1ad1",
+      "refresh-us-traveler-414ce86bf5",
+      "refresh-us-traveler-ffa1e904ed",
+      "refresh-us-traveler-8a28b9b4c6",
+      "refresh-us-traveler-50d0868c93",
+      "refresh-us-traveler-19c1bab3db"
+    ],
     "uppercase": [
       "p2023",
       "p2024",
       "p2025",
       "p5007"
     ],
+    "verage": [],
     "victorinox": [
       "p3010",
       "p4001"
+    ],
+    "vince-camuto": [
+      "refresh-vince-camuto-82f975e096"
     ],
     "vip": [
       "p163",
@@ -4849,49 +5567,18 @@
       "p2028",
       "p3077"
     ],
+    "wings": [],
+    "wittchen": [],
+    "wrangler": [
+      "refresh-wrangler"
+    ],
     "xiaomi": [
       "p165",
       "p166",
-      "p167"
+      "p167",
+      "research-photo-21"
     ],
-    "quince": [
-      "p6000",
-      "p6001"
-    ],
-    "dta-nova": [
-      "refresh-dta-nova-1",
-      "refresh-dta-nova-2",
-      "refresh-dta-nova-3",
-      "refresh-dta-nova-4",
-      "refresh-dta-nova-5",
-      "refresh-dta-nova-6",
-      "refresh-dta-nova-7",
-      "dta-user-reference-0",
-      "dta-user-reference-1",
-      "dta-user-reference-2",
-      "dta-user-reference-3"
-    ],
-    "briefing": [
-      "refresh-briefing-113d7ebc05",
-      "refresh-briefing-241a135deb"
-    ],
-    "tuplus": [
-      "refresh-tuplus-73e4ad0b90",
-      "refresh-tuplus-c9c1f6090e",
-      "refresh-tuplus-7c573303cc",
-      "refresh-tuplus-d1fd70ce80",
-      "refresh-tuplus-93c3499ab8",
-      "refresh-tuplus-4d6a1e997b"
-    ],
-    "maimo": [],
-    "rollink": [
-      "refresh-rollink-7e91815da7",
-      "refresh-rollink-83eab054cc",
-      "refresh-rollink-61528d9c29",
-      "refresh-rollink-c16ca93e22",
-      "refresh-rollink-af2f1c0eb7",
-      "refresh-rollink-4b4b3780c2"
-    ],
+    "yeti": [],
     "zero-halliburton": [
       "refresh-zero-halliburton-58a0b0a2d5",
       "refresh-zero-halliburton-785c339932",
@@ -4899,185 +5586,6 @@
       "refresh-zero-halliburton-14cfd82e0e",
       "refresh-zero-halliburton-8e348cba3a",
       "refresh-zero-halliburton-a7eff187c0"
-    ],
-    "fpm-milano": [
-      "refresh-fpm-milano-f80f9f9a98",
-      "refresh-fpm-milano-f53c352225",
-      "refresh-fpm-milano-37ecacd4c2",
-      "refresh-fpm-milano-cb6195ca14",
-      "refresh-fpm-milano-6238f3380c",
-      "refresh-fpm-milano-4002c50508"
-    ],
-    "verage": [],
-    "diplomat": [],
-    "aristocrat": [],
-    "kamiliant": [],
-    "carlton": [],
-    "swiss-tech": [],
-    "dukap": [
-      "refresh-dukap-a7b970fe96",
-      "refresh-dukap-28477e9d73",
-      "refresh-dukap-034e224239",
-      "refresh-dukap-7df2bd32a2",
-      "refresh-dukap-f5d9d8aae1",
-      "refresh-dukap-53f6e5647d"
-    ],
-    "rock": [
-      "refresh-rock-913a1a9b5e",
-      "refresh-rock-52789a6107",
-      "refresh-rock-a5c3eec31e",
-      "refresh-rock-d46fc54461",
-      "refresh-rock-cc2e81dec8",
-      "refresh-rock-801dd4f9d2"
-    ],
-    "biaggi": [
-      "refresh-biaggi-008ffc3382",
-      "refresh-biaggi-4ce3c2b569",
-      "refresh-biaggi-619b84ed11",
-      "refresh-biaggi-abc86b7641",
-      "refresh-biaggi-80f390e731",
-      "refresh-biaggi-3cda1632e2"
-    ],
-    "olympia": [],
-    "bagsmart": [
-      "refresh-bagsmart-f571de240b",
-      "refresh-bagsmart-d5dcddb21b"
-    ],
-    "take-off": [
-      "refresh-take-off-8e486f281e",
-      "refresh-take-off-bee62fea55",
-      "refresh-take-off-5e3234586e",
-      "refresh-take-off-ef103aae04",
-      "refresh-take-off-17b90b0227",
-      "refresh-take-off-fcea194cd0"
-    ],
-    "nobl": [
-      "refresh-nobl-8111b38255",
-      "refresh-nobl-1b72d5ec7d",
-      "refresh-nobl-60014bcb3a",
-      "refresh-nobl-f106fb1c6d",
-      "refresh-nobl-0292898b75",
-      "refresh-nobl-05947cb15e"
-    ],
-    "skyway": [
-      "refresh-skyway-f78e1e8f80",
-      "refresh-skyway-5311110ac1",
-      "refresh-skyway-c136a12445",
-      "refresh-skyway-d89adefe3d",
-      "refresh-skyway-9f4b9afdde"
-    ],
-    "wittchen": [],
-    "puccini": [],
-    "pelican": [],
-    "tach": [],
-    "inusa": [
-      "refresh-inusa-5268c67786",
-      "refresh-inusa-0912f631ee",
-      "refresh-inusa-2e49bcd38a",
-      "refresh-inusa-52137e098c",
-      "refresh-inusa-254c17c451",
-      "refresh-inusa-ca22244b66"
-    ],
-    "us-traveler": [
-      "refresh-us-traveler-ea410f1ad1",
-      "refresh-us-traveler-414ce86bf5",
-      "refresh-us-traveler-ffa1e904ed",
-      "refresh-us-traveler-8a28b9b4c6",
-      "refresh-us-traveler-50d0868c93",
-      "refresh-us-traveler-19c1bab3db"
-    ],
-    "american-flyer": [],
-    "london-fog": [],
-    "nautica": [],
-    "ben-sherman": [
-      "refresh-ben-sherman-dfaa204a51"
-    ],
-    "ted-baker": [],
-    "bebe": [],
-    "vince-camuto": [
-      "refresh-vince-camuto-82f975e096"
-    ],
-    "mandarina-duck": [],
-    "flylite": [],
-    "tosca": [
-      "refresh-tosca-a57867fe62",
-      "refresh-tosca-5a2c0b876c",
-      "refresh-tosca-92830ed63b",
-      "refresh-tosca-fdc1ce36f8",
-      "refresh-tosca-f0c367a8f9",
-      "refresh-tosca-35801c300b"
-    ],
-    "paklite": [],
-    "dejuno": [],
-    "kroser": [],
-    "showkoo": [
-      "refresh-showkoo-44a784787b",
-      "refresh-showkoo-afb30924d6",
-      "refresh-showkoo-b750b0740b",
-      "refresh-showkoo-14d2e10782",
-      "refresh-showkoo-2c172613e0",
-      "refresh-showkoo-13c0148298"
-    ],
-    "yeti": [],
-    "dakine": [],
-    "burton": [],
-    "american-green-travel": [],
-    "ali": [],
-    "frequenter": [],
-    "wings": [],
-    "bubule": [],
-    "epic": [],
-    "cat": [],
-    "gucci": [],
-    "prada": [],
-    "dior": [],
-    "nortvi": [],
-    "crown": [],
-    "arowana": [],
-    "innovator": [],
-    "commodore": [],
-    "oiwas": [
-      "refresh-oiwas-e3820e2f3e",
-      "refresh-oiwas-3085bff4d2",
-      "refresh-oiwas-72c5236e89",
-      "refresh-oiwas-a1373b0a47",
-      "refresh-oiwas-8494e658e8",
-      "refresh-oiwas-2e86b92f9a"
-    ],
-    "binhao": [],
-    "gabol": [],
-    "gladiator": [],
-    "jump": [
-      "refresh-jump-57b0663266",
-      "refresh-jump-f73cfc1cc2",
-      "refresh-jump-e9b410d72e",
-      "refresh-jump-48ce4e0548",
-      "refresh-jump-399bd5b69e",
-      "refresh-jump-261c5e072f"
-    ],
-    "santino": [
-      "refresh-santino-8109add4eb",
-      "refresh-santino-a1b2feaa98",
-      "refresh-santino-06a4027592",
-      "refresh-santino-109dd3121e",
-      "refresh-santino-fa93d40342",
-      "refresh-santino-0c06de233e"
-    ],
-    "jekyll-hide": [],
-    "polo-sa": [],
-    "kono": [],
-    "merax": [],
-    "tommy-hilfiger": [],
-    "new-trip": [],
-    "aaivv": [],
-    "wrangler": [
-      "refresh-wrangler"
-    ],
-    "imiomo": [
-      "refresh-imiomo"
-    ],
-    "artrips": [
-      "refresh-artrips"
     ]
   },
   "note": "Galleries compare sourced product and collection references. Each image has its own model/collection caption and source. An interior from another model is not evidence of the priced model’s construction.",

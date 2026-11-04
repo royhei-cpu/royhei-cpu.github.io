@@ -1,0 +1,906 @@
+{
+  "checked": "2026-11-04",
+  "records": 250,
+  "recordsWithImage": 216,
+  "brandReferenceOnly": 19,
+  "withFeatures": 135,
+  "photoReferences": 412,
+  "missingPhotos": [
+    {
+      "id": "offer-aa9554f",
+      "brand": "YETI",
+      "model": "Crossroads 35L / 22-inch Carry-On",
+      "source": "https://www.yeti.com/bags/luggage"
+    },
+    {
+      "id": "offer-17b022ce",
+      "brand": "Burton",
+      "model": "4-Wheel Flight Deck 38L",
+      "source": "https://www.burton.com/en-us/collections/travel-bags"
+    },
+    {
+      "id": "offer-474f86ab",
+      "brand": "Dior",
+      "model": "Dior and RIMOWA carry-on, black Oblique aluminum",
+      "source": "https://www.dior.com/en_us/fashion/womens-fashion/bags/travel"
+    },
+    {
+      "id": "offer-9f3d66c2",
+      "brand": "Gabol",
+      "model": "PACIFIC cabin suitcase, 39 × 55 × 20 cm",
+      "source": "https://gabol.com/es/"
+    },
+    {
+      "id": "offer-59f8172e",
+      "brand": "Gladiator",
+      "model": "FLOW Large Trolley, 53 × 74 × 31/34 cm",
+      "source": "https://maletasgladiator.com/en/producto/flow-large-trolley/"
+    },
+    {
+      "id": "offer-e9ac3d57",
+      "brand": "Arowana / 亞諾納",
+      "model": "20-inch 極地悍將河馬箱",
+      "source": "https://www.arowana.com.tw/"
+    },
+    {
+      "id": "offer-f0e54aea",
+      "brand": "London Fog",
+      "model": "Cambridge Large Check-in Expandable Spinner",
+      "source": "https://www.macys.com/shop/brands/london-fog?id=20558"
+    },
+    {
+      "id": "offer-92b62b4",
+      "brand": "Nautica",
+      "model": "Lightview 3-piece hardside set",
+      "source": "https://www.macys.com/shop/brands/nautica/nautica-luggage?id=229510"
+    },
+    {
+      "id": "collection-american-flyer",
+      "brand": "American Flyer",
+      "model": "Printed luggage and travel sets",
+      "source": "https://www.longlatinc.com/pages/american-flyer"
+    },
+    {
+      "id": "collection-aristocrat",
+      "brand": "Aristocrat",
+      "model": "VIP Industries travel luggage",
+      "source": "https://www.vipindustries.co.in/our-brands"
+    },
+    {
+      "id": "collection-bebe",
+      "brand": "bebe",
+      "model": "Adriana 29-inch hardside",
+      "source": "https://www.macys.com/shop/home/luggage-backpacks/luggage/hardsided?id=340044"
+    },
+    {
+      "id": "collection-binhao",
+      "brand": "BINHAO / 賓豪",
+      "model": "Travel luggage and trolley cases",
+      "source": "https://www.binhaobags.com/en/"
+    },
+    {
+      "id": "collection-bubule",
+      "brand": "BUBULE",
+      "model": "PP and PC luggage",
+      "source": "https://www.luggage-en.com/"
+    },
+    {
+      "id": "collection-carlton",
+      "brand": "Carlton",
+      "model": "Carlton Edge / Carlton Series",
+      "source": "https://carltontravelbags.com/carltonedge/collections.html"
+    },
+    {
+      "id": "collection-cat",
+      "brand": "Cat / Caterpillar",
+      "model": "Carry-on luggage assortment",
+      "source": "https://www.central.co.th/en/caterpillar/sports-travel/travel/luggages/carry-on-luggages"
+    },
+    {
+      "id": "collection-commodore",
+      "brand": "Commodore / 戰車",
+      "model": "9938 series",
+      "source": "https://www.cpwu.org.tw/static/upload/file/20241226/1735174871757802.pdf"
+    },
+    {
+      "id": "collection-crown",
+      "brand": "CROWN / 皇冠",
+      "model": "Three Van / front-opening luggage",
+      "source": "https://www.crownluggage.com/"
+    },
+    {
+      "id": "collection-dejuno",
+      "brand": "Dejuno",
+      "model": "Hardside / softside travel sets",
+      "source": "https://dejuno.com/"
+    },
+    {
+      "id": "collection-epic",
+      "brand": "EPIC Travelgear",
+      "model": "Halo / Anthem / Discovery Neo",
+      "source": "https://www.epictravelgear.com/en/"
+    },
+    {
+      "id": "collection-innovator",
+      "brand": "innovator",
+      "model": "Pilot / inv43EX",
+      "source": "https://innovator.co.jp/"
+    },
+    {
+      "id": "collection-kamiliant",
+      "brand": "Kamiliant",
+      "model": "Hard and soft luggage assortment",
+      "source": "https://www.kamiliant.com/"
+    },
+    {
+      "id": "collection-kono",
+      "brand": "KONO",
+      "model": "20-inch polypropylene carry-on",
+      "source": "https://www.walmart.com/ip/15930067774"
+    },
+    {
+      "id": "collection-kroser",
+      "brand": "KROSER",
+      "model": "Hardside / softside carry-ons",
+      "source": "https://www.ikroser.com/collections/luggage"
+    },
+    {
+      "id": "collection-mandarina-duck",
+      "brand": "Mandarina Duck",
+      "model": "LOGODUCK+ / TANK",
+      "source": "https://mandarinaduck.com/en-us/collections/luggage"
+    },
+    {
+      "id": "collection-nortvi",
+      "brand": "NORTVI",
+      "model": "Essential / Elite / Aluminum / Trunk",
+      "source": "https://nortvi.com/suitcases/"
+    },
+    {
+      "id": "collection-paklite",
+      "brand": "Paklite",
+      "model": "Vista / Solar / Rover",
+      "source": "https://www.paklite.com.au/Luggage"
+    },
+    {
+      "id": "collection-puccini",
+      "brand": "PUCCINI",
+      "model": "Casablanca / Corfu",
+      "source": "https://puccini.pl/walizki"
+    },
+    {
+      "id": "collection-swiss-tech",
+      "brand": "SwissTech",
+      "model": "Air-Tech luggage",
+      "source": "https://www.courierluggage.com/brand/swiss-tech/"
+    },
+    {
+      "id": "collection-tach",
+      "brand": "TACH",
+      "model": "V3.1 connectable luggage",
+      "source": "https://tachluggage.me/"
+    },
+    {
+      "id": "collection-ted-baker",
+      "brand": "Ted Baker",
+      "model": "Luggage category / London store reference",
+      "source": "https://www.tedbaker.com/pages/about-ted"
+    },
+    {
+      "id": "collection-tommy-hilfiger",
+      "brand": "Tommy Hilfiger",
+      "model": "Collingwood / Liberty",
+      "source": "https://www.macys.com/shop/home/luggage-backpacks/luggage/Brand/Tommy%20Hilfiger?cm_kws_ls=luggage&id=76877"
+    },
+    {
+      "id": "collection-verage",
+      "brand": "VERAGE",
+      "model": "Freeland / Cambridge / Visionary",
+      "source": "https://www.verage.com/"
+    },
+    {
+      "id": "collection-wings",
+      "brand": "WINGS",
+      "model": "COCKATIEL / EAGLE / TERN / DIPPER",
+      "source": "https://wings24.pl/"
+    },
+    {
+      "id": "collection-wittchen",
+      "brand": "WITTCHEN",
+      "model": "ABS / polycarbonate travel assortment",
+      "source": "https://www.wittchen.com/en-US/bagaz/walizki/walizki-kabinowe"
+    }
+  ],
+  "pendingFeatures": [
+    {
+      "id": "offer-dc44864d",
+      "brand": "ace.",
+      "model": "Trellis Z 09071 cabin 41/49L",
+      "source": "https://prtimes.jp/main/html/rd/p/000000812.000015319.html"
+    },
+    {
+      "id": "offer-6dbf3c51",
+      "brand": "Antler",
+      "model": "Icon Stripe Cabin Black",
+      "source": "https://global.antler.com/products/icon-stripe-cabin-suitcase-black"
+    },
+    {
+      "id": "offer-1730d13",
+      "brand": "Assembly",
+      "model": "RoverPro Moon-White Cabin",
+      "source": "https://assemblytravel.com/collections/hard-luggage"
+    },
+    {
+      "id": "offer-ecbabf4e",
+      "brand": "bugatti Collections",
+      "model": "Berlin Check-In Medium",
+      "source": "https://bugatticollections.com/collections/luggage"
+    },
+    {
+      "id": "offer-bf07a30",
+      "brand": "Carl Friedrik",
+      "model": "The Check-in Aluminium",
+      "source": "https://www.carlfriedrik.com/collections/luggage"
+    },
+    {
+      "id": "offer-5a28ebbb",
+      "brand": "Coolife",
+      "model": "3-piece set Apricot White DB/TB/20",
+      "source": "https://www.walmart.com/brand/coolife/20053096"
+    },
+    {
+      "id": "offer-d7d812e6",
+      "brand": "Crash Baggage",
+      "model": "Icon Black Cabin",
+      "source": "https://crashbaggage.com/en-us/collections/icon"
+    },
+    {
+      "id": "offer-597288a2",
+      "brand": "Db",
+      "model": "Ramverk Pro Carry-on",
+      "source": "https://dbjourney.com/en-us/collections/luggage"
+    },
+    {
+      "id": "offer-9de27272",
+      "brand": "DELSEY PARIS",
+      "model": "Alu’r 19-Inch Carry-On",
+      "source": "https://us.delsey.com/pages/alur"
+    },
+    {
+      "id": "offer-b1f66fc2",
+      "brand": "Echolac",
+      "model": "Celestra FA collection",
+      "source": "https://echolac.eu/"
+    },
+    {
+      "id": "offer-7ae74273",
+      "brand": "Floyd",
+      "model": "Cabin Galaxy Night",
+      "source": "https://floyd.one/en-us/products/floyd-cabin"
+    },
+    {
+      "id": "offer-aac4cc2e",
+      "brand": "HaNT",
+      "model": "KoKoNT 05511 cabin 36/44L",
+      "source": "https://prtimes.jp/main/html/rd/p/000000904.000015319.html"
+    },
+    {
+      "id": "offer-b2871224",
+      "brand": "Heys",
+      "model": "Airlite 21-inch Carry-on",
+      "source": "https://us.heys.com/collections/airlite"
+    },
+    {
+      "id": "offer-b03356be",
+      "brand": "Hideo Wakamatsu",
+      "model": "ESTOP S 35/43L",
+      "source": "https://hideo-wakamatsu.com/collections/travel-recommendations"
+    },
+    {
+      "id": "offer-f32e29c1",
+      "brand": "it Luggage",
+      "model": "Lustrous Luxe Softside Carry-On French Port",
+      "source": "https://us.itluggage.com/collections/luggage"
+    },
+    {
+      "id": "offer-6278f556",
+      "brand": "ITO",
+      "model": "PISTACHIO 2 striped trunk carry-on 26AW",
+      "source": "https://www.itotravel.com/"
+    },
+    {
+      "id": "offer-92f1aeb3",
+      "brand": "Kathmandu",
+      "model": "Hybrid Trolley v5 70L, Pure Navy",
+      "source": "https://www.kathmandu.com.au/collections/travel"
+    },
+    {
+      "id": "offer-f2bec55",
+      "brand": "Legend Walker",
+      "model": "5524 front-opening collection",
+      "source": "https://legend-walker.us/collections/legend-walker"
+    },
+    {
+      "id": "offer-13079567",
+      "brand": "LOJEL",
+      "model": "Cubo Small seasonal color",
+      "source": "https://kyodonewsprwire.jp/release/202610198176"
+    },
+    {
+      "id": "offer-fec120e7",
+      "brand": "Nasher Miles",
+      "model": "Dubai 20-inch dual-color cabin",
+      "source": "https://nashermiles.com/collections/advanced-hardside-luggage/products/nasher-miles-dubai-hard-sided-polypropylene-cabin-luggage-pastel-green-navy-blue-20-inch-55cm-trolley-bag"
+    },
+    {
+      "id": "offer-8efb979d",
+      "brand": "Open Story",
+      "model": "Hardside Carry-On Aqua Blue",
+      "source": "https://www.target.com/p/-/A-88289923"
+    },
+    {
+      "id": "offer-9438f564",
+      "brand": "Osprey",
+      "model": "Sojourn Shuttle Wheeled Duffel 22-inch/45L",
+      "source": "https://www.osprey.com/featured/shop-by-collections/sojourn/shuttle"
+    },
+    {
+      "id": "offer-f89ca1fe",
+      "brand": "Paravel",
+      "model": "Aviator Carry-On Luggage - Newport Red",
+      "source": "https://paravel.com/products/aviator-carry-on-luggage-red?variant=57274854474108"
+    },
+    {
+      "id": "offer-7a6f7386",
+      "brand": "Piquadro",
+      "model": "PQ-Light Hard-Shell Cabin with TSA lock and USB-C, yellow",
+      "source": "https://www.piquadro.com/en-us/collections/pq-light"
+    },
+    {
+      "id": "offer-710970fd",
+      "brand": "Proteca",
+      "model": "360G5 02621 cabin 38L",
+      "source": "https://prtimes.jp/main/html/rd/p/000000956.000015319.html"
+    },
+    {
+      "id": "offer-653131ca",
+      "brand": "RIMOWA",
+      "model": "Essential Cabin Umber or Ultramarine",
+      "source": "https://press.rimowa.com/rimowa-explores-the-energy-of-natural-pigments-with-joe-alwyn-launching-umber-ultramarine-across-essential-groove/?lang=eng"
+    },
+    {
+      "id": "offer-6df7a18a",
+      "brand": "Roncato",
+      "model": "We Are Glam DLX Expandable Cabin Trolley",
+      "source": "https://roncato.co.uk/collections/we-are/"
+    },
+    {
+      "id": "offer-baa5a155",
+      "brand": "Skybags",
+      "model": "Twentyfour7 Pro Cabin",
+      "source": "https://vipbags.com/collections/trolley-bags"
+    },
+    {
+      "id": "offer-e74871e",
+      "brand": "Skyline",
+      "model": "20-inch Hardside Carry-On Tan",
+      "source": "https://www.target.com/b/skyline/-/N-5vjwk"
+    },
+    {
+      "id": "offer-cc6274af",
+      "brand": "TITAN",
+      "model": "LITRON FRAME S petrol 700346-22",
+      "source": "https://www.titan-bags.com/en/LITRON-FRAME-Trolley-S/700346-22"
+    },
+    {
+      "id": "offer-7bd37bd3",
+      "brand": "Travelers Club",
+      "model": "Richmond 22-inch Hardside Carry-On",
+      "source": "https://www.travelersclub.com/collections/carry-on"
+    },
+    {
+      "id": "offer-a3d1452",
+      "brand": "Trunki",
+      "model": "Bernard Bee Ride-On Hardside Suitcase",
+      "source": "https://www.trunki.co.uk/collections/kids-suitcase/"
+    },
+    {
+      "id": "offer-88a0059f",
+      "brand": "VIP",
+      "model": "Vero Cabin",
+      "source": "https://vipbags.com/collections/vip-hard-trolley"
+    },
+    {
+      "id": "offer-121ad28a",
+      "brand": "Wenger",
+      "model": "Syntry cabin case with laptop compartment",
+      "source": "https://wenger.ch/en/travel-luggage/"
+    },
+    {
+      "id": "offer-d24eb6fb",
+      "brand": "Samsonite",
+      "model": "FLATFORM 55 cm Dark Moss",
+      "source": "https://www.yodobashi.com/product/100000001010283165/"
+    },
+    {
+      "id": "offer-a6a03362",
+      "brand": "New Trip",
+      "model": "NT-GB0201 M Champagne Gold",
+      "source": "https://www.yodobashi.com/product/100000001008401599/"
+    },
+    {
+      "id": "offer-3fbe78eb",
+      "brand": "American Tourister",
+      "model": "Velox Spinner 75 Pastel Green",
+      "source": "https://www.yodobashi.com/product/100000001009614000/"
+    },
+    {
+      "id": "offer-e1d531ef",
+      "brand": "Samsonite",
+      "model": "Upscape 75 cm Blue Nights",
+      "source": "https://www.yodobashi.com/product/100000001008919813/"
+    },
+    {
+      "id": "offer-f0aca7d3",
+      "brand": "AAIVV",
+      "model": "4-piece ABS hardshell luggage set, 13/20/26/28 inch",
+      "source": "https://shop.tiktok.com/us/pdp/durable-4-piece-luggage-set-expandable-suitcases-tsa-lock/1732041409039864788"
+    },
+    {
+      "id": "offer-cff11f1d",
+      "brand": "Quince",
+      "model": "Carry-On Suitcase · Navy",
+      "source": "https://www.quince.com/unisex/carry-on-plus-polycarbonate-suitcase?color=navy"
+    },
+    {
+      "id": "offer-445efe79",
+      "brand": "Quince",
+      "model": "Front Pocket Carry-On Suitcase · Navy",
+      "source": "https://www.quince.com/unisex/front-pocket-hard-shell-carry-on-suitcase?color=navy"
+    },
+    {
+      "id": "offer-c4b5fb0e",
+      "brand": "TUPLUS",
+      "model": "Impression Carry On 20-inch",
+      "source": "https://tuplus.com/products/tuplus-impression-suitcase"
+    },
+    {
+      "id": "offer-dba47aa",
+      "brand": "FPM Milano",
+      "model": "Bank Spinner 55M",
+      "source": "https://us.fpm.it/"
+    },
+    {
+      "id": "offer-8dd81d09",
+      "brand": "Skyway",
+      "model": "Epic Softside Carry-On Spinner",
+      "source": "https://www.skywayluggage.com/collections/luggage"
+    },
+    {
+      "id": "offer-d26efed3",
+      "brand": "Pelican / Peli",
+      "model": "22-inch ATX Carry-On",
+      "source": "https://www.pelican.com/us/en/products/travel"
+    },
+    {
+      "id": "offer-45a7b6f5",
+      "brand": "Pelican / Peli",
+      "model": "1535TRVL Carry-On Air Travel Case",
+      "source": "https://www.pelican.com/us/en/products/travel"
+    },
+    {
+      "id": "offer-aa9554f",
+      "brand": "YETI",
+      "model": "Crossroads 35L / 22-inch Carry-On",
+      "source": "https://www.yeti.com/bags/luggage"
+    },
+    {
+      "id": "offer-17b022ce",
+      "brand": "Burton",
+      "model": "4-Wheel Flight Deck 38L",
+      "source": "https://www.burton.com/en-us/collections/travel-bags"
+    },
+    {
+      "id": "offer-af86b868",
+      "brand": "Gucci",
+      "model": "Porter cabin plus trolley, black Supreme, 740391 9AAED 1000",
+      "source": "https://www.gucci.com/us/en/pr/men/travel-for-men/trolleys-for-men/cabin-trolleys/gucci-porter-cabin-plus-trolley-p-7403919AAED1000"
+    },
+    {
+      "id": "offer-474f86ab",
+      "brand": "Dior",
+      "model": "Dior and RIMOWA carry-on, black Oblique aluminum",
+      "source": "https://www.dior.com/en_us/fashion/womens-fashion/bags/travel"
+    },
+    {
+      "id": "offer-9f3d66c2",
+      "brand": "Gabol",
+      "model": "PACIFIC cabin suitcase, 39 × 55 × 20 cm",
+      "source": "https://gabol.com/es/"
+    },
+    {
+      "id": "offer-e9ac3d57",
+      "brand": "Arowana / 亞諾納",
+      "model": "20-inch 極地悍將河馬箱",
+      "source": "https://www.arowana.com.tw/"
+    },
+    {
+      "id": "offer-19e0816a",
+      "brand": "U.S. Traveler",
+      "model": "Rio rugged fabric expandable carry-on set",
+      "source": "https://travelerluggage.com/collections/us-traveler"
+    },
+    {
+      "id": "offer-f0e54aea",
+      "brand": "London Fog",
+      "model": "Cambridge Large Check-in Expandable Spinner",
+      "source": "https://www.macys.com/shop/brands/london-fog?id=20558"
+    },
+    {
+      "id": "offer-92b62b4",
+      "brand": "Nautica",
+      "model": "Lightview 3-piece hardside set",
+      "source": "https://www.macys.com/shop/brands/nautica/nautica-luggage?id=229510"
+    },
+    {
+      "id": "offer-9bb32a86",
+      "brand": "SHOWKOO",
+      "model": "G2 3-piece luggage set",
+      "source": "https://www.showkootravel.com/collections/all-luggage"
+    },
+    {
+      "id": "offer-4202a717",
+      "brand": "NOBL Travel",
+      "model": "All-In-One 28-inch Check-In",
+      "source": "https://nobltravel.com/collections/checked-luggage"
+    },
+    {
+      "id": "offer-d0770640",
+      "brand": "FREQUENTER",
+      "model": "LIEVE 1-250 S 33L",
+      "source": "https://www.morita-co.jp/view/category/frequenter"
+    },
+    {
+      "id": "offer-a3181c05",
+      "brand": "BRIEFING",
+      "model": "H-35 HD HYB, silver, BRA263C40",
+      "source": "https://www.briefing-us.com/products/bra263c40?variant=48317332586633"
+    },
+    {
+      "id": "model-fpm-milano-cb1eaca4",
+      "brand": "FPM Milano",
+      "model": "Globe-Trotter Bank Centenary Spinner 55 – Ocean Green",
+      "source": "https://us.fpm.it/products/fpm-x-globe-trotter-bank-centenary-spinner-55-vulcanized-fiber-ocean-green"
+    },
+    {
+      "id": "model-fpm-milano-6461a529",
+      "brand": "FPM Milano",
+      "model": "Globe-Trotter Bank Centenary Spinner 55 – Black",
+      "source": "https://us.fpm.it/products/fpm-x-globe-trotter-bank-centenary-spinner-55-vulcanized-fiber-black"
+    },
+    {
+      "id": "model-fpm-milano-3e52c1ed",
+      "brand": "FPM Milano",
+      "model": "Globe-Trotter Bank Centenary Spinner 68 – Ocean Green",
+      "source": "https://us.fpm.it/products/fpm-x-globe-trotter-bank-centenary-spinner-68-vulcanized-fiber-ocean-green"
+    },
+    {
+      "id": "model-nobl-f3ac36b3",
+      "brand": "NOBL Travel",
+      "model": "Gloss Check-In: All-in-One",
+      "source": "https://nobltravel.com/products/gloss-check-in-all-in-one"
+    },
+    {
+      "id": "model-showkoo-1c0f2e7d",
+      "brand": "SHOWKOO",
+      "model": "SHOWKOO Luggage Carry-On",
+      "source": "https://www.showkootravel.com/products/showkoo-luggage-carry-on"
+    },
+    {
+      "id": "model-showkoo-339127b8",
+      "brand": "SHOWKOO",
+      "model": "SHOWKOO Luggage 3 Piece Set Suitcase",
+      "source": "https://www.showkootravel.com/products/showkoo-luggage-3-piece-set-suitcase-6"
+    },
+    {
+      "id": "model-jump-436c1a38",
+      "brand": "Jump",
+      "model": "Valise Medium 68 cm - Dunaa Hybrid Jump | Extensible +20%",
+      "source": "https://jump.fr/products/valise-medium-68-cm-dunaa-hybrid-jump-extensible-20"
+    },
+    {
+      "id": "model-jump-b3fb12d0",
+      "brand": "Jump",
+      "model": "Valise Large 78 cm - Dunaa Hybrid Jump | Extensible +20%",
+      "source": "https://jump.fr/products/valise-large-78-cm-dunaa-hybrid-jump-extensible-20"
+    },
+    {
+      "id": "model-oiwas-49196edc",
+      "brand": "OIWAS / 愛華仕",
+      "model": "OIWAS 20inch Carry On Luggage Glossy Suitcase",
+      "source": "https://oiwasbag.com/products/oiwas-20inch-carry-on-luggage-glossy-suitcase"
+    },
+    {
+      "id": "model-oiwas-6832daa4",
+      "brand": "OIWAS / 愛華仕",
+      "model": "OIWAS 26inch Trunk Suitcase",
+      "source": "https://oiwasbag.com/products/oiwas-26inch-trunk-suitcase"
+    },
+    {
+      "id": "collection-90fun",
+      "brand": "90FUN / 90分",
+      "model": "Rhine Classic 2026",
+      "source": "https://www.jd.com/brand/17329055fb19df24848f0.html?electedExtAttrSet=1%2C&extAttrValue=expand_name%2C%40258336%3A%3A1&sort_type=sort_redissale_desc"
+    },
+    {
+      "id": "collection-american-flyer",
+      "brand": "American Flyer",
+      "model": "Printed luggage and travel sets",
+      "source": "https://www.longlatinc.com/pages/american-flyer"
+    },
+    {
+      "id": "collection-aristocrat",
+      "brand": "Aristocrat",
+      "model": "VIP Industries travel luggage",
+      "source": "https://www.vipindustries.co.in/our-brands"
+    },
+    {
+      "id": "collection-bagsmart",
+      "brand": "BAGSMART",
+      "model": "Getaway 20-inch carry-on",
+      "source": "https://www.bagsmart.com/products/getaway-carry-on-luggage?variant=41230567833682"
+    },
+    {
+      "id": "collection-bellroy",
+      "brand": "Bellroy",
+      "model": "Transit / Lite Carry-On",
+      "source": "https://bellroy.com/products/category/luggage"
+    },
+    {
+      "id": "collection-binhao",
+      "brand": "BINHAO / 賓豪",
+      "model": "Travel luggage and trolley cases",
+      "source": "https://www.binhaobags.com/en/"
+    },
+    {
+      "id": "collection-boss",
+      "brand": "BOSS",
+      "model": "BOSS x Samsonite",
+      "source": "https://www.hugoboss.com/men-suitcases/"
+    },
+    {
+      "id": "collection-beis",
+      "brand": "BÉIS",
+      "model": "Roller / Pro Collection",
+      "source": "https://beistravel.com/pages/carry-on-luggage-comparison-guide"
+    },
+    {
+      "id": "collection-carlton",
+      "brand": "Carlton",
+      "model": "Carlton Edge / Carlton Series",
+      "source": "https://carltontravelbags.com/carltonedge/collections.html"
+    },
+    {
+      "id": "collection-cat",
+      "brand": "Cat / Caterpillar",
+      "model": "Carry-on luggage assortment",
+      "source": "https://www.central.co.th/en/caterpillar/sports-travel/travel/luggages/carry-on-luggages"
+    },
+    {
+      "id": "collection-dakine",
+      "brand": "Dakine",
+      "model": "Luggage and roller bags",
+      "source": "https://www.dakine.com/collections/luggage-roller-bags"
+    },
+    {
+      "id": "collection-dejuno",
+      "brand": "Dejuno",
+      "model": "Hardside / softside travel sets",
+      "source": "https://dejuno.com/"
+    },
+    {
+      "id": "collection-departure",
+      "brand": "Departure",
+      "model": "Original / Boost / Eclipse",
+      "source": "https://departureluggage.com/"
+    },
+    {
+      "id": "collection-eagle-creek",
+      "brand": "Eagle Creek",
+      "model": "Expanse",
+      "source": "https://eaglecreek.com/collections/expanse-collection"
+    },
+    {
+      "id": "collection-epic",
+      "brand": "EPIC Travelgear",
+      "model": "Halo / Anthem / Discovery Neo",
+      "source": "https://www.epictravelgear.com/en/"
+    },
+    {
+      "id": "collection-flylite",
+      "brand": "Flylite",
+      "model": "Spin Air 4",
+      "source": "https://www.strandbags.com.au/collections/check-in-luggage"
+    },
+    {
+      "id": "collection-horizn-studios",
+      "brand": "Horizn Studios",
+      "model": "H5 / M5 / H6 / H7",
+      "source": "https://horizn-studios.com/collections/luggage"
+    },
+    {
+      "id": "collection-innovator",
+      "brand": "innovator",
+      "model": "Pilot / inv43EX",
+      "source": "https://innovator.co.jp/"
+    },
+    {
+      "id": "collection-kamiliant",
+      "brand": "Kamiliant",
+      "model": "Hard and soft luggage assortment",
+      "source": "https://www.kamiliant.com/"
+    },
+    {
+      "id": "collection-kroser",
+      "brand": "KROSER",
+      "model": "Hardside / softside carry-ons",
+      "source": "https://www.ikroser.com/collections/luggage"
+    },
+    {
+      "id": "collection-level8",
+      "brand": "LEVEL8",
+      "model": "Voyageur / Luminous / Road Runner",
+      "source": "https://uk.level8cases.com/pages/model-comparison-old"
+    },
+    {
+      "id": "collection-louis-vuitton",
+      "brand": "Louis Vuitton",
+      "model": "Horizon / Horizon Aluminium",
+      "source": "https://us.louisvuitton.com/eng-us/stories/horizon-aluminium"
+    },
+    {
+      "id": "collection-montblanc",
+      "brand": "Montblanc",
+      "model": "#MY4810 Extreme 3.0",
+      "source": "https://www.montblanc.com/en-us/travel/luggage"
+    },
+    {
+      "id": "collection-mous",
+      "brand": "Mous",
+      "model": "Optimal Carry-On / 105L Wheeled Duffel",
+      "source": "https://www.mous.co/products/wheeled-duffel-suitcase"
+    },
+    {
+      "id": "collection-nortvi",
+      "brand": "NORTVI",
+      "model": "Essential / Elite / Aluminum / Trunk",
+      "source": "https://nortvi.com/suitcases/"
+    },
+    {
+      "id": "collection-nudient",
+      "brand": "Nudient",
+      "model": "Bold Luggage V2",
+      "source": "https://www.nudient.store/pages/bold-luggage"
+    },
+    {
+      "id": "collection-olympia",
+      "brand": "Olympia U.S.A.",
+      "model": "Travel luggage / rolling totes",
+      "source": "https://www.walmart.com/browse/home/expandable-luggage/olympia-u-s-a-/4044_7333633_9945530/YnJhbmQ6T2x5bXBpYSBVLlMuQS4ie"
+    },
+    {
+      "id": "collection-paklite",
+      "brand": "Paklite",
+      "model": "Vista / Solar / Rover",
+      "source": "https://www.paklite.com.au/Luggage"
+    },
+    {
+      "id": "collection-patagonia",
+      "brand": "Patagonia",
+      "model": "Black Hole Wheeled Duffel",
+      "source": "https://www.patagonia.com/product/black-hole-wheeled-duffel-bag-70-liters/49382.html?cgid=web-specials&dwvar_49382_color=BKPL"
+    },
+    {
+      "id": "collection-polo-sa",
+      "brand": "Polo South Africa",
+      "model": "Travel trolley assortment",
+      "source": "https://www.polo.co.za/accessories/men-s-accessories/luggage"
+    },
+    {
+      "id": "collection-porsche-design",
+      "brand": "Porsche Design",
+      "model": "Roadster Aluminum",
+      "source": "https://press.porsche-design.com/en/porsche-design-unveils-the-roadster-aluminum-trolley-in-black-and-introduces-new-personalization-options"
+    },
+    {
+      "id": "collection-president",
+      "brand": "President",
+      "model": "KUBIKO / STREAM",
+      "source": "https://www.presidentluggage.com/"
+    },
+    {
+      "id": "collection-ricardo-beverly-hills",
+      "brand": "Ricardo Beverly Hills",
+      "model": "Montecito 2.0 / Montecito 3.0",
+      "source": "https://www.ricardobeverlyhills.com/collections/montecito-2-0/all-luggage-and-bags"
+    },
+    {
+      "id": "collection-roam",
+      "brand": "ROAM",
+      "model": "Custom Carry-On",
+      "source": "https://www.roamluggage.com/collections/luggage-b4u"
+    },
+    {
+      "id": "collection-siffler",
+      "brand": "Siffler",
+      "model": "HAP / licensed-character carry cases",
+      "source": "https://www.siffler.com/"
+    },
+    {
+      "id": "collection-steamline",
+      "brand": "SteamLine",
+      "model": "Carry-On Spinner / vintage collections",
+      "source": "https://worldwide.steamlineluggage.com/collections/all-luggage"
+    },
+    {
+      "id": "collection-swissgear",
+      "brand": "SWISSGEAR",
+      "model": "The Ridge / Energie / Zurich",
+      "source": "https://www.swissgear.com/collections/luggage"
+    },
+    {
+      "id": "collection-swiss-tech",
+      "brand": "SwissTech",
+      "model": "Air-Tech luggage",
+      "source": "https://www.courierluggage.com/brand/swiss-tech/"
+    },
+    {
+      "id": "collection-ted-baker",
+      "brand": "Ted Baker",
+      "model": "Luggage category / London store reference",
+      "source": "https://www.tedbaker.com/pages/about-ted"
+    },
+    {
+      "id": "collection-the-north-face",
+      "brand": "The North Face",
+      "model": "Base Camp Rolling Thunder",
+      "source": "https://www.thenorthface.com/en-us/p/bags-and-gear/luggage-and-duffels/rolling-luggage-224545/base-camp-rolling-thunder28-NF0A87GC?color=4WP"
+    },
+    {
+      "id": "collection-thule",
+      "brand": "Thule",
+      "model": "Subterra 2",
+      "source": "https://www.thule.com/en-us/luggage/thule-subterra-collection"
+    },
+    {
+      "id": "collection-tommy-hilfiger",
+      "brand": "Tommy Hilfiger",
+      "model": "Collingwood / Liberty",
+      "source": "https://www.macys.com/shop/home/luggage-backpacks/luggage/Brand/Tommy%20Hilfiger?cm_kws_ls=luggage&id=76877"
+    },
+    {
+      "id": "collection-uppercase",
+      "brand": "uppercase",
+      "model": "Ace / Graphite / Bullet",
+      "source": "https://uppercase.co.in/collections/all"
+    },
+    {
+      "id": "collection-verage",
+      "brand": "VERAGE",
+      "model": "Freeland / Cambridge / Visionary",
+      "source": "https://www.verage.com/"
+    },
+    {
+      "id": "collection-vince-camuto",
+      "brand": "Vince Camuto",
+      "model": "Harrlee — unavailable collection reference",
+      "source": "https://www.macys.com/shop/product/closeout-vince-camuto-harrlee-hardside-luggage-collection?ID=6323234"
+    },
+    {
+      "id": "collection-wittchen",
+      "brand": "WITTCHEN",
+      "model": "ABS / polycarbonate travel assortment",
+      "source": "https://www.wittchen.com/en-US/bagaz/walizki/walizki-kabinowe"
+    }
+  ]
+}
