@@ -78,6 +78,11 @@ jobs:
           PY
       - name: Add Pawlish English tutor
         run: python3 pawlish/download_assets.py _site/pawlish
+      - name: Verify and build Homecare global listings and workshop
+        run: |
+          npm ci --prefix home-care/ui-src
+          npm run build --prefix home-care/ui-src
+          node --test home-care/ui-src/upgrade.test.mjs home-care/homecare-upgrade.test.mjs home-care/sales-ranking-model.test.cjs home-care/merchant-analytics-model.test.cjs home-care/opportunity-model.test.cjs home-care/brand-factory-build.test.mjs
       - name: Optimize Home Care page for fast loading
         run: node home-care/optimize-loading.mjs
       - name: Assemble narrated Home Care tutorial

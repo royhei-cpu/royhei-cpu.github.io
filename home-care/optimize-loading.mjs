@@ -3,6 +3,7 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import zlib from 'node:zlib';
 import crypto from 'node:crypto';
+import {addHomecareUpgrade} from './homecare-upgrade-build.mjs';
 import { addSalesRanking } from './sales-ranking-build.mjs';
 import { addBrandFactories, addFactoryInterface } from './brand-factory-build.mjs';
 const file=process.argv[2]||'home-care/site/index.html';
@@ -100,6 +101,7 @@ for(const asset of ['weekly-dashboard.js','weekly-dashboard.css','opportunities.
 html=html.replace("const fields=['", "const fields=['secondaryCategories','coverageBrand','coverageSize','coverageVerifiedDate','categoryEvidenceSource','categoryEvidenceNote','observedPrice','observedPriceSource','observedPriceNote','priceObservedDate','size','");
 html=html.replace("const headers={", "const headers={secondaryCategories:'Also listed in',coverageBrand:'Verified brand',coverageSize:'Verified size',coverageVerifiedDate:'Coverage verification date',categoryEvidenceSource:'Category evidence URL',categoryEvidenceNote:'Category evidence note',observedPrice:'Observed USD price',observedPriceSource:'Observed price source',observedPriceNote:'Observed price limitations',priceObservedDate:'Price evidence retrieved date',size:'Size / pack',");
 html=addFactoryInterface(html);
+html=addHomecareUpgrade(html,path.dirname(file));
 fs.writeFileSync(file,html);
 console.log(JSON.stringify({factoryStats}));
 console.log(JSON.stringify({records:items.length,initialCards:first.length,bytes:Buffer.byteLength(html),originalDataBytes:end-start,packedDataBytes:Buffer.byteLength(expression),lossless:true}));

@@ -1,0 +1,1884 @@
+{
+  "revision": "A0",
+  "authoredAt": "2026-11-04",
+  "blenderVersion": "5.2.2 LTS",
+  "concepts": [
+    {
+      "id": "compact",
+      "code": "HA-01",
+      "primaryDimensionsMm": [
+        300.0,
+        110.0,
+        1240.0
+      ],
+      "partCodes": [
+        "HA-01-01",
+        "HA-01-02",
+        "HA-01-03",
+        "HA-01-04",
+        "HA-01-05",
+        "HA-01-06",
+        "HA-01-07",
+        "HA-01-08"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "easy-grip",
+      "code": "HA-02",
+      "primaryDimensionsMm": [
+        150.0,
+        100.0,
+        1050.0
+      ],
+      "partCodes": [
+        "HA-02-01",
+        "HA-02-02",
+        "HA-02-03",
+        "HA-02-04",
+        "HA-02-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "refill",
+      "code": "HA-03",
+      "primaryDimensionsMm": [
+        90.0,
+        65.0,
+        245.0
+      ],
+      "partCodes": [
+        "HA-03-01",
+        "HA-03-02",
+        "HA-03-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "pet",
+      "code": "HA-04",
+      "primaryDimensionsMm": [
+        240.0,
+        160.0,
+        245.0
+      ],
+      "partCodes": [
+        "HA-04-01",
+        "HA-04-02",
+        "HA-04-03",
+        "HA-04-04"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "quiet-scent",
+      "code": "HA-05",
+      "primaryDimensionsMm": [
+        290.0,
+        110.0,
+        245.0
+      ],
+      "partCodes": [
+        "HA-05-01",
+        "HA-05-02",
+        "HA-05-04"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "hard-water",
+      "code": "HA-06",
+      "primaryDimensionsMm": [
+        200.0,
+        100.0,
+        245.0
+      ],
+      "partCodes": [
+        "HA-06-01",
+        "HA-06-03",
+        "HA-06-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "repair",
+      "code": "HA-07",
+      "primaryDimensionsMm": [
+        170.0,
+        110.0,
+        45.0
+      ],
+      "partCodes": [
+        "HA-07-01",
+        "HA-07-02",
+        "HA-07-03",
+        "HA-07-04",
+        "HA-07-05",
+        "HA-07-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "washable",
+      "code": "HA-08",
+      "primaryDimensionsMm": [
+        220.0,
+        100.0,
+        165.0
+      ],
+      "partCodes": [
+        "HA-08-01",
+        "HA-08-02",
+        "HA-08-03",
+        "HA-08-04"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "kitchen",
+      "code": "HA-09",
+      "primaryDimensionsMm": [
+        180.0,
+        100.0,
+        240.0
+      ],
+      "partCodes": [
+        "HA-09-01",
+        "HA-09-03",
+        "HA-09-04",
+        "HA-09-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "renter",
+      "code": "HA-10",
+      "primaryDimensionsMm": [
+        300.0,
+        180.0,
+        265.0
+      ],
+      "partCodes": [
+        "HA-10-01",
+        "HA-10-02",
+        "HA-10-04",
+        "HA-10-06",
+        "HA-10-07",
+        "HA-10-08"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "wet-floor",
+      "code": "HA-11",
+      "primaryDimensionsMm": [
+        250.0,
+        38.0,
+        1050.0
+      ],
+      "partCodes": [
+        "HA-11-01",
+        "HA-11-02",
+        "HA-11-03",
+        "HA-11-04",
+        "HA-11-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "appliance",
+      "code": "HA-12",
+      "primaryDimensionsMm": [
+        120.0,
+        70.0,
+        200.0
+      ],
+      "partCodes": [
+        "HA-12-01",
+        "HA-12-02",
+        "HA-12-04",
+        "HA-12-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "laundry-sorter",
+      "code": "HA-13",
+      "primaryDimensionsMm": [
+        520.0,
+        350.0,
+        650.0
+      ],
+      "partCodes": [
+        "HA-13-01",
+        "HA-13-02",
+        "HA-13-03",
+        "HA-13-04",
+        "HA-13-05",
+        "HA-13-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "drying-rack",
+      "code": "HA-14",
+      "primaryDimensionsMm": [
+        1100.0,
+        550.0,
+        1000.0
+      ],
+      "partCodes": [
+        "HA-14-01",
+        "HA-14-02",
+        "HA-14-03",
+        "HA-14-04",
+        "HA-14-05",
+        "HA-14-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "garment-bags",
+      "code": "HA-15",
+      "primaryDimensionsMm": [
+        420.0,
+        550.0,
+        8.0
+      ],
+      "partCodes": [
+        "HA-15-01",
+        "HA-15-02",
+        "HA-15-03",
+        "HA-15-04",
+        "HA-15-05",
+        "HA-15-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "stackable-storage",
+      "code": "HA-16",
+      "primaryDimensionsMm": [
+        600.0,
+        400.0,
+        180.0
+      ],
+      "partCodes": [
+        "HA-16-01",
+        "HA-16-02",
+        "HA-16-03",
+        "HA-16-04",
+        "HA-16-05",
+        "HA-16-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "drawer-dividers",
+      "code": "HA-17",
+      "primaryDimensionsMm": [
+        450.0,
+        90.0,
+        70.0
+      ],
+      "partCodes": [
+        "HA-17-01",
+        "HA-17-02",
+        "HA-17-03",
+        "HA-17-04",
+        "HA-17-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "bathroom-organizer",
+      "code": "HA-18",
+      "primaryDimensionsMm": [
+        280.0,
+        150.0,
+        150.0
+      ],
+      "partCodes": [
+        "HA-18-01",
+        "HA-18-02",
+        "HA-18-03",
+        "HA-18-04",
+        "HA-18-05",
+        "HA-18-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "pantry-canisters",
+      "code": "HA-19",
+      "primaryDimensionsMm": [
+        360.0,
+        130.0,
+        260.0
+      ],
+      "partCodes": [
+        "HA-19-01",
+        "HA-19-02",
+        "HA-19-03",
+        "HA-19-04",
+        "HA-19-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "recycling-station",
+      "code": "HA-20",
+      "primaryDimensionsMm": [
+        460.0,
+        320.0,
+        600.0
+      ],
+      "partCodes": [
+        "HA-20-01",
+        "HA-20-02",
+        "HA-20-03",
+        "HA-20-04",
+        "HA-20-05",
+        "HA-20-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "compost-caddy",
+      "code": "HA-21",
+      "primaryDimensionsMm": [
+        240.0,
+        190.0,
+        210.0
+      ],
+      "partCodes": [
+        "HA-21-01",
+        "HA-21-02",
+        "HA-21-03",
+        "HA-21-04",
+        "HA-21-05",
+        "HA-21-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "floor-dose",
+      "code": "HA-22",
+      "primaryDimensionsMm": [
+        230.0,
+        130.0,
+        260.0
+      ],
+      "partCodes": [
+        "HA-22-01",
+        "HA-22-02",
+        "HA-22-04",
+        "HA-22-05",
+        "HA-22-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "sponge-dock",
+      "code": "HA-23",
+      "primaryDimensionsMm": [
+        180.0,
+        100.0,
+        65.0
+      ],
+      "partCodes": [
+        "HA-23-01",
+        "HA-23-02",
+        "HA-23-03",
+        "HA-23-04",
+        "HA-23-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "dusting-sleeve",
+      "code": "HA-24",
+      "primaryDimensionsMm": [
+        110.0,
+        65.0,
+        430.0
+      ],
+      "partCodes": [
+        "HA-24-01",
+        "HA-24-02",
+        "HA-24-03",
+        "HA-24-04",
+        "HA-24-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "toilet-dock",
+      "code": "HA-25",
+      "primaryDimensionsMm": [
+        130.0,
+        130.0,
+        420.0
+      ],
+      "partCodes": [
+        "HA-25-01",
+        "HA-25-02",
+        "HA-25-03",
+        "HA-25-04",
+        "HA-25-05",
+        "HA-25-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "upright-sweep",
+      "code": "HA-26",
+      "primaryDimensionsMm": [
+        280.0,
+        260.0,
+        1000.0
+      ],
+      "partCodes": [
+        "HA-26-01",
+        "HA-26-02",
+        "HA-26-03",
+        "HA-26-04",
+        "HA-26-05",
+        "HA-26-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "glass-finish",
+      "code": "HA-27",
+      "primaryDimensionsMm": [
+        220.0,
+        140.0,
+        150.0
+      ],
+      "partCodes": [
+        "HA-27-01",
+        "HA-27-02",
+        "HA-27-03",
+        "HA-27-04",
+        "HA-27-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "disinfect-pack",
+      "code": "HA-28",
+      "primaryDimensionsMm": [
+        230.0,
+        130.0,
+        260.0
+      ],
+      "partCodes": [
+        "HA-28-01",
+        "HA-28-02",
+        "HA-28-04",
+        "HA-28-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "service-vac",
+      "code": "HA-29",
+      "primaryDimensionsMm": [
+        360.0,
+        100.0,
+        130.0
+      ],
+      "partCodes": [
+        "HA-29-01",
+        "HA-29-03",
+        "HA-29-04",
+        "HA-29-05",
+        "HA-29-06",
+        "HA-29-07"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "drill-head-kit",
+      "code": "HA-30",
+      "primaryDimensionsMm": [
+        250.0,
+        160.0,
+        130.0
+      ],
+      "partCodes": [
+        "HA-30-01",
+        "HA-30-02",
+        "HA-30-03",
+        "HA-30-04",
+        "HA-30-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "specialty-dose",
+      "code": "HA-31",
+      "primaryDimensionsMm": [
+        230.0,
+        130.0,
+        260.0
+      ],
+      "partCodes": [
+        "HA-31-01",
+        "HA-31-02",
+        "HA-31-04",
+        "HA-31-05",
+        "HA-31-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "odor-cartridge",
+      "code": "HA-32",
+      "primaryDimensionsMm": [
+        140.0,
+        100.0,
+        120.0
+      ],
+      "partCodes": [
+        "HA-32-01",
+        "HA-32-02",
+        "HA-32-03",
+        "HA-32-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "auto-reset",
+      "code": "HA-33",
+      "primaryDimensionsMm": [
+        250.0,
+        160.0,
+        200.0
+      ],
+      "partCodes": [
+        "HA-33-01",
+        "HA-33-02",
+        "HA-33-04",
+        "HA-33-05",
+        "HA-33-06"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "drain-capture",
+      "code": "HA-34",
+      "primaryDimensionsMm": [
+        210.0,
+        130.0,
+        65.0
+      ],
+      "partCodes": [
+        "HA-34-01",
+        "HA-34-02",
+        "HA-34-03",
+        "HA-34-04",
+        "HA-34-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "care-gloves",
+      "code": "HA-35",
+      "primaryDimensionsMm": [
+        230.0,
+        320.0,
+        12.0
+      ],
+      "partCodes": [
+        "HA-35-01",
+        "HA-35-02",
+        "HA-35-03",
+        "HA-35-04",
+        "HA-35-05"
+      ],
+      "archiveEntries": 11
+    },
+    {
+      "id": "outdoor-brush",
+      "code": "HA-36",
+      "primaryDimensionsMm": [
+        260.0,
+        100.0,
+        1200.0
+      ],
+      "partCodes": [
+        "HA-36-01",
+        "HA-36-02",
+        "HA-36-03",
+        "HA-36-04",
+        "HA-36-05"
+      ],
+      "archiveEntries": 11
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/workshop/compact.blend",
+      "bytes": 115692,
+      "sha256": "fe78b9380424fb7edcbc827c6be2f31ea353d9424608d7e0be258927fbc5b956"
+    },
+    {
+      "path": "assets/workshop/compact.glb",
+      "bytes": 228828,
+      "sha256": "7fd9366cf9de5b2bfba2a59d89af64445a9a5158bcde746660aa3000e4235912"
+    },
+    {
+      "path": "assets/workshop/compact.jpg",
+      "bytes": 27750,
+      "sha256": "49838a7c446acbca9d85730bc02ea8d91bae7bd1bb8034431daf865caf464d91"
+    },
+    {
+      "path": "assets/workshop/compact-front.jpg",
+      "bytes": 26435,
+      "sha256": "f7621c16ebd3393083c2ad055d6943f53ea7fcbf19f81b9cdf2a4adbfe6c75c3"
+    },
+    {
+      "path": "assets/workshop/compact-dimensions.svg",
+      "bytes": 36521,
+      "sha256": "37018f1411a5e57db09732cac963364a0a5439405fc3e9f33474d05fdd9f293a"
+    },
+    {
+      "path": "assets/workshop/compact-geometry.json",
+      "bytes": 577,
+      "sha256": "adc5390dd8834b389335aeddf96b4b3d4eec647537655921551ec0dda438d870"
+    },
+    {
+      "path": "assets/workshop/compact-development-pack.zip",
+      "bytes": 240106,
+      "sha256": "d6498f75b1ed46aea62f4a9a4549186a6d723712765787486f4f1add87675bd4"
+    },
+    {
+      "path": "assets/workshop/easy-grip.blend",
+      "bytes": 111588,
+      "sha256": "25c8b603de583a22a0de56657d29df995cb8339ad67852a6f3b8f2b1fdbb9801"
+    },
+    {
+      "path": "assets/workshop/easy-grip.glb",
+      "bytes": 117504,
+      "sha256": "965f6c7f9e9ddfa3c26ff31c770df8cb5b0009fe74041d0d60663d056f8ae7c1"
+    },
+    {
+      "path": "assets/workshop/easy-grip.jpg",
+      "bytes": 23900,
+      "sha256": "152eccf9b22e129feaa74890da4b817ab85068b629d90ec85d9c6d8130ce8f73"
+    },
+    {
+      "path": "assets/workshop/easy-grip-front.jpg",
+      "bytes": 26784,
+      "sha256": "f2887aa954096810fa48006500eabe309cf874c3a6ffc2e302a1d47dfdee84b7"
+    },
+    {
+      "path": "assets/workshop/easy-grip-dimensions.svg",
+      "bytes": 36979,
+      "sha256": "5235455b747b157b687d9602affe566859767f18e8d44a883f642c4ee3e88683"
+    },
+    {
+      "path": "assets/workshop/easy-grip-geometry.json",
+      "bytes": 531,
+      "sha256": "e0f42d18c27d7c5c5dce41efe0d1b80e5135bfd5883c55d66e1522fcc654347b"
+    },
+    {
+      "path": "assets/workshop/easy-grip-development-pack.zip",
+      "bytes": 207615,
+      "sha256": "a78a6aa4d3824a04248186c787a4c63adb24fe69532668f4db6b4ad5260e72a8"
+    },
+    {
+      "path": "assets/workshop/refill.blend",
+      "bytes": 110226,
+      "sha256": "a70b1eab26ad73e4b8c0aa036028f33b7221227cc7cd8f2484045a8d90be360c"
+    },
+    {
+      "path": "assets/workshop/refill.glb",
+      "bytes": 205652,
+      "sha256": "6a897b52c0e994da449e898b1cd0012e3fb205a6e384e64da5280a44062bed68"
+    },
+    {
+      "path": "assets/workshop/refill.jpg",
+      "bytes": 31989,
+      "sha256": "d3096327e0b0d065595c6533a8de2dd17482d8d18f3160fc4c774cb9de3b8b71"
+    },
+    {
+      "path": "assets/workshop/refill-front.jpg",
+      "bytes": 34098,
+      "sha256": "5aed571c54001d9b6a27fa64aa729a51067ab072f69720e97df6b72db4ad77ea"
+    },
+    {
+      "path": "assets/workshop/refill-dimensions.svg",
+      "bytes": 46714,
+      "sha256": "84402dfed923c593089fc9c45d8ce84d186be6bdd8faa4f7fbc6d6e1c25cf47c"
+    },
+    {
+      "path": "assets/workshop/refill-geometry.json",
+      "bytes": 493,
+      "sha256": "609cf3d8e4d650bf8ad9fdbef0cd87c5c2f94b3d8ba8edd5b332453e591c321f"
+    },
+    {
+      "path": "assets/workshop/refill-development-pack.zip",
+      "bytes": 251316,
+      "sha256": "965a8fe5f0880677108ec768e0d06988cb540dce3c1a45f4889a9fd8f8c93327"
+    },
+    {
+      "path": "assets/workshop/pet.blend",
+      "bytes": 137907,
+      "sha256": "7d92f26c8b4ffddea05873c3db2c101393e088c6ca1c146aa1937c4808addbd2"
+    },
+    {
+      "path": "assets/workshop/pet.glb",
+      "bytes": 778780,
+      "sha256": "14de47cc226130683857e11859bb5fc3d5ba9ea98ca758c2823a16875519966d"
+    },
+    {
+      "path": "assets/workshop/pet.jpg",
+      "bytes": 42106,
+      "sha256": "0f2243903cf5308a313ab3fca6b589b91a54bd8012d2b7d90f7e76dcedefbb51"
+    },
+    {
+      "path": "assets/workshop/pet-front.jpg",
+      "bytes": 41979,
+      "sha256": "940958a862c0419ab4c5d1a6e2365612bd3c55a471a2870bc64205a0c0f8da11"
+    },
+    {
+      "path": "assets/workshop/pet-dimensions.svg",
+      "bytes": 57242,
+      "sha256": "d8fc2f4512ebcd2211723177377fb07d4ed8ab962dd9df4f2b78a0d065b5991a"
+    },
+    {
+      "path": "assets/workshop/pet-geometry.json",
+      "bytes": 508,
+      "sha256": "af015d1e2449ba36c770e663114779dce75739544825bf5c85da622c4430e2f6"
+    },
+    {
+      "path": "assets/workshop/pet-development-pack.zip",
+      "bytes": 353656,
+      "sha256": "0120755c3fb4bf96a01809df76c0194e5160c0a852c463f7290b722c885b0321"
+    },
+    {
+      "path": "assets/workshop/quiet-scent.blend",
+      "bytes": 125869,
+      "sha256": "c8e891749d1e0b5870665b6cc287048091ae665eebaa5219daeb0d31ff046fb0"
+    },
+    {
+      "path": "assets/workshop/quiet-scent.glb",
+      "bytes": 607468,
+      "sha256": "f5b0d0d21fcb09236162dc039299dc01888b5909a69944126f181e7c316a7b99"
+    },
+    {
+      "path": "assets/workshop/quiet-scent.jpg",
+      "bytes": 45275,
+      "sha256": "1c9506b8d15638c9cf035cb938489001591f784cad062986f33e9d8af99933e3"
+    },
+    {
+      "path": "assets/workshop/quiet-scent-front.jpg",
+      "bytes": 49450,
+      "sha256": "d356edf9f5d45333cea781061071ec53ed300cbd57029d2636b696018840fe07"
+    },
+    {
+      "path": "assets/workshop/quiet-scent-dimensions.svg",
+      "bytes": 67212,
+      "sha256": "fb0dccf4a5b2cc2788b9a1af2be5468706d739c1859e108290b6b9e3eff17e85"
+    },
+    {
+      "path": "assets/workshop/quiet-scent-geometry.json",
+      "bytes": 500,
+      "sha256": "7033e9bdb5bf347533f3268fd2bbe8b3d4e5ebb9ed06aa66c28036cd383e4ab4"
+    },
+    {
+      "path": "assets/workshop/quiet-scent-development-pack.zip",
+      "bytes": 397538,
+      "sha256": "578af761fc830ea2fa8034ef934cd2a305733d55285111a5f22d6329f8b597d1"
+    },
+    {
+      "path": "assets/workshop/hard-water.blend",
+      "bytes": 137051,
+      "sha256": "d469ebac434030dca8616641c90d00c48e3ec651fb3e4df5592a8eeea8bbeb77"
+    },
+    {
+      "path": "assets/workshop/hard-water.glb",
+      "bytes": 743636,
+      "sha256": "ea1163ce6a6b0ec1ae27f34b9ff46814da37deaf501f4e60e52311e513023d37"
+    },
+    {
+      "path": "assets/workshop/hard-water.jpg",
+      "bytes": 38515,
+      "sha256": "7c662497cccf3498a7649be1412a625014f727b547716e39ea253a98c20fa654"
+    },
+    {
+      "path": "assets/workshop/hard-water-front.jpg",
+      "bytes": 38457,
+      "sha256": "08d22d9bbd77f4229a96fab302284581ce1a24b46bd4d5faa1892060cdbe2a5e"
+    },
+    {
+      "path": "assets/workshop/hard-water-dimensions.svg",
+      "bytes": 52549,
+      "sha256": "38947f5ff084571d21769d2f6d21c77cb7fef7ea584384d3bd1a885c76b27dce"
+    },
+    {
+      "path": "assets/workshop/hard-water-geometry.json",
+      "bytes": 499,
+      "sha256": "f647dc83ee4ffa3f5640c31fcd186dcbba67258a5baa0ce6b4d99463a30c0358"
+    },
+    {
+      "path": "assets/workshop/hard-water-development-pack.zip",
+      "bytes": 331396,
+      "sha256": "f1c01d2607d84a8c2b76d739c3061b0bf9785afaaba79dc20354800c64cb13b6"
+    },
+    {
+      "path": "assets/workshop/repair.blend",
+      "bytes": 110256,
+      "sha256": "5113b481dfd564587a65364933a329847755dff39a72462429e60b452b2d8790"
+    },
+    {
+      "path": "assets/workshop/repair.glb",
+      "bytes": 158180,
+      "sha256": "726977343c8d77cc1c712d1f141e1eeb0f483c8e876965d8cb216dfd13fdd2e7"
+    },
+    {
+      "path": "assets/workshop/repair.jpg",
+      "bytes": 35700,
+      "sha256": "275df3d45bd8da5f6f324867a37eb1a71bec71b8db6959cf6ffd37743447e573"
+    },
+    {
+      "path": "assets/workshop/repair-front.jpg",
+      "bytes": 31740,
+      "sha256": "30978c42b21dc4ead74cfec4f7ca251552d004de4d262ca89df36e3d61c3f89f"
+    },
+    {
+      "path": "assets/workshop/repair-dimensions.svg",
+      "bytes": 43588,
+      "sha256": "c09a969fb272bb32682264912e42bb9a48e385d4b3e4ed133b36aa0a37d83a99"
+    },
+    {
+      "path": "assets/workshop/repair-geometry.json",
+      "bytes": 542,
+      "sha256": "cf0e03c3cefedcee56de5cb3fafc0f412146833bf6ece24ee4a28f53a48718cc"
+    },
+    {
+      "path": "assets/workshop/repair-development-pack.zip",
+      "bytes": 231256,
+      "sha256": "e8ed1dccc3a1c7d43d834c8018feef9a806a1f06283f94db4835473f02d80dca"
+    },
+    {
+      "path": "assets/workshop/washable.blend",
+      "bytes": 110886,
+      "sha256": "fc4d554f6a45de7940b1fc49e0ab57a6fda61fdeac4c9d13a9b6a339168bebae"
+    },
+    {
+      "path": "assets/workshop/washable.glb",
+      "bytes": 236596,
+      "sha256": "810a49f0cdb45f4bc22abf83a52670e35fb726f91ac657c84d9273da3c4fe26a"
+    },
+    {
+      "path": "assets/workshop/washable.jpg",
+      "bytes": 39150,
+      "sha256": "a4b402e01f9b6345d62f16e464b629f5b2296e64d35786beeb4e6f977735d4ce"
+    },
+    {
+      "path": "assets/workshop/washable-front.jpg",
+      "bytes": 42911,
+      "sha256": "b22308addcb75e9afb03db59b9ade7f74811663ef329d82e66080c918bbc4668"
+    },
+    {
+      "path": "assets/workshop/washable-dimensions.svg",
+      "bytes": 58492,
+      "sha256": "c9b28266237f02467206efbffb3a0309151901dac03e1fe16b004b7b2ca35368"
+    },
+    {
+      "path": "assets/workshop/washable-geometry.json",
+      "bytes": 513,
+      "sha256": "acff65a3a6c47222d467b5fc7ad7c7bf383aa0264313c22ab3cdcc0f9fd36a78"
+    },
+    {
+      "path": "assets/workshop/washable-development-pack.zip",
+      "bytes": 262841,
+      "sha256": "8f271dac63e8b70f6aff719529aff5fd34d3d17baf405f767f327860d96cae7a"
+    },
+    {
+      "path": "assets/workshop/kitchen.blend",
+      "bytes": 137060,
+      "sha256": "1316e46be49aebe244b668273134a3588c40afb7b6154b4e2a1f157bb81e1c72"
+    },
+    {
+      "path": "assets/workshop/kitchen.glb",
+      "bytes": 759400,
+      "sha256": "affc74315a358e290e05cfb452bc5304b6f300011bb75c88661460525196233c"
+    },
+    {
+      "path": "assets/workshop/kitchen.jpg",
+      "bytes": 39189,
+      "sha256": "bee31e776a098f96662c6014775ff9e8a4c9c76535b65fd8cca5b7212cdf8469"
+    },
+    {
+      "path": "assets/workshop/kitchen-front.jpg",
+      "bytes": 38935,
+      "sha256": "c14a1b15f54fea996562590aaeafe355b192b03a096a2afcd50dad8dbc4bc40e"
+    },
+    {
+      "path": "assets/workshop/kitchen-dimensions.svg",
+      "bytes": 53184,
+      "sha256": "1c462575c5839546fbd7df6125e990934f87c4142e17b12e0787e469708fb621"
+    },
+    {
+      "path": "assets/workshop/kitchen-geometry.json",
+      "bytes": 512,
+      "sha256": "fb993e88fe0f386ea01e1b5923b85b030b668fd69140c77caf30fb48168186c7"
+    },
+    {
+      "path": "assets/workshop/kitchen-development-pack.zip",
+      "bytes": 336491,
+      "sha256": "784dea48f8c9f30c85203148323be33809bde6902cad61a4eae8f5e82c561810"
+    },
+    {
+      "path": "assets/workshop/renter.blend",
+      "bytes": 139912,
+      "sha256": "f1242b73ac028210b32daa1feee8469b8d7bbfd2e1b4486684cc32f971dc85e9"
+    },
+    {
+      "path": "assets/workshop/renter.glb",
+      "bytes": 821860,
+      "sha256": "7cc1383f2c52b8e45a57731485102872e4b25e21f7df7289d48faed9b3215a3d"
+    },
+    {
+      "path": "assets/workshop/renter.jpg",
+      "bytes": 42245,
+      "sha256": "33215f1c4a3cc18ad7ef97c7a3b84eb1f340129c213d4bb2640ca725135c72da"
+    },
+    {
+      "path": "assets/workshop/renter-front.jpg",
+      "bytes": 43524,
+      "sha256": "65d5b5309eea7cc7146b0f3870a0718d825b33567db7bcb5a7bffe7191d82000"
+    },
+    {
+      "path": "assets/workshop/renter-dimensions.svg",
+      "bytes": 59308,
+      "sha256": "cd7b2455afab99f4cd297c2d4971d2b7a39dff1e5e51335d548d0823be0f3e24"
+    },
+    {
+      "path": "assets/workshop/renter-geometry.json",
+      "bytes": 543,
+      "sha256": "36143aaf3f663089a2ac75d7be2e3d7b4b3bfd0329024f17bac58f2591725fd0"
+    },
+    {
+      "path": "assets/workshop/renter-development-pack.zip",
+      "bytes": 366047,
+      "sha256": "52a951129ee6686781f40fa088e22e7479b932b354fe90adea7ba8724dd13b96"
+    },
+    {
+      "path": "assets/workshop/wet-floor.blend",
+      "bytes": 109984,
+      "sha256": "8c1d4bf1e57eb09538ef5e05c8e21e0bf96a21456bf3f6d325aa1c5c9f2302df"
+    },
+    {
+      "path": "assets/workshop/wet-floor.glb",
+      "bytes": 120164,
+      "sha256": "f6ad07bd0abd5d6f47ef14652da6ca36d6677bd0172e111a1dca6f9d3241ea81"
+    },
+    {
+      "path": "assets/workshop/wet-floor.jpg",
+      "bytes": 24540,
+      "sha256": "b55b2b4c0369a686fdf3e5a54d123c247c8afbc7147f85e5e0f94d88d9d47562"
+    },
+    {
+      "path": "assets/workshop/wet-floor-front.jpg",
+      "bytes": 26975,
+      "sha256": "11bd69f308cc8294f3521194af1aac384aa81e7a586a10ea69fc10e35201d0a8"
+    },
+    {
+      "path": "assets/workshop/wet-floor-dimensions.svg",
+      "bytes": 37239,
+      "sha256": "567537ecf79b6577615038656fed6020221e45fb702d68d2f3ee8803b50e7051"
+    },
+    {
+      "path": "assets/workshop/wet-floor-geometry.json",
+      "bytes": 530,
+      "sha256": "5b91cb61a232f52c6d1c5d2b889494835fc74b9802c9f4ba0acffb231d2bfdde"
+    },
+    {
+      "path": "assets/workshop/wet-floor-development-pack.zip",
+      "bytes": 207545,
+      "sha256": "ee2aa8e2ea0c593891488c00210d3e58cab440231a0ad1db4369ac3d9d5a2e3f"
+    },
+    {
+      "path": "assets/workshop/appliance.blend",
+      "bytes": 146300,
+      "sha256": "2b127a4d681528f589e2bf1307dfc20db621a378ae7f066c86d5f69e47bad2ba"
+    },
+    {
+      "path": "assets/workshop/appliance.glb",
+      "bytes": 1035656,
+      "sha256": "9320beac460ddb445d8788b8bedac801843cd942e5a93fe36387a6d891c88453"
+    },
+    {
+      "path": "assets/workshop/appliance.jpg",
+      "bytes": 33544,
+      "sha256": "18e903b12d0f644eb3c1dedb0c178749badb8514286b01cba406e8488f7be9fb"
+    },
+    {
+      "path": "assets/workshop/appliance-front.jpg",
+      "bytes": 35901,
+      "sha256": "e872669b60a51eb6da6125e19839db0939d821265b946d61771ccbc1343ff8ce"
+    },
+    {
+      "path": "assets/workshop/appliance-dimensions.svg",
+      "bytes": 49124,
+      "sha256": "e189987594cd16b841461fa65c33d243e5875667f85c3dcb32fa75580b8d17a6"
+    },
+    {
+      "path": "assets/workshop/appliance-geometry.json",
+      "bytes": 513,
+      "sha256": "44b89e6c2b729de50e0d48ee20ccfbc06deba0fbb4e4c8b7ea5c982de1231a24"
+    },
+    {
+      "path": "assets/workshop/appliance-development-pack.zip",
+      "bytes": 308320,
+      "sha256": "8883a518f80c0e6c810fab20d097349b951647e001e331ff84a254948ef68a5d"
+    },
+    {
+      "path": "assets/workshop/laundry-sorter.blend",
+      "bytes": 119686,
+      "sha256": "f4abaff835e1546969b684c6326e0d0ada9413fad7a2dca74e1b2e5f891fdeb1"
+    },
+    {
+      "path": "assets/workshop/laundry-sorter.glb",
+      "bytes": 516604,
+      "sha256": "67a5a0365ab743c1bd036ea7ff22a350325f562af530709baa75b900f7436fbd"
+    },
+    {
+      "path": "assets/workshop/laundry-sorter.jpg",
+      "bytes": 38086,
+      "sha256": "da545af101bfd780699a8c8e36d19bdf174a42064326af5999a58878dbad8c9f"
+    },
+    {
+      "path": "assets/workshop/laundry-sorter-front.jpg",
+      "bytes": 37839,
+      "sha256": "2c5d7b2f55f235f40249c0b285e41559cb0b7a7e44bfa72b084bb34e94fa5399"
+    },
+    {
+      "path": "assets/workshop/laundry-sorter-dimensions.svg",
+      "bytes": 51725,
+      "sha256": "655b5a641bbca3becf01d34f7655ef0e53b7fd971196da36a232f4b03319787a"
+    },
+    {
+      "path": "assets/workshop/laundry-sorter-geometry.json",
+      "bytes": 551,
+      "sha256": "13a3e4822ec366ff251c954a2f57c5d0011bf7cc301271ed4f99c4dc9446cff0"
+    },
+    {
+      "path": "assets/workshop/laundry-sorter-development-pack.zip",
+      "bytes": 280246,
+      "sha256": "d6aa26201579183dbf0e0b0a8f4efd4c3292f6ad472f815a55b45140aeaf51e0"
+    },
+    {
+      "path": "assets/workshop/drying-rack.blend",
+      "bytes": 129190,
+      "sha256": "44a5804b24c58ed0f0b440f0099d317475c46e0c374cd3c96b067e8fa56a9590"
+    },
+    {
+      "path": "assets/workshop/drying-rack.glb",
+      "bytes": 663596,
+      "sha256": "fa5e24c9ee62d4bd8142fdde1c8d04bcfb84b7498de2faa7aa3f2d7ba5798dac"
+    },
+    {
+      "path": "assets/workshop/drying-rack.jpg",
+      "bytes": 38968,
+      "sha256": "6ab97f0c3799f87f6b967576c2a1806a54eeb2515c3c6ad49ce796884265a774"
+    },
+    {
+      "path": "assets/workshop/drying-rack-front.jpg",
+      "bytes": 39399,
+      "sha256": "0a0e031c4ca14fffba6eebd0c8f700af2b51d20db0a8097da69e2e5aee548c7c"
+    },
+    {
+      "path": "assets/workshop/drying-rack-dimensions.svg",
+      "bytes": 53815,
+      "sha256": "7ef5333458b83e96eef08fbcdac95d61be3b115c0be6a48b88222ee12c537041"
+    },
+    {
+      "path": "assets/workshop/drying-rack-geometry.json",
+      "bytes": 550,
+      "sha256": "69c149aaf9d25875b4c44dfbcefa665e5d3043cad1e4adfe928ba8b0f001fe26"
+    },
+    {
+      "path": "assets/workshop/drying-rack-development-pack.zip",
+      "bytes": 277408,
+      "sha256": "3c4c58ecd170aa0c9123d521a10cd44527191333984ff56b85d5e646b90f8c98"
+    },
+    {
+      "path": "assets/workshop/garment-bags.blend",
+      "bytes": 114288,
+      "sha256": "dbdaa253563c36cb0b17c1546c365e8f2b28c469c18d724ba01f56d3a0a250d9"
+    },
+    {
+      "path": "assets/workshop/garment-bags.glb",
+      "bytes": 372492,
+      "sha256": "38ebf6010118b5afa37035dfa7db7b660a506582f67bee4ef4d871cd2ae88452"
+    },
+    {
+      "path": "assets/workshop/garment-bags.jpg",
+      "bytes": 40556,
+      "sha256": "558a4c538bb9360d5a47dc40d09633493311ab9ddf5dd696ba628bccd3abcb75"
+    },
+    {
+      "path": "assets/workshop/garment-bags-front.jpg",
+      "bytes": 29424,
+      "sha256": "52093088039609bd66ba705574f9f038c29aa8f8751fcd6345602a13215c2957"
+    },
+    {
+      "path": "assets/workshop/garment-bags-dimensions.svg",
+      "bytes": 40505,
+      "sha256": "68d61c685376212b3ab1ba1cfb0e48d46f2b886fc20bda04a91843ace361b2c1"
+    },
+    {
+      "path": "assets/workshop/garment-bags-geometry.json",
+      "bytes": 547,
+      "sha256": "78c7fd6e3a01f456cd759ba1780f432dde5803b03dbf609eaea6e5f046b0203b"
+    },
+    {
+      "path": "assets/workshop/garment-bags-development-pack.zip",
+      "bytes": 257597,
+      "sha256": "4ffe52385a76d51559e39afcaf93f6c6d6c8d2581fed75285499cab2f50c72e5"
+    },
+    {
+      "path": "assets/workshop/stackable-storage.blend",
+      "bytes": 112528,
+      "sha256": "44e778ac4e94b0be70483f08cd753964e63b3b28af38a72487dd2ffc62b7b232"
+    },
+    {
+      "path": "assets/workshop/stackable-storage.glb",
+      "bytes": 200344,
+      "sha256": "637c19313352fdc80ec77a3f5847b7f12d288c06efa03a9c1af01140d4d2071d"
+    },
+    {
+      "path": "assets/workshop/stackable-storage.jpg",
+      "bytes": 35572,
+      "sha256": "e56b39e5b991e2d2724771fba335d1754c02a635ab789ad92e05a2174a3226d0"
+    },
+    {
+      "path": "assets/workshop/stackable-storage-front.jpg",
+      "bytes": 32697,
+      "sha256": "d3d1f7ee27b75afb8b9d9c077b69d99a513eaabeb5536cbc5323bbf54b5acf05"
+    },
+    {
+      "path": "assets/workshop/stackable-storage-dimensions.svg",
+      "bytes": 44868,
+      "sha256": "2871d6b53ca96736e6de8c043976539c7b9e6355989a445434e6829937d0802c"
+    },
+    {
+      "path": "assets/workshop/stackable-storage-geometry.json",
+      "bytes": 554,
+      "sha256": "1d2a5a71bbff092a50c36db353a2c364e9e46cd51f068cf9a76df2c2fb363093"
+    },
+    {
+      "path": "assets/workshop/stackable-storage-development-pack.zip",
+      "bytes": 243238,
+      "sha256": "03fa368307a2aa2bc04c038ed53d8cd16ef25c9dea491f22cb0bbbf512eb7301"
+    },
+    {
+      "path": "assets/workshop/drawer-dividers.blend",
+      "bytes": 116560,
+      "sha256": "7b4d5ceadc963d2952e31d14f5734033edd1f12ee38c29dc783399f8eea6e693"
+    },
+    {
+      "path": "assets/workshop/drawer-dividers.glb",
+      "bytes": 434624,
+      "sha256": "314be2a85beaf44fd24b11e3c2d8dec2a104543b31c63e0859a436da50a4b586"
+    },
+    {
+      "path": "assets/workshop/drawer-dividers.jpg",
+      "bytes": 38713,
+      "sha256": "57a5e1ec74558caa3a5adfeb715b2f0d8ed508c26842bbe1d2a042cc30df7c80"
+    },
+    {
+      "path": "assets/workshop/drawer-dividers-front.jpg",
+      "bytes": 30243,
+      "sha256": "593910335661ff0db187b4239b8e18a2785f2bd46f3d762f7ce038218d890770"
+    },
+    {
+      "path": "assets/workshop/drawer-dividers-dimensions.svg",
+      "bytes": 41599,
+      "sha256": "dd490da8880646f2bfa62d28a215ea7be327698e2c6c87854c0a00ce60804223"
+    },
+    {
+      "path": "assets/workshop/drawer-dividers-geometry.json",
+      "bytes": 534,
+      "sha256": "94b138923b5b47608d885065196d0719e29d505aafe10af8cb0b852e68fc3e3e"
+    },
+    {
+      "path": "assets/workshop/drawer-dividers-development-pack.zip",
+      "bytes": 229962,
+      "sha256": "75a429d1d4638a3a6ad12e0688406438f80c3fd1590eb5b5ad336dd2f3c022ef"
+    },
+    {
+      "path": "assets/workshop/bathroom-organizer.blend",
+      "bytes": 115968,
+      "sha256": "2c561ecb46595c84ebd6b5142b28c6c7017b7e8389c5e7766fa6fc4077d8d517"
+    },
+    {
+      "path": "assets/workshop/bathroom-organizer.glb",
+      "bytes": 373256,
+      "sha256": "2365fd817016b631ff3754c761f9eea96dca4a3d232d155ed334809705fa8f33"
+    },
+    {
+      "path": "assets/workshop/bathroom-organizer.jpg",
+      "bytes": 39662,
+      "sha256": "3f898900a66c66e7705c52e31dd2b1398a00fc8f17f3a2734a84f6dc5b37e9da"
+    },
+    {
+      "path": "assets/workshop/bathroom-organizer-front.jpg",
+      "bytes": 37005,
+      "sha256": "53e42259537625f60b91bab85a588f062e5e859a64e316439ca3aae3325a6f19"
+    },
+    {
+      "path": "assets/workshop/bathroom-organizer-dimensions.svg",
+      "bytes": 50618,
+      "sha256": "adc639d0a73125c0c740499635f4ff3da7fe008479420eab5854313c5ba71003"
+    },
+    {
+      "path": "assets/workshop/bathroom-organizer-geometry.json",
+      "bytes": 555,
+      "sha256": "8ddd5af31e650b6ad10dd6e4a5b38d3bc2a55b4f17c48db5f5a260e275889f10"
+    },
+    {
+      "path": "assets/workshop/bathroom-organizer-development-pack.zip",
+      "bytes": 277626,
+      "sha256": "42a194abb288184298ab36a4d97837f465e4d7cff06679cbdf41c0630c3ae4b2"
+    },
+    {
+      "path": "assets/workshop/pantry-canisters.blend",
+      "bytes": 116391,
+      "sha256": "2e4c80c4981b48ed553ab2a61f598708b617b7c30e90b61ceaea8da91bce851e"
+    },
+    {
+      "path": "assets/workshop/pantry-canisters.glb",
+      "bytes": 441664,
+      "sha256": "21481fbbb4ea1178c3bc0e1fa788fbf4fbf7ded742cfa7ddd17ff13dedcdcf7e"
+    },
+    {
+      "path": "assets/workshop/pantry-canisters.jpg",
+      "bytes": 41417,
+      "sha256": "9dbd82c1199d98e2ebbb3540835ced4e1e5477108e08cd8a2217a67eed17222b"
+    },
+    {
+      "path": "assets/workshop/pantry-canisters-front.jpg",
+      "bytes": 46800,
+      "sha256": "d461c9e92397c5023120ffa512c7e7aaefd434e54f19e9025c6d51e67392415f"
+    },
+    {
+      "path": "assets/workshop/pantry-canisters-dimensions.svg",
+      "bytes": 63688,
+      "sha256": "94b8b43bc74852329e751a69f8870039b04d0682ba632dde91f6515ec1b17a6c"
+    },
+    {
+      "path": "assets/workshop/pantry-canisters-geometry.json",
+      "bytes": 537,
+      "sha256": "0d83af8e92c0eaf82fd3e469a63a9ef3f683b609a71971d55495b929614e4f6b"
+    },
+    {
+      "path": "assets/workshop/pantry-canisters-development-pack.zip",
+      "bytes": 298569,
+      "sha256": "a4856a44408315bb1979af833836aceba004f05e3d6cb8e00e62b9ea095e5950"
+    },
+    {
+      "path": "assets/workshop/recycling-station.blend",
+      "bytes": 119009,
+      "sha256": "475d84d9f0615c9b476b0602912f66d890ddbe02b4007da1b490476b6a4d15c0"
+    },
+    {
+      "path": "assets/workshop/recycling-station.glb",
+      "bytes": 408416,
+      "sha256": "61231c83e408605b61d8a1f20ed2ced8ea8715771fd0b3fca358d46e04604219"
+    },
+    {
+      "path": "assets/workshop/recycling-station.jpg",
+      "bytes": 33931,
+      "sha256": "ad2952b08f0a956c3c21028d70dd9fe10bd752a698875e98e7ffdc6e21b3314c"
+    },
+    {
+      "path": "assets/workshop/recycling-station-front.jpg",
+      "bytes": 33092,
+      "sha256": "a52894277df52edf22d53128f1ebd8c8380b57626a8afd908beead6bba55839b"
+    },
+    {
+      "path": "assets/workshop/recycling-station-dimensions.svg",
+      "bytes": 45397,
+      "sha256": "97c486b9b554cd200396a51f680f46f7ddd520f25a0558fade2c51b75aef3ce2"
+    },
+    {
+      "path": "assets/workshop/recycling-station-geometry.json",
+      "bytes": 554,
+      "sha256": "3497121c82a294ccbf600bedc8f9bd5618fe1888d8f62082185b5ab42e9d6f98"
+    },
+    {
+      "path": "assets/workshop/recycling-station-development-pack.zip",
+      "bytes": 262041,
+      "sha256": "c74a51bbf5d284ce31dff24fc7c6a29f85b487d797acd285a4fdbed863d1fdca"
+    },
+    {
+      "path": "assets/workshop/compost-caddy.blend",
+      "bytes": 115078,
+      "sha256": "a00b0ab5e4d3138533acb28fa5a023b1cafa0b33317d022ad9174c1a014f59f8"
+    },
+    {
+      "path": "assets/workshop/compost-caddy.glb",
+      "bytes": 261856,
+      "sha256": "7231e5feb0675dbef07782354adeef53205c524aedc99a2d980758655b7b136f"
+    },
+    {
+      "path": "assets/workshop/compost-caddy.jpg",
+      "bytes": 35730,
+      "sha256": "1b9b90290bde4972b980436f20d640e7d8e32d63ffa48fa989ad2471a3e39a67"
+    },
+    {
+      "path": "assets/workshop/compost-caddy-front.jpg",
+      "bytes": 40743,
+      "sha256": "d6975e98729f7a5160b24c641b7bd1311a8b22a9b4fa99d04fb0a72528156264"
+    },
+    {
+      "path": "assets/workshop/compost-caddy-dimensions.svg",
+      "bytes": 55604,
+      "sha256": "7641ec97d59308e82d8ea7dd019a0e7ba16c32e579a1d2214e1133a44f8c6740"
+    },
+    {
+      "path": "assets/workshop/compost-caddy-geometry.json",
+      "bytes": 550,
+      "sha256": "66a1d0a860f198b64648232ca276d39ee4b844bad1745ac12a6f9718d1075828"
+    },
+    {
+      "path": "assets/workshop/compost-caddy-development-pack.zip",
+      "bytes": 266709,
+      "sha256": "6c365f2145cd4f6a725532421eb6cef7016491d4afc03f9c20cde6b9f7446652"
+    },
+    {
+      "path": "assets/workshop/floor-dose.blend",
+      "bytes": 119040,
+      "sha256": "b3c82f70c60580e79be692e9dee2c82afa78985029c96254b0a013ca5ae37a7b"
+    },
+    {
+      "path": "assets/workshop/floor-dose.glb",
+      "bytes": 287972,
+      "sha256": "fda4ef628b0533f46bc7c01f2284e036f8d97f400d616600fdde8a48152eff14"
+    },
+    {
+      "path": "assets/workshop/floor-dose.jpg",
+      "bytes": 36259,
+      "sha256": "c6d4a9fbd25611a0955fc805e7b2c66395fd1d0c3eb70df8801c0af09555791d"
+    },
+    {
+      "path": "assets/workshop/floor-dose-front.jpg",
+      "bytes": 35912,
+      "sha256": "df47e148140b4feaeb9c40feef4c86341b07bf550e27ae51a4f81f0cc0018f80"
+    },
+    {
+      "path": "assets/workshop/floor-dose-dimensions.svg",
+      "bytes": 49170,
+      "sha256": "e08d70e299f6d36faff19718ed75623a9111ae9d2497f1edb578d95227f829de"
+    },
+    {
+      "path": "assets/workshop/floor-dose-geometry.json",
+      "bytes": 531,
+      "sha256": "d9116d0bdcf63d93f7343da668ca63691a91f45deb7a599a2b59ae3cccb948a6"
+    },
+    {
+      "path": "assets/workshop/floor-dose-development-pack.zip",
+      "bytes": 282049,
+      "sha256": "6323a86ed4366fb1e21e8ac85d55908c1219c3604e9ead3ef7598865f4064721"
+    },
+    {
+      "path": "assets/workshop/sponge-dock.blend",
+      "bytes": 112079,
+      "sha256": "9b2a985f6daad0f5239714425feb222a4dbf3c81dd34a2d93549e6d4cd6fbaf0"
+    },
+    {
+      "path": "assets/workshop/sponge-dock.glb",
+      "bytes": 208076,
+      "sha256": "39450eb9ff50ebcacad003bec3633a1a94e97cc6ebad75c7a3d1df2139b3668a"
+    },
+    {
+      "path": "assets/workshop/sponge-dock.jpg",
+      "bytes": 38151,
+      "sha256": "8561b6e1eda5e96566c82d841a396a43438f296065a42bd5fe0cca0fd391ac04"
+    },
+    {
+      "path": "assets/workshop/sponge-dock-front.jpg",
+      "bytes": 34303,
+      "sha256": "1190726c7c3c98a2434f9885a41033c44ea082d5304be0f5b2464293299eda67"
+    },
+    {
+      "path": "assets/workshop/sponge-dock-dimensions.svg",
+      "bytes": 47007,
+      "sha256": "0d5e8ba452e0ea78c8f5d5e42a1235a2a9193e6e4063189aecdf79ca1492004c"
+    },
+    {
+      "path": "assets/workshop/sponge-dock-geometry.json",
+      "bytes": 531,
+      "sha256": "c2c5634514cf1107da5c56ce3c6f57277037bfc1a27ecb16f5c4e72d1b75f3f6"
+    },
+    {
+      "path": "assets/workshop/sponge-dock-development-pack.zip",
+      "bytes": 240463,
+      "sha256": "2ca2a1adcc3c4cbb1affa006c324ac96677e687ee36b6a94d9c842e52355a9b7"
+    },
+    {
+      "path": "assets/workshop/dusting-sleeve.blend",
+      "bytes": 117160,
+      "sha256": "dd69bf07feebdeed0eef9b8098288a7cae96693adf38c54b6d76cd651e18a0f5"
+    },
+    {
+      "path": "assets/workshop/dusting-sleeve.glb",
+      "bytes": 388428,
+      "sha256": "ed082df3282d77532775458ccdb1e137aa53ab280e52c93cfa8048326b647397"
+    },
+    {
+      "path": "assets/workshop/dusting-sleeve.jpg",
+      "bytes": 29544,
+      "sha256": "7d8547e64b7c110fa392f09ebcdae5a20a4072d244e1ddcb6f5f2a167f85ee91"
+    },
+    {
+      "path": "assets/workshop/dusting-sleeve-front.jpg",
+      "bytes": 32690,
+      "sha256": "78b53925ba1bc974dbc0007f2d842fc76ae61cccb3891e5d0a2391dbf6fa3521"
+    },
+    {
+      "path": "assets/workshop/dusting-sleeve-dimensions.svg",
+      "bytes": 44847,
+      "sha256": "9efc65933cfce98e4f738d1605461e0f8090f80b3584bc14f08fdd5aeb0fc0a7"
+    },
+    {
+      "path": "assets/workshop/dusting-sleeve-geometry.json",
+      "bytes": 534,
+      "sha256": "aa5e2efa94659bdf1a13a9ae2e7a0422300ff708743123b1d82dc83b1cf5c7bf"
+    },
+    {
+      "path": "assets/workshop/dusting-sleeve-development-pack.zip",
+      "bytes": 226213,
+      "sha256": "b13bb9302468f7d74ef119345e044e8adb56e495ba2fe809ba336df4ce216c5f"
+    },
+    {
+      "path": "assets/workshop/toilet-dock.blend",
+      "bytes": 138465,
+      "sha256": "882478aa7d2ad675499233c1a6e8330be91067bb8e6c16713878a2efa6cbf465"
+    },
+    {
+      "path": "assets/workshop/toilet-dock.glb",
+      "bytes": 646492,
+      "sha256": "ce4e916fa251edb11ea58fb09d4047c9a443a1ae976661f4a998f779dd37e937"
+    },
+    {
+      "path": "assets/workshop/toilet-dock.jpg",
+      "bytes": 28927,
+      "sha256": "5a100de55ba584f2c33cf2602455566586982280b1f808ef20e1047c9ac461e9"
+    },
+    {
+      "path": "assets/workshop/toilet-dock-front.jpg",
+      "bytes": 29668,
+      "sha256": "ea93aea0d3181b9c7394850601996e1ce08985762f331ac00b919ce3395b7ac1"
+    },
+    {
+      "path": "assets/workshop/toilet-dock-dimensions.svg",
+      "bytes": 40831,
+      "sha256": "ed2dd75736189f79021a89bc968ab532a4221189f632b21e45cb9b2f420ca872"
+    },
+    {
+      "path": "assets/workshop/toilet-dock-geometry.json",
+      "bytes": 548,
+      "sha256": "898378ef7ead7301bb0619b4138cfa74216e6960fdfb9052753d5574ea0658b9"
+    },
+    {
+      "path": "assets/workshop/toilet-dock-development-pack.zip",
+      "bytes": 253356,
+      "sha256": "76ca978b39faab21dc3d82403d351c4b59bfde01c15ec85d870013a1c0f628e6"
+    },
+    {
+      "path": "assets/workshop/upright-sweep.blend",
+      "bytes": 119926,
+      "sha256": "c8f9fe967759770b4477d98869b490430a0bf134b92a9fa7829b8367af996e02"
+    },
+    {
+      "path": "assets/workshop/upright-sweep.glb",
+      "bytes": 437392,
+      "sha256": "c25cf7e567553672b9caf5f843c45b6f77d89952f904d164153f37e0bb3a9e13"
+    },
+    {
+      "path": "assets/workshop/upright-sweep.jpg",
+      "bytes": 31923,
+      "sha256": "88a21be8d870b8d2d4dfa20f0e566de50c993111b9b0506f046518fb179d7877"
+    },
+    {
+      "path": "assets/workshop/upright-sweep-front.jpg",
+      "bytes": 29618,
+      "sha256": "5b9cdb0a751e6cb4461a10e6431086346e03d746232b7fad6b7f95aa6c41c30d"
+    },
+    {
+      "path": "assets/workshop/upright-sweep-dimensions.svg",
+      "bytes": 40749,
+      "sha256": "1487f40937a3e918b4cec13f404857a36da24185e7e2e33c4486d3a278424ba7"
+    },
+    {
+      "path": "assets/workshop/upright-sweep-geometry.json",
+      "bytes": 551,
+      "sha256": "851c08c85aa5108a1b3976be206c04254d763e8f802c92167790b68382cbc08d"
+    },
+    {
+      "path": "assets/workshop/upright-sweep-development-pack.zip",
+      "bytes": 246079,
+      "sha256": "ed6876f7705da6b4e008886354e3b4daa705c0fb24365a450c2c1c4d659a9fc2"
+    },
+    {
+      "path": "assets/workshop/glass-finish.blend",
+      "bytes": 108551,
+      "sha256": "122adf618b1b2bc287263049c2edcb2d61af9d45bab77a7bf53933ab30c3b0a7"
+    },
+    {
+      "path": "assets/workshop/glass-finish.glb",
+      "bytes": 168484,
+      "sha256": "557e076354b889bb78712aaf5082c57b75b06828d39afcf874b9278ff596ff3e"
+    },
+    {
+      "path": "assets/workshop/glass-finish.jpg",
+      "bytes": 39114,
+      "sha256": "d39ffdeb83f9ae2caee2fb7000c9297577d00a513c9a74f0cd62b92c2deb2655"
+    },
+    {
+      "path": "assets/workshop/glass-finish-front.jpg",
+      "bytes": 44920,
+      "sha256": "b8bc16cc49a9c7abe068ca167e424484a90721b38b9be8753d9464cad5cc48e7"
+    },
+    {
+      "path": "assets/workshop/glass-finish-dimensions.svg",
+      "bytes": 61172,
+      "sha256": "5fb966ce162f199963639ee4168208d67f07b5eb8ffbef3969360c6579afb82c"
+    },
+    {
+      "path": "assets/workshop/glass-finish-geometry.json",
+      "bytes": 533,
+      "sha256": "8a1eea6a38bbf53f121e4612b8b559e2fef557eb168b5b1813502663a6dc4dbb"
+    },
+    {
+      "path": "assets/workshop/glass-finish-development-pack.zip",
+      "bytes": 264942,
+      "sha256": "9762225cc567eb89a04dbe549fd82d08b5b086a3293dea12cb983e3465a8fc0c"
+    },
+    {
+      "path": "assets/workshop/disinfect-pack.blend",
+      "bytes": 112523,
+      "sha256": "baf3831074b6e64d495dce59512a00ec57953a9e99e82fe10ca95fead1f1f27c"
+    },
+    {
+      "path": "assets/workshop/disinfect-pack.glb",
+      "bytes": 287352,
+      "sha256": "8cf5f69aca1e2680ede66b1df6a374cb18d643b73dcdc9aed415837cee8ee5c0"
+    },
+    {
+      "path": "assets/workshop/disinfect-pack.jpg",
+      "bytes": 35093,
+      "sha256": "4468ec468a444da5a302438e440cb177388f2db54f53bf2679946867c30fea4a"
+    },
+    {
+      "path": "assets/workshop/disinfect-pack-front.jpg",
+      "bytes": 35947,
+      "sha256": "d7c6fe887f5e6646addd48a4835cf5df205c9036d97c4f7e3541930b2fe59fe7"
+    },
+    {
+      "path": "assets/workshop/disinfect-pack-dimensions.svg",
+      "bytes": 49199,
+      "sha256": "a4131980e2be09fcfedcab320adb2b1097ecdba2654abd94abf29d3de88ec542"
+    },
+    {
+      "path": "assets/workshop/disinfect-pack-geometry.json",
+      "bytes": 519,
+      "sha256": "87b60897902a3d7dd11b383d0f93b6cb0ed38888594c344221c6c1584f87b480"
+    },
+    {
+      "path": "assets/workshop/disinfect-pack-development-pack.zip",
+      "bytes": 274171,
+      "sha256": "374a553a921aa60154de4aa00f94d93295f7446b6547a7de918447ab05ef9eb2"
+    },
+    {
+      "path": "assets/workshop/service-vac.blend",
+      "bytes": 110012,
+      "sha256": "ed389e527411d822b9b3997b26c349cd6e28639e4cd538e9b65b5df55799b5d5"
+    },
+    {
+      "path": "assets/workshop/service-vac.glb",
+      "bytes": 231260,
+      "sha256": "698e2aac59bbbb87a78a14652e4fdc027f1b5a9b0c2c3c6df6ead7b774576d77"
+    },
+    {
+      "path": "assets/workshop/service-vac.jpg",
+      "bytes": 36249,
+      "sha256": "2319e4d176a6639c569ce547fe897fc857a7025f5b81fa82adacff68be464e12"
+    },
+    {
+      "path": "assets/workshop/service-vac-front.jpg",
+      "bytes": 38598,
+      "sha256": "e4c8b86bf091b4bd3671a02547fd94e50390909616ad388e7f6e582a3fcb2bc8"
+    },
+    {
+      "path": "assets/workshop/service-vac-dimensions.svg",
+      "bytes": 52732,
+      "sha256": "68fb96fb644e33ed5f3319adfe85a2c56dcf13f14f004f18613017d369d54b22"
+    },
+    {
+      "path": "assets/workshop/service-vac-geometry.json",
+      "bytes": 548,
+      "sha256": "05fa5a4e5349f8f3aa85e27621cb7dd9877631f9a301c2bcb734786ff81594bf"
+    },
+    {
+      "path": "assets/workshop/service-vac-development-pack.zip",
+      "bytes": 261412,
+      "sha256": "a8c0c47699799e9a6d718f7bc5fd9c11692491697bdf3a8d6b4f6902c211996c"
+    },
+    {
+      "path": "assets/workshop/drill-head-kit.blend",
+      "bytes": 129544,
+      "sha256": "3c109edb171e2989cfe199eb90149fbd8eb4b12029c5acbb7f4bc12ae329984b"
+    },
+    {
+      "path": "assets/workshop/drill-head-kit.glb",
+      "bytes": 567448,
+      "sha256": "801b89c4848fa8077ffcc75bc9036ec9d8e7ec3dc32770252a1ec72c29afa65b"
+    },
+    {
+      "path": "assets/workshop/drill-head-kit.jpg",
+      "bytes": 46032,
+      "sha256": "6128d0568eef62fdb66154c3df574f5015aa293f82314794965509965a09c9a2"
+    },
+    {
+      "path": "assets/workshop/drill-head-kit-front.jpg",
+      "bytes": 41900,
+      "sha256": "a239b891dd6cd9b35a3bc519d3905c4efab8d712558e697d507c4b3b458e20c3"
+    },
+    {
+      "path": "assets/workshop/drill-head-kit-dimensions.svg",
+      "bytes": 57144,
+      "sha256": "c72b9f1a796ac8bc068d100a484edb9d52fefda86f4b3527b2186d547d63b54f"
+    },
+    {
+      "path": "assets/workshop/drill-head-kit-geometry.json",
+      "bytes": 535,
+      "sha256": "08cad64f8acef51f4a62ca74a8a9c9729561c34ba029f9d2d8dad756da97618c"
+    },
+    {
+      "path": "assets/workshop/drill-head-kit-development-pack.zip",
+      "bytes": 290458,
+      "sha256": "6f8e23da797c3870dfb8aafaa6e4afe04513a779104513cb34b49c402e489a40"
+    },
+    {
+      "path": "assets/workshop/specialty-dose.blend",
+      "bytes": 119069,
+      "sha256": "4fc13e340aac8245670fe90b0f3cf2d693a2631904223132207891ce849333d0"
+    },
+    {
+      "path": "assets/workshop/specialty-dose.glb",
+      "bytes": 287976,
+      "sha256": "b16997f0ed729c4380604b64b39899e3edf22918d4da35b5aceabdac69be6260"
+    },
+    {
+      "path": "assets/workshop/specialty-dose.jpg",
+      "bytes": 36263,
+      "sha256": "78368f18b124305cbddbd6e680ed9b1c135af285964b243524b929c16ee52864"
+    },
+    {
+      "path": "assets/workshop/specialty-dose-front.jpg",
+      "bytes": 35916,
+      "sha256": "860255ae7dfe5325265efbf9be0201c52ec73b71e7934e9965388c87d181ed9b"
+    },
+    {
+      "path": "assets/workshop/specialty-dose-dimensions.svg",
+      "bytes": 49181,
+      "sha256": "c1ae9822e1367407a960e8d70792ad39598f46765ac541922805752c5f01f7e2"
+    },
+    {
+      "path": "assets/workshop/specialty-dose-geometry.json",
+      "bytes": 535,
+      "sha256": "94fb631bf3b743ebb1ff464e05cd7086e172085d0bb0b63b9f9c4dc4bb97e347"
+    },
+    {
+      "path": "assets/workshop/specialty-dose-development-pack.zip",
+      "bytes": 282048,
+      "sha256": "20316b6bfa5749b87842d6724abd4be0efb5dc1a58da049ae56af8ecfd697399"
+    },
+    {
+      "path": "assets/workshop/odor-cartridge.blend",
+      "bytes": 111433,
+      "sha256": "968143343f8bcebe5427cf25c7e212e99fcd261bc50b731a8de34f7ac2ca42c4"
+    },
+    {
+      "path": "assets/workshop/odor-cartridge.glb",
+      "bytes": 273792,
+      "sha256": "678bbea4e739438cee710b4ad2ef2e92a8fa11ff8cd8c261a73555e7364df680"
+    },
+    {
+      "path": "assets/workshop/odor-cartridge.jpg",
+      "bytes": 39177,
+      "sha256": "0f116da3580326993a9c0207be73fa226751972643dd0b8a0bdb6c1efe8c495c"
+    },
+    {
+      "path": "assets/workshop/odor-cartridge-front.jpg",
+      "bytes": 58506,
+      "sha256": "8c41ec4060f3394181f0b7d6792f2d4726d2bcc6280f2c1d23454eb0140ac3a2"
+    },
+    {
+      "path": "assets/workshop/odor-cartridge-dimensions.svg",
+      "bytes": 79276,
+      "sha256": "393621967dbe861c7eb456fa33fe8656c7c3ec139ca6615c8bd889f3ad963e09"
+    },
+    {
+      "path": "assets/workshop/odor-cartridge-geometry.json",
+      "bytes": 519,
+      "sha256": "a2fead028ad0737f4be2a909928e13c86cdfed21ee5fa99bac66981aadb91235"
+    },
+    {
+      "path": "assets/workshop/odor-cartridge-development-pack.zip",
+      "bytes": 287315,
+      "sha256": "66dbc0aa91467029622f8a09c9c4a38026613d7d119e1246d77b4f2b7b9dcab6"
+    },
+    {
+      "path": "assets/workshop/auto-reset.blend",
+      "bytes": 138183,
+      "sha256": "a22aad4c51ec4a774f0c69409ededad5a049b6d52b1321c1dc61659a7f94512c"
+    },
+    {
+      "path": "assets/workshop/auto-reset.glb",
+      "bytes": 778440,
+      "sha256": "e55e50956f694c7d025f9a428c3ed7855e2eed112f71c229fc8f96b73596acb6"
+    },
+    {
+      "path": "assets/workshop/auto-reset.jpg",
+      "bytes": 42959,
+      "sha256": "d02b4ebea6606800d1502d4e2ff38258f5d04bac4aa752242acec991924d42b0"
+    },
+    {
+      "path": "assets/workshop/auto-reset-front.jpg",
+      "bytes": 44823,
+      "sha256": "cf6299aa4fe11df206f2eb8efd992b784af395f8e02eeb1fea37f947236b9d52"
+    },
+    {
+      "path": "assets/workshop/auto-reset-dimensions.svg",
+      "bytes": 61045,
+      "sha256": "d04fe11951b6a42817cb0c95166bdf137d8165f7c8c391e9a45d3f1b2bbf7659"
+    },
+    {
+      "path": "assets/workshop/auto-reset-geometry.json",
+      "bytes": 531,
+      "sha256": "1942bcd709a543202c9215a98be22a2a8c900b0c95dca4bb4d7f13da8aa06921"
+    },
+    {
+      "path": "assets/workshop/auto-reset-development-pack.zip",
+      "bytes": 355353,
+      "sha256": "0990e13439ac3a20e597c79315e4467fe45af3e0232e0e63fc7e41f0dfd2fceb"
+    },
+    {
+      "path": "assets/workshop/drain-capture.blend",
+      "bytes": 112669,
+      "sha256": "9d5f1eaf0a517e3bedeb500783981df59073c414a2bfeef50c575cfa016da7e6"
+    },
+    {
+      "path": "assets/workshop/drain-capture.glb",
+      "bytes": 159952,
+      "sha256": "78430420eaccb6717c805ced36f2405db3dd444d09a08da3b7551b1d8b552917"
+    },
+    {
+      "path": "assets/workshop/drain-capture.jpg",
+      "bytes": 41926,
+      "sha256": "0f67240927e1b5d4ae496a9448e4020cad3fcaba9792c91ff512cc17c14f51d9"
+    },
+    {
+      "path": "assets/workshop/drain-capture-front.jpg",
+      "bytes": 35727,
+      "sha256": "3b2b126143622b8dd7b0afb0fee956600a6e1c2b895cd5184ed73038b007718c"
+    },
+    {
+      "path": "assets/workshop/drain-capture-dimensions.svg",
+      "bytes": 48918,
+      "sha256": "289c4e751185322722024499736c20dc1d4bb210ce3fb15d660412649dfba553"
+    },
+    {
+      "path": "assets/workshop/drain-capture-geometry.json",
+      "bytes": 533,
+      "sha256": "5f3c6db0ea52eb14231e3bd55cb29a3c7e6c34adec0de897f82980fe85d4f2de"
+    },
+    {
+      "path": "assets/workshop/drain-capture-development-pack.zip",
+      "bytes": 250522,
+      "sha256": "62e1f799386a8d261a05605b856022aa5ba8b77bad00d8eb64728cd95bc62eaa"
+    },
+    {
+      "path": "assets/workshop/care-gloves.blend",
+      "bytes": 116359,
+      "sha256": "57a34292cbcd90896334155876e8224f36e264c4ead0f21d7697f41c01186ed0"
+    },
+    {
+      "path": "assets/workshop/care-gloves.glb",
+      "bytes": 450180,
+      "sha256": "c3f3d711d9bbc72650975b475cb1306410beccdb2a329738795a8f319db1d3d2"
+    },
+    {
+      "path": "assets/workshop/care-gloves.jpg",
+      "bytes": 41863,
+      "sha256": "81e6053832f4f88341b65a0580f05e7da51f9680812d8ca4c67db444e91f7c5b"
+    },
+    {
+      "path": "assets/workshop/care-gloves-front.jpg",
+      "bytes": 29725,
+      "sha256": "d69380c09f4be17456c6490a7b50aaae3c2e98244afdc5e31f35500a6baf0a32"
+    },
+    {
+      "path": "assets/workshop/care-gloves-dimensions.svg",
+      "bytes": 40915,
+      "sha256": "4414e80f79c0bc5bf858ba04f06325bc7248e5334bd2d71891465aebcd7a34d9"
+    },
+    {
+      "path": "assets/workshop/care-gloves-geometry.json",
+      "bytes": 531,
+      "sha256": "1d0583adb810b98fb7678e7bfe9ba4596800691886dcc543f4b8e4ce0b61e627"
+    },
+    {
+      "path": "assets/workshop/care-gloves-development-pack.zip",
+      "bytes": 263965,
+      "sha256": "5b42e19669e3279b4c5d68a1dcbc9406fd5f0af7af3d9711ad059a29cd842196"
+    },
+    {
+      "path": "assets/workshop/outdoor-brush.blend",
+      "bytes": 142581,
+      "sha256": "2e251325845ee3358af14edd34da9ecded4080ce5a25ac62b120312321b2af91"
+    },
+    {
+      "path": "assets/workshop/outdoor-brush.glb",
+      "bytes": 913376,
+      "sha256": "a9dfe90a34d475303406cb2d9a9866410981c67967a65e7789113e8e2a2b67a9"
+    },
+    {
+      "path": "assets/workshop/outdoor-brush.jpg",
+      "bytes": 25737,
+      "sha256": "6dd160c2079653a1b3a2b0990c4743ffa387b69d888aecd20613f2588397508d"
+    },
+    {
+      "path": "assets/workshop/outdoor-brush-front.jpg",
+      "bytes": 27398,
+      "sha256": "5250d320c4aa01a5eb85ac6b72fe2f2c803d5c87af27761af36139ea5a0ee61f"
+    },
+    {
+      "path": "assets/workshop/outdoor-brush-dimensions.svg",
+      "bytes": 37812,
+      "sha256": "39888d997318e2b907af1ae792197457fc8dfab4eea858c2df318c297c8c23b8"
+    },
+    {
+      "path": "assets/workshop/outdoor-brush-geometry.json",
+      "bytes": 535,
+      "sha256": "9a51f171dbe7050ff1237cfefd247b93434ff489c512724e0837a39e1c528e9a"
+    },
+    {
+      "path": "assets/workshop/outdoor-brush-development-pack.zip",
+      "bytes": 241962,
+      "sha256": "6beee0634eec02031478d965312385fa2ead17ed7236aa598fd371acce014cfb"
+    }
+  ]
+}

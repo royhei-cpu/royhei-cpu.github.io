@@ -1,0 +1,17 @@
+{
+  "entry": "homecare-UXV37MYR.js",
+  "stylesheet": "homecare-53d45ad85ee5.css",
+  "sources": {
+    "upgrade.jsx": "3cf829bf8a2fb6df52ac72f31ab2879a56734c33910ed79bb67123e5f08c09dc",
+    "upgrade-model.js": "35022659dda91be460b47038d76332df48c20a1473e2f8da9ce8282ab4dbfcdc",
+    "workshop-ui.jsx": "0cae4880294346c7f451a140e8770b030b31cba009cc02f1218aa26ad0144da7",
+    "workshop-logic.js": "10ce93d609023d4afa588556818566f30aa5b43260f4fb066225c8a0659b3d5c",
+    "workshop-viewer.js": "e992495dd9e4ff155cb785f753d9a63300c19ced5bfbc40218b290f498ac21aa",
+    "workshop-data.json": "0771ebb1974f357424f069d7f5d4e49a0ccfcedfdbf0659fc78f39e4a7e0cb31",
+    "audio-ui.jsx": "e5622323d80f105da2f392a78c76adeab52f8518f3b056584fa503a7927e6ae2",
+    "audio-engine.js": "861d1adbad6217daf90a57faa5242daea2f1f04cdfa96d50230e8b238fd6f761",
+    "global-logic.js": "b35988211434f1953cdb2115cf85233aa14bdcdef80b705cc6bceb68c8525f85",
+    "workshop.css": "169b0fb80a64a850d7548dbc3a70e83ad3e99881eae178b1330e3f5e35cfe8d5",
+    "upgrade.css": "016b922139890d9c9ed1335fdc0cd77b78b5f6859ce4ccb4d722f18e32a4590c"
+  }
+}
