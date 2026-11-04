@@ -1,12 +1,12 @@
 (function () {
   'use strict';
   if (document.body.dataset.soundScene !== 'workshop') return;
-  const ids = ['studio-controls', 'specifications', 'upgrade-details'];
+  const ids = ['national-brand-references', 'studio-controls', 'specifications', 'shortlist-comparison'];
   const links = [...document.querySelectorAll('.workshop-nav a')].filter(a => ids.includes(a.hash.slice(1)));
   function current(id) {
     links.forEach(a => { const active = a.hash === '#' + id; a.classList.toggle('is-current', active); if (active) a.setAttribute('aria-current', 'step'); else a.removeAttribute('aria-current'); });
   }
-  current(ids.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'studio-controls');
+  current(ids.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'national-brand-references');
   links.forEach(a => a.addEventListener('click', () => current(a.hash.slice(1))));
   if (typeof IntersectionObserver === 'function') {
     const observer = new IntersectionObserver(entries => {
