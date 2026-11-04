@@ -4,11 +4,11 @@ p=Path(__file__).parent
 d=json.loads((p/'data.json').read_text());a=json.loads((p/'photos.json').read_text());w=json.loads((p/'weekly.json').read_text());ids=[x['id']for x in a['photos']]
 assert len(ids)==len(set(ids))
 assert set(a['byBrand'])=={b['id']for b in d['brands']}
-assert all(a['byBrand'].values())
+assert all(isinstance(v,list) for v in a['byBrand'].values())  # Empty is an explicit evidence gap, not a fabricated image.
 assets={}
 for f in p.glob('photo-assets-*.js'):
  s=f.read_text();assets.update(json.loads(s[s.index('{',s.index('||{}')+4):s.rfind('}')+1]))
-assert set(ids)==set(assets)|{x['id'] for x in a['photos'] if x.get('localPath')}
+assert set(ids)==set(assets)|{x['id'] for x in a['photos'] if x.get('localPath') or x.get('remoteReference')}
 for x in a['photos']:
  if x.get('localPath'):assert (p/x['localPath']).is_file()
 for x in a['photos']:

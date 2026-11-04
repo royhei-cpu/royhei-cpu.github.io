@@ -5,7 +5,7 @@
   "baseline": true,
   "schedule": "Mondays around 10:00 a.m. Shenzhen time",
   "nextScheduled": "2026-11-09",
-  "coverage": "Focused global launch scan plus the existing 98-brand / 47-channel source map. This is not an exhaustive worldwide launch census.",
+  "coverage": "Weekly launch edition remains 2026-11-03; brand coverage expanded on 2026-11-04 to 173 profiles. New profiles are not new launches. Worldwide SKU and brand completeness remains unverified.",
   "items": [
     {
       "id": "kith-tumi-2026",
@@ -42,7 +42,7 @@
     {
       "id": "briefing-sd-beige",
       "brand": "BRIEFING",
-      "brandId": null,
+      "brandId": "briefing",
       "title": "SD Light Beige: wider rollout planned",
       "date": "2026-11-02",
       "dateType": "Planned general sale date; Isetan preview began 21 October",
@@ -162,5 +162,11 @@
       "label": "First weekly dashboard / baseline",
       "period": "28 October–3 November 2026"
     }
-  ]
+  ],
+  "coverageRefresh": {
+    "date": "2026-11-04",
+    "addedBrands": 75,
+    "totalBrands": 173,
+    "note": "DTA / DTA Nova added; existing price and news brand references reconciled."
+  }
 }

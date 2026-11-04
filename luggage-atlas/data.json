@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "brands": [
     {
       "id": "90fun",
@@ -44,7 +44,116 @@
       ],
       "groups": [
         "Minimalist"
+      ],
+      "aliases": [
+        "90分",
+        "90FUN"
       ]
+    },
+    {
+      "id": "ali",
+      "name": "A.L.I. / Asia Luggage",
+      "country": "Market: Japan",
+      "region": "Asia",
+      "collection": "Dekakaru Edge2 ALI-078",
+      "style": "Front opening · Expansion · Wheel stopper",
+      "features": [
+        "Front opening",
+        "Expansion",
+        "Wheel stopper"
+      ],
+      "observation": "Reviewed source documents Dekakaru Edge2 ALI-078. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.rakuten.co.jp/asialuggage/",
+      "official": "https://www.rakuten.co.jp/asialuggage/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "A.L.I",
+        "retailer": "Yodobashi",
+        "amount": 23980,
+        "currency": "JPY",
+        "product": "FiL Pake ALI-6060-18W Navy",
+        "market": "Japan",
+        "date": "2026-11-03",
+        "kind": "Retailer displayed price",
+        "source": "https://www.yodobashi.com/product/100000001007840985/",
+        "note": "Bestseller snapshot includes different case sizes.",
+        "format": "Other / size not fixed"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.rakuten.co.jp/asialuggage/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [
+        "A.L.I",
+        "Asia Luggage",
+        "アジアラゲージ"
+      ],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "aaivv",
+      "name": "AAIVV",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "4-piece ABS hardshell luggage set, 13/20/26/28 inch",
+      "style": "Travel luggage · Retailer-observed assortment",
+      "features": [
+        "Travel luggage",
+        "Retailer-observed assortment"
+      ],
+      "observation": "Reviewed source documents 4-piece ABS hardshell luggage set, 13/20/26/28 inch. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://shop.tiktok.com/us/pdp/durable-4-piece-luggage-set-expandable-suitcases-tsa-lock/1732041409039864788",
+      "official": "https://shop.tiktok.com/us/pdp/durable-4-piece-luggage-set-expandable-suitcases-tsa-lock/1732041409039864788",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "AAIVV",
+        "retailer": "TikTok Shop US",
+        "amount": 199,
+        "currency": "USD",
+        "product": "4-piece ABS hardshell luggage set, 13/20/26/28 inch",
+        "market": "United States",
+        "date": "2026-11-03",
+        "kind": "Marketplace displayed price",
+        "source": "https://shop.tiktok.com/us/pdp/durable-4-piece-luggage-set-expandable-suitcases-tsa-lock/1732041409039864788",
+        "note": "Seller AAIVV Family. Seller total 6,118 sold covers the shop and is NOT luggage SKU sales. Do not multiply current price by rounded sold count to estimate revenue.",
+        "format": "Set"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://shop.tiktok.com/us/pdp/durable-4-piece-luggage-set-expandable-suitcases-tsa-lock/1732041409039864788"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "ace",
@@ -221,6 +330,97 @@
       ]
     },
     {
+      "id": "american-flyer",
+      "name": "American Flyer",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Printed luggage and travel sets",
+      "style": "Prints · Coordinated sets · Soft travel formats",
+      "features": [
+        "Prints",
+        "Coordinated sets",
+        "Soft travel formats"
+      ],
+      "observation": "Reviewed source documents Printed luggage and travel sets. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.longlatinc.com/pages/american-flyer",
+      "official": "https://www.longlatinc.com/pages/american-flyer",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.longlatinc.com/pages/american-flyer"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "american-green-travel",
+      "name": "American Green Travel",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Melrose S / Denali / Harbor",
+      "style": "Hardside · Travel sets · Coordinated vanity cases",
+      "features": [
+        "Hardside",
+        "Travel sets",
+        "Coordinated vanity cases"
+      ],
+      "observation": "Reviewed source documents Melrose S / Denali / Harbor. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.primausatravel.com/about",
+      "official": "https://www.primausatravel.com/about",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "American Green Travel",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 229.99,
+        "currency": "USD",
+        "product": "Harbor 3-piece set, AGL920-3E-BLK",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.homedepot.com/b/American-Green-Travel/N-5yc1vZn1x",
+        "note": "Home Depot observed offer; separate retailer prices may differ.",
+        "regular": null,
+        "format": "Set"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.primausatravel.com/about"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "american-tourister",
       "name": "American Tourister",
       "country": "United States",
@@ -326,6 +526,45 @@
       ]
     },
     {
+      "id": "aristocrat",
+      "name": "Aristocrat",
+      "country": "Market: India",
+      "region": "Asia",
+      "collection": "VIP Industries travel luggage",
+      "style": "Value positioning · Travel luggage · Business and leisure",
+      "features": [
+        "Value positioning",
+        "Travel luggage",
+        "Business and leisure"
+      ],
+      "observation": "Reviewed source documents VIP Industries travel luggage. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.vipindustries.co.in/our-brands",
+      "official": "https://www.vipindustries.co.in/our-brands",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.vipindustries.co.in/our-brands"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "arlo-skye",
       "name": "Arlo Skye",
       "country": "United States",
@@ -368,6 +607,96 @@
         "Aluminum & hybrid",
         "Minimalist"
       ]
+    },
+    {
+      "id": "arowana",
+      "name": "Arowana / 亞諾納",
+      "country": "Market: Taiwan",
+      "region": "Asia",
+      "collection": "Hippo / three-opening suitcase",
+      "style": "Front opening · Top opening · Multiple access layouts",
+      "features": [
+        "Front opening",
+        "Top opening",
+        "Multiple access layouts"
+      ],
+      "observation": "Reviewed source documents Hippo / three-opening suitcase. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.arowana.com.tw/",
+      "official": "https://www.arowana.com.tw/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "Arowana / 亞諾納",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 5490,
+        "currency": "TWD",
+        "product": "20-inch 極地悍將河馬箱",
+        "market": "Taiwan",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.arowana.com.tw/",
+        "note": "",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.arowana.com.tw/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "artrips",
+      "name": "artrips",
+      "country": "Market: United States retail",
+      "region": "North America",
+      "collection": "artrips Large Checked Luggage 28 Inch, Hard Shell Suitcase with Spinner Wheels, Large Travel Suitcase for Long Trips and Family Travel, Brown",
+      "style": "Hardside · Spinner wheels",
+      "features": [
+        "Hardside",
+        "Spinner wheels"
+      ],
+      "observation": "Named luggage product documented by a retailer listing. Current stock, launch date and complete brand assortment are not verified.",
+      "source": "https://www.shopabunda.com/products/artrips-hardside-lightweight-suitcase-luggage-overhead-durable-travel-bag-with-spinner-wheels-tsa-lock-brown-checked-large-28-inch-98l",
+      "official": "https://www.shopabunda.com/products/artrips-hardside-lightweight-suitcase-luggage-overhead-durable-travel-bag-with-spinner-wheels-tsa-lock-brown-checked-large-28-inch-98l",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://m.media-amazon.com/images/I/61ORq6BEySL._AC_US500_.jpg",
+      "imageCaption": "artrips Large Checked Luggage 28 Inch, Hard Shell Suitcase with Spinner Wheels, Large Travel Suitcase for Long Trips and Family Travel, Brown",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Abunda retail listing",
+          "url": "https://www.shopabunda.com/products/artrips-hardside-lightweight-suitcase-luggage-overhead-durable-travel-bag-with-spinner-wheels-tsa-lock-brown-checked-large-28-inch-98l"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "assembly",
@@ -469,6 +798,84 @@
       ]
     },
     {
+      "id": "bagsmart",
+      "name": "BAGSMART",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Getaway 20-inch carry-on",
+      "style": "Hardside · Shock-absorbing wheels · Organized packing",
+      "features": [
+        "Hardside",
+        "Shock-absorbing wheels",
+        "Organized packing"
+      ],
+      "observation": "Reviewed source documents Getaway 20-inch carry-on. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.bagsmart.com/products/getaway-carry-on-luggage?variant=41230567833682",
+      "official": "https://www.bagsmart.com/products/getaway-carry-on-luggage?variant=41230567833682",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/1990/3257/files/BM0105025AN220-01_0ad91350-ce13-4d95-a5ec-eb3e8191ad3d.webp?v=1788502281",
+      "imageCaption": "Getaway 20\" Carry-On",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.bagsmart.com/products/getaway-carry-on-luggage?variant=41230567833682"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "bebe",
+      "name": "bebe",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Adriana 29-inch hardside",
+      "style": "Fashion styling · Hardside · Spinner wheels",
+      "features": [
+        "Fashion styling",
+        "Hardside",
+        "Spinner wheels"
+      ],
+      "observation": "Reviewed source documents Adriana 29-inch hardside. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.macys.com/shop/home/luggage-backpacks/luggage/hardsided?id=340044",
+      "official": "https://www.macys.com/shop/home/luggage-backpacks/luggage/hardsided?id=340044",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.macys.com/shop/home/luggage-backpacks/luggage/hardsided?id=340044"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "bellroy",
       "name": "Bellroy",
       "country": "Australia",
@@ -511,6 +918,126 @@
         "Minimalist",
         "Repair & materials"
       ]
+    },
+    {
+      "id": "ben-sherman",
+      "name": "Ben Sherman",
+      "country": "Market: United States retail",
+      "region": "North America",
+      "collection": "Derby 3-piece set — unavailable reference",
+      "style": "Expandable · Hardside · Spinner wheels",
+      "features": [
+        "Expandable",
+        "Hardside",
+        "Spinner wheels"
+      ],
+      "observation": "Reviewed source documents Derby 3-piece set — unavailable reference. Features refer to the named collection or selected models; confirm the exact SKU. Referenced product was unavailable; this does not establish brand-wide discontinuation.",
+      "source": "https://www.macys.com/shop/product/ben-sherman-derby-3-piece-lightweight-hardside-expandable-spinner-luggage-set?ID=15130163",
+      "official": "https://www.macys.com/shop/product/ben-sherman-derby-3-piece-lightweight-hardside-expandable-spinner-luggage-set?ID=15130163",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://slimages.macysassets.com/is/image/MCY/products/0/optimized/23160710_fpx.tif?$filterlrg$&wid=327",
+      "imageCaption": "Derby 3-piece set — unavailable reference",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.macys.com/shop/product/ben-sherman-derby-3-piece-lightweight-hardside-expandable-spinner-luggage-set?ID=15130163"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Unavailable product reference",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "biaggi",
+      "name": "Biaggi",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Zipsak / folding travel bags",
+      "style": "Foldable · Compact storage · Packing accessories",
+      "features": [
+        "Foldable",
+        "Compact storage",
+        "Packing accessories"
+      ],
+      "observation": "Reviewed source documents Zipsak / folding travel bags. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://biaggi.com/",
+      "official": "https://biaggi.com/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/2616/0984/files/CarryOnSIDE1.png?v=1787095868",
+      "imageCaption": "Glide Expandable Carry On",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://biaggi.com/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "binhao",
+      "name": "BINHAO / 賓豪",
+      "country": "Market: China",
+      "region": "Asia",
+      "collection": "Travel luggage and trolley cases",
+      "style": "Manufacturing · Hard luggage · Travel trolley",
+      "features": [
+        "Manufacturing",
+        "Hard luggage",
+        "Travel trolley"
+      ],
+      "observation": "Reviewed source documents Travel luggage and trolley cases. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.binhaobags.com/en/",
+      "official": "https://www.binhaobags.com/en/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.binhaobags.com/en/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [
+        "宾豪",
+        "賓豪"
+      ],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "boss",
@@ -588,6 +1115,58 @@
       ]
     },
     {
+      "id": "briefing",
+      "name": "BRIEFING",
+      "country": "Market: Japan",
+      "region": "Asia",
+      "collection": "HD / SD hard cases",
+      "style": "Polycarbonate · Organized packing · Business travel",
+      "features": [
+        "Polycarbonate",
+        "Organized packing",
+        "Business travel"
+      ],
+      "observation": "Reviewed source documents HD / SD hard cases. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.briefing-us.com/products/bra263c40?variant=48317332586633",
+      "official": "https://www.briefing-us.com/products/bra263c40?variant=48317332586633",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0703/9251/2649/files/item3d1fa6bc58ea11f1a3080242ac110006.jpg?v=1789027875",
+      "imageCaption": "H-35 HD HYB",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "BRIEFING",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 3650,
+        "currency": "MYR",
+        "product": "H-35 HD HYB, silver, BRA263C40",
+        "market": "Malaysia storefront rendering",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.briefing-us.com/products/bra263c40?variant=48317332586633",
+        "note": "Site rendered MYR despite its .com domain; do not treat as USD. Source includes tax and duties.",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.briefing-us.com/products/bra263c40?variant=48317332586633"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "briggs-riley",
       "name": "Briggs & Riley",
       "country": "United States",
@@ -643,6 +1222,45 @@
       ]
     },
     {
+      "id": "bubule",
+      "name": "BUBULE",
+      "country": "Market: China",
+      "region": "Asia",
+      "collection": "PP and PC luggage",
+      "style": "Injection-molded luggage · Polypropylene · Kids luggage",
+      "features": [
+        "Injection-molded luggage",
+        "Polypropylene",
+        "Kids luggage"
+      ],
+      "observation": "Reviewed source documents PP and PC luggage. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.luggage-en.com/",
+      "official": "https://www.luggage-en.com/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.luggage-en.com/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "bugatti-collections",
       "name": "bugatti Collections",
       "country": "Canada",
@@ -685,6 +1303,58 @@
       "groups": [
         "Colour & expression"
       ]
+    },
+    {
+      "id": "burton",
+      "name": "Burton",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "4-Wheel Flight Deck 38L",
+      "style": "Four wheels · Soft travel format · Outdoor travel",
+      "features": [
+        "Four wheels",
+        "Soft travel format",
+        "Outdoor travel"
+      ],
+      "observation": "Reviewed source documents 4-Wheel Flight Deck 38L. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.burton.com/en-us/collections/travel-bags",
+      "official": "https://www.burton.com/en-us/collections/travel-bags",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "Burton",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 469.95,
+        "currency": "USD",
+        "product": "4-Wheel Flight Deck 38L",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.burton.com/en-us/collections/travel-bags",
+        "note": "",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.burton.com/en-us/collections/travel-bags"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "beis",
@@ -868,6 +1538,84 @@
       ]
     },
     {
+      "id": "carlton",
+      "name": "Carlton",
+      "country": "Market: India / international",
+      "region": "Asia",
+      "collection": "Carlton Edge / Carlton Series",
+      "style": "Business travel · Hard luggage · Soft luggage",
+      "features": [
+        "Business travel",
+        "Hard luggage",
+        "Soft luggage"
+      ],
+      "observation": "Reviewed source documents Carlton Edge / Carlton Series. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://carltontravelbags.com/carltonedge/collections.html",
+      "official": "https://carltontravelbags.com/carltonedge/collections.html",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://carltontravelbags.com/carltonedge/collections.html"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "cat",
+      "name": "Cat / Caterpillar",
+      "country": "Market: Thailand retail",
+      "region": "Asia",
+      "collection": "Carry-on luggage assortment",
+      "style": "Licensed brand · Carry-on cases · Travel luggage",
+      "features": [
+        "Licensed brand",
+        "Carry-on cases",
+        "Travel luggage"
+      ],
+      "observation": "Reviewed source documents Carry-on luggage assortment. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.central.co.th/en/caterpillar/sports-travel/travel/luggages/carry-on-luggages",
+      "official": "https://www.central.co.th/en/caterpillar/sports-travel/travel/luggages/carry-on-luggages",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.central.co.th/en/caterpillar/sports-travel/travel/luggages/carry-on-luggages"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "cellini",
       "name": "Cellini",
       "country": "South Africa",
@@ -919,6 +1667,45 @@
         "Softside & adventure",
         "Repair & materials"
       ]
+    },
+    {
+      "id": "commodore",
+      "name": "Commodore / 戰車",
+      "country": "Market: Taiwan",
+      "region": "Asia",
+      "collection": "9938 series",
+      "style": "Hard shell · Spinner wheels · Repair support",
+      "features": [
+        "Hard shell",
+        "Spinner wheels",
+        "Repair support"
+      ],
+      "observation": "Reviewed source documents 9938 series. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.cpwu.org.tw/static/upload/file/20241226/1735174871757802.pdf",
+      "official": "https://www.cpwu.org.tw/static/upload/file/20241226/1735174871757802.pdf",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.cpwu.org.tw/static/upload/file/20241226/1735174871757802.pdf"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "coolife",
@@ -1014,6 +1801,84 @@
       ]
     },
     {
+      "id": "crown",
+      "name": "CROWN / 皇冠",
+      "country": "Market: China",
+      "region": "Asia",
+      "collection": "Three Van / front-opening luggage",
+      "style": "Front opening · Expansion · Aluminum-frame options",
+      "features": [
+        "Front opening",
+        "Expansion",
+        "Aluminum-frame options"
+      ],
+      "observation": "Reviewed source documents Three Van / front-opening luggage. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.crownluggage.com/",
+      "official": "https://www.crownluggage.com/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.crownluggage.com/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "dakine",
+      "name": "Dakine",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Luggage and roller bags",
+      "style": "Wheeled bags · Outdoor travel · Softside",
+      "features": [
+        "Wheeled bags",
+        "Outdoor travel",
+        "Softside"
+      ],
+      "observation": "Reviewed source documents Luggage and roller bags. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.dakine.com/collections/luggage-roller-bags",
+      "official": "https://www.dakine.com/collections/luggage-roller-bags",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.dakine.com/collections/luggage-roller-bags"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "db",
       "name": "Db",
       "country": "Norway",
@@ -1070,6 +1935,45 @@
       "groups": [
         "Aluminum & hybrid"
       ]
+    },
+    {
+      "id": "dejuno",
+      "name": "Dejuno",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Hardside / softside travel sets",
+      "style": "Travel sets · Hard luggage · Soft luggage",
+      "features": [
+        "Travel sets",
+        "Hard luggage",
+        "Soft luggage"
+      ],
+      "observation": "Reviewed source documents Hardside / softside travel sets. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://dejuno.com/",
+      "official": "https://dejuno.com/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://dejuno.com/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "delsey-paris",
@@ -1152,6 +2056,199 @@
         "Colour & expression",
         "Minimalist"
       ]
+    },
+    {
+      "id": "dior",
+      "name": "Dior",
+      "country": "Market: France",
+      "region": "Europe",
+      "collection": "Dior and RIMOWA carry-on",
+      "style": "Luxury · Aluminum · Brand collaboration",
+      "features": [
+        "Luxury",
+        "Aluminum",
+        "Brand collaboration"
+      ],
+      "observation": "Reviewed source documents Dior and RIMOWA carry-on. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.dior.com/en_us/fashion/womens-fashion/bags/travel",
+      "official": "https://www.dior.com/en_us/fashion/womens-fashion/bags/travel",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "Dior",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 4500,
+        "currency": "USD",
+        "product": "Dior and RIMOWA carry-on, black Oblique aluminum",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.dior.com/en_us/fashion/womens-fashion/bags/travel",
+        "note": "Pre-order listed in retrieved source; delivery date not verified.",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.dior.com/en_us/fashion/womens-fashion/bags/travel"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "diplomat",
+      "name": "Diplomat / 外交官",
+      "country": "Market: Taiwan / China retail",
+      "region": "Asia",
+      "collection": "HM-23102 / TC-6012TM",
+      "style": "Spinner wheels · Cabin options · Expansion on named models",
+      "features": [
+        "Spinner wheels",
+        "Cabin options",
+        "Expansion on named models"
+      ],
+      "observation": "Reviewed source documents HM-23102 / TC-6012TM. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.momoshop.com.tw/TP/TP0009394/goodsDetail/TP00093940000041",
+      "official": "https://www.momoshop.com.tw/TP/TP0009394/goodsDetail/TP00093940000041",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.momoshop.com.tw/TP/TP0009394/goodsDetail/TP00093940000041"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "dta-nova",
+      "name": "DTA / DTA Nova",
+      "country": "Market: International",
+      "region": "Not verified",
+      "collection": "Nova zipperless / top-opening / child-seat luggage",
+      "style": "Zipperless · Aluminum frame · Detachable wheels on named models",
+      "features": [
+        "Zipperless",
+        "Aluminum frame",
+        "Detachable wheels on named models"
+      ],
+      "observation": "Nova references include zipperless aluminum-frame cases, a model advertised with detachable wheels and liner, top-opening cases and child-seat luggage. The brand storefront displayed an ambiguous ¥ currency and conflicting stock text; those figures are excluded from price comparisons. The separate US retail observation identifies its own model and source. US retail reference: 20.9 × 13.4 × 9.1 inches, 35 L stated; dimensions and airline fit need exact-variant confirmation.",
+      "source": "https://dtajourney.com/products/carry-on-luggage-zipperless-aluminum-frame-trunk-hard-shell-international-suitcase-airline-approved-with-detachable-liner-and-wheels-olive-green",
+      "official": "https://dtajourney.com/products/carry-on-luggage-zipperless-aluminum-frame-trunk-hard-shell-international-suitcase-airline-approved-with-detachable-liner-and-wheels-olive-green",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://m.media-amazon.com/images/I/61CLYKbCFzL._AC_US1400_.jpg",
+      "imageCaption": "DTA Nova top-opening 20-inch carry-on, pink",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "DTA / DTA Nova",
+        "retailer": "Abunda US",
+        "amount": 129.99,
+        "currency": "USD",
+        "product": "Nova expandable top-opening 20-inch carry-on, pink",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Displayed full purchase price, not monthly installment",
+        "source": "https://www.shopabunda.com/products/expandable-lightweight-pc-hard-shell-suitcase-20-inch-luggage-with-tsa-lock-top-opening-cup-holder-ideal-for-business-travel-suitcase-pink-carry-on-20-inch",
+        "note": "Full price USD 129.99; advertised approximately USD 22/month is excluded. Brand storefront currency unresolved. This is the pink top-opening model, not the detachable-wheel zipperless model.",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://dtajourney.com/products/carry-on-luggage-zipperless-aluminum-frame-trunk-hard-shell-international-suitcase-airline-approved-with-detachable-liner-and-wheels-olive-green"
+        },
+        {
+          "name": "Abunda US DTA Nova listings",
+          "url": "https://www.shopabunda.com/products?keywords=DTA+Nova"
+        },
+        {
+          "name": "DTA Nova feature page shown by user — affiliate site; operator unverified",
+          "url": "https://dtanova.com/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [
+        "DTA",
+        "DTA Nova"
+      ],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "dukap",
+      "name": "DUKAP",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "INTELY / RODEZ / CRYPTO",
+      "style": "Hardside · Spinner wheels · Digital scale on selected INTELY cases",
+      "features": [
+        "Hardside",
+        "Spinner wheels",
+        "Digital scale on selected INTELY cases"
+      ],
+      "observation": "Reviewed source documents INTELY / RODEZ / CRYPTO. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://dukap.com/",
+      "official": "https://dukap.com/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/2259/8131/files/3_bc7365e6-41e5-4e4a-92c0-862f6c1d3371.png?v=1747644394",
+      "imageCaption": "CRYPTO Extra Large 32\"",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://dukap.com/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "eagle-creek",
@@ -1325,6 +2422,45 @@
       ]
     },
     {
+      "id": "epic",
+      "name": "EPIC Travelgear",
+      "country": "Market: Sweden",
+      "region": "Europe",
+      "collection": "Halo / Anthem / Discovery Neo",
+      "style": "Scandinavian design · Cabin cases · Color choice",
+      "features": [
+        "Scandinavian design",
+        "Cabin cases",
+        "Color choice"
+      ],
+      "observation": "Reviewed source documents Halo / Anthem / Discovery Neo. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.epictravelgear.com/en/",
+      "official": "https://www.epictravelgear.com/en/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.epictravelgear.com/en/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "floyd",
       "name": "Floyd",
       "country": "Germany",
@@ -1376,6 +2512,255 @@
       ]
     },
     {
+      "id": "flylite",
+      "name": "Flylite",
+      "country": "Market: Australia",
+      "region": "Oceania",
+      "collection": "Spin Air 4",
+      "style": "Softside · Expansion · Hinomoto wheels",
+      "features": [
+        "Softside",
+        "Expansion",
+        "Hinomoto wheels"
+      ],
+      "observation": "Reviewed source documents Spin Air 4. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.strandbags.com.au/collections/check-in-luggage",
+      "official": "https://www.strandbags.com.au/collections/check-in-luggage",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.strandbags.com.au/collections/check-in-luggage"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "fpm-milano",
+      "name": "FPM Milano",
+      "country": "Market: Italy",
+      "region": "Europe",
+      "collection": "Bank / Bank S / Bank Light",
+      "style": "Aluminum · Trunk styling · Luxury positioning",
+      "features": [
+        "Aluminum",
+        "Trunk styling",
+        "Luxury positioning"
+      ],
+      "observation": "Reviewed source documents Bank / Bank S / Bank Light. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://us.fpm.it/",
+      "official": "https://us.fpm.it/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0685/5658/7229/files/53.jpg?v=1788373721",
+      "imageCaption": "Globe-Trotter Bank Centenary Spinner 55 – Ocean Green",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "FPM Milano",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 2075,
+        "currency": "USD",
+        "product": "Bank Spinner 55M",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://us.fpm.it/",
+        "note": "",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://us.fpm.it/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "frequenter",
+      "name": "FREQUENTER",
+      "country": "Market: Japan",
+      "region": "Asia",
+      "collection": "LIEVE / Aura",
+      "style": "Quiet wheels · Lightweight · Front-opening options",
+      "features": [
+        "Quiet wheels",
+        "Lightweight",
+        "Front-opening options"
+      ],
+      "observation": "Reviewed source documents LIEVE / Aura. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.morita-co.jp/view/category/frequenter",
+      "official": "https://www.morita-co.jp/view/category/frequenter",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "Frequenter",
+        "retailer": "Yodobashi",
+        "amount": 33000,
+        "currency": "JPY",
+        "product": "Lieve FQ1-530CR Cream",
+        "market": "Japan",
+        "date": "2026-11-03",
+        "kind": "Retailer displayed price",
+        "source": "https://www.yodobashi.com/product/100000001009236409/",
+        "note": "Bestseller snapshot includes different case sizes.",
+        "format": "Other / size not fixed"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.morita-co.jp/view/category/frequenter"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [
+        "Frequenter",
+        "フリクエンター"
+      ],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "gabol",
+      "name": "Gabol",
+      "country": "Market: Spain",
+      "region": "Europe",
+      "collection": "Pacific / Future Plus / Canada",
+      "style": "Cabin cases · Lightweight options · Color choice",
+      "features": [
+        "Cabin cases",
+        "Lightweight options",
+        "Color choice"
+      ],
+      "observation": "Reviewed source documents Pacific / Future Plus / Canada. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://gabol.com/es/",
+      "official": "https://gabol.com/es/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "Gabol",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 84.99,
+        "currency": "EUR",
+        "product": "PACIFIC cabin suitcase, 39 × 55 × 20 cm",
+        "market": "Spain",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://gabol.com/es/",
+        "note": "",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://gabol.com/es/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "gladiator",
+      "name": "Gladiator",
+      "country": "Market: Spain",
+      "region": "Europe",
+      "collection": "FLOW",
+      "style": "Polypropylene · Expansion · Interior dividers",
+      "features": [
+        "Polypropylene",
+        "Expansion",
+        "Interior dividers"
+      ],
+      "observation": "Reviewed source documents FLOW. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://maletasgladiator.com/en/producto/flow-large-trolley/",
+      "official": "https://maletasgladiator.com/en/producto/flow-large-trolley/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "FLOW",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "Gladiator",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 108.5,
+        "currency": "EUR",
+        "product": "FLOW Large Trolley, 53 × 74 × 31/34 cm",
+        "market": "Spain",
+        "date": "2026-11-04",
+        "kind": "Brand-displayed reference price; dealer purchase required",
+        "source": "https://maletasgladiator.com/en/producto/flow-large-trolley/",
+        "note": "",
+        "regular": null,
+        "format": "Checked"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://maletasgladiator.com/en/producto/flow-large-trolley/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "globe-trotter",
       "name": "Globe-Trotter",
       "country": "United Kingdom",
@@ -1424,6 +2809,58 @@
       ]
     },
     {
+      "id": "gucci",
+      "name": "Gucci",
+      "country": "Market: Italy",
+      "region": "Europe",
+      "collection": "Porter / Porter Light",
+      "style": "Luxury · Aluminum · Polycarbonate",
+      "features": [
+        "Luxury",
+        "Aluminum",
+        "Polycarbonate"
+      ],
+      "observation": "Reviewed source documents Porter / Porter Light. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.gucci.com/us/en/pr/men/travel-for-men/trolleys-for-men/cabin-trolleys/gucci-porter-cabin-plus-trolley-p-7403919AAED1000",
+      "official": "https://www.gucci.com/us/en/pr/men/travel-for-men/trolleys-for-men/cabin-trolleys/gucci-porter-cabin-plus-trolley-p-7403919AAED1000",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "Gucci",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 3950,
+        "currency": "USD",
+        "product": "Porter cabin plus trolley, black Supreme, 740391 9AAED 1000",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.gucci.com/us/en/pr/men/travel-for-men/trolleys-for-men/cabin-trolleys/gucci-porter-cabin-plus-trolley-p-7403919AAED1000",
+        "note": "",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.gucci.com/us/en/pr/men/travel-for-men/trolleys-for-men/cabin-trolleys/gucci-porter-cabin-plus-trolley-p-7403919AAED1000"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "hanke",
       "name": "Hanke / 汉客",
       "country": "China",
@@ -1467,6 +2904,10 @@
       "groups": [
         "Aluminum & hybrid",
         "Easy access"
+      ],
+      "aliases": [
+        "Hanke",
+        "汉客"
       ]
     },
     {
@@ -1792,6 +3233,122 @@
       ]
     },
     {
+      "id": "imiomo",
+      "name": "imiomo",
+      "country": "Market: United States retail",
+      "region": "North America",
+      "collection": "imiomo Hard Shell Luggage Sets 5 Piece for Women, Lightweight Hardside Rolling Suitcase Set with Spinner Wheels and TSA Lock, Beige",
+      "style": "Hardside · Spinner wheels",
+      "features": [
+        "Hardside",
+        "Spinner wheels"
+      ],
+      "observation": "Named luggage product documented by a retailer listing. Current stock, launch date and complete brand assortment are not verified.",
+      "source": "https://www.shopabunda.com/products/imiomo-3-piece-luggage-sets-suitcase-with-spinner-wheels-luggage-set-clearance-for-women-lightweight-rolling-hardside-travel-luggage-with-tsa-lock-beige-5pcs-19b0bf97-7898-4028-b220-1090bab41f16",
+      "official": "https://www.shopabunda.com/products/imiomo-3-piece-luggage-sets-suitcase-with-spinner-wheels-luggage-set-clearance-for-women-lightweight-rolling-hardside-travel-luggage-with-tsa-lock-beige-5pcs-19b0bf97-7898-4028-b220-1090bab41f16",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://m.media-amazon.com/images/I/61PHUMX2XeL._AC_US500_.jpg",
+      "imageCaption": "imiomo Hard Shell Luggage Sets 5 Piece for Women, Lightweight Hardside Rolling Suitcase Set with Spinner Wheels and TSA Lock, Beige",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Abunda retail listing",
+          "url": "https://www.shopabunda.com/products/imiomo-3-piece-luggage-sets-suitcase-with-spinner-wheels-luggage-set-clearance-for-women-lightweight-rolling-hardside-travel-luggage-with-tsa-lock-beige-5pcs-19b0bf97-7898-4028-b220-1090bab41f16"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "innovator",
+      "name": "innovator",
+      "country": "Market: Japan",
+      "region": "Asia",
+      "collection": "Pilot / inv43EX",
+      "style": "Pilot format · Rotary lock · Expansion on inv43EX",
+      "features": [
+        "Pilot format",
+        "Rotary lock",
+        "Expansion on inv43EX"
+      ],
+      "observation": "Reviewed source documents Pilot / inv43EX. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://innovator.co.jp/",
+      "official": "https://innovator.co.jp/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://innovator.co.jp/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "inusa",
+      "name": "InUSA",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Trend / Ally / Resilience",
+      "style": "Hardside · Luggage sets · Everyday travel",
+      "features": [
+        "Hardside",
+        "Luggage sets",
+        "Everyday travel"
+      ],
+      "observation": "Reviewed source documents Trend / Ally / Resilience. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://inusa.com/collections",
+      "official": "https://inusa.com/collections",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/2077/9557/files/IUPILSMLXL-COA_01.jpg?v=1778507035",
+      "imageCaption": "Pilot 4 Piece Extra Luggage Set 20\"/24\"/28\"/32\"",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://inusa.com/collections"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "it-luggage",
       "name": "it Luggage",
       "country": "United Kingdom",
@@ -1896,6 +3453,45 @@
       ]
     },
     {
+      "id": "jekyll-hide",
+      "name": "Jekyll & Hide",
+      "country": "Market: United Kingdom storefront",
+      "region": "Europe",
+      "collection": "55cm cabin trolley",
+      "style": "Zipperless · Hinomoto wheels · Laptop access",
+      "features": [
+        "Zipperless",
+        "Hinomoto wheels",
+        "Laptop access"
+      ],
+      "observation": "Reviewed source documents 55cm cabin trolley. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.jekyllandhide.co.uk/products/4-wheel-cabin-trolley-55cm?variant=55161353011577",
+      "official": "https://www.jekyllandhide.co.uk/products/4-wheel-cabin-trolley-55cm?variant=55161353011577",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.jekyllandhide.co.uk/products/4-wheel-cabin-trolley-55cm?variant=55161353011577"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "july",
       "name": "July",
       "country": "Australia",
@@ -1947,6 +3543,84 @@
         "Easy access",
         "Colour & expression"
       ]
+    },
+    {
+      "id": "jump",
+      "name": "Jump",
+      "country": "Market: France",
+      "region": "Europe",
+      "collection": "Travel luggage and bags",
+      "style": "Repair support · Travel bags · Cabin and checked luggage",
+      "features": [
+        "Repair support",
+        "Travel bags",
+        "Cabin and checked luggage"
+      ],
+      "observation": "Reviewed source documents Travel luggage and bags. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://jump.fr/",
+      "official": "https://jump.fr/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0906/8491/6086/files/DU20EX_Marine_02.png?v=1793018443",
+      "imageCaption": "Valise Cabine 55 cm - Dunaa Hybrid Jump | Extensible +20%",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://jump.fr/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "kamiliant",
+      "name": "Kamiliant",
+      "country": "Market: India / international",
+      "region": "Asia",
+      "collection": "Hard and soft luggage assortment",
+      "style": "Color choice · Travel luggage · Regional assortments",
+      "features": [
+        "Color choice",
+        "Travel luggage",
+        "Regional assortments"
+      ],
+      "observation": "Reviewed source documents Hard and soft luggage assortment. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.kamiliant.com/",
+      "official": "https://www.kamiliant.com/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.kamiliant.com/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "kathmandu",
@@ -2029,6 +3703,84 @@
       "groups": [
         "Softside & adventure"
       ]
+    },
+    {
+      "id": "kono",
+      "name": "KONO",
+      "country": "Market: United States retail",
+      "region": "North America",
+      "collection": "20-inch polypropylene carry-on",
+      "style": "Polypropylene · Spinner wheels · TSA lock",
+      "features": [
+        "Polypropylene",
+        "Spinner wheels",
+        "TSA lock"
+      ],
+      "observation": "Reviewed source documents 20-inch polypropylene carry-on. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.walmart.com/ip/15930067774",
+      "official": "https://www.walmart.com/ip/15930067774",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.walmart.com/ip/15930067774"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "kroser",
+      "name": "KROSER",
+      "country": "Market: United States storefront",
+      "region": "North America",
+      "collection": "Hardside / softside carry-ons",
+      "style": "Business travel · Organized storage · Rolling luggage",
+      "features": [
+        "Business travel",
+        "Organized storage",
+        "Rolling luggage"
+      ],
+      "observation": "Reviewed source documents Hardside / softside carry-ons. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.ikroser.com/collections/luggage",
+      "official": "https://www.ikroser.com/collections/luggage",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.ikroser.com/collections/luggage"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "legend-walker",
@@ -2224,6 +3976,58 @@
       ]
     },
     {
+      "id": "london-fog",
+      "name": "London Fog",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Cambridge / Brentwood IV",
+      "style": "Softside · Classic styling · Expandable spinner",
+      "features": [
+        "Softside",
+        "Classic styling",
+        "Expandable spinner"
+      ],
+      "observation": "Reviewed source documents Cambridge / Brentwood IV. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.macys.com/shop/brands/london-fog?id=20558",
+      "official": "https://www.macys.com/shop/brands/london-fog?id=20558",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "London Fog",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 307.99,
+        "currency": "USD",
+        "product": "Cambridge Large Check-in Expandable Spinner",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.macys.com/shop/brands/london-fog?id=20558",
+        "note": "Displayed sale price before conditional FRIEND promotion; indexed offer may change.",
+        "regular": null,
+        "format": "Checked"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.macys.com/shop/brands/london-fog?id=20558"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "louis-vuitton",
       "name": "Louis Vuitton",
       "country": "France",
@@ -2259,6 +4063,136 @@
         "Trunk & heritage",
         "Repair & materials"
       ]
+    },
+    {
+      "id": "maimo",
+      "name": "MAIMO",
+      "country": "Market: Japan",
+      "region": "Asia",
+      "collection": "Replaceable-caster suitcase assortment",
+      "style": "Replaceable wheels · Wheel stopper options · Removable interior options",
+      "features": [
+        "Replaceable wheels",
+        "Wheel stopper options",
+        "Removable interior options"
+      ],
+      "observation": "Reviewed source documents Replaceable-caster suitcase assortment. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://maimo-travel.com/collections/suitcases",
+      "official": "https://maimo-travel.com/collections/suitcases",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://maimo-travel.com/collections/suitcases"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "mandarina-duck",
+      "name": "Mandarina Duck",
+      "country": "Market: Italy / international",
+      "region": "Europe",
+      "collection": "LOGODUCK+ / TANK",
+      "style": "Color choice · Expandable · Cabin trolley",
+      "features": [
+        "Color choice",
+        "Expandable",
+        "Cabin trolley"
+      ],
+      "observation": "Reviewed source documents LOGODUCK+ / TANK. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://mandarinaduck.com/en-us/collections/luggage",
+      "official": "https://mandarinaduck.com/en-us/collections/luggage",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://mandarinaduck.com/en-us/collections/luggage"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "merax",
+      "name": "Merax",
+      "country": "Market: United States retail",
+      "region": "North America",
+      "collection": "26.2-inch ABS checked case",
+      "style": "ABS · Expansion · Double spinner wheels",
+      "features": [
+        "ABS",
+        "Expansion",
+        "Double spinner wheels"
+      ],
+      "observation": "Reviewed source documents 26.2-inch ABS checked case. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.homedepot.com/p/339713420",
+      "official": "https://www.homedepot.com/p/339713420",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "Merax",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 82.93,
+        "currency": "USD",
+        "product": "26.2-inch blue ABS suitcase, LJYXB0036AAC",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.homedepot.com/p/339713420",
+        "note": "Source indexed about two months before review; recheck current price.",
+        "regular": null,
+        "format": "Checked"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.homedepot.com/p/339713420"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "mixi",
@@ -2298,6 +4232,10 @@
         "Aluminum & hybrid",
         "Easy access",
         "Colour & expression"
+      ],
+      "aliases": [
+        "Mixi",
+        "米熙"
       ]
     },
     {
@@ -2598,6 +4536,58 @@
       ]
     },
     {
+      "id": "nautica",
+      "name": "Nautica",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Lightview / Halio",
+      "style": "Hardside sets · Rolling duffel · Family travel",
+      "features": [
+        "Hardside sets",
+        "Rolling duffel",
+        "Family travel"
+      ],
+      "observation": "Reviewed source documents Lightview / Halio. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.macys.com/shop/brands/nautica/nautica-luggage?id=229510",
+      "official": "https://www.macys.com/shop/brands/nautica/nautica-luggage?id=229510",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "Nautica",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 223.99,
+        "currency": "USD",
+        "product": "Lightview 3-piece hardside set",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.macys.com/shop/brands/nautica/nautica-luggage?id=229510",
+        "note": "Clearance price before conditional FRIEND promotion; recheck stock.",
+        "regular": null,
+        "format": "Set"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.macys.com/shop/brands/nautica/nautica-luggage?id=229510"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "nere",
       "name": "Nere",
       "country": "Australia",
@@ -2654,6 +4644,147 @@
       ]
     },
     {
+      "id": "new-trip",
+      "name": "New Trip",
+      "country": "Market: Japan",
+      "region": "Asia",
+      "collection": "NT-GB0201 M Champagne Gold",
+      "style": "Travel luggage · Retailer-observed assortment",
+      "features": [
+        "Travel luggage",
+        "Retailer-observed assortment"
+      ],
+      "observation": "Reviewed source documents NT-GB0201 M Champagne Gold. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.yodobashi.com/product/100000001008401599/",
+      "official": "https://www.yodobashi.com/product/100000001008401599/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "New Trip",
+        "retailer": "Yodobashi",
+        "amount": 15680,
+        "currency": "JPY",
+        "product": "NT-GB0201 M Champagne Gold",
+        "market": "Japan",
+        "date": "2026-11-03",
+        "kind": "Retailer displayed price",
+        "source": "https://www.yodobashi.com/product/100000001008401599/",
+        "note": "Bestseller snapshot includes different case sizes.",
+        "format": "Other / size not fixed"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.yodobashi.com/product/100000001008401599/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "nobl",
+      "name": "NOBL Travel",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "All-In-One / Aluminum",
+      "style": "Hardside · Expandable options · Carry-on and checked sizes",
+      "features": [
+        "Hardside",
+        "Expandable options",
+        "Carry-on and checked sizes"
+      ],
+      "observation": "Reviewed source documents All-In-One / Aluminum. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://nobltravel.com/collections/checked-luggage",
+      "official": "https://nobltravel.com/collections/checked-luggage",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0715/3536/2348/files/green_39.webp?v=1792002252",
+      "imageCaption": "Check-In Medium: Classic 24\"",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "NOBL Travel",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 320,
+        "currency": "USD",
+        "product": "All-In-One 28-inch Check-In",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://nobltravel.com/collections/checked-luggage",
+        "note": "Sale price; no claimed saving against unverified reference prices.",
+        "regular": null,
+        "format": "Checked"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://nobltravel.com/collections/checked-luggage"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "nortvi",
+      "name": "NORTVI",
+      "country": "Market: International storefront",
+      "region": "Europe",
+      "collection": "Essential / Elite / Aluminum / Trunk",
+      "style": "Minimalist · Color coordination · Cabin and trunk formats",
+      "features": [
+        "Minimalist",
+        "Color coordination",
+        "Cabin and trunk formats"
+      ],
+      "observation": "Reviewed source documents Essential / Elite / Aluminum / Trunk. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://nortvi.com/suitcases/",
+      "official": "https://nortvi.com/suitcases/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://nortvi.com/suitcases/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "nudient",
       "name": "Nudient",
       "country": "Sweden",
@@ -2687,6 +4818,87 @@
         "Colour & expression",
         "Minimalist"
       ]
+    },
+    {
+      "id": "oiwas",
+      "name": "OIWAS / 愛華仕",
+      "country": "Market: China",
+      "region": "Asia",
+      "collection": "Smooth / Pioneer / Capsule",
+      "style": "Hard luggage · Soft luggage · Aluminum options",
+      "features": [
+        "Hard luggage",
+        "Soft luggage",
+        "Aluminum options"
+      ],
+      "observation": "Reviewed source documents Smooth / Pioneer / Capsule. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.oiwas.com/en/",
+      "official": "https://www.oiwas.com/en/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0875/0435/5640/files/6_6aca6b57-ad4d-40fb-8fea-e186be262d59.webp?v=1793409766",
+      "imageCaption": "OIWAS Expandable Suitcase 20\" Hardshell Carry-On Luggage 24\"/28\" Checked Suitcase",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.oiwas.com/en/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [
+        "爱华仕",
+        "愛華仕"
+      ],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "olympia",
+      "name": "Olympia U.S.A.",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Travel luggage / rolling totes",
+      "style": "Rolling tote · Softside · Travel assortments",
+      "features": [
+        "Rolling tote",
+        "Softside",
+        "Travel assortments"
+      ],
+      "observation": "Reviewed source documents Travel luggage / rolling totes. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.walmart.com/browse/home/expandable-luggage/olympia-u-s-a-/4044_7333633_9945530/YnJhbmQ6T2x5bXBpYSBVLlMuQS4ie",
+      "official": "https://www.walmart.com/browse/home/expandable-luggage/olympia-u-s-a-/4044_7333633_9945530/YnJhbmQ6T2x5bXBpYSBVLlMuQS4ie",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.walmart.com/browse/home/expandable-luggage/olympia-u-s-a-/4044_7333633_9945530/YnJhbmQ6T2x5bXBpYSBVLlMuQS4ie"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "open-story",
@@ -2801,6 +5013,45 @@
       ]
     },
     {
+      "id": "paklite",
+      "name": "Paklite",
+      "country": "Market: Australia",
+      "region": "Oceania",
+      "collection": "Vista / Solar / Rover",
+      "style": "Travel luggage · Multiple sizes · Sets",
+      "features": [
+        "Travel luggage",
+        "Multiple sizes",
+        "Sets"
+      ],
+      "observation": "Reviewed source documents Vista / Solar / Rover. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.paklite.com.au/Luggage",
+      "official": "https://www.paklite.com.au/Luggage",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.paklite.com.au/Luggage"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "paravel",
       "name": "Paravel",
       "country": "United States",
@@ -2892,6 +5143,58 @@
       ]
     },
     {
+      "id": "pelican",
+      "name": "Pelican / Peli",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "ATX / Air TRVL",
+      "style": "Protective cases · Hard shell · Travel organizers",
+      "features": [
+        "Protective cases",
+        "Hard shell",
+        "Travel organizers"
+      ],
+      "observation": "Reviewed source documents ATX / Air TRVL. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.pelican.com/us/en/products/travel",
+      "official": "https://www.pelican.com/us/en/products/travel",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "Pelican / Peli",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 499.95,
+        "currency": "USD",
+        "product": "22-inch ATX Carry-On",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.pelican.com/us/en/products/travel",
+        "note": "",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.pelican.com/us/en/products/travel"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "piquadro",
       "name": "Piquadro",
       "country": "Italy",
@@ -2938,6 +5241,47 @@
       ]
     },
     {
+      "id": "polo-sa",
+      "name": "Polo South Africa",
+      "country": "Market: South Africa",
+      "region": "Africa",
+      "collection": "Travel trolley assortment",
+      "style": "Fashion styling · Four-wheel trolley · Travel accessories",
+      "features": [
+        "Fashion styling",
+        "Four-wheel trolley",
+        "Travel accessories"
+      ],
+      "observation": "Reviewed source documents Travel trolley assortment. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales. This South African Polo entry is not an assertion of affiliation with Ralph Lauren.",
+      "source": "https://www.polo.co.za/accessories/men-s-accessories/luggage",
+      "official": "https://www.polo.co.za/accessories/men-s-accessories/luggage",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.polo.co.za/accessories/men-s-accessories/luggage"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [
+        "Polo SA"
+      ],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "porsche-design",
       "name": "Porsche Design",
       "country": "Germany",
@@ -2979,6 +5323,58 @@
         "Aluminum & hybrid",
         "Minimalist"
       ]
+    },
+    {
+      "id": "prada",
+      "name": "Prada",
+      "country": "Market: Italy",
+      "region": "Europe",
+      "collection": "Polycarbonate / Re-Nylon trolley",
+      "style": "Luxury · Crosshatch texture · Travel trolley",
+      "features": [
+        "Luxury",
+        "Crosshatch texture",
+        "Travel trolley"
+      ],
+      "observation": "Reviewed source documents Polycarbonate / Re-Nylon trolley. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.prada.com/us/en/p/polycarbonate-trolley/2VQ006_2C0N_F0002_V_OOO",
+      "official": "https://www.prada.com/us/en/p/polycarbonate-trolley/2VQ006_2C0N_F0002_V_OOO",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "Prada",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 4000,
+        "currency": "USD",
+        "product": "Polycarbonate trolley, black, 2VQ006 2C0N F0002",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.prada.com/us/en/p/polycarbonate-trolley/2VQ006_2C0N_F0002_V_OOO",
+        "note": "",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.prada.com/us/en/p/polycarbonate-trolley/2VQ006_2C0N_F0002_V_OOO"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "president",
@@ -3069,6 +5465,45 @@
       "groups": [
         "Easy access"
       ]
+    },
+    {
+      "id": "puccini",
+      "name": "PUCCINI",
+      "country": "Market: Poland",
+      "region": "Europe",
+      "collection": "Casablanca / Corfu",
+      "style": "Polypropylene · Spinner wheels · Multiple sizes",
+      "features": [
+        "Polypropylene",
+        "Spinner wheels",
+        "Multiple sizes"
+      ],
+      "observation": "Reviewed source documents Casablanca / Corfu. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://puccini.pl/walizki",
+      "official": "https://puccini.pl/walizki",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://puccini.pl/walizki"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "quince",
@@ -3286,6 +5721,45 @@
       ]
     },
     {
+      "id": "rock",
+      "name": "Rock Luggage",
+      "country": "Market: United Kingdom",
+      "region": "Europe",
+      "collection": "Allure / suitcase assortment",
+      "style": "Hard luggage · Color choice · Cabin and checked sizes",
+      "features": [
+        "Hard luggage",
+        "Color choice",
+        "Cabin and checked sizes"
+      ],
+      "observation": "Reviewed source documents Allure / suitcase assortment. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.rockluggage.com/collections/all",
+      "official": "https://www.rockluggage.com/collections/all",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0281/4269/8635/files/SmallSuitcaseAustinPurpleTR-0261Main.jpg?v=1738340734",
+      "imageCaption": "Austin Small Suitcase in Purple",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.rockluggage.com/collections/all"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "rockland",
       "name": "Rockland",
       "country": "United States",
@@ -3326,6 +5800,45 @@
       "groups": [
         "Colour & expression"
       ]
+    },
+    {
+      "id": "rollink",
+      "name": "Rollink",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Flex Vega Air / Flex 360 Spinner",
+      "style": "Foldable · Compact storage · Hard-shell panels",
+      "features": [
+        "Foldable",
+        "Compact storage",
+        "Hard-shell panels"
+      ],
+      "observation": "Reviewed source documents Flex Vega Air / Flex 360 Spinner. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://rollinkusa.com/",
+      "official": "https://rollinkusa.com/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0721/1198/0680/files/RL_121.jpg?v=1784839362",
+      "imageCaption": "Flex 360 Pro Carry-On Suitcase",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://rollinkusa.com/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "roncato",
@@ -3469,6 +5982,45 @@
       ]
     },
     {
+      "id": "santino",
+      "name": "Santino",
+      "country": "Market: Brazil",
+      "region": "South America",
+      "collection": "Travel luggage assortment",
+      "style": "Travel suitcases · Bags · Regional assortment",
+      "features": [
+        "Travel suitcases",
+        "Bags",
+        "Regional assortment"
+      ],
+      "observation": "Reviewed source documents Travel luggage assortment. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://santinoluggage.com/",
+      "official": "https://santinoluggage.com/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0914/8494/6754/files/605594bca8681cdc638aafc609a6f474.jpg?v=1743188528",
+      "imageCaption": "Santino AMZV204P Dublin Rigid Carry-On Suitcase with 4 Double Wheels",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://santinoluggage.com/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "sestini",
       "name": "Sestini",
       "country": "Brazil",
@@ -3520,6 +6072,58 @@
         "Easy access",
         "Colour & expression"
       ]
+    },
+    {
+      "id": "showkoo",
+      "name": "SHOWKOO",
+      "country": "Market: United States storefront",
+      "region": "North America",
+      "collection": "G2 / G8 / G92",
+      "style": "Hardside · Travel sets · Color choice",
+      "features": [
+        "Hardside",
+        "Travel sets",
+        "Color choice"
+      ],
+      "observation": "Reviewed source documents G2 / G8 / G92. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.showkootravel.com/collections/all-luggage",
+      "official": "https://www.showkootravel.com/collections/all-luggage",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0680/1693/1031/files/productpage-sku007pro-set-deepblue-26.1-1.jpg?v=1768285159",
+      "imageCaption": "SHOWKOO G7 Luggage 3 Piece Set Suitcase",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "SHOWKOO",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 169,
+        "currency": "USD",
+        "product": "G2 3-piece luggage set",
+        "market": "United States storefront",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.showkootravel.com/collections/all-luggage",
+        "note": "Collection-page observation; verify chosen color and contents.",
+        "regular": null,
+        "format": "Set"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.showkootravel.com/collections/all-luggage"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "siffler",
@@ -3653,6 +6257,58 @@
         "Colour & expression",
         "Softside & adventure"
       ]
+    },
+    {
+      "id": "skyway",
+      "name": "Skyway",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Epic / Nimbus",
+      "style": "Softside · Hardside · Luggage sets",
+      "features": [
+        "Softside",
+        "Hardside",
+        "Luggage sets"
+      ],
+      "observation": "Reviewed source documents Epic / Nimbus. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.skywayluggage.com/collections/luggage",
+      "official": "https://www.skywayluggage.com/collections/luggage",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0040/6854/0485/files/177-29-101-4VP-QF_208ed4d6-8513-4fe4-9f55-624d75eb3caf.jpg?v=1715103496",
+      "imageCaption": "Sigma 7.0 Softside Large Check-In Expandable Spinner",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "Skyway",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 89.99,
+        "currency": "USD",
+        "product": "Epic Softside Carry-On Spinner",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.skywayluggage.com/collections/luggage",
+        "note": "Observed sale price; color availability can vary.",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.skywayluggage.com/collections/luggage"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "solgaard",
@@ -3820,6 +6476,161 @@
       ]
     },
     {
+      "id": "swiss-tech",
+      "name": "SwissTech",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Air-Tech luggage",
+      "style": "Travel luggage · Air-Tech collection",
+      "features": [
+        "Travel luggage",
+        "Air-Tech collection"
+      ],
+      "observation": "Reviewed source documents Air-Tech luggage. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales. SwissTech is kept separate from SWISSGEAR and Wenger.",
+      "source": "https://www.courierluggage.com/brand/swiss-tech/",
+      "official": "https://www.courierluggage.com/brand/swiss-tech/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.courierluggage.com/brand/swiss-tech/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "tach",
+      "name": "TACH",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "V3.1 connectable luggage",
+      "style": "Connectable cases · Spinner wheels · Family travel",
+      "features": [
+        "Connectable cases",
+        "Spinner wheels",
+        "Family travel"
+      ],
+      "observation": "Reviewed source documents V3.1 connectable luggage. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://tachluggage.me/",
+      "official": "https://tachluggage.me/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://tachluggage.me/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "take-off",
+      "name": "TAKE OFF Luggage",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Personal Item / Carry-On 4.0",
+      "style": "Removable wheels · Underseat formats · Compact travel",
+      "features": [
+        "Removable wheels",
+        "Underseat formats",
+        "Compact travel"
+      ],
+      "observation": "Reviewed source documents Personal Item / Carry-On 4.0. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://takeoffluggage.com/",
+      "official": "https://takeoffluggage.com/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0599/1805/7631/files/LC_18_Inch_Personal_Item_v3_-_ROSE.png?v=1780196916",
+      "imageCaption": "Personal Item Suitcase 3.0+ (GREEN Tab)",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://takeoffluggage.com/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "ted-baker",
+      "name": "Ted Baker",
+      "country": "Market: United Kingdom",
+      "region": "Europe",
+      "collection": "Luggage category / London store reference",
+      "style": "Fashion label · Travel accessories · Luggage category",
+      "features": [
+        "Fashion label",
+        "Travel accessories",
+        "Luggage category"
+      ],
+      "observation": "Reviewed source documents Luggage category / London store reference. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.tedbaker.com/pages/about-ted",
+      "official": "https://www.tedbaker.com/pages/about-ted",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.tedbaker.com/pages/about-ted"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "the-north-face",
       "name": "The North Face",
       "country": "United States",
@@ -3946,6 +6757,84 @@
         "Colour & expression",
         "Minimalist"
       ]
+    },
+    {
+      "id": "tommy-hilfiger",
+      "name": "Tommy Hilfiger",
+      "country": "Market: United States retail",
+      "region": "North America",
+      "collection": "Collingwood / Liberty",
+      "style": "Fashion label · Cabin and checked sizes · Travel sets",
+      "features": [
+        "Fashion label",
+        "Cabin and checked sizes",
+        "Travel sets"
+      ],
+      "observation": "Reviewed source documents Collingwood / Liberty. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.macys.com/shop/home/luggage-backpacks/luggage/Brand/Tommy%20Hilfiger?cm_kws_ls=luggage&id=76877",
+      "official": "https://www.macys.com/shop/home/luggage-backpacks/luggage/Brand/Tommy%20Hilfiger?cm_kws_ls=luggage&id=76877",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.macys.com/shop/home/luggage-backpacks/luggage/Brand/Tommy%20Hilfiger?cm_kws_ls=luggage&id=76877"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "tosca",
+      "name": "Tosca",
+      "country": "Market: Australia",
+      "region": "Oceania",
+      "collection": "Star-Lite",
+      "style": "Polypropylene · Expansion · Dual spinner wheels",
+      "features": [
+        "Polypropylene",
+        "Expansion",
+        "Dual spinner wheels"
+      ],
+      "observation": "Reviewed source documents Star-Lite. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://toscatravelgoods.com.au/collections/star-lite",
+      "official": "https://toscatravelgoods.com.au/collections/star-lite",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0653/0665/6849/files/24_1e9b86c0-b0d4-452a-8880-374bd4ca9145.jpg?v=1750648787",
+      "imageCaption": "Aus Luggage Pilot 55cm Small Hard Carry On - Slate",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://toscatravelgoods.com.au/collections/star-lite"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "travelers-club",
@@ -4271,6 +7160,112 @@
       ]
     },
     {
+      "id": "tuplus",
+      "name": "TUPLUS",
+      "country": "Market: International",
+      "region": "Asia",
+      "collection": "Impression / Balance / Quick / Access",
+      "style": "Wide handle · Polycarbonate · Hinomoto wheels on Impression",
+      "features": [
+        "Wide handle",
+        "Polycarbonate",
+        "Hinomoto wheels on Impression"
+      ],
+      "observation": "Reviewed source documents Impression / Balance / Quick / Access. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://tuplus.com/products/tuplus-impression-suitcase",
+      "official": "https://tuplus.com/products/tuplus-impression-suitcase",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0820/1027/6120/files/TUPLUS_Balance_2.0_Suitcase_Hazelnut-Apricot_1.png?v=1791622141",
+      "imageCaption": "TUPLUS Balance 2.0 Suitcase",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "TUPLUS",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 199.99,
+        "currency": "USD",
+        "product": "Impression Carry On 20-inch",
+        "market": "US storefront",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://tuplus.com/products/tuplus-impression-suitcase",
+        "note": "Selected carry-on starting variant; larger sizes differ.",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://tuplus.com/products/tuplus-impression-suitcase"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "us-traveler",
+      "name": "U.S. Traveler",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Rio / Boren",
+      "style": "Softside · Hardside · Value travel sets",
+      "features": [
+        "Softside",
+        "Hardside",
+        "Value travel sets"
+      ],
+      "observation": "Reviewed source documents Rio / Boren. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://travelerluggage.com/collections/us-traveler",
+      "official": "https://travelerluggage.com/collections/us-traveler",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0754/6211/5605/files/US09287W-3PC-set.jpg?v=1765927273",
+      "imageCaption": "Vista Way 3-Piece Travel Set, 21-Inch Carry-on Hardside with TSA Lock, 18-Inch Travel Backpack with Laptop Sleeve, Toiletry Bag",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "U.S. Traveler",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 59.99,
+        "currency": "USD",
+        "product": "Rio rugged fabric expandable carry-on set",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://travelerluggage.com/collections/us-traveler",
+        "note": "Displayed sale price; variants may differ.",
+        "regular": null,
+        "format": "Set"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://travelerluggage.com/collections/us-traveler"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [
+        "US Traveler"
+      ],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "uppercase",
       "name": "uppercase",
       "country": "India",
@@ -4314,6 +7309,45 @@
       ]
     },
     {
+      "id": "verage",
+      "name": "VERAGE",
+      "country": "Market: International",
+      "region": "Not verified",
+      "collection": "Freeland / Cambridge / Visionary",
+      "style": "Lightweight · Underseat options · Organized packing",
+      "features": [
+        "Lightweight",
+        "Underseat options",
+        "Organized packing"
+      ],
+      "observation": "Reviewed source documents Freeland / Cambridge / Visionary. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.verage.com/",
+      "official": "https://www.verage.com/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.verage.com/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "victorinox",
       "name": "Victorinox",
       "country": "Switzerland",
@@ -4354,6 +7388,45 @@
       "groups": [
         "Everyday travel"
       ]
+    },
+    {
+      "id": "vince-camuto",
+      "name": "Vince Camuto",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Harrlee — unavailable collection reference",
+      "style": "Snake-embossed texture · Gold-tone accents · Divided interior",
+      "features": [
+        "Snake-embossed texture",
+        "Gold-tone accents",
+        "Divided interior"
+      ],
+      "observation": "Reviewed source documents Harrlee — unavailable collection reference. Features refer to the named collection or selected models; confirm the exact SKU. Referenced product was unavailable; this does not establish brand-wide discontinuation.",
+      "source": "https://www.macys.com/shop/product/closeout-vince-camuto-harrlee-hardside-luggage-collection?ID=6323234",
+      "official": "https://www.macys.com/shop/product/closeout-vince-camuto-harrlee-hardside-luggage-collection?ID=6323234",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://slimages.macysassets.com/is/image/MCY/products/3/optimized/10285223_fpx.tif?$filterlrg$&wid=327",
+      "imageCaption": "Harrlee — unavailable collection reference",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.macys.com/shop/product/closeout-vince-camuto-harrlee-hardside-luggage-collection?ID=6323234"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Unavailable product reference",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     },
     {
       "id": "vip",
@@ -4458,6 +7531,122 @@
       ]
     },
     {
+      "id": "wings",
+      "name": "WINGS",
+      "country": "Market: Poland",
+      "region": "Europe",
+      "collection": "COCKATIEL / EAGLE / TERN / DIPPER",
+      "style": "Polypropylene · Polycarbonate · Multiple sizes",
+      "features": [
+        "Polypropylene",
+        "Polycarbonate",
+        "Multiple sizes"
+      ],
+      "observation": "Reviewed source documents COCKATIEL / EAGLE / TERN / DIPPER. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://wings24.pl/",
+      "official": "https://wings24.pl/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://wings24.pl/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "wittchen",
+      "name": "WITTCHEN",
+      "country": "Market: Poland",
+      "region": "Europe",
+      "collection": "ABS / polycarbonate travel assortment",
+      "style": "Hard luggage · Color choice · Cabin and checked sizes",
+      "features": [
+        "Hard luggage",
+        "Color choice",
+        "Cabin and checked sizes"
+      ],
+      "observation": "Reviewed source documents ABS / polycarbonate travel assortment. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.wittchen.com/en-US/bagaz/walizki/walizki-kabinowe",
+      "official": "https://www.wittchen.com/en-US/bagaz/walizki/walizki-kabinowe",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.wittchen.com/en-US/bagaz/walizki/walizki-kabinowe"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "wrangler",
+      "name": "Wrangler",
+      "country": "Market: United States retail",
+      "region": "North America",
+      "collection": "Wrangler Smart Spinner Hardside Luggage, 2 Piece Set, Navy Blue",
+      "style": "Hardside · Spinner wheels",
+      "features": [
+        "Hardside",
+        "Spinner wheels"
+      ],
+      "observation": "Named luggage product documented by a retailer listing. Current stock, launch date and complete brand assortment are not verified.",
+      "source": "https://www.shopabunda.com/products/wrangler-2-piece-smart-spinner-carry-on-luggage-set",
+      "official": "https://www.shopabunda.com/products/wrangler-2-piece-smart-spinner-carry-on-luggage-set",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://m.media-amazon.com/images/I/71N8NEJ0XrL._AC_US500_.jpg",
+      "imageCaption": "Wrangler Smart Spinner Hardside Luggage, 2 Piece Set, Navy Blue",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Abunda retail listing",
+          "url": "https://www.shopabunda.com/products/wrangler-2-piece-smart-spinner-carry-on-luggage-set"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
       "id": "xiaomi",
       "name": "Xiaomi",
       "country": "China",
@@ -4491,6 +7680,97 @@
         "Easy access",
         "Minimalist"
       ]
+    },
+    {
+      "id": "yeti",
+      "name": "YETI",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Crossroads 35L / 73L",
+      "style": "Abrasion resistance · Softside · Organized packing",
+      "features": [
+        "Abrasion resistance",
+        "Softside",
+        "Organized packing"
+      ],
+      "observation": "Reviewed source documents Crossroads 35L / 73L. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://www.yeti.com/bags/luggage",
+      "official": "https://www.yeti.com/bags/luggage",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": null,
+      "imageCaption": "",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": {
+        "brand": "YETI",
+        "retailer": "Reviewed brand / retailer source",
+        "amount": 350,
+        "currency": "USD",
+        "product": "Crossroads 35L / 22-inch Carry-On",
+        "market": "United States",
+        "date": "2026-11-04",
+        "kind": "Source-displayed price; recheck before buying",
+        "source": "https://www.yeti.com/bags/luggage",
+        "note": "",
+        "regular": null,
+        "format": "Carry-on"
+      },
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://www.yeti.com/bags/luggage"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
+    },
+    {
+      "id": "zero-halliburton",
+      "name": "Zero Halliburton",
+      "country": "Market: United States",
+      "region": "North America",
+      "collection": "Classic Aluminum / Classic Lightweight",
+      "style": "Aluminum · Polycarbonate · Heritage styling",
+      "features": [
+        "Aluminum",
+        "Polycarbonate",
+        "Heritage styling"
+      ],
+      "observation": "Reviewed source documents Classic Aluminum / Classic Lightweight. Features refer to the named collection or selected models; confirm the exact SKU. Assortment presence is not evidence of growing sales.",
+      "source": "https://zerohalliburton.com/collections/",
+      "official": "https://zerohalliburton.com/collections/",
+      "originNote": "Region and market describe the reviewed storefront or assortment. Brand domicile and manufacturing country are not established by this placement.",
+      "originSource": null,
+      "image": "https://cdn.shopify.com/s/files/1/0012/7955/7691/files/Proteca_POCKETLINER2_01344-02.jpg?v=1784299789",
+      "imageCaption": "PROTECA Pocket Liner 2 Large Checked Luggage 94L Made in Japan",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Price positioning not independently classified in this expansion.",
+      "price": null,
+      "channels": [
+        {
+          "name": "Reviewed brand / retailer source",
+          "url": "https://zerohalliburton.com/collections/"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [],
+      "checked": "2026-11-04",
+      "coverageStatus": "Source-backed brand profile; assortment partial",
+      "launchDate": null,
+      "launchDateStatus": "First launch date not verified; date added is not launch date."
     }
   ],
   "launches": [
@@ -5845,6 +9125,328 @@
       "date": "2026-11-03",
       "source": "https://www.quince.com/unisex/front-pocket-hard-shell-carry-on-suitcase?color=navy",
       "note": "Separate front-pocket model; indexed official US page. Comparative retail value is not a markdown."
+    },
+    {
+      "brand": "TUPLUS",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 199.99,
+      "currency": "USD",
+      "product": "Impression Carry On 20-inch",
+      "market": "US storefront",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://tuplus.com/products/tuplus-impression-suitcase",
+      "note": "Selected carry-on starting variant; larger sizes differ.",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "FPM Milano",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 2075,
+      "currency": "USD",
+      "product": "Bank Spinner 55M",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://us.fpm.it/",
+      "note": "",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "Skyway",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 89.99,
+      "currency": "USD",
+      "product": "Epic Softside Carry-On Spinner",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.skywayluggage.com/collections/luggage",
+      "note": "Observed sale price; color availability can vary.",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "Pelican / Peli",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 499.95,
+      "currency": "USD",
+      "product": "22-inch ATX Carry-On",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.pelican.com/us/en/products/travel",
+      "note": "",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "Pelican / Peli",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 414.95,
+      "currency": "USD",
+      "product": "1535TRVL Carry-On Air Travel Case",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.pelican.com/us/en/products/travel",
+      "note": "",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "YETI",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 350,
+      "currency": "USD",
+      "product": "Crossroads 35L / 22-inch Carry-On",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.yeti.com/bags/luggage",
+      "note": "",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "Burton",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 469.95,
+      "currency": "USD",
+      "product": "4-Wheel Flight Deck 38L",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.burton.com/en-us/collections/travel-bags",
+      "note": "",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "Gucci",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 3950,
+      "currency": "USD",
+      "product": "Porter cabin plus trolley, black Supreme, 740391 9AAED 1000",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.gucci.com/us/en/pr/men/travel-for-men/trolleys-for-men/cabin-trolleys/gucci-porter-cabin-plus-trolley-p-7403919AAED1000",
+      "note": "",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "Prada",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 4000,
+      "currency": "USD",
+      "product": "Polycarbonate trolley, black, 2VQ006 2C0N F0002",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.prada.com/us/en/p/polycarbonate-trolley/2VQ006_2C0N_F0002_V_OOO",
+      "note": "",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "Dior",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 4500,
+      "currency": "USD",
+      "product": "Dior and RIMOWA carry-on, black Oblique aluminum",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.dior.com/en_us/fashion/womens-fashion/bags/travel",
+      "note": "Pre-order listed in retrieved source; delivery date not verified.",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "Gabol",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 84.99,
+      "currency": "EUR",
+      "product": "PACIFIC cabin suitcase, 39 × 55 × 20 cm",
+      "market": "Spain",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://gabol.com/es/",
+      "note": "",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "Gladiator",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 108.5,
+      "currency": "EUR",
+      "product": "FLOW Large Trolley, 53 × 74 × 31/34 cm",
+      "market": "Spain",
+      "date": "2026-11-04",
+      "kind": "Brand-displayed reference price; dealer purchase required",
+      "source": "https://maletasgladiator.com/en/producto/flow-large-trolley/",
+      "note": "",
+      "regular": null,
+      "format": "Checked"
+    },
+    {
+      "brand": "Arowana / 亞諾納",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 5490,
+      "currency": "TWD",
+      "product": "20-inch 極地悍將河馬箱",
+      "market": "Taiwan",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.arowana.com.tw/",
+      "note": "",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "Merax",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 82.93,
+      "currency": "USD",
+      "product": "26.2-inch blue ABS suitcase, LJYXB0036AAC",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.homedepot.com/p/339713420",
+      "note": "Source indexed about two months before review; recheck current price.",
+      "regular": null,
+      "format": "Checked"
+    },
+    {
+      "brand": "American Green Travel",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 229.99,
+      "currency": "USD",
+      "product": "Harbor 3-piece set, AGL920-3E-BLK",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.homedepot.com/b/American-Green-Travel/N-5yc1vZn1x",
+      "note": "Home Depot observed offer; separate retailer prices may differ.",
+      "regular": null,
+      "format": "Set"
+    },
+    {
+      "brand": "U.S. Traveler",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 59.99,
+      "currency": "USD",
+      "product": "Rio rugged fabric expandable carry-on set",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://travelerluggage.com/collections/us-traveler",
+      "note": "Displayed sale price; variants may differ.",
+      "regular": null,
+      "format": "Set"
+    },
+    {
+      "brand": "London Fog",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 307.99,
+      "currency": "USD",
+      "product": "Cambridge Large Check-in Expandable Spinner",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.macys.com/shop/brands/london-fog?id=20558",
+      "note": "Displayed sale price before conditional FRIEND promotion; indexed offer may change.",
+      "regular": null,
+      "format": "Checked"
+    },
+    {
+      "brand": "Nautica",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 223.99,
+      "currency": "USD",
+      "product": "Lightview 3-piece hardside set",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.macys.com/shop/brands/nautica/nautica-luggage?id=229510",
+      "note": "Clearance price before conditional FRIEND promotion; recheck stock.",
+      "regular": null,
+      "format": "Set"
+    },
+    {
+      "brand": "SHOWKOO",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 169,
+      "currency": "USD",
+      "product": "G2 3-piece luggage set",
+      "market": "United States storefront",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.showkootravel.com/collections/all-luggage",
+      "note": "Collection-page observation; verify chosen color and contents.",
+      "regular": null,
+      "format": "Set"
+    },
+    {
+      "brand": "NOBL Travel",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 320,
+      "currency": "USD",
+      "product": "All-In-One 28-inch Check-In",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://nobltravel.com/collections/checked-luggage",
+      "note": "Sale price; no claimed saving against unverified reference prices.",
+      "regular": null,
+      "format": "Checked"
+    },
+    {
+      "brand": "FREQUENTER",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 25300,
+      "currency": "JPY",
+      "product": "LIEVE 1-250 S 33L",
+      "market": "Japan",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.morita-co.jp/view/category/frequenter",
+      "note": "Retailer price including tax.",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "BRIEFING",
+      "retailer": "Reviewed brand / retailer source",
+      "amount": 3650,
+      "currency": "MYR",
+      "product": "H-35 HD HYB, silver, BRA263C40",
+      "market": "Malaysia storefront rendering",
+      "date": "2026-11-04",
+      "kind": "Source-displayed price; recheck before buying",
+      "source": "https://www.briefing-us.com/products/bra263c40?variant=48317332586633",
+      "note": "Site rendered MYR despite its .com domain; do not treat as USD. Source includes tax and duties.",
+      "regular": null,
+      "format": "Carry-on"
+    },
+    {
+      "brand": "DTA / DTA Nova",
+      "retailer": "Abunda US",
+      "amount": 129.99,
+      "currency": "USD",
+      "product": "Nova expandable top-opening 20-inch carry-on, pink",
+      "market": "United States",
+      "date": "2026-11-04",
+      "kind": "Displayed full purchase price, not monthly installment",
+      "source": "https://www.shopabunda.com/products/expandable-lightweight-pc-hard-shell-suitcase-20-inch-luggage-with-tsa-lock-top-opening-cup-holder-ideal-for-business-travel-suitcase-pink-carry-on-20-inch",
+      "note": "Full price USD 129.99; advertised approximately USD 22/month is excluded. Brand storefront currency unresolved. This is the pink top-opening model, not the detachable-wheel zipperless model.",
+      "regular": null,
+      "format": "Carry-on"
     }
   ],
   "retailers": [
@@ -7514,12 +11116,19 @@
     }
   ],
   "gaps": [
-    "This sample is not all brands or all retailers worldwide; local specialists, fashion licenses and marketplace sellers remain underrepresented.",
+    "Global coverage is an expanding research universe, not a verified worldwide census. Source-backed brand profiles do not imply complete product, retailer, factory, launch-date or photo coverage.",
     "Every retailer row is partial: no retailer has a complete, current SKU-level assortment captured in this edition.",
     "Tmall access is limited; Amazon and TikTok contain selected verified products, not complete catalogs.",
     "Actual SKU unit sales are generally not disclosed. Platform badges are retained only in their own scope.",
     "Origin is unresolved for Coolife and Travelhouse; other mixed histories are noted.",
     "Guest themes include six specific models (18 selected/inspected reviews) plus four additional qualitative source sets with mixed variants; some evidence is historical, pre-trip or incentivized.",
     "Photo references are model- and source-specific; not every priced SKU has matched exterior/interior views. The photo directory shows which brands still lack an interior reference."
-  ]
+  ],
+  "coverageRefresh": {
+    "date": "2026-11-04",
+    "addedBrands": 75,
+    "totalBrands": 173,
+    "audit": "brand-coverage.json",
+    "note": "All existing structured brand references resolved. Worldwide brand and SKU completeness is not verified."
+  }
 }

@@ -6,7 +6,7 @@ vm.createContext(ctx);
 for(const file of ['data.js','photos.js','weekly.js','atlas-upgrade.js','fashion.js','fashion-ui.js','innovation.js','innovation-ui.js','workbench.js','tutorial.js','offer-photos.js','directory.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),ctx);
 const run=s=>vm.runInContext(s,ctx);
 assert.equal(run('tab'),'start');assert.equal((el('#view').innerHTML.match(/class="start-card"/g)||[]).length,3);
-assert(el('#view').innerHTML.includes('Start browsing'));assert.equal(el('#routeContext').hidden,true);
+assert(el('#view').innerHTML.includes('Find luggage by features'));assert.equal(el('#routeContext').hidden,true);
 assert.equal(run("atlasRoute('', '?q=Open%20Story')"),'directory');assert.equal(run("atlasRoute('#brands')"),'brands');assert.equal(run("atlasRoute('#costTableAnchor')"),'workbench');assert.equal(run("atlasRoute('#old-missing-section')"),'start');
 el('#researchToggle').listeners.get('click')();assert.equal(el('#researchMenu').open,true);assert.equal(el('#researchToggle')['aria-expanded'],'true');assert(el('#researchMenu').scrolled);assert(el('#research-summary').focused);
 run("location.hash='#directory'");windowEvents.get('hashchange')();assert.equal(run('tab'),'directory');assert.equal(el('#researchMenu').open,false);assert(el('#innerHeading h1').focused);

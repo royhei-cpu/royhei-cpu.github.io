@@ -44,3 +44,5 @@ import runpy
 runpy.run_path(str(ROOT / "validate_photos.py"))
 
 runpy.run_path(str(ROOT / "validate_fashion.py"))
+
+runpy.run_path(str(ROOT / "validate_brand_coverage.py"))
