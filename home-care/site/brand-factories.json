@@ -1,0 +1,796 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-04",
+  "scope": "Brand-level public evidence; not batch or SKU traceability. Unmatched brands have explicit unresolved status.",
+  "entries": [
+    {
+      "brands": [
+        "Febreze",
+        "Mr. Clean",
+        "Bounty",
+        "Charmin",
+        "Cascade",
+        "Tide",
+        "Downy",
+        "Puffs",
+        "Dreft",
+        "Ariel",
+        "Cheer",
+        "Era",
+        "Zevo"
+      ],
+      "brandOwnerName": "Procter & Gamble",
+      "brandOwnerSource": "https://us.pg.com/brands/",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Dawn",
+        "Swiffer",
+        "Gain",
+        "Bounce"
+      ],
+      "brandOwnerName": "Procter & Gamble",
+      "brandOwnerSource": "https://us.pg.com/brands/",
+      "manufacturerName": "Procter & Gamble",
+      "manufacturerSource": "https://www.pgplantjobs.com/us/en/tabler-station",
+      "factories": [
+        {
+          "name": "P&G Tabler Station Plant",
+          "location": "Inwood, West Virginia, United States",
+          "source": "https://www.pgplantjobs.com/us/en/tabler-station",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "The plant page names these brands. It does not map retailer SKUs, variants or batches to this plant.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Mrs. Meyer's",
+        "Mrs. Meyer's Clean Day",
+        "Mrs. Meyers",
+        "Mrs. Meyer’s",
+        "Caldrea",
+        "Ecover",
+        "STEM",
+        "Babyganics",
+        "Saran",
+        "Fantastik"
+      ],
+      "brandOwnerName": "S. C. Johnson & Son, Inc.",
+      "brandOwnerSource": "https://scjohnson.com/en/our-brands",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Raid"
+      ],
+      "brandOwnerName": "S. C. Johnson & Son, Inc.",
+      "brandOwnerSource": "https://scjohnson.com/en/our-brands",
+      "manufacturerName": "S. C. Johnson & Son, Inc.",
+      "manufacturerSource": "https://jobs.scjohnson.com/en/manufacturing-careers",
+      "factories": [
+        {
+          "name": "SC Johnson Waxdale",
+          "location": "Racine, Wisconsin, United States",
+          "source": "https://jobs.scjohnson.com/en/manufacturing-careers",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Waxdale makes liquid and aerosol products for this brand. This is not evidence that baits, tools or every other product are made there.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "OFF!"
+      ],
+      "brandOwnerName": "S. C. Johnson & Son, Inc.",
+      "brandOwnerSource": "https://scjohnson.com/en/our-brands",
+      "manufacturerName": "S. C. Johnson & Son, Inc.",
+      "manufacturerSource": "https://jobs.scjohnson.com/en/manufacturing-careers",
+      "factories": [
+        {
+          "name": "SC Johnson Waxdale",
+          "location": "Racine, Wisconsin, United States",
+          "source": "https://jobs.scjohnson.com/en/manufacturing-careers",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Waxdale makes liquid and aerosol products for this brand. This is not evidence that baits, tools or every other product are made there.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Windex"
+      ],
+      "brandOwnerName": "S. C. Johnson & Son, Inc.",
+      "brandOwnerSource": "https://scjohnson.com/en/our-brands",
+      "manufacturerName": "S. C. Johnson & Son, Inc.",
+      "manufacturerSource": "https://jobs.scjohnson.com/en/manufacturing-careers",
+      "factories": [
+        {
+          "name": "SC Johnson Waxdale",
+          "location": "Racine, Wisconsin, United States",
+          "source": "https://jobs.scjohnson.com/en/manufacturing-careers",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Waxdale makes liquid and aerosol products for this brand. This is not evidence that baits, tools or every other product are made there.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Scrubbing Bubbles"
+      ],
+      "brandOwnerName": "S. C. Johnson & Son, Inc.",
+      "brandOwnerSource": "https://scjohnson.com/en/our-brands",
+      "manufacturerName": "S. C. Johnson & Son, Inc.",
+      "manufacturerSource": "https://jobs.scjohnson.com/en/manufacturing-careers",
+      "factories": [
+        {
+          "name": "SC Johnson Waxdale",
+          "location": "Racine, Wisconsin, United States",
+          "source": "https://jobs.scjohnson.com/en/manufacturing-careers",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Waxdale makes liquid and aerosol products for this brand. This is not evidence that baits, tools or every other product are made there.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Pledge"
+      ],
+      "brandOwnerName": "S. C. Johnson & Son, Inc.",
+      "brandOwnerSource": "https://scjohnson.com/en/our-brands",
+      "manufacturerName": "S. C. Johnson & Son, Inc.",
+      "manufacturerSource": "https://jobs.scjohnson.com/en/manufacturing-careers",
+      "factories": [
+        {
+          "name": "SC Johnson Waxdale",
+          "location": "Racine, Wisconsin, United States",
+          "source": "https://jobs.scjohnson.com/en/manufacturing-careers",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Waxdale makes liquid and aerosol products for this brand. This is not evidence that baits, tools or every other product are made there.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Shout"
+      ],
+      "brandOwnerName": "S. C. Johnson & Son, Inc.",
+      "brandOwnerSource": "https://scjohnson.com/en/our-brands",
+      "manufacturerName": "S. C. Johnson & Son, Inc.",
+      "manufacturerSource": "https://jobs.scjohnson.com/en/manufacturing-careers",
+      "factories": [
+        {
+          "name": "SC Johnson Waxdale",
+          "location": "Racine, Wisconsin, United States",
+          "source": "https://jobs.scjohnson.com/en/manufacturing-careers",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Waxdale makes liquid and aerosol products for this brand. This is not evidence that baits, tools or every other product are made there.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Drano"
+      ],
+      "brandOwnerName": "S. C. Johnson & Son, Inc.",
+      "brandOwnerSource": "https://scjohnson.com/en/our-brands",
+      "manufacturerName": "S. C. Johnson & Son, Inc.",
+      "manufacturerSource": "https://jobs.scjohnson.com/en/manufacturing-careers",
+      "factories": [
+        {
+          "name": "SC Johnson Waxdale",
+          "location": "Racine, Wisconsin, United States",
+          "source": "https://jobs.scjohnson.com/en/manufacturing-careers",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Waxdale makes liquid and aerosol products for this brand. This is not evidence that baits, tools or every other product are made there.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Glade"
+      ],
+      "brandOwnerName": "S. C. Johnson & Son, Inc.",
+      "brandOwnerSource": "https://scjohnson.com/en/our-brands",
+      "manufacturerName": "S. C. Johnson & Son, Inc.",
+      "manufacturerSource": "https://jobs.scjohnson.com/en/manufacturing-careers",
+      "factories": [
+        {
+          "name": "SC Johnson Waxdale",
+          "location": "Racine, Wisconsin, United States",
+          "source": "https://jobs.scjohnson.com/en/manufacturing-careers",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        },
+        {
+          "name": "SC Johnson Brantford plant",
+          "location": "Brantford, Ontario, Canada",
+          "source": "https://jobs.scjohnson.com/en/manufacturing-careers",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Ziploc"
+      ],
+      "brandOwnerName": "S. C. Johnson & Son, Inc.",
+      "brandOwnerSource": "https://scjohnson.com/en/our-brands",
+      "manufacturerName": "S. C. Johnson & Son, Inc.",
+      "manufacturerSource": "https://jobs.scjohnson.com/en/manufacturing-careers",
+      "factories": [
+        {
+          "name": "SC Johnson Bay City plant",
+          "location": "Bay City, Michigan, United States",
+          "source": "https://jobs.scjohnson.com/en/manufacturing-careers",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        },
+        {
+          "name": "SC Johnson Varennes plant",
+          "location": "Varennes, Quebec, Canada",
+          "source": "https://jobs.scjohnson.com/en/manufacturing-careers",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Sources identify bag manufacturing. Containers and individual retailer packs are not traced to a plant.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Method"
+      ],
+      "brandOwnerName": "S. C. Johnson & Son, Inc.",
+      "brandOwnerSource": "https://scjohnson.com/en/our-brands",
+      "manufacturerName": "S. C. Johnson & Son, Inc.",
+      "manufacturerSource": "https://jobs.scjohnson.com/en/manufacturing-careers",
+      "factories": [
+        {
+          "name": "Method South Side Soapbox",
+          "location": "Pullman, Chicago, Illinois, United States",
+          "source": "https://www.methodhome.com.sg/pages/soap-factory",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        },
+        {
+          "name": "SC Johnson Waxdale",
+          "location": "Racine, Wisconsin, United States",
+          "source": "https://jobs.scjohnson.com/en/manufacturing-careers",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "The regional Method site describes Chicago soap manufacturing; SC Johnson lists Method at Waxdale. Exact SKU routing is not established.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Clorox",
+        "CLOROX COMPANY",
+        "Clorox 2",
+        "CloroxPro",
+        "Glad",
+        "Formula 409",
+        "Green Works",
+        "Handi Wipes",
+        "Liquid-Plumr",
+        "Pine-Sol",
+        "S.O.S",
+        "S.O.S.",
+        "Tilex",
+        "Lestoil"
+      ],
+      "brandOwnerName": "The Clorox Company",
+      "brandOwnerSource": "https://www.thecloroxcompany.com/brands/clorox-family-of-brands/",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Lysol",
+        "Finish"
+      ],
+      "brandOwnerName": "Reckitt",
+      "brandOwnerSource": "https://www.reckitt.com/us/our-brands/",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Air Wick",
+        "Airwick",
+        "Resolve",
+        "Woolite",
+        "Easy-Off",
+        "Easy Off",
+        "Calgon"
+      ],
+      "brandOwnerName": "Essential Home (Advent majority-owned; Reckitt minority stake)",
+      "brandOwnerSource": "https://www.reckitt.com/news/reckitt-completes-divestment-of-essential-home/",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Brand portfolio: https://www.reckitt.com/news/reckitt-agrees-to-divest-essential-home/ . Completion announcement states 31 December 2025 in its body; page header date is inconsistent. Older Air Wick copy still names Reckitt. No specific plant assignment established.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Arm & Hammer",
+        "ARM & HAMMER",
+        "OxiClean",
+        "XTRA",
+        "Kaboom",
+        "Orange Glo",
+        "Clean Shower",
+        "Scrub Free"
+      ],
+      "brandOwnerName": "Church & Dwight Co., Inc.",
+      "brandOwnerSource": "https://churchdwight.com/our-brands/consumer-brands/",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Additional household brand/product evidence: https://churchdwight.com/ingredient-disclosure/default.aspx",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "all",
+        "All",
+        "Snuggle",
+        "Purex",
+        "Soft Scrub",
+        "Combat"
+      ],
+      "brandOwnerName": "Henkel Corporation",
+      "brandOwnerSource": "https://www.henkel-northamerica.com/company/partners/authorized-seller-program",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Persil"
+      ],
+      "brandOwnerName": "Henkel Corporation",
+      "brandOwnerSource": "https://www.persillaundry.com/us/en/laundry-help/faq.html",
+      "manufacturerName": "Henkel Corporation",
+      "manufacturerSource": "https://www.persillaundry.com/us/en/laundry-help/faq.html",
+      "factories": [
+        {
+          "name": "Henkel Bowling Green production center",
+          "location": "Bowling Green, Kentucky, United States",
+          "source": "https://www.persillaundry.com/us/en/laundry-help/faq.html",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Hefty",
+        "Reynolds",
+        "Reynolds Wrap",
+        "Reynolds Kitchens"
+      ],
+      "brandOwnerName": "Reynolds Consumer Products",
+      "brandOwnerSource": "https://www.reynoldsconsumerproducts.com/brands",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Kleenex",
+        "Scott",
+        "Cottonelle",
+        "Viva"
+      ],
+      "brandOwnerName": "Kimberly-Clark",
+      "brandOwnerSource": "https://www.kimberly-clark.com/brands",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "U.S. catalog brand relationship only; international licensing and corporate structures may differ.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Dixie",
+        "DIXIE",
+        "Dixie Ultra",
+        "Vanity Fair"
+      ],
+      "brandOwnerName": "Georgia-Pacific",
+      "brandOwnerSource": "https://www.gp.com/product-overview",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Angel Soft"
+      ],
+      "brandOwnerName": "Georgia-Pacific",
+      "brandOwnerSource": "https://www.gp.com/product-overview/consumer-products",
+      "manufacturerName": "Georgia-Pacific",
+      "manufacturerSource": "https://news.gp.com/georgia-pacific-investing-approximately-150-mil-in-palatka-florida-to-rebuild-paper-machine",
+      "factories": [
+        {
+          "name": "Georgia-Pacific Palatka mill",
+          "location": "Palatka, Florida, United States",
+          "source": "https://news.gp.com/georgia-pacific-investing-approximately-150-mil-in-palatka-florida-to-rebuild-paper-machine",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Quilted Northern"
+      ],
+      "brandOwnerName": "Georgia-Pacific",
+      "brandOwnerSource": "https://www.gp.com/product-overview/consumer-products",
+      "manufacturerName": "Georgia-Pacific",
+      "manufacturerSource": "https://news.gp.com/georgia-pacific-investing-approximately-150-mil-in-palatka-florida-to-rebuild-paper-machine",
+      "factories": [
+        {
+          "name": "Georgia-Pacific Palatka mill",
+          "location": "Palatka, Florida, United States",
+          "source": "https://news.gp.com/georgia-pacific-investing-approximately-150-mil-in-palatka-florida-to-rebuild-paper-machine",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Brawny"
+      ],
+      "brandOwnerName": "Georgia-Pacific",
+      "brandOwnerSource": "https://www.gp.com/product-overview/consumer-products",
+      "manufacturerName": "Georgia-Pacific",
+      "manufacturerSource": "https://news.gp.com/georgia-pacific-investing-approximately-150-mil-in-palatka-florida-to-rebuild-paper-machine",
+      "factories": [
+        {
+          "name": "Georgia-Pacific Palatka mill",
+          "location": "Palatka, Florida, United States",
+          "source": "https://news.gp.com/georgia-pacific-investing-approximately-150-mil-in-palatka-florida-to-rebuild-paper-machine",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Sparkle"
+      ],
+      "brandOwnerName": "Georgia-Pacific",
+      "brandOwnerSource": "https://www.gp.com/product-overview/consumer-products",
+      "manufacturerName": "Georgia-Pacific",
+      "manufacturerSource": "https://news.gp.com/georgia-pacific-investing-approximately-150-mil-in-palatka-florida-to-rebuild-paper-machine",
+      "factories": [
+        {
+          "name": "Georgia-Pacific Palatka mill",
+          "location": "Palatka, Florida, United States",
+          "source": "https://news.gp.com/georgia-pacific-investing-approximately-150-mil-in-palatka-florida-to-rebuild-paper-machine",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Fabuloso",
+        "Palmolive",
+        "Ajax",
+        "Murphy",
+        "Murphy Oil Soap",
+        "Suavitel"
+      ],
+      "brandOwnerName": "Colgate-Palmolive",
+      "brandOwnerSource": "https://www.colgatepalmolive.com/en-us/brands",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Ajax relationship is for cleaners and dishwashing; no licensed laundry-product manufacturer is inferred.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "3M",
+        "Scotch-Brite",
+        "Scotchgard"
+      ],
+      "brandOwnerName": "3M",
+      "brandOwnerSource": "https://www.3m.com/3M/en_US/company-us/our-brands/",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Libman"
+      ],
+      "brandOwnerName": "",
+      "brandOwnerSource": "",
+      "manufacturerName": "The Libman Company",
+      "manufacturerSource": "https://www.libman.com/",
+      "factories": [
+        {
+          "name": "The Libman Company Arcola facility",
+          "location": "Arcola, Illinois, United States",
+          "source": "https://www.libman.com/",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Libman states MOST products are made in Arcola using U.S. and globally sourced materials. Imported items and exact SKU provenance remain unresolved.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Solo"
+      ],
+      "brandOwnerName": "Dart Container",
+      "brandOwnerSource": "https://corporate.dartcontainer.com/location/chicago-il/",
+      "manufacturerName": "Dart Container",
+      "manufacturerSource": "https://corporate.dartcontainer.com/location/chicago-il/",
+      "factories": [
+        {
+          "name": "Dart Container Chicago facility",
+          "location": "7575 S. Kostner Avenue, Chicago, Illinois, United States",
+          "source": "https://corporate.dartcontainer.com/location/chicago-il/",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Official page identifies this as a manufacturing hub for many SOLO products; exact plate SKU not traced.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "ECOS"
+      ],
+      "brandOwnerName": "",
+      "brandOwnerSource": "",
+      "manufacturerName": "ECOS",
+      "manufacturerSource": "https://www.ecos.com/our-story/",
+      "factories": [
+        {
+          "name": "ECOS Cypress manufacturing facility",
+          "location": "Cypress, California, United States",
+          "source": "https://www.ecos.com/our-story/",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Official history identifies the Cypress flagship factory. Additional network sites are described, but this review does not assign a retailer pack to any site.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "TERRO",
+        "Terro"
+      ],
+      "brandOwnerName": "Woodstream",
+      "brandOwnerSource": "https://www.woodstream.com/our-brands/terro",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Brand ownership is established; exact producing legal entity and plant for the liquid and bait SKUs remain unverified.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Folex"
+      ],
+      "brandOwnerName": "",
+      "brandOwnerSource": "",
+      "manufacturerName": "FOLEXPORT, INC.",
+      "manufacturerSource": "https://folexcompany.com/wp-content/uploads/FLX-001B-Folex-Professional-Carpet-Spot-Remover_7252023_USA_ENGLISH_FINAL.pdf",
+      "factories": [],
+      "evidenceNote": "2023 professional carpet cleaner SDS names manufacturer/supplier. This establishes a brand-level company lead, not a factory for the retail 32 oz SKU. The Tualatin PO box is a mailing address, not a plant. Unrelated folex.com film-coating companies excluded.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Goo Gone",
+        "Green Gobbler",
+        "Magic",
+        "Gonzo",
+        "Stone Care International",
+        "Wright's",
+        "Biokleen",
+        "30 SECONDS",
+        "30 Seconds",
+        "Mighty Mint",
+        "Urnex"
+      ],
+      "brandOwnerName": "PurposeBuilt Brands",
+      "brandOwnerSource": "https://purposebuiltbrands.com/company",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Corporate brand relationship verified. Gurnee, Somers and Manchester are disclosed company production sites, but source does not establish which plant produces each brand, so no brand factory is assigned.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Harris",
+        "P.F. Harris"
+      ],
+      "brandOwnerName": "PurposeBuilt Brands",
+      "brandOwnerSource": "https://purposebuiltbrands.com/company",
+      "manufacturerName": "P.F. Harris",
+      "manufacturerSource": "https://purposebuiltbrands.com/company",
+      "factories": [
+        {
+          "name": "P.F. Harris Cartersville facility",
+          "location": "7 River Drive, Cartersville, Georgia, United States",
+          "source": "https://purposebuiltbrands.com/company",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "The Pink Stuff",
+        "The Pink Stuff USA",
+        "Stardrops"
+      ],
+      "brandOwnerName": "",
+      "brandOwnerSource": "",
+      "manufacturerName": "Star Brands Ltd",
+      "manufacturerSource": "https://www.starbrandsltd.co.uk/pages/faqs",
+      "factories": [
+        {
+          "name": "Star Brands Redditch site",
+          "location": "Dunlop Road, Redditch, England, United Kingdom",
+          "source": "https://www.starbrandsltd.co.uk/pages/faqs",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Company FAQ states its products are manufactured in Redditch. Exact SKU/batch mapping, especially accessories, is not established.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Bar Keepers Friend",
+        "Bar Keeper's Friend"
+      ],
+      "brandOwnerName": "",
+      "brandOwnerSource": "",
+      "manufacturerName": "SerVaas Laboratories Inc.",
+      "manufacturerSource": "https://bkfclean.com/contact-us/",
+      "factories": [
+        {
+          "name": "SerVaas Laboratories Indianapolis manufacturing facility",
+          "location": "Indianapolis, Indiana, United States",
+          "source": "https://bkfclean.com/about-us/our-story/",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "OdoBan"
+      ],
+      "brandOwnerName": "",
+      "brandOwnerSource": "",
+      "manufacturerName": "Clean Control Corporation",
+      "manufacturerSource": "https://www.cleancontrol.com/about-us/our-founder/",
+      "factories": [
+        {
+          "name": "Clean Control Warner Robins facility",
+          "location": "Warner Robins, Georgia, United States",
+          "source": "https://www.odoban.com/our-story/",
+          "scope": "Brand-level facility; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Bona"
+      ],
+      "brandOwnerName": "",
+      "brandOwnerSource": "",
+      "manufacturerName": "Bona",
+      "manufacturerSource": "https://www.bona.com.au/images/bona/data-spec-sheets/bona-sustainability-report-2024.pdf",
+      "factories": [
+        {
+          "name": "Bona Monroe production site",
+          "location": "Monroe, North Carolina, United States",
+          "source": "https://www.bona.com.au/images/bona/data-spec-sheets/bona-sustainability-report-2024.pdf",
+          "scope": "Company network disclosed in 2024 report; exact SKU plant unverified"
+        }
+      ],
+      "evidenceNote": "Historical 2024 report lists four production sites, including Monroe; current SKU routing unverified.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Zep"
+      ],
+      "brandOwnerName": "",
+      "brandOwnerSource": "",
+      "manufacturerName": "Zep Inc.",
+      "manufacturerSource": "https://zsds3.zepinc.com/ehswww/zep/result/direct_link.jsp?C001=MSDS&C002=US&C003=E&C013=168209&C123=SDS%2A&P_LANGU=E&P_SSN=11337&P_SYS=2",
+      "factories": [],
+      "evidenceNote": "SDS identifies a manufacturer/supplier company. It does not prove the listed address is the production plant for every catalog SKU.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Rejoice"
+      ],
+      "brandOwnerName": "",
+      "brandOwnerSource": "",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Retailer page establishes the cleaner brand, but this review did not establish its manufacturer or factory. Do not equate it with the unrelated Rejoice hair-care brand.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "WypAll"
+      ],
+      "brandOwnerName": "Kimberly-Clark",
+      "brandOwnerSource": "https://www.kimberly-clark.com/en-us/brands/kc-professional",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "U.S. catalog brand relationship only; international licensing and corporate structures may differ.",
+      "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Weiman"
+      ],
+      "brandOwnerName": "PurposeBuilt Brands",
+      "brandOwnerSource": "https://purposebuiltbrands.com/company",
+      "manufacturerName": "Weiman Products, LLC",
+      "manufacturerSource": "https://weiman.com/authorized-reseller-policy",
+      "factories": [],
+      "evidenceNote": "Corporate brand relationship verified. Gurnee, Somers and Manchester are disclosed company production sites, but source does not establish which plant produces each brand, so no brand factory is assigned.",
+      "checkedDate": "2026-11-04"
+    }
+  ]
+}

@@ -50,3 +50,14 @@ Benchmark IDs stored before page load must be restored after registration withou
 
 
 The expanded Target interface renders on first open, after lightweight reference registration at mount. Search, product-platform, scope and qualitative-priority filters preserve the original recommendation indices for comparison-set controls. Product evidence and the full Target/travel reference libraries are collapsed by default. Selection is shared with every other view, including filtered-out products. Source and price dates must not become the feature publication date. Keep the existing Luggage Atlas and all other repository projects intact when publishing Home Care changes.
+
+## Targeted coverage correction — 4 November 2026
+
+See COVERAGE_CORRECTION_2026-11-04.md. Eight new listings and three evidence-backed Naturals cross-listings yield 10,141 retained records. `category-cross-listings.json` adds secondary category memberships without changing original fields or duplicating SKUs. Browse and the coverage matrix include these memberships; primary-category analytics retain their existing grouping. CSV exports include secondary memberships and separately dated observed-price evidence. Zero unrepresented cells does not establish complete retailer assortments. Preserve the correction file and new part-038 in future builds.
+
+
+### Brand and factory evidence
+
+`site/brand-factories.json` contains reviewed exact brand aliases, separate brand-owner and manufacturer/supplier evidence, and disclosed manufacturing facilities. `brand-factory-build.mjs` supplements the merged catalog without changing existing fields, generates the searchable `/home-care/brand-factories.html` directory plus JSON/CSV, and extends product Details and selected-product CSV exports. Unmatched brands receive a pending status and no verification date; missing brands remain missing. Disclosed brand facilities are never represented as an exact SKU/batch factory. The initial review supports 31 raw brand labels with facilities and 108 with company evidence; remaining research gaps are explicit.
+
+Run `node --test home-care/brand-factory-build.test.mjs` for provenance, alias, safe output and generated-directory filter checks. The existing publish job runs the optimizer and copies its generated outputs; no workflow or weekly schedule change is required.

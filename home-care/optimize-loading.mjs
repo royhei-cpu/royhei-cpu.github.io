@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import zlib from 'node:zlib';
 import crypto from 'node:crypto';
 import { addSalesRanking } from './sales-ranking-build.mjs';
+import { addBrandFactories, addFactoryInterface } from './brand-factory-build.mjs';
 const file=process.argv[2]||'home-care/site/index.html';
 let html=fs.readFileSync(file,'utf8');
 if(html.includes('id="catalog-loading"')){console.log('Loading optimization already applied');process.exit(0)}
@@ -21,6 +22,10 @@ const weekStart=new Date(checkedAt+'T00:00:00Z');weekStart.setUTCDate(weekStart.
 const since=weekStart.toISOString().slice(0,10);
 const originalIds=new Set(items.map(d=>d.id));
 for(const d of additions){assert.ok(d.id&&d.name&&d.url&&d.image&&d.category&&d.retailer);if(!originalIds.has(d.id)){items.push(d);originalIds.add(d.id)}}
+// Add evidence-backed category memberships without duplicating or reclassifying SKUs.
+const crossFile=path.join(reviewDir,'category-cross-listings.json');
+const cross=fs.existsSync(crossFile)?JSON.parse(fs.readFileSync(crossFile,'utf8')):[];
+for(const patch of cross){const record=items.find(d=>d.id===patch.id);assert.ok(record,'Cross-listing ID missing: '+patch.id);for(const [key,value] of Object.entries(patch)){if(key!=='id'){assert.ok(!Object.hasOwn(record,key),'Cross-listing must not overwrite retained field '+key);record[key]=value}}}
 // Keep reference records, but distinguish them from individual item-page evidence.
 for(const d of items){
  const u=new URL(d.url);
@@ -28,6 +33,7 @@ for(const d of items){
  d.evidenceLevel=d.evidenceLevel||(broad?'Search / category reference':/indexed|access issue|metadata/i.test(d.verificationStatus||'')?'Indexed / limited evidence':'Individual item link');
 }
 assert.ok(items.length>=6265, "Existing catalog records must be preserved");
+const factoryStats=addBrandFactories(items,path.dirname(file));
 const keys=[...new Set(items.flatMap(Object.keys))],pool=[],lookup=new Map();
 const rows=items.map(item=>keys.map(k=>{if(!Object.hasOwn(item,k))return -1;const v=item[k],signature=JSON.stringify(v);if(!lookup.has(signature)){lookup.set(signature,pool.length);pool.push(v)}return lookup.get(signature)}));
 const decoded=rows.map(r=>Object.fromEntries(keys.flatMap((k,i)=>r[i]<0?[]:[[k,pool[r[i]]]])));
@@ -70,6 +76,14 @@ const coverage=JSON.parse(html.slice(covStart,covEnd));
 for(const r of Object.keys(counts)){if(coverage[r])coverage[r].note=counts[r]+' collected listings. Partial coverage, not the retailer’s full inventory.'+(additions.some(d=>d.retailer===r)?' Latest collected evidence dated '+additions.filter(d=>d.retailer===r).map(d=>d.checkedDate||'').filter(Boolean).sort().at(-1)+'.':' Existing records retained; more product research needed.');}
 html=html.slice(0,covStart)+JSON.stringify(coverage)+html.slice(covEnd);
 html=html.replace('No matching products.', 'No collected listings match these filters. An empty category does not mean the retailer stocks no products.');
+// Secondary category membership is searchable and exportable; primary category stays intact.
+assert.ok(html.includes("cat==='all'||d.category===cat"));
+html=html.replace("cat==='all'||d.category===cat","cat==='all'||d.category===cat||(d.secondaryCategories||[]).includes(cat)");
+html=html.replace(".map(d=>d.category));$('category')",".flatMap(d=>[d.category,...(d.secondaryCategories||[])]));$('category')");
+// Make cross-listings visible on cards without modifying retained category fields.
+assert.ok(html.includes('esc(d.categoryLabel)'));
+html=html.replaceAll('esc(d.categoryLabel)', "esc(d.categoryLabel+(d.secondaryCategories?.length?' · Also: '+d.secondaryCategories.join(', '):''))");
+html=html.replace("esc(d.photoVerification)", "esc(d.photoVerification)+(d.categoryEvidenceNote?'<br>Category evidence checked '+esc(d.coverageVerifiedDate)+': '+esc(d.categoryEvidenceNote)+' '+link(d.categoryEvidenceSource,'Category source'):'')");
 html=addSalesRanking(html);
 assert.equal(html.split("const fields=['salesRankInView'").length-1,1,'Target CSV integration changed');
 html=html.replace("const fields=['salesRankInView'", "const fields=['targetInspirationRole','targetInspirationIdeas','targetFeatureToLearn','targetProposedConcept','targetValidationSteps','targetInspirationSources','salesRankInView'");
@@ -83,7 +97,11 @@ html=html.replace('<script src="/home-care/opportunities.js"></script>','<script
 html=html.replace('</head>','<link rel="stylesheet" href="/home-care/merchant-analytics.css">\n<link rel="stylesheet" href="/home-care/product-compare.css">\n<link rel="stylesheet" href="/home-care/target-inspiration.css">\n</head>');
 html=html.replace('</body>','<script src="/home-care/merchant-analytics-model.js"></script>\n<script src="/home-care/merchant-analytics.js"></script>\n<script src="/home-care/target-inspiration-data.js"></script>\n<script src="/home-care/target-inspiration.js"></script>\n<script src="/home-care/product-compare.js"></script>\n<script>window.HCMerchantAnalytics.mount(ITEMS);window.HCTargetInspiration.mount({items:ITEMS,byId,cached,picks,redraw:draw});window.HCProductCompare.mount({items:ITEMS,byId,cached,picks,redraw:draw,onShow:()=>{showCatalogView(false);document.getElementById("executive-view").hidden=true;document.getElementById("nav-opportunities").setAttribute("aria-pressed","false");},onBrowse:()=>showCatalogView(true)});</script>\n</body>');
 for(const asset of ['weekly-dashboard.js','weekly-dashboard.css','opportunities.js','opportunities.css','opportunity-model.js','merchant-analytics-model.js','merchant-analytics.js','merchant-analytics.css','product-compare.js','product-compare.css','target-inspiration-data.js','target-inspiration.js','target-inspiration.css','sales-ranking-model.js','sales-ranking.js','sales-ranking.css']){const source=path.join(path.dirname(file),asset);if(fs.existsSync(source)){const version=crypto.createHash('sha256').update(fs.readFileSync(source)).digest('hex').slice(0,12);html=html.replaceAll('/home-care/'+asset,'/home-care/'+asset+'?v='+version)}}
+html=html.replace("const fields=['", "const fields=['secondaryCategories','coverageBrand','coverageSize','coverageVerifiedDate','categoryEvidenceSource','categoryEvidenceNote','observedPrice','observedPriceSource','observedPriceNote','priceObservedDate','size','");
+html=html.replace("const headers={", "const headers={secondaryCategories:'Also listed in',coverageBrand:'Verified brand',coverageSize:'Verified size',coverageVerifiedDate:'Coverage verification date',categoryEvidenceSource:'Category evidence URL',categoryEvidenceNote:'Category evidence note',observedPrice:'Observed USD price',observedPriceSource:'Observed price source',observedPriceNote:'Observed price limitations',priceObservedDate:'Price evidence retrieved date',size:'Size / pack',");
+html=addFactoryInterface(html);
 fs.writeFileSync(file,html);
+console.log(JSON.stringify({factoryStats}));
 console.log(JSON.stringify({records:items.length,initialCards:first.length,bytes:Buffer.byteLength(html),originalDataBytes:end-start,packedDataBytes:Buffer.byteLength(expression),lossless:true}));
 
 
