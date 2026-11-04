@@ -83,3 +83,8 @@ Each of the 50 national-brand benchmarks now has a locally cached product photog
 The workshop shows the concept and its two photographed references together on desktop, with responsive photo cards, full-size photo links and expandable source details. All 36 concepts retain the existing engineering targets, four finishes, real Blender assets and editable cost scenarios. Suggested changes are grouped into existing-brand facts, proposed improvements and validation evidence. Configured HTML briefs now carry both benchmark photos and credits; the base A0 Blender ZIPs retain their existing content. Opportunities remains last.
 
 The existing publish test command now checks photo completeness and bytes, renders all 36 concept/component states, exercises specification units and pricing edits, and verifies photo attribution in saved briefs. Browser preview remains unverified when the app cannot complete its admin security-policy check.
+
+
+## Current website tutorial — 4 November 2026
+
+The tutorial at `/home-care/tutorial.html` now covers the global/China listing controls and the White Label Workshop with national-brand photos, proposed changes, specs, pricing and downloads. Opportunities is last in both the video navigation and the written guide. The release is an explicitly labeled captioned illustrated guide with chapter seeking and direct section links, not a live screen recording. The voice service quota was exhausted; no unapproved alternate narration was generated. See `tutorial-media/README.md` for the reproducible project and review limits. `assemble.py` replaces both the current video name and legacy video/download aliases during publication, and `guide.test.mjs` checks source compatibility and media integrity in the publish workflow.

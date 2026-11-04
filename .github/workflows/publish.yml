@@ -82,10 +82,10 @@ jobs:
         run: |
           npm ci --prefix home-care/ui-src
           npm run build --prefix home-care/ui-src
-          node --test home-care/ui-src/upgrade.test.mjs home-care/homecare-upgrade.test.mjs home-care/sales-ranking-model.test.cjs home-care/merchant-analytics-model.test.cjs home-care/opportunity-model.test.cjs home-care/brand-factory-build.test.mjs
+          node --test home-care/ui-src/upgrade.test.mjs home-care/homecare-upgrade.test.mjs home-care/tutorial-media/guide.test.mjs home-care/sales-ranking-model.test.cjs home-care/merchant-analytics-model.test.cjs home-care/opportunity-model.test.cjs home-care/brand-factory-build.test.mjs
       - name: Optimize Home Care page for fast loading
         run: node home-care/optimize-loading.mjs
-      - name: Assemble narrated Home Care tutorial
+      - name: Assemble current Homecare tutorial
         run: python3 home-care/tutorial-media/assemble.py
       - name: Add Home Care catalog
         run: cp -R home-care/site _site/home-care
@@ -139,4 +139,3 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-

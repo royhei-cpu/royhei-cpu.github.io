@@ -1,0 +1,165 @@
+{
+  "updated": "2026-11-04",
+  "release": "20261104-workshop-steps",
+  "interfaceCommit": "5a0b74b06093fb94f8da9f78e34a581fc8dcab74",
+  "format": "Illustrated feature guide with actual product photos and A0 Blender renders; not a screen recording.",
+  "voice": "none",
+  "reviewLimitations": {
+    "liveBrowserCapture": "Unavailable: admin security-policy check did not permit browser access. No alternative browser capture used.",
+    "audioListening": "not_performed"
+  },
+  "chapters": [
+    {
+      "id": "start",
+      "title": "Browse. Compare. Develop.",
+      "url": "/home-care/",
+      "start": 0.0,
+      "end": 12.008571428571429
+    },
+    {
+      "id": "navigation",
+      "title": "Find the right section.",
+      "url": "/home-care/",
+      "start": 12.008571428571429,
+      "end": 27.69142857142857
+    },
+    {
+      "id": "global",
+      "title": "Find international products.",
+      "url": "/home-care/?view=global&country=China#homecare-workspace",
+      "start": 27.691428571428574,
+      "end": 42.11714285714286
+    },
+    {
+      "id": "shortlist",
+      "title": "Keep a useful shortlist.",
+      "url": "/home-care/?view=global#homecare-workspace",
+      "start": 42.11714285714286,
+      "end": 57.51428571428571
+    },
+    {
+      "id": "analysis",
+      "title": "Read the evidence carefully.",
+      "url": "/home-care/",
+      "start": 57.51428571428571,
+      "end": 71.25428571428571
+    },
+    {
+      "id": "workshop",
+      "title": "Home care, beyond cleaning.",
+      "url": "/home-care/?view=workshop#homecare-workspace",
+      "start": 71.2542857142857,
+      "end": 85.21428571428571
+    },
+    {
+      "id": "benchmarks",
+      "title": "Compare real brand products.",
+      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
+      "start": 85.21428571428571,
+      "end": 99.69714285714286
+    },
+    {
+      "id": "changes",
+      "title": "Make the difference specific.",
+      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
+      "start": 99.69714285714285,
+      "end": 115.26571428571428
+    },
+    {
+      "id": "specs",
+      "title": "Review dimensions and finishes.",
+      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
+      "start": 115.26571428571428,
+      "end": 129.7485714285714
+    },
+    {
+      "id": "pricing",
+      "title": "Build a cost scenario.",
+      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
+      "start": 129.7485714285714,
+      "end": 141.36571428571426
+    },
+    {
+      "id": "downloads",
+      "title": "Save a complete development brief.",
+      "url": "/home-care/?view=workshop&concept=laundry-sorter#homecare-workspace",
+      "start": 141.36571428571426,
+      "end": 159.56285714285713
+    },
+    {
+      "id": "opportunities",
+      "title": "Investigate opportunities last.",
+      "url": "/home-care/",
+      "start": 159.56285714285713,
+      "end": 172.49428571428572
+    }
+  ],
+  "photos": [
+    {
+      "file": "china-taobao.webp",
+      "brand": "David",
+      "sourcePage": "https://tao.hooos.com/goods_0kZVb29f7t95K6gi00Ps2t6-mOZQQNu7nRY498rCN.html",
+      "publishedImage": "https://royhei-cpu.github.io/cleantrend-opportunity-hub/international-expansion/taobao-david-p12.webp",
+      "status": "Existing recorded catalog photo; not a refreshed offer."
+    },
+    {
+      "file": "china-tmall.webp",
+      "brand": "David",
+      "sourcePage": "https://tao.hooos.com/goods_4Vz4WM0Tgt2DkXWUw7XSNtg-aAZjjVSdj99k6j2c7.html",
+      "publishedImage": "https://royhei-cpu.github.io/cleantrend-opportunity-hub/international-expansion/tmall-david-large-flat-mop.webp",
+      "status": "Existing recorded catalog photo; not a refreshed offer."
+    },
+    {
+      "file": "china-jd.jpg",
+      "brand": "Joybos / \u4f73\u5e2e\u624b",
+      "sourcePage": "https://item.jd.com/100076209387.html",
+      "publishedImage": "https://royhei-cpu.github.io/cleantrend-opportunity-hub/international-expansion/jd-joybos-flat-mop.jpg",
+      "status": "Existing recorded catalog photo; not a refreshed offer."
+    }
+  ],
+  "benchmarkPhotos": {
+    "jj-tota": {
+      "id": "jj-tota",
+      "sourceUrl": "https://us.josephjoseph.com/products/tota-90l-laundry-separation-basket-black",
+      "sourceTitle": "Tota 90L Laundry Separation Basket - Black | Joseph Joseph US",
+      "sourceType": "Manufacturer",
+      "imageUrl": "https://us.josephjoseph.com/cdn/shop/products/50004_Media_01.webp?v=1680258465",
+      "alt": "Joseph Joseph Tota Twin 90L laundry separation basket, Black",
+      "match": "variant-matched",
+      "verificationNote": "Black Tota Twin 90 L (two 45 L bags) shown; model, capacity and color match the saved benchmark. Manufacturing revision is not stated; a purchased sample is required for production comparison.",
+      "checkedAt": "2026-11-04",
+      "path": "/home-care/workshop-reference-photos/jj-tota.webp",
+      "width": 900,
+      "height": 730,
+      "bytes": 14074,
+      "sha256": "ce18ceb76285fc535a0016fc5d4a0e94bd04bbafb12c873f0c1493de6072777a",
+      "originalWidth": 900,
+      "originalHeight": 730
+    },
+    "brabantia-bo": {
+      "id": "brabantia-bo",
+      "sourceUrl": "https://www.brabantia.com/int_en/laundry-ironing/laundry/laundry-bins-bags/bo-laundry-bins/bo-laundry-bin-hi-2-x-45-litre/",
+      "sourceTitle": "Bo Laundry Bin Hi, 2x 45 litre - Bo Laundry Bins - Laundry bins & bags - Laundry - Laundry & ironing | Brabantia",
+      "sourceType": "Manufacturer",
+      "imageUrl": "https://www.brabantia.com/cdn-cgi/image/format=auto,onerror=redirect/media/catalog/product/cache/63adc5017fe890a59c8d847afeb15f6c/w/e/webbeelden_bo_laundry_bin_hi_2_x_45l_plastic_lid_-_white_-_8710755200540_brabantia.jpg",
+      "alt": "Bo Laundry Bin Hi 2 x 45 litre - White",
+      "match": "range-reference",
+      "verificationNote": "White Bo Laundry Bin Hi 2 \u00d7 45 L shown from the official range. The saved reference has no finish-specific price; do not apply a range price to this finish. Manufacturing revision is not stated; a purchased sample is required for production comparison.",
+      "checkedAt": "2026-11-04",
+      "path": "/home-care/workshop-reference-photos/brabantia-bo.webp",
+      "width": 318,
+      "height": 318,
+      "bytes": 3862,
+      "sha256": "43bbe275006ee1c00153b882ac284ce0518ea3be5ef5cb8ff8aa298f2bee9a8a",
+      "originalWidth": 318,
+      "originalHeight": 318,
+      "specSourceUrl": "https://www.brabantia.com/int_en/bo-laundry-bin-hi-2-x-45-litre-plastic-lid-white/",
+      "specCheckedAt": "2026-11-04",
+      "specDimensions": "White SKU 200540: width 540 mm \u00b7 length 320 mm \u00b7 height 790 mm; 5.1 kg. Converted from manufacturer centimetres.",
+      "specFacts": [
+        "White SKU 200540 / EAN 8710755200540: 90 L total, two compartments, steel body.",
+        "Removable cotton laundry bag, machine washable at 40\u00b0C; hook-and-loop attachment."
+      ]
+    }
+  }
+}
