@@ -37,7 +37,7 @@
     {
       "id": "navigation",
       "title": "Find the right section.",
-      "url": "/home-care/",
+      "url": "/home-care/help.html",
       "kind": "navigation",
       "speech": "Start with the main navigation. Browse competitors, Global retailers and items, Sales and analysis, and White Label Workshop are the main working sections. Brands and factories and Video guide are resources. Opportunities comes last."
     },
@@ -51,14 +51,14 @@
     {
       "id": "shortlist",
       "title": "Keep a useful shortlist.",
-      "url": "/home-care/?view=global#homecare-workspace",
+      "url": "/home-care/?view=compare",
       "kind": "shortlist",
       "speech": "Use Select to compare on a global product card, or Select in the original catalog. Compare selected opens your shortlist. Export selected CSV downloads the selected records for Excel. Product photos are exported as links, rather than embedded pictures."
     },
     {
       "id": "analysis",
       "title": "Read the evidence carefully.",
-      "url": "/home-care/",
+      "url": "/home-care/?view=analysis",
       "kind": "analysis",
       "speech": "Sales and analysis shows the saved evidence. Compare sales figures only when the retailer, metric, reporting period, and snapshot date match. Missing sales information stays unknown. Research coverage is not market share."
     },
@@ -109,9 +109,10 @@
     {
       "id": "opportunities",
       "title": "Investigate opportunities last.",
-      "url": "/home-care/",
+      "url": "/home-care/?view=opportunities",
       "kind": "finish",
       "speech": "Use Opportunities last to investigate possible gaps after reviewing the products and evidence. Music and button sounds have separate controls. You can keep the workspace quiet while you browse, compare, and develop."
     }
-  ]
+  ],
+  "navigationNote": "Navigation is now grouped into Home, Products, Workshop, Insights and Opportunities. Products contains U.S. and global browsing plus Compare selected. Insights contains Sales & analysis, Brands & factories and Target inspiration. Help & guide holds the quick guide and this video. In Workshop, choose one review step at a time; use Next or Previous to continue."
 }

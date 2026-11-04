@@ -92,9 +92,14 @@ test('every concept retains two national-brand photos and working detail control
    assert.deepEqual(cards.map(c=>c.props['data-benchmark']),proposal.benchmarks);
    for(const card of cards){const id=card.props['data-benchmark'],photo=benchmarkEvidence(id),img=card.findByType('img');assert.equal(img.props.src,photo.path);assert.ok(img.props.alt.length>20);assert.ok(img.props.width>=100);assert.equal(card.findByProps({className:'wl-benchmark-photo'}).props.href,photo.path);assert.ok(text(card).includes(photo.sourceTitle));}
    assert.equal(screen.root.findByProps({id:'wl-real-products'}).findAllByProps({className:'wl-benchmark-card'}).length,2);
-   assert.equal(screen.root.findByProps({className:'wl-change-grid'}).findAllByType('article').length,proposal.changes.length);
+   assert.equal(screen.root.findByProps({id:'wl-step-references'}).props.hidden,false);
+   await act(async()=>screen.root.findAllByType('a').find(a=>a.props.href==='#wl-development-case').props.onClick({preventDefault(){}}));
+   assert.equal(screen.root.findByProps({id:'wl-step-references'}).props.hidden,true);assert.equal(screen.root.findByProps({id:'wl-step-changes'}).props.hidden,false);
+   assert.equal(screen.root.findByProps({className:'wl-change-cards'}).findAllByType('article').length,proposal.changes.length);
   }
   await act(async()=>screen.update(React.createElement(WhiteLabelWorkshop,{...props,conceptId:'laundry-sorter'})));
+  await act(async()=>screen.root.findAllByType('a').find(a=>a.props.href==='#wl-proposed-design').props.onClick({preventDefault(){}}));
+  assert.equal(screen.root.findByProps({id:'wl-step-design'}).props.hidden,false);assert.equal(screen.root.findByProps({id:'wl-tab-specs'}).props['aria-selected'],true);
   const clickTab=async id=>act(async()=>screen.root.findByProps({id:'wl-tab-'+id}).props.onClick());
   await clickTab('specs');assert.ok(text(screen.root).includes('520 × 350 × 650 mm'));
   await act(async()=>screen.root.findByProps({'aria-label':'Envelope units'}).props.onChange({target:{value:'in'}}));assert.ok(text(screen.root).includes('20.47 × 13.78 × 25.59 in'));

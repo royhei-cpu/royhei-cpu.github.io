@@ -1,5 +1,6 @@
 import React,{useEffect,useRef,useState} from 'react';
 import {workshopLibrary as library,defaultScenario,costScenario,money,benchmarkPrice,envelopeText,bomCSV,configuredBriefHTML,benchmarkEvidence,photoMatchLabels,proposalBenchmarks,benchmarkCSV,proposalEvidenceNote,conceptMedia} from './workshop-logic.js';
+import {workshopSteps,stepFromHash} from './navigation-model.js';
 
 const base='/home-care/workshop-assets/';
 const publicBase=()=>new URL(base,window.location.href).href;
@@ -24,7 +25,7 @@ function ModelPreview({proposal,color}){
  return <figure className="wl-preview">
   <div className="wl-preview-toolbar" aria-label="Concept render views">{[['perspective','Studio'],['front','Front'],...(media.posters.inside?[['inside','Inside']]:[]),...(media.posters.detail?[['detail','Details']]:[]),['exploded','Exploded']].map(([id,label])=><button key={id} aria-pressed={view===id} onClick={()=>choose(id)}>{label}</button>)}</div>
   <div className="wl-model-stage">
-   {!ready&&<img src={poster} alt={`${proposal.name}, ${view} view, Sage frame, Blender ${media.visualRevision} visualization; not a product photograph`} width={media.visualRevision==='A1'?1400:1200} height={media.visualRevision==='A1'?1100:900}/>}{!ready&&(media.posterPins?.[view]||[]).map(pin=><span key={pin.number} className="wl-poster-pin" style={{left:pin.x+'%',top:pin.y+'%'}} title={pin.label} aria-label={pin.number+' · '+pin.label}>{pin.number}</span>)}<div className={`wl-webgl${ready?' is-ready':''}`} ref={host} aria-hidden={!ready}/>
+   {!ready&&<img loading="lazy" decoding="async" src={poster} alt={`${proposal.name}, ${view} view, Sage frame, Blender ${media.visualRevision} visualization; not a product photograph`} width={media.visualRevision==='A1'?1400:1200} height={media.visualRevision==='A1'?1100:900}/>}{!ready&&(media.posterPins?.[view]||[]).map(pin=><span key={pin.number} className="wl-poster-pin" style={{left:pin.x+'%',top:pin.y+'%'}} title={pin.label} aria-label={pin.number+' · '+pin.label}>{pin.number}</span>)}<div className={`wl-webgl${ready?' is-ready':''}`} ref={host} aria-hidden={!ready}/>
    {!enabled&&<button className="wl-enable-3d" onClick={()=>setEnabled(true)}>Rotate in 3D</button>}
    {status==='loading'&&<p className="wl-preview-status" role="status">Loading the textured 3D model…</p>}
    {status==='unavailable'&&<p className="wl-preview-status" role="status">Interactive 3D is unavailable here. The Blender renders and model downloads remain available.</p>}
@@ -74,14 +75,18 @@ function Pricing({proposal,scenario,setScenario,color,result}){
 }
 
 function WorkshopDetail({proposal,catalog,onOpen,onCompare,selected}){
- const [tab,setTab]=useState('compare'),[colorId,setColorId]=useState('sage'),[unit,setUnit]=useState('mm'),[scenario,setScenario]=useState(()=>defaultScenario(proposal));
+ const [tab,setTab]=useState('specs'),[colorId,setColorId]=useState('sage'),[unit,setUnit]=useState('mm'),[scenario,setScenario]=useState(()=>defaultScenario(proposal)),[step,setStep]=useState('references');
+ useEffect(()=>{if(typeof window==='undefined')return;const changed=()=>{setStep(stepFromHash(window.location.hash));if(workshopSteps.some(s=>s.hash===window.location.hash))requestAnimationFrame(()=>document.querySelector('.wl-detail-heading')?.scrollIntoView({block:'start'}));};changed();window.addEventListener('hashchange',changed);return()=>window.removeEventListener('hashchange',changed);},[]);
+ function chooseStep(value){setStep(value);if(typeof window!=='undefined'){history.replaceState(null,'',window.location.pathname+window.location.search+workshopSteps.find(s=>s.id===value).hash);requestAnimationFrame(()=>{const nav=document.querySelector('.wl-journey');nav?.querySelector('[aria-current="step"]')?.focus({preventScroll:true});nav?.scrollIntoView({block:'start'});});}}
  const color=library.palette.find(c=>c.id===colorId),result=costScenario(proposal,scenario,color),media=conceptMedia(proposal);
  function tabKey(e){const index=tabs.findIndex(([id])=>id===tab),next=e.key==='ArrowRight'?(index+1)%tabs.length:e.key==='ArrowLeft'?(index+tabs.length-1)%tabs.length:e.key==='Home'?0:e.key==='End'?tabs.length-1:null;if(next===null)return;e.preventDefault();setTab(tabs[next][0]);e.currentTarget.parentElement.querySelector(`#wl-tab-${tabs[next][0]}`)?.focus();}
- return <div className="wl-detail" data-concept={proposal.id}>
+ return <div className="wl-detail" data-concept={proposal.id} data-review-step={step}>
   <div className="wl-detail-heading"><div><p className="eyebrow">{proposal.code} · {proposal.category}</p><h3>{proposal.name}</h3></div><span className="wl-concept-status">Concept · {media.visualRevision} visualization</span></div>
-  <nav className="wl-journey" aria-label="Workshop review steps"><a href="#wl-real-products">1 · Real products</a><a href="#wl-development-case">2 · Why & what changes</a><a href="#wl-proposed-design">3 · Design & costs</a></nav>
-  <Benchmarks proposal={proposal} catalog={catalog} onOpen={onOpen} onCompare={onCompare} selected={selected}/>
-  <DevelopmentCase proposal={proposal}/>
+  <nav className="wl-journey" aria-label="Workshop review steps">{workshopSteps.map((s,i)=><a key={s.id} href={s.hash} aria-current={step===s.id?'step':undefined} aria-controls={'wl-step-'+s.id} onClick={e=>{e.preventDefault();chooseStep(s.id);}}>{i+1} · {s.label}</a>)}</nav>
+  <p className="wl-review-step-note">Step {workshopSteps.findIndex(s=>s.id===step)+1} of 3 · {step==='references'?'Start with the real products and their source evidence.':step==='changes'?'Review the proposed differences and the proof they need.':'Explore the model, specifications, pricing and development files.'}</p>
+  <div id="wl-step-references" className="wl-review-panel" role="region" aria-label="Step 1: real brand products" hidden={step!=='references'}><Benchmarks proposal={proposal} catalog={catalog} onOpen={onOpen} onCompare={onCompare} selected={selected}/></div>
+  <div id="wl-step-changes" className="wl-review-panel" role="region" aria-label="Step 2: proposed improvements" hidden={step!=='changes'}><DevelopmentCase proposal={proposal}/></div>
+  <div id="wl-step-design" className="wl-review-panel" role="region" aria-label="Step 3: design and costs" hidden={step!=='design'}>
   <div id="wl-proposed-design" className="wl-design-heading"><p className="eyebrow">03 · Develop the proposal</p><h3>Proposed white-label design</h3><p>The render below is a concept study. Compare it with the real national-brand photographs above.</p></div>
   <div className="wl-proposal-board"><div className="wl-concept-column"><div className="wl-board-label"><span>Proposed white-label concept</span><span>Blender design study</span></div><ModelPreview proposal={proposal} color={color}/><div className="wl-measurements"><div><b>{proposal.envelope.join(' × ')} mm</b><span>W × D × H · proposed envelope</span></div><div><b>{money(Number(scenario.retail))}</b><span>Proposed retail target · USD · unquoted</span></div></div></div><div className="wl-proposal-notes"><h4>Design intent</h4><p>{proposal.recommendation}</p><h4>Construction to verify</h4><p>{proposal.wallSpec}</p><h4>Materials & finish</h4><p>{proposal.materialNote}</p><p className="wl-task-note">A0 design study. Dimensions, mass and retail are planning targets; engineering and supplier quotations remain open.</p></div></div>
   <div className="wl-design-controls"><fieldset className="wl-colors"><legend>Choose a finish</legend><div>{library.palette.map(c=><button key={c.id} aria-label={`Choose ${c.name} finish`} aria-pressed={c.id===colorId} onClick={()=>setColorId(c.id)}><span style={{backgroundColor:c.hex}}>{c.id===colorId?'✓':''}</span>{c.name}</button>)}</div><small>{color.name} · {color.hex} · {media.finishNote} Screen reference; approve physical samples.</small></fieldset><div className="wl-downloads"><a className="wl-primary" href={media.pack} download>Download Blender development pack ↓</a><div className="wl-file-links"><a href={media.blend} download>Blender scene</a><a href={media.model} download>3D model</a><button onClick={()=>save(`${proposal.code}-${color.id}-configured-brief.html`,configuredBriefHTML(proposal,scenario,color,publicBase()),'text/html;charset=utf-8')}>Save brief with comparison photos ↓</button></div><p className="wl-download-caption">{media.visualRevision} visualization pack: .blend, GLB, renders, dimensions and the original A0 specifications/BOM. Updated photo match notes are in the configured brief and reference CSV. Save your brief/BOM to retain selected finish and pricing edits.</p></div></div>
@@ -91,7 +96,8 @@ function WorkshopDetail({proposal,catalog,onOpen,onCompare,selected}){
    {tab==='specs'&&<Specifications proposal={proposal} unit={unit} setUnit={setUnit}/>}
    {tab==='cost'&&<Pricing proposal={proposal} scenario={scenario} setScenario={setScenario} color={color} result={result}/>}
    {tab==='validation'&&<section aria-label="Development validation gates"><h3>Prove the proposal before release.</h3><p>{proposal.pilot}</p><ol className="wl-validation-list">{proposal.validation.map(v=><li key={v.gate}><div><h4>{v.gate}</h4><span>{v.status}</span></div><p>{v.test}</p></li>)}</ol><p className="wl-task-note"><b>Stop condition:</b> {proposal.killCriterion}</p><p>{proposal.special}</p><p>{library.colorNote}</p></section>}
-  </div>
+  </div></div>
+  <div className="wl-review-actions">{step!=='references'?<button className="wl-step-back" onClick={()=>chooseStep(step==='design'?'changes':'references')}>← Previous step</button>:<span/>}{step!=='design'?<button onClick={()=>chooseStep(step==='references'?'changes':'design')}>{step==='references'?'Next: proposed improvements':'Next: design & costs'} →</button>:<a href="/home-care/?view=catalog#category-directory">Back to products →</a>}</div>
  </div>;
 }
 
@@ -103,7 +109,7 @@ export function WhiteLabelWorkshop({catalog,onOpen,onCompare,selected,conceptId,
  const counts=Object.fromEntries(library.categories.map(c=>[c,library.concepts.filter(p=>p.category===c).length]));
  function chooseCategory(value){setCategory(value);if(value!=='All home care'&&proposal.category!==value)setConceptId(library.concepts.find(p=>p.category===value).id);}
  return <section className="wl-workshop" aria-label="White Label Workshop">
-  <div className="wl-intro"><p className="eyebrow">White Label Workshop</p><h2>Better ideas start with a real comparison.</h2><p>{library.categories.length} home-care subcategories. {library.concepts.length} design concepts. {library.benchmarks.length} national-brand photo references.</p></div>
+  <div className="wl-intro"><h2>Choose a home-care concept</h2><p>{library.categories.length} subcategories · {library.concepts.length} concepts · {library.benchmarks.length} national-brand references. Select below, then follow the three review steps.</p></div>
   <div className="wl-browse"><label>Home-care subcategory<select aria-label="Workshop home-care subcategory" value={category} onChange={e=>chooseCategory(e.target.value)}><option value="All home care">All home care ({library.concepts.length} concepts)</option>{library.categories.map(c=><option key={c} value={c}>{c} ({counts[c]})</option>)}</select></label>
   <label>Product concept<select aria-label="Workshop product concept" value={proposal.id} onChange={e=>setConceptId(e.target.value)}>{[...choices].sort((a,b)=>a.category.localeCompare(b.category)||a.name.localeCompare(b.name)).map(p=><option key={p.id} value={p.id}>{p.code} · {p.name}</option>)}</select></label></div>
   <p role="status" className="wl-selection-count">{category==='All home care'?'All home care':category} · {choices.length} {choices.length===1?'concept':'concepts'} available · Select a concept above to see its two brand benchmarks.</p>

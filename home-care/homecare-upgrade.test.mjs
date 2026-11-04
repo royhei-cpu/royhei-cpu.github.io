@@ -30,7 +30,7 @@ test('the existing 10,141 catalog records stay intact and global listings includ
 
 test('the actual index receives the new content and semantic navigation puts Opportunities last',()=>{
  const input=fs.readFileSync(path.join(site,'index.html'),'utf8');const output=addHomecareUpgrade(input,site);
- assert.match(output,/<h1>Homecare<\/h1>/);assert.match(output,/White Label Workshop/);assert.match(output,/See China listings/);
+ assert.ok(output.includes('Your home-care starting point.'));assert.ok(output.includes('White Label Workshop'));assert.ok(output.includes('See China listings'));
  assert.equal(output.slice(output.indexOf('const ITEMS='),output.indexOf(';\nconst COVERAGE=')),input.slice(input.indexOf('const ITEMS='),input.indexOf(';\nconst COVERAGE=')));
  const nav=output.match(/<nav class="view-nav"[^>]*>([\s\S]*?)<\/nav>/)[1];assert.match(nav, /id="nav-opportunities"[\s\S]*?<\/button>$/);
  assert.equal((output.match(/id="homecare-upgrade-loader"/g)||[]).length,1);assert.equal(addHomecareUpgrade(output,site),output);

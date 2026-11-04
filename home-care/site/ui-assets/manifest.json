@@ -1,24 +1,29 @@
 {
-  "entry": "homecare-OSHEWZSI.js",
-  "workshopEntry": "homecare-NINMLEKU.js",
+  "entry": "homecare-JQAUVPYU.js",
+  "workshopEntry": "homecare-NIHKNFJE.js",
+  "navigationEntry": "homecare-W42JWMQS.js",
   "stylesheet": "homecare-8d17763977f0.css",
   "sources": {
-    "upgrade.jsx": "9577cdcdafdebbd01dd3a5d34efb86cf91ae5898961b7c2f7430a56ab8b2ab6d",
+    "upgrade.jsx": "8bdd3489921032dc2c1b0ac0814d7f3f167de41de69503722e5749d3c74cb83e",
     "upgrade-model.js": "35022659dda91be460b47038d76332df48c20a1473e2f8da9ce8282ab4dbfcdc",
-    "workshop-ui.jsx": "bce967ebbe436db4fdde520314410cf4e8c2168806b5b08092478a8929e66d55",
+    "workshop-ui.jsx": "19bf05786aec64e2aa8d17a96b57eb02a2a423ea91452f2370f083f42b7e33ca",
     "workshop-logic.js": "39c7d74628421413f9cc9f1b878b8567a907d13bdd5dc98244beb72116886a60",
     "workshop-viewer.js": "cfc2a142f77ed0a41a8d07237d698954fa8eb5dd7724f88bd11d049aba07d7a8",
     "workshop-data.json": "0771ebb1974f357424f069d7f5d4e49a0ccfcedfdbf0659fc78f39e4a7e0cb31",
     "workshop-reference-evidence.json": "dcde520b30609610c3c8054ce29b5b413803563d9ef6f1a232f26eb6fb25a1d4",
     "workshop-visuals.json": "e2f0e12554808261513ed9b57826cc1b26c0719afae94e72b7d96f37cbcaf5b6",
-    "workshop-page.jsx": "45c27fb177c3db804d619fda67996491bc4364c04a8cee6493ce4f5b87cebea9",
+    "workshop-page.jsx": "d0e899fc0a6abf2b82018e1e17f15eadd40c1672136cd7942fbf1dafc69cbb24",
     "workshop-shell.css": "2cb604aca8e1c3d2d450befc5381d3327bf756a8a80fe7b448f31a0fc5717da8",
-    "build-workshop-pages.mjs": "146b2b73351f7fa38b4238a7a69c4d7a3f11071d334300a7a154ecd1b948eeb9",
+    "build-workshop-pages.mjs": "b5b3e981a0e66076ae6fc1ecf3470d9c7f8dac978bb4ca5c21b1a202af1471cc",
     "benchmark-photos.json": "eef5446688ea77428dfc92e36524409adaf18fb7fc076743915cb977940cf7db",
-    "audio-ui.jsx": "e5622323d80f105da2f392a78c76adeab52f8518f3b056584fa503a7927e6ae2",
+    "audio-ui.jsx": "093a775008870119b36f35ed0a226e8ad09fe9e9c2af0657fae7c66f2be45822",
     "audio-engine.js": "861d1adbad6217daf90a57faa5242daea2f1f04cdfa96d50230e8b238fd6f761",
     "global-logic.js": "b35988211434f1953cdb2115cf85233aa14bdcdef80b705cc6bceb68c8525f85",
     "workshop.css": "b037ab64594d6926b6ae4208b2c1ea746cd9b46f5853a5f0639fbf9bd99f0232",
-    "upgrade.css": "016b922139890d9c9ed1335fdc0cd77b78b5f6859ce4ccb4d722f18e32a4590c"
+    "upgrade.css": "016b922139890d9c9ed1335fdc0cd77b78b5f6859ce4ccb4d722f18e32a4590c",
+    "navigation-model.js": "ff5625e97c239a78c392af3c31e1142959ffa964087431ca3ef519d12775b090",
+    "navigation-runtime.js": "676fd20b9cbc16f93f7c5c27bd876df1fe1254b2046f4769e380e410365873e2",
+    "navigation.css": "589611465622ce63dc9eac8daad3919b0f4cca65a2e3bdb0c1ff44348f8a124a",
+    "../navigation-build.mjs": "c16bdecf1581995d4bbeba04e82a5225c6dca636b649760e62696361beefd895"
   }
 }

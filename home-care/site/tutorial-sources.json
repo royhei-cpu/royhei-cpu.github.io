@@ -27,7 +27,7 @@
     {
       "id": "navigation",
       "title": "Find the right section.",
-      "url": "/home-care/",
+      "url": "/home-care/help.html",
       "start": 12.0334375,
       "end": 26.702604166666667
     },
@@ -41,14 +41,14 @@
     {
       "id": "shortlist",
       "title": "Keep a useful shortlist.",
-      "url": "/home-care/?view=global#homecare-workspace",
+      "url": "/home-care/?view=compare",
       "start": 41.892375,
       "end": 57.47114583333334
     },
     {
       "id": "analysis",
       "title": "Read the evidence carefully.",
-      "url": "/home-care/",
+      "url": "/home-care/?view=analysis",
       "start": 57.47114583333334,
       "end": 71.49818750000001
     },
@@ -97,7 +97,7 @@
     {
       "id": "opportunities",
       "title": "Investigate opportunities last.",
-      "url": "/home-care/",
+      "url": "/home-care/?view=opportunities",
       "start": 168.6563333333333,
       "end": 181.38702083333328
     }
@@ -169,5 +169,11 @@
         "Removable cotton laundry bag, machine washable at 40\u00b0C; hook-and-loop attachment."
       ]
     }
+  },
+  "navigationReview": {
+    "updated": "2026-11-04",
+    "baseCommit": "4b77b05",
+    "note": "Navigation is now grouped into Home, Products, Workshop, Insights and Opportunities. Products contains U.S. and global browsing plus Compare selected. Insights contains Sales & analysis, Brands & factories and Target inspiration. Help & guide holds the quick guide and this video. In Workshop, choose one review step at a time; use Next or Previous to continue.",
+    "media": "Existing illustrated narration retained; the tools are now grouped in the website menu."
   }
 }

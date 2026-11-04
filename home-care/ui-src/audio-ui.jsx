@@ -91,6 +91,6 @@ export function AudioControls() {
       <p>Gentle ambient tones for a calmer research session.</p><small>Music starts when you press play. Your volume and sound preferences stay in this browser.</small>
       {!available&&<p role="status">Audio is unavailable in this browser.</p>}{message&&<p role="status">{message}</p>}
     </section>}
-    <div className="sound-capsule"><button onClick={toggleMusic} disabled={!available} aria-label={music?'Pause background music':'Play background music'} aria-pressed={music}><Icon kind={music?'pause':'music'}/><span>{music?'Music on':'Music off'}</span>{music&&!muted&&<i className="sound-playing" aria-hidden="true"/>}</button><button onClick={toggleMute} aria-label={muted?'Unmute all audio':'Mute all audio'} aria-pressed={muted}><Icon kind={muted?'muted':'volume'}/></button><button ref={settingsButton} aria-label="Sound settings" aria-expanded={open} onClick={()=>setOpen(v=>!v)}><Icon kind="settings"/></button></div>
+    <div className="sound-capsule"><button ref={settingsButton} aria-label="Sound settings" aria-expanded={open} onClick={()=>setOpen(v=>!v)}><Icon kind="music"/><span>Sound</span>{music&&!muted&&<i className="sound-playing" aria-hidden="true"/>}</button></div>
   </div>;
 }
