@@ -9,6 +9,12 @@ def check_retail(page, context, out):
     from playwright.sync_api import expect
     page.locator('.workspace-sidebar [data-workspace="retail"]').click()
     expect(page.locator('#workspace-retail')).to_be_visible()
+    def step(n):
+        page.locator(f'[data-workshop-step="{n}"]').click()
+    def disclose(selector):
+        if page.locator(selector).get_attribute('open') is None:
+            page.locator(selector+' > summary').click()
+    step(2)
     page.locator('[data-retail-view="3d"]').click()
     page.wait_for_function('window.ATLAS_RETAIL?.getSceneStats()?.webgl')
     # The tutorial jumps to real controls without changing the assortment.
@@ -16,8 +22,8 @@ def check_retail(page, context, out):
     expect(page.locator('#retailExportOpen')).to_have_text('Save & download')
     page.locator('#retailHelpOpen').click()
     expect(page.locator('#retailHelpDialog')).to_be_visible()
-    page.locator('[data-retail-guide-go="plan"]').click()
-    expect(page.locator('#retailPlan')).to_be_visible()
+    page.locator('[data-retail-guide-go="products"]').click()
+    expect(page.locator('.retail-picker')).to_be_visible()
     assert page.evaluate('JSON.stringify(window.ATLAS_RETAIL.getState().items)') == before_help
     page.locator('#retailHelpOpen').click()
     page.locator('[data-retail-guide-go="downloads"]').click()
@@ -40,13 +46,16 @@ def check_retail(page, context, out):
       p.items=[{uid:'bad',id:'custom-nope'},{uid:'good',id:'custom-yes'}];
       const n=D.validate(p,[]);return n.customs.length===1&&n.items.length===1&&n.items[0].uid==='good';
     }''')
+    step(1)
     page.locator('#retailClear').click()
+    step(2)
     page.locator('#retailSourceRetailer').select_option('chain:miniso')
-    expect(page.locator('#retailStockHeading')).to_contain_text('MINISO')
+    expect(page.locator('#retailSourceRetailer')).to_have_value('chain:miniso')
     page.locator('#retailProducts [data-retail-add]').first.click()
     chain_item=page.evaluate('window.ATLAS_RETAIL.getState().items[0]')
     assert chain_item['retailerKey']=='chain:miniso' and chain_item['offerUrl'].startswith('https://')
     expect(page.locator('#retailInspector')).to_contain_text('MINISO')
+    disclose('.workshop-product-source')
     page.locator('#retailDisplay').select_option('hanger')
     assert page.evaluate('window.ATLAS_RETAIL.getState().items[0].display') == 'hanger'
     page.locator('.retail-appearance summary').click()
@@ -56,7 +65,9 @@ def check_retail(page, context, out):
     page.locator('.retail-appearance summary').click()
     page.locator('#retailSourceRetailer').select_option('shop:52toys')
     assert page.evaluate('window.ATLAS_RETAIL.getState().items.length') == 1
+    step(1)
     page.locator('#retailStarter').click()
+    step(2)
     assert page.evaluate('''() => {const D=window.ATLAS_RETAIL_DATA,p=D.newPlan();p.config.currency='HKD';p.items=[{uid:'fx',id:'target-rms-dumpling',ticket:65}];const x=D.validate(p,['target-rms-dumpling']);const y=D.validate(x,['target-rms-dumpling']);return x.config.currency==='USD'&&x.items[0].ticket===8.28&&x.items[0].originalTicket.currency==='HKD'&&y.items[0].ticket===8.28}''')
     original = page.evaluate('window.ATLAS_RETAIL.getState()')
     assert len(original['items']) == 12
@@ -67,6 +78,7 @@ def check_retail(page, context, out):
     page.locator(f'[data-retail-select="{first}"]').click()
     page.locator('#retailFacings').fill('2')
     page.locator('#retailFacings').press('Tab')
+    disclose('.workshop-product-source')
     page.locator('#retailTicket').fill('9.99')
     page.locator('#retailTicket').press('Tab')
     page.locator('#retailMove').select_option('1:2')
@@ -80,6 +92,7 @@ def check_retail(page, context, out):
     page.reload(wait_until='domcontentloaded')
     page.wait_for_function('window.ATLAS_RETAIL?.getState().items.length===12')
     assert page.evaluate('window.ATLAS_RETAIL.getState().items[0].ticket') == 9.99
+    page.locator('.workshop-library-filters > summary').click()
     page.locator('#retailScope').select_option('target')
     expect(page.locator('#retailProducts .retail-product')).to_have_count(2)
     expect(page.locator('#retailProducts')).to_contain_text('$4.99')
@@ -90,11 +103,13 @@ def check_retail(page, context, out):
     page.locator('#retailProducts [data-retail-add="cda530057d017fb2"]').click()
     assert page.evaluate('window.ATLAS_RETAIL.getState().items.length') == 13
     assert page.evaluate('window.ATLAS_RETAIL.getState().items.at(-1).retailerKey') == 'shop:52toys'
+    disclose('.workshop-product-source')
     expect(page.locator('#retailInspector')).to_contain_text('Reference $9.99')
     page.reload(wait_until='domcontentloaded')
     page.wait_for_function('window.ATLAS_RETAIL?.getState().items.length===13')
     assert page.evaluate('window.ATLAS_RETAIL.getState().items.at(-1).retailerKey') == 'shop:52toys'
     # The selected offer can change without replacing the product or planned ticket.
+    disclose('.workshop-product-source')
     page.locator('#retailItemRetailer').select_option('shop:kikagoods')
     expect(page.locator('#retailInspector')).to_contain_text('Reference $8.99')
     page.locator('#retailItemRetailer').select_option('shop:52toys')
@@ -160,7 +175,9 @@ def check_retail(page, context, out):
     from PIL import Image, ImageStat
     with Image.open(photo) as image:
         assert min(image.size)>300 and sum(ImageStat.Stat(image.convert('RGB')).stddev)>45
+    step(1)
     page.locator('#retailClear').click()
+    step(2)
     assert not page.evaluate('window.ATLAS_RETAIL.getState().items')
     page.locator('#retailUndo').click()
     assert page.evaluate('window.ATLAS_RETAIL.getState().items.length') == len(parsed['items'])
@@ -180,5 +197,7 @@ def check_retail(page, context, out):
         page.get_by_role('button', name='Close retail exports').click()
     page.set_viewport_size({'width': 1440, 'height': 1080})
     # Leave clean planner state for subsequent suite sections.
+    step(1)
     page.locator('#retailStarter').click()
+    step(2)
     return 'Retail: blind-box/squishy scope, USD-only prices and saved-plan FX migration, source packaging UVs and squishy geometry, retailer library, exact source persistence and switching, display format, finish/currency, selection, facings/tickets, move, undo/redo, custom concept, JSON restore, CSV, source-linked GLB textures, nonblank PNG, 3 responsive layouts'

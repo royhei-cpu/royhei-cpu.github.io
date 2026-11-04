@@ -26,11 +26,11 @@ export async function createRetailScene(container,callbacks){
  container.append(canvas);container.querySelector('#retailSceneStatus')?.remove();
  const controls=new OrbitControls(camera,canvas);controls.enableDamping=false;controls.minDistance=.35;controls.maxDistance=18;controls.maxPolarAngle=Math.PI*.49;controls.target.set(0,1.1,0);
  const room=new RoomEnvironment(),pmrem=new T.PMREMGenerator(renderer);scene.environment=pmrem.fromScene(room,.04).texture;room.dispose();pmrem.dispose();scene.environmentIntensity=.55;RectAreaLightUniformsLib.init();
- for(const [x,y,z,w,h,power] of [[-2,3.0,2.1,3,2,5],[3,2.7,1.2,2,2,3]]){const light=new T.RectAreaLight('#fff9ef',power,w,h);light.position.set(x,y,z);light.lookAt(0,1,0);scene.add(light)}
- scene.add(new T.HemisphereLight('#fff8e9','#8b877b',.3));
- const key=new T.DirectionalLight('#fff5e6',1.1);key.position.set(-3.5,5.5,4.2);key.castShadow=true;key.shadow.mapSize.set(2048,2048);key.shadow.camera.left=-5;key.shadow.camera.right=5;key.shadow.camera.top=5;key.shadow.camera.bottom=-5;key.shadow.camera.near=.5;key.shadow.camera.far=18;key.shadow.bias=-.00012;key.shadow.normalBias=.001;key.shadow.radius=4;key.shadow.blurSamples=8;scene.add(key);
+ for(const [x,y,z,w,h,power] of [[-2,3.0,2.1,3,2,5],[3,2.7,1.2,2,2,3]]){const light=new T.RectAreaLight('#fffdfa',power,w,h);light.position.set(x,y,z);light.lookAt(0,1,0);scene.add(light)}
+ scene.add(new T.HemisphereLight('#fffdfa','#898c85',.3));
+ const key=new T.DirectionalLight('#fffaf4',1.1);key.position.set(-3.5,5.5,4.2);key.castShadow=true;key.shadow.mapSize.set(2048,2048);key.shadow.camera.left=-5;key.shadow.camera.right=5;key.shadow.camera.top=5;key.shadow.camera.bottom=-5;key.shadow.camera.near=.5;key.shadow.camera.far=18;key.shadow.bias=-.00012;key.shadow.normalBias=.001;key.shadow.radius=4;key.shadow.blurSamples=8;scene.add(key);
  const fill=new T.DirectionalLight('#edf2ff',.35);fill.position.set(4,3,3);scene.add(fill);
- const rim=new T.DirectionalLight('#fff1d7',.4);rim.position.set(0,3,-2);scene.add(rim);
+ const rim=new T.DirectionalLight('#fffaf2',.4);rim.position.set(0,3,-2);scene.add(rim);
  const composer=new EffectComposer(renderer);composer.addPass(new RenderPass(scene,camera));const ao=new SSAOPass(scene,camera,800,500,16);ao.kernelRadius=.045;ao.minDistance=.0005;ao.maxDistance=.035;composer.addPass(ao);composer.addPass(new OutputPass());
  const geometries=new Map(),permanent=new Set(),photoCache=new Map(),dynamic=new Set(),pending=new Set();
  let pathTracer=null,photoreal=false,tracerDirty=true;
@@ -123,10 +123,10 @@ export async function createRetailScene(container,callbacks){
   if(header>.002){const fascia=labelTexture([{text:c.title,size:110,weight:600,serif:false,align:'center',x:1536,y:180}],{bg:c.color,fg:'#fffaf0',w:3072,h:280}),fasciaMaterial=surface(fascia,{roughness:.46});mesh(fixture,'Fascia sign · '+c.title,width+ends,header,.025,0,H-header/2,.016,fasciaMaterial,.006)}
   for(let bay=0;bay<=c.bays;bay++){const x=-width/2+bay*bw;mesh(fixture,'Upright '+(bay+1),Math.min(.045,Math.max(.005,ends)),H,rear,x,H/2,-rear/2,coating,.006);for(let z=base;z<H-header;z+=c.slotPitch/100)mesh(fixture,'Bracket adjustment slot',.009,.018,.0015,x,z,.0015,rail,.001)}
   if(ends>0)for(const x of [-width/2-ends/4,width/2+ends/4])mesh(fixture,'End panel · entered allowance',ends/2,H-base,maxDepth+rear+frontAllowance,x,(H+base)/2,(maxDepth+frontAllowance-rear)/2,coating,.006);
-  const ledMaterial=register(new T.MeshStandardMaterial({color:'#fff1bd',emissive:'#ffe5a4',emissiveIntensity:2.2,roughness:.25}));
+  const ledMaterial=register(new T.MeshStandardMaterial({color:'#fffdf6',emissive:'#fff8e8',emissiveIntensity:1.1,roughness:.25}));
   for(const metrics of L.shelves){
    const bay=metrics.bay,row=metrics.row,center=-width/2+(bay+.5)*bw,y=metrics.elevation/100,depth=metrics.depth/100,thickness=c.shelfThickness/100;
-   const shelf=mesh(fixture,`Bay ${bay+1} · Shelf ${row+1}`,usable,thickness,depth,center,y-thickness/2,depth/2,coating,.004);shelf.userData={shelf:{bay,row},elevationCm:metrics.elevation,usableWidthCm:c.usableWidth,usableDepthCm:metrics.depth,clearanceCm:metrics.clearance};pickables.push(shelf);
+   const shelf=mesh(fixture,`Bay ${bay+1} · Shelf ${row+1}`,usable,thickness,depth,center,y-thickness/2,depth/2,coating,.004);shelf.userData={shelf:{bay,row},elevationCm:metrics.elevation,usableWidthCm:c.usableWidth,usableDepthCm:metrics.depth,clearanceCm:metrics.clearance};pickables.push(shelf);if(state.shelf.bay===bay&&state.shelf.row===row){const edge=new T.Box3Helper(new T.Box3(new T.Vector3(center-usable/2,y+.001,0),new T.Vector3(center+usable/2,y+.006,depth)),'#4d7e68');edge.name='Active shelf · Bay '+(bay+1)+' Shelf '+(row+1);fixture.add(edge)}
    mesh(fixture,'Shelf front lip',usable,.025,.012,center,y-.01,depth+.006,rail,.003);mesh(fixture,'Ticket channel',usable-.01,.032,.006,center,y-.012,depth+.014,plastic,.002);
    for(const x of [center-usable/2+.025,center+usable/2-.025]){mesh(fixture,'Steel shelf bracket',.012,.035,Math.max(.05,depth-.025),x,y-thickness-.018,depth/2,rail,.003);mesh(fixture,'Shelf bracket anchor',.012,.07,.018,x,y-thickness,.02,rail,.002)}
    if(metrics.above>metrics.elevation)mesh(fixture,'Warm shelf LED diffuser',usable-.03,.006,.014,center,metrics.above/100-.008,depth/2,ledMaterial,.002);
@@ -137,7 +137,7 @@ export async function createRetailScene(container,callbacks){
     if(item.display==='tray')mesh(group,'Clear squishy display tray',line.width/100,.028,Math.max(.03,line.depth/100),startX+line.width/200,y+.014,front-line.depth/200,clear,.005);
     for(let f=0;f<item.facings;f++)for(let n=0;n<item.depth;n++)pack(group,item,p,startX+w/2+f*w,y+(n%line.layers)*h,front-d/2-Math.floor(n/line.layers)*d,f,n);
     addPrice(group,item,p,startX+Math.min(line.width/200,.13),y,line.width/100,depth);
-    if(item.uid===state.selected){const bounds=new T.Box3(new T.Vector3(startX,y,front-line.depth/100),new T.Vector3(startX+line.width/100,y+line.height/100,front));selectedBox=new T.Box3Helper(bounds,'#df6d4f');selectedBox.name='Selected merchandising footprint';scene.add(selectedBox)}
+    if(item.uid===state.selected||line.issues.length){const bounds=new T.Box3(new T.Vector3(startX,y,front-line.depth/100),new T.Vector3(startX+line.width/100,y+line.height/100,front));const outline=new T.Box3Helper(bounds,line.issues.length?'#c3352e':'#df6d4f');outline.name=line.issues.length?'Fit issue · '+line.issues.join(', '):'Selected merchandising footprint';fixture.add(outline)}
    }
   }
   container.dataset.sceneReady='true';if(refit)setCamera(mode==='focus'?'orbit':mode);else if(mode==='focus')setCamera('focus');else invalidate();

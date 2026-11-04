@@ -22,3 +22,15 @@ const restored=D.validate(JSON.parse(JSON.stringify(migrated)),['a']);assert.equ
 s=state();s.config.planogramId='POG-48';s.config.storeLocation='Test aisle';s.config.measurementBasis='measured';s.items=[item({sku:'123-45-6789',x:5.08,dimensionBasis:'supplier'})];const saved=D.validate(JSON.parse(JSON.stringify(s)),['a']);assert.equal(saved.items[0].x,5.08);assert.equal(saved.items[0].sku,'123-45-6789');assert.equal(saved.items[0].dimensionBasis,'supplier');assert.equal(saved.config.planogramId,'POG-48');assert.equal(saved.config.measurementBasis,'measured');
 const svg=P.drawing(s,()=>({name:'Toy <test> & friends',image:'javascript:alert(1)'}));assert(svg.includes('Toy &lt;test&gt; &amp; friends'));assert(!svg.includes('href="javascript:'));assert(svg.includes('AFF'));assert(P.drawing(s,()=>({name:'Toy'}),{view:'top'}).includes('CLEAR AISLE'));
 console.log('PASS: width/depth/height, overlapping placements, stacks/partial rows, inch/cm invariance, legacy migration, exact save/restore, dimensioned views and safe labels');
+// Fit proposals must remain valid in all axes, preserve neighbors and never mutate a plan.
+s=state();s.items=[item({uid:'neighbor',width:20,height:20,packDepth:10,facings:1,depth:1,x:35,stacked:false})];
+let candidate=item({uid:'candidate',width:15,height:20,packDepth:20,facings:6,depth:6,stacked:false});
+const snapshot=JSON.stringify(s);let fit=P.fitPlacement(s,candidate,{preferred:{bay:0,row:1},onlyShelf:true});
+assert(fit.fits);assert.equal(fit.x,0);assert.equal(fit.facings,2,'Use the first contiguous gap without overlapping the neighbor');assert.equal(fit.depth,2,'Stock reduces to entered shelf depth');assert.equal(JSON.stringify(s),snapshot,'A proposal does not mutate the plan');
+s.items.push({...candidate,...fit});assert(P.layout(s).lines.every(l=>!l.issues.length));
+assert(!P.fitPlacement(s,{...candidate,height:300},{onlyShelf:true}).fits);
+assert(!P.fitPlacement(s,{...candidate,packDepth:200},{onlyShelf:true}).fits);
+const proposal=P.fitPlacement(s,{...candidate,uid:'next',facings:12},{preferred:{bay:1,row:1}});assert(proposal.fits&&proposal.bay===1);
+s=state();s.customs=[{id:'custom-measured',name:'My squishy blind box',brand:'National brand',category:'Squishy blind boxes',planDimensions:{width:10.16,height:15.24,packDepth:10.16},planBasis:'measured',planSKU:'081-12-3456'}];
+const custom=D.validate(s,[]).customs[0];assert.equal(custom.planDimensions.width,10.16);assert.equal(custom.planBasis,'measured');assert.equal(custom.planSKU,'081-12-3456');
+console.log('PASS: non-mutating three-axis fit proposals, contiguous gaps, neighbor preservation, stock limits and custom SKU measurement persistence');

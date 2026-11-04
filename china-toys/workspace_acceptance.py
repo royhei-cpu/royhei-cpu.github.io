@@ -77,6 +77,8 @@ def run(scope='all'):
             checks.append('Workspace mounts over the original catalog with current counts and 24-card pagination')
 
             def nav(key):
+                if key in ('rankings','chains','stories','weekly','sources') and page.locator('#workspaceResearch').get_attribute('open') is None:
+                    page.locator('#workspaceResearch > summary').click()
                 page.locator(f'.workspace-sidebar [data-workspace="{key}"]').click()
                 panel = 'explore' if key == 'saved' else key
                 expect(page.locator('#workspace-' + panel)).to_be_visible()
@@ -245,6 +247,10 @@ def run(scope='all'):
                     page.locator('#currency').select_option('USD')
                     no_overflow()
                 page.screenshot(path=str(out / f'workspace-{width}.png'))
+            if scope in ('workshop', 'all'):
+                from workshop_flow_acceptance import check_workshop_flow
+                page.set_viewport_size({'width': 1440, 'height': 1080})
+                checks.append(check_workshop_flow(page, context, out))
             if scope in ('retail', 'all'):
                 from retail_acceptance import check_retail
                 page.set_viewport_size({'width': 1440, 'height': 1080})

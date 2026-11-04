@@ -4,6 +4,7 @@ from pathlib import Path
 
 def check_stories(page,context,out):
  from playwright.sync_api import expect
+ if page.locator('#workspaceResearch').get_attribute('open') is None: page.locator('#workspaceResearch > summary').click()
  page.locator('.workspace-sidebar [data-workspace="stories"]').click()
  expect(page.locator('#workspace-stories')).to_be_visible()
  expected=json.loads((Path(__file__).parent/'retailer-stories-data.json').read_text())

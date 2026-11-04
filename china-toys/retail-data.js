@@ -77,7 +77,7 @@ function validate(raw,ids){
  Object.assign(n.config,P.normalizeConfig(c));
  n.config.theme=['bright','wood','dark'].includes(c.theme)?c.theme:'bright';
  n.config.currency='USD';
- n.customs=(raw.customs||[]).slice(0,30).filter(p=>eligible(p)&&/^custom-[\w-]+$/.test(p.id)&&p.name).map(p=>({id:p.id,name:String(p.name).slice(0,180),brand:String(p.brand||'My product').slice(0,80),category:categories.includes(p.category)?p.category:categories[0],image:/^data:image\/(png|jpeg|webp);base64,/.test(p.image||'')&&p.image.length<180000?p.image:'',details:{},listings:[],custom:true}));
+ n.customs=(raw.customs||[]).slice(0,30).filter(p=>eligible(p)&&/^custom-[\w-]+$/.test(p.id)&&p.name).map(p=>({id:p.id,name:String(p.name).slice(0,180),brand:String(p.brand||'My product').slice(0,80),category:categories.includes(p.category)?p.category:categories[0],image:/^data:image\/(png|jpeg|webp);base64,/.test(p.image||'')&&p.image.length<180000?p.image:'',details:{},listings:[],custom:true,planDimensions:p.planDimensions&&['width','height','packDepth'].every(k=>Number(p.planDimensions[k])>0)?Object.fromEntries(['width','height','packDepth'].map(k=>[k,Math.max(.5,Math.min(k==='packDepth'?120:150,Number(p.planDimensions[k])))])):undefined,planBasis:['measured','supplier'].includes(p.planBasis)?p.planBasis:'estimate',planSKU:String(p.planSKU||'').slice(0,60)}));
  const known=new Set([...ids,...n.customs.map(p=>p.id)]),used=new Set();
  for(const item of raw.items.slice(0,120)){
   if(!known.has(item.id)||used.has(item.uid)||typeof item.uid!=='string')continue;

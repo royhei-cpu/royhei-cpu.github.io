@@ -57,6 +57,30 @@ function layout(state){
  }
  return {config:c,shelves:rows,lines,maxDepth,fixtureDepth:maxDepth+c.rearAllowance+c.frontAllowance,runWidth:c.bays*c.bayWidth+c.endAllowance,units:lines.reduce((n,l)=>n+l.quantity,0),issues:lines.filter(l=>l.issues.length).length,invalidShelves:rows.filter(s=>s.issues.includes('Invalid shelf height')).length,estimates:lines.filter(l=>!['measured','supplier'].includes(l.item.dimensionBasis)).length};
 }
+// Find a contiguous shelf interval, checking all three axes before proposing a placement.
+// Existing neighbors, end space and the entered inter-line gap remain intact.
+function fitPlacement(state,item,{preferred=state.shelf,onlyShelf=false,facings=item.facings||2}={}){
+ const c=state.config,L=layout({...state,items:state.items.filter(i=>i.uid!==item.uid)});
+ const shelves=[...L.shelves].sort((a,b)=>(a.bay===preferred.bay&&a.row===preferred.row?-1:b.bay===preferred.bay&&b.row===preferred.row?1:0));
+ let reason='No contiguous shelf width';
+ for(const s of shelves){
+  if(onlyShelf&&(s.bay!==preferred.bay||s.row!==preferred.row))continue;
+  if(s.issues.includes('Invalid shelf height')){reason='Invalid shelf height';continue}
+  if(item.height+c.liftClearance>s.clearance+EPS){reason='Too tall for shelf clearance';continue}
+  const layers=stack(item,s,c),rows=Math.floor((s.depth-c.frontSetback+EPS)/item.packDepth);
+  if(rows<1){reason='Too deep for this shelf';continue}
+  const stock=Math.min(item.depth||2,Math.max(1,Math.min(6,rows*layers)));
+  const occupied=s.lines.map(l=>({a:l.x,b:l.x+l.width})).sort((a,b)=>a.a-b.a);let cursor=0;
+  const gaps=[];for(const o of occupied){if(o.a-c.productGap>cursor)gaps.push({a:cursor,b:o.a-c.productGap});cursor=Math.max(cursor,o.b+c.productGap)}
+  if(cursor<c.usableWidth)gaps.push({a:cursor,b:c.usableWidth});
+  for(const gap of gaps){const maxFacings=Math.min(12,Math.floor((gap.b-gap.a+EPS)/item.width));if(maxFacings<1)continue;
+   const proposal={bay:s.bay,row:s.row,x:gap.a,facings:Math.min(facings,maxFacings),depth:stock,maxFacings,layers,clearance:s.clearance,shelfDepth:s.depth};
+   const candidate={...item,...proposal};const check=layout({...state,items:[...state.items.filter(i=>i.uid!==item.uid),candidate]}).lines.find(l=>l.item===candidate);
+   if(!check.issues.length)return {...proposal,fits:true};
+  }
+ }
+ return {fits:false,reason};
+}
 const safeImage=url=>/^(?:images|retail)\//.test(url||'')||/^data:image\/(?:jpeg|png|webp);base64,/.test(url||'')?url:'';
 function drawing(state,product,{view='front',images={},standalone=false}={}){
  const L=layout(state),c=state.config,scale=2,left=92,top=100,bottom=95,bodyWidth=c.bays*c.bayWidth*scale;
@@ -64,7 +88,7 @@ function drawing(state,product,{view='front',images={},standalone=false}={}){
  const width=left+bodyWidth+62,height=top+plotHeight+bottom;
  const text=(x,y,value,cls='pg-label',anchor='middle')=>`<text x="${x}" y="${y}" class="${cls}" text-anchor="${anchor}">${esc(value)}</text>`;
  const dim=(x1,y1,x2,y2,value)=>`<path d="M${x1},${y1} L${x2},${y2}" class="pg-dimension" marker-start="url(#pgArrow)" marker-end="url(#pgArrow)"/>${text((x1+x2)/2,(y1+y2)/2-7,value,'pg-dim-label')}`;
- let out=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="group" aria-label="Dimensioned ${view==='top'?'top view and clear aisle':'front elevation'} planogram" class="pg-drawing" style="min-width:${Math.max(650,c.bays*230)}px" data-pg-view="${view}" data-pg-scale="${scale}" data-pg-left="${left}" data-pg-top="${top}"><title>${esc(c.title)} · ${view==='top'?'top view':'front elevation'}</title><defs><marker id="pgArrow" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto-start-reverse"><path d="M5 0 L0 2.5 L5 5" fill="none" stroke="#53655b"/></marker></defs><style>.pg-paper{fill:#fff}.pg-frame{fill:#f3f4ef;stroke:#bec9bf;stroke-width:1}.pg-shelf{fill:#d7ded5;stroke:#8b9d8e;stroke-width:.8}.pg-active{fill:#e3eee9;stroke:#1b705c;stroke-width:1.4}.pg-line{fill:#fff;stroke:#9daa9e;stroke-width:1}.pg-line-selected{stroke:#df694c;stroke-width:2}.pg-line-bad{stroke:#b84036;stroke-width:2}.pg-label,.pg-dim-label{font:12px Arial,sans-serif;fill:#4f6458}.pg-dim-label{font-weight:600;paint-order:stroke;stroke:white;stroke-width:4px;stroke-linejoin:round}.pg-small{font:10px Arial,sans-serif;fill:#64786b}.pg-fascia-label{font:11px Arial,sans-serif;fill:white}.pg-title{font:700 17px Arial,sans-serif;fill:#173e35}.pg-dimension{fill:none;stroke:#607466;stroke-width:.8}.pg-grid{fill:none;stroke:#e0e6de;stroke-width:.6;stroke-dasharray:3 4}.pg-item{cursor:pointer;outline:none}.pg-item:focus .pg-line{stroke:#df694c;stroke-width:3}.pg-slot{font:700 10px Arial,sans-serif;fill:white}.pg-slot-bg{fill:#214f41}.pg-error{fill:#b84036}</style><rect width="100%" height="100%" class="pg-paper"/>${text(left,27,c.title,'pg-title','start')}${text(left,46,[c.planogramId,c.storeLocation,view==='top'?'TOP VIEW · SELECTED SHELF':'FRONT ELEVATION'].filter(Boolean).join(' · '),'pg-small','start')}`;
+ let out=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="group" aria-label="Dimensioned ${view==='top'?'top view and clear aisle':'front elevation'} planogram" class="pg-drawing" style="min-width:${Math.max(650,c.bays*230)}px;--pg-min-width:${Math.max(650,c.bays*230)}px" data-pg-view="${view}" data-pg-scale="${scale}" data-pg-left="${left}" data-pg-top="${top}"><title>${esc(c.title)} · ${view==='top'?'top view':'front elevation'}</title><defs><pattern id="pgPeg" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#f0f0eb"/><circle cx="6" cy="6" r=".75" fill="#b5b7ad"/></pattern><linearGradient id="pgSteel" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".6" stop-color="#e2e3dc"/><stop offset="1" stop-color="#aeb5ab"/></linearGradient><filter id="pgShadow"><feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-opacity=".14"/></filter><marker id="pgArrow" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto-start-reverse"><path d="M5 0 L0 2.5 L5 5" fill="none" stroke="#53655b"/></marker></defs><style>.pg-paper{fill:#fff}.pg-frame{fill:url(#pgPeg);stroke:#bec9bf;stroke-width:1}.pg-shelf{fill:url(#pgSteel);stroke:#8b9d8e;stroke-width:.8}.pg-active{fill:#e3eee9;stroke:#1b705c;stroke-width:1.4}.pg-line{fill:#fff;stroke:#9daa9e;stroke-width:1}.pg-line-selected{stroke:#df694c;stroke-width:2}.pg-line-bad{stroke:#b84036;stroke-width:2}.pg-label,.pg-dim-label{font:12px Arial,sans-serif;fill:#4f6458}.pg-dim-label{font-weight:600;paint-order:stroke;stroke:white;stroke-width:4px;stroke-linejoin:round}.pg-small{font:10px Arial,sans-serif;fill:#64786b}.pg-fascia-label{font:11px Arial,sans-serif;fill:white}.pg-title{font:700 17px Arial,sans-serif;fill:#173e35}.pg-dimension{fill:none;stroke:#607466;stroke-width:.8}.pg-grid{fill:none;stroke:#e0e6de;stroke-width:.6;stroke-dasharray:3 4}.pg-item{cursor:pointer;outline:none}.pg-item:focus .pg-line{stroke:#df694c;stroke-width:3}.pg-slot{font:700 10px Arial,sans-serif;fill:white}.pg-slot-bg{fill:#214f41}.pg-error{fill:#b84036}</style><rect width="100%" height="100%" class="pg-paper"/>${text(left,27,c.title,'pg-title','start')}${text(left,46,[c.planogramId,c.storeLocation,view==='top'?'TOP VIEW · SELECTED SHELF':'FRONT ELEVATION'].filter(Boolean).join(' · '),'pg-small','start')}`;
  for(let bay=0;bay<c.bays;bay++){
   const bx=left+bay*c.bayWidth*scale;
   out+=dim(bx,top-20,bx+c.bayWidth*scale,top-20,`Bay ${bay+1} · ${format(c.bayWidth,c)}`);
@@ -82,11 +106,11 @@ function drawing(state,product,{view='front',images={},standalone=false}={}){
    const x=left+(s.bay*c.bayWidth+(c.bayWidth-c.usableWidth)/2)*scale,y=top+(c.fixtureHeight-s.elevation)*scale;
    out+=`<g class="retail-plan-shelf" data-drop-bay="${s.bay}" data-drop-row="${s.row}"><rect x="${x}" y="${y-Math.max(0,s.clearance)*scale}" width="${c.usableWidth*scale}" height="${Math.max(2,s.clearance)*scale}" class="${state.shelf.bay===s.bay&&state.shelf.row===s.row?'pg-active':'pg-frame'}" opacity=".45"/><rect role="button" tabindex="0" aria-label="Choose bay ${s.bay+1} shelf ${s.row+1}" data-retail-shelf="${s.bay}:${s.row}" x="${x}" y="${y}" width="${c.usableWidth*scale}" height="${c.shelfThickness*scale}" class="pg-shelf"/>${text(x+2,y+c.shelfThickness*scale+12,`S${s.row+1} · ${format(s.elevation,c)} AFF · ${format(s.clearance,c)} clear`,'pg-small','start')}`;
    for(const l of s.lines){
-    const p=product(l.item.id),lx=x+l.x*scale,ly=y-l.height*scale,img=safeImage(images[p?.image]||p?.image),cls=`pg-line${l.item.uid===state.selected?' pg-line-selected':''}${l.issues.length?' pg-line-bad':''}`;
+    const p=product(l.item.id),lx=x+l.x*scale,ly=y-l.height*scale,img=safeImage(window.ATLAS_PLAN_ART?.get(p?.id)||images[p?.image]||p?.image),cls=`pg-line${l.item.uid===state.selected?' pg-line-selected':''}${l.issues.length?' pg-line-bad':''}`;
     out+=`<g class="pg-item" role="button" tabindex="0" data-retail-select="${esc(l.item.uid)}" aria-label="Select ${esc(p?.name)}"><title>${esc(p?.name)} · ${l.item.facings} facings · ${l.quantity} units${l.issues.length?' · '+esc(l.issues.join(', ')):''}</title>`;
     for(let f=0;f<l.item.facings;f++)for(let z=0;z<l.layers;z++){
      const px=lx+f*l.item.width*scale,py=y-(z+1)*l.item.height*scale;
-     out+=`<rect x="${px+.4}" y="${py+.4}" width="${l.item.width*scale-.8}" height="${l.item.height*scale-.8}" rx="1" class="${cls}"/>${img?`<image href="${esc(img)}" x="${px+1.5}" y="${py+1.5}" width="${Math.max(1,l.item.width*scale-3)}" height="${Math.max(1,l.item.height*scale-3)}" preserveAspectRatio="xMidYMid meet"/>`:''}`;
+     out+=`<rect x="${px+.4}" y="${py+.4}" width="${l.item.width*scale-.8}" height="${l.item.height*scale-.8}" rx="1" filter="url(#pgShadow)" class="${cls}"/>${img?`<image href="${esc(img)}" x="${px+1.5}" y="${py+1.5}" width="${Math.max(1,l.item.width*scale-3)}" height="${Math.max(1,l.item.height*scale-3)}" preserveAspectRatio="xMidYMid meet"/>`:''}`;
     }
     out+=`<rect x="${lx+1}" y="${ly+1}" width="20" height="15" rx="2" class="pg-slot-bg${l.issues.length?' pg-error':''}"/>${text(lx+11,ly+12,String(l.slot).padStart(2,'0'),'pg-slot')}</g>`;
    }
@@ -112,5 +136,5 @@ function drawing(state,product,{view='front',images={},standalone=false}={}){
  return out+'</svg>';
 }
 function rowsTable(state,product){const L=layout(state),c=state.config;return `<div class="pg-table-wrap"><table class="pg-table"><caption>Placement schedule · ${unit(c)} · shelves numbered from the top</caption><thead><tr><th>Slot</th><th>SKU / product</th><th>Bay / shelf</th><th>Left edge</th><th>Pack W × H × D</th><th>Faces / stock</th><th>Fit & dimensions</th></tr></thead><tbody>${L.lines.map(l=>`<tr class="${l.issues.length?'pg-row-bad':''}"><td>${String(l.slot).padStart(2,'0')}</td><td><button data-planogram-select="${esc(l.item.uid)}">${esc(l.item.sku||'SKU not entered')}<small>${esc(product(l.item.id)?.name)}</small></button></td><td>B${l.bay+1} / S${l.row+1}</td><td>${format(l.x,c)}</td><td>${[l.item.width,l.item.height,l.item.packDepth].map(n=>format(n,c)).join(' × ')}</td><td>${l.item.facings} faces · ${l.quantity} units<small>${l.deep} deep × ${l.layers} high</small></td><td>${esc(l.issues.join(' · ')||'Fits entered space')}<small>${esc(l.item.dimensionBasis==='measured'?'Measured pack':l.item.dimensionBasis==='supplier'?'Supplier dimensions':'Estimated pack')}</small></td></tr>`).join('')||'<tr><td colspan="7">Add blind boxes or squishies to begin the placement schedule.</td></tr>'}</tbody></table></div>`}
-window.ATLAS_PLANOGRAM={PRESET,normalizeConfig,shelf,setShelf,stack,layout,drawing,rowsTable,input,fromInput,format,unit,esc};
+window.ATLAS_PLANOGRAM={PRESET,normalizeConfig,shelf,setShelf,stack,layout,fitPlacement,drawing,rowsTable,input,fromInput,format,unit,esc};
 })();

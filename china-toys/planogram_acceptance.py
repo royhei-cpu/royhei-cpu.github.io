@@ -9,12 +9,19 @@ import xml.etree.ElementTree as ET
 def check_planogram(page, context, out):
     from playwright.sync_api import expect
     page.locator('.workspace-sidebar [data-workspace="retail"]').click()
+    def step(n):
+        page.locator(f'[data-workshop-step="{n}"]').click()
+    def disclose(selector):
+        if page.locator(selector).get_attribute('open') is None:
+            page.locator(selector+' > summary').click()
+    step(1)
     page.locator('#retailStarter').click()
+    step(3)
     page.locator('[data-retail-view="plan"]').click()
     expect(page.locator('#retailPlan .pg-drawing')).to_be_visible()
     assert page.locator('.retail-plan-shelf').count() == 12
+    step(1)
     page.locator('#retailClear').click()
-    page.locator('#retailFixtureSetup > summary').click()
     page.locator('#pgUnits').select_option('in')
     page.locator('#pgPreset').select_option('48')
     expect(page.locator('#retailWidth')).to_have_value('48')
@@ -26,18 +33,22 @@ def check_planogram(page, context, out):
 
     enter('#pgPlanId', 'T-TEST-48')
     enter('#pgLocation', 'Test store / A12')
-    page.locator('#retailFixtureSetup > summary').click()
+    step(2)
+    page.locator('[data-retail-view="plan"]').click()
+    disclose('.workshop-shelf-settings')
     page.locator('#pgShelfSelect').select_option('1:2')
     assert page.evaluate('window.ATLAS_RETAIL.getState().shelf.bay')==1
     page.locator('#pgShelfSelect').select_option('0:0')
     page.locator('#retailSourceRetailer').select_option('shop:target')
     page.locator('#retailProducts [data-retail-add="target-rms-dumpling"]').click()
     uid = page.evaluate('window.ATLAS_RETAIL.getState().selected')
+    disclose('.workshop-product-source')
     page.locator('#retailDisplay').select_option('box')
     enter('#retailPackWidth', 4)
     enter('#retailPackHeight', 6)
     enter('#retailPackDepth', 4)
     page.locator('#pgPackBasis').select_option('measured')
+    disclose('.retail-pack-settings')
     enter('#pgSKU', '081-12-3456')
     enter('#retailFacings', 3)
     enter('#pgStackLayers', 1)
@@ -51,8 +62,11 @@ def check_planogram(page, context, out):
     assert abs(line['shelf']['elevation'] - 152.4) < .001
     assert abs(line['shelf']['depth'] - 40.64) < .001
     assert line['quantity'] == 6 and not line['issues']
+    step(4)
+    page.locator('.workshop-schedule > summary').click()
     expect(page.locator('.pg-table')).to_contain_text('081-12-3456')
     expect(page.locator('.pg-table')).to_contain_text('Measured pack')
+    step(3)
     # Width, height and depth are separate physical constraints.
     for selector, value, issue in [('#retailFacings', 12, 'Over shelf width'), ('#retailPackHeight', 50, 'Over shelf clearance'), ('#retailPackDepth', 30, 'Over shelf depth')]:
         enter(selector, value)
@@ -82,11 +96,11 @@ def check_planogram(page, context, out):
     assert abs(page.evaluate('window.ATLAS_RETAIL.getPlanogram().lines[0].x')-10.16)<.001
     page.locator('#retailUndo').click()
     before = page.evaluate('JSON.stringify(window.ATLAS_RETAIL.getState().items)')
-    page.locator('#retailFixtureSetup > summary').click()
+    step(1)
     for units in ['cm', 'in', 'cm', 'in']:
         page.locator('#pgUnits').select_option(units)
     assert page.evaluate('JSON.stringify(window.ATLAS_RETAIL.getState().items)') == before
-    page.locator('#retailFixtureSetup > summary').click()
+    step(3)
     page.locator('[data-plan-view="top"]').click()
     expect(page.locator('.pg-drawing')).to_contain_text('CLEAR AISLE')
     page.locator('[data-plan-view="front"]').click()
@@ -140,13 +154,16 @@ def check_planogram(page, context, out):
     for width,height in [(847,793),(390,844)]:
         page.set_viewport_size(dict(width=width,height=height))
         assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
-        page.locator('#retailFixtureSetup > summary').click()
+        step(1)
         assert page.locator('.pg-fixture-body').evaluate('(e)=>e.scrollWidth<=e.clientWidth+1')
-        page.locator('#retailFixtureSetup > summary').click()
+        step(3)
+        page.locator('[data-retail-view="plan"]').click()
         page.locator('[data-plan-view="top"]').click()
         expect(page.locator('.pg-drawing')).to_contain_text('CLEAR AISLE')
         page.locator('[data-plan-view="front"]').click()
         page.screenshot(path=str(out/f'planogram-{width}.png'))
     page.set_viewport_size(dict(width=1440,height=1080))
+    step(1)
     page.locator('#retailStarter').click()
+    step(2)
     return 'Planogram: inch/cm input, measured fixture and pack provenance, per-shelf heights/depths, width/height/depth/overlap flags, exact coordinates, keyboard positioning, 3D shared geometry, JSON persistence, dimensioned SVG with embedded photos, placement CSV, GLB dimensions and 3 responsive layouts'
