@@ -6,9 +6,9 @@ import bpy, math, json, sys
 from pathlib import Path
 from mathutils import Vector
 import argparse
-p=argparse.ArgumentParser();p.add_argument('--output',default=str(Path(__file__).resolve().parents[1]/'models'));p.add_argument('--config');a=p.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
-out=Path(a.output);out.mkdir(parents=True,exist_ok=True)
-config=json.loads(Path(a.config).read_text()) if a.config else {};visualization=config.get('visualization',{});config=config.get('configuration',config)
+p=argparse.ArgumentParser();p.add_argument('--output',default=str(Path(__file__).resolve().parents[1]/'models'));p.add_argument('--config');p.add_argument('--samples',type=int,default=96);p.add_argument('--resolution',type=int,default=1600);p.add_argument('--views',default='exterior,interior,packing-wells,exploded');build_args=p.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+out=Path(build_args.output);out.mkdir(parents=True,exist_ok=True)
+config=json.loads(Path(build_args.config).read_text()) if build_args.config else {};visualization=config.get('visualization',{});config=config.get('configuration',config)
 formats={'cabin':(.36,.23,.55),'medium':(.45,.29,.68),'trunk':(.45,.34,.75)}
 w,depth,height=formats.get(config.get('format','cabin'),formats['cabin'])
 bottom=.063;top=height-.028;bh=top-bottom;zc=(top+bottom)/2
@@ -22,14 +22,14 @@ def mat(name,color,rough=.5,metal=0):
  bs=m.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=m.diffuse_color;bs.inputs['Roughness'].default_value=rough;bs.inputs['Metallic'].default_value=metal
  return m
 def micro_normal(material,name,strength,cloth=False):
- image=bpy.data.images.new(name,width=128,height=128);pixels=[]
+ image=bpy.data.images.new(name,width=128,height=128);image.colorspace_settings.name='Non-Color';pixels=[]
  for y in range(128):
   for x in range(128):
    if cloth:
     u=.11*math.sin(x*math.pi/2)*(.5+.5*math.cos(y*math.pi/4));v=.11*math.sin(y*math.pi/2)*(.5+.5*math.cos(x*math.pi/4))
    else:u=.035*math.sin(x*2.13+y*1.41);v=.035*math.cos(y*1.97-x*.79)
    pixels.extend((.5+u,.5+v,.99,1))
- image.pixels=pixels;image.colorspace_settings.name='Non-Color';image.pack()
+ image.pixels.foreach_set(pixels);image.update();image.pack()
  nodes=material.node_tree.nodes;tex=nodes.new('ShaderNodeTexImage');tex.image=image;normal=nodes.new('ShaderNodeNormalMap');normal.inputs['Strength'].default_value=strength
  material.node_tree.links.new(tex.outputs['Color'],normal.inputs['Color']);material.node_tree.links.new(normal.outputs['Normal'],nodes.get('Principled BSDF').inputs['Normal'])
 shell=mat('Shell',colors.get(config.get('color','sage'),colors['sage']),.4,.02)
@@ -39,13 +39,28 @@ micro_normal(shell,'Shell fine molded grain',.2)
 trim=mat('Trim','#183e34' if config.get('trim','forest')=='forest' else '#343837',.65)
 rubber=mat('Rubber','#222724',.78);hardware=mat('Hardware','#9aa1a0',.3,.92)
 dark_metal=mat('DarkHardware','#343b38',.38,.7);grip=mat('HandleGrip','#303632',.68)
-lining=mat('Lining','#c8c8c0',.88);meshmat=mat('InteriorMesh','#a6aaa3',.9);webbing=mat('Webbing','#454e46',.92)
+lining=mat('Lining','#8c918b',.92);meshmat=mat('InteriorMesh','#5e675e',.92);webbing=mat('Webbing','#404840',.92)
 micro_normal(lining,'Lining textile weave',.32,True);micro_normal(meshmat,'Organization textile weave',.38,True)
-thread=mat('Stitching','#d8d9d0',.92);zipmat=mat('ZipperTape','#404b40',.85)
+micro_normal(webbing,'Woven webbing',.3,True)
+def cloth_color(material,name):
+ image=bpy.data.images.new(name,width=256,height=256);image.colorspace_settings.name='sRGB'
+ # Generated image pixels are encoded values. Exported base-color PNGs must be sRGB;
+ # normal maps above remain non-color data. Set color space before filling pixels.
+ base=tuple(12.92*c if c<=.0031308 else 1.055*c**(1/2.4)-.055 for c in material.diffuse_color[:3]);pixels=[]
+ for y in range(256):
+  for x in range(256):
+   yarn=.025*math.sin(x*math.pi/2)*math.cos(y*math.pi/2)+.013*math.sin(x*1.23+y*2.07)+.012*math.sin(x*.09+y*.07)
+   pixels.extend((*[max(0,c*(1+yarn)) for c in base],1))
+ image.pixels.foreach_set(pixels);image.update();image.pack();tex=material.node_tree.nodes.new('ShaderNodeTexImage');tex.image=image
+ material.node_tree.links.new(tex.outputs['Color'],material.node_tree.nodes.get('Principled BSDF').inputs['Base Color'])
+for material in [lining,meshmat,webbing]:cloth_color(material,material.name+' woven color')
+thread=mat('Stitching','#c8c9bf',.92);zipmat=mat('ZipperTape','#404b40',.85)
 def group(name,parent=None,loc=(0,0,0)):
  o=bpy.data.objects.new(name,None);bpy.context.collection.objects.link(o);o.parent=parent;o.location=loc;return o
 root=group('OpenStoryConcept');root['scope']='Original development visualization; no tested engineering or performance claim';root['nominal_dimensions_cm']=json.dumps([height*100,w*100,depth*100]);root['config']=json.dumps(config)
 body=group('BackBody',root);front=group('FrontShell',root,(-w/2,0,zc));wheels=group('Wheels',root);repair=group('RepairMarkers',root);handle=group('Handle',root)
+backlining=group('BackLining',root);frontlining=group('FrontLining',front);frontlining.location=-front.location
+frontorganizer=group('FrontOrganizer',front);frontorganizer.location=-front.location
 frontwheels=group('FrontWheels',front);frontwheels.location=-front.location
 frontrepair=group('FrontRepairMarkers',front);frontrepair.location=-front.location
 def parent_world(o,parent):
@@ -75,7 +90,7 @@ def mesh_object(name,vertices,faces,material,parent,smooth=False):
  for poly in data.polygons:
   poly.use_smooth=smooth
   for index in poly.loop_indices:
-   v=data.vertices[data.loops[index].vertex_index].co;uv.data[index].uv=(v.x/w*12,v.z/bh*16)
+   v=data.vertices[data.loops[index].vertex_index].co;uv.data[index].uv=((v.x+v.y*.3)*28,v.z*28+v.y*28)
  o=bpy.data.objects.new(name,data);bpy.context.collection.objects.link(o);return parent_world(o,parent)
 def panel(name,y,width,h,z,r,material,parent,bulge=0):
  outline=contour(width,h,z,r);vertices=[(0,y-bulge,z)]+[(x,y,zv) for x,zv in outline];faces=[(0,1+i,1+(i+1)%len(outline)) for i in range(len(outline))]
@@ -98,22 +113,59 @@ def half_shell(name,sgn,parent):
   for i in range(count):faces.append((center,k*count+i,k*count+(i+1)%count) if direction<0 else (center,k*count+(i+1)%count,k*count+i))
  for i in range(count):faces.append((i,(i+1)%count,5*count+(i+1)%count,5*count+i))
  mesh_object(name+'ShellFace',vertices,faces,shell,parent,True)
- ly=sgn*(depth/2-.0115);panel(name+'FabricLiner',ly,w-.04,bh-.04,zc,.025,lining,parent)
- outline(name+'LinerBinding',ly-sgn*.0006,w-.042,bh-.043,zc,.024,webbing,parent,.0012)
- outline(name+'LinerStitch',ly-sgn*.001,w-.049,bh-.05,zc,.021,thread,parent,.00022)
  outline(name+'ZipTape',sgn*.002,w-.003,bh-.002,zc,.025,zipmat,parent,.0018)
  outline(name+'ZipTrack',sgn*.001,w-.004,bh-.003,zc,.025,dark_metal,parent,.00065)
 half_shell('Back',1,body);half_shell('Front',-1,front)
-def cloth_panel(name,y,width,h,z,r,material,parent):
- loops=[]
- for scale in [.12,.35,.6,.82,1]:
-  loops.append([(x,y+.0015*math.sin(x*100+zz*37)*math.sin(math.pi*scale),zz) for x,zz in contour(width*scale,h*scale,z,r*scale)])
- count=len(loops[0]);vertices=[v for loop in loops for v in loop];faces=[]
- center=len(vertices);vertices.append((0,y,z))
- for j in range(count):faces.append((center,j,(j+1)%count))
- for k in range(len(loops)-1):
-  for j in range(count):faces.append((k*count+j,k*count+(j+1)%count,(k+1)*count+(j+1)%count,(k+1)*count+j))
+def fabric_depth(x,z,width,h,amplitude=.0014):
+ # Low, tensioned cloth folds, with no radial triangle fan across the face.
+ edge=math.sin(math.pi*(x/width+.5))*math.sin(math.pi*(z/h+.5))
+ return amplitude*edge*(.65*math.sin(x*80+z*23)+.25*math.sin(z*140-x*37)+.2*math.sin(x*220+z*170))
+def cloth_panel(name,y,width,h,z,r,material,parent,amplitude=.0014):
+ nx=36;nz=52;vertices=[];faces=[]
+ for j in range(nz+1):
+  zz=(j/nz-.5)*h;inset=r-math.sqrt(max(0,r*r-max(0,abs(zz)-(h/2-r))**2))
+  for i in range(nx+1):
+   xx=(i/nx-.5)*(width-2*inset);vertices.append((xx,y+fabric_depth(xx,zz,width,h,amplitude),z+zz))
+ for j in range(nz):
+  for i in range(nx):
+   v=j*(nx+1)+i;faces.append((v,v+1,v+nx+2,v+nx+1))
  return mesh_object(name,vertices,faces,material,parent,True)
+def sewn_liner(name,sgn,parent):
+ y=sgn*(depth/2-.013);ww=w-.04;hh=bh-.04
+ cloth_panel(name+'QuiltedFloor',y,ww,hh,zc,.024,lining,parent,.0012)
+ loops=[]
+ for t in [0,.2,.45,.7,1]:
+  ww2=(w-.014)*(1-t)+ww*t;hh2=(bh-.014)*(1-t)+hh*t
+  loops.append([(x,sgn*.005*(1-t)+y*t+sgn*.0028*(math.sin(j*.47)+.25*math.sin(j*1.7))*math.sin(math.pi*t),zz) for j,(x,zz) in enumerate(contour(ww2,hh2,zc,.026))])
+ count=len(loops[0]);vertices=[v for loop in loops for v in loop];faces=[]
+ for k in range(len(loops)-1):
+  for i in range(count):faces.append((k*count+i,k*count+(i+1)%count,(k+1)*count+(i+1)%count,(k+1)*count+i))
+ mesh_object(name+'SewnGusset',vertices,faces,lining,parent,True)
+ outline(name+'FloorPiping',y-sgn*.001,ww,hh,zc,.024,webbing,parent,.0008)
+ outline(name+'RimBinding',sgn*.004,w-.016,bh-.016,zc,.026,webbing,parent,.0013)
+ outline(name+'TwinNeedleSeam',sgn*.0035,w-.022,bh-.022,zc,.024,thread,parent,.00019)
+ for x in [-ww*.47,ww*.47]:
+  for z in [bottom+.035,top-.035]:tube(name+'CornerSeam',[(x,sgn*.006,z),(x*.98,y*.5,z+(.009 if z<zc else -.009)),(x*.95,y-sgn*.001,z)],.00022,thread,parent)
+ if sgn>0:
+  for x in [-w*.24,w*.24]:
+   tube('LinedTrolleyChannel',[(x,y-.001,bottom+.04+j*(bh-.08)/40) for j in range(41)],.006,lining,parent)
+sewn_liner('Back',1,backlining);sewn_liner('Front',-1,frontlining)
+def mesh_insert(name,y,width,h,z,parent):
+ # Actual open knitted apertures, rather than an opaque plane with a mesh label.
+ vertices=[];faces=[];pitch=.0024;strand=.00018
+ for direction,length,span in [('vertical',h,width),('horizontal',width,h)]:
+  n=int(span/pitch);steps=max(8,int(length/.008))
+  for k in range(n+1):
+   offset=(k/n-.5)*span;start=len(vertices)
+   for j in range(steps+1):
+    t=(j/steps-.5)*length
+    for side in [-1,1]:
+     xx=offset+side*strand if direction=='vertical' else t
+     zz=t if direction=='vertical' else offset+side*strand
+     vertices.append((xx,y+fabric_depth(xx,zz,width,h,.001),z+zz))
+   for j in range(steps):
+    v=start+j*2;faces.append((v,v+1,v+3,v+2))
+ return mesh_object(name,vertices,faces,meshmat,parent,True)
 def zipper_teeth(name,y,width,h,z,r,parent):
  points=contour(width,h,z,r);vertices=[];faces=[]
  for i in range(len(points)):
@@ -187,30 +239,69 @@ for x in [-w*.17,w*.17]:box('TopHandleMount',(x,0,top+.003),(.025,.027,.006),dar
 tube('TopCarryGrip',[(w*.34*(j/32-.5),0,top+.004+.012*math.sin(math.pi*j/32)) for j in range(33)],.0055,grip,body)
 for z in [zc-bh*.13,zc+bh*.13]:box('SideHandleMount',(w/2-.001,0,z),(.006,.025,.023),dark_metal,body,.002)
 tube('SideCarryGrip',[(w/2+.002+.008*math.sin(math.pi*j/32),0,zc+bh*.26*(j/32-.5)) for j in range(33)],.005,grip,body)
-# Textile organization has thin edges, binding, stitches and open buckle geometry.
-compression=group('CompressionPanel',root);cubes=group('PackingCubes',root);divider=group('Divider',front);divider.location=-front.location;wet=group('WetPocket',front);wet.location=-front.location
-cloth_panel('FloatingCompression',.014,w-.052,bh-.075,zc,.018,meshmat,compression)
-outline('CompressionBinding',.012,w-.052,bh-.075,zc,.018,webbing,compression,.0018)
-outline('CompressionStitch',.0115,w-.06,bh-.083,zc,.016,thread,compression,.0002)
-for x in [-w*.26,w*.26]:
- box('CompressionWebbing',(x,.009,zc),(.022,.0015,bh-.065),webbing,compression,.0006)
- for edge in [-.009,.009]:tube('WebbingStitch',[(x+edge,.008,bottom+.037),(x+edge,.008,top-.037)],.0002,thread,compression)
-for x in [-.018,.018]:box('BuckleSide',(x,.006,zc),(.005,.005,.028),rubber,compression,.001)
-for z in [zc-.012,zc+.012]:box('BuckleCrossbar',(0,.006,z),(.04,.005,.004),rubber,compression,.001)
-box('BuckleTongue',(0,.004,zc),(.006,.004,.023),dark_metal,compression,.001)
-for ix in [-1,1]:
- for iz in [-1,1]:
-  cx=ix*w*.22;cz=zc+iz*bh*.22;box('TextilePackingCube',(cx,.04,cz),(w*.39,depth*.4,bh*.39),meshmat,cubes,.008)
-  o=outline('CubeBinding',-.008,w*.39,bh*.39,cz,.01,webbing,cubes,.001);o.location.x+=cx
-  box('CubeWebbingHandle',(cx,-.009,cz+bh*.15),(.046,.0015,.009),webbing,cubes,.001)
-cloth_panel('ZipDividerPanel',-depth/2+.014,w-.05,bh-.07,zc,.021,meshmat,divider)
-outline('DividerBinding',-depth/2+.012,w-.05,bh-.07,zc,.021,webbing,divider,.0013)
-outline('DividerStitch',-depth/2+.011,w-.057,bh-.077,zc,.02,thread,divider,.0002)
-panel('WetPocketBody',-depth/2+.021,w*.64,bh*.22,zc+.08,.009,lining,wet,.001)
-box('WetPocketZip',(0,-depth/2+.018,zc+.08+bh*.09),(w*.59,.002,.003),zipmat,wet,.0006)
-outline('WetPocketSeam',-depth/2+.019,w*.64,bh*.22,zc+.08,.009,thread,wet,.00025)
-box('LaptopSleeve',(0,-depth/2+.017,zc-.065),(w*.69,.0028,bh*.39),lining,front,.001)
-box('SleeveBinding',(0,-depth/2+.014,zc-.065+bh*.19),(w*.7,.002,.009),webbing,front,.0007)
+# Sewn organization uses real open mesh, bound edges, shaped cloth and separate hardware.
+compression=group('CompressionPanel',root);cubes=group('PackingCubes',root);divider=group('Divider',root);wet=group('WetPocket',frontorganizer)
+def mesh_frame(name,y,ww,hh,z,parent):
+ outer=contour(ww,hh,z,.016);inner=contour(ww-.027,hh-.027,z,.005);n=len(outer)
+ vertices=[(x,y,zz) for x,zz in outer+inner];faces=[(i,(i+1)%n,n+(i+1)%n,n+i) for i in range(n)]
+ mesh_object(name+'TextileFrame',vertices,faces,lining,parent,True)
+ mesh_insert(name+'OpenMesh',y,ww-.03,hh-.03,z,parent)
+ outline(name+'BoundEdge',y,ww,hh,z,.016,webbing,parent,.0013)
+ outline(name+'Seam',y-.0003,ww-.006,hh-.006,z,.014,thread,parent,.00017)
+mesh_frame('Compression',.018,w-.052,bh-.092,zc,compression)
+# Two continuous woven straps with a shallow bow, ladder locks and side-release buckle.
+for x in [-w*.245,w*.245]:
+ vertices=[];faces=[]
+ for j in range(49):
+  t=j/48;z=bottom+.032+t*(bh-.064);y=.005-.008*math.sin(math.pi*t)
+  vertices.extend([(x-.009,y,z),(x+.009,y,z)])
+ for j in range(48):v=j*2;faces.append((v,v+1,v+3,v+2))
+ mesh_object('WovenCompressionStrap',vertices,faces,webbing,compression,True)
+ for edge in [-.007,.007]:tube('StrapEdgeStitch',[(x+edge,.004-.008*math.sin(math.pi*j/48),bottom+.032+j*(bh-.064)/48) for j in range(49)],.00017,thread,compression)
+ for zz in [zc-.01,zc+.01]:box('LadderLock',(x,-.004,zz),(.024,.003,.003),rubber,compression,.0007)
+ for xx in [x-.0105,x+.0105]:box('LadderLockSide',(xx,-.004,zc),(.003,.003,.023),rubber,compression,.0007)
+ # Loose, doubled-back tail makes the adjusting webbing readable.
+ cloth_panel('StrapTail',-.006,.018,.065,zc-.035,.003,webbing,compression,.0006).location.x+=x
+for x in [-.014,.014]:box('BuckleSide',(x,-.006,zc),(.0035,.004,.024),rubber,compression,.0007)
+for z in [zc-.0105,zc+.0105]:box('BuckleCrossbar',(0,-.006,z),(.03,.004,.003),rubber,compression,.0007)
+box('BuckleTongue',(0,-.007,zc),(.005,.003,.019),dark_metal,compression,.0006)
+# The center buckle is carried on continuous webbing rather than floating on the mesh.
+cloth_panel('CrossBuckleWebbing',-.004,w*.54,.018,zc,.003,webbing,compression,.0005)
+for zz in [zc-.007,zc+.007]:tube('CrossWebbingStitch',[(-w*.27,-.0045,zz),(w*.27,-.0045,zz)],.00017,thread,compression)
+# Three soft packing cubes; cloth lids and open mesh windows replace solid toy blocks.
+for ix,iz,ww,hh in [(-1,0,w*.42,bh*.82),(1,-1,w*.39,bh*.39),(1,1,w*.39,bh*.39)]:
+ cx=ix*w*.22;cz=zc+iz*bh*.215
+ loops=[[(x+cx,yy+.001*math.sin(zz*120),zz) for x,zz in contour(ww,hh,cz,.012)] for yy in [.014,.047,.08]];n=len(loops[0])
+ vertices=[v for loop in loops for v in loop];faces=[]
+ for k in range(2):
+  for i in range(n):faces.append((k*n+i,k*n+(i+1)%n,(k+1)*n+(i+1)%n,(k+1)*n+i))
+ mesh_object('SoftCubeGusset',vertices,faces,lining,cubes,True)
+ cloth_panel('CubeFloor',.08,ww,hh,cz,.012,lining,cubes,.0015).location.x+=cx
+ before=set(cubes.children);mesh_frame('CubeMeshLid',.012,ww,hh,cz,cubes)
+ for o in set(cubes.children)-before:o.location.x+=cx
+ outline('CubeZipper',.009,ww-.005,hh-.005,cz,.008,zipmat,cubes,.001).location.x+=cx
+ box('CubeCarryLoop',(cx,.005,cz+hh*.34),(.035,.002,.007),webbing,cubes,.001)
+mesh_frame('ZipDivider',.009,w-.045,bh-.058,zc,divider)
+zipper_teeth('DividerClosure',.007,w-.045,bh-.058,zc,.016,divider);pull('DividerPull',w/2-.03,.005,top-.052,divider)
+# The front half has its own zipped organization panel, with a genuine see-through compartment.
+mesh_frame('FrontOrganization',-.014,w-.047,bh-.058,zc,frontorganizer)
+zipper_teeth('FrontOrganizationClosure',-.011,w-.047,bh-.058,zc,.016,frontorganizer)
+pull('FrontOrganizerPull',w/2-.033,-.008,top-.05,frontorganizer)
+# Padded sleeve sits behind the mesh and has a curved, stitched mouth.
+cloth_panel('PaddedDocumentSleeve',-depth/2+.023,w*.74,bh*.42,zc-.085,.015,lining,frontlining,.0025)
+outline('DocumentSleeveSeam',-depth/2+.026,w*.74,bh*.42,zc-.085,.015,thread,frontlining,.0002)
+tube('SleeveMouthBinding',[(-w*.37+j*w*.74/48,-depth/2+.028,zc-.085+bh*.21-.008*math.sin(math.pi*j/48)) for j in range(49)],.0018,webbing,frontlining)
+# Curved wet-item pouch, with gusset, zip tape, teeth and pull. No barrier claim is implied.
+cloth_panel('WetPocketBody',-.005,w*.70,bh*.23,zc+bh*.26,.012,lining,wet,.003)
+outline('WetPocketBoundSeam',-.002,w*.70,bh*.23,zc+bh*.26,.012,webbing,wet,.001)
+outline('WetPocketStitch',-.001,w*.68,bh*.21,zc+bh*.26,.01,thread,wet,.00018)
+box('WetPocketZip',(0,.001,zc+bh*.31),(w*.64,.002,.004),zipmat,wet,.0006)
+for i in range(int(w*.64/.0035)):
+ x=-w*.32+i*.0035;box('PocketZipperTooth',(x,.002,zc+bh*.31),(.0008,.0009,.002),dark_metal,wet,.00015)
+pull('WetPocketPull',w*.26,.003,zc+bh*.31,wet)
+# Sewn fabric hinge, visible when the case is laid flat.
+hinge=group('HingeBridge',root)
+cloth_panel('TextileHinge',0,.022,bh-.07,zc,.005,webbing,hinge,.0004).location.x=-w/2
 # Small deboss-like development mark, without a large cartoon label.
 bpy.ops.object.text_add(location=(0,-depth/2-.0004,top-.052),rotation=(math.pi/2,0,0));mark=bpy.context.object;mark.name='ConceptMark';mark.data.body='OPEN STORY';mark.data.align_x='CENTER';mark.data.size=.006;mark.data.extrude=.00003;mark.data.materials.append(trim);bpy.ops.object.convert(target='MESH');parent_world(mark,front)
 # Convert curve details so the browser GLB retains piping, carry grips and zipper loops.
@@ -226,7 +317,7 @@ scene=bpy.context.scene;scene.world.use_nodes=True;scene.world.node_tree.nodes['
 for name,loc,power,size in [('Key',(-1.3,-2,2.8),110,1.7),('Fill',(2,-1,1.6),65,1.5),('Rim',(.1,1.2,2),100,1.1)]:
  bpy.ops.object.light_add(type='AREA',location=loc);o=bpy.context.object;o.name=name;o.data.energy=power;o.data.shape='DISK';o.data.size=size;o.rotation_euler=(Vector((0,0,height*.6))-o.location).to_track_quat('-Z','Y').to_euler()
 bpy.ops.object.camera_add(location=(1.25,-2.65,1.18));cam=bpy.context.object;cam.rotation_euler=(Vector((0,0,handle_top*.49))-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.type='PERSP';cam.data.lens=70;scene.camera=cam
-scene.render.engine='CYCLES';scene.cycles.samples=64;scene.cycles.use_denoising=True;scene.render.resolution_x=1400;scene.render.resolution_y=1400;scene.render.resolution_percentage=100;scene.render.image_settings.file_format='PNG';scene.view_settings.view_transform='AgX';scene.view_settings.look='AgX - Medium High Contrast';scene.render.film_transparent=True;bpy.data.objects['StudioFloor'].is_shadow_catcher=True
+scene.render.engine='CYCLES';scene.cycles.samples=build_args.samples;scene.cycles.use_denoising=True;scene.render.resolution_x=build_args.resolution;scene.render.resolution_y=build_args.resolution;scene.render.resolution_percentage=100;scene.render.image_settings.file_format='PNG';scene.view_settings.view_transform='AgX';scene.view_settings.look='AgX - Medium High Contrast';scene.render.film_transparent=True;bpy.data.objects['StudioFloor'].is_shadow_catcher=True
 # Every optional group is available to the browser; rendering uses the saved configuration.
 bpy.ops.object.select_all(action='DESELECT')
 for ob in [root,*root.children_recursive]:ob.hide_render=False;ob.hide_viewport=False;ob.select_set(True)
@@ -242,9 +333,28 @@ if visualization.get('trolley','retracted')!='extended':
   ob.location.z-=shift*.5 if ob.name.startswith(('LowerTrolleyTube','TubeCollar')) else shift
  cam.location=(.78,-1.35,.87);cam.rotation_euler=(Vector((0,0,height*.5))-cam.location).to_track_quat('-Z','Y').to_euler()
 bpy.ops.wm.save_as_mainfile(filepath=str(out/'open-story-concept.blend'))
-scene.render.filepath=str(out/'open-story-exterior.png');bpy.ops.render.render(write_still=True)
-front.rotation_euler.z=math.radians(-112)
-cam.location=(1,-1.6,1.03);cam.rotation_euler=(Vector((-.13,0,height*.53))-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.lens=65
-scene.render.filepath=str(out/'open-story-interior.png');bpy.ops.render.render(write_still=True)
-manifest={'blender':bpy.app.version_string,'modelRevision':'2026-11-04-realism-v4','scope':'Original development visualization; not existing-product photography, manufacturing CAD or tested performance','caseDimensionsCm':[round(height*100,2),round(w*100,2),round(depth*100,2)],'configuration':config,'groups':['FrontShell','FrontAccess','CompressionPanel','PackingCubes','Divider','WetPocket','RepairMarkers','Wheels','FrontWheels','FrontRepairMarkers','Handle'],'renderViews':['exterior','interior'],'visualDetails':['formed hollow shell with millimetre-scale lip','flush front panel and fine zipper teeth','multi-stage aluminum trolley','rubber twin-spinners with separate yokes, bearings and axle caps','carry-handle stand-off gaps','textile normal maps, binding and stitching'],'handleVisualization':'Base Blender scene and renders use a retracted trolley; browser GLB includes extended geometry and supports both view positions. Extended handle is outside the nominal case envelope','engineeringStatus':'Wall thickness, part interfaces, fasteners and material appearance are visualization choices pending engineering validation'}
+def render_view(name):
+ if name not in build_args.views.split(','):return
+ scene.render.filepath=str(out/('open-story-'+name+'.png'));bpy.ops.render.render(write_still=True)
+render_view('exterior')
+front.rotation_euler.z=-math.pi
+root.rotation_euler.x=-math.pi/2;root.location=(w/2,-height/2,depth/2)
+cam.location=(.48,-.76,1.14);cam.rotation_euler=(Vector((0,-.02,.09))-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.lens=55
+render_view('interior')
+packing_groups=[compression,cubes,divider,frontorganizer]
+saved_visibility={ob:ob.hide_render for g in packing_groups for ob in [g,*g.children_recursive]}
+for ob in saved_visibility:ob.hide_render=True
+render_view('packing-wells')
+for ob,hidden in saved_visibility.items():ob.hide_render=hidden
+root.rotation_euler.x=0;root.location=(w/2,0,.08)
+front.location.x-=.08;body.location.x+=.08;backlining.location.x+=.08;repair.location.x+=.08
+backlining.location.y-=.10;frontlining.location.y+=.10;frontorganizer.location.y+=.30
+for ob in [compression,cubes,divider]:ob.location.x+=.08;ob.location.y-=.34
+wheels.location.x+=.08;wheels.location.z-=.075;frontwheels.location.z-=.075
+handle.location.x+=.08;handle.location.z+=.13
+for ob in [hinge,*hinge.children_recursive]:ob.hide_render=True
+cam.location=(1.2,-2.1,1.16);cam.rotation_euler=(Vector((0,-.06,height*.53))-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.lens=58
+render_view('exploded')
+manifest={'blender':bpy.app.version_string,'modelRevision':'2026-11-04-interior-v5','scope':'Original development visualization; not existing-product photography, manufacturing CAD or tested performance','caseDimensionsCm':[round(height*100,2),round(w*100,2),round(depth*100,2)],'configuration':config,'groups':['FrontShell','BackBody','FrontLining','BackLining','FrontOrganizer','HingeBridge','FrontAccess','CompressionPanel','PackingCubes','Divider','WetPocket','RepairMarkers','Wheels','FrontWheels','FrontRepairMarkers','Handle'],'renderViews':['exterior','interior','exploded'],'visualDetails':['formed hollow shell with millimetre-scale lip','sewn recessed liner floors and fabric gussets','geometric open mesh with actual apertures','shaped document sleeve and zippered wet-item pouch','woven compression straps, ladder locks and stitching','three hollow textile packing cubes','flat-open packing inspection','separated shell, lining, organization, wheel and trolley assemblies'],'handleVisualization':'Base Blender scene and renders use a retracted trolley; browser GLB includes extended geometry and supports both view positions. Extended handle is outside the nominal case envelope','engineeringStatus':'Exploded spacing is illustrative and is not an assembly sequence. Wall thickness, part interfaces, fasteners and material appearance are visualization choices pending engineering validation'}
+manifest['renderViews']=['exterior','interior','packing-wells','exploded']
 (out/'model-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n');print('MODEL_COMPLETE',out)

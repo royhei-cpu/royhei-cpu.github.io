@@ -1,6 +1,6 @@
 {
   "blender": "5.2.2 LTS",
-  "modelRevision": "2026-11-04-realism-v4",
+  "modelRevision": "2026-11-04-interior-v5",
   "scope": "Original development visualization; not existing-product photography, manufacturing CAD or tested performance",
   "caseDimensionsCm": [
     55.0,
@@ -10,6 +10,11 @@
   "configuration": {},
   "groups": [
     "FrontShell",
+    "BackBody",
+    "FrontLining",
+    "BackLining",
+    "FrontOrganizer",
+    "HingeBridge",
     "FrontAccess",
     "CompressionPanel",
     "PackingCubes",
@@ -23,16 +28,20 @@
   ],
   "renderViews": [
     "exterior",
-    "interior"
+    "interior",
+    "packing-wells",
+    "exploded"
   ],
   "visualDetails": [
     "formed hollow shell with millimetre-scale lip",
-    "flush front panel and fine zipper teeth",
-    "multi-stage aluminum trolley",
-    "rubber twin-spinners with separate yokes, bearings and axle caps",
-    "carry-handle stand-off gaps",
-    "textile normal maps, binding and stitching"
+    "sewn recessed liner floors and fabric gussets",
+    "geometric open mesh with actual apertures",
+    "shaped document sleeve and zippered wet-item pouch",
+    "woven compression straps, ladder locks and stitching",
+    "three hollow textile packing cubes",
+    "flat-open packing inspection",
+    "separated shell, lining, organization, wheel and trolley assemblies"
   ],
   "handleVisualization": "Base Blender scene and renders use a retracted trolley; browser GLB includes extended geometry and supports both view positions. Extended handle is outside the nominal case envelope",
-  "engineeringStatus": "Wall thickness, part interfaces, fasteners and material appearance are visualization choices pending engineering validation"
+  "engineeringStatus": "Exploded spacing is illustrative and is not an assembly sequence. Wall thickness, part interfaces, fasteners and material appearance are visualization choices pending engineering validation"
 }
