@@ -133,3 +133,18 @@ cards, and the two loose squishy studies approximate shape and material. The
 progressive preview is not a final production photograph; Blender exports allow
 further geometry, material and lighting work. No exact scanned toy meshes or
 verified current store inventory are claimed.
+
+## Dimensioned planogram revision · 4 November 2026
+
+The workshop now opens with a Target-inspired dimensioned planogram. Fixture
+parameters, per-bay shelf elevations/depths, pack footprints and left-edge
+coordinates share one centimeter model across the SVG elevation, aisle/top view,
+fit checker, live 3D geometry and exports. Inches are the initial display units;
+centimeters remain selectable. Existing plans retain dimensions and assortment.
+
+See `../PLANOGRAM.md` for definitions, preset assumptions, migration, user steps
+and export behavior. Generic presets are explicitly distinguished from measured
+store fixtures, and estimated packs from measured/supplier packs. The new drawing
+and placement schedule expose SKU/DPCI and source provenance without inventing
+store inventory or approved Target specifications. No visual generation is used
+for the dimensioned drawing; its geometry is calculated from the entered data.

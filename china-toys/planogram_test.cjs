@@ -1,0 +1,24 @@
+/* Physical invariants, not a screenshot of the implementation. Run with Node. */
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const context={window:{},console,URL};vm.createContext(context);
+for(const file of ['planogram.js','retail-data.js'])vm.runInContext(fs.readFileSync(__dirname+'/'+file,'utf8'),context);
+const P=context.window.ATLAS_PLANOGRAM,D=context.window.ATLAS_RETAIL_DATA;
+const state=()=>D.newPlan();
+const item=(patch={})=>({uid:'one',id:'a',bay:0,row:1,width:25,height:20,packDepth:12,facings:4,depth:6,stacked:true,stackLayers:2,x:null,display:'box',dimensionBasis:'measured',...patch});
+let s=state();s.items=[item()];let l=P.layout(s).lines[0];
+assert.equal(s.config.bayWidth,121.92);assert.equal(s.config.fixtureHeight,213.36);
+assert.equal(l.quantity,24);assert.equal(l.width,100);assert.equal(l.height,40);assert.equal(l.depth,36);assert.equal(l.deep,3);assert.equal(l.issues.length,0);
+s.items[0].width=s.config.usableWidth/4;l=P.layout(s).lines[0];assert.equal(l.issues.length,0,'Exact width fits; no phantom trailing gap');
+s.items[0].width+=.1;assert(P.layout(s).lines[0].issues.includes('Over shelf width'));
+s=state();s.items=[item({width:20,facings:1,x:0}),item({uid:'two',width:20,facings:1,x:10})];let L=P.layout(s);assert(L.lines.every(l=>l.issues.includes('Overlapping products')));
+s.items[1].x=20;assert(P.layout(s).lines.every(l=>!l.issues.includes('Overlapping products')),'Touching edges are allowed');
+P.setShelf(s.config,0,1,{depth:30});assert(P.layout(s).lines[0].issues.includes('Over shelf depth'));
+P.setShelf(s.config,0,1,{elevation:300});assert(P.layout(s).invalidShelves>0);
+s=state();s.items=[item({depth:3})];l=P.layout(s).lines[0];assert.equal(l.quantity,12);assert.equal(l.deep,2,'Partially filled last row preserves the exact stock count');
+s.items[0].stacked=false;l=P.layout(s).lines[0];assert.equal(l.layers,1);assert.equal(l.quantity,12);assert.equal(l.deep,3);
+const cm=s.items[0].width;for(let n=0;n<20;n++){s.config.units='in';assert.equal(P.fromInput(10,s.config),25.4);s.config.units='cm';}assert.equal(s.items[0].width,cm,'Unit switches do not convert stored geometry repeatedly');
+let old={version:1,config:{bayWidth:90,bays:3,shelves:4,currency:'USD'},items:[item({uid:'legacy',ticket:9.99})]};const migrated=D.validate(old,['a']);assert.equal(migrated.items[0].ticket,9.99);assert.equal(migrated.items[0].depth,6);assert.equal(migrated.config.bayWidth,90);assert.equal(migrated.config.units,'in');assert(Math.abs(P.shelf(migrated.config,0,3).elevation-22.1)<.001);
+const restored=D.validate(JSON.parse(JSON.stringify(migrated)),['a']);assert.equal(JSON.stringify(restored),JSON.stringify(migrated),'Migration is idempotent');
+s=state();s.config.planogramId='POG-48';s.config.storeLocation='Test aisle';s.config.measurementBasis='measured';s.items=[item({sku:'123-45-6789',x:5.08,dimensionBasis:'supplier'})];const saved=D.validate(JSON.parse(JSON.stringify(s)),['a']);assert.equal(saved.items[0].x,5.08);assert.equal(saved.items[0].sku,'123-45-6789');assert.equal(saved.items[0].dimensionBasis,'supplier');assert.equal(saved.config.planogramId,'POG-48');assert.equal(saved.config.measurementBasis,'measured');
+const svg=P.drawing(s,()=>({name:'Toy <test> & friends',image:'javascript:alert(1)'}));assert(svg.includes('Toy &lt;test&gt; &amp; friends'));assert(!svg.includes('href="javascript:'));assert(svg.includes('AFF'));assert(P.drawing(s,()=>({name:'Toy'}),{view:'top'}).includes('CLEAR AISLE'));
+console.log('PASS: width/depth/height, overlapping placements, stacks/partial rows, inch/cm invariance, legacy migration, exact save/restore, dimensioned views and safe labels');

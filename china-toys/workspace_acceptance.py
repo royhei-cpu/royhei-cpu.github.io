@@ -249,6 +249,10 @@ def run(scope='all'):
                 from retail_acceptance import check_retail
                 page.set_viewport_size({'width': 1440, 'height': 1080})
                 checks.append(check_retail(page, context, out))
+            if scope in ('planogram', 'all'):
+                from planogram_acceptance import check_planogram
+                page.set_viewport_size({'width': 1440, 'height': 1080})
+                checks.append(check_planogram(page, context, out))
             if scope in ('stories', 'all'):
                 from retailer_stories_acceptance import check_stories
                 page.set_viewport_size({'width': 1440, 'height': 1080})

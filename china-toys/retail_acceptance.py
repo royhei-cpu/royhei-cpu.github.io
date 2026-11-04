@@ -9,6 +9,7 @@ def check_retail(page, context, out):
     from playwright.sync_api import expect
     page.locator('.workspace-sidebar [data-workspace="retail"]').click()
     expect(page.locator('#workspace-retail')).to_be_visible()
+    page.locator('[data-retail-view="3d"]').click()
     page.wait_for_function('window.ATLAS_RETAIL?.getSceneStats()?.webgl')
     # The tutorial jumps to real controls without changing the assortment.
     before_help = page.evaluate('JSON.stringify(window.ATLAS_RETAIL.getState().items)')
