@@ -64,3 +64,18 @@ test('the shipped compiled module matches its authored source and resolves all l
  const optimizer=fs.readFileSync(path.join(dir,'optimize-loading.mjs'),'utf8');assert.match(optimizer,/addHomecareUpgrade\(html,path.dirname\(file\)\)/);
  const boot=fs.readFileSync(path.join(dir,'ui-src/upgrade.jsx'),'utf8');assert.match(boot,/Weekly brief, additions and coverage notes/);assert.match(boot,/<AudioControls\/>/);assert.match(boot,/hc-merchant-picks/);
 });
+
+test('all 50 national-brand photo references are saved, traceable and dimensioned without changing benchmark pricing',()=>{
+ const evidence=JSON.parse(fs.readFileSync(path.join(dir,'ui-src/workshop-reference-evidence.json')));
+ assert.equal(Object.keys(evidence.references).length,50);
+ for(const b of library.benchmarks){
+  const r=evidence.references[b.id];assert.ok(r,b.id);assert.equal(r.id,b.id);assert.match(r.sourceUrl,/^https:\/\//);assert.match(r.imageUrl,/^https:\/\//);assert.equal(r.checkedAt,'2026-11-04');assert.ok(r.verificationNote.length>80);
+  assert.match(r.path,/^\/home-care\/workshop-reference-photos\/[a-z0-9-]+\.webp$/);
+  const content=fs.readFileSync(path.join(site,r.path.replace('/home-care/','')));assert.equal(content.subarray(0,4).toString(),'RIFF');assert.equal(content.subarray(8,12).toString(),'WEBP');assert.equal(content.length,r.bytes);assert.equal(crypto.createHash('sha256').update(content).digest('hex'),r.sha256,b.id);assert.ok(r.width>=100&&r.height>=100);assert.ok(r.width<=1000&&r.height<=900);
+  assert.ok(!('price' in r),'Photo sourcing must not replace the saved price observation');
+ }
+ assert.equal(evidence.references['brabantia-bo'].match,'range-reference');
+ assert.equal(evidence.references['vileda-nitrile'].match,'range-reference');
+ assert.equal(evidence.references['bd-dustbuster'].sourceType,'Retailer');
+ assert.match(evidence.references['bd-dustbuster'].verificationNote,/unavailable/);
+});

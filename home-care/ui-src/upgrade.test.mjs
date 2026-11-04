@@ -2,16 +2,18 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import React from 'react';
 import {create,act} from 'react-test-renderer';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {workshopLibrary,referenceEvidence,benchmarkEvidence,benchmarkCSV,configuredBriefHTML,defaultScenario} from './workshop-logic.js';
 import {build} from 'esbuild';
 import {mkdtemp,rm,readFile} from 'node:fs/promises';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import path from 'node:path';
 import {catalogRows} from './upgrade-model.js';
 const dir=path.dirname(fileURLToPath(import.meta.url)),temp=await mkdtemp(path.join(dir,'.ui-test-'));
-await build({entryPoints:{app:path.join(dir,'upgrade.jsx'),workshop:path.join(dir,'workshop-ui.jsx')},bundle:true,packages:'external',platform:'node',format:'esm',outdir:temp,outExtension:{'.js':'.mjs'},logLevel:'silent'});
+await build({entryPoints:[path.join(dir,'upgrade.jsx')],bundle:true,packages:'external',platform:'node',format:'esm',outfile:path.join(temp,'app.mjs'),logLevel:'silent'});
 const {GlobalListings}=await import(pathToFileURL(path.join(temp,'app.mjs')));
+await build({entryPoints:[path.join(dir,'workshop-ui.jsx')],bundle:true,packages:'external',platform:'node',format:'esm',outfile:path.join(temp,'workshop.mjs'),logLevel:'silent'});
 const {WhiteLabelWorkshop}=await import(pathToFileURL(path.join(temp,'workshop.mjs')));await rm(temp,{recursive:true});
-const {workshopLibrary,benchmarkPhotos,defaultScenario,configuredBriefHTML}=await import('./workshop-logic.js');
 const refs=JSON.parse(await readFile(path.join(dir,'../site/global-reference-products.json')));
 const text=n=>typeof n==='string'||typeof n==='number'?String(n):(n?.children||[]).map(text).join('');
 globalThis.IS_REACT_ACT_ENVIRONMENT=true;
@@ -33,15 +35,59 @@ test('China deep links render eleven real product cards and selection joins the 
  }finally{if(screen)await act(async()=>screen.unmount());}
 });
 
-test('every concept displays two matched national-brand photographs beside the concept and retains working detail controls',async()=>{
+
+test('every concept renders its real reference photos before the proposal and explains why and what changes',()=>{
+ const {concepts}=workshopLibrary;
+ for(const p of concepts){
+  const html=renderToStaticMarkup(React.createElement(WhiteLabelWorkshop,{conceptId:p.id,catalog:[],selected:[],onOpen(){},onCompare(){},setConceptId(){}}));
+  assert.ok(html.indexOf('id="wl-real-products"')<html.indexOf('id="wl-development-case"'));
+  assert.ok(html.indexOf('id="wl-development-case"')<html.indexOf('id="wl-proposed-design"'));
+  assert.ok(html.includes('Why consider white label?'));assert.ok(html.includes('Target assortment check'));
+  assert.equal((html.match(/data-benchmark-id=/g)||[]).length,2);
+  for(const id of p.benchmarks){const r=benchmarkEvidence(id);if(r.path)assert.ok(html.includes(r.path),id);else assert.ok(html.includes('Product photo unavailable'));}
+  assert.ok(html.includes('Saved observed price'));assert.ok(html.includes('Proposed retail target'));
+ }
+});
+
+test('changing concepts changes national-brand photos, and a failed image displays an honest gap',async()=>{
+ let screen;
+ const props={catalog:[],selected:[],onOpen(){},onCompare(){},setConceptId(){}};
+ try{
+  await act(async()=>{screen=create(React.createElement(WhiteLabelWorkshop,{...props,conceptId:'laundry-sorter'}));});
+  const cards=()=>screen.root.findAll(n=>n.type==='article'&&n.props['data-benchmark-id']);
+  assert.deepEqual(cards().map(n=>n.props['data-benchmark-id']),['jj-tota','brabantia-bo']);
+  await act(async()=>cards()[0].findByType('img').props.onError());
+  assert.match(text(cards()[0]),/Product photo unavailable/);assert.equal(cards()[0].findAllByType('img').length,0);
+  const next=workshopLibrary.concepts.find(p=>!p.benchmarks.includes('jj-tota'));
+  await act(async()=>screen.update(React.createElement(WhiteLabelWorkshop,{...props,conceptId:next.id})));
+  assert.deepEqual(cards().map(n=>n.props['data-benchmark-id']),next.benchmarks);
+  assert.equal(cards().filter(n=>n.findAllByType('img').length).length,next.benchmarks.filter(id=>benchmarkEvidence(id).path).length);
+ }finally{if(screen)await act(async()=>screen.unmount());}
+});
+
+test('configured briefs and comparison CSV retain photos, match qualifications and separate observed prices from proposals',()=>{
+ const parse=line=>[...line.matchAll(/"((?:[^"]|"")*)"(?:,|$)/g)].map(m=>m[1].replaceAll('""','"'));
+ for(const p of workshopLibrary.concepts){
+  const html=configuredBriefHTML(p,defaultScenario(p),workshopLibrary.palette[0],'https://royhei-cpu.github.io/home-care/workshop-assets/');
+  const csv=benchmarkCSV(p),rows=csv.replace(/^\uFEFF/,'').split('\r\n').map(parse);
+  assert.equal(rows.length,1+2+p.changes.length);assert.ok(rows.every(r=>r.length===22));
+  for(const id of p.benchmarks){const r=benchmarkEvidence(id);if(r.path){assert.ok(html.includes('https://royhei-cpu.github.io'+r.path));assert.ok(csv.includes('https://royhei-cpu.github.io'+r.path));}assert.ok(csv.includes(r.sourceUrl));}
+  assert.ok(html.includes('Saved observed price:'));assert.ok(html.includes(p.killCriterion.replaceAll('&','&amp;')));
+ }
+ const p=workshopLibrary.concepts[0];assert.ok(benchmarkCSV({...p,name:'=HYPERLINK("bad")'}).includes('"\'=HYPERLINK(""bad"")"'));
+ assert.ok(referenceEvidence.references['marigold-kitchen'].verificationNote.includes('Medium'));
+ assert.equal(benchmarkEvidence('missing-id').match,'unavailable');
+});
+
+test('every concept retains two national-brand photos and working detail controls',async()=>{
  let screen;const props={catalog:[],selected:[],onOpen(){},onCompare(){},setConceptId(){}};
  try{
   for(const proposal of workshopLibrary.concepts){
    await act(async()=>{const view=React.createElement(WhiteLabelWorkshop,{...props,conceptId:proposal.id});if(screen)screen.update(view);else screen=create(view);});
    const cards=screen.root.findAllByProps({className:'wl-benchmark-card'});assert.equal(cards.length,2,proposal.id);
    assert.deepEqual(cards.map(c=>c.props['data-benchmark']),proposal.benchmarks);
-   for(const card of cards){const id=card.props['data-benchmark'],photo=benchmarkPhotos[id],img=card.findByType('img');assert.equal(img.props.src,photo.image);assert.ok(img.props.alt.length>20);assert.ok(img.props.width>=250);assert.equal(card.findByProps({className:'wl-benchmark-photo'}).props.href,photo.image);assert.ok(text(card).includes(photo.credit));}
-   const layout=screen.root.findByProps({className:'wl-product-layout'});assert.equal(layout.findAllByProps({className:'wl-benchmark-card'}).length,2);
+   for(const card of cards){const id=card.props['data-benchmark'],photo=benchmarkEvidence(id),img=card.findByType('img');assert.equal(img.props.src,photo.path);assert.ok(img.props.alt.length>20);assert.ok(img.props.width>=100);assert.equal(card.findByProps({className:'wl-benchmark-photo'}).props.href,photo.path);assert.ok(text(card).includes(photo.sourceTitle));}
+   assert.equal(screen.root.findByProps({id:'wl-real-products'}).findAllByProps({className:'wl-benchmark-card'}).length,2);
    assert.equal(screen.root.findByProps({className:'wl-change-grid'}).findAllByType('article').length,proposal.changes.length);
   }
   await act(async()=>screen.update(React.createElement(WhiteLabelWorkshop,{...props,conceptId:'laundry-sorter'})));
@@ -52,10 +98,4 @@ test('every concept displays two matched national-brand photographs beside the c
   await clickTab('validation');assert.ok(text(screen.root).includes('Stop condition:'));
   assert.equal(screen.root.findAllByProps({className:'wl-benchmark-card'}).length,2);
  }finally{if(screen)await act(async()=>screen.unmount());}
-});
-
-test('saved configured briefs include the two exact benchmark photos, credits and source links for every concept',()=>{
- for(const p of workshopLibrary.concepts){const html=configuredBriefHTML(p,defaultScenario(p),workshopLibrary.palette[0],'https://royhei-cpu.github.io/home-care/workshop-assets/');
-  for(const id of p.benchmarks){const photo=benchmarkPhotos[id];assert.ok(html.includes('https://royhei-cpu.github.io'+photo.image),p.id);assert.ok(html.includes(photo.sourcePage.replaceAll('&','&amp;')));assert.ok(html.includes(photo.credit.replaceAll('&','&amp;')));}
- }
 });
