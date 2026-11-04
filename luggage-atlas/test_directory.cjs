@@ -12,6 +12,22 @@ run("directoryToggle('offer-1730d13');directoryToggle('offer-39bdd129');director
 run("followedOffers.add('offer-e74871e');localStorage.setItem('luggage-atlas-followed-offers-v1',JSON.stringify([...followedOffers]));followedOffers.clear();loadFollowing();directoryFilters.q='';directoryFilters.followed=true;drawDirectory()");assert.equal(run('directoryRows().length'),1);assert(el('#directoryRows').innerHTML.includes('20-inch Hardside Carry-On Tan'));
 run("directoryFilters.followed=false;csv=(n,rows)=>window.gapRows=rows;exportCoverage()");assert.equal(ctx.window.gapRows.length,68);assert(ctx.window.gapRows.every(r=>r.length===ctx.window.gapRows[0].length));
 console.log('PASS: all 67 offers; 7 matched / 1 missing interior / 1 color-qualified / 58 unaudited; exact Samsonite identities; combined and empty filters; 4-offer limit; persistent shortlist/follows; complete photo-gap CSV.');
+// The column control shares positioning state with the top filter and exports.
+run("location.hash='#brands';selected.clear();filters={q:'',region:'',tier:'',style:''};render()");
+assert(el('#view').innerHTML.includes('id="brandTierColumn"'));assert(el('#view').innerHTML.includes('aria-label="Filter brand positioning"'));
+el('#brandTierColumn').onchange({target:{value:'Premium'}});
+assert.equal(el('#brandTier').value,'Premium');assert.equal(el('#brandTierColumn').value,'Premium');assert(run("filteredBrands().length>0&&filteredBrands().every(b=>b.tier==='Premium')"));
+run("togglePick(filteredBrands()[0].id)");const picked=run('[...selected][0]');
+el('#brandTier').onchange({target:{value:'Value'}});
+assert.equal(el('#brandTierColumn').value,'Value');assert(run("filteredBrands().length>0&&filteredBrands().every(b=>b.tier==='Value')"));assert(run(`selected.has(${JSON.stringify(picked)})`));
+const region=run('filteredBrands()[0].region');el('#brandRegion').onchange({target:{value:region}});
+assert(run(`filteredBrands().every(b=>b.tier==='Value'&&b.region===${JSON.stringify(region)})`));
+run("selected.clear();window.originalBrandCSV=csv;csv=(name,rows)=>window.brandFilterExport=rows;exportBrands();csv=window.originalBrandCSV");
+assert.equal(ctx.window.brandFilterExport.length,run('filteredBrands().length')+1);assert(ctx.window.brandFilterExport.slice(1).every(row=>row[3]==='Value'&&row[2]===region));
+run("filters.q='No-such-positioned-brand';drawBrandRows()");assert(el('#brandRows').innerHTML.includes('No matching brands'));assert.equal(el('#brandTierColumn').value,'Value');
+el('#resetBrands').onclick();assert.equal(run('filteredBrands().length'),run('D.brands.length'));assert.equal(el('#brandTier').value,'');assert.equal(el('#brandTierColumn').value,'');
+console.log('PASS: column positioning filter, two-way sync, combined region filtering, preserved shortlist, filtered CSV and reset.');
+
 // Test the visual document serializer with actual local photo bytes, without a browser.
 ctx.Blob=function(parts){ctx.window.visualDocument=parts.join('')};
 ctx.fetch=async relative=>({ok:true,blob:async()=>({bytes:fs.readFileSync(path.join(__dirname,relative))})});
