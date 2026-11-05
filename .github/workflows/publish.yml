@@ -2,7 +2,7 @@ name: Publish Tariff Signal Mirror
 on:
   push:
     branches: [main]
-    paths: ['pawlish/**', 'home-care/**', 'china-toys/**', 'luggage-atlas/**', '.github/workflows/publish.yml']
+    paths: ['dog-club/**', 'pawlish/**', 'home-care/**', 'china-toys/**', 'luggage-atlas/**', '.github/workflows/publish.yml']
   workflow_dispatch:
   schedule:
     - cron: "15 1 * * *"
@@ -131,6 +131,8 @@ jobs:
           python3 luggage-atlas/validate.py
           node --check luggage-atlas/app.js
           cp -R luggage-atlas _site/luggage-atlas
+      - name: Add Dog Club profile and comparison
+        run: cp -R dog-club _site/dog-club
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
