@@ -8,7 +8,7 @@
   const legacyKeys = ['dog-club-personalized-v2', 'target-dog-club-concept-profile'];
   const petFields = ['dogName','age','ageUnit','weight','weightUnit','play','chew','texture','allergy','avoid','restriction'];
   const addressFields = ['recipient','email','address1','address2','city','state','zip','phone'];
-  const state = {step:0,visited:0,activeWeek:0,photo:'',photoBusy:false,photoToken:0,weeks:[],dates:P.weeklyDates(P.defaultDate()),skipped:[false,false,false,false],paused:false,complete:false,storageMessage:''};
+  const state = {step:0,visited:0,activeWeek:0,photo:'',photoBusy:false,photoToken:0,weeks:[],dates:P.weeklyDates(P.defaultDate()),dateDrafts:{},firstDateDraft:null,skipped:[false,false,false,false],paused:false,complete:false,storageMessage:''};
   const node = (tag,text,className) => {const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(className)e.className=className;return e;};
   const profile = () => Object.fromEntries([...petFields.map(k=>[k,form.elements[k].value.trim()]),['circle',form.elements.circle.checked]]);
   const delivery = () => Object.fromEntries(addressFields.map(k=>[k,$('#'+k).value.trim()]));
@@ -32,6 +32,14 @@
     error.textContent=message;error.hidden=false;
     if(element){element.setAttribute('aria-invalid','true');element.setAttribute('aria-describedby',error.id);element.focus();element.scrollIntoView({block:'center'});}else error.scrollIntoView({block:'center'});
     return false;
+  }
+  const editedDates = () => state.dates.map((date,i)=>Object.prototype.hasOwnProperty.call(state.dateDrafts,i)?state.dateDrafts[i]:date);
+  function validateDateDrafts(){
+    if(state.firstDateDraft!==null)return fail('Correct the first requested delivery date before continuing.',$('#firstDate'));
+    const pending=Object.keys(state.dateDrafts);
+    if(!pending.length)return true;
+    const index=Number(pending[0]),check=P.validateDates(editedDates());
+    return fail(check.message||`Choose a supported future date for Week ${index+1} before continuing.`,$(`#${state.complete?'final':'plan'}-date-${index}`));
   }
   function syncPhoto(){
     for(const id of ['photoPreview','coverPhoto']){const e=$('#'+id);if(state.photo)e.src=state.photo;else e.removeAttribute('src');}
@@ -63,7 +71,7 @@
     state.weeks.forEach((week,i)=>{const card=node('article',undefined,'mini-week');card.append(node('h4',`Week ${i+1}${showDates?' · '+statusLabel(i):''}`));if(showDates)card.append(node('p',dateLabel(state.dates[i]),'hint'));choiceLabels(week).forEach(t=>card.append(node('p',t)));card.append(node('p','Plus 1 edible chew, pending suitability review.','hint'));container.append(card);});
   }
   function renderTiming(){
-    $('#firstDate').min=P.earliestDate();$('#firstDate').max='9999-12-02';$('#firstDate').value=state.dates[0]||'';
+    $('#firstDate').min=P.earliestDate();$('#firstDate').max='9999-12-02';$('#firstDate').value=state.firstDateDraft!==null?state.firstDateDraft:state.dates[0]||'';if(state.firstDateDraft!==null)$('#firstDate').setAttribute('aria-invalid','true');
     $('#dateHelp').textContent=`Choose ${P.formatDate(P.earliestDate())} or later. The next three dates start one week apart.`;
     $('#week5Timing').textContent=selectedMode()?`Week 5 suggestion requested for ${dateLabel(week5Date())}.`:'Week 5 is off. You will keep choosing manually.';
   }
@@ -73,12 +81,12 @@
       const card=node('article',undefined,'schedule-card'+(state.skipped[i]?' is-skipped':''));
       const title=node('h4',`Week ${i+1}`),pill=node('span',statusLabel(i),'status-pill'+(!state.skipped[i]&&!state.paused?' active':''));title.append(pill);card.append(title);
       const id=`${prefix}-date-${i}`,label=node('label','Requested delivery date');label.htmlFor=id;
-      const input=node('input');input.type='date';input.id=id;input.min=P.earliestDate();input.max='9999-12-23';input.value=date;input.required=true;
+      const input=node('input');input.type='date';input.id=id;input.min=P.earliestDate();input.max='9999-12-23';input.value=Object.prototype.hasOwnProperty.call(state.dateDrafts,i)?state.dateDrafts[i]:date;input.required=true;if(Object.prototype.hasOwnProperty.call(state.dateDrafts,i))input.setAttribute('aria-invalid','true');
       input.addEventListener('change',()=>{
-        if(!input.checkValidity()){input.value=state.dates[i];return fail('Choose a supported future date for this week.',input);}
-        const next=[...state.dates];next[i]=input.value;const check=P.validateDates(next);
-        if(!check.ok){input.value=state.dates[i];return fail(check.message,input);}
-        state.dates=next;invalidateReview();clearErrors();renderTiming();if(state.complete)renderFinal();else renderSchedule($('#scheduleEditor'),'plan');announce(`Week ${i+1} requested date changed to ${dateLabel(next[i])}.`);
+        state.dateDrafts[i]=input.value;invalidateReview();
+        const next=editedDates(),check=P.validateDates(next),earliest=P.earliestDate();
+        if(!input.checkValidity()||!next.every(d=>P.isISODate(d)&&d>=earliest&&d<='9999-12-23')||!check.ok)return fail(check.message||'Choose a supported future date for this week.',input);
+        state.dates=next;state.dateDrafts={};clearErrors();renderTiming();if(state.complete)renderFinal();else renderSchedule($('#scheduleEditor'),'plan');announce(`Week ${i+1} requested date changed to ${dateLabel(next[i])}.`);
       });
       const checkLabel=node('label',undefined,'check'),skip=node('input');skip.type='checkbox';skip.checked=state.skipped[i];skip.setAttribute('aria-label',`Skip week ${i+1}`);checkLabel.append(skip,node('span','Skip this week'));
       skip.addEventListener('change',()=>{const next=[...state.skipped];next[i]=skip.checked;if(next.every(Boolean)){skip.checked=state.skipped[i];return fail('Keep at least one of the first four boxes planned. You can pause the whole plan after review.',skip);}state.skipped=next;invalidateReview();clearErrors();if(state.complete)renderFinal();else renderSchedule($('#scheduleEditor'),'plan');announce(`Week ${i+1} ${state.skipped[i]?'skipped':'restored'}. Other dates are unchanged.`);});
@@ -110,7 +118,7 @@
     if(index===0){if(!$('#dogName').value.trim())return fail('Please enter your dog’s name.',$('#dogName'));if(!state.photo)return fail('Please add a dog photo or use Ryan’s example.',$('#photo'));if(!$('#age').checkValidity())return fail('Please enter a valid age.',$('#age'));if(!$('#weight').checkValidity())return fail('Please enter a valid weight.',$('#weight'));if(!form.elements.circle.checked)return fail('Confirm Circle membership to continue this concept preview.',form.elements.circle);}
     if(index===1){for(const id of ['play','chew','texture','allergy','restriction'])if(!$('#'+id).value)return fail('Please answer every preference question.',$('#'+id));if($('#allergy').value==='Yes'&&!$('#avoid').value.trim())return fail('Please list the ingredients to avoid.',$('#avoid'));}
     if(index===2){normalizeWeeks();for(let i=0;i<4;i++){const w=state.weeks[i];if(!w.toy||!w.treat1||!w.treat2)return fail(`Complete all choices for week ${i+1}.`,$('#toyChoice'));}}
-    if(index===3){const errors=P.addressErrors(delivery());if(errors.length)return fail(errors[0].message,$('#'+errors[0].field));if(!$('#email').checkValidity())return fail('Please enter a valid email address.',$('#email'));if(!P.isISODate($('#firstDate').value)||$('#firstDate').value<P.earliestDate()||$('#firstDate').value!==state.dates[0])return fail('Choose a valid first delivery date after today.',$('#firstDate'));const dates=P.validateDates(state.dates);if(!dates.ok)return fail(dates.message,$('#firstDate'));if(state.skipped.every(Boolean))return fail('Keep at least one of the first four boxes planned.',$('#firstDate'));}
+    if(index===3){const errors=P.addressErrors(delivery());if(errors.length)return fail(errors[0].message,$('#'+errors[0].field));if(!$('#email').checkValidity())return fail('Please enter a valid email address.',$('#email'));if(!validateDateDrafts())return false;if(!P.isISODate($('#firstDate').value)||$('#firstDate').value<P.earliestDate()||$('#firstDate').value!==state.dates[0])return fail('Choose a valid first delivery date after today.',$('#firstDate'));const dates=P.validateDates(state.dates);if(!dates.ok)return fail(dates.message,$('#firstDate'));if(state.skipped.every(Boolean))return fail('Keep at least one of the first four boxes planned.',$('#firstDate'));}
     if(index===4&&!$('#reviewed').checked)return fail('Please confirm you reviewed the contents, address and requested dates.',$('#reviewed'));
     return true;
   }
@@ -141,7 +149,7 @@
     savePetProfile();renderFinal();$('#complete h2').focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'});
   });
   $('#back').addEventListener('click',()=>{if(state.step>0){clearErrors();state.step--;showStep();}});
-  document.querySelectorAll('[data-step-link]').forEach(b=>b.addEventListener('click',()=>{const next=Number(b.dataset.stepLink);if(next<=state.step){openStep(next);return;}for(let i=0;i<next;i++){state.step=i;showStep(false);if(!validateStep(i))return;}state.step=next;clearErrors();showStep();}));
+  document.querySelectorAll('[data-step-link]').forEach(b=>b.addEventListener('click',()=>{const next=Number(b.dataset.stepLink);if(next<=state.step){openStep(next);return;}if(!validateStep(state.step))return;for(let i=0;i<next;i++){state.step=i;showStep(false);if(!validateStep(i))return;}state.step=next;clearErrors();showStep();}));
   form.addEventListener('input',e=>{if(e.target.id==='reviewed'||e.target.id==='rememberProfile')return;invalidateReview();clearErrors();conditional();names();});
   for(const key of ['play','chew','texture','allergy','avoid','restriction'])form.elements[key].addEventListener('change',()=>{const before=JSON.stringify(state.weeks);normalizeWeeks();if(before!==JSON.stringify(state.weeks))announce('Some box categories were updated to match the new preferences.');});
   document.querySelectorAll('[data-week]').forEach(b=>{
@@ -150,14 +158,14 @@
   });
   for(const id of ['toyChoice','treat1','treat2'])$('#'+id).addEventListener('change',()=>{const w={toy:$('#toyChoice').value,treat1:$('#treat1').value,treat2:$('#treat2').value};if(id==='treat2'&&w.treat1===w.treat2){const alternative=P.treatOptions(profile()).find(o=>o.id!==w.treat2);if(alternative)w.treat1=alternative.id;}state.weeks[state.activeWeek]=P.normalizeWeek(w,profile());invalidateReview();renderWeekEditor();announce(`Week ${state.activeWeek+1} choices updated.`);});
   $('#copyWeeks').addEventListener('click',()=>{const current={...state.weeks[state.activeWeek]};state.weeks=Array.from({length:4},()=>({...current}));invalidateReview();renderWeekEditor();announce('These choices now apply to all four weeks.');});
-  $('#firstDate').addEventListener('change',()=>{const first=$('#firstDate').value;if(!P.isISODate(first)||first<P.earliestDate()||first>'9999-12-02'){return fail('Choose a supported first delivery date after today.',$('#firstDate'));}state.dates=P.weeklyDates(first);invalidateReview();clearErrors();renderTiming();renderSchedule($('#scheduleEditor'),'plan');announce('All four requested dates updated, one week apart.');});
+  $('#firstDate').addEventListener('change',()=>{const first=$('#firstDate').value;state.firstDateDraft=first;invalidateReview();if(!P.isISODate(first)||first<P.earliestDate()||first>'9999-12-02'){return fail('Choose a supported first delivery date after today.',$('#firstDate'));}state.dates=P.weeklyDates(first);state.dateDrafts={};state.firstDateDraft=null;clearErrors();renderTiming();renderSchedule($('#scheduleEditor'),'plan');announce('All four requested dates updated, one week apart.');});
   $('#autoRecommend').addEventListener('change',()=>{invalidateReview();renderTiming();});
   const states='AL|Alabama;AK|Alaska;AZ|Arizona;AR|Arkansas;CA|California;CO|Colorado;CT|Connecticut;DE|Delaware;DC|District of Columbia;FL|Florida;GA|Georgia;HI|Hawaii;ID|Idaho;IL|Illinois;IN|Indiana;IA|Iowa;KS|Kansas;KY|Kentucky;LA|Louisiana;ME|Maine;MD|Maryland;MA|Massachusetts;MI|Michigan;MN|Minnesota;MS|Mississippi;MO|Missouri;MT|Montana;NE|Nebraska;NV|Nevada;NH|New Hampshire;NJ|New Jersey;NM|New Mexico;NY|New York;NC|North Carolina;ND|North Dakota;OH|Ohio;OK|Oklahoma;OR|Oregon;PA|Pennsylvania;RI|Rhode Island;SC|South Carolina;SD|South Dakota;TN|Tennessee;TX|Texas;UT|Utah;VT|Vermont;VA|Virginia;WA|Washington;WV|West Virginia;WI|Wisconsin;WY|Wyoming';
   states.split(';').forEach(pair=>{const [code,name]=pair.split('|');const option=node('option',name);option.value=code;$('#state').append(option);});
   $('#sampleDelivery').addEventListener('click',()=>{const sample={recipient:'Sam Sample',email:'sam@example.com',address1:'123 Demo Lane',address2:'Unit 4',city:'Minneapolis',state:'MN',zip:'55401',phone:''};addressFields.forEach(k=>$('#'+k).value=sample[k]);invalidateReview();clearErrors();announce('Fictional sample address and contact details filled in.');});
   $('#pausePlan').addEventListener('click',()=>{state.paused=!state.paused;invalidateReview();clearErrors();renderFinal();announce(state.paused?'All planned boxes paused.':'Plan resumed; skipped weeks remain skipped.');});
   $('#editDelivery').addEventListener('click',()=>openStep(3));$('#editChoices').addEventListener('click',()=>openStep(2));$('#editProfile').addEventListener('click',()=>openStep(0));
-  function resetMemory(){state.photoToken++;state.photoBusy=false;state.step=0;state.visited=0;state.activeWeek=0;state.weeks=[];state.dates=P.weeklyDates(P.defaultDate());state.skipped=[false,false,false,false];state.paused=false;state.complete=false;state.storageMessage='';$('#autoRecommend').checked=false;$('#includeContact').checked=false;$('#rememberProfile').checked=false;addressFields.forEach(k=>$('#'+k).value='');$('#finalCover').replaceChildren();$('#finalDetails').replaceChildren();$('#finalSchedule').replaceChildren();$('#recommendationCard').replaceChildren();$('#completeStatus').textContent='';}
+  function resetMemory(){state.photoToken++;state.photoBusy=false;state.step=0;state.visited=0;state.activeWeek=0;state.weeks=[];state.dates=P.weeklyDates(P.defaultDate());state.dateDrafts={};state.firstDateDraft=null;state.skipped=[false,false,false,false];state.paused=false;state.complete=false;state.storageMessage='';$('#autoRecommend').checked=false;$('#includeContact').checked=false;$('#rememberProfile').checked=false;addressFields.forEach(k=>$('#'+k).value='');$('#finalCover').replaceChildren();$('#finalDetails').replaceChildren();$('#finalSchedule').replaceChildren();$('#recommendationCard').replaceChildren();$('#completeStatus').textContent='';}
   function useRyan(){form.reset();resetMemory();const values={dogName:'Ryan',age:'4',ageUnit:'years',weight:'40',weightUnit:'lb',play:'Fetch',chew:'Gentle play',texture:'Soft bites',allergy:'None known',restriction:'None',avoid:''};for(const [k,v] of Object.entries(values))form.elements[k].value=v;state.photo='ryan.png';$('#photo').value='';$('#photoStatus').textContent='Example photo: Ryan the Border Collie.';normalizeWeeks();openStep(0);}
   $('#tryRyan').addEventListener('click',useRyan);
   $('#clear').addEventListener('click',()=>{try{[storageKey,...legacyKeys].forEach(k=>localStorage.removeItem(k));}catch{}form.reset();resetMemory();state.photo='';petFields.forEach(k=>{if(form.elements[k].tagName==='INPUT')form.elements[k].value='';});form.elements.circle.checked=false;$('#photo').value='';$('#photoStatus').textContent='Photo, profile and delivery details cleared.';openStep(0);announce('Photo, pet profile, address and delivery details cleared.');});
@@ -176,6 +184,7 @@
   }
   $('#downloadCover').addEventListener('click',downloadCover);$('#saveImage').addEventListener('click',downloadCover);
   $('#downloadPlan').addEventListener('click',()=>{
+    if(!validateDateDrafts())return;
     const lines=['TARGET RUN DOG CLUB — CONCEPT PLAN',`Dog: ${dogName()}`,`Plan: ${state.paused?'paused':'active preview'}`,''];
     state.weeks.forEach((w,i)=>lines.push(`Week ${i+1}: ${dateLabel(state.dates[i])} — ${statusLabel(i)}`,...choiceLabels(w),'Plus 1 edible chew, pending suitability review.',''));
     if(selectedMode())lines.push(`Week 5 suggestion: ${dateLabel(week5Date())}${state.paused?' — paused':''}`,...choiceLabels(P.recommend(state.weeks,profile(),state.skipped)),'');else lines.push('Week 5: off; keep choosing manually.','');
@@ -183,7 +192,7 @@
     lines.push('Requested dates only. No order, payment, subscription or shipment was created.','Product availability, ingredients, price and delivery need live checkout confirmation.');downloadBlob(new Blob([lines.filter(v=>v!==undefined).join('\n')],{type:'text/plain;charset=utf-8'}),'dog-club-plan.txt');
   });
   $('#downloadCalendar').addEventListener('click',()=>{
-    if(state.paused)return;const dateCheck=P.validateDates(state.dates);if(!dateCheck.ok)return fail(dateCheck.message);
+    if(state.paused||!validateDateDrafts())return;const dateCheck=P.validateDates(state.dates);if(!dateCheck.ok)return fail(dateCheck.message);
     const stamp=new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Dog Club Concept//Requested Dates//EN','CALSCALE:GREGORIAN'];
     const dates=state.dates.map((date,i)=>({date,week:i+1,skip:state.skipped[i]}));if(selectedMode())dates.push({date:week5Date(),week:5,skip:false});
     dates.filter(v=>!v.skip).forEach(({date,week})=>lines.push('BEGIN:VEVENT',`UID:dog-club-${Date.now()}-${week}@concept.invalid`,`DTSTAMP:${stamp}`,`DTSTART;VALUE=DATE:${date.replace(/-/g,'')}`,`DTEND;VALUE=DATE:${P.addDays(date,1).replace(/-/g,'')}`,`SUMMARY:Dog Club week ${week} - requested date (concept)`,'DESCRIPTION:Planning preview only. No order or shipment has been created.','TRANSP:TRANSPARENT','END:VEVENT'));
