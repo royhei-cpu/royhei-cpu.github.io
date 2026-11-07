@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewDate": "2026-11-04",
+  "reviewDate": "2026-11-07",
   "scope": "Brand-level public evidence; not batch or SKU traceability. Unmatched brands have explicit unresolved status.",
   "entries": [
     {
@@ -791,6 +791,1477 @@
       "factories": [],
       "evidenceNote": "Corporate brand relationship verified. Gurnee, Somers and Manchester are disclosed company production sites, but source does not establish which plant produces each brand, so no brand factory is assigned.",
       "checkedDate": "2026-11-04"
+    },
+    {
+      "brands": [
+        "Scrub Daddy",
+        "SCRUB DADDY INC"
+      ],
+      "brandOwnerName": "Scrub Daddy, Inc.",
+      "brandOwnerSource": "https://scrubdaddy.com/about/",
+      "manufacturerName": "Scrub Daddy, Inc. (group)",
+      "manufacturerSource": "https://scrubdaddy.com/about/",
+      "factories": [
+        {
+          "name": "Scrub Daddy – Mártély production unit",
+          "location": "Mártély, Hungary",
+          "scope": "Washing-paste manufacturing and capacity expansion.",
+          "source": "https://hipa.hu/news/scrub-daddy-signs-strategic-cooperation-agreement/"
+        }
+      ],
+      "evidenceNote": "The Hungarian investment agency identifies washing-paste production. Sponge conversion and U.S. SKU routing require separate evidence.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "O-Cedar"
+      ],
+      "brandOwnerName": "Freudenberg Home and Cleaning Solutions (Freudenberg Group)",
+      "brandOwnerSource": "https://www.freudenberg.com/fileadmin/01_PDF-FILES/EN/2026_FreudenbergGroup_AnnualReport2025.pdf",
+      "manufacturerName": "Freudenberg Household Products LP (U.S.) / Freudenberg Gala Household Products (components)",
+      "manufacturerSource": "https://www.freudenberg-homeandcleaningsolutions.com/en/news-and-press/adas",
+      "factories": [
+        {
+          "name": "Freudenberg Household Products – Aurora",
+          "location": "2188 Diehl Road, Aurora, Illinois, USA",
+          "scope": "OSHA identifies broom, brush and mop manufacturing at this site.",
+          "source": "https://www.osha.gov/ords/imis/establishment.inspection_detail?id=1770118.015"
+        },
+        {
+          "name": "Freudenberg Gala Household Products – Adas",
+          "location": "Adas, Gujarat, India",
+          "scope": "Foot pedals for assembly into U.S. O-Cedar products. Complete spin mops at this expansion are identified as Gala branded.",
+          "source": "https://www.freudenberg-homeandcleaningsolutions.com/en/news-and-press/adas"
+        }
+      ],
+      "evidenceNote": "OSHA documents the Aurora establishment. Freudenberg explicitly ties Adas pedals to U.S. O-Cedar products. Assembly routing for individual models is unknown.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Simple Green"
+      ],
+      "brandOwnerName": "Sunshine Makers, Inc.",
+      "brandOwnerSource": "https://simplegreen.com/50th-anniversary/",
+      "manufacturerName": "Sunshine Makers, Inc. (manufacturer/contact)",
+      "manufacturerSource": "https://19january2021snapshot.epa.gov/emergency-response/simple-greenr_.html",
+      "factories": [
+        {
+          "name": "Simple Green – Garden Grove manufacturing site",
+          "location": "Garden Grove, California, USA",
+          "scope": "Company-reported production location for the Simple Green range.",
+          "source": "https://simplegreen.com/50th-anniversary/"
+        },
+        {
+          "name": "Simple Green – Lawrenceville manufacturing site",
+          "location": "Lawrenceville, Georgia, USA",
+          "scope": "Company-reported production location for the Simple Green range.",
+          "source": "https://simplegreen.com/50th-anniversary/"
+        }
+      ],
+      "evidenceNote": "Company identifies two manufacturing cities and separately identifies the Huntington Beach headquarters. Local plant operators and SKU routing undisclosed.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Unger"
+      ],
+      "brandOwnerName": "",
+      "brandOwnerSource": "",
+      "manufacturerName": "Unger Germany GmbH",
+      "manufacturerSource": "https://www.ungerglobal.com/en/company/about-unger",
+      "factories": [
+        {
+          "name": "UNGER – Solingen production site",
+          "location": "Solingen, Germany",
+          "scope": "UNGER describes production and assembly of a majority of its range at this site.",
+          "source": "https://www.ungerglobal.com/en/company/about-unger"
+        }
+      ],
+      "evidenceNote": "UNGER reports production and assembly of much of its range in Solingen. The U.S. sales entity and brand trademark ownership are separate questions.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Brillo",
+        "Armaly"
+      ],
+      "brandOwnerName": "Armaly Brands",
+      "brandOwnerSource": "https://www.brillo.com/armaly-history",
+      "manufacturerName": "Armaly Brands",
+      "manufacturerSource": "https://www.brillo.com/about-us",
+      "factories": [
+        {
+          "name": "Armaly Brands – Walled Lake factory",
+          "location": "Walled Lake, Michigan, USA",
+          "scope": "Disclosed company production site.",
+          "source": "https://www.brillo.com/about-us"
+        },
+        {
+          "name": "Armaly Brands – London factory",
+          "location": "London, Ohio, USA",
+          "scope": "Brillo pad production. No routing evidence for other cleaners or sponges.",
+          "source": "https://www.brillo.com/about-us/brillo-brand-history"
+        }
+      ],
+      "evidenceNote": "Armaly discloses both factories. London is identified with Brillo pad production. The pair is shown as a company network across both labels.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Bissell",
+        "BISSELL INTL TRDNG CMP BV"
+      ],
+      "brandOwnerName": "BISSELL Inc. (group)",
+      "brandOwnerSource": "https://www.bissell.com/en-ca/canada-slavery-act/",
+      "manufacturerName": "BISSELL group (supplier and in-house production)",
+      "manufacturerSource": "https://www.bissell.com/en-ca/canada-slavery-act/",
+      "factories": [
+        {
+          "name": "BISSELL chemical packaging plant",
+          "location": "Walker / Grand Rapids, Michigan, USA",
+          "scope": "Cleaning-product production and packaging. Scope excludes vacuum assembly.",
+          "source": "https://www.deq.state.mi.us/aps/downloads/SRN/A2586/A2586_SAR_20161104.pdf"
+        }
+      ],
+      "evidenceNote": "The trading company is a BISSELL subsidiary. The Michigan site produces and packages cleaning products. Vacuum assembly plants and individual formula filling sites remain unverified.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "DQB"
+      ],
+      "brandOwnerName": "DQB Industries (Detroit Quality Brush)",
+      "brandOwnerSource": "https://www.dqb.com/history.htm",
+      "manufacturerName": "DQB Industries",
+      "manufacturerSource": "https://www.dqb.com/",
+      "factories": [
+        {
+          "name": "Detroit Quality Brush manufacturing plant",
+          "location": "32165 Schoolcraft Road, Livonia, Michigan, USA",
+          "scope": "Brush manufacturing. OSHA inspected this site in 2005.",
+          "source": "https://www.osha.gov/ords/imis/establishment.inspection_detail?id=307735647"
+        }
+      ],
+      "evidenceNote": "The company history, OSHA site classification and Michigan manufacturer directory corroborate the Livonia brushmaking facility. No catalog item has a plant identifier.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Ettore"
+      ],
+      "brandOwnerName": "Ettore Products Company",
+      "brandOwnerSource": "https://ettore.com/",
+      "manufacturerName": "Ettore Products Company",
+      "manufacturerSource": "https://ettore.com/blogs/news/live-q-and-a-j-racenstein",
+      "factories": [],
+      "evidenceNote": "Company describes squeegee channel finishing and blade inspection. Alameda contact and machine-shop records do not establish the factory for this assortment.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Superio Brand"
+      ],
+      "brandOwnerName": "",
+      "brandOwnerSource": "",
+      "manufacturerName": "Superio (self-described manufacturer)",
+      "manufacturerSource": "https://app.superiobrand.com/aboutusI2.aspx",
+      "factories": [],
+      "evidenceNote": "Manufacturer role is reported under the trading name. Legal entity, factory operator and physical plant remain open.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "wet-it!",
+        "Swedish Treasures"
+      ],
+      "brandOwnerName": "Swedish Treasures d/b/a Wet-it!",
+      "brandOwnerSource": "https://licensing.msu.edu/campus-use/7.8.25-MSU-Full-Licensee-List.pdf",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Company describes European base cloth and North Carolina printing. No named mill or printing plant established. Forest City shipping and licensing addresses are insufficient.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Member's Mark"
+      ],
+      "brandOwnerName": "Sam’s Club (Walmart Inc.)",
+      "brandOwnerSource": "https://www.samsclub.com/cp/members-mark-goals/30001929",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Retailer-owned private brand across multiple categories. A pack, vendor declaration or equivalent SKU-specific evidence is needed to identify a producer.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Great Value"
+      ],
+      "brandOwnerName": "Walmart Inc.",
+      "brandOwnerSource": "https://one.walmart.com/content/food-safety/en_us/food-safety-requirements/private-branded-products.html",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Retailer private brand. Actual producers may vary by product, market and contract.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Ace"
+      ],
+      "brandOwnerName": "Ace Hardware Corporation",
+      "brandOwnerSource": "https://www.acehardware.com/brands/ace",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Ace’s private-label brand covers multiple categories. Manufacturer and plant remain open.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Signature SELECT"
+      ],
+      "brandOwnerName": "Albertsons Companies",
+      "brandOwnerSource": "https://www.albertsons.com/about-us/our-brands.html",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Retailer-owned brand. No common plant or supplier established for this assortment.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Seventh Generation"
+      ],
+      "brandOwnerName": "Unilever",
+      "brandOwnerSource": "https://www.unileverusa.com/brands/",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Unilever identifies Seventh Generation in its U.S. brand portfolio. Producer evidence is required separately for formulations and paper products.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Sprayway"
+      ],
+      "brandOwnerName": "Highline Warren",
+      "brandOwnerSource": "https://www.highlinewarren.com/blog/976-Highline-Warren-Acquires-Sprayway-a-Leader-in-Glass-Surface-Care",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Acquisition from PLZ announced January 5, 2026. Pre-sale PLZ SDS or an old Addison address cannot establish the current filler.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Amazon Basics"
+      ],
+      "brandOwnerName": "Amazon",
+      "brandOwnerSource": "https://m.media-amazon.com/images/G/01/Creator-U/redesign-2023/Creator_Resources/APB_Q2_Associate_Handbook_PDF.pdf",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Amazon private brand. Assortment-wide contract manufacturing responsibility is unresolved.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Gloveworks",
+        "AMMEX",
+        "X3"
+      ],
+      "brandOwnerName": "AMMEX",
+      "brandOwnerSource": "https://www.ammex.com/product-toolkit",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "AMMEX identifies its glove lines and describes a network of manufacturers. Supplier factories, operators and lot-to-site links remain unknown.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Garden Works"
+      ],
+      "brandOwnerName": "Gift and Garden Works",
+      "brandOwnerSource": "https://www.giftandgardenworks.com/pages/wholesale",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "Brand-house relationship. Garden-tool blade sourcing does not establish who molds the TuffTotes buckets.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Chinet"
+      ],
+      "brandOwnerName": "Huhtamaki",
+      "brandOwnerSource": "https://www.mychinet.com/about/",
+      "manufacturerName": "Huhtamaki, Inc.",
+      "manufacturerSource": "https://www.mychinet.com/about/",
+      "factories": [
+        {
+          "name": "Huhtamaki – Waterville molded-fiber facility",
+          "location": "242 College Avenue, Waterville, Maine, USA",
+          "scope": "Molded-fiber production including Chinet plates.",
+          "source": "https://www.huhtamaki.com/en-us/north-america/about-us/locations/waterville-me/"
+        }
+      ],
+      "evidenceNote": "Waterville supplies Chinet plates. Plastic cups, plastic plates and other substrates have no demonstrated connection to this plant.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Fresh Wave"
+      ],
+      "brandOwnerName": "OMI Industries",
+      "brandOwnerSource": "https://omi-industries.com/freshwave/",
+      "manufacturerName": "OMI Industries",
+      "manufacturerSource": "https://omi-industries.com/about-omi/",
+      "factories": [
+        {
+          "name": "OMI Industries – Rising Sun manufacturing site",
+          "location": "Rising Sun, Indiana, USA",
+          "scope": "Company production of odor-control products and equipment.",
+          "source": "https://omi-industries.com/about-omi/"
+        }
+      ],
+      "evidenceNote": "The company identifies Rising Sun manufacturing separately from its Palatine headquarters. Individual gel, spray and pack lines are unmapped.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "E-Cloth"
+      ],
+      "brandOwnerName": "",
+      "brandOwnerSource": "",
+      "manufacturerName": "E-Cloth Inc. (U.S. textile registrant)",
+      "manufacturerSource": "https://www.ftc.gov/rn/180919",
+      "factories": [],
+      "evidenceNote": "FTC RN classifies E-Cloth as a manufacturer of towels and washcloths. The company reports production in several Asian markets. The Exeter registrant address does not identify a mill, and the RN does not identify a maker for mop frames.",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "brands": [
+        "Total Home"
+      ],
+      "brandOwnerName": "CVS Pharmacy",
+      "brandOwnerSource": "https://www.prnewswire.com/news-releases/cvspharmacy-launches-new-exclusive-line-of-household-essentials-total-home-now-available-nationwide-206764391.html",
+      "manufacturerName": "",
+      "manufacturerSource": "",
+      "factories": [],
+      "evidenceNote": "CVS announced Total Home as its household private label. Contract packers and production locations remain unresolved.",
+      "checkedDate": "2026-11-07"
+    }
+  ],
+  "productBrandIdentifications": [
+    {
+      "id": "HC-0028b3267c52",
+      "brand": "Windex",
+      "source": "https://www.meijer.com/shopping/product/windex-disinfectant-cleaner-multi-surface-refill-fresh-citrus-scent-67-6-fl-oz/1980070453",
+      "retailerProductCode": "1980070453",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-0051afbd8d05",
+      "brand": "Kleenex",
+      "source": "https://www.meijer.com/shopping/product/kleenex-trusted-care-facial-tissues-4-flat-boxes-160-tissues-per-box-2-ply-640ct-total-tissues-/3600054305",
+      "retailerProductCode": "3600054305",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-013b3298567d",
+      "brand": "Tide",
+      "source": "https://www.meijer.com/shopping/product/tide-liquid-laundry-detergent-original-scent-84-fl-oz-64-loads/3077212108",
+      "retailerProductCode": "3077212108",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-03253b283083",
+      "brand": "Ziploc",
+      "source": "https://www.meijer.com/shopping/product/ziploc-gallon-storage-bags-stay-open-design-easy-to-fill-81-count/2570001363",
+      "retailerProductCode": "2570001363",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-080964496f3c",
+      "brand": "Glad",
+      "source": "https://www.meijer.com/shopping/product/glad-odorshield-small-drawstring-trash-bags-4-gallon-pink-febreze-cherry-blossom-34-count/1258779274",
+      "retailerProductCode": "1258779274",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-0a9342c81a85",
+      "brand": "Swiffer",
+      "source": "https://www.meijer.com/shopping/product/swiffer-powermop-multi-surface-mopping-pad-refills-for-floor-cleaning-8-count/3077212878",
+      "retailerProductCode": "3077212878",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-0ab89fdabac6",
+      "brand": "Glad",
+      "source": "https://www.meijer.com/shopping/product/glad-forceflex-drawstring-large-trash-bags-with-clorox-30-gallon-25-bags/1258779310",
+      "retailerProductCode": "1258779310",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-0b5ca9a269da",
+      "brand": "Windex",
+      "source": "https://www.meijer.com/shopping/product/windex-outdoor-window-cleaner-concentrated-cleaning-sprayer-for-garden-hose-32-fl-oz/1980010122",
+      "retailerProductCode": "1980010122",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-0db79bf520d8",
+      "brand": "Glade",
+      "source": "https://www.meijer.com/shopping/product/glade-automatic-spray-refill-air-freshener-clean-linen-2-refills-2-x-6-2-oz/4650074541",
+      "retailerProductCode": "4650074541",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-111e89cd43c0",
+      "brand": "Cascade",
+      "source": "https://www.meijer.com/shopping/product/cascade-complete-dishwasher-detergent-liquid-gel-dish-detergent-dishwasher-soap-fresh-75-oz/3700033840",
+      "retailerProductCode": "3700033840",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-112b46730757",
+      "brand": "Lysol",
+      "source": "https://www.meijer.com/shopping/product/lysol-all-purpose-cleaner-sanitizing-and-disinfecting-spray-lemon-breeze-scent-32-oz-bottle/1920075352",
+      "retailerProductCode": "1920075352",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-159faf086450",
+      "brand": "Cascade",
+      "source": "https://www.meijer.com/shopping/product/cascade-platinum-action-pacs-dishwasher-detergent-fresh-59ct/3077215534",
+      "retailerProductCode": "3077215534",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-171bbb7c2601",
+      "brand": "Febreze",
+      "source": "https://www.meijer.com/shopping/product/febreze-bath-air-freshener-odor-fighting-refresh-energize-scent-2-count/3077211419",
+      "retailerProductCode": "3077211419",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-1a5d517978a9",
+      "brand": "Bounty",
+      "source": "https://www.meijer.com/shopping/product/bounty-paper-towels-select-a-size-white-12-triple-rolls-123-sheets-per-roll/3077216041",
+      "retailerProductCode": "3077216041",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-1c194d43d9e7",
+      "brand": "Cascade",
+      "source": "https://www.meijer.com/shopping/product/cascade-complete-action-pacs-dishwasher-detergent-fresh-16ct/3077221690",
+      "retailerProductCode": "3077221690",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-1c58f479878e",
+      "brand": "Pledge",
+      "source": "https://www.meijer.com/shopping/product/pledge-antibacterial-multisurface-cleaner-spray-fresh-citrus-scent-9-7oz/4650072354",
+      "retailerProductCode": "4650072354",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-1f0b77849ae4",
+      "brand": "Lysol",
+      "source": "https://www.meijer.com/shopping/product/lysol-air-sanitizer-spray-for-air-sanitization-and-bacterial-odor-elimination-air-freshener-alternative-white-linen-scent-10-oz/1920099351",
+      "retailerProductCode": "1920099351",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-1fcaecd95d9c",
+      "brand": "Febreze",
+      "source": "https://www.meijer.com/shopping/product/febreze-plug-in-air-freshener-odor-fighting-scented-oil-warmer-device-1-count/3700076985",
+      "retailerProductCode": "3700076985",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-2198dc97462b",
+      "brand": "Kleenex",
+      "source": "https://www.meijer.com/shopping/product/kleenex-lotion-facial-tissues-with-coconut-oil-4-cube-boxes-60-tissues-per-box/3600054289",
+      "retailerProductCode": "3600054289",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-232ead9b131c",
+      "brand": "Method",
+      "source": "https://www.meijer.com/shopping/product/method-glass-cleaner-mint-28-ounces/81793900003",
+      "retailerProductCode": "81793900003",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-249b2c2b2455",
+      "brand": "Lysol",
+      "source": "https://www.meijer.com/shopping/product/lysol-power-foaming-bathroom-cleaner-multipurpose-cleaner-disinfectant-spray-household-cleaning-supplies-for-bathtub-tile-sink-shower-zero-bleach-32-fl-oz/1920002699",
+      "retailerProductCode": "1920002699",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-27a4ffb92317",
+      "brand": "Hefty",
+      "source": "https://www.meijer.com/shopping/product/hefty-ultra-strong-tall-kitchen-drawstring-trash-bags-lavender-sweet-vanilla-13-gallon-40-count/1370001654",
+      "retailerProductCode": "1370001654",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-2bfc56171208",
+      "brand": "Lysol",
+      "source": "https://www.meijer.com/shopping/product/lysol-toilet-bowl-cleaner-gel-disinfecting-bathroom-cleaner-and-toilet-bowl-stain-remover-lime-and-rust-24-fl-oz/1920080088",
+      "retailerProductCode": "1920080088",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-2c991b96c7c4",
+      "brand": "Febreze",
+      "source": "https://www.meijer.com/shopping/product/febreze-plug-in-air-freshener-odor-fighting-scented-oil-refill-pumpkin-roll-scent-2-refill/3077203426",
+      "retailerProductCode": "3077203426",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-2d3472c204e4",
+      "brand": "Tide",
+      "source": "https://www.meijer.com/shopping/product/tide-liquid-laundry-detergent-original-scent-132-fl-oz-100-loads/3077212100",
+      "retailerProductCode": "3077212100",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-2ec308e32cea",
+      "brand": "Clorox",
+      "source": "https://www.meijer.com/shopping/product/clorox-clean-up-multi-surface-cleaner-with-bleach-original-spray-bottle-32-fl-oz/4460001204",
+      "retailerProductCode": "4460001204",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-2fd26226d81d",
+      "brand": "Libman",
+      "source": "https://www.meijer.com/shopping/product/libman-bathroom-scrubber/7173601259",
+      "retailerProductCode": "7173601259",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-31444f75a931",
+      "brand": "Dawn",
+      "source": "https://www.meijer.com/shopping/product/dawn-platinum-ez-squueze-dish-soap-dishwashing-liquid-tough-grease-removal-fresh-rain-24oz/3077222229",
+      "retailerProductCode": "3077222229",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-3162d140279c",
+      "brand": "Clorox",
+      "source": "https://www.meijer.com/shopping/product/clorox-toilet-bowl-cleaner-clinging-bleach-gel-ocean-mist-24-fluid-ounces-pack-of-2/4460030627",
+      "retailerProductCode": "4460030627",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-31d5c0a88047",
+      "brand": "Scott",
+      "source": "https://www.meijer.com/shopping/product/scott-1000-toilet-paper-4-rolls-1000-sheets-per-roll/5400010183",
+      "retailerProductCode": "5400010183",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-31d83a5d95a8",
+      "brand": "Glad",
+      "source": "https://www.meijer.com/shopping/product/glad-forceflex-drawstring-trash-bags-13-gallon-fresh-clean-40-count/1258778361",
+      "retailerProductCode": "1258778361",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-32b07a1a8148",
+      "brand": "Cascade",
+      "source": "https://www.meijer.com/shopping/product/cascade-platinum-plus-action-pacs-dishwasher-detergent-fresh-19ct/3077215779",
+      "retailerProductCode": "3077215779",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-349402afb647",
+      "brand": "Glad",
+      "source": "https://www.meijer.com/shopping/product/glad-forceflex-drawstring-trash-bags-13-gallon-fresh-clean-110-count/1258778554",
+      "retailerProductCode": "1258778554",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-34bd3af86a0e",
+      "brand": "Bounty",
+      "source": "https://www.meijer.com/shopping/product/bounty-paper-towels-select-a-size-white-6-triple-rolls-123-sheets-per-roll/3077216020",
+      "retailerProductCode": "3077216020",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-367ec10f14f5",
+      "brand": "Scott",
+      "source": "https://www.meijer.com/shopping/product/scott-bath-tissue-20pk-dsp-1000-fsc-mix-sgsch-coc-005460/5400015029",
+      "retailerProductCode": "5400015029",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-384bb37b6d42",
+      "brand": "Swiffer",
+      "source": "https://www.meijer.com/shopping/product/swiffer-dusters-refill-for-cleaning-feather-duster-alternative-heavy-duty-unscented-6ct/3700016944",
+      "retailerProductCode": "3700016944",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-39926e3360ea",
+      "brand": "Dawn",
+      "source": "https://www.meijer.com/shopping/product/dawn-ultra-liquid-dish-soap-dishwashing-liquid-grease-removal-original-5-8-fl-oz/3077210926",
+      "retailerProductCode": "3077210926",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-3e24aea4f4bf",
+      "brand": "Seventh Generation",
+      "source": "https://www.meijer.com/shopping/product/seventh-generation-detergent-liquid-free-clear-135-fl-oz/73291345065",
+      "retailerProductCode": "73291345065",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-4298e156aaed",
+      "brand": "Glade",
+      "source": "https://www.meijer.com/shopping/product/glade-plugins-scented-oil-5-refills-air-freshener-cashmere-woods-essential-oil-infused-wall-plug-in-3-35-fl-oz-pack-of-5/4650077775",
+      "retailerProductCode": "4650077775",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-44376cda77fb",
+      "brand": "Dawn",
+      "source": "https://www.meijer.com/shopping/product/dawn-powerwash-spray-dish-soap-dishwashing-liquid-fresh-1-refill-16-fl-oz/3700052366",
+      "retailerProductCode": "3700052366",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-4451000250db",
+      "brand": "Clorox",
+      "source": "https://www.meijer.com/shopping/product/clorox-toiletwand-disposable-toilet-cleaning-rainforest-rush-refill-20-count/4460031391",
+      "retailerProductCode": "4460031391",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-455f6a08975b",
+      "brand": "Method",
+      "source": "https://www.meijer.com/shopping/product/method-foaming-bathroom-cleaner-eucalyptus-mint-28-ounce/81793901656",
+      "retailerProductCode": "81793901656",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-45ba07bcc76b",
+      "brand": "Libman",
+      "source": "https://www.meijer.com/shopping/product/libman-big-job-kitchen-brush/7173601042",
+      "retailerProductCode": "7173601042",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-47837cfb3756",
+      "brand": "Scott",
+      "source": "https://www.meijer.com/shopping/product/scott-comfortplus-toilet-paper-18-mega-rolls-310-sheets-per-roll/5400057099",
+      "retailerProductCode": "5400057099",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-47dd4b47913b",
+      "brand": "Seventh Generation",
+      "source": "https://www.meijer.com/shopping/product/seventh-generation-hand-dishwash-free-clear-50-fo/73291322724",
+      "retailerProductCode": "73291322724",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-48ca523f15c7",
+      "brand": "Scott",
+      "source": "https://www.meijer.com/shopping/product/scott-bath-tissue-12pk-dsp-1000-fsc-mix-sgsch-coc-005460/5400010060",
+      "retailerProductCode": "5400010060",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-493f7f6316f8",
+      "brand": "Lysol",
+      "source": "https://www.meijer.com/shopping/product/lysol-disinfectant-spray-sanitizing-and-antibacterial-spray-deodorizer-crisp-linen-12-5-oz/1920074186",
+      "retailerProductCode": "1920074186",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-4d20674db7c6",
+      "brand": "Hefty",
+      "source": "https://www.meijer.com/shopping/product/hefty-strong-tall-kitchen-drawstring-trash-bags-13-gallon-45-count/1370021755",
+      "retailerProductCode": "1370021755",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-4eebf4e3aefb",
+      "brand": "Glade",
+      "source": "https://www.meijer.com/shopping/product/glade-automatic-spray-holder-air-freshener/4650075730",
+      "retailerProductCode": "4650075730",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-4f03a9ace53e",
+      "brand": "Windex",
+      "source": "https://www.meijer.com/shopping/product/windex-with-vinegar-glass-cleaner-spray-bottle-26-fl-oz/1980000206",
+      "retailerProductCode": "1980000206",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-4f0690f1342e",
+      "brand": "Hefty",
+      "source": "https://www.meijer.com/shopping/product/hefty-small-trash-drawstring-ocean-water-4g-trash-bags-34-ea/1370051739",
+      "retailerProductCode": "1370051739",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-4fcb53844997",
+      "brand": "Swiffer",
+      "source": "https://www.meijer.com/shopping/product/swiffer-sweep-mop-wet-pads-refill-floor-cleaner-cleaning-cloths-gain-24ct/3700083052",
+      "retailerProductCode": "3700083052",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-506855321bf4",
+      "brand": "Windex",
+      "source": "https://www.meijer.com/shopping/product/windex-disinfectant-cleaner-multi-surface-spray-fresh-citrus-scent-26-fl-oz/1980000204",
+      "retailerProductCode": "1980000204",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-51dba50ac8a6",
+      "brand": "Bissell",
+      "source": "https://www.meijer.com/shopping/product/bissell-oxy-stain-destroyer-pet/1112023033",
+      "retailerProductCode": "1112023033",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-52a61e207092",
+      "brand": "Seventh Generation",
+      "source": "https://www.meijer.com/shopping/product/seventh-generation-disinfecting-spray-lemongrass-citrus-26-oz/73291322810",
+      "retailerProductCode": "73291322810",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-55806fc80dd7",
+      "brand": "Seventh Generation",
+      "source": "https://www.meijer.com/shopping/product/seventh-generation-household-cleaning-all-purpose-cleaner-23-fo/73291344714",
+      "retailerProductCode": "73291344714",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-5863a8cb600c",
+      "brand": "Hefty",
+      "source": "https://www.meijer.com/shopping/product/hefty-ultra-strong-tall-kitchen-drawstring-trash-bags-scent-free-13-gallon-80-count/1370001669",
+      "retailerProductCode": "1370001669",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-589b8454c91d",
+      "brand": "Dawn",
+      "source": "https://www.meijer.com/shopping/product/dawn-platinum-ez-squeeze-dish-soap-dishwashing-liquid-fresh-rain-18-fl-oz/3077200207",
+      "retailerProductCode": "3077200207",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-58b69e2a78c7",
+      "brand": "Hefty",
+      "source": "https://www.meijer.com/shopping/product/hefty-strong-large-multipurpose-drawstring-trash-bags-30-gallon-28-count/1370021735",
+      "retailerProductCode": "1370021735",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-5b288268277b",
+      "brand": "Febreze",
+      "source": "https://www.meijer.com/shopping/product/febreze-trash-odor-fighter-trash-can-air-freshener-fresh-lemon-scent-1-holder-1-refill/3077224039",
+      "retailerProductCode": "3077224039",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-5b5f437c5a66",
+      "brand": "Pledge",
+      "source": "https://www.meijer.com/shopping/product/pledge-enhancing-polish-furniture-wood-spray-lemon-scent-9-7oz/4650072372",
+      "retailerProductCode": "4650072372",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-5c47e0dc23ed",
+      "brand": "Pledge",
+      "source": "https://www.meijer.com/shopping/product/pledge-expert-care-enhancing-wood-wipes-lemon-scent-24-count/4650072807",
+      "retailerProductCode": "4650072807",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-5cc892ab6fff",
+      "brand": "Bounty",
+      "source": "https://www.meijer.com/shopping/product/bounty-paper-towels-select-a-size-white-2-triple-rolls-123-sheets-per-roll/3077216042",
+      "retailerProductCode": "3077216042",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-617af5e2b495",
+      "brand": "Swiffer",
+      "source": "https://www.meijer.com/shopping/product/swiffer-powermop-multi-surface-mopping-pad-refills-for-floor-cleaning-5-count/3077208188",
+      "retailerProductCode": "3077208188",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-65b6521beb47",
+      "brand": "Bounty",
+      "source": "https://www.meijer.com/shopping/product/bounty-paper-napkins-white-200-count/3700034885",
+      "retailerProductCode": "3700034885",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-666663b5ab06",
+      "brand": "Lysol",
+      "source": "https://www.meijer.com/shopping/product/lysol-power-toilet-bowl-cleaner-gels-atlantic-fresh-24-fl-oz/1920002522",
+      "retailerProductCode": "1920002522",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-6801eb54375a",
+      "brand": "Clorox",
+      "source": "https://www.meijer.com/shopping/product/clorox-scentiva-bathroom-foamer-cherry-blossom-and-peach-20oz/4460060823",
+      "retailerProductCode": "4460060823",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-685dda2496b8",
+      "brand": "Bissell",
+      "source": "https://www.meijer.com/shopping/product/bissell-febreze-spring-renewal-80oz/1112020506",
+      "retailerProductCode": "1112020506",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-6a4d7196747d",
+      "brand": "Lysol",
+      "source": "https://www.meijer.com/shopping/product/lysol-power-clinging-gel-toilet-bowl-cleaner-twin-pack-24-fl-oz-2ct/1920079174",
+      "retailerProductCode": "1920079174",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-6b5967accd13",
+      "brand": "Ziploc",
+      "source": "https://www.meijer.com/shopping/product/ziploc-endurables-pouch-medium-reusable-silicone-food-storage-bag-16-fl-oz/2570000921",
+      "retailerProductCode": "2570000921",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-6ee5a83772dc",
+      "brand": "Glad",
+      "source": "https://www.meijer.com/shopping/product/glad-forceflex-maxstrength-tall-kitchen-drawstring-trash-bags-13-gallon-bahama-bliss-34-ct-/1258722533",
+      "retailerProductCode": "1258722533",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-719ebd52d6c3",
+      "brand": "Pledge",
+      "source": "https://www.meijer.com/shopping/product/pledge-moisturizing-wood-oil-furniture-reviving-spray-amber-argan-scent-9-7oz/4650000037",
+      "retailerProductCode": "4650000037",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-7387d2e13535",
+      "brand": "Dawn",
+      "source": "https://www.meijer.com/shopping/product/dawn-ultra-dish-soap-liquid-dishwashing-liquid-grease-removal-original-38-fl-oz/3077201158",
+      "retailerProductCode": "3077201158",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-7512ab193233",
+      "brand": "Sprayway",
+      "source": "https://www.meijer.com/shopping/product/sprayway-stainless-steel-cleaner-polish-15oz/4191100148",
+      "retailerProductCode": "4191100148",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-777a24dd9ad5",
+      "brand": "Hefty",
+      "source": "https://www.meijer.com/shopping/product/hefty-ultra-strong-30g-multipurpose-trash-bags-fabuloso-scent-25ct/1370027162",
+      "retailerProductCode": "1370027162",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-7a913fd514ac",
+      "brand": "Libman",
+      "source": "https://www.meijer.com/shopping/product/libman-9-window-squeegee/7173601070",
+      "retailerProductCode": "7173601070",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-7c0b48f285ae",
+      "brand": "Glade",
+      "source": "https://www.meijer.com/shopping/product/glade-2in1-single-wick-candles-moonlit-walk-wandering-stream-8-16-oz-2-count/4650005507",
+      "retailerProductCode": "4650005507",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-7c27b8928fd4",
+      "brand": "Glad",
+      "source": "https://www.meijer.com/shopping/product/glad-forceflex-maxstrength-tall-kitchen-drawstring-trash-bags-13-gal-bahama-bliss-80-count/1258722632",
+      "retailerProductCode": "1258722632",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-7ca9c84a63be",
+      "brand": "Seventh Generation",
+      "source": "https://www.meijer.com/shopping/product/seventh-generation-liquid-laundry-detergent-free-clear-90-fl-oz/73291345063",
+      "retailerProductCode": "73291345063",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-8049c2d1204c",
+      "brand": "Seventh Generation",
+      "source": "https://www.meijer.com/shopping/product/seventh-generation-dish-liquid-soap-clementine-zest-lemongrass-19-oz/73291344985",
+      "retailerProductCode": "73291344985",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-81f4844bac91",
+      "brand": "Bounty",
+      "source": "https://www.meijer.com/shopping/product/bounty-paper-towels-essentials-select-a-size-6-triple-rolls-white-162-sheets-per-roll/3077211667",
+      "retailerProductCode": "3077211667",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-84f8ac701140",
+      "brand": "Ziploc",
+      "source": "https://www.meijer.com/shopping/product/ziploc-gallon-storage-bags-stay-open-design-easy-to-fill-42-count/2570001368",
+      "retailerProductCode": "2570001368",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-852b12e50e81",
+      "brand": "Seventh Generation",
+      "source": "https://www.meijer.com/shopping/product/seventh-generation-dishwasher-detergent-packs-free-clear-45-count/73291345175",
+      "retailerProductCode": "73291345175",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-860c48d80499",
+      "brand": "Pledge",
+      "source": "https://www.meijer.com/shopping/product/pledge-enhancing-polish-wood-furniture-spray-orange-scent-9-7oz/4650072373",
+      "retailerProductCode": "4650072373",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-8aa1691afbe7",
+      "brand": "Swiffer",
+      "source": "https://www.meijer.com/shopping/product/swiffer-dusters-refill-for-cleaning-feather-microfiber-duster-alternative-unscented-10ct/3700041767",
+      "retailerProductCode": "3700041767",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-8b225cfc4f4e",
+      "brand": "Glade",
+      "source": "https://www.meijer.com/shopping/product/glade-plugins-scented-oil-2-refills-air-freshener-vanilla-caramel-twist-2-x-0-67-oz/4650003809",
+      "retailerProductCode": "4650003809",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-8c57e06436ff",
+      "brand": "Swiffer",
+      "source": "https://www.meijer.com/shopping/product/swiffer-sweep-mop-wet-pads-refill-floor-cleaner-cleaning-cloths-fresh-24ct/3700035155",
+      "retailerProductCode": "3700035155",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-8cae8c3feaa0",
+      "brand": "Swiffer",
+      "source": "https://www.meijer.com/shopping/product/swiffer-dusters-with-extension-pole-cleaning-kit-includes-3ft-extendable-handle-3-duster-refills/3700080900",
+      "retailerProductCode": "3700080900",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-8d03bea2f6ae",
+      "brand": "Febreze",
+      "source": "https://www.meijer.com/shopping/product/febreze-bathroom-air-freshener-odor-fighting-pumpkin-roll-scent-2-count/3077220810",
+      "retailerProductCode": "3077220810",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-8d87e1f8a748",
+      "brand": "Clorox",
+      "source": "https://www.meijer.com/shopping/product/clorox-disinfecting-wipes-value-pack-bleach-free-cleaning-wipes-75-count-each-pack-of-3/4460030208",
+      "retailerProductCode": "4460030208",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-8dd4fd6f9874",
+      "brand": "Ziploc",
+      "source": "https://www.meijer.com/shopping/product/ziploc-brand-quart-freezer-storage-bags-stay-open-design-easy-to-fill-38-count/2570000381",
+      "retailerProductCode": "2570000381",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-91a65a515088",
+      "brand": "Scrub Daddy",
+      "source": "https://www.meijer.com/shopping/product/scrub-daddy-dish-daddy-refills-2ct-scratch-free-dish-wand-sponge-replacement-heads/81004413100",
+      "retailerProductCode": "81004413100",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-93b2aa16a97e",
+      "brand": "Glad",
+      "source": "https://www.meijer.com/shopping/product/glad-small-trash-bags-odorshield-4-gallon-white-trash-bag-febreze-fresh-clean-26-ct/1258778812",
+      "retailerProductCode": "1258778812",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-952c34464d67",
+      "brand": "Tide",
+      "source": "https://www.meijer.com/shopping/product/tide-lq-hygenic-orig-92z-65ld/3077217526",
+      "retailerProductCode": "3077217526",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-9849b32016cc",
+      "brand": "Method",
+      "source": "https://www.meijer.com/shopping/product/method-heavy-duty-degreaser-oven-cleaner-and-stove-top-cleaner-lemongrass-28-ounce/81793901762",
+      "retailerProductCode": "81793901762",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-9b1feb6706fe",
+      "brand": "Scrub Daddy",
+      "source": "https://www.meijer.com/shopping/product/scrub-daddy-colors-non-scratch-cleaning-sponges-3-pack-multipurpose-kitchen-bathroom-scrubber/85954700425",
+      "retailerProductCode": "85954700425",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-9b28ad9efd47",
+      "brand": "Febreze",
+      "source": "https://www.meijer.com/shopping/product/febreze-bathroom-air-freshener-odor-fighting-linen-sky-scent-2-count/3700093326",
+      "retailerProductCode": "3700093326",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-9b2913d2bf68",
+      "brand": "Sprayway",
+      "source": "https://www.meijer.com/shopping/product/sprayway-glass-cleaner-lavender-19-oz-/4191105029",
+      "retailerProductCode": "4191105029",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-9e92d1908309",
+      "brand": "Febreze",
+      "source": "https://www.meijer.com/shopping/product/febreze-trash-odor-fighter-trash-can-air-freshener-linen-sky-scent-1-holder-1-refill/3077224037",
+      "retailerProductCode": "3077224037",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-a0c23e6528b0",
+      "brand": "Lysol",
+      "source": "https://www.meijer.com/shopping/product/lysol-laundry-sanitizer-additive-sanitizing-liquid-for-clothes-and-linens-crisp-linen-90-fl-oz/1920095872",
+      "retailerProductCode": "1920095872",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-a0fd393e3470",
+      "brand": "Clorox 2",
+      "source": "https://www.meijer.com/shopping/product/clorox-2-for-colors-stain-remover-and-laundry-additive-bleach-free-original-66-fluid-ounces/4460030039",
+      "retailerProductCode": "4460030039",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-a35b81a4d3f5",
+      "brand": "Febreze",
+      "source": "https://www.meijer.com/shopping/product/febreze-plug-in-air-freshener-odor-fighting-scented-oil-refill-gain-scent-2-refills/3700032010",
+      "retailerProductCode": "3700032010",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-abe35510bdf0",
+      "brand": "Cascade",
+      "source": "https://www.meijer.com/shopping/product/cascade-platinum-plus-action-pacs-dishwasher-detergent-fresh-26ct/3077215790",
+      "retailerProductCode": "3077215790",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-ac1a01824df2",
+      "brand": "Hefty",
+      "source": "https://www.meijer.com/shopping/product/hefty-party-on-assorted-colors-disposable-plastic-cups-16-oz-80-count/1370021674",
+      "retailerProductCode": "1370021674",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-aca153dd6162",
+      "brand": "Scrub Daddy",
+      "source": "https://www.meijer.com/shopping/product/scrub-daddy-scrub-mommy-non-scratch-sponges-multi-surface-dish-scrubbers-3-ct/85954700450",
+      "retailerProductCode": "85954700450",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-acd17a2dd1c2",
+      "brand": "Method",
+      "source": "https://www.meijer.com/shopping/product/method-daily-wood-cleaner-almond-28-ounceounce/81793901182",
+      "retailerProductCode": "81793901182",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-ad7f250eee55",
+      "brand": "Method",
+      "source": "https://www.meijer.com/shopping/product/method-all-purpose-cleaner-pink-grapefruit-28-ounce/81793900010",
+      "retailerProductCode": "81793900010",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-af2d4e8acf6c",
+      "brand": "Glad",
+      "source": "https://www.meijer.com/shopping/product/glad-medium-drawstring-trash-bags-with-clorox-8-gallon-lemon-fresh-bleach-scent-26-count/1258779316",
+      "retailerProductCode": "1258779316",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-aff9e38dcf08",
+      "brand": "Kleenex",
+      "source": "https://www.meijer.com/shopping/product/kleenex-perfect-fit-facial-tissues-4-boxes-50-tissues-per-box-2-ply-200ct-total-tissues-/3600041946",
+      "retailerProductCode": "3600041946",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-b0bed9ef8c69",
+      "brand": "Bissell",
+      "source": "https://www.meijer.com/shopping/product/bissell-pro-oxy-spot-stain-32-oz-formula/1112023599",
+      "retailerProductCode": "1112023599",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-b10beb394304",
+      "brand": "Kleenex",
+      "source": "https://www.meijer.com/shopping/product/kleenex-ultra-soft-facial-tissues-6-flat-boxes-120-tissues-per-box-3-ply-720ct-total-tissues-/3600054317",
+      "retailerProductCode": "3600054317",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-b18d9591939c",
+      "brand": "Clorox",
+      "source": "https://www.meijer.com/shopping/product/clorox-scentiva-cleaning-wipes-harvest-apple-and-spice-scent-75-count/4460073261",
+      "retailerProductCode": "4460073261",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-b1ae385fefb0",
+      "brand": "Seventh Generation",
+      "source": "https://www.meijer.com/shopping/product/seventh-generation-liquid-laundry-detergent-lavender-90-oz/73291345062",
+      "retailerProductCode": "73291345062",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-b32978755360",
+      "brand": "Cascade",
+      "source": "https://www.meijer.com/shopping/product/cascade-platinum-plus-action-pacs-dishwasher-detergent-lemon-62ct/3077217571",
+      "retailerProductCode": "3077217571",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-b3fd31dde083",
+      "brand": "Bounty",
+      "source": "https://www.meijer.com/shopping/product/bounty-paper-napkins-white-400-count/3700006356",
+      "retailerProductCode": "3700006356",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-b783708096b1",
+      "brand": "Kleenex",
+      "source": "https://www.meijer.com/shopping/product/kleenex-ultra-soft-facial-tissues-4-flat-boxes-120-tissues-per-box-3-ply-480ct-total-tissues-/3600054316",
+      "retailerProductCode": "3600054316",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-b8c6f63ab364",
+      "brand": "Bissell",
+      "source": "https://www.meijer.com/shopping/product/bissell-pet-stain-odor-formula-60-oz/1112001493",
+      "retailerProductCode": "1112001493",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-bbbf397985b0",
+      "brand": "Tide",
+      "source": "https://www.meijer.com/shopping/product/tide-ultra-odor-defense-plus-oxi-liquid-laundry-detergent-117-fl-oz-83-loads-advanced-odor-and-stain-fighting-laundry-detergent-liquid/3077217534",
+      "retailerProductCode": "3077217534",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-bccdae224686",
+      "brand": "Bissell",
+      "source": "https://www.meijer.com/shopping/product/bissell-pet-spot-stain-32-oz-formula/1112001508",
+      "retailerProductCode": "1112001508",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-be42579366c2",
+      "brand": "Glade",
+      "source": "https://www.meijer.com/shopping/product/glade-plugins-scented-oil-5-refills-air-freshener-fall-night-long-3-35-fl-oz-pack-of-5/19798100157",
+      "retailerProductCode": "19798100157",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-bf9fc87924d1",
+      "brand": "Pledge",
+      "source": "https://www.meijer.com/shopping/product/pledge-wood-oil-expert-care-furniture-moisturizer-reviving-spray-amber-argan-9-7oz/4650026363",
+      "retailerProductCode": "4650026363",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-c052d4b662ad",
+      "brand": "Kleenex",
+      "source": "https://www.meijer.com/shopping/product/kleenex-on-the-go-facial-tissues-8-on-the-go-packs-10-tissues-per-box-3-ply-80ct-total-tissues-/3600011974",
+      "retailerProductCode": "3600011974",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-c2d4405a8607",
+      "brand": "Bounty",
+      "source": "https://www.meijer.com/shopping/product/bounty-paper-towels-full-sheet-white-6-triple-rolls-75-sheets-per-roll/3077216008",
+      "retailerProductCode": "3077216008",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-c83d8787943d",
+      "brand": "Kleenex",
+      "source": "https://www.meijer.com/shopping/product/kleenex-ultra-soft-facial-tissues-4-cube-boxes-60-tissues-per-box-3-ply-240ct-total-tissues-/3600054308",
+      "retailerProductCode": "3600054308",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-cbb9da4c81e2",
+      "brand": "Ziploc",
+      "source": "https://www.meijer.com/shopping/product/ziploc-brand-storage-slider-gallon-bags-power-shield-technology-expandable-bottom-68-count/2570070952",
+      "retailerProductCode": "2570070952",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-cbe9913671b7",
+      "brand": "Tide",
+      "source": "https://www.meijer.com/shopping/product/tide-pods-laundry-detergent-pacs-3-in-1-stain-remover-odor-fighter-color-protector-102-count-he-compatible-original-scent/3077217106",
+      "retailerProductCode": "3077217106",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-ccc34385bc59",
+      "brand": "Swiffer",
+      "source": "https://www.meijer.com/shopping/product/swiffer-sweep-and-mop-deluxe-2-in-1-floor-mopping-and-sweeping-kit-multi-surface-kit-for-floor-cleaning-kit-includes-1-sweeper-device-5-heavy-duty-dry-sweeping-cloths-3-heavy-duty-wet-mopping-cloths/3077215848",
+      "retailerProductCode": "3077215848",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-cdd148ffe352",
+      "brand": "Swiffer",
+      "source": "https://www.meijer.com/shopping/product/swiffer-powermop-multi-surface-mop-kit-for-floor-cleaning-fresh-scent-mopping-kit-includes-powermop-2-mopping-pad-refills-1-floor-cleaning-solution-with-fresh-scent-and-2-batteries/3077207241",
+      "retailerProductCode": "3077207241",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-cdde53020e8d",
+      "brand": "Cascade",
+      "source": "https://www.meijer.com/shopping/product/cascade-platinum-plus-action-pacs-dishwasher-detergent-fresh-47ct/3077215789",
+      "retailerProductCode": "3077215789",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-ce55665e610c",
+      "brand": "Glade",
+      "source": "https://www.meijer.com/shopping/product/glade-plugins-scented-oil-warmer-holds-essential-oil-infused-wall-plug-in-refill/4650074409",
+      "retailerProductCode": "4650074409",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-cfa14d31a0cc",
+      "brand": "Windex",
+      "source": "https://www.meijer.com/shopping/product/windex-glass-cleaner-original-blue-spray-bottle-26-fl-oz/1980000202",
+      "retailerProductCode": "1980000202",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-d1bd055a5e9c",
+      "brand": "Bounty",
+      "source": "https://www.meijer.com/shopping/product/bounty-paper-towels-select-a-size-white-8-triple-rolls-123-sheets-per-roll/3077216014",
+      "retailerProductCode": "3077216014",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-d240029500bd",
+      "brand": "Sprayway",
+      "source": "https://www.meijer.com/shopping/product/sprayway-foaming-glass-cleaner-aerosol-fresh-scent-19-oz/4191100050",
+      "retailerProductCode": "4191100050",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-d398cbed6152",
+      "brand": "Method",
+      "source": "https://www.meijer.com/shopping/product/method-all-purpose-cleaner-french-lavender-28-ounce/81793900005",
+      "retailerProductCode": "81793900005",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-d601b72b2b80",
+      "brand": "Cascade",
+      "source": "https://www.meijer.com/shopping/product/cascade-platinum-plus-action-pacs-dishwasher-detergent-clean-62ct/3077217572",
+      "retailerProductCode": "3077217572",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-d6846cd857fa",
+      "brand": "Clorox",
+      "source": "https://www.meijer.com/shopping/product/clorox-clean-up-multi-surface-cleaner-with-bleach-rain-clean-spray-bottle-32-fluid-ounces/4460030058",
+      "retailerProductCode": "4460030058",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-d6903e8b0993",
+      "brand": "Libman",
+      "source": "https://www.meijer.com/shopping/product/libman-no-knees-floor-scrubber/7173600122",
+      "retailerProductCode": "7173600122",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-d98932c58280",
+      "brand": "Bissell",
+      "source": "https://www.meijer.com/shopping/product/bissell-deep-clean-refresh-formula-w-febreze-spring-renewal-32oz/1112016805",
+      "retailerProductCode": "1112016805",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-d9d418cfa42f",
+      "brand": "Ziploc",
+      "source": "https://www.meijer.com/shopping/product/ziploc-brand-gallon-freezer-storage-bags-stay-open-design-easy-to-fill-28-count/2570000382",
+      "retailerProductCode": "2570000382",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-da00e2d0ce9d",
+      "brand": "Febreze",
+      "source": "https://www.meijer.com/shopping/product/febreze-plug-scent-booster-continuous-scent-device-oil-diffuser-black-compatible-with-febreze-air-freshener-plug-in-refills/3077222323",
+      "retailerProductCode": "3077222323",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-db1f9ce76b0f",
+      "brand": "Bissell",
+      "source": "https://www.meijer.com/shopping/product/bissell-professional-cleaning-formula-with-febreze-48oz/1112016773",
+      "retailerProductCode": "1112016773",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-dba1f897ffe2",
+      "brand": "Bissell",
+      "source": "https://www.meijer.com/shopping/product/bissell-pet-oxy-boost-16-oz/1112022762",
+      "retailerProductCode": "1112022762",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-dba7c3afc233",
+      "brand": "Ziploc",
+      "source": "https://www.meijer.com/shopping/product/ziploc-quart-storage-bags-stay-open-design-easy-to-fill-48-count/2570000310",
+      "retailerProductCode": "2570000310",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-dcd12bc0b5f6",
+      "brand": "Kleenex",
+      "source": "https://www.meijer.com/shopping/product/kleenex-trusted-care-facial-tissues-6-flat-boxes-160-tissues-per-box-2-ply-960ct-total-tissues-/3600054306",
+      "retailerProductCode": "3600054306",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-dda0f7c3333f",
+      "brand": "Ziploc",
+      "source": "https://www.meijer.com/shopping/product/ziploc-brand-gallon-freezer-storage-bags-stay-open-design-easy-to-fill-80-count/2570000581",
+      "retailerProductCode": "2570000581",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-def348072ca5",
+      "brand": "Bissell",
+      "source": "https://www.meijer.com/shopping/product/bissell-pet-spotlifter-fabric-upholstery-cleaner-14oz/1112003049",
+      "retailerProductCode": "1112003049",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-e2b15a217373",
+      "brand": "Ziploc",
+      "source": "https://www.meijer.com/shopping/product/ziploc-brand-sandwich-bags-with-easyguide-texture-grip-n-seal-technology-150-count/2570071135",
+      "retailerProductCode": "2570071135",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-e2d6f09559d0",
+      "brand": "Glad",
+      "source": "https://www.meijer.com/shopping/product/glad-press-n-seal-food-plastic-wrap-70-square-foot-roll/1258770441",
+      "retailerProductCode": "1258770441",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-e6275fd2bb14",
+      "brand": "Method",
+      "source": "https://www.meijer.com/shopping/product/method-daily-granite-cleaner-spray-apple-orchard-28-ounce/81793900065",
+      "retailerProductCode": "81793900065",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-e688d3faab9c",
+      "brand": "O-Cedar",
+      "source": "https://www.meijer.com/shopping/product/o-cedar-easywring-rinseclean-spin-mop-bucket/81002041182",
+      "retailerProductCode": "81002041182",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-e9e4c6010d0d",
+      "brand": "Seventh Generation",
+      "source": "https://www.meijer.com/shopping/product/seventh-generation-dish-liquid-soap-free-clear-liquid-soap-19-fl-oz/73291344986",
+      "retailerProductCode": "73291344986",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-e9e7dfa7a9bf",
+      "brand": "Bounty",
+      "source": "https://www.meijer.com/shopping/product/bounty-paper-towels-select-a-size-white-6-double-rolls-82-sheets-per-roll/3077215703",
+      "retailerProductCode": "3077215703",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-ea8aa833d6f1",
+      "brand": "Scrub Daddy",
+      "source": "https://www.meijer.com/shopping/product/scrub-daddy-original-non-scratch-sponges-multi-surface-dish-scrubbers-1ct/85954700400",
+      "retailerProductCode": "85954700400",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-eecbed8aad43",
+      "brand": "Lysol",
+      "source": "https://www.meijer.com/shopping/product/lysol-disinfecting-wipes-all-purpose-cleaner-multi-surface-antibacterial-cleaning-wipes-cleaning-supplies-coconut-sea-minerals-scent-80-count/1920000025",
+      "retailerProductCode": "1920000025",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-f77d777a155b",
+      "brand": "Cascade",
+      "source": "https://www.meijer.com/shopping/product/cascade-free-clear-dishwasher-detergent-liquid-gel-dish-detergent-dishwasher-soap-lemon-75-oz/3700028030",
+      "retailerProductCode": "3700028030",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-fcd8620ce585",
+      "brand": "Method",
+      "source": "https://www.meijer.com/shopping/product/method-daily-shower-spray-cleaner-eucalyptus-mint-28-ounce/81793901390",
+      "retailerProductCode": "81793901390",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-fd52e766846f",
+      "brand": "Clorox",
+      "source": "https://www.meijer.com/shopping/product/clorox-pure-allergen-neutralizer-fabric-carpet-spray-nighttime-calm-26-fluid-ounces/4460060719",
+      "retailerProductCode": "4460060719",
+      "checkedDate": "2026-11-07"
+    },
+    {
+      "id": "HC-fe97eebab53a",
+      "brand": "Tide",
+      "source": "https://www.meijer.com/shopping/product/tide-ultra-oxi-boost-liquid-laundry-detergent-73-fl-oz-52-loads-advanced-stain-remover-laundry-detergent-liquid-with-extra-oxi-power/3077217522",
+      "retailerProductCode": "3077217522",
+      "checkedDate": "2026-11-07"
     }
   ]
 }
