@@ -71,6 +71,8 @@ test('brand recovery requires the same listing and a blank brand', () => {
       addBrandFactories([item], dir);
       assert.equal(item.brand, expected);
       assert.equal(item.brandIdentitySource, expected === proof.brand ? proof.source : undefined);
+      assert.equal(item.originalCatalogBrand, expected === proof.brand ? original : undefined);
+      assert.equal(item.brandIdentityProductCode, expected === proof.brand ? proof.retailerProductCode : undefined);
       assert.equal(item.skuFactoryName, 'Not publicly verified');
     }
   } finally { fs.rmSync(dir, {recursive: true, force: true}); }
