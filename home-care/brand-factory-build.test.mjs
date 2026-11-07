@@ -27,6 +27,7 @@ test('factory provenance stays distinct from ownership, missing brands and simil
     assert.equal(items[0].skuFactoryName,'Not publicly verified');
     assert.equal(items[1].brandOwnerName,'Not publicly verified','Rejoice cleaner must not inherit unrelated P&G shampoo ownership');
     assert.equal(items[2].brandOwnerName,'Not publicly verified','all detergent must not match All-Clad');
+    assert.match(items[3].brandOwnerName,/Sam’s Club/);
     assert.equal(items[3].factoryName,'Not publicly verified','Retailer private labels do not establish their contract factories');
     assert.equal(items[4].factoryCheckedDate,'','Unresearched records must not acquire a verification date');
     assert.match(items[5].factoryName,/Soapbox/);
@@ -50,7 +51,27 @@ test('factory provenance stays distinct from ownership, missing brands and simil
     vm.runInContext(html.match(/<script>([\s\S]*?)<\/script>/)[1]+';filterFactories();',context);
     assert.equal(rows.filter(r=>!r.hidden).length,1);
     search.value='';status.value='Factory research pending';vm.runInContext('filterFactories()',context);
-    assert.equal(rows.filter(r=>!r.hidden).length,3);
-    assert.equal(count.textContent,'3 rows');
+    assert.equal(rows.filter(r=>!r.hidden).length,2);
+    assert.equal(count.textContent,'2 rows');
   } finally {fs.rmSync(dir,{recursive:true,force:true})}
+});
+
+test('brand recovery requires the same listing and a blank brand', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'hc-recovery-'));
+  try {
+    const file = new URL('./site/brand-factories.json', import.meta.url);
+    fs.copyFileSync(file, path.join(dir, 'brand-factories.json'));
+    const proof = JSON.parse(fs.readFileSync(file)).productBrandIdentifications[0];
+    for (const [url, original, expected] of [
+      [proof.source, '', proof.brand],
+      ['https://example.com/another-product', '', ''],
+      [proof.source, 'Later retailer correction', 'Later retailer correction']
+    ]) {
+      const item = {id: proof.id, url, brand: original};
+      addBrandFactories([item], dir);
+      assert.equal(item.brand, expected);
+      assert.equal(item.brandIdentitySource, expected === proof.brand ? proof.source : undefined);
+      assert.equal(item.skuFactoryName, 'Not publicly verified');
+    }
+  } finally { fs.rmSync(dir, {recursive: true, force: true}); }
 });
