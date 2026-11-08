@@ -12,18 +12,20 @@ const dir=path.dirname(fileURLToPath(import.meta.url)),site=path.join(dir,'site'
 const refs=JSON.parse(fs.readFileSync(path.join(site,'global-reference-products.json')));
 const library=JSON.parse(fs.readFileSync(path.join(dir,'ui-src/workshop-data.json')));
 
-test('the existing 10,141 catalog records stay intact and global listings include actual China products',()=>{
+test('approved Home Care records and global references stay intact as the catalog grows',()=>{
  const html=fs.readFileSync(path.join(site,'index.html'),'utf8');const start=html.indexOf('const ITEMS=')+12,end=html.indexOf(';\nconst COVERAGE=',start);
  const items=JSON.parse(html.slice(start,end));const ids=new Set(items.map(p=>p.id));
  for(const p of JSON.parse(fs.readFileSync(path.join(site,'catalog-additions.json'))))if(!ids.has(p.id)){ids.add(p.id);items.push(p);}
+ const beforeReview=items.length;
  const review=JSON.parse(fs.readFileSync(path.join(site,'catalog-review/index.json')));
  for(const file of review.files)for(const p of JSON.parse(fs.readFileSync(path.join(site,'catalog-review',file))))if(!ids.has(p.id)){ids.add(p.id);items.push(p);}
  const newBatch=JSON.parse(fs.readFileSync(path.join(site,'catalog-review/assortment-2026-11-08.json')));
  assert.equal(new Set(newBatch.map(p=>p.id)).size,newBatch.length);
- assert.equal(items.length,10141+newBatch.length);const before=JSON.stringify(items);
+ assert.ok(items.length>=10141+newBatch.length);
+ assert.equal(items.length,beforeReview+review.added);const before=JSON.stringify(items);
  const rows=catalogRows(items,()=>'/home-care/photos/test.jpg',refs);
  assert.equal(JSON.stringify(items),before);assert.ok(items.every(p=>rows.some(r=>r.id===p.id)));
- assert.equal(globalCounts(rows).records,10752+newBatch.length);assert.equal(globalCounts(rows).countries,20);
+ assert.equal(globalCounts(rows).records,items.length+refs.length);assert.equal(globalCounts(rows).countries,20);
  const china=matchingRows(rows,{country:'China'});assert.equal(china.length,11);assert.equal(china.filter(p=>p.retailer==='JD.com').length,9);
  assert.ok(china.every(p=>p.link.startsWith('https://')));assert.ok(china.every(p=>p.image.startsWith('/cleantrend-opportunity-hub/')));
  assert.equal(matchingRows(rows,{query:'中国'}).length,11);
