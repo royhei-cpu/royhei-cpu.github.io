@@ -134,3 +134,15 @@ The customized GLB contains the current view and visible assemblies. Configurati
 Validation covers decoded color/normal textures, real mesh apertures, all 45 design combinations, visible bounds for three views and three formats at portrait/wide aspect ratios, all six isolated assemblies, spacing/reset behavior, source-linked specification exports, no-WebGL inspection fallbacks and textured GLB export/re-import. Rendered browser interaction remains unverified under the previously recorded browser security-policy block; Blender's actual interior and exploded renders are reviewed directly.
 
 The rear liner is placed in front of the retracted trolley channels so their metal rails cannot clip into the visible packing well. The model test checks their actual bounds in the retracted configuration.
+
+### Model families and priced offers
+
+Find luggage and the comparison picker show a card for each reviewed family, plus one card for each listing whose parent identity is still unverified. Filters run on the original offers before grouping. A size or color selection can only reach an observed combination. Following, comparisons, photo audits and cost calculations continue to use exact offer IDs.
+
+The November 8 review matched all 139 observations in PR #9 to 22 families. BAGSMART Getaway 20-inch has 12 colors. MAIMO STAND U plus has six offers. The STAND U XL and COLOR YOU Kei XL product pages link directly to their smaller sizes and share their SKU series. SPEED U (M15) and its 8 cm expandable version (M15P) are separate. The two BIZTECT series, M12 and M12MP, are also separate.
+
+For subsequent catalog updates, append evidence-backed memberships to `model-evidence.js` under stable family IDs. Each entry records the grouping basis and maps original offer IDs to their documented options. Use a storefront's model identity and variant metadata, explicit cross-links to other sizes, or a corroborating style code and construction description. Keep revisions, sets with different contents and materially different designs separate. A matching brand or title alone is insufficient. Unknown offers automatically remain individually accessible. Preserve the original price record, including its source photograph. Assign a variant-specific photo only when the source explicitly maps it to that variant.
+
+The model index export includes its record type. Verified families count once and unlinked listings remain labeled. The offer export keeps one row per observed price. The launch export uses dated release evidence in the seven calendar days ending on the catalog's as-of date. Add new release evidence classifications to `recentLaunches` only after confirming their date meaning. Coverage counts do not measure sales.
+
+[MAIMO standard and expandable variants](https://maimo-travel.com/products/m15-s-bk-01) · [STAND U XL size cross-reference](https://maimo-travel.com/products/m3-xl-bk-01) · [COLOR YOU Kei XL size cross-reference](https://maimo-travel.com/products/m2pr-xl-bk-01) · [BAGSMART Getaway color options](https://www.bagsmart.com/products/getaway-carry-on-luggage)
