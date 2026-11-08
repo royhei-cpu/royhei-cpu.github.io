@@ -28,7 +28,21 @@ try:
   expect(p.locator('#directoryStats')).to_contain_text(str(D['catalog_labels']))
   p.locator('#directorySearch').fill('Baby Three')
   expect(p.get_by_role('heading',name='Baby Three',exact=True)).to_be_visible()
-  assert p.locator('.brand-card').count()==4
+  # A reviewed identity can combine aliases or introduce a manufacturer match.
+  # Compare every matching ID with the current directory, across result pages.
+  baby_ids=set()
+  for entry in D['entries']:
+   sourcing=entry.get('sourcing') or {}
+   fields=[entry.get(k) for k in ('name','name_cn','parent','operator')]
+   fields.extend(sourcing.get(k) for k in ('operator','manufacturer','facility','location'))
+   fields.extend(label['name'] for label in entry['labels'])
+   if entry['kind']!='supplier' and 'baby three' in ' '.join(x or '' for x in fields).casefold():
+    baby_ids.add(entry['id'])
+  found=p.locator('.brand-card').evaluate_all('(cards) => cards.map(card => card.dataset.entry)')
+  while p.locator('#directoryNext').is_enabled():
+   p.locator('#directoryNext').click()
+   found.extend(p.locator('.brand-card').evaluate_all('(cards) => cards.map(card => card.dataset.entry)'))
+  assert sorted(found)==sorted(baby_ids), (found, baby_ids)
   p.locator('#directorySearch').fill('TOP TOY')
   expect(p.get_by_role('heading',name='TOP TOY',exact=True)).to_be_visible()
   p.get_by_role('link',name=f'Browse TOP TOY · {expected["TOP TOY"]} →',exact=True).click()
