@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "fields": [
     {
       "id": "opening",
@@ -9263,10 +9263,3040 @@
       "photoScope": "Launch photo; individual color unverified.",
       "opportunity": "Test multi-mode handling for mixed transit.",
       "brandContext": "BRUNO announced the 36 L model for Japanese direct stores and e-commerce on November 6."
+    },
+    {
+      "id": "offer-3e787fea",
+      "offerId": "offer-3e787fea",
+      "brandId": "airwheel",
+      "brand": "Airwheel",
+      "model": "SE3S · 20 L · Black",
+      "source": "https://www.bhphotovideo.com/c/product/1859475-REG/airwheel_se3s_smart_riding_suitcase.html/overview",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 479.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://www.bhphotovideo.com/images/fb/airwheel_se3s_smart_riding_suitcase_1859475.jpg",
+      "gallery": [
+        "https://www.bhphotovideo.com/images/fb/airwheel_se3s_smart_riding_suitcase_1859475.jpg"
+      ],
+      "features": {
+        "material": {
+          "value": "ABS/PC, aluminum frame",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "21.7 × 14.2 × 9.4 in",
+          "basis": "Product-page specification"
+        },
+        "seat": {
+          "value": "Powered ride-on with detachable battery",
+          "basis": "Product-page specification"
+        },
+        "motor": {
+          "value": "Powered ride-on with detachable battery",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Asia",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.bhphotovideo.com/c/product/1859475-REG/airwheel_se3s_smart_riding_suitcase.html/overview",
+      "photoKind": "model-reference",
+      "photoCaption": "SE3S · 20 L · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-cef195e0",
+      "offerId": "offer-cef195e0",
+      "brandId": "american-flyer",
+      "brand": "American Flyer",
+      "model": "Pemberly Buckles 5-Piece Set · 5-piece set · Dark Brown",
+      "source": "https://www.macys.com/shop/product/american-flyer-pemberly-buckles-5-piece-luggage-set?ID=11098911",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 260.4,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://slimages.macysassets.com/is/image/MCY/products/5/optimized/17161635_fpx.tif",
+      "gallery": [
+        "https://slimages.macysassets.com/is/image/MCY/products/5/optimized/17161635_fpx.tif"
+      ],
+      "features": {
+        "material": {
+          "value": "Polyester",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "Uprights 28 × 18 × 10, 25 × 16 × 8.5, 20 × 14 × 7.5 in",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "Three rolling uprights, wheeled duffel and cosmetic satchel",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Set",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.macys.com/shop/product/american-flyer-pemberly-buckles-5-piece-luggage-set?ID=11098911",
+      "photoKind": "model-reference",
+      "photoCaption": "Pemberly Buckles 5-Piece Set · 5-piece set · Dark Brown",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-e711f373",
+      "offerId": "offer-e711f373",
+      "brandId": "american-flyer",
+      "brand": "American Flyer",
+      "model": "Pemberly Buckles 5-Piece Set · 5-piece set · Green",
+      "source": "https://www.macys.com/shop/product/american-flyer-pemberly-buckles-5-piece-luggage-set?ID=11098911",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 249.99,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://slimages.macysassets.com/is/image/MCY/products/9/optimized/17161009_fpx.tif",
+      "gallery": [
+        "https://slimages.macysassets.com/is/image/MCY/products/9/optimized/17161009_fpx.tif"
+      ],
+      "features": {
+        "material": {
+          "value": "Polyester",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "Uprights 28 × 18 × 10, 25 × 16 × 8.5, 20 × 14 × 7.5 in",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "Three rolling uprights, wheeled duffel and cosmetic satchel",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Set",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.macys.com/shop/product/american-flyer-pemberly-buckles-5-piece-luggage-set?ID=11098911",
+      "photoKind": "model-reference",
+      "photoCaption": "Pemberly Buckles 5-Piece Set · 5-piece set · Green",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-745028f9",
+      "offerId": "offer-745028f9",
+      "brandId": "aristocrat",
+      "brand": "Aristocrat",
+      "model": "Armour Plus · Cabin · 29 L · Midnight Blue",
+      "source": "https://vipbags.com/products/aristocrat-armour-plus-cabin",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 2960.0,
+      "currency": "INR",
+      "priceDate": "2026-11-09",
+      "image": "https://vipbags.com/cdn/shop/files/0_89df9d30-4153-4704-908f-363d6a109cbf.webp?v=1785336096&width=1920",
+      "gallery": [
+        "https://vipbags.com/cdn/shop/files/0_89df9d30-4153-4704-908f-363d6a109cbf.webp?v=1785336096&width=1920",
+        "https://cdn.shopify.com/s/files/1/0664/5370/0679/files/6_e50a2d3e-2999-4486-8304-9e5426c0f1af.webp?v=1785336102"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate, polyester lining",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "37 × 23 × 56 cm",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Eight wheels, internal organizer and recessed TSA lock",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "Eight wheels, internal organizer and recessed TSA lock",
+          "basis": "Product-page specification"
+        },
+        "lock": {
+          "value": "Eight wheels, internal organizer and recessed TSA lock",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 5,
+      "region": "Asia",
+      "market": "India",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://vipbags.com/products/aristocrat-armour-plus-cabin",
+      "photoKind": "model-reference",
+      "photoCaption": "Armour Plus · Cabin · 29 L · Midnight Blue",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-5d60fadf",
+      "offerId": "offer-5d60fadf",
+      "brandId": "artrips",
+      "brand": "artrips",
+      "model": "Pillow Design Carry-On · 20 in · White",
+      "source": "https://artripsgo.com/products/artrips-carry-on-luggage-with-8-spinner-wheels-20spinner-luggage-with-pillow-design-pc-lightweight-hardside-luggage",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 189.99,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://cdn.shopify.com/s/files/1/0588/9900/5476/files/11_768ce495-ceb8-412d-b4fa-dea8b75136bc.png?v=1720581073",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/0588/9900/5476/files/11_768ce495-ceb8-412d-b4fa-dea8b75136bc.png?v=1720581073",
+        "https://cdn.shopify.com/s/files/1/0588/9900/5476/files/15_cad7231a-f59a-4145-aad6-b8b1b4fba97e.png?v=1720581074"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "18.9 × 18.1 × 10.5 in",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Wide pillow-shaped case with spinner wheels",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "International storefront (USD)",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://artripsgo.com/products/artrips-carry-on-luggage-with-8-spinner-wheels-20spinner-luggage-with-pillow-design-pc-lightweight-hardside-luggage",
+      "photoKind": "model-reference",
+      "photoCaption": "Pillow Design Carry-On · 20 in · White",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-54b5170f",
+      "offerId": "offer-54b5170f",
+      "brandId": "bebe",
+      "brand": "bebe",
+      "model": "Carissa · 21 in · Black",
+      "source": "https://www.macys.com/shop/product/bebe-carissa-21-hardside-carry-on-spinner?ID=8886501",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 140.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://slimages.macysassets.com/is/image/MCY/products/0/optimized/12344110_fpx.tif",
+      "gallery": [
+        "https://slimages.macysassets.com/is/image/MCY/products/0/optimized/12344110_fpx.tif"
+      ],
+      "features": {
+        "material": {
+          "value": "Aluminum trolley handle",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "14.5 × 9 × 22 in",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Expandable upright with eight spinner wheels",
+          "basis": "Product-page specification"
+        },
+        "expansion": {
+          "value": "Expandable upright with eight spinner wheels",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.macys.com/shop/product/bebe-carissa-21-hardside-carry-on-spinner?ID=8886501",
+      "photoKind": "model-reference",
+      "photoCaption": "Carissa · 21 in · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-d537cfda",
+      "offerId": "offer-d537cfda",
+      "brandId": "bellroy",
+      "brand": "Bellroy",
+      "model": "Transit Carry-On · 41 L · Black",
+      "source": "https://www.rei.com/product/C06301/bellroy-transit-carry-on",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 299.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://cdn.shopify.com/s/files/1/0751/7203/files/100298365-BLK-1.png?v=1762375583",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/0751/7203/files/100298365-BLK-1.png?v=1762375583",
+        "https://cdn.shopify.com/s/files/1/0751/7203/files/100298365-BLK-3.png?v=1762375583"
+      ],
+      "features": {
+        "material": {
+          "value": "80% postconsumer recycled polycarbonate shell, recycled polyester lining",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "21.9 × 13.8 × 8.9 in",
+          "basis": "Product-page specification"
+        },
+        "repair": {
+          "value": "Replaceable wheels, handles, lock and packing cells. Cells also serve as a divider",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "Replaceable wheels, handles, lock and packing cells. Cells also serve as a divider",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Oceania",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.sportsbasement.com/products/transit-carry-on",
+      "photoKind": "model-reference",
+      "photoCaption": "Transit Carry-On · 41 L · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-fa8dc96d",
+      "offerId": "offer-fa8dc96d",
+      "brandId": "ben-sherman",
+      "brand": "Ben Sherman",
+      "model": "Leicester · 20 in",
+      "source": "https://www.qvc.com/p/Ben-Sherman-Leicester-20-Hardside-Spinner-Carry-On-Suitcase/F232846",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 99.5,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://qvc.scene7.com/is/image/QVC/f/46/f232846.001",
+      "gallery": [
+        "https://qvc.scene7.com/is/image/QVC/f/46/f232846.001"
+      ],
+      "features": {
+        "material": {
+          "value": "ABS",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "22 H × 14 L × 9 D in",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Spinner wheels and retractable handle",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://www.qvc.com/p/Ben-Sherman-Leicester-20-Hardside-Spinner-Carry-On-Suitcase/F232846",
+      "photoKind": "model-reference",
+      "photoCaption": "Leicester · 20 in",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-d40d0fe4",
+      "offerId": "offer-d40d0fe4",
+      "brandId": "boss",
+      "brand": "BOSS",
+      "model": "BOSS × Samsonite Aluminium Cabin · 55 cm · Silver",
+      "source": "https://www.hugoboss.com/ad/en/boss-samsonite-silver-tone-aluminium-cabin-size-suitcase-55cm/hbeu58448864_001.html",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 900.0,
+      "currency": "EUR",
+      "priceDate": "2026-11-09",
+      "image": "https://images.hugoboss.com/is/image/boss/hbeu58448864_001_200?$large$&fit=crop,1&align=0,0",
+      "gallery": [
+        "https://images.hugoboss.com/is/image/boss/hbeu58448864_001_200?$large$&fit=crop,1&align=0,0",
+        "https://images.hugoboss.com/is/image/boss/hbeu58448864_001_240?$large$&fit=crop,1&align=0,0"
+      ],
+      "features": {
+        "material": {
+          "value": "98% aluminum, 2% leather",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "55 × 40 × 23 cm",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "Removable interior dividers and integrated locks",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Europe",
+      "market": "Andorra",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.hugoboss.com/ad/en/boss-samsonite-silver-tone-aluminium-cabin-size-suitcase-55cm/hbeu58448864_001.html",
+      "photoKind": "model-reference",
+      "photoCaption": "BOSS × Samsonite Aluminium Cabin · 55 cm · Silver",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-d0272386",
+      "offerId": "offer-d0272386",
+      "brandId": "brics",
+      "brand": "Bric’s",
+      "model": "Bellagio Carry-On · 21 in · 40 L · Cream",
+      "source": "https://bricstore.com/products/bellagio-21-spinner/",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 725.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://cdn.shopify.com/s/files/1/0626/8652/7644/files/BBG38301.014.08_b0d87907-392e-468a-bf20-deaa604028c5.jpg?v=1740507373",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/0626/8652/7644/files/BBG38301.014.08_b0d87907-392e-468a-bf20-deaa604028c5.jpg?v=1740507373",
+        "https://cdn.shopify.com/s/files/1/0626/8652/7644/files/BBG38301.014.07_86b1f261-d1dc-4925-863e-4279d3238a62.jpg?v=1742485833"
+      ],
+      "features": {
+        "material": {
+          "value": "Recycled polycarbonate, leather trim",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "15 W × 21 H × 9 D in",
+          "basis": "Product-page specification"
+        },
+        "compression": {
+          "value": "Two-part compression system and four double wheels",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Europe",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://bricstore.com/products/bellagio-21-spinner/",
+      "photoKind": "model-reference",
+      "photoCaption": "Bellagio Carry-On · 21 in · 40 L · Cream",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-b8b2f141",
+      "offerId": "offer-b8b2f141",
+      "brandId": "carlton",
+      "brand": "Carlton",
+      "model": "Velocity 3-Piece Spinner Set · 21 / 25 / 29 in set · Black",
+      "source": "https://www.luggageonline.com/products/carlton-carlton-velocity-3-piece-spinner-set",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 69.99,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://www.luggageonline.com/cdn/shop/products/aedfb75b9cc41710dd85697d77a01121a34760bf665a7aadf0010ba6a8630778_grande.jpg?v=1614968660",
+      "gallery": [
+        "https://www.luggageonline.com/cdn/shop/products/aedfb75b9cc41710dd85697d77a01121a34760bf665a7aadf0010ba6a8630778_grande.jpg?v=1614968660"
+      ],
+      "features": {
+        "wheels": {
+          "value": "Corrugated shell and four-wheel spinners",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 1,
+      "region": "Asia",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Set",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.luggageonline.com/products/carlton-carlton-velocity-3-piece-spinner-set",
+      "photoKind": "model-reference",
+      "photoCaption": "Velocity 3-Piece Spinner Set · 21 / 25 / 29 in set · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-a08452ab",
+      "offerId": "offer-a08452ab",
+      "brandId": "cat",
+      "brand": "Cat / Caterpillar",
+      "model": "Industrial Plate · 24 in · Black",
+      "source": "https://shopcaterpillar.com/products/industrial-plate-24-trolley",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 159.99,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://shopcaterpillar.com/cdn/shop/files/84759-01IIndustrialPlate20TrolleyBlack_1_78da4f5f-b2a9-4c54-bb42-f12a7cd81b9b.png?v=1738963122",
+      "gallery": [
+        "https://shopcaterpillar.com/cdn/shop/files/84759-01IIndustrialPlate20TrolleyBlack_1_78da4f5f-b2a9-4c54-bb42-f12a7cd81b9b.png?v=1738963122"
+      ],
+      "features": {
+        "dimensions": {
+          "value": "65 H × 44 W × 27 D cm",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Double-coil zipper, mesh pocket and tie-down straps",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "Double-coil zipper, mesh pocket and tie-down straps",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Asia",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Checked luggage",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://shopcaterpillar.com/products/industrial-plate-24-trolley",
+      "photoKind": "model-reference",
+      "photoCaption": "Industrial Plate · 24 in · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-c7117d14",
+      "offerId": "offer-c7117d14",
+      "brandId": "commodore",
+      "brand": "Commodore / 戰車",
+      "model": "9939 Series · 24 in",
+      "source": "https://24h.pchome.com.tw/prod/DIBKVN-A900KK5IV",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 4997.0,
+      "currency": "TWD",
+      "priceDate": "2026-11-09",
+      "image": "https://img.pchome.com.tw/cs/items/DIBKVNA900KK5IV/000001_1791897364.jpg",
+      "gallery": [
+        "https://img.pchome.com.tw/cs/items/DIBKVNA900KK5IV/000001_1791897364.jpg"
+      ],
+      "features": {
+        "material": {
+          "value": "ABS/PC, aluminum frame",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "59 × 42 × 29 cm",
+          "basis": "Product-page specification"
+        },
+        "repair": {
+          "value": "Multi-position handle and replaceable components under a limited repair program",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Asia",
+      "market": "Taiwan",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Checked luggage",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://24h.pchome.com.tw/prod/DIBKVN-A900KK5IV",
+      "photoKind": "model-reference",
+      "photoCaption": "9939 Series · 24 in",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-b4b1f9df",
+      "offerId": "offer-b4b1f9df",
+      "brandId": "commodore",
+      "brand": "Commodore / 戰車",
+      "model": "9939 Series · 27 in",
+      "source": "https://24h.pchome.com.tw/prod/DIBKVN-A900KJP34",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 5472.0,
+      "currency": "TWD",
+      "priceDate": "2026-11-09",
+      "image": "",
+      "gallery": [],
+      "features": {
+        "material": {
+          "value": "ABS/PC, aluminum frame",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "65 × 45 × 31 cm",
+          "basis": "Product-page specification"
+        },
+        "repair": {
+          "value": "Multi-position handle and replaceable components under a limited repair program",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Asia",
+      "market": "Taiwan",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Checked luggage",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "",
+      "photoKind": "",
+      "photoCaption": "9939 Series · 27 in",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-21a8cfec",
+      "offerId": "offer-21a8cfec",
+      "brandId": "crown",
+      "brand": "CROWN / 皇冠",
+      "model": "Airstride · 20 in",
+      "source": "https://24h.pchome.com.tw/prod/DIBKVL-A900KARAL",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 4545.0,
+      "currency": "TWD",
+      "priceDate": "2026-11-09",
+      "image": "https://img.pchome.com.tw/cs/items/DIBKVLA900KARAL/000001_1785816050.jpg",
+      "gallery": [
+        "https://img.pchome.com.tw/cs/items/DIBKVLA900KARAL/000001_1785816050.jpg",
+        "https://img.pchome.com.tw/cs/items/DIBKVLA900KARAL/l000001_1785816050.jpg"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "55 × 35 × 22 cm, before expansion",
+          "basis": "Product-page specification"
+        },
+        "opening": {
+          "value": "Front or split opening, expandable body and double-tooth zipper",
+          "basis": "Product-page specification"
+        },
+        "expansion": {
+          "value": "Front or split opening, expandable body and double-tooth zipper",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Asia",
+      "market": "Taiwan",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://24h.pchome.com.tw/prod/DIBKVL-A900KARAL",
+      "photoKind": "model-reference",
+      "photoCaption": "Airstride · 20 in",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-417395fa",
+      "offerId": "offer-417395fa",
+      "brandId": "dakine",
+      "brand": "Dakine",
+      "model": "Split 4 Wheel Carry On Roller · 48 L · Black",
+      "source": "https://www.dakine.com/products/split-4-wheel-carry-on-48l-black?variant=41150415437904",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 294.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://www.dakine.com/cdn/shop/files/SPLIT4WHEELCARRYON48L-BLACK-194626522920_10004123_BLACK-52F_MAIN_1024x1024.jpg?v=1745513373",
+      "gallery": [
+        "https://www.dakine.com/cdn/shop/files/SPLIT4WHEELCARRYON48L-BLACK-194626522920_10004123_BLACK-52F_MAIN_1024x1024.jpg?v=1745513373",
+        "https://www.dakine.com/cdn/shop/files/SPLIT4WHEELROLLERBAG48L-BLACK-194626522920_10004123_BLACK-52F-PT04_1024x1024.jpg?v=1748460172"
+      ],
+      "features": {
+        "material": {
+          "value": "Recycled polyester body, polyester lining, ABS/PC bottom",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "14 × 13 × 22 in; metric figures on source conflict",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Four wheels and split packing compartments",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "Four wheels and split packing compartments",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.dakine.com/products/split-4-wheel-carry-on-48l-black?variant=41150415437904",
+      "photoKind": "model-reference",
+      "photoCaption": "Split 4 Wheel Carry On Roller · 48 L · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-a21f5fbb",
+      "offerId": "offer-a21f5fbb",
+      "brandId": "dejuno",
+      "brand": "Dejuno",
+      "model": "Compact II · 20 in · Silver",
+      "source": "https://dejuno.com/products/compact-ii",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 120.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://dejuno.com/cdn/shop/files/2321DJSILVER_FRONT.jpg?v=1735933199&width=1200",
+      "gallery": [
+        "https://dejuno.com/cdn/shop/files/2321DJSILVER_FRONT.jpg?v=1735933199&width=1200",
+        "https://cdn.shopify.com/s/files/1/0697/2365/2309/files/2321DJSILVER_INTERIOR.jpg?v=1735933199"
+      ],
+      "features": {
+        "material": {
+          "value": "ABS",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "20 × 13 × 9 in",
+          "basis": "Product-page specification"
+        },
+        "opening": {
+          "value": "Front-opening business compartment and removable laptop sleeve",
+          "basis": "Product-page specification"
+        },
+        "laptop": {
+          "value": "Front-opening business compartment and removable laptop sleeve",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://dejuno.com/products/compact-ii",
+      "photoKind": "model-reference",
+      "photoCaption": "Compact II · 20 in · Silver",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-3c2e2a4b",
+      "offerId": "offer-3c2e2a4b",
+      "brandId": "departure",
+      "brand": "Departure",
+      "model": "HD517S · 22 in",
+      "source": "https://24h.pchome.com.tw/prod/DIBKVL-A900I30SW",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 11520.0,
+      "currency": "TWD",
+      "priceDate": "2026-11-09",
+      "image": "https://img.pchome.com.tw/cs/items/DIBKVLA900I30SW/000001_1748419657.jpg",
+      "gallery": [
+        "https://img.pchome.com.tw/cs/items/DIBKVLA900I30SW/000001_1748419657.jpg"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate shell, nylon lining",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "52 × 38 × 25 cm",
+          "basis": "Product-page specification"
+        },
+        "opening": {
+          "value": "1:9 front opening and brakes on the two rear wheels",
+          "basis": "Product-page specification"
+        },
+        "brake": {
+          "value": "1:9 front opening and brakes on the two rear wheels",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Asia",
+      "market": "Taiwan",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://24h.pchome.com.tw/prod/DIBKVL-A900I30SW",
+      "photoKind": "model-reference",
+      "photoCaption": "HD517S · 22 in",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-64b71954",
+      "offerId": "offer-64b71954",
+      "brandId": "diplomat",
+      "brand": "Diplomat / 外交官",
+      "model": "HM-26072 · 20 in",
+      "source": "https://www.momoshop.com.tw/TP/TP0009394/goodsDetail/TP00093940000043",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 3980.0,
+      "currency": "TWD",
+      "priceDate": "2026-11-09",
+      "image": "https://i7.momoshop.com.tw/1777300205/goodsimg/TP000/9394/0000/043/TP00093940000043_L_m.jpg",
+      "gallery": [
+        "https://i7.momoshop.com.tw/1777300205/goodsimg/TP000/9394/0000/043/TP00093940000043_L_m.jpg"
+      ],
+      "features": {
+        "wheels": {
+          "value": "Four double-wheel assemblies",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 1,
+      "region": "Asia",
+      "market": "Taiwan",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://www.momoshop.com.tw/TP/TP0009394/goodsDetail/TP00093940000043",
+      "photoKind": "model-reference",
+      "photoCaption": "HM-26072 · 20 in",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-f9dd42f3",
+      "offerId": "offer-f9dd42f3",
+      "brandId": "eagle-creek",
+      "brand": "Eagle Creek",
+      "model": "Gear Warrior XE 4-Wheel Carry-On · 40 L · Black",
+      "source": "https://eaglecreek.com/products/gear-warrior-xe-4-wheeled-carry-on",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 429.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://eaglecreek.com/cdn/shop/files/EC030402_010_a.jpg?v=1751292833&width=1200",
+      "gallery": [
+        "https://eaglecreek.com/cdn/shop/files/EC030402_010_a.jpg?v=1751292833&width=1200",
+        "https://cdn.shopify.com/s/files/1/0554/0115/2649/files/EC030402_010_h.jpg?v=1751292833"
+      ],
+      "features": {
+        "material": {
+          "value": "Recycled 600D polyester dobby",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "21.75 × 14 × 9 in; expanded depth 11 in",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Expandable four-wheel roller",
+          "basis": "Product-page specification"
+        },
+        "expansion": {
+          "value": "Expandable four-wheel roller",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://eaglecreek.com/products/gear-warrior-xe-4-wheeled-carry-on",
+      "photoKind": "model-reference",
+      "photoCaption": "Gear Warrior XE 4-Wheel Carry-On · 40 L · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-8c19d6eb",
+      "offerId": "offer-8c19d6eb",
+      "brandId": "eastpak",
+      "brand": "Eastpak",
+      "model": "Trans4 Small · 44 L · Black",
+      "source": "https://www.empireluggagecenter.com/products/eastpak-trans4-small-carry-on-spinner-luggage-44-l",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 220.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://www.empireluggagecenter.com/cdn/shop/files/8c910ff6-7cc935_0684032d91ae460891716255d8c1e45a_mv2.webp?v=1777500337&width=1920",
+      "gallery": [
+        "https://www.empireluggagecenter.com/cdn/shop/files/8c910ff6-7cc935_0684032d91ae460891716255d8c1e45a_mv2.webp?v=1777500337&width=1920",
+        "https://cdn.shopify.com/s/files/1/0693/2666/7850/files/EK00080L_008_ALT003_UC75433_mMid_1024x1024_2x_f2015265-c6e9-47a7-b831-6726114b8746.webp?v=1782512103"
+      ],
+      "features": {
+        "material": {
+          "value": "60% nylon, 40% polyester",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "54 H × 35 W × 23 D cm",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Four spinner wheels and divided packing space",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "Four spinner wheels and divided packing space",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.empireluggagecenter.com/products/eastpak-trans4-small-carry-on-spinner-luggage-44-l",
+      "photoKind": "model-reference",
+      "photoCaption": "Trans4 Small · 44 L · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-e4188aba",
+      "offerId": "offer-e4188aba",
+      "brandId": "epic",
+      "brand": "EPIC Travelgear",
+      "model": "SPIN Cabin S · 55 cm · 40 L · Black",
+      "source": "https://www.epictravelgear.com/en/products/epic-spin-55cm-cabin-bag-black-esp404-01",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 2199.0,
+      "currency": "SEK",
+      "priceDate": "2026-11-09",
+      "image": "https://cdn.shopify.com/s/files/1/0949/7290/3757/files/ESP404-01_2.webp?v=1772016671",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/0949/7290/3757/files/ESP404-01_2.webp?v=1772016671",
+        "https://cdn.shopify.com/s/files/1/0949/7290/3757/files/ESP404-01_5.webp?v=1772016672"
+      ],
+      "features": {
+        "material": {
+          "value": "DuraLITE+ (manufacturer material name)",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "55 × 40 × 20 cm",
+          "basis": "Product-page specification"
+        },
+        "repair": {
+          "value": "Exchangeable wheels with a standardized fitting",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Exchangeable wheels with a standardized fitting",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Europe",
+      "market": "Sweden",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.epictravelgear.com/en/products/epic-spin-55cm-cabin-bag-black-esp404-01",
+      "photoKind": "model-reference",
+      "photoCaption": "SPIN Cabin S · 55 cm · 40 L · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-92ac5832",
+      "offerId": "offer-92ac5832",
+      "brandId": "flylite",
+      "brand": "Flylite",
+      "model": "Spin Air 4 · 55 cm · Grey/Lime",
+      "source": "https://www.strandbags.com.au/products/flylite-spin-air-4-55cm-suitcase-3209022",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 220.0,
+      "currency": "AUD",
+      "priceDate": "2026-11-09",
+      "image": "https://cdn.shopify.com/s/files/1/0556/2643/2670/files/3209022_1.png?v=1786891977",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/0556/2643/2670/files/3209022_1.png?v=1786891977"
+      ],
+      "features": {
+        "wheels": {
+          "value": "Four-wheel softside cabin case",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 1,
+      "region": "Oceania",
+      "market": "Australia",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://www.strandbags.com.au/products/flylite-spin-air-4-55cm-suitcase-3209022",
+      "photoKind": "model-reference",
+      "photoCaption": "Spin Air 4 · 55 cm · Grey/Lime",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-4770bbdc",
+      "offerId": "offer-4770bbdc",
+      "brandId": "hanke",
+      "brand": "Hanke / 汉客",
+      "model": "Front-Opening Aluminum-Frame Carry-On · 20 in · Jet Black",
+      "source": "https://www.walmart.com/ip/5543814026",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 175.99,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://i5.walmartimages.com/seo/Hanke-20-Inch-Carry-On-Luggage-PC-Hard-Shell-Suitcases-for-Travel-Front-Opening-Aluminum-Frame-Tsa-Luggage-Rolling-Suitcase-with-Wheels-Jet-Black_e39ff0f8-7e0b-4d42-b94e-47c56006f1a8.fb990d3bdfafb2a05a44108f75e20446.jpeg",
+      "gallery": [
+        "https://i5.walmartimages.com/seo/Hanke-20-Inch-Carry-On-Luggage-PC-Hard-Shell-Suitcases-for-Travel-Front-Opening-Aluminum-Frame-Tsa-Luggage-Rolling-Suitcase-with-Wheels-Jet-Black_e39ff0f8-7e0b-4d42-b94e-47c56006f1a8.fb990d3bdfafb2a05a44108f75e20446.jpeg"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate, aluminum frame",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "35 × 23.5 × 54.5 cm including wheels and handles",
+          "basis": "Product-page specification"
+        },
+        "opening": {
+          "value": "Front-opening hard case with spinner wheels",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Asia",
+      "market": "United States",
+      "aliases": [
+        "Hanke",
+        "汉客"
+      ],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.walmart.com/ip/5543814026",
+      "photoKind": "model-reference",
+      "photoCaption": "Front-Opening Aluminum-Frame Carry-On · 20 in · Jet Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-fd6f9297",
+      "offerId": "offer-fd6f9297",
+      "brandId": "herschel",
+      "brand": "Herschel",
+      "model": "Heritage Hardshell Large Carry-On · Large Carry-On · Black",
+      "source": "https://herschel.com/products/herschel-heritage-hardshell-large-carryon-luggage?variant=48763806646524",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 260.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://herschel.com/cdn/shop/files/40101-00001-os-01-mKq806oo.jpg?v=1781470909&width=1920",
+      "gallery": [
+        "https://herschel.com/cdn/shop/files/40101-00001-os-01-mKq806oo.jpg?v=1781470909&width=1920"
+      ],
+      "features": {
+        "material": {
+          "value": "70% recycled polycarbonate, recycled polyester lining",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "21.65 H × 14.17 W × 9.06 D in",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Inset Hinomoto wheels and split packing",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://herschel.com/products/herschel-heritage-hardshell-large-carryon-luggage?variant=48763806646524",
+      "photoKind": "model-reference",
+      "photoCaption": "Heritage Hardshell Large Carry-On · Large Carry-On · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-16484bbb",
+      "offerId": "offer-16484bbb",
+      "brandId": "horizn-studios",
+      "brand": "Horizn Studios",
+      "model": "H5 Essential · Cabin · All White",
+      "source": "https://horizn-studios.com/products/h5-all-white-essential",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 370.0,
+      "currency": "EUR",
+      "priceDate": "2026-11-09",
+      "image": "https://cdn.shopify.com/s/files/1/1956/8795/files/h5-essential-all-white-3-4-e6e5af_7d36baba-4771-4bce-a93b-2256688be007.jpg?v=1754946224",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/1956/8795/files/h5-essential-all-white-3-4-e6e5af_7d36baba-4771-4bce-a93b-2256688be007.jpg?v=1754946224",
+        "https://cdn.shopify.com/s/files/1/1956/8795/files/h5-essential-all-white-interior-bc1436_777c9f01-dd76-40d1-adc4-12682b525d46.jpg?v=1754946225"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate, polyester lining",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "55 × 40 × 20 cm",
+          "basis": "Product-page specification"
+        },
+        "handle": {
+          "value": "Four-stage telescopic handle and divided interior",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Europe",
+      "market": "European storefront (EUR)",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://horizn-studios.com/products/h5-all-white-essential",
+      "photoKind": "model-reference",
+      "photoCaption": "H5 Essential · Cabin · All White",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-74ea48dc",
+      "offerId": "offer-74ea48dc",
+      "brandId": "imiomo",
+      "brand": "imiomo",
+      "model": "TR003-20 3-Piece Set · 3-piece set / 20 in · Light Green",
+      "source": "https://vipoutlet.com/collections/category-home-luggage/products/imiomo-tr003-20-20-in-carry-on-suitcase-with-spinner-wheels-hardside-3pcs-set-with-tsa-lock-light-green",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 45.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://vipoutlet.com/cdn/shop/files/82b6c17ce0b34592989adedbf4ef4d1c.jpg?v=1792939290",
+      "gallery": [
+        "https://vipoutlet.com/cdn/shop/files/82b6c17ce0b34592989adedbf4ef4d1c.jpg?v=1792939290"
+      ],
+      "features": {
+        "dimensions": {
+          "value": "22 × 8.5 × 15 in as listed",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Spinner carry-on with TSA lock and matching accessories",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Set",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://vipoutlet.com/collections/category-home-luggage/products/imiomo-tr003-20-20-in-carry-on-suitcase-with-spinner-wheels-hardside-3pcs-set-with-tsa-lock-light-green",
+      "photoKind": "model-reference",
+      "photoCaption": "TR003-20 3-Piece Set · 3-piece set / 20 in · Light Green",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-6fa11063",
+      "offerId": "offer-6fa11063",
+      "brandId": "innovator",
+      "brand": "innovator",
+      "model": "Extreme Journey INV30 · 21 L · LyonsBlue",
+      "source": "https://fas-bee.com/en-us/products/19511354",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 253.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://fas-bee.com/cdn/shop/files/IN3418AU001311_001.jpg?v=1773119873&width=1920",
+      "gallery": [
+        "https://fas-bee.com/cdn/shop/files/IN3418AU001311_001.jpg?v=1773119873&width=1920"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "33 W × 47 H × 22 D cm including parts",
+          "basis": "Product-page specification"
+        },
+        "opening": {
+          "value": "Front-to-main access, wheel brake and compact locker-size format",
+          "basis": "Product-page specification"
+        },
+        "brake": {
+          "value": "Front-to-main access, wheel brake and compact locker-size format",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Asia",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://fas-bee.com/en-us/products/19511354",
+      "photoKind": "model-reference",
+      "photoCaption": "Extreme Journey INV30 · 21 L · LyonsBlue",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-c6428f0d",
+      "offerId": "offer-c6428f0d",
+      "brandId": "kamiliant",
+      "brand": "Kamiliant",
+      "model": "Kiza · 55 cm · Black",
+      "source": "https://www.flipkart.com/kamiliant-american-tourister-kam-kiza-sp-55cm-black-cabin-suitcase-22-inch/p/itm09a62fc74fa7d",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 1149.0,
+      "currency": "INR",
+      "priceDate": "2026-11-09",
+      "image": "https://rukmini1.flixcart.com/image/1500/1500/xif0q/suitcase/f/y/b/-watermarked-original-imahghawckxnjhhs.jpeg?q=70",
+      "gallery": [
+        "https://rukmini1.flixcart.com/image/1500/1500/xif0q/suitcase/f/y/b/-watermarked-original-imahghawckxnjhhs.jpeg?q=70"
+      ],
+      "features": {
+        "wheels": {
+          "value": "Four wheels and combination lock",
+          "basis": "Product-page specification"
+        },
+        "lock": {
+          "value": "Four wheels and combination lock",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "Asia",
+      "market": "India",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.flipkart.com/kamiliant-american-tourister-kam-kiza-sp-55cm-black-cabin-suitcase-22-inch/p/itm09a62fc74fa7d",
+      "photoKind": "model-reference",
+      "photoCaption": "Kiza · 55 cm · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-cb910a2f",
+      "offerId": "offer-cb910a2f",
+      "brandId": "kenneth-cole-reaction",
+      "brand": "Kenneth Cole REACTION",
+      "model": "Lexington Expandable Hardside Carry-On · Small · Black",
+      "source": "https://www.macys.com/shop/product/kenneth-cole-reaction-lexington-medium-expandable-hardside-carry-on-spinner?ID=25790794",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 119.99,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://slimages.macysassets.com/is/image/MCY/products/5/optimized/35712995_fpx.tif",
+      "gallery": [
+        "https://slimages.macysassets.com/is/image/MCY/products/5/optimized/35712995_fpx.tif"
+      ],
+      "features": {
+        "dimensions": {
+          "value": "23.6 × 16.5 × 10.5 in including wheels",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Eight spinner wheels and 2 in of expansion",
+          "basis": "Product-page specification"
+        },
+        "expansion": {
+          "value": "Eight spinner wheels and 2 in of expansion",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.macys.com/shop/product/kenneth-cole-reaction-lexington-medium-expandable-hardside-carry-on-spinner?ID=25790794",
+      "photoKind": "model-reference",
+      "photoCaption": "Lexington Expandable Hardside Carry-On · Small · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-d17ff0c",
+      "offerId": "offer-d17ff0c",
+      "brandId": "kono",
+      "brand": "KONO",
+      "model": "K2191 · 19 in · Black",
+      "source": "https://www.suitcasecity.co.uk/products/kono-k2191-hard-shell-luggage-with-tsa-lock",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 69.0,
+      "currency": "GBP",
+      "priceDate": "2026-11-09",
+      "image": "https://www.suitcasecity.co.uk/cdn/shop/files/K2191L-BK-19-_1_-1000x1000_grande.jpg?v=1731411132",
+      "gallery": [
+        "https://www.suitcasecity.co.uk/cdn/shop/files/K2191L-BK-19-_1_-1000x1000_grande.jpg?v=1731411132"
+      ],
+      "features": {
+        "material": {
+          "value": "Aluminum handle",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "55 H × 38 W × 20 D cm",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "TSA combination lock and four swivel wheels",
+          "basis": "Product-page specification"
+        },
+        "lock": {
+          "value": "TSA combination lock and four swivel wheels",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "North America",
+      "market": "United Kingdom",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.suitcasecity.co.uk/products/kono-k2191-hard-shell-luggage-with-tsa-lock",
+      "photoKind": "model-reference",
+      "photoCaption": "K2191 · 19 in · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-71ed307e",
+      "offerId": "offer-71ed307e",
+      "brandId": "kroser",
+      "brand": "KROSER",
+      "model": "Top-Loading Carry-On with USB · 20 in · 36 L · Black",
+      "source": "https://www.ikroser.com/products/top-loading-carry-on-luggage-usb",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 94.99,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://www.ikroser.com/cdn/shop/files/YX001SCK-BLK_5.jpg?v=1782198486&width=1920",
+      "gallery": [
+        "https://www.ikroser.com/cdn/shop/files/YX001SCK-BLK_5.jpg?v=1782198486&width=1920",
+        "https://cdn.shopify.com/s/files/1/0365/7639/5308/files/YX001SCK-BLK_2.jpg?v=1782198488"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "14 × 9.2 × 22 in including wheels and handles",
+          "basis": "Product-page specification"
+        },
+        "opening": {
+          "value": "Top loading, expansion and USB port for an external power bank",
+          "basis": "Product-page specification"
+        },
+        "expansion": {
+          "value": "Top loading, expansion and USB port for an external power bank",
+          "basis": "Product-page specification"
+        },
+        "charging": {
+          "value": "Top loading, expansion and USB port for an external power bank",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 5,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.ikroser.com/products/top-loading-carry-on-luggage-usb",
+      "photoKind": "model-reference",
+      "photoCaption": "Top-Loading Carry-On with USB · 20 in · 36 L · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-b380fd93",
+      "offerId": "offer-b380fd93",
+      "brandId": "level8",
+      "brand": "LEVEL8",
+      "model": "Road Runner Carry-On · 20 in · Navy",
+      "source": "https://www.level8cases.com/products/level8-road-runner-carry-on-luggage-with-front-pocket-20",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 189.99,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://www.level8cases.com/cdn/shop/products/road_runner_carry_on_navy_1024x1024.jpg?v=1727336974",
+      "gallery": [
+        "https://www.level8cases.com/cdn/shop/products/road_runner_carry_on_navy_1024x1024.jpg?v=1727336974",
+        "https://cdn.shopify.com/s/files/1/0029/3404/6831/files/9_77e1b5fb-8322-4944-b14c-b4eeba63a006.jpg?v=1692000689"
+      ],
+      "features": {
+        "material": {
+          "value": "Makrolon polycarbonate, polyester lining",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "36.8 × 24.5 × 55 cm including handle and wheels",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Locking front pocket for a 17-inch laptop and tablet",
+          "basis": "Product-page specification"
+        },
+        "laptop": {
+          "value": "Locking front pocket for a 17-inch laptop and tablet",
+          "basis": "Product-page specification"
+        },
+        "lock": {
+          "value": "Locking front pocket for a 17-inch laptop and tablet",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 5,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.level8cases.com/products/level8-road-runner-carry-on-luggage-with-front-pocket-20",
+      "photoKind": "model-reference",
+      "photoCaption": "Road Runner Carry-On · 20 in · Navy",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-6a014504",
+      "offerId": "offer-6a014504",
+      "brandId": "louis-vuitton",
+      "brand": "Louis Vuitton",
+      "model": "Horizon 55 · 55 · Monogram",
+      "source": "https://us.louisvuitton.com/eng-us/products/horizon-55-monogram-nvprod6440157v/M13767",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 3550.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "",
+      "gallery": [],
+      "features": {
+        "material": {
+          "value": "Coated monogram canvas",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "15 L × 21.7 H × 8.3 W in",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "External handle mechanism allows a flat packing floor",
+          "basis": "Product-page specification"
+        },
+        "handle": {
+          "value": "External handle mechanism allows a flat packing floor",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Europe",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "",
+      "photoKind": "",
+      "photoCaption": "Horizon 55 · 55 · Monogram",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-2c67f160",
+      "offerId": "offer-2c67f160",
+      "brandId": "mandarina-duck",
+      "brand": "Mandarina Duck",
+      "model": "Flyduck Trolley Cabin · Cabin · Black",
+      "source": "https://mandarinaduck.com/en-us/products/flyduck-trolley-cabin-black-knv01651",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 260.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://mandarinaduck.com/cdn/shop/files/KNV01_651_01.jpg?v=1727795278&width=1920",
+      "gallery": [
+        "https://mandarinaduck.com/cdn/shop/files/KNV01_651_01.jpg?v=1727795278&width=1920"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "55 × 40 × 20 cm",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Multistage handle and integrated TSA lock",
+          "basis": "Product-page specification"
+        },
+        "lock": {
+          "value": "Multistage handle and integrated TSA lock",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Europe",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://mandarinaduck.com/en-us/products/flyduck-trolley-cabin-black-knv01651",
+      "photoKind": "model-reference",
+      "photoCaption": "Flyduck Trolley Cabin · Cabin · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-9ea3a26",
+      "offerId": "offer-9ea3a26",
+      "brandId": "montblanc",
+      "brand": "Montblanc",
+      "model": "#MY4810 Cabin Trolley · Cabin · Blue",
+      "source": "https://www.macys.com/shop/product/montblanc-my4810-cabin-trolley-spinner-luggage?ID=25010679",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 1090.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://slimages.macysassets.com/is/image/MCY/products/8/optimized/36086518_fpx.tif",
+      "gallery": [
+        "https://slimages.macysassets.com/is/image/MCY/products/8/optimized/36086518_fpx.tif"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate with leather trim",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "38 × 55 × 23 cm",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Four wheels and multistage handle",
+          "basis": "Product-page specification"
+        },
+        "handle": {
+          "value": "Four wheels and multistage handle",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Europe",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.macys.com/shop/product/montblanc-my4810-cabin-trolley-spinner-luggage?ID=25010679",
+      "photoKind": "model-reference",
+      "photoCaption": "#MY4810 Cabin Trolley · Cabin · Blue",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-6b365e2a",
+      "offerId": "offer-6b365e2a",
+      "brandId": "nortvi",
+      "brand": "NORTVI",
+      "model": "Front Pocket · Cabin · Midnight Black",
+      "source": "https://nortvi.com/product/frontpocket-midnightblack/",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 329.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://nortvi.com/wp-content/uploads/2018/03/Front_Black_FrontPocket-3-1-1-1024x1024.jpg",
+      "gallery": [
+        "https://nortvi.com/wp-content/uploads/2018/03/Front_Black_FrontPocket-3-1-1-1024x1024.jpg"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate",
+          "basis": "Product-page specification"
+        },
+        "laptop": {
+          "value": "Front pocket fits a 16-inch laptop",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "Europe",
+      "market": "International storefront (USD)",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://nortvi.com/product/frontpocket-midnightblack/",
+      "photoKind": "model-reference",
+      "photoCaption": "Front Pocket · Cabin · Midnight Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-d083cdf8",
+      "offerId": "offer-d083cdf8",
+      "brandId": "nudient",
+      "brand": "Nudient",
+      "model": "Bold Cabin Bag V2 · Cabin · Urban Grey",
+      "source": "https://www.nudient.com/products/bold-cabin-bag-v2-urban-grey",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 270.0,
+      "currency": "EUR",
+      "priceDate": "2026-11-09",
+      "image": "https://www.nudient.com/cdn/shop/files/18-042-0108-0176_1.jpg?v=1782893725&width=1200",
+      "gallery": [
+        "https://www.nudient.com/cdn/shop/files/18-042-0108-0176_1.jpg?v=1782893725&width=1200",
+        "https://cdn.shopify.com/s/files/1/0584/1092/6128/files/18-042-0108-0176_9.jpg?v=1782893726"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate shell, recycled polyester lining",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "550 × 350 × 230 mm",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "Six interior pockets",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Europe",
+      "market": "European storefront (EUR)",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.nudient.com/products/bold-cabin-bag-v2-urban-grey",
+      "photoKind": "model-reference",
+      "photoCaption": "Bold Cabin Bag V2 · Cabin · Urban Grey",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-3f76aa9c",
+      "offerId": "offer-3f76aa9c",
+      "brandId": "olympia",
+      "brand": "Olympia U.S.A.",
+      "model": "Apache Expandable Carry-On · Carry-On · Black/Black",
+      "source": "https://business.walmart.com/ip/Apache-21-Carry-On-Luggage/55429426",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 119.95,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://i5.walmartimages.com/seo/Olympia-U-S-A-Apache-Expandable-Hardside-Carry-On-Luggage-Spinner-Suitcase-with-Laptop-Compartment-Black-Black_8995d8fe-8e0c-4da5-81f0-1b9991827183.0b1980a38356d791ded2d6315489b33c.jpeg",
+      "gallery": [
+        "https://i5.walmartimages.com/seo/Olympia-U-S-A-Apache-Expandable-Hardside-Carry-On-Luggage-Spinner-Suitcase-with-Laptop-Compartment-Black-Black_8995d8fe-8e0c-4da5-81f0-1b9991827183.0b1980a38356d791ded2d6315489b33c.jpeg"
+      ],
+      "features": {
+        "material": {
+          "value": "PC/ABS",
+          "basis": "Product-page specification"
+        },
+        "expansion": {
+          "value": "Expandable body with laptop compartment",
+          "basis": "Product-page specification"
+        },
+        "laptop": {
+          "value": "Expandable body with laptop compartment",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://business.walmart.com/ip/Apache-21-Carry-On-Luggage/55429426",
+      "photoKind": "model-reference",
+      "photoCaption": "Apache Expandable Carry-On · Carry-On · Black/Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-3963f06c",
+      "offerId": "offer-3963f06c",
+      "brandId": "paklite",
+      "brand": "Paklite",
+      "model": "Charter · Medium · 85 L · Black",
+      "source": "https://www.bigw.com.au/product/paklite-charter-medium-luggage-tsa-lock-spinner-travel-black-85l/p/9904558011",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 100.8,
+      "currency": "AUD",
+      "priceDate": "2026-11-09",
+      "image": "https://www.bigw.com.au/medias/sys_master/images/images/h7e/h3f/151634202853406.jpg",
+      "gallery": [
+        "https://www.bigw.com.au/medias/sys_master/images/images/h7e/h3f/151634202853406.jpg",
+        "https://www.bigw.com.au/medias/sys_master/images/images/hca/h4d/151634210783262.jpg"
+      ],
+      "features": {
+        "material": {
+          "value": "Polypropylene",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "65 × 41 × 32 cm",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Spinner wheels and integrated TSA lock",
+          "basis": "Product-page specification"
+        },
+        "lock": {
+          "value": "Spinner wheels and integrated TSA lock",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Oceania",
+      "market": "Australia",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Checked luggage",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.bigw.com.au/product/paklite-charter-medium-luggage-tsa-lock-spinner-travel-black-85l/p/9904558011",
+      "photoKind": "model-reference",
+      "photoCaption": "Charter · Medium · 85 L · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-402d2564",
+      "offerId": "offer-402d2564",
+      "brandId": "patagonia",
+      "brand": "Patagonia",
+      "model": "Black Hole Wheeled Duffel · 70 L · Black w/Black",
+      "source": "https://www.patagonia.com/product/black-hole-wheeled-duffel-bag-70-liters/49382.html?cgid=web-specials&dwvar_49382_color=BKPL",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 409.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://dis.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe1feef22/images/hi-res/49382_BOB.jpg?sw=1400&sh=1400&sfrm=png&q=90&bgcolor=f3f4ef",
+      "gallery": [
+        "https://dis.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe1feef22/images/hi-res/49382_BOB.jpg?sw=1400&sh=1400&sfrm=png&q=90&bgcolor=f3f4ef"
+      ],
+      "features": {
+        "material": {
+          "value": "900D recycled polyester ripstop with recycled TPU laminate",
+          "basis": "Product-page specification"
+        },
+        "folding": {
+          "value": "Wheeled duffel collapses for storage",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Wheeled duffel",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://www.patagonia.com/product/black-hole-wheeled-duffel-bag-70-liters/49382.html?cgid=web-specials&dwvar_49382_color=BKPL",
+      "photoKind": "model-reference",
+      "photoCaption": "Black Hole Wheeled Duffel · 70 L · Black w/Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-fb074086",
+      "offerId": "offer-fb074086",
+      "brandId": "polo-sa",
+      "brand": "Polo South Africa",
+      "model": "Classic Carry-On Trolley · Carry-On",
+      "source": "https://www.polo.co.za/carry-on-luggage-trolley-s302088215700232014",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 4795.0,
+      "currency": "ZAR",
+      "priceDate": "2026-11-09",
+      "image": "https://www.polo.co.za/api/catalog/product/p/o/po44250_small_4_wheel_trolley_black82425_copy.jpg?width=265&height=265&store=default&image-type=image",
+      "gallery": [
+        "https://www.polo.co.za/api/catalog/product/p/o/po44250_small_4_wheel_trolley_black82425_copy.jpg?width=265&height=265&store=default&image-type=image",
+        "https://www.polo.co.za/api/catalog/product/p/o/po44250_small_4_wheel_trolley_black82451_copy.jpg"
+      ],
+      "features": {
+        "material": {
+          "value": "Synthetic exterior, composition unspecified",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Rolling trolley case",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "Africa",
+      "market": "South Africa",
+      "aliases": [
+        "Polo SA"
+      ],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://www.polo.co.za/carry-on-luggage-trolley-s302088215700232014",
+      "photoKind": "model-reference",
+      "photoCaption": "Classic Carry-On Trolley · Carry-On",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-81f0ca5b",
+      "offerId": "offer-81f0ca5b",
+      "brandId": "porsche-design",
+      "brand": "Porsche Design",
+      "model": "Roadster Hardcase 4W Trolley S · S · Lava Orange",
+      "source": "https://shop.porsche.com/us/en-US/p/roadster-hardcase-4w-trolley-s-P-P2330/4056487000206",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 330.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://product-domain-assets.ppim.aws.porsche.cloud/porsche-prod/25/10/20/9880/4056487000206_omp2-001.webp",
+      "gallery": [
+        "https://product-domain-assets.ppim.aws.porsche.cloud/porsche-prod/25/10/20/9880/4056487000206_omp2-001.webp"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Four-wheel hard case",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "Europe",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://shop.porsche.com/us/en-US/p/roadster-hardcase-4w-trolley-s-P-P2330/4056487000206",
+      "photoKind": "model-reference",
+      "photoCaption": "Roadster Hardcase 4W Trolley S · S · Lava Orange",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-fc26f1a8",
+      "offerId": "offer-fc26f1a8",
+      "brandId": "president",
+      "brand": "President",
+      "model": "HEXA V3 · 20 in · Ivory",
+      "source": "https://www.presidentluggage.com/products/894249/tas-koper-president-luggage-hard-case-hexa-v3-__-20-inch-(cabin)",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 2500000.0,
+      "currency": "IDR",
+      "priceDate": "2026-11-09",
+      "image": "https://d2kchovjbwl1tk.cloudfront.net/vendor/4246/product/c5e39fd60efc4274ad9d52da74ef8622_1782199688708.jpg",
+      "gallery": [
+        "https://d2kchovjbwl1tk.cloudfront.net/vendor/4246/product/c5e39fd60efc4274ad9d52da74ef8622_1782199688708.jpg"
+      ],
+      "features": {
+        "dimensions": {
+          "value": "38.5 × 27 × 59.5 cm",
+          "basis": "Product-page specification"
+        },
+        "opening": {
+          "value": "Top/front opening, laptop pocket and expansion",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "Asia",
+      "market": "Indonesia",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://www.presidentluggage.com/products/894249/tas-koper-president-luggage-hard-case-hexa-v3-__-20-inch-(cabin)",
+      "photoKind": "model-reference",
+      "photoCaption": "HEXA V3 · 20 in · Ivory",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-d1238c15",
+      "offerId": "offer-d1238c15",
+      "brandId": "puccini",
+      "brand": "PUCCINI",
+      "model": "ABS023C · Cabin · 36 L · Beige",
+      "source": "https://zapatos.es/p/maleta-de-cabina-puccini-abs023c-beis-5902308040380",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 71.0,
+      "currency": "EUR",
+      "priceDate": "2026-11-09",
+      "image": "https://img.eobuwie.cloud/product(9/6/6/d/966d59b1b4e72937fe5a53bceb5291981253fd23_01_5902308040380_mk.jpg,jpg)/maleta-de-cabina-puccini-abs023c-beis-5902308040380.jpg",
+      "gallery": [
+        "https://img.eobuwie.cloud/product(9/6/6/d/966d59b1b4e72937fe5a53bceb5291981253fd23_01_5902308040380_mk.jpg,jpg)/maleta-de-cabina-puccini-abs023c-beis-5902308040380.jpg",
+        "https://img.eobuwie.cloud/product(4/5/3/4/45342a6a9b74f01c69ce572946929f8b1be74456_07_5902308040380_mk.jpg,jpg)/maleta-de-cabina-puccini-abs023c-beis-5902308040380.jpg"
+      ],
+      "features": {
+        "material": {
+          "value": "ABS",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "39 W × 55 H × 20 D cm",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "Europe",
+      "market": "Spain",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://zapatos.es/p/maleta-de-cabina-puccini-abs023c-beis-5902308040380",
+      "photoKind": "model-reference",
+      "photoCaption": "ABS023C · Cabin · 36 L · Beige",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-40f445c1",
+      "offerId": "offer-40f445c1",
+      "brandId": "ricardo-beverly-hills",
+      "brand": "Ricardo Beverly Hills",
+      "model": "Montecito 2.0 Hardside Carry-On · 21 in",
+      "source": "https://www.ricardobeverlyhills.com/products/montecito-hardside-carry-on-1",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 169.99,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://www.ricardobeverlyhills.com/cdn/shop/files/montecito-20-hardside-carry-on-expandable-spinner-7856950.jpg?v=1751422176&width=1024",
+      "gallery": [
+        "https://www.ricardobeverlyhills.com/cdn/shop/files/montecito-20-hardside-carry-on-expandable-spinner-7856950.jpg?v=1751422176&width=1024",
+        "https://www.ricardobeverlyhills.com/cdn/shop/files/montecito-20-hardside-carry-on-expandable-spinner-8265108.jpg?v=1751422176&width=2400"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "22.25 H × 14.75 W × 9.5 D in",
+          "basis": "Product-page specification"
+        },
+        "expansion": {
+          "value": "Expandable spinner with telescoping handle",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://www.ricardobeverlyhills.com/products/montecito-hardside-carry-on-1",
+      "photoKind": "model-reference",
+      "photoCaption": "Montecito 2.0 Hardside Carry-On · 21 in",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-1d269c35",
+      "offerId": "offer-1d269c35",
+      "brandId": "roam",
+      "brand": "ROAM",
+      "model": "Carry-On · Carry-On · Monza red gloss / black trim",
+      "source": "https://www.roamluggage.com/products/carry-on",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 595.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://cdn.shopify.com/s/files/1/2551/4172/files/CarryOn_Monza_3Q_bcd524a3-c749-4310-8f59-20363d3adbca.webp?v=1774466364",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/2551/4172/files/CarryOn_Monza_3Q_bcd524a3-c749-4310-8f59-20363d3adbca.webp?v=1774466364"
+      ],
+      "features": {
+        "material": {
+          "value": "50% recycled polycarbonate",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "22 H × 14.25 W × 9 D in",
+          "basis": "Product-page specification"
+        },
+        "handle": {
+          "value": "360-degree wheels and aluminum telescoping handle",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.roamluggage.com/products/carry-on",
+      "photoKind": "model-reference",
+      "photoCaption": "Carry-On · Carry-On · Monza red gloss / black trim",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-44fff3e4",
+      "offerId": "offer-44fff3e4",
+      "brandId": "rockland",
+      "brand": "Rockland",
+      "model": "Expandable Spinner Carry-On · 19 in",
+      "source": "https://www.kohls.com/product/prd-1717257/rockland-luggage-19-in-expandable-spinner-carry-on.jsp?bdrecsId=89251032-7178-4613-95e8-d80e325b2ed3&color=Black+Gray&pfm=bdrecs-WebStore-PDP-Horizontal3-b1275-279",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 49.99,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://media.kohlsimg.com/is/image/kohls/1717257_Black_Gray?wid=1000&hei=1000&op_sharpen=1",
+      "gallery": [
+        "https://media.kohlsimg.com/is/image/kohls/1717257_Black_Gray?wid=1000&hei=1000&op_sharpen=1"
+      ],
+      "features": {
+        "material": {
+          "value": "Polyester",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "21 H × 8 W × 13 D in overall",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Four spinners with mesh and open interior pockets",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://www.kohls.com/product/prd-1717257/rockland-luggage-19-in-expandable-spinner-carry-on.jsp?bdrecsId=89251032-7178-4613-95e8-d80e325b2ed3&color=Black+Gray&pfm=bdrecs-WebStore-PDP-Horizontal3-b1275-279",
+      "photoKind": "model-reference",
+      "photoCaption": "Expandable Spinner Carry-On · 19 in",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-518836d6",
+      "offerId": "offer-518836d6",
+      "brandId": "siffler",
+      "brand": "Siffler",
+      "model": "TRIDENT TRI1030-48 · 33 L · Silver",
+      "source": "https://www.siffler-store.com/c/luggage/TRI1030-48",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 31900.0,
+      "currency": "JPY",
+      "priceDate": "2026-11-09",
+      "image": "https://siffler.itembox.cloud/product/010/000000001036/000000001036-01.jpg?size=xs&w=MTAw&t=20240816112058",
+      "gallery": [
+        "https://siffler.itembox.cloud/product/010/000000001036/000000001036-01.jpg?size=xs&w=MTAw&t=20240816112058"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate/ABS",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "54 H × 37 W × 24 D cm including wheels and handle",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Hinomoto wheels and TS combination lock",
+          "basis": "Product-page specification"
+        },
+        "lock": {
+          "value": "Hinomoto wheels and TS combination lock",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Asia",
+      "market": "Japan",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.siffler-store.com/c/luggage/TRI1030-48",
+      "photoKind": "model-reference",
+      "photoCaption": "TRIDENT TRI1030-48 · 33 L · Silver",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-97f6a0c7",
+      "offerId": "offer-97f6a0c7",
+      "brandId": "steamline",
+      "brand": "SteamLine",
+      "model": "Pioneer Carryon Spinner · Carry-On · Brown",
+      "source": "https://steamlineluggage.com/products/the-pioneer-carryon-spinner",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 1150.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://steamlineluggage.com/cdn/shop/files/The_Pioneer_Carryon_2_Front_copia_2.jpg?v=1773418766&width=5760",
+      "gallery": [
+        "https://steamlineluggage.com/cdn/shop/files/The_Pioneer_Carryon_2_Front_copia_2.jpg?v=1773418766&width=5760",
+        "https://cdn.shopify.com/s/files/1/0305/9364/6728/products/ThePioneerCarryonOpen.jpg?v=1773418766"
+      ],
+      "features": {
+        "material": {
+          "value": "Full-grain leather",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "Source lists both 20 × 14.5 × 6.5 and 21.25 × 14.5 × 7.5 in",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "Europe",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://steamlineluggage.com/products/the-pioneer-carryon-spinner",
+      "photoKind": "model-reference",
+      "photoCaption": "Pioneer Carryon Spinner · Carry-On · Brown",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-f826e797",
+      "offerId": "offer-f826e797",
+      "brandId": "stokke-jetkids",
+      "brand": "Stokke JetKids",
+      "model": "BedBox · BedBox · Moonglow White",
+      "source": "https://www.albeebaby.com/collections/jetkids/products/stokke-jetkids-bedbox-moonglow-white",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 249.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://www.albeebaby.com/cdn/shop/files/stokke-jetkids-bedbox-moonglow-white-1205507919_1024x1024.jpg?v=1781645798",
+      "gallery": [
+        "https://www.albeebaby.com/cdn/shop/files/stokke-jetkids-bedbox-moonglow-white-1205507919_1024x1024.jpg?v=1781645798"
+      ],
+      "features": {
+        "material": {
+          "value": "ABS and nylon",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "20 W × 36 H × 46 D cm",
+          "basis": "Product-page specification"
+        },
+        "seat": {
+          "value": "Child ride-on with a mattress and extendable bed platform",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Europe",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.albeebaby.com/collections/jetkids/products/stokke-jetkids-bedbox-moonglow-white",
+      "photoKind": "model-reference",
+      "photoCaption": "BedBox · BedBox · Moonglow White",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-a18a9554",
+      "offerId": "offer-a18a9554",
+      "brandId": "swissgear",
+      "brand": "SWISSGEAR",
+      "model": "Signature Carry-On Spinner · Carry-On · White",
+      "source": "https://www.swissgear.com/products/signature-carry-on-spinner?variant=48049360535774",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 140.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://cdn.shopify.com/s/files/1/0721/0978/5310/files/7366100154-02_036e6b14-276c-44b1-a6df-b688a5ca506e.jpg?v=1774961261",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/0721/0978/5310/files/7366100154-02_036e6b14-276c-44b1-a6df-b688a5ca506e.jpg?v=1774961261"
+      ],
+      "features": {
+        "material": {
+          "value": "ABS",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "22 × 14.25 × 10 in overall",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "Four-wheel spinner with a divided interior",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Multi-region / unverified",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.swissgear.com/products/signature-carry-on-spinner?variant=48049360535774",
+      "photoKind": "model-reference",
+      "photoCaption": "Signature Carry-On Spinner · Carry-On · White",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-fddc5184",
+      "offerId": "offer-fddc5184",
+      "brandId": "swiss-tech",
+      "brand": "SwissTech",
+      "model": "Executive Softside Upright · 29 in · Black",
+      "source": "https://business.walmart.com/ip/Open-Box-SwissTech-Executive-29-8-Wheel-Softside-Luggage-Black/19972901316?conditionGroupCode=3",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 43.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://i5.walmartimages.com/asr/817655bc-337a-46d3-914b-c70ab8acb4bf_1.51b62b19afb6424c9ee4e58cdc201dc6.jpeg",
+      "gallery": [
+        "https://i5.walmartimages.com/asr/817655bc-337a-46d3-914b-c70ab8acb4bf_1.51b62b19afb6424c9ee4e58cdc201dc6.jpeg"
+      ],
+      "features": {
+        "material": {
+          "value": "1680D fabric, fiber unspecified",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Eight-wheel softside upright with telescopic handle",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Checked luggage",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://business.walmart.com/ip/Open-Box-SwissTech-Executive-29-8-Wheel-Softside-Luggage-Black/19972901316?conditionGroupCode=3",
+      "photoKind": "model-reference",
+      "photoCaption": "Executive Softside Upright · 29 in · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-b4834def",
+      "offerId": "offer-b4834def",
+      "brandId": "tach",
+      "brand": "TACH",
+      "model": "V3.1 Carry-On · 20 in · 41 L · Midnight Blue",
+      "source": "https://www.tachluggage.com/products/tach-v3-1-carry-on",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 210.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://www.tachluggage.com/cdn/shop/files/Midblue_CO_tach_001-oct-11-2023_236_copy_2_35d14798-d0d2-4bd3-a603-326523be221e_1024x1024.jpg?v=1771431646",
+      "gallery": [
+        "https://www.tachluggage.com/cdn/shop/files/Midblue_CO_tach_001-oct-11-2023_236_copy_2_35d14798-d0d2-4bd3-a603-326523be221e_1024x1024.jpg?v=1771431646"
+      ],
+      "features": {
+        "material": {
+          "value": "PC/ABS composite",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "22 × 14 × 9 in overall",
+          "basis": "Product-page specification"
+        },
+        "handle": {
+          "value": "Attachable cases can be rolled together.",
+          "basis": "Brand describes connected handling"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.tachluggage.com/products/tach-v3-1-carry-on",
+      "photoKind": "model-reference",
+      "photoCaption": "V3.1 Carry-On · 20 in · 41 L · Midnight Blue",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-8c0de716",
+      "offerId": "offer-8c0de716",
+      "brandId": "the-north-face",
+      "brand": "The North Face",
+      "model": "Base Camp Voyager 21 Roller · 21 in · TNF Black/TNF White",
+      "source": "https://www.thenorthface.com/en-us/p/bags-and-gear/luggage-and-duffels/rolling-luggage-224545/base-camp-voyager-21-roller-NF0A52UD?color=53R",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 260.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://assets.thenorthface.com/images/t_Thumbnail/v1723448082/NF0A52UD53R-HERO/Base-Camp-Voyager-21-Roller-TNF-HERO.png",
+      "gallery": [
+        "https://assets.thenorthface.com/images/t_Thumbnail/v1723448082/NF0A52UD53R-HERO/Base-Camp-Voyager-21-Roller-TNF-HERO.png",
+        "https://assets.thenorthface.com/images/t_img/c_fill,ar_4:5,f_auto,h_625,e_sharpen:60,w_500/dpr_2.0/v1723448081/NF0A52UD53R-INT/Base-Camp-Voyager-21-Roller-TNF-INT.png"
+      ],
+      "features": {
+        "material": {
+          "value": "300D recycled polyester with TPU coating",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "35.6 × 23.8 × 54.6 cm",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Two-wheel roller with laptop sleeve",
+          "basis": "Product-page specification"
+        },
+        "laptop": {
+          "value": "Two-wheel roller with laptop sleeve",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.thenorthface.com/en-us/p/bags-and-gear/luggage-and-duffels/rolling-luggage-224545/base-camp-voyager-21-roller-NF0A52UD?color=53R",
+      "photoKind": "model-reference",
+      "photoCaption": "Base Camp Voyager 21 Roller · 21 in · TNF Black/TNF White",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-922dd030",
+      "offerId": "offer-922dd030",
+      "brandId": "thule",
+      "brand": "Thule",
+      "model": "Subterra 2 Carry-On Spinner · 35 L · 55 cm · Black",
+      "source": "https://www.thule.com/en-us/luggage/carry-on-luggage/thule-subterra-carry-on-spinner-_-3205046",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 399.95,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://www.thule.com/-/p/Byu3Cm1QjzbAe2EyvTraGFxRzw74LFcWwOPRjYIceM0/rs:fit/h:900/cb:2.1/w:900/plain/approved/std.lang.all/76/56/1617656.png",
+      "gallery": [
+        "https://www.thule.com/-/p/Byu3Cm1QjzbAe2EyvTraGFxRzw74LFcWwOPRjYIceM0/rs:fit/h:900/cb:2.1/w:900/plain/approved/std.lang.all/76/56/1617656.png",
+        "https://www.thule.com/-/p/iXo6BCFrgaOiTFne5dR9v54d3F06on04Utfnas5WXtM/rs:fit/h:900/cb:1.2/w:900/plain/approved/std.lang.all/68/95/1746895.png"
+      ],
+      "features": {
+        "material": {
+          "value": "Nylon, polyester, molded polycarbonate back panel",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "14 × 9 × 21.7 in",
+          "basis": "Product-page specification"
+        },
+        "compression": {
+          "value": "Removable compression panel and fold-flat divider",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Europe",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.thule.com/en-us/luggage/carry-on-luggage/thule-subterra-carry-on-spinner-_-3205046",
+      "photoKind": "model-reference",
+      "photoCaption": "Subterra 2 Carry-On Spinner · 35 L · 55 cm · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-4590f92d",
+      "offerId": "offer-4590f92d",
+      "brandId": "tommy-hilfiger",
+      "brand": "Tommy Hilfiger",
+      "model": "Hardcase Spinner · 21 in",
+      "source": "https://usa.tommy.com/en/men/shoes-accessories/bags-wallets/21%22-hardcase-spinner-luggage/199411948527.html",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 138.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://shoptommy.scene7.com/is/image/ShopTommy/TG001966_001_main",
+      "gallery": [
+        "https://shoptommy.scene7.com/is/image/ShopTommy/TG001966_001_main",
+        "https://shoptommy.scene7.com/is/image/ShopTommy/TG001966_001_alternate7"
+      ],
+      "features": {
+        "material": {
+          "value": "ABS and composite polycarbonate",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "22.4 H × 14 L × 10.6 W in with wheels and handles",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Hardcase spinner",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://usa.tommy.com/en/men/shoes-accessories/bags-wallets/21%22-hardcase-spinner-luggage/199411948527.html",
+      "photoKind": "model-reference",
+      "photoCaption": "Hardcase Spinner · 21 in",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-669a1699",
+      "offerId": "offer-669a1699",
+      "brandId": "travelhouse",
+      "brand": "Travelhouse",
+      "model": "Underseat Hardside Carry-On · 20 in · Black",
+      "source": "https://business.walmart.com/ip/Travelhouse-Hardshell-Carry-On-Luggage-20-Lightweight-Hardside-Suitcase-With-Silent-Spinner-Wheels-Black/1397398854?classType=undefined&variantFieldId=actual_color",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 37.99,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://i5.walmartimages.com/seo/Travelhouse-20-Underseat-Hard-Sided-Carry-On-Luggage-Spinner-Wheels-ABS-Black_403680b0-4033-420e-bb06-21844c183d05.400f3ccc84bb8752302596777fddc34c.jpeg",
+      "gallery": [
+        "https://i5.walmartimages.com/seo/Travelhouse-20-Underseat-Hard-Sided-Carry-On-Luggage-Spinner-Wheels-ABS-Black_403680b0-4033-420e-bb06-21844c183d05.400f3ccc84bb8752302596777fddc34c.jpeg"
+      ],
+      "features": {
+        "material": {
+          "value": "ABS",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Spinner wheels, elastic straps and mesh zip pocket",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "Multi-region / unverified",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://business.walmart.com/ip/Travelhouse-Hardshell-Carry-On-Luggage-20-Lightweight-Hardside-Suitcase-With-Silent-Spinner-Wheels-Black/1397398854?classType=undefined&variantFieldId=actual_color",
+      "photoKind": "model-reference",
+      "photoCaption": "Underseat Hardside Carry-On · 20 in · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-4f33f2a3",
+      "offerId": "offer-4f33f2a3",
+      "brandId": "travelite",
+      "brand": "travelite",
+      "model": "Air Base Trolley S · S · Anthracite",
+      "source": "https://www.travelite.com/en/AIR-BASE-Trolley-S/075347-04",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 129.95,
+      "currency": "EUR",
+      "priceDate": "2026-11-09",
+      "image": "https://www.travelite.com/media/05/29/b6/1750422771/travelite-hartschalenkoffer-airbase-trolley-s-anthrazit-schraegansicht.webp?ts=1754312040",
+      "gallery": [
+        "https://www.travelite.com/media/05/29/b6/1750422771/travelite-hartschalenkoffer-airbase-trolley-s-anthrazit-schraegansicht.webp?ts=1754312040",
+        "https://www.travelite.com/media/e6/d9/88/1750422771/travelite-hartschalenkoffer-airbase-trolley-s-anthrazit-innenansicht.webp?ts=1754312026"
+      ],
+      "features": {
+        "material": {
+          "value": "Polypropylene",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "39 × 55 × 20 cm",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "Divided packing compartments",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Europe",
+      "market": "Germany",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.travelite.com/en/AIR-BASE-Trolley-S/075347-04",
+      "photoKind": "model-reference",
+      "photoCaption": "Air Base Trolley S · S · Anthracite",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-3d58f7ba",
+      "offerId": "offer-3d58f7ba",
+      "brandId": "tumi",
+      "brand": "TUMI",
+      "model": "19 Degree Carry-On (Tegris) · Carry-On",
+      "source": "https://www.tumi.com/p/carry-on-0154200T491",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 679.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://tumi.scene7.com/is/image/Tumi/154200T491_main?wid=1020&hei=1238",
+      "gallery": [
+        "https://tumi.scene7.com/is/image/Tumi/154200T491_main?wid=1020&hei=1238",
+        "https://tumi.scene7.com/is/image/Tumi/154200T491_alt1?wid=1020&hei=1238"
+      ],
+      "features": {
+        "material": {
+          "value": "Tegris shell",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Lightweight four-wheel carry-on",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://www.tumi.com/p/carry-on-0154200T491",
+      "photoKind": "model-reference",
+      "photoCaption": "19 Degree Carry-On (Tegris) · Carry-On",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-bd302c17",
+      "offerId": "offer-bd302c17",
+      "brandId": "uppercase",
+      "brand": "uppercase",
+      "model": "JFK Cabin Trolley · Cabin · Black",
+      "source": "https://uppercase.co.in/products/jfk-black-cabin-trolley",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 2349.0,
+      "currency": "INR",
+      "priceDate": "2026-11-09",
+      "image": "https://uppercase.co.in/cdn/shop/files/5100eht1blk_01.png?v=1757258616",
+      "gallery": [
+        "https://uppercase.co.in/cdn/shop/files/5100eht1blk_01.png?v=1757258616"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "40 L × 26.5 W × 55.5 H cm",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "Asia",
+      "market": "India",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://uppercase.co.in/products/jfk-black-cabin-trolley",
+      "photoKind": "model-reference",
+      "photoCaption": "JFK Cabin Trolley · Cabin · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-e0be1efe",
+      "offerId": "offer-e0be1efe",
+      "brandId": "verage",
+      "brand": "VERAGE",
+      "model": "Expandable Hardside Carry-On · 20 in · Blue",
+      "source": "https://www.homedepot.com/p/321940627?MERCH=REC-_-brand_based_collection-_-321940254-_-0-_-n%2Fa-_-n%2Fa-_-n%2Fa-_-n%2Fa-_-n%2Fa",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 170.6,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://images.thdstatic.com/productImages/4a4e0acf-2c46-44c5-ac2e-a5cc683d95bd/svn/blue-verage-suitcases-gm20062w-ii-20-blue-64_100.jpg",
+      "gallery": [
+        "https://images.thdstatic.com/productImages/4a4e0acf-2c46-44c5-ac2e-a5cc683d95bd/svn/blue-verage-suitcases-gm20062w-ii-20-blue-64_100.jpg",
+        "https://images.thdstatic.com/productImages/4e3f607a-a3bc-4912-9d44-ac652a6c6804/svn/blue-verage-suitcases-gm20062w-ii-20-blue-4f_100.jpg"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate",
+          "basis": "Product-page specification"
+        },
+        "expansion": {
+          "value": "Expandable spinner with a four-position telescoping handle",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "Not verified",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://www.homedepot.com/p/321940627?MERCH=REC-_-brand_based_collection-_-321940254-_-0-_-n%2Fa-_-n%2Fa-_-n%2Fa-_-n%2Fa-_-n%2Fa",
+      "photoKind": "model-reference",
+      "photoCaption": "Expandable Hardside Carry-On · 20 in · Blue",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-91f4e218",
+      "offerId": "offer-91f4e218",
+      "brandId": "victorinox",
+      "brand": "Victorinox",
+      "model": "Crosslight Frequent Flyer Plus Softside Carry-On · Frequent Flyer Plus · Black",
+      "source": "https://www.victorinox.com/en-US/Products/Travel-Gear/Carry-On-Bags/Crosslight-Frequent-Flyer-Plus-Softside-Carry-On/p/612419/",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 425.0,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://imageengine.victorinox.com/transform/47a17d29-9bdc-45cf-9f9d-32e1f3fec3da/TGE_612419_S_FL3?io=transform%3Abackground%2Ccolor%3AF0F0F0&io=transform%3Afit%2Cwidth%3A900%2Cheight%3A650&quality=100",
+      "gallery": [
+        "https://imageengine.victorinox.com/transform/47a17d29-9bdc-45cf-9f9d-32e1f3fec3da/TGE_612419_S_FL3?io=transform%3Abackground%2Ccolor%3AF0F0F0&io=transform%3Afit%2Cwidth%3A900%2Cheight%3A650&quality=100",
+        "https://imageengine.victorinox.com/transform/ffc2dfb3-5fd7-4ffd-8d84-94769b5ca270/TGE_612419_S_PR?io=transform%3Abackground%2Ccolor%3AF0F0F0&io=transform%3Afit%2Cwidth%3A900%2Cheight%3A650&quality=100"
+      ],
+      "features": {
+        "material": {
+          "value": "Polyester",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "22.8 H × 9.8 L × 15 W in",
+          "basis": "Product-page specification"
+        },
+        "expansion": {
+          "value": "Expansion adds up to 1.2 in of depth",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Europe",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.victorinox.com/en-US/Products/Travel-Gear/Carry-On-Bags/Crosslight-Frequent-Flyer-Plus-Softside-Carry-On/p/612419/",
+      "photoKind": "model-reference",
+      "photoCaption": "Crosslight Frequent Flyer Plus Softside Carry-On · Frequent Flyer Plus · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-f9f344b3",
+      "offerId": "offer-f9f344b3",
+      "brandId": "wings",
+      "brand": "WINGS",
+      "model": "Cockatiel · 20 in · Black",
+      "source": "https://wings24.pl/products/walizka-kabinowa-wings-cockatiel-polipropylen-20-black",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 219.9,
+      "currency": "PLN",
+      "priceDate": "2026-11-09",
+      "image": "https://wings24.pl/cdn/shop/files/54306.png?v=1780349313&width=1500",
+      "gallery": [
+        "https://wings24.pl/cdn/shop/files/54306.png?v=1780349313&width=1500",
+        "https://cdn.shopify.com/s/files/1/0973/0673/9030/files/49357.png?v=1780349329"
+      ],
+      "features": {
+        "material": {
+          "value": "Polypropylene",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "55 × 39 × 20 cm",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Four swivel wheels, two compartments and TSA lock",
+          "basis": "Product-page specification"
+        },
+        "lock": {
+          "value": "Four swivel wheels, two compartments and TSA lock",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Europe",
+      "market": "Poland",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://wings24.pl/products/walizka-kabinowa-wings-cockatiel-polipropylen-20-black",
+      "photoKind": "model-reference",
+      "photoCaption": "Cockatiel · 20 in · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-3bdc5ca",
+      "offerId": "offer-3bdc5ca",
+      "brandId": "wittchen",
+      "brand": "WITTCHEN",
+      "model": "Wave Line Cabin Suitcase · Small · 38 L · White",
+      "source": "https://www.wittchen.com/walizka-kabinowa-z-abs-u-falowana-bialy%2Cp7129332",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 149.9,
+      "currency": "PLN",
+      "priceDate": "2026-11-09",
+      "image": "https://static.wittchen.com/zdjecia/walizka-kabinowa-z-abs-u-falowana-1-56-3A-351-88/635143a0af7a4",
+      "gallery": [
+        "https://static.wittchen.com/zdjecia/walizka-kabinowa-z-abs-u-falowana-1-56-3A-351-88/635143a0af7a4",
+        "https://static.wittchen.com/zdjecia/walizka-kabinowa-z-abs-u-falowana-5-56-3A-351-88/635143a282732?s=545"
+      ],
+      "features": {
+        "material": {
+          "value": "ABS",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "55 H × 40 W × 23 D cm",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Four wheels and a divided interior",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Europe",
+      "market": "Poland",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.wittchen.com/walizka-kabinowa-z-abs-u-falowana-bialy%2Cp7129332",
+      "photoKind": "model-reference",
+      "photoCaption": "Wave Line Cabin Suitcase · Small · 38 L · White",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-355a0f33",
+      "offerId": "offer-355a0f33",
+      "brandId": "wrangler",
+      "brand": "Wrangler",
+      "model": "Spinner Carry-On · 22.5 in · Dark Charcoal",
+      "source": "https://www.wrangler.com/shop/22.5-spinner-carry-on-luggage-in-dark-charcoal-112369282.html",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 49.99,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://images.wrangler.com/is/image/Wrangler/112369282-HERO?$PDP24-XXLARGE$&fit=crop",
+      "gallery": [
+        "https://images.wrangler.com/is/image/Wrangler/112369282-HERO?$PDP24-XXLARGE$&fit=crop",
+        "https://images.wrangler.com/is/image/Wrangler/112369282-ALT1?$PDP24-SMALL$"
+      ],
+      "features": {
+        "material": {
+          "value": "ABS",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "13.75 × 8.5 × 22.5 in",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Four spinner wheels and locking telescopic handle",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.wrangler.com/shop/22.5-spinner-carry-on-luggage-in-dark-charcoal-112369282.html",
+      "photoKind": "model-reference",
+      "photoCaption": "Spinner Carry-On · 22.5 in · Dark Charcoal",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-7daef43f",
+      "offerId": "offer-7daef43f",
+      "brandId": "xiaomi",
+      "brand": "Xiaomi",
+      "model": "Luggage Classic Pro · 20 in · 39 L · Black",
+      "source": "https://www.mi.com/global/product/xiaomi-luggage-classic-pro/specs/",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 109.99,
+      "currency": "EUR",
+      "priceDate": "2026-11-09",
+      "image": "https://shopxiaomi.ie/cdn/shop/files/E71028313_Xiaomi_Luggage_Classic_Pro_20__Black_15c151f0-7b90-451e-9fd3-4ef27c0fa049_1000x.png?v=1752761430",
+      "gallery": [
+        "https://shopxiaomi.ie/cdn/shop/files/E71028313_Xiaomi_Luggage_Classic_Pro_20__Black_15c151f0-7b90-451e-9fd3-4ef27c0fa049_1000x.png?v=1752761430"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate shell, polyester lining",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "560 × 370 × 230 mm including wheels, handle and studs",
+          "basis": "Product-page specification"
+        },
+        "handle": {
+          "value": "Flat top with recessed handle and double-row zipper",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Asia",
+      "market": "Ireland",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://shopxiaomi.ie/products/xiaomi-luggage-classic-pro-20",
+      "photoKind": "model-reference",
+      "photoCaption": "Luggage Classic Pro · 20 in · 39 L · Black",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-8d4a9b73",
+      "offerId": "offer-8d4a9b73",
+      "brandId": "xiaomi",
+      "brand": "Xiaomi",
+      "model": "Luggage Classic Pro · 20 in · 39 L · Grey",
+      "source": "https://www.mi.com/global/product/xiaomi-luggage-classic-pro/specs/",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 79.99,
+      "currency": "EUR",
+      "priceDate": "2026-11-09",
+      "image": "https://shopxiaomi.ie/cdn/shop/files/E71028314_Xiaomi_Luggage_Classic_Pro_20__Grey_0a8c5328-7fcf-494a-ab8b-ea61717a7896_1000x.png?v=1752761430",
+      "gallery": [
+        "https://shopxiaomi.ie/cdn/shop/files/E71028314_Xiaomi_Luggage_Classic_Pro_20__Grey_0a8c5328-7fcf-494a-ab8b-ea61717a7896_1000x.png?v=1752761430"
+      ],
+      "features": {
+        "material": {
+          "value": "Polycarbonate shell, polyester lining",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "560 × 370 × 230 mm including wheels, handle and studs",
+          "basis": "Product-page specification"
+        },
+        "handle": {
+          "value": "Flat top with recessed handle and double-row zipper",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 3,
+      "region": "Asia",
+      "market": "Ireland",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://shopxiaomi.ie/products/xiaomi-luggage-classic-pro-20",
+      "photoKind": "model-reference",
+      "photoCaption": "Luggage Classic Pro · 20 in · 39 L · Grey",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-8ff12ea2",
+      "offerId": "offer-8ff12ea2",
+      "brandId": "bubule",
+      "brand": "BUBULE",
+      "model": "Lightweight PP Luggage Set · 20 / 24 in set",
+      "source": "https://lazood.com/en/product/bubule-lightweight-pp-luggage-set/",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 380.0,
+      "currency": "AED",
+      "priceDate": "2026-11-09",
+      "image": "https://lazood.com/wp-content/uploads/2025/07/Bubule-Lightweight-PP-Luggage-Set.png",
+      "gallery": [
+        "https://lazood.com/wp-content/uploads/2025/07/Bubule-Lightweight-PP-Luggage-Set.png"
+      ],
+      "features": {
+        "material": {
+          "value": "Polypropylene",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Reinforced aluminum trolley and spinner wheels",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "Asia",
+      "market": "United Arab Emirates",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Set",
+      "photoScope": "Source gallery reference where available.",
+      "photoSource": "https://lazood.com/en/product/bubule-lightweight-pp-luggage-set/",
+      "photoKind": "model-reference",
+      "photoCaption": "Lightweight PP Luggage Set · 20 / 24 in set",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-ad671e1a",
+      "offerId": "offer-ad671e1a",
+      "brandId": "ted-baker",
+      "brand": "Ted Baker",
+      "model": "Midnight Bloom 4-Wheel Cabin Suitcase · 55 cm · Midnight Bloom",
+      "source": "https://www.clarks.com/en-gb/ted-baker-midnight-bloom-55cm-4-wheel-cabin-suitcase/S1100014218-p",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 149.0,
+      "currency": "GBP",
+      "priceDate": "2026-11-09",
+      "image": "https://cdn.media.amplience.net/i/clarks/uk-QWR2ZXJ0LTEwMDAxNDIxOA_GW_1",
+      "gallery": [
+        "https://cdn.media.amplience.net/i/clarks/uk-QWR2ZXJ0LTEwMDAxNDIxOA_GW_1",
+        "https://cdn.media.amplience.net/i/clarks/uk-QWR2ZXJ0LTEwMDAxNDIxOA_GW_3?fmt=auto&img404=imageNotFound&w=2088&qlt=75"
+      ],
+      "features": {
+        "material": {
+          "value": "ABS/PC",
+          "basis": "Product-page specification"
+        },
+        "dimensions": {
+          "value": "55 × 40 × 20 cm",
+          "basis": "Product-page specification"
+        },
+        "wheels": {
+          "value": "Four double wheels, jacquard lining and integrated TSA lock",
+          "basis": "Product-page specification"
+        },
+        "lock": {
+          "value": "Four double wheels, jacquard lining and integrated TSA lock",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Europe",
+      "market": "United Kingdom",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.clarks.com/en-gb/ted-baker-midnight-bloom-55cm-4-wheel-cabin-suitcase/S1100014218-p",
+      "photoKind": "model-reference",
+      "photoCaption": "Midnight Bloom 4-Wheel Cabin Suitcase · 55 cm · Midnight Bloom",
+      "opportunity": ""
+    },
+    {
+      "id": "offer-99302a85",
+      "offerId": "offer-99302a85",
+      "brandId": "vince-camuto",
+      "brand": "Vince Camuto",
+      "model": "Ivor 3-Piece Luggage Set · 20 / 24 / 28 in set · Black",
+      "source": "https://www.belk.com/p/vince-camuto-ivor-3-pc--set-202428-luggage/0438753872689.html",
+      "checked": "2026-11-09",
+      "scope": "Specifications apply to the identified listing.",
+      "price": 321.3,
+      "currency": "USD",
+      "priceDate": "2026-11-09",
+      "image": "https://belk.scene7.com/is/image/Belk?layer=0&src=6200426_VCL00453K_A_001&layer=comp&",
+      "gallery": [
+        "https://belk.scene7.com/is/image/Belk?layer=0&src=6200426_VCL00453K_A_001&layer=comp&"
+      ],
+      "features": {
+        "material": {
+          "value": "Polyester",
+          "basis": "Product-page specification"
+        },
+        "organization": {
+          "value": "Set includes two packing cubes",
+          "basis": "Product-page specification"
+        }
+      },
+      "featureCount": 2,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Set",
+      "photoScope": "See the offer photo audit for exact matching.",
+      "photoSource": "https://www.belk.com/p/vince-camuto-ivor-3-pc--set-202428-luggage/0438753872689.html",
+      "photoKind": "model-reference",
+      "photoCaption": "Ivor 3-Piece Luggage Set · 20 / 24 / 28 in set · Black",
+      "opportunity": ""
     }
   ],
   "brandCount": 174,
-  "geographicScope": "Worldwide discovery across all 173 recorded brand profiles; not an exhaustive worldwide brand or SKU census.",
+  "geographicScope": "Worldwide discovery across 174 recorded brand profiles. Assortment coverage is partial.",
   "researchRefresh": {
     "checked": "2026-11-04",
     "description": "Source model images relinked; selected product descriptions and repair guidance researched; unverified fields remain unknown."
