@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -4871,6 +4871,2327 @@
       "checked": "2026-11-08",
       "remoteReference": true,
       "scope": "Launch publicity photo; individual color and inside view unverified."
+    },
+    {
+      "id": "coverage-airwheel-0a51473c00131613",
+      "brandId": "airwheel",
+      "view": "Exterior",
+      "caption": "Airwheel · SE3S · 20 L · Black · Exterior",
+      "source": "https://www.bhphotovideo.com/c/product/1859475-REG/airwheel_se3s_smart_riding_suitcase.html/overview",
+      "imageUrl": "https://www.bhphotovideo.com/images/fb/airwheel_se3s_smart_riding_suitcase_1859475.jpg",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-airwheel-0a51473c00131613.webp",
+      "offerId": "offer-3e787fea",
+      "identity": {
+        "model": "SE3S",
+        "size": "20 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "AISE3S"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "6eec4b26a256bc4185f250b27c71f99ee55404382e88a14618ba39eeeb517f0c",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-american-flyer-8093a7338eb33551",
+      "brandId": "american-flyer",
+      "view": "Exterior",
+      "caption": "American Flyer · Pemberly Buckles 5-Piece Set · 5-piece set · Dark Brown · Exterior",
+      "source": "https://www.macys.com/shop/product/american-flyer-pemberly-buckles-5-piece-luggage-set?ID=11098911",
+      "imageUrl": "https://slimages.macysassets.com/is/image/MCY/products/5/optimized/17161635_fpx.tif",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-american-flyer-8093a7338eb33551.webp",
+      "offerId": "offer-cef195e0",
+      "identity": {
+        "model": "Pemberly Buckles 5-Piece Set",
+        "size": "5-piece set",
+        "color": "Dark Brown",
+        "revision": null,
+        "sku": "40413068754USA"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "66b91d53a2ddee3d4a7ea17e4cee55ba1ec0a27f6c27711f9a5d22a1958c624d",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-american-flyer-057fef72cda00a81",
+      "brandId": "american-flyer",
+      "view": "Exterior",
+      "caption": "American Flyer · Pemberly Buckles 5-Piece Set · 5-piece set · Green · Exterior",
+      "source": "https://www.macys.com/shop/product/american-flyer-pemberly-buckles-5-piece-luggage-set?ID=11098911",
+      "imageUrl": "https://slimages.macysassets.com/is/image/MCY/products/9/optimized/17161009_fpx.tif",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-american-flyer-057fef72cda00a81.webp",
+      "offerId": "offer-e711f373",
+      "identity": {
+        "model": "Pemberly Buckles 5-Piece Set",
+        "size": "5-piece set",
+        "color": "Green",
+        "revision": null,
+        "sku": "40413012146USA"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "81468c56d4b2639744a44b9808cf9ab2471688b36914ff9cc88baff72e7c658b",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-aristocrat-91dc5d55ab49c653",
+      "brandId": "aristocrat",
+      "view": "Exterior",
+      "caption": "Aristocrat · Armour Plus · Cabin · 29 L · Midnight Blue · Exterior",
+      "source": "https://vipbags.com/products/aristocrat-armour-plus-cabin",
+      "imageUrl": "https://vipbags.com/cdn/shop/files/0_89df9d30-4153-4704-908f-363d6a109cbf.webp?v=1785336096&width=1920",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-aristocrat-91dc5d55ab49c653.webp",
+      "offerId": "offer-745028f9",
+      "identity": {
+        "model": "Armour Plus",
+        "size": "Cabin · 29 L",
+        "color": "Midnight Blue",
+        "revision": null,
+        "sku": "ARMPLS55MIB"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "674d52ad70128b1897d3a8b0e67f0b04721010980adef5828916e034f405426c",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-aristocrat-e4d0ea1401ac4be9",
+      "brandId": "aristocrat",
+      "view": "Interior",
+      "caption": "Aristocrat · Armour Plus · Cabin · 29 L · Midnight Blue · Interior",
+      "source": "https://vipbags.com/products/aristocrat-armour-plus-cabin",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0664/5370/0679/files/6_e50a2d3e-2999-4486-8304-9e5426c0f1af.webp?v=1785336102",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-aristocrat-e4d0ea1401ac4be9.webp",
+      "offerId": "offer-745028f9",
+      "identity": {
+        "model": "Armour Plus",
+        "size": "Cabin · 29 L",
+        "color": "Midnight Blue",
+        "revision": null,
+        "sku": "ARMPLS55MIB"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "8af950c7559b34648861c1ed6881f08deb133de53c88847eb064713cbcf05a94",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-artrips-a5bff3cc037af25e",
+      "brandId": "artrips",
+      "view": "Exterior",
+      "caption": "artrips · Pillow Design Carry-On · 20 in · White · Exterior",
+      "source": "https://artripsgo.com/products/artrips-carry-on-luggage-with-8-spinner-wheels-20spinner-luggage-with-pillow-design-pc-lightweight-hardside-luggage",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0588/9900/5476/files/11_768ce495-ceb8-412d-b4fa-dea8b75136bc.png?v=1720581073",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-artrips-a5bff3cc037af25e.webp",
+      "offerId": "offer-5d60fadf",
+      "identity": {
+        "model": "Pillow Design Carry-On",
+        "size": "20 in",
+        "color": "White",
+        "revision": null,
+        "sku": "USPillow-20inch-White"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "8d770889244a54719d9ef93c59d8260cb7db20869e9d1b9578ec63f86880f29c",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-artrips-6c7f4f6b5fc7ac0f",
+      "brandId": "artrips",
+      "view": "Interior",
+      "caption": "artrips · Pillow Design Carry-On · 20 in · White · Interior",
+      "source": "https://artripsgo.com/products/artrips-carry-on-luggage-with-8-spinner-wheels-20spinner-luggage-with-pillow-design-pc-lightweight-hardside-luggage",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0588/9900/5476/files/15_cad7231a-f59a-4145-aad6-b8b1b4fba97e.png?v=1720581074",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-artrips-6c7f4f6b5fc7ac0f.webp",
+      "offerId": "offer-5d60fadf",
+      "identity": {
+        "model": "Pillow Design Carry-On",
+        "size": "20 in",
+        "color": "White",
+        "revision": null,
+        "sku": "USPillow-20inch-White"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "edafc5e7f33e4bcf4b5f71a220b58a1f1e530f15bec83bab0517786aabd9dcf8",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-bebe-d3a906b5c24521ea",
+      "brandId": "bebe",
+      "view": "Exterior",
+      "caption": "bebe · Carissa · 21 in · Black · Exterior",
+      "source": "https://www.macys.com/shop/product/bebe-carissa-21-hardside-carry-on-spinner?ID=8886501",
+      "imageUrl": "https://slimages.macysassets.com/is/image/MCY/products/0/optimized/12344110_fpx.tif",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-bebe-d3a906b5c24521ea.webp",
+      "offerId": "offer-54b5170f",
+      "identity": {
+        "model": "Carissa",
+        "size": "21 in",
+        "color": "Black",
+        "revision": null,
+        "sku": "844040058696USA"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "742111ce5b5d0db1caf64bbed2cb2984c6071515bb06479f8450e8d049b40502",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-bellroy-d3d1bf6b61b8757e",
+      "brandId": "bellroy",
+      "view": "Exterior",
+      "caption": "Bellroy · Transit Carry-On · 41 L · Black · Exterior",
+      "source": "https://www.sportsbasement.com/products/transit-carry-on",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0751/7203/files/100298365-BLK-1.png?v=1762375583",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-bellroy-d3d1bf6b61b8757e.webp",
+      "offerId": "offer-d537cfda",
+      "identity": {
+        "model": "Transit Carry-On",
+        "size": "41 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "C063010001"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "4867e9fcfff37f11b5fd078df72f3edfc6209a4993e137c182d6dd0c934017d6",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-bellroy-98b8b2b656914218",
+      "brandId": "bellroy",
+      "view": "Interior",
+      "caption": "Bellroy · Transit Carry-On · 41 L · Black · Interior",
+      "source": "https://www.sportsbasement.com/products/transit-carry-on",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0751/7203/files/100298365-BLK-3.png?v=1762375583",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-bellroy-98b8b2b656914218.webp",
+      "offerId": "offer-d537cfda",
+      "identity": {
+        "model": "Transit Carry-On",
+        "size": "41 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "C063010001"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "6a031c5e279429f13262e3f360f3750975f653000eeb6100155d7e0b77072ad6",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-ben-sherman-e0e1949bf304acbc",
+      "brandId": "ben-sherman",
+      "view": "Exterior",
+      "caption": "Ben Sherman · Leicester · 20 in · Exterior",
+      "source": "https://www.qvc.com/p/Ben-Sherman-Leicester-20-Hardside-Spinner-Carry-On-Suitcase/F232846",
+      "imageUrl": "https://qvc.scene7.com/is/image/QVC/f/46/f232846.001",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-boss-d7a86be8ce7b8f02",
+      "brandId": "boss",
+      "view": "Exterior",
+      "caption": "BOSS · BOSS × Samsonite Aluminium Cabin · 55 cm · Silver · Exterior",
+      "source": "https://www.hugoboss.com/ad/en/boss-samsonite-silver-tone-aluminium-cabin-size-suitcase-55cm/hbeu58448864_001.html",
+      "imageUrl": "https://images.hugoboss.com/is/image/boss/hbeu58448864_001_200?$large$&fit=crop,1&align=0,0",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-boss-d7a86be8ce7b8f02.webp",
+      "offerId": "offer-d40d0fe4",
+      "identity": {
+        "model": "BOSS × Samsonite Aluminium Cabin",
+        "size": "55 cm",
+        "color": "Silver",
+        "revision": null,
+        "sku": "5400520328151"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "864e1f44b9152eab528738284d949cef1ca9893ecfd8fa5940b9fd9d81ee619c",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-boss-d081a1092941831e",
+      "brandId": "boss",
+      "view": "Interior",
+      "caption": "BOSS · BOSS × Samsonite Aluminium Cabin · 55 cm · Silver · Interior",
+      "source": "https://www.hugoboss.com/ad/en/boss-samsonite-silver-tone-aluminium-cabin-size-suitcase-55cm/hbeu58448864_001.html",
+      "imageUrl": "https://images.hugoboss.com/is/image/boss/hbeu58448864_001_240?$large$&fit=crop,1&align=0,0",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-boss-d081a1092941831e.webp",
+      "offerId": "offer-d40d0fe4",
+      "identity": {
+        "model": "BOSS × Samsonite Aluminium Cabin",
+        "size": "55 cm",
+        "color": "Silver",
+        "revision": null,
+        "sku": "5400520328151"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "e5f4a8e1f959d5aec7586719abd9b39a77e20d7a1e0fd387cd631960edaebe1d",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-brics-10816eb8f13a36fd",
+      "brandId": "brics",
+      "view": "Exterior",
+      "caption": "Bric’s · Bellagio Carry-On · 21 in · 40 L · Cream · Exterior",
+      "source": "https://bricstore.com/products/bellagio-21-spinner/",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0626/8652/7644/files/BBG38301.014.08_b0d87907-392e-468a-bf20-deaa604028c5.jpg?v=1740507373",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-brics-10816eb8f13a36fd.webp",
+      "offerId": "offer-d0272386",
+      "identity": {
+        "model": "Bellagio Carry-On",
+        "size": "21 in · 40 L",
+        "color": "Cream",
+        "revision": null,
+        "sku": "BBG38301.014"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "af31ce81680d7e424e3950cf80b77dd60d619e3e8d82b7c1750a8ed0b057e1d3",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-brics-1f7d3a2e300a0ae6",
+      "brandId": "brics",
+      "view": "Interior",
+      "caption": "Bric’s · Bellagio Carry-On · 21 in · 40 L · Cream · Interior",
+      "source": "https://bricstore.com/products/bellagio-21-spinner/",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0626/8652/7644/files/BBG38301.014.07_86b1f261-d1dc-4925-863e-4279d3238a62.jpg?v=1742485833",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-brics-1f7d3a2e300a0ae6.webp",
+      "offerId": "offer-d0272386",
+      "identity": {
+        "model": "Bellagio Carry-On",
+        "size": "21 in · 40 L",
+        "color": "Cream",
+        "revision": null,
+        "sku": "BBG38301.014"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "55494f85abe586c5646dcca12c8fbac076b9913415781459dad3f9c11ace3603",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-carlton-21c1bb14bc7ffe1c",
+      "brandId": "carlton",
+      "view": "Exterior",
+      "caption": "Carlton · Velocity 3-Piece Spinner Set · 21 / 25 / 29 in set · Black · Exterior",
+      "source": "https://www.luggageonline.com/products/carlton-carlton-velocity-3-piece-spinner-set",
+      "imageUrl": "https://www.luggageonline.com/cdn/shop/products/aedfb75b9cc41710dd85697d77a01121a34760bf665a7aadf0010ba6a8630778_grande.jpg?v=1614968660",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-carlton-21c1bb14bc7ffe1c.webp",
+      "offerId": "offer-b8b2f141",
+      "identity": {
+        "model": "Velocity 3-Piece Spinner Set",
+        "size": "21 / 25 / 29 in set",
+        "color": "Black",
+        "revision": null,
+        "sku": "CARLTON-3PC-BLK"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "90fba68a44c27a9aa94352afdb3ac1b40762b426ffa434194fbca2e37925fc57",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-cat-1536523ab390ecc3",
+      "brandId": "cat",
+      "view": "Exterior",
+      "caption": "Cat / Caterpillar · Industrial Plate · 24 in · Black · Exterior",
+      "source": "https://shopcaterpillar.com/products/industrial-plate-24-trolley",
+      "imageUrl": "https://shopcaterpillar.com/cdn/shop/files/84759-01IIndustrialPlate20TrolleyBlack_1_78da4f5f-b2a9-4c54-bb42-f12a7cd81b9b.png?v=1738963122",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-cat-1536523ab390ecc3.webp",
+      "offerId": "offer-a08452ab",
+      "identity": {
+        "model": "Industrial Plate",
+        "size": "24 in",
+        "color": "Black",
+        "revision": null,
+        "sku": "84760-01"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "5b1a278bab19b8be11621a19cb7d4697c192c97682988c8e9ff5f4477b9713f0",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-commodore-1136a8dc7b1810c9",
+      "brandId": "commodore",
+      "view": "Exterior",
+      "caption": "Commodore / 戰車 · 9939 Series · 24 in · Exterior",
+      "source": "https://24h.pchome.com.tw/prod/DIBKVN-A900KK5IV",
+      "imageUrl": "https://img.pchome.com.tw/cs/items/DIBKVNA900KK5IV/000001_1791897364.jpg",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-crown-ae4edf299ff7a501",
+      "brandId": "crown",
+      "view": "Exterior",
+      "caption": "CROWN / 皇冠 · Airstride · 20 in · Exterior",
+      "source": "https://24h.pchome.com.tw/prod/DIBKVL-A900KARAL",
+      "imageUrl": "https://img.pchome.com.tw/cs/items/DIBKVLA900KARAL/000001_1785816050.jpg",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-crown-89410fc3469f8f81",
+      "brandId": "crown",
+      "view": "Interior",
+      "caption": "CROWN / 皇冠 · Airstride · 20 in · Interior",
+      "source": "https://24h.pchome.com.tw/prod/DIBKVL-A900KARAL",
+      "imageUrl": "https://img.pchome.com.tw/cs/items/DIBKVLA900KARAL/l000001_1785816050.jpg",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-dakine-5f2ed2b73f8f022b",
+      "brandId": "dakine",
+      "view": "Exterior",
+      "caption": "Dakine · Split 4 Wheel Carry On Roller · 48 L · Black · Exterior",
+      "source": "https://www.dakine.com/products/split-4-wheel-carry-on-48l-black?variant=41150415437904",
+      "imageUrl": "https://www.dakine.com/cdn/shop/files/SPLIT4WHEELCARRYON48L-BLACK-194626522920_10004123_BLACK-52F_MAIN_1024x1024.jpg?v=1745513373",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-dakine-5f2ed2b73f8f022b.webp",
+      "offerId": "offer-417395fa",
+      "identity": {
+        "model": "Split 4 Wheel Carry On Roller",
+        "size": "48 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "194626522920"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "e99ab2c3448d59597046c8c76e0cd3cd6c5cdb0f0a8871618cf6e9347963a451",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-dakine-920767b047412cdb",
+      "brandId": "dakine",
+      "view": "Interior",
+      "caption": "Dakine · Split 4 Wheel Carry On Roller · 48 L · Black · Interior",
+      "source": "https://www.dakine.com/products/split-4-wheel-carry-on-48l-black?variant=41150415437904",
+      "imageUrl": "https://www.dakine.com/cdn/shop/files/SPLIT4WHEELROLLERBAG48L-BLACK-194626522920_10004123_BLACK-52F-PT04_1024x1024.jpg?v=1748460172",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-dakine-920767b047412cdb.webp",
+      "offerId": "offer-417395fa",
+      "identity": {
+        "model": "Split 4 Wheel Carry On Roller",
+        "size": "48 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "194626522920"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "eddb5615545fe46f709ab9ab40f61d498031a9970cc2ae5cfd7879b28333946b",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-dejuno-d3ea5edfdd1cef7c",
+      "brandId": "dejuno",
+      "view": "Exterior",
+      "caption": "Dejuno · Compact II · 20 in · Silver · Exterior",
+      "source": "https://dejuno.com/products/compact-ii",
+      "imageUrl": "https://dejuno.com/cdn/shop/files/2321DJSILVER_FRONT.jpg?v=1735933199&width=1200",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-dejuno-d3ea5edfdd1cef7c.webp",
+      "offerId": "offer-a21f5fbb",
+      "identity": {
+        "model": "Compact II",
+        "size": "20 in",
+        "color": "Silver",
+        "revision": null,
+        "sku": null
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "baf0bf1afe93594201b30e83c0226469806910cbeefb559f91dece4f7ff7b4a3",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-dejuno-45e357a50a381e36",
+      "brandId": "dejuno",
+      "view": "Interior",
+      "caption": "Dejuno · Compact II · 20 in · Silver · Interior",
+      "source": "https://dejuno.com/products/compact-ii",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0697/2365/2309/files/2321DJSILVER_INTERIOR.jpg?v=1735933199",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-dejuno-45e357a50a381e36.webp",
+      "offerId": "offer-a21f5fbb",
+      "identity": {
+        "model": "Compact II",
+        "size": "20 in",
+        "color": "Silver",
+        "revision": null,
+        "sku": null
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "6feccd4d3db8184023551a8a4c120a106ec03b759909a2e67631975333a0474b",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-departure-880ad6fdb5eb21b9",
+      "brandId": "departure",
+      "view": "Exterior",
+      "caption": "Departure · HD517S · 22 in · Exterior",
+      "source": "https://24h.pchome.com.tw/prod/DIBKVL-A900I30SW",
+      "imageUrl": "https://img.pchome.com.tw/cs/items/DIBKVLA900I30SW/000001_1748419657.jpg",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-diplomat-cdbaf64f2f9817ec",
+      "brandId": "diplomat",
+      "view": "Exterior",
+      "caption": "Diplomat / 外交官 · HM-26072 · 20 in · Exterior",
+      "source": "https://www.momoshop.com.tw/TP/TP0009394/goodsDetail/TP00093940000043",
+      "imageUrl": "https://i7.momoshop.com.tw/1777300205/goodsimg/TP000/9394/0000/043/TP00093940000043_L_m.jpg",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-eagle-creek-f18532b556e082ca",
+      "brandId": "eagle-creek",
+      "view": "Exterior",
+      "caption": "Eagle Creek · Gear Warrior XE 4-Wheel Carry-On · 40 L · Black · Exterior",
+      "source": "https://eaglecreek.com/products/gear-warrior-xe-4-wheeled-carry-on",
+      "imageUrl": "https://eaglecreek.com/cdn/shop/files/EC030402_010_a.jpg?v=1751292833&width=1200",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-eagle-creek-f18532b556e082ca.webp",
+      "offerId": "offer-f9dd42f3",
+      "identity": {
+        "model": "Gear Warrior XE 4-Wheel Carry-On",
+        "size": "40 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "EC030402010"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "89f27343a1fb91b93b5f9171fef0e9539353a3f827798ca8c5901ef568bcfdf4",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-eagle-creek-fe911b12c18bdfa4",
+      "brandId": "eagle-creek",
+      "view": "Interior",
+      "caption": "Eagle Creek · Gear Warrior XE 4-Wheel Carry-On · 40 L · Black · Interior",
+      "source": "https://eaglecreek.com/products/gear-warrior-xe-4-wheeled-carry-on",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0554/0115/2649/files/EC030402_010_h.jpg?v=1751292833",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-eagle-creek-fe911b12c18bdfa4.webp",
+      "offerId": "offer-f9dd42f3",
+      "identity": {
+        "model": "Gear Warrior XE 4-Wheel Carry-On",
+        "size": "40 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "EC030402010"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "6859ec8b707beaead55264a7d0640bbd41eef2827ae43f7ddafa021b4703d400",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-eastpak-d88c39c2a046a18c",
+      "brandId": "eastpak",
+      "view": "Exterior",
+      "caption": "Eastpak · Trans4 Small · 44 L · Black · Exterior",
+      "source": "https://www.empireluggagecenter.com/products/eastpak-trans4-small-carry-on-spinner-luggage-44-l",
+      "imageUrl": "https://www.empireluggagecenter.com/cdn/shop/files/8c910ff6-7cc935_0684032d91ae460891716255d8c1e45a_mv2.webp?v=1777500337&width=1920",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-eastpak-d88c39c2a046a18c.webp",
+      "offerId": "offer-8c19d6eb",
+      "identity": {
+        "model": "Trans4 Small",
+        "size": "44 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "196246315821"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "dd2095828b047ac1977ebdb5614ec8d3f7bb0d69ce23ac0e0ee9c0ea741661c4",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-eastpak-e43c2e6dd9db8d85",
+      "brandId": "eastpak",
+      "view": "Interior",
+      "caption": "Eastpak · Trans4 Small · 44 L · Black · Interior",
+      "source": "https://www.empireluggagecenter.com/products/eastpak-trans4-small-carry-on-spinner-luggage-44-l",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0693/2666/7850/files/EK00080L_008_ALT003_UC75433_mMid_1024x1024_2x_f2015265-c6e9-47a7-b831-6726114b8746.webp?v=1782512103",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-eastpak-e43c2e6dd9db8d85.webp",
+      "offerId": "offer-8c19d6eb",
+      "identity": {
+        "model": "Trans4 Small",
+        "size": "44 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "196246315821"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "efe1e0fb2f39734124af1dc6094ea9aa5cb3a23b0988d3c35f8afa4d0a96215c",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-epic-e401718b01e74699",
+      "brandId": "epic",
+      "view": "Exterior",
+      "caption": "EPIC Travelgear · SPIN Cabin S · 55 cm · 40 L · Black · Exterior",
+      "source": "https://www.epictravelgear.com/en/products/epic-spin-55cm-cabin-bag-black-esp404-01",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0949/7290/3757/files/ESP404-01_2.webp?v=1772016671",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-epic-e401718b01e74699.webp",
+      "offerId": "offer-e4188aba",
+      "identity": {
+        "model": "SPIN Cabin S",
+        "size": "55 cm · 40 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "ESP404-01"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "1bea077c7364633458d53505a4b3ff4bc0408f56625e9f1ee4b357d3ccb13967",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-epic-13cb88cb001d3b70",
+      "brandId": "epic",
+      "view": "Interior",
+      "caption": "EPIC Travelgear · SPIN Cabin S · 55 cm · 40 L · Black · Interior",
+      "source": "https://www.epictravelgear.com/en/products/epic-spin-55cm-cabin-bag-black-esp404-01",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0949/7290/3757/files/ESP404-01_5.webp?v=1772016672",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-epic-13cb88cb001d3b70.webp",
+      "offerId": "offer-e4188aba",
+      "identity": {
+        "model": "SPIN Cabin S",
+        "size": "55 cm · 40 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "ESP404-01"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "0f7540717273fa11145ba3c8075e3f4099401a9ab3958152c54e8de07f8d23af",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-flylite-51df0afc4098fc62",
+      "brandId": "flylite",
+      "view": "Exterior",
+      "caption": "Flylite · Spin Air 4 · 55 cm · Grey/Lime · Exterior",
+      "source": "https://www.strandbags.com.au/products/flylite-spin-air-4-55cm-suitcase-3209022",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0556/2643/2670/files/3209022_1.png?v=1786891977",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-hanke-c44093573724eff5",
+      "brandId": "hanke",
+      "view": "Exterior",
+      "caption": "Hanke / 汉客 · Front-Opening Aluminum-Frame Carry-On · 20 in · Jet Black · Exterior",
+      "source": "https://www.walmart.com/ip/5543814026",
+      "imageUrl": "https://i5.walmartimages.com/seo/Hanke-20-Inch-Carry-On-Luggage-PC-Hard-Shell-Suitcases-for-Travel-Front-Opening-Aluminum-Frame-Tsa-Luggage-Rolling-Suitcase-with-Wheels-Jet-Black_e39ff0f8-7e0b-4d42-b94e-47c56006f1a8.fb990d3bdfafb2a05a44108f75e20446.jpeg",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-hanke-c44093573724eff5.webp",
+      "offerId": "offer-4770bbdc",
+      "identity": {
+        "model": "Front-Opening Aluminum-Frame Carry-On",
+        "size": "20 in",
+        "color": "Jet Black",
+        "revision": null,
+        "sku": "5543814026"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "a3ccd21052bd2bc78b5c4ec76a826b31db7362c8148d9b601bfe2d29929258d6",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-herschel-3b837e1bb254ece2",
+      "brandId": "herschel",
+      "view": "Exterior",
+      "caption": "Herschel · Heritage Hardshell Large Carry-On · Large Carry-On · Black · Exterior",
+      "source": "https://herschel.com/products/herschel-heritage-hardshell-large-carryon-luggage?variant=48763806646524",
+      "imageUrl": "https://herschel.com/cdn/shop/files/40101-00001-os-01-mKq806oo.jpg?v=1781470909&width=1920",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-herschel-3b837e1bb254ece2.webp",
+      "offerId": "offer-fd6f9297",
+      "identity": {
+        "model": "Heritage Hardshell Large Carry-On",
+        "size": "Large Carry-On",
+        "color": "Black",
+        "revision": null,
+        "sku": "40101-00001-OS"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "667901be69f350a9764a8865cc6d24154a4cee574a494ed091b3f22cfb6305b8",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-horizn-studios-e9263d9ccfea2b4c",
+      "brandId": "horizn-studios",
+      "view": "Exterior",
+      "caption": "Horizn Studios · H5 Essential · Cabin · All White · Exterior",
+      "source": "https://horizn-studios.com/products/h5-all-white-essential",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1956/8795/files/h5-essential-all-white-3-4-e6e5af_7d36baba-4771-4bce-a93b-2256688be007.jpg?v=1754946224",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-horizn-studios-e9263d9ccfea2b4c.webp",
+      "offerId": "offer-16484bbb",
+      "identity": {
+        "model": "H5 Essential",
+        "size": "Cabin",
+        "color": "All White",
+        "revision": null,
+        "sku": "HS5PYN"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "5cc922f2b636afc83ae51c3bb8bcfbed8f374dd5535fe2293628d68db3818f3f",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-horizn-studios-09bddd854f7a100f",
+      "brandId": "horizn-studios",
+      "view": "Interior",
+      "caption": "Horizn Studios · H5 Essential · Cabin · All White · Interior",
+      "source": "https://horizn-studios.com/products/h5-all-white-essential",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1956/8795/files/h5-essential-all-white-interior-bc1436_777c9f01-dd76-40d1-adc4-12682b525d46.jpg?v=1754946225",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-horizn-studios-09bddd854f7a100f.webp",
+      "offerId": "offer-16484bbb",
+      "identity": {
+        "model": "H5 Essential",
+        "size": "Cabin",
+        "color": "All White",
+        "revision": null,
+        "sku": "HS5PYN"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "54c726648dd6110a56dbc0923009a22664ddd65e4071eda71053259fcc485581",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-imiomo-f44e2113b7e8580c",
+      "brandId": "imiomo",
+      "view": "Exterior",
+      "caption": "imiomo · TR003-20 3-Piece Set · 3-piece set / 20 in · Light Green · Exterior",
+      "source": "https://vipoutlet.com/collections/category-home-luggage/products/imiomo-tr003-20-20-in-carry-on-suitcase-with-spinner-wheels-hardside-3pcs-set-with-tsa-lock-light-green",
+      "imageUrl": "https://vipoutlet.com/cdn/shop/files/82b6c17ce0b34592989adedbf4ef4d1c.jpg?v=1792939290",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-imiomo-f44e2113b7e8580c.webp",
+      "offerId": "offer-74ea48dc",
+      "identity": {
+        "model": "TR003-20 3-Piece Set",
+        "size": "3-piece set / 20 in",
+        "color": "Light Green",
+        "revision": null,
+        "sku": "VIP6976479332178MND"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "00cb14c489f8e850efd23fbeaf2244eabe8e23cd214fb6cfc3752b159bb7cb58",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-innovator-3f46cba2660bbf68",
+      "brandId": "innovator",
+      "view": "Exterior",
+      "caption": "innovator · Extreme Journey INV30 · 21 L · LyonsBlue · Exterior",
+      "source": "https://fas-bee.com/en-us/products/19511354",
+      "imageUrl": "https://fas-bee.com/cdn/shop/files/IN3418AU001311_001.jpg?v=1773119873&width=1920",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-innovator-3f46cba2660bbf68.webp",
+      "offerId": "offer-6fa11063",
+      "identity": {
+        "model": "Extreme Journey INV30",
+        "size": "21 L",
+        "color": "LyonsBlue",
+        "revision": null,
+        "sku": "335742355"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "a8b46202a8d9f6c04aa2ae126d54f438fe8abe7dcc35d2bb06fabb17b0bc83e6",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-kamiliant-f7ad69718b76bd41",
+      "brandId": "kamiliant",
+      "view": "Exterior",
+      "caption": "Kamiliant · Kiza · 55 cm · Black · Exterior",
+      "source": "https://www.flipkart.com/kamiliant-american-tourister-kam-kiza-sp-55cm-black-cabin-suitcase-22-inch/p/itm09a62fc74fa7d",
+      "imageUrl": "https://rukmini1.flixcart.com/image/1500/1500/xif0q/suitcase/f/y/b/-watermarked-original-imahghawckxnjhhs.jpeg?q=70",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-kamiliant-f7ad69718b76bd41.webp",
+      "offerId": "offer-c6428f0d",
+      "identity": {
+        "model": "Kiza",
+        "size": "55 cm",
+        "color": "Black",
+        "revision": null,
+        "sku": "STCGKGQPGNWTMCYZ"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "1607b0149fc36fa14e8640b70babcd12dfcf9282dad4dc7dc97e792c2fa9172d",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-kenneth-cole-reaction-a4b1f5d833f90ca3",
+      "brandId": "kenneth-cole-reaction",
+      "view": "Exterior",
+      "caption": "Kenneth Cole REACTION · Lexington Expandable Hardside Carry-On · Small · Black · Exterior",
+      "source": "https://www.macys.com/shop/product/kenneth-cole-reaction-lexington-medium-expandable-hardside-carry-on-spinner?ID=25790794",
+      "imageUrl": "https://slimages.macysassets.com/is/image/MCY/products/5/optimized/35712995_fpx.tif",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-kenneth-cole-reaction-a4b1f5d833f90ca3.webp",
+      "offerId": "offer-cb910a2f",
+      "identity": {
+        "model": "Lexington Expandable Hardside Carry-On",
+        "size": "Small",
+        "color": "Black",
+        "revision": null,
+        "sku": "618842571505USA"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "f88d454ee7686200900b56946a8481470bf306b7feea0460329887f367843e41",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-kono-293090a70fd6e0d3",
+      "brandId": "kono",
+      "view": "Exterior",
+      "caption": "KONO · K2191 · 19 in · Black · Exterior",
+      "source": "https://www.suitcasecity.co.uk/products/kono-k2191-hard-shell-luggage-with-tsa-lock",
+      "imageUrl": "https://www.suitcasecity.co.uk/cdn/shop/files/K2191L-BK-19-_1_-1000x1000_grande.jpg?v=1731411132",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-kono-293090a70fd6e0d3.webp",
+      "offerId": "offer-d17ff0c",
+      "identity": {
+        "model": "K2191",
+        "size": "19 in",
+        "color": "Black",
+        "revision": null,
+        "sku": "DE-K2191L BK 19"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "d68a8002405ca4a18b9c947a2ff958cb03d4f72e8b42c017c570378f7883899b",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-kroser-6edee9919e77ed37",
+      "brandId": "kroser",
+      "view": "Exterior",
+      "caption": "KROSER · Top-Loading Carry-On with USB · 20 in · 36 L · Black · Exterior",
+      "source": "https://www.ikroser.com/products/top-loading-carry-on-luggage-usb",
+      "imageUrl": "https://www.ikroser.com/cdn/shop/files/YX001SCK-BLK_5.jpg?v=1782198486&width=1920",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-kroser-6edee9919e77ed37.webp",
+      "offerId": "offer-71ed307e",
+      "identity": {
+        "model": "Top-Loading Carry-On with USB",
+        "size": "20 in · 36 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "YX001SCK-BLK"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "ae518ce91b2c601c68ad928053e8ba556b5008dea881f2bccc7bb0d528863154",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-kroser-c0774494b7b18bca",
+      "brandId": "kroser",
+      "view": "Interior",
+      "caption": "KROSER · Top-Loading Carry-On with USB · 20 in · 36 L · Black · Interior",
+      "source": "https://www.ikroser.com/products/top-loading-carry-on-luggage-usb",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0365/7639/5308/files/YX001SCK-BLK_2.jpg?v=1782198488",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-kroser-c0774494b7b18bca.webp",
+      "offerId": "offer-71ed307e",
+      "identity": {
+        "model": "Top-Loading Carry-On with USB",
+        "size": "20 in · 36 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "YX001SCK-BLK"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "9b6b7ef9f69c9643a555bd595812cec86a12507e0fe9503e07b5824c153b9e91",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-level8-e6ab3c9d824a3980",
+      "brandId": "level8",
+      "view": "Exterior",
+      "caption": "LEVEL8 · Road Runner Carry-On · 20 in · Navy · Exterior",
+      "source": "https://www.level8cases.com/products/level8-road-runner-carry-on-luggage-with-front-pocket-20",
+      "imageUrl": "https://www.level8cases.com/cdn/shop/products/road_runner_carry_on_navy_1024x1024.jpg?v=1727336974",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-level8-e6ab3c9d824a3980.webp",
+      "offerId": "offer-b380fd93",
+      "identity": {
+        "model": "Road Runner Carry-On",
+        "size": "20 in",
+        "color": "Navy",
+        "revision": null,
+        "sku": "LA-1679-06T00"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "f8408150fc9a68c0be96b0f1a33d7b565882ee98a19dbd47d292817187fd79d1",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-level8-12d7b91577cd263d",
+      "brandId": "level8",
+      "view": "Interior",
+      "caption": "LEVEL8 · Road Runner Carry-On · 20 in · Navy · Interior",
+      "source": "https://www.level8cases.com/products/level8-road-runner-carry-on-luggage-with-front-pocket-20",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0029/3404/6831/files/9_77e1b5fb-8322-4944-b14c-b4eeba63a006.jpg?v=1692000689",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-level8-12d7b91577cd263d.webp",
+      "offerId": "offer-b380fd93",
+      "identity": {
+        "model": "Road Runner Carry-On",
+        "size": "20 in",
+        "color": "Navy",
+        "revision": null,
+        "sku": "LA-1679-06T00"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "76b2b1e8d86a05a2c8d358f4f7dc46c7fa5f326f491f6b6d95abe91a04457b02",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-mandarina-duck-d0b78222d4324f44",
+      "brandId": "mandarina-duck",
+      "view": "Exterior",
+      "caption": "Mandarina Duck · Flyduck Trolley Cabin · Cabin · Black · Exterior",
+      "source": "https://mandarinaduck.com/en-us/products/flyduck-trolley-cabin-black-knv01651",
+      "imageUrl": "https://mandarinaduck.com/cdn/shop/files/KNV01_651_01.jpg?v=1727795278&width=1920",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-mandarina-duck-d0b78222d4324f44.webp",
+      "offerId": "offer-2c67f160",
+      "identity": {
+        "model": "Flyduck Trolley Cabin",
+        "size": "Cabin",
+        "color": "Black",
+        "revision": null,
+        "sku": "P10KNV01-651-TU"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "433b06ba54fec84a880af2c7543c20aa71a0214454e3b1fa0dc0e734dc60e969",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-montblanc-ed175de20fab6480",
+      "brandId": "montblanc",
+      "view": "Exterior",
+      "caption": "Montblanc · #MY4810 Cabin Trolley · Cabin · Blue · Exterior",
+      "source": "https://www.macys.com/shop/product/montblanc-my4810-cabin-trolley-spinner-luggage?ID=25010679",
+      "imageUrl": "https://slimages.macysassets.com/is/image/MCY/products/8/optimized/36086518_fpx.tif",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-montblanc-ed175de20fab6480.webp",
+      "offerId": "offer-9ea3a26",
+      "identity": {
+        "model": "#MY4810 Cabin Trolley",
+        "size": "Cabin",
+        "color": "Blue",
+        "revision": null,
+        "sku": "4062037126784USA"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "f2e42aeeb810491312a5de54d43846dad3c14690f74af72577d0d42dca23d066",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-nortvi-0e6036f16ad49820",
+      "brandId": "nortvi",
+      "view": "Exterior",
+      "caption": "NORTVI · Front Pocket · Cabin · Midnight Black · Exterior",
+      "source": "https://nortvi.com/product/frontpocket-midnightblack/",
+      "imageUrl": "https://nortvi.com/wp-content/uploads/2018/03/Front_Black_FrontPocket-3-1-1-1024x1024.jpg",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-nudient-f7ec8954a90e985d",
+      "brandId": "nudient",
+      "view": "Exterior",
+      "caption": "Nudient · Bold Cabin Bag V2 · Cabin · Urban Grey · Exterior",
+      "source": "https://www.nudient.com/products/bold-cabin-bag-v2-urban-grey",
+      "imageUrl": "https://www.nudient.com/cdn/shop/files/18-042-0108-0176_1.jpg?v=1782893725&width=1200",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-nudient-f7ec8954a90e985d.webp",
+      "offerId": "offer-d083cdf8",
+      "identity": {
+        "model": "Bold Cabin Bag V2",
+        "size": "Cabin",
+        "color": "Urban Grey",
+        "revision": null,
+        "sku": "18-042-0108-0176"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "f598894cc8e60a06c552bf169e8b88d4cb0f7b64a30cf8a946af50a4a092c8bd",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-nudient-e22a950e61cd5fb6",
+      "brandId": "nudient",
+      "view": "Interior",
+      "caption": "Nudient · Bold Cabin Bag V2 · Cabin · Urban Grey · Interior",
+      "source": "https://www.nudient.com/products/bold-cabin-bag-v2-urban-grey",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0584/1092/6128/files/18-042-0108-0176_9.jpg?v=1782893726",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-nudient-e22a950e61cd5fb6.webp",
+      "offerId": "offer-d083cdf8",
+      "identity": {
+        "model": "Bold Cabin Bag V2",
+        "size": "Cabin",
+        "color": "Urban Grey",
+        "revision": null,
+        "sku": "18-042-0108-0176"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "fe990f3afd987be598d3f63cca7691dcdd66f7b57ef1bc37dad4ebb0e1a896dd",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-olympia-4b56ae96ddaab522",
+      "brandId": "olympia",
+      "view": "Exterior",
+      "caption": "Olympia U.S.A. · Apache Expandable Carry-On · Carry-On · Black/Black · Exterior",
+      "source": "https://business.walmart.com/ip/Apache-21-Carry-On-Luggage/55429426",
+      "imageUrl": "https://i5.walmartimages.com/seo/Olympia-U-S-A-Apache-Expandable-Hardside-Carry-On-Luggage-Spinner-Suitcase-with-Laptop-Compartment-Black-Black_8995d8fe-8e0c-4da5-81f0-1b9991827183.0b1980a38356d791ded2d6315489b33c.jpeg",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-olympia-4b56ae96ddaab522.webp",
+      "offerId": "offer-3f76aa9c",
+      "identity": {
+        "model": "Apache Expandable Carry-On",
+        "size": "Carry-On",
+        "color": "Black/Black",
+        "revision": null,
+        "sku": "55429426"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "11d28830a4435971e0265926c30d6e3b347e972185a0322703b9619529879a0e",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-paklite-606e8ce364419a64",
+      "brandId": "paklite",
+      "view": "Exterior",
+      "caption": "Paklite · Charter · Medium · 85 L · Black · Exterior",
+      "source": "https://www.bigw.com.au/product/paklite-charter-medium-luggage-tsa-lock-spinner-travel-black-85l/p/9904558011",
+      "imageUrl": "https://www.bigw.com.au/medias/sys_master/images/images/h7e/h3f/151634202853406.jpg",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-paklite-606e8ce364419a64.webp",
+      "offerId": "offer-3963f06c",
+      "identity": {
+        "model": "Charter",
+        "size": "Medium · 85 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "9904558011"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "367f9fa5fdcf743f8cd1651da375a2c5200b8719798e89b25cbccbd6abad2cbd",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-paklite-f5c984fd8968c0ba",
+      "brandId": "paklite",
+      "view": "Interior",
+      "caption": "Paklite · Charter · Medium · 85 L · Black · Interior",
+      "source": "https://www.bigw.com.au/product/paklite-charter-medium-luggage-tsa-lock-spinner-travel-black-85l/p/9904558011",
+      "imageUrl": "https://www.bigw.com.au/medias/sys_master/images/images/hca/h4d/151634210783262.jpg",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-paklite-f5c984fd8968c0ba.webp",
+      "offerId": "offer-3963f06c",
+      "identity": {
+        "model": "Charter",
+        "size": "Medium · 85 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "9904558011"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "3a48b13c50e834d4778780b73cdcd291b719695f30ff0f19722ed9031527bfe0",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-polo-sa-d1daa35059979614",
+      "brandId": "polo-sa",
+      "view": "Exterior",
+      "caption": "Polo South Africa · Classic Carry-On Trolley · Carry-On · Exterior",
+      "source": "https://www.polo.co.za/carry-on-luggage-trolley-s302088215700232014",
+      "imageUrl": "https://www.polo.co.za/api/catalog/product/p/o/po44250_small_4_wheel_trolley_black82425_copy.jpg?width=265&height=265&store=default&image-type=image",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-polo-sa-0765a74b2fe77aff",
+      "brandId": "polo-sa",
+      "view": "Interior",
+      "caption": "Polo South Africa · Classic Carry-On Trolley · Carry-On · Interior",
+      "source": "https://www.polo.co.za/carry-on-luggage-trolley-s302088215700232014",
+      "imageUrl": "https://www.polo.co.za/api/catalog/product/p/o/po44250_small_4_wheel_trolley_black82451_copy.jpg",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-porsche-design-b9711dc44f09a812",
+      "brandId": "porsche-design",
+      "view": "Exterior",
+      "caption": "Porsche Design · Roadster Hardcase 4W Trolley S · S · Lava Orange · Exterior",
+      "source": "https://shop.porsche.com/us/en-US/p/roadster-hardcase-4w-trolley-s-P-P2330/4056487000206",
+      "imageUrl": "https://product-domain-assets.ppim.aws.porsche.cloud/porsche-prod/25/10/20/9880/4056487000206_omp2-001.webp",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-porsche-design-b9711dc44f09a812.webp",
+      "offerId": "offer-81f0ca5b",
+      "identity": {
+        "model": "Roadster Hardcase 4W Trolley S",
+        "size": "S",
+        "color": "Lava Orange",
+        "revision": null,
+        "sku": "4056487000206"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "73adb8f68ca44a4758d5b08ea1a6a1bfa7634b2bf78494c3bf5d22f070cd4390",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-president-3995c79da8233f38",
+      "brandId": "president",
+      "view": "Exterior",
+      "caption": "President · HEXA V3 · 20 in · Ivory · Exterior",
+      "source": "https://www.presidentluggage.com/products/894249/tas-koper-president-luggage-hard-case-hexa-v3-__-20-inch-(cabin)",
+      "imageUrl": "https://d2kchovjbwl1tk.cloudfront.net/vendor/4246/product/c5e39fd60efc4274ad9d52da74ef8622_1782199688708.jpg",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-puccini-f10ae78927ce41cd",
+      "brandId": "puccini",
+      "view": "Exterior",
+      "caption": "PUCCINI · ABS023C · Cabin · 36 L · Beige · Exterior",
+      "source": "https://zapatos.es/p/maleta-de-cabina-puccini-abs023c-beis-5902308040380",
+      "imageUrl": "https://img.eobuwie.cloud/product(9/6/6/d/966d59b1b4e72937fe5a53bceb5291981253fd23_01_5902308040380_mk.jpg,jpg)/maleta-de-cabina-puccini-abs023c-beis-5902308040380.jpg",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-puccini-f10ae78927ce41cd.webp",
+      "offerId": "offer-d1238c15",
+      "identity": {
+        "model": "ABS023C",
+        "size": "Cabin · 36 L",
+        "color": "Beige",
+        "revision": null,
+        "sku": "5902308040380"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "a4d9e5bc5f299fe1990e2faf62063de2a28f0141ad4dff6c9248d9e082b01c23",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-puccini-4af90160c1f4550d",
+      "brandId": "puccini",
+      "view": "Interior",
+      "caption": "PUCCINI · ABS023C · Cabin · 36 L · Beige · Interior",
+      "source": "https://zapatos.es/p/maleta-de-cabina-puccini-abs023c-beis-5902308040380",
+      "imageUrl": "https://img.eobuwie.cloud/product(4/5/3/4/45342a6a9b74f01c69ce572946929f8b1be74456_07_5902308040380_mk.jpg,jpg)/maleta-de-cabina-puccini-abs023c-beis-5902308040380.jpg",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-puccini-4af90160c1f4550d.webp",
+      "offerId": "offer-d1238c15",
+      "identity": {
+        "model": "ABS023C",
+        "size": "Cabin · 36 L",
+        "color": "Beige",
+        "revision": null,
+        "sku": "5902308040380"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "aa2779c14e5e5596aaa59a57498adedc28601a4a232dab08fe394de0237f128e",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-ricardo-beverly-hills-76613e87611268b0",
+      "brandId": "ricardo-beverly-hills",
+      "view": "Exterior",
+      "caption": "Ricardo Beverly Hills · Montecito 2.0 Hardside Carry-On · 21 in · Exterior",
+      "source": "https://www.ricardobeverlyhills.com/products/montecito-hardside-carry-on-1",
+      "imageUrl": "https://www.ricardobeverlyhills.com/cdn/shop/files/montecito-20-hardside-carry-on-expandable-spinner-7856950.jpg?v=1751422176&width=1024",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-ricardo-beverly-hills-e7ec51188b17d54a",
+      "brandId": "ricardo-beverly-hills",
+      "view": "Interior",
+      "caption": "Ricardo Beverly Hills · Montecito 2.0 Hardside Carry-On · 21 in · Interior",
+      "source": "https://www.ricardobeverlyhills.com/products/montecito-hardside-carry-on-1",
+      "imageUrl": "https://www.ricardobeverlyhills.com/cdn/shop/files/montecito-20-hardside-carry-on-expandable-spinner-8265108.jpg?v=1751422176&width=2400",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-roam-346587938e98a0b4",
+      "brandId": "roam",
+      "view": "Exterior",
+      "caption": "ROAM · Carry-On · Carry-On · Monza red gloss / black trim · Exterior",
+      "source": "https://www.roamluggage.com/products/carry-on",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2551/4172/files/CarryOn_Monza_3Q_bcd524a3-c749-4310-8f59-20363d3adbca.webp?v=1774466364",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-roam-346587938e98a0b4.webp",
+      "offerId": "offer-1d269c35",
+      "identity": {
+        "model": "Carry-On",
+        "size": "Carry-On",
+        "color": "Monza red gloss / black trim",
+        "revision": null,
+        "sku": "0824_RTR_CO_RED_Monza"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "b7e96135fa3dba77ab46a4803849b6324176708ce8f0f1b36748368dccb51f93",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-rockland-94b90000d87b38b4",
+      "brandId": "rockland",
+      "view": "Exterior",
+      "caption": "Rockland · Expandable Spinner Carry-On · 19 in · Exterior",
+      "source": "https://www.kohls.com/product/prd-1717257/rockland-luggage-19-in-expandable-spinner-carry-on.jsp?bdrecsId=89251032-7178-4613-95e8-d80e325b2ed3&color=Black+Gray&pfm=bdrecs-WebStore-PDP-Horizontal3-b1275-279",
+      "imageUrl": "https://media.kohlsimg.com/is/image/kohls/1717257_Black_Gray?wid=1000&hei=1000&op_sharpen=1",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-siffler-fb844f394991bae9",
+      "brandId": "siffler",
+      "view": "Exterior",
+      "caption": "Siffler · TRIDENT TRI1030-48 · 33 L · Silver · Exterior",
+      "source": "https://www.siffler-store.com/c/luggage/TRI1030-48",
+      "imageUrl": "https://siffler.itembox.cloud/product/010/000000001036/000000001036-01.jpg?size=xs&w=MTAw&t=20240816112058",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-siffler-fb844f394991bae9.webp",
+      "offerId": "offer-518836d6",
+      "identity": {
+        "model": "TRIDENT TRI1030-48",
+        "size": "33 L",
+        "color": "Silver",
+        "revision": null,
+        "sku": "1036h1v1"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "bc4075221dd5f9949b1b5401c3a160c716abc54464fd237d14afdb2b288d400e",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-steamline-0823e88316541b71",
+      "brandId": "steamline",
+      "view": "Exterior",
+      "caption": "SteamLine · Pioneer Carryon Spinner · Carry-On · Brown · Exterior",
+      "source": "https://steamlineluggage.com/products/the-pioneer-carryon-spinner",
+      "imageUrl": "https://steamlineluggage.com/cdn/shop/files/The_Pioneer_Carryon_2_Front_copia_2.jpg?v=1773418766&width=5760",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-steamline-0823e88316541b71.webp",
+      "offerId": "offer-97f6a0c7",
+      "identity": {
+        "model": "Pioneer Carryon Spinner",
+        "size": "Carry-On",
+        "color": "Brown",
+        "revision": null,
+        "sku": "STM-PIO-BRN-CSP"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "801ccd23d40d616e231870a0eecf8801f05dfac07c008fb3bb9423cb8ee99a02",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-steamline-e4cb176d80287106",
+      "brandId": "steamline",
+      "view": "Interior",
+      "caption": "SteamLine · Pioneer Carryon Spinner · Carry-On · Brown · Interior",
+      "source": "https://steamlineluggage.com/products/the-pioneer-carryon-spinner",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0305/9364/6728/products/ThePioneerCarryonOpen.jpg?v=1773418766",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-steamline-e4cb176d80287106.webp",
+      "offerId": "offer-97f6a0c7",
+      "identity": {
+        "model": "Pioneer Carryon Spinner",
+        "size": "Carry-On",
+        "color": "Brown",
+        "revision": null,
+        "sku": "STM-PIO-BRN-CSP"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "71f6f1944acc534b95eb447cd56dccffe924cf75fad5b11e02362e0743ce01a2",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-stokke-jetkids-1822c27a485e775b",
+      "brandId": "stokke-jetkids",
+      "view": "Exterior",
+      "caption": "Stokke JetKids · BedBox · BedBox · Moonglow White · Exterior",
+      "source": "https://www.albeebaby.com/collections/jetkids/products/stokke-jetkids-bedbox-moonglow-white",
+      "imageUrl": "https://www.albeebaby.com/cdn/shop/files/stokke-jetkids-bedbox-moonglow-white-1205507919_1024x1024.jpg?v=1781645798",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-stokke-jetkids-1822c27a485e775b.webp",
+      "offerId": "offer-f826e797",
+      "identity": {
+        "model": "BedBox",
+        "size": "BedBox",
+        "color": "Moonglow White",
+        "revision": null,
+        "sku": "659704"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "fe624306f03bc3357ec95d68099b377605f23e7c371bca72c0d9cc342dcc04cf",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-swissgear-01b31f56ac12c488",
+      "brandId": "swissgear",
+      "view": "Exterior",
+      "caption": "SWISSGEAR · Signature Carry-On Spinner · Carry-On · White · Exterior",
+      "source": "https://www.swissgear.com/products/signature-carry-on-spinner?variant=48049360535774",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0721/0978/5310/files/7366100154-02_036e6b14-276c-44b1-a6df-b688a5ca506e.jpg?v=1774961261",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-swissgear-01b31f56ac12c488.webp",
+      "offerId": "offer-a18a9554",
+      "identity": {
+        "model": "Signature Carry-On Spinner",
+        "size": "Carry-On",
+        "color": "White",
+        "revision": null,
+        "sku": "7366100154"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "05f555db55972a2987caff9e39b154c0771fb11a5695b14a58fc048349c4974e",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-swiss-tech-4cbeaaacf03a84a1",
+      "brandId": "swiss-tech",
+      "view": "Exterior",
+      "caption": "SwissTech · Executive Softside Upright · 29 in · Black · Exterior",
+      "source": "https://business.walmart.com/ip/Open-Box-SwissTech-Executive-29-8-Wheel-Softside-Luggage-Black/19972901316?conditionGroupCode=3",
+      "imageUrl": "https://i5.walmartimages.com/asr/817655bc-337a-46d3-914b-c70ab8acb4bf_1.51b62b19afb6424c9ee4e58cdc201dc6.jpeg",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-swiss-tech-4cbeaaacf03a84a1.webp",
+      "offerId": "offer-fddc5184",
+      "identity": {
+        "model": "Executive Softside Upright",
+        "size": "29 in",
+        "color": "Black",
+        "revision": null,
+        "sku": "19972901316"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "6563b0c010e88cbb894132b5c1a3b25ad248c2b8de7e9eef10d611762a8f1163",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-tach-d23f460d9f171097",
+      "brandId": "tach",
+      "view": "Exterior",
+      "caption": "TACH · V3.1 Carry-On · 20 in · 41 L · Midnight Blue · Exterior",
+      "source": "https://www.tachluggage.com/products/tach-v3-1-carry-on",
+      "imageUrl": "https://www.tachluggage.com/cdn/shop/files/Midblue_CO_tach_001-oct-11-2023_236_copy_2_35d14798-d0d2-4bd3-a603-326523be221e_1024x1024.jpg?v=1771431646",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-tach-d23f460d9f171097.webp",
+      "offerId": "offer-b4834def",
+      "identity": {
+        "model": "V3.1 Carry-On",
+        "size": "20 in · 41 L",
+        "color": "Midnight Blue",
+        "revision": null,
+        "sku": "TH1-20-MIDBLUE"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "6b728f13f20780423bc60a87dcb19059c321dc17b601fcd37fd466c3460b4aa8",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-the-north-face-7cd7d807ed1c35a1",
+      "brandId": "the-north-face",
+      "view": "Exterior",
+      "caption": "The North Face · Base Camp Voyager 21 Roller · 21 in · TNF Black/TNF White · Exterior",
+      "source": "https://www.thenorthface.com/en-us/p/bags-and-gear/luggage-and-duffels/rolling-luggage-224545/base-camp-voyager-21-roller-NF0A52UD?color=53R",
+      "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723448082/NF0A52UD53R-HERO/Base-Camp-Voyager-21-Roller-TNF-HERO.png",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-the-north-face-7cd7d807ed1c35a1.webp",
+      "offerId": "offer-8c0de716",
+      "identity": {
+        "model": "Base Camp Voyager 21 Roller",
+        "size": "21 in",
+        "color": "TNF Black/TNF White",
+        "revision": null,
+        "sku": "NF:0A52UD:53R:OS::1"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "e1b293dd20c5b060b6de213cb0c0364a532c249df2c71203df90101711d4ab75",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-the-north-face-d1b41131768ef690",
+      "brandId": "the-north-face",
+      "view": "Interior",
+      "caption": "The North Face · Base Camp Voyager 21 Roller · 21 in · TNF Black/TNF White · Interior",
+      "source": "https://www.thenorthface.com/en-us/p/bags-and-gear/luggage-and-duffels/rolling-luggage-224545/base-camp-voyager-21-roller-NF0A52UD?color=53R",
+      "imageUrl": "https://assets.thenorthface.com/images/t_img/c_fill,ar_4:5,f_auto,h_625,e_sharpen:60,w_500/dpr_2.0/v1723448081/NF0A52UD53R-INT/Base-Camp-Voyager-21-Roller-TNF-INT.png",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-the-north-face-d1b41131768ef690.webp",
+      "offerId": "offer-8c0de716",
+      "identity": {
+        "model": "Base Camp Voyager 21 Roller",
+        "size": "21 in",
+        "color": "TNF Black/TNF White",
+        "revision": null,
+        "sku": "NF:0A52UD:53R:OS::1"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "a62507ee66eb67ab4e20e68fca281b143102f740bf064b4fddc691fec3664614",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-thule-e7255e85d946c2b9",
+      "brandId": "thule",
+      "view": "Exterior",
+      "caption": "Thule · Subterra 2 Carry-On Spinner · 35 L · 55 cm · Black · Exterior",
+      "source": "https://www.thule.com/en-us/luggage/carry-on-luggage/thule-subterra-carry-on-spinner-_-3205046",
+      "imageUrl": "https://www.thule.com/-/p/Byu3Cm1QjzbAe2EyvTraGFxRzw74LFcWwOPRjYIceM0/rs:fit/h:900/cb:2.1/w:900/plain/approved/std.lang.all/76/56/1617656.png",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-thule-e7255e85d946c2b9.webp",
+      "offerId": "offer-922dd030",
+      "identity": {
+        "model": "Subterra 2 Carry-On Spinner",
+        "size": "35 L · 55 cm",
+        "color": "Black",
+        "revision": null,
+        "sku": "3205627"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "36928bd98126f668dd3e16229cf576be684036aa2a3d86e9eabde7c17560cfa5",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-thule-463c2088caff2a1f",
+      "brandId": "thule",
+      "view": "Interior",
+      "caption": "Thule · Subterra 2 Carry-On Spinner · 35 L · 55 cm · Black · Interior",
+      "source": "https://www.thule.com/en-us/luggage/carry-on-luggage/thule-subterra-carry-on-spinner-_-3205046",
+      "imageUrl": "https://www.thule.com/-/p/iXo6BCFrgaOiTFne5dR9v54d3F06on04Utfnas5WXtM/rs:fit/h:900/cb:1.2/w:900/plain/approved/std.lang.all/68/95/1746895.png",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-thule-463c2088caff2a1f.webp",
+      "offerId": "offer-922dd030",
+      "identity": {
+        "model": "Subterra 2 Carry-On Spinner",
+        "size": "35 L · 55 cm",
+        "color": "Black",
+        "revision": null,
+        "sku": "3205627"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "eeb22b18efd2e356bd65fcfd52dea419e0b2c7202f3f813d039c198f63f14593",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-tommy-hilfiger-f64df25097c9b557",
+      "brandId": "tommy-hilfiger",
+      "view": "Exterior",
+      "caption": "Tommy Hilfiger · Hardcase Spinner · 21 in · Exterior",
+      "source": "https://usa.tommy.com/en/men/shoes-accessories/bags-wallets/21%22-hardcase-spinner-luggage/199411948527.html",
+      "imageUrl": "https://shoptommy.scene7.com/is/image/ShopTommy/TG001966_001_main",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-tommy-hilfiger-40c642347ff408e6",
+      "brandId": "tommy-hilfiger",
+      "view": "Interior",
+      "caption": "Tommy Hilfiger · Hardcase Spinner · 21 in · Interior",
+      "source": "https://usa.tommy.com/en/men/shoes-accessories/bags-wallets/21%22-hardcase-spinner-luggage/199411948527.html",
+      "imageUrl": "https://shoptommy.scene7.com/is/image/ShopTommy/TG001966_001_alternate7",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-travelhouse-3d12ba74f81eca5c",
+      "brandId": "travelhouse",
+      "view": "Exterior",
+      "caption": "Travelhouse · Underseat Hardside Carry-On · 20 in · Black · Exterior",
+      "source": "https://business.walmart.com/ip/Travelhouse-Hardshell-Carry-On-Luggage-20-Lightweight-Hardside-Suitcase-With-Silent-Spinner-Wheels-Black/1397398854?classType=undefined&variantFieldId=actual_color",
+      "imageUrl": "https://i5.walmartimages.com/seo/Travelhouse-20-Underseat-Hard-Sided-Carry-On-Luggage-Spinner-Wheels-ABS-Black_403680b0-4033-420e-bb06-21844c183d05.400f3ccc84bb8752302596777fddc34c.jpeg",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-travelite-d7aa47ac2c433949",
+      "brandId": "travelite",
+      "view": "Exterior",
+      "caption": "travelite · Air Base Trolley S · S · Anthracite · Exterior",
+      "source": "https://www.travelite.com/en/AIR-BASE-Trolley-S/075347-04",
+      "imageUrl": "https://www.travelite.com/media/05/29/b6/1750422771/travelite-hartschalenkoffer-airbase-trolley-s-anthrazit-schraegansicht.webp?ts=1754312040",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-travelite-d7aa47ac2c433949.webp",
+      "offerId": "offer-4f33f2a3",
+      "identity": {
+        "model": "Air Base Trolley S",
+        "size": "S",
+        "color": "Anthracite",
+        "revision": null,
+        "sku": "075347-04"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "ef154b626534fb0d3336964725d676c84fc853ae45cddc18776d81dd346225c6",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-travelite-203e83ac7059094b",
+      "brandId": "travelite",
+      "view": "Interior",
+      "caption": "travelite · Air Base Trolley S · S · Anthracite · Interior",
+      "source": "https://www.travelite.com/en/AIR-BASE-Trolley-S/075347-04",
+      "imageUrl": "https://www.travelite.com/media/e6/d9/88/1750422771/travelite-hartschalenkoffer-airbase-trolley-s-anthrazit-innenansicht.webp?ts=1754312026",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-travelite-203e83ac7059094b.webp",
+      "offerId": "offer-4f33f2a3",
+      "identity": {
+        "model": "Air Base Trolley S",
+        "size": "S",
+        "color": "Anthracite",
+        "revision": null,
+        "sku": "075347-04"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "ad83affbd09557d6688e49263d8c00f0e59604dd444e8875f63e7eebe5367ac9",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-tumi-0a902bd9c915d87f",
+      "brandId": "tumi",
+      "view": "Exterior",
+      "caption": "TUMI · 19 Degree Carry-On (Tegris) · Carry-On · Exterior",
+      "source": "https://www.tumi.com/p/carry-on-0154200T491",
+      "imageUrl": "https://tumi.scene7.com/is/image/Tumi/154200T491_main?wid=1020&hei=1238",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-tumi-5621b703859b23f8",
+      "brandId": "tumi",
+      "view": "Interior",
+      "caption": "TUMI · 19 Degree Carry-On (Tegris) · Carry-On · Interior",
+      "source": "https://www.tumi.com/p/carry-on-0154200T491",
+      "imageUrl": "https://tumi.scene7.com/is/image/Tumi/154200T491_alt1?wid=1020&hei=1238",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-uppercase-9c45124a24d83a4a",
+      "brandId": "uppercase",
+      "view": "Exterior",
+      "caption": "uppercase · JFK Cabin Trolley · Cabin · Black · Exterior",
+      "source": "https://uppercase.co.in/products/jfk-black-cabin-trolley",
+      "imageUrl": "https://uppercase.co.in/cdn/shop/files/5100eht1blk_01.png?v=1757258616",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-uppercase-9c45124a24d83a4a.webp",
+      "offerId": "offer-bd302c17",
+      "identity": {
+        "model": "JFK Cabin Trolley",
+        "size": "Cabin",
+        "color": "Black",
+        "revision": null,
+        "sku": "5100EHT1BLK"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "94ff66aa225c5389fde225ba36aeb4ba86b88718c428f86e6d87b5eb31375417",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-verage-1c2c0da84a911a8f",
+      "brandId": "verage",
+      "view": "Exterior",
+      "caption": "VERAGE · Expandable Hardside Carry-On · 20 in · Blue · Exterior",
+      "source": "https://www.homedepot.com/p/321940627?MERCH=REC-_-brand_based_collection-_-321940254-_-0-_-n%2Fa-_-n%2Fa-_-n%2Fa-_-n%2Fa-_-n%2Fa",
+      "imageUrl": "https://images.thdstatic.com/productImages/4a4e0acf-2c46-44c5-ac2e-a5cc683d95bd/svn/blue-verage-suitcases-gm20062w-ii-20-blue-64_100.jpg",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-verage-c50ab7f6faa06917",
+      "brandId": "verage",
+      "view": "Interior",
+      "caption": "VERAGE · Expandable Hardside Carry-On · 20 in · Blue · Interior",
+      "source": "https://www.homedepot.com/p/321940627?MERCH=REC-_-brand_based_collection-_-321940254-_-0-_-n%2Fa-_-n%2Fa-_-n%2Fa-_-n%2Fa-_-n%2Fa",
+      "imageUrl": "https://images.thdstatic.com/productImages/4e3f607a-a3bc-4912-9d44-ac652a6c6804/svn/blue-verage-suitcases-gm20062w-ii-20-blue-4f_100.jpg",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-victorinox-e0e689c5ab3a23be",
+      "brandId": "victorinox",
+      "view": "Exterior",
+      "caption": "Victorinox · Crosslight Frequent Flyer Plus Softside Carry-On · Frequent Flyer Plus · Black · Exterior",
+      "source": "https://www.victorinox.com/en-US/Products/Travel-Gear/Carry-On-Bags/Crosslight-Frequent-Flyer-Plus-Softside-Carry-On/p/612419/",
+      "imageUrl": "https://imageengine.victorinox.com/transform/47a17d29-9bdc-45cf-9f9d-32e1f3fec3da/TGE_612419_S_FL3?io=transform%3Abackground%2Ccolor%3AF0F0F0&io=transform%3Afit%2Cwidth%3A900%2Cheight%3A650&quality=100",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-victorinox-e0e689c5ab3a23be.webp",
+      "offerId": "offer-91f4e218",
+      "identity": {
+        "model": "Crosslight Frequent Flyer Plus Softside Carry-On",
+        "size": "Frequent Flyer Plus",
+        "color": "Black",
+        "revision": null,
+        "sku": "612419"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "eba62cb8aebd03f0a230260af270e1c0d557321647bdb5f6c2d50ef3cf401058",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-victorinox-77e03a7283324f66",
+      "brandId": "victorinox",
+      "view": "Interior",
+      "caption": "Victorinox · Crosslight Frequent Flyer Plus Softside Carry-On · Frequent Flyer Plus · Black · Interior",
+      "source": "https://www.victorinox.com/en-US/Products/Travel-Gear/Carry-On-Bags/Crosslight-Frequent-Flyer-Plus-Softside-Carry-On/p/612419/",
+      "imageUrl": "https://imageengine.victorinox.com/transform/ffc2dfb3-5fd7-4ffd-8d84-94769b5ca270/TGE_612419_S_PR?io=transform%3Abackground%2Ccolor%3AF0F0F0&io=transform%3Afit%2Cwidth%3A900%2Cheight%3A650&quality=100",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-victorinox-77e03a7283324f66.webp",
+      "offerId": "offer-91f4e218",
+      "identity": {
+        "model": "Crosslight Frequent Flyer Plus Softside Carry-On",
+        "size": "Frequent Flyer Plus",
+        "color": "Black",
+        "revision": null,
+        "sku": "612419"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "e3e530ed8ab59d8eca9e971d6154f9968b3fcebacf140e70ee7449cfb39d4712",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-wings-e8363e25b41978a4",
+      "brandId": "wings",
+      "view": "Exterior",
+      "caption": "WINGS · Cockatiel · 20 in · Black · Exterior",
+      "source": "https://wings24.pl/products/walizka-kabinowa-wings-cockatiel-polipropylen-20-black",
+      "imageUrl": "https://wings24.pl/cdn/shop/files/54306.png?v=1780349313&width=1500",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-wings-e8363e25b41978a4.webp",
+      "offerId": "offer-f9f344b3",
+      "identity": {
+        "model": "Cockatiel",
+        "size": "20 in",
+        "color": "Black",
+        "revision": null,
+        "sku": "CKT02-S-BLACK"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "eb2766423943b73e75ee7d5dfbca06e30e9d5f03a0dd753a1ca6320e9acff430",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-wings-d00b82a8962c1242",
+      "brandId": "wings",
+      "view": "Interior",
+      "caption": "WINGS · Cockatiel · 20 in · Black · Interior",
+      "source": "https://wings24.pl/products/walizka-kabinowa-wings-cockatiel-polipropylen-20-black",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0973/0673/9030/files/49357.png?v=1780349329",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-wings-d00b82a8962c1242.webp",
+      "offerId": "offer-f9f344b3",
+      "identity": {
+        "model": "Cockatiel",
+        "size": "20 in",
+        "color": "Black",
+        "revision": null,
+        "sku": "CKT02-S-BLACK"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "e899143f4bff177c4a3a0cb840b2004f30f37f4062492d505af065dccaaddc11",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-wittchen-faea5a4a414f478d",
+      "brandId": "wittchen",
+      "view": "Exterior",
+      "caption": "WITTCHEN · Wave Line Cabin Suitcase · Small · 38 L · White · Exterior",
+      "source": "https://www.wittchen.com/walizka-kabinowa-z-abs-u-falowana-bialy%2Cp7129332",
+      "imageUrl": "https://static.wittchen.com/zdjecia/walizka-kabinowa-z-abs-u-falowana-1-56-3A-351-88/635143a0af7a4",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-wittchen-faea5a4a414f478d.webp",
+      "offerId": "offer-3bdc5ca",
+      "identity": {
+        "model": "Wave Line Cabin Suitcase",
+        "size": "Small · 38 L",
+        "color": "White",
+        "revision": null,
+        "sku": "56-3A-351-88"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "79391625015c41f6a4a3a019667cb9ba2a3185f3d27841bf9854e5c67b52f81d",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-wittchen-06dfba598268ca59",
+      "brandId": "wittchen",
+      "view": "Interior",
+      "caption": "WITTCHEN · Wave Line Cabin Suitcase · Small · 38 L · White · Interior",
+      "source": "https://www.wittchen.com/walizka-kabinowa-z-abs-u-falowana-bialy%2Cp7129332",
+      "imageUrl": "https://static.wittchen.com/zdjecia/walizka-kabinowa-z-abs-u-falowana-5-56-3A-351-88/635143a282732?s=545",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-wittchen-06dfba598268ca59.webp",
+      "offerId": "offer-3bdc5ca",
+      "identity": {
+        "model": "Wave Line Cabin Suitcase",
+        "size": "Small · 38 L",
+        "color": "White",
+        "revision": null,
+        "sku": "56-3A-351-88"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "6b8eec9bd0d536c82b8151b845a2b4b8e7e9268c2436c557304007ed28a517f0",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-wrangler-55eadc793fa7e137",
+      "brandId": "wrangler",
+      "view": "Exterior",
+      "caption": "Wrangler · Spinner Carry-On · 22.5 in · Dark Charcoal · Exterior",
+      "source": "https://www.wrangler.com/shop/22.5-spinner-carry-on-luggage-in-dark-charcoal-112369282.html",
+      "imageUrl": "https://images.wrangler.com/is/image/Wrangler/112369282-HERO?$PDP24-XXLARGE$&fit=crop",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-wrangler-55eadc793fa7e137.webp",
+      "offerId": "offer-355a0f33",
+      "identity": {
+        "model": "Spinner Carry-On",
+        "size": "22.5 in",
+        "color": "Dark Charcoal",
+        "revision": null,
+        "sku": "112369282"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "74be89ae942150ae6b168d631c132af9f58d18d6929a0a56417700ea7c818e64",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-wrangler-3680f3d91036a1de",
+      "brandId": "wrangler",
+      "view": "Interior",
+      "caption": "Wrangler · Spinner Carry-On · 22.5 in · Dark Charcoal · Interior",
+      "source": "https://www.wrangler.com/shop/22.5-spinner-carry-on-luggage-in-dark-charcoal-112369282.html",
+      "imageUrl": "https://images.wrangler.com/is/image/Wrangler/112369282-ALT1?$PDP24-SMALL$",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-wrangler-3680f3d91036a1de.webp",
+      "offerId": "offer-355a0f33",
+      "identity": {
+        "model": "Spinner Carry-On",
+        "size": "22.5 in",
+        "color": "Dark Charcoal",
+        "revision": null,
+        "sku": "112369282"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "ad84bb4601fff7a755d291215830edf36149fe0a027582c823fcb2e915a3be30",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-xiaomi-6645280ee5704805",
+      "brandId": "xiaomi",
+      "view": "Exterior",
+      "caption": "Xiaomi · Luggage Classic Pro · 20 in · 39 L · Black · Exterior",
+      "source": "https://shopxiaomi.ie/products/xiaomi-luggage-classic-pro-20",
+      "imageUrl": "https://shopxiaomi.ie/cdn/shop/files/E71028313_Xiaomi_Luggage_Classic_Pro_20__Black_15c151f0-7b90-451e-9fd3-4ef27c0fa049_1000x.png?v=1752761430",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-xiaomi-6645280ee5704805.webp",
+      "offerId": "offer-7daef43f",
+      "identity": {
+        "model": "Luggage Classic Pro",
+        "size": "20 in · 39 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "E71028313"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "c8fba463945865a21d132d01f654a9e3d9309ef780a8068775e06ae7981fb4a2",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-xiaomi-b4226bbd8342a27e",
+      "brandId": "xiaomi",
+      "view": "Exterior",
+      "caption": "Xiaomi · Luggage Classic Pro · 20 in · 39 L · Grey · Exterior",
+      "source": "https://shopxiaomi.ie/products/xiaomi-luggage-classic-pro-20",
+      "imageUrl": "https://shopxiaomi.ie/cdn/shop/files/E71028314_Xiaomi_Luggage_Classic_Pro_20__Grey_0a8c5328-7fcf-494a-ab8b-ea61717a7896_1000x.png?v=1752761430",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-xiaomi-b4226bbd8342a27e.webp",
+      "offerId": "offer-8d4a9b73",
+      "identity": {
+        "model": "Luggage Classic Pro",
+        "size": "20 in · 39 L",
+        "color": "Grey",
+        "revision": null,
+        "sku": "E71028314"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "0fc08c28f7aea680c3246781fff59f175dbc64a3ea6183999a1bc1b0563c2e02",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-bubule-521509e577989a85",
+      "brandId": "bubule",
+      "view": "Exterior",
+      "caption": "BUBULE · Lightweight PP Luggage Set · 20 / 24 in set · Exterior",
+      "source": "https://lazood.com/en/product/bubule-lightweight-pp-luggage-set/",
+      "imageUrl": "https://lazood.com/wp-content/uploads/2025/07/Bubule-Lightweight-PP-Luggage-Set.png",
+      "checked": "2026-11-09",
+      "scope": "Visually reviewed model-page reference. Exact size or color attribution remains incomplete.",
+      "remoteReference": true
+    },
+    {
+      "id": "coverage-ted-baker-080df74137d75a66",
+      "brandId": "ted-baker",
+      "view": "Exterior",
+      "caption": "Ted Baker · Midnight Bloom 4-Wheel Cabin Suitcase · 55 cm · Midnight Bloom · Exterior",
+      "source": "https://www.clarks.com/en-gb/ted-baker-midnight-bloom-55cm-4-wheel-cabin-suitcase/S1100014218-p",
+      "imageUrl": "https://cdn.media.amplience.net/i/clarks/uk-QWR2ZXJ0LTEwMDAxNDIxOA_GW_1",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-ted-baker-080df74137d75a66.webp",
+      "offerId": "offer-ad671e1a",
+      "identity": {
+        "model": "Midnight Bloom 4-Wheel Cabin Suitcase",
+        "size": "55 cm",
+        "color": "Midnight Bloom",
+        "revision": null,
+        "sku": "S1100014218-p"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "303f626084ee985a263c7f20b0b7d8632fe6f651daa199a22878ae0744be6605",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-ted-baker-b76dc9713928d1a3",
+      "brandId": "ted-baker",
+      "view": "Interior",
+      "caption": "Ted Baker · Midnight Bloom 4-Wheel Cabin Suitcase · 55 cm · Midnight Bloom · Interior",
+      "source": "https://www.clarks.com/en-gb/ted-baker-midnight-bloom-55cm-4-wheel-cabin-suitcase/S1100014218-p",
+      "imageUrl": "https://cdn.media.amplience.net/i/clarks/uk-QWR2ZXJ0LTEwMDAxNDIxOA_GW_3?fmt=auto&img404=imageNotFound&w=2088&qlt=75",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-ted-baker-b76dc9713928d1a3.webp",
+      "offerId": "offer-ad671e1a",
+      "identity": {
+        "model": "Midnight Bloom 4-Wheel Cabin Suitcase",
+        "size": "55 cm",
+        "color": "Midnight Bloom",
+        "revision": null,
+        "sku": "S1100014218-p"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "968aba3561ad020cceb08a868923963cf260708afbe8829ec63878ab81a001a8",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
+    },
+    {
+      "id": "coverage-vince-camuto-d76af1a7019825ea",
+      "brandId": "vince-camuto",
+      "view": "Exterior",
+      "caption": "Vince Camuto · Ivor 3-Piece Luggage Set · 20 / 24 / 28 in set · Black · Exterior",
+      "source": "https://www.belk.com/p/vince-camuto-ivor-3-pc--set-202428-luggage/0438753872689.html",
+      "imageUrl": "https://belk.scene7.com/is/image/Belk?layer=0&src=6200426_VCL00453K_A_001&layer=comp&",
+      "checked": "2026-11-09",
+      "scope": "Named model, size and color matched to the source gallery. Production revision unspecified.",
+      "localPath": "offer-photo-assets/coverage-vince-camuto-d76af1a7019825ea.webp",
+      "offerId": "offer-99302a85",
+      "identity": {
+        "model": "Ivor 3-Piece Luggage Set",
+        "size": "20 / 24 / 28 in set",
+        "color": "Black",
+        "revision": null,
+        "sku": "0438753872689"
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Product-page gallery",
+        "visualChecked": true,
+        "imageSha256": "11deeaa7c26e6ca4275ed26b675138ad5fa9c99a1bccaa5411d11de4ed1ef8d6",
+        "identifierSource": "Linked product page",
+        "identifierChecked": "2026-11-09"
+      }
     }
   ],
   "byBrand": {
@@ -4894,12 +7215,16 @@
       "research-photo-0"
     ],
     "airwheel": [
-      "p2000"
+      "p2000",
+      "coverage-airwheel-0a51473c00131613"
     ],
     "amazon-basics": [
       "p5000"
     ],
-    "american-flyer": [],
+    "american-flyer": [
+      "coverage-american-flyer-8093a7338eb33551",
+      "coverage-american-flyer-057fef72cda00a81"
+    ],
     "american-green-travel": [
       "research-photo-13"
     ],
@@ -4911,7 +7236,10 @@
       "p7",
       "p3020"
     ],
-    "aristocrat": [],
+    "aristocrat": [
+      "coverage-aristocrat-91dc5d55ab49c653",
+      "coverage-aristocrat-e4d0ea1401ac4be9"
+    ],
     "arlo-skye": [
       "p8",
       "p9",
@@ -4921,7 +7249,9 @@
     ],
     "arowana": [],
     "artrips": [
-      "refresh-artrips"
+      "refresh-artrips",
+      "coverage-artrips-a5bff3cc037af25e",
+      "coverage-artrips-6c7f4f6b5fc7ac0f"
     ],
     "assembly": [
       "p14",
@@ -4939,13 +7269,18 @@
       "refresh-bagsmart-f571de240b",
       "refresh-bagsmart-d5dcddb21b"
     ],
-    "bebe": [],
+    "bebe": [
+      "coverage-bebe-d3a906b5c24521ea"
+    ],
     "bellroy": [
       "p19",
-      "p3015"
+      "p3015",
+      "coverage-bellroy-d3d1bf6b61b8757e",
+      "coverage-bellroy-98b8b2b656914218"
     ],
     "ben-sherman": [
-      "refresh-ben-sherman-dfaa204a51"
+      "refresh-ben-sherman-dfaa204a51",
+      "coverage-ben-sherman-e0e1949bf304acbc"
     ],
     "biaggi": [
       "refresh-biaggi-619b84ed11",
@@ -4958,11 +7293,15 @@
     "binhao": [],
     "boss": [
       "p21",
-      "p3046"
+      "p3046",
+      "coverage-boss-d7a86be8ce7b8f02",
+      "coverage-boss-d081a1092941831e"
     ],
     "brics": [
       "p23",
-      "p3028"
+      "p3028",
+      "coverage-brics-10816eb8f13a36fd",
+      "coverage-brics-1f7d3a2e300a0ae6"
     ],
     "briefing": [
       "refresh-briefing-113d7ebc05",
@@ -4974,7 +7313,9 @@
       "p3023",
       "research-photo-25"
     ],
-    "bubule": [],
+    "bubule": [
+      "coverage-bubule-521509e577989a85"
+    ],
     "bugatti-collections": [
       "p30",
       "p31"
@@ -4998,13 +7339,19 @@
       "p43",
       "p3026"
     ],
-    "carlton": [],
-    "cat": [],
+    "carlton": [
+      "coverage-carlton-21c1bb14bc7ffe1c"
+    ],
+    "cat": [
+      "coverage-cat-1536523ab390ecc3"
+    ],
     "cellini": [
       "p45",
       "p3049"
     ],
-    "commodore": [],
+    "commodore": [
+      "coverage-commodore-1136a8dc7b1810c9"
+    ],
     "coolife": [
       "p3008"
     ],
@@ -5012,26 +7359,36 @@
       "p46",
       "p3045"
     ],
-    "crown": [],
+    "crown": [
+      "coverage-crown-ae4edf299ff7a501",
+      "coverage-crown-89410fc3469f8f81"
+    ],
     "dakine": [
-      "research-photo-37"
+      "research-photo-37",
+      "coverage-dakine-5f2ed2b73f8f022b",
+      "coverage-dakine-920767b047412cdb"
     ],
     "db": [
       "p47",
       "p3044"
     ],
-    "dejuno": [],
+    "dejuno": [
+      "coverage-dejuno-d3ea5edfdd1cef7c",
+      "coverage-dejuno-45e357a50a381e36"
+    ],
     "delsey-paris": [
       "p48",
       "p3018"
     ],
     "departure": [
       "p2002",
-      "p2004"
+      "p2004",
+      "coverage-departure-880ad6fdb5eb21b9"
     ],
     "dior": [],
     "diplomat": [
-      "research-photo-38"
+      "research-photo-38",
+      "coverage-diplomat-cdbaf64f2f9817ec"
     ],
     "dta-nova": [
       "refresh-dta-nova-1",
@@ -5057,10 +7414,14 @@
     "eagle-creek": [
       "p2006",
       "p2007",
-      "p3022"
+      "p3022",
+      "coverage-eagle-creek-f18532b556e082ca",
+      "coverage-eagle-creek-fe911b12c18bdfa4"
     ],
     "eastpak": [
-      "p3007"
+      "p3007",
+      "coverage-eastpak-d88c39c2a046a18c",
+      "coverage-eastpak-e43c2e6dd9db8d85"
     ],
     "echolac": [
       "p50",
@@ -5071,14 +7432,18 @@
       "p3053",
       "research-photo-19"
     ],
-    "epic": [],
+    "epic": [
+      "coverage-epic-e401718b01e74699",
+      "coverage-epic-13cb88cb001d3b70"
+    ],
     "floyd": [
       "p55",
       "p57",
       "p58"
     ],
     "flylite": [
-      "research-photo-40"
+      "research-photo-40",
+      "coverage-flylite-51df0afc4098fc62"
     ],
     "fpm-milano": [
       "refresh-fpm-milano-f80f9f9a98",
@@ -5105,7 +7470,8 @@
     "hanke": [
       "p2008",
       "p2009",
-      "p3024"
+      "p3024",
+      "coverage-hanke-c44093573724eff5"
     ],
     "hant": [
       "p64",
@@ -5121,7 +7487,8 @@
       "p3038"
     ],
     "herschel": [
-      "p67"
+      "p67",
+      "coverage-herschel-3b837e1bb254ece2"
     ],
     "heys": [
       "p69",
@@ -5134,12 +7501,17 @@
     ],
     "horizn-studios": [
       "p73",
-      "p3037"
+      "p3037",
+      "coverage-horizn-studios-e9263d9ccfea2b4c",
+      "coverage-horizn-studios-09bddd854f7a100f"
     ],
     "imiomo": [
-      "refresh-imiomo"
+      "refresh-imiomo",
+      "coverage-imiomo-f44e2113b7e8580c"
     ],
-    "innovator": [],
+    "innovator": [
+      "coverage-innovator-3f46cba2660bbf68"
+    ],
     "inusa": [
       "refresh-inusa-5268c67786",
       "refresh-inusa-0912f631ee",
@@ -5177,7 +7549,9 @@
       "refresh-jump-399bd5b69e",
       "refresh-jump-261c5e072f"
     ],
-    "kamiliant": [],
+    "kamiliant": [
+      "coverage-kamiliant-f7ad69718b76bd41"
+    ],
     "kathmandu": [
       "p3006",
       "offer-kathmandu-0",
@@ -5187,10 +7561,16 @@
     "kenneth-cole-reaction": [
       "p2012",
       "p2013",
-      "p2014"
+      "p2014",
+      "coverage-kenneth-cole-reaction-a4b1f5d833f90ca3"
     ],
-    "kono": [],
-    "kroser": [],
+    "kono": [
+      "coverage-kono-293090a70fd6e0d3"
+    ],
+    "kroser": [
+      "coverage-kroser-6edee9919e77ed37",
+      "coverage-kroser-c0774494b7b18bca"
+    ],
     "legend-walker": [
       "p2015",
       "p2016",
@@ -5198,7 +7578,9 @@
     ],
     "level8": [
       "p81",
-      "p3030"
+      "p3030",
+      "coverage-level8-e6ab3c9d824a3980",
+      "coverage-level8-12d7b91577cd263d"
     ],
     "lipault": [
       "p3000",
@@ -5217,7 +7599,9 @@
     "maimo": [
       "research-photo-44"
     ],
-    "mandarina-duck": [],
+    "mandarina-duck": [
+      "coverage-mandarina-duck-d0b78222d4324f44"
+    ],
     "merax": [
       "research-photo-46"
     ],
@@ -5237,7 +7621,8 @@
     ],
     "montblanc": [
       "p93",
-      "p3063"
+      "p3063",
+      "coverage-montblanc-ed175de20fab6480"
     ],
     "mous": [
       "p95"
@@ -5272,9 +7657,13 @@
       "refresh-nobl-0292898b75",
       "refresh-nobl-05947cb15e"
     ],
-    "nortvi": [],
+    "nortvi": [
+      "coverage-nortvi-0e6036f16ad49820"
+    ],
     "nudient": [
-      "p3013"
+      "p3013",
+      "coverage-nudient-f7ec8954a90e985d",
+      "coverage-nudient-e22a950e61cd5fb6"
     ],
     "oiwas": [
       "refresh-oiwas-e3820e2f3e",
@@ -5285,7 +7674,8 @@
       "refresh-oiwas-2e86b92f9a"
     ],
     "olympia": [
-      "research-photo-49"
+      "research-photo-49",
+      "coverage-olympia-4b56ae96ddaab522"
     ],
     "open-story": [
       "p106",
@@ -5295,7 +7685,10 @@
       "p109",
       "p3042"
     ],
-    "paklite": [],
+    "paklite": [
+      "coverage-paklite-606e8ce364419a64",
+      "coverage-paklite-f5c984fd8968c0ba"
+    ],
     "paravel": [
       "p110",
       "p3032"
@@ -5313,10 +7706,13 @@
       "p3060"
     ],
     "polo-sa": [
-      "research-photo-24"
+      "research-photo-24",
+      "coverage-polo-sa-d1daa35059979614",
+      "coverage-polo-sa-0765a74b2fe77aff"
     ],
     "porsche-design": [
-      "p115"
+      "p115",
+      "coverage-porsche-design-b9711dc44f09a812"
     ],
     "prada": [
       "research-photo-51"
@@ -5324,7 +7720,8 @@
     "president": [
       "p2017",
       "p2018",
-      "p3066"
+      "p3066",
+      "coverage-president-3995c79da8233f38"
     ],
     "proteca": [
       "p117",
@@ -5333,7 +7730,10 @@
       "p1024",
       "p1025"
     ],
-    "puccini": [],
+    "puccini": [
+      "coverage-puccini-f10ae78927ce41cd",
+      "coverage-puccini-4af90160c1f4550d"
+    ],
     "quince": [
       "p6000",
       "p6001"
@@ -5346,7 +7746,9 @@
     "ricardo-beverly-hills": [
       "p122",
       "p123",
-      "p124"
+      "p124",
+      "coverage-ricardo-beverly-hills-76613e87611268b0",
+      "coverage-ricardo-beverly-hills-e7ec51188b17d54a"
     ],
     "rimowa": [
       "p125",
@@ -5355,7 +7757,8 @@
     "roam": [
       "p126",
       "p3062",
-      "p3067"
+      "p3067",
+      "coverage-roam-346587938e98a0b4"
     ],
     "rock": [
       "refresh-rock-913a1a9b5e",
@@ -5366,7 +7769,8 @@
       "refresh-rock-801dd4f9d2"
     ],
     "rockland": [
-      "p3011"
+      "p3011",
+      "coverage-rockland-94b90000d87b38b4"
     ],
     "rollink": [
       "refresh-rollink-61528d9c29",
@@ -5428,7 +7832,8 @@
       "refresh-showkoo-13c0148298"
     ],
     "siffler": [
-      "p3070"
+      "p3070",
+      "coverage-siffler-fb844f394991bae9"
     ],
     "skybags": [
       "p136",
@@ -5457,18 +7862,26 @@
       "research-photo-29"
     ],
     "steamline": [
-      "p142"
+      "p142",
+      "coverage-steamline-0823e88316541b71",
+      "coverage-steamline-e4cb176d80287106"
     ],
     "stokke-jetkids": [
       "p143",
-      "p5005"
+      "p5005",
+      "coverage-stokke-jetkids-1822c27a485e775b"
     ],
     "swissgear": [
       "p144",
-      "p3069"
+      "p3069",
+      "coverage-swissgear-01b31f56ac12c488"
     ],
-    "swiss-tech": [],
-    "tach": [],
+    "swiss-tech": [
+      "coverage-swiss-tech-4cbeaaacf03a84a1"
+    ],
+    "tach": [
+      "coverage-tach-d23f460d9f171097"
+    ],
     "take-off": [
       "refresh-take-off-8e486f281e",
       "refresh-take-off-bee62fea55",
@@ -5477,23 +7890,33 @@
       "refresh-take-off-17b90b0227",
       "refresh-take-off-fcea194cd0"
     ],
-    "ted-baker": [],
+    "ted-baker": [
+      "coverage-ted-baker-080df74137d75a66",
+      "coverage-ted-baker-b76dc9713928d1a3"
+    ],
     "the-north-face": [
       "p145",
       "p146",
       "p3079",
-      "p3084"
+      "p3084",
+      "coverage-the-north-face-7cd7d807ed1c35a1",
+      "coverage-the-north-face-d1b41131768ef690"
     ],
     "thule": [
       "p147",
-      "p3027"
+      "p3027",
+      "coverage-thule-e7255e85d946c2b9",
+      "coverage-thule-463c2088caff2a1f"
     ],
     "titan": [
       "p149",
       "p3078",
       "research-photo-10"
     ],
-    "tommy-hilfiger": [],
+    "tommy-hilfiger": [
+      "coverage-tommy-hilfiger-f64df25097c9b557",
+      "coverage-tommy-hilfiger-40c642347ff408e6"
+    ],
     "tosca": [
       "refresh-tosca-a57867fe62",
       "refresh-tosca-5a2c0b876c",
@@ -5514,11 +7937,14 @@
     ],
     "travelhouse": [
       "p156",
-      "p3082"
+      "p3082",
+      "coverage-travelhouse-3d12ba74f81eca5c"
     ],
     "travelite": [
       "p2022",
-      "p3031"
+      "p3031",
+      "coverage-travelite-d7aa47ac2c433949",
+      "coverage-travelite-203e83ac7059094b"
     ],
     "travelpro": [
       "p157",
@@ -5537,7 +7963,9 @@
       "p1011",
       "p1013",
       "p1015",
-      "p1017"
+      "p1017",
+      "coverage-tumi-0a902bd9c915d87f",
+      "coverage-tumi-5621b703859b23f8"
     ],
     "tuplus": [
       "refresh-tuplus-73e4ad0b90",
@@ -5559,15 +7987,22 @@
       "p2023",
       "p2024",
       "p2025",
-      "p5007"
+      "p5007",
+      "coverage-uppercase-9c45124a24d83a4a"
     ],
-    "verage": [],
+    "verage": [
+      "coverage-verage-1c2c0da84a911a8f",
+      "coverage-verage-c50ab7f6faa06917"
+    ],
     "victorinox": [
       "p3010",
-      "p4001"
+      "p4001",
+      "coverage-victorinox-e0e689c5ab3a23be",
+      "coverage-victorinox-77e03a7283324f66"
     ],
     "vince-camuto": [
-      "refresh-vince-camuto-82f975e096"
+      "refresh-vince-camuto-82f975e096",
+      "coverage-vince-camuto-d76af1a7019825ea"
     ],
     "vip": [
       "p163",
@@ -5578,16 +8013,26 @@
       "p2028",
       "p3077"
     ],
-    "wings": [],
-    "wittchen": [],
+    "wings": [
+      "coverage-wings-e8363e25b41978a4",
+      "coverage-wings-d00b82a8962c1242"
+    ],
+    "wittchen": [
+      "coverage-wittchen-faea5a4a414f478d",
+      "coverage-wittchen-06dfba598268ca59"
+    ],
     "wrangler": [
-      "refresh-wrangler"
+      "refresh-wrangler",
+      "coverage-wrangler-55eadc793fa7e137",
+      "coverage-wrangler-3680f3d91036a1de"
     ],
     "xiaomi": [
       "p165",
       "p166",
       "p167",
-      "research-photo-21"
+      "research-photo-21",
+      "coverage-xiaomi-6645280ee5704805",
+      "coverage-xiaomi-b4226bbd8342a27e"
     ],
     "yeti": [],
     "zero-halliburton": [
@@ -5936,7 +8381,1411 @@
           "Indexed source content may predate this review."
         ]
       }
+    },
+    {
+      "offerId": "offer-3e787fea",
+      "offerIdentity": {
+        "brand": "Airwheel",
+        "product": "SE3S · 20 L · Black",
+        "currency": "USD",
+        "retailer": "B&H Photo",
+        "source": "https://www.bhphotovideo.com/c/product/1859475-REG/airwheel_se3s_smart_riding_suitcase.html"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.bhphotovideo.com/c/product/1859475-REG/airwheel_se3s_smart_riding_suitcase.html",
+      "identity": {
+        "model": "SE3S",
+        "size": "20 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "AISE3S"
+      },
+      "photoIds": [
+        "coverage-airwheel-0a51473c00131613"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-cef195e0",
+      "offerIdentity": {
+        "brand": "American Flyer",
+        "product": "Pemberly Buckles 5-Piece Set · 5-piece set · Dark Brown",
+        "currency": "USD",
+        "retailer": "Macy’s",
+        "source": "https://www.macys.com/shop/product/american-flyer-pemberly-buckles-5-piece-luggage-set?ID=11098911"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.macys.com/shop/product/american-flyer-pemberly-buckles-5-piece-luggage-set?ID=11098911",
+      "identity": {
+        "model": "Pemberly Buckles 5-Piece Set",
+        "size": "5-piece set",
+        "color": "Dark Brown",
+        "revision": null,
+        "sku": "40413068754USA"
+      },
+      "photoIds": [
+        "coverage-american-flyer-8093a7338eb33551"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-e711f373",
+      "offerIdentity": {
+        "brand": "American Flyer",
+        "product": "Pemberly Buckles 5-Piece Set · 5-piece set · Green",
+        "currency": "USD",
+        "retailer": "Macy’s",
+        "source": "https://www.macys.com/shop/product/american-flyer-pemberly-buckles-5-piece-luggage-set?ID=11098911"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.macys.com/shop/product/american-flyer-pemberly-buckles-5-piece-luggage-set?ID=11098911",
+      "identity": {
+        "model": "Pemberly Buckles 5-Piece Set",
+        "size": "5-piece set",
+        "color": "Green",
+        "revision": null,
+        "sku": "40413012146USA"
+      },
+      "photoIds": [
+        "coverage-american-flyer-057fef72cda00a81"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-745028f9",
+      "offerIdentity": {
+        "brand": "Aristocrat",
+        "product": "Armour Plus · Cabin · 29 L · Midnight Blue",
+        "currency": "INR",
+        "retailer": "VIP Bags",
+        "source": "https://vipbags.com/products/aristocrat-armour-plus-cabin?variant=43009583677511"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://vipbags.com/products/aristocrat-armour-plus-cabin?variant=43009583677511",
+      "identity": {
+        "model": "Armour Plus",
+        "size": "Cabin · 29 L",
+        "color": "Midnight Blue",
+        "revision": null,
+        "sku": "ARMPLS55MIB"
+      },
+      "photoIds": [
+        "coverage-aristocrat-91dc5d55ab49c653",
+        "coverage-aristocrat-e4d0ea1401ac4be9"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-5d60fadf",
+      "offerIdentity": {
+        "brand": "artrips",
+        "product": "Pillow Design Carry-On · 20 in · White",
+        "currency": "USD",
+        "retailer": "artripsgo.com",
+        "source": "https://artripsgo.com/products/artrips-carry-on-luggage-with-8-spinner-wheels-20spinner-luggage-with-pillow-design-pc-lightweight-hardside-luggage?variant=41715074105380"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://artripsgo.com/products/artrips-carry-on-luggage-with-8-spinner-wheels-20spinner-luggage-with-pillow-design-pc-lightweight-hardside-luggage?variant=41715074105380",
+      "identity": {
+        "model": "Pillow Design Carry-On",
+        "size": "20 in",
+        "color": "White",
+        "revision": null,
+        "sku": "USPillow-20inch-White"
+      },
+      "photoIds": [
+        "coverage-artrips-a5bff3cc037af25e",
+        "coverage-artrips-6c7f4f6b5fc7ac0f"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-54b5170f",
+      "offerIdentity": {
+        "brand": "bebe",
+        "product": "Carissa · 21 in · Black",
+        "currency": "USD",
+        "retailer": "Macy’s",
+        "source": "https://www.macys.com/shop/product/bebe-carissa-21-hardside-carry-on-spinner?ID=8886501"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.macys.com/shop/product/bebe-carissa-21-hardside-carry-on-spinner?ID=8886501",
+      "identity": {
+        "model": "Carissa",
+        "size": "21 in",
+        "color": "Black",
+        "revision": null,
+        "sku": "844040058696USA"
+      },
+      "photoIds": [
+        "coverage-bebe-d3a906b5c24521ea"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-d537cfda",
+      "offerIdentity": {
+        "brand": "Bellroy",
+        "product": "Transit Carry-On · 41 L · Black",
+        "currency": "USD",
+        "retailer": "REI Co-op",
+        "source": "https://www.rei.com/product/C06301/bellroy-transit-carry-on?sku=C063010001"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.rei.com/product/C06301/bellroy-transit-carry-on?sku=C063010001",
+      "identity": {
+        "model": "Transit Carry-On",
+        "size": "41 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "C063010001"
+      },
+      "photoIds": [
+        "coverage-bellroy-d3d1bf6b61b8757e",
+        "coverage-bellroy-98b8b2b656914218"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-d40d0fe4",
+      "offerIdentity": {
+        "brand": "BOSS",
+        "product": "BOSS × Samsonite Aluminium Cabin · 55 cm · Silver",
+        "currency": "EUR",
+        "retailer": "HUGO BOSS",
+        "source": "https://www.hugoboss.com/ad/en/boss-samsonite-silver-tone-aluminium-cabin-size-suitcase-55cm/hbeu58448864_001.html"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.hugoboss.com/ad/en/boss-samsonite-silver-tone-aluminium-cabin-size-suitcase-55cm/hbeu58448864_001.html",
+      "identity": {
+        "model": "BOSS × Samsonite Aluminium Cabin",
+        "size": "55 cm",
+        "color": "Silver",
+        "revision": null,
+        "sku": "5400520328151"
+      },
+      "photoIds": [
+        "coverage-boss-d7a86be8ce7b8f02",
+        "coverage-boss-d081a1092941831e"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-d0272386",
+      "offerIdentity": {
+        "brand": "Bric’s",
+        "product": "Bellagio Carry-On · 21 in · 40 L · Cream",
+        "currency": "USD",
+        "retailer": "Bric’s U.S. store",
+        "source": "https://bricstore.com/products/bellagio-21-spinner?variant=44358591676572"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://bricstore.com/products/bellagio-21-spinner?variant=44358591676572",
+      "identity": {
+        "model": "Bellagio Carry-On",
+        "size": "21 in · 40 L",
+        "color": "Cream",
+        "revision": null,
+        "sku": "BBG38301.014"
+      },
+      "photoIds": [
+        "coverage-brics-10816eb8f13a36fd",
+        "coverage-brics-1f7d3a2e300a0ae6"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-b8b2f141",
+      "offerIdentity": {
+        "brand": "Carlton",
+        "product": "Velocity 3-Piece Spinner Set · 21 / 25 / 29 in set · Black",
+        "currency": "USD",
+        "retailer": "luggageonline.com",
+        "source": "https://www.luggageonline.com/products/carlton-carlton-velocity-3-piece-spinner-set?variant=39312995483839"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.luggageonline.com/products/carlton-carlton-velocity-3-piece-spinner-set?variant=39312995483839",
+      "identity": {
+        "model": "Velocity 3-Piece Spinner Set",
+        "size": "21 / 25 / 29 in set",
+        "color": "Black",
+        "revision": null,
+        "sku": "CARLTON-3PC-BLK"
+      },
+      "photoIds": [
+        "coverage-carlton-21c1bb14bc7ffe1c"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-a08452ab",
+      "offerIdentity": {
+        "brand": "Cat / Caterpillar",
+        "product": "Industrial Plate · 24 in · Black",
+        "currency": "USD",
+        "retailer": "shopcaterpillar.com",
+        "source": "https://shopcaterpillar.com/products/industrial-plate-24-trolley?variant=46061397967060"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://shopcaterpillar.com/products/industrial-plate-24-trolley?variant=46061397967060",
+      "identity": {
+        "model": "Industrial Plate",
+        "size": "24 in",
+        "color": "Black",
+        "revision": null,
+        "sku": "84760-01"
+      },
+      "photoIds": [
+        "coverage-cat-1536523ab390ecc3"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-417395fa",
+      "offerIdentity": {
+        "brand": "Dakine",
+        "product": "Split 4 Wheel Carry On Roller · 48 L · Black",
+        "currency": "USD",
+        "retailer": "dakine.com",
+        "source": "https://www.dakine.com/products/split-4-wheel-carry-on-48l-black?variant=41150415437904"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.dakine.com/products/split-4-wheel-carry-on-48l-black?variant=41150415437904",
+      "identity": {
+        "model": "Split 4 Wheel Carry On Roller",
+        "size": "48 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "194626522920"
+      },
+      "photoIds": [
+        "coverage-dakine-5f2ed2b73f8f022b",
+        "coverage-dakine-920767b047412cdb"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-a21f5fbb",
+      "offerIdentity": {
+        "brand": "Dejuno",
+        "product": "Compact II · 20 in · Silver",
+        "currency": "USD",
+        "retailer": "dejuno.com",
+        "source": "https://dejuno.com/products/compact-ii?variant=50880927596757"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://dejuno.com/products/compact-ii?variant=50880927596757",
+      "identity": {
+        "model": "Compact II",
+        "size": "20 in",
+        "color": "Silver",
+        "revision": null,
+        "sku": null
+      },
+      "photoIds": [
+        "coverage-dejuno-d3ea5edfdd1cef7c",
+        "coverage-dejuno-45e357a50a381e36"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-f9dd42f3",
+      "offerIdentity": {
+        "brand": "Eagle Creek",
+        "product": "Gear Warrior XE 4-Wheel Carry-On · 40 L · Black",
+        "currency": "USD",
+        "retailer": "eaglecreek.com",
+        "source": "https://eaglecreek.com/products/gear-warrior-xe-4-wheeled-carry-on?variant=41650903646345"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://eaglecreek.com/products/gear-warrior-xe-4-wheeled-carry-on?variant=41650903646345",
+      "identity": {
+        "model": "Gear Warrior XE 4-Wheel Carry-On",
+        "size": "40 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "EC030402010"
+      },
+      "photoIds": [
+        "coverage-eagle-creek-f18532b556e082ca",
+        "coverage-eagle-creek-fe911b12c18bdfa4"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-8c19d6eb",
+      "offerIdentity": {
+        "brand": "Eastpak",
+        "product": "Trans4 Small · 44 L · Black",
+        "currency": "USD",
+        "retailer": "empireluggagecenter.com",
+        "source": "https://www.empireluggagecenter.com/products/eastpak-trans4-small-carry-on-spinner-luggage-44-l?variant=43565116751946"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.empireluggagecenter.com/products/eastpak-trans4-small-carry-on-spinner-luggage-44-l?variant=43565116751946",
+      "identity": {
+        "model": "Trans4 Small",
+        "size": "44 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "196246315821"
+      },
+      "photoIds": [
+        "coverage-eastpak-d88c39c2a046a18c",
+        "coverage-eastpak-e43c2e6dd9db8d85"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-e4188aba",
+      "offerIdentity": {
+        "brand": "EPIC Travelgear",
+        "product": "SPIN Cabin S · 55 cm · 40 L · Black",
+        "currency": "SEK",
+        "retailer": "epictravelgear.com",
+        "source": "https://www.epictravelgear.com/en/products/epic-spin-55cm-cabin-bag-black-esp404-01?variant=53426497290573"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.epictravelgear.com/en/products/epic-spin-55cm-cabin-bag-black-esp404-01?variant=53426497290573",
+      "identity": {
+        "model": "SPIN Cabin S",
+        "size": "55 cm · 40 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "ESP404-01"
+      },
+      "photoIds": [
+        "coverage-epic-e401718b01e74699",
+        "coverage-epic-13cb88cb001d3b70"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-4770bbdc",
+      "offerIdentity": {
+        "brand": "Hanke / 汉客",
+        "product": "Front-Opening Aluminum-Frame Carry-On · 20 in · Jet Black",
+        "currency": "USD",
+        "retailer": "Walmart US",
+        "source": "https://www.walmart.com/ip/5543814026"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.walmart.com/ip/5543814026",
+      "identity": {
+        "model": "Front-Opening Aluminum-Frame Carry-On",
+        "size": "20 in",
+        "color": "Jet Black",
+        "revision": null,
+        "sku": "5543814026"
+      },
+      "photoIds": [
+        "coverage-hanke-c44093573724eff5"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-fd6f9297",
+      "offerIdentity": {
+        "brand": "Herschel",
+        "product": "Heritage Hardshell Large Carry-On · Large Carry-On · Black",
+        "currency": "USD",
+        "retailer": "herschel.com",
+        "source": "https://herschel.com/products/herschel-heritage-hardshell-large-carryon-luggage?variant=47888611967228"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://herschel.com/products/herschel-heritage-hardshell-large-carryon-luggage?variant=47888611967228",
+      "identity": {
+        "model": "Heritage Hardshell Large Carry-On",
+        "size": "Large Carry-On",
+        "color": "Black",
+        "revision": null,
+        "sku": "40101-00001-OS"
+      },
+      "photoIds": [
+        "coverage-herschel-3b837e1bb254ece2"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-16484bbb",
+      "offerIdentity": {
+        "brand": "Horizn Studios",
+        "product": "H5 Essential · Cabin · All White",
+        "currency": "EUR",
+        "retailer": "horizn-studios.com",
+        "source": "https://horizn-studios.com/products/h5-all-white-essential?variant=51138455404872"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://horizn-studios.com/products/h5-all-white-essential?variant=51138455404872",
+      "identity": {
+        "model": "H5 Essential",
+        "size": "Cabin",
+        "color": "All White",
+        "revision": null,
+        "sku": "HS5PYN"
+      },
+      "photoIds": [
+        "coverage-horizn-studios-e9263d9ccfea2b4c",
+        "coverage-horizn-studios-09bddd854f7a100f"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-74ea48dc",
+      "offerIdentity": {
+        "brand": "imiomo",
+        "product": "TR003-20 3-Piece Set · 3-piece set / 20 in · Light Green",
+        "currency": "USD",
+        "retailer": "VIP Outlet",
+        "source": "https://vipoutlet.com/products/imiomo-tr003-20-20-in-carry-on-suitcase-with-spinner-wheels-hardside-3pcs-set-with-tsa-lock-light-green?variant=53029929943320"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://vipoutlet.com/products/imiomo-tr003-20-20-in-carry-on-suitcase-with-spinner-wheels-hardside-3pcs-set-with-tsa-lock-light-green?variant=53029929943320",
+      "identity": {
+        "model": "TR003-20 3-Piece Set",
+        "size": "3-piece set / 20 in",
+        "color": "Light Green",
+        "revision": null,
+        "sku": "VIP6976479332178MND"
+      },
+      "photoIds": [
+        "coverage-imiomo-f44e2113b7e8580c"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-6fa11063",
+      "offerIdentity": {
+        "brand": "innovator",
+        "product": "Extreme Journey INV30 · 21 L · LyonsBlue",
+        "currency": "USD",
+        "retailer": "fas-bee.com",
+        "source": "https://fas-bee.com/en-us/products/19511354?variant=41557506916410"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://fas-bee.com/en-us/products/19511354?variant=41557506916410",
+      "identity": {
+        "model": "Extreme Journey INV30",
+        "size": "21 L",
+        "color": "LyonsBlue",
+        "revision": null,
+        "sku": "335742355"
+      },
+      "photoIds": [
+        "coverage-innovator-3f46cba2660bbf68"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-c6428f0d",
+      "offerIdentity": {
+        "brand": "Kamiliant",
+        "product": "Kiza · 55 cm · Black",
+        "currency": "INR",
+        "retailer": "flipkart.com",
+        "source": "https://www.flipkart.com/kamiliant-american-tourister-kam-kiza-sp-55cm-black-cabin-suitcase-22-inch/p/itm09a62fc74fa7d"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.flipkart.com/kamiliant-american-tourister-kam-kiza-sp-55cm-black-cabin-suitcase-22-inch/p/itm09a62fc74fa7d",
+      "identity": {
+        "model": "Kiza",
+        "size": "55 cm",
+        "color": "Black",
+        "revision": null,
+        "sku": "STCGKGQPGNWTMCYZ"
+      },
+      "photoIds": [
+        "coverage-kamiliant-f7ad69718b76bd41"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-cb910a2f",
+      "offerIdentity": {
+        "brand": "Kenneth Cole REACTION",
+        "product": "Lexington Expandable Hardside Carry-On · Small · Black",
+        "currency": "USD",
+        "retailer": "Macy’s",
+        "source": "https://www.macys.com/shop/product/kenneth-cole-reaction-lexington-medium-expandable-hardside-carry-on-spinner?ID=25790794"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.macys.com/shop/product/kenneth-cole-reaction-lexington-medium-expandable-hardside-carry-on-spinner?ID=25790794",
+      "identity": {
+        "model": "Lexington Expandable Hardside Carry-On",
+        "size": "Small",
+        "color": "Black",
+        "revision": null,
+        "sku": "618842571505USA"
+      },
+      "photoIds": [
+        "coverage-kenneth-cole-reaction-a4b1f5d833f90ca3"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-d17ff0c",
+      "offerIdentity": {
+        "brand": "KONO",
+        "product": "K2191 · 19 in · Black",
+        "currency": "GBP",
+        "retailer": "suitcasecity.co.uk",
+        "source": "https://www.suitcasecity.co.uk/products/kono-k2191-hard-shell-luggage-with-tsa-lock?variant=50818096693579"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.suitcasecity.co.uk/products/kono-k2191-hard-shell-luggage-with-tsa-lock?variant=50818096693579",
+      "identity": {
+        "model": "K2191",
+        "size": "19 in",
+        "color": "Black",
+        "revision": null,
+        "sku": "DE-K2191L BK 19"
+      },
+      "photoIds": [
+        "coverage-kono-293090a70fd6e0d3"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-71ed307e",
+      "offerIdentity": {
+        "brand": "KROSER",
+        "product": "Top-Loading Carry-On with USB · 20 in · 36 L · Black",
+        "currency": "USD",
+        "retailer": "ikroser.com",
+        "source": "https://www.ikroser.com/products/top-loading-carry-on-luggage-usb?variant=45749528854572"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.ikroser.com/products/top-loading-carry-on-luggage-usb?variant=45749528854572",
+      "identity": {
+        "model": "Top-Loading Carry-On with USB",
+        "size": "20 in · 36 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "YX001SCK-BLK"
+      },
+      "photoIds": [
+        "coverage-kroser-6edee9919e77ed37",
+        "coverage-kroser-c0774494b7b18bca"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-b380fd93",
+      "offerIdentity": {
+        "brand": "LEVEL8",
+        "product": "Road Runner Carry-On · 20 in · Navy",
+        "currency": "USD",
+        "retailer": "level8cases.com",
+        "source": "https://www.level8cases.com/products/level8-road-runner-carry-on-luggage-with-front-pocket-20?variant=36822267527324"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.level8cases.com/products/level8-road-runner-carry-on-luggage-with-front-pocket-20?variant=36822267527324",
+      "identity": {
+        "model": "Road Runner Carry-On",
+        "size": "20 in",
+        "color": "Navy",
+        "revision": null,
+        "sku": "LA-1679-06T00"
+      },
+      "photoIds": [
+        "coverage-level8-e6ab3c9d824a3980",
+        "coverage-level8-12d7b91577cd263d"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-2c67f160",
+      "offerIdentity": {
+        "brand": "Mandarina Duck",
+        "product": "Flyduck Trolley Cabin · Cabin · Black",
+        "currency": "USD",
+        "retailer": "mandarinaduck.com",
+        "source": "https://mandarinaduck.com/en-us/products/flyduck-trolley-cabin-black-knv01651?variant=51705440469299"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://mandarinaduck.com/en-us/products/flyduck-trolley-cabin-black-knv01651?variant=51705440469299",
+      "identity": {
+        "model": "Flyduck Trolley Cabin",
+        "size": "Cabin",
+        "color": "Black",
+        "revision": null,
+        "sku": "P10KNV01-651-TU"
+      },
+      "photoIds": [
+        "coverage-mandarina-duck-d0b78222d4324f44"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-9ea3a26",
+      "offerIdentity": {
+        "brand": "Montblanc",
+        "product": "#MY4810 Cabin Trolley · Cabin · Blue",
+        "currency": "USD",
+        "retailer": "Macy’s",
+        "source": "https://www.macys.com/shop/product/montblanc-my4810-cabin-trolley-spinner-luggage?ID=25010679"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.macys.com/shop/product/montblanc-my4810-cabin-trolley-spinner-luggage?ID=25010679",
+      "identity": {
+        "model": "#MY4810 Cabin Trolley",
+        "size": "Cabin",
+        "color": "Blue",
+        "revision": null,
+        "sku": "4062037126784USA"
+      },
+      "photoIds": [
+        "coverage-montblanc-ed175de20fab6480"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-d083cdf8",
+      "offerIdentity": {
+        "brand": "Nudient",
+        "product": "Bold Cabin Bag V2 · Cabin · Urban Grey",
+        "currency": "EUR",
+        "retailer": "nudient.com",
+        "source": "https://www.nudient.com/products/bold-cabin-bag-v2-urban-grey"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.nudient.com/products/bold-cabin-bag-v2-urban-grey",
+      "identity": {
+        "model": "Bold Cabin Bag V2",
+        "size": "Cabin",
+        "color": "Urban Grey",
+        "revision": null,
+        "sku": "18-042-0108-0176"
+      },
+      "photoIds": [
+        "coverage-nudient-f7ec8954a90e985d",
+        "coverage-nudient-e22a950e61cd5fb6"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-3f76aa9c",
+      "offerIdentity": {
+        "brand": "Olympia U.S.A.",
+        "product": "Apache Expandable Carry-On · Carry-On · Black/Black",
+        "currency": "USD",
+        "retailer": "Walmart Business",
+        "source": "https://business.walmart.com/ip/Apache-21-Carry-On-Luggage/55429426"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://business.walmart.com/ip/Apache-21-Carry-On-Luggage/55429426",
+      "identity": {
+        "model": "Apache Expandable Carry-On",
+        "size": "Carry-On",
+        "color": "Black/Black",
+        "revision": null,
+        "sku": "55429426"
+      },
+      "photoIds": [
+        "coverage-olympia-4b56ae96ddaab522"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-3963f06c",
+      "offerIdentity": {
+        "brand": "Paklite",
+        "product": "Charter · Medium · 85 L · Black",
+        "currency": "AUD",
+        "retailer": "BIG W Marketplace",
+        "source": "https://www.bigw.com.au/product/paklite-charter-medium-luggage-tsa-lock-spinner-travel-black-85l/p/9904558011"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.bigw.com.au/product/paklite-charter-medium-luggage-tsa-lock-spinner-travel-black-85l/p/9904558011",
+      "identity": {
+        "model": "Charter",
+        "size": "Medium · 85 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "9904558011"
+      },
+      "photoIds": [
+        "coverage-paklite-606e8ce364419a64",
+        "coverage-paklite-f5c984fd8968c0ba"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-81f0ca5b",
+      "offerIdentity": {
+        "brand": "Porsche Design",
+        "product": "Roadster Hardcase 4W Trolley S · S · Lava Orange",
+        "currency": "USD",
+        "retailer": "Porsche Shop US",
+        "source": "https://shop.porsche.com/us/en-US/p/roadster-hardcase-4w-trolley-s-P-P2330/4056487000206"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://shop.porsche.com/us/en-US/p/roadster-hardcase-4w-trolley-s-P-P2330/4056487000206",
+      "identity": {
+        "model": "Roadster Hardcase 4W Trolley S",
+        "size": "S",
+        "color": "Lava Orange",
+        "revision": null,
+        "sku": "4056487000206"
+      },
+      "photoIds": [
+        "coverage-porsche-design-b9711dc44f09a812"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-d1238c15",
+      "offerIdentity": {
+        "brand": "PUCCINI",
+        "product": "ABS023C · Cabin · 36 L · Beige",
+        "currency": "EUR",
+        "retailer": "zapatos.es",
+        "source": "https://zapatos.es/p/maleta-de-cabina-puccini-abs023c-beis-5902308040380"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://zapatos.es/p/maleta-de-cabina-puccini-abs023c-beis-5902308040380",
+      "identity": {
+        "model": "ABS023C",
+        "size": "Cabin · 36 L",
+        "color": "Beige",
+        "revision": null,
+        "sku": "5902308040380"
+      },
+      "photoIds": [
+        "coverage-puccini-f10ae78927ce41cd",
+        "coverage-puccini-4af90160c1f4550d"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-1d269c35",
+      "offerIdentity": {
+        "brand": "ROAM",
+        "product": "Carry-On · Carry-On · Monza red gloss / black trim",
+        "currency": "USD",
+        "retailer": "roamluggage.com",
+        "source": "https://www.roamluggage.com/products/carry-on?variant=41545676587050"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.roamluggage.com/products/carry-on?variant=41545676587050",
+      "identity": {
+        "model": "Carry-On",
+        "size": "Carry-On",
+        "color": "Monza red gloss / black trim",
+        "revision": null,
+        "sku": "0824_RTR_CO_RED_Monza"
+      },
+      "photoIds": [
+        "coverage-roam-346587938e98a0b4"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-518836d6",
+      "offerIdentity": {
+        "brand": "Siffler",
+        "product": "TRIDENT TRI1030-48 · 33 L · Silver",
+        "currency": "JPY",
+        "retailer": "siffler-store.com",
+        "source": "https://www.siffler-store.com/c/luggage/TRI1030-48"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.siffler-store.com/c/luggage/TRI1030-48",
+      "identity": {
+        "model": "TRIDENT TRI1030-48",
+        "size": "33 L",
+        "color": "Silver",
+        "revision": null,
+        "sku": "1036h1v1"
+      },
+      "photoIds": [
+        "coverage-siffler-fb844f394991bae9"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-97f6a0c7",
+      "offerIdentity": {
+        "brand": "SteamLine",
+        "product": "Pioneer Carryon Spinner · Carry-On · Brown",
+        "currency": "USD",
+        "retailer": "steamlineluggage.com",
+        "source": "https://steamlineluggage.com/products/the-pioneer-carryon-spinner?variant=53866708009300"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://steamlineluggage.com/products/the-pioneer-carryon-spinner?variant=53866708009300",
+      "identity": {
+        "model": "Pioneer Carryon Spinner",
+        "size": "Carry-On",
+        "color": "Brown",
+        "revision": null,
+        "sku": "STM-PIO-BRN-CSP"
+      },
+      "photoIds": [
+        "coverage-steamline-0823e88316541b71",
+        "coverage-steamline-e4cb176d80287106"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-f826e797",
+      "offerIdentity": {
+        "brand": "Stokke JetKids",
+        "product": "BedBox · BedBox · Moonglow White",
+        "currency": "USD",
+        "retailer": "Albee Baby",
+        "source": "https://www.albeebaby.com/collections/jetkids/products/stokke-jetkids-bedbox-moonglow-white"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.albeebaby.com/collections/jetkids/products/stokke-jetkids-bedbox-moonglow-white",
+      "identity": {
+        "model": "BedBox",
+        "size": "BedBox",
+        "color": "Moonglow White",
+        "revision": null,
+        "sku": "659704"
+      },
+      "photoIds": [
+        "coverage-stokke-jetkids-1822c27a485e775b"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-a18a9554",
+      "offerIdentity": {
+        "brand": "SWISSGEAR",
+        "product": "Signature Carry-On Spinner · Carry-On · White",
+        "currency": "USD",
+        "retailer": "swissgear.com",
+        "source": "https://www.swissgear.com/products/signature-carry-on-spinner?variant=48049359716574"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.swissgear.com/products/signature-carry-on-spinner?variant=48049359716574",
+      "identity": {
+        "model": "Signature Carry-On Spinner",
+        "size": "Carry-On",
+        "color": "White",
+        "revision": null,
+        "sku": "7366100154"
+      },
+      "photoIds": [
+        "coverage-swissgear-01b31f56ac12c488"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-fddc5184",
+      "offerIdentity": {
+        "brand": "SwissTech",
+        "product": "Executive Softside Upright · 29 in · Black",
+        "currency": "USD",
+        "retailer": "Walmart Business",
+        "source": "https://business.walmart.com/ip/Open-Box-SwissTech-Executive-29-8-Wheel-Softside-Luggage-Black/19972901316?conditionGroupCode=3"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://business.walmart.com/ip/Open-Box-SwissTech-Executive-29-8-Wheel-Softside-Luggage-Black/19972901316?conditionGroupCode=3",
+      "identity": {
+        "model": "Executive Softside Upright",
+        "size": "29 in",
+        "color": "Black",
+        "revision": null,
+        "sku": "19972901316"
+      },
+      "photoIds": [
+        "coverage-swiss-tech-4cbeaaacf03a84a1"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-b4834def",
+      "offerIdentity": {
+        "brand": "TACH",
+        "product": "V3.1 Carry-On · 20 in · 41 L · Midnight Blue",
+        "currency": "USD",
+        "retailer": "tachluggage.com",
+        "source": "https://www.tachluggage.com/products/tach-v3-1-carry-on?variant=49636815733031"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.tachluggage.com/products/tach-v3-1-carry-on?variant=49636815733031",
+      "identity": {
+        "model": "V3.1 Carry-On",
+        "size": "20 in · 41 L",
+        "color": "Midnight Blue",
+        "revision": null,
+        "sku": "TH1-20-MIDBLUE"
+      },
+      "photoIds": [
+        "coverage-tach-d23f460d9f171097"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-8c0de716",
+      "offerIdentity": {
+        "brand": "The North Face",
+        "product": "Base Camp Voyager 21 Roller · 21 in · TNF Black/TNF White",
+        "currency": "USD",
+        "retailer": "thenorthface.com",
+        "source": "https://www.thenorthface.com/en-us/p/bags-and-gear/luggage-and-duffels/rolling-luggage-224545/base-camp-voyager-21-roller-NF0A52UD?color=53R"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.thenorthface.com/en-us/p/bags-and-gear/luggage-and-duffels/rolling-luggage-224545/base-camp-voyager-21-roller-NF0A52UD?color=53R",
+      "identity": {
+        "model": "Base Camp Voyager 21 Roller",
+        "size": "21 in",
+        "color": "TNF Black/TNF White",
+        "revision": null,
+        "sku": "NF:0A52UD:53R:OS::1"
+      },
+      "photoIds": [
+        "coverage-the-north-face-7cd7d807ed1c35a1",
+        "coverage-the-north-face-d1b41131768ef690"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-922dd030",
+      "offerIdentity": {
+        "brand": "Thule",
+        "product": "Subterra 2 Carry-On Spinner · 35 L · 55 cm · Black",
+        "currency": "USD",
+        "retailer": "thule.com",
+        "source": "https://www.thule.com/en-us/luggage/carry-on-luggage/thule-subterra-carry-on-spinner-_-3205627"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.thule.com/en-us/luggage/carry-on-luggage/thule-subterra-carry-on-spinner-_-3205627",
+      "identity": {
+        "model": "Subterra 2 Carry-On Spinner",
+        "size": "35 L · 55 cm",
+        "color": "Black",
+        "revision": null,
+        "sku": "3205627"
+      },
+      "photoIds": [
+        "coverage-thule-e7255e85d946c2b9",
+        "coverage-thule-463c2088caff2a1f"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-4f33f2a3",
+      "offerIdentity": {
+        "brand": "travelite",
+        "product": "Air Base Trolley S · S · Anthracite",
+        "currency": "EUR",
+        "retailer": "travelite.com",
+        "source": "https://www.travelite.com/en/AIR-BASE-Trolley-S/075347-04"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.travelite.com/en/AIR-BASE-Trolley-S/075347-04",
+      "identity": {
+        "model": "Air Base Trolley S",
+        "size": "S",
+        "color": "Anthracite",
+        "revision": null,
+        "sku": "075347-04"
+      },
+      "photoIds": [
+        "coverage-travelite-d7aa47ac2c433949",
+        "coverage-travelite-203e83ac7059094b"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-bd302c17",
+      "offerIdentity": {
+        "brand": "uppercase",
+        "product": "JFK Cabin Trolley · Cabin · Black",
+        "currency": "INR",
+        "retailer": "uppercase.co.in",
+        "source": "https://uppercase.co.in/products/jfk-black-cabin-trolley"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://uppercase.co.in/products/jfk-black-cabin-trolley",
+      "identity": {
+        "model": "JFK Cabin Trolley",
+        "size": "Cabin",
+        "color": "Black",
+        "revision": null,
+        "sku": "5100EHT1BLK"
+      },
+      "photoIds": [
+        "coverage-uppercase-9c45124a24d83a4a"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-91f4e218",
+      "offerIdentity": {
+        "brand": "Victorinox",
+        "product": "Crosslight Frequent Flyer Plus Softside Carry-On · Frequent Flyer Plus · Black",
+        "currency": "USD",
+        "retailer": "victorinox.com",
+        "source": "https://www.victorinox.com/en-US/Products/Travel-Gear/Carry-On-Bags/Crosslight-Frequent-Flyer-Plus-Softside-Carry-On/p/612419/"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.victorinox.com/en-US/Products/Travel-Gear/Carry-On-Bags/Crosslight-Frequent-Flyer-Plus-Softside-Carry-On/p/612419/",
+      "identity": {
+        "model": "Crosslight Frequent Flyer Plus Softside Carry-On",
+        "size": "Frequent Flyer Plus",
+        "color": "Black",
+        "revision": null,
+        "sku": "612419"
+      },
+      "photoIds": [
+        "coverage-victorinox-e0e689c5ab3a23be",
+        "coverage-victorinox-77e03a7283324f66"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-f9f344b3",
+      "offerIdentity": {
+        "brand": "WINGS",
+        "product": "Cockatiel · 20 in · Black",
+        "currency": "PLN",
+        "retailer": "wings24.pl",
+        "source": "https://wings24.pl/products/walizka-kabinowa-wings-cockatiel-polipropylen-20-black"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://wings24.pl/products/walizka-kabinowa-wings-cockatiel-polipropylen-20-black",
+      "identity": {
+        "model": "Cockatiel",
+        "size": "20 in",
+        "color": "Black",
+        "revision": null,
+        "sku": "CKT02-S-BLACK"
+      },
+      "photoIds": [
+        "coverage-wings-e8363e25b41978a4",
+        "coverage-wings-d00b82a8962c1242"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-3bdc5ca",
+      "offerIdentity": {
+        "brand": "WITTCHEN",
+        "product": "Wave Line Cabin Suitcase · Small · 38 L · White",
+        "currency": "PLN",
+        "retailer": "wittchen.com",
+        "source": "https://www.wittchen.com/walizka-kabinowa-z-abs-u-falowana-bialy%2Cp7129332"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.wittchen.com/walizka-kabinowa-z-abs-u-falowana-bialy%2Cp7129332",
+      "identity": {
+        "model": "Wave Line Cabin Suitcase",
+        "size": "Small · 38 L",
+        "color": "White",
+        "revision": null,
+        "sku": "56-3A-351-88"
+      },
+      "photoIds": [
+        "coverage-wittchen-faea5a4a414f478d",
+        "coverage-wittchen-06dfba598268ca59"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-355a0f33",
+      "offerIdentity": {
+        "brand": "Wrangler",
+        "product": "Spinner Carry-On · 22.5 in · Dark Charcoal",
+        "currency": "USD",
+        "retailer": "wrangler.com",
+        "source": "https://www.wrangler.com/shop/22.5-spinner-carry-on-luggage-in-dark-charcoal-112369282.html"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.wrangler.com/shop/22.5-spinner-carry-on-luggage-in-dark-charcoal-112369282.html",
+      "identity": {
+        "model": "Spinner Carry-On",
+        "size": "22.5 in",
+        "color": "Dark Charcoal",
+        "revision": null,
+        "sku": "112369282"
+      },
+      "photoIds": [
+        "coverage-wrangler-55eadc793fa7e137",
+        "coverage-wrangler-3680f3d91036a1de"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-7daef43f",
+      "offerIdentity": {
+        "brand": "Xiaomi",
+        "product": "Luggage Classic Pro · 20 in · 39 L · Black",
+        "currency": "EUR",
+        "retailer": "shopxiaomi.ie",
+        "source": "https://shopxiaomi.ie/products/xiaomi-luggage-classic-pro-20?variant=49962679730504"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://shopxiaomi.ie/products/xiaomi-luggage-classic-pro-20?variant=49962679730504",
+      "identity": {
+        "model": "Luggage Classic Pro",
+        "size": "20 in · 39 L",
+        "color": "Black",
+        "revision": null,
+        "sku": "E71028313"
+      },
+      "photoIds": [
+        "coverage-xiaomi-6645280ee5704805"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-8d4a9b73",
+      "offerIdentity": {
+        "brand": "Xiaomi",
+        "product": "Luggage Classic Pro · 20 in · 39 L · Grey",
+        "currency": "EUR",
+        "retailer": "shopxiaomi.ie",
+        "source": "https://shopxiaomi.ie/products/xiaomi-luggage-classic-pro-20?variant=50109486530888"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://shopxiaomi.ie/products/xiaomi-luggage-classic-pro-20?variant=50109486530888",
+      "identity": {
+        "model": "Luggage Classic Pro",
+        "size": "20 in · 39 L",
+        "color": "Grey",
+        "revision": null,
+        "sku": "E71028314"
+      },
+      "photoIds": [
+        "coverage-xiaomi-b4226bbd8342a27e"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-ad671e1a",
+      "offerIdentity": {
+        "brand": "Ted Baker",
+        "product": "Midnight Bloom 4-Wheel Cabin Suitcase · 55 cm · Midnight Bloom",
+        "currency": "GBP",
+        "retailer": "Clarks UK / Ted Baker London",
+        "source": "https://www.clarks.com/en-gb/ted-baker-midnight-bloom-55cm-4-wheel-cabin-suitcase/S1100014218-p"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.clarks.com/en-gb/ted-baker-midnight-bloom-55cm-4-wheel-cabin-suitcase/S1100014218-p",
+      "identity": {
+        "model": "Midnight Bloom 4-Wheel Cabin Suitcase",
+        "size": "55 cm",
+        "color": "Midnight Bloom",
+        "revision": null,
+        "sku": "S1100014218-p"
+      },
+      "photoIds": [
+        "coverage-ted-baker-080df74137d75a66",
+        "coverage-ted-baker-b76dc9713928d1a3"
+      ],
+      "gaps": [
+        "Production revision unverified."
+      ],
+      "note": "View and product identity checked against the linked gallery."
+    },
+    {
+      "offerId": "offer-99302a85",
+      "offerIdentity": {
+        "brand": "Vince Camuto",
+        "product": "Ivor 3-Piece Luggage Set · 20 / 24 / 28 in set · Black",
+        "currency": "USD",
+        "retailer": "belk.com",
+        "source": "https://www.belk.com/p/vince-camuto-ivor-3-pc--set-202428-luggage/0438753872689.html"
+      },
+      "checked": "2026-11-09",
+      "productPage": "https://www.belk.com/p/vince-camuto-ivor-3-pc--set-202428-luggage/0438753872689.html",
+      "identity": {
+        "model": "Ivor 3-Piece Luggage Set",
+        "size": "20 / 24 / 28 in set",
+        "color": "Black",
+        "revision": null,
+        "sku": "0438753872689"
+      },
+      "photoIds": [
+        "coverage-vince-camuto-d76af1a7019825ea"
+      ],
+      "gaps": [
+        "Production revision unverified.",
+        "No verified main-interior image for this offer."
+      ],
+      "note": "View and product identity checked against the linked gallery."
     }
   ],
-  "offerPhotoChecked": "2026-11-04"
+  "offerPhotoChecked": "2026-11-09"
 }

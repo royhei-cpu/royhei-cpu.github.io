@@ -6,8 +6,8 @@ function run(code){return vm.runInContext(code,ctx)}
 run('window.actualCsv=csv');
 
 const data=JSON.parse(fs.readFileSync(path.join(__dirname,'data.json'))),photos=JSON.parse(fs.readFileSync(path.join(__dirname,'photos.json')));
-assert.equal(photos.offerAudits.length,9);
-assert.equal(photos.photos.filter(p=>p.offerId).length,35);
+assert.equal(photos.offerAudits.filter(a => a.checked === '2026-11-04').length,9);
+assert.equal(photos.photos.filter(p => p.offerId && p.checked === '2026-11-04').length,35);
 const exportRows=[];
 for(const audit of photos.offerAudits){
  const offer=run(`offers().find(p=>p.id===${JSON.stringify(audit.offerId)})`);assert(offer);
@@ -19,11 +19,14 @@ for(const audit of photos.offerAudits){
  run(`itemSelection=new Set([${JSON.stringify(audit.offerId)}]);csv=(name,rows)=>window.exportRows=rows;exportDesk()`);
  const [headers,row]=ctx.window.exportRows;assert.equal(row.length,headers.length);
  const r=Object.fromEntries(headers.map((h,i)=>[h,row[i]]));assert.equal(r['Exact priced product'],offer.product);
- if(offer.brand!=='Skybags')assert(r['Exterior photo URL']);assert.equal(r['Photo checked date'],'2026-11-04');
+ const matchedViews = new Set(photos.photos.filter(p => p.offerId === audit.offerId && ['model-size-color-matched','model-size-color-revision-matched'].includes(p.verificationStatus)).map(p => p.view));
+ assert.equal(Boolean(r['Exterior photo URL']), matchedViews.has('Exterior'));
+ assert.equal(Boolean(r['Interior photo URL']), matchedViews.has('Interior'));
+ assert.equal(r['Photo checked date'],audit.checked);
  const evidence=JSON.parse(r['Photo evidence JSON']);assert.equal(evidence.length,audit.photoIds.length);
  assert(evidence.every(x=>x.url&&x.source&&x.status&&x.scope));
  if(offer.brand==='Assembly'){assert.equal(r['Interior photo URL'],'');assert(r['Collection alternative photo URLs']);assert(gallery.includes('Main interior photo not verified'));}
- else if(offer.brand!=='Skybags')assert(r['Interior photo URL']);
+ else if(audit.checked==='2026-11-04' && offer.brand!=='Skybags')assert(r['Interior photo URL']);
  if(offer.brand==='Skybags'){
   assert.match(r['Photo verification status'],/offer color unspecified/);assert.match(r['Remaining image gaps'],/does not specify color/);
   assert.equal(r['Exterior photo URL'],'');assert.equal(r['Interior photo URL'],'');
@@ -84,4 +87,4 @@ assert(ctx.window.downloadedCsv.includes('AeroliteAmazonPDP5-100'));
 assert(ctx.window.downloadedCsv.includes('AeroliteAmazonPDP6-100'));
 assert(!ctx.window.downloadedCsv.includes('100000001010283165'));
 if(process.env.PHOTO_SELECTED_EXPORT)fs.writeFileSync(process.env.PHOTO_SELECTED_EXPORT,ctx.window.downloadedCsv);
-console.log('PASS: nine offer identities, 35 images, gallery markup, variant/date isolation, strict match states, cross-offer isolation, qualified color columns, sources and CSV alignment.');
+console.log('PASS: historical and current photo audits, gallery markup, variant/date isolation, strict match states, qualified color columns, sources and CSV alignment.');

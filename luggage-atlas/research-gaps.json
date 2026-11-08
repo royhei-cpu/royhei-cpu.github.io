@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-04",
-  "records": 250,
-  "recordsWithImage": 216,
+  "checked": "2026-11-09",
+  "records": 322,
+  "recordsWithImage": 286,
   "brandReferenceOnly": 19,
-  "withFeatures": 135,
-  "photoReferences": 412,
+  "withFeatures": 207,
+  "photoReferences": 512,
   "missingPhotos": [
     {
       "id": "offer-aa9554f",
@@ -209,6 +209,18 @@
       "brand": "WITTCHEN",
       "model": "ABS / polycarbonate travel assortment",
       "source": "https://www.wittchen.com/en-US/bagaz/walizki/walizki-kabinowe"
+    },
+    {
+      "id": "offer-b4b1f9df",
+      "brand": "Commodore / 戰車",
+      "model": "9939 Series · 27 in",
+      "source": "https://24h.pchome.com.tw/prod/DIBKVN-A900KJP34"
+    },
+    {
+      "id": "offer-6a014504",
+      "brand": "Louis Vuitton",
+      "model": "Horizon 55 · 55 · Monogram",
+      "source": "https://us.louisvuitton.com/eng-us/products/horizon-55-monogram-nvprod6440157v/M13767"
     }
   ],
   "pendingFeatures": [
