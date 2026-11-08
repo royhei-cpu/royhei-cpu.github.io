@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-04",
+  "checked": "2026-11-08",
   "note": "All entries have an editorial style/shopper assessment and an explicit supplier-evidence status. A launch is not proof of rising sales. No demographic share or exact SKU-to-factory match is claimed.",
   "groups": [
     "Design minimalists",
@@ -1969,16 +1969,24 @@
       "audienceBasis": "Analyst inference from the named collection’s design, features and price positioning; not measured buyer age, gender, income or market share.",
       "test": "Check appetite for heritage cues and customization separately from willingness to accept added weight or care.",
       "supplier": {
-        "status": "Not verified",
-        "entity": "Not publicly verified in this research",
-        "factory": "Not publicly verified in this research",
-        "origin": "Not verified",
-        "scope": "Brand home and seller identity do not establish manufacturing origin or factory. Obtain a manufacturer disclosure tied to the exact model and production lot.",
-        "source": null,
+        "status": "Public disclosure; exact SKU factory unverified",
+        "entity": "Valigeria Roncato S.p.A.",
+        "factory": "Plant address unresolved",
+        "origin": "Italy · selected hard-shell collections",
+        "scope": "RV Roncato describes Italian production and assembly for its hard-shell cases. The profile does not equate its contact address with a factory. Ciak Roncato is excluded.",
+        "source": "https://blog.roncato.com/en/proudly-made-in-italy/",
         "components": "",
         "tradeLead": "",
-        "checked": "2026-11-03",
-        "skuFactoryVerified": false
+        "checked": "2026-11-08",
+        "skuFactoryVerified": false,
+        "sources": [
+          {
+            "label": "Production and assembly",
+            "url": "https://blog.roncato.com/en/proudly-made-in-italy/",
+            "kind": "Manufacturer",
+            "checked": "2026-11-08"
+          }
+        ]
       },
       "checked": "2026-11-03"
     },
@@ -2089,16 +2097,30 @@
       "audienceBasis": "Analyst inference from the named collection’s design, features and price positioning; not measured buyer age, gender, income or market share.",
       "test": "Test color preference and scuff visibility; separate a color launch from proven sell-through.",
       "supplier": {
-        "status": "Not verified",
-        "entity": "Not publicly verified in this research",
-        "factory": "Not publicly verified in this research",
-        "origin": "Not verified",
-        "scope": "Brand home and seller identity do not establish manufacturing origin or factory. Obtain a manufacturer disclosure tied to the exact model and production lot.",
-        "source": null,
+        "status": "Group network only",
+        "entity": "V.I.P. Industries Limited (brand group)",
+        "factory": "Satpur, Nashik and MIDC Malegaon, Sinnar, Nashik district (group plants)",
+        "origin": "India · group facilities",
+        "scope": "The FY2025–26 filing identifies the group plants. The plant serving any particular brand, size or SKU is undisclosed.",
+        "source": "https://financialfilings.com/filings/vip-industries-ltd/annual-report/2026/49788354/",
         "components": "",
         "tradeLead": "",
-        "checked": "2026-11-03",
-        "skuFactoryVerified": false
+        "checked": "2026-11-08",
+        "skuFactoryVerified": false,
+        "sources": [
+          {
+            "label": "FY2025–26 annual report, plant locations",
+            "url": "https://financialfilings.com/filings/vip-industries-ltd/annual-report/2026/49788354/",
+            "kind": "Issuer filing reproduced by FinancialFilings",
+            "checked": "2026-11-08"
+          },
+          {
+            "label": "Annual report index",
+            "url": "https://www.vipindustries.co.in/investor/disclosure-46-lodr",
+            "kind": "Issuer",
+            "checked": "2026-11-08"
+          }
+        ]
       },
       "checked": "2026-11-03"
     },
@@ -2522,16 +2544,30 @@
       "audienceBasis": "Analyst inference from the named collection’s design, features and price positioning; not measured buyer age, gender, income or market share.",
       "test": "Test laptop access, wheel noise, handle wobble and repair turnaround with frequent travelers.",
       "supplier": {
-        "status": "Not verified",
-        "entity": "Not publicly verified in this research",
-        "factory": "Not publicly verified in this research",
-        "origin": "Not verified",
-        "scope": "Brand home and seller identity do not establish manufacturing origin or factory. Obtain a manufacturer disclosure tied to the exact model and production lot.",
-        "source": null,
+        "status": "Group network only",
+        "entity": "V.I.P. Industries Limited (brand group)",
+        "factory": "Satpur, Nashik and MIDC Malegaon, Sinnar, Nashik district (group plants)",
+        "origin": "India · group facilities",
+        "scope": "The FY2025–26 filing identifies the group plants. The plant serving any particular brand, size or SKU is undisclosed.",
+        "source": "https://financialfilings.com/filings/vip-industries-ltd/annual-report/2026/49788354/",
         "components": "",
         "tradeLead": "",
-        "checked": "2026-11-03",
-        "skuFactoryVerified": false
+        "checked": "2026-11-08",
+        "skuFactoryVerified": false,
+        "sources": [
+          {
+            "label": "FY2025–26 annual report, plant locations",
+            "url": "https://financialfilings.com/filings/vip-industries-ltd/annual-report/2026/49788354/",
+            "kind": "Issuer filing reproduced by FinancialFilings",
+            "checked": "2026-11-08"
+          },
+          {
+            "label": "Annual report index",
+            "url": "https://www.vipindustries.co.in/investor/disclosure-46-lodr",
+            "kind": "Issuer",
+            "checked": "2026-11-08"
+          }
+        ]
       },
       "checked": "2026-11-03"
     },
@@ -2810,16 +2846,30 @@
       "audienceBasis": "Editorial hypothesis based on sourced features; not measured demographics or purchase intent.",
       "test": "Compare usable packing volume, wheel and handle durability, access, warranty terms and exact local retail before development.",
       "supplier": {
-        "status": "Not verified",
-        "entity": "Not publicly verified in this research",
-        "factory": "Not publicly verified in this research",
-        "origin": "Not verified",
-        "scope": "Brand, retailer and importer identities do not establish an exact SKU production factory. Obtain manufacturer and lot-level evidence.",
-        "source": null,
+        "status": "Group network only",
+        "entity": "V.I.P. Industries Limited (brand group)",
+        "factory": "Satpur, Nashik and MIDC Malegaon, Sinnar, Nashik district (group plants)",
+        "origin": "India · group facilities",
+        "scope": "The FY2025–26 filing identifies the group plants. The plant serving any particular brand, size or SKU is undisclosed.",
+        "source": "https://financialfilings.com/filings/vip-industries-ltd/annual-report/2026/49788354/",
         "components": "",
         "tradeLead": "",
-        "checked": "2026-11-04",
-        "skuFactoryVerified": false
+        "checked": "2026-11-08",
+        "skuFactoryVerified": false,
+        "sources": [
+          {
+            "label": "FY2025–26 annual report, plant locations",
+            "url": "https://financialfilings.com/filings/vip-industries-ltd/annual-report/2026/49788354/",
+            "kind": "Issuer filing reproduced by FinancialFilings",
+            "checked": "2026-11-08"
+          },
+          {
+            "label": "Annual report index",
+            "url": "https://www.vipindustries.co.in/investor/disclosure-46-lodr",
+            "kind": "Issuer",
+            "checked": "2026-11-08"
+          }
+        ]
       },
       "checked": "2026-11-04"
     },
@@ -2858,16 +2908,30 @@
       "audienceBasis": "Editorial hypothesis based on sourced features; not measured demographics or purchase intent.",
       "test": "Compare usable packing volume, wheel and handle durability, access, warranty terms and exact local retail before development.",
       "supplier": {
-        "status": "Not verified",
-        "entity": "Not publicly verified in this research",
-        "factory": "Not publicly verified in this research",
-        "origin": "Not verified",
-        "scope": "Brand, retailer and importer identities do not establish an exact SKU production factory. Obtain manufacturer and lot-level evidence.",
-        "source": null,
+        "status": "Group network only",
+        "entity": "V.I.P. Industries Limited (brand group)",
+        "factory": "Satpur, Nashik and MIDC Malegaon, Sinnar, Nashik district (group plants)",
+        "origin": "India · group facilities",
+        "scope": "The FY2025–26 filing identifies the group plants. The plant serving any particular brand, size or SKU is undisclosed.",
+        "source": "https://financialfilings.com/filings/vip-industries-ltd/annual-report/2026/49788354/",
         "components": "",
         "tradeLead": "",
-        "checked": "2026-11-04",
-        "skuFactoryVerified": false
+        "checked": "2026-11-08",
+        "skuFactoryVerified": false,
+        "sources": [
+          {
+            "label": "FY2025–26 annual report, plant locations",
+            "url": "https://financialfilings.com/filings/vip-industries-ltd/annual-report/2026/49788354/",
+            "kind": "Issuer filing reproduced by FinancialFilings",
+            "checked": "2026-11-08"
+          },
+          {
+            "label": "Annual report index",
+            "url": "https://www.vipindustries.co.in/investor/disclosure-46-lodr",
+            "kind": "Issuer",
+            "checked": "2026-11-08"
+          }
+        ]
       },
       "checked": "2026-11-04"
     },
@@ -3146,16 +3210,30 @@
       "audienceBasis": "Editorial hypothesis based on sourced features; not measured demographics or purchase intent.",
       "test": "Compare usable packing volume, wheel and handle durability, access, warranty terms and exact local retail before development.",
       "supplier": {
-        "status": "Not verified",
-        "entity": "Not publicly verified in this research",
-        "factory": "Not publicly verified in this research",
-        "origin": "Not verified",
-        "scope": "Brand, retailer and importer identities do not establish an exact SKU production factory. Obtain manufacturer and lot-level evidence.",
-        "source": null,
+        "status": "Named site; company scope",
+        "entity": "Pelican Products, Inc.",
+        "factory": "Torrance, California and South Deerfield, Massachusetts",
+        "origin": "United States · company facilities",
+        "scope": "Pelican describes manufacturing in Torrance and lists South Deerfield as its eastern manufacturing facility. No routing of the two catalog offers is established.",
+        "source": "https://www.pelican.com/us/en/about/our-story",
         "components": "",
         "tradeLead": "",
-        "checked": "2026-11-04",
-        "skuFactoryVerified": false
+        "checked": "2026-11-08",
+        "skuFactoryVerified": false,
+        "sources": [
+          {
+            "label": "Company history",
+            "url": "https://www.pelican.com/us/en/about/our-story",
+            "kind": "Manufacturer",
+            "checked": "2026-11-08"
+          },
+          {
+            "label": "East Coast manufacturing address",
+            "url": "https://www.pelican.com/us/en/support/contact-us",
+            "kind": "Manufacturer",
+            "checked": "2026-11-08"
+          }
+        ]
       },
       "checked": "2026-11-04"
     },
@@ -4382,6 +4460,30 @@
         "skuFactoryVerified": false
       },
       "checked": "2026-11-04"
+    },
+    "milesto": {
+      "brandId": "milesto",
+      "group": "Small-space & organized packers",
+      "why": "Three carrying modes suit trips that combine stairs, trains and walking.",
+      "signalStatus": "Launch / collection activity",
+      "signal": "Japan launch on 6 November 2026.",
+      "signalSource": "https://prtimes.jp/main/html/rd/p/000000219.000090148.html",
+      "designSource": "https://bruno-inc.com/?am=07643398&pg=product_detail",
+      "audienceBasis": "Editorial use-case hypothesis.",
+      "test": "Compare shoulder comfort under load and handling on stairs.",
+      "checked": "2026-11-08",
+      "supplier": {
+        "status": "Brand operator disclosed; factory unknown",
+        "entity": "BRUNO Inc. (brand operator)",
+        "factory": "Not publicly verified in this review",
+        "origin": "Not verified",
+        "scope": "BRUNO markets the MILESTO brand and announced this model. No manufacturer or plant is identified.",
+        "source": "https://prtimes.jp/main/html/rd/p/000000219.000090148.html",
+        "components": "",
+        "tradeLead": "",
+        "checked": "2026-11-08",
+        "skuFactoryVerified": false
+      }
     }
   }
 }

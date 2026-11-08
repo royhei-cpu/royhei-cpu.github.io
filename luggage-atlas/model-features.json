@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-04",
+  "checked": "2026-11-08",
   "fields": [
     {
       "id": "opening",
@@ -9221,9 +9221,51 @@
         "source": "https://dtajourney.com/products/carry-on-luggage-zipperless-aluminum-frame-trunk-hard-shell-international-suitcase-airline-approved-with-detachable-liner-and-wheels-olive-green",
         "scope": "Brand / collection background. Do not assume these claims apply to every model."
       }
+    },
+    {
+      "id": "milesto-hutte-boston",
+      "brandId": "milesto",
+      "brand": "MILESTO",
+      "model": "Hütte 3WAY Boston Carry",
+      "source": "https://prtimes.jp/main/html/rd/p/000000219.000090148.html",
+      "checked": "2026-11-08",
+      "scope": "BRUNO November 6 announcement for the Japanese model.",
+      "image": "https://prcdn.freetls.fastly.net/release_image/90148/219/90148-219-c1d0941f0fbd2e350303fc0a88fc8b2f-1328x747.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "gallery": [
+        "https://prcdn.freetls.fastly.net/release_image/90148/219/90148-219-c1d0941f0fbd2e350303fc0a88fc8b2f-1328x747.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+      ],
+      "features": {
+        "capacity": {
+          "value": "Approx. 36 L",
+          "basis": "BRUNO model specification"
+        },
+        "material": {
+          "value": "Water-repellent ripstop fabric",
+          "basis": "BRUNO model specification"
+        },
+        "handle": {
+          "value": "Two-stage pull handle; shoulder and hand carry",
+          "basis": "BRUNO model specification"
+        },
+        "organization": {
+          "value": "Removable mesh pouch and two-tier pocket",
+          "basis": "BRUNO model specification"
+        }
+      },
+      "featureCount": 4,
+      "region": "Asia",
+      "market": "Japan",
+      "aliases": [
+        "ミレスト"
+      ],
+      "recordType": "Source-backed model",
+      "format": "Wheeled duffel",
+      "photoScope": "Launch photo; individual color unverified.",
+      "opportunity": "Test multi-mode handling for mixed transit.",
+      "brandContext": "BRUNO announced the 36 L model for Japanese direct stores and e-commerce on November 6."
     }
   ],
-  "brandCount": 173,
+  "brandCount": 174,
   "geographicScope": "Worldwide discovery across all 173 recorded brand profiles; not an exhaustive worldwide brand or SKU census.",
   "researchRefresh": {
     "checked": "2026-11-04",

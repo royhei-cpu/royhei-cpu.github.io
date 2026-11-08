@@ -17,10 +17,12 @@ test('the existing 10,141 catalog records stay intact and global listings includ
  for(const p of JSON.parse(fs.readFileSync(path.join(site,'catalog-additions.json'))))if(!ids.has(p.id)){ids.add(p.id);items.push(p);}
  const review=JSON.parse(fs.readFileSync(path.join(site,'catalog-review/index.json')));
  for(const file of review.files)for(const p of JSON.parse(fs.readFileSync(path.join(site,'catalog-review',file))))if(!ids.has(p.id)){ids.add(p.id);items.push(p);}
- assert.equal(items.length,10141);const before=JSON.stringify(items);
+ const newBatch=JSON.parse(fs.readFileSync(path.join(site,'catalog-review/assortment-2026-11-08.json')));
+ assert.equal(new Set(newBatch.map(p=>p.id)).size,newBatch.length);
+ assert.equal(items.length,10141+newBatch.length);const before=JSON.stringify(items);
  const rows=catalogRows(items,()=>'/home-care/photos/test.jpg',refs);
  assert.equal(JSON.stringify(items),before);assert.ok(items.every(p=>rows.some(r=>r.id===p.id)));
- assert.equal(globalCounts(rows).records,10752);assert.equal(globalCounts(rows).countries,20);
+ assert.equal(globalCounts(rows).records,10752+newBatch.length);assert.equal(globalCounts(rows).countries,20);
  const china=matchingRows(rows,{country:'China'});assert.equal(china.length,11);assert.equal(china.filter(p=>p.retailer==='JD.com').length,9);
  assert.ok(china.every(p=>p.link.startsWith('https://')));assert.ok(china.every(p=>p.image.startsWith('/cleantrend-opportunity-hub/')));
  assert.equal(matchingRows(rows,{query:'中国'}).length,11);
