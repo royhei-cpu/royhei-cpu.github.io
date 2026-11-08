@@ -40,6 +40,15 @@ function storefrontFigure(p) {
   if (!photo) return '';
   return `<img src="${E(photo.url)}" alt="${E(p.product)}" loading="lazy"><small>${E(photo.label)}</small>`;
 }
+const optionTranslations = {
+  'シャンパンゴールド':'Champagne gold','ブラック':'Black','クールホワイト':'Cool white','ブルーグレー':'Blue gray',
+  'ガンメタルブラック':'Gunmetal black','ネイビーブルー':'Navy blue','フォレストグリーン':'Forest green','スチールグレー':'Steel gray',
+  'オーシャンブルー':'Ocean blue','クラシックシルバー':'Classic silver','イエロー':'Yellow','ホワイトベージュ':'White beige',
+  'ロイヤルブルー':'Royal blue','アイスブルー':'Ice blue','ディープブラック':'Deep black','アイボリー':'Ivory',
+  'コーラルピンク':'Coral pink','シックレッド':'Chic red','アッシュブルー':'Ash blue','シルバーグレー':'Silver gray',
+  'クリームアイボリー':'Cream ivory','ライトベージュ':'Light beige','オレンジ':'Orange','コンパクトS':'Compact S',
+  'コンパクトM':'Compact M','S(8cm拡張タイプ)':'S (8 cm expansion)'
+};
 function variantControls(group, p) {
   if (!group.matched) return '<p class="caption">Individual listing · parent model unverified</p>';
   const variant = identity(p).variant;
@@ -56,7 +65,7 @@ function variantControls(group, p) {
   for (const [axis, label] of [['size','Size'], ['color','Color']]) {
     if (!candidates.some(offer => identity(offer).variant[axis])) continue;
     const values = [...new Set(candidates.map(offer => identity(offer).variant[axis] || ''))];
-    select(axis, label, values.map(v => [v, v || 'Unspecified']), variant[axis] || '');
+    select(axis, label, values.map(v => [v, optionTranslations[v] || v || 'Unspecified']), variant[axis] || '');
     candidates = candidates.filter(offer => (identity(offer).variant[axis] || '') === (variant[axis] || ''));
   }
   if (candidates.length > 1) {
@@ -101,16 +110,16 @@ function priceRanges(rows) {
 }
 function exportModels(rows) {
   csv('Luggage_Atlas_Model_Index.csv', [
-    ['Record type','Model ID','Brand','Model or listing','Matching priced offers','Observed prices by market and currency','Identity evidence','Offer IDs','Source URLs'],
-    ...modelGroups(rows).map(g => [g.matched ? 'Verified model family' : 'Unlinked listing', g.matched?.id, g.offers[0].brand, g.name, g.offers.length, priceRanges(g.offers), g.matched?.basis, g.offers.map(p => p.id).join(' | '), g.offers.map(p => p.source).join(' | ')])
+    ['Record type','Model ID','Brand','Model or listing','Matching priced offers','Observed prices by market and currency','Identity evidence','Offer IDs','Source URLs','Product configuration'],
+    ...modelGroups(rows).map(g => [g.matched ? 'Verified model family' : 'Unlinked listing', g.matched?.id, g.offers[0].brand, g.name, g.offers.length, priceRanges(g.offers), g.matched?.basis, g.offers.map(p => p.id).join(' | '), g.offers.map(p => p.source).join(' | '),g.matched?.configuration || 'Unverified'])
   ]);
 }
 function exportModelOffers(rows) {
   csv('Luggage_Atlas_Priced_Offers.csv', [
-    ['Model ID','Model','Offer ID','Brand','Exact listing','Size','Color','SKU','Amount','Currency','Regular price','Market','Retailer','Availability','Observed','Store listing date','Price basis','Original note','Source URL','Original photo URL','Variant-assigned photo URL',...offerPhotoExportHeaders],
+    ['Model ID','Model','Offer ID','Brand','Exact listing','Size','Color','SKU','Amount','Currency','Regular price','Market','Retailer','Availability','Observed','Store listing date','Price basis','Original note','Source URL','Original photo URL','Variant-assigned photo URL','Product configuration',...offerPhotoExportHeaders],
     ...rows.map(p => {
       const m = identity(p);
-      return [m?.family.id,m?.family.name,p.id,p.brand,p.product,m?.variant.size,m?.variant.color,m?.variant.sku || p.sku,p.amount,p.currency,p.regular,p.market,p.retailer,availability(p),p.date,p.storeListingDate,p.kind,p.note,p.source,p.sourcePhoto,m?.variant.photo,...offerPhotoExport(p)];
+      return [m?.family.id,m?.family.name,p.id,p.brand,p.product,m?.variant.size,m?.variant.color,m?.variant.sku || p.sku,p.amount,p.currency,p.regular,p.market,p.retailer,availability(p),p.date,p.storeListingDate,p.kind,p.note,p.source,p.sourcePhoto,m?.variant.photo,m?.family.configuration || 'Unverified',...offerPhotoExport(p)];
     })
   ]);
 }
@@ -129,6 +138,8 @@ function recentLaunches() {
 function modelDashboard() {
   const all = modelGroups(offers()), confirmed = all.filter(g=>g.matched);
   const {from,end,items} = recentLaunches();
+  const individual = confirmed.filter(g=>g.matched.configuration==='Individual product').length;
+  const sets = confirmed.filter(g=>g.matched.configuration==='Set').length;
   const totals = new Map(D.brands.map(b=>[b.name,{families:0,offers:0,unlinked:0}]));
   for (const g of all) {
     const brand = g.offers[0].brand;
@@ -140,7 +151,7 @@ function modelDashboard() {
   const sorted = [...totals].sort((a,b)=>b[1].families-a[1].families || a[0].localeCompare(b[0]));
   const metrics = [['Verified model families',confirmed.length],['Priced offers',D.prices.length],['Unlinked listings',all.length-confirmed.length],['Verified launch events',items.length]];
   return `<section class="section model-dashboard"><h2>Assortment coverage</h2><div class="model-stats">${metrics.map(([label,n])=>`<div><strong>${n.toLocaleString()}</strong><span>${label}</span></div>`).join('')}</div>
-  <p>Catalog counts are cumulative through ${E(end)}. Named sets count separately from individual cases. Unlinked listings remain searchable and are excluded from the verified model count.</p>
+  <p><b>${individual} individual product families · ${sets} set configurations.</b> Catalog counts are cumulative through ${E(end)}. Unlinked listings remain searchable and are excluded from the verified model count.</p>
   <h3>Brands with the most verified families in this sample</h3>
   ${barRows(sorted.slice(0,5).map(([label,r])=>({label,value:r.families})),Math.max(1,sorted[0]?.[1].families||0))}
   <p class="caption">Each bar counts distinct reviewed families. Listing volume and sales are separate measures.</p>
