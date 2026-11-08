@@ -5,6 +5,7 @@ import path from 'node:path';
 import vm from 'node:vm';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {addFactoryInterface} from './brand-factory-build.mjs';
 import {addHomecareUpgrade} from './homecare-upgrade-build.mjs';
 import {catalogRows,matchingRows,globalCounts,reorderNavigation,asNativeReference} from './ui-src/upgrade-model.js';
 const dir=path.dirname(fileURLToPath(import.meta.url)),site=path.join(dir,'site');
@@ -39,6 +40,10 @@ test('the actual index receives the new content and semantic navigation puts Opp
  const nodes=['nav-catalog','nav-analysis','nav-opportunities','brand-factories','video-guide','nav-global','nav-workshop','nav-target'].map(id=>({id:id.startsWith('nav-')?id:'',dataset:{navigationId:id.startsWith('nav-')?'':id}}));
  const element={children:nodes,append(node){this.children=this.children.filter(n=>n!==node);this.children.push(node);}};reorderNavigation(element);
  assert.equal(element.children.at(-1).id,'nav-opportunities');assert.ok(element.children.findIndex(n=>n.id==='nav-global')<element.children.findIndex(n=>n.id==='nav-workshop'));
+ const assembled=addHomecareUpgrade(addFactoryInterface(input),site);
+ const exportFields=vm.runInNewContext(assembled.match(/const fields=(\[[^;]+\]);/)[1]);
+ assert.deepEqual(Array.from(exportFields.slice(0,3)),['market','referenceCurrency','sourceScope']);
+ for(const field of ['originalCatalogBrand','brandIdentitySource','brandIdentityCheckedDate','brandIdentityProductCode','factoryBrand'])assert.ok(exportFields.includes(field),field);
  assert.match(output,/market:'Country \/ market'/);assert.match(output,/referenceCurrency:'Reference currency'/);
 });
 
