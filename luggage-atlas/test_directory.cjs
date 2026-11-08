@@ -1,9 +1,9 @@
 const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict'),path=require('path');
 const elements=new Map(),stored=new Map(),listeners=new Map();const el=k=>{if(!elements.has(k))elements.set(k,{innerHTML:'',textContent:'',value:'',hidden:false,disabled:false,checked:false,dataset:{},style:{},addEventListener(){},setAttribute(){},showModal(){this.open=true},close(){this.open=false}});return elements.get(k)};
 const ctx={window:{addEventListener(){},scrollTo(){}},document:{querySelector:el,querySelectorAll:()=>[],addEventListener:(name,fn)=>{if(!listeners.has(name))listeners.set(name,[]);listeners.get(name).push(fn)},createElement:()=>({click(){}})},localStorage:{getItem:k=>stored.get(k)||null,setItem:(k,v)=>stored.set(k,v),removeItem:k=>stored.delete(k)},location:{hash:''},setTimeout(){},URL:{createObjectURL(){return''},revokeObjectURL(){}},Blob:function(){},console};vm.createContext(ctx);
-for(const name of ['data.js','photos.js','weekly.js','atlas-upgrade.js','fashion.js','fashion-ui.js','innovation.js','innovation-ui.js','workbench.js','tutorial.js','offer-photos.js','directory.js','app.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,name),'utf8'),ctx);
+for(const name of ['data.js','photos.js','weekly.js','atlas-upgrade.js','fashion.js','fashion-ui.js','innovation.js','innovation-ui.js','workbench.js','model-evidence.js','model-catalog.js','tutorial.js','offer-photos.js','directory.js','app.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,name),'utf8'),ctx);
 const run=code=>vm.runInContext(code,ctx);assert.equal(run('tab'),'start');assert(el('#view').innerHTML.includes('New here? Begin with this step.'));run("location.hash='#directory';render()");assert.equal(run('directoryRows().length'),run('D.prices.length'));assert.equal(run("directoryRows().filter(p=>directoryCoverage(p).key==='matched').length"),7);assert.equal(run("directoryRows().filter(p=>directoryCoverage(p).key==='qualified').length"),1);assert.equal(run("directoryRows().filter(p=>directoryCoverage(p).key==='gap').length"),1);assert.equal(run("directoryRows().filter(p=>directoryCoverage(p).key==='unreviewed').length"),run('D.prices.length')-9);
-run("directoryLimit=D.prices.length;drawDirectory()");assert.equal((el('#directoryRows').innerHTML.match(/class=\"directory-row/g)||[]).length,run('D.prices.length'));
+run("directoryLimit=D.prices.length;drawDirectory()");assert.equal((el('#directoryRows').innerHTML.match(/class=\"directory-row/g)||[]).length,run('modelGroups(offers()).length'));
 run("directoryFilters.q='Samsonite';drawDirectory()");assert.equal(run('directoryRows().length'),3);assert(el('#directoryRows').innerHTML.includes('FLATFORM'));assert(el('#directoryRows').innerHTML.includes('Upscape'));assert(el('#directoryRows').innerHTML.includes('Paralux'));
 run("directoryFilters={q:'',region:'',currency:'INR',format:'',coverage:'matched',followed:false,sort:'coverage'};drawDirectory()");assert(run("directoryRows().every(p=>p.currency==='INR'&&directoryCoverage(p).key==='matched')"));
 run("directoryFilters.coverage='';directoryFilters.currency='';directoryFilters.q='No-such-case';drawDirectory()");assert.equal(run('directoryRows().length'),0);assert(el('#directoryRows').innerHTML.includes('No matching offers'));
@@ -33,3 +33,30 @@ ctx.Blob=function(parts){ctx.window.visualDocument=parts.join('')};
 ctx.fetch=async relative=>({ok:true,blob:async()=>({bytes:fs.readFileSync(path.join(__dirname,relative))})});
 ctx.FileReader=class{readAsDataURL(blob){this.result='data:image/jpeg;base64,'+blob.bytes.toString('base64');this.onload();}};
 (async()=>{run("itemSelection=new Set(['offer-1730d13','offer-39bdd129','offer-a8bb8cf6','offer-baa5a155'])");await run('exportVisualShortlist()');const html=ctx.window.visualDocument;assert(html.includes('data:image/jpeg;base64,'));assert(html.includes('Collection alternative'));assert(html.includes('offer color unspecified'));assert(html.includes('Paralux'));assert(html.includes('Aerolite'));if(process.env.PHOTO_VISUAL_EXPORT)fs.writeFileSync(process.env.PHOTO_VISUAL_EXPORT,html);console.log('PASS: visual shortlist exports embedded photographs, exact identities, qualified/alternative labels, gaps and source links.');})().catch(e=>{console.error(e);process.exitCode=1});
+
+// Each verified family joins original offer IDs. Revisions, named cases and sets stay independently selectable.
+run(`{
+  const rows=offers(), groups=modelGroups(rows);
+  const uniqueIds=new Set(rows.map(p=>p.id));
+  if ([...membership.keys()].some(id=>!uniqueIds.has(id))) throw Error('Unknown reviewed offer');
+  if (groups.flatMap(g=>g.offers).length!==rows.length) throw Error('Lost offers');
+  if (groups.filter(g=>g.name==='STAND U plus')[0].offers.length!==6) throw Error('STAND U plus');
+  const getaway=groups.find(g=>g.offers[0].brand==='BAGSMART');
+  if (getaway.offers.length!==12 || new Set(getaway.offers.map(p=>identity(p).variant.color)).size!==12) throw Error('Getaway colors');
+  for(const name of ['STAND U','COLOR YOU Kei']) {
+    const family=groups.find(g=>g.name===name);
+    if(!family.offers.some(p=>identity(p).variant.size==='XL')||!family.offers.some(p=>identity(p).variant.size==='S'))throw Error('Cross-page XL size');
+  }
+  const speed=groups.filter(g=>['SPEED U','SPEED U plus'].includes(g.name));
+  if (speed.length!==2 || speed.some(g=>g.offers.length!==2)) throw Error('SPEED U generation boundary');
+  const brisbane=groups.filter(g=>g.name.startsWith('Brisbane'));
+  if (brisbane.length<2 || brisbane.some(g=>g.offers.some(p=>p.product.includes('Set of')) && g.offers.some(p=>!p.product.includes('Set of')))) throw Error('Set merged into single case');
+  const recent=recentLaunches();
+  if(!recent.items.some(l=>l.brand==='MILESTO') || recent.items.some(l=>l.brand==='BAGSMART'))throw Error('Launch vs price observation');
+  if(modelGroups([{...rows[0],id:'future-unknown'}])[0].matched) throw Error('Unreviewed listing merged');
+  csv=(name,cells)=>window.modelCSV=cells;
+  exportModels(getaway.offers);
+  if(window.modelCSV.length!==2 || window.modelCSV[1][4]!==12)throw Error('Model-level CSV');
+  exportModelOffers(getaway.offers);
+  if(window.modelCSV.length!==13 || window.modelCSV.some(r=>r.length!==window.modelCSV[0].length))throw Error('Offer-level CSV');
+}`);
