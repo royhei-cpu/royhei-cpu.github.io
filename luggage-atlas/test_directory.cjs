@@ -51,6 +51,11 @@ run(`{
   if (speed.length!==2 || speed.some(g=>g.offers.length!==2)) throw Error('SPEED U generation boundary');
   const brisbane=groups.filter(g=>g.name.startsWith('Brisbane'));
   if (brisbane.length<2 || brisbane.some(g=>g.offers.some(p=>p.product.includes('Set of')) && g.offers.some(p=>!p.product.includes('Set of')))) throw Error('Set merged into single case');
+  const aliasBrand=brandBy('Frequenter');
+  directoryFilters={q:'',brand:aliasBrand.id};
+  const labels=new Set(directoryRows().map(p=>p.brand));
+  if(!labels.has('Frequenter')||!labels.has('FREQUENTER'))throw Error('Aliases lost from brand drilldown');
+  if(!brandModelSummary(aliasBrand).includes(directoryRows().length+' priced offers'))throw Error('Brand scope mismatch');
   const recent=recentLaunches();
   if(!recent.items.some(l=>l.brand==='MILESTO') || recent.items.some(l=>l.brand==='BAGSMART'))throw Error('Launch vs price observation');
   if(modelGroups([{...rows[0],id:'future-unknown'}])[0].matched) throw Error('Unreviewed listing merged');

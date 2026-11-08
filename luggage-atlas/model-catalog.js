@@ -142,20 +142,21 @@ function modelDashboard() {
   const sets = confirmed.filter(g=>g.matched.configuration==='Set').length;
   const totals = new Map(D.brands.map(b=>[b.name,{families:0,offers:0,unlinked:0}]));
   for (const g of all) {
-    const brand = g.offers[0].brand;
+    const brand = brandBy(g.offers[0].brand)?.name || g.offers[0].brand;
     if (!totals.has(brand)) totals.set(brand,{families:0,offers:0,unlinked:0});
     const row = totals.get(brand);
     row[g.matched?'families':'unlinked']++;
     row.offers += g.offers.length;
   }
   const sorted = [...totals].sort((a,b)=>b[1].families-a[1].families || a[0].localeCompare(b[0]));
+  const pricedBrands = [...totals.values()].filter(r=>r.offers>0).length;
   const metrics = [['Verified model families',confirmed.length],['Priced offers',D.prices.length],['Unlinked listings',all.length-confirmed.length],['Verified launch events',items.length]];
   return `<section class="section model-dashboard"><h2>Assortment coverage</h2><div class="model-stats">${metrics.map(([label,n])=>`<div><strong>${n.toLocaleString()}</strong><span>${label}</span></div>`).join('')}</div>
-  <p><b>${individual} individual product families · ${sets} set configurations.</b> Catalog counts are cumulative through ${E(end)}. Unlinked listings remain searchable and are excluded from the verified model count.</p>
+  <p><b>${individual} individual product families · ${sets} set configurations.</b> Priced offers cover ${pricedBrands} of ${D.brands.length} brand profiles through ${E(end)}. Unlinked listings remain searchable and are excluded from the verified model count.</p>
   <h3>Brands with the most verified families in this sample</h3>
   ${barRows(sorted.slice(0,5).map(([label,r])=>({label,value:r.families})),Math.max(1,sorted[0]?.[1].families||0))}
   <p class="caption">Each bar counts distinct reviewed families. Listing volume and sales are separate measures.</p>
-  <details><summary>Model and offer counts by brand</summary><p class="caption">Coverage of the Atlas sample. Each reviewed family counts once. Offer counts measure listing coverage.</p><div class="table-wrap"><table><thead><tr><th>Brand</th><th>Verified families</th><th>Priced offers</th><th>Unlinked listings</th></tr></thead><tbody>${sorted.map(([b,r])=>`<tr><td><a href="?q=${encodeURIComponent(b)}#directory">${E(b)}</a></td><td>${r.families}</td><td>${r.offers}</td><td>${r.unlinked}</td></tr>`).join('')}</tbody></table></div></details>
+  <details><summary>Model and offer counts by brand</summary><p class="caption">Coverage of the Atlas sample. Each reviewed family counts once. Offer counts measure listing coverage.</p><div class="table-wrap"><table><thead><tr><th>Brand</th><th>Verified families</th><th>Priced offers</th><th>Unlinked listings</th></tr></thead><tbody>${sorted.map(([b,r])=>`<tr><td><a href="?brand=${encodeURIComponent(brandBy(b)?.id || b)}#directory">${E(b)}</a></td><td>${r.families}</td><td>${r.offers}</td><td>${r.unlinked}</td></tr>`).join('')}</tbody></table></div></details>
   <details><summary>${items.length} verified launch events · ${E(from)} to ${E(end)}</summary><ol class="launch-list">${items.map(launchHTML).join('')||'<li>No verified launches in this window.</li>'}</ol><button class="btn" data-export-launches>Export these launches CSV</button></details>
   <a class="btn" href="#directory">Browse models and export offers →</a>${openStoryModelStudy()}</section>`;
 }
@@ -165,7 +166,7 @@ document.addEventListener('click', e => {
   csv('Luggage_Atlas_Verified_Launches.csv',[['Record type','Brand','Launch','Release date','Date evidence','Source URL'],...items.map(x=>['Verified launch event',x.brand,x.title,x.date,x.dateType,x.source])]);
 });
 function brandModelSummary(b) {
-  const rows = offers().filter(p=>p.brand===b.name);
+  const rows = offers().filter(p=>brandBy(p.brand)?.id===b.id);
   const groups = modelGroups(rows), verified = groups.filter(g=>g.matched).length;
   return `${verified} verified model families · ${rows.length} priced offers · ${groups.length-verified} unlinked listings`;
 }
