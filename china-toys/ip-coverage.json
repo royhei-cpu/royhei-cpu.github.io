@@ -1,20 +1,20 @@
 {
-  "catalog_date": "2026-11-04",
+  "catalog_date": "2026-11-08",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
       "brand": "POP MART",
-      "records": 204,
+      "records": 208,
       "status": "Partial assortment"
     },
     {
       "brand": "TOP TOY",
-      "records": 289,
+      "records": 291,
       "status": "Partial assortment"
     },
     {
       "brand": "52TOYS",
-      "records": 126,
+      "records": 127,
       "status": "Partial assortment"
     },
     {
@@ -29,7 +29,7 @@
     },
     {
       "brand": "TNT SPACE",
-      "records": 84,
+      "records": 86,
       "status": "Partial assortment"
     }
   ],
@@ -49,7 +49,6 @@
         "3204d2da04c97b81",
         "bcc454ce273c1025",
         "fef62fae2bf41616",
-        "4221f2cf9f105e20",
         "3e490484cffefd32",
         "59f33f7e3a611762",
         "71ef0a8e2e460740",
@@ -73,7 +72,8 @@
         "8b5fad033075d098",
         "43e31ee622bcfcc3",
         "35b3be5a349b569c",
-        "c83a32968da52515"
+        "c83a32968da52515",
+        "4221f2cf9f105e20"
       ],
       "status": "Partial assortment"
     },
@@ -138,23 +138,26 @@
     {
       "id": "dimoo",
       "name": "DIMOO",
-      "records": 20,
+      "records": 23,
       "product_ids": [
         "44d3b12f612461d8",
         "34d8cd993e1154eb",
         "1311a6f3d8e7cf98",
         "36c0a81a6876250c",
+        "7cfe2a8b067869cd",
         "b16d2825a18ad212",
         "b6f8ecc9893bb456",
         "a3e7573651a13eca",
         "929eed3f7d85a1d5",
         "b8aad3231c853f08",
         "8cadb8afd0722632",
+        "8b44ecf9e8872c49",
         "6fbf02a4de215561",
         "69bed46bb4e441c8",
         "3fd72ff5e451fc7b",
         "4e4347ba6e6f32a7",
         "52050ef6410c8992",
+        "9e412ee7e64246da",
         "f323af0a12f40f8a",
         "d46a2777682b4f68",
         "4b9d42678e25403a",
@@ -189,7 +192,7 @@
     {
       "id": "nommi",
       "name": "Nommi / 糯米儿",
-      "records": 84,
+      "records": 85,
       "product_ids": [
         "bb4961c84498f50b",
         "af9b85a45ced5ebb",
@@ -215,10 +218,12 @@
         "e6782656fbee3528",
         "02d0a0c8e5ac681e",
         "e4ff163f88e9b373",
+        "c0cda6ba0b21939b",
         "4c50ee1bcc91ab0c",
         "316c1f384a7d64e2",
         "70eca319c4ffe2ab",
         "b548757a9f4a0fa8",
+        "e0a5ca9e8425f72c",
         "55dd089aff6c8c51",
         "8c65c568c4ad9dce",
         "429569e256cf6d5e",
@@ -272,7 +277,6 @@
         "8db2bbf10c5c17e6",
         "ebe4377834f128cd",
         "c695dd2c7a4289f7",
-        "c0cda6ba0b21939b",
         "81b21408898ad315",
         "9eb8d6c4fa1a2560"
       ],
@@ -329,7 +333,6 @@
         "3204d2da04c97b81",
         "bcc454ce273c1025",
         "fef62fae2bf41616",
-        "4221f2cf9f105e20",
         "3e490484cffefd32",
         "59f33f7e3a611762",
         "71ef0a8e2e460740",
@@ -353,7 +356,8 @@
         "8b5fad033075d098",
         "43e31ee622bcfcc3",
         "35b3be5a349b569c",
-        "c83a32968da52515"
+        "c83a32968da52515",
+        "4221f2cf9f105e20"
       ],
       "status": "Partial assortment"
     },
@@ -418,23 +422,26 @@
     {
       "id": "dimoo",
       "name": "DIMOO",
-      "records": 20,
+      "records": 23,
       "product_ids": [
         "44d3b12f612461d8",
         "34d8cd993e1154eb",
         "1311a6f3d8e7cf98",
         "36c0a81a6876250c",
+        "7cfe2a8b067869cd",
         "b16d2825a18ad212",
         "b6f8ecc9893bb456",
         "a3e7573651a13eca",
         "929eed3f7d85a1d5",
         "b8aad3231c853f08",
         "8cadb8afd0722632",
+        "8b44ecf9e8872c49",
         "6fbf02a4de215561",
         "69bed46bb4e441c8",
         "3fd72ff5e451fc7b",
         "4e4347ba6e6f32a7",
         "52050ef6410c8992",
+        "9e412ee7e64246da",
         "f323af0a12f40f8a",
         "d46a2777682b4f68",
         "4b9d42678e25403a",
@@ -469,7 +476,7 @@
     {
       "id": "nommi",
       "name": "Nommi / 糯米儿",
-      "records": 84,
+      "records": 85,
       "product_ids": [
         "bb4961c84498f50b",
         "af9b85a45ced5ebb",
@@ -495,10 +502,12 @@
         "e6782656fbee3528",
         "02d0a0c8e5ac681e",
         "e4ff163f88e9b373",
+        "c0cda6ba0b21939b",
         "4c50ee1bcc91ab0c",
         "316c1f384a7d64e2",
         "70eca319c4ffe2ab",
         "b548757a9f4a0fa8",
+        "e0a5ca9e8425f72c",
         "55dd089aff6c8c51",
         "8c65c568c4ad9dce",
         "429569e256cf6d5e",
@@ -552,7 +561,6 @@
         "8db2bbf10c5c17e6",
         "ebe4377834f128cd",
         "c695dd2c7a4289f7",
-        "c0cda6ba0b21939b",
         "81b21408898ad315",
         "9eb8d6c4fa1a2560"
       ],
@@ -819,13 +827,14 @@
     {
       "id": "dora",
       "name": "DORA / BABY DORA",
-      "records": 29,
+      "records": 30,
       "product_ids": [
         "e5e680ec01fb81d5",
         "bdb646da849282ff",
         "be5f4ae9b97224b9",
         "e95dcbd228797ef5",
         "a5885a1dde97878c",
+        "7fcd7ad83545e65e",
         "7eb168772f08214e",
         "6323a3cd2afd38e8",
         "b83884e6335bdd7b",
@@ -1032,7 +1041,7 @@
       "product_ids": [
         "3d85180e56c0e400",
         "cffc0879c2585beb",
-        "5cfab208ed253e70",
+        "e23be0a76a033aa7",
         "26bbe5f2854568f8",
         "98d6dfbb7a8da226",
         "5531f38676d3b58a",
@@ -1045,7 +1054,7 @@
     {
       "id": "lulu",
       "name": "LuLu the Piggy",
-      "records": 92,
+      "records": 94,
       "product_ids": [
         "c8e3b1c5c0c907d7",
         "ccd30b3897e21a97",
@@ -1077,7 +1086,6 @@
         "297fb8a726cc7245",
         "bec1e5898981fc70",
         "464635722a575510",
-        "7e865395dff975ed",
         "77059d0dae117904",
         "0f260b44970399a4",
         "5287299aced517e6",
@@ -1097,6 +1105,8 @@
         "095f0bed1e414a9b",
         "68c457cf359b503e",
         "ba12dd8ecb11cadf",
+        "f3d8c7460d860e49",
+        "c16942e6d0acf2ca",
         "5de71143308d4df5",
         "f0c724978d1d9f85",
         "5408dd76b1344f5f",
@@ -1138,7 +1148,8 @@
         "8e3cf9439db2d1b4",
         "48b675576d07b6de",
         "47d6d376b388accd",
-        "33a6fa51fe3181f9"
+        "33a6fa51fe3181f9",
+        "7e865395dff975ed"
       ],
       "status": "Partial assortment"
     },
@@ -1193,7 +1204,7 @@
     {
       "id": "maymei",
       "name": "Maymei",
-      "records": 53,
+      "records": 54,
       "product_ids": [
         "82e1692a53675ad9",
         "b13aeabfc77d29d8",
@@ -1212,6 +1223,7 @@
         "d9d8f8daecffe255",
         "bbf44352314f4a8b",
         "adb848457646c72a",
+        "77585fc286b2e3c9",
         "e22926a7c68c3c16",
         "1718005fc6d3c93f",
         "1b917a51d7863e82",
@@ -1225,6 +1237,7 @@
         "18dee2d164a249e7",
         "ee932189b323c7f1",
         "e42b53a1049658bf",
+        "a3ae486f21355ce9",
         "e4c5f113913fdd9f",
         "8be6d67deaf2dd43",
         "0cc9df82cd7b4502",
@@ -1234,9 +1247,8 @@
         "2fa309996367d580",
         "00e9f140669952a1",
         "a822930fde116399",
-        "964ff60855ae2ebe",
-        "e3f2ea3a4ef79ac5",
         "aa0f37f1f6e30387",
+        "575dce5f1d68f766",
         "e45ba49c22493e7c",
         "98aa74a49a717a82",
         "5d37371f1f9be0ca",
@@ -1247,7 +1259,7 @@
         "14b1fa0c4bfe05ee",
         "d1bc76cda536a3d7",
         "9706d5ba199927ff",
-        "575dce5f1d68f766"
+        "e3f2ea3a4ef79ac5"
       ],
       "status": "Partial assortment"
     },
@@ -1268,7 +1280,7 @@
     {
       "id": "sonny-angel",
       "name": "Sonny Angel",
-      "records": 14,
+      "records": 15,
       "product_ids": [
         "9c768d3369956d83",
         "072376d948b38e52",
@@ -1283,7 +1295,8 @@
         "847169a8e257202c",
         "4eee7f4df7ebef6f",
         "b5d0476e56cd4b4b",
-        "5b63d22753475872"
+        "5b63d22753475872",
+        "8147b50d95ed6442"
       ],
       "status": "Partial assortment"
     },
@@ -1301,7 +1314,7 @@
     {
       "id": "hellokitty",
       "name": "Hello Kitty",
-      "records": 29,
+      "records": 30,
       "product_ids": [
         "ff7378fb6c3078db",
         "e64c19f73f5788a0",
@@ -1309,6 +1322,7 @@
         "684634362de49aa9",
         "ed9d76c440878b41",
         "54adfd6a354ab68f",
+        "f90fa0101ef45f87",
         "98c54dd146d0bc07",
         "e2c3e74f6a30d8f2",
         "4e5bbee40cd94e13",
@@ -1419,6 +1433,7 @@
         "de841ac4dc6c383a",
         "02d0a0c8e5ac681e",
         "e4ff163f88e9b373",
+        "c0cda6ba0b21939b",
         "4c50ee1bcc91ab0c",
         "5102d48578b49d7c",
         "f9145c02ccb6b519",
@@ -1429,8 +1444,7 @@
         "55dd089aff6c8c51",
         "8c65c568c4ad9dce",
         "2c5f54bc0435a640",
-        "7198b87c2455e2dd",
-        "c0cda6ba0b21939b"
+        "7198b87c2455e2dd"
       ],
       "status": "Partial assortment"
     },
@@ -1487,11 +1501,12 @@
     {
       "id": "poukapouka",
       "name": "POUKAPOUKA",
-      "records": 5,
+      "records": 6,
       "product_ids": [
         "801c54f6a486d5c4",
         "cad6f77e9d246855",
         "9cb4822614cbb76c",
+        "0ec0ff760949d3f8",
         "c7c701328890ecb7",
         "3b198a6769637c47"
       ],
@@ -1682,11 +1697,13 @@
     {
       "id": "polar",
       "name": "POLAR",
-      "records": 3,
+      "records": 5,
       "product_ids": [
         "05646670b7603b37",
+        "322f33e767339378",
         "53f22ada41bcea0b",
-        "9a6490f52a489974"
+        "9a6490f52a489974",
+        "58380cd89b3b3e3e"
       ],
       "status": "Partial assortment"
     },
@@ -1938,8 +1955,9 @@
     {
       "id": "boompipi",
       "name": "BOOMPIPI",
-      "records": 1,
+      "records": 2,
       "product_ids": [
+        "0a0e20e8bdec34c9",
         "34f6c2fbd2e4efec"
       ],
       "status": "Partial assortment"
@@ -2064,11 +2082,11 @@
   "unrepresented_character_labels": [
     {
       "character": "Emma",
-      "records": 72,
+      "records": 73,
       "sample_sources": [
         "https://toybeta.com/products/emma-ocean-bubble-beans-series-blind-box",
         "https://toybeta.com/products/lovely-emma-bunny-alliance-series-plush-blind-box",
-        "https://toybeta.com/products/emma-be-loved-series-blind-box"
+        "https://didapop.com/products/lovely-emma-weather-pony-series-plush-blind-box"
       ]
     },
     {
@@ -2103,7 +2121,7 @@
       "records": 16,
       "sample_sources": [
         "https://www.kikagoods.com/products/mr-pa-no-work-today-series-blind-box",
-        "https://www.kikagoods.com/products/mr-pa-warm-hug-series-plush-blind-box",
+        "https://toybeta.com/products/small-pa-waiting-for-the-tile-overflowing-peach-luck-series-beans-blind-bag",
         "https://toybeta.com/products/mr-pa-warm-hug-series-plush-blind-box"
       ]
     },
@@ -2118,7 +2136,7 @@
     },
     {
       "character": "DORA",
-      "records": 9,
+      "records": 10,
       "sample_sources": [
         "https://toybeta.com/products/opps-strangely-cute-series-plush-blind-box",
         "https://didapop.com/products/baby-three-weirdly-adorable-mini-plush-blind-box",
@@ -2129,9 +2147,9 @@
       "character": "ANMOO",
       "records": 7,
       "sample_sources": [
+        "https://kouhightoys.com/products/anmoo-listen-attentively-series-blind-box",
         "https://kouhightoys.com/products/tnt-space-anmoo-a-hidden-corner-series-blind-box",
-        "https://kouhightoys.com/products/tnt-space-anmoo-imperfect-world-series-blind-box",
-        "https://toybeta.com/products/anmoo-a-hidden-corner-series-figures"
+        "https://kouhightoys.com/products/tnt-space-anmoo-imperfect-world-series-blind-box"
       ]
     },
     {
