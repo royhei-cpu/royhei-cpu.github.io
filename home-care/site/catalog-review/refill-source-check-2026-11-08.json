@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-08",
+  "scope": "Daily supplemental spot check. One prior product URL per retailer was probed. A page response alone does not verify price, availability or a new product. H-E-B additions used readable indexed retailer pages and the exact retailer product images. This is not a full assortment audit.",
+  "retailers": [
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/tableware/6161186",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Albertsons",
+      "url": "https://www.albertsons.com/shop/product-details.960491455.html",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B000ALLJW2",
+      "result": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "retailer": "BJ\u2019s Wholesale",
+      "url": "https://www.bjs.com/product/clorox-toilet-bowl-cleaner-with-bleach---rain-clean-scent-6-pk24-oz/3000000000000431124/",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "CVS",
+      "url": "https://www.cvs.com/shop/zevo-flying-insect-trap-model-3-starter-kit-prodid-809148",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Costco",
+      "url": "https://www.costco.com/p/-/kirkland-signature-18-gallon-heavy-duty-compactor-and-kitchen-trash-bag-70-count/4201052007",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Dollar General",
+      "url": "https://www.dollargeneral.com/p/ecos-all-purpose-cleaner-orange-plus-22-oz/749174097064",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "url": "https://sameday.dollartree.com/store/dollar-tree/products/71320186-all-purpose-clnr-lemngrass-16z",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "H-E-B",
+      "url": "https://www.heb.com/product-detail/folex-carpet-spot-remover/206740",
+      "result": "challenge"
+    },
+    {
+      "retailer": "Home Depot",
+      "url": "https://www.homedepot.com/p/Dawn-Ultra-67-oz-Original-Scent-Liquid-Hand-Dish-Soap-003077219508/339375874",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Kroger",
+      "url": "https://www.kroger.com/p/raid-ant-roach-killer-indoor-insecticide-residual-killing-power-17-5-oz-pack-of-2/0004650011952",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Lowe\u2019s",
+      "url": "https://www.lowes.com/pd/Etokfoks-100-Pieces-Resealable-Foil-Food-Storage-Bags-with-Clear-Window-Coffee-Beans-Candy-Packaging-Pouch-for-Food-Small-Business/105575912",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/terro-1-oz-liquid-ant-killer/7092300100",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/bounty-paper-towels-select-a-size-6-count/RIO-PCI-535674",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Safeway",
+      "url": "https://www.safeway.com/shop/pd/febreze-air-mist-air-freshener-original-gain-scent-8-1-oz-8-1-oz/971365550",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Sam\u2019s Club",
+      "url": "https://www.samsclub.com/ip/Dawn-Professional-Plus-Manual-Pot-Pan-Dish-Detergent-1-gal/20082624055",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/scrub-all-star-sponge-kit-by-scrub-with-scour-and-eraser/1729411775312007907",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Walgreens",
+      "url": "https://www.walgreens.com/store/c/febreze-air-mist,-odor-fighting-room-spray-gain-original/ID=300466487-product",
+      "result": "200 response; item freshness unconfirmed"
+    },
+    {
+      "retailer": "Walmart",
+      "url": "https://www.walmart.com/ip/5663551862",
+      "result": "200 response; item freshness unconfirmed"
+    }
+  ],
+  "verifiedAdditions": {
+    "H-E-B": 3
+  },
+  "newVerifiedTikTokAdditions": 0
+}
