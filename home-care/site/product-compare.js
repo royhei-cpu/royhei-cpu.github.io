@@ -75,7 +75,7 @@
       return '<th scope="col"><div class="hc-compare-product">' + (photo ? '<a href="' + esc(photo) + '" target="_blank" rel="noopener noreferrer" class="hc-compare-photo"><img loading="lazy" decoding="async" src="' + esc(photo) + '" alt="' + esc(item.name) + '"></a>' : '<div class="hc-compare-photo hc-compare-no-photo">Photo not available</div>') + '<span class="hc-compare-retailer">' + esc(item?.retailer || 'Saved selection') + '</span><h3>' + esc(item?.name || id) + '</h3><button type="button" data-compare-remove="' + esc(id) + '" aria-label="Remove ' + esc(item?.name || id) + ' from selection">Remove</button></div></th>';
     }).join('');
     const rows = [
-      makeRow('Brand', items, d => esc(d.brand || 'Not recorded')),
+      makeRow('Brand', items, d => esc(d.coverageBrand || d.brand || 'Not recorded')),
       makeRow('Category / scope', items, d => esc(d.categoryLabel || d.category || 'Not recorded') + '<small>' + esc(d.merchantScope || 'Scope not recorded') + '</small>'),
       makeRow('Pack / size', items, packText),
       makeRow('Saved price', items, d => '<strong>' + esc(d.displayPrice || d.price || 'Not recorded') + '</strong><small>' + esc(d.priceBasis || 'Saved offer; verify pack, seller and current checkout price.') + '</small>'),
@@ -155,7 +155,12 @@
     panel.setAttribute('aria-labelledby', 'compare-title');
     panel.hidden = true;
     catalog.after(panel);
-    compareButton.addEventListener('click', show);
+    function openView(view, fallback) {
+      const navigation = window.HCHomecareUpgradeController;
+      if (navigation) navigation.navigate(view, {history: 'push', scroll: false});
+      else fallback();
+    }
+    compareButton.addEventListener('click', () => openView('compare', show));
     panel.addEventListener('click', event => {
       const button = event.target.closest('button');
       if (!button) return;
@@ -165,7 +170,7 @@
         return;
       }
       const action = button.getAttribute('data-compare-action');
-      if (action === 'browse') browse();
+      if (action === 'browse') openView('catalog', browse);
       else if (action === 'export') exportButton.click();
       else if (action === 'previous' || action === 'next') {
         page += action === 'next' ? 1 : -1;

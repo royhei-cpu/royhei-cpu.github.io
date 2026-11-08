@@ -20,7 +20,9 @@ export function addHomecareUpgrade(html,siteDir){
  const intro='<p class="hc-context-intro" id="homecare-latest">Browse U.S. products by category and retailer. Use <a href="/home-care/?view=global#homecare-workspace" data-homecare-view="global">Global retailers &amp; items</a> for other countries. Select products to compare, or export your shortlist to Excel.</p>';
  html=html.replace('<section id="catalog-view">','<section id="catalog-view">'+intro);
  // Keep foreign source currencies explicit in the original selected-only export.
- html=html.replace("const fields=['", "const fields=['market','referenceCurrency','sourceScope','");
+ const exportFields = 'const fields=[';
+ assert.equal(html.split(exportFields).length,2,'Selected CSV field list changed');
+ html=html.replace(exportFields,exportFields+"'market','referenceCurrency','sourceScope',");
  html=html.replace('const headers={', "const headers={market:'Country / market',referenceCurrency:'Reference currency',sourceScope:'Source scope',");
  const loader=`<script type="module" id="homecare-upgrade-loader">import {mount} from '/home-care/ui-assets/${manifest.entry}';let references=[],referencesError='';try{const response=await fetch('/home-care/global-reference-products.json?v=${version}');if(!response.ok)throw Error('Source library unavailable');references=await response.json();}catch(error){referencesError='International references could not load. The U.S. catalog is available; reload to retry international listings.';const note=document.createElement('p');note.setAttribute('role','status');note.textContent='International source references could not load. The U.S. catalog is available; reload to retry international listings.';document.getElementById('homecare-latest')?.append(note);}mount({items:ITEMS,byId,cached,picks,redraw:draw,references,referencesError});</script>`;
  html=html.replace('</body>',loader+'\n</body>');

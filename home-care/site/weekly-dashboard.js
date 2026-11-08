@@ -28,7 +28,9 @@ coverage.addEventListener('click',e=>{const b=e.target.closest('[data-retailer-b
 if(added.length){const b=document.createElement('button');b.textContent='Browse all '+added.length+' weekly additions';b.className='weekly-jump';b.onclick=()=>{reset('all','all');$('catalog-since').value=added.map(d=>d.datePosted).filter(Boolean).sort()[0];draw();$('product-grid').scrollIntoView({block:'start'});};section.append(b);}
 directory.addEventListener('click',event=>{const b=event.target.closest('[data-category-jump]');if(!b)return;const cat=b.dataset.categoryJump;reset($('retailer').value,cat==='Cleaning Appliances'?'Home / adjacent references':'Home Care');if(cat!=='All Home Care'){$('category').value=cat;draw()}sync();});
 function sync(){for(const b of directory.querySelectorAll('button'))b.setAttribute('aria-pressed',String(b.dataset.categoryJump===($('category').value==='all'?'All Home Care':$('category').value)&&($('scope').value==='Home Care'||b.dataset.categoryJump==='Cleaning Appliances')))}
-document.addEventListener('change',sync);$('reset').addEventListener('click',sync);sync();
+// Programmatic navigation redraws the results without a native filter change.
+new MutationObserver(sync).observe($('status'),{childList:true});
+sync();
 })();
 
 

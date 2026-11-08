@@ -12,7 +12,26 @@
       "note": "Designer-toy company; individual character IPs are separate entries.",
       "region": "China market",
       "parent": "",
-      "reviewed": "2026-10-31"
+      "reviewed": "2026-10-31",
+      "sourcing": {
+        "operator": "POP MART",
+        "manufacturer": "Shunjia Toys Co., Ltd. (reported OEM for LABUBU)",
+        "facility": "Shunjia Toys production site",
+        "location": "Xinfeng County, Jiangxi, China",
+        "scope": "China Labor Watch identified this supplier during a 2025 investigation, published January 2026. Historical LABUBU production only. Other POP MART IPs and individual lots require separate evidence.",
+        "sources": [
+          {
+            "label": "Factory investigation",
+            "url": "https://chinalaborwatch.org/china-labor-watch-investigation-finds-labor-violations-at-labubu-toy-factory-supplying-pop-mart/"
+          },
+          {
+            "label": "Reporting on production partners",
+            "url": "https://www.reuters.com/world/china/chinas-pop-mart-expands-supply-chain-amid-global-push-2026-01-06/"
+          }
+        ],
+        "skuPlantVerified": false,
+        "checked": "2026-11-08"
+      }
     },
     {
       "name": "TOP TOY",
@@ -25,7 +44,26 @@
       "note": "Collectible-toy brand and retail operator.",
       "region": "China market",
       "parent": "",
-      "reviewed": "2026-10-31"
+      "reviewed": "2026-10-31",
+      "sourcing": {
+        "operator": "TOP TOY International Group Limited",
+        "manufacturer": "Commissioned production partners",
+        "facility": "Undisclosed",
+        "location": "Undisclosed",
+        "scope": "The company filing describes commissioned production and third-party branded merchandise. Products sold through a TOP TOY store can have different producers.",
+        "sources": [
+          {
+            "label": "HKEX application, Business section",
+            "url": "https://www1.hkexnews.hk/app/sehk/2025/107712/documents/sehk25092602241.pdf"
+          },
+          {
+            "label": "2026 application index",
+            "url": "https://www.hkexnews.hk/app/sehk/2026/108384/2026033103581.htm"
+          }
+        ],
+        "skuPlantVerified": false,
+        "checked": "2026-11-08"
+      }
     },
     {
       "name": "52TOYS",
@@ -38,7 +76,22 @@
       "note": "IP toy company; expo profile includes blind boxes and collectible figures.",
       "region": "China market",
       "parent": "",
-      "reviewed": "2026-10-31"
+      "reviewed": "2026-10-31",
+      "sourcing": {
+        "operator": "52TOYS",
+        "manufacturer": "Third-party partner factories",
+        "facility": "Undisclosed",
+        "location": "China · partner network",
+        "scope": "The 2025 HKEX application describes more than 60 Chinese factory partners in 2024. Individual factory operators and current product allocations remain unresolved.",
+        "sources": [
+          {
+            "label": "HKEX application, Manufacturing section",
+            "url": "https://www1.hkexnews.hk/app/sehk/2025/107389/a123239/sehk25052201498.pdf"
+          }
+        ],
+        "skuPlantVerified": false,
+        "checked": "2026-11-08"
+      }
     },
     {
       "name": "Finding Unicorn",
@@ -103,7 +156,26 @@
       "note": "Robotime sub-brand; scope here is its collectible toys, not its full DIY assortment.",
       "region": "China market",
       "parent": "",
-      "reviewed": "2026-10-31"
+      "reviewed": "2026-10-31",
+      "sourcing": {
+        "operator": "Robotime group",
+        "manufacturer": "Shuyang Robotime C&C (Jiangsu) Co., Ltd. (group production subsidiary)",
+        "facility": "Shuyang production base",
+        "location": "Shuyang County, Suqian, Jiangsu, China",
+        "scope": "Robotime lists six factories at its production subsidiary and identifies three Shuyang locations. No particular Nanci figure or atlas listing is attributed to a plant.",
+        "sources": [
+          {
+            "label": "Official production base",
+            "url": "https://robotime.com/pages/where-to-find-us"
+          },
+          {
+            "label": "Robotime brand group report",
+            "url": "https://robotime.cn/%E8%8B%A5%E6%80%812023%E5%B9%B4%E5%BA%A6%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB%E6%8A%A5%E5%91%8A/"
+          }
+        ],
+        "skuPlantVerified": false,
+        "checked": "2026-11-08"
+      }
     },
     {
       "name": "TOYZEROPLUS",
@@ -1365,6 +1437,38 @@
       "note": "Core character IP of ROBBiART, as identified by the exhibition organizer. Kept separate from the brand/operator profile.",
       "region": "China market",
       "reviewed": "2026-11-02"
+    },
+    {
+      "name": "Baby Three",
+      "name_cn": "娃三岁",
+      "aliases": [
+        "Baby Three"
+      ],
+      "kind": "ip",
+      "parent": "Cureplaneta / Da Piaoliang",
+      "region": "China market",
+      "source": "https://www.dg.gov.cn/shipai/zt/spqyxydajs/content/post_4421776.html",
+      "reviewed": "2026-11-08",
+      "note": "Character IP of Cureplaneta. The source catalog label is retained for browsing.",
+      "sourcing": {
+        "operator": "Da Piaoliang (Dongguan) Toys Co., Ltd. · Cureplaneta brand",
+        "manufacturer": "Da Piaoliang reports design and manufacturing operations",
+        "facility": "Undisclosed",
+        "location": "Factory location unresolved",
+        "scope": "Baby Three is an IP. Dongguan municipal reporting and the expo exhibitor profile identify the operator. Its business location alone cannot identify a production site.",
+        "sources": [
+          {
+            "label": "Dongguan municipal report",
+            "url": "https://www.dg.gov.cn/shipai/zt/spqyxydajs/content/post_4421776.html"
+          },
+          {
+            "label": "China Toy Expo exhibitor profile",
+            "url": "https://www.china-toy-expo.com/en/exhibitor/Da-Piaoliang-Dongguan-Toys-Co-Ltd--7544"
+          }
+        ],
+        "skuPlantVerified": false,
+        "checked": "2026-11-08"
+      }
     }
   ]
 }

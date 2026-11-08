@@ -224,6 +224,9 @@ def main():
         before=previous.get(pid)
         p['baseline']=not bool(previous)
         if before:
+            if p.get('brand')=='Brand not disclosed' and before.get('brand_identity_source') and any(l.get('url')==o.get('url') for l in p['listings'] for o in before.get('listings',[])):
+                for field in ('brand','original_brand','brand_identity_source','brand_identity_checked'):
+                    if field in before:p[field]=before[field]
             p['first_seen']=before['first_seen']; p['baseline']=before.get('baseline',False)
             p['history']=before.get('history',[])
             if not p.get('china_price') and before.get('china_price'): p['china_price']=before['china_price']
