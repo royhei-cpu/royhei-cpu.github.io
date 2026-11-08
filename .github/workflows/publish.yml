@@ -2,80 +2,33 @@ name: Publish Tariff Signal Mirror
 on:
   push:
     branches: [main]
-    paths: ['dog-club/**', 'pawlish/**', 'home-care/**', 'china-toys/**', 'luggage-atlas/**', '.github/workflows/publish.yml']
+    paths: ['dog-club/**', 'pawlish/**', 'home-care/**', 'china-toys/**', 'luggage-atlas/**', 'tariff-signal/**', '.github/scripts/pages/**', '.github/workflows/publish.yml']
   workflow_dispatch:
   schedule:
     - cron: "15 1 * * *"
 permissions:
   contents: read
-  pages: write
-  id-token: write
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   publish:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout website sources
+      - name: Checkout current main after acquiring the Pages lock
         uses: actions/checkout@v4
-      - name: Mirror complete public dashboard
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          import html, os, time
-          from html.parser import HTMLParser
-          from urllib.parse import urljoin, urlparse
-
-          origin = "https://tariff-signal-sourcing.lhei111.chatgpt.site/"
-          headers = {"User-Agent": "Mozilla/5.0 Tariff-Signal-Mirror", "Cache-Control": "no-cache"}
-
-          from urllib.request import Request, urlopen
-          def fetch(url):
-              with urlopen(Request(url, headers=headers), timeout=45) as response:
-                  return response.read()
-
-          document = fetch(origin + "?mirror=" + str(int(time.time())))
-          os.makedirs("_site", exist_ok=True)
-          with open("_site/index.html", "wb") as output:
-              output.write(document)
-
-          class Assets(HTMLParser):
-              def __init__(self):
-                  super().__init__()
-                  self.urls = set()
-              def handle_starttag(self, tag, attrs):
-                  values = dict(attrs)
-                  for key in ("href", "src"):
-                      value = html.unescape(values.get(key, ""))
-                      if value.startswith("/") and not value.startswith("//"):
-                          self.urls.add(value)
-
-          parser = Assets()
-          parser.feed(document.decode("utf-8"))
-          copied = 0
-          for asset in sorted(parser.urls):
-              parsed = urlparse(asset)
-              path = parsed.path.lstrip("/")
-              if not path or path.endswith("/"):
-                  continue
-              try:
-                  payload = fetch(urljoin(origin, asset))
-              except Exception as error:
-                  print("skipped", asset, error)
-                  continue
-              target = os.path.join("_site", path)
-              os.makedirs(os.path.dirname(target), exist_ok=True)
-              with open(target, "wb") as output:
-                  output.write(payload)
-              copied += 1
-              print("mirrored", path)
-          if copied < 3:
-              raise RuntimeError("Expected dashboard assets were not copied")
-          open("_site/.nojekyll", "w").close()
-          PY
+        with:
+          ref: main
+      - name: Stage last complete Tariff homepage
+        run: bash .github/scripts/pages/snapshot-ref.sh read _site
       - name: Add Pawlish English tutor
         run: python3 pawlish/download_assets.py _site/pawlish
       - name: Verify and build Homecare global listings and workshop
@@ -133,12 +86,19 @@ jobs:
           cp -R luggage-atlas _site/luggage-atlas
       - name: Add Dog Club profile and comparison
         run: cp -R dog-club _site/dog-club
+      - name: Verify source records and stamp the release
+        run: python3 .github/scripts/pages/release.py manifest
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
+          name: pages-${{ github.run_id }}-${{ github.run_attempt }}
           path: _site
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: pages-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Verify public pages and browser catalogs
+        run: python3 .github/scripts/pages/release.py verify
