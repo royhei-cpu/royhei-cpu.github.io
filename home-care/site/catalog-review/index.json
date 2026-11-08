@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-04",
-  "sourceCheckedAt": "2026-11-04",
+  "reviewedAt": "2026-11-08",
+  "sourceCheckedAt": "2026-11-08",
   "files": [
     "part-001.json",
     "part-002.json",
@@ -39,9 +39,10 @@
     "part-035.json",
     "part-036.json",
     "part-037.json",
-    "part-038.json"
+    "part-038.json",
+    "assortment-2026-11-08.json"
   ],
-  "added": 3810,
+  "added": 3905,
   "photoPacks": [
     "photos-001.json.gz",
     "photos-002.json.gz",

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-04",
+  "checked": "2026-11-08",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -4860,6 +4860,17 @@
       "localPath": "research-photo-assets/b8aeef94853f8a52.webp",
       "checked": "2026-11-04",
       "scope": "Named model photograph from source listing; visually checked. Offer revision and current availability not independently verified."
+    },
+    {
+      "id": "milesto-hutte-launch",
+      "brandId": "milesto",
+      "view": "Product / source gallery",
+      "caption": "Hütte 3WAY Boston Carry",
+      "source": "https://prtimes.jp/main/html/rd/p/000000219.000090148.html",
+      "imageUrl": "https://prcdn.freetls.fastly.net/release_image/90148/219/90148-219-c1d0941f0fbd2e350303fc0a88fc8b2f-1328x747.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "checked": "2026-11-08",
+      "remoteReference": true,
+      "scope": "Launch publicity photo; individual color and inside view unverified."
     }
   ],
   "byBrand": {
@@ -5586,6 +5597,9 @@
       "refresh-zero-halliburton-14cfd82e0e",
       "refresh-zero-halliburton-8e348cba3a",
       "refresh-zero-halliburton-a7eff187c0"
+    ],
+    "milesto": [
+      "milesto-hutte-launch"
     ]
   },
   "note": "Galleries compare sourced product and collection references. Each image has its own model/collection caption and source. An interior from another model is not evidence of the priced model’s construction.",
