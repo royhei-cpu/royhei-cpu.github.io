@@ -3,9 +3,9 @@
   "periodStart": "2026-10-28",
   "periodEnd": "2026-11-03",
   "baseline": true,
-  "schedule": "Mondays around 10:00 a.m. Shenzhen time",
+  "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
   "nextScheduled": "2026-11-09",
-  "coverage": "Weekly launch edition remains 2026-11-03; brand coverage expanded on 2026-11-04 to 173 profiles. New profiles are not new launches. Worldwide SKU and brand completeness remains unverified.",
+  "coverage": "November 8 coverage: 174 brands and 1,980 priced offers. Added 139 size/color offers from five brand storefronts in Japan, the Philippines, the UK and the US. Captured offers include unavailable variants where explicitly labeled. Coverage is partial.",
   "items": [
     {
       "id": "kith-tumi-2026",
@@ -176,5 +176,11 @@
     "text": "BRUNO introduced the Hütte 3WAY Boston Carry for ¥25,300 including tax, through its own Japanese stores and e-commerce. The case can be rolled, hand-carried or worn over the shoulder.",
     "source": "https://prtimes.jp/main/html/rd/p/000000219.000090148.html",
     "records": 1751
+  },
+  "promotion": {
+    "date": "2026-11-08",
+    "title": "Samsonite Hong Kong 11.11 promotion",
+    "detail": "The official Hong Kong campaign runs October 23–November 15. Availability and discounts depend on the model; this is a promotion, not a launch.",
+    "url": "https://www.samsonite.com.hk/en/2026-double-11/"
   }
 }
