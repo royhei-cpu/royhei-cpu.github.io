@@ -1,0 +1,25 @@
+name: Refresh Tariff Signal snapshot
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 0 * * *"
+permissions:
+  contents: read
+concurrency:
+  group: tariff-pages-snapshot
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Refresh independent Tariff snapshot
+        run: |
+          python3 .github/scripts/pages/tariff.py refresh "$RUNNER_TEMP/candidate"
+          bash .github/scripts/pages/snapshot-ref.sh write "$RUNNER_TEMP/candidate"
