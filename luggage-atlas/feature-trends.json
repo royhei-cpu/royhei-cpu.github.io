@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-04",
+  "checked": "2026-11-09",
   "scope": "Feature watch based on current product evidence and dated launches, not a measured ranking of feature sales growth. Ordering is analyst development priority.",
   "trends": [
     {
@@ -10,7 +10,7 @@
       "module": "repair",
       "summary": "Replace a damaged wheel or handle instead of retiring the case. LOJEL Cubo documents a wheel-fork repair with a 3 mm hex key; Samsonite supports compatible owner repairs.",
       "brands": "LOJEL Cubo · Samsonite Paralux · Antler Heritage Stripe",
-      "qualification": "“Self fix” means an owner performs the repair. It is not automatic self-healing. Antler claims replaceable wheels; verify the local parts and service route before calling it DIY.",
+      "qualification": "“Self fix” means an owner performs the repair. It is not automatic self-healing. Antler claims replaceable wheels; verify the local parts and service route before calling it DIY. LOJEL describes direct shipment of compatible wheel forks. Local stock, lead time and handle installation require regional service confirmation. LOJEL USA checks part stock per request and offers shipping or pickup by region. Samsonite UK directs complex zipper replacements to authorized service.",
       "bom": "Specify a replaceable wheel cartridge, captive fasteners, access cover, compatible spare-part SKU, tool and illustrated instructions. Quote spare-part supply and service testing separately.",
       "sources": [
         [
@@ -24,9 +24,17 @@
         [
           "Antler disassembly",
           "https://global.antler.com/pages/heritage"
+        ],
+        [
+          "LOJEL USA parts availability",
+          "https://us.lojel.com/help/repair/"
+        ],
+        [
+          "Samsonite UK repair scope",
+          "https://www.samsonite.co.uk/spare-parts/?contentAsset=faq_travelling_smart-sleeve&fdid=faq_locks"
         ]
       ],
-      "checked": "2026-11-04",
+      "checked": "2026-11-09",
       "image": "research-photo-assets/bcedcf356993b7ef.webp",
       "photoScope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
     },
@@ -62,7 +70,7 @@
       "module": "front",
       "summary": "Magnetic front access, dual-opening cases and shallow lids let travelers reach essentials with less floor space. July Capsule, Samsonite Paralux and LOJEL Cubo take different approaches.",
       "brands": "July Capsule · Samsonite Paralux · LOJEL Cubo",
-      "qualification": "Compare laptop access with full packing access; they are different functions. Opening style alone does not prove more capacity.",
+      "qualification": "Compare laptop access with full packing access; they are different functions. Opening style alone does not prove more capacity. The November 8 Ueno notice confirms continuing top access and Ordo compatibility for the color extension.",
       "bom": "Compare hinges, magnetic retention or zipper, access-panel reinforcement and laptop padding; validate loss of usable packing space.",
       "sources": [
         [
@@ -76,9 +84,13 @@
         [
           "Cubo compact-space access",
           "https://www.lojel.com/journal/design-for-reality-lojel-cubo-repairable-suitcase/"
+        ],
+        [
+          "Cubo Japan store update, November 8",
+          "https://parcoya-ueno.parco.jp/shopnews/?id=13331"
         ]
       ],
-      "checked": "2026-11-04",
+      "checked": "2026-11-09",
       "image": "research-photo-assets/1d6cac197959891f.webp",
       "photoScope": "Source model gallery; size and color may vary. Image downloaded and visually checked; exact offer revision remains unverified."
     },

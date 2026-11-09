@@ -46363,6 +46363,70 @@
       "note": "Listed as unavailable. Set includes two packing cubes Materials: Polyester.",
       "sku": "0438753872689",
       "sourcePhoto": "https://belk.scene7.com/is/image/Belk?layer=0&src=6200426_VCL00453K_A_001&layer=comp&"
+    },
+    {
+      "brand": "Mixi / 米熙",
+      "retailer": "Backpacks4Less",
+      "product": "M9290 · 20 in · Smoke White",
+      "amount": 139.99,
+      "currency": "USD",
+      "market": "United States",
+      "date": "2026-11-09",
+      "kind": "Displayed retailer price",
+      "source": "https://www.backpacks4less.com/products/mixi-carry-on-luggage-with-cup-phone-holder-hard-shell-rolling-travel-suitcase-with-spinner-wheels-20-inch-smoke-white",
+      "regular": null,
+      "format": "Carry-on",
+      "note": "Availability and checkout unverified.",
+      "sku": "B0CPLPKTSM",
+      "sourcePhoto": "https://cdn.shopify.com/s/files/1/0259/1922/5909/files/mixi-carry-on-luggage-with-cup-phone-holder-hard-shell-rolling-travel-suitcase-with-spinner-wheels20-inch-smoke-white-6929495.jpg?v=1779644950"
+    },
+    {
+      "brand": "MILESTO",
+      "retailer": "MILESTO Japan",
+      "product": "EXPACE Expandable Backpack · 20–36 L · Black",
+      "amount": 23100,
+      "currency": "JPY",
+      "market": "Japan",
+      "date": "2026-11-09",
+      "kind": "Tax-inclusive announced Japan retail",
+      "source": "https://prtimes.jp/main/html/rd/p/000000216.000090148.html",
+      "regular": null,
+      "format": "Backpack",
+      "note": "Availability and checkout unverified.",
+      "sku": null,
+      "sourcePhoto": "https://prcdn.freetls.fastly.net/release_image/90148/216/90148-216-580e120b9df00f5174e9f1a7cdbf7f52-2160x2700.jpg?width=680&format=jpeg"
+    },
+    {
+      "brand": "MILESTO",
+      "retailer": "MILESTO Japan",
+      "product": "EXPACE Expandable Shoulder Bag · 15–26 L · Black",
+      "amount": 19800,
+      "currency": "JPY",
+      "market": "Japan",
+      "date": "2026-11-09",
+      "kind": "Tax-inclusive announced Japan retail",
+      "source": "https://prtimes.jp/main/html/rd/p/000000216.000090148.html",
+      "regular": null,
+      "format": "Shoulder bag",
+      "note": "Availability and checkout unverified.",
+      "sku": null,
+      "sourcePhoto": "https://prcdn.freetls.fastly.net/release_image/90148/216/90148-216-e6db26289728951e0aa0fdfa3fad9da3-600x599.jpg?width=680&format=jpeg"
+    },
+    {
+      "brand": "MILESTO",
+      "retailer": "MILESTO Japan",
+      "product": "EXPACE Expandable Boston Bag · 40.5–70.5 L · Black",
+      "amount": 25300,
+      "currency": "JPY",
+      "market": "Japan",
+      "date": "2026-11-09",
+      "kind": "Tax-inclusive announced Japan retail",
+      "source": "https://prtimes.jp/main/html/rd/p/000000216.000090148.html",
+      "regular": null,
+      "format": "Duffel",
+      "note": "Availability and checkout unverified.",
+      "sku": null,
+      "sourcePhoto": "https://prcdn.freetls.fastly.net/release_image/90148/216/90148-216-fbe2bf761f9dee3370e7f09d18c96215-720x720.jpg?width=680&format=jpeg"
     }
   ],
   "retailers": [
@@ -47180,6 +47244,21 @@
       "scope_note": "Carry-On and Front Pocket Carry-On sampled. Additional sizes, colors and bundles exist; full assortment and stock not audited.",
       "source_url": "https://www.quince.com/unisex/carry-on-plus-polycarbonate-suitcase?color=navy",
       "checked_date": "2026-11-03",
+      "sku_catalogue_complete": false
+    },
+    {
+      "name": "Backpacks4Less",
+      "market": "United States",
+      "region": "North America",
+      "channel": "Online retailer",
+      "url": "https://www.backpacks4less.com",
+      "observed_brands": [
+        "Mixi / 米熙"
+      ],
+      "status": "One priced model checked",
+      "scope_note": "Smoke White M9290 only.",
+      "source_url": "https://www.backpacks4less.com/products/mixi-carry-on-luggage-with-cup-phone-holder-hard-shell-rolling-travel-suitcase-with-spinner-wheels-20-inch-smoke-white",
+      "checked_date": "2026-11-09",
       "sku_catalogue_complete": false
     }
   ],
