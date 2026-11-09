@@ -1,9 +1,9 @@
 {
-  "reviewedAt": "2026-11-01",
-  "sourceCheckedAt": "2026-11-02",
+  "reviewedAt": "2026-11-09",
+  "sourceCheckedAt": "2026-11-09",
   "baseline": 6331,
-  "added": 3802,
-  "total": 10133,
+  "added": 3911,
+  "total": 10242,
   "scope": "Collected public listings; no full retailer inventory claim",
   "retailers": [
     {
@@ -3738,5 +3738,20 @@
     "audit": "gap-audit-2026-11-02.json",
     "matrix": "coverage-matrix-2026-11-02.json",
     "scope": "Targeted gap review; not a completed comprehensive inventory refresh"
+  },
+  "latestDailyAudit": {
+    "date": "2026-11-09",
+    "added": 3,
+    "byRetailer": {
+      "Walmart": 2,
+      "Costco": 1
+    },
+    "retailersChecked": 19,
+    "categoryCells": 285,
+    "sampledItemLinksAttempted": 282,
+    "matrix": "coverage-matrix-2026-11-09.json",
+    "amazonResult": "No verified addition; exact-page checks returned access blocks/HTTP 503 in this run.",
+    "tiktokResult": "No verified addition; keyword pages exposed metadata but no exact item page was verified.",
+    "scope": "Representative saved-item links sampled in every populated retailer/category cell; category pagination was not exhausted and full inventory coverage remains unverified."
   }
 }

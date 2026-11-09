@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-08",
-  "sourceCheckedAt": "2026-11-08",
+  "reviewedAt": "2026-11-09",
+  "sourceCheckedAt": "2026-11-09",
   "files": [
     "part-001.json",
     "part-002.json",
@@ -41,9 +41,10 @@
     "part-037.json",
     "part-038.json",
     "assortment-2026-11-08.json",
-    "refills-2026-11-08.json"
+    "refills-2026-11-08.json",
+    "daily-2026-11-09.json"
   ],
-  "added": 3908,
+  "added": 3911,
   "photoPacks": [
     "photos-001.json.gz",
     "photos-002.json.gz",
@@ -361,5 +362,5 @@
     "gap-review-20261102-53.json.gz",
     "gap-review-20261102-54.json.gz"
   ],
-  "reviewScope": "Targeted gap and Amazon depth review; all-retailer category inventory enumeration remains incomplete"
+  "reviewScope": "Monday 19-retailer × 15-category sampled-link audit plus focused Amazon, Walmart, Costco and TikTok discovery. Three exact item pages added. No category pagination was proven exhausted; inventory coverage remains incomplete."
 }

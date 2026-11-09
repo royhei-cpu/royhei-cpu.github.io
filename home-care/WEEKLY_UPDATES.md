@@ -100,3 +100,14 @@ Open Story inspiration must cover major carry-on/checked luggage, backpacks, wee
 Global travel references use stable TRAVEL-* IDs and register in shared byId only, alongside TARGET-OPENSTORY-* IDs. Restore valid stored references after registration; preserve selection, comparison, Saved view and complete CSV export. Neither type enters canonical Home Care ITEMS or sales/coverage charts. Preserve exact selected Target TCIN, photo and price associations. Missing photo URLs export blank. Keep larger platform briefs distinct from accessory enhancements, and load the expanded Target interface only when opened.
 
 The existing Monday 08:00 Asia/Shanghai automation was extended with these requirements without changing its schedule or creating another task.
+
+## 9 November 2026 — Monday coverage review and three exact additions
+
+- Preserved 10,239 retained records and added three new-to-catalog exact listings: Walmart 2 and Costco 1, for 10,242 total.
+- Verified each addition’s retailer/item identity, pack, exact source page and matched photo. Retailer first-available dates remain Not verified; none is called a new product launch.
+- Recorded Costco’s 9–22 November $2-off promotion separately from product, listing and catalog dates.
+- Recorded the Bar Keepers Friend Clean & Shine Duo as a verified official brand launch/Target-exclusive signal, not a tracked competitor listing.
+- Sampled all 285 retailer/category cells using one retained link where available: 282 populated cells and 280 distinct URLs. Public access was frequently challenged; no category pagination was proven exhausted and no inventory-completeness claim is made.
+- Amazon exact-page checks returned HTTP 503/challenges and TikTok exposed keyword metadata without an exact verified live item/seller/stock combination; both remain explicit gaps with zero additions this run.
+- Opportunities were reviewed with no material rank/priority movement. Product evidence expands dynamically; dates and price/promotion limitations remain distinct.
+- See `DAILY_REVIEW_2026-11-09.md` and `site/catalog-review/coverage-matrix-2026-11-09.json`.
