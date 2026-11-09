@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-08",
+  "catalog_date": "2026-11-09",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "brand": "TOP TOY",
-      "records": 291,
+      "records": 294,
       "status": "Partial assortment"
     },
     {
@@ -1054,7 +1054,7 @@
     {
       "id": "lulu",
       "name": "LuLu the Piggy",
-      "records": 94,
+      "records": 96,
       "product_ids": [
         "c8e3b1c5c0c907d7",
         "ccd30b3897e21a97",
@@ -1076,6 +1076,7 @@
         "4fdaa1da64ba1f65",
         "8e24757feeeac4dd",
         "5038668c831b6ec9",
+        "7a21933efba1a8c4",
         "254d669de208572f",
         "e4e334edf95bb93d",
         "6c9cbd9083d2b35d",
@@ -1084,8 +1085,8 @@
         "27243efcd1629b98",
         "a2d490721c13a85c",
         "297fb8a726cc7245",
+        "8fb4109116bedd7d",
         "bec1e5898981fc70",
-        "464635722a575510",
         "77059d0dae117904",
         "0f260b44970399a4",
         "5287299aced517e6",
@@ -1149,6 +1150,7 @@
         "48b675576d07b6de",
         "47d6d376b388accd",
         "33a6fa51fe3181f9",
+        "464635722a575510",
         "7e865395dff975ed"
       ],
       "status": "Partial assortment"
@@ -1266,8 +1268,9 @@
     {
       "id": "hey mi",
       "name": "Heymi",
-      "records": 6,
+      "records": 7,
       "product_ids": [
+        "f14718afbe00b291",
         "27e64d120186d5f5",
         "9c50c3e10a0762b9",
         "429569e256cf6d5e",
@@ -1280,7 +1283,7 @@
     {
       "id": "sonny-angel",
       "name": "Sonny Angel",
-      "records": 15,
+      "records": 16,
       "product_ids": [
         "9c768d3369956d83",
         "072376d948b38e52",
@@ -1296,7 +1299,8 @@
         "4eee7f4df7ebef6f",
         "b5d0476e56cd4b4b",
         "5b63d22753475872",
-        "8147b50d95ed6442"
+        "8147b50d95ed6442",
+        "0b6adc3057b34275"
       ],
       "status": "Partial assortment"
     },
@@ -1314,7 +1318,7 @@
     {
       "id": "hellokitty",
       "name": "Hello Kitty",
-      "records": 30,
+      "records": 31,
       "product_ids": [
         "ff7378fb6c3078db",
         "e64c19f73f5788a0",
@@ -1339,6 +1343,7 @@
         "b689621ba33a2d0e",
         "476a11b86273da9d",
         "0f817b66313f3660",
+        "eefc9dd403c7b13b",
         "100e88cb2ca81a59",
         "3b9fc1f30a9b4538",
         "c83a32968da52515",
