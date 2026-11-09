@@ -41,7 +41,7 @@ for brand,photo_ids in a['byBrand'].items():
  assert len(photo_ids)==len(set(photo_ids))
  assert all(photo_by_id[i]['brandId']==brand for i in photo_ids)
 assert {i for photo_ids in a['byBrand'].values() for i in photo_ids}==set(ids)
-assert len([x for x in w['items']if x['status']=='Dated launch'])==2
+assert len({x['id'] for x in w['items']}) == len(w['items'])
 for x in w['items']:
  if x['status']=='Dated launch':assert w['periodStart']<=x['date']<=w['periodEnd']
  if x.get('photoId'):assert x['photoId']in ids

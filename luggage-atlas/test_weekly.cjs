@@ -4,6 +4,20 @@ const ctx={window:{addEventListener(){},scrollTo(){}},document:{querySelector:el
 for(const name of ['data.js','photos.js','weekly.js','atlas-upgrade.js','fashion.js','fashion-ui.js','innovation.js','innovation-ui.js','workbench.js','model-evidence.js','model-catalog.js','tutorial.js','offer-photos.js','directory.js','app.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,name),'utf8'),ctx);
 function run(code){return vm.runInContext(code,ctx)}
 
+const edition = ctx.window.ATLAS_WEEKLY;
+assert.equal(run('weeklyRows().length'), edition.items.length);
+for (const row of edition.items) {
+  ctx.window.expected = row;
+  run('weeklyFilters={status:window.expected.status,brand:window.expected.brand,theme:window.expected.theme};drawWeekly()');
+  assert(run('weeklyRows().some(x => x.id === window.expected.id)'));
+  run('csv=(name,rows)=>window.exported=rows;exportWeekly();showWeeklyDetail(window.expected.id)');
+  assert.equal(ctx.window.exported.length, run('weeklyRows().length') + 1);
+  assert(ctx.window.exported.slice(1).every(r => r[10] && r[12]));
+  assert(el('#weeklyDetail').open);
+}
+// Replay the first edition to protect inline and shared gallery export behavior.
+ctx.window.ATLAS_WEEKLY=JSON.parse(fs.readFileSync(path.join(__dirname,'weekly-2026-11-03.json')));
+run('weeklyFilters={status:"",brand:"",theme:""}');
 assert.equal(run('weeklyRows().length'),6);
 assert(run('window.ATLAS_WEEKLY.items.every(x=>weeklyPhoto(x)?.imageUrl?.startsWith("https://"))'));
 run('weeklyFilters={status:"Dated launch",brand:"",theme:""};drawWeekly()');assert.equal(run('weeklyRows().length'),2);
