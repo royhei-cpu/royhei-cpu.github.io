@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "scope": "Daily priority-channel product and news follow-up. This was not a comprehensive 19-retailer × 15-category matrix rerun, and no source inventory or pagination is claimed complete.",
+  "totals": {
+    "verifiedAdditions": 7,
+    "verifiedRecordUpgrades": 1,
+    "verifiedLaunchSignals": 1,
+    "retailersChecked": 4
+  },
+  "byRetailer": [
+    {
+      "retailer": "Amazon US",
+      "status": "partial / blocked",
+      "verifiedAdditions": 0,
+      "itemLinksChecked": 0,
+      "sources": [
+        "https://www.amazon.com/s?k=home+care+cleaning+supplies"
+      ],
+      "remainingGap": "No new exact ASIN page could be verified during this run. Search/category access and complete pagination remained incomplete; 736 retained Amazon records were preserved."
+    },
+    {
+      "retailer": "Walmart",
+      "status": "partial exact-item follow-up",
+      "verifiedAdditions": 2,
+      "itemLinksChecked": 3,
+      "sources": [
+        "https://www.walmart.com/ip/New-9-in-1-Wireless-Electric-Spin-Scrubber-Fast-Charging-Rotating-Cleaning-Brush-Adjustable-Extendable-Handle-Multi-Purpose-Cleaner-Car-Washing-Bathr/20726562056",
+        "https://www.walmart.com/ip/Dishwasher-Cleaner-Tablets-30-Count-Deep-Cleaning-Tablets-for-Dishwashers-Helps-Remove-Grease-Odors-and-Residue/20563352368",
+        "https://www.walmart.com/ip/20679460906"
+      ],
+      "remainingGap": "Exact additions and the Fresh Step launch-linked item were checked, but category pagination, location-dependent availability and full Walmart Home Care inventory were not exhausted."
+    },
+    {
+      "retailer": "Costco",
+      "status": "partial exact-item follow-up",
+      "verifiedAdditions": 3,
+      "itemLinksChecked": 3,
+      "sources": [
+        "https://www.costco.com/p/-/package-free-multi-purpose-cleaning-spray-lavender-1-16-fl-oz-spray-3-16-fl-oz-refills/4000376738",
+        "https://www.costco.com/p/-/odor-bully-odor-neutralizer-surface-cleaner-fresh-spray-concentrate-refill-bundle/4201015283",
+        "https://www.costco.com/p/-/mrs-meyers-multi-surface-variety-pack-24-fl-oz-3-count/4000160436"
+      ],
+      "remainingGap": "The three exact pages were retrievable but showed out of stock in the web context. Warehouse stock, full category pagination and complete current inventory remain unverified."
+    },
+    {
+      "retailer": "TikTok Shop",
+      "status": "partial exact-item and seller follow-up",
+      "verifiedAdditions": 2,
+      "verifiedRecordUpgrades": 1,
+      "itemLinksChecked": 4,
+      "sources": [
+        "https://shop.tiktok.com/us/pdp/good-natured-carpet-deodorizer-pet-odor-eliminator-16oz/1732791190199374507",
+        "https://shop.tiktok.com/us/pdp/1732615779337212718",
+        "https://shop.tiktok.com/us/pdp/handheld-steam-cleaner-by-phueut-1050w-multi-surface-steamer-with-12-accessories/1729444617052590314",
+        "https://shop.tiktok.com/us/pdp/handheld-steam-cleaner-by-phueut-1050w-multi-surface-steamer-with-12-accessories/1732745523920408810"
+      ],
+      "remainingGap": "Two exact listings were added and one existing item upgraded. A duplicate Phueut variant was excluded. Marketplace pagination, seller/variant coverage and the remaining limited-evidence references remain incomplete."
+    }
+  ],
+  "news": [
+    {
+      "kind": "verified product launch announcement",
+      "title": "Fresh Step Fleur de Purr No. 9 and No. 27 scented cat litter",
+      "announcementDate": "2026-11-04",
+      "availabilityStatement": "Official announcement stated Walmart.com availability from 4 November 2026, stores from 26 December 2026 and broader national rollout in April 2027.",
+      "source": "https://www.thecloroxcompany.com/blog/fresh-step-cat-litter-gets-a-fleur-de-purr-makeover/",
+      "catalogTreatment": "Adjacent pet-odor signal only; not added to Home Care competitor ITEMS because cat litter is outside the catalog category set."
+    }
+  ]
+}

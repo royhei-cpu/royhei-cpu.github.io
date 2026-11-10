@@ -1,9 +1,9 @@
 {
-  "reviewedAt": "2026-11-09",
-  "sourceCheckedAt": "2026-11-09",
+  "reviewedAt": "2026-11-10",
+  "sourceCheckedAt": "2026-11-10",
   "baseline": 6331,
-  "added": 3911,
-  "total": 10242,
+  "added": 3918,
+  "total": 10249,
   "scope": "Collected public listings; no full retailer inventory claim",
   "retailers": [
     {
@@ -1287,10 +1287,10 @@
     },
     {
       "retailer": "Costco",
-      "collected": 134,
-      "added": 4,
+      "collected": 140,
+      "added": 10,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
-      "limitations": "2 November targeted gap review: 4 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
+      "limitations": "10 November daily follow-up added 3 exact product-page records; all three retrieved pages reported out of stock in the web context. Warehouse stock, full category pagination, seller offers and complete checkout pricing remain unverified.",
       "sourcePages": [
         "https://www.costco.com/p/-/bugmd-essential-pest-control-fast-acting-family-kit/4000375185",
         "https://www.costco.com/p/-/zevo-flying-insect-trap-starter-kit-2-devices--6-refills/4000193139",
@@ -3096,10 +3096,10 @@
     },
     {
       "retailer": "TikTok Shop",
-      "collected": 940,
-      "added": 829,
+      "collected": 942,
+      "added": 831,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
-      "limitations": "9 additional exact public product pages with matched photos and named seller evidence. Seller names distinguish brand stores from resellers. Offers, stock, listing dates and complete marketplace pagination remain unverified; earlier limited-evidence references keep their status.",
+      "limitations": "10 November daily follow-up added 2 exact public product pages with matched photos and named seller evidence and upgraded 1 existing exact item. Seller names distinguish the official Pink Stuff and Phueut shops from resellers. Listing dates and complete marketplace pagination remain unverified; earlier limited-evidence references keep their status.",
       "sourcePages": [
         "https://shop.tiktok.com/us/k/air-freshener",
         "https://shop.tiktok.com/us/k/airtight-food-storage",
@@ -3495,10 +3495,10 @@
     },
     {
       "retailer": "Walmart",
-      "collected": 731,
-      "added": 89,
+      "collected": 807,
+      "added": 165,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
-      "limitations": "2 November targeted gap review: 46 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
+      "limitations": "10 November daily follow-up added 2 exact marketplace product-page records and identified both sellers. Full category pagination, location-dependent stock and complete checkout pricing remain incomplete.",
       "sourcePages": [
         "https://www.walmart.com/browse/household-essentials/pest-control/1115193_1025745",
         "https://www.walmart.com/ip/1570554642",
@@ -3740,18 +3740,18 @@
     "scope": "Targeted gap review; not a completed comprehensive inventory refresh"
   },
   "latestDailyAudit": {
-    "date": "2026-11-09",
-    "added": 3,
+    "date": "2026-11-10",
+    "added": 7,
     "byRetailer": {
       "Walmart": 2,
-      "Costco": 1
+      "Costco": 3,
+      "TikTok Shop": 2
     },
-    "retailersChecked": 19,
-    "categoryCells": 285,
-    "sampledItemLinksAttempted": 282,
-    "matrix": "coverage-matrix-2026-11-09.json",
-    "amazonResult": "No verified addition; exact-page checks returned access blocks/HTTP 503 in this run.",
-    "tiktokResult": "No verified addition; keyword pages exposed metadata but no exact item page was verified.",
-    "scope": "Representative saved-item links sampled in every populated retailer/category cell; category pagination was not exhausted and full inventory coverage remains unverified."
+    "retailersChecked": 4,
+    "itemLinksChecked": 10,
+    "audit": "daily-source-check-2026-11-10.json",
+    "amazonResult": "No verified addition; exact ASIN and complete search/category access remained incomplete in this run.",
+    "tiktokResult": "Two exact listings added and one existing exact item upgraded; one duplicate Phueut variant excluded.",
+    "scope": "Daily priority-channel follow-up for Amazon, Walmart, Costco and TikTok Shop plus an official brand announcement check. The 19-retailer × 15-category matrix and category pagination were not comprehensively rerun; full inventory coverage remains unverified."
   }
 }

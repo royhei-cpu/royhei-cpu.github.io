@@ -23,6 +23,18 @@ const weekStart=new Date(checkedAt+'T00:00:00Z');weekStart.setUTCDate(weekStart.
 const since=weekStart.toISOString().slice(0,10);
 const originalIds=new Set(items.map(d=>d.id));
 for(const d of additions){assert.ok(d.id&&d.name&&d.url&&d.image&&d.category&&d.retailer);if(!originalIds.has(d.id)){items.push(d);originalIds.add(d.id)}}
+// Apply explicitly reviewed evidence upgrades without changing stable IDs or adding duplicate records.
+const updateFiles=fs.existsSync(reviewDir)?fs.readdirSync(reviewDir).filter(name=>/^record-updates-\d{4}-\d{2}-\d{2}\.json$/.test(name)).sort():[];
+for(const updateFile of updateFiles){
+ const patches=JSON.parse(fs.readFileSync(path.join(reviewDir,updateFile),'utf8'));
+ for(const patch of patches){
+  assert.ok(patch.id,'Record update requires a stable ID');
+  const record=items.find(d=>d.id===patch.id);
+  assert.ok(record,'Record update ID missing: '+patch.id);
+  assert.ok(!Object.hasOwn(patch,'datePosted'),'Record updates must not alter immutable catalog addition dates');
+  Object.assign(record,patch);
+ }
+}
 // Add evidence-backed category memberships without duplicating or reclassifying SKUs.
 const crossFile=path.join(reviewDir,'category-cross-listings.json');
 const cross=fs.existsSync(crossFile)?JSON.parse(fs.readFileSync(crossFile,'utf8')):[];

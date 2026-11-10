@@ -111,3 +111,15 @@ The existing Monday 08:00 Asia/Shanghai automation was extended with these requi
 - Amazon exact-page checks returned HTTP 503/challenges and TikTok exposed keyword metadata without an exact verified live item/seller/stock combination; both remain explicit gaps with zero additions this run.
 - Opportunities were reviewed with no material rank/priority movement. Product evidence expands dynamically; dates and price/promotion limitations remain distinct.
 - See `DAILY_REVIEW_2026-11-09.md` and `site/catalog-review/coverage-matrix-2026-11-09.json`.
+
+## 10 November 2026 — Daily priority-channel follow-up
+
+- Preserved all 10,242 prior records and added seven new-to-catalog exact listings: Walmart 2, Costco 3 and TikTok Shop 2, for 10,249 total.
+- Verified exact item links, retailer/seller identity, meaningful pack/variant and item-specific photos. Retailer first-available dates remain Not verified; none of the seven additions is called a new product launch.
+- Upgraded the retained Phueut handheld steam-cleaner record from category-card evidence to an exact TikTok Shop page with official-shop and price evidence. Its 31 October sold-count snapshot remains separately dated and was not overwritten by a lower later display.
+- Recorded the official Fresh Step Fleur de Purr No. 9 / No. 27 announcement as an adjacent Pet Odor Control launch signal. It was not added to Home Care ITEMS because cat litter is outside the catalog category set.
+- All three new Costco pages reported out of stock in the retrieved web context; warehouse availability was not inferred.
+- Amazon remained an explicit gap: all 736 retained records were preserved, but no new exact ASIN page was verified and complete pagination remained inaccessible.
+- This daily follow-up checked four priority retailers and did not rerun the full 19-retailer × 15-category matrix. The 9 November matrix remains the latest comprehensive sampling artifact, and no full-inventory claim is made.
+- Opportunities were reviewed with no material rank or priority movement. New evidence broadened the standing Tools, Sustainable Cleaning, Dishwashing, Floor Care, Surface Care and adjacent Pet Odor references.
+- See `DAILY_REVIEW_2026-11-10.md` and `site/catalog-review/daily-source-check-2026-11-10.json`.
