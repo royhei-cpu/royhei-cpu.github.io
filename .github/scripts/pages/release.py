@@ -70,6 +70,11 @@ def catalogs():
     for part in parts:
         for record in read_json(part):
             expected.setdefault(record["id"], record)
+    for update in sorted(review.glob("record-updates-????-??-??.json")):
+        for patch in read_json(update):
+            check(patch["id"] in expected, f"Home Care update ID missing: {patch['id']}")
+            check("datePosted" not in patch, "Home Care updates cannot alter catalog addition dates")
+            expected[patch["id"]].update(patch)
     for patch in read_json(review / "category-cross-listings.json"):
         expected[patch["id"]].update(patch)
     actual = as_map(home_records())
