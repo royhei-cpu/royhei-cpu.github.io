@@ -1,12 +1,28 @@
 {
-  "edition": "2026-11-09",
+  "edition": "2026-11-10",
   "periodStart": "2026-11-04",
-  "periodEnd": "2026-11-09",
+  "periodEnd": "2026-11-10",
   "baseline": false,
   "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
-  "nextScheduled": "2026-11-10",
-  "coverage": "171 of 174 brands have priced offers. November 9 added four model observations after the earlier 71-offer publication.",
+  "nextScheduled": "2026-11-11",
+  "coverage": "172 of 174 brands have a priced observation. Two new observations cover one 90FUN model in two colors.",
   "items": [
+    {
+      "id": "90fun-cabin-my",
+      "brand": "90FUN / 90分",
+      "brandId": "90fun",
+      "title": "90FUN front-access cabin case in Malaysia",
+      "date": "2026-11-10",
+      "dateType": "First Atlas price observation. Launch date unknown.",
+      "status": "New coverage",
+      "market": "Malaysia",
+      "change": "Black and Black Grey share a 20-inch shell and a front compartment for work essentials. Both options showed sold out.",
+      "price": "MYR 369 per color",
+      "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
+      "theme": "Access & organization",
+      "photoId": "90fun-57522239",
+      "implication": "Compare front-pocket access and lost packing depth against the Open Story carry-on."
+    },
     {
       "id": "expace-japan",
       "brand": "MILESTO",
@@ -116,12 +132,12 @@
     "note": "DTA / DTA Nova added; existing price and news brand references reconciled."
   },
   "latestBulletin": {
-    "checked": "2026-11-09",
-    "newsDate": "2026-11-09",
-    "title": "EXPACE expands from commuter to travel capacity",
-    "text": "Three black soft bags expand in depth and attach to a suitcase handle.",
-    "source": "https://prtimes.jp/main/html/rd/p/000000216.000090148.html",
-    "records": 4
+    "checked": "2026-11-10",
+    "newsDate": "2026-11-10",
+    "title": "Ryanair moves checked bag drop to 60 minutes before departure",
+    "text": "The change takes effect November 10 across Ryanair airports. The airline announced it April 22 and issued its reminder October 27. Guests checking a bag now need to drop it 20 minutes earlier. No newly dated luggage launch was verified in today’s scan.",
+    "source": "https://corporate.ryanair.com/news/ryanair-reminds-passengers-of-60-min-bag-drop-closure-from-tue-10-nov-airport-bag-drop-will-close-60-mins-before-departure/",
+    "records": 2
   },
   "promotion": {
     "date": "2026-11-08",

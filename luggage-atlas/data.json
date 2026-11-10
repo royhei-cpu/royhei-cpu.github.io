@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-10",
   "brands": [
     {
       "id": "90fun",
@@ -46427,6 +46427,38 @@
       "note": "Availability and checkout unverified.",
       "sku": null,
       "sourcePhoto": "https://prcdn.freetls.fastly.net/release_image/90148/216/90148-216-fbe2bf761f9dee3370e7f09d18c96215-720x720.jpg?width=680&format=jpeg"
+    },
+    {
+      "brand": "90FUN / 90分",
+      "retailer": "Lamboplace",
+      "product": "20-inch Cabin Travel Business Luggage · Black",
+      "amount": 369.0,
+      "currency": "MYR",
+      "market": "Malaysia",
+      "date": "2026-11-10",
+      "kind": "Displayed price · sold out",
+      "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
+      "regular": null,
+      "format": "Carry-on",
+      "note": "Retailer displays a sold-out price. Launch date and production revision are unknown.",
+      "retailerVariantId": "57522239",
+      "sourcePhoto": "https://cdn.store-assets.com/s/1343979/i/76536906.jpeg"
+    },
+    {
+      "brand": "90FUN / 90分",
+      "retailer": "Lamboplace",
+      "product": "20-inch Cabin Travel Business Luggage · Black Grey",
+      "amount": 369.0,
+      "currency": "MYR",
+      "market": "Malaysia",
+      "date": "2026-11-10",
+      "kind": "Displayed price · sold out",
+      "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
+      "regular": null,
+      "format": "Carry-on",
+      "note": "Retailer displays a sold-out price. Launch date and production revision are unknown.",
+      "retailerVariantId": "57522240",
+      "sourcePhoto": "https://cdn.store-assets.com/s/1343979/i/76536907.jpeg"
     }
   ],
   "retailers": [
@@ -47259,6 +47291,21 @@
       "scope_note": "Smoke White M9290 only.",
       "source_url": "https://www.backpacks4less.com/products/mixi-carry-on-luggage-with-cup-phone-holder-hard-shell-rolling-travel-suitcase-with-spinner-wheels-20-inch-smoke-white",
       "checked_date": "2026-11-09",
+      "sku_catalogue_complete": false
+    },
+    {
+      "name": "Lamboplace",
+      "market": "Malaysia",
+      "region": "Asia",
+      "channel": "Online retailer",
+      "url": "https://www.lamboplace.com/",
+      "observed_brands": [
+        "90FUN / 90分"
+      ],
+      "status": "Two sold-out variants checked",
+      "scope_note": "One 20-inch model in Black and Black Grey.",
+      "source_url": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
+      "checked_date": "2026-11-10",
       "sku_catalogue_complete": false
     }
   ],
