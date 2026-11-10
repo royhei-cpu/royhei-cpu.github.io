@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "baselineBrands": 98,
   "addedBrands": 76,
   "totalBrands": 174,
-  "totalPricedOffers": 2055,
-  "totalPhotoReferences": 518,
+  "totalPricedOffers": 2057,
+  "totalPhotoReferences": 524,
   "newBrandIds": [
     "dta-nova",
     "briefing",
@@ -89,15 +89,15 @@
     {
       "brandId": "90fun",
       "brand": "90FUN / 90分",
-      "source": "https://www.jd.com/brand/17329055fb19df24848f0.html?electedExtAttrSet=1%2C&extAttrValue=expand_name%2C%40258336%3A%3A1&sort_type=sort_redissale_desc",
-      "checked": "2026-11-03",
-      "pricedOffers": 0,
-      "photoReferences": 1,
-      "interiorReferences": 0,
+      "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
+      "checked": "2026-11-10",
+      "pricedOffers": 2,
+      "photoReferences": 4,
+      "interiorReferences": 1,
       "factoryVerified": false,
       "launchDateVerified": false,
       "assortmentComplete": false,
-      "status": "Existing sourced profile; assortment partial"
+      "status": "Two sold-out priced variants. Interior is a model reference."
     },
     {
       "brandId": "ali",
@@ -382,15 +382,15 @@
     {
       "brandId": "binhao",
       "brand": "BINHAO / 賓豪",
-      "source": "https://www.binhaobags.com/en/",
-      "checked": "2026-11-04",
+      "source": "https://www.binhao.com/en/PC-Luggage/BINHAO-2333.html",
+      "checked": "2026-11-10",
       "pricedOffers": 0,
-      "photoReferences": 0,
-      "interiorReferences": 0,
+      "photoReferences": 3,
+      "interiorReferences": 1,
       "factoryVerified": false,
       "launchDateVerified": false,
       "assortmentComplete": false,
-      "status": "Source-backed brand profile; assortment partial"
+      "status": "Model 2333 gallery verified. Retail price unavailable."
     },
     {
       "brandId": "boss",
@@ -3049,6 +3049,7 @@
   "limitations": [
     "Regional storefronts and indexed pages may differ from current inventory.",
     "First launch dates and SKU factories remain unknown unless separately evidenced.",
-    "Product galleries added in this refresh are source references, not exact-offer interior audits."
+    "Product galleries added in this refresh are source references, not exact-offer interior audits.",
+    "November 10: Amazon Basics and BINHAO still lack a captured retail price. Model gallery interiors for BINHAO 2333 and 90FUN Cabin Travel Business do not establish size/color-specific interior photography."
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -7300,11 +7300,112 @@
       "checked": "2026-11-09",
       "scope": "BRUNO release photograph of the named black model.",
       "localPath": "offer-photo-assets/milesto-offer-f8b41458-0.webp"
+    },
+    {
+      "id": "90fun-57522239",
+      "brandId": "90fun",
+      "view": "Exterior",
+      "caption": "20-inch Cabin Travel Business Luggage · Black",
+      "imageUrl": "https://cdn.store-assets.com/s/1343979/i/76536906.jpeg",
+      "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
+      "checked": "2026-11-10",
+      "scope": "Retailer assigns this photo to the named size and color. Revision unverified.",
+      "localPath": "offer-photo-assets/90fun-57522239.webp",
+      "offerId": "offer-e130041",
+      "identity": {
+        "model": "20-inch Cabin Travel Business Luggage",
+        "size": "20 in",
+        "color": "Black",
+        "revision": null,
+        "sku": null
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Retailer variant image",
+        "visualChecked": true,
+        "imageSha256": "5ee843d09fc154f22d92eec01382dccb18aeea86ff4b9b7e2f4cfea9b55b6e02",
+        "identifierSource": "Lamboplace variant 57522239",
+        "identifierChecked": "2026-11-10"
+      }
+    },
+    {
+      "id": "90fun-57522240",
+      "brandId": "90fun",
+      "view": "Exterior",
+      "caption": "20-inch Cabin Travel Business Luggage · Black Grey",
+      "imageUrl": "https://cdn.store-assets.com/s/1343979/i/76536907.jpeg",
+      "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
+      "checked": "2026-11-10",
+      "scope": "Retailer assigns this photo to the named size and color. Revision unverified.",
+      "localPath": "offer-photo-assets/90fun-57522240.webp",
+      "offerId": "offer-7201d6f4",
+      "identity": {
+        "model": "20-inch Cabin Travel Business Luggage",
+        "size": "20 in",
+        "color": "Black Grey",
+        "revision": null,
+        "sku": null
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Retailer variant image",
+        "visualChecked": true,
+        "imageSha256": "2a850ddbf099fed0bdbab135b2d021e1d35027dd1118b49563e7cb8ba7f4e4ed",
+        "identifierSource": "Lamboplace variant 57522240",
+        "identifierChecked": "2026-11-10"
+      }
+    },
+    {
+      "id": "90fun-cabin-business-interior",
+      "brandId": "90fun",
+      "view": "Interior / model reference",
+      "caption": "20-inch Cabin Travel Business Luggage · shared packing layout",
+      "imageUrl": "https://cdn.store-assets.com/s/1343979/i/76536911.jpeg",
+      "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
+      "checked": "2026-11-10",
+      "scope": "Model gallery shared across colors. Exact color and production revision unverified.",
+      "localPath": "offer-photo-assets/90fun-cabin-business-interior.webp"
+    },
+    {
+      "id": "binhao-2333-0",
+      "brandId": "binhao",
+      "view": "Exterior / model reference",
+      "caption": "BINHAO 2333 · Exterior",
+      "imageUrl": "https://www.binhao.com/en/storage/image/20251018/1760774108481786.png",
+      "source": "https://www.binhao.com/en/PC-Luggage/BINHAO-2333.html",
+      "checked": "2026-11-10",
+      "scope": "Manufacturer model photo. Size, color designation and production revision unspecified.",
+      "localPath": "offer-photo-assets/binhao-2333-0.webp"
+    },
+    {
+      "id": "binhao-2333-3",
+      "brandId": "binhao",
+      "view": "Detail / front opening / model reference",
+      "caption": "BINHAO 2333 · Detail / front opening",
+      "imageUrl": "https://www.binhao.com/en/storage/image/20251018/1760774165442349.png",
+      "source": "https://www.binhao.com/en/PC-Luggage/BINHAO-2333.html",
+      "checked": "2026-11-10",
+      "scope": "Manufacturer model photo. Size, color designation and production revision unspecified.",
+      "localPath": "offer-photo-assets/binhao-2333-3.webp"
+    },
+    {
+      "id": "binhao-2333-4",
+      "brandId": "binhao",
+      "view": "Interior / model reference",
+      "caption": "BINHAO 2333 · Interior",
+      "imageUrl": "https://www.binhao.com/en/storage/image/20251018/1760774123287088.png",
+      "source": "https://www.binhao.com/en/PC-Luggage/BINHAO-2333.html",
+      "checked": "2026-11-10",
+      "scope": "Manufacturer model photo. Size, color designation and production revision unspecified.",
+      "localPath": "offer-photo-assets/binhao-2333-4.webp"
     }
   ],
   "byBrand": {
     "90fun": [
-      "p3014"
+      "p3014",
+      "90fun-57522239",
+      "90fun-57522240",
+      "90fun-cabin-business-interior"
     ],
     "ali": [
       "research-offer-5a0fb9b0",
@@ -7398,7 +7499,11 @@
       "refresh-biaggi-80f390e731",
       "refresh-biaggi-3cda1632e2"
     ],
-    "binhao": [],
+    "binhao": [
+      "binhao-2333-0",
+      "binhao-2333-3",
+      "binhao-2333-4"
+    ],
     "boss": [
       "p21",
       "p3046",
@@ -9927,7 +10032,61 @@
         "Production revision and launch date unverified."
       ],
       "note": "Exterior dimensions read from the 20-inch column of the size chart."
+    },
+    {
+      "offerId": "offer-e130041",
+      "offerIdentity": {
+        "brand": "90FUN / 90分",
+        "product": "20-inch Cabin Travel Business Luggage · Black",
+        "currency": "MYR",
+        "retailer": "Lamboplace",
+        "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem"
+      },
+      "checked": "2026-11-10",
+      "productPage": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
+      "identity": {
+        "model": "20-inch Cabin Travel Business Luggage",
+        "size": "20 in",
+        "color": "Black",
+        "revision": null,
+        "sku": null
+      },
+      "photoIds": [
+        "90fun-57522239"
+      ],
+      "gaps": [
+        "Interior gallery is shared between colors.",
+        "Production revision unknown."
+      ],
+      "note": "Retailer variant ID 57522239"
+    },
+    {
+      "offerId": "offer-7201d6f4",
+      "offerIdentity": {
+        "brand": "90FUN / 90分",
+        "product": "20-inch Cabin Travel Business Luggage · Black Grey",
+        "currency": "MYR",
+        "retailer": "Lamboplace",
+        "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem"
+      },
+      "checked": "2026-11-10",
+      "productPage": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
+      "identity": {
+        "model": "20-inch Cabin Travel Business Luggage",
+        "size": "20 in",
+        "color": "Black Grey",
+        "revision": null,
+        "sku": null
+      },
+      "photoIds": [
+        "90fun-57522240"
+      ],
+      "gaps": [
+        "Interior gallery is shared between colors.",
+        "Production revision unknown."
+      ],
+      "note": "Retailer variant ID 57522240"
     }
   ],
-  "offerPhotoChecked": "2026-11-09"
+  "offerPhotoChecked": "2026-11-10"
 }

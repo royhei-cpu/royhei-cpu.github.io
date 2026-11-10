@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-09",
-  "scope": "Four newly reviewed offers. Earlier model records remain in model-features.json.",
+  "checked": "2026-11-10",
+  "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
       "offerId": "offer-aea55414",
@@ -71,6 +71,40 @@
       "photoIds": [
         "milesto-offer-f8b41458-0"
       ]
+    },
+    {
+      "offerId": "offer-e130041",
+      "brandId": "90fun",
+      "model": "20-inch Cabin Travel Business Luggage",
+      "size": "20 in",
+      "color": "Black",
+      "dimensions": "55.90 × 37.00 × 23.00 cm, including wheels",
+      "announcementDate": null,
+      "launchDate": null,
+      "observed": "2026-11-10",
+      "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
+      "price": 369.0,
+      "currency": "MYR",
+      "photoIds": [
+        "90fun-57522239"
+      ]
+    },
+    {
+      "offerId": "offer-7201d6f4",
+      "brandId": "90fun",
+      "model": "20-inch Cabin Travel Business Luggage",
+      "size": "20 in",
+      "color": "Black Grey",
+      "dimensions": "55.90 × 37.00 × 23.00 cm, including wheels",
+      "announcementDate": null,
+      "launchDate": null,
+      "observed": "2026-11-10",
+      "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
+      "price": 369.0,
+      "currency": "MYR",
+      "photoIds": [
+        "90fun-57522240"
+      ]
     }
   ],
   "byBrand": {
@@ -81,6 +115,10 @@
       "offer-b9a215a5",
       "offer-659f56da",
       "offer-f8b41458"
+    ],
+    "90fun": [
+      "offer-e130041",
+      "offer-7201d6f4"
     ]
   }
 }
