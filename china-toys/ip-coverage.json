@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-09",
+  "catalog_date": "2026-11-10",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "brand": "TOP TOY",
-      "records": 294,
+      "records": 295,
       "status": "Partial assortment"
     },
     {
@@ -1268,13 +1268,14 @@
     {
       "id": "hey mi",
       "name": "Heymi",
-      "records": 7,
+      "records": 8,
       "product_ids": [
         "f14718afbe00b291",
         "27e64d120186d5f5",
         "9c50c3e10a0762b9",
         "429569e256cf6d5e",
         "8344916aa0fcf1bc",
+        "431d4ec47455b763",
         "12b28b78b5197139",
         "81b21408898ad315"
       ],
@@ -1293,14 +1294,14 @@
         "4e2784513d32955d",
         "62b70ae9851684cd",
         "b6f5305105b9b090",
+        "0b6adc3057b34275",
         "0c35e526be727521",
         "056ccd225170ef8c",
         "847169a8e257202c",
         "4eee7f4df7ebef6f",
         "b5d0476e56cd4b4b",
         "5b63d22753475872",
-        "8147b50d95ed6442",
-        "0b6adc3057b34275"
+        "8147b50d95ed6442"
       ],
       "status": "Partial assortment"
     },

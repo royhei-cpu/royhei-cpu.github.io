@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-11-09",
+  "reviewed": "2026-11-10",
   "version": "20261030-evidence-1",
   "source_checks": [
     {
@@ -7,8 +7,8 @@
       "name": "KikaGoods",
       "url": "https://www.kikagoods.com",
       "status": "complete",
-      "checked": "2026-11-09",
-      "raw_products_read": 933,
+      "checked": "2026-11-10",
+      "raw_products_read": 931,
       "currency": "USD"
     },
     {
@@ -16,8 +16,8 @@
       "name": "TOP TOY international store",
       "url": "https://gotoptoy.com",
       "status": "complete",
-      "checked": "2026-11-09",
-      "raw_products_read": 255,
+      "checked": "2026-11-10",
+      "raw_products_read": 256,
       "currency": "USD"
     },
     {
@@ -25,7 +25,7 @@
       "name": "52TOYS international store",
       "url": "https://hi52toys.com",
       "status": "complete",
-      "checked": "2026-11-09",
+      "checked": "2026-11-10",
       "raw_products_read": 205,
       "currency": "USD"
     },
@@ -34,7 +34,7 @@
       "name": "Rolife international store",
       "url": "https://www.rolifeonline.com",
       "status": "unavailable",
-      "checked": "2026-11-09",
+      "checked": "2026-11-10",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -43,7 +43,7 @@
       "name": "TOYZEROPLUS",
       "url": "https://toyzeroplus.com",
       "status": "complete",
-      "checked": "2026-11-09",
+      "checked": "2026-11-10",
       "raw_products_read": 322,
       "currency": "HKD"
     },
@@ -52,7 +52,7 @@
       "name": "Hello Molynk",
       "url": "https://www.molynk.shop",
       "status": "unavailable",
-      "checked": "2026-11-09",
+      "checked": "2026-11-10",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -61,7 +61,7 @@
       "name": "Finding Unicorn international store",
       "url": "https://www.findingunicorn.net",
       "status": "unavailable",
-      "checked": "2026-11-09",
+      "checked": "2026-11-10",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -70,7 +70,7 @@
       "name": "Kouhigh Toys",
       "url": "https://kouhightoys.com",
       "status": "complete",
-      "checked": "2026-11-09",
+      "checked": "2026-11-10",
       "raw_products_read": 248,
       "currency": "USD"
     },
@@ -79,8 +79,8 @@
       "name": "ToyBeta",
       "url": "https://toybeta.com",
       "status": "complete",
-      "checked": "2026-11-09",
-      "raw_products_read": 1286,
+      "checked": "2026-11-10",
+      "raw_products_read": 1288,
       "currency": "USD"
     },
     {
@@ -88,8 +88,8 @@
       "name": "DidaPop",
       "url": "https://didapop.com",
       "status": "complete",
-      "checked": "2026-11-09",
-      "raw_products_read": 1781,
+      "checked": "2026-11-10",
+      "raw_products_read": 1785,
       "currency": "USD"
     },
     {
@@ -97,7 +97,7 @@
       "name": "Pawmiga World",
       "url": "https://pawmiga.myshopify.com",
       "status": "complete",
-      "checked": "2026-11-09",
+      "checked": "2026-11-10",
       "raw_products_read": 134,
       "currency": "USD"
     },
@@ -106,7 +106,7 @@
       "name": "Iris Squishy",
       "url": "https://irissquishy.com",
       "status": "complete",
-      "checked": "2026-11-09",
+      "checked": "2026-11-10",
       "raw_products_read": 100,
       "currency": "USD"
     },
@@ -115,7 +115,7 @@
       "name": "RonRon Squishy",
       "url": "https://ronronsquishy.com",
       "status": "complete",
-      "checked": "2026-11-09",
+      "checked": "2026-11-10",
       "raw_products_read": 41,
       "currency": "USD"
     },
@@ -124,8 +124,8 @@
       "name": "ANTHILL shopNplay",
       "url": "https://anthillshop.com",
       "status": "complete",
-      "checked": "2026-11-09",
-      "raw_products_read": 633,
+      "checked": "2026-11-10",
+      "raw_products_read": 645,
       "currency": "USD"
     },
     {
@@ -133,7 +133,7 @@
       "name": "JOTOYS international store",
       "url": "https://jotoys.store",
       "status": "complete",
-      "checked": "2026-11-09",
+      "checked": "2026-11-10",
       "raw_products_read": 57,
       "currency": "USD"
     },
@@ -142,7 +142,7 @@
       "name": "Sonny Angel Japan official store",
       "url": "https://www.sonnyangelstore.com",
       "status": "complete",
-      "checked": "2026-11-09",
+      "checked": "2026-11-10",
       "raw_products_read": 108,
       "currency": "JPY"
     }
@@ -785,7 +785,7 @@
       "type": "brand label"
     },
     {
-      "id": "d96f35a777edaba0",
+      "id": "addbae6e85fb5457",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -912,6 +912,12 @@
     },
     {
       "id": "fe2ef8f858e52a94",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "adf2c7be647af684",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -1164,6 +1170,12 @@
     },
     {
       "id": "f4b0c22ebd18e932",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "55ab06cf75a7384c",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -1612,8 +1624,7 @@
   ],
   "new_ids": [
     "15ad341289c9244d",
-    "d1a4683e57a03590",
-    "0b6adc3057b34275"
+    "d1a4683e57a03590"
   ],
   "image_repairs": [
     {
@@ -1653,8 +1664,8 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "c71971b72d01198c",
-      "name": "Fuwafuwa Band Series Special 1/6 Action Figure BJD Blind Box【Shipped in Nov./Dec. 2026】",
+      "id": "b1c12d0612d6b50b",
+      "name": "Fuwafuwa Band Series Special 1/6 Action Figure BJD Blind Box",
       "source": "https://www.kikagoods.com/products/fuwafuwa-band-series-special-1-6-action-figure-bjd-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
@@ -1689,21 +1700,9 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "b3779e5aaa66db58",
-      "name": "Lulumi Candy Series Mini Plush Blind Box",
-      "source": "https://www.kikagoods.com/products/lulumi-candy-series-mini-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "d9471e53308d9aa3",
       "name": "Viora The Castle Gala Series Plush Blind Box",
       "source": "https://www.kikagoods.com/products/viora-the-castle-gala-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "c4bff0a9e2a14ac3",
-      "name": "Lucky Deer Nai Qimeng Tianyuan Series Plush Blind Box",
-      "source": "https://www.kikagoods.com/products/lucky-deer-nai-qimeng-tianyuan-series-plush-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -1842,6 +1841,12 @@
       "id": "5134ca9de91e82b6",
       "name": "Meki Soul Reflection Series 1/8 Action Figure BJD Blind Box",
       "source": "https://www.kikagoods.com/products/meki-soul-reflection-series-1-8-action-figure-bjd-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "4785b5857e22c9e6",
+      "name": "Time Rift & The Music Theme Series 1/8 Action Figure BJD Blind Box",
+      "source": "https://www.kikagoods.com/products/time-rift-the-music-theme-series-1-8-action-figure-bjd-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6483,9 +6488,21 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "d2554578011881b9",
-      "name": "AMLLS-Bao Mini Car Series Figures Blind Box",
-      "source": "https://toybeta.com/products/amlls-bao-mini-car-series-figures-blind-box",
+      "id": "53b15429380a496f",
+      "name": "ChoMiTu In Business Series Beans Blind Bag",
+      "source": "https://toybeta.com/products/chomitu-in-business-series-beans-blind-bag",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "431d4ec47455b763",
+      "name": "Heymi-Witch's Game Series Plush Blind Box【Hi TOY】",
+      "source": "https://toybeta.com/products/heymi-witchs-game-series-plush-blind-box-top-toy",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "fd708c52a90bbd89",
+      "name": "【TNTSpace】DORA On My Way Series Figures Blind Box",
+      "source": "https://toybeta.com/products/dora-on-my-way-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6600,12 +6617,6 @@
       "id": "8e8e367ed2f70ba5",
       "name": "【TNTSpace】Liita Where Petals Settle Series Figures Blind Box",
       "source": "https://toybeta.com/products/liita-where-petals-settle-series-figures-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "8a6d9d05247986b5",
-      "name": "Wendy-Echoes Of A Playful Heart Series Mini Figures Blind Box【Treein Land】",
-      "source": "https://toybeta.com/products/wendy-echoes-of-a-playful-heart-series-mini-figures-blind-box-treein-land",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -7776,12 +7787,6 @@
       "id": "7d0853737c1f5c32",
       "name": "MIMIA Journal Dreamy Princess House Series MJD Blind Box【PINYUN】",
       "source": "https://toybeta.com/products/mimia-journal-dreamy-princess-house-series-mjd-blind-box-pinyun",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "fd708c52a90bbd89",
-      "name": "【TNTSpace】DORA On My Way Series Figures Blind Box",
-      "source": "https://toybeta.com/products/dora-on-my-way-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12415,36 +12420,30 @@
       "name": "Yumo Magic Manual Series Mini Blindbox",
       "source": "https://jotoys.store/products/yumo-magic-manual-series-mini-blindbox",
       "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "0b6adc3057b34275",
-      "name": "Sonny Angel Happiness Gift Set",
-      "source": "https://www.sonnyangelstore.com/products/happiness-giftset",
-      "reason": "Store supplies an image for the selected price variant"
     }
   ],
   "image_failures": [],
-  "before_products": 4441,
-  "after_products": 4414,
+  "before_products": 4449,
+  "after_products": 4421,
   "stats": {
-    "products": 4412,
+    "products": 4419,
     "brands": 785,
     "squishy": 446,
-    "with_images": 4412,
+    "with_images": 4419,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4403,
+    "with_source_prices": 4410,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2513,
-    "with_dimensions": 1749,
-    "with_variant_options": 4114,
-    "source_linked_images": 4121,
+    "with_specifications": 2517,
+    "with_dimensions": 1752,
+    "with_variant_options": 4121,
+    "source_linked_images": 4128,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 8,
-    "with_shop_descriptions": 3669
+    "with_shop_descriptions": 3682
   },
   "checklist": [
     {
@@ -12463,7 +12462,7 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 294,
+      "records": 295,
       "with_details": 42,
       "with_china_price": 0,
       "with_release": 0,
