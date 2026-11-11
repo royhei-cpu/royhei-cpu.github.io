@@ -30,7 +30,8 @@ class WriterWorkflowTests(unittest.TestCase):
         self.assertNotIn('  schedule:', release)
 
     def test_schedules_are_preserved(self):
-        self.assertIn("cron: '30 0 * * 1'", (WORKFLOWS / "china-toys-refresh.yml").read_text())
+        # Toy Atlas refresh is daily at 09:30 Asia/Shanghai; publication stays daily 01:15 UTC.
+        self.assertIn("cron: '30 1 * * *'", (WORKFLOWS / "china-toys-refresh.yml").read_text())
         self.assertIn('cron: "15 1 * * *"', (WORKFLOWS / "publish.yml").read_text())
 
 
