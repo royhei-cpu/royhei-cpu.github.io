@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-10",
+  "checked": "2026-11-11",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -7398,6 +7398,114 @@
       "checked": "2026-11-10",
       "scope": "Manufacturer model photo. Size, color designation and production revision unspecified.",
       "localPath": "offer-photo-assets/binhao-2333-4.webp"
+    },
+    {
+      "id": "peak-roller-lite-regular-0",
+      "brandId": "peak-design",
+      "view": "Exterior",
+      "caption": "Roller Lite Carry-On · Black · Exterior",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2986/1172/files/26be1755-8a2a-4712-9347-65f3e68a1807.jpg?v=1793745150&width=1024&height=1024&crop=center",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "checked": "2026-11-11",
+      "scope": "Official selected-size/color gallery. SKU matched; production revision unverified.",
+      "localPath": "offer-photo-assets/peak-roller-lite-regular-0.webp",
+      "offerId": "offer-77c46470",
+      "identity": {
+        "model": "Roller Lite Carry-On",
+        "size": "Regular",
+        "color": "Black",
+        "sku": "W-RL-AA-BK-1",
+        "revision": null
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Official selected variant gallery and alt text",
+        "visualChecked": true,
+        "imageSha256": "e94848de3189b4f13805add35e051ab9c1f9c664774a3d64293bd181fb24399b",
+        "identifierSource": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+        "identifierChecked": "2026-11-11"
+      }
+    },
+    {
+      "id": "peak-roller-lite-regular-3",
+      "brandId": "peak-design",
+      "view": "Interior",
+      "caption": "Roller Lite Carry-On · Black · Interior (packing accessories shown, sold separately)",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2986/1172/files/bags-travel-Roller-Lite-Carry-On-Black-33958.jpg?v=1793747474&width=1024&height=1024&crop=center",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "checked": "2026-11-11",
+      "scope": "Official selected-size/color gallery. SKU matched; production revision unverified.",
+      "localPath": "offer-photo-assets/peak-roller-lite-regular-3.webp",
+      "offerId": "offer-77c46470",
+      "identity": {
+        "model": "Roller Lite Carry-On",
+        "size": "Regular",
+        "color": "Black",
+        "sku": "W-RL-AA-BK-1",
+        "revision": null
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Official selected variant gallery and alt text",
+        "visualChecked": true,
+        "imageSha256": "38cd5fae204fc97aa0c2713349d8dcfb8d3de58f0fdb057338e202e5858e4482",
+        "identifierSource": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+        "identifierChecked": "2026-11-11"
+      }
+    },
+    {
+      "id": "peak-roller-lite-plus-0",
+      "brandId": "peak-design",
+      "view": "Exterior",
+      "caption": "Roller Lite Carry-On Plus · Black · Exterior",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2986/1172/files/f39ebf76-f480-4092-88bf-a75d6188353b.jpg?v=1793811756&width=1024&height=1024&crop=center",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Plus",
+      "checked": "2026-11-11",
+      "scope": "Official selected-size/color gallery. SKU matched; production revision unverified.",
+      "localPath": "offer-photo-assets/peak-roller-lite-plus-0.webp",
+      "offerId": "offer-9cfc9582",
+      "identity": {
+        "model": "Roller Lite Carry-On Plus",
+        "size": "Plus",
+        "color": "Black",
+        "sku": "W-RL-AB-BK-1",
+        "revision": null
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Official selected variant gallery and alt text",
+        "visualChecked": true,
+        "imageSha256": "f623069cc7ff94a30a09d546f703b3b9e857c8056f1f0daf21a45cc2f3f89446",
+        "identifierSource": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Plus",
+        "identifierChecked": "2026-11-11"
+      }
+    },
+    {
+      "id": "peak-roller-lite-trunk-0",
+      "brandId": "peak-design",
+      "view": "Exterior",
+      "caption": "Roller Lite Trunk 95L · Black · Exterior",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2986/1172/files/53ec34f3-43b7-4813-850c-b34db53c53f6.jpg?v=1793815331&width=1024&height=1024&crop=center",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Trunk+95L",
+      "checked": "2026-11-11",
+      "scope": "Official selected-size/color gallery. SKU matched; production revision unverified.",
+      "localPath": "offer-photo-assets/peak-roller-lite-trunk-0.webp",
+      "offerId": "offer-a1c2f4b4",
+      "identity": {
+        "model": "Roller Lite Trunk 95L",
+        "size": "Trunk 95L",
+        "color": "Black",
+        "sku": "W-RL-T95-BK-1",
+        "revision": null
+      },
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Official selected variant gallery and alt text",
+        "visualChecked": true,
+        "imageSha256": "75a20330247a5621eed791d205af9d766ecc3917de3a21027c5d0c4a90e17415",
+        "identifierSource": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Trunk+95L",
+        "identifierChecked": "2026-11-11"
+      }
     }
   ],
   "byBrand": {
@@ -8264,6 +8372,12 @@
       "milesto-offer-b9a215a5-0",
       "milesto-offer-659f56da-0",
       "milesto-offer-f8b41458-0"
+    ],
+    "peak-design": [
+      "peak-roller-lite-regular-0",
+      "peak-roller-lite-regular-3",
+      "peak-roller-lite-plus-0",
+      "peak-roller-lite-trunk-0"
     ]
   },
   "note": "Galleries compare sourced product and collection references. Each image has its own model/collection caption and source. An interior from another model is not evidence of the priced model’s construction.",
@@ -10086,7 +10200,88 @@
         "Production revision unknown."
       ],
       "note": "Retailer variant ID 57522240"
+    },
+    {
+      "offerId": "offer-77c46470",
+      "offerIdentity": {
+        "brand": "Peak Design",
+        "product": "Roller Lite Carry-On · Black",
+        "currency": "USD",
+        "retailer": "Peak Design direct",
+        "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular"
+      },
+      "checked": "2026-11-11",
+      "productPage": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "identity": {
+        "model": "Roller Lite Carry-On",
+        "size": "Regular",
+        "color": "Black",
+        "sku": "W-RL-AA-BK-1",
+        "revision": null
+      },
+      "photoIds": [
+        "peak-roller-lite-regular-0",
+        "peak-roller-lite-regular-3"
+      ],
+      "gaps": [
+        "Production revision and primary dated launch notice unverified."
+      ],
+      "note": "Official model-specific exterior dimensions; wheel/handle inclusion is not explicitly stated."
+    },
+    {
+      "offerId": "offer-9cfc9582",
+      "offerIdentity": {
+        "brand": "Peak Design",
+        "product": "Roller Lite Carry-On Plus · Black",
+        "currency": "USD",
+        "retailer": "Peak Design direct",
+        "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Plus"
+      },
+      "checked": "2026-11-11",
+      "productPage": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Plus",
+      "identity": {
+        "model": "Roller Lite Carry-On Plus",
+        "size": "Plus",
+        "color": "Black",
+        "sku": "W-RL-AB-BK-1",
+        "revision": null
+      },
+      "photoIds": [
+        "peak-roller-lite-plus-0"
+      ],
+      "gaps": [
+        "Production revision and primary dated launch notice unverified.",
+        "Exact size/color interior view remains unverified."
+      ],
+      "note": "Official model-specific exterior dimensions; wheel/handle inclusion is not explicitly stated."
+    },
+    {
+      "offerId": "offer-a1c2f4b4",
+      "offerIdentity": {
+        "brand": "Peak Design",
+        "product": "Roller Lite Trunk 95L · Black",
+        "currency": "USD",
+        "retailer": "Peak Design direct",
+        "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Trunk+95L"
+      },
+      "checked": "2026-11-11",
+      "productPage": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Trunk+95L",
+      "identity": {
+        "model": "Roller Lite Trunk 95L",
+        "size": "Trunk 95L",
+        "color": "Black",
+        "sku": "W-RL-T95-BK-1",
+        "revision": null
+      },
+      "photoIds": [
+        "peak-roller-lite-trunk-0"
+      ],
+      "gaps": [
+        "Production revision and primary dated launch notice unverified.",
+        "Exact size/color interior view remains unverified."
+      ],
+      "note": "Official model-specific exterior dimensions; wheel/handle inclusion is not explicitly stated."
     }
   ],
-  "offerPhotoChecked": "2026-11-10"
+  "offerPhotoChecked": "2026-11-11"
 }

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-10",
+  "checked": "2026-11-11",
   "fields": [
     {
       "id": "opening",
@@ -12691,9 +12691,214 @@
       "photoScope": "Manufacturer model gallery; size and color unspecified.",
       "photoCaption": "BINHAO 2333",
       "opportunity": "Check access to the lower packing area with a loaded case."
+    },
+    {
+      "id": "offer-77c46470",
+      "offerId": "offer-77c46470",
+      "brandId": "peak-design",
+      "brand": "Peak Design",
+      "model": "Roller Lite Carry-On · Black",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "checked": "2026-11-11",
+      "scope": "Selected Black model. First Atlas observation November 11. Launch date not established by a dated primary notice.",
+      "features": {
+        "dimensions": {
+          "value": "55 × 35 × 22.9 cm; expanded 55 × 35 × 28 cm (manufacturer external specification; wheel/handle inclusion not explicit)",
+          "basis": "Official selected model description and specification"
+        },
+        "capacity": {
+          "value": "38 L; expanded 45 L",
+          "basis": "Official selected model description and specification"
+        },
+        "weight": {
+          "value": "3.2 kg",
+          "basis": "Official selected model description and specification"
+        },
+        "material": {
+          "value": "Multi-layered polycarbonate exterior",
+          "basis": "Official selected model description and specification"
+        },
+        "handle": {
+          "value": "SlimDrive carbon-fiber trolley; lay-flat webbing grab handles",
+          "basis": "Official selected model description and specification"
+        },
+        "wheels": {
+          "value": "Custom polyurethane casters",
+          "basis": "Official selected model description and specification"
+        },
+        "organization": {
+          "value": "Cord Hook retention and felt/ripstop interior; compatible with Peak Design packing cubes and pouches",
+          "basis": "Official selected model description and specification"
+        },
+        "tracking": {
+          "value": "Hidden AirTag pocket; separate tracker purchase required. Pocket only.",
+          "basis": "Official selected model description and specification"
+        },
+        "expansion": {
+          "value": "Zipper expansion to 28 cm external depth",
+          "basis": "Official selected model description and specification"
+        }
+      },
+      "featureCount": 9,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [
+        "Peak Design"
+      ],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 404.96,
+      "currency": "USD",
+      "priceDate": "2026-11-11",
+      "image": "offer-photo-assets/peak-roller-lite-regular-0.webp",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/2986/1172/files/26be1755-8a2a-4712-9347-65f3e68a1807.jpg?v=1793745150&width=1024&height=1024&crop=center",
+        "https://cdn.shopify.com/s/files/1/2986/1172/files/bags-travel-Roller-Lite-Carry-On-Black-33958.jpg?v=1793747474&width=1024&height=1024&crop=center"
+      ],
+      "photoScope": "Matched selected model, size and Black color. Production revision unverified.",
+      "photoSource": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "photoKind": "model-reference",
+      "photoCaption": "Roller Lite Carry-On · Black",
+      "opportunity": "Analyst priority: compare trolley intrusion, case weight and separately purchased modular packing for frequent travelers. No measured demand growth established."
+    },
+    {
+      "id": "offer-9cfc9582",
+      "offerId": "offer-9cfc9582",
+      "brandId": "peak-design",
+      "brand": "Peak Design",
+      "model": "Roller Lite Carry-On Plus · Black",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Plus",
+      "checked": "2026-11-11",
+      "scope": "Selected Black model. First Atlas observation November 11. Launch date not established by a dated primary notice.",
+      "features": {
+        "dimensions": {
+          "value": "57.2 × 38 × 22.9 cm; expanded 57.2 × 38 × 28 cm (manufacturer external specification; wheel/handle inclusion not explicit)",
+          "basis": "Official selected model description and specification"
+        },
+        "capacity": {
+          "value": "43 L; expanded 50 L",
+          "basis": "Official selected model description and specification"
+        },
+        "weight": {
+          "value": "3.3 kg",
+          "basis": "Official selected model description and specification"
+        },
+        "material": {
+          "value": "Multi-layered polycarbonate exterior",
+          "basis": "Official selected model description and specification"
+        },
+        "handle": {
+          "value": "SlimDrive carbon-fiber trolley; lay-flat webbing grab handles",
+          "basis": "Official selected model description and specification"
+        },
+        "wheels": {
+          "value": "Custom polyurethane casters",
+          "basis": "Official selected model description and specification"
+        },
+        "organization": {
+          "value": "Cord Hook retention and felt/ripstop interior; compatible with Peak Design packing cubes and pouches",
+          "basis": "Official selected model description and specification"
+        },
+        "tracking": {
+          "value": "Hidden AirTag pocket; separate tracker purchase required. Pocket only.",
+          "basis": "Official selected model description and specification"
+        },
+        "expansion": {
+          "value": "Zipper expansion to 28 cm external depth",
+          "basis": "Official selected model description and specification"
+        }
+      },
+      "featureCount": 9,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [
+        "Peak Design"
+      ],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 422.96,
+      "currency": "USD",
+      "priceDate": "2026-11-11",
+      "image": "offer-photo-assets/peak-roller-lite-plus-0.webp",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/2986/1172/files/f39ebf76-f480-4092-88bf-a75d6188353b.jpg?v=1793811756&width=1024&height=1024&crop=center"
+      ],
+      "photoScope": "Matched selected model, size and Black color. Production revision unverified.",
+      "photoSource": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Plus",
+      "photoKind": "model-reference",
+      "photoCaption": "Roller Lite Carry-On Plus · Black",
+      "opportunity": "Analyst priority: compare trolley intrusion, case weight and separately purchased modular packing for frequent travelers. No measured demand growth established."
+    },
+    {
+      "id": "offer-a1c2f4b4",
+      "offerId": "offer-a1c2f4b4",
+      "brandId": "peak-design",
+      "brand": "Peak Design",
+      "model": "Roller Lite Trunk 95L · Black",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Trunk+95L",
+      "checked": "2026-11-11",
+      "scope": "Selected Black model. First Atlas observation November 11. Launch date not established by a dated primary notice.",
+      "features": {
+        "dimensions": {
+          "value": "75.9 × 41 × 35 cm (manufacturer external specification; wheel/handle inclusion not explicit)",
+          "basis": "Official selected model description and specification"
+        },
+        "capacity": {
+          "value": "95 L",
+          "basis": "Official selected model description and specification"
+        },
+        "weight": {
+          "value": "4.9 kg",
+          "basis": "Official selected model description and specification"
+        },
+        "material": {
+          "value": "Multi-layered polycarbonate exterior",
+          "basis": "Official selected model description and specification"
+        },
+        "handle": {
+          "value": "SlimDrive carbon-fiber trolley; lay-flat webbing grab handles",
+          "basis": "Official selected model description and specification"
+        },
+        "wheels": {
+          "value": "Custom polyurethane casters",
+          "basis": "Official selected model description and specification"
+        },
+        "organization": {
+          "value": "Cord Hook retention and felt/ripstop interior; compatible with Peak Design packing cubes and pouches",
+          "basis": "Official selected model description and specification"
+        },
+        "tracking": {
+          "value": "Hidden AirTag pocket; separate tracker purchase required. Pocket only.",
+          "basis": "Official selected model description and specification"
+        },
+        "repair": {
+          "value": "Individually replaceable casters stated on this Trunk model page. Tools, spare-part SKU availability, regional supply and owner-versus-service tasks remain unverified.",
+          "basis": "Official selected model description and specification"
+        }
+      },
+      "featureCount": 9,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [
+        "Peak Design"
+      ],
+      "recordType": "Priced offer",
+      "format": "Trunk",
+      "price": 494.96,
+      "currency": "USD",
+      "priceDate": "2026-11-11",
+      "image": "offer-photo-assets/peak-roller-lite-trunk-0.webp",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/2986/1172/files/53ec34f3-43b7-4813-850c-b34db53c53f6.jpg?v=1793815331&width=1024&height=1024&crop=center"
+      ],
+      "photoScope": "Matched selected model, size and Black color. Production revision unverified.",
+      "photoSource": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Trunk+95L",
+      "photoKind": "model-reference",
+      "photoCaption": "Roller Lite Trunk 95L · Black",
+      "opportunity": "Analyst priority: compare trolley intrusion, case weight and separately purchased modular packing for frequent travelers. No measured demand growth established."
     }
   ],
-  "brandCount": 174,
+  "brandCount": 175,
   "geographicScope": "Worldwide discovery across 174 recorded brand profiles. Assortment coverage is partial.",
   "researchRefresh": {
     "checked": "2026-11-04",

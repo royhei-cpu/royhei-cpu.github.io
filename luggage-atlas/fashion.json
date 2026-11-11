@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-08",
+  "checked": "2026-11-11",
   "note": "All entries have an editorial style/shopper assessment and an explicit supplier-evidence status. A launch is not proof of rising sales. No demographic share or exact SKU-to-factory match is claimed.",
   "groups": [
     "Design minimalists",
@@ -4482,6 +4482,30 @@
         "components": "",
         "tradeLead": "",
         "checked": "2026-11-08",
+        "skuFactoryVerified": false
+      }
+    },
+    "peak-design": {
+      "brandId": "peak-design",
+      "group": "Small-space & organized packers",
+      "why": "Restrained Black shells, a slim carbon-fiber trolley and optional packing cubes suit travelers balancing clean styling and packing efficiency.",
+      "signalStatus": "Newly observed product offers",
+      "signal": "Three Black Roller Lite sizes verified November 11. Primary dated launch notice remains unresolved; no measured demand-growth claim.",
+      "signalSource": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "designSource": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "audienceBasis": "Editorial use-case hypothesis for frequent travelers and photographers using removable cubes.",
+      "test": "Compare packed weight, trolley intrusion and usable capacity; test access without assuming airline acceptance.",
+      "checked": "2026-11-11",
+      "supplier": {
+        "status": "Not verified",
+        "entity": "Peak Design brand; producing legal entity unverified",
+        "factory": "Exact producing plant not verified",
+        "origin": "Production country unverified for these SKUs",
+        "scope": "Official storefront establishes model and SKU, not supplier or factory identity.",
+        "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+        "components": "",
+        "tradeLead": "",
+        "checked": "2026-11-11",
         "skuFactoryVerified": false
       }
     }

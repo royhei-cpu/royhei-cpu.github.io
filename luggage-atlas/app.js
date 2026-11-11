@@ -48,3 +48,5 @@ document.addEventListener('change',e=>{if(e.target.dataset.pick)togglePick(e.tar
 window.addEventListener('hashchange',navigateAtlas);render();if(location.hash==='#research')openAtlasResearch(true);
 
 try{const requested=String(location.search||" ").match(/[?&]brand=([^&]*)/);if(requested)profile(decodeURIComponent(requested[1]));}catch{}
+
+const editionCounts=document.querySelector(".edition-strip span:last-child");if(editionCounts)editionCounts.textContent=`${D.brands.length} BRANDS / ${D.retailers.length} RETAIL CHANNELS / GLOBAL PERSPECTIVE`;

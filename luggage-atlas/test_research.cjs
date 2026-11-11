@@ -4,3 +4,6 @@ for(const t of g.ATLAS_FEATURE_TRENDS.trends){const r=g.ATLAS_MODEL_FEATURES.rec
 const july=g.ATLAS_MODEL_FEATURES.records.find(r=>r.id==='offer-30050715');assert(g.AtlasInspiration.forRecord(july).some(m=>m.id==='smarttracking'));assert(!g.AtlasInspiration.forRecord(july).some(m=>m.id==='tracker'));const html=g.featureTrendDashboard();assert(html.includes('feature=repair'));assert(html.includes('feature=smarttracking'));
 for(const r of g.ATLAS_MODEL_FEATURES.records){assert.equal(r.featureCount,Object.keys(r.features).length);if(r.photoKind==='brand-reference')assert(r.photoScope.includes('Exact model photograph remains unverified'));}
 console.log('PASS: source-specific sort/filter, signed momentum, CSV/SVG serialization, six model-to-workshop feature imports, tracking module distinction, photo scopes and feature counts.');
+
+for(const r of g.ATLAS_MODEL_FEATURES.records.filter(r=>r.brandId==="peak-design")){const ids=g.AtlasInspiration.forRecord(r).map(x=>x.id);assert(ids.includes("tracker"));assert(!ids.includes("smarttracking"),"Roller Lite pocket must not import integrated electronics");}
+assert(html.includes(g.ATLAS_FEATURE_TRENDS.checked));
