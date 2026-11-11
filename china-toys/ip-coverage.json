@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-10",
+  "catalog_date": "2026-11-11",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "brand": "TOP TOY",
-      "records": 295,
+      "records": 298,
       "status": "Partial assortment"
     },
     {
@@ -192,7 +192,7 @@
     {
       "id": "nommi",
       "name": "Nommi / 糯米儿",
-      "records": 85,
+      "records": 86,
       "product_ids": [
         "bb4961c84498f50b",
         "af9b85a45ced5ebb",
@@ -220,6 +220,7 @@
         "e4ff163f88e9b373",
         "c0cda6ba0b21939b",
         "4c50ee1bcc91ab0c",
+        "e892458a949c0702",
         "316c1f384a7d64e2",
         "70eca319c4ffe2ab",
         "b548757a9f4a0fa8",
@@ -476,7 +477,7 @@
     {
       "id": "nommi",
       "name": "Nommi / 糯米儿",
-      "records": 85,
+      "records": 86,
       "product_ids": [
         "bb4961c84498f50b",
         "af9b85a45ced5ebb",
@@ -504,6 +505,7 @@
         "e4ff163f88e9b373",
         "c0cda6ba0b21939b",
         "4c50ee1bcc91ab0c",
+        "e892458a949c0702",
         "316c1f384a7d64e2",
         "70eca319c4ffe2ab",
         "b548757a9f4a0fa8",
@@ -1054,7 +1056,7 @@
     {
       "id": "lulu",
       "name": "LuLu the Piggy",
-      "records": 96,
+      "records": 99,
       "product_ids": [
         "c8e3b1c5c0c907d7",
         "ccd30b3897e21a97",
@@ -1077,6 +1079,7 @@
         "8e24757feeeac4dd",
         "5038668c831b6ec9",
         "7a21933efba1a8c4",
+        "f78a8bb8ed6d122c",
         "254d669de208572f",
         "e4e334edf95bb93d",
         "6c9cbd9083d2b35d",
@@ -1098,6 +1101,8 @@
         "56afbcdc65d4ce18",
         "fe4c1fd660e460b7",
         "29dff731ee270a2b",
+        "9489d9781cf50132",
+        "f0e6d0e6ab94c137",
         "682ad322c8d33289",
         "2992100c61ce7eda",
         "85955174e40add61",
@@ -1206,7 +1211,7 @@
     {
       "id": "maymei",
       "name": "Maymei",
-      "records": 54,
+      "records": 55,
       "product_ids": [
         "82e1692a53675ad9",
         "b13aeabfc77d29d8",
@@ -1219,6 +1224,7 @@
         "92754530be5a3e94",
         "a297e03b838bdb58",
         "4cfc067f9822dd56",
+        "c7ef6b5396583082",
         "557a1de5307be0cf",
         "59cafcf2cd2ee8a3",
         "c13b99fc4f69382f",
@@ -2088,7 +2094,7 @@
   "unrepresented_character_labels": [
     {
       "character": "Emma",
-      "records": 73,
+      "records": 74,
       "sample_sources": [
         "https://toybeta.com/products/emma-ocean-bubble-beans-series-blind-box",
         "https://toybeta.com/products/lovely-emma-bunny-alliance-series-plush-blind-box",
@@ -2106,7 +2112,7 @@
     },
     {
       "character": "MIMI",
-      "records": 24,
+      "records": 25,
       "sample_sources": [
         "https://toybeta.com/products/ghost-john-mimimaomao-series-figures-blind-box",
         "https://toybeta.com/products/mimi-bobo-day-out-series-beans-blind-bag",
