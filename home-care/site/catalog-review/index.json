@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-10",
-  "sourceCheckedAt": "2026-11-10",
+  "reviewedAt": "2026-11-11",
+  "sourceCheckedAt": "2026-11-11",
   "files": [
     "part-001.json",
     "part-002.json",
@@ -43,9 +43,10 @@
     "assortment-2026-11-08.json",
     "refills-2026-11-08.json",
     "daily-2026-11-09.json",
-    "daily-2026-11-10.json"
+    "daily-2026-11-10.json",
+    "daily-2026-11-11.json"
   ],
-  "added": 3918,
+  "added": 3919,
   "photoPacks": [
     "photos-001.json.gz",
     "photos-002.json.gz",
@@ -363,5 +364,6 @@
     "gap-review-20261102-53.json.gz",
     "gap-review-20261102-54.json.gz"
   ],
-  "reviewScope": "Daily priority-channel follow-up covering Amazon, Walmart, Costco and TikTok Shop exact-page discovery plus an official brand announcement check. Seven exact item pages were added and one existing TikTok item was upgraded; the 19-retailer × 15-category matrix was not comprehensively rerun. Amazon access and category pagination remained incomplete, and no inventory completeness claim is made."
+  "reviewScope": "11 November daily priority-channel follow-up covering Amazon, Walmart, Costco and TikTok Shop exact-page discovery plus official brand announcement checks. One exact Walmart marketplace item page was added; the 19-retailer × 15-category matrix was not comprehensively rerun. Amazon and TikTok exact access, Costco location-dependent availability and category pagination remained incomplete, and no inventory completeness claim is made."
 }
+

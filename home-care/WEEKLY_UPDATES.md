@@ -123,3 +123,16 @@ The existing Monday 08:00 Asia/Shanghai automation was extended with these requi
 - This daily follow-up checked four priority retailers and did not rerun the full 19-retailer × 15-category matrix. The 9 November matrix remains the latest comprehensive sampling artifact, and no full-inventory claim is made.
 - Opportunities were reviewed with no material rank or priority movement. New evidence broadened the standing Tools, Sustainable Cleaning, Dishwashing, Floor Care, Surface Care and adjacent Pet Odor references.
 - See `DAILY_REVIEW_2026-11-10.md` and `site/catalog-review/daily-source-check-2026-11-10.json`.
+
+
+
+## 11 November 2026 — Daily priority-channel follow-up
+
+- Preserved all 10,249 prior records and added one new-to-catalog exact Walmart marketplace listing, for 10,250 total.
+- Verified exact item ID 19056616406, selected 120 mL single-unit variant, marketplace seller WenidZhen, displayed $10.18 offer and matched item photo. Price and availability remain dated, location-dependent observations.
+- The seller title includes “2026 New,” but no retailer first-available date or independent launch evidence was established; the item is not described as a new product launch.
+- Amazon US, Costco and TikTok Shop each produced zero additional verified listings in this daily check. Amazon exact ASIN/category access and TikTok exact item/seller access remained incomplete; Costco availability remained location-dependent.
+- No new in-scope official brand launch was verified.
+- This did not rerun the full 19-retailer × 15-category matrix. The 9 November matrix remains the latest comprehensive sampled-link artifact; no retailer inventory or pagination is claimed complete.
+- Opportunities were reviewed with no material rank or priority movement. The addition broadens Surface Cleaners evidence only; it does not prove demand or a Target assortment gap.
+- See DAILY_REVIEW_2026-11-11.md and site/catalog-review/daily-source-check-2026-11-11.json.

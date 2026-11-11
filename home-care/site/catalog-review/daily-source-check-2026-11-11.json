@@ -1,0 +1,45 @@
+{
+  "reviewedAt": "2026-11-11",
+  "scope": "Daily priority-channel follow-up for Amazon US, Walmart, Costco and TikTok Shop plus official brand announcement checks; not a rerun of the full 19-retailer by 15-category matrix.",
+  "baselineRecords": 10249,
+  "publishedRecords": 10250,
+  "verifiedAdditions": 1,
+  "verifiedNews": 0,
+  "retailers": [
+    {
+      "retailer": "Amazon US",
+      "status": "partial / blocked",
+      "exactProductPagesAdded": 0,
+      "notes": "No additional exact ASIN page was verified. Search/category access and complete pagination remained incomplete; a third-party tracker result was not used as listing evidence."
+    },
+    {
+      "retailer": "Walmart",
+      "status": "partial",
+      "exactProductPagesAdded": 1,
+      "itemLinksChecked": 1,
+      "notes": "Exact marketplace item page checked for item ID, title, selected 120 mL single-unit variant, seller, displayed offer and item-specific image. Category pagination was not exhausted."
+    },
+    {
+      "retailer": "Costco",
+      "status": "partial / location-dependent",
+      "exactProductPagesAdded": 0,
+      "notes": "No additional deduplicated exact listing was verified. Existing exact pages and category results remain location- and availability-dependent; category pagination was not exhausted."
+    },
+    {
+      "retailer": "TikTok Shop",
+      "status": "partial / blocked",
+      "exactProductPagesAdded": 0,
+      "notes": "Keyword pages exposed product metadata, but no additional exact U.S. item, seller and stock combination was verified because exact access remained restricted."
+    }
+  ],
+  "announcements": {
+    "verifiedNewLaunches": 0,
+    "notes": "No new in-scope official brand launch was verified in this daily follow-up."
+  },
+  "remainingGaps": [
+    "The latest full 19-retailer by 15-category sampled-link matrix remains dated 2026-11-09.",
+    "No priority retailer inventory was fully enumerated and no accessible category pagination was proven exhausted.",
+    "Retailer first-available date remains not verified for the new Walmart listing.",
+    "Amazon exact-page access and TikTok exact item/seller verification remain material gaps."
+  ]
+}
