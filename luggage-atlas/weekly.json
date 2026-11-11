@@ -1,12 +1,28 @@
 {
-  "edition": "2026-11-10",
+  "edition": "2026-11-11",
   "periodStart": "2026-11-04",
-  "periodEnd": "2026-11-10",
+  "periodEnd": "2026-11-11",
   "baseline": false,
   "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
-  "nextScheduled": "2026-11-11",
-  "coverage": "172 of 174 brands have a priced observation. Two new observations cover one 90FUN model in two colors.",
+  "nextScheduled": "2026-11-12",
+  "coverage": "173 of 175 brands have priced observations. Three Black Peak Design Roller Lite sizes added; worldwide assortment remains partial.",
   "items": [
+    {
+      "id": "peak-roller-lite-us",
+      "brand": "Peak Design",
+      "brandId": "peak-design",
+      "title": "Roller Lite: three sizes and a lower-weight trolley design",
+      "date": "2026-11-11",
+      "dateType": "First Atlas verification. November 10 launch reported by press; dated primary notice not yet established.",
+      "status": "New coverage",
+      "market": "United States",
+      "change": "Black Regular, Plus and Trunk 95L now have model-specific dimensions, weights and promotional prices. Carbon-fiber trolley, cube compatibility and an AirTag pocket are documented. The Trunk page explicitly specifies replaceable casters.",
+      "price": "USD 404.96 / 422.96 / 494.96; regular USD 449.95 / 469.95 / 549.95",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "theme": "Access & organization",
+      "photoId": "peak-roller-lite-regular-0",
+      "implication": "Analyst fit: frequent travelers balancing weight and capacity, and photographers using removable cubes. Minimal black shells and flat webbing handles support a restrained travel style. No measured popularity or sales-growth claim."
+    },
     {
       "id": "90fun-cabin-my",
       "brand": "90FUN / 90分",
@@ -132,12 +148,12 @@
     "note": "DTA / DTA Nova added; existing price and news brand references reconciled."
   },
   "latestBulletin": {
-    "checked": "2026-11-10",
-    "newsDate": "2026-11-10",
-    "title": "Ryanair moves checked bag drop to 60 minutes before departure",
-    "text": "The change takes effect November 10 across Ryanair airports. The airline announced it April 22 and issued its reminder October 27. Guests checking a bag now need to drop it 20 minutes earlier. No newly dated luggage launch was verified in today’s scan.",
-    "source": "https://corporate.ryanair.com/news/ryanair-reminds-passengers-of-60-min-bag-drop-closure-from-tue-10-nov-airport-bag-drop-will-close-60-mins-before-departure/",
-    "records": 2
+    "checked": "2026-11-11",
+    "newsDate": "2026-11-11",
+    "title": "Peak Design Roller Lite offers verified",
+    "text": "Three Black case-only offers and four matched photographs added. Official prices are promotional; end date unverified. November 10 launch is reported in press, but the primary product pages do not establish a dated release. Zero newly verified primary-source launch dates in this daily scan.",
+    "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+    "records": 3
   },
   "promotion": {
     "date": "2026-11-08",

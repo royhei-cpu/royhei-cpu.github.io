@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "brands": [
     {
       "id": "90fun",
@@ -8196,6 +8196,62 @@
       "coverageStatus": "Model and launch documented; assortment partial",
       "launchDate": "2026-11-06",
       "launchDateStatus": "Japan launch of the Hütte 3WAY Boston Carry"
+    },
+    {
+      "id": "peak-design",
+      "name": "Peak Design",
+      "region": "North America",
+      "country": "United States",
+      "collection": "Roller Lite",
+      "style": "Minimalist · Hardside",
+      "features": [
+        "Carbon-fiber trolley",
+        "Modular packing compatibility",
+        "Tracker pocket"
+      ],
+      "observation": "Three Black Roller Lite sizes observed. Launch date awaits a dated primary notice.",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "official": "https://www.peakdesign.com/",
+      "originNote": "Brand market is United States; exact production factory unverified.",
+      "originSource": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "image": "https://cdn.shopify.com/s/files/1/2986/1172/files/26be1755-8a2a-4712-9347-65f3e68a1807.jpg?v=1793745150",
+      "imageCaption": "Roller Lite Carry-On Regular · Black, official gallery",
+      "sales": null,
+      "popularity": null,
+      "tier": "Premium",
+      "tierDetail": "Observed US case-only prices $404.96–$494.96.",
+      "price": {
+        "brand": "Peak Design",
+        "retailer": "Peak Design direct",
+        "product": "Roller Lite Carry-On · Black",
+        "amount": 404.96,
+        "currency": "USD",
+        "market": "United States",
+        "date": "2026-11-11",
+        "kind": "Displayed promotional price",
+        "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+        "regular": 449.95,
+        "format": "Carry-on",
+        "sku": "W-RL-AA-BK-1",
+        "note": "Observed on the US storefront. Promotion end date and regional availability unverified. Accessories pictured are not included in the case-only offer.",
+        "sourcePhoto": "https://cdn.shopify.com/s/files/1/2986/1172/files/26be1755-8a2a-4712-9347-65f3e68a1807.jpg?v=1793745150"
+      },
+      "channels": [
+        {
+          "name": "Peak Design direct",
+          "url": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular"
+        }
+      ],
+      "groups": [
+        "Additional sourced brands"
+      ],
+      "aliases": [
+        "PeakDesign"
+      ],
+      "checked": "2026-11-11",
+      "coverageStatus": "Three Black offers checked; other colors and regional assortments incomplete",
+      "launchDate": null,
+      "launchDateStatus": "Primary dated notice unverified"
     }
   ],
   "launches": [
@@ -46459,6 +46515,54 @@
       "note": "Retailer displays a sold-out price. Launch date and production revision are unknown.",
       "retailerVariantId": "57522240",
       "sourcePhoto": "https://cdn.store-assets.com/s/1343979/i/76536907.jpeg"
+    },
+    {
+      "brand": "Peak Design",
+      "retailer": "Peak Design direct",
+      "product": "Roller Lite Carry-On · Black",
+      "amount": 404.96,
+      "currency": "USD",
+      "market": "United States",
+      "date": "2026-11-11",
+      "kind": "Displayed promotional price",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "regular": 449.95,
+      "format": "Carry-on",
+      "sku": "W-RL-AA-BK-1",
+      "note": "Observed on the US storefront. Promotion end date and regional availability unverified. Accessories pictured are not included in the case-only offer.",
+      "sourcePhoto": "https://cdn.shopify.com/s/files/1/2986/1172/files/26be1755-8a2a-4712-9347-65f3e68a1807.jpg?v=1793745150"
+    },
+    {
+      "brand": "Peak Design",
+      "retailer": "Peak Design direct",
+      "product": "Roller Lite Carry-On Plus · Black",
+      "amount": 422.96,
+      "currency": "USD",
+      "market": "United States",
+      "date": "2026-11-11",
+      "kind": "Displayed promotional price",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Plus",
+      "regular": 469.95,
+      "format": "Carry-on",
+      "sku": "W-RL-AB-BK-1",
+      "note": "Observed on the US storefront. Promotion end date and regional availability unverified. Accessories pictured are not included in the case-only offer.",
+      "sourcePhoto": "https://cdn.shopify.com/s/files/1/2986/1172/files/f39ebf76-f480-4092-88bf-a75d6188353b.jpg?v=1793811756"
+    },
+    {
+      "brand": "Peak Design",
+      "retailer": "Peak Design direct",
+      "product": "Roller Lite Trunk 95L · Black",
+      "amount": 494.96,
+      "currency": "USD",
+      "market": "United States",
+      "date": "2026-11-11",
+      "kind": "Displayed promotional price",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Trunk+95L",
+      "regular": 549.95,
+      "format": "Trunk",
+      "sku": "W-RL-T95-BK-1",
+      "note": "Observed on the US storefront. Promotion end date and regional availability unverified. Accessories pictured are not included in the case-only offer.",
+      "sourcePhoto": "https://cdn.shopify.com/s/files/1/2986/1172/files/53ec34f3-43b7-4813-850c-b34db53c53f6.jpg?v=1793815331"
     }
   ],
   "retailers": [
@@ -47306,6 +47410,21 @@
       "scope_note": "One 20-inch model in Black and Black Grey.",
       "source_url": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
       "checked_date": "2026-11-10",
+      "sku_catalogue_complete": false
+    },
+    {
+      "name": "Peak Design direct",
+      "market": "United States",
+      "region": "North America",
+      "channel": "Brand direct",
+      "url": "https://www.peakdesign.com/",
+      "observed_brands": [
+        "Peak Design"
+      ],
+      "status": "Three Black Roller Lite offers checked",
+      "scope_note": "Regular, Plus and Trunk 95L. Other colors, bundles and regions not exhaustively captured.",
+      "source_url": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "checked_date": "2026-11-11",
       "sku_catalogue_complete": false
     }
   ],

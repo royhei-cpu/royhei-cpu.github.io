@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-10",
+  "checked": "2026-11-11",
   "baselineBrands": 98,
   "addedBrands": 76,
-  "totalBrands": 174,
-  "totalPricedOffers": 2057,
-  "totalPhotoReferences": 524,
+  "totalBrands": 175,
+  "totalPricedOffers": 2060,
+  "totalPhotoReferences": 528,
   "newBrandIds": [
     "dta-nova",
     "briefing",
@@ -2415,6 +2415,19 @@
       "launchDateVerified": true,
       "assortmentComplete": false,
       "status": "Model and launch documented; assortment partial"
+    },
+    {
+      "brandId": "peak-design",
+      "brand": "Peak Design",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "checked": "2026-11-11",
+      "pricedOffers": 3,
+      "photoReferences": 4,
+      "interiorReferences": 1,
+      "factoryVerified": false,
+      "launchDateVerified": false,
+      "assortmentComplete": false,
+      "status": "Three Black sizes priced. Regular interior matched; Plus/Trunk interiors unresolved."
     }
   ],
   "sourceChecks": [
@@ -3050,6 +3063,7 @@
     "Regional storefronts and indexed pages may differ from current inventory.",
     "First launch dates and SKU factories remain unknown unless separately evidenced.",
     "Product galleries added in this refresh are source references, not exact-offer interior audits.",
-    "November 10: Amazon Basics and BINHAO still lack a captured retail price. Model gallery interiors for BINHAO 2333 and 90FUN Cabin Travel Business do not establish size/color-specific interior photography."
+    "November 10: Amazon Basics and BINHAO still lack a captured retail price. Model gallery interiors for BINHAO 2333 and 90FUN Cabin Travel Business do not establish size/color-specific interior photography.",
+    "November 11: Peak Design adds three selected Black offers, not a full regional assortment. Official external dimensions do not explicitly state wheel/handle inclusion. Repair tools, parts availability and primary launch date remain unresolved."
   ]
 }

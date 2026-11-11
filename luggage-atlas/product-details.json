@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-10",
+  "checked": "2026-11-11",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -105,6 +105,58 @@
       "photoIds": [
         "90fun-57522240"
       ]
+    },
+    {
+      "offerId": "offer-77c46470",
+      "brandId": "peak-design",
+      "model": "Roller Lite Carry-On",
+      "size": "Regular",
+      "color": "Black",
+      "dimensions": "55 × 35 × 22.9 cm; expanded 55 × 35 × 28 cm (manufacturer external specification; wheel/handle inclusion not explicit)",
+      "announcementDate": null,
+      "launchDate": null,
+      "observed": "2026-11-11",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "price": 404.96,
+      "currency": "USD",
+      "photoIds": [
+        "peak-roller-lite-regular-0",
+        "peak-roller-lite-regular-3"
+      ]
+    },
+    {
+      "offerId": "offer-9cfc9582",
+      "brandId": "peak-design",
+      "model": "Roller Lite Carry-On Plus",
+      "size": "Plus",
+      "color": "Black",
+      "dimensions": "57.2 × 38 × 22.9 cm; expanded 57.2 × 38 × 28 cm (manufacturer external specification; wheel/handle inclusion not explicit)",
+      "announcementDate": null,
+      "launchDate": null,
+      "observed": "2026-11-11",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Plus",
+      "price": 422.96,
+      "currency": "USD",
+      "photoIds": [
+        "peak-roller-lite-plus-0"
+      ]
+    },
+    {
+      "offerId": "offer-a1c2f4b4",
+      "brandId": "peak-design",
+      "model": "Roller Lite Trunk 95L",
+      "size": "Trunk 95L",
+      "color": "Black",
+      "dimensions": "75.9 × 41 × 35 cm (manufacturer external specification; wheel/handle inclusion not explicit)",
+      "announcementDate": null,
+      "launchDate": null,
+      "observed": "2026-11-11",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Trunk+95L",
+      "price": 494.96,
+      "currency": "USD",
+      "photoIds": [
+        "peak-roller-lite-trunk-0"
+      ]
     }
   ],
   "byBrand": {
@@ -119,6 +171,11 @@
     "90fun": [
       "offer-e130041",
       "offer-7201d6f4"
+    ],
+    "peak-design": [
+      "offer-77c46470",
+      "offer-9cfc9582",
+      "offer-a1c2f4b4"
     ]
   }
 }
