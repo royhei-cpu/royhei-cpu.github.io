@@ -46,9 +46,7 @@ def as_map(records):
 
 
 def home_records():
-    packed = extract((SITE / HOME / "index.html").read_text(), "const ITEMS=(()=>{const p=")
-    return [{k: packed["pool"][i] for k, i in zip(packed["keys"], row) if i >= 0}
-            for row in packed["rows"]]
+    return read_json(SITE / HOME / "catalog-records.json")
 
 
 def match_records(expected, built, keys, label):
@@ -117,15 +115,28 @@ def manifest():
              "china-toys/catalog.json", "china-toys/catalog.csv", "china-toys/chain-assortments.json",
              "luggage-atlas/data.json"}
     paths.update(str(p.relative_to(SITE)) for p in (SITE / "_next").rglob("*") if p.is_file())
-    for directory, names in [(TOYS, {"catalog.js", "chain-assortments-data.js"}),
-                             (LUGGAGE, {"data.js", "weekly.js"})]:
+    for directory in (HOME, TOYS, LUGGAGE):
         scripts = Scripts()
         scripts.feed((SITE / directory / "index.html").read_text())
         resolved = [urljoin(directory + "/", s) for s in scripts.urls]
-        for name in names:
+        for name in ("directory-data.js", "directory.js", "guide-chapters.js"):
             found = [p for p in resolved if urlsplit(p).path == directory + "/" + name]
             check(len(found) == 1, f"Expected a single {name} script on {directory}/")
             paths.add(found[0])
+        paths.add(directory + "/directory.css?v=20261112-simple1")
+        normalized = extract((SITE / directory / "directory-data.js").read_text(), "window.DIRECTORY=")
+        if "packed" in normalized:
+            packed = normalized["packed"]
+            normalized["items"] = [{k: packed["pool"][i] for k, i in zip(packed["keys"], row) if i >= 0} for row in packed["rows"]]
+        check(normalized["items"] and len({p["id"] for p in normalized["items"]}) == len(normalized["items"]), f"Invalid directory records: {directory}")
+        if directory == HOME:
+            check({p["id"] for p in normalized["items"]} >= {p["id"] for p in home_records()}, "Home Care directory drops source records")
+        if directory == TOYS:
+            check({p["id"] for p in read_json(SITE / TOYS / "catalog.json")["products"]} <= {p["id"] for p in normalized["items"]}, "Toy directory drops source products")
+        if directory == LUGGAGE:
+            check(sum(p["id"].startswith("offer-") for p in normalized["items"]) == counts["luggage_offers"], "Luggage directory drops offers")
+    for name in ("directory-guide.mp4", "directory-guide.en.vtt", "directory-guide-poster.jpg"):
+        paths.add("home-care/videos/" + name)
     files = {}
     for path in sorted(paths):
         disk = SITE / urlsplit(path).path

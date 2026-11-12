@@ -1,0 +1,97 @@
+[
+  {
+    "id": "retained-signal-0",
+    "title": "Three exact listings added through alternate public sources",
+    "type": "Catalog update",
+    "summary": "Two Costco Business Center listings (Cloralen 121 fl oz × 3 and CAF EXIMO 3 lb) and TikTok Shop Eraser Daddy sheets 6ct were checked for retailer/seller identity, pack and matched photo. These are older discoveries, not verified launches.",
+    "date": "2026-11-12",
+    "dateLabel": "New to this catalog · checked 12 November 2026",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "label": "Cloralen Disinfectant Bleach, Concentrated, 121 fl oz, 3 ct",
+        "url": "https://www.costcobusinessdelivery.com/p/-/cloralen-disinfectant-bleach,-concentrated,-121-fl-oz,-3-ct/4201102008"
+      },
+      {
+        "label": "CAF EXIMO Waterless Concrete Cleaner, 3 lbs",
+        "url": "https://www.costcobusinessdelivery.com/p/-/CAF-EXIMO-Waterless-Concrete-Cleaner,-3-lbs/4201097378"
+      },
+      {
+        "label": "Eraser Daddy 10X Sheets (6ct)",
+        "url": "https://shop.tiktok.com/us/pdp/eraser-sheets-by-scrub-10x-durable-cleaning-pack-of-6/1729411778278363875"
+      }
+    ]
+  },
+  {
+    "id": "retained-signal-1",
+    "title": "One exact Walmart listing added",
+    "type": "Catalog update",
+    "summary": "Added one Walmart marketplace kitchen-cleaner listing after exact item, 120 mL single-unit variant, seller and photo checks. The seller title includes “2026 New,” but no retailer first-available date or product-launch evidence was established.",
+    "date": "2026-11-11",
+    "dateLabel": "New to this catalog · verified 11 November 2026",
+    "checked": "2026-11-11",
+    "sources": [
+      {
+        "label": "Walmart: 120 mL kitchen cleaner spray",
+        "url": "https://www.walmart.com/ip/2026-New-Electrolyzed-Ion-Kitchen-Cleaner-Electrolyzed-Ion-Kitchen-Cleaner-Spray-For-Kitchen-Home/19056616406"
+      }
+    ]
+  },
+  {
+    "id": "retained-signal-2",
+    "title": "Seven exact listings retained from 10 November",
+    "type": "Catalog update",
+    "summary": "The prior daily follow-up added two Walmart, three Costco and two TikTok Shop exact listings after item, seller or retailer identity, pack and photo checks. Those seven remain in the catalog; no retailer first-available date was established for them.",
+    "date": "2026-11-10",
+    "dateLabel": "New to this catalog · verified 10 November 2026",
+    "checked": "2026-11-10",
+    "sources": [
+      {
+        "label": "10 November dated audit",
+        "url": "https://royhei-cpu.github.io/home-care/catalog-review/daily-source-check-2026-11-10.json"
+      },
+      {
+        "label": "TikTok Shop: The Pink Stuff floor cleaner",
+        "url": "https://shop.tiktok.com/us/pdp/1732615779337212718"
+      }
+    ]
+  },
+  {
+    "id": "retained-signal-3",
+    "title": "Fresh Step fragrance launch recorded separately",
+    "type": "Source update",
+    "summary": "Clorox announced Fresh Step Fleur de Purr No. 9 and No. 27 cat litter, stating Walmart.com availability from 4 November, stores from 26 December and broader national rollout in April 2027. Cat litter remains an adjacent Pet Odor Control signal and was not added to Home Care ITEMS.",
+    "date": "2026-11-04",
+    "dateLabel": "Verified brand launch · announced 4 November 2026",
+    "checked": "2026-11-04",
+    "sources": [
+      {
+        "label": "Clorox official announcement",
+        "url": "https://www.thecloroxcompany.com/blog/fresh-step-cat-litter-gets-a-fleur-de-purr-makeover/"
+      },
+      {
+        "label": "Walmart: Fresh Step Fleur de Purr No. 9",
+        "url": "https://www.walmart.com/ip/20679460906"
+      }
+    ]
+  },
+  {
+    "id": "retained-signal-4",
+    "title": "Quince scope checked; broader coverage gaps remain",
+    "type": "Source update",
+    "summary": "One retained link per retailer was probed. Amazon exact-ASIN access failed; Walmart price snapshots conflicted. No full category pagination was exhausted. Zero new verified launch/news signals. Quince official Storage & Organization was reviewed as adjacent scope; conflicting retrieved restock snapshots were not promoted to current news or item-level availability.",
+    "date": "2026-11-12",
+    "dateLabel": "Targeted follow-up · comprehensive review incomplete",
+    "checked": "2026-11-12",
+    "sources": [
+      {
+        "label": "12 November audit",
+        "url": "https://royhei-cpu.github.io/home-care/catalog-review/daily-source-check-2026-11-12.json"
+      },
+      {
+        "label": "Quince official storage directory",
+        "url": "https://www.quince.com/shop/home/all-decor/storage-organization"
+      }
+    ]
+  }
+]
