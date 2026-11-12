@@ -101,7 +101,8 @@ jobs:
           python china-toys/clarity_test.py
           python china-toys/chain_coverage_test.py
           python china-toys/brand_directory_test.py
-      - name: Validate the simplified public directories before saving
+      - name: Build and validate simplified directory data
+        id: staged
         run: |
           mkdir -p _site
           cp -R home-care/site _site/home-care
@@ -115,7 +116,11 @@ jobs:
           python .github/scripts/pages/build-directories.py
           node --check .github/scripts/pages/directory/app.js
           node --test .github/scripts/pages/directory.test.cjs
-          python china-toys/validate_refresh_contract.py check --baseline /tmp/china-toys-baseline.json --site _site/china-toys --browser
+      - name: Verify research preservation
+        run: python china-toys/validate_refresh_contract.py preservation --baseline /tmp/china-toys-baseline.json
+      - name: Validate simplified directory browser flows
+        if: ${{ !cancelled() && steps.staged.outcome == 'success' }}
+        run: python china-toys/validate_refresh_contract.py site --site _site/china-toys --browser
       - name: Save directory changes
         run: |
           git config user.name 'China Toy Atlas updater'

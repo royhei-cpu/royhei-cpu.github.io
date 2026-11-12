@@ -115,6 +115,19 @@ class RefreshContractTests(unittest.TestCase):
         self.write_catalog()
         gate.preservation(baseline, self.toys)
 
+    def test_multiple_losses_are_reported_without_bypassing_failure(self):
+        baseline = gate.snapshot(self.toys)
+        self.data['products'][0]['history'] = []
+        self.data['products'][0]['listings'][0]['options'] = []
+        self.write_catalog()
+        with self.assertRaises(ValueError) as error:
+            gate.preservation(baseline, self.toys)
+        self.assertIn('historical events', str(error.exception))
+        self.assertIn('variant identity', str(error.exception))
+        report = json.loads(Path('/tmp/china-toys-directory-qa/preservation.json').read_text())
+        self.assertFalse(report['passed'])
+        self.assertGreaterEqual(len(report['issues']), 2)
+
     def test_unchanged_research_passes(self):
         gate.preservation(gate.snapshot(self.toys), self.toys)
 

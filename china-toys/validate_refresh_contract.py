@@ -67,26 +67,35 @@ def snapshot(root):
 
 def preservation(baseline, root):
     current = read(root/'catalog.json')
-    require(any(s.get('status') == 'complete' and s.get('checked') == current['updated']
-                for s in current.get('sources', [])), 'No source completed for this collection date')
+    issues = []
+    def record(ok, message):
+        if not ok:
+            issues.append(message)
+    record(any(s.get('status') == 'complete' and s.get('checked') == current['updated']
+               for s in current.get('sources', [])), 'No source completed for this collection date')
     before, after = records(baseline['catalog']), records(current)
-    require(before.keys() <= after.keys(), 'Canonical records/retained leads disappeared')
-    for uid, old in before.items():
-        new = after[uid]
-        require(not (signatures(old.get('history', [])) - signatures(new.get('history', []))),
-                f'{uid}: historical events removed; archive/reconcile before saving')
-        require(option_keys(old) <= option_keys(new), f'{uid}: retailer/variant identity removed')
-        for source, variant, currency, price in priced_offers(old) - priced_offers(new):
-            require(any(h.get('type') == 'price' and h.get('source') == source
-                        and h.get('variant') == variant and h.get('currency') == currency
-                        and (h.get('from') == price or h.get('to') == price)
-                        for h in new.get('history', []) if isinstance(h, dict)),
-                    f'{uid}: previous exact-variant price lost; reconcile/archive before saving')
-        require(urls(old) <= urls(new), f'{uid}: recorded source or photograph URL removed')
-    for name, digest in baseline['media'].items():
+    for uid in sorted(before.keys() - after.keys()):
+        record(False, f'{uid}: Canonical records/retained leads disappeared')
+    for uid in sorted(before.keys() & after.keys()):
+        old, new = before[uid], after[uid]
+        record(not (signatures(old.get('history', [])) - signatures(new.get('history', []))),
+               f'{uid}: historical events removed; archive/reconcile before saving')
+        record(option_keys(old) <= option_keys(new), f'{uid}: retailer/variant identity removed')
+        for source, variant, currency, price in sorted(priced_offers(old) - priced_offers(new), key=repr):
+            record(any(h.get('type') == 'price' and h.get('source') == source
+                       and h.get('variant') == variant and h.get('currency') == currency
+                       and (h.get('from') == price or h.get('to') == price)
+                       for h in new.get('history', []) if isinstance(h, dict)),
+                   f'{uid}: previous exact-variant price lost: {currency} {price}, {variant}; reconcile/archive before saving')
+        record(urls(old) <= urls(new), f'{uid}: recorded source or photograph URL removed')
+    for name, digest in sorted(baseline['media'].items()):
         p = root/name
-        require(p.is_file() and hashlib.sha256(p.read_bytes()).hexdigest() == digest,
-                'Existing media removed or overwritten: ' + name)
+        record(p.is_file() and hashlib.sha256(p.read_bytes()).hexdigest() == digest,
+               'Existing media removed or overwritten: ' + name)
+    out = Path('/tmp/china-toys-directory-qa'); out.mkdir(exist_ok=True)
+    (out/'preservation.json').write_text(json.dumps({'passed': not issues, 'issues': issues,
+        'baseline_records_and_leads': len(before), 'refreshed_records_and_leads': len(after)}, indent=2))
+    require(not issues, '\n'.join(issues))
     return current
 
 
@@ -179,17 +188,23 @@ def browser_check(site):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('mode', choices=['snapshot', 'check'])
-    parser.add_argument('--baseline', type=Path, required=True)
+    parser.add_argument('mode', choices=['snapshot', 'preservation', 'site', 'check'])
+    parser.add_argument('--baseline', type=Path)
     parser.add_argument('--site', type=Path)
     parser.add_argument('--browser', action='store_true')
     args = parser.parse_args()
+    if args.mode in ('snapshot', 'preservation', 'check'):
+        require(args.baseline is not None, '--baseline is required')
     if args.mode == 'snapshot':
         args.baseline.write_text(json.dumps(snapshot(ROOT), ensure_ascii=False))
+    elif args.mode == 'preservation':
+        preservation(read(args.baseline), ROOT)
+        print('Research preservation passed')
     else:
         require(args.site is not None, '--site is required')
-        preservation(read(args.baseline), ROOT)
+        if args.mode == 'check':
+            preservation(read(args.baseline), ROOT)
         d = validate_site(args.site, ROOT)
         if args.browser:
             browser_check(args.site)
-        print(json.dumps({'validated_directory_records': len(d['items']), 'scope': 'Preservation and directory contract; source coverage remains partial'}))
+        print(json.dumps({'validated_directory_records': len(d['items']), 'scope': 'Directory contract; source coverage remains partial'}))
