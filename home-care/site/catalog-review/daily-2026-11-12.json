@@ -36,7 +36,9 @@
     "catalogAdditionStatus": "New to this catalog; not a verified product launch",
     "size": "121 fl oz × 3 jugs",
     "categoryMappingStatus": "Assigned by product purpose",
-    "description": "Retailer wording retained for identification; performance claims have not been independently verified."
+    "description": "Retailer wording retained for identification; performance claims have not been independently verified.",
+    "type": "Branded reference",
+    "merchantScopeBasis": "Cleaning product assigned to Home Care by product purpose; market reference, not an approved own-brand proposal"
   },
   {
     "id": "HC-0668a8a9ba4c",
@@ -75,7 +77,9 @@
     "catalogAdditionStatus": "New to this catalog; not a verified product launch",
     "size": "3 lbs",
     "categoryMappingStatus": "Assigned by product purpose",
-    "description": "Retailer wording retained for identification; performance claims have not been independently verified."
+    "description": "Retailer wording retained for identification; performance claims have not been independently verified.",
+    "type": "Branded reference",
+    "merchantScopeBasis": "Cleaning product assigned to Home Care by product purpose; market reference, not an approved own-brand proposal"
   },
   {
     "id": "HC-4600f60f9177",
@@ -114,6 +118,9 @@
     "catalogAdditionStatus": "New to this catalog; not a verified product launch",
     "size": "6 sheets (2 each blue, yellow, orange)",
     "categoryMappingStatus": "Assigned by product purpose",
-    "description": "Retailer wording retained for identification; performance claims have not been independently verified."
+    "description": "Retailer wording retained for identification; performance claims have not been independently verified.",
+    "type": "Branded reference",
+    "merchantScopeBasis": "Cleaning product assigned to Home Care by product purpose; market reference, not an approved own-brand proposal"
   }
 ]
+
