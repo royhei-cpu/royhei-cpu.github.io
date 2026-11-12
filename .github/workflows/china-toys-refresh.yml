@@ -87,6 +87,7 @@ jobs:
           python china-toys/weekly_brief_test.py
           python china-toys/china_intelligence_test.py
           python china-toys/navigation_test.py
+          python china-toys/test_ip_directory.py
           python china-toys/compare_test.py
           python china-toys/clarity_test.py
           python china-toys/chain_coverage_test.py
