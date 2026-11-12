@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-11",
+  "catalog_date": "2026-11-12",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "brand": "52TOYS",
-      "records": 127,
+      "records": 129,
       "status": "Partial assortment"
     },
     {
@@ -1056,7 +1056,7 @@
     {
       "id": "lulu",
       "name": "LuLu the Piggy",
-      "records": 99,
+      "records": 100,
       "product_ids": [
         "c8e3b1c5c0c907d7",
         "ccd30b3897e21a97",
@@ -1068,6 +1068,7 @@
         "d0915f623441e4ea",
         "e43c8648ee5e5354",
         "98db6064f68990f9",
+        "3f181fff6e811572",
         "f7107c73f9051936",
         "d7d4cb13b61874a4",
         "0fa7ab530514b8ec",
@@ -1627,7 +1628,6 @@
         "292c63cafc5ea0e2",
         "85442db7595632ce",
         "ca719166d65f1156",
-        "a5fb96ebc198f36f",
         "f553db3d55fb076b",
         "e07194de1645c71f",
         "a520d4c8ed635f2d",
@@ -1640,6 +1640,7 @@
         "9fb2f8d80f45898d",
         "af718971cd4d6746",
         "49f7699d04017f8e",
+        "a5fb96ebc198f36f",
         "miniso-cn-shinchan-surprise-bear"
       ],
       "status": "Partial assortment"
@@ -1906,9 +1907,10 @@
     {
       "id": "oyo",
       "name": "OYO",
-      "records": 9,
+      "records": 10,
       "product_ids": [
         "2faf05700c66a6e7",
+        "3f751e9e91dfa2e5",
         "8fefbd33aa27c04e",
         "9eff641abb3f4b0b",
         "8afdfbd164b35367",
@@ -2130,11 +2132,11 @@
     },
     {
       "character": "MR.PA",
-      "records": 16,
+      "records": 17,
       "sample_sources": [
+        "https://www.kikagoods.com/products/mr-pa-friends-workplace-besties-series-blind-box",
         "https://www.kikagoods.com/products/mr-pa-no-work-today-series-blind-box",
-        "https://toybeta.com/products/small-pa-waiting-for-the-tile-overflowing-peach-luck-series-beans-blind-bag",
-        "https://toybeta.com/products/mr-pa-warm-hug-series-plush-blind-box"
+        "https://toybeta.com/products/small-pa-waiting-for-the-tile-overflowing-peach-luck-series-beans-blind-bag"
       ]
     },
     {
