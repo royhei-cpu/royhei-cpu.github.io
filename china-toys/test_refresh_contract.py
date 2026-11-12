@@ -93,6 +93,52 @@ class RefreshContractTests(unittest.TestCase):
         self.assertFalse((site/'ip-directory.js').exists())
         self.assertIn('directory-guide.mp4', (site/'index.html').read_text())
 
+    def test_cached_primary_photo_keeps_its_exact_source_mapping(self):
+        p = self.data['products'][0]
+        p['image_source'] = 'https://example.test/primary.png'
+        p['listings'][0]['options'].append({'name':'Single','price':12,'currency':'CNY','image':p['image_source']})
+        self.write_catalog()
+        gate.validate_site(self.stage(), self.toys)
+
+    def test_series_thumbnail_can_retain_exact_variant_photo_in_gallery(self):
+        p = self.data['products'][0]
+        p['image_source'] = 'https://example.test/series.png'
+        p['gallery'] = ['https://example.test/primary.png']
+        p['listings'][0]['options'].append({'name':'Single','price':12,'currency':'CNY','image':p['gallery'][0]})
+        self.write_catalog()
+        gate.validate_site(self.stage(), self.toys)
+
+    def test_exact_variant_photo_beyond_twelfth_gallery_image_is_retained(self):
+        p = self.data['products'][0]
+        p['gallery'] = [f'https://example.test/gallery-{i}.png' for i in range(15)]
+        p['listings'][0]['options'].append({'name':'Single','price':12,'currency':'CNY','image':p['gallery'][14]})
+        self.write_catalog()
+        site = self.stage()
+        d = gate.validate_site(site, self.toys)
+        row = next(r for r in d['items'] if r['id'] == p['id'])
+        self.assertEqual([x['url'] for x in row['gallery'][:len(p['gallery'])]], p['gallery'])
+        self.assertIn('images/b.png', [x['url'] for x in row['gallery']])
+
+    def test_primary_option_photo_absent_from_series_gallery_is_retained(self):
+        p = self.data['products'][0]
+        p['image_source'] = 'https://example.test/series.png'
+        p['listings'][0]['options'].append({'name':'Single','price':12,'currency':'CNY','image':'https://example.test/option.png'})
+        self.write_catalog()
+        gate.validate_site(self.stage(), self.toys)
+
+    def test_wrong_primary_photo_source_still_fails(self):
+        p = self.data['products'][0]
+        p['image_source'] = 'https://example.test/wrong.png'
+        p['listings'][0]['options'].append({'name':'Single','price':12,'currency':'CNY','image':'https://example.test/primary.png'})
+        self.write_catalog()
+        site = self.stage()
+        d = gate.unpack(site); d.pop('packed')
+        for row in d['items']:
+            row['gallery'] = []
+        (site/'directory-data.js').write_text('window.DIRECTORY='+json.dumps(d)+';\n')
+        with self.assertRaisesRegex(ValueError, 'Variant photo lost'):
+            gate.validate_site(site, self.toys)
+
     def test_stale_character_index_fails(self):
         site = self.stage(); p = self.toys/'ip-coverage.json'; d = json.loads(p.read_text()); d['catalog_date'] = '2020-01-01'; p.write_text(json.dumps(d))
         with self.assertRaisesRegex(ValueError, 'Stale IP'):

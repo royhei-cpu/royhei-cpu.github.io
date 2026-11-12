@@ -135,7 +135,7 @@ def validate_site(site, root):
                             and v.get('amount') == o.get('price')]
                 require(matching, 'Exact offer missing or changed: ' + p['id'])
                 if o.get('image'):
-                    require(any(v.get('image') == o['image'] for v in matching), 'Variant photo lost: ' + p['id'])
+                    require(any(v.get('image') == o['image'] or (v.get('image') == p.get('image') and v.get('imageSource') == o['image']) or any(photo.get('url') == o['image'] for photo in v.get('gallery', [])) for v in matching), 'Variant photo lost: ' + p['id'])
     html = (site/'index.html').read_text()
     for name in ('directory-data.js', 'directory.js', 'guide-chapters.js'):
         require('src="' + name in html and (site/name).is_file(), 'Missing public script: ' + name)
