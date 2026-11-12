@@ -1,0 +1,210 @@
+{
+  "reviewedAt": "2026-11-12",
+  "status": "targeted review completed; comprehensive review incomplete",
+  "baselineRecords": 10250,
+  "publishedRecords": 10253,
+  "verifiedAdditions": 3,
+  "additionsByRetailer": {
+    "Ace Hardware": 0,
+    "Albertsons": 0,
+    "Amazon US": 0,
+    "BJ’s Wholesale": 0,
+    "CVS": 0,
+    "Costco": 2,
+    "Dollar General": 0,
+    "Dollar Tree": 0,
+    "H-E-B": 0,
+    "Home Depot": 0,
+    "Kroger": 0,
+    "Lowe’s": 0,
+    "Meijer": 0,
+    "Publix": 0,
+    "Safeway": 0,
+    "Sam’s Club": 0,
+    "TikTok Shop": 1,
+    "Walgreens": 0,
+    "Walmart": 0
+  },
+  "newLaunches": 0,
+  "newVerifiedNews": 0,
+  "sourceAccessProbes": [
+    {
+      "retailer": "Walmart",
+      "id": "CMP-001",
+      "url": "https://www.walmart.com/ip/11468515821",
+      "httpStatus": "200",
+      "bytes": 1091961,
+      "result": "challenge"
+    },
+    {
+      "retailer": "Costco",
+      "id": "CMP-008",
+      "url": "https://www.costco.com/household-cleaning.html",
+      "httpStatus": "200",
+      "bytes": 2547636,
+      "result": "challenge"
+    },
+    {
+      "retailer": "CVS",
+      "id": "CMP-016",
+      "url": "https://www.cvs.com/shop/dawn-platinum-plus-powerwash-dish-spray-fresh-clean-16-oz-prodid-387401",
+      "httpStatus": "000",
+      "bytes": 0,
+      "result": "blocked-or-unavailable"
+    },
+    {
+      "retailer": "Walgreens",
+      "id": "CMP-022",
+      "url": "https://www.walgreens.com/search/tier3/productlist/N%3D20007728-93-86",
+      "httpStatus": "404",
+      "bytes": 79,
+      "result": "blocked-or-unavailable"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "id": "CMP-025",
+      "url": "https://www.samsclub.com/ip/members-mark-platinum-performance-liquid-dish-soap-fresh-clean-100-fl-oz/13892164761",
+      "httpStatus": "200",
+      "bytes": 1097622,
+      "result": "challenge"
+    },
+    {
+      "retailer": "Lowe’s",
+      "id": "CMP-028",
+      "url": "https://www.lowes.com/pl/cleaning-tools/mops/spray-mops/o-cedar/microfiber/3998445995-553466270-4294721465",
+      "httpStatus": "200",
+      "bytes": 347019,
+      "result": "retrieved-unvalidated"
+    },
+    {
+      "retailer": "Home Depot",
+      "id": "CMP-031",
+      "url": "https://www.homedepot.com/p/100670178",
+      "httpStatus": "200",
+      "bytes": 1160321,
+      "result": "challenge"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "id": "CMP-035",
+      "url": "https://www.acehardware.com/departments/home-and-decor/cleaning-and-disinfectants/tile-cleaners-near-me",
+      "httpStatus": "200",
+      "bytes": 1060435,
+      "result": "challenge"
+    },
+    {
+      "retailer": "Kroger",
+      "id": "CMP-040",
+      "url": "https://www.kroger.com/pl/cleaning-household/18011",
+      "httpStatus": "200",
+      "bytes": 1102917,
+      "result": "retrieved-unvalidated"
+    },
+    {
+      "retailer": "H-E-B",
+      "id": "CMP-044",
+      "url": "https://www.heb.com/product-detail/field-future-by-h-e-b-dishwashing-liquid-fragrance-free/5010074",
+      "httpStatus": "200",
+      "bytes": 205,
+      "result": "retrieved-unvalidated"
+    },
+    {
+      "retailer": "Dollar General",
+      "id": "CMP-047",
+      "url": "https://www.dollargeneral.com/p/fabuloso-2x-multi-purpose-cleaner-with-baking-soda-citrus-and-fruits-scent-56-fl-oz/35000530615",
+      "httpStatus": "200",
+      "bytes": 218099,
+      "result": "retrieved-unvalidated"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "id": "CMP-051",
+      "url": "https://sameday.dollartree.com/store/dollar-tree/products/17950911-la-s-totally-awesome-all-purpose-concentrated-cleaner-32-fl-oz",
+      "httpStatus": "403",
+      "bytes": 112,
+      "result": "blocked-or-unavailable"
+    },
+    {
+      "retailer": "Amazon US",
+      "id": "CMP-054",
+      "url": "https://www.amazon.com/Household-Supplies-Scrub-Daddy-Health/s?rh=n%3A15342811%2Cp_89%3AScrub%2BDaddy",
+      "httpStatus": "503",
+      "bytes": 2671,
+      "result": "blocked-or-unavailable"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "id": "CMP-061",
+      "url": "https://shop.tiktok.com/us/store/scrub-daddy/7494956340169509603",
+      "httpStatus": "200",
+      "bytes": 660853,
+      "result": "retrieved-unvalidated"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "id": "US-011",
+      "url": "https://www.bjs.com/product/arm--hammer-plus-oxiclean-odor-blasters-liquid-laundry-detergent---fresh-burst-200-fl-oz/3000000000005873299",
+      "httpStatus": "200",
+      "bytes": 1994390,
+      "result": "retrieved-unvalidated"
+    },
+    {
+      "retailer": "Meijer",
+      "id": "US-012",
+      "url": "https://www.meijer.com/shopping/product/snuggle-lq-fab-sof-blue-sparkle-74-8oz/7261347456?bvstate=pg%3A12%2Fct%3Ar",
+      "httpStatus": "200",
+      "bytes": 389717,
+      "result": "retrieved-unvalidated"
+    },
+    {
+      "retailer": "Publix",
+      "id": "US-029",
+      "url": "https://delivery.publix.com/store/publix/products/39743-clorox-disinfecting-wipes-150-ct",
+      "httpStatus": "403",
+      "bytes": 112,
+      "result": "blocked-or-unavailable"
+    },
+    {
+      "retailer": "Safeway",
+      "id": "US-030",
+      "url": "https://www.safeway.com/shop/pd/bounty-regular-paper-towel-48-ct-rl/970461182",
+      "httpStatus": "200",
+      "bytes": 834453,
+      "result": "retrieved-unvalidated"
+    },
+    {
+      "retailer": "Albertsons",
+      "id": "US-031",
+      "url": "https://www.albertsons.com/shop/pd/reynolds-wrap-aluminum-foil-200-sq-ft-each/130050222",
+      "httpStatus": "200",
+      "bytes": 839991,
+      "result": "retrieved-unvalidated"
+    }
+  ],
+  "probeLimit": "One retained link per retailer; HTTP success and keyword screening do not establish verified item content. No pagination exhausted.",
+  "productSources": [
+    "https://www.costcobusinessdelivery.com/p/-/cloralen-disinfectant-bleach,-concentrated,-121-fl-oz,-3-ct/4201102008",
+    "https://www.costcobusinessdelivery.com/p/-/CAF-EXIMO-Waterless-Concrete-Cleaner,-3-lbs/4201097378",
+    "https://shop.tiktok.com/us/pdp/eraser-sheets-by-scrub-10x-durable-cleaning-pack-of-6/1729411778278363875"
+  ],
+  "remainingGaps": [
+    "Amazon exact ASIN returned 503; no Amazon addition.",
+    "TikTok exact listing/seller/pack/photo established; price, stock and dated sales not verified.",
+    "Walmart category and exact-page prices conflicted; no update applied.",
+    "Full 285-cell deep audit not completed.",
+    "All seven opportunity priorities retained; targeted evidence follow-up only, not a new full seven-area source review."
+  ],
+  "additionalSourceReview": {
+    "retailer": "Quince",
+    "scope": "Home Organization / adjacent; not added to competitor ITEMS",
+    "categoryURL": "https://www.quince.com/shop/home/all-decor/storage-organization",
+    "newsURL": "https://www.prnewswire.com/news/quince/",
+    "checkedDate": "2026-11-12",
+    "status": "Category accessible; 13 displayed listings in retrieved snapshot. Exact-item and pagination validation incomplete. Restock snapshots conflicted; no current restock or launch claim accepted.",
+    "verifiedAdditions": 0
+  },
+  "validation": {
+    "selectedOnlyCSV": "Three selected rows: two Amazon US and one Costco; absolute image/product/source URLs checked; separate listing/catalog/sales dates retained.",
+    "browser": "Selection across pages and retailers survived reload; compare, Clear selection and Reset verified."
+  }
+}

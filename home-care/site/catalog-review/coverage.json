@@ -2,13 +2,13 @@
   "reviewedAt": "2026-11-10",
   "sourceCheckedAt": "2026-11-10",
   "baseline": 6331,
-  "added": 3918,
-  "total": 10249,
+  "added": 3922,
+  "total": 10253,
   "scope": "Collected public listings; no full retailer inventory claim",
   "retailers": [
     {
       "retailer": "Ace Hardware",
-      "collected": 3997,
+      "collected": 3999,
       "added": 422,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "Two public category snapshots enumerated: 1,043 mixed tableware results and 199 insect-bait results. 134 candidate photo requests returned HTTP 403; no candidates with inaccessible photos were added. These source snapshots are not full Home Care inventory coverage.",
@@ -150,7 +150,7 @@
         },
         {
           "category": "Disposable Tabletop",
-          "collected": 0,
+          "collected": 1,
           "added": 0,
           "status": "category snapshot enumerated; item photos blocked",
           "checkedDate": "2026-11-02",
@@ -198,7 +198,7 @@
         },
         {
           "category": "Pest Control",
-          "collected": 0,
+          "collected": 1,
           "added": 0,
           "status": "category snapshot enumerated; item photos blocked",
           "checkedDate": "2026-11-02",
@@ -241,7 +241,7 @@
     },
     {
       "retailer": "Albertsons",
-      "collected": 77,
+      "collected": 92,
       "added": 53,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "2 November targeted gap review: 8 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
@@ -303,7 +303,7 @@
       "categories": [
         {
           "category": "Air Care",
-          "collected": 1,
+          "collected": 16,
           "added": 1,
           "status": "not rechecked this pass",
           "checkedDate": null,
@@ -1287,7 +1287,7 @@
     },
     {
       "retailer": "Costco",
-      "collected": 140,
+      "collected": 142,
       "added": 10,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "10 November daily follow-up added 3 exact product-page records; all three retrieved pages reported out of stock in the web context. Warehouse stock, full category pagination, seller offers and complete checkout pricing remain unverified.",
@@ -1324,7 +1324,7 @@
         },
         {
           "category": "Dishwashing",
-          "collected": 8,
+          "collected": 9,
           "added": 0,
           "status": "not rechecked this pass",
           "checkedDate": null,
@@ -1388,19 +1388,37 @@
         },
         {
           "category": "Specialty Cleaners",
-          "collected": 1,
+          "collected": 2,
           "added": 1,
           "status": "partial",
           "checkedDate": "2026-11-02",
-          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-12",
+            "itemLinksChecked": 1,
+            "verifiedAdditions": 1,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://www.costcobusinessdelivery.com/p/-/CAF-EXIMO-Waterless-Concrete-Cleaner,-3-lbs/4201097378"
+            ]
+          }
         },
         {
           "category": "Surface Cleaners",
-          "collected": 14,
+          "collected": 18,
           "added": 0,
           "status": "not rechecked this pass",
           "checkedDate": null,
-          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-12",
+            "itemLinksChecked": 1,
+            "verifiedAdditions": 1,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://www.costcobusinessdelivery.com/p/-/cloralen-disinfectant-bleach,-concentrated,-121-fl-oz,-3-ct/4201102008"
+            ]
+          }
         },
         {
           "category": "Toilet Paper & Tissues",
@@ -1412,14 +1430,16 @@
         },
         {
           "category": "Trash Bags",
-          "collected": 1,
+          "collected": 3,
           "added": 1,
           "status": "partial",
           "checkedDate": "2026-11-02",
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
       ],
-      "sourceCheckedAt": "2026-11-02"
+      "sourceCheckedAt": "2026-11-02",
+      "dailyFollowupDate": "2026-11-12",
+      "dailyFollowup": "12 November targeted follow-up: 142 retained records. Two Costco Business Center exact pages and matching pack photos added; location-specific prices and availability remain unknown. Full category pagination and inventory coverage remain incomplete."
     },
     {
       "retailer": "Dollar General",
@@ -1558,7 +1578,7 @@
     },
     {
       "retailer": "Dollar Tree",
-      "collected": 22,
+      "collected": 23,
       "added": 14,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "2 November targeted gap review: 7 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete. Naturals category still has no collected records; this is a research gap, not absence of products.",
@@ -1645,7 +1665,7 @@
         },
         {
           "category": "Naturals",
-          "collected": 0,
+          "collected": 1,
           "added": 0,
           "status": "discovery checked; no verified addition",
           "checkedDate": "2026-11-02",
@@ -1704,7 +1724,7 @@
     },
     {
       "retailer": "H-E-B",
-      "collected": 34,
+      "collected": 40,
       "added": 20,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "Targeted gap discovery attempted. Candidate pages returned a security/interstitial resource rather than product evidence; no additions promoted. Floor/carpet, pest and specialty-cleaner gaps remain. Existing records preserved; store-specific coverage incomplete.",
@@ -1749,7 +1769,7 @@
         },
         {
           "category": "Cleaning Tools",
-          "collected": 10,
+          "collected": 13,
           "added": 9,
           "status": "not rechecked this pass",
           "checkedDate": null,
@@ -1773,7 +1793,7 @@
         },
         {
           "category": "Floor & Carpet Care",
-          "collected": 0,
+          "collected": 1,
           "added": 0,
           "status": "blocked / location-dependent",
           "checkedDate": "2026-11-02",
@@ -1813,7 +1833,7 @@
         },
         {
           "category": "Pest Control",
-          "collected": 0,
+          "collected": 1,
           "added": 0,
           "status": "blocked / location-dependent",
           "checkedDate": "2026-11-02",
@@ -1821,7 +1841,7 @@
         },
         {
           "category": "Specialty Cleaners",
-          "collected": 0,
+          "collected": 1,
           "added": 0,
           "status": "blocked / location-dependent",
           "checkedDate": "2026-11-02",
@@ -2372,7 +2392,7 @@
     },
     {
       "retailer": "Meijer",
-      "collected": 1409,
+      "collected": 1410,
       "added": 1392,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "Pest-control candidate links returned generic Meijer landing pages, so no new item evidence was accepted. Existing records preserved; category Load More and the held-out photo candidates remain pending.",
@@ -2515,7 +2535,7 @@
         },
         {
           "category": "Pest Control",
-          "collected": 0,
+          "collected": 1,
           "added": 0,
           "status": "item evidence unavailable; generic landing pages",
           "checkedDate": "2026-11-02",
@@ -2783,7 +2803,7 @@
     },
     {
       "retailer": "Safeway",
-      "collected": 54,
+      "collected": 55,
       "added": 42,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "2 November targeted gap review: 11 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete.",
@@ -2834,7 +2854,7 @@
       "categories": [
         {
           "category": "Air Care",
-          "collected": 0,
+          "collected": 1,
           "added": 0,
           "status": "discovery checked; no verified addition",
           "checkedDate": "2026-11-02",
@@ -3096,7 +3116,7 @@
     },
     {
       "retailer": "TikTok Shop",
-      "collected": 942,
+      "collected": 943,
       "added": 831,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "10 November daily follow-up added 2 exact public product pages with matched photos and named seller evidence and upgraded 1 existing exact item. Seller names distinguish the official Pink Stuff and Phueut shops from resellers. Listing dates and complete marketplace pagination remain unverified; earlier limited-evidence references keep their status.",
@@ -3204,11 +3224,20 @@
         },
         {
           "category": "Cleaning Tools",
-          "collected": 90,
+          "collected": 91,
           "added": 70,
           "status": "partial",
           "checkedDate": "2026-11-02",
-          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-12",
+            "itemLinksChecked": 1,
+            "verifiedAdditions": 1,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://shop.tiktok.com/us/pdp/eraser-sheets-by-scrub-10x-durable-cleaning-pack-of-6/1729411778278363875"
+            ]
+          }
         },
         {
           "category": "Dishwashing",
@@ -3228,7 +3257,7 @@
         },
         {
           "category": "Floor & Carpet Care",
-          "collected": 7,
+          "collected": 9,
           "added": 3,
           "status": "not rechecked this pass",
           "checkedDate": null,
@@ -3244,7 +3273,7 @@
         },
         {
           "category": "Laundry Care",
-          "collected": 119,
+          "collected": 126,
           "added": 107,
           "status": "not rechecked this pass",
           "checkedDate": null,
@@ -3307,11 +3336,13 @@
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
         }
       ],
-      "sourceCheckedAt": "2026-11-02"
+      "sourceCheckedAt": "2026-11-02",
+      "dailyFollowupDate": "2026-11-12",
+      "dailyFollowup": "12 November targeted follow-up: 943 retained records. One exact Scrub Daddy seller listing for Eraser Daddy sheets 6ct added with matching photo. Price, dated sales and stock remain unknown. Full category pagination and inventory coverage remain incomplete."
     },
     {
       "retailer": "Walgreens",
-      "collected": 156,
+      "collected": 162,
       "added": 99,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "2 November targeted gap review: 12 new product-page records. Relevant discovery/category and item pages checked; full category pagination, seller offers, stock and checkout prices remain incomplete. Naturals category still has no collected records; this is a research gap, not absence of products.",
@@ -3372,7 +3403,7 @@
       "categories": [
         {
           "category": "Air Care",
-          "collected": 2,
+          "collected": 8,
           "added": 1,
           "status": "not rechecked this pass",
           "checkedDate": null,
@@ -3495,7 +3526,7 @@
     },
     {
       "retailer": "Walmart",
-      "collected": 807,
+      "collected": 808,
       "added": 165,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "10 November daily follow-up added 2 exact marketplace product-page records and identified both sellers. Full category pagination, location-dependent stock and complete checkout pricing remain incomplete.",
@@ -3567,7 +3598,7 @@
         },
         {
           "category": "Cleaning Tools",
-          "collected": 150,
+          "collected": 151,
           "added": 37,
           "status": "partial",
           "checkedDate": "2026-11-02",
@@ -3575,7 +3606,7 @@
         },
         {
           "category": "Dishwashing",
-          "collected": 68,
+          "collected": 100,
           "added": 2,
           "status": "partial",
           "checkedDate": "2026-11-02",
@@ -3639,7 +3670,7 @@
         },
         {
           "category": "Specialty Cleaners",
-          "collected": 45,
+          "collected": 46,
           "added": 0,
           "status": "not rechecked this pass",
           "checkedDate": null,
@@ -3647,7 +3678,7 @@
         },
         {
           "category": "Surface Cleaners",
-          "collected": 141,
+          "collected": 144,
           "added": 3,
           "status": "partial",
           "checkedDate": "2026-11-02",
@@ -3663,7 +3694,7 @@
         },
         {
           "category": "Trash Bags",
-          "collected": 2,
+          "collected": 42,
           "added": 0,
           "status": "not rechecked this pass",
           "checkedDate": null,
@@ -3740,18 +3771,15 @@
     "scope": "Targeted gap review; not a completed comprehensive inventory refresh"
   },
   "latestDailyAudit": {
-    "date": "2026-11-10",
-    "added": 7,
+    "date": "2026-11-12",
+    "added": 3,
     "byRetailer": {
-      "Walmart": 2,
-      "Costco": 3,
-      "TikTok Shop": 2
+      "Costco": 2,
+      "TikTok Shop": 1
     },
-    "retailersChecked": 4,
-    "itemLinksChecked": 10,
-    "audit": "daily-source-check-2026-11-10.json",
-    "amazonResult": "No verified addition; exact ASIN and complete search/category access remained incomplete in this run.",
-    "tiktokResult": "Two exact listings added and one existing exact item upgraded; one duplicate Phueut variant excluded.",
-    "scope": "Daily priority-channel follow-up for Amazon, Walmart, Costco and TikTok Shop plus an official brand announcement check. The 19-retailer × 15-category matrix and category pagination were not comprehensively rerun; full inventory coverage remains unverified."
-  }
+    "audit": "daily-source-check-2026-11-12.json",
+    "scope": "Targeted exact-product recovery; 19 retained-link access probes are not complete retailer/category reviews."
+  },
+  "dailyFollowupDate": "2026-11-12",
+  "countBasis": "Collected primary-category record counts reconciled to the current merged dataset on 12 November 2026; source-review dates below remain historical unless explicitly updated."
 }
