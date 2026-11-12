@@ -19,6 +19,12 @@ on:
       - '.github/scripts/test_push_generated.py'
       - '.github/scripts/test_writer_workflows.py'
       - 'china-toys/enrichment.json'
+      - 'china-toys/build_ip_directory.py'
+      - 'china-toys/test_refresh_contract.py'
+      - 'china-toys/validate_refresh_contract.py'
+      - '.github/scripts/pages/build-directories.py'
+      - '.github/scripts/pages/directory/**'
+      - '.github/scripts/pages/directory.test.cjs'
   schedule:
     - cron: '30 1 * * *' # Daily 09:30 Asia/Shanghai (UTC+8)
 permissions:
@@ -50,12 +56,15 @@ jobs:
           node --check china-toys/compare.js
       - name: Test generated-data maintenance
         run: |
+          python china-toys/test_refresh_contract.py
           python china-toys/test_chain_report_consistency.py
           python .github/scripts/test_push_generated.py
           python .github/scripts/test_writer_workflows.py
           bash -n .github/scripts/push-generated.sh
       - name: Check market price grouping
         run: python china-toys/market_prices_test.py
+      - name: Snapshot preservation baseline
+        run: python china-toys/validate_refresh_contract.py snapshot --baseline /tmp/china-toys-baseline.json
       - name: Collect products and preserve exact-item evidence
         run: |
           python china-toys/apply_source_audit.py --config
@@ -81,7 +90,7 @@ jobs:
           node --check china-toys/app.js
           node --check china-toys/catalog-guide.js
           node --check china-toys/compare.js
-      - name: Validate updated desktop and mobile views
+      - name: Validate retained source-page compatibility
         run: |
           python china-toys/review_acceptance.py
           python china-toys/weekly_brief_test.py
@@ -92,6 +101,21 @@ jobs:
           python china-toys/clarity_test.py
           python china-toys/chain_coverage_test.py
           python china-toys/brand_directory_test.py
+      - name: Validate the simplified public directories before saving
+        run: |
+          mkdir -p _site
+          cp -R home-care/site _site/home-care
+          cp -R china-toys _site/china-toys
+          node china-toys/apply-product-scope.mjs _site/china-toys
+          python china-toys/build_source_audit_report.py
+          python china-toys/apply_source_audit.py --site _site/china-toys
+          python china-toys/market_prices_test.py
+          python luggage-atlas/validate.py
+          cp -R luggage-atlas _site/luggage-atlas
+          python .github/scripts/pages/build-directories.py
+          node --check .github/scripts/pages/directory/app.js
+          node --test .github/scripts/pages/directory.test.cjs
+          python china-toys/validate_refresh_contract.py check --baseline /tmp/china-toys-baseline.json --site _site/china-toys --browser
       - name: Save directory changes
         run: |
           git config user.name 'China Toy Atlas updater'
@@ -109,6 +133,10 @@ jobs:
         with:
           name: china-toys-audit
           path: |
+            /tmp/china-toys-baseline.json
+            /tmp/china-toys-directory-qa/
+            china-toys/catalog.json
+            china-toys/ip-coverage.json
             china-toys/report.json
             china-toys/review-report.json
             /tmp/china-toys-review-qa/results.json
@@ -124,3 +152,4 @@ jobs:
         run: gh workflow run publish.yml --ref main
 
 # Daily refresh cadence: 09:30 Asia/Shanghai; keep public URL unchanged.
+
