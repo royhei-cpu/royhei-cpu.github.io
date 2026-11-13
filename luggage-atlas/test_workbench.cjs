@@ -15,6 +15,6 @@ assert.equal(run('calculateCost({amount:36300},{fx:""}).converted'),null);
 run('offers().slice(0,5).forEach(p=>toggleOffer(p.id));saveDesk()');assert.equal(run('itemSelection.size'),4);
 run('itemSelection.clear();loadDesk()');assert.equal(run('itemSelection.size'),4);
 run("deskFilters.q='Quince';drawDeskOffers()");assert.equal(run('selectedOffers().length'),4);assert.equal(run('deskRows().length'),2);
-run("csv=(name,rows)=>window.csvTest=rows;exportDesk()");assert.equal(ctx.window.csvTest.length,5);assert(ctx.window.csvTest.every(x=>x.length===ctx.window.csvTest[0].length));assert(ctx.window.csvTest[0].includes('Exterior photo URL'));assert(ctx.window.csvTest[0].includes('Estimated landed USD / unit'));
+run("csv=(name,rows)=>window.csvTest=rows;exportDesk()");assert.equal(ctx.window.csvTest.length,5);assert(ctx.window.csvTest.every(x=>x.length===ctx.window.csvTest[0].length));assert(ctx.window.csvTest[0].includes('Exterior photo URL'));assert(!ctx.window.csvTest[0].includes('Estimated landed USD / unit'));
 assert(run('offerKey({...D.prices[0],date:"2027-01-01"})===offerKey(D.prices[0])'));
 console.log('PASS: costing arithmetic, missing/invalid inputs, FX isolation, four-item limit, persistence across filters, exact-offer identity and selected CSV.');
