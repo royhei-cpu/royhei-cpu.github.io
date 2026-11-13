@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-12",
+  "catalog_date": "2026-11-13",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -9,12 +9,12 @@
     },
     {
       "brand": "TOP TOY",
-      "records": 298,
+      "records": 299,
       "status": "Partial assortment"
     },
     {
       "brand": "52TOYS",
-      "records": 129,
+      "records": 131,
       "status": "Partial assortment"
     },
     {
@@ -194,7 +194,6 @@
       "name": "Nommi / 糯米儿",
       "records": 86,
       "product_ids": [
-        "bb4961c84498f50b",
         "af9b85a45ced5ebb",
         "c96ab02514afe555",
         "57983d21cc4b5071",
@@ -222,7 +221,6 @@
         "4c50ee1bcc91ab0c",
         "e892458a949c0702",
         "316c1f384a7d64e2",
-        "70eca319c4ffe2ab",
         "b548757a9f4a0fa8",
         "e0a5ca9e8425f72c",
         "55dd089aff6c8c51",
@@ -278,6 +276,8 @@
         "8db2bbf10c5c17e6",
         "ebe4377834f128cd",
         "c695dd2c7a4289f7",
+        "bb4961c84498f50b",
+        "70eca319c4ffe2ab",
         "81b21408898ad315",
         "9eb8d6c4fa1a2560"
       ],
@@ -479,7 +479,6 @@
       "name": "Nommi / 糯米儿",
       "records": 86,
       "product_ids": [
-        "bb4961c84498f50b",
         "af9b85a45ced5ebb",
         "c96ab02514afe555",
         "57983d21cc4b5071",
@@ -507,7 +506,6 @@
         "4c50ee1bcc91ab0c",
         "e892458a949c0702",
         "316c1f384a7d64e2",
-        "70eca319c4ffe2ab",
         "b548757a9f4a0fa8",
         "e0a5ca9e8425f72c",
         "55dd089aff6c8c51",
@@ -563,6 +561,8 @@
         "8db2bbf10c5c17e6",
         "ebe4377834f128cd",
         "c695dd2c7a4289f7",
+        "bb4961c84498f50b",
+        "70eca319c4ffe2ab",
         "81b21408898ad315",
         "9eb8d6c4fa1a2560"
       ],
@@ -1056,7 +1056,7 @@
     {
       "id": "lulu",
       "name": "LuLu the Piggy",
-      "records": 100,
+      "records": 101,
       "product_ids": [
         "c8e3b1c5c0c907d7",
         "ccd30b3897e21a97",
@@ -1091,6 +1091,7 @@
         "297fb8a726cc7245",
         "8fb4109116bedd7d",
         "bec1e5898981fc70",
+        "7e865395dff975ed",
         "77059d0dae117904",
         "0f260b44970399a4",
         "5287299aced517e6",
@@ -1114,6 +1115,7 @@
         "ba12dd8ecb11cadf",
         "f3d8c7460d860e49",
         "c16942e6d0acf2ca",
+        "d9e2150de979be89",
         "5de71143308d4df5",
         "f0c724978d1d9f85",
         "5408dd76b1344f5f",
@@ -1156,8 +1158,7 @@
         "48b675576d07b6de",
         "47d6d376b388accd",
         "33a6fa51fe3181f9",
-        "464635722a575510",
-        "7e865395dff975ed"
+        "464635722a575510"
       ],
       "status": "Partial assortment"
     },
@@ -1225,7 +1226,6 @@
         "92754530be5a3e94",
         "a297e03b838bdb58",
         "4cfc067f9822dd56",
-        "c7ef6b5396583082",
         "557a1de5307be0cf",
         "59cafcf2cd2ee8a3",
         "c13b99fc4f69382f",
@@ -1268,6 +1268,7 @@
         "14b1fa0c4bfe05ee",
         "d1bc76cda536a3d7",
         "9706d5ba199927ff",
+        "c7ef6b5396583082",
         "e3f2ea3a4ef79ac5"
       ],
       "status": "Partial assortment"
@@ -1374,7 +1375,6 @@
         "7a399229e5bbde2c",
         "23f4135be978f61b",
         "cdee195285da0e18",
-        "f38ace9ecbfa8a7b",
         "1cde13207018be3d",
         "c9803ce9e0b694cf",
         "c1f921b934ef3e8e",
@@ -1386,7 +1386,8 @@
         "576005be6127b3b5",
         "4f3f1bf2806aa047",
         "b815bf19d72a49a0",
-        "1c3f262b498954c5"
+        "1c3f262b498954c5",
+        "f38ace9ecbfa8a7b"
       ],
       "status": "Partial assortment"
     },
@@ -1406,7 +1407,7 @@
     {
       "id": "stitch",
       "name": "Stitch",
-      "records": 23,
+      "records": 24,
       "product_ids": [
         "72919f88bb542c39",
         "b5f4e8dba3d1eac5",
@@ -1422,6 +1423,7 @@
         "6d0156f3c4767b7a",
         "a09f64d8b77b8240",
         "9712c18ec582550b",
+        "a0a385b6a1b6077f",
         "1c116a26ad2bbf02",
         "44f4d6a36c9d0310",
         "65690823633019c5",
