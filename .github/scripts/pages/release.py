@@ -125,7 +125,7 @@ def manifest():
             found = [p for p in resolved if urlsplit(p).path == directory + "/" + name]
             check(len(found) == 1, f"Expected a single {name} script on {directory}/")
             paths.add(found[0])
-        paths.add(directory + "/directory.css?v=20261112-simple1")
+        paths.add(directory + "/directory.css?v=20261113-refresh1")
         normalized = extract((SITE / directory / "directory-data.js").read_text(), "window.DIRECTORY=")
         if "packed" in normalized:
             packed = normalized["packed"]
