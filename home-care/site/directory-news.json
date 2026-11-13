@@ -1,5 +1,44 @@
 [
   {
+    "id": "catalog-update-2026-11-13",
+    "title": "Three exact cleaning-appliance listings added",
+    "type": "Catalog update",
+    "summary": "Two Costco Dreame listings (SH10 Plus steam mop and Air cordless stick vacuum) and one TikTok Shop 1500 W handheld steam cleaner were checked for exact model or variant, retailer/seller identity and matched primary photo. They are new to this directory, not verified product launches.",
+    "date": "2026-11-13",
+    "dateLabel": "New to this directory · checked 13 November 2026",
+    "checked": "2026-11-13",
+    "sources": [
+      {
+        "label": "Costco: Dreame SH10 Plus",
+        "url": "https://www.costco.com/p/-/dreame-sh10-plus-steam-mop-13-in-1-steam-cleaner-with-multi-surface-tools/4201058122"
+      },
+      {
+        "label": "Costco: Dreame Air",
+        "url": "https://www.costco.com/p/-/dreame-air-cordless-stick-vacuum-with-ultra-slim-and-lightweight-design/4201058058"
+      },
+      {
+        "label": "TikTok Shop: 1500 W handheld steam cleaner",
+        "url": "https://shop.tiktok.com/us/pdp/compact-handheld-steam-cleaner-16-accessories-3-levels/1732522401225085315"
+      }
+    ]
+  },
+  {
+    "id": "walmart-holiday-events-2026-11-12",
+    "title": "Walmart's first holiday deal event began 12 November",
+    "type": "Promotion",
+    "summary": "Walmart's official announcement schedules an early Black Friday event for 12–15 November, followed by 23–29 November and Cyber Monday 30 November–2 December. The announcement covers broad seasonal and everyday merchandise; it is a retailer promotion, not a product launch or an inventory claim.",
+    "date": "2026-11-12",
+    "eventDate": "2026-11-12",
+    "dateLabel": "Promotion start date · announcement published October 2026",
+    "checked": "2026-11-13",
+    "sources": [
+      {
+        "label": "Walmart corporate announcement",
+        "url": "https://corporate.walmart.com/news/2026/10/walmart-unwraps-three-major-holiday-shopping-events"
+      }
+    ]
+  },
+  {
     "id": "retained-signal-0",
     "title": "Three exact listings added through alternate public sources",
     "type": "Catalog update",

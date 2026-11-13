@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-12",
-  "sourceCheckedAt": "2026-11-12",
+  "reviewedAt": "2026-11-13",
+  "sourceCheckedAt": "2026-11-13",
   "files": [
     "part-001.json",
     "part-002.json",
@@ -45,9 +45,10 @@
     "daily-2026-11-09.json",
     "daily-2026-11-10.json",
     "daily-2026-11-11.json",
-    "daily-2026-11-12.json"
+    "daily-2026-11-12.json",
+    "daily-2026-11-13.json"
   ],
-  "added": 3922,
+  "added": 3925,
   "photoPacks": [
     "photos-001.json.gz",
     "photos-002.json.gz",
@@ -365,5 +366,5 @@
     "gap-review-20261102-53.json.gz",
     "gap-review-20261102-54.json.gz"
   ],
-  "reviewScope": "Targeted recovery: two Costco Business Center and one TikTok Shop exact listing with matched photos. All 19 retailers received a one-link access probe only. Full category pagination and item revalidation remain incomplete."
+  "reviewScope": "Targeted daily review: two Costco and one TikTok Shop exact cleaning-appliance listings with matched photos. All 19 tracked retailers received a one-link access probe; Amazon and several other sources remained blocked or challenge-gated. Quince Storage & Organization was checked as adjacent scope. Full category pagination and item revalidation remain incomplete."
 }
