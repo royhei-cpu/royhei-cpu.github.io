@@ -19,3 +19,9 @@ test('Each site retains its own original interface and excludes development tool
 test('News entries retain source links',()=>{for(const d of Object.values(data)){assert(d.news.length);for(const n of d.news){assert(n.id&&n.title);assert(n.sources?.length,n.title);assert(n.sources.some(s=>s.url),n.title)}}});
 
 test('Unpriced luggage model references retain separate source-scoped specifications',()=>{const d=data['luggage-atlas'],by=new Map(d.items.map(p=>[p.id,p]));for(const r of JSON.parse(fs.readFileSync('luggage-atlas/model-features.json')).records.filter(r=>!r.offerId)){const p=by.get('reference-'+r.id);assert(p);assert.equal(p.url,r.source);assert.equal(p.amount,null);assert.equal(p.evidence,'Model / family source reference');}});
+
+test('Luggage news excludes retired opportunity displays and exports',()=>{
+ const source=fs.readFileSync('_site/luggage-atlas/atlas-upgrade.js','utf8');
+ assert.doesNotMatch(source,/Open Story opportunity|Implications for Open Story|x\.implication|w\.analysis/);
+ for(const hook of ['function weeklyDashboard','function showWeeklyDetail','function exportWeekly','Photo URL','Photo source'])assert(source.includes(hook),hook);
+});
