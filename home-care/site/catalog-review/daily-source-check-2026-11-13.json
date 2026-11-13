@@ -1,0 +1,103 @@
+{
+  "reviewedAt": "2026-11-13",
+  "status": "targeted daily review completed; comprehensive Monday review remains incomplete outside its recorded bounds",
+  "baselineRecords": 10253,
+  "publishedRecords": 10256,
+  "verifiedAdditions": 3,
+  "additionsByRetailer": {
+    "Ace Hardware": 0,
+    "Albertsons": 0,
+    "Amazon US": 0,
+    "BJ’s Wholesale": 0,
+    "CVS": 0,
+    "Costco": 2,
+    "Dollar General": 0,
+    "Dollar Tree": 0,
+    "H-E-B": 0,
+    "Home Depot": 0,
+    "Kroger": 0,
+    "Lowe’s": 0,
+    "Meijer": 0,
+    "Publix": 0,
+    "Safeway": 0,
+    "Sam’s Club": 0,
+    "TikTok Shop": 1,
+    "Walgreens": 0,
+    "Walmart": 0
+  },
+  "newLaunches": 0,
+  "newVerifiedNews": 1,
+  "sourceAccessProbes": [
+    {"retailer":"Ace Hardware","url":"https://www.acehardware.com/departments/home-and-decor/cleaning-and-disinfectants/tile-cleaners-near-me","httpStatus":"200","bytes":1060292,"result":"challenge"},
+    {"retailer":"Albertsons","url":"https://www.albertsons.com/shop/pd/reynolds-wrap-aluminum-foil-200-sq-ft-each/130050222","httpStatus":"200","bytes":840214,"result":"retrieved-unvalidated"},
+    {"retailer":"Amazon US","url":"https://www.amazon.com/Household-Supplies-Scrub-Daddy-Health/s?rh=n%3A15342811%2Cp_89%3AScrub%2BDaddy","httpStatus":"503","bytes":0,"result":"blocked-or-unavailable"},
+    {"retailer":"BJ’s Wholesale","url":"https://www.bjs.com/product/arm--hammer-plus-oxiclean-odor-blasters-liquid-laundry-detergent---fresh-burst-200-fl-oz/3000000000005873299","httpStatus":"200","bytes":1997187,"result":"retrieved-unvalidated"},
+    {"retailer":"CVS","url":"https://www.cvs.com/shop/dawn-platinum-plus-powerwash-dish-spray-fresh-clean-16-oz-prodid-387401","httpStatus":"200","bytes":3974125,"result":"retrieved-unvalidated"},
+    {"retailer":"Costco","url":"https://www.costco.com/household-cleaning.html","httpStatus":"200","bytes":2568620,"result":"challenge"},
+    {"retailer":"Dollar General","url":"https://www.dollargeneral.com/p/fabuloso-2x-multi-purpose-cleaner-with-baking-soda-citrus-and-fruits-scent-56-fl-oz/35000530615","httpStatus":"200","bytes":218234,"result":"retrieved-unvalidated"},
+    {"retailer":"Dollar Tree","url":"https://sameday.dollartree.com/store/dollar-tree/products/17950911-la-s-totally-awesome-all-purpose-concentrated-cleaner-32-fl-oz","httpStatus":"403","bytes":0,"result":"blocked-or-unavailable"},
+    {"retailer":"H-E-B","url":"https://www.heb.com/product-detail/field-future-by-h-e-b-dishwashing-liquid-fragrance-free/5010074","httpStatus":"200","bytes":212,"result":"retrieved-unvalidated"},
+    {"retailer":"Home Depot","url":"https://www.homedepot.com/p/100670178","httpStatus":"200","bytes":1155604,"result":"challenge"},
+    {"retailer":"Kroger","url":"https://www.kroger.com/pl/cleaning-household/18011","httpStatus":"200","bytes":1243437,"result":"retrieved-unvalidated"},
+    {"retailer":"Lowe’s","url":"https://www.lowes.com/pl/cleaning-tools/mops/spray-mops/o-cedar/microfiber/3998445995-553466270-4294721465","httpStatus":"200","bytes":347097,"result":"retrieved-unvalidated"},
+    {"retailer":"Meijer","url":"https://www.meijer.com/shopping/product/snuggle-lq-fab-sof-blue-sparkle-74-8oz/7261347456","httpStatus":"200","bytes":398350,"result":"retrieved-unvalidated"},
+    {"retailer":"Publix","url":"https://delivery.publix.com/store/publix/products/39743-clorox-disinfecting-wipes-150-ct","httpStatus":"403","bytes":0,"result":"blocked-or-unavailable"},
+    {"retailer":"Safeway","url":"https://www.safeway.com/shop/pd/bounty-regular-paper-towel-48-ct-rl/970461182","httpStatus":"200","bytes":834668,"result":"retrieved-unvalidated"},
+    {"retailer":"Sam’s Club","url":"https://www.samsclub.com/ip/members-mark-platinum-performance-liquid-dish-soap-fresh-clean-100-fl-oz/13892164761","httpStatus":"200","bytes":1099762,"result":"challenge"},
+    {"retailer":"TikTok Shop","url":"https://shop.tiktok.com/us/store/scrub-daddy/7494956340169509603","httpStatus":"200","bytes":662261,"result":"retrieved-unvalidated"},
+    {"retailer":"Walgreens","url":"https://www.walgreens.com/search/tier3/productlist/N%3D20007728-93-86","httpStatus":"404","bytes":0,"result":"blocked-or-unavailable"},
+    {"retailer":"Walmart","url":"https://www.walmart.com/ip/11468515821","httpStatus":"200","bytes":1087410,"result":"challenge"}
+  ],
+  "probeLimit": "One retained source per tracked retailer was probed. HTTP success and keyword screening do not establish exact item validity, current stock or exhausted pagination. No retailer's complete Home Care assortment was reconciled in this daily pass.",
+  "exactItemChecks": [
+    {
+      "retailer": "Costco",
+      "retailerItemId": "2118771",
+      "url": "https://www.costco.com/p/-/dreame-sh10-plus-steam-mop-13-in-1-steam-cleaner-with-multi-surface-tools/4201058122",
+      "result": "Exact model, product scope and primary photo verified; price, stock, first-available date and launch date not verified"
+    },
+    {
+      "retailer": "Costco",
+      "retailerItemId": "2118061",
+      "url": "https://www.costco.com/p/-/dreame-air-cordless-stick-vacuum-with-ultra-slim-and-lightweight-design/4201058058",
+      "result": "Exact model, product scope and primary photo verified; price, stock, first-available date and launch date not verified"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "retailerItemId": "1732522401225085315",
+      "url": "https://shop.tiktok.com/us/pdp/compact-handheld-steam-cleaner-16-accessories-3-levels/1732522401225085315",
+      "result": "Exact black variant, 16-piece set, seller, price snapshot and primary photo verified before a later security check; stock, first-available date and launch date not verified"
+    }
+  ],
+  "categoryAndPaginationChecks": [
+    {"retailer":"Amazon US","scope":"Household Supplies / Scrub Daddy category reference","status":"blocked","pagination":"not started","remainingGap":"503 response prevented exact ASIN and pagination checks"},
+    {"retailer":"Walmart","scope":"retained exact item plus official holiday household-cleaning deal page","status":"partial","pagination":"not exhausted","remainingGap":"challenge response and location-dependent offers prevented exact full-category reconciliation"},
+    {"retailer":"Costco","scope":"household-cleaning category plus two exact Dreame pages","status":"partial","pagination":"category not exhausted","remainingGap":"category challenge; member/location price and stock unresolved"},
+    {"retailer":"TikTok Shop","scope":"Home Cleaner / steam-cleaner results plus one exact item page","status":"partial","pagination":"not exhausted","remainingGap":"dynamic results and later security check prevented full seller/category reconciliation"},
+    {"retailer":"Quince","scope":"Storage & Organization adjacent scope","status":"partial","pagination":"13 displayed items observed; exact-item reconciliation not completed","remainingGap":"category remains adjacent and is not added to the 19-retailer Home Care ITEMS set"},
+    {"retailer":"Remaining 15 tracked retailers","scope":"one retained source per retailer","status":"probe only","pagination":"not started","remainingGap":"single-link access probes do not establish inventory completeness"}
+  ],
+  "productSources": [
+    "https://www.costco.com/p/-/dreame-sh10-plus-steam-mop-13-in-1-steam-cleaner-with-multi-surface-tools/4201058122",
+    "https://www.costco.com/p/-/dreame-air-cordless-stick-vacuum-with-ultra-slim-and-lightweight-design/4201058058",
+    "https://shop.tiktok.com/us/pdp/compact-handheld-steam-cleaner-16-accessories-3-levels/1732522401225085315"
+  ],
+  "newsSources": [
+    "https://corporate.walmart.com/news/2026/10/walmart-unwraps-three-major-holiday-shopping-events"
+  ],
+  "additionalSourceReview": {
+    "retailer": "Quince",
+    "scope": "Home Organization / adjacent; not added to competitor ITEMS",
+    "categoryURL": "https://www.quince.com/shop/home/all-decor/storage-organization",
+    "checkedDate": "2026-11-13",
+    "status": "Official category accessible with 13 displayed listings in the reviewed snapshot. Exact item pages and any pagination were not reconciled; changing restock labels were not promoted to directory news.",
+    "verifiedAdditions": 0
+  },
+  "remainingGaps": [
+    "Amazon category access returned 503, so no Amazon item was added or upgraded.",
+    "Walmart exact/category access remained challenge- and location-dependent; no item change was applied.",
+    "TikTok Shop exact page was available during research and later returned a security check; current stock and continuing promotion were not asserted.",
+    "The current 19-retailer by 15-category coverage matrix was not re-enumerated; the latest comprehensive Monday review remains the applicable bounded audit.",
+    "No retailer first-available date or verified product-launch date was established for the three additions."
+  ]
+}

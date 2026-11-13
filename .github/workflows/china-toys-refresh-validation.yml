@@ -69,6 +69,8 @@ jobs:
         node --check china-toys/app.js
         node --check china-toys/catalog-guide.js
         node --check china-toys/compare.js
+    - name: Preserve superseded research as historical evidence
+      run: python china-toys/validate_refresh_contract.py archive --baseline /tmp/china-toys-baseline.json
     - name: Validate retained source-page compatibility
       run: |
         python china-toys/review_acceptance.py
@@ -110,6 +112,7 @@ jobs:
           /tmp/china-toys-directory-qa/
           china-toys/catalog.json
           china-toys/ip-coverage.json
+          china-toys/research-history.json
           china-toys/report.json
           china-toys/review-report.json
           /tmp/china-toys-review-qa/results.json

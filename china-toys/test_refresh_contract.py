@@ -174,6 +174,69 @@ class RefreshContractTests(unittest.TestCase):
         self.assertFalse(report['passed'])
         self.assertGreaterEqual(len(report['issues']), 2)
 
+    def test_archive_retains_removed_id_and_exact_original_record(self):
+        baseline = gate.snapshot(self.toys)
+        removed = self.data['products'].pop(0)
+        self.write_catalog(); current_bytes = (self.toys/'catalog.json').read_bytes()
+        history = gate.archive_research(baseline, self.toys)
+        self.assertIn(removed, [x['record'] for x in history['records']])
+        self.assertEqual(current_bytes, (self.toys/'catalog.json').read_bytes())
+        gate.preservation(baseline, self.toys)
+
+    def test_archive_retains_superseded_variants_prices_and_sources(self):
+        baseline = gate.snapshot(self.toys); old = copy.deepcopy(self.data['products'][0])
+        self.data['products'][0]['listings'][0]['options'] = []
+        self.data['products'][0]['listings'][0]['price'] = 99
+        self.data['products'][0]['history'] = []
+        self.write_catalog()
+        gate.archive_research(baseline, self.toys)
+        gate.preservation(baseline, self.toys)
+        self.assertIn(old, [e['record'] for e in gate.read_history(self.toys)['records']])
+
+    def test_archive_is_idempotent_and_rejects_tampering(self):
+        baseline = gate.snapshot(self.toys); self.data['products'][0]['history'] = []; self.write_catalog()
+        gate.archive_research(baseline, self.toys)
+        content = (self.toys/gate.HISTORY_FILE).read_bytes()
+        gate.archive_research(baseline, self.toys)
+        self.assertEqual(content, (self.toys/gate.HISTORY_FILE).read_bytes())
+        h = gate.read_history(self.toys); h['records'][0]['record']['name'] = 'Corrupted'
+        (self.toys/gate.HISTORY_FILE).write_text(json.dumps(h))
+        with self.assertRaisesRegex(ValueError, 'hash mismatch'):
+            gate.preservation(baseline, self.toys)
+
+    def test_archive_does_not_excuse_missing_media_or_incomplete_collection(self):
+        baseline = gate.snapshot(self.toys); self.data['products'][0]['history'] = []; self.write_catalog()
+        gate.archive_research(baseline, self.toys)
+        (self.toys/'images/a.png').unlink()
+        with self.assertRaisesRegex(ValueError, 'media'):
+            gate.preservation(baseline, self.toys)
+        self.data['sources'][0]['status'] = 'unavailable'; self.write_catalog()
+        with self.assertRaisesRegex(ValueError, 'No source completed'):
+            gate.archive_research(baseline, self.toys)
+
+    def test_prior_archive_entries_must_remain_and_can_be_recovered_from_baseline(self):
+        baseline = gate.snapshot(self.toys); self.data['products'][0]['history'] = []; self.write_catalog()
+        gate.archive_research(baseline, self.toys)
+        next_baseline = gate.snapshot(self.toys)
+        (self.toys/gate.HISTORY_FILE).write_text('{"schema_version":1,"records":[]}')
+        with self.assertRaisesRegex(ValueError, 'archive entries removed'):
+            gate.preservation(next_baseline, self.toys)
+        gate.archive_research(next_baseline, self.toys)
+        gate.preservation(next_baseline, self.toys)
+
+    def test_timestamp_only_specification_recheck_does_not_duplicate_history(self):
+        p = self.data['products'][0]
+        p['details'] = {'size':'10cm','checked':'2026-11-11','description_checked':'2026-11-11',
+                        'field_sources':{'size':{'url':'https://example.test/spec','checked':'2026-11-11'}}}
+        self.write_catalog(); baseline = gate.snapshot(self.toys)
+        p['details']['checked'] = '2026-11-12'
+        p['details']['description_checked'] = '2026-11-12'
+        p['details']['field_sources']['size']['checked'] = '2026-11-12'
+        self.write_catalog()
+        self.assertEqual(gate.archive_research(baseline, self.toys)['records'], [])
+        p['details']['size'] = '12cm'; self.write_catalog()
+        self.assertEqual(len(gate.archive_research(baseline, self.toys)['records']), 1)
+
     def test_unchanged_research_passes(self):
         gate.preservation(gate.snapshot(self.toys), self.toys)
 
@@ -213,3 +276,4 @@ class RefreshContractTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
