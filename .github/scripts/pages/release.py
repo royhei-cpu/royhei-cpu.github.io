@@ -82,6 +82,8 @@ def catalogs():
     source = apply_chain(json.loads(committed("china-toys/catalog.json")))
     apply_audit(source, read_json(ROOT / TOYS / "source-audit.json"))
     toy = read_json(SITE / TOYS / "catalog.json")
+    history_path = f"{TOYS}/research-history.json"
+    check(read_json(SITE / history_path) == json.loads(committed(history_path)), "Historical toy research differs from saved source")
     match_records(as_map([p for p in source["products"] if eligible(p)]), as_map(toy["products"]),
                   ("name", "brand", "listings", "launch", "sales"), TOYS)
     luggage = read_json(SITE / LUGGAGE / "data.json")
@@ -112,7 +114,7 @@ def sha(data):
 def manifest():
     counts = catalogs()
     paths = {"", "home-care/", "china-toys/", "luggage-atlas/", "dog-club/", "pawlish/",
-             "china-toys/catalog.json", "china-toys/catalog.csv", "china-toys/chain-assortments.json",
+             "china-toys/catalog.json", "china-toys/catalog.csv", "china-toys/research-history.json", "china-toys/chain-assortments.json",
              "luggage-atlas/data.json"}
     paths.update(str(p.relative_to(SITE)) for p in (SITE / "_next").rglob("*") if p.is_file())
     for directory in (HOME, TOYS, LUGGAGE):
@@ -123,7 +125,7 @@ def manifest():
             found = [p for p in resolved if urlsplit(p).path == directory + "/" + name]
             check(len(found) == 1, f"Expected a single {name} script on {directory}/")
             paths.add(found[0])
-        paths.add(directory + "/directory.css?v=20261112-simple1")
+        paths.add(directory + "/directory.css?v=20261113-refresh1")
         normalized = extract((SITE / directory / "directory-data.js").read_text(), "window.DIRECTORY=")
         if "packed" in normalized:
             packed = normalized["packed"]
@@ -184,3 +186,4 @@ if __name__ == "__main__":
         manifest()
     else:
         verify(args.base)
+

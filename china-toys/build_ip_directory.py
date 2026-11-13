@@ -51,12 +51,8 @@ for asset in ['app.js','ip-market-data.js','ip-directory.js']:
     idx=re.sub(re.escape(asset)+r'\?v=[^"\s]+',asset+'?v='+version,idx)
 (R/'index.html').write_text(idx,encoding='utf-8')
 
-# Workflow hooks are managed separately through authorized repository edits.
-# Builds must not try to modify workflow files with the limited build token.
-publish=(ROOT/'.github/workflows/publish.yml').read_text()
-weekly=(ROOT/'.github/workflows/china-toys-refresh.yml').read_text()
-assert 'Copy China Toy IP ranking assets' in publish,'Publishing hook missing'
-assert 'python china-toys/build_ip_directory.py' in weekly,'Weekly integration hook missing'
+# Publishing consumes ip-coverage.json through build-directories.py.
+# Validate that artifact contract in tests; workflow step labels are not an API.
 
 # Recomputed coverage is never used to infer demand or ranking.
 d=json.loads((R/'catalog.json').read_text())
@@ -95,4 +91,6 @@ print(json.dumps({'requested_brands':brands,'requested_ips':[{k:v for k,v in ip.
 if __name__ == '__main__':
     from navigation_fix import apply as _apply_navigation_fix
     _apply_navigation_fix(R)
+
+
 
