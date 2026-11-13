@@ -2,7 +2,6 @@ import React,{useEffect,useMemo,useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import {flushSync} from 'react-dom';
 import {readView,viewAddress} from './navigation-model.js';
-import {workshopPath} from './workshop-logic.js';
 import {AudioControls} from './audio-ui.jsx';
 import {catalogRows,globalCounts,matchingRows,asNativeReference,reorderNavigation} from './upgrade-model.js';
 const extra={target:'_blank',rel:'noopener noreferrer'};
@@ -38,7 +37,6 @@ export function mount(context){
  const nav=document.querySelector('.view-nav'),opportunities=document.getElementById('nav-opportunities');
  if(!nav||!opportunities||document.getElementById('homecare-upgrade-root'))return;
  const params=new URLSearchParams(location.search),requested=readView(location.search,location.hash);
- if(requested==='workshop'){location.replace(workshopPath(params.get('concept'))+'#wl-real-products');return;}
  const rows=catalogRows(context.items,id=>context.cached.get(id)?.querySelector('img')?.getAttribute('src')||'',context.references);
  for(const p of context.references)if(!context.byId.has(p.id))context.byId.set(p.id,asNativeReference(p));
  try{const saved=JSON.parse(localStorage.getItem('hc-merchant-picks')||'[]');if(Array.isArray(saved))for(const id of saved)if(context.byId.has(id))context.picks.add(id);}catch{}
@@ -57,7 +55,7 @@ export function mount(context){
   document.dispatchEvent(new CustomEvent('homecare:viewchange',{detail:{view}}));
  }
  function navigate(view,{country='All countries',history:historyKind='none',scroll=false}={}){
-  if(view==='workshop'){location.href=workshopPath(params.get('concept'))+'#wl-real-products';return;}
+  if(view==='workshop')view='opportunities';
   controller.switching=true;
   if(view==='home'||view==='global')for(const id of nativeViewIds){const n=document.getElementById(id);if(n)n.hidden=true;}
   else if(view==='compare')window.HCProductCompare.show();
@@ -67,7 +65,7 @@ export function mount(context){
   if(scroll)requestAnimationFrame(()=>{const heading=document.querySelector(view==='home'?'#hc-start-title':view==='global'?'#homecare-workspace h2':'.hc-catalog-header h1');heading?.setAttribute('tabindex','-1');heading?.focus({preventScroll:true});heading?.scrollIntoView({block:'start'});});
  }
  controller.navigate=navigate;
- for(const [id,label,view] of [['nav-global','Global retailers & items','global'],['nav-workshop','White Label Workshop','workshop']]){
+ for(const [id,label,view] of [['nav-global','Global retailers & items','global']]){
   let b=document.getElementById(id);if(!b){b=document.createElement('button');b.type='button';b.id=id;opportunities.before(b);}b.textContent=label;b.setAttribute('aria-pressed','false');b.onclick=()=>navigate(view,{history:'push',scroll:true});
  }
  const factory=[...nav.querySelectorAll('a')].find(a=>a.href.includes('brand-factories'));if(factory)factory.dataset.navigationId='brand-factories';
@@ -81,8 +79,8 @@ export function mount(context){
  const observer=new MutationObserver(()=>{const visible=nativeViewIds.find(id=>{const n=document.getElementById(id);return n&&!n.hidden;});const view=viewForId[visible];if(view&&!controller.switching&&document.body.dataset.homecareView!==view){setSection(view);updateAddress(view);}});
  for(const id of nativeViewIds){const node=document.getElementById(id);if(node)observer.observe(node,{attributes:true,attributeFilter:['hidden']});}
  const weekly=document.getElementById('weekly-updates'),directory=document.getElementById('category-directory');
- if(weekly&&directory){const disclosure=document.createElement('details');disclosure.id='homecare-weekly-brief';const summary=document.createElement('summary');summary.textContent='Weekly brief, additions and coverage notes';disclosure.append(summary);weekly.before(disclosure);disclosure.append(weekly);disclosure.before(directory);}
+ if(weekly&&directory){const disclosure=document.createElement('details');disclosure.id='homecare-weekly-brief';const summary=document.createElement('summary');summary.textContent='Daily updates, additions and coverage notes';disclosure.append(summary);weekly.before(disclosure);disclosure.append(weekly);disclosure.before(directory);}
  flushSync(()=>createRoot(root).render(<Workspace controller={controller} context={context} rows={rows} initialMode={requested} initialCountry={params.get('country')||'All countries'}/>));
  window.HCHomecareUpgradeController={navigate,show:(view,country)=>navigate(view,{country,history:'push',scroll:true}),hide:()=>setSection('catalog')};
- context.redraw();navigate(requested,{country:params.get('country')||'All countries'});
+ context.redraw();navigate(requested,{country:params.get('country')||'All countries'});if(params.has('news'))requestAnimationFrame(()=>{const n=document.getElementById('homecare-weekly-brief');if(n){n.open=true;n.scrollIntoView({block:'start'});}});
 }

@@ -31,8 +31,12 @@ jobs:
         run: bash .github/scripts/pages/snapshot-ref.sh read _site
       - name: Add Pawlish English tutor
         run: python3 pawlish/download_assets.py _site/pawlish
-      - name: Stage Home Care source records and photographs
-        run: cp -R home-care/site _site/home-care
+      - name: Build original Homecare merchant interface
+        run: |
+          npm ci --prefix home-care/ui-src
+          npm run build --prefix home-care/ui-src
+          cp -R home-care/site _site/home-care
+          node home-care/optimize-loading.mjs _site/home-care/index.html
       - name: Build source-checked China Toy catalog
         run: |
           python3 china-toys/apply_chain_coverage.py --cache-images
@@ -48,10 +52,10 @@ jobs:
         run: |
           python3 luggage-atlas/validate.py
           cp -R luggage-atlas _site/luggage-atlas
-      - name: Build and validate simple search directories
+      - name: Preserve distinct sites and validate catalog evidence
         run: |
           python3 .github/scripts/pages/build-directories.py
-          node --check .github/scripts/pages/directory/app.js
+          python3 .github/scripts/pages/prepare-distinct-sites.py
           node --test .github/scripts/pages/directory.test.cjs
       - name: Add Dog Club profile and comparison
         run: cp -R dog-club _site/dog-club

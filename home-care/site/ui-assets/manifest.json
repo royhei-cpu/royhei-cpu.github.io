@@ -1,10 +1,15 @@
 {
-  "entry": "homecare-JQAUVPYU.js",
-  "workshopEntry": "homecare-NIHKNFJE.js",
-  "navigationEntry": "homecare-W42JWMQS.js",
+  "assets": [
+    "homecare-Y4LU3STU.js",
+    "homecare-V2ZCFN6Q.js",
+    "homecare-NCPDZUGA.js",
+    "homecare-8d17763977f0.css"
+  ],
+  "entry": "homecare-Y4LU3STU.js",
+  "navigationEntry": "homecare-V2ZCFN6Q.js",
   "stylesheet": "homecare-8d17763977f0.css",
   "sources": {
-    "upgrade.jsx": "8bdd3489921032dc2c1b0ac0814d7f3f167de41de69503722e5749d3c74cb83e",
+    "upgrade.jsx": "d2528c7d1c889123a31aa915ad5247622b28049eb8926e3b3fa3530b74247878",
     "upgrade-model.js": "35022659dda91be460b47038d76332df48c20a1473e2f8da9ce8282ab4dbfcdc",
     "workshop-ui.jsx": "19bf05786aec64e2aa8d17a96b57eb02a2a423ea91452f2370f083f42b7e33ca",
     "workshop-logic.js": "39c7d74628421413f9cc9f1b878b8567a907d13bdd5dc98244beb72116886a60",
@@ -21,9 +26,9 @@
     "global-logic.js": "b35988211434f1953cdb2115cf85233aa14bdcdef80b705cc6bceb68c8525f85",
     "workshop.css": "b037ab64594d6926b6ae4208b2c1ea746cd9b46f5853a5f0639fbf9bd99f0232",
     "upgrade.css": "016b922139890d9c9ed1335fdc0cd77b78b5f6859ce4ccb4d722f18e32a4590c",
-    "navigation-model.js": "ff5625e97c239a78c392af3c31e1142959ffa964087431ca3ef519d12775b090",
-    "navigation-runtime.js": "676fd20b9cbc16f93f7c5c27bd876df1fe1254b2046f4769e380e410365873e2",
+    "navigation-model.js": "41f98f53938b77fe711d448c8e74290e0d716b6de3709fe990494c23fb220b2d",
+    "navigation-runtime.js": "da314ab9c7f869af2ac5ae9161af75a63f3cfccc561c14689ad9d1ac00d38816",
     "navigation.css": "589611465622ce63dc9eac8daad3919b0f4cca65a2e3bdb0c1ff44348f8a124a",
-    "../navigation-build.mjs": "c16bdecf1581995d4bbeba04e82a5225c6dca636b649760e62696361beefd895"
+    "../navigation-build.mjs": "3c47681f8d76f8bc85ebad61c7470e0eb3c52ce8074f1fc0f6875634b3aab060"
   }
 }

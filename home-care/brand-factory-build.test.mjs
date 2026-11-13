@@ -11,7 +11,7 @@ test('factory provenance stays distinct from ownership, missing brands and simil
   try {
     fs.copyFileSync(new URL('./site/brand-factories.json', import.meta.url),path.join(dir,'brand-factories.json'));
     const items = [
-      {brand:'Libman',id:'libman',category:'Cleaning Tools'},
+      {brand:'Libman',id:'libman',category:'Cleaning Tools',manufacturerSource:'https://example.com/retained-product-evidence'},
       {brand:'Rejoice',id:'rejoice'},
       {brand:'All-Clad',id:'all-clad'},
       {brand:"Member's Mark",id:'private-label'},

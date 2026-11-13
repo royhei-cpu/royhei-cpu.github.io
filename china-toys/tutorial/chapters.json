@@ -1,44 +1,24 @@
 {
-  "duration": 185.37499999999997,
   "chapters": [
     {
       "start": 0,
-      "label": "Start here"
+      "label": "Discover your next collectible"
     },
     {
-      "start": 18.8,
-      "label": "Browse a retailer in one tap"
+      "start": 10.917,
+      "label": "Search characters & shops"
     },
     {
-      "start": 40.125,
-      "label": "Find your character"
+      "start": 27.25,
+      "label": "Build a comparison"
     },
     {
-      "start": 58.575,
-      "label": "Read a product"
+      "start": 43.0,
+      "label": "Inspect and export"
     },
     {
-      "start": 79.75,
-      "label": "Compare your picks"
-    },
-    {
-      "start": 98.5,
-      "label": "Save and download"
-    },
-    {
-      "start": 120.7,
-      "label": "Understand this week and trends"
-    },
-    {
-      "start": 143.35,
-      "label": "Music and button sounds"
-    },
-    {
-      "start": 164.05,
-      "label": "What a partial listing means"
+      "start": 60.75,
+      "label": "Stay curious. Stay current."
     }
-  ],
-  "recorded": "2026-11-02",
-  "voice": "English synthetic male narration",
-  "captions": "Sentence timings proportional within each narrated chapter"
+  ]
 }

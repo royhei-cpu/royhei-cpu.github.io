@@ -121,11 +121,20 @@ def manifest():
         scripts = Scripts()
         scripts.feed((SITE / directory / "index.html").read_text())
         resolved = [urljoin(directory + "/", s) for s in scripts.urls]
-        for name in ("directory-data.js", "directory.js", "guide-chapters.js"):
-            found = [p for p in resolved if urlsplit(p).path == directory + "/" + name]
-            check(len(found) == 1, f"Expected a single {name} script on {directory}/")
-            paths.add(found[0])
-        paths.add(directory + "/directory.css?v=20261113-refresh1")
+        required = {HOME: ("weekly-dashboard.js", "opportunities.js", "product-compare.js"),
+                    TOYS: ("app.js", "simple-navigation.js", "compare.js"),
+                    LUGGAGE: ("app.js", "directory.js", "workbench.js")}[directory]
+        for name in required:
+            check(any(urlsplit(p).path == directory + "/" + name for p in resolved),
+                  f"Missing original application script {name}: {directory}")
+        for url in resolved:
+            if not urlsplit(url).scheme and not url.startswith("//"):
+                paths.add(url.lstrip("/"))
+        paths.add(directory + "/directory-data.js")
+        paths.add(directory + "/tutorial.html")
+        if directory == HOME:
+            ui=read_json(SITE / HOME / "ui-assets/manifest.json")
+            paths.update(HOME+"/ui-assets/"+name for name in ui.get("assets",[]))
         normalized = extract((SITE / directory / "directory-data.js").read_text(), "window.DIRECTORY=")
         if "packed" in normalized:
             packed = normalized["packed"]
@@ -137,8 +146,10 @@ def manifest():
             check({p["id"] for p in read_json(SITE / TOYS / "catalog.json")["products"]} <= {p["id"] for p in normalized["items"]}, "Toy directory drops source products")
         if directory == LUGGAGE:
             check(sum(p["id"].startswith("offer-") for p in normalized["items"]) == counts["luggage_offers"], "Luggage directory drops offers")
-    for name in ("directory-guide.mp4", "directory-guide.en.vtt", "directory-guide-poster.jpg"):
-        paths.add("home-care/videos/" + name)
+    for directory, folder, name in [(HOME, "videos", "homecare-guide.mp4"),
+                                     (TOYS, "tutorial", "China_Toy_Atlas_Tutorial.mp4"),
+                                     (LUGGAGE, "tutorial", "luggage-guide.mp4")]:
+        paths.add(directory + "/" + folder + "/" + name)
     files = {}
     for path in sorted(paths):
         disk = SITE / urlsplit(path).path

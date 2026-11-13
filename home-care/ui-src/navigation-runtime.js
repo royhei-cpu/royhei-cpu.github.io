@@ -21,7 +21,7 @@ export function mountNavigation(doc=document,win=window){
   const link=event.target.closest?.('a[data-homecare-view]');
   if(link&&!event.defaultPrevented&&!event.metaKey&&!event.ctrlKey&&!event.shiftKey&&!event.altKey&&(event.button===0||event.button===undefined)){
    const controller=win.HCHomecareUpgradeController;
-   if(controller?.navigate){event.preventDefault();controller.navigate(link.dataset.homecareView,{country:link.dataset.homecareCountry||'',history:'push',scroll:true});}
+   if(controller?.navigate){event.preventDefault();controller.navigate(link.dataset.homecareView,{country:link.dataset.homecareCountry||'',history:'push',scroll:true});if(link.hasAttribute('data-homecare-news'))requestAnimationFrame(()=>{const n=doc.getElementById('homecare-weekly-brief');if(n){n.open=true;n.scrollIntoView({block:'start'});}});}
    close();
   }else if(!header.contains(event.target))close();
  });
