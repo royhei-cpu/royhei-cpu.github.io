@@ -158,7 +158,7 @@ function modelDashboard() {
   <p class="caption">Each bar counts distinct reviewed families. Listing volume and sales are separate measures.</p>
   <details><summary>Model and offer counts by brand</summary><p class="caption">Coverage of the Atlas sample. Each reviewed family counts once. Offer counts measure listing coverage.</p><div class="table-wrap"><table><thead><tr><th>Brand</th><th>Verified families</th><th>Priced offers</th><th>Unlinked listings</th></tr></thead><tbody>${sorted.map(([b,r])=>`<tr><td><a href="?modelBrand=${encodeURIComponent(brandBy(b)?.id || b)}#directory">${E(b)}</a></td><td>${r.families}</td><td>${r.offers}</td><td>${r.unlinked}</td></tr>`).join('')}</tbody></table></div></details>
   <details><summary>${items.length} verified launch events · ${E(from)} to ${E(end)}</summary><ol class="launch-list">${items.map(launchHTML).join('')||'<li>No verified launches in this window.</li>'}</ol><button class="btn" data-export-launches>Export these launches CSV</button></details>
-  <a class="btn" href="#directory">Browse models and export offers →</a>${openStoryModelStudy()}</section>`;
+  <a class="btn" href="#directory">Browse models and export offers →</a></section>`;
 }
 document.addEventListener('click', e => {
   if (!e.target.closest('[data-export-launches]')) return;
@@ -180,5 +180,5 @@ function openStoryModelStudy() {
   return `<article class="note"><h3>Open Story benchmark · expandable carry-on</h3>
   <p>MAIMO’s black size S was listed at ${money(standard)} for SPEED U and ${money(expanded)} for SPEED U plus with 8 cm expansion. The observed price difference was ${money({currency:standard.currency,amount:expanded.amount-standard.amount})} in Japan.</p>
   <p>Quote the expansion zipper and gusset as a separate option for Open Story. Weigh both prototypes and check packed depth and wheel stability before setting a US retail target.</p>
-  ${link(standard.source,'Standard case ↗')} · ${link(expanded.source,'Expandable case ↗')} · <a href="studio.html">Open Story workshop →</a></article>`;
+  ${link(standard.source,'Standard case ↗')} · ${link(expanded.source,'Expandable case ↗')}</article>`;
 }

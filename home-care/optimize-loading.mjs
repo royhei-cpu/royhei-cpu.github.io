@@ -9,6 +9,7 @@ import { addBrandFactories, addFactoryInterface } from './brand-factory-build.mj
 const file=process.argv[2]||'home-care/site/index.html';
 let html=fs.readFileSync(file,'utf8');
 if(html.includes('id="catalog-loading"')){console.log('Loading optimization already applied');process.exit(0)}
+html=html.replace('</head>','<link rel="stylesheet" href="/home-care/daily-news.css"><script src="/home-care/daily-news-data.js"></script><script src="/home-care/daily-news.js"></script></head>');
 const start=html.indexOf('const ITEMS=')+12,end=html.indexOf(';\nconst COVERAGE=',start);
 if(start<12||end<start)throw Error('Original catalog dataset not found');
 const items=JSON.parse(html.slice(start,end));

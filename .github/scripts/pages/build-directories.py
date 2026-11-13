@@ -1,9 +1,8 @@
-"""Build the three plain search directories from retained, canonical source records."""
+"""Build normalized evidence payloads without replacing each site’s original interface."""
 import argparse,base64,hashlib,json,re,shutil,sys,gzip
 from pathlib import Path
 from html.parser import HTMLParser
 ROOT=Path(__file__).resolve().parents[3]
-ASSETS=Path(__file__).parent/'directory'
 def read(p): return json.loads(Path(p).read_text())
 def extract(s,marker): return json.JSONDecoder().raw_decode(s.split(marker,1)[1])[0]
 def compact(d): return json.dumps(d,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
@@ -133,13 +132,6 @@ def toys(site):
  if (ROOT/'china-toys/directory-news.json').exists():news+=read(ROOT/'china-toys/directory-news.json')
  return dict(id='china-toys',title='China Toy Atlas',reviewed=d['updated'],items=out,news=news,unit='products / series')
 
-CONFIG={'home-care':('Home Care','Find your next product reference.','Search household products across retailers. Compare the details that matter.','Search products, brands or features…','household products','catalog-records.json'),'luggage-atlas':('Luggage Atlas','Find the right luggage.','Explore worldwide luggage. Compare exact offers, specifications and source photos.','Try a brand, model, front access or cabin…','worldwide luggage','data.json'),'china-toys':('China Toy Atlas','Find your next collectible.','Explore blind boxes and squishies. Compare source prices, shops and product details.','Search a brand, character, series or squishy…','blind boxes and squishies','catalog.json')}
-def page(sid,datahash):
- vals=CONFIG[sid];s=(ASSETS/'page.html').read_text()
- for k,v in zip(['TITLE','HEADLINE','DESCRIPTION','PLACEHOLDER','TOPIC','RAW'],vals):s=s.replace('__'+k+'__',v)
- for k,id in [('HOME','home-care'),('LUGGAGE','luggage-atlas'),('TOYS','china-toys')]:s=s.replace('__CURRENT_'+k+'__','aria-current="page"' if id==sid else '')
- return s.replace('__DATA_HASH__',datahash)
-def redirect(name,target):return f'<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{name}</title><meta http-equiv="refresh" content="0;url={target}"><p><a href="{target}">Open {name}</a></p>'
 def build(dest):
  for sid,fn in [('home-care',home),('china-toys',toys),('luggage-atlas',luggage)]:
   site=dest/sid;site.mkdir(parents=True,exist_ok=True);d=fn(site)
@@ -155,17 +147,9 @@ def build(dest):
     encoded.append(lookup[signature])
    rows.append(encoded)
   d={**d,'items':None,'packed':dict(keys=keys,pool=pool,rows=rows)}
-  blob='window.DIRECTORY='+compact(d)+';\n';(site/'directory-data.js').write_text(blob);h=hashlib.sha256(blob.encode()).hexdigest()[:12]
-  (site/'index.html').write_text(page(sid,h));shutil.copyfile(ASSETS/'app.js',site/'directory.js');shutil.copyfile(ASSETS/'style.css',site/'directory.css')
-  shutil.copyfile(ASSETS/'guide-chapters.js',site/'guide-chapters.js')
-  # Retired routes remain safe bookmarks into the simple directory. No old modules load.
-  for p in site.glob('*.html'):
-   if p.name!='index.html':p.write_text(redirect(d['title'],'./#guide' if p.name in ['tutorial.html','help.html'] else './#search'))
-  for name in ['workshop','workshop-assets','workshop-models','workshop-reference-photos','models','studio-reference-assets','retail','vendor','design-source','tutorial']:
-   if (site/name).is_dir():shutil.rmtree(site/name)
-  # Ship only the new controller, data and source datasets, never retired tool scripts.
-  for p in list(site.glob('*.js'))+list(site.glob('*.css')):
-   if p.name not in ['directory.js','directory-data.js','directory.css','guide-chapters.js','data.js','weekly.js','catalog.js','chain-assortments-data.js'] :p.unlink()
+  blob='window.DIRECTORY='+compact(d)+';\n';(site/'directory-data.js').write_text(blob)
+  source=ROOT/('home-care/site' if sid=='home-care' else sid)/'directory-news.json'
+  (site/'daily-news-data.js').write_text('window.ATLAS_DAILY_NEWS='+compact(read(source) if source.exists() else [])+';\n')
   print(sid,len(rows),'records',len(d['news']),'updates')
 if __name__=='__main__':
  parser=argparse.ArgumentParser();parser.add_argument('--site',type=Path,default=ROOT/'_site');args=parser.parse_args();build(args.site)

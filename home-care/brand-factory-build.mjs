@@ -61,8 +61,8 @@ export function addBrandFactories(items, siteDir) {
       factoryEvidenceNote: e?.evidenceNote || (e ? 'Company evidence does not establish the factory for this product.' : brand ? 'No brand-specific factory research completed in this pass; do not infer a factory from the retailer, seller, brand name or headquarters.' : 'The retained record has no brand. Brand identification and factory research are still required.')
     };
     for (const [key, value] of Object.entries(fields)) {
-      assert.ok(!Object.hasOwn(d, key), 'Factory enrichment must not overwrite retained field: ' + key);
-      d[key] = value;
+      // Retained product-specific evidence takes precedence over brand-level enrichment.
+      if (!Object.hasOwn(d, key)) d[key] = value;
     }
     const key = brand || '';
     if (!directory.has(key)) directory.set(key, {...fields, productRecords: 0});

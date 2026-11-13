@@ -1,9 +1,9 @@
-export const mainSections=['home','products','workshop','insights','opportunities'];
-export const viewLabels={home:'Homecare',catalog:'U.S. products',global:'Global retailers & items',compare:'Compare products',analysis:'Sales & analysis',target:'Target inspiration',opportunities:'Opportunities'};
+export const mainSections=['home','products','insights','opportunities'];
+export const viewLabels={home:'Homecare',catalog:'U.S. products',global:'Global retailers & items',compare:'Compare products',analysis:'Sales & analysis',target:'Target inspiration',opportunities:'White-label recommendations'};
 export function readView(search='',hash=''){
  const p=new URLSearchParams(search),view=p.get('view');
  if(view==='retailers')return 'global';
- if(view==='workshop')return 'workshop';
+ if(view==='workshop')return 'opportunities';
  if(Object.hasOwn(viewLabels,view))return view;
  return hash==='#category-directory'?'catalog':'home';
 }
