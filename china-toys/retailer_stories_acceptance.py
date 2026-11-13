@@ -1,4 +1,4 @@
-"""Reader journey for retailer profiles, source-linked updates and aisle navigation."""
+"""Reader journey for retailer profiles, source-linked updates and directory navigation."""
 import json
 from pathlib import Path
 
@@ -45,13 +45,8 @@ def check_stories(page,context,out):
  page.locator('#storiesRetailer').select_option('iris')
  page.locator('#storiesSelected [data-retailer-story]').click()
  expect(page.locator('#retailerStoryBody')).to_contain_text('Milktea')
- original=page.evaluate('JSON.stringify(window.ATLAS_RETAIL.getState().items)')
- page.locator('[data-stories-shop="shop:iris"]').click()
- expect(page.locator('#workspace-retail')).to_be_visible()
- expect(page.locator('#retailSourceRetailer')).to_have_value('shop:iris')
- assert page.evaluate('JSON.stringify(window.ATLAS_RETAIL.getState().items)')==original
- page.locator('.stories-workshop-link').click()
- expect(page.locator('#storiesRetailer')).to_have_value('iris')
+ assert page.locator('[data-stories-shop]').count()==0
+ page.get_by_role('button',name='Close retailer story').click()
  page.locator('[data-stories-tab="news"]').click()
  expect(page.locator('.stories-empty')).to_contain_text('No dated update verified')
  page.locator('#storiesReset').click()
@@ -59,8 +54,6 @@ def check_stories(page,context,out):
  archive=int(page.locator('#storiesCount').inner_text().split()[0]);page.locator('#storiesPeriod').select_option('30')
  assert int(page.locator('#storiesCount').inner_text().split()[0])<=archive
  page.reload(wait_until='domcontentloaded');expect(page.locator('#workspace-stories')).to_be_visible()
- # Every selectable workshop source key resolves to one of the background profiles.
- assert page.evaluate('''() => {const keys=new Set(window.ATLAS_RETAILER_STORIES.retailers.flatMap(r=>r.retailer_keys));return [...document.querySelectorAll('#retailSourceRetailer option')].every(o=>!o.value||keys.has(o.value))}''')
  page.screenshot(path=str(out/'retailer-stories-desktop.png'))
  for width,height in [(847,793),(390,844)]:
   page.set_viewport_size(dict(width=width,height=height));assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
@@ -69,4 +62,4 @@ def check_stories(page,context,out):
   assert page.locator('#retailerStoryDialog').evaluate('(e)=>e.scrollWidth<=e.clientWidth+1')
   page.get_by_role('button',name='Close retailer story').click();page.locator('#storiesReset').click();page.screenshot(path=str(out/f'retailer-stories-{width}.png'))
  page.set_viewport_size(dict(width=1440,height=1080))
- return 'Retailer stories: news and journal images decode, captions/source credits, failed-photo fallback, all configured sources/chains covered, publication/event dates separated, 34 story dialogs, filters/archive/empty states, linked aisle selection preserves products, mobile layouts'
+ return 'Retailer stories: news and journal images decode, captions/source credits, failed-photo fallback, all configured sources/chains covered, publication/event dates separated, 34 story dialogs, filters/archive/empty states, retired aisle controls absent, mobile layouts'

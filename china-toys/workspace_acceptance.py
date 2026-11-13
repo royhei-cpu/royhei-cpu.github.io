@@ -247,18 +247,9 @@ def run(scope='all'):
                     page.locator('#currency').select_option('USD')
                     no_overflow()
                 page.screenshot(path=str(out / f'workspace-{width}.png'))
-            if scope in ('workshop', 'all'):
-                from workshop_flow_acceptance import check_workshop_flow
-                page.set_viewport_size({'width': 1440, 'height': 1080})
-                checks.append(check_workshop_flow(page, context, out))
-            if scope in ('retail', 'all'):
-                from retail_acceptance import check_retail
-                page.set_viewport_size({'width': 1440, 'height': 1080})
-                checks.append(check_retail(page, context, out))
-            if scope in ('planogram', 'all'):
-                from planogram_acceptance import check_planogram
-                page.set_viewport_size({'width': 1440, 'height': 1080})
-                checks.append(check_planogram(page, context, out))
+            assert page.locator('[data-workspace="retail"], [data-workspace="planogram"]').count() == 0
+            assert page.locator('script[src*="planogram.js"], script[src*="retail-studio.js"]').count() == 0
+            checks.append('Original standalone Toy Atlas navigation; retired development tools absent')
             if scope in ('stories', 'all'):
                 from retailer_stories_acceptance import check_stories
                 page.set_viewport_size({'width': 1440, 'height': 1080})

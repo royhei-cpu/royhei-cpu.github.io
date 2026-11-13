@@ -104,11 +104,14 @@ jobs:
           python china-toys/clarity_test.py
           python china-toys/chain_coverage_test.py
           python china-toys/brand_directory_test.py
-      - name: Build and validate simplified directory data
+      - name: Build and validate distinct directory sites
         id: staged
         run: |
           mkdir -p _site
+          npm ci --prefix home-care/ui-src
+          npm run build --prefix home-care/ui-src
           cp -R home-care/site _site/home-care
+          node home-care/optimize-loading.mjs _site/home-care/index.html
           cp -R china-toys _site/china-toys
           node china-toys/apply-product-scope.mjs _site/china-toys
           python china-toys/build_source_audit_report.py
@@ -117,11 +120,11 @@ jobs:
           python luggage-atlas/validate.py
           cp -R luggage-atlas _site/luggage-atlas
           python .github/scripts/pages/build-directories.py
-          node --check .github/scripts/pages/directory/app.js
+          python .github/scripts/pages/prepare-distinct-sites.py
           node --test .github/scripts/pages/directory.test.cjs
       - name: Verify research preservation
         run: python china-toys/validate_refresh_contract.py preservation --baseline /tmp/china-toys-baseline.json
-      - name: Validate simplified directory browser flows
+      - name: Validate original Toy Atlas browser flows
         if: ${{ !cancelled() && steps.staged.outcome == 'success' }}
         run: python china-toys/validate_refresh_contract.py site --site _site/china-toys --browser
       - name: Save directory changes

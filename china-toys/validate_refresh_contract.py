@@ -231,56 +231,25 @@ def validate_site(site, root):
                 if o.get('image'):
                     require(any(v.get('image') == o['image'] or (v.get('image') == p.get('image') and v.get('imageSource') == o['image']) or any(photo.get('url') == o['image'] for photo in v.get('gallery', [])) for v in matching), 'Variant photo lost: ' + p['id'])
     html = (site/'index.html').read_text()
-    for name in ('directory-data.js', 'directory.js', 'guide-chapters.js'):
+    for name in ('app.js', 'simple-navigation.js', 'compare.js', 'catalog-guide.js'):
         require('src="' + name in html and (site/name).is_file(), 'Missing public script: ' + name)
-    require('src="app.js' not in html and 'src="ip-directory.js' not in html, 'Retired controller loaded')
+    require('src="planogram.js' not in html and 'src="retail-studio.js' not in html, 'Retired development controller loaded')
+    require('class="site-switcher"' not in html, 'Combined website navigation returned')
     for n in d['news']:
         require(n.get('sources') and any(s.get('url') for s in n['sources']), 'Unsourced news: ' + n['id'])
     return d
 
 
 def browser_check(site):
-    from playwright.sync_api import sync_playwright, expect
-    out = Path('/tmp/china-toys-directory-qa'); out.mkdir(exist_ok=True)
-    handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(site.parent))
-    server = http.server.ThreadingHTTPServer(('127.0.0.1', 0), handler)
-    worker = threading.Thread(target=server.serve_forever, daemon=True); worker.start()
-    errors = []
+    # Exercise the same native UI that is published, including exact-shop comparison,
+    # CSV, saved collections, source-linked news and desktop/mobile navigation.
+    import workspace_acceptance
+    previous = workspace_acceptance.ROOT
     try:
-        with sync_playwright() as pw:
-            browser = pw.chromium.launch(executable_path=os.environ.get("PLAYWRIGHT_CHROMIUM_EXECUTABLE"))
-            for width in (1440, 390):
-                page = browser.new_page(viewport={'width': width, 'height': 900})
-                page.on('pageerror', lambda e: errors.append(str(e)))
-                page.goto(f'http://127.0.0.1:{server.server_port}/china-toys/', wait_until='domcontentloaded')
-                expect(page.locator('#cards [data-detail]').first).to_be_visible()
-                character = page.locator('#f-character option').nth(1).get_attribute('value')
-                page.locator('.more-filters').evaluate('(e)=>e.open=true')
-                page.locator('#f-character').select_option(character)
-                require(page.evaluate('(c)=>DirectoryTest.filtered().length>0 && DirectoryTest.filtered().every(p=>p.character===c)', character), 'Character filter failed')
-                page.locator('[data-reset]').first.click()
-                page.locator('#search').fill(character)
-                require(page.evaluate('DirectoryTest.filtered().length>0'), 'Character search failed')
-                page.locator('#cards [data-pick]').first.check()
-                page.locator('[data-route="compare"]').click()
-                expect(page.locator('#comparison table')).to_be_visible()
-                with page.expect_download() as download:
-                    page.locator('#export-selected').click()
-                require(download.value.suggested_filename.endswith('.csv'), 'CSV export failed')
-                page.locator('[data-route="news"]').click()
-                expect(page.locator('#news-status')).to_be_visible()
-                page.locator('[data-route="search"]').click()
-                expect(page.locator('[data-view="search"]')).to_be_visible()
-                page.screenshot(path=str(out/f'directory-{width}.png'))
-                dimensions = page.evaluate("""() => ({viewport: innerWidth, document: document.documentElement.scrollWidth, overflowing: [...document.querySelectorAll('body *')].filter(e => {const r=e.getBoundingClientRect(); return r.width && (r.right>innerWidth+1 || r.left < -1) && getComputedStyle(e).position!=='absolute'}).slice(0,30).map(e => ({tag:e.tagName,id:e.id,classes:e.className,width:e.getBoundingClientRect().width,right:e.getBoundingClientRect().right}))})""")
-                (out/f'layout-{width}.json').write_text(json.dumps(dimensions, indent=2))
-                require(dimensions['document'] <= width + 1, f'Horizontal overflow at {width}px: {dimensions}')
-                page.close()
-            browser.close()
-        require(not errors, 'Browser errors: ' + repr(errors))
-        (out/'results.json').write_text(json.dumps({'passed': True, 'viewports': [1440, 390], 'scope': 'Search, character filter, compare, CSV, news; not a live source or tutorial media audit'}))
+        workspace_acceptance.ROOT = site.resolve()
+        workspace_acceptance.run('all')
     finally:
-        server.shutdown(); server.server_close(); worker.join()
+        workspace_acceptance.ROOT = previous
 
 
 if __name__ == '__main__':

@@ -125,7 +125,7 @@ def manifest():
                     TOYS: ("app.js", "simple-navigation.js", "compare.js"),
                     LUGGAGE: ("app.js", "directory.js", "workbench.js")}[directory]
         for name in required:
-            check(any(urlsplit(p).path == directory + "/" + name for p in resolved),
+            check(any(urlsplit(p).path.lstrip("/") == directory + "/" + name for p in resolved),
                   f"Missing original application script {name}: {directory}")
         for url in resolved:
             if not urlsplit(url).scheme and not url.startswith("//"):

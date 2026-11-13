@@ -1,4 +1,4 @@
-"""Offline regressions for the daily refresh / simplified directory boundary."""
+"""Offline regressions for the daily refresh / distinct directory boundary."""
 import copy
 import importlib.util
 import json
@@ -24,7 +24,7 @@ class RefreshContractTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory(); self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name); self.toys = self.root/'china-toys'; self.toys.mkdir()
-        for name in ('build_ip_directory.py', 'navigation_fix.py', 'app.js', 'index.html', 'ip-directory.js', 'ip-market.json'):
+        for name in ('build_ip_directory.py', 'navigation_fix.py', 'app.js', 'index.html', 'ip-directory.js', 'ip-market.json', 'simple-navigation.js', 'compare.js', 'catalog-guide.js'):
             shutil.copy2(R/name, self.toys/name)
         cfg = json.loads((self.toys/'ip-market.json').read_text())
         ps = []
@@ -90,8 +90,9 @@ class RefreshContractTests(unittest.TestCase):
         site = self.stage(); d = gate.validate_site(site, self.toys)
         self.assertEqual(json.loads((site/'catalog.json').read_text()), self.data)
         self.assertTrue(any(r.get('variant') == 'Box' and r['amount'] == 60 and r['image'] == 'images/b.png' for r in d['items']))
-        self.assertFalse((site/'ip-directory.js').exists())
-        self.assertIn('directory-guide.mp4', (site/'index.html').read_text())
+        self.assertTrue((site/'ip-directory.js').exists())
+        self.assertEqual((site/'index.html').read_bytes(), (self.toys/'index.html').read_bytes())
+        self.assertIn('China_Toy_Atlas_Tutorial.mp4', (site/'catalog-guide.js').read_text())
 
     def test_cached_primary_photo_keeps_its_exact_source_mapping(self):
         p = self.data['products'][0]

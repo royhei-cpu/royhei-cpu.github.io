@@ -24,8 +24,10 @@ jobs:
           python china-toys/quality.py
           python china-toys/apply_chain_coverage.py --cache-images
           python china-toys/build_chain_assortments.py
-      - name: Check physical planogram geometry and saved-plan migration
-        run: node china-toys/planogram_test.cjs
+      - name: Check original directory controllers
+        run: |
+          node --check china-toys/simple-navigation.js
+          node --check china-toys/compare.js
       - name: Check retailer news evidence and cached-feed behavior
         run: python china-toys/test_retailer_stories.py
       - name: Check desktop and mobile interactions
