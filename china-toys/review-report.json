@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-13",
-      "raw_products_read": 956,
+      "raw_products_read": 975,
       "currency": "USD"
     },
     {
@@ -80,7 +80,7 @@
       "url": "https://toybeta.com",
       "status": "complete",
       "checked": "2026-11-13",
-      "raw_products_read": 1290,
+      "raw_products_read": 1292,
       "currency": "USD"
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://didapop.com",
       "status": "complete",
       "checked": "2026-11-13",
-      "raw_products_read": 1799,
+      "raw_products_read": 1801,
       "currency": "USD"
     },
     {
@@ -98,7 +98,7 @@
       "url": "https://pawmiga.myshopify.com",
       "status": "complete",
       "checked": "2026-11-13",
-      "raw_products_read": 133,
+      "raw_products_read": 138,
       "currency": "USD"
     },
     {
@@ -1253,6 +1253,12 @@
       "type": "brand label"
     },
     {
+      "id": "8281ff80cf511769",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
       "id": "e9819b534c9aced0",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -1296,12 +1302,6 @@
     },
     {
       "id": "850e71aa8b8b3ad8",
-      "from": "DidaPop",
-      "to": "Brand not disclosed",
-      "type": "brand label"
-    },
-    {
-      "id": "8281ff80cf511769",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -1397,6 +1397,18 @@
       "type": "brand label"
     },
     {
+      "id": "e67ee9a97a132e38",
+      "from": "Lisa Squishy",
+      "to": "Lisa",
+      "type": "brand label"
+    },
+    {
+      "id": "76c8bb60e66d5727",
+      "from": "Lisa Squishy",
+      "to": "Lisa",
+      "type": "brand label"
+    },
+    {
       "id": "56ddb00df6dd0919",
       "from": "Lisa Squishy",
       "to": "Lisa",
@@ -1440,6 +1452,12 @@
     },
     {
       "id": "5c8a28da6e5474a1",
+      "from": "Lisa Squishy",
+      "to": "Lisa",
+      "type": "brand label"
+    },
+    {
+      "id": "02d5f42e38820009",
       "from": "Lisa Squishy",
       "to": "Lisa",
       "type": "brand label"
@@ -1700,6 +1718,36 @@
   ],
   "image_repairs": [
     {
+      "id": "24fc8fd5f539fca0",
+      "name": "Alien Stage Dreaming Hours Series Plush Pendant Blind Box",
+      "source": "https://www.kikagoods.com/products/alien-stage-dreaming-hours-series-plush-pendant-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "5377fcf66ec0e69f",
+      "name": "Alien Stage Dreaming Hours Series Mini Electric Fan Blind Box",
+      "source": "https://www.kikagoods.com/products/alien-stage-dreaming-hours-series-mini-electric-fan-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "ea917a28c9c5348e",
+      "name": "Alien Stage 4th Anniversary Roller Star Series Phone Strap Blind Box",
+      "source": "https://www.kikagoods.com/products/alien-stage-4th-anniversary-roller-star-series-phone-strap-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "0f4445f238c4199f",
+      "name": "Alien Stage 4th Anniversary Roller Star Series Tin Case Keyring Blind Box",
+      "source": "https://www.kikagoods.com/products/alien-stage-4th-anniversary-roller-star-series-tin-case-keyring-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "bfe51bc17b4999c7",
+      "name": "Alien Stage 4th Anniversary Roller Star Series Cake Figure Blind Box",
+      "source": "https://www.kikagoods.com/products/alien-stage-4th-anniversary-roller-star-series-cake-figure-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "7e865395dff975ed",
       "name": "LuLu the Piggy Lu's Table Series Blind Box",
       "source": "https://www.kikagoods.com/products/lulu-the-piggy-lus-table-series-blind-box",
@@ -1919,12 +1967,6 @@
       "id": "5590e62ed9f72f09",
       "name": "Alien Stage Baby Series Badge Blind Box",
       "source": "https://www.kikagoods.com/products/alien-stage-baby-series-badge-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "98aa74a49a717a82",
-      "name": "MayMei Let the Haunting Begin Series Plush Blind Box",
-      "source": "https://www.kikagoods.com/products/maymei-let-the-haunting-begin-series-plush-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6620,15 +6662,27 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "a0ee12886519ba46",
-      "name": "【Pick Your Lucky Digit】UUTOY Gift Of Nature Series Beans Blind Bag",
-      "source": "https://toybeta.com/products/uutoy-gift-of-nature-series-beans-blind-bag-副本",
+      "id": "50ddab93b25aecc0",
+      "name": "POP BEAN Wishes Come True Series Mini Blind Box",
+      "source": "https://toybeta.com/products/pop-bean-wishes-come-true-series-mini-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "7d7c1149515f4435",
-      "name": "Murr-Meow Series Mini Beans Blind Bag",
-      "source": "https://toybeta.com/products/nurr-meow-series-mini-beans-blind-bag",
+      "id": "e0b77409b0944614",
+      "name": "Wishes Come True Series - Plush Pendant Blind Box",
+      "source": "https://toybeta.com/products/wishes-come-true-series-plush-pendant-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "2e14514ddeb6373b",
+      "name": "Zoraa Go!!! Mini Series Figure Blind Box【TNTSpace】",
+      "source": "https://toybeta.com/products/zoraa-go-mini-series-figure-blind-box-tntspace",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "a0ee12886519ba46",
+      "name": "【Pick Your Lucky Digit】UUTOY Gift Of Nature Series Beans Blind Bag",
+      "source": "https://toybeta.com/products/uutoy-gift-of-nature-series-beans-blind-bag-副本",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12597,27 +12651,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4508,
-  "after_products": 4480,
+  "before_products": 4525,
+  "after_products": 4497,
   "stats": {
-    "products": 4478,
-    "brands": 788,
-    "squishy": 458,
-    "with_images": 4478,
+    "products": 4495,
+    "brands": 789,
+    "squishy": 462,
+    "with_images": 4495,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4469,
+    "with_source_prices": 4486,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2548,
-    "with_dimensions": 1762,
-    "with_variant_options": 4168,
-    "source_linked_images": 4175,
+    "with_specifications": 2558,
+    "with_dimensions": 1768,
+    "with_variant_options": 4185,
+    "source_linked_images": 4192,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 8,
-    "with_shop_descriptions": 3716
+    "with_shop_descriptions": 3729
   },
   "checklist": [
     {
@@ -12625,8 +12679,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 208,
-      "with_details": 128,
+      "records": 210,
+      "with_details": 130,
       "with_china_price": 6,
       "with_release": 21,
       "status": "Partial — more series and China evidence needed"
@@ -12669,8 +12723,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 86,
-      "with_details": 78,
+      "records": 87,
+      "with_details": 79,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"
@@ -12966,7 +13020,7 @@
       "group": "Squishy specialist watchlist",
       "basis": "Makers named by specialist stockists. Inclusion means assortment coverage to investigate, not proof each maker is nationally popular.",
       "source": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies",
-      "records": 33,
+      "records": 36,
       "with_details": 0,
       "with_china_price": 0,
       "with_release": 0,

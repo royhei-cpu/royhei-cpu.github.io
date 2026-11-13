@@ -4,7 +4,7 @@
   "requested_brands": [
     {
       "brand": "POP MART",
-      "records": 208,
+      "records": 210,
       "status": "Partial assortment"
     },
     {
@@ -29,7 +29,7 @@
     },
     {
       "brand": "TNT SPACE",
-      "records": 86,
+      "records": 87,
       "status": "Partial assortment"
     }
   ],
@@ -905,11 +905,12 @@
     {
       "id": "zoraa",
       "name": "Zoraa",
-      "records": 28,
+      "records": 29,
       "product_ids": [
         "49c0f251ebf483ad",
         "8a29f6222396e971",
         "edd1399776aa92af",
+        "2e14514ddeb6373b",
         "2726afe410019a8c",
         "091c4015a930b337",
         "186aa3649a0d628f",
