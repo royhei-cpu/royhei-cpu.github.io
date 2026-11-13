@@ -1,11 +1,11 @@
 {
-  "edition": "2026-11-11",
+  "edition": "2026-11-13",
   "periodStart": "2026-11-04",
-  "periodEnd": "2026-11-11",
+  "periodEnd": "2026-11-13",
   "baseline": false,
   "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
-  "nextScheduled": "2026-11-12",
-  "coverage": "173 of 175 brands have priced observations. Three Black Peak Design Roller Lite sizes added; worldwide assortment remains partial.",
+  "nextScheduled": "2026-11-14",
+  "coverage": "Daily source review November 13: one verified company results announcement; zero new verified product launches or offers. Existing assortment and dated price observations retained.",
   "items": [
     {
       "id": "peak-roller-lite-us",
@@ -148,12 +148,12 @@
     "note": "DTA / DTA Nova added; existing price and news brand references reconciled."
   },
   "latestBulletin": {
-    "checked": "2026-11-11",
-    "newsDate": "2026-11-11",
-    "title": "Peak Design Roller Lite offers verified",
-    "text": "Three Black case-only offers and four matched photographs added. Official prices are promotional; end date unverified. November 10 launch is reported in press, but the primary product pages do not establish a dated release. Zero newly verified primary-source launch dates in this daily scan.",
-    "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
-    "records": 3
+    "checked": "2026-11-13",
+    "newsDate": "2026-11-12",
+    "title": "Samsonite reports Q3 2026 results",
+    "text": "For July–September 2026, worldwide group net sales were USD 872.7 million, flat year over year in reported dollars and up 0.6% at constant currency. Travel-category revenue was USD 555.6 million, down 1.1% reported and 0.5% at constant currency. These are company/category revenues, not unit sales, retailer rankings or model popularity.",
+    "source": "https://www.prnewswire.com/news-releases/samsonite-group-sa-announces-results-for-the-third-quarter-and-nine-months-ended-september-30-2026-302937847.html",
+    "records": 0
   },
   "promotion": {
     "date": "2026-11-08",
