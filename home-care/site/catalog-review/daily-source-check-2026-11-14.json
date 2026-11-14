@@ -1,0 +1,104 @@
+{
+  "reviewedAt": "2026-11-14",
+  "status": "targeted daily review completed; comprehensive Monday review remains incomplete outside its recorded bounds",
+  "baselineRecords": 10256,
+  "publishedRecords": 10259,
+  "verifiedAdditions": 3,
+  "additionsByRetailer": {
+    "Ace Hardware": 0,
+    "Albertsons": 0,
+    "Amazon US": 0,
+    "BJ’s Wholesale": 0,
+    "CVS": 0,
+    "Costco": 0,
+    "Dollar General": 0,
+    "Dollar Tree": 0,
+    "H-E-B": 0,
+    "Home Depot": 0,
+    "Kroger": 0,
+    "Lowe’s": 0,
+    "Meijer": 0,
+    "Publix": 0,
+    "Safeway": 0,
+    "Sam’s Club": 0,
+    "TikTok Shop": 0,
+    "Walgreens": 0,
+    "Walmart": 3
+  },
+  "newLaunches": 0,
+  "newVerifiedNews": 0,
+  "sourceAccessProbes": [
+    {"retailer":"Ace Hardware","url":"https://www.acehardware.com/departments/home-and-decor/cleaning-and-disinfectants/tile-cleaners-near-me","httpStatus":"200","bytes":1060282,"result":"retrieved-unvalidated"},
+    {"retailer":"Albertsons","url":"https://www.albertsons.com/shop/pd/reynolds-wrap-aluminum-foil-200-sq-ft-each/130050222","httpStatus":"200","bytes":840214,"result":"retrieved-unvalidated"},
+    {"retailer":"Amazon US","url":"https://www.amazon.com/Household-Supplies-Scrub-Daddy-Health/s?rh=n%3A15342811%2Cp_89%3AScrub%2BDaddy","httpStatus":"503","bytes":0,"result":"blocked-or-unavailable"},
+    {"retailer":"BJ’s Wholesale","url":"https://www.bjs.com/product/arm--hammer-plus-oxiclean-odor-blasters-liquid-laundry-detergent---fresh-burst-200-fl-oz/3000000000005873299","httpStatus":"200","bytes":2000142,"result":"retrieved-unvalidated"},
+    {"retailer":"CVS","url":"https://www.cvs.com/shop/dawn-platinum-plus-powerwash-dish-spray-fresh-clean-16-oz-prodid-387401","httpStatus":"200","bytes":3976027,"result":"retrieved-unvalidated"},
+    {"retailer":"Costco","url":"https://www.costco.com/household-cleaning.html","httpStatus":"200","bytes":2568822,"result":"retrieved-unvalidated"},
+    {"retailer":"Dollar General","url":"https://www.dollargeneral.com/p/fabuloso-2x-multi-purpose-cleaner-with-baking-soda-citrus-and-fruits-scent-56-fl-oz/35000530615","httpStatus":"200","bytes":218234,"result":"retrieved-unvalidated"},
+    {"retailer":"Dollar Tree","url":"https://sameday.dollartree.com/store/dollar-tree/products/17950911-la-s-totally-awesome-all-purpose-concentrated-cleaner-32-fl-oz","httpStatus":"403","bytes":0,"result":"blocked-or-unavailable"},
+    {"retailer":"H-E-B","url":"https://www.heb.com/product-detail/field-future-by-h-e-b-dishwashing-liquid-fragrance-free/5010074","httpStatus":"200","bytes":212,"result":"retrieved-unvalidated"},
+    {"retailer":"Home Depot","url":"https://www.homedepot.com/p/100670178","httpStatus":"200","bytes":1151930,"result":"retrieved-unvalidated"},
+    {"retailer":"Kroger","url":"https://www.kroger.com/pl/cleaning-household/18011","httpStatus":"200","bytes":1246074,"result":"retrieved-unvalidated"},
+    {"retailer":"Lowe’s","url":"https://www.lowes.com/pl/cleaning-tools/mops/spray-mops/o-cedar/microfiber/3998445995-553466270-4294721465","httpStatus":"200","bytes":347057,"result":"retrieved-unvalidated"},
+    {"retailer":"Meijer","url":"https://www.meijer.com/shopping/product/snuggle-lq-fab-sof-blue-sparkle-74-8oz/7261347456","httpStatus":"200","bytes":399121,"result":"retrieved-unvalidated"},
+    {"retailer":"Publix","url":"https://delivery.publix.com/store/publix/products/39743-clorox-disinfecting-wipes-150-ct","httpStatus":"403","bytes":0,"result":"blocked-or-unavailable"},
+    {"retailer":"Safeway","url":"https://www.safeway.com/shop/pd/bounty-regular-paper-towel-48-ct-rl/970461182","httpStatus":"200","bytes":834668,"result":"retrieved-unvalidated"},
+    {"retailer":"Sam’s Club","url":"https://www.samsclub.com/ip/members-mark-platinum-performance-liquid-dish-soap-fresh-clean-100-fl-oz/13892164761","httpStatus":"200","bytes":1077886,"result":"retrieved-unvalidated"},
+    {"retailer":"TikTok Shop","url":"https://shop.tiktok.com/us/store/scrub-daddy/7494956340169509603","httpStatus":"200","bytes":662164,"result":"retrieved-unvalidated"},
+    {"retailer":"Walgreens","url":"https://www.walgreens.com/search/tier3/productlist/N%3D20007728-93-86","httpStatus":"404","bytes":0,"result":"blocked-or-unavailable"},
+    {"retailer":"Walmart","url":"https://www.walmart.com/shop/household-essentials/surface-care-new-arrivals","httpStatus":"200","bytes":1650105,"result":"retrieved-and-reviewed"}
+  ],
+  "probeLimit": "One retained source per tracked retailer was probed, with a deeper Walmart new-arrivals and item-page review. HTTP success and keyword screening do not establish exact item validity, current stock or exhausted pagination. No retailer's complete Home Care assortment was reconciled in this daily pass.",
+  "exactItemChecks": [
+    {
+      "retailer": "Walmart",
+      "retailerItemId": "20870165467",
+      "url": "https://www.walmart.com/ip/SCRUBIT-Natural-Loofah-Dish-Sponges-Biodegradable-Kitchen-Scrubbers-Beige-6-Count/20870165467",
+      "result": "Exact six-count beige loofah pack, model 952-6, seller, USD 12.90 page price and primary photo verified; broader stock, first-available date and launch date not verified"
+    },
+    {
+      "retailer": "Walmart",
+      "retailerItemId": "20886957405",
+      "url": "https://www.walmart.com/ip/SCRUBIT-Non-Scratch-Dish-Scrubbers-Reusable-Nylon-Kitchen-Scouring-Pads-Multicolor-5-Count/20886957405",
+      "result": "Exact five-count multicolor nylon pack, model 976, seller, USD 8.99 page price and primary photo verified; broader stock, first-available date and launch date not verified"
+    },
+    {
+      "retailer": "Walmart",
+      "retailerItemId": "21187524978",
+      "url": "https://www.walmart.com/ip/TRANQUIL-TOUCH-Holiday-Collection-Mop-Soap-Luxury-Floor-Cleaner-Hardwood-Tile-Laminate-Stone-LVP-Long-Lasting-Fragrance-No-Residue-32-oz/21187524978",
+      "result": "Exact 32 fl oz Holiday Collection page, Merry & Bright image/model CN002, seller, USD 22.99 page price and primary photo verified; official brand collection confirmed; broader stock, first-available date and launch date not verified"
+    }
+  ],
+  "categoryAndPaginationChecks": [
+    {"retailer":"Amazon US","scope":"Household Supplies / Scrub Daddy category reference","status":"blocked","pagination":"not started","remainingGap":"503 response prevented exact ASIN and pagination checks"},
+    {"retailer":"Walmart","scope":"Surface Care New Arrivals plus three exact item pages","status":"partial","pagination":"at least 48 category cards reviewed; not exhausted","remainingGap":"dynamic and location-dependent results prevented full-category reconciliation"},
+    {"retailer":"Costco","scope":"Household Cleaning Essentials category","status":"partial","pagination":"not exhausted","remainingGap":"reviewed visible examples were already represented; member/location price and stock remain unresolved"},
+    {"retailer":"TikTok Shop","scope":"Home Cleaner category plus retained store source","status":"partial","pagination":"not exhausted","remainingGap":"dynamic metadata and a browser security check prevented exact seller/item reconciliation"},
+    {"retailer":"Quince","scope":"Storage & Organization adjacent scope","status":"partial","pagination":"not exhausted","remainingGap":"official category was accessible, but exact-item and page-bound reconciliation was not completed; Quince remains outside the 19-retailer Home Care ITEMS set"},
+    {"retailer":"Remaining 15 tracked retailers","scope":"one retained source per retailer","status":"probe only","pagination":"not started","remainingGap":"single-link access probes do not establish inventory completeness"}
+  ],
+  "productSources": [
+    "https://www.walmart.com/ip/SCRUBIT-Natural-Loofah-Dish-Sponges-Biodegradable-Kitchen-Scrubbers-Beige-6-Count/20870165467",
+    "https://www.walmart.com/ip/SCRUBIT-Non-Scratch-Dish-Scrubbers-Reusable-Nylon-Kitchen-Scouring-Pads-Multicolor-5-Count/20886957405",
+    "https://www.walmart.com/ip/TRANQUIL-TOUCH-Holiday-Collection-Mop-Soap-Luxury-Floor-Cleaner-Hardwood-Tile-Laminate-Stone-LVP-Long-Lasting-Fragrance-No-Residue-32-oz/21187524978"
+  ],
+  "manufacturerSources": [
+    "https://tranquiltouchclean.com/"
+  ],
+  "newsSources": [],
+  "additionalSourceReview": {
+    "retailer": "Quince",
+    "scope": "Home Organization / adjacent; not added to competitor ITEMS",
+    "categoryURL": "https://www.quince.com/shop/home/all-decor/storage-organization",
+    "checkedDate": "2026-11-14",
+    "status": "Official category accessible. Exact item pages and pagination were not reconciled, so no product, stock or restock claim was added.",
+    "verifiedAdditions": 0
+  },
+  "remainingGaps": [
+    "Amazon category access returned 503, so no Amazon item was added or upgraded.",
+    "TikTok Shop category metadata was retrievable, but browser security checks and dynamic results prevented a new exact product/seller verification.",
+    "Costco visible category examples reviewed in this pass were already present; member/location pricing, stock and full pagination remain unresolved.",
+    "The current 19-retailer by 15-category coverage matrix was not re-enumerated; the latest comprehensive Monday review remains the applicable bounded audit.",
+    "No retailer first-available date, verified product-launch date or new in-scope official brand announcement was established for this pass."
+  ]
+}

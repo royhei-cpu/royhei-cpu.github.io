@@ -1,5 +1,32 @@
 [
   {
+    "id": "catalog-update-2026-11-14",
+    "title": "Three exact Walmart listings added",
+    "type": "Catalog update",
+    "summary": "Two distinct SCRUBIT dish-scrubber packs and one Tranquil Touch Holiday Collection mop soap were checked for exact item, pack or selected variant, seller and matched primary photo. They are new to this directory, not verified product launches. No new in-scope official brand launch was verified in this pass.",
+    "date": "2026-11-14",
+    "dateLabel": "New to this directory · checked 14 November 2026",
+    "checked": "2026-11-14",
+    "sources": [
+      {
+        "label": "Walmart: SCRUBIT natural loofah sponges, 6 count",
+        "url": "https://www.walmart.com/ip/SCRUBIT-Natural-Loofah-Dish-Sponges-Biodegradable-Kitchen-Scrubbers-Beige-6-Count/20870165467"
+      },
+      {
+        "label": "Walmart: SCRUBIT nylon scrub cloths, 5 count",
+        "url": "https://www.walmart.com/ip/SCRUBIT-Non-Scratch-Dish-Scrubbers-Reusable-Nylon-Kitchen-Scouring-Pads-Multicolor-5-Count/20886957405"
+      },
+      {
+        "label": "Walmart: Tranquil Touch Holiday Collection mop soap, 32 fl oz",
+        "url": "https://www.walmart.com/ip/TRANQUIL-TOUCH-Holiday-Collection-Mop-Soap-Luxury-Floor-Cleaner-Hardwood-Tile-Laminate-Stone-LVP-Long-Lasting-Fragrance-No-Residue-32-oz/21187524978"
+      },
+      {
+        "label": "Tranquil Touch official Holiday Collection",
+        "url": "https://tranquiltouchclean.com/"
+      }
+    ]
+  },
+  {
     "id": "catalog-update-2026-11-13",
     "title": "Three exact cleaning-appliance listings added",
     "type": "Catalog update",
