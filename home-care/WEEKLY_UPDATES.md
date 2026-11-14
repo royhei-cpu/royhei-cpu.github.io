@@ -154,3 +154,13 @@ The three-row selected-only CSV was inspected for exact row count, retailer mapp
 - Rechecked Quince Storage & Organization as adjacent scope. The official page displayed 13 items, but exact-item reconciliation was incomplete and changing restock labels were not promoted to news.
 - Kept the simplified directory only. Build and data tests passed for search, comparison, news and CSV; retired analysis and workshop modules remain absent.
 - See `site/catalog-review/daily-source-check-2026-11-13.json`.
+
+## 14 November 2026 — Walmart surface-care follow-up
+
+- Preserved all 10,256 canonical records and added three exact Walmart listings, for 10,259: SCRUBIT natural-loofah dish sponges (6 count), SCRUBIT nylon scrub cloths (5 count) and Tranquil Touch Holiday Collection mop soap (32 fl oz; Merry & Bright image/model scope).
+- Verified each exact Walmart item ID, pack or selected variant, seller, USD page-price snapshot and matched primary photo. Tranquil Touch's official site independently confirms the Holiday Collection and brand identity.
+- Labeled all three as new to the directory, not verified launches. Walmart new-arrivals placement and New labels do not establish retailer first-available or product-launch dates.
+- Probed one retained source for every tracked retailer, then reviewed Walmart Surface Care New Arrivals more deeply. Amazon returned 503; TikTok category results remained dynamic/security-gated; Costco visible examples were already represented; no full retailer pagination was exhausted.
+- Rechecked Quince Storage & Organization as adjacent scope without promoting any item or stock claim. No new in-scope official brand launch was verified.
+- Kept Home Care, China Toy Atlas and Luggage Atlas distinct. Home Care retains evidence-scoped white-label recommendations while retired planogram, virtual-aisle, Blender/3D, BOM and design-workshop controls remain excluded.
+- See `site/catalog-review/daily-source-check-2026-11-14.json`.
