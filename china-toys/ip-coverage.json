@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-13",
+  "catalog_date": "2026-11-14",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "brand": "52TOYS",
-      "records": 131,
+      "records": 136,
       "status": "Partial assortment"
     },
     {
@@ -831,17 +831,16 @@
       "name": "DORA / BABY DORA",
       "records": 30,
       "product_ids": [
-        "e5e680ec01fb81d5",
         "bdb646da849282ff",
         "be5f4ae9b97224b9",
         "e95dcbd228797ef5",
         "a5885a1dde97878c",
         "7fcd7ad83545e65e",
         "7eb168772f08214e",
-        "6323a3cd2afd38e8",
         "b83884e6335bdd7b",
         "ca9837c05fd62f44",
         "a6016653d6cf8800",
+        "6323a3cd2afd38e8",
         "d0dc71d568229437",
         "d838e92de8bb477c",
         "27f54bff567b5584",
@@ -860,7 +859,8 @@
         "240740807aecf154",
         "bbf45eaa62e214d3",
         "90fb8538b42cb383",
-        "179a9778097fadf8"
+        "179a9778097fadf8",
+        "e5e680ec01fb81d5"
       ],
       "status": "Partial assortment"
     },
@@ -970,7 +970,6 @@
       "name": "WAKUKU",
       "records": 10,
       "product_ids": [
-        "e1d7305d539ade39",
         "079c74679b5677ae",
         "d5be21f7351277ff",
         "3c7a863f3ff224aa",
@@ -979,7 +978,8 @@
         "b63fb251fcdc59b5",
         "1702ec7d6944b8b4",
         "64c12914106ae1fa",
-        "2aa30aa4ae8f6a4e"
+        "2aa30aa4ae8f6a4e",
+        "e1d7305d539ade39"
       ],
       "status": "Partial assortment"
     },
@@ -1057,7 +1057,7 @@
     {
       "id": "lulu",
       "name": "LuLu the Piggy",
-      "records": 101,
+      "records": 106,
       "product_ids": [
         "c8e3b1c5c0c907d7",
         "ccd30b3897e21a97",
@@ -1069,6 +1069,9 @@
         "d0915f623441e4ea",
         "e43c8648ee5e5354",
         "98db6064f68990f9",
+        "08d7dc37f47a4ca9",
+        "3bd3948e08af1e60",
+        "7591f1ece3e00d72",
         "3f181fff6e811572",
         "f7107c73f9051936",
         "d7d4cb13b61874a4",
@@ -1101,7 +1104,6 @@
         "7033c4d4772c5b95",
         "1b645850dfebd50c",
         "8c6dba39572bc6eb",
-        "56afbcdc65d4ce18",
         "fe4c1fd660e460b7",
         "29dff731ee270a2b",
         "9489d9781cf50132",
@@ -1110,16 +1112,17 @@
         "2992100c61ce7eda",
         "85955174e40add61",
         "8388c804d5cdf932",
+        "d60c29cf8a8aa9a4",
         "314b556faf95c10a",
         "095f0bed1e414a9b",
         "68c457cf359b503e",
         "ba12dd8ecb11cadf",
         "f3d8c7460d860e49",
         "c16942e6d0acf2ca",
+        "0510f9f3e85144f3",
         "d9e2150de979be89",
         "5de71143308d4df5",
         "f0c724978d1d9f85",
-        "5408dd76b1344f5f",
         "a395fea3970db2c6",
         "749e1b07939947d2",
         "bef62ce8f7f0d594",
@@ -1159,7 +1162,9 @@
         "48b675576d07b6de",
         "47d6d376b388accd",
         "33a6fa51fe3181f9",
-        "464635722a575510"
+        "464635722a575510",
+        "56afbcdc65d4ce18",
+        "5408dd76b1344f5f"
       ],
       "status": "Partial assortment"
     },
@@ -1257,20 +1262,20 @@
         "2fa309996367d580",
         "00e9f140669952a1",
         "a822930fde116399",
-        "aa0f37f1f6e30387",
-        "575dce5f1d68f766",
         "e45ba49c22493e7c",
         "98aa74a49a717a82",
         "5d37371f1f9be0ca",
         "fb1ca0a80c42520c",
-        "966e7b9e6e831306",
         "dae47092d8eb1586",
-        "0567de55d49f5288",
         "14b1fa0c4bfe05ee",
         "d1bc76cda536a3d7",
         "9706d5ba199927ff",
         "c7ef6b5396583082",
-        "e3f2ea3a4ef79ac5"
+        "e3f2ea3a4ef79ac5",
+        "aa0f37f1f6e30387",
+        "575dce5f1d68f766",
+        "966e7b9e6e831306",
+        "0567de55d49f5288"
       ],
       "status": "Partial assortment"
     },
@@ -1352,7 +1357,6 @@
         "5ef598ec37884e2b",
         "b689621ba33a2d0e",
         "476a11b86273da9d",
-        "0f817b66313f3660",
         "eefc9dd403c7b13b",
         "100e88cb2ca81a59",
         "3b9fc1f30a9b4538",
@@ -1360,6 +1364,7 @@
         "95c97f32ee26348f",
         "e2f25cc9da9ff0e2",
         "eb6d560b1f3b807f",
+        "0f817b66313f3660",
         "1fe7f47ea0d6a99a"
       ],
       "status": "Partial assortment"
@@ -1367,11 +1372,10 @@
     {
       "id": "kuromi",
       "name": "Kuromi",
-      "records": 20,
+      "records": 21,
       "product_ids": [
         "577b353638656a30",
         "f507e12347382a50",
-        "acf6e7b132227a67",
         "24f26b4504b046b5",
         "7a399229e5bbde2c",
         "23f4135be978f61b",
@@ -1380,15 +1384,17 @@
         "c9803ce9e0b694cf",
         "c1f921b934ef3e8e",
         "bdbd14dbc1f12f41",
-        "f63f900802cd20e8",
         "259a450070eec31f",
         "a1e4799ad59e1957",
+        "37c45bf27da4ae9d",
         "701dcb519bb66dfd",
         "576005be6127b3b5",
         "4f3f1bf2806aa047",
         "b815bf19d72a49a0",
         "1c3f262b498954c5",
-        "f38ace9ecbfa8a7b"
+        "acf6e7b132227a67",
+        "f38ace9ecbfa8a7b",
+        "f63f900802cd20e8"
       ],
       "status": "Partial assortment"
     },
@@ -1420,8 +1426,6 @@
         "b3b7f08b2c9d4633",
         "e7d7979ea4c0e5c3",
         "6505cc32d889b4d1",
-        "e33b7310180170d6",
-        "6d0156f3c4767b7a",
         "a09f64d8b77b8240",
         "9712c18ec582550b",
         "a0a385b6a1b6077f",
@@ -1433,7 +1437,9 @@
         "edae37a85a1eae3d",
         "c4230b7d3f6a7400",
         "147d734627e7421e",
-        "4e223674d3659363"
+        "4e223674d3659363",
+        "e33b7310180170d6",
+        "6d0156f3c4767b7a"
       ],
       "status": "Partial assortment"
     },
@@ -1443,7 +1449,6 @@
       "records": 19,
       "product_ids": [
         "cd32d7bd10389b6f",
-        "3f535eb98fff8e58",
         "6efaec7610a481b2",
         "52f6905762f55207",
         "de841ac4dc6c383a",
@@ -1460,7 +1465,8 @@
         "55dd089aff6c8c51",
         "8c65c568c4ad9dce",
         "2c5f54bc0435a640",
-        "7198b87c2455e2dd"
+        "7198b87c2455e2dd",
+        "3f535eb98fff8e58"
       ],
       "status": "Partial assortment"
     },
