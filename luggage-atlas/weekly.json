@@ -1,11 +1,11 @@
 {
-  "edition": "2026-11-13",
+  "edition": "2026-11-14",
   "periodStart": "2026-11-04",
-  "periodEnd": "2026-11-13",
+  "periodEnd": "2026-11-14",
   "baseline": false,
   "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
-  "nextScheduled": "2026-11-14",
-  "coverage": "Daily source review November 13: one verified company results announcement; zero new verified product launches or offers. Existing assortment and dated price observations retained.",
+  "nextScheduled": "2026-11-15",
+  "coverage": "Targeted November 14 daily review: one new verified BAGSMART launch announcement in Latest news; no new exact priced offers or matched product photos. Amazon Basics and BINHAO pricing gaps remain. Comprehensive assortment review remains Monday. Existing observations and model families retained.",
   "items": [
     {
       "id": "peak-roller-lite-us",
@@ -127,7 +127,7 @@
       "source": "https://kith.com/blogs/discover/kith-for-tumi-2026"
     }
   ],
-  "metricsNote": "Two dated release records in this scan. EXPACE groups three models. Coverage and store announcements are counted separately.",
+  "metricsNote": "The launch notebook below retains two dated release records. Additional dated news, including the November 13 Blast X announcement, appears in Latest news above and is not included in these notebook counts.",
   "history": [
     {
       "date": "2026-11-03",
@@ -148,11 +148,11 @@
     "note": "DTA / DTA Nova added; existing price and news brand references reconciled."
   },
   "latestBulletin": {
-    "checked": "2026-11-13",
-    "newsDate": "2026-11-12",
-    "title": "Samsonite reports Q3 2026 results",
-    "text": "For July–September 2026, worldwide group net sales were USD 872.7 million, flat year over year in reported dollars and up 0.6% at constant currency. Travel-category revenue was USD 555.6 million, down 1.1% reported and 0.5% at constant currency. These are company/category revenues, not unit sales, retailer rankings or model popularity.",
-    "source": "https://www.prnewswire.com/news-releases/samsonite-group-sa-announces-results-for-the-third-quarter-and-nine-months-ended-september-30-2026-302937847.html",
+    "checked": "2026-11-14",
+    "newsDate": "2026-11-13",
+    "title": "BAGSMART launches Blast X travel bags",
+    "text": "BAGSMART announced November 13 availability for Blast X: a 38 L travel backpack, a 38 L limited edition with a Starlight grid front panel, and a 43 L rolling backpack. The brand quotes a US collection range of USD 119.99–229.99. This is a series-level launch and price range; exact color offers, dimensions and matched photos are not yet audited.",
+    "source": "https://www.prnewswire.com/news-releases/bagsmart-unveils-blast-x-a-travel-bag-series-engineered-for-comfort-and-built-to-switch-modes-302936205.html",
     "records": 0
   },
   "promotion": {

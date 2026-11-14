@@ -5,6 +5,16 @@ for(const name of ['data.js','photos.js','weekly.js','atlas-upgrade.js','fashion
 function run(code){return vm.runInContext(code,ctx)}
 
 const edition = ctx.window.ATLAS_WEEKLY;
+// Keep the current source-review download and latest bulletin when retiring UI.
+const dashboard = run('weeklyDashboard()');
+const sourceReview = dashboard.match(/href="(source-review-[0-9]{4}-[0-9]{2}-[0-9]{2}[.]csv)"/);
+assert(sourceReview, 'Keep source-check CSV download');
+assert.equal(sourceReview[1], 'source-review-' + edition.edition + '.csv');
+assert(fs.existsSync(path.join(__dirname, sourceReview[1])), 'Source-check download exists');
+if (edition.latestBulletin) {
+  assert(dashboard.includes(run('E(window.ATLAS_WEEKLY.latestBulletin.title)')), 'Keep latest bulletin title');
+  assert(dashboard.includes(run('E(window.ATLAS_WEEKLY.latestBulletin.source)')), 'Keep latest bulletin source');
+}
 assert.equal(run('weeklyRows().length'), edition.items.length);
 for (const row of edition.items) {
   ctx.window.expected = row;
