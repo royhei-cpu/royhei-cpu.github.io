@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-11",
+  "checked": "2026-11-15",
   "fields": [
     {
       "id": "opening",
@@ -12896,6 +12896,206 @@
       "photoKind": "model-reference",
       "photoCaption": "Roller Lite Trunk 95L · Black",
       "opportunity": "Analyst priority: compare trolley intrusion, case weight and separately purchased modular packing for frequent travelers. No measured demand growth established."
+    },
+    {
+      "id": "offer-3f787da3",
+      "offerId": "offer-3f787da3",
+      "brandId": "bagsmart",
+      "brand": "BAGSMART",
+      "model": "Blast X 43L Roller Backpack · Black",
+      "source": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42862667464786",
+      "checked": "2026-11-15",
+      "scope": "Selected US 43 L color variant.",
+      "features": {
+        "dimensions": {
+          "value": "55 × 35 × 23 cm (manufacturer size, wheel and handle inclusion unspecified)",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "capacity": {
+          "value": "43 L",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "weight": {
+          "value": "2.75 kg",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "material": {
+          "value": "Recycled CORDURA fabric",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "opening": {
+          "value": "Suitcase-style main opening",
+          "basis": "Official Blast X 43 L product page"
+        }
+      },
+      "featureCount": 5,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Rolling backpack",
+      "price": 229.99,
+      "currency": "USD",
+      "priceDate": "2026-11-15",
+      "image": "offer-photo-assets/blast-x-43l-0.webp",
+      "gallery": [
+        "offer-photo-assets/blast-x-43l-0.webp",
+        "offer-photo-assets/blast-x-43l-3.webp"
+      ],
+      "photoKind": "model-reference",
+      "photoSource": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42862667464786",
+      "photoScope": "Matched exterior and packed interior.",
+      "photoCaption": "Blast X 43L Roller Backpack · Black"
+    },
+    {
+      "id": "offer-dbbeb412",
+      "offerId": "offer-dbbeb412",
+      "brandId": "bagsmart",
+      "brand": "BAGSMART",
+      "model": "Blast X 43L Roller Backpack · Ivory",
+      "source": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42862667497554",
+      "checked": "2026-11-15",
+      "scope": "Selected US 43 L color variant.",
+      "features": {
+        "dimensions": {
+          "value": "55 × 35 × 23 cm (manufacturer size, wheel and handle inclusion unspecified)",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "capacity": {
+          "value": "43 L",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "weight": {
+          "value": "2.75 kg",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "material": {
+          "value": "Recycled CORDURA fabric",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "opening": {
+          "value": "Suitcase-style main opening",
+          "basis": "Official Blast X 43 L product page"
+        }
+      },
+      "featureCount": 5,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Rolling backpack",
+      "price": 229.99,
+      "currency": "USD",
+      "priceDate": "2026-11-15",
+      "image": "offer-photo-assets/blast-x-43l-5.webp",
+      "gallery": [
+        "offer-photo-assets/blast-x-43l-5.webp",
+        "offer-photo-assets/blast-x-43l-8.webp"
+      ],
+      "photoKind": "model-reference",
+      "photoSource": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42862667497554",
+      "photoScope": "Matched exterior and packed interior.",
+      "photoCaption": "Blast X 43L Roller Backpack · Ivory"
+    },
+    {
+      "id": "offer-cd921283",
+      "offerId": "offer-cd921283",
+      "brandId": "bagsmart",
+      "brand": "BAGSMART",
+      "model": "Blast X 43L Roller Backpack · Smoky Blue",
+      "source": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42871402790994",
+      "checked": "2026-11-15",
+      "scope": "Selected US 43 L color variant.",
+      "features": {
+        "dimensions": {
+          "value": "55 × 35 × 23 cm (manufacturer size, wheel and handle inclusion unspecified)",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "capacity": {
+          "value": "43 L",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "weight": {
+          "value": "2.75 kg",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "material": {
+          "value": "Recycled CORDURA fabric",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "opening": {
+          "value": "Suitcase-style main opening",
+          "basis": "Official Blast X 43 L product page"
+        }
+      },
+      "featureCount": 5,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Rolling backpack",
+      "price": 229.99,
+      "currency": "USD",
+      "priceDate": "2026-11-15",
+      "image": "offer-photo-assets/blast-x-43l-15.webp",
+      "gallery": [
+        "offer-photo-assets/blast-x-43l-15.webp",
+        "offer-photo-assets/blast-x-43l-18.webp"
+      ],
+      "photoKind": "model-reference",
+      "photoSource": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42871402790994",
+      "photoScope": "Matched exterior and packed interior.",
+      "photoCaption": "Blast X 43L Roller Backpack · Smoky Blue"
+    },
+    {
+      "id": "offer-ced7968b",
+      "offerId": "offer-ced7968b",
+      "brandId": "bagsmart",
+      "brand": "BAGSMART",
+      "model": "Blast X 43L Roller Backpack · Brick",
+      "source": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42871402823762",
+      "checked": "2026-11-15",
+      "scope": "Selected US 43 L color variant.",
+      "features": {
+        "dimensions": {
+          "value": "55 × 35 × 23 cm (manufacturer size, wheel and handle inclusion unspecified)",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "capacity": {
+          "value": "43 L",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "weight": {
+          "value": "2.75 kg",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "material": {
+          "value": "Recycled CORDURA fabric",
+          "basis": "Official Blast X 43 L product page"
+        },
+        "opening": {
+          "value": "Suitcase-style main opening",
+          "basis": "Official Blast X 43 L product page"
+        }
+      },
+      "featureCount": 5,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Rolling backpack",
+      "price": 229.99,
+      "currency": "USD",
+      "priceDate": "2026-11-15",
+      "image": "offer-photo-assets/blast-x-43l-10.webp",
+      "gallery": [
+        "offer-photo-assets/blast-x-43l-10.webp",
+        "offer-photo-assets/blast-x-43l-13.webp"
+      ],
+      "photoKind": "model-reference",
+      "photoSource": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42871402823762",
+      "photoScope": "Matched exterior and packed interior.",
+      "photoCaption": "Blast X 43L Roller Backpack · Brick"
     }
   ],
   "brandCount": 175,

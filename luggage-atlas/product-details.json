@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-11",
+  "checked": "2026-11-15",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -157,6 +157,78 @@
       "photoIds": [
         "peak-roller-lite-trunk-0"
       ]
+    },
+    {
+      "offerId": "offer-3f787da3",
+      "brandId": "bagsmart",
+      "model": "Blast X 43L Roller Backpack",
+      "size": "43 L",
+      "color": "Black",
+      "dimensions": "55 × 35 × 23 cm (manufacturer size, wheel and handle inclusion unspecified)",
+      "announcementDate": "2026-11-13",
+      "launchDate": "2026-11-13",
+      "observed": "2026-11-15",
+      "source": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42862667464786",
+      "price": 229.99,
+      "currency": "USD",
+      "photoIds": [
+        "blast-x-43l-0",
+        "blast-x-43l-3"
+      ]
+    },
+    {
+      "offerId": "offer-dbbeb412",
+      "brandId": "bagsmart",
+      "model": "Blast X 43L Roller Backpack",
+      "size": "43 L",
+      "color": "Ivory",
+      "dimensions": "55 × 35 × 23 cm (manufacturer size, wheel and handle inclusion unspecified)",
+      "announcementDate": "2026-11-13",
+      "launchDate": "2026-11-13",
+      "observed": "2026-11-15",
+      "source": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42862667497554",
+      "price": 229.99,
+      "currency": "USD",
+      "photoIds": [
+        "blast-x-43l-5",
+        "blast-x-43l-8"
+      ]
+    },
+    {
+      "offerId": "offer-cd921283",
+      "brandId": "bagsmart",
+      "model": "Blast X 43L Roller Backpack",
+      "size": "43 L",
+      "color": "Smoky Blue",
+      "dimensions": "55 × 35 × 23 cm (manufacturer size, wheel and handle inclusion unspecified)",
+      "announcementDate": "2026-11-13",
+      "launchDate": "2026-11-13",
+      "observed": "2026-11-15",
+      "source": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42871402790994",
+      "price": 229.99,
+      "currency": "USD",
+      "photoIds": [
+        "blast-x-43l-15",
+        "blast-x-43l-18"
+      ]
+    },
+    {
+      "offerId": "offer-ced7968b",
+      "brandId": "bagsmart",
+      "model": "Blast X 43L Roller Backpack",
+      "size": "43 L",
+      "color": "Brick",
+      "dimensions": "55 × 35 × 23 cm (manufacturer size, wheel and handle inclusion unspecified)",
+      "announcementDate": "2026-11-13",
+      "launchDate": "2026-11-13",
+      "observed": "2026-11-15",
+      "source": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42871402823762",
+      "price": 229.99,
+      "currency": "USD",
+      "photoIds": [
+        "blast-x-43l-10",
+        "blast-x-43l-13"
+      ]
     }
   ],
   "byBrand": {
@@ -176,6 +248,12 @@
       "offer-77c46470",
       "offer-9cfc9582",
       "offer-a1c2f4b4"
+    ],
+    "bagsmart": [
+      "offer-3f787da3",
+      "offer-dbbeb412",
+      "offer-cd921283",
+      "offer-ced7968b"
     ]
   }
 }

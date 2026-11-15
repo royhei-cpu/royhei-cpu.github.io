@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-15",
   "brands": [
     {
       "id": "90fun",
@@ -8453,6 +8453,14 @@
       "dateType": "Japan launch confirmed by BRUNO",
       "detail": "A 36 L wheeled duffel with hand, shoulder and trolley modes debuted at BRUNO-operated stores and e-commerce in Japan.",
       "source": "https://prtimes.jp/main/html/rd/p/000000219.000090148.html"
+    },
+    {
+      "brand": "BAGSMART",
+      "title": "BAGSMART launches Blast X travel bags",
+      "date": "2026-11-13",
+      "dateType": "Brand-confirmed launch date",
+      "detail": "Blast X 38 L backpacks and 43 L roller announced for US availability November 13.",
+      "source": "https://www.prnewswire.com/news-releases/bagsmart-unveils-blast-x-a-travel-bag-series-engineered-for-comfort-and-built-to-switch-modes-302936205.html"
     }
   ],
   "trends": [
@@ -46563,6 +46571,62 @@
       "sku": "W-RL-T95-BK-1",
       "note": "Observed on the US storefront. Promotion end date and regional availability unverified. Accessories pictured are not included in the case-only offer.",
       "sourcePhoto": "https://cdn.shopify.com/s/files/1/2986/1172/files/53ec34f3-43b7-4813-850c-b34db53c53f6.jpg?v=1793815331"
+    },
+    {
+      "brand": "BAGSMART",
+      "product": "Blast X 43L Roller Backpack · Black",
+      "currency": "USD",
+      "retailer": "BAGSMART direct",
+      "source": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42862667464786",
+      "amount": 229.99,
+      "date": "2026-11-15",
+      "market": "United States",
+      "kind": "Brand storefront listing",
+      "format": "Rolling backpack",
+      "note": "US storefront price for one 43 L roller backpack.",
+      "sku": "BM0301276AN001"
+    },
+    {
+      "brand": "BAGSMART",
+      "product": "Blast X 43L Roller Backpack · Ivory",
+      "currency": "USD",
+      "retailer": "BAGSMART direct",
+      "source": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42862667497554",
+      "amount": 229.99,
+      "date": "2026-11-15",
+      "market": "United States",
+      "kind": "Brand storefront listing",
+      "format": "Rolling backpack",
+      "note": "US storefront price for one 43 L roller backpack.",
+      "sku": "BM0301276AN236"
+    },
+    {
+      "brand": "BAGSMART",
+      "product": "Blast X 43L Roller Backpack · Smoky Blue",
+      "currency": "USD",
+      "retailer": "BAGSMART direct",
+      "source": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42871402790994",
+      "amount": 229.99,
+      "date": "2026-11-15",
+      "market": "United States",
+      "kind": "Brand storefront listing",
+      "format": "Rolling backpack",
+      "note": "US storefront price for one 43 L roller backpack.",
+      "sku": "BM0301276AN219"
+    },
+    {
+      "brand": "BAGSMART",
+      "product": "Blast X 43L Roller Backpack · Brick",
+      "currency": "USD",
+      "retailer": "BAGSMART direct",
+      "source": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42871402823762",
+      "amount": 229.99,
+      "date": "2026-11-15",
+      "market": "United States",
+      "kind": "Brand storefront listing",
+      "format": "Rolling backpack",
+      "note": "US storefront price for one 43 L roller backpack.",
+      "sku": "BM0301276AN239"
     }
   ],
   "retailers": [
