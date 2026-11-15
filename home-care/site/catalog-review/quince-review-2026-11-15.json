@@ -1,0 +1,31 @@
+{
+  "checkedDate": "2026-11-15",
+  "baselineCommit": "1245d82f716d7f4ceb2a4cad62bdb076e2bbf992",
+  "baselineCanonicalCount": 10263,
+  "additions": 2,
+  "newCanonicalCount": 10265,
+  "retailer": "Quince",
+  "category": "Laundry Care",
+  "sourceScope": "Two exact US official item-page references and matched official photographs; not exhaustive Quince inventory",
+  "newLaunches": 0,
+  "limitations": [
+    "US web-retrieved prices are snapshots; direct local retrieval was regional (dryer balls 404, comb GBP/GB). No current US checkout-stock claim.",
+    "Listing dates, launch dates, sales and exact manufacturing facilities remain unverified.",
+    "Traditional retail comparison figures are not previous Quince selling prices.",
+    "Decorative baskets and storage boxes remain outside canonical Home Care scope."
+  ],
+  "items": [
+    {
+      "id": "HC-82c7a249c6cc",
+      "url": "https://www.quince.com/home/100-new-zealand-wool-dryer-balls?color=natural",
+      "priceUSD": 12.9,
+      "photo": "/home-care/research-photos/quince-dryer-balls.jpg"
+    },
+    {
+      "id": "HC-eae2ca03e9f9",
+      "url": "https://www.quince.com/accessories/cashmere/cashmere-comb?color=natural-wood",
+      "priceUSD": 10.0,
+      "photo": "/home-care/research-photos/quince-cashmere-comb.webp"
+    }
+  ]
+}

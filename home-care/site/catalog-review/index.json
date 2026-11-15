@@ -48,9 +48,10 @@
     "daily-2026-11-12.json",
     "daily-2026-11-13.json",
     "daily-2026-11-14.json",
-    "daily-2026-11-15.json"
+    "daily-2026-11-15.json",
+    "quince-2026-11-15.json"
   ],
-  "added": 3932,
+  "added": 3934,
   "photoPacks": [
     "photos-001.json.gz",
     "photos-002.json.gz",
@@ -368,5 +369,5 @@
     "gap-review-20261102-53.json.gz",
     "gap-review-20261102-54.json.gz"
   ],
-  "reviewScope": "Targeted daily review: three Walmart and one TikTok Shop exact listings with matched photos. All 19 tracked retailers received a one-link access probe; Amazon and several other sources remained blocked or unavailable. Quince Storage & Organization was checked as adjacent scope. Full category pagination and item revalidation remain incomplete; the comprehensive Monday review remains due 16 November 2026."
+  "reviewScope": "Targeted daily review: three Walmart and one TikTok Shop exact listings with matched photos. All 19 tracked retailers received a one-link access probe; Amazon and several other sources remained blocked or unavailable. Quince Storage & Organization was checked as adjacent scope. Full category pagination and item revalidation remain incomplete; the comprehensive Monday review remains due 16 November 2026. Quince follow-up: two exact fabric-care references added after official US page and image review, with regional retrieval limitations. Quince is a twentieth canonical retailer; comprehensive category coverage remains unreviewed."
 }
