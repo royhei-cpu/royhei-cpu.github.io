@@ -2,7 +2,22 @@ const {test}=require('node:test');const assert=require('node:assert/strict');con
 const root=process.cwd(),data={};
 for(const id of ['home-care','china-toys','luggage-atlas']){const w={};vm.runInNewContext(fs.readFileSync(`_site/${id}/directory-data.js`,'utf8'),{window:w});const d=w.DIRECTORY,p=d.packed;d.items=p.rows.map(r=>Object.fromEntries(p.keys.flatMap((k,i)=>r[i]<0?[]:[[k,p.pool[r[i]]]])));data[id]=d;}
 test('All baseline, addition and international Home Care records are retained',()=>{const d=data['home-care'],ids=new Set(d.items.map(p=>p.id));for(const p of JSON.parse(fs.readFileSync('_site/home-care/catalog-records.json')))assert(ids.has(p.id),p.id);for(const p of JSON.parse(fs.readFileSync('home-care/site/global-reference-products.json')))assert(ids.has(p.id),p.id);assert(ids.size===d.items.length);assert(d.items.some(p=>p.market==='China'));});
-test('Every luggage observation has its stable original offer key and exact price',()=>{const d=data['luggage-atlas'],by=new Map(d.items.map(p=>[p.id,p]));const key=p=>'offer-'+Array.from([p.brand,p.product,p.currency,p.retailer,p.source].join('|')).reduce((h,c)=>Math.imul(h^c.charCodeAt(0),16777619)>>>0,2166136261).toString(16);const raw=JSON.parse(fs.readFileSync('luggage-atlas/data.json'));assert.equal(raw.prices.length,d.items.filter(p=>p.id.startsWith('offer-')).length);for(const p of raw.prices){const n=by.get(key(p));assert(n,p.product);assert.equal(n.amount,p.amount);assert.equal(n.currency,p.currency);assert.equal(n.url,p.source)}const bags=d.items.filter(p=>p.brand==='BAGSMART'&&p.id.startsWith('offer-'));assert.equal(new Set(bags.map(p=>p.group)).size,1);assert.equal(bags.length,12);});
+test('Every luggage observation has its stable original offer key and exact price',()=>{const d=data['luggage-atlas'],by=new Map(d.items.map(p=>[p.id,p]));const key=p=>'offer-'+Array.from([p.brand,p.product,p.currency,p.retailer,p.source].join('|')).reduce((h,c)=>Math.imul(h^c.charCodeAt(0),16777619)>>>0,2166136261).toString(16);const raw=JSON.parse(fs.readFileSync('luggage-atlas/data.json'));assert.equal(raw.prices.length,d.items.filter(p=>p.id.startsWith('offer-')).length);for(const p of raw.prices){const n=by.get(key(p));assert(n,p.product);assert.equal(n.amount,p.amount);assert.equal(n.currency,p.currency);assert.equal(n.url,p.source)}});
+
+test('BAGSMART Getaway and Blast X offers keep their reviewed model families', () => {
+  const offers = data['luggage-atlas'].items.filter(item =>
+    item.brand === 'BAGSMART' && item.id.startsWith('offer-')
+  );
+  const families = [
+    { path: '/products/getaway-carry-on-luggage', id: 'model-a8d1d0a271cce5d6', retainedOffers: 12 },
+    { path: '/products/blast-x-43l-roller-backpack', id: 'model-bagsmart-blast-x-43l-roller', retainedOffers: 4 }
+  ];
+  for (const family of families) {
+    const variants = offers.filter(offer => new URL(offer.url).pathname === family.path);
+    assert.ok(variants.length >= family.retainedOffers, 'Missing retained offers for ' + family.path);
+    for (const offer of variants) assert.equal(offer.group, family.id, offer.id);
+  }
+});
 test('Every in-scope toy and exact retailer option remains available',()=>{const d=data['china-toys'],ids=new Set(d.items.map(p=>p.id));for(const p of JSON.parse(fs.readFileSync('_site/china-toys/catalog.json')).products){assert(ids.has(p.id),p.name);for(const l of p.listings||[]){for(const o of l.options||[]){assert(d.items.some(v=>v.group===p.id&&v.url===l.url&&v.variant===(o.name||'')&&v.amount===o.price&&v.retailer===(l.source||'')),p.name+' '+o.name)}}}assert(d.items.some(p=>p.character==='CRYBABY'));});
 test('All data payloads have unique IDs and retain numeric price semantics',()=>{for(const d of Object.values(data)){assert.equal(new Set(d.items.map(p=>p.id)).size,d.items.length);for(const p of d.items){assert(p.name);assert(p.amount==null||typeof p.amount==='number');assert(!p.url||/^https?:\/\//.test(p.url),p.id);}}});
 test('Each site retains its own original interface and excludes development tools',()=>{
