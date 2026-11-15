@@ -866,19 +866,20 @@
       "id": "rolife",
       "name": "Rolife international store",
       "url": "https://www.rolifeonline.com/collections/blind-box",
-      "status": "unavailable",
-      "products_inspected": 0,
-      "eligible_listings": 0,
+      "status": "partial",
+      "products_inspected": 17,
+      "eligible_listings": 11,
       "checked": "2026-11-15",
       "currency": "USD",
       "scope": "Public blind-box collection links; no advertised inventory denominator captured",
-      "pages": [],
-      "issues": [
+      "pages": [
         {
           "url": "https://www.rolifeonline.com/collections/blind-box",
-          "reason": "HTTPError"
+          "product_links": 17,
+          "new_links": 17
         }
       ],
+      "issues": [],
       "complete_current_inventory": false,
       "external_audit": {
         "checked": "2026-10-31",
