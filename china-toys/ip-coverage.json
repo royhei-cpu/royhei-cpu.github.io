@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-14",
+  "catalog_date": "2026-11-15",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "brand": "TNT SPACE",
-      "records": 87,
+      "records": 89,
       "status": "Partial assortment"
     }
   ],
@@ -1002,13 +1002,6 @@
         "f5df2ccf5fb6826d",
         "9d7f97264af17bc9",
         "bf9dee12b1515403",
-        "52c64bc8dd5cafd2",
-        "c12d0e06dc71a350",
-        "6f754965b0ef71c7",
-        "ff677c0b9868fd09",
-        "bcdf40988e6bc09c",
-        "cf22eb3ce827364f",
-        "d2fcf38905d39a8c",
         "a7e1e9f73d09e42e",
         "95116c24953440ff",
         "d839eede26a14a3a",
@@ -1033,7 +1026,14 @@
         "12601c8a553e4cba",
         "523007cb72416cdd",
         "1a911611c788f90a",
-        "b3959522809c2145"
+        "b3959522809c2145",
+        "52c64bc8dd5cafd2",
+        "c12d0e06dc71a350",
+        "6f754965b0ef71c7",
+        "ff677c0b9868fd09",
+        "bcdf40988e6bc09c",
+        "cf22eb3ce827364f",
+        "d2fcf38905d39a8c"
       ],
       "status": "Partial assortment"
     },
@@ -1043,14 +1043,14 @@
       "records": 9,
       "product_ids": [
         "3d85180e56c0e400",
-        "cffc0879c2585beb",
-        "e23be0a76a033aa7",
-        "26bbe5f2854568f8",
         "98d6dfbb7a8da226",
         "5531f38676d3b58a",
         "f806a25e619ca6e2",
         "2da1a982a8b5df75",
-        "6f3d8f2de852962a"
+        "6f3d8f2de852962a",
+        "cffc0879c2585beb",
+        "e23be0a76a033aa7",
+        "26bbe5f2854568f8"
       ],
       "status": "Partial assortment"
     },
