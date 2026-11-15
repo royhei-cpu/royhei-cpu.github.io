@@ -102,6 +102,26 @@ def run(scope='all'):
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth + 1')
 
             if scope in ('navigation', 'live', 'all'):
+                # Long retailer audit notes must not strand Reset below a sticky rail.
+                for width, height in ((1165, 747), (900, 600)):
+                    page.set_viewport_size({'width': width, 'height': height})
+                    page.locator('#retailer').select_option('52toys')
+                    assert count() > 0
+                    page.locator('#catalogGrid .compare-select').first.click()
+                    expect(page.locator('#compareDock')).to_be_visible()
+                    button = page.locator('#resetFilters')
+                    button.scroll_into_view_if_needed()
+                    box = button.bounding_box()
+                    dock = page.locator('#compareDock').bounding_box()
+                    assert box and dock and 0 <= box['y'] < box['y'] + box['height'] <= dock['y']
+                    button.click()
+                    expect(page.locator('#retailer')).to_have_value('')
+                    assert count() == len(products)
+                    assert 'retailer=' not in page.url
+                    page.locator('#compareClear').click()
+                    no_overflow()
+                page.set_viewport_size({'width': 1440, 'height': 1080})
+                checks.append('Short desktop filter rail: pointer reset remains reachable with source notes and comparison dock')
                 for brand in data['priority_brands'][:6]:
                     if not any(p['brand'] == brand for p in products):
                         continue
