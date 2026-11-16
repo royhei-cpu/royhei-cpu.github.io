@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-11-15",
+  "reviewed": "2026-11-16",
   "version": "20261030-evidence-1",
   "source_checks": [
     {
@@ -7,7 +7,7 @@
       "name": "KikaGoods",
       "url": "https://www.kikagoods.com",
       "status": "complete",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 969,
       "currency": "USD"
     },
@@ -16,7 +16,7 @@
       "name": "TOP TOY international store",
       "url": "https://gotoptoy.com",
       "status": "complete",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 236,
       "currency": "USD"
     },
@@ -25,7 +25,7 @@
       "name": "52TOYS international store",
       "url": "https://hi52toys.com",
       "status": "complete",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 211,
       "currency": "USD"
     },
@@ -34,7 +34,7 @@
       "name": "Rolife international store",
       "url": "https://www.rolifeonline.com",
       "status": "unavailable",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -43,7 +43,7 @@
       "name": "TOYZEROPLUS",
       "url": "https://toyzeroplus.com",
       "status": "complete",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 322,
       "currency": "HKD"
     },
@@ -52,7 +52,7 @@
       "name": "Hello Molynk",
       "url": "https://www.molynk.shop",
       "status": "unavailable",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -61,7 +61,7 @@
       "name": "Finding Unicorn international store",
       "url": "https://www.findingunicorn.net",
       "status": "unavailable",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -70,7 +70,7 @@
       "name": "Kouhigh Toys",
       "url": "https://kouhightoys.com",
       "status": "complete",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 248,
       "currency": "USD"
     },
@@ -79,8 +79,8 @@
       "name": "ToyBeta",
       "url": "https://toybeta.com",
       "status": "complete",
-      "checked": "2026-11-15",
-      "raw_products_read": 1298,
+      "checked": "2026-11-16",
+      "raw_products_read": 1295,
       "currency": "USD"
     },
     {
@@ -88,8 +88,8 @@
       "name": "DidaPop",
       "url": "https://didapop.com",
       "status": "complete",
-      "checked": "2026-11-15",
-      "raw_products_read": 1806,
+      "checked": "2026-11-16",
+      "raw_products_read": 1810,
       "currency": "USD"
     },
     {
@@ -97,7 +97,7 @@
       "name": "Pawmiga World",
       "url": "https://pawmiga.myshopify.com",
       "status": "complete",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 139,
       "currency": "USD"
     },
@@ -106,7 +106,7 @@
       "name": "Iris Squishy",
       "url": "https://irissquishy.com",
       "status": "complete",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 100,
       "currency": "USD"
     },
@@ -115,7 +115,7 @@
       "name": "RonRon Squishy",
       "url": "https://ronronsquishy.com",
       "status": "complete",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 42,
       "currency": "USD"
     },
@@ -124,7 +124,7 @@
       "name": "ANTHILL shopNplay",
       "url": "https://anthillshop.com",
       "status": "complete",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 649,
       "currency": "USD"
     },
@@ -133,7 +133,7 @@
       "name": "JOTOYS international store",
       "url": "https://jotoys.store",
       "status": "complete",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 57,
       "currency": "USD"
     },
@@ -142,7 +142,7 @@
       "name": "Sonny Angel Japan official store",
       "url": "https://www.sonnyangelstore.com",
       "status": "complete",
-      "checked": "2026-11-15",
+      "checked": "2026-11-16",
       "raw_products_read": 111,
       "currency": "JPY"
     }
@@ -407,6 +407,12 @@
       "type": "brand label"
     },
     {
+      "id": "cc21d91720b7b3e8",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
       "id": "7f1632a45a21f28c",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -659,6 +665,12 @@
       "type": "brand label"
     },
     {
+      "id": "4c889d75c0095f33",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
       "id": "636e95bfa02ec8d5",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -696,6 +708,12 @@
     },
     {
       "id": "d68c9e0cdb176a3b",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "24c17c4cc5d95eea",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -6812,12 +6830,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "9e94485207b16c6c",
-      "name": "Suna Little Warm · You Can Be Brave While Feeling Scared Series Beans Blind Bag",
-      "source": "https://toybeta.com/products/suna-little-warm-you-can-be-brave-while-feeling-scared-series-beans-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "322f33e767339378",
       "name": "POLAR - Season 4 <Snow City Residents> Series Figures Blind Box",
       "source": "https://toybeta.com/products/polar-season-4-snow-city-residents-series-figures-blind-box",
@@ -10628,12 +10640,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "dd34953e3e7cb03f",
-      "name": "Wendy Beans-V4 One Day Manager Series Beans Blind Bag",
-      "source": "https://toybeta.com/products/wendy-one-day-manager-series-beans-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "833de2c98b552852",
       "name": "【ChaoSweet】REBEL Bear Good Luck Sachet Series Plush Blind Box",
       "source": "https://toybeta.com/products/rebel-bear-good-luck-sachet-series-plush-blind-box",
@@ -10940,12 +10946,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "e0170ce9fe9e98cc",
-      "name": "Wendy Beans-V2 Melted Away Mini Beans Series Blind Bag【Treein Land】",
-      "source": "https://toybeta.com/products/wendy-menlted-away-mini-beans-series-pvc-figures",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "34d8cd993e1154eb",
       "name": "DIMOO Crush on Coffee Soft Plush Blind Box Keychain Dolls",
       "source": "https://toybeta.com/products/dimoo-crush-on-coffee-soft-plush-blind-box-keychain-dolls",
@@ -11075,12 +11075,6 @@
       "id": "de72a8d0b5fa5d87",
       "name": "【BOGO】Nommi Glutinous Rice 100% Sweetness Series Plush Blind Box【HiToys】",
       "source": "https://toybeta.com/products/nommi-glutinous-rice-100-sweetness-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "32b93f9993077e6d",
-      "name": "Wendy Beans-V3 Got You Series Bean Blind Bag【Treein Land】",
-      "source": "https://toybeta.com/products/wendy-got-you-series-bean-blind-bag",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12687,24 +12681,24 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4552,
-  "after_products": 4524,
+  "before_products": 4555,
+  "after_products": 4527,
   "stats": {
-    "products": 4522,
+    "products": 4525,
     "brands": 792,
     "squishy": 464,
-    "with_images": 4522,
+    "with_images": 4525,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4513,
+    "with_source_prices": 4516,
     "image_research_queue": 0,
     "with_trend_signals": 4,
     "with_specifications": 2572,
     "with_dimensions": 1777,
-    "with_variant_options": 4212,
-    "source_linked_images": 4219,
+    "with_variant_options": 4215,
+    "source_linked_images": 4222,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 8,
     "with_shop_descriptions": 3747
