@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-16",
-      "raw_products_read": 969,
+      "raw_products_read": 967,
       "currency": "USD"
     },
     {
@@ -17,7 +17,7 @@
       "url": "https://gotoptoy.com",
       "status": "complete",
       "checked": "2026-11-16",
-      "raw_products_read": 236,
+      "raw_products_read": 241,
       "currency": "USD"
     },
     {
@@ -125,7 +125,7 @@
       "url": "https://anthillshop.com",
       "status": "complete",
       "checked": "2026-11-16",
-      "raw_products_read": 649,
+      "raw_products_read": 650,
       "currency": "USD"
     },
     {
@@ -2039,12 +2039,6 @@
       "id": "c4a7cdb7b3274f6c",
       "name": "Mission: Conquer Earth Series Special 1/6 Action Figure BJD Blind Box【Shipped in Feb./Mar. 2027】",
       "source": "https://www.kikagoods.com/products/mission-conquer-earth-series-special-1-6-action-figure-bjd-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "5590e62ed9f72f09",
-      "name": "Alien Stage Baby Series Badge Blind Box",
-      "source": "https://www.kikagoods.com/products/alien-stage-baby-series-badge-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -5024,12 +5018,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "abda4a7f68442ec6",
-      "name": "Opanchu Usagi Fantastic Restaurant Series Plush Keychain Blind Box",
-      "source": "https://gotoptoy.com/products/opanchu-usagi-fantastic-restaurant-series-plush-keychain-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "3231f334dd8d95ae",
       "name": "Mochi Chirp Good Luck Series Plush Charm Blind Box",
       "source": "https://gotoptoy.com/products/mochi-chrip-good-luck-series-plush-charm-blind-box",
@@ -6674,6 +6662,18 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
+      "id": "8a6d9d05247986b5",
+      "name": "Wendy-Echoes Of A Playful Heart Series Mini Figures Blind Box【Treein Land】",
+      "source": "https://toybeta.com/products/wendy-echoes-of-a-playful-heart-series-mini-figures-blind-box-treein-land",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "dc498f5b6f93a352",
+      "name": "【Pick Your Lucky Digit】Wendy-Dream Weaving Theater Series Beans Blind Bag【Treein Land】",
+      "source": "https://toybeta.com/products/wendy-dream-weaving-theater-series-beans-blind-bag-treein-land",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "408d2afc02fb38f7",
       "name": "【MAMALOTUS-03】x UUTOY I Need You and GoodNight DIY Bean Phone Charm Keychain Blind Bag",
       "source": "https://toybeta.com/products/mamalotus-03-x-uutoy-nighty-diy-bean-phone-charm-keychain-blind-bag",
@@ -7289,12 +7289,6 @@
       "id": "562b819f14572fc7",
       "name": "Hirono × Harry Potter Series Figures Blind Box",
       "source": "https://toybeta.com/products/hirono-harry-potter-series-figures-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "db7bee8f3e62cd5e",
-      "name": "Pingu YOMeeDoll-Little Pet Goose Series Beans Mini Blind Box",
-      "source": "https://toybeta.com/products/yomeedoll-little-pet-goose-series-beans-mini-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -8246,12 +8240,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "ec3b1a410884124a",
-      "name": "DuoDuoMei Nighty-Night Seires Beans Blind Bag",
-      "source": "https://toybeta.com/products/duoduomei-nighty-night-seires-beans-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "9d45598866664a2b",
       "name": "MICOCO&NONO Moonlit Whispers Series Plush Blind Box",
       "source": "https://toybeta.com/products/micoco-nono-moonlit-whispers-series-plush-blind-box",
@@ -9185,12 +9173,6 @@
       "id": "e22926a7c68c3c16",
       "name": "MayMei-Kitten Academy Series Plush Doll Blind Box【HiToys】",
       "source": "https://toybeta.com/products/maymei-kitten-academy-series-plush-doll-blind-bax",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "35c4daffc6f37075",
-      "name": "Cute Kitten Series Mini Figures Blind Box [Material: Resin]",
-      "source": "https://toybeta.com/products/cute-flocked-kitten-sticker-series-figures-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12681,27 +12663,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4555,
-  "after_products": 4527,
+  "before_products": 4563,
+  "after_products": 4535,
   "stats": {
-    "products": 4525,
+    "products": 4533,
     "brands": 792,
     "squishy": 464,
-    "with_images": 4525,
+    "with_images": 4533,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4516,
+    "with_source_prices": 4524,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2572,
-    "with_dimensions": 1777,
-    "with_variant_options": 4215,
-    "source_linked_images": 4222,
+    "with_specifications": 2574,
+    "with_dimensions": 1778,
+    "with_variant_options": 4223,
+    "source_linked_images": 4230,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 8,
-    "with_shop_descriptions": 3747
+    "with_shop_descriptions": 3749
   },
   "checklist": [
     {
@@ -12720,7 +12702,7 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 299,
+      "records": 305,
       "with_details": 44,
       "with_china_price": 0,
       "with_release": 0,
