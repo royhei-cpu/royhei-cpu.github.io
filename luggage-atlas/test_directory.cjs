@@ -57,7 +57,7 @@ run(`{
   if(!labels.has('Frequenter')||!labels.has('FREQUENTER'))throw Error('Aliases lost from brand drilldown');
   if(!brandModelSummary(aliasBrand).includes(directoryRows().length+' priced offers'))throw Error('Brand scope mismatch');
   const recent=recentLaunches();
-  if(!recent.items.some(l=>l.brand==='MILESTO') || recent.items.some(l=>l.brand==='BAGSMART'))throw Error('Launch vs price observation');
+  if(recent.items.some(l=>l.date<recent.from || l.date>recent.end || /price observation/i.test(l.dateType)))throw Error('Launch vs price observation');
   if(modelGroups([{...rows[0],id:'future-unknown'}])[0].matched) throw Error('Unreviewed listing merged');
   csv=(name,cells)=>window.modelCSV=cells;
   exportModels(getaway.offers);

@@ -124,3 +124,14 @@ body.atlas-workspace::before,body.atlas-workspace::after{display:none}
 
 .atlas-workspace .workspace-catalog:has(#filters[hidden]){grid-template-columns:minmax(0,1fr)}
 .atlas-workspace .workspace-source-catalog-actions{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 26px}
+
+/* Keep every desktop filter reachable below long source-audit notes, including
+   while the comparison dock is open. Mobile retains its normal page flow. */
+@media(min-width:681px){
+  .atlas-workspace .workspace-filter-rail{
+    max-height:calc(100vh - 112px);
+    max-height:calc(100dvh - 112px);
+    overflow-y:auto;
+    scrollbar-width:thin;
+  }
+}

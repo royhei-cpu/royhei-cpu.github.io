@@ -87,8 +87,11 @@ html=html.replace('Checked 27 October 2026.',"Checked '+esc(d.checkedDate||'2026
 html=html.replace('const COVERAGE=', 'const COVERAGE=');
 const covStart=html.indexOf('const COVERAGE=')+15,covEnd=html.indexOf(';\n',covStart);
 const coverage=JSON.parse(html.slice(covStart,covEnd));
-for(const r of Object.keys(counts)){if(coverage[r])coverage[r].note=counts[r]+' collected listings. Partial coverage, not the retailer’s full inventory.'+(additions.some(d=>d.retailer===r)?' Latest collected evidence dated '+additions.filter(d=>d.retailer===r).map(d=>d.checkedDate||'').filter(Boolean).sort().at(-1)+'.':' Existing records retained; more product research needed.');}
+for(const r of Object.keys(counts)){if(!coverage[r])coverage[r]={count:counts[r],added:counts[r],note:'',pagesRetrieved:0,sources:[...new Set(items.filter(d=>d.retailer===r).map(d=>d.currentSource||d.url))]};if(coverage[r])coverage[r].note=counts[r]+' collected listings. Partial coverage, not the retailer’s full inventory.'+(additions.some(d=>d.retailer===r)?' Latest collected evidence dated '+additions.filter(d=>d.retailer===r).map(d=>d.checkedDate||'').filter(Boolean).sort().at(-1)+'.':' Existing records retained; more product research needed.');}
 html=html.slice(0,covStart)+JSON.stringify(coverage)+html.slice(covEnd);
+// Register every evidenced retailer, including newly requested sources.
+html=html.replace(/(<select[^>]*id="retailer"[^>]*>)[\s\S]*?(<\/select>)/,(_,a,b)=>a+'<option value="all">All retailers</option>'+Object.keys(counts).sort().map(r=>'<option value="'+escape(r)+'">'+escape(r)+'</option>').join('')+b);
+html=html.replace(/19 retailers/g,Object.keys(counts).length+' retailers');
 html=html.replace('No matching products.', 'No collected listings match these filters. An empty category does not mean the retailer stocks no products.');
 // Secondary category membership is searchable and exportable; primary category stays intact.
 assert.ok(html.includes("cat==='all'||d.category===cat"));

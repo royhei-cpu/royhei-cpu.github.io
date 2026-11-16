@@ -1,0 +1,117 @@
+{
+  "reviewedAt": "2026-11-15",
+  "status": "targeted daily review completed; comprehensive Monday review remains incomplete outside its recorded bounds",
+  "baselineRecords": 10259,
+  "publishedRecords": 10263,
+  "verifiedAdditions": 4,
+  "additionsByRetailer": {
+    "Ace Hardware": 0,
+    "Albertsons": 0,
+    "Amazon US": 0,
+    "BJ’s Wholesale": 0,
+    "CVS": 0,
+    "Costco": 0,
+    "Dollar General": 0,
+    "Dollar Tree": 0,
+    "H-E-B": 0,
+    "Home Depot": 0,
+    "Kroger": 0,
+    "Lowe’s": 0,
+    "Meijer": 0,
+    "Publix": 0,
+    "Safeway": 0,
+    "Sam’s Club": 0,
+    "TikTok Shop": 1,
+    "Walgreens": 0,
+    "Walmart": 3
+  },
+  "newLaunches": 0,
+  "newVerifiedNews": 0,
+  "sourceAccessProbes": [
+    {"retailer":"Ace Hardware","url":"https://www.acehardware.com/departments/home-and-decor/cleaning-and-disinfectants/tile-cleaners-near-me","httpStatus":"200","bytes":1060282,"result":"retrieved-unvalidated"},
+    {"retailer":"Albertsons","url":"https://www.albertsons.com/shop/pd/reynolds-wrap-aluminum-foil-200-sq-ft-each/130050222","httpStatus":"200","bytes":840214,"result":"retrieved-unvalidated"},
+    {"retailer":"Amazon US","url":"https://www.amazon.com/Household-Supplies-Scrub-Daddy-Health/s?rh=n%3A15342811%2Cp_89%3AScrub%2BDaddy","httpStatus":"503","bytes":559,"result":"blocked-or-unavailable"},
+    {"retailer":"BJ’s Wholesale","url":"https://www.bjs.com/product/arm--hammer-plus-oxiclean-odor-blasters-liquid-laundry-detergent---fresh-burst-200-fl-oz/3000000000005873299","httpStatus":"200","bytes":1997843,"result":"retrieved-unvalidated"},
+    {"retailer":"CVS","url":"https://www.cvs.com/shop/dawn-platinum-plus-powerwash-dish-spray-fresh-clean-16-oz-prodid-387401","httpStatus":"200","bytes":3976061,"result":"retrieved-unvalidated"},
+    {"retailer":"Costco","url":"https://www.costco.com/household-cleaning.html","httpStatus":"200","bytes":2568829,"result":"retrieved-and-reviewed"},
+    {"retailer":"Dollar General","url":"https://www.dollargeneral.com/p/fabuloso-2x-multi-purpose-cleaner-with-baking-soda-citrus-and-fruits-scent-56-fl-oz/35000530615","httpStatus":"200","bytes":218234,"result":"retrieved-unvalidated"},
+    {"retailer":"Dollar Tree","url":"https://sameday.dollartree.com/store/dollar-tree/products/17950911-la-s-totally-awesome-all-purpose-concentrated-cleaner-32-fl-oz","httpStatus":"403","bytes":520,"result":"blocked-or-unavailable"},
+    {"retailer":"H-E-B","url":"https://www.heb.com/product-detail/field-future-by-h-e-b-dishwashing-liquid-fragrance-free/5010074","httpStatus":"200","bytes":212,"result":"retrieved-unvalidated"},
+    {"retailer":"Home Depot","url":"https://www.homedepot.com/p/100670178","httpStatus":"200","bytes":1152766,"result":"retrieved-unvalidated"},
+    {"retailer":"Kroger","url":"https://www.kroger.com/pl/cleaning-household/18011","httpStatus":"200","bytes":1246611,"result":"retrieved-unvalidated"},
+    {"retailer":"Lowe’s","url":"https://www.lowes.com/pl/cleaning-tools/mops/spray-mops/o-cedar/microfiber/3998445995-553466270-4294721465","httpStatus":"200","bytes":347082,"result":"retrieved-unvalidated"},
+    {"retailer":"Meijer","url":"https://www.meijer.com/shopping/product/snuggle-lq-fab-sof-blue-sparkle-74-8oz/7261347456","httpStatus":"200","bytes":398255,"result":"retrieved-unvalidated"},
+    {"retailer":"Publix","url":"https://delivery.publix.com/store/publix/products/39743-clorox-disinfecting-wipes-150-ct","httpStatus":"403","bytes":520,"result":"blocked-or-unavailable"},
+    {"retailer":"Safeway","url":"https://www.safeway.com/shop/pd/bounty-regular-paper-towel-48-ct-rl/970461182","httpStatus":"200","bytes":834625,"result":"retrieved-unvalidated"},
+    {"retailer":"Sam’s Club","url":"https://www.samsclub.com/ip/members-mark-platinum-performance-liquid-dish-soap-fresh-clean-100-fl-oz/13892164761","httpStatus":"200","bytes":1088587,"result":"retrieved-unvalidated"},
+    {"retailer":"TikTok Shop","url":"https://shop.tiktok.com/us/store/scrub-daddy/7494956340169509603","httpStatus":"200","bytes":662201,"result":"retrieved-and-reviewed"},
+    {"retailer":"Walgreens","url":"https://www.walgreens.com/search/tier3/productlist/N%3D20007728-93-86","httpStatus":"404","bytes":79,"result":"blocked-or-unavailable"},
+    {"retailer":"Walmart","url":"https://www.walmart.com/shop/household-essentials/surface-care-new-arrivals","httpStatus":"200","bytes":1599824,"result":"retrieved-and-reviewed"}
+  ],
+  "probeLimit": "One retained source per tracked retailer was probed, with deeper Walmart Surface Care New Arrivals, TikTok Shop household-cleaner and four exact item-page checks. HTTP success and keyword screening do not establish exact item validity, current stock or exhausted pagination. No retailer's complete Home Care assortment was reconciled in this daily pass.",
+  "exactItemChecks": [
+    {
+      "retailer": "Walmart",
+      "retailerItemId": "19731105771",
+      "url": "https://www.walmart.com/ip/Mr-Clean-All-Purpose-Cleaner-Floor-Cleaner-Mop-Soap-Cleaning-Liquid-Winter-Wonderland-41-fl-oz/19731105771",
+      "result": "Exact 41 fl oz Winter Wonderland bottle, Walmart.com seller, USD 6.24 page price and primary photo verified; broader stock, first-available date and launch date not verified"
+    },
+    {
+      "retailer": "Walmart",
+      "retailerItemId": "20906004706",
+      "url": "https://www.walmart.com/ip/Tide-Washing-Machine-Cleaner-Tablets-with-Unstopables-Fresh-Scent-12-Count/20906004706",
+      "result": "Exact 12-tablet Tide Oxi pack, product code 814521010499, Walmart.com seller, USD 18.97 page price and primary photo verified; broader stock, first-available date and launch date not verified"
+    },
+    {
+      "retailer": "Walmart",
+      "retailerItemId": "20088171704",
+      "url": "https://www.walmart.com/ip/Clorox-Scentiva-Disinfectant-Wipes-Harvest-Apple-Spice-6-75ct/20088171704",
+      "result": "Exact 75-count Harvest Apple & Spice canister, model 73261, Walmart.com seller, USD 4.28 page price and primary photo verified; broader stock, first-available date and launch date not verified"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "retailerItemId": "1732827976383501101",
+      "url": "https://shop.tiktok.com/us/pdp/mrs-meyers-clean-day-scented-bundle-holiday-gift-set/1732827976383501101",
+      "result": "Exact five-piece Mrs. Meyer's collection, brand shop seller, selected Rain Water variant, USD 45.96 page price, 11 sold display with period unstated and primary photo verified; alternate-variant stock, first-available date and launch date not verified"
+    }
+  ],
+  "categoryAndPaginationChecks": [
+    {"retailer":"Amazon US","scope":"Household Supplies / Scrub Daddy category reference","status":"blocked","pagination":"not started","remainingGap":"503 response prevented exact ASIN and pagination checks"},
+    {"retailer":"Walmart","scope":"Surface Care New Arrivals plus three exact item pages","status":"partial","pagination":"65 item or variant references retrieved; category pagination not exhausted","remainingGap":"dynamic and location-dependent results prevented full-category reconciliation"},
+    {"retailer":"Costco","scope":"Household Cleaning Essentials category","status":"partial","pagination":"not exhausted","remainingGap":"visible examples reviewed were already represented; member/location price, stock and complete category reconciliation remain unresolved"},
+    {"retailer":"TikTok Shop","scope":"Household Cleaner category plus one exact Mrs. Meyer's item page","status":"partial","pagination":"not exhausted","remainingGap":"one exact item was reconciled, but dynamic category results and seller/variant coverage remain incomplete"},
+    {"retailer":"Quince","scope":"Storage & Organization adjacent scope","status":"partial","pagination":"not exhausted","remainingGap":"official category returned HTTP 200, but exact-item and page-bound reconciliation was not completed; Quince remains outside the 19-retailer Home Care ITEMS set"},
+    {"retailer":"Remaining 15 tracked retailers","scope":"one retained source per retailer","status":"probe only","pagination":"not started","remainingGap":"single-link access probes do not establish inventory completeness"}
+  ],
+  "productSources": [
+    "https://www.walmart.com/ip/Mr-Clean-All-Purpose-Cleaner-Floor-Cleaner-Mop-Soap-Cleaning-Liquid-Winter-Wonderland-41-fl-oz/19731105771",
+    "https://www.walmart.com/ip/Tide-Washing-Machine-Cleaner-Tablets-with-Unstopables-Fresh-Scent-12-Count/20906004706",
+    "https://www.walmart.com/ip/Clorox-Scentiva-Disinfectant-Wipes-Harvest-Apple-Spice-6-75ct/20088171704",
+    "https://shop.tiktok.com/us/pdp/mrs-meyers-clean-day-scented-bundle-holiday-gift-set/1732827976383501101"
+  ],
+  "manufacturerSources": [
+    "https://us.pg.com/brands/",
+    "https://www.mrclean.com/en-us/shop-products",
+    "https://tide.com/en-us/shop",
+    "https://www.clorox.com/products/clorox-scentiva-disinfecting-wipes/",
+    "https://scjohnson.com/en/our-brands"
+  ],
+  "newsSources": [],
+  "additionalSourceReview": {
+    "retailer": "Quince",
+    "scope": "Home Organization / adjacent; not added to competitor ITEMS",
+    "categoryURL": "https://www.quince.com/shop/home/all-decor/storage-organization",
+    "httpStatus": "200",
+    "bytes": 1093465,
+    "checkedDate": "2026-11-15",
+    "status": "Official category accessible. Exact item pages and pagination were not reconciled, so no product, stock or restock claim was added.",
+    "verifiedAdditions": 0
+  },
+  "remainingGaps": [
+    "Amazon category access returned 503, so no Amazon item was added or upgraded.",
+    "TikTok Shop yielded one exact brand-shop listing, but category pagination, alternate-variant availability and broader seller coverage remain incomplete.",
+    "Costco visible category examples reviewed in this pass were already present; member/location pricing, stock and full pagination remain unresolved.",
+    "The current 19-retailer by 15-category coverage matrix was not re-enumerated; the latest comprehensive Monday review remains the applicable bounded audit.",
+    "No retailer first-available date, verified product-launch date or new in-scope official brand announcement was established for this pass."
+  ]
+}

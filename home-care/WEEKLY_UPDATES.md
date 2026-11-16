@@ -164,3 +164,13 @@ The three-row selected-only CSV was inspected for exact row count, retailer mapp
 - Rechecked Quince Storage & Organization as adjacent scope without promoting any item or stock claim. No new in-scope official brand launch was verified.
 - Kept Home Care, China Toy Atlas and Luggage Atlas distinct. Home Care retains evidence-scoped white-label recommendations while retired planogram, virtual-aisle, Blender/3D, BOM and design-workshop controls remain excluded.
 - See `site/catalog-review/daily-source-check-2026-11-14.json`.
+
+## 15 November 2026 — Walmart and TikTok Shop follow-up
+
+- Preserved all 10,259 canonical records and added four exact listings, for 10,263: Mr. Clean Winter Wonderland all-purpose cleaner (41 fl oz), Tide washing-machine-cleaner tablets (12 count), Clorox Scentiva Harvest Apple & Spice cleaning wipes (75 count) and a Mrs. Meyer's Clean Day five-piece home-cleaning collection.
+- Verified each exact retailer item ID, pack or selected variant, retailer/seller, dated USD price snapshot and matched primary photo. The TikTok Shop page displayed 11 sold with no stated period; that retailer-provided snapshot is retained separately and is not treated as monthly sales or popularity.
+- Labeled all four as new to the directory, not verified launches. Limited-edition packaging, holiday wording and new-arrivals placement do not establish retailer first-available or product-launch dates.
+- Probed one retained source for every tracked retailer. Amazon returned 503; Dollar Tree and Publix returned 403; Walgreens returned 404. Walmart Surface Care and TikTok Shop Household Cleaner received deeper partial review, while Costco visible category examples reviewed were already represented. No retailer pagination was proven exhausted.
+- Rechecked Quince Storage & Organization as adjacent scope without promoting any item, stock or restock claim. No new in-scope official brand launch or distinct factual news event was verified.
+- Kept Home Care, China Toy Atlas and Luggage Atlas distinct. Home Care retains evidence-scoped white-label recommendations while retired planogram, virtual-aisle, Blender/3D, BOM and design-workshop controls remain excluded.
+- The comprehensive Monday review remains scheduled for 16 November 2026. See `site/catalog-review/daily-source-check-2026-11-15.json`.
