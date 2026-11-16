@@ -45,5 +45,80 @@
         "url": "https://www.prnewswire.com/news-releases/samsonite-group-sa-announces-results-for-the-third-quarter-and-nine-months-ended-september-30-2026-302937847.html"
       }
     ]
+  },
+  {
+    "id": "rimowa-margiela-2026",
+    "title": "RIMOWA and Maison Margiela announce Classic Cabin",
+    "date": "2026-11-12",
+    "type": "Planned release",
+    "summary": "The hand-painted Classic Cabin has a white lining with exposed stitching. RIMOWA quotes EUR 3,200 for the case and EUR 3,600 for the separate 5AC XL bag. Selected stores and both brands’ websites are scheduled to begin sales November 19.",
+    "checked": "2026-11-16",
+    "added": "2026-11-16",
+    "sources": [
+      {
+        "label": "Original source",
+        "url": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng"
+      }
+    ],
+    "dateLabel": "Announcement date",
+    "announcementDate": "2026-11-12",
+    "plannedLaunchDate": "2026-11-19",
+    "market": "Selected stores and online",
+    "launchDate": null
+  },
+  {
+    "id": "rimowa-original-unique-2026",
+    "title": "RIMOWA extends wheel and handle customization to Original",
+    "date": "2026-11-09",
+    "type": "Service announcement",
+    "summary": "RIMOWA dates worldwide availability to November 4. The EUR 135 wheel sets use a T20 screwdriver. D50 fits Original Compact, Pilot and Cabin sizes. D65 fits Original Check-in and Trunk. The EUR 250 handle set for Original Silver Cabin, Check-in and Trunk requires specialist installation in store.",
+    "checked": "2026-11-16",
+    "added": "2026-11-16",
+    "sources": [
+      {
+        "label": "Original source",
+        "url": "https://press.rimowa.com/rimowa-expands-the-unique-personalisation-service-to-its-original-collection-with-a-charming-stop-motion-campaign/?lang=eng"
+      }
+    ],
+    "dateLabel": "Newsroom publication",
+    "announcementDate": "2026-11-09",
+    "launchDate": "2026-11-04",
+    "market": "Worldwide brand announcement"
+  },
+  {
+    "id": "american-dreamliner-nordstrom-navy",
+    "title": "Nordstrom lists American Dreamliner Navy carry-on at USD 42.49",
+    "date": "2026-11-16",
+    "type": "Price observation",
+    "summary": "Nordstrom shows USD 42.49 and a previous price of USD 49.99 for one Navy 22.5-inch carry-on. Concept One Accessories is the marketplace seller. Launch date and promotion period are unverified.",
+    "checked": "2026-11-16",
+    "added": "2026-11-16",
+    "sources": [
+      {
+        "label": "Original source",
+        "url": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001"
+      }
+    ],
+    "dateLabel": "First Atlas price observation",
+    "market": "United States",
+    "launchDate": null,
+    "listedDate": null
+  },
+  {
+    "id": "bagsmart-getaway-2026-11-16-prices",
+    "title": "BAGSMART Getaway carry-on listed at USD 127.99",
+    "date": "2026-11-16",
+    "dateLabel": "Atlas price observation",
+    "checked": "2026-11-16",
+    "added": "2026-11-16",
+    "type": "Price observation",
+    "summary": "The US storefront displayed USD 127.99 for 12 saved 20-inch Getaway color variants on November 16. Their November 8 observation was USD 143.99. Promotion start and end dates are unknown.",
+    "market": "United States",
+    "sources": [
+      {
+        "label": "BAGSMART Getaway selected variant",
+        "url": "https://www.bagsmart.com/products/getaway-carry-on-luggage?variant=41982850629714"
+      }
+    ]
   }
 ]
