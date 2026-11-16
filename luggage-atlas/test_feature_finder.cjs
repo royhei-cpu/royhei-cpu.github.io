@@ -9,4 +9,5 @@ el('#currency').value='';el('#priceMax').value='';el('#scope').value='models';as
 run("pick(MF.records[0].id);pick(MF.records[1].id);pick(MF.records[2].id);pick(MF.records[3].id);pick(MF.records[4].id)");assert.equal(run('picked.size'),4);run('compare();exportFeatures()');assert(el('#compareTable').innerHTML.includes('Not documented'));assert(ctx.csv.includes('Photo URL'));assert(ctx.csv.includes('Evidence scope'));assert.equal(JSON.parse(store.get('luggage-atlas-feature-picks')).length,4);
 el('#query').value='zzzzno-such-case';assert.equal(run('featureRows().length'),0);el('#reset').onclick();assert.equal(run('featureRows().length'),run('MF.records.length'));assert.equal(run('picked.size'),4);
 assert(!run("hasFeature({features:{cup:{value:'Not documented'}}},'cup')"));assert(!run("hasFeature({features:{}},'seat')"));
-console.log('PASS: all 174 brands represented; DTA model separation; multi-feature AND; region, type, same-currency price and evidence filters; empty/reset; four-model comparison, persistence and CSV.');
+assert(!run("hasFeature({features:{expansion:{value:'Non-expandable'}}},'expand')"));
+console.log('PASS: all indexed brands represented; DTA model separation; multi-feature AND; region, type, same-currency price and evidence filters; empty/reset; four-model comparison, persistence and CSV.');
