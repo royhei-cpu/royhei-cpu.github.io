@@ -1,0 +1,389 @@
+{
+  "reviewedAt": "2026-11-16",
+  "status": "completed-with-bounded-gaps",
+  "reviewType": "Comprehensive Monday assortment review",
+  "baselineRecords": 10265,
+  "publishedRecords": 10269,
+  "verifiedAdditions": 4,
+  "additionsByRetailer": {
+    "Amazon US": 1,
+    "Walmart": 2,
+    "TikTok Shop": 1
+  },
+  "newLaunches": [
+    {
+      "event": "Finish Free & Clear introduced",
+      "announcementDate": "2026-09-02",
+      "announcementSource": "https://www.reckitt.com/us/news/finish-introduces-finish-free-clear-its-latest-dishwasher-detergent-innovation/",
+      "scope": "Official brand announcement; Amazon item-specific Date First Available is separately recorded as 2026-08-11"
+    },
+    {
+      "event": "Lysol Air Sanitizer Apple Cinnamon and Winter Woods limited editions launched",
+      "announcementDate": "2026-10-01",
+      "announcementSource": "https://www.reckitt.com/us/news/lysol-air-sanitizer-launches-limited-edition-apple-cinnamon-and-winter-woods-scents-for-fall/",
+      "scope": "Official brand announcement; Walmart first-available dates remain unverified"
+    }
+  ],
+  "newVerifiedNews": 2,
+  "sourceAccessProbes": [
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/departments/home-and-decor/cleaning-and-disinfectants/tile-cleaners-near-me",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "The page title is \"Tile Cleaners Near Me\" and exact items and pagination (Showing 18 of 18) are explicitly visible, while prices are not explicitly visible."
+    },
+    {
+      "retailer": "Albertsons",
+      "url": "https://www.albertsons.com/shop/pd/reynolds-wrap-aluminum-foil-200-sq-ft-each/130050222",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "Reynolds Wrap Aluminum Foil 200 Sq. Ft. - Each; exact item and stock are explicitly visible, but price/pack is not."
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/Household-Supplies-Scrub-Daddy-Health/s?rh=n%3A15342811%2Cp_89%3AScrub%2BDaddy",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "Scrub Daddy / Household Supplies category page with exact items, prices/packs, and pagination explicitly visible."
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "url": "https://www.bjs.com/product/arm--hammer-plus-oxiclean-odor-blasters-liquid-laundry-detergent---fresh-burst-200-fl-oz/3000000000005873299",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "The page title is Arm & Hammer Plus OxiClean Odor Blasters Liquid Laundry Detergent - Fresh Burst, 200 fl. oz., and an exact item, price, pack, and stock status are explicitly visible."
+    },
+    {
+      "retailer": "CVS",
+      "url": "https://www.cvs.com/shop/dawn-platinum-plus-powerwash-dish-spray-fresh-clean-16-oz-prodid-387401",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "Dawn Platinum Plus Powerwash Dish Spray, Fresh Clean, 16 oz is the exact product name, and an exact item, price, pack, and stock (5 in stock) are explicitly visible."
+    },
+    {
+      "retailer": "Costco",
+      "url": "https://www.costco.com/household-cleaning.html",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "The page title is Cleaning Supplies and pagination or stock is not explicitly visible."
+    },
+    {
+      "retailer": "Dollar General",
+      "url": "https://www.dollargeneral.com/p/fabuloso-2x-multi-purpose-cleaner-with-baking-soda-citrus-and-fruits-scent-56-fl-oz/35000530615",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "The product name is \"Fabuloso 2X Multi-Purpose Cleaner with Baking Soda, Citrus and Fruits Scent, 56 fl oz\", and the exact price ($5.50) and stock (5 in stock) are explicitly visible."
+    },
+    {
+      "retailer": "Dollar Tree",
+      "url": "https://sameday.dollartree.com/store/dollar-tree/products/17950911-la-s-totally-awesome-all-purpose-concentrated-cleaner-32-fl-oz",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "LA's Totally Awesome All Purpose Concentrated Cleaner, with an exact item, price/pack, and pagination/stock visibility."
+    },
+    {
+      "retailer": "H-E-B",
+      "url": "https://www.heb.com/product-detail/field-future-by-h-e-b-dishwashing-liquid-fragrance-free/5010074",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "The product name is Field & Future by H‑E‑B Dishwashing Liquid - Fragrance Free, and exact item, price/pack, and stock status are explicitly visible."
+    },
+    {
+      "retailer": "Home Depot",
+      "url": "https://www.homedepot.com/p/100670178",
+      "httpStatus": "500",
+      "result": "blocked-or-unavailable",
+      "observed": "All scraping engines failed to retrieve content from this URL. Engines tried: [fire-engine;chrome-cdp;stealth, fire-engine(retry);chrome-cdp;stealth, pdf, document, image]. This usually happens when: (1) The URL is invalid or the page doesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation."
+    },
+    {
+      "retailer": "Kroger",
+      "url": "https://www.kroger.com/pl/cleaning-household/18011",
+      "httpStatus": "200",
+      "result": "retrieved-partial",
+      "observed": "The page displays the category cleaning-household/18011, and the items are blocked with a message stating there was a problem displaying them."
+    },
+    {
+      "retailer": "Lowe’s",
+      "url": "https://www.lowes.com/pl/cleaning-tools/mops/spray-mops/o-cedar/microfiber/3998445995-553466270-4294721465",
+      "httpStatus": "500",
+      "result": "blocked-or-unavailable",
+      "observed": "All scraping engines failed to retrieve content from this URL. Engines tried: [fire-engine;chrome-cdp;stealth, fire-engine(retry);chrome-cdp;stealth, pdf, document, image]. This usually happens when: (1) The URL is invalid or the page doesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation."
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/snuggle-lq-fab-sof-blue-sparkle-74-8oz/7261347456",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "The product name is SNUGGLE LQ FAB SOF BLUE SPARKLE 74.8OZ, and low stock status is explicitly visible, while the exact price is not visible (listed as \"See Price in Cart\")."
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://delivery.publix.com/store/publix/products/39743-clorox-disinfecting-wipes-150-ct",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "Clorox Disinfecting Wipes is the product name, and an exact item, price/pack ($13.49 for 150 ct), and stock status (Out of stock) are explicitly visible."
+    },
+    {
+      "retailer": "Safeway",
+      "url": "https://www.safeway.com/shop/pd/bounty-regular-paper-towel-48-ct-rl/970461182",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "The exact product name is Bounty Regular Paper Towel 48ct - RL, and delivery and pickup availability options are explicitly visible, while exact price and stock details for this main item are not visible."
+    },
+    {
+      "retailer": "Sam’s Club",
+      "url": "https://www.samsclub.com/ip/members-mark-platinum-performance-liquid-dish-soap-fresh-clean-100-fl-oz/13892164761",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "The product name is Member's Mark Platinum Performance Liquid Dish Soap, Fresh Clean, 100 fl. oz., and an exact item, price/pack, and order limit are explicitly visible."
+    },
+    {
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/store/scrub-daddy/7494956340169509603",
+      "httpStatus": "403",
+      "result": "blocked-or-unavailable",
+      "observed": "Firecrawl can't scrape this site because it is currently not supported. Check Alexandria for a relevant provider if available, or use another source."
+    },
+    {
+      "retailer": "Walgreens",
+      "url": "https://www.walgreens.com/search/tier3/productlist/N%3D20007728-93-86",
+      "httpStatus": "404",
+      "result": "blocked-or-unavailable",
+      "observed": "Not Found. Redirecting to https://www.walgreens.com/request\\_error.jsp?redirect="
+    },
+    {
+      "retailer": "Walmart",
+      "url": "https://www.walmart.com/shop/household-essentials/surface-care-new-arrivals",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "Surface Care New Arrivals category name with exact items and prices explicitly visible."
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/accessories/cashmere/cashmere-comb",
+      "httpStatus": "200",
+      "result": "retrieved-and-reviewed",
+      "observed": "Cashmere Comb; exact item and price are visible."
+    }
+  ],
+  "probeLimit": "One retained public source attempted for each of 20 canonical retailers; deeper exact-item checks concentrated on Amazon US, Walmart, Costco, TikTok Shop and Quince. This is not an exhaustive inventory crawl.",
+  "exactItemChecks": [
+    {
+      "retailer": "Amazon US",
+      "retailerItemId": "B0H7DY3MPY",
+      "url": "https://www.amazon.com/Finish-Dishwasher-Fragrance-Detergent-Degreasing/dp/B0H7DY3MPY",
+      "result": "verified addition",
+      "packVariant": "84 count",
+      "priceSnapshot": "$22.99 USD",
+      "seller": "Amazon.com",
+      "photo": "matched",
+      "retailerListedDate": "2026-08-11",
+      "retailerListedDateLabel": "Date First Available"
+    },
+    {
+      "retailer": "Walmart",
+      "retailerItemId": "18445371837",
+      "url": "https://www.walmart.com/ip/Lysol-Air-Sanitizer-Spray-Bacterial-Odor-Elimination-Apple-Cinnamon-Scent-10-oz/18445371837",
+      "result": "verified addition",
+      "packVariant": "Apple Cinnamon, 10 oz",
+      "priceSnapshot": "$7.32 USD",
+      "seller": "Walmart.com",
+      "photo": "matched",
+      "retailerListedDate": "Not verified"
+    },
+    {
+      "retailer": "Walmart",
+      "retailerItemId": "18457117190",
+      "url": "https://www.walmart.com/ip/Lysol-Air-Sanitizer-Spray-for-Bacterial-Odor-Elimination-Air-Freshener-Alternative-Winter-Woods-Scent-10-oz/18457117190",
+      "result": "verified addition",
+      "packVariant": "Winter Woods, 10 oz",
+      "priceSnapshot": "$7.32 USD",
+      "seller": "Walmart.com",
+      "photo": "matched",
+      "retailerListedDate": "Not verified"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "retailerItemId": "1729506935488288551",
+      "url": "https://shop.tiktok.com/us/pdp/24pcs-washing-machine-cleaner-set-deep-clean-descale/1729506935488288551",
+      "result": "verified addition",
+      "packVariant": "24 pieces selected",
+      "priceSnapshot": "$9.88 USD",
+      "seller": "Yumi Home",
+      "photo": "matched",
+      "displayedSales": "32 sold; period not stated",
+      "retailerListedDate": "Not verified"
+    }
+  ],
+  "categoryAndPaginationChecks": [
+    {
+      "retailer": "Ace Hardware",
+      "scope": "Tile Cleaners category",
+      "status": "bounded category page",
+      "pagination": "page stated Showing 18 of 18",
+      "remainingGap": "Only this tile-cleaner page was bounded; other Home Care categories and exact item refreshes remain unreconciled."
+    },
+    {
+      "retailer": "Albertsons",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "Amazon US",
+      "scope": "Scrub Daddy Household Supplies category plus Finish Free & Clear exact ASIN",
+      "status": "partial",
+      "pagination": "category page visible; pagination not exhausted",
+      "remainingGap": "One exact ASIN was added, but broader category, seller and variant coverage remain incomplete."
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "CVS",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "Costco",
+      "scope": "Household Cleaning category",
+      "status": "partial",
+      "pagination": "not exhausted",
+      "remainingGap": "No new exact item was established in this pass; member/location pricing, stock and full category reconciliation remain unresolved."
+    },
+    {
+      "retailer": "Dollar General",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "Dollar Tree",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "H-E-B",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "Home Depot",
+      "scope": "one retained official product or category source",
+      "status": "blocked",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "Kroger",
+      "scope": "Cleaning & Household category",
+      "status": "partial access",
+      "pagination": "not started",
+      "remainingGap": "The category shell loaded but product items were not displayed."
+    },
+    {
+      "retailer": "Lowe’s",
+      "scope": "one retained official product or category source",
+      "status": "blocked",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "Meijer",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "Publix",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "Safeway",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "Sam’s Club",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "TikTok Shop",
+      "scope": "One exact washer-cleaner listing plus retained Scrub Daddy store reference",
+      "status": "partial with access block",
+      "pagination": "not exhausted; subsequent product pages triggered human verification",
+      "remainingGap": "One exact item was added; broader seller, variant and category coverage remains incomplete."
+    },
+    {
+      "retailer": "Walgreens",
+      "scope": "one retained official product or category source",
+      "status": "blocked",
+      "pagination": "not started",
+      "remainingGap": "Single-link access probe does not establish inventory completeness."
+    },
+    {
+      "retailer": "Walmart",
+      "scope": "Surface Care New Arrivals plus two exact Lysol items",
+      "status": "partial",
+      "pagination": "not exhausted",
+      "remainingGap": "Two exact listings were added, but dynamic/location-dependent results prevented full-category reconciliation."
+    },
+    {
+      "retailer": "Quince",
+      "scope": "Cashmere Comb exact item plus retained fabric-care records",
+      "status": "partial",
+      "pagination": "not exhausted",
+      "remainingGap": "Two Quince fabric-care records remain canonical; broader Quince Home Care and adjacent-category coverage is incomplete."
+    }
+  ],
+  "productSources": [
+    "https://www.amazon.com/Finish-Dishwasher-Fragrance-Detergent-Degreasing/dp/B0H7DY3MPY",
+    "https://www.walmart.com/ip/Lysol-Air-Sanitizer-Spray-Bacterial-Odor-Elimination-Apple-Cinnamon-Scent-10-oz/18445371837",
+    "https://www.walmart.com/ip/Lysol-Air-Sanitizer-Spray-for-Bacterial-Odor-Elimination-Air-Freshener-Alternative-Winter-Woods-Scent-10-oz/18457117190",
+    "https://shop.tiktok.com/us/pdp/24pcs-washing-machine-cleaner-set-deep-clean-descale/1729506935488288551"
+  ],
+  "manufacturerSources": [
+    "https://www.reckitt.com/us/news/finish-introduces-finish-free-clear-its-latest-dishwasher-detergent-innovation/",
+    "https://www.reckitt.com/us/news/lysol-air-sanitizer-launches-limited-edition-apple-cinnamon-and-winter-woods-scents-for-fall/"
+  ],
+  "newsSources": [
+    "https://www.reckitt.com/us/news/finish-introduces-finish-free-clear-its-latest-dishwasher-detergent-innovation/",
+    "https://www.reckitt.com/us/news/lysol-air-sanitizer-launches-limited-edition-apple-cinnamon-and-winter-woods-scents-for-fall/",
+    "https://corporate.walmart.com/recalls"
+  ],
+  "additionalSourceReview": [
+    "Official retailer source probes covered all 20 canonical retailers.",
+    "Official Reckitt announcements were checked and retained with original announcement dates, not the 16 November research date.",
+    "Product IDs and URLs were checked against catalog-review shards and catalog-additions; no duplicate exact listing was found."
+  ],
+  "remainingGaps": [
+    "Full inventories and full 20-retailer by 16-category pagination were not reconciled.",
+    "Home Depot and Lowe’s exact source probes were unavailable in live extraction; Walgreens returned 404; broader TikTok browsing was interrupted by human verification.",
+    "Costco’s category page was checked but no new exact item was established; member/location price, stock and pagination remain unresolved.",
+    "Quince retains two exact fabric-care references, but broader Home Care and adjacent-category coverage remains partial.",
+    "Three newly added items still have no verified retailer first-available date; only the Amazon Finish ASIN exposed an item-specific Date First Available.",
+    "No sales count was inferred for Amazon or Walmart. The TikTok item retains the exact displayed 32 sold text with period unspecified."
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-15",
-  "sourceCheckedAt": "2026-11-15",
+  "reviewedAt": "2026-11-16",
+  "sourceCheckedAt": "2026-11-16",
   "files": [
     "part-001.json",
     "part-002.json",
@@ -49,9 +49,10 @@
     "daily-2026-11-13.json",
     "daily-2026-11-14.json",
     "daily-2026-11-15.json",
-    "quince-2026-11-15.json"
+    "quince-2026-11-15.json",
+    "daily-2026-11-16.json"
   ],
-  "added": 3934,
+  "added": 3938,
   "photoPacks": [
     "photos-001.json.gz",
     "photos-002.json.gz",
@@ -369,5 +370,5 @@
     "gap-review-20261102-53.json.gz",
     "gap-review-20261102-54.json.gz"
   ],
-  "reviewScope": "Targeted daily review: three Walmart and one TikTok Shop exact listings with matched photos. All 19 tracked retailers received a one-link access probe; Amazon and several other sources remained blocked or unavailable. Quince Storage & Organization was checked as adjacent scope. Full category pagination and item revalidation remain incomplete; the comprehensive Monday review remains due 16 November 2026. Quince follow-up: two exact fabric-care references added after official US page and image review, with regional retrieval limitations. Quince is a twentieth canonical retailer; comprehensive category coverage remains unreviewed."
+  "reviewScope": "Comprehensive Monday source review across the current 20-retailer directory, with one retained official source attempted per retailer and deeper exact-item checks for Amazon US, Walmart, Costco, TikTok Shop and Quince. Four exact listings were added (Amazon US 1; Walmart 2; TikTok Shop 1) with matched photos. Finish Free & Clear has an item-specific Amazon Date First Available of 11 August 2026 and a separate official Reckitt announcement dated 2 September 2026. The two Lysol seasonal scents have a separate official Reckitt launch announcement dated 1 October 2026; their Walmart first-available dates remain unverified. Full retailer/category pagination and checkout availability remain incomplete; Home Depot, Lowe’s, Walgreens and broader TikTok access were blocked or unavailable during parts of the pass."
 }

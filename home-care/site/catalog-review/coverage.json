@@ -1,9 +1,9 @@
 {
-  "reviewedAt": "2026-11-10",
-  "sourceCheckedAt": "2026-11-10",
+  "reviewedAt": "2026-11-16",
+  "sourceCheckedAt": "2026-11-16",
   "baseline": 6331,
-  "added": 3922,
-  "total": 10253,
+  "added": 3938,
+  "total": 10269,
   "scope": "Collected public listings; no full retailer inventory claim",
   "retailers": [
     {
@@ -235,6 +235,14 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
@@ -420,14 +428,22 @@
           "status": "partial",
           "checkedDate": "2026-11-02",
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Amazon US",
-      "collected": 736,
-      "added": 409,
+      "collected": 737,
+      "added": 410,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "736 retained Amazon records across all 15 Home Care categories. This follow-up checked 370 missing exact ASIN pages, adding 252; 160 additions have item-specific Date First Available evidence. Category access returned HTTP 503. Seller offers and complete search/category pagination remain unverified.",
       "sourcePages": [
@@ -870,11 +886,20 @@
         },
         {
           "category": "Dishwashing",
-          "collected": 88,
-          "added": 21,
+          "collected": 89,
+          "added": 22,
           "status": "partial",
-          "checkedDate": "2026-11-02",
-          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+          "checkedDate": "2026-11-16",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-16",
+            "itemLinksChecked": 1,
+            "verifiedAdditions": 1,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://www.amazon.com/Finish-Dishwasher-Fragrance-Detergent-Degreasing/dp/B0H7DY3MPY"
+            ]
+          }
         },
         {
           "category": "Disposable Tabletop",
@@ -963,6 +988,14 @@
           "status": "partial",
           "checkedDate": "2026-11-02",
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
@@ -1129,6 +1162,14 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
@@ -1281,14 +1322,22 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Costco",
-      "collected": 142,
-      "added": 10,
+      "collected": 144,
+      "added": 12,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "10 November daily follow-up added 3 exact product-page records; all three retrieved pages reported out of stock in the web context. Warehouse stock, full category pagination, seller offers and complete checkout pricing remain unverified.",
       "sourcePages": [
@@ -1435,6 +1484,24 @@
           "status": "partial",
           "checkedDate": "2026-11-02",
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 2,
+          "added": 2,
+          "status": "partial",
+          "checkedDate": "2026-11-16",
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-16",
+            "itemLinksChecked": 2,
+            "verifiedAdditions": 2,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://www.costco.com/p/-/dreame-sh10-plus-steam-mop-13-in-1-steam-cleaner-with-multi-surface-tools/4201058122",
+              "https://www.costco.com/p/-/dreame-air-cordless-stick-vacuum-with-ultra-slim-and-lightweight-design/4201058058"
+            ]
+          }
         }
       ],
       "sourceCheckedAt": "2026-11-02",
@@ -1572,6 +1639,14 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
@@ -1718,6 +1793,14 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
@@ -1870,6 +1953,14 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
@@ -2056,6 +2147,14 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
@@ -2223,6 +2322,14 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
@@ -2386,6 +2493,14 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
@@ -2572,6 +2687,14 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
@@ -2797,6 +2920,14 @@
           "status": "partial",
           "checkedDate": "2026-11-02",
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
@@ -2971,6 +3102,14 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
@@ -3110,14 +3249,22 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "TikTok Shop",
-      "collected": 943,
-      "added": 831,
+      "collected": 946,
+      "added": 834,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "10 November daily follow-up added 2 exact public product pages with matched photos and named seller evidence and upgraded 1 existing exact item. Seller names distinguish the official Pink Stuff and Phueut shops from resellers. Listing dates and complete marketplace pagination remain unverified; earlier limited-evidence references keep their status.",
       "sourcePages": [
@@ -3241,11 +3388,20 @@
         },
         {
           "category": "Dishwashing",
-          "collected": 13,
-          "added": 10,
-          "status": "not rechecked this pass",
-          "checkedDate": null,
-          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+          "collected": 14,
+          "added": 11,
+          "status": "partial",
+          "checkedDate": "2026-11-16",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-16",
+            "itemLinksChecked": 1,
+            "verifiedAdditions": 1,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://shop.tiktok.com/us/pdp/mrs-meyers-clean-day-scented-bundle-holiday-gift-set/1732827976383501101"
+            ]
+          }
         },
         {
           "category": "Disposable Tabletop",
@@ -3273,11 +3429,20 @@
         },
         {
           "category": "Laundry Care",
-          "collected": 126,
-          "added": 107,
-          "status": "not rechecked this pass",
-          "checkedDate": null,
-          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+          "collected": 127,
+          "added": 108,
+          "status": "partial",
+          "checkedDate": "2026-11-16",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-16",
+            "itemLinksChecked": 1,
+            "verifiedAdditions": 1,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://shop.tiktok.com/us/pdp/24pcs-washing-machine-cleaner-set-deep-clean-descale/1729506935488288551"
+            ]
+          }
         },
         {
           "category": "Naturals",
@@ -3334,6 +3499,23 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 1,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-16",
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-16",
+            "itemLinksChecked": 1,
+            "verifiedAdditions": 1,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://shop.tiktok.com/us/pdp/compact-handheld-steam-cleaner-16-accessories-3-levels/1732522401225085315"
+            ]
+          }
         }
       ],
       "sourceCheckedAt": "2026-11-02",
@@ -3520,14 +3702,22 @@
           "status": "partial",
           "checkedDate": "2026-11-02",
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
     },
     {
       "retailer": "Walmart",
-      "collected": 808,
-      "added": 165,
+      "collected": 816,
+      "added": 173,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "10 November daily follow-up added 2 exact marketplace product-page records and identified both sellers. Full category pagination, location-dependent stock and complete checkout pricing remain incomplete.",
       "sourcePages": [
@@ -3582,11 +3772,21 @@
       "categories": [
         {
           "category": "Air Care",
-          "collected": 77,
-          "added": 0,
-          "status": "not rechecked this pass",
-          "checkedDate": null,
-          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+          "collected": 79,
+          "added": 2,
+          "status": "partial",
+          "checkedDate": "2026-11-16",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-16",
+            "itemLinksChecked": 2,
+            "verifiedAdditions": 2,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://www.walmart.com/ip/Lysol-Air-Sanitizer-Spray-Bacterial-Odor-Elimination-Apple-Cinnamon-Scent-10-oz/18445371837",
+              "https://www.walmart.com/ip/Lysol-Air-Sanitizer-Spray-for-Bacterial-Odor-Elimination-Air-Freshener-Alternative-Winter-Woods-Scent-10-oz/18457117190"
+            ]
+          }
         },
         {
           "category": "Bathroom & Toilet Cleaning",
@@ -3598,11 +3798,21 @@
         },
         {
           "category": "Cleaning Tools",
-          "collected": 151,
-          "added": 37,
+          "collected": 153,
+          "added": 39,
           "status": "partial",
-          "checkedDate": "2026-11-02",
-          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+          "checkedDate": "2026-11-16",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-16",
+            "itemLinksChecked": 2,
+            "verifiedAdditions": 2,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://www.walmart.com/ip/SCRUBIT-Natural-Loofah-Dish-Sponges-Biodegradable-Kitchen-Scrubbers-Beige-6-Count/20870165467",
+              "https://www.walmart.com/ip/SCRUBIT-Non-Scratch-Dish-Scrubbers-Reusable-Nylon-Kitchen-Scouring-Pads-Multicolor-5-Count/20886957405"
+            ]
+          }
         },
         {
           "category": "Dishwashing",
@@ -3638,11 +3848,20 @@
         },
         {
           "category": "Laundry Care",
-          "collected": 44,
-          "added": 0,
-          "status": "not rechecked this pass",
-          "checkedDate": null,
-          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+          "collected": 45,
+          "added": 1,
+          "status": "partial",
+          "checkedDate": "2026-11-16",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-16",
+            "itemLinksChecked": 1,
+            "verifiedAdditions": 1,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://www.walmart.com/ip/Tide-Washing-Machine-Cleaner-Tablets-with-Unstopables-Fresh-Scent-12-Count/20906004706"
+            ]
+          }
         },
         {
           "category": "Naturals",
@@ -3678,11 +3897,22 @@
         },
         {
           "category": "Surface Cleaners",
-          "collected": 144,
-          "added": 3,
+          "collected": 147,
+          "added": 6,
           "status": "partial",
-          "checkedDate": "2026-11-02",
-          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+          "checkedDate": "2026-11-16",
+          "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-16",
+            "itemLinksChecked": 3,
+            "verifiedAdditions": 3,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://www.walmart.com/ip/TRANQUIL-TOUCH-Holiday-Collection-Mop-Soap-Luxury-Floor-Cleaner-Hardwood-Tile-Laminate-Stone-LVP-Long-Lasting-Fragrance-No-Residue-32-oz/21187524978",
+              "https://www.walmart.com/ip/Mr-Clean-All-Purpose-Cleaner-Floor-Cleaner-Mop-Soap-Cleaning-Liquid-Winter-Wonderland-41-fl-oz/19731105771",
+              "https://www.walmart.com/ip/Clorox-Scentiva-Disinfectant-Wipes-Harvest-Apple-Spice-6-75ct/20088171704"
+            ]
+          }
         },
         {
           "category": "Toilet Paper & Tissues",
@@ -3699,9 +3929,162 @@
           "status": "not rechecked this pass",
           "checkedDate": null,
           "remainingGap": "Full inventory, meaningful pack/seller variants and checkout evidence remain unverified."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "not rechecked this pass",
+          "checkedDate": null,
+          "remainingGap": "Full inventory, meaningful model/seller variants and checkout evidence remain unverified."
         }
       ],
       "sourceCheckedAt": "2026-11-02"
+    },
+    {
+      "retailer": "Quince",
+      "collected": 2,
+      "added": 2,
+      "categories": [
+        {
+          "category": "Air Care",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Bathroom & Toilet Cleaning",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Cleaning Tools",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Dishwashing",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Disposable Tabletop",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Floor & Carpet Care",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Food Wrap & Storage",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Laundry Care",
+          "collected": 2,
+          "added": 2,
+          "status": "partial",
+          "checkedDate": "2026-11-15",
+          "remainingGap": "Two exact official Quince fabric-care references retained; broader assortment and checkout evidence remain unverified.",
+          "dailyFollowup": {
+            "checkedDate": "2026-11-15",
+            "itemLinksChecked": 2,
+            "verifiedAdditions": 2,
+            "pagination": "not exhausted",
+            "sources": [
+              "https://www.quince.com/home/wool-dryer-balls",
+              "https://www.quince.com/accessories/cashmere/cashmere-comb"
+            ]
+          }
+        },
+        {
+          "category": "Naturals",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Paper Towels",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Pest Control",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Specialty Cleaners",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Surface Cleaners",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Toilet Paper & Tissues",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Trash Bags",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        },
+        {
+          "category": "Cleaning Appliances",
+          "collected": 0,
+          "added": 0,
+          "status": "research gap",
+          "checkedDate": null,
+          "remainingGap": "No retained exact Quince record in this category; zero collected is a research gap, not evidence of no assortment."
+        }
+      ]
     }
   ],
   "latestAudit": {
@@ -3771,15 +4154,26 @@
     "scope": "Targeted gap review; not a completed comprehensive inventory refresh"
   },
   "latestDailyAudit": {
-    "date": "2026-11-12",
-    "added": 3,
+    "date": "2026-11-16",
+    "added": 4,
     "byRetailer": {
-      "Costco": 2,
+      "Amazon US": 1,
+      "Walmart": 2,
       "TikTok Shop": 1
     },
-    "audit": "daily-source-check-2026-11-12.json",
-    "scope": "Targeted exact-product recovery; 19 retained-link access probes are not complete retailer/category reviews."
+    "audit": "daily-source-check-2026-11-16.json",
+    "scope": "Comprehensive Monday source review across 20 retailers with one retained source probe per retailer and four exact additions; full retailer/category inventory and pagination remain incomplete."
   },
-  "dailyFollowupDate": "2026-11-12",
-  "countBasis": "Collected primary-category record counts reconciled to the current merged dataset on 12 November 2026; source-review dates below remain historical unless explicitly updated."
+  "dailyFollowupDate": "2026-11-16",
+  "countBasis": "Collected primary-category record counts reconciled to the current merged dataset on 16 November 2026. The 20-retailer Monday source review attempted one retained public source per retailer; category pagination remains partial unless explicitly bounded.",
+  "latestMondayAudit": {
+    "date": "2026-11-16",
+    "retailersAttempted": 20,
+    "categoryRowsTracked": 320,
+    "verifiedAdditions": 4,
+    "officialAnnouncementEvents": 2,
+    "coverageComplete": false,
+    "audit": "daily-source-check-2026-11-16.json",
+    "scope": "One retained public source attempted per retailer; only Ace tile-cleaner page exposed a bounded 18-of-18 scope. All other category/pagination coverage remains partial, blocked or not started."
+  }
 }

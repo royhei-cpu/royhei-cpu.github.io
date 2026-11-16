@@ -1,5 +1,40 @@
 [
   {
+    "id": "catalog-update-2026-11-16",
+    "title": "Four exact Amazon, Walmart and TikTok Shop listings added",
+    "type": "Catalog update",
+    "summary": "The Monday review added one Amazon Finish Free & Clear 84-count listing, two Walmart Lysol Air Sanitizer seasonal 10 oz listings and one TikTok Shop 24-piece washer-cleaner listing after exact item, pack or selected variant, seller, dated price snapshot and matched primary-photo checks. The records are new to this directory. Finish has a separate Amazon Date First Available of 11 August 2026 and official Reckitt announcement dated 2 September 2026. The Lysol scents have a separate official Reckitt launch announcement dated 1 October 2026; their Walmart listing dates remain unverified.",
+    "date": "2026-11-16",
+    "dateLabel": "New to this directory · checked 16 November 2026",
+    "checked": "2026-11-16",
+    "sources": [
+      {
+        "label": "Amazon: Finish Free & Clear, 84 count",
+        "url": "https://www.amazon.com/Finish-Dishwasher-Fragrance-Detergent-Degreasing/dp/B0H7DY3MPY"
+      },
+      {
+        "label": "Walmart: Lysol Apple Cinnamon, 10 oz",
+        "url": "https://www.walmart.com/ip/Lysol-Air-Sanitizer-Spray-Bacterial-Odor-Elimination-Apple-Cinnamon-Scent-10-oz/18445371837"
+      },
+      {
+        "label": "Walmart: Lysol Winter Woods, 10 oz",
+        "url": "https://www.walmart.com/ip/Lysol-Air-Sanitizer-Spray-for-Bacterial-Odor-Elimination-Air-Freshener-Alternative-Winter-Woods-Scent-10-oz/18457117190"
+      },
+      {
+        "label": "TikTok Shop: washer-cleaner tablets, 24 pieces",
+        "url": "https://shop.tiktok.com/us/pdp/24pcs-washing-machine-cleaner-set-deep-clean-descale/1729506935488288551"
+      },
+      {
+        "label": "Reckitt: Finish Free & Clear announcement",
+        "url": "https://www.reckitt.com/us/news/finish-introduces-finish-free-clear-its-latest-dishwasher-detergent-innovation/"
+      },
+      {
+        "label": "Reckitt: Lysol seasonal Air Sanitizer announcement",
+        "url": "https://www.reckitt.com/us/news/lysol-air-sanitizer-launches-limited-edition-apple-cinnamon-and-winter-woods-scents-for-fall/"
+      }
+    ]
+  },
+  {
     "id": "catalog-update-2026-11-15",
     "title": "Four exact Walmart and TikTok Shop listings added",
     "type": "Catalog update",
@@ -188,6 +223,52 @@
       {
         "label": "Quince official storage directory",
         "url": "https://www.quince.com/shop/home/all-decor/storage-organization"
+      }
+    ]
+  },
+  {
+    "id": "lysol-seasonal-air-sanitizer-announcement-2026-10-01",
+    "title": "Lysol launched limited-edition Apple Cinnamon and Winter Woods Air Sanitizer scents",
+    "type": "Official product announcement",
+    "summary": "Reckitt's U.S. announcement dated 1 October 2026 names the two limited-edition 10 oz Lysol Air Sanitizer scents and says they were then available at Walmart, Target and Kroger. Exact Walmart pages were checked on 16 November, but their Walmart first-available dates remain unverified. This event was first recorded in directory news on 16 November; it is not a 16 November launch.",
+    "date": "2026-10-01",
+    "eventDate": "2026-10-01",
+    "dateLabel": "Official announcement date · first recorded 16 November 2026",
+    "firstObserved": "2026-11-16",
+    "checked": "2026-11-16",
+    "sources": [
+      {
+        "label": "Reckitt official announcement",
+        "url": "https://www.reckitt.com/us/news/lysol-air-sanitizer-launches-limited-edition-apple-cinnamon-and-winter-woods-scents-for-fall/"
+      },
+      {
+        "label": "Walmart Apple Cinnamon listing",
+        "url": "https://www.walmart.com/ip/Lysol-Air-Sanitizer-Spray-Bacterial-Odor-Elimination-Apple-Cinnamon-Scent-10-oz/18445371837"
+      },
+      {
+        "label": "Walmart Winter Woods listing",
+        "url": "https://www.walmart.com/ip/Lysol-Air-Sanitizer-Spray-for-Bacterial-Odor-Elimination-Air-Freshener-Alternative-Winter-Woods-Scent-10-oz/18457117190"
+      }
+    ]
+  },
+  {
+    "id": "finish-free-clear-announcement-2026-09-02",
+    "title": "Reckitt introduced Finish Free & Clear",
+    "type": "Official product announcement",
+    "summary": "Reckitt's U.S. announcement dated 2 September 2026 introduced Finish Free & Clear dishwasher detergent and said it was then available at Amazon and Target. The directory separately records Amazon's item-specific Date First Available of 11 August 2026 for the exact 84-count ASIN. This event was first recorded in directory news on 16 November; it is not a 16 November launch.",
+    "date": "2026-09-02",
+    "eventDate": "2026-09-02",
+    "dateLabel": "Official announcement date · first recorded 16 November 2026",
+    "firstObserved": "2026-11-16",
+    "checked": "2026-11-16",
+    "sources": [
+      {
+        "label": "Reckitt official announcement",
+        "url": "https://www.reckitt.com/us/news/finish-introduces-finish-free-clear-its-latest-dishwasher-detergent-innovation/"
+      },
+      {
+        "label": "Amazon exact 84-count listing",
+        "url": "https://www.amazon.com/Finish-Dishwasher-Fragrance-Detergent-Degreasing/dp/B0H7DY3MPY"
       }
     ]
   }

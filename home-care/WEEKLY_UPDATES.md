@@ -8,6 +8,18 @@ Files: home-care/site/. Preserve the root tariff dashboard and pawlish/.
 The production workflow copies this committed directory to _site/home-care and deploys GitHub Pages. It does not fetch Home Care from Vercel or ChatGPT.
 The migration importer is historical and is no longer called by publication.
 
+## Monday assortment review — 16 November 2026
+
+The current 20-retailer baseline of 10,265 records was preserved and four exact item-page listings were added: Amazon US 1, Walmart 2 and TikTok Shop 1, for 10,269 canonical records. The additions are in `site/catalog-review/daily-2026-11-16.json`; item IDs, exact pack or selected variant, seller, USD price snapshot, source URL and matched local photo were checked.
+
+- Amazon Finish Free & Clear, 84 count: Amazon `Date First Available` 11 August 2026; official Reckitt announcement 2 September 2026.
+- Walmart Lysol Air Sanitizer Apple Cinnamon and Winter Woods, 10 oz each: official Reckitt launch announcement 1 October 2026; Walmart first-available dates remain Not verified.
+- TikTok Shop washer-cleaner tablets, 24-piece selected variant: new to the directory; launch and retailer-listing dates remain Not verified; the page displayed 32 sold with no stated period.
+
+One retained public source was attempted for each of the 20 canonical retailers. Ace's tile-cleaner page exposed a bounded 18-of-18 scope; other retailer/category pagination remained partial, blocked or not started. Home Depot and Lowe’s live extraction was unavailable, Walgreens returned 404, and broader TikTok browsing was interrupted by human verification after one exact listing was checked. Costco's household-cleaning page was reviewed but yielded no new exact item. Quince retains two exact fabric-care references; broader Quince coverage remains partial. See `site/catalog-review/daily-source-check-2026-11-16.json` and the refreshed 20-retailer × 16-category matrix in `site/catalog-review/coverage.json`.
+
+This review keeps the Home Care site's original interface, native navigation, tutorial, white-label recommendations and canonical evidence payloads. It does not restore the retired generic shared template, cross-site switcher, planogram, virtual aisle, Blender/3D or design-workshop features.
+
 ## Preserve the catalog
 Baseline: 6,265 product records, 19 retailers, 6,230 local photos. Preserve stable IDs, all records (including original 530 templates), photos, selections, source evidence, and the optional Opportunities tab.
 Keep Browse competitors as the first/default view, with a clearly visible Choose competitor dropdown. Do not make Opportunities the landing screen.
