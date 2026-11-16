@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "baselineBrands": 98,
-  "addedBrands": 76,
-  "totalBrands": 175,
-  "totalPricedOffers": 2064,
-  "totalPhotoReferences": 536,
+  "addedBrands": 77,
+  "totalBrands": 176,
+  "totalPricedOffers": 2065,
+  "totalPhotoReferences": 538,
   "newBrandIds": [
     "dta-nova",
     "briefing",
@@ -81,7 +81,8 @@
     "wrangler",
     "imiomo",
     "artrips",
-    "milesto"
+    "milesto",
+    "american-dreamliner"
   ],
   "scope": "All existing structured brand references reconciled plus regional, specialist, fashion and marketplace expansion. This is not a worldwide census.",
   "unmatchedInternalBrands": [],
@@ -2428,6 +2429,19 @@
       "launchDateVerified": false,
       "assortmentComplete": false,
       "status": "Three Black sizes priced. Regular interior matched; Plus/Trunk interiors unresolved."
+    },
+    {
+      "brandId": "american-dreamliner",
+      "brand": "American Dreamliner",
+      "source": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+      "checked": "2026-11-16",
+      "pricedOffers": 1,
+      "photoReferences": 2,
+      "interiorReferences": 1,
+      "factoryVerified": false,
+      "launchDateVerified": false,
+      "assortmentComplete": false,
+      "status": "One US marketplace offer with both views."
     }
   ],
   "sourceChecks": [

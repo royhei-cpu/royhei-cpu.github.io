@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-11",
+  "checked": "2026-11-16",
   "note": "All entries have an editorial style/shopper assessment and an explicit supplier-evidence status. A launch is not proof of rising sales. No demographic share or exact SKU-to-factory match is claimed.",
   "groups": [
     "Design minimalists",
@@ -4506,6 +4506,30 @@
         "components": "",
         "tradeLead": "",
         "checked": "2026-11-11",
+        "skuFactoryVerified": false
+      }
+    },
+    "american-dreamliner": {
+      "brandId": "american-dreamliner",
+      "group": "Value-focused travelers",
+      "why": "The selected spinner was listed below USD 50.",
+      "signalStatus": "One retailer price observation",
+      "signal": "Navy carry-on shown at USD 42.49.",
+      "signalSource": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+      "designSource": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+      "audienceBasis": "Editorial fit based on price. Shopper demographics unverified.",
+      "test": "Compare size, weight and price with other US carry-ons.",
+      "checked": "2026-11-16",
+      "supplier": {
+        "status": "Not verified",
+        "entity": "Factory operator unknown",
+        "factory": "Unverified",
+        "origin": "Imported; country unverified",
+        "scope": "Nordstrom identifies Concept One Accessories as the marketplace seller.",
+        "source": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+        "components": "",
+        "tradeLead": "",
+        "checked": "2026-11-16",
         "skuFactoryVerified": false
       }
     }

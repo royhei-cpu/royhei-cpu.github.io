@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -229,6 +229,24 @@
         "blast-x-43l-10",
         "blast-x-43l-13"
       ]
+    },
+    {
+      "offerId": "offer-30d469b3",
+      "brandId": "american-dreamliner",
+      "model": "22.5-inch Hardside Carry-On Luggage",
+      "size": "22.5 in",
+      "color": "Navy",
+      "dimensions": "22.5 × 13.5 × 9.5 in (H × W × D, retailer specification; inclusion of wheels and handles unspecified)",
+      "announcementDate": null,
+      "launchDate": null,
+      "observed": "2026-11-16",
+      "source": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+      "price": 42.49,
+      "currency": "USD",
+      "photoIds": [
+        "american-dreamliner-225-navy-exterior",
+        "american-dreamliner-225-navy-interior"
+      ]
     }
   ],
   "byBrand": {
@@ -254,6 +272,9 @@
       "offer-dbbeb412",
       "offer-cd921283",
       "offer-ced7968b"
+    ],
+    "american-dreamliner": [
+      "offer-30d469b3"
     ]
   }
 }

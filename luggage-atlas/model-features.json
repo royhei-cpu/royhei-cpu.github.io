@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "fields": [
     {
       "id": "opening",
@@ -3578,9 +3578,9 @@
       "source": "https://www.briefing-us.com/products/bra263c40?variant=48317332586633",
       "checked": "2026-11-04",
       "scope": "Named product metadata; size/color may share a description. Verify exact variant.",
-      "price": 3650,
+      "price": 3600.0,
       "currency": "MYR",
-      "priceDate": "2026-11-04",
+      "priceDate": "2026-11-16",
       "image": "https://www.briefing-us.com/cdn/shop/files/item3d1fa6bc58ea11f1a3080242ac110006.jpg?v=1789027875&width=1920",
       "features": {},
       "featureCount": 0,
@@ -13096,9 +13096,63 @@
       "photoSource": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42871402823762",
       "photoScope": "Matched exterior and packed interior.",
       "photoCaption": "Blast X 43L Roller Backpack · Brick"
+    },
+    {
+      "id": "offer-30d469b3",
+      "offerId": "offer-30d469b3",
+      "brandId": "american-dreamliner",
+      "brand": "American Dreamliner",
+      "model": "22.5-inch Hardside Carry-On Luggage · Navy",
+      "source": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+      "checked": "2026-11-16",
+      "scope": "Selected Navy suitcase. Launch date unverified.",
+      "features": {
+        "dimensions": {
+          "value": "22.5 × 13.5 × 9.5 in (H × W × D, retailer specification; inclusion of wheels and handles unspecified)",
+          "basis": "Nordstrom item 11047378, selected Navy"
+        },
+        "weight": {
+          "value": "5.5 lb",
+          "basis": "Nordstrom item 11047378, selected Navy"
+        },
+        "material": {
+          "value": "ABS shell with polyester lining",
+          "basis": "Nordstrom item 11047378, selected Navy"
+        },
+        "wheels": {
+          "value": "Eight spinner wheels",
+          "basis": "Nordstrom item 11047378, selected Navy"
+        },
+        "organization": {
+          "value": "Compression straps and two mesh slip pockets",
+          "basis": "Nordstrom item 11047378, selected Navy"
+        },
+        "expansion": {
+          "value": "Non-expandable",
+          "basis": "Nordstrom item 11047378, selected Navy"
+        }
+      },
+      "featureCount": 6,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 42.49,
+      "currency": "USD",
+      "priceDate": "2026-11-16",
+      "image": "offer-photo-assets/american-dreamliner-225-navy-exterior.webp",
+      "gallery": [
+        "https://n.nordstrommedia.com/it/c06f988c-4871-4b27-b52d-0ab4020a2e37.jpeg?crop=pad&h=1170&w=780",
+        "https://n.nordstrommedia.com/it/f9e8cd76-6622-46bd-9074-f5e77031c55d.jpeg?crop=pad&h=1170&w=780"
+      ],
+      "photoKind": "model-reference",
+      "photoSource": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+      "photoScope": "Selected size and color.",
+      "photoCaption": "22.5-inch Hardside Carry-On Luggage · Navy"
     }
   ],
-  "brandCount": 175,
+  "brandCount": 176,
   "geographicScope": "Worldwide discovery across 174 recorded brand profiles. Assortment coverage is partial.",
   "researchRefresh": {
     "checked": "2026-11-04",

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-15",
+  "checked": "2026-11-16",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -7722,6 +7722,60 @@
         "identifierSource": "https://www.bagsmart.com/products/blast-x-43l-roller-backpack?variant=42871402823762",
         "identifierChecked": "2026-11-15"
       }
+    },
+    {
+      "id": "american-dreamliner-225-navy-exterior",
+      "brandId": "american-dreamliner",
+      "offerId": "offer-30d469b3",
+      "identity": {
+        "model": "22.5-inch Hardside Carry-On Luggage",
+        "size": "22.5 in",
+        "color": "Navy",
+        "sku": null,
+        "revision": null
+      },
+      "view": "Exterior",
+      "caption": "American Dreamliner 22.5-inch Navy carry-on · exterior",
+      "imageUrl": "https://n.nordstrommedia.com/it/c06f988c-4871-4b27-b52d-0ab4020a2e37.jpeg?crop=pad&h=1170&w=780",
+      "source": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+      "checked": "2026-11-16",
+      "scope": "Selected Navy gallery for Nordstrom item 11047378. Production revision unverified.",
+      "localPath": "offer-photo-assets/american-dreamliner-225-navy-exterior.webp",
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Retailer gallery captions and visual review",
+        "visualChecked": true,
+        "imageSha256": "9f946b6403f5a4b5dcb43d66a45658a233956dd4cedf1abfd0833e4163859434",
+        "identifierSource": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+        "identifierChecked": "2026-11-16"
+      }
+    },
+    {
+      "id": "american-dreamliner-225-navy-interior",
+      "brandId": "american-dreamliner",
+      "offerId": "offer-30d469b3",
+      "identity": {
+        "model": "22.5-inch Hardside Carry-On Luggage",
+        "size": "22.5 in",
+        "color": "Navy",
+        "sku": null,
+        "revision": null
+      },
+      "view": "Interior",
+      "caption": "American Dreamliner 22.5-inch Navy carry-on · interior",
+      "imageUrl": "https://n.nordstrommedia.com/it/f9e8cd76-6622-46bd-9074-f5e77031c55d.jpeg?crop=pad&h=1170&w=780",
+      "source": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+      "checked": "2026-11-16",
+      "scope": "Selected Navy gallery for Nordstrom item 11047378. Production revision unverified.",
+      "localPath": "offer-photo-assets/american-dreamliner-225-navy-interior.webp",
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Retailer gallery captions and visual review",
+        "visualChecked": true,
+        "imageSha256": "d285643ad5b55e8fbf6226ec867abceb1a72d4e5ca7fe12851b9fd8c1722be95",
+        "identifierSource": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+        "identifierChecked": "2026-11-16"
+      }
     }
   ],
   "byBrand": {
@@ -8602,6 +8656,10 @@
       "peak-roller-lite-regular-3",
       "peak-roller-lite-plus-0",
       "peak-roller-lite-trunk-0"
+    ],
+    "american-dreamliner": [
+      "american-dreamliner-225-navy-exterior",
+      "american-dreamliner-225-navy-interior"
     ]
   },
   "note": "Galleries compare sourced product and collection references. Each image has its own model/collection caption and source. An interior from another model is not evidence of the priced model’s construction.",
@@ -10613,7 +10671,34 @@
         "Production revision and wheel/handle inclusion in dimensions unknown."
       ],
       "note": "Matched exterior and packed interior."
+    },
+    {
+      "offerId": "offer-30d469b3",
+      "offerIdentity": {
+        "brand": "American Dreamliner",
+        "product": "22.5-inch Hardside Carry-On Luggage · Navy",
+        "currency": "USD",
+        "retailer": "Nordstrom",
+        "source": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001"
+      },
+      "checked": "2026-11-16",
+      "productPage": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+      "identity": {
+        "model": "22.5-inch Hardside Carry-On Luggage",
+        "size": "22.5 in",
+        "color": "Navy",
+        "sku": null,
+        "revision": null
+      },
+      "photoIds": [
+        "american-dreamliner-225-navy-exterior",
+        "american-dreamliner-225-navy-interior"
+      ],
+      "gaps": [
+        "First listing date, launch date, factory and production revision unverified."
+      ],
+      "note": "One suitcase. Nordstrom item 11047378."
     }
   ],
-  "offerPhotoChecked": "2026-11-15"
+  "offerPhotoChecked": "2026-11-16"
 }
