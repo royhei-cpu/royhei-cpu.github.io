@@ -28,8 +28,8 @@ function insightsRegression() {
   }
   g.document={getElementById:element};
   g.matchMedia=()=>({matches:true,addEventListener(){}});
-  let exported,graphic;
-  insights.bind(rows=>{exported=rows;},value=>{graphic=value;});
+  let exported,graphic,csvName,svgName;
+  insights.bind((rows,name)=>{exported=rows;csvName=name;},(value,name)=>{graphic=value;svgName=name;});
   const changed = (id,value) => element('marketFilters').events.change({target:{id,value}});
   const csv = () => {element('marketCsv').events.click();return exported;};
   const svg = () => {element('marketSvg').events.click();return graphic;};
@@ -55,6 +55,12 @@ function insightsRegression() {
   assert.equal(csv()[1][2],11180);
   assert.equal(csv()[1][3],125000);
   assert(Math.abs(csv().slice(1).reduce((sum,r)=>sum+r[1],0)-100)<.01);
+  const fullPrices = g.ATLAS.prices;
+  const snapshotPrices = evidence.carryOnBenchmark.annotations;
+  g.ATLAS.prices = fullPrices.filter(price => offerRows.some(offer => {
+    const stamp=snapshotPrices[offer.id].observation;
+    return price.source===offer.model.source && price.date===stamp.date && price.amount===stamp.amount;
+  }));
   insights.show('benchmarks');
   changed('benchmarkReference','offer-445efe79');
   changed('benchmarkFeature','tracking');
@@ -64,6 +70,134 @@ function insightsRegression() {
   assert.equal(priceRows.find(r=>r[0]==='offer-445efe79')[11],0);
   assert(priceRows.find(r=>r[1]==='Away')[14].includes('pocket'));
   assert(element('marketTable').innerHTML.includes('features.html?model=offer-445efe79'));
-  console.log('PASS: source mirrors, historical/forecast CAGR, survey denominators, exact-offer price gaps, feature sources and filtered CSV/SVG.');
+  const byHeader = (table, row, column) => {
+    assert(table[0].includes(column),column);
+    return row[table[0].indexOf(column)];
+  };
+  const offerRow = (table,brand) => table.slice(1).find(row=>row[1]===brand);
+
+  insights.show('market');
+  let values=csv(), end=values.at(-1);
+  assert.equal(byHeader(values,end,'Annual intervals'),7);
+  assert.equal(byHeader(values,end,'Endpoint-implied CAGR (%)'),8.6765);
+  assert.match(svg(),/Selected years.*travel, business and casual bags/);
+  assert(svg().includes('href="'+evidence.outlook.source+'"'));
+
+  for (const [key,label] of Object.entries(evidence.annualSales.series)) {
+    insights.show('growth');
+    changed('growthSeries',key);
+    changed('growthPeer','');
+    const years=evidence.annualSales.records, last=years.at(-1), prior=years.at(-2);
+    for (const start of years.slice(0,-1)) {
+      changed('growthFrom',start.year);
+      values=csv(); end=values.at(-1);
+      const intervals=last.year-start.year;
+      const expected=100*Math.expm1(Math.log(last[key]/start[key])/intervals);
+      assert.equal(end[1],label);
+      assert.equal(end[5],Number(expected.toFixed(4)));
+      assert.equal(byHeader(values,end,'Annual intervals'),intervals);
+      assert.equal(byHeader(values,end,'Latest YoY (%)'),Number((100*(last[key]-prior[key])/prior[key]).toFixed(4)));
+      assert.equal(byHeader(values,end,'Series scope'),evidence.annualSales.seriesScope[key]);
+      assert(svg().includes('totals overlap'));
+    }
+  }
+  changed('growthSeries','samsonite');
+  changed('growthPeer','tumi');
+  assert.match(svg(),/TUMI · CAGR .*latest YoY/);
+
+  insights.show('travelers');
+  changed('travelerPopulation','eu');
+  for (const year of evidence.travelParticipation.years) {
+    changed('travelerYear',year);
+    values=csv();
+    assert.equal(csvName,'Luggage_Atlas_travelers_EU27_'+year+'.csv');
+    assert.match(svg(),/Within age band, ≥1 overnight personal trip/);
+    assert(svg().includes('Published EU ages 15+ aggregate'));
+    assert.equal(svgName,csvName.replace('.csv','.svg'));
+    assert.match(byHeader(values,values.at(-1),'Denominator'),/Published aggregate/);
+  }
+  changed('travelerPopulation','us'); values=csv();
+  assert.equal(csvName,'Luggage_Atlas_travelers_US_2026-Q2.csv');
+  assert.match(svg(),/11,180 respondents answered the income question/);
+  assert.match(svg(),/Excludes Canada and Mexico · weighted to air departures/);
+  assert(svg().includes('href="'+evidence.travelerIncome.source+'"'));
+  assert.equal(svgName,csvName.replace('.csv','.svg'));
+  assert(byHeader(values,values[1],'Response base / weighting').includes('weighted'));
+
+  insights.show('benchmarks');
+  const snapshot=evidence.carryOnBenchmark;
+  const referenceChoices=[...snapshot.offerIds,'offer-8efb979d@regular','offer-77c46470@regular'];
+  for (const key of referenceChoices) {
+    changed('benchmarkReference',key);
+    values=csv();
+    const [id,regular]=key.split('@'), ref=values.slice(1).find(row=>row[0]===id);
+    const cents=Math.round(100*(regular ? byHeader(values,ref,'Displayed regular price (USD)') : ref[6]));
+    for (const row of values.slice(1)) {
+      const gap=Math.round(100*row[6])-cents;
+      assert.strictEqual(row[10],cents/100);
+      assert.strictEqual(row[11],gap/100);
+      assert.strictEqual(row[12],Number((gap*100/cents).toFixed(2)));
+      assert(svg().includes(row[2]) && svg().includes(row[8]) && svg().includes(row[7]));
+      assert(element('marketTable').innerHTML.includes('features.html?model='+row[0]));
+    }
+  }
+  changed('benchmarkReference',snapshot.defaultReference);
+  values=csv();
+  assert.deepEqual(Array.from(values.slice(1),row=>row[11]),[-34.01,0,93.4,251.5,328.46]);
+  assert.equal(byHeader(values,offerRow(values,'American Dreamliner'),'Seller'),'Concept One Accessories');
+  assert.equal(byHeader(values,offerRow(values,'American Dreamliner'),'Previous price (USD)'),49.99);
+  assert.equal(byHeader(values,offerRow(values,'American Dreamliner'),'Displayed regular price (USD)'),'');
+  assert.equal(byHeader(values,offerRow(values,'Quince'),'Comparison value (USD)'),315);
+  assert.equal(byHeader(values,offerRow(values,'Quince'),'Previous price (USD)'),'');
+  assert.equal(byHeader(values,offerRow(values,'Quince'),'Comparison value checked'),'2026-11-17');
+  assert.equal(byHeader(values,offerRow(values,'Peak Design'),'SKU or retailer item ID'),'W-RL-AA-BK-1');
+  changed('benchmarkReference',snapshot.defaultReference+'@regular');
+  values=csv();
+  assert.equal(offerRow(values,'Quince')[11],79.9);
+  assert.equal(offerRow(values,'Open Story')[11],-13.5);
+  assert.equal(byHeader(values,offerRow(values,'Quince'),'Reference observation date'),'2026-11-03');
+
+  changed('benchmarkFeature','laptop'); values=csv();
+  assert.match(offerRow(values,'Quince')[14],/Front-access.*16 in/);
+  assert.equal(offerRow(values,'Open Story')[14],'Not yet recorded');
+  assert.equal(offerRow(values,'Quince')[17],'2026-11-17');
+  changed('benchmarkFeature','dimensions'); values=csv();
+  assert.match(offerRow(values,'Open Story')[14],/21.75 × 14.25 × 9.75/);
+  assert.equal(offerRow(values,'Open Story')[16],'https://www.target.com/p/-/A-86391405');
+  changed('benchmarkFeature','expansion');
+  assert.equal(offerRow(csv(),'American Dreamliner')[14],'Non-expandable');
+  changed('benchmarkFeature','wheels');
+  assert.match(offerRow(csv(),'Away')[14],/StopLock/);
+  changed('benchmarkFeature','brake');
+  assert.match(offerRow(csv(),'Away')[14],/StopLock/);
+  changed('benchmarkFeature','compression');
+  assert.match(offerRow(csv(),'Quince')[14],/compression panels/);
+  assert(element('marketSources').innerHTML.includes('./#workbench'));
+
+  const prices=g.ATLAS.prices, audited=insights.benchmarks();
+  const lookup=brand=>audited.find(o=>o.model.brand===brand).price;
+  const peak=lookup('Peak Design'), dreamliner=lookup('American Dreamliner'), quince=lookup('Quince');
+  const later={date:'2026-11-18',amount:549.95};
+  try {
+    // Family prices, wrong variants, other sellers and non-U.S. offers cannot replace an exact offer.
+    g.ATLAS.prices=prices.concat([
+      {...peak,...later,sku:'other-SKU'},{...peak,...later,sku:undefined},
+      {...peak,...later,color:'Blue'},{...peak,...later,size:'Trunk'},
+      {...peak,...later,market:'Canada'},{...peak,...later,retailer:'Other store'},
+      {...dreamliner,...later},{...dreamliner,...later,seller:'Other seller'},
+      {...quince,...later,amount:165},{...lookup('Open Story'),...later,amount:85,regular:95}
+    ]);
+    insights.show('benchmarks'); values=csv();
+    assert.equal(offerRow(values,'Peak Design')[6],404.96);
+    assert.equal(offerRow(values,'American Dreamliner')[6],42.49);
+    assert.equal(offerRow(values,'Quince')[6],165);
+    assert.equal(byHeader(values,offerRow(values,'Quince'),'Comparison value (USD)'),'');
+    assert.equal(byHeader(values,offerRow(values,'Quince'),'Comparison value checked'),'');
+    changed('benchmarkReference',snapshot.defaultReference+'@2026-11-03');
+    assert.equal(offerRow(csv(),'Quince')[10],76.5);
+    changed('benchmarkReference',snapshot.defaultReference+'@regular-2026-11-03');
+    assert.equal(offerRow(csv(),'Quince')[10],90);
+  } finally { g.ATLAS.prices=fullPrices; }
+  console.log('PASS: source mirrors, 15 historical CAGRs, latest YoY, survey denominators, 35 retail price gaps, dated features, offer identity and CSV/SVG exports.');
 }
 insightsRegression();

@@ -5,7 +5,8 @@
   const views = ['market', 'growth', 'travelers', 'benchmarks'];
   const {outlook, annualSales, travelParticipation, travelerIncome, carryOnBenchmark} = research;
   const brandSeries = ['samsonite', 'tumi', 'americanTourister'];
-  const benchmarkFeatures = ['dimensions', 'weight', 'material', 'wheels', 'tracking', 'expansion'];
+  const benchmarkFeatures = ['dimensions', 'weight', 'material', 'wheels', 'expansion', 'laptop',
+    'brake', 'compression', 'organization', 'tracking'];
   const state = {
     series: 'samsonite', peer: 'tumi', from: annualSales.records[0].year,
     population: 'eu', year: travelParticipation.years.at(-1),
@@ -34,16 +35,27 @@
   function benchmarks() {
     const models = new Map(global.ATLAS_MODEL_FEATURES.records.map(r => [r.id, r]));
     return carryOnBenchmark.offerIds.flatMap(id => {
-      const model = models.get(id);
-      if (!model) return [];
-      const matches = global.ATLAS.prices.filter(p => p.brand === model.brand && p.product === model.model &&
-        p.source === model.source && p.currency === carryOnBenchmark.currency && p.format === 'Carry-on' &&
-        (p.market === 'United States' || p.market === 'Target US') && Number.isFinite(p.amount) && p.amount > 0);
-      const price = matches.sort((a, b) => b.date.localeCompare(a.date))[0];
+      const model = models.get(id), annotation = carryOnBenchmark.annotations[id];
+      if (!model || !annotation) return [];
+      const storefront = p => p.retailer === 'Brand / source storefront'
+        ? (p.market === 'Target US' ? 'Target US' : model.brand) : p.retailer;
+      const reviewed = p => p.date === annotation.observation.date && p.amount === annotation.observation.amount;
+      const matches = global.ATLAS.prices.filter(p => {
+        if (p.brand !== model.brand || p.product !== model.model || p.source !== model.source) return false;
+        if (p.format !== 'Carry-on' || p.currency !== carryOnBenchmark.currency || !['United States','Target US'].includes(p.market)) return false;
+        if (storefront(p) !== annotation.store || (annotation.sku && p.sku !== annotation.sku)) return false;
+        if (['color','size'].some(key=>annotation[key] && p[key] && p[key].toLowerCase() !== annotation[key].toLowerCase())) return false;
+        if (p.seller && p.seller !== annotation.seller) return false;
+        if (annotation.marketplace && !p.seller && !reviewed(p)) return false;
+        return Number.isFinite(p.amount) && p.amount > 0;
+      }).sort((a, b) => b.date.localeCompare(a.date));
+      const price = matches[0];
       if (!price) return [];
-      const store = price.retailer === 'Brand / source storefront'
-        ? (price.market === 'Target US' ? 'Target US' : model.brand) : price.retailer;
-      return [{id, model, price, store}];
+      const regularPrice = matches.find(p => Number.isFinite(p.regular) && p.regular > 0);
+      const observation = reviewed(price) ? annotation.observation : {};
+      const seller = price.seller || (reviewed(price) ? annotation.seller : '');
+      return [{id, model, price, store:annotation.store, seller, annotation, observation, regularPrice,
+        auditedPrice:matches.find(reviewed)}];
     }).sort((a, b) => a.price.amount - b.price.amount);
   }
 
@@ -54,13 +66,17 @@
   }
 
   // The same SVG is displayed and downloaded. Units, period and source travel with the graphic.
-  function svg(width, height, title, subtitle, source, body) {
+  function svg(width, contentHeight, title, subtitle, footer, body) {
+    const height = contentHeight + footer.length * 16 + 8;
+    const notes = footer.map((item,i) => {
+      const [label, url] = item, y = contentHeight + 13 + i * 16;
+      const caption = text(8,y,label,`font-size="11" fill="${muted}"${url ? ' text-decoration="underline"' : ''}`);
+      return url ? `<a href="${escape(url)}" target="_blank" rel="noopener">${caption}</a>` : caption;
+    }).join('');
     return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-labelledby="marketSvgTitle marketSvgDesc">
-      <title id="marketSvgTitle">${escape(title)}</title><desc id="marketSvgDesc">${escape(subtitle)}. ${escape(source)}</desc>
+      <title id="marketSvgTitle">${escape(title)}</title><desc id="marketSvgDesc">${escape(subtitle)}. ${escape(footer.map(item=>item[0]).join('. '))}</desc>
       <rect width="100%" height="100%" fill="#fff"/>
-      <g font-family="Arial, sans-serif" fill="${ink}">${body}
-        <text x="8" y="${height - 10}" font-size="11" fill="${muted}">${escape(source)}</text>
-      </g></svg>`;
+      <g font-family="Arial, sans-serif" fill="${ink}">${body}${notes}</g></svg>`;
   }
   function text(x, y, label, options = '') {
     return `<text x="${x}" y="${y}" ${options}>${escape(label)}</text>`;
@@ -90,24 +106,32 @@
     records.forEach((r, i) => {
       const x = left + col * (i + .5), y = bottom - r.amount / max * plot;
       const projected = r.year === d.cagr.to;
-      marks += `<rect x="${x - bw / 2}" y="${y}" width="${bw}" height="${bottom - y}" fill="${projected ? 'url(#projectedFill)' : green}"/>`;
+      marks += `<rect x="${x - bw / 2}" y="${y}" width="${bw}" height="${bottom - y}" fill="${projected ? 'url(#projectedFill)' : r.year === d.cagr.from ? '#648979' : green}"/>`;
       marks += text(x, y - 7, '$' + number(r.amount), 'text-anchor="middle" font-size="16" font-weight="bold"');
       marks += text(x, bottom + 20, r.year, 'text-anchor="middle" font-size="15"');
       marks += text(x, bottom + 37, r.basis, `text-anchor="middle" font-size="11" fill="${muted}"`);
     });
     const title = 'How large is the global luggage market?';
-    const rate = d.cagr, caption = 'Grand View Research · global outlook, '+records[0].year+'–'+rate.to;
+    const rate = d.cagr, intervals = rate.to - rate.from;
+    const baseline = records.find(r=>r.year===rate.from), projection = records.find(r=>r.year===rate.to);
+    const implied = cagr(baseline.amount,projection.amount,intervals);
     marks += text(8,248,rate.from+'–'+rate.to+' forecast CAGR: '+number(rate.percent)+'%', 'font-size="13" font-weight="bold"');
-    return {title, eyebrow:'Worldwide · market outlook', period:'Three published revenue estimates, in US dollars.',
+    return {title, eyebrow:'Worldwide · market outlook', period:'Selected years · worldwide travel, business and casual bags · USD billions',
       filters:'', metric:number(rate.percent) + '%', label:'Forecast compound annual growth rate',
-      reading:`Grand View Research projects ${'$'+number(records.at(-1).amount)} billion in ${rate.to}, from an estimated $${number(records[1].amount)} billion in ${rate.from}.`,
-      note:`CAGR expresses growth as a constant annual rate across ${rate.to - rate.from} years. The bars show the three amounts in the public summary.`,
-      method:d.method, sources:sourceLink(d.source, 'Report, scope and forecast'), checked:d.checked,
-      graphic:svg(width, 285, title, d.method, caption, marks),
+      reading:`Grand View Research projects $${number(projection.amount)} billion in ${rate.to}, from an estimated $${number(baseline.amount)} billion in ${rate.from}.`,
+      note:`The two endpoints imply ${number(implied,4)}% CAGR across ${intervals} annual intervals. Each bar represents one selected year.`,
+      method:d.method+' '+d.sourceNote, sources:sourceLink(d.source, 'Report, scope and forecast'), checked:d.checked,
+      graphic:svg(width, 258, title, d.method, [
+        ['Selected years · worldwide travel, business and casual bags'],
+        [`Endpoints imply ${number(implied,4)}% over ${intervals} annual intervals.`],
+        ['Main table rate used. The FAQ and chart description disagree.'],
+        ['Grand View Research · report summary and main table',d.source]
+      ], marks),
       table:table(['Year','Revenue · USD billions','Evidence'], records.map(r => [r.year, number(r.amount), escape(r.basis)])),
-      csv:[['Year','Global revenue (USD billions)','Evidence','Forecast CAGR (%)','CAGR from','CAGR to','Market','Publisher','Scope / method','Source','Checked'],
+      csv:[['Year','Global revenue (USD billions)','Evidence','Forecast CAGR (%)','CAGR from','CAGR to','Market','Publisher','Scope / method','Source','Checked','Annual intervals','Endpoint-implied CAGR (%)','Publisher discrepancy'],
         ...records.map(r => [r.year,r.amount,r.basis,r.year === rate.to ? rate.percent : '',r.year === rate.to ? rate.from : '',
-          r.year === rate.to ? rate.to : '',d.market,d.publisher,d.method,d.source,d.checked])]};
+          r.year === rate.to ? rate.to : '',d.market,d.publisher,d.method,d.source,d.checked,
+          r===projection ? intervals : '',r===projection ? round(implied,4) : '',d.sourceNote])]};
   }
 
   function salesGrowth(width) {
@@ -120,8 +144,9 @@
     filters += select('growthFrom','Start year',d.records.slice(0,-1).map(r=>[r.year,'FY '+r.year]),state.from);
     const records = d.records.filter(r => r.year >= state.from), first = records[0], last = records.at(-1);
     const keys = peer ? [series, peer] : [series];
-    const rate = key => cagr(first[key],last[key],last.year-first.year);
-    const yoy = cagr(records.at(-2)[series], last[series], 1);
+    const intervals = last.year - first.year, prior = records.at(-2);
+    const rate = key => cagr(first[key],last[key],intervals);
+    const yoy = key => 100 * (last[key] / prior[key] - 1);
     const left = 49, right = width - 22, top = 61, bottom = 210;
     const maximum = Math.max(...records.flatMap(r=>keys.map(key=>r[key])));
     const step = maximum > 2500 ? 1000 : maximum > 1250 ? 500 : 250;
@@ -145,24 +170,32 @@
     });
     records.forEach((r,i)=>{marks += text(x(i),bottom+22,r.year,'font-size="13" text-anchor="middle"');});
     const period = `FY ${first.year}–${last.year}`, title = `${d.series[series]}${peer ? ' and '+d.series[peer] : ''}`;
-    keys.forEach((key,i)=>{
-      marks += text(8,256+i*17,d.series[key]+': '+signed(rate(key))+'% CAGR ('+period+')', 'font-size="12"');
-    });
-    const reportLinks = [...new Set(records.map(r=>r.report))].map(report=>sourceLink(d.sources[report],'FY '+report+' filing')).join(' · ');
+    const reports = [...new Set(records.map(r=>r.report))];
+    const reportLinks = reports.map(report=>sourceLink(d.sources[report],'FY '+report+' filing')).join(' · ');
+    const footer = [
+      [`${period} · ${intervals} annual interval${intervals === 1 ? '' : 's'} · latest YoY FY ${prior.year}–${last.year}`],
+      ...keys.flatMap(key=>[
+        [d.series[key]+' · CAGR '+signed(rate(key))+'% · latest YoY '+signed(yoy(key))+'%'],
+        [d.seriesScope[key]]
+      ]),
+      ['Worldwide reported USD. Group, category and brand totals overlap.'],
+      ...reports.map(report=>['Samsonite Group · FY '+report+' filing',d.sources[report]])
+    ];
     return {title, eyebrow:'Company benchmark · reported sales', period:`${period} · fiscal years ended December 31 · USD millions`, filters,
       metric:signed(rate(series))+'%',label:`Historical CAGR · ${d.series[series]} · ${period}`,
-      reading:`${d.series[series]} went from $${number(first[series])}m to $${number(last[series])}m across ${last.year-first.year} annual interval${last.year-first.year===1?'':'s'}. Its latest full-year change was ${signed(yoy)}%.`,
-      note:peer ? `Over the same period, ${d.series[peer]} recorded ${signed(rate(peer))}% CAGR, from $${number(first[peer])}m to $${number(last[peer])}m.` : 'Group total includes all brands and categories. The travel series isolates the company’s reported travel category.',
-      method:`${d.method} Atlas calculates historical CAGR as (ending sales ÷ starting sales) raised to the power of 1 ÷ number of years, minus one.`,
-      checked:d.checked, sources:reportLinks, graphic:svg(width,278+keys.length*17,title,period,`Samsonite Group filings · ${period} · reported USD`,marks),
+      reading:`${d.series[series]} went from $${number(first[series])}m to $${number(last[series])}m across ${intervals} annual interval${intervals===1?'':'s'}. Its FY ${prior.year}–${last.year} change was ${signed(yoy(series))}%.`,
+      note:peer ? `${d.series[peer]} recorded ${signed(rate(peer))}% CAGR over the same period and ${signed(yoy(peer))}% in the latest fiscal year.` : d.seriesScope[series]+'. Group, category and brand totals overlap.',
+      method:`${d.method} CAGR uses (ending sales ÷ starting sales) raised to the power of 1 ÷ elapsed years, minus one. The separate nine-month sales view uses company-reported constant-currency changes.`,
+      checked:d.checked, sources:reportLinks, graphic:svg(width,242,title,period,footer,marks),
       table:table(['Fiscal year',...keys.map(key=>d.series[key]+' · USD m'),'Filing'],records.map(r=>[r.year,...keys.map(key=>number(r[key])),sourceLink(d.sources[r.report],'FY '+r.report)])),
-      csv:[['Fiscal year','Series','Reported net sales (USD millions)','CAGR from','CAGR to','Historical CAGR (%)','Market','Source','Checked'],
-        ...records.flatMap(r=>keys.map(key=>[r.year,d.series[key],r[key],first.year,last.year,r===last ? round(rate(key),4) : '',d.market,d.sources[r.report],d.checked]))]};
+      csv:[['Fiscal year','Series','Reported net sales (USD millions)','CAGR from','CAGR to','Historical CAGR (%)','Market','Source','Checked','Series scope','Annual intervals','Latest YoY from','Latest YoY to','Latest YoY (%)','Reporting basis and overlap','CAGR start source','CAGR end source'],
+        ...records.flatMap(r=>keys.map(key=>[r.year,d.series[key],r[key],first.year,last.year,r===last ? round(rate(key),4) : '',d.market,d.sources[r.report],d.checked,
+          d.seriesScope[key],intervals,prior.year,last.year,r===last ? round(yoy(key),4) : '',d.method,d.sources[first.report],d.sources[last.report]]))]};
   }
 
-  // A shared numeric axis keeps price, participation and distribution figures readable on a phone.
+  // Both population charts use a shared numeric axis across their bands.
   function dotPlot(width, {title, unit, footer, rows, limit, ticks, format, reference, referenceLabel}) {
-    const left = width < 500 ? 103 : 154, right = width - (width < 500 ? 64 : 78);
+    const left = width < 500 ? 119 : 154, right = width - (width < 500 ? 64 : 78);
     const start = 66, rowHeight = 34, last = start + (rows.length - 1) * rowHeight;
     const xpos = value => left + value / limit * (right - left);
     let marks = text(8,16,unit,'font-size="13"');
@@ -183,7 +216,7 @@
       marks += line(8,last+35,31,last+35,gold,'stroke-width="2" stroke-dasharray="4 3"');
       marks += text(38,last+39,referenceLabel,'font-size="12"');
     }
-    return svg(width,last + (reference!=null ? 71 : 42),title,unit,footer,marks);
+    return svg(width,last + (reference!=null ? 49 : 20),title,unit,footer,marks);
   }
 
   function demographics(width) {
@@ -194,15 +227,22 @@
     if (us) {
       const d = travelerIncome, title = 'Household income of U.S. overseas air travelers';
       const rows = d.records.map(r=>({label:r.band,value:r.share}));
-      return {title,eyebrow:'United States · outbound air travel',period:`${d.period} · overseas destinations · combined annual household income`,filters,
+      return {title,exportKey:'travelers_US_'+d.periodId,eyebrow:'United States · outbound air travel',period:`${d.period} · U.S. residents flying overseas, excluding Canada and Mexico · combined annual household income`,filters,
         metric:'$'+number(d.median,0),label:'Median annual household income',
         reading:`The reported mean was $${number(d.mean,0)}. ${number(d.respondents,0)} respondents answered the income question.`,
-        note:'This profile covers U.S. residents flying overseas in one quarter. A traveler’s household income does not establish their suitcase budget.',
-        method:d.method, checked:d.checked, sources:sourceLink(d.source,'Survey workbook · Table 38')+' · '+sourceLink(d.methodology,'Survey methodology'),
-        graphic:dotPlot(width,{title,unit:'Share reporting each household income · %',footer:'NTTO · U.S. overseas air travelers · Q2 2026',rows,limit:30,ticks:[0,10,20,30],format:(v,tick)=>number(v,tick?0:1)+'%'}),
-        table:table(['Household income (USD)','Share of income respondents'],d.records.map(r=>[escape(r.band),number(r.share)+'%'])),
-        csv:[['Annual household income band (USD)','Share (%)','Income respondents','Median household income (USD)','Mean household income (USD)','Period','Market','Method','Source','Checked'],
-          ...d.records.map(r=>[r.band,r.share,d.respondents,d.median,d.mean,d.period,d.market,d.method,d.source,d.checked])]};
+        note:'NTTO weights the results to outbound air departures. Measuring a suitcase budget requires evidence from luggage purchasers.',
+        method:d.method+' '+d.weighting, checked:d.checked, sources:sourceLink(d.source,'Survey workbook · Table 38')+' · '+sourceLink(d.methodology,'Survey methodology'),
+        graphic:dotPlot(width,{title,unit:'Weighted share by annual household income · %',footer:[
+          [d.period+' · U.S. residents flying overseas'],
+          ['Excludes Canada and Mexico · weighted to air departures'],
+          [number(d.respondents,0)+' respondents answered the income question.'],
+          ['Median $'+number(d.median,0)+' · mean $'+number(d.mean,0)+' · household USD'],
+          ['NTTO SIAT · outbound B1, Table 38, All U.S.',d.source],
+          ['NTTO survey weighting methodology',d.methodology]
+        ],rows,limit:30,ticks:[0,10,20,30],format:(v,tick)=>number(v,tick?0:1)+'%'}),
+        table:table(['Annual household income (USD)','Weighted share of income respondents'],d.records.map(r=>[escape(r.band),number(r.share)+'%'])),
+        csv:[['Annual household income band (USD)','Weighted share (%)','Income respondents','Median household income (USD)','Mean household income (USD)','Period','Market','Method','Source','Checked','Response base / weighting','Methodology source'],
+          ...d.records.map(r=>[r.band,r.share,d.respondents,d.median,d.mean,d.period,d.market,d.method,d.source,d.checked,d.weighting,d.methodology])]};
     }
     const d = travelParticipation, year = state.year, i = d.years.indexOf(year);
     filters += select('travelerYear','Calendar year',d.years.map(y=>[y,y]),year);
@@ -210,49 +250,141 @@
     const ordered = [...ages].sort((a,b)=>b.shares[i]-a.shares[i]), high = ordered[0], low = ordered.at(-1);
     const title = 'Who took an overnight trip in the EU?';
     const rows = ages.map(r=>({label:'Age '+r.age,value:r.shares[i]}));
-    return {title,eyebrow:'European Union · travel participation',period:`${year} · residents aged 15+ · domestic or foreign travel for personal purposes`,filters,
+    return {title,exportKey:'travelers_EU27_'+year,eyebrow:'European Union · travel participation',period:`${year} · residents aged 15+ · domestic or foreign overnight travel for personal purposes`,filters,
       metric:number(high.shares[i]-low.shares[i],2)+' pp',label:'Participation gap between the highest and lowest age bands',
       reading:`${number(high.shares[i],2)}% of residents aged ${high.age} took a trip, compared with ${number(low.shares[i],2)}% of those aged ${low.age}.`,
       note:'Each percentage uses its own age group as the denominator. The survey measures personal overnight travel. It does not identify luggage buyers.',
       method:`${d.method} The dashed marker shows the overall participation rate. Eurostat updated this extract on ${d.sourceUpdated}.`,
       checked:d.checked,sources:sourceLink(d.source,'Eurostat dataset')+' · '+sourceLink(d.extract,'Filtered source data'),
-      graphic:dotPlot(width,{title,unit:'Residents taking at least one personal trip · %',footer:`Eurostat · EU27 · ${year}`,rows,limit:100,ticks:[0,25,50,75,100],
-        reference:average,referenceLabel:`EU residents aged 15+ · ${number(average,2)}%`,format:(v,tick)=>number(v,tick?0:2)+'%'}),
+      graphic:dotPlot(width,{title,unit:'Within age band, ≥1 overnight personal trip · %',footer:[
+        [`EU27 residents aged 15+ · ${year} · any destination`],
+        ['Each age band uses all residents in that band as its denominator.'],
+        ['Eurostat · filtered travel participation data',d.extract]
+      ],rows,limit:100,ticks:[0,25,50,75,100],
+        reference:average,referenceLabel:`Published EU ages 15+ aggregate · ${number(average,2)}%`,format:(v,tick)=>number(v,tick?0:2)+'%'}),
       table:table(['Age band',year+' participation','Gap vs. ages 15+'],d.records.map(r=>[escape(r.age),number(r.shares[i],2)+'%',r.aggregate?'Reference':signed(r.shares[i]-average,2)+' pp'])),
-      csv:[['Year','Age band','Participation (%)','EU ages 15+ (%)','Difference (percentage points)','Market','Measure','Source','Checked'],
-        ...d.records.map(r=>[year,r.age,r.shares[i],average,round(r.shares[i]-average),d.market,d.method,d.extract,d.checked])]};
+      csv:[['Year','Age band','Participation (%)','EU ages 15+ (%)','Difference (percentage points)','Market','Measure','Source','Checked','Denominator'],
+        ...d.records.map(r=>[year,r.age,r.shares[i],average,round(r.shares[i]-average),d.market,d.method,d.extract,d.checked,
+          r.aggregate ? 'Published aggregate for all EU27 residents aged 15+' : 'All EU27 residents in this age band'])]};
+  }
+
+  function variantName(offer) {
+    return offer.model.model + (offer.annotation.size ? ' · '+offer.annotation.size : '');
+  }
+
+  function featureEvidence(offer, field) {
+    const {annotation, model} = offer;
+    const value = annotation.features?.[field];
+    if (value) return {value, basis:annotation.featureBasis, source:annotation.source, checked:annotation.featureChecked};
+    const recorded = model.features[field];
+    if (recorded) return {...recorded, source:recorded.source || model.source, checked:recorded.checked || model.checked};
+    return null;
+  }
+
+  function priceReferences(offers) {
+    return offers.flatMap(offer => {
+      const {id, price, regularPrice, auditedPrice} = offer;
+      const basis = (key,p,regular=false) => ({key,offer,amount:regular ? p.regular : p.amount,
+        basis:regular ? 'Displayed regular price' : p.kind,date:p.date,source:p.source});
+      const choices = [basis(id,price)];
+      if (regularPrice) choices.push(basis(id+'@regular',regularPrice,true));
+      if (auditedPrice && auditedPrice!==price) {
+        choices.push(basis(id+'@'+auditedPrice.date,auditedPrice));
+        if (auditedPrice.regular > 0 && auditedPrice.regular!==regularPrice?.regular) {
+          choices.push(basis(id+'@regular-'+auditedPrice.date,auditedPrice,true));
+        }
+      }
+      return choices;
+    });
+  }
+
+  function otherPrices(offer) {
+    const {price, observation} = offer;
+    const notes = [];
+    if (Number.isFinite(price.regular)) notes.push('Regular '+money(price.regular));
+    if (Number.isFinite(price.previousPrice)) notes.push('Previous '+money(price.previousPrice));
+    if (Number.isFinite(observation.comparison)) notes.push(observation.comparisonLabel+' '+money(observation.comparison)+' (checked '+observation.comparisonChecked+')');
+    return notes.join(' · ');
+  }
+
+  function pricePlot(width, title, offers, reference) {
+    const limit = Math.ceil(Math.max(offers.at(-1).price.amount, reference.amount) / 100) * 100;
+    const x = amount => 10 + amount / limit * (width - 20);
+    let marks = text(8,17,'Observed U.S. retail price per carry-on · USD','font-size="13"');
+    for (const tick of [0,limit/2,limit]) {
+      const anchor = tick === 0 ? 'start' : tick === limit ? 'end' : 'middle';
+      marks += text(x(tick),39,'$'+number(tick,0),`text-anchor="${anchor}" font-size="11"`);
+    }
+    const rowHeight = 85;
+    offers.forEach((offer,i) => {
+      const top = 60 + i * rowHeight;
+      const label = text(8,top,offer.model.brand,'font-size="13" font-weight="bold" text-decoration="underline"');
+      marks += `<a href="${escape(offer.price.source)}" target="_blank" rel="noopener">${label}</a>`;
+      marks += text(width-8,top,money(offer.price.amount),'text-anchor="end" font-size="14" font-weight="bold"');
+      marks += text(8,top+16,variantName(offer),'font-size="12"');
+      marks += text(8,top+31,offer.price.kind+' · '+offer.price.date,`font-size="11" fill="${muted}"`);
+      const y = top+45;
+      marks += line(x(0),y,x(limit),y) + line(x(0),y,x(offer.price.amount),y,green,'stroke-width="2"');
+      marks += line(x(reference.amount),y-6,x(reference.amount),y+6,gold,'stroke-width="2" stroke-dasharray="3 2"');
+      marks += dot(x(offer.price.amount),y,offer.id===reference.offer.id ? gold : green);
+      const related = otherPrices(offer);
+      if (related) marks += text(8,top+63,related,`font-size="11" fill="${muted}"`);
+    });
+    const footer = [
+      ['Dashed mark · '+reference.offer.model.brand+' reference '+money(reference.amount),reference.source],
+      [variantName(reference.offer)],
+      [reference.basis+' · '+reference.date],
+      ['Before tax and shipping · select a brand for its price source.']
+    ];
+    return svg(width,60+(offers.length-1)*rowHeight+73,title,'Selected U.S. retail offers in USD',footer,marks);
   }
 
   function carryOnPrices(width) {
     const d = carryOnBenchmark, offers = benchmarks(), fields = global.ATLAS_MODEL_FEATURES.fields;
     if (!offers.length) return null;
-    const ref = offers.find(o=>o.id === state.reference) || offers[0];
+    const references = priceReferences(offers);
+    const ref = references.find(r=>r.key===state.reference) || references[0];
     const feature = fields.find(f=>f.id===state.feature);
-    const filters = select('benchmarkReference','Reference carry-on',offers.map(o=>[o.id,o.model.brand+' · '+o.model.model]),ref.id) +
-      select('benchmarkFeature','Feature in the table',benchmarkFeatures.map(id=>[id,fields.find(f=>f.id===id).label]),feature.id);
+    const filters = select('benchmarkReference','Reference offer and price basis',references.map(r=>[
+      r.key,r.offer.model.brand+' · '+variantName(r.offer)+' · '+money(r.amount)+' · '+r.basis+' · '+r.date
+    ]),ref.key) + select('benchmarkFeature','Feature in the table',benchmarkFeatures.map(id=>[
+      id,id==='laptop' ? 'Laptop / front access' : fields.find(f=>f.id===id).label
+    ]),feature.id);
     const dates = offers.map(o=>o.price.date).sort(), period = dates[0]+' to '+dates.at(-1);
-    const delta = o => round(o.price.amount - ref.price.amount);
-    const pct = o => 100 * delta(o) / ref.price.amount;
     const title = 'What does each carry-on cost in the U.S.?';
-    const chartRows = offers.map(o=>({label:o.model.brand,value:o.price.amount,selected:o.id===ref.id}));
-    const high = offers.at(-1), low = offers[0], limit = Math.ceil(high.price.amount / 100) * 100;
-    const headers = ['Exact offer','Observed USD','Gap vs. reference',feature.label,'Evidence'];
-    const visible = offers.map(o=>{
-      const spec = o.model.features[feature.id], p = o.price;
-      return [link('features.html?model='+encodeURIComponent(o.id),o.model.brand+' · '+o.model.model),
-        money(p.amount)+'<small>'+escape(p.kind)+'</small>', o===ref ? 'Reference' : signedMoney(delta(o))+'<small>'+signed(pct(o))+'%</small>',
-        spec ? escape(spec.value)+'<small>'+sourceLink(spec.source || o.model.source,'Feature source')+' · '+escape(o.model.checked)+'</small>' : 'Unverified for this offer',
-        sourceLink(p.source,o.store)+'<small>'+escape(p.date)+'</small>'];
+    const rows = offers.map(offer => {
+      const {price, model, store, seller, annotation, observation} = offer;
+      const spec = featureEvidence(offer,feature.id);
+      const gap = round(price.amount - ref.amount), percent = round(100 * gap / ref.amount);
+      const comparator = otherPrices(offer), identifier = annotation.sku || annotation.identifier || '';
+      const refLabel = ref.offer.model.brand+' · '+money(ref.amount)+' · '+ref.basis+' · '+ref.date;
+      const visible = [
+        link('features.html?model='+encodeURIComponent(offer.id),model.brand+' · '+variantName(offer))+
+          (identifier ? '<small>'+escape(identifier)+'</small>' : ''),
+        money(price.amount)+'<small>'+escape(price.kind)+' · '+escape(price.date)+'</small>'+
+          (comparator ? '<small>'+escape(comparator)+'</small>' : ''),
+        signedMoney(gap)+'<small>'+signed(percent,2)+'% · vs. '+escape(refLabel)+'</small>',
+        spec ? escape(spec.value)+'<small>'+sourceLink(spec.source,'Feature source')+' · '+escape(spec.checked)+'</small>' : 'Not yet recorded',
+        sourceLink(price.source,store)+'<small>Seller · '+escape(seller || 'Not recorded')+'</small>'+
+          (annotation.offerNote ? '<small>'+escape(annotation.offerNote)+'</small>' : '')
+      ];
+      const csv = [offer.id,model.brand,variantName(offer),store,price.market,price.currency,price.amount,price.kind,price.date,
+        ref.offer.id,ref.amount,gap,percent,feature.label,spec?.value || 'Not yet recorded',spec?.basis || '',spec?.source || '',spec?.checked || '',price.source,
+        seller,identifier,price.regular ?? '',price.previousPrice ?? '',observation.comparison ?? '',observation.comparisonLabel || '',
+        ref.basis,ref.date,ref.source,annotation.offerNote || '',observation.comparisonChecked || ''];
+      return {visible,csv};
     });
+    const low = offers[0], high = offers.at(-1);
     return {title,eyebrow:'United States · exact retail offers',period:`${offers.length} selected single carry-ons · displayed USD · price observations ${period}`,filters,
-      metric:money(ref.price.amount),label:`Reference · ${ref.model.brand} · ${ref.model.model}`,
-      reading:`The lowest observed offer was ${money(low.price.amount)} (${low.model.brand}). The highest was ${money(high.price.amount)} (${high.model.brand}).`,
-      note:'Read the price basis beside each offer. Clearance, promotions and regular displayed prices are all represented. The feature selector lets you check what each source documents.',
-      method:d.selection,checked:dates.at(-1),status:'Price observations '+period,sources:link('./#workbench','Open the Atlas comparison tool →'),
-      graphic:dotPlot(width,{title,unit:'Displayed price per carry-on · USD',footer:`Luggage Atlas · U.S. offers · ${dates[0]} – ${dates.at(-1)}`,rows:chartRows,limit,
-        ticks:[0,limit/2,limit],reference:ref.price.amount,referenceLabel:`${ref.model.brand} reference · ${money(ref.price.amount)}`,format:(v,tick)=>tick?'$'+number(v,0):money(v)}),
-      table:table(headers,visible),csv:[['Offer ID','Brand','Exact product / variant','Storefront','Market','Currency','Observed price','Price basis','Price observation','Reference offer ID','Reference price','Difference (USD)','Difference (%)','Selected feature','Feature evidence','Feature basis','Feature source','Feature checked','Price source'],
-        ...offers.map(o=>{const f=o.model.features[feature.id],p=o.price;return [o.id,o.model.brand,o.model.model,o.store,p.market,p.currency,p.amount,p.kind,p.date,ref.id,ref.price.amount,delta(o),round(pct(o)),feature.label,f?.value||'Unverified for this offer',f?.basis||'',f ? f.source||o.model.source : '',f ? o.model.checked : '',p.source];})]};
+      metric:money(ref.amount),label:`Reference · ${ref.offer.model.brand} · ${variantName(ref.offer)}`,
+      reading:ref.basis+' · '+ref.date+'. Every gap uses the observed offer price minus this reference. Percentage gaps use the reference as the denominator.',
+      note:`The observed range is ${money(low.price.amount)} to ${money(high.price.amount)}. Selecting a regular reference keeps each dated offer price in the comparison.`,
+      method:d.selection+' A missing feature means the Atlas has no recorded evidence for that offer.',checked:d.checked,
+      status:'Price observations '+period,sources:link('./#workbench','Open the Atlas comparison tool →'),
+      graphic:pricePlot(width,title,offers,ref),
+      table:table(['Exact offer','Observed USD and price basis','Gap vs. reference',feature.label,'Price evidence and seller'],rows.map(r=>r.visible)),
+      csv:[['Offer ID','Brand','Exact product / variant','Storefront','Market','Currency','Observed price','Price basis','Price observation','Reference offer ID','Reference price','Difference (USD)','Difference (%)','Selected feature','Feature evidence','Feature basis','Feature source','Feature checked','Price source',
+        'Seller','SKU or retailer item ID','Displayed regular price (USD)','Previous price (USD)','Comparison value (USD)','Comparison value basis','Reference price basis','Reference observation date','Reference source','Offer qualification','Comparison value checked'],...rows.map(r=>r.csv)]};
   }
 
   const builders = {market:marketOutlook, growth:salesGrowth, travelers:demographics, benchmarks:carryOnPrices};
@@ -294,8 +426,8 @@
       if(key==='series' && state.series===state.peer) state.peer='';
       show(active);
     });
-    byId('marketCsv').addEventListener('click',()=>{if(current)exportCsv(current.csv,'Luggage_Atlas_'+active+'.csv');});
-    byId('marketSvg').addEventListener('click',()=>{if(current)exportSvg(current.graphic,'Luggage_Atlas_'+active+'.svg');});
+    byId('marketCsv').addEventListener('click',()=>{if(current)exportCsv(current.csv,'Luggage_Atlas_'+(current.exportKey || active)+'.csv');});
+    byId('marketSvg').addEventListener('click',()=>{if(current)exportSvg(current.graphic,'Luggage_Atlas_'+(current.exportKey || active)+'.svg');});
     window.matchMedia('(max-width: 600px)').addEventListener('change',()=>{if(active && !byId('marketWorkspace').hidden)show(active);});
   }
   global.AtlasMarketResearch = {views,bind,show,cagr,benchmarks};
