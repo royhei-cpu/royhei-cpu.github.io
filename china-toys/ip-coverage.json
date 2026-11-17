@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-16",
+  "catalog_date": "2026-11-17",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -202,7 +202,7 @@
         "deaca35d9fca4ca1",
         "5cd8bed2d1f134df",
         "8e5b0863d63d1ad4",
-        "bea47c7162f38ff6",
+        "23bcc7a535d71d87",
         "99db716774884088",
         "fea775711d66445f",
         "2d8a3a3a0df39451",
@@ -488,7 +488,7 @@
         "deaca35d9fca4ca1",
         "5cd8bed2d1f134df",
         "8e5b0863d63d1ad4",
-        "bea47c7162f38ff6",
+        "23bcc7a535d71d87",
         "99db716774884088",
         "fea775711d66445f",
         "2d8a3a3a0df39451",
@@ -1004,13 +1004,6 @@
         "f5df2ccf5fb6826d",
         "9d7f97264af17bc9",
         "bf9dee12b1515403",
-        "52c64bc8dd5cafd2",
-        "c12d0e06dc71a350",
-        "6f754965b0ef71c7",
-        "ff677c0b9868fd09",
-        "bcdf40988e6bc09c",
-        "cf22eb3ce827364f",
-        "d2fcf38905d39a8c",
         "a7e1e9f73d09e42e",
         "95116c24953440ff",
         "d839eede26a14a3a",
@@ -1035,7 +1028,14 @@
         "12601c8a553e4cba",
         "523007cb72416cdd",
         "1a911611c788f90a",
-        "b3959522809c2145"
+        "b3959522809c2145",
+        "52c64bc8dd5cafd2",
+        "c12d0e06dc71a350",
+        "6f754965b0ef71c7",
+        "ff677c0b9868fd09",
+        "bcdf40988e6bc09c",
+        "cf22eb3ce827364f",
+        "d2fcf38905d39a8c"
       ],
       "status": "Partial assortment"
     },
@@ -1045,21 +1045,21 @@
       "records": 9,
       "product_ids": [
         "3d85180e56c0e400",
-        "cffc0879c2585beb",
-        "e23be0a76a033aa7",
-        "26bbe5f2854568f8",
         "98d6dfbb7a8da226",
         "5531f38676d3b58a",
         "f806a25e619ca6e2",
         "2da1a982a8b5df75",
-        "6f3d8f2de852962a"
+        "6f3d8f2de852962a",
+        "cffc0879c2585beb",
+        "e23be0a76a033aa7",
+        "26bbe5f2854568f8"
       ],
       "status": "Partial assortment"
     },
     {
       "id": "lulu",
       "name": "LuLu the Piggy",
-      "records": 106,
+      "records": 107,
       "product_ids": [
         "c8e3b1c5c0c907d7",
         "ccd30b3897e21a97",
@@ -1098,6 +1098,7 @@
         "8fb4109116bedd7d",
         "bec1e5898981fc70",
         "7e865395dff975ed",
+        "96ddb75f1a5454ef",
         "77059d0dae117904",
         "0f260b44970399a4",
         "5287299aced517e6",
@@ -1301,13 +1302,14 @@
     {
       "id": "sonny-angel",
       "name": "Sonny Angel",
-      "records": 16,
+      "records": 17,
       "product_ids": [
         "9c768d3369956d83",
         "072376d948b38e52",
         "1f6b87275245ad60",
         "4cdf6bfa0837351b",
         "7e94e87a41d5b00d",
+        "f86eb709cd8ac86f",
         "4e2784513d32955d",
         "62b70ae9851684cd",
         "b6f5305105b9b090",
