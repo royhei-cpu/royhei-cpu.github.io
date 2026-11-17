@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-16",
-  "sourceCheckedAt": "2026-11-16",
+  "reviewedAt": "2026-11-17",
+  "sourceCheckedAt": "2026-11-17",
   "files": [
     "part-001.json",
     "part-002.json",
@@ -370,5 +370,5 @@
     "gap-review-20261102-53.json.gz",
     "gap-review-20261102-54.json.gz"
   ],
-  "reviewScope": "Comprehensive Monday source review across the current 20-retailer directory, with one retained official source attempted per retailer and deeper exact-item checks for Amazon US, Walmart, Costco, TikTok Shop and Quince. Four exact listings were added (Amazon US 1; Walmart 2; TikTok Shop 1) with matched photos. Finish Free & Clear has an item-specific Amazon Date First Available of 11 August 2026 and a separate official Reckitt announcement dated 2 September 2026. The two Lysol seasonal scents have a separate official Reckitt launch announcement dated 1 October 2026; their Walmart first-available dates remain unverified. Full retailer/category pagination and checkout availability remain incomplete; Home Depot, Lowe’s, Walgreens and broader TikTok access were blocked or unavailable during parts of the pass."
+  "reviewScope": "Daily material-change follow-up across Amazon US, Walmart, Costco, TikTok Shop and Quince plus official brand news. No catalog additions met the exact-item evidence threshold. Tineco's 16 November CARPET ONE Spot DualHeat announcement was verified and remains news-only because Amazon's exact seller, checkout availability and item-specific first-listing date were not independently verified. Costco's 16–30 November promotion page was checked without an exact price claim; three TikTok PDP candidates remained blocked by a Security Check; Quince results were adjacent Home Organization rather than Home Care. Full retailer/category pagination remains incomplete."
 }

@@ -186,3 +186,11 @@ The three-row selected-only CSV was inspected for exact row count, retailer mapp
 - Rechecked Quince Storage & Organization as adjacent scope without promoting any item, stock or restock claim. No new in-scope official brand launch or distinct factual news event was verified.
 - Kept Home Care, China Toy Atlas and Luggage Atlas distinct. Home Care retains evidence-scoped white-label recommendations while retired planogram, virtual-aisle, Blender/3D, BOM and design-workshop controls remain excluded.
 - The comprehensive Monday review remains scheduled for 16 November 2026. See `site/catalog-review/daily-source-check-2026-11-15.json`.
+
+
+## 17 November 2026 — priority-channel follow-up
+
+- Preserved all 10,269 canonical records; no exact product listing met the addition threshold today.
+- Verified Tineco's 16 November U.S. CARPET ONE Spot DualHeat announcement and kept it in factual news only. The announcement states a $249 U.S. price and Amazon availability, but Amazon seller, current checkout availability and the item-specific first-listing date remain unverified.
+- Checked Walmart current discovery, Costco's official 16–30 November promotion page, three TikTok Shop PDP candidates and Quince's official storage category. TikTok Shop was blocked by a Security Check; Costco's exact promotional price was not verified; Quince results were adjacent Home Organization rather than Home Care.
+- No pagination scope was proven exhausted, and this daily follow-up does not replace the comprehensive Monday assortment review. See `site/catalog-review/daily-source-check-2026-11-17.json`.

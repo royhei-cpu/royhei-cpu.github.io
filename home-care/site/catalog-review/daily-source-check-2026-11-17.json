@@ -1,0 +1,99 @@
+{
+  "reviewedAt": "2026-11-17",
+  "status": "completed-with-bounded-gaps",
+  "reviewType": "Daily material-change follow-up; not a comprehensive Monday assortment review",
+  "baselineRecords": 10269,
+  "publishedRecords": 10269,
+  "verifiedAdditions": 0,
+  "additionsByRetailer": {},
+  "verifiedLaunchAnnouncements": [
+    {
+      "event": "Tineco CARPET ONE Spot DualHeat announced for the U.S.",
+      "announcementDate": "2026-11-16",
+      "announcementSource": "https://www.prnewswire.com/news-releases/tineco-introduces-carpet-one-spot-dualheat-with-hot-water-steam-and-built-in-drying-302940174.html",
+      "retailerReference": "https://www.amazon.com/Tineco-CARPET-ONE-Spot-DualHeat/dp/B0HCBQS8LL",
+      "evidenceStatus": "Official announcement verified; kept as news only. Amazon seller, checkout availability and item-specific first-listing date were not independently verified."
+    }
+  ],
+  "sourceChecks": [
+    {
+      "retailer": "Amazon US",
+      "sources": [
+        "https://www.amazon.com/Tineco-CARPET-ONE-Spot-DualHeat/dp/B0HCBQS8LL",
+        "https://www.prnewswire.com/news-releases/tineco-introduces-carpet-one-spot-dualheat-with-hot-water-steam-and-built-in-drying-302940174.html"
+      ],
+      "result": "partial",
+      "observed": "Exact ASIN B0HCBQS8LL and the $249 announced U.S. price were corroborated. The direct Amazon page presented an automated-access checkpoint, so exact seller, checkout availability and item-specific first-listing date were not verified.",
+      "additions": 0,
+      "paginationStatus": "not exhausted"
+    },
+    {
+      "retailer": "Walmart",
+      "sources": [
+        "https://www.walmart.com/shop/household-essentials/surface-care-new-arrivals"
+      ],
+      "result": "partial-no-material-change",
+      "observed": "Current public discovery results were checked; no additional exact product page met the item, pack, seller, price/photo and deduplication threshold.",
+      "additions": 0,
+      "paginationStatus": "not exhausted"
+    },
+    {
+      "retailer": "Costco",
+      "sources": [
+        "https://www.costco.com/o/-/holiday-savings/"
+      ],
+      "result": "partial-no-catalog-addition",
+      "observed": "The official Holiday Savings page shows a 16–30 November Shark PowerDetect 2-in-1 robot vacuum and mop promotion. Exact pack-specific price was not verified, so no price claim or catalog addition was made.",
+      "additions": 0,
+      "paginationStatus": "not exhausted"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "sources": [
+        "https://shop.tiktok.com/us/pdp/toilet-bowl-brush-holder-set-2-pack-modern-design-bronze/1732622193942631056",
+        "https://shop.tiktok.com/us/pdp/1732175228765901030",
+        "https://shop.tiktok.com/us/pdp/eco-friendly-citrus-scented-multi-surface-cleaner-8-oz/1732331502956876320"
+      ],
+      "result": "blocked",
+      "observed": "Three exact PDP candidates were located, but TikTok Shop returned a Security Check and the public scraper reported the site unsupported. Seller, current offer, exact variant and matched photo could not all be verified.",
+      "additions": 0,
+      "paginationStatus": "blocked"
+    },
+    {
+      "retailer": "Quince",
+      "sources": [
+        "https://www.quince.com/shop/home/boxes-and-storage",
+        "https://www.quince.com/home/handwoven-seagrass-lidded-storage-baskets?color=white-wash",
+        "https://www.quince.com/home/handwoven-rattan-legal-size-storage-box?color=white-wash"
+      ],
+      "result": "adjacent-scope-only",
+      "observed": "Official storage category and exact storage product pages were found, but these are adjacent Home Organization references rather than Home Care items. Existing Quince fabric-care records were preserved and no new record was added.",
+      "additions": 0,
+      "paginationStatus": "not exhausted"
+    }
+  ],
+  "heldCandidates": [
+    {
+      "retailer": "Amazon US",
+      "retailerItemId": "B0HCBQS8LL",
+      "reason": "Announcement and ASIN verified; exact seller, checkout availability and item-specific first-listing date remain unverified."
+    },
+    {
+      "retailer": "TikTok Shop",
+      "retailerItemIds": [
+        "1732622193942631056",
+        "1732175228765901030",
+        "1732331502956876320"
+      ],
+      "reason": "Security Check blocked exact seller, offer, variant and photo verification."
+    }
+  ],
+  "newsEventsRetained": 1,
+  "coverageComplete": false,
+  "limitations": [
+    "This daily follow-up does not replace the comprehensive Monday assortment review.",
+    "No retailer's full Home Care inventory was claimed complete.",
+    "Category pagination was not exhausted for Amazon US, Walmart, Costco, TikTok Shop or Quince.",
+    "A rechecked old page was not treated as a new launch or a new-to-directory item."
+  ]
+}

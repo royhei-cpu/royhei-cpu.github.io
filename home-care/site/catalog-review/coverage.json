@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-16",
-  "sourceCheckedAt": "2026-11-16",
+  "reviewedAt": "2026-11-17",
+  "sourceCheckedAt": "2026-11-17",
   "baseline": 6331,
   "added": 3938,
   "total": 10269,
@@ -4154,18 +4154,14 @@
     "scope": "Targeted gap review; not a completed comprehensive inventory refresh"
   },
   "latestDailyAudit": {
-    "date": "2026-11-16",
-    "added": 4,
-    "byRetailer": {
-      "Amazon US": 1,
-      "Walmart": 2,
-      "TikTok Shop": 1
-    },
-    "audit": "daily-source-check-2026-11-16.json",
-    "scope": "Comprehensive Monday source review across 20 retailers with one retained source probe per retailer and four exact additions; full retailer/category inventory and pagination remain incomplete."
+    "date": "2026-11-17",
+    "added": 0,
+    "byRetailer": {},
+    "audit": "daily-source-check-2026-11-17.json",
+    "scope": "Priority-channel daily follow-up completed with no qualifying catalog additions; full retailer/category inventory and pagination remain incomplete."
   },
-  "dailyFollowupDate": "2026-11-16",
-  "countBasis": "Collected primary-category record counts reconciled to the current merged dataset on 16 November 2026. The 20-retailer Monday source review attempted one retained public source per retailer; category pagination remains partial unless explicitly bounded.",
+  "dailyFollowupDate": "2026-11-17",
+  "countBasis": "10,269 canonical records retained after the 17 November 2026 daily material-change follow-up; no new records were added. Counts describe collected public listings, not complete retailer inventories.",
   "latestMondayAudit": {
     "date": "2026-11-16",
     "retailersAttempted": 20,
