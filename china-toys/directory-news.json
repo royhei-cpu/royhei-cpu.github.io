@@ -109,20 +109,27 @@
   {
     "id": "pop-mart-crystal-ball-us-nov12-2026",
     "title": "POP MART schedules THE MONSTERS crystal-ball blind-box series for November 12",
-    "summary": "POP MART's official U.S. product page specifies November 12, 2026 at 5:00 p.m. Pacific as the online release date for WHERE WISHES COME TRUE SERIES - Crystal Ball Blind Box. Six regular styles and one secret are pictured; stated materials include PVC, ABS, silicone, electronic components, metal, silica glass and water. This is a dated U.S.-market product announcement, not confirmation of mainland stock, completed sales or sales growth. Exact price/pack and mainland availability are not reverified.",
+    "summary": "POP MART's official U.S. product page dates the THE MONSTERS WHERE WISHES COME TRUE Crystal Ball Blind Box online release to November 12, 2026 at 5:00 p.m. PST. The official U.S. POP NOW single-box offer was observed at USD 21.99 on November 17; its POP NOW page showed an estimated shipping date of January 12, 2027. This estimated shipping date is not the launch date or proof of fulfillment. The series shows six regular styles and one secret, with PVC, ABS, silicone, electronic components, metal, silica glass and water listed as materials. USD 21.99 is a U.S. single random-box asking price, not a whole-set price, a mainland-China RRP, an audited sale or evidence of unit-sales growth. Mainland availability and exact whole-set price remain unverified.",
     "date": "2026-11-12",
     "type": "Official U.S. release announcement",
     "dateLabel": "Scheduled U.S. online release",
     "eventDate": "2026-11-12",
-    "checked": "2026-11-14",
+    "checked": "2026-11-17",
     "added": "2026-11-14",
-    "market": "United States",
+    "market": "United States / POP MART U.S. POP NOW",
     "sources": [
       {
         "label": "POP MART U.S. official product page",
         "url": "https://www.popmart.com/us/products/9668/where-wishes-come-true-series-crystal-ball-blind-box"
+      },
+      {
+        "label": "POP MART U.S. POP NOW — single-box offer and estimated shipping date (observed November 17)",
+        "url": "https://www.popmart.com/us/pop-now/set/1544"
       }
-    ]
+    ],
+    "priceBasis": "U.S. POP NOW USD 21.99 single-box asking price observed 2026-11-17; set asking price unverified",
+    "option": "Single random box; whole set offered separately",
+    "estimatedShippingDate": "2027-01-12"
   },
   {
     "id": "52toys-lulu-bauble-us-nov11-2026",
