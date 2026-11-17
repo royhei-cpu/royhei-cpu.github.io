@@ -9,7 +9,7 @@
     },
     {
       "brand": "TOP TOY",
-      "records": 305,
+      "records": 306,
       "status": "Partial assortment"
     },
     {
@@ -289,9 +289,6 @@
       "name": "CRYBABY",
       "records": 26,
       "product_ids": [
-        "8b168993f2e1ba7a",
-        "284ecaa010ed313f",
-        "5125aec1350af932",
         "12b18639ba712dc6",
         "f40bdffb6721501e",
         "bca5c7dc8d76468e",
@@ -314,7 +311,10 @@
         "c9104eb17bce5d8e",
         "850e71aa8b8b3ad8",
         "be8f6c4406a28556",
-        "0c4f79c8fc3a4c2d"
+        "0c4f79c8fc3a4c2d",
+        "8b168993f2e1ba7a",
+        "284ecaa010ed313f",
+        "5125aec1350af932"
       ],
       "status": "Partial assortment"
     }
@@ -575,9 +575,6 @@
       "name": "CRYBABY",
       "records": 26,
       "product_ids": [
-        "8b168993f2e1ba7a",
-        "284ecaa010ed313f",
-        "5125aec1350af932",
         "12b18639ba712dc6",
         "f40bdffb6721501e",
         "bca5c7dc8d76468e",
@@ -600,7 +597,10 @@
         "c9104eb17bce5d8e",
         "850e71aa8b8b3ad8",
         "be8f6c4406a28556",
-        "0c4f79c8fc3a4c2d"
+        "0c4f79c8fc3a4c2d",
+        "8b168993f2e1ba7a",
+        "284ecaa010ed313f",
+        "5125aec1350af932"
       ],
       "status": "Partial assortment"
     },
@@ -683,7 +683,6 @@
       "name": "YOYO",
       "records": 12,
       "product_ids": [
-        "76a394af94dad715",
         "35f22ef6b9c88685",
         "64e4adce1cec3ef9",
         "a6c140ccf2759a49",
@@ -694,7 +693,8 @@
         "a6930e10358f334c",
         "6f009c9a4fed6f59",
         "2de0559fb54fbb2e",
-        "381f555fa411970a"
+        "381f555fa411970a",
+        "76a394af94dad715"
       ],
       "status": "Partial assortment"
     },
@@ -873,7 +873,6 @@
       "product_ids": [
         "1259671ff6f207ed",
         "c05e710a1a63c448",
-        "dfe115f3476d711c",
         "54b461094820a08f",
         "af4de3ae639a3f32",
         "bb08f8960061c416",
@@ -900,7 +899,8 @@
         "27b4acc71eb87bce",
         "556694857d63c7e5",
         "c47812c7e3b7c4cf",
-        "beb7b79f3ac77165"
+        "beb7b79f3ac77165",
+        "dfe115f3476d711c"
       ],
       "status": "Partial assortment"
     },
@@ -999,11 +999,17 @@
         "58e955b336367458",
         "168f586e5e99ac40",
         "5c1b96b908b25248",
-        "6093615da04195e5",
         "d8b62f9df57b25cf",
         "f5df2ccf5fb6826d",
         "9d7f97264af17bc9",
         "bf9dee12b1515403",
+        "52c64bc8dd5cafd2",
+        "c12d0e06dc71a350",
+        "6f754965b0ef71c7",
+        "ff677c0b9868fd09",
+        "bcdf40988e6bc09c",
+        "cf22eb3ce827364f",
+        "d2fcf38905d39a8c",
         "a7e1e9f73d09e42e",
         "95116c24953440ff",
         "d839eede26a14a3a",
@@ -1029,13 +1035,7 @@
         "523007cb72416cdd",
         "1a911611c788f90a",
         "b3959522809c2145",
-        "52c64bc8dd5cafd2",
-        "c12d0e06dc71a350",
-        "6f754965b0ef71c7",
-        "ff677c0b9868fd09",
-        "bcdf40988e6bc09c",
-        "cf22eb3ce827364f",
-        "d2fcf38905d39a8c"
+        "6093615da04195e5"
       ],
       "status": "Partial assortment"
     },
@@ -1045,21 +1045,21 @@
       "records": 9,
       "product_ids": [
         "3d85180e56c0e400",
+        "cffc0879c2585beb",
+        "e23be0a76a033aa7",
+        "26bbe5f2854568f8",
         "98d6dfbb7a8da226",
         "5531f38676d3b58a",
         "f806a25e619ca6e2",
         "2da1a982a8b5df75",
-        "6f3d8f2de852962a",
-        "cffc0879c2585beb",
-        "e23be0a76a033aa7",
-        "26bbe5f2854568f8"
+        "6f3d8f2de852962a"
       ],
       "status": "Partial assortment"
     },
     {
       "id": "lulu",
       "name": "LuLu the Piggy",
-      "records": 107,
+      "records": 110,
       "product_ids": [
         "c8e3b1c5c0c907d7",
         "ccd30b3897e21a97",
@@ -1077,7 +1077,6 @@
         "3f181fff6e811572",
         "f7107c73f9051936",
         "d7d4cb13b61874a4",
-        "0fa7ab530514b8ec",
         "f7adce80ede61d99",
         "df7fab007742a930",
         "c971b21e8767bc4b",
@@ -1087,10 +1086,12 @@
         "5038668c831b6ec9",
         "7a21933efba1a8c4",
         "f78a8bb8ed6d122c",
+        "3354ce86e1f08579",
         "254d669de208572f",
         "e4e334edf95bb93d",
         "6c9cbd9083d2b35d",
         "dfe3556007bb76f0",
+        "d201acb6f947d3c8",
         "5cae777f130cf46b",
         "27243efcd1629b98",
         "a2d490721c13a85c",
@@ -1113,13 +1114,13 @@
         "f0e6d0e6ab94c137",
         "682ad322c8d33289",
         "2992100c61ce7eda",
-        "85955174e40add61",
         "8388c804d5cdf932",
         "d60c29cf8a8aa9a4",
         "314b556faf95c10a",
         "095f0bed1e414a9b",
         "68c457cf359b503e",
         "ba12dd8ecb11cadf",
+        "f4d457a675a31a47",
         "f3d8c7460d860e49",
         "c16942e6d0acf2ca",
         "0510f9f3e85144f3",
@@ -1164,9 +1165,11 @@
         "8e3cf9439db2d1b4",
         "48b675576d07b6de",
         "47d6d376b388accd",
+        "0fa7ab530514b8ec",
         "33a6fa51fe3181f9",
         "464635722a575510",
         "56afbcdc65d4ce18",
+        "85955174e40add61",
         "5408dd76b1344f5f"
       ],
       "status": "Partial assortment"
@@ -1502,7 +1505,6 @@
         "73b19a17f0053fe9",
         "cf595017cfa95680",
         "c08909339ddc405d",
-        "9ea82e809b8682af",
         "4fc216c32cc9aadd",
         "41c4274f931a25cf",
         "26612b05e73695d8",
@@ -1511,7 +1513,8 @@
         "c9cbbfa172bba299",
         "384090d77fc9f27f",
         "3146a05291405e65",
-        "d7813fd0d147e3b2"
+        "d7813fd0d147e3b2",
+        "9ea82e809b8682af"
       ],
       "status": "Partial assortment"
     },
@@ -2132,9 +2135,9 @@
       "character": "MIMI",
       "records": 25,
       "sample_sources": [
-        "https://toybeta.com/products/ghost-john-mimimaomao-series-figures-blind-box",
         "https://toybeta.com/products/mimi-bobo-day-out-series-beans-blind-bag",
-        "https://toybeta.com/products/mimiz-home-diary-mini-series-blind-box"
+        "https://toybeta.com/products/mimiz-home-diary-mini-series-blind-box",
+        "https://didapop.com/products/mimia-art-of-forgotten-dream-series-blind-box"
       ]
     },
     {
@@ -2161,7 +2164,7 @@
       "sample_sources": [
         "https://toyzeroplus.com/products/ultraman-sleeping-kaiju-blind-box",
         "https://toybeta.com/products/sleep-tales-of-enchanted-dreams-series-figures-blind-box",
-        "https://toybeta.com/products/sleep-fable-series-figures-blind-box"
+        "https://toybeta.com/products/sleepie-bear-pajama-party-series"
       ]
     },
     {

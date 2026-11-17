@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-17",
-      "raw_products_read": 974,
+      "raw_products_read": 971,
       "currency": "USD"
     },
     {
@@ -80,7 +80,7 @@
       "url": "https://toybeta.com",
       "status": "complete",
       "checked": "2026-11-17",
-      "raw_products_read": 1294,
+      "raw_products_read": 1266,
       "currency": "USD"
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://didapop.com",
       "status": "complete",
       "checked": "2026-11-17",
-      "raw_products_read": 1812,
+      "raw_products_read": 1817,
       "currency": "USD"
     },
     {
@@ -107,7 +107,7 @@
       "url": "https://irissquishy.com",
       "status": "complete",
       "checked": "2026-11-17",
-      "raw_products_read": 108,
+      "raw_products_read": 116,
       "currency": "USD"
     },
     {
@@ -492,6 +492,12 @@
     },
     {
       "id": "dfa9fca534e8f118",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "eb319d1c0043044e",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -1766,6 +1772,12 @@
   ],
   "image_repairs": [
     {
+      "id": "c4bff0a9e2a14ac3",
+      "name": "Lucky Deer Nai Qimeng Tianyuan Series Plush Blind Box",
+      "source": "https://www.kikagoods.com/products/lucky-deer-nai-qimeng-tianyuan-series-plush-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "962fdec622026610",
       "name": "T BABY Cloudy to Clear Series Plush Blind Box",
       "source": "https://www.kikagoods.com/products/t-baby-cloudy-to-clear-series-plush-blind-box",
@@ -2003,12 +2015,6 @@
       "id": "2c54659bc817ee57",
       "name": "Nagi Cloud Ruins Chronicle Series 1/12 MJD Action Figure Blind Box",
       "source": "https://www.kikagoods.com/products/nagi-cloud-ruins-chronicle-series-1-12-mjd-action-figure-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "dfe115f3476d711c",
-      "name": "Rayan Natural-Born Player Series Blind Box",
-      "source": "https://www.kikagoods.com/products/rayan-natural-born-player-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -3812,12 +3818,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "730ba70bdac9b403",
-      "name": "Dark Souls Series 3 Blind Box",
-      "source": "https://www.kikagoods.com/products/dark-souls-series-3-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "9363515e2cd0157a",
       "name": "Vegetables Fairy Mini Cute Beans Series 1 Blind Bag",
       "source": "https://www.kikagoods.com/products/vegetables-fairy-mini-cute-beans-series-1-blind-bag",
@@ -4277,6 +4277,12 @@
       "id": "c080960cac52f196",
       "name": "Disney Winnie the Pooh 100th Honey Quest Series Figure Blind Box",
       "source": "https://gotoptoy.com/products/disney-winnie-the-pooh-100th-honey-quest-series-figure-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "f14718afbe00b291",
+      "name": "Heymi Fragments of Life Series Figure Blind Box",
+      "source": "https://gotoptoy.com/products/heymi-fragments-of-life-series-figure-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6668,6 +6674,24 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
+      "id": "f4d457a675a31a47",
+      "name": "Whispers To LULU Mini Series Blind Box",
+      "source": "https://toybeta.com/products/whispers-to-lulu-series-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "d201acb6f947d3c8",
+      "name": "LuLu The Piggy-Teddy LuLu Colorful Life Series Figures Blind Box【TOYZERO】",
+      "source": "https://toybeta.com/products/lulu-the-piggy-teddy-lulu-colorful-life-series-figures-blind-box-toyzero",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "3354ce86e1f08579",
+      "name": "LuLu The Piggy Winter Festive Series Everlasting Bauble Keychain Blind Box【TOYZERO】",
+      "source": "https://toybeta.com/products/lulu-the-piggy-winter-festive-series-everlasting-bauble-keychain-blind-box-toyzero",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "26d78419f7ea562a",
       "name": "Jiang Jiang Winter Fantasies Series Plush Blind Box",
       "source": "https://toybeta.com/products/jiang-jiang-winter-fantasies-series-plush-blind-box",
@@ -7208,18 +7232,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "faae370f314dcbc1",
-      "name": "MEICHAI Aquarium Series Beans Blind Bag",
-      "source": "https://toybeta.com/products/meichai-aquarium-series-beans-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "c997e3162c2dcbfb",
-      "name": "Miffy Christmas Series Plush Keychain Blind Box",
-      "source": "https://toybeta.com/products/miffy-christmas-series-plush-keychain-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "aafa4c57178a5cb5",
       "name": "YUNA-Kawaii Yuna Girl Series Plush Blind Box",
       "source": "https://toybeta.com/products/yuna-kawaii-yuna-girl-series-plush-blind-box",
@@ -7250,21 +7262,9 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "3cfc1b912572312e",
-      "name": "Mimiz Mood Stickers Series Blind Box",
-      "source": "https://toybeta.com/products/mimiz-mood-stickers-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "f5df2ccf5fb6826d",
       "name": "Nanci Sweet Time Series Blind Box Figures【Rolife】",
       "source": "https://toybeta.com/products/nanci-sweet-time-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "9ea82e809b8682af",
-      "name": "MIMI-Inner Ease Journal Series Plush Pendant Blind Box【Heyone】",
-      "source": "https://toybeta.com/products/mimi-inner-ease-journal-series-vinyl-plush-pendant-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -7328,12 +7328,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "9bd6f20593247c19",
-      "name": "Ninita Gorgeousmanor Series Figures Blind Box【OUO】",
-      "source": "https://toybeta.com/products/ninita-gorgeousmanor-series-figures-blind-box-ouo",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "0fe472191b001ba8",
       "name": "MIKUKU·LULLABY Fluffy Baby Series Plush Blind Box",
       "source": "https://toybeta.com/products/mikuku-lullaby-fluffy-baby-series-plush-blind-box",
@@ -7373,12 +7367,6 @@
       "id": "6041529c4cdbb582",
       "name": "Q.Kid Shining Passion Series Plush Blind Box【jotoys】",
       "source": "https://toybeta.com/products/q-kid-shining-passion-series-plush-blind-box-jotoys",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "6093615da04195e5",
-      "name": "Nanci Secret Fantasy Series Figures Blind Box【Rolife】",
-      "source": "https://toybeta.com/products/nanci-secret-fantasy-series-figures-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -7511,12 +7499,6 @@
       "id": "8cadb8afd0722632",
       "name": "DIMOO WORLD x PIXAR Series Figures Blind Box",
       "source": "https://toybeta.com/products/dimoo-world-x-pixar-series-figures-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "8a4094fd49ad4981",
-      "name": "BUER Little Princess Series Beans Blind Bag",
-      "source": "https://toybeta.com/products/buer-little-princess-series-beans-blind-bag",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -7676,12 +7658,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "4f75e3c08bbe702f",
-      "name": "\"Maozai Please Behave Yourself\" Series Mini Figures Blind Box [Material: Resin]",
-      "source": "https://toybeta.com/products/maozai-please-behave-yourself-series-mini-figures-blind-box-material-resin",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "0ca9728b0f4de38f",
       "name": "TangTang-Little Mind Series Mini Beans Blind Bag",
       "source": "https://toybeta.com/products/tangtang-little-mind-series-mini-beans-blind-bag",
@@ -7772,12 +7748,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "0fa7ab530514b8ec",
-      "name": "LuLu The Piggy Animal Party Mini Series Beans Blind Bag【TOYZERO】",
-      "source": "https://toybeta.com/products/lulu-the-piggy-animal-party-mini-series-beans-blind-bag-toyzero",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "75a10ea70d519d74",
       "name": "Emma Frostveil Villa Series Blind Box Figures【YAN CHUANG】",
       "source": "https://toybeta.com/products/emma-frostveil-villa-series-blind-box",
@@ -7793,18 +7763,6 @@
       "id": "33196022c6d8e42c",
       "name": "YUMO Dreamcore Island Series Blind Box【jotoys】",
       "source": "https://toybeta.com/products/yumo-dreamcore-island-series-blind-box-jotoys",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "76a394af94dad715",
-      "name": "YOYO Fly With The Wind Scented Series Figures Blind Box",
-      "source": "https://toybeta.com/products/yoyo-fly-with-the-wind-scented-series-figures-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "3bbe90fc116dc091",
-      "name": "RARA-Lovely Match Crush Series Beans Blind Bag【Treein Land】",
-      "source": "https://toybeta.com/products/dodo-rara-lovely-match-crush-series-beans-blind-bag",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -7838,12 +7796,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "dbcf49915e58b968",
-      "name": "Lucky Deer Nai Cuddly Buddies Series Plush Blind Box",
-      "source": "https://toybeta.com/products/lucky-deer-nai-cuddly-buddies-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "0fc54180d16e8f9a",
       "name": "Nyota x Chibi Maruko Chan Series Figures Blind Box",
       "source": "https://toybeta.com/products/nyota-x-chibi-maruko-chan-series-figures-blind-box",
@@ -7865,12 +7817,6 @@
       "id": "37eafcc65084b347",
       "name": "YOYO x Toy Story 5 Growing Up Collection Series Figures Blind Box",
       "source": "https://toybeta.com/products/yoyo-x-toy-story-5-growing-up-collection-series-figures-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "93eb99f874599f96",
-      "name": "MOCII The Metamorphosis Series Figures Blind Box",
-      "source": "https://toybeta.com/products/mocii-metamorphosis-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -7913,12 +7859,6 @@
       "id": "c8d0a0a59a30f5e3",
       "name": "The SLLO BANANA Series Mini Beans Blind Bag",
       "source": "https://toybeta.com/products/the-sllo-banana-series-mini-figures-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "488e0f6cd9a4cfd8",
-      "name": "Cat Moni-Kitten Companion Series Figures Blind Box",
-      "source": "https://toybeta.com/products/sweet-emilya-a-kitten-to-keep-you-company-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -8000,12 +7940,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "d9e2237f4989655d",
-      "name": "ONONO Dark Night Evolution Series Plush Blind Box",
-      "source": "https://toybeta.com/products/onono-dark-night-evolution-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "f4ab6eb7dc94117e",
       "name": "Omiya-Little Rascal Series Beans Blind Bag",
       "source": "https://toybeta.com/products/omiya-little-rascal-series-beans-blind-bag",
@@ -8075,12 +8009,6 @@
       "id": "bb92b9d32f3ac878",
       "name": "OZAI-Any-Block House Series Mini Figures Blind Bag【Heyone】",
       "source": "https://toybeta.com/products/ozai-any-block-house-series-mini-figures-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "de3815f6863b5d24",
-      "name": "CLUEBIE-Treasure Journal Series Plush Blind Box",
-      "source": "https://toybeta.com/products/cluebie-treasure-journal-series-plush-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -8186,12 +8114,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "1bc03420fd40a002",
-      "name": "The Luluelf Story Generation V1 Series Mini Blind Box【YAN CHUANG】",
-      "source": "https://toybeta.com/products/lulu-eif-v1-mini-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "2757071bef40514c",
       "name": "Buddy Midnight Fantasy Series Beans Blind Bag",
       "source": "https://toybeta.com/products/buddy-midnight-fantasy-series-beans-blind-bag",
@@ -8255,12 +8177,6 @@
       "id": "f1a6752d8396c0d6",
       "name": "NAMI Midnight Disco Series Phone Bag Blind Box【Treein Land】",
       "source": "https://toybeta.com/products/dodo-nami-midnight-disco-series-phone-case-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "204f36c5818a3760",
-      "name": "POP BEAN Island Vacation Series Blind Box",
-      "source": "https://toybeta.com/products/pop-bean-island-vacation-series-figures-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -8396,21 +8312,9 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "04e658da2fd0143e",
-      "name": "DOKUNO-Battle In Jungle Series Plush Blind Box",
-      "source": "https://toybeta.com/products/dokuno-battle-in-jungle-series-plush-pendant-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "e7a19c3c05040aa7",
       "name": "Sleep Dreamland Elves-Tales Of Enchanted Dreams Series Figures Blind Box",
       "source": "https://toybeta.com/products/sleep-tales-of-enchanted-dreams-series-figures-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "0aceded8a8c8c111",
-      "name": "Sleep Fable Series Figures Blind Box",
-      "source": "https://toybeta.com/products/sleep-fable-series-figures-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -8447,12 +8351,6 @@
       "id": "2de87488d191f6e2",
       "name": "OZAI-The Hooded Adventures Mini Beans Series Blind Box【Heyone】",
       "source": "https://toybeta.com/products/ozai-the-hooded-adventures-mini-beans-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "85955174e40add61",
-      "name": "LANCY LULU-Cute Girl Alliance Series Mini Beans Blind Bag",
-      "source": "https://toybeta.com/products/lancy-lulu-cute-girl-alliance-series-mini-beans-blind-bag",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -8570,12 +8468,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "6426e5731a9c33f7",
-      "name": "Lotso Minime V2 Series Beans Blind Bag",
-      "source": "https://toybeta.com/products/lotso-minime-v2-series-beans-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "c00442e1d77a55f9",
       "name": "Naruto Shippuden Beast Party Series Plush Blind Box",
       "source": "https://toybeta.com/products/naruto-shippuden-beast-party-series-plush-blind-box",
@@ -8660,12 +8552,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "3be0cbaac8e25e1d",
-      "name": "Flower Stream Tale Series Mini Figures Blind Box",
-      "source": "https://toybeta.com/products/flower-stream-tale-series-mini-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "1d91c353a6957bd1",
       "name": "S101. Characters Party Series Plush Blind Box - K22",
       "source": "https://toybeta.com/products/s101-characters-party-series-plush-blind-box-k22",
@@ -8723,12 +8609,6 @@
       "id": "7a399229e5bbde2c",
       "name": "Kuromi Magic Apprentice Series Figures Blind Box - K22",
       "source": "https://toybeta.com/products/kuromi-magic-apprentice-series-figures-blind-box-k22",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "fcc707d3b88f12fe",
-      "name": "S107. Diamond Detective Series Figures Blind Box - K22",
-      "source": "https://toybeta.com/products/s107-diamond-detective-series-figures-blind-box-k22",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -8930,18 +8810,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "5125aec1350af932",
-      "name": "CRYBABY Cry Me an Ocean Series Fridge Magnet Blind Box",
-      "source": "https://toybeta.com/products/crybaby-cry-me-an-ocean-series-fridge-magnet",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "e8e7f0cb1504bd8b",
-      "name": "MONCHHCHI Global Journey Flocked Ornament Stamp Series Figures Blind Box",
-      "source": "https://toybeta.com/products/monchhchi-global-journey-flocked-ornament-stamp-series-figures-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "4ca02e54a3eadcd7",
       "name": "S421. Windy Flower Series Beans Mini Blind Box - K22（3PCS）",
       "source": "https://toybeta.com/products/s421-joyride-floral-series-pinwheels-beans-mini-blind-box",
@@ -8960,12 +8828,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "8b168993f2e1ba7a",
-      "name": "CRYBABY Cry Me An Ocean Series - Vinyl Plush Pendant Blind Box",
-      "source": "https://toybeta.com/products/crybaby-cry-me-an-ocean-series-vinyl-plush-pendant-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "0369e9df7ab37021",
       "name": "UUTOY Love Story Series Beans Blind Bag",
       "source": "https://toybeta.com/products/uutoy-love-story-series-beans-blind-bag",
@@ -8981,12 +8843,6 @@
       "id": "df1af125fd82a15b",
       "name": "KOUCOMI-I Am The King Series Plush Blind Box",
       "source": "https://toybeta.com/products/koucomi-i-am-the-king-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "284ecaa010ed313f",
-      "name": "CRYBABY Cry Me an Ocean Series Figures Blind Box",
-      "source": "https://toybeta.com/products/crybaby-cry-me-an-ocean-series-figures",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12512,6 +12368,12 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
+      "id": "a591677dd5d148d8",
+      "name": "SanSquishy| Melting Series Slow Rising Stress Relief Toy Bundle (9 Pack)",
+      "source": "https://irissquishy.com/products/sansquishy-melting-series-slow-rising-stress-relief-toy-bundle-9-pack",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "d6c30697462e4a2d",
       "name": "Ziz| Chocolate Square Shape Slow Rising Stress Relief Toy",
       "source": "https://irissquishy.com/products/ziz-chocolate-square-shape-slow-rising-stress-relief-toy",
@@ -12675,27 +12537,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4579,
-  "after_products": 4551,
+  "before_products": 4594,
+  "after_products": 4566,
   "stats": {
-    "products": 4549,
-    "brands": 794,
-    "squishy": 473,
-    "with_images": 4549,
+    "products": 4564,
+    "brands": 796,
+    "squishy": 483,
+    "with_images": 4564,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4540,
+    "with_source_prices": 4555,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2580,
-    "with_dimensions": 1779,
-    "with_variant_options": 4239,
-    "source_linked_images": 4246,
+    "with_specifications": 2583,
+    "with_dimensions": 1782,
+    "with_variant_options": 4252,
+    "source_linked_images": 4259,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 8,
-    "with_shop_descriptions": 3764
+    "with_shop_descriptions": 3775
   },
   "checklist": [
     {
@@ -12714,7 +12576,7 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 305,
+      "records": 306,
       "with_details": 44,
       "with_china_price": 0,
       "with_release": 0,
@@ -12791,8 +12653,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 81,
-      "with_details": 45,
+      "records": 83,
+      "with_details": 47,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"
