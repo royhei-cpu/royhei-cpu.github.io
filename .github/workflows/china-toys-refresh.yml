@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/china-toys-refresh.yml'
       - 'china-toys/sources.json'
+      - 'china-toys/directory-news.json' # Editorial source checks trigger catalog reconciliation; not a new schedule
       - 'china-toys/refresh.py'
       - 'china-toys/enhance.py'
       - 'china-toys/rolife_collection.py'
