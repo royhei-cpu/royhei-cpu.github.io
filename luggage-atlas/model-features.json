@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-16",
+  "checked": "2026-11-17",
   "fields": [
     {
       "id": "opening",
@@ -13150,6 +13150,238 @@
       "photoSource": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
       "photoScope": "Selected size and color.",
       "photoCaption": "22.5-inch Hardside Carry-On Luggage · Navy"
+    },
+    {
+      "id": "offer-adf26fe9",
+      "offerId": "offer-adf26fe9",
+      "brandId": "travelpro",
+      "brand": "Travelpro",
+      "model": "Roundtrip® Rolling UnderSeat Carry-On · BLACK",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971181666",
+      "checked": "2026-11-17",
+      "scope": "US model specification with selected variant SKU. Launch date unknown.",
+      "features": {
+        "dimensions": {
+          "value": "17.5 × 14.5 × 8.5 in overall including wheels and handles; case alone 15.5 × 13 × 8 in",
+          "basis": "Travelpro model specification"
+        },
+        "weight": {
+          "value": "5.2 lb",
+          "basis": "Travelpro model specification"
+        },
+        "capacity": {
+          "value": "26 L",
+          "basis": "Travelpro model specification"
+        },
+        "material": {
+          "value": "Coated polyester",
+          "basis": "Travelpro model specification"
+        },
+        "wheels": {
+          "value": "Ball-bearing wheels",
+          "basis": "Travelpro model specification"
+        },
+        "laptop": {
+          "value": "Padded sleeve for laptops up to 14 inches",
+          "basis": "Travelpro model specification"
+        },
+        "organization": {
+          "value": "Removable water-resistant hanging organizer",
+          "basis": "Travelpro model specification"
+        }
+      },
+      "featureCount": 7,
+      "region": "North America",
+      "market": "Online storefront · USD",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 99.99,
+      "currency": "USD",
+      "priceDate": "2026-11-17",
+      "image": "offer-photo-assets/roundtrip-411247701-exterior.webp",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247701_08-1500x1500-f3a2c67.jpg?v=1749064405",
+        "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247701_06-1500x1500-f3a2c67_561409e2-5c05-4a1c-899e-d26a45274fe9.jpg?v=1748888025"
+      ],
+      "photoKind": "model-reference",
+      "photoSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971181666",
+      "photoScope": "Matched to SKU and color.",
+      "photoCaption": "Roundtrip® Rolling UnderSeat Carry-On · Black · exterior"
+    },
+    {
+      "id": "offer-3f7c7ace",
+      "offerId": "offer-3f7c7ace",
+      "brandId": "travelpro",
+      "brand": "Travelpro",
+      "model": "Roundtrip® Rolling UnderSeat Carry-On · OLIVE GREEN",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971214434",
+      "checked": "2026-11-17",
+      "scope": "US model specification with selected variant SKU. Launch date unknown.",
+      "features": {
+        "dimensions": {
+          "value": "17.5 × 14.5 × 8.5 in overall including wheels and handles; case alone 15.5 × 13 × 8 in",
+          "basis": "Travelpro model specification"
+        },
+        "weight": {
+          "value": "5.2 lb",
+          "basis": "Travelpro model specification"
+        },
+        "capacity": {
+          "value": "26 L",
+          "basis": "Travelpro model specification"
+        },
+        "material": {
+          "value": "Coated polyester",
+          "basis": "Travelpro model specification"
+        },
+        "wheels": {
+          "value": "Ball-bearing wheels",
+          "basis": "Travelpro model specification"
+        },
+        "laptop": {
+          "value": "Padded sleeve for laptops up to 14 inches",
+          "basis": "Travelpro model specification"
+        },
+        "organization": {
+          "value": "Removable water-resistant hanging organizer",
+          "basis": "Travelpro model specification"
+        }
+      },
+      "featureCount": 7,
+      "region": "North America",
+      "market": "Online storefront · USD",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 99.99,
+      "currency": "USD",
+      "priceDate": "2026-11-17",
+      "image": "offer-photo-assets/roundtrip-411247706-exterior.webp",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247706_8-1500x1500-f3a2c67_f2d9cda4-e90f-4122-8496-9ab20ff6d55c.jpg?v=1748888025",
+        "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247706_6-1500x1500-f3a2c67_c65c4ba4-dca5-4432-9209-c9867eb4616d.jpg?v=1748888025"
+      ],
+      "photoKind": "model-reference",
+      "photoSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971214434",
+      "photoScope": "Matched to SKU and color.",
+      "photoCaption": "Roundtrip® Rolling UnderSeat Carry-On · Olive Green · exterior"
+    },
+    {
+      "id": "offer-b3043517",
+      "offerId": "offer-b3043517",
+      "brandId": "travelpro",
+      "brand": "Travelpro",
+      "model": "Roundtrip® Rolling UnderSeat Carry-On · NAVY",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971247202",
+      "checked": "2026-11-17",
+      "scope": "US model specification with selected variant SKU. Launch date unknown.",
+      "features": {
+        "dimensions": {
+          "value": "17.5 × 14.5 × 8.5 in overall including wheels and handles; case alone 15.5 × 13 × 8 in",
+          "basis": "Travelpro model specification"
+        },
+        "weight": {
+          "value": "5.2 lb",
+          "basis": "Travelpro model specification"
+        },
+        "capacity": {
+          "value": "26 L",
+          "basis": "Travelpro model specification"
+        },
+        "material": {
+          "value": "Coated polyester",
+          "basis": "Travelpro model specification"
+        },
+        "wheels": {
+          "value": "Ball-bearing wheels",
+          "basis": "Travelpro model specification"
+        },
+        "laptop": {
+          "value": "Padded sleeve for laptops up to 14 inches",
+          "basis": "Travelpro model specification"
+        },
+        "organization": {
+          "value": "Removable water-resistant hanging organizer",
+          "basis": "Travelpro model specification"
+        }
+      },
+      "featureCount": 7,
+      "region": "North America",
+      "market": "Online storefront · USD",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 99.99,
+      "currency": "USD",
+      "priceDate": "2026-11-17",
+      "image": "offer-photo-assets/roundtrip-411247722-exterior.webp",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247722_08-1500x1500-f3a2c67.jpg?v=1748888025",
+        "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247722_06-1500x1500-f3a2c67_f5f4e67e-dd85-42d1-808f-790682cff3d3.jpg?v=1748888025"
+      ],
+      "photoKind": "model-reference",
+      "photoSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971247202",
+      "photoScope": "Matched to SKU and color.",
+      "photoCaption": "Roundtrip® Rolling UnderSeat Carry-On · Navy · exterior"
+    },
+    {
+      "id": "offer-36a2d767",
+      "offerId": "offer-36a2d767",
+      "brandId": "travelpro",
+      "brand": "Travelpro",
+      "model": "Roundtrip® Rolling UnderSeat Carry-On · ASH LILAC",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971279970",
+      "checked": "2026-11-17",
+      "scope": "US model specification with selected variant SKU. Launch date unknown.",
+      "features": {
+        "dimensions": {
+          "value": "17.5 × 14.5 × 8.5 in overall including wheels and handles; case alone 15.5 × 13 × 8 in",
+          "basis": "Travelpro model specification"
+        },
+        "weight": {
+          "value": "5.2 lb",
+          "basis": "Travelpro model specification"
+        },
+        "capacity": {
+          "value": "26 L",
+          "basis": "Travelpro model specification"
+        },
+        "material": {
+          "value": "Coated polyester",
+          "basis": "Travelpro model specification"
+        },
+        "wheels": {
+          "value": "Ball-bearing wheels",
+          "basis": "Travelpro model specification"
+        },
+        "laptop": {
+          "value": "Padded sleeve for laptops up to 14 inches",
+          "basis": "Travelpro model specification"
+        },
+        "organization": {
+          "value": "Removable water-resistant hanging organizer",
+          "basis": "Travelpro model specification"
+        }
+      },
+      "featureCount": 7,
+      "region": "North America",
+      "market": "Online storefront · USD",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 99.99,
+      "currency": "USD",
+      "priceDate": "2026-11-17",
+      "image": "offer-photo-assets/roundtrip-411247734-exterior.webp",
+      "gallery": [
+        "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247734_08-1500x1500-f3a2c67.jpg?v=1748888025",
+        "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247734_06-1500x1500-f3a2c67_d6d02708-e6f8-499a-ae7f-b877c46960df.jpg?v=1748888025"
+      ],
+      "photoKind": "model-reference",
+      "photoSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971279970",
+      "photoScope": "Matched to SKU and color.",
+      "photoCaption": "Roundtrip® Rolling UnderSeat Carry-On · Ash Lilac · exterior"
     }
   ],
   "brandCount": 176,

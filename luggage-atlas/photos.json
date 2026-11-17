@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-16",
+  "checked": "2026-11-17",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -7776,6 +7776,222 @@
         "identifierSource": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
         "identifierChecked": "2026-11-16"
       }
+    },
+    {
+      "id": "roundtrip-411247701-exterior",
+      "brandId": "travelpro",
+      "offerId": "offer-adf26fe9",
+      "identity": {
+        "model": "Roundtrip® Rolling UnderSeat Carry-On",
+        "size": "26 L",
+        "color": "Black",
+        "sku": "411247701",
+        "revision": null
+      },
+      "view": "Exterior",
+      "caption": "Roundtrip® Rolling UnderSeat Carry-On · Black · exterior",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247701_08-1500x1500-f3a2c67.jpg?v=1749064405",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971181666",
+      "checked": "2026-11-17",
+      "scope": "Exact SKU gallery. Production revision unknown.",
+      "localPath": "offer-photo-assets/roundtrip-411247701-exterior.webp",
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Brand SKU in gallery filenames and visual review",
+        "visualChecked": true,
+        "identifierSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971181666",
+        "identifierChecked": "2026-11-17",
+        "imageSha256": "97d7ecd0dd77cd643c0c8a7ee830731ba2eaa43be97faaa64445ac318b6b90eb"
+      }
+    },
+    {
+      "id": "roundtrip-411247701-interior",
+      "brandId": "travelpro",
+      "offerId": "offer-adf26fe9",
+      "identity": {
+        "model": "Roundtrip® Rolling UnderSeat Carry-On",
+        "size": "26 L",
+        "color": "Black",
+        "sku": "411247701",
+        "revision": null
+      },
+      "view": "Interior",
+      "caption": "Roundtrip® Rolling UnderSeat Carry-On · Black · interior",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247701_06-1500x1500-f3a2c67_561409e2-5c05-4a1c-899e-d26a45274fe9.jpg?v=1748888025",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971181666",
+      "checked": "2026-11-17",
+      "scope": "Exact SKU gallery. Production revision unknown.",
+      "localPath": "offer-photo-assets/roundtrip-411247701-interior.webp",
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Brand SKU in gallery filenames and visual review",
+        "visualChecked": true,
+        "identifierSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971181666",
+        "identifierChecked": "2026-11-17",
+        "imageSha256": "5a8cf808914c698651dba8dd0317d3df50b3b46c5e3912b6bdac509bc5408660"
+      }
+    },
+    {
+      "id": "roundtrip-411247706-exterior",
+      "brandId": "travelpro",
+      "offerId": "offer-3f7c7ace",
+      "identity": {
+        "model": "Roundtrip® Rolling UnderSeat Carry-On",
+        "size": "26 L",
+        "color": "Olive Green",
+        "sku": "411247706",
+        "revision": null
+      },
+      "view": "Exterior",
+      "caption": "Roundtrip® Rolling UnderSeat Carry-On · Olive Green · exterior",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247706_8-1500x1500-f3a2c67_f2d9cda4-e90f-4122-8496-9ab20ff6d55c.jpg?v=1748888025",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971214434",
+      "checked": "2026-11-17",
+      "scope": "Exact SKU gallery. Production revision unknown.",
+      "localPath": "offer-photo-assets/roundtrip-411247706-exterior.webp",
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Brand SKU in gallery filenames and visual review",
+        "visualChecked": true,
+        "identifierSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971214434",
+        "identifierChecked": "2026-11-17",
+        "imageSha256": "c73737b5279565527acc1b2c1e9300e8513f9c7237a60d1bef11bd27a1ddb3bf"
+      }
+    },
+    {
+      "id": "roundtrip-411247706-interior",
+      "brandId": "travelpro",
+      "offerId": "offer-3f7c7ace",
+      "identity": {
+        "model": "Roundtrip® Rolling UnderSeat Carry-On",
+        "size": "26 L",
+        "color": "Olive Green",
+        "sku": "411247706",
+        "revision": null
+      },
+      "view": "Interior",
+      "caption": "Roundtrip® Rolling UnderSeat Carry-On · Olive Green · interior",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247706_6-1500x1500-f3a2c67_c65c4ba4-dca5-4432-9209-c9867eb4616d.jpg?v=1748888025",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971214434",
+      "checked": "2026-11-17",
+      "scope": "Exact SKU gallery. Production revision unknown.",
+      "localPath": "offer-photo-assets/roundtrip-411247706-interior.webp",
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Brand SKU in gallery filenames and visual review",
+        "visualChecked": true,
+        "identifierSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971214434",
+        "identifierChecked": "2026-11-17",
+        "imageSha256": "1c1ed93dbaf43f425745308484ec3add432a7edc272e28a8f80abe9d03be4c85"
+      }
+    },
+    {
+      "id": "roundtrip-411247722-exterior",
+      "brandId": "travelpro",
+      "offerId": "offer-b3043517",
+      "identity": {
+        "model": "Roundtrip® Rolling UnderSeat Carry-On",
+        "size": "26 L",
+        "color": "Navy",
+        "sku": "411247722",
+        "revision": null
+      },
+      "view": "Exterior",
+      "caption": "Roundtrip® Rolling UnderSeat Carry-On · Navy · exterior",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247722_08-1500x1500-f3a2c67.jpg?v=1748888025",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971247202",
+      "checked": "2026-11-17",
+      "scope": "Exact SKU gallery. Production revision unknown.",
+      "localPath": "offer-photo-assets/roundtrip-411247722-exterior.webp",
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Brand SKU in gallery filenames and visual review",
+        "visualChecked": true,
+        "identifierSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971247202",
+        "identifierChecked": "2026-11-17",
+        "imageSha256": "8fa1e8fcb50f6b7db6e98e94eab951beaaf2f1928adc695aebb635ca30f4cc67"
+      }
+    },
+    {
+      "id": "roundtrip-411247722-interior",
+      "brandId": "travelpro",
+      "offerId": "offer-b3043517",
+      "identity": {
+        "model": "Roundtrip® Rolling UnderSeat Carry-On",
+        "size": "26 L",
+        "color": "Navy",
+        "sku": "411247722",
+        "revision": null
+      },
+      "view": "Interior",
+      "caption": "Roundtrip® Rolling UnderSeat Carry-On · Navy · interior",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247722_06-1500x1500-f3a2c67_f5f4e67e-dd85-42d1-808f-790682cff3d3.jpg?v=1748888025",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971247202",
+      "checked": "2026-11-17",
+      "scope": "Exact SKU gallery. Production revision unknown.",
+      "localPath": "offer-photo-assets/roundtrip-411247722-interior.webp",
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Brand SKU in gallery filenames and visual review",
+        "visualChecked": true,
+        "identifierSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971247202",
+        "identifierChecked": "2026-11-17",
+        "imageSha256": "033a4d17776299ec51f0b9dee5d0f378cde895eef4f61f6268bd5e91ab6be111"
+      }
+    },
+    {
+      "id": "roundtrip-411247734-exterior",
+      "brandId": "travelpro",
+      "offerId": "offer-36a2d767",
+      "identity": {
+        "model": "Roundtrip® Rolling UnderSeat Carry-On",
+        "size": "26 L",
+        "color": "Ash Lilac",
+        "sku": "411247734",
+        "revision": null
+      },
+      "view": "Exterior",
+      "caption": "Roundtrip® Rolling UnderSeat Carry-On · Ash Lilac · exterior",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247734_08-1500x1500-f3a2c67.jpg?v=1748888025",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971279970",
+      "checked": "2026-11-17",
+      "scope": "Exact SKU gallery. Production revision unknown.",
+      "localPath": "offer-photo-assets/roundtrip-411247734-exterior.webp",
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Brand SKU in gallery filenames and visual review",
+        "visualChecked": true,
+        "identifierSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971279970",
+        "identifierChecked": "2026-11-17",
+        "imageSha256": "d954201d0b253edc8bb555ba1c19151e27f3c5ec5e577e60e12f45f4cee02e73"
+      }
+    },
+    {
+      "id": "roundtrip-411247734-interior",
+      "brandId": "travelpro",
+      "offerId": "offer-36a2d767",
+      "identity": {
+        "model": "Roundtrip® Rolling UnderSeat Carry-On",
+        "size": "26 L",
+        "color": "Ash Lilac",
+        "sku": "411247734",
+        "revision": null
+      },
+      "view": "Interior",
+      "caption": "Roundtrip® Rolling UnderSeat Carry-On · Ash Lilac · interior",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247734_06-1500x1500-f3a2c67_d6d02708-e6f8-499a-ae7f-b877c46960df.jpg?v=1748888025",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971279970",
+      "checked": "2026-11-17",
+      "scope": "Exact SKU gallery. Production revision unknown.",
+      "localPath": "offer-photo-assets/roundtrip-411247734-interior.webp",
+      "verificationStatus": "model-size-color-matched",
+      "evidence": {
+        "type": "Brand SKU in gallery filenames and visual review",
+        "visualChecked": true,
+        "identifierSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971279970",
+        "identifierChecked": "2026-11-17",
+        "imageSha256": "893f198bf4f88c70cc5e37535398b3a3b8641534f2dcc2d61d541459eb468855"
+      }
     }
   ],
   "byBrand": {
@@ -8552,7 +8768,15 @@
       "p157",
       "p158",
       "p159",
-      "research-photo-27"
+      "research-photo-27",
+      "roundtrip-411247701-exterior",
+      "roundtrip-411247701-interior",
+      "roundtrip-411247706-exterior",
+      "roundtrip-411247706-interior",
+      "roundtrip-411247722-exterior",
+      "roundtrip-411247722-interior",
+      "roundtrip-411247734-exterior",
+      "roundtrip-411247734-interior"
     ],
     "trunki": [
       "p161",
@@ -10698,7 +10922,115 @@
         "First listing date, launch date, factory and production revision unverified."
       ],
       "note": "One suitcase. Nordstrom item 11047378."
+    },
+    {
+      "offerId": "offer-adf26fe9",
+      "offerIdentity": {
+        "brand": "Travelpro",
+        "product": "Roundtrip® Rolling UnderSeat Carry-On · BLACK",
+        "currency": "USD",
+        "retailer": "travelpro.com",
+        "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971181666"
+      },
+      "checked": "2026-11-17",
+      "productPage": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971181666",
+      "identity": {
+        "model": "Roundtrip® Rolling UnderSeat Carry-On",
+        "size": "26 L",
+        "color": "Black",
+        "sku": "411247701",
+        "revision": null
+      },
+      "photoIds": [
+        "roundtrip-411247701-exterior",
+        "roundtrip-411247701-interior"
+      ],
+      "gaps": [
+        "Launch date and production revision unverified."
+      ],
+      "note": "Observed on Travelpro US. One suitcase with a removable organizer."
+    },
+    {
+      "offerId": "offer-3f7c7ace",
+      "offerIdentity": {
+        "brand": "Travelpro",
+        "product": "Roundtrip® Rolling UnderSeat Carry-On · OLIVE GREEN",
+        "currency": "USD",
+        "retailer": "travelpro.com",
+        "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971214434"
+      },
+      "checked": "2026-11-17",
+      "productPage": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971214434",
+      "identity": {
+        "model": "Roundtrip® Rolling UnderSeat Carry-On",
+        "size": "26 L",
+        "color": "Olive Green",
+        "sku": "411247706",
+        "revision": null
+      },
+      "photoIds": [
+        "roundtrip-411247706-exterior",
+        "roundtrip-411247706-interior"
+      ],
+      "gaps": [
+        "Launch date and production revision unverified."
+      ],
+      "note": "Observed on Travelpro US. One suitcase with a removable organizer."
+    },
+    {
+      "offerId": "offer-b3043517",
+      "offerIdentity": {
+        "brand": "Travelpro",
+        "product": "Roundtrip® Rolling UnderSeat Carry-On · NAVY",
+        "currency": "USD",
+        "retailer": "travelpro.com",
+        "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971247202"
+      },
+      "checked": "2026-11-17",
+      "productPage": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971247202",
+      "identity": {
+        "model": "Roundtrip® Rolling UnderSeat Carry-On",
+        "size": "26 L",
+        "color": "Navy",
+        "sku": "411247722",
+        "revision": null
+      },
+      "photoIds": [
+        "roundtrip-411247722-exterior",
+        "roundtrip-411247722-interior"
+      ],
+      "gaps": [
+        "Launch date and production revision unverified."
+      ],
+      "note": "Observed on Travelpro US. One suitcase with a removable organizer."
+    },
+    {
+      "offerId": "offer-36a2d767",
+      "offerIdentity": {
+        "brand": "Travelpro",
+        "product": "Roundtrip® Rolling UnderSeat Carry-On · ASH LILAC",
+        "currency": "USD",
+        "retailer": "travelpro.com",
+        "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971279970"
+      },
+      "checked": "2026-11-17",
+      "productPage": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971279970",
+      "identity": {
+        "model": "Roundtrip® Rolling UnderSeat Carry-On",
+        "size": "26 L",
+        "color": "Ash Lilac",
+        "sku": "411247734",
+        "revision": null
+      },
+      "photoIds": [
+        "roundtrip-411247734-exterior",
+        "roundtrip-411247734-interior"
+      ],
+      "gaps": [
+        "Launch date and production revision unverified."
+      ],
+      "note": "Observed on Travelpro US. One suitcase with a removable organizer."
     }
   ],
-  "offerPhotoChecked": "2026-11-16"
+  "offerPhotoChecked": "2026-11-17"
 }

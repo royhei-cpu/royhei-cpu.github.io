@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-16",
+  "checked": "2026-11-17",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -247,6 +247,78 @@
         "american-dreamliner-225-navy-exterior",
         "american-dreamliner-225-navy-interior"
       ]
+    },
+    {
+      "offerId": "offer-adf26fe9",
+      "brandId": "travelpro",
+      "model": "Roundtrip® Rolling UnderSeat Carry-On",
+      "size": "26 L",
+      "color": "Black",
+      "dimensions": "17.5 × 14.5 × 8.5 in overall including wheels and handles; case alone 15.5 × 13 × 8 in",
+      "announcementDate": null,
+      "launchDate": null,
+      "observed": "2026-11-17",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971181666",
+      "price": 99.99,
+      "currency": "USD",
+      "photoIds": [
+        "roundtrip-411247701-exterior",
+        "roundtrip-411247701-interior"
+      ]
+    },
+    {
+      "offerId": "offer-3f7c7ace",
+      "brandId": "travelpro",
+      "model": "Roundtrip® Rolling UnderSeat Carry-On",
+      "size": "26 L",
+      "color": "Olive Green",
+      "dimensions": "17.5 × 14.5 × 8.5 in overall including wheels and handles; case alone 15.5 × 13 × 8 in",
+      "announcementDate": null,
+      "launchDate": null,
+      "observed": "2026-11-17",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971214434",
+      "price": 99.99,
+      "currency": "USD",
+      "photoIds": [
+        "roundtrip-411247706-exterior",
+        "roundtrip-411247706-interior"
+      ]
+    },
+    {
+      "offerId": "offer-b3043517",
+      "brandId": "travelpro",
+      "model": "Roundtrip® Rolling UnderSeat Carry-On",
+      "size": "26 L",
+      "color": "Navy",
+      "dimensions": "17.5 × 14.5 × 8.5 in overall including wheels and handles; case alone 15.5 × 13 × 8 in",
+      "announcementDate": null,
+      "launchDate": null,
+      "observed": "2026-11-17",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971247202",
+      "price": 99.99,
+      "currency": "USD",
+      "photoIds": [
+        "roundtrip-411247722-exterior",
+        "roundtrip-411247722-interior"
+      ]
+    },
+    {
+      "offerId": "offer-36a2d767",
+      "brandId": "travelpro",
+      "model": "Roundtrip® Rolling UnderSeat Carry-On",
+      "size": "26 L",
+      "color": "Ash Lilac",
+      "dimensions": "17.5 × 14.5 × 8.5 in overall including wheels and handles; case alone 15.5 × 13 × 8 in",
+      "announcementDate": null,
+      "launchDate": null,
+      "observed": "2026-11-17",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971279970",
+      "price": 99.99,
+      "currency": "USD",
+      "photoIds": [
+        "roundtrip-411247734-exterior",
+        "roundtrip-411247734-interior"
+      ]
     }
   ],
   "byBrand": {
@@ -275,6 +347,12 @@
     ],
     "american-dreamliner": [
       "offer-30d469b3"
+    ],
+    "travelpro": [
+      "offer-adf26fe9",
+      "offer-3f7c7ace",
+      "offer-b3043517",
+      "offer-36a2d767"
     ]
   }
 }

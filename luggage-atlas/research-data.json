@@ -85,34 +85,66 @@
     "reviewNote": "Provider page rechecked November 11. September 2026 remains the latest populated month; October is blank. Existing values retained."
   },
   "sales": {
-    "period": "Six months ended 30 June 2026",
+    "period": "Nine months ended 30 September 2026",
     "market": "Worldwide · Samsonite Group reporting",
-    "source": "https://corporate.samsonite.com/on/demandware.static/-/Sites-InvestorRelations-Library/default/dw168e523a/PDF/press-release/2026/E%20Samsonite%20H1%202026%20Results%20Press%20Release%20(2026-08-13%20FINAL).pdf",
-    "scope": "Three disclosed brands in one group, including travel and lifestyle products. Not a worldwide league table of all luggage brands. Other group brands contributed USD 137.2m; group total USD 1,680.6m.",
+    "source": "https://www.prnewswire.com/news-releases/samsonite-group-sa-announces-results-for-the-third-quarter-and-nine-months-ended-september-30-2026-302937847.html",
+    "scope": "Group net sales include travel products and lifestyle bags. Worldwide total USD 2,553.3 million includes USD 201.1 million from other brands. Prior figures cover the same nine months of 2025. Change percentages use company-reported constant currency.",
     "records": [
       {
         "brand": "Samsonite",
         "brandId": "samsonite",
-        "amount": 875.3,
-        "prior": 854.1,
-        "constantChange": -0.1
+        "amount": 1350.4,
+        "prior": 1319.1,
+        "constantChange": 0.7
       },
       {
         "brand": "TUMI",
         "brandId": "tumi",
-        "amount": 404.2,
-        "prior": 402.4,
-        "constantChange": -0.5
+        "amount": 607.3,
+        "prior": 606.7,
+        "constantChange": -0.3
       },
       {
         "brand": "American Tourister",
         "brandId": "american-tourister",
-        "amount": 263.9,
-        "prior": 264.6,
-        "constantChange": -0.8
+        "amount": 394.5,
+        "prior": 403.7,
+        "constantChange": -2.0
       }
-    ]
+    ],
+    "checked": "2026-11-17"
   },
-  "reviewed": "2026-11-09",
-  "reviewNote": "Brandwave still shows September for the July comparison set. Samsonite investor relations lists a Q3 reporting notice. Retained the June half-year revenue period."
+  "reviewed": "2026-11-17",
+  "reviewNote": "Sales updated from the November 12 results. Search keeps its previously checked September sample.",
+  "salesHistory": [
+    {
+      "period": "Six months ended 30 June 2026",
+      "market": "Worldwide · Samsonite Group reporting",
+      "source": "https://corporate.samsonite.com/on/demandware.static/-/Sites-InvestorRelations-Library/default/dw168e523a/PDF/press-release/2026/E%20Samsonite%20H1%202026%20Results%20Press%20Release%20(2026-08-13%20FINAL).pdf",
+      "scope": "Three disclosed brands in one group, including travel and lifestyle products. Not a worldwide league table of all luggage brands. Other group brands contributed USD 137.2m; group total USD 1,680.6m.",
+      "records": [
+        {
+          "brand": "Samsonite",
+          "brandId": "samsonite",
+          "amount": 875.3,
+          "prior": 854.1,
+          "constantChange": -0.1
+        },
+        {
+          "brand": "TUMI",
+          "brandId": "tumi",
+          "amount": 404.2,
+          "prior": 402.4,
+          "constantChange": -0.5
+        },
+        {
+          "brand": "American Tourister",
+          "brandId": "american-tourister",
+          "amount": 263.9,
+          "prior": 264.6,
+          "constantChange": -0.8
+        }
+      ]
+    }
+  ]
 }

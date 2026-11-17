@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-17",
   "brands": [
     {
       "id": "90fun",
@@ -15758,21 +15758,42 @@
     {
       "brand": "Travelpro",
       "retailer": "travelpro.com",
-      "amount": 140.0,
+      "amount": 99.99,
       "currency": "USD",
       "product": "Roundtrip® Rolling UnderSeat Carry-On · BLACK",
       "market": "Online storefront · USD",
-      "date": "2026-11-08",
-      "kind": "Observed product variant price",
+      "date": "2026-11-17",
+      "kind": "Brand displayed price",
       "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971181666",
-      "regular": null,
+      "regular": 140.0,
       "format": "Carry-on",
-      "note": "Variant 41349971181666; listed available. Listing date is separate from release date.",
+      "note": "Brand displayed USD 99.99 for the selected SKU and USD 140 as its comparison price. Launch date and promotion dates unknown.",
       "sourcePhoto": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247701_08-1500x1500-f3a2c67.jpg?v=1749064405",
       "storeListingDate": "2024-09-03",
       "storeProductId": "7202993733730",
       "sku": "411247701",
-      "variant": "BLACK"
+      "variant": "BLACK",
+      "priceHistory": [
+        {
+          "brand": "Travelpro",
+          "retailer": "travelpro.com",
+          "amount": 140.0,
+          "currency": "USD",
+          "product": "Roundtrip® Rolling UnderSeat Carry-On · BLACK",
+          "market": "Online storefront · USD",
+          "date": "2026-11-08",
+          "kind": "Observed product variant price",
+          "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971181666",
+          "regular": null,
+          "format": "Carry-on",
+          "note": "Variant 41349971181666; listed available. Listing date is separate from release date.",
+          "sourcePhoto": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247701_08-1500x1500-f3a2c67.jpg?v=1749064405",
+          "storeListingDate": "2024-09-03",
+          "storeProductId": "7202993733730",
+          "sku": "411247701",
+          "variant": "BLACK"
+        }
+      ]
     },
     {
       "brand": "Travelpro",
@@ -48622,6 +48643,66 @@
       "note": "Previous price USD 49.99. Sold and shipped by Concept One Accessories. Offer observed on indexed Nordstrom product page. Promotion dates and current stock unverified.",
       "sourcePhoto": "https://n.nordstrommedia.com/it/c06f988c-4871-4b27-b52d-0ab4020a2e37.jpeg?crop=pad&h=1170&w=780",
       "previousPrice": 49.99
+    },
+    {
+      "brand": "Travelpro",
+      "retailer": "travelpro.com",
+      "amount": 99.99,
+      "currency": "USD",
+      "product": "Roundtrip® Rolling UnderSeat Carry-On · OLIVE GREEN",
+      "market": "Online storefront · USD",
+      "date": "2026-11-17",
+      "kind": "Brand displayed price",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971214434",
+      "regular": 140.0,
+      "format": "Carry-on",
+      "note": "Brand displayed USD 99.99 for the selected SKU and USD 140 as its comparison price. Launch date and promotion dates unknown.",
+      "sourcePhoto": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247706_8-1500x1500-f3a2c67_f2d9cda4-e90f-4122-8496-9ab20ff6d55c.jpg?v=1748888025",
+      "storeListingDate": "2024-09-03",
+      "storeProductId": "7202993733730",
+      "sku": "411247706",
+      "variant": "OLIVE GREEN",
+      "added": "2026-11-17"
+    },
+    {
+      "brand": "Travelpro",
+      "retailer": "travelpro.com",
+      "amount": 99.99,
+      "currency": "USD",
+      "product": "Roundtrip® Rolling UnderSeat Carry-On · NAVY",
+      "market": "Online storefront · USD",
+      "date": "2026-11-17",
+      "kind": "Brand displayed price",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971247202",
+      "regular": 140.0,
+      "format": "Carry-on",
+      "note": "Brand displayed USD 99.99 for the selected SKU and USD 140 as its comparison price. Launch date and promotion dates unknown.",
+      "sourcePhoto": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247722_08-1500x1500-f3a2c67.jpg?v=1748888025",
+      "storeListingDate": "2024-09-03",
+      "storeProductId": "7202993733730",
+      "sku": "411247722",
+      "variant": "NAVY",
+      "added": "2026-11-17"
+    },
+    {
+      "brand": "Travelpro",
+      "retailer": "travelpro.com",
+      "amount": 99.99,
+      "currency": "USD",
+      "product": "Roundtrip® Rolling UnderSeat Carry-On · ASH LILAC",
+      "market": "Online storefront · USD",
+      "date": "2026-11-17",
+      "kind": "Brand displayed price",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971279970",
+      "regular": 140.0,
+      "format": "Carry-on",
+      "note": "Brand displayed USD 99.99 for the selected SKU and USD 140 as its comparison price. Launch date and promotion dates unknown.",
+      "sourcePhoto": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/411247734_08-1500x1500-f3a2c67.jpg?v=1748888025",
+      "storeListingDate": "2024-09-03",
+      "storeProductId": "7202993733730",
+      "sku": "411247734",
+      "variant": "ASH LILAC",
+      "added": "2026-11-17"
     }
   ],
   "retailers": [
@@ -49755,18 +49836,18 @@
   "groupSales": [
     {
       "brand": "Samsonite",
-      "amount": 875.3
+      "amount": 1350.4
     },
     {
       "brand": "TUMI",
-      "amount": 404.2
+      "amount": 607.3
     },
     {
       "brand": "American Tourister",
-      "amount": 263.9
+      "amount": 394.5
     }
   ],
-  "groupSalesSource": "https://www.prnewswire.com/news-releases/samsonite-group-sa-announces-results-for-the-period-ended-june-30-2026-302850827.html",
+  "groupSalesSource": "https://www.prnewswire.com/news-releases/samsonite-group-sa-announces-results-for-the-third-quarter-and-nine-months-ended-september-30-2026-302937847.html",
   "otherSales": [
     {
       "brand": "Mokobara",
