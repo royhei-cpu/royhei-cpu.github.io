@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -319,6 +319,26 @@
         "roundtrip-411247734-exterior",
         "roundtrip-411247734-interior"
       ]
+    },
+    {
+      "offerId": "offer-5b87b342",
+      "brandId": "rimowa",
+      "model": "RIMOWA x Maison Margiela Classic Cabin",
+      "size": "Classic Cabin",
+      "color": "Bianchetto",
+      "dimensions": null,
+      "announcementDate": "2026-11-12",
+      "launchDate": null,
+      "plannedLaunchDate": "2026-11-19",
+      "observed": "2026-11-18",
+      "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
+      "price": 3200,
+      "currency": "EUR",
+      "photoIds": [
+        "rimowa-margiela-classic-side",
+        "rimowa-margiela-classic-three-quarter",
+        "rimowa-margiela-classic-back"
+      ]
     }
   ],
   "byBrand": {
@@ -353,6 +373,9 @@
       "offer-3f7c7ace",
       "offer-b3043517",
       "offer-36a2d767"
+    ],
+    "rimowa": [
+      "offer-5b87b342"
     ]
   }
 }

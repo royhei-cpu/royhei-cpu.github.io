@@ -1,12 +1,27 @@
 {
-  "edition": "2026-11-17",
-  "periodStart": "2026-11-11",
-  "periodEnd": "2026-11-17",
+  "edition": "2026-11-18",
+  "periodStart": "2026-11-12",
+  "periodEnd": "2026-11-18",
   "baseline": false,
   "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
-  "nextScheduled": "2026-11-18",
-  "coverage": "Targeted Tuesday review of the Roundtrip underseater and Monday verification gaps. Three additional color offers and eight exact-offer photographs. The November 16 CSV retains the comprehensive Monday review.",
+  "nextScheduled": "2026-11-19",
+  "coverage": "Targeted Wednesday review of an announced RIMOWA collaboration and retailer evidence gaps. One exact planned-release offer, three exact exterior packshots and one selected-product retailer verification. The November 16 CSV retains the comprehensive Monday review.",
   "items": [
+    {
+      "id": "rimowa-margiela-classic-cabin-2026",
+      "brand": "RIMOWA",
+      "brandId": "rimowa",
+      "title": "RIMOWA x Maison Margiela Classic Cabin planned for November 19",
+      "date": "2026-11-12",
+      "dateType": "Brand announcement. Planned sales date November 19; live stock not yet audited.",
+      "status": "Planned release",
+      "market": "Selected worldwide stores and online",
+      "change": "RIMOWA announced a hand-painted Bianchetto Classic Cabin with an anodised aluminium shell, white lining with leather details, stage-free telescopic handle, Multiwheel system and TSA locks. Three official exterior packshots are matched to the named product. Exterior dimensions, SKU and an exact interior photograph remain unverified.",
+      "price": "EUR 3,200 RRP",
+      "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
+      "theme": "Material finish & patina",
+      "photoId": "rimowa-margiela-classic-three-quarter"
+    },
     {
       "id": "travelpro-roundtrip-2026-11-17",
       "brand": "Travelpro",
@@ -93,6 +108,12 @@
       "label": "Monday assortment review",
       "period": "November 10–16",
       "archive": "weekly-2026-11-16.json"
+    },
+    {
+      "date": "2026-11-17",
+      "label": "Previous daily coverage update",
+      "period": "November 11–17",
+      "archive": "weekly-2026-11-17.json"
     }
   ],
   "coverageRefresh": {

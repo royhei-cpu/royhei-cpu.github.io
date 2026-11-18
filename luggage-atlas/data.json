@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "brands": [
     {
       "id": "90fun",
@@ -48703,6 +48703,24 @@
       "sku": "411247734",
       "variant": "ASH LILAC",
       "added": "2026-11-17"
+    },
+    {
+      "brand": "RIMOWA",
+      "retailer": "RIMOWA / Maison Margiela",
+      "amount": 3200,
+      "currency": "EUR",
+      "product": "RIMOWA x Maison Margiela Classic Cabin · Bianchetto",
+      "market": "Selected worldwide stores and online",
+      "date": "2026-11-18",
+      "kind": "Brand-announced RRP; planned release",
+      "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
+      "note": "Official announcement dated 12 November 2026 states planned availability from 19 November 2026. Stock was not audited; exterior dimensions and SKU were not stated. The separate 5AC XL bag is not included.",
+      "regular": null,
+      "format": "Carry-on",
+      "announcementDate": "2026-11-12",
+      "plannedLaunchDate": "2026-11-19",
+      "launchDate": null,
+      "added": "2026-11-18"
     }
   ],
   "retailers": [
@@ -49502,13 +49520,17 @@
       "region": "Middle East & Africa",
       "channel": "Marketplace",
       "url": "https://www.takealot.com/luggage-travel/travel_luggage",
-      "observed_brands": [],
-      "status": "Category verified",
-      "scope_note": "Travel luggage category; full SKU data not captured.",
-      "source_url": "https://www.takealot.com/luggage-travel/travel_luggage",
+      "observed_brands": [
+        "Travel Mate"
+      ],
+      "status": "Category and selected product verified",
+      "scope_note": "TravelMate XBag 55cm cabin product page retrieved. It displayed 'From R 1,849' across Beige, Black, Blue and Grey, so no exact variant price was added. Full assortment and stock remain unverified.",
+      "source_url": "https://www.takealot.com/travelmate-55cm-hard-shell-zipper-8-wheel-xbag-cabin-trolley-tsa/PLID97504604",
       "source_ref": "turn56search13",
-      "checked_date": "2026-11-03",
-      "sku_catalogue_complete": false
+      "checked_date": "2026-11-18",
+      "sku_catalogue_complete": false,
+      "product_source": "https://www.takealot.com/travelmate-55cm-hard-shell-zipper-8-wheel-xbag-cabin-trolley-tsa/PLID97504604",
+      "product_checked": "2026-11-18"
     },
     {
       "name": "Quince",

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -7992,6 +7992,90 @@
         "identifierChecked": "2026-11-17",
         "imageSha256": "893f198bf4f88c70cc5e37535398b3a3b8641534f2dcc2d61d541459eb468855"
       }
+    },
+    {
+      "id": "rimowa-margiela-classic-side",
+      "brandId": "rimowa",
+      "offerId": "offer-5b87b342",
+      "view": "Exterior / side",
+      "caption": "RIMOWA x Maison Margiela Classic Cabin · Bianchetto: exterior / side",
+      "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
+      "imageUrl": "https://press.rimowa.com/wp-content/uploads/2026/11/bb4a4542c70bbd506b4c98086890b82d-l.png.webp",
+      "localPath": "offer-photo-assets/rimowa-margiela-classic-side.webp",
+      "checked": "2026-11-18",
+      "remoteReference": true,
+      "scope": "Official press-media packshot matched to the named Classic Cabin collaboration and Bianchetto finish. SKU, exterior dimensions and production revision were not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RIMOWA x Maison Margiela Classic Cabin",
+        "size": "Classic Cabin",
+        "color": "Bianchetto",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official press media gallery",
+        "visualChecked": true,
+        "imageSha256": "c703c673c002b207c183ab48e3b1ea6ad8d244e1babe38f76dc185968671e87c",
+        "identifierSource": "Official named-product release",
+        "identifierChecked": "2026-11-18"
+      }
+    },
+    {
+      "id": "rimowa-margiela-classic-three-quarter",
+      "brandId": "rimowa",
+      "offerId": "offer-5b87b342",
+      "view": "Exterior / three-quarter",
+      "caption": "RIMOWA x Maison Margiela Classic Cabin · Bianchetto: exterior / three-quarter",
+      "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
+      "imageUrl": "https://press.rimowa.com/wp-content/uploads/2026/11/de73de1a2b7da0e9161c43f2c688fd13-l.png.webp",
+      "localPath": "offer-photo-assets/rimowa-margiela-classic-three-quarter.webp",
+      "checked": "2026-11-18",
+      "remoteReference": true,
+      "scope": "Official press-media packshot matched to the named Classic Cabin collaboration and Bianchetto finish. SKU, exterior dimensions and production revision were not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RIMOWA x Maison Margiela Classic Cabin",
+        "size": "Classic Cabin",
+        "color": "Bianchetto",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official press media gallery",
+        "visualChecked": true,
+        "imageSha256": "a88c632cd363405b67f60557e66debf1606bbe16a41250b9de32236791b8185c",
+        "identifierSource": "Official named-product release",
+        "identifierChecked": "2026-11-18"
+      }
+    },
+    {
+      "id": "rimowa-margiela-classic-back",
+      "brandId": "rimowa",
+      "offerId": "offer-5b87b342",
+      "view": "Exterior / back",
+      "caption": "RIMOWA x Maison Margiela Classic Cabin · Bianchetto: exterior / back",
+      "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
+      "imageUrl": "https://press.rimowa.com/wp-content/uploads/2026/11/b34a85a9e2d281375854565cd6ec16f8-l.png.webp",
+      "localPath": "offer-photo-assets/rimowa-margiela-classic-back.webp",
+      "checked": "2026-11-18",
+      "remoteReference": true,
+      "scope": "Official press-media packshot matched to the named Classic Cabin collaboration and Bianchetto finish. SKU, exterior dimensions and production revision were not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RIMOWA x Maison Margiela Classic Cabin",
+        "size": "Classic Cabin",
+        "color": "Bianchetto",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official press media gallery",
+        "visualChecked": true,
+        "imageSha256": "1a1b9788ee1c3bed583e2bc3fe534aac4cacf9d25be9c89d385483e933022269",
+        "identifierSource": "Official named-product release",
+        "identifierChecked": "2026-11-18"
+      }
     }
   ],
   "byBrand": {
@@ -8570,7 +8654,10 @@
     ],
     "rimowa": [
       "p125",
-      "p3016"
+      "p3016",
+      "rimowa-margiela-classic-side",
+      "rimowa-margiela-classic-three-quarter",
+      "rimowa-margiela-classic-back"
     ],
     "roam": [
       "p126",
@@ -11030,7 +11117,47 @@
         "Launch date and production revision unverified."
       ],
       "note": "Observed on Travelpro US. One suitcase with a removable organizer."
+    },
+    {
+      "offerId": "offer-5b87b342",
+      "offerIdentity": {
+        "brand": "RIMOWA",
+        "product": "RIMOWA x Maison Margiela Classic Cabin · Bianchetto",
+        "currency": "EUR",
+        "retailer": "RIMOWA / Maison Margiela",
+        "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng"
+      },
+      "checked": "2026-11-18",
+      "productPage": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
+      "identity": {
+        "model": "RIMOWA x Maison Margiela Classic Cabin",
+        "size": "Classic Cabin",
+        "color": "Bianchetto",
+        "revision": null,
+        "sku": null
+      },
+      "photoIds": [
+        "rimowa-margiela-classic-side",
+        "rimowa-margiela-classic-three-quarter",
+        "rimowa-margiela-classic-back"
+      ],
+      "gaps": [
+        "Exact interior photograph was not supplied in the reviewed Classic Cabin packshot set; the interior is described in the release only.",
+        "Exterior dimensions, SKU and production revision were not stated by the official announcement.",
+        "Availability is planned from 19 November 2026; live stock was not audited on 18 November."
+      ],
+      "note": "Three exact named-model exterior packshots from RIMOWA's official media gallery. No interior image is represented as verified.",
+      "sourceRecheck": {
+        "date": "2026-11-18",
+        "method": "Official announcement and media gallery",
+        "liveHtmlVerified": true,
+        "limitations": [
+          "Planned release not yet live",
+          "No exact interior packshot",
+          "No dimensions or SKU"
+        ]
+      }
     }
   ],
-  "offerPhotoChecked": "2026-11-17"
+  "offerPhotoChecked": "2026-11-18"
 }

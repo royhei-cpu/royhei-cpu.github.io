@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "fields": [
     {
       "id": "opening",
@@ -13382,6 +13382,58 @@
       "photoSource": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971279970",
       "photoScope": "Matched to SKU and color.",
       "photoCaption": "Roundtrip® Rolling UnderSeat Carry-On · Ash Lilac · exterior"
+    },
+    {
+      "id": "offer-5b87b342",
+      "offerId": "offer-5b87b342",
+      "brandId": "rimowa",
+      "brand": "RIMOWA",
+      "model": "RIMOWA x Maison Margiela Classic Cabin · Bianchetto",
+      "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
+      "checked": "2026-11-18",
+      "scope": "Exact named limited-edition Classic Cabin. Availability is planned for 19 November 2026; dimensions, SKU and live stock are unverified.",
+      "features": {
+        "material": {
+          "value": "Anodised aluminium with hand-applied Bianchetto white overpaint",
+          "basis": "Official announcement for the exact named Classic Cabin collaboration; no independent durability test."
+        },
+        "handle": {
+          "value": "Stage-free telescopic handle",
+          "basis": "Official announcement for the exact named Classic Cabin collaboration."
+        },
+        "wheels": {
+          "value": "RIMOWA Multiwheel system",
+          "basis": "Official announcement for the exact named Classic Cabin collaboration."
+        },
+        "lock": {
+          "value": "TSA-approved locks",
+          "basis": "Official announcement for the exact named Classic Cabin collaboration."
+        },
+        "organization": {
+          "value": "White lining with leather details, visible stitching and overlocked edges",
+          "basis": "Official announcement describes the exact named Classic Cabin interior; no interior packshot was verified."
+        }
+      },
+      "featureCount": 5,
+      "region": "Worldwide / selected stores",
+      "market": "Selected stores and online · EUR RRP",
+      "aliases": [
+        "RIMOWA x Maison Margiela Classic Cabin"
+      ],
+      "recordType": "Planned release / priced offer",
+      "format": "Carry-on",
+      "price": 3200,
+      "currency": "EUR",
+      "priceDate": "2026-11-18",
+      "image": "offer-photo-assets/rimowa-margiela-classic-three-quarter.webp",
+      "gallery": [
+        "offer-photo-assets/rimowa-margiela-classic-side.webp",
+        "offer-photo-assets/rimowa-margiela-classic-back.webp"
+      ],
+      "photoKind": "exact-model-reference",
+      "photoSource": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
+      "photoScope": "Exact named model and Bianchetto finish; exterior packshots only. Interior is text-described, not photographed in the reviewed set.",
+      "photoCaption": "RIMOWA x Maison Margiela Classic Cabin · official exterior packshot"
     }
   ],
   "brandCount": 176,
