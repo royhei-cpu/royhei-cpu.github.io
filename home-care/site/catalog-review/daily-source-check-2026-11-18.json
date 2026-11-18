@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-18",
+  "sourceCheckedAt": "2026-11-18",
+  "reviewType": "daily priority-channel material-change follow-up",
+  "baselineRecords": 10269,
+  "publishedRecords": 10269,
+  "verifiedAdditions": 0,
+  "recordPatches": 0,
+  "newsChanges": [
+    {
+      "id": "costco-shark-powerdetect-promotion-2026-11-16",
+      "classification": "promotion",
+      "eventDate": "2026-11-16",
+      "checkedDate": "2026-11-18",
+      "retailer": "Costco",
+      "itemId": "2850285",
+      "exactOffer": "US$399.99 after US$100 off",
+      "validPeriod": "2026-11-16 through 2026-11-30",
+      "limitations": "Costco states pricing may vary by location and channel; stock, first-listing date and permanent price are not inferred.",
+      "source": "https://www.costco.com/o/-/holiday-savings"
+    }
+  ],
+  "retailerChecks": [
+    {
+      "retailer": "Amazon US",
+      "status": "blocked",
+      "checkedDate": "2026-11-18",
+      "scope": "Tineco CARPET ONE Spot DualHeat exact ASIN follow-up and Home Care discovery",
+      "sources": [
+        "https://www.amazon.com/dp/B0HCBQS8LL"
+      ],
+      "result": "Direct public retrieval remained blocked by robots/challenge. Seller of record, checkout price, stock and item-specific first-listing date were not verified; no addition or patch."
+    },
+    {
+      "retailer": "Walmart",
+      "status": "partial",
+      "checkedDate": "2026-11-18",
+      "scope": "Household Essentials and Surface Care new-arrival pages",
+      "sources": [
+        "https://www.walmart.com/shop/household-essentials/new-arrivals",
+        "https://www.walmart.com/shop/household-essentials/surface-care-new-arrivals"
+      ],
+      "result": "Discovery pages exposed current items and prices, including already-retained seasonal products, but did not establish a deduplicated missing exact item with complete photo/variant evidence; no addition."
+    },
+    {
+      "retailer": "Costco",
+      "status": "partial",
+      "checkedDate": "2026-11-18",
+      "scope": "Holiday Savings and exact Shark PowerDetect page",
+      "sources": [
+        "https://www.costco.com/o/-/holiday-savings",
+        "https://www.costco.com/p/-/shark-powerdetect-2-in-1-robot-vacuum-%26-mop-with-nevertouch-pro-self-cleaning-base/4000323423"
+      ],
+      "result": "Verified item 2850285 at US$399.99 after US$100 off, valid 16–30 November. Recorded as a promotion only; no new catalog record."
+    },
+    {
+      "retailer": "TikTok Shop",
+      "status": "partial",
+      "checkedDate": "2026-11-18",
+      "scope": "Home Care and cleaning discovery pages",
+      "sources": [
+        "https://shop.tiktok.com/us/k/home-care-products",
+        "https://shop.tiktok.com/us/k/home-cleaning-and-organizing",
+        "https://shop.tiktok.com/us/k/cleaning-supplies-for-home"
+      ],
+      "result": "Keyword pages exposed product tiles, but exact PDP identity, selected variant, seller, photo and deduplication evidence were not consistently available; no addition."
+    },
+    {
+      "retailer": "Quince",
+      "status": "adjacent-scope-only",
+      "checkedDate": "2026-11-18",
+      "scope": "Storage & Organization and Boxes & Storage",
+      "sources": [
+        "https://www.quince.com/shop/home/all-decor/storage-organization",
+        "https://www.quince.com/shop/home/boxes-and-storage"
+      ],
+      "result": "Current results remained Home Organization/adjacent references rather than qualifying Home Care products; no addition."
+    }
+  ],
+  "officialNewsChecks": [
+    {
+      "source": "https://www.prnewswire.com/news-releases/consumer-products-retail-latest-news/household-products-list/?page=1&pagesize=75",
+      "checkedDate": "2026-11-18",
+      "result": "No newer in-scope official Home Care launch was verified beyond the 16 November Tineco announcement already retained in directory-news.json."
+    }
+  ],
+  "categoryAndPagination": {
+    "latestComprehensiveReviewDate": "2026-11-16",
+    "comprehensiveReviewRetained": true,
+    "todayScope": "Priority channels only; no full 20-retailer × 16-row rerun.",
+    "coverageComplete": false,
+    "limitations": "Only Ace tile cleaner had a previously bounded 18-of-18 source scope. All other retailer/category pagination remains partial, blocked, location-dependent or not started."
+  },
+  "preservation": {
+    "stableIdsPreserved": true,
+    "photosPreserved": true,
+    "retailerCategoryMappingsPreserved": true,
+    "sourceEvidencePreserved": true,
+    "otherSitesChanged": false
+  }
+}

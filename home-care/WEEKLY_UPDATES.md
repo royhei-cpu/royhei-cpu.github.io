@@ -194,3 +194,12 @@ The three-row selected-only CSV was inspected for exact row count, retailer mapp
 - Verified Tineco's 16 November U.S. CARPET ONE Spot DualHeat announcement and kept it in factual news only. The announcement states a $249 U.S. price and Amazon availability, but Amazon seller, current checkout availability and the item-specific first-listing date remain unverified.
 - Checked Walmart current discovery, Costco's official 16–30 November promotion page, three TikTok Shop PDP candidates and Quince's official storage category. TikTok Shop was blocked by a Security Check; Costco's exact promotional price was not verified; Quince results were adjacent Home Organization rather than Home Care.
 - No pagination scope was proven exhausted, and this daily follow-up does not replace the comprehensive Monday assortment review. See `site/catalog-review/daily-source-check-2026-11-17.json`.
+
+## 18 November 2026 — daily priority-channel follow-up
+
+- Preserved all 10,269 catalog records, stable IDs, photos, retailer/category mappings and source evidence; no exact product candidate met the addition threshold.
+- Verified Costco item 2850285, Shark PowerDetect 2-in-1 Robot Vacuum & Mop with NeverTouch Pro Self-Cleaning Base, at US$399.99 after US$100 off for 16–30 November 2026 on Costco's official Holiday Savings page. This is recorded as a promotion, not a launch, first-listing date, universal stock claim or permanent price change.
+- Amazon exact-page access remained blocked; Walmart and TikTok Shop discovery pages did not provide sufficient exact-item, variant, seller, photo and deduplication evidence for additions. Quince results remained adjacent Home Organization.
+- The 16 November comprehensive review remains the latest full-retailer sampling artifact. Today's check covered priority channels only; full category pagination remains incomplete.
+- See `site/catalog-review/daily-source-check-2026-11-18.json`.
+

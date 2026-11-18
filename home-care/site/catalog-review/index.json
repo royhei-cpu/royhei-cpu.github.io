@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-17",
-  "sourceCheckedAt": "2026-11-17",
+  "reviewedAt": "2026-11-18",
+  "sourceCheckedAt": "2026-11-18",
   "files": [
     "part-001.json",
     "part-002.json",
@@ -370,5 +370,5 @@
     "gap-review-20261102-53.json.gz",
     "gap-review-20261102-54.json.gz"
   ],
-  "reviewScope": "Daily material-change follow-up across Amazon US, Walmart, Costco, TikTok Shop and Quince plus official brand news. No catalog additions met the exact-item evidence threshold. Tineco's 16 November CARPET ONE Spot DualHeat announcement was verified and remains news-only because Amazon's exact seller, checkout availability and item-specific first-listing date were not independently verified. Costco's 16–30 November promotion page was checked without an exact price claim; three TikTok PDP candidates remained blocked by a Security Check; Quince results were adjacent Home Organization rather than Home Care. Full retailer/category pagination remains incomplete."
+  "reviewScope": "Daily material-change follow-up across Amazon US, Walmart, Costco, TikTok Shop and Quince plus official brand news. No catalog additions met the exact-item evidence threshold, so all 10,269 records remain unchanged. Costco's official Holiday Savings page exposed an exact Shark PowerDetect promotion at US$399.99 after US$100 off, valid 16–30 November; it is recorded as a promotion, not a launch or first-listing date. Amazon exact-page access remained blocked, Walmart and TikTok discovery pages did not provide sufficient exact-item/deduplication evidence for additions, and Quince findings remained adjacent Home Organization. Full retailer/category pagination remains incomplete."
 }

@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-17",
-  "sourceCheckedAt": "2026-11-17",
+  "reviewedAt": "2026-11-18",
+  "sourceCheckedAt": "2026-11-18",
   "baseline": 6331,
   "added": 3938,
   "total": 10269,
@@ -4154,13 +4154,13 @@
     "scope": "Targeted gap review; not a completed comprehensive inventory refresh"
   },
   "latestDailyAudit": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "added": 0,
     "byRetailer": {},
-    "audit": "daily-source-check-2026-11-17.json",
-    "scope": "Priority-channel daily follow-up completed with no qualifying catalog additions; full retailer/category inventory and pagination remain incomplete."
+    "audit": "daily-source-check-2026-11-18.json",
+    "scope": "Priority-channel daily follow-up completed with one verified Costco promotion and no qualifying catalog additions; full retailer/category inventory and pagination remain incomplete."
   },
-  "dailyFollowupDate": "2026-11-17",
+  "dailyFollowupDate": "2026-11-18",
   "countBasis": "10,269 canonical records retained after the 17 November 2026 daily material-change follow-up; no new records were added. Counts describe collected public listings, not complete retailer inventories.",
   "latestMondayAudit": {
     "date": "2026-11-16",
