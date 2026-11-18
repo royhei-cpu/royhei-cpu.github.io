@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-17",
+  "catalog_date": "2026-11-18",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "brand": "TNT SPACE",
-      "records": 89,
+      "records": 90,
       "status": "Partial assortment"
     }
   ],
@@ -705,14 +705,14 @@
       "product_ids": [
         "a16b86a43aba3ac7",
         "7246b7af86dd8655",
-        "6e826e606451d9b6",
         "9dac21ad938a9d7f",
         "ababe0c43baa9605",
         "05373c3435f6eb1a",
         "a9f5c5d4d8b5da62",
         "0ab350c459cc5a19",
         "131867f24135efb8",
-        "f511884f525672da"
+        "f511884f525672da",
+        "6e826e606451d9b6"
       ],
       "status": "Partial assortment"
     },
@@ -1112,7 +1112,6 @@
         "29dff731ee270a2b",
         "9489d9781cf50132",
         "f0e6d0e6ab94c137",
-        "682ad322c8d33289",
         "2992100c61ce7eda",
         "8388c804d5cdf932",
         "d60c29cf8a8aa9a4",
@@ -1169,6 +1168,7 @@
         "33a6fa51fe3181f9",
         "464635722a575510",
         "56afbcdc65d4ce18",
+        "682ad322c8d33289",
         "85955174e40add61",
         "5408dd76b1344f5f"
       ],
@@ -2198,9 +2198,9 @@
       "character": "AAMY",
       "records": 4,
       "sample_sources": [
-        "https://www.kikagoods.com/products/aamy-mind-of-the-sea-series-blind-box",
         "https://toybeta.com/products/plush-ornament-dolls-toy",
-        "https://www.kikagoods.com/products/aamy-witchs-little-kitchen-series-blind-box"
+        "https://www.kikagoods.com/products/aamy-witchs-little-kitchen-series-blind-box",
+        "https://toybeta.com/products/aamy-clockwork-toy-city-series-blind-box"
       ]
     },
     {
