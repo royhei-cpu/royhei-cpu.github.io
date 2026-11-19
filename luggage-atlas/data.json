@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "brands": [
     {
       "id": "90fun",
@@ -8532,6 +8532,15 @@
       "dateType": "Brand-confirmed launch date",
       "detail": "Blast X 38 L backpacks and 43 L roller announced for US availability November 13.",
       "source": "https://www.prnewswire.com/news-releases/bagsmart-unveils-blast-x-a-travel-bag-series-engineered-for-comfort-and-built-to-switch-modes-302936205.html"
+    },
+    {
+      "brand": "RIMOWA",
+      "title": "RIMOWA x Maison Margiela Classic Cabin launches",
+      "date": "2026-11-19",
+      "dateType": "Brand-announced launch date; live US product page verified on launch day",
+      "detail": "The exact Silver / White Bianchetto Classic Cabin is listed at USD 4,300 in the US. Japan release evidence quotes JPY 651,200 tax included. Stock was not audited across all launch markets.",
+      "source": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "announcementDate": "2026-11-12"
     }
   ],
   "trends": [
@@ -48714,13 +48723,55 @@
       "date": "2026-11-18",
       "kind": "Brand-announced RRP; planned release",
       "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
-      "note": "Official announcement dated 12 November 2026 states planned availability from 19 November 2026. Stock was not audited; exterior dimensions and SKU were not stated. The separate 5AC XL bag is not included.",
+      "note": "Official announcement dated 12 November 2026 quoted EUR 3,200 and planned availability from 19 November. This retained RRP observation is not a live EUR stock check. The live US product page later confirmed the exact model dimensions; the separate 5AC XL bag is not included.",
       "regular": null,
       "format": "Carry-on",
       "announcementDate": "2026-11-12",
       "plannedLaunchDate": "2026-11-19",
-      "launchDate": null,
-      "added": "2026-11-18"
+      "launchDate": "2026-11-19",
+      "added": "2026-11-18",
+      "specificationSource": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "dimensions": "55 × 40 × 23 cm (H × W × D); 4.7 kg; 36 L"
+    },
+    {
+      "brand": "RIMOWA",
+      "retailer": "RIMOWA US",
+      "amount": 4300,
+      "currency": "USD",
+      "product": "RIMOWA x Maison Margiela Classic Cabin · Silver / White · 97390044",
+      "market": "United States",
+      "date": "2026-11-19",
+      "kind": "Brand product-page price",
+      "source": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "note": "Official US product page displayed USD 4,300, exact SKU 97390044, dimensions and in-store availability/pick-up control on 19 November. Store-level stock and shipping availability were not audited.",
+      "regular": null,
+      "format": "Carry-on",
+      "announcementDate": "2026-11-12",
+      "launchDate": "2026-11-19",
+      "added": "2026-11-19",
+      "sku": "97390044",
+      "variant": "Silver / White",
+      "sourcePhoto": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw45df8d9c/images/large/97390044_1.png"
+    },
+    {
+      "brand": "RIMOWA",
+      "retailer": "RIMOWA Japan / Maison Margiela Japan",
+      "amount": 651200,
+      "currency": "JPY",
+      "product": "RIMOWA x Maison Margiela Classic Cabin · Silver / White",
+      "market": "Japan",
+      "date": "2026-11-19",
+      "kind": "Brand-announced tax-inclusive Japan price",
+      "source": "https://prtimes.jp/main/html/rd/p/000000081.000118272.html",
+      "note": "Official RIMOWA Japan release quoted JPY 651,200 tax included, 55 × 40 × 23 cm and 19 November release details. Store-level stock and a Japan SKU were not verified.",
+      "regular": null,
+      "format": "Carry-on",
+      "announcementDate": "2026-11-13",
+      "launchDate": "2026-11-19",
+      "added": "2026-11-19",
+      "sku": null,
+      "variant": "Silver / White",
+      "sourcePhoto": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw45df8d9c/images/large/97390044_1.png"
     }
   ],
   "retailers": [

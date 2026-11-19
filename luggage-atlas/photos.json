@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -8002,14 +8002,14 @@
       "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
       "imageUrl": "https://press.rimowa.com/wp-content/uploads/2026/11/bb4a4542c70bbd506b4c98086890b82d-l.png.webp",
       "localPath": "offer-photo-assets/rimowa-margiela-classic-side.webp",
-      "checked": "2026-11-18",
+      "checked": "2026-11-19",
       "remoteReference": true,
-      "scope": "Official press-media packshot matched to the named Classic Cabin collaboration and Bianchetto finish. SKU, exterior dimensions and production revision were not stated.",
+      "scope": "Official press-media packshot matched to the named Classic Cabin and Silver / White Bianchetto finish. The later official US exact-product page confirms 55 × 40 × 23 cm; a separate EUR SKU and production revision remain unverified.",
       "verificationStatus": "model-size-color-matched",
       "identity": {
         "model": "RIMOWA x Maison Margiela Classic Cabin",
         "size": "Classic Cabin",
-        "color": "Bianchetto",
+        "color": "Silver / White (Bianchetto)",
         "revision": null,
         "sku": null
       },
@@ -8030,14 +8030,14 @@
       "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
       "imageUrl": "https://press.rimowa.com/wp-content/uploads/2026/11/de73de1a2b7da0e9161c43f2c688fd13-l.png.webp",
       "localPath": "offer-photo-assets/rimowa-margiela-classic-three-quarter.webp",
-      "checked": "2026-11-18",
+      "checked": "2026-11-19",
       "remoteReference": true,
-      "scope": "Official press-media packshot matched to the named Classic Cabin collaboration and Bianchetto finish. SKU, exterior dimensions and production revision were not stated.",
+      "scope": "Official press-media packshot matched to the named Classic Cabin and Silver / White Bianchetto finish. The later official US exact-product page confirms 55 × 40 × 23 cm; a separate EUR SKU and production revision remain unverified.",
       "verificationStatus": "model-size-color-matched",
       "identity": {
         "model": "RIMOWA x Maison Margiela Classic Cabin",
         "size": "Classic Cabin",
-        "color": "Bianchetto",
+        "color": "Silver / White (Bianchetto)",
         "revision": null,
         "sku": null
       },
@@ -8058,14 +8058,14 @@
       "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
       "imageUrl": "https://press.rimowa.com/wp-content/uploads/2026/11/b34a85a9e2d281375854565cd6ec16f8-l.png.webp",
       "localPath": "offer-photo-assets/rimowa-margiela-classic-back.webp",
-      "checked": "2026-11-18",
+      "checked": "2026-11-19",
       "remoteReference": true,
-      "scope": "Official press-media packshot matched to the named Classic Cabin collaboration and Bianchetto finish. SKU, exterior dimensions and production revision were not stated.",
+      "scope": "Official press-media packshot matched to the named Classic Cabin and Silver / White Bianchetto finish. The later official US exact-product page confirms 55 × 40 × 23 cm; a separate EUR SKU and production revision remain unverified.",
       "verificationStatus": "model-size-color-matched",
       "identity": {
         "model": "RIMOWA x Maison Margiela Classic Cabin",
         "size": "Classic Cabin",
-        "color": "Bianchetto",
+        "color": "Silver / White (Bianchetto)",
         "revision": null,
         "sku": null
       },
@@ -8075,6 +8075,174 @@
         "imageSha256": "1a1b9788ee1c3bed583e2bc3fe534aac4cacf9d25be9c89d385483e933022269",
         "identifierSource": "Official named-product release",
         "identifierChecked": "2026-11-18"
+      }
+    },
+    {
+      "id": "rimowa-margiela-classic-us-front",
+      "brandId": "rimowa",
+      "offerId": "offer-c678fbe2",
+      "view": "Exterior",
+      "caption": "RIMOWA x Maison Margiela Classic Cabin · Silver / White · SKU 97390044: front exterior",
+      "source": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "imageUrl": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw45df8d9c/images/large/97390044_1.png",
+      "localPath": "offer-photo-assets/rimowa-margiela-classic-us-front.webp",
+      "checked": "2026-11-19",
+      "remoteReference": true,
+      "scope": "Official US exact-product gallery for Classic Cabin SKU 97390044 in Silver / White. Production revision is not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RIMOWA x Maison Margiela Classic Cabin",
+        "size": "Classic Cabin",
+        "color": "Silver / White",
+        "revision": null,
+        "sku": "97390044"
+      },
+      "evidence": {
+        "type": "Official exact-product page gallery",
+        "visualChecked": true,
+        "imageSha256": "4299e2425302e8b994aba6b7432f3ad4268333f03c78d0131a954a1ce3fc251f",
+        "identifierSource": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+        "identifierChecked": "2026-11-19"
+      }
+    },
+    {
+      "id": "rimowa-margiela-classic-us-interior",
+      "brandId": "rimowa",
+      "offerId": "offer-c678fbe2",
+      "view": "Interior",
+      "caption": "RIMOWA x Maison Margiela Classic Cabin · Silver / White · SKU 97390044: open interior",
+      "source": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "imageUrl": "https://www.rimowa.com/on/demandware.static/-/Library-Sites-RimowaSharedLibrary/default/dwdca3f30c/images/PDP-features/THUMBNAILS_97390044_3.png",
+      "localPath": "offer-photo-assets/rimowa-margiela-classic-us-interior.webp",
+      "checked": "2026-11-19",
+      "remoteReference": true,
+      "scope": "Official US exact-product interior view for Classic Cabin SKU 97390044 in Silver / White. Production revision is not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RIMOWA x Maison Margiela Classic Cabin",
+        "size": "Classic Cabin",
+        "color": "Silver / White",
+        "revision": null,
+        "sku": "97390044"
+      },
+      "evidence": {
+        "type": "Official exact-product page gallery",
+        "visualChecked": true,
+        "imageSha256": "aa84601d8f4aaf9fff5f6a3a9e1810d44d6365aca5fc85d3fba5a818f7bf669c",
+        "identifierSource": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+        "identifierChecked": "2026-11-19"
+      }
+    },
+    {
+      "id": "rimowa-margiela-classic-eur-front",
+      "brandId": "rimowa",
+      "offerId": "offer-5b87b342",
+      "view": "Exterior",
+      "caption": "RIMOWA x Maison Margiela Classic Cabin · Silver / White: exact-model front exterior",
+      "source": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "imageUrl": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw45df8d9c/images/large/97390044_1.png",
+      "localPath": "offer-photo-assets/rimowa-margiela-classic-us-front.webp",
+      "checked": "2026-11-19",
+      "remoteReference": true,
+      "scope": "Official US exact-product gallery matches the same named Classic Cabin, size and Silver / White Bianchetto finish as the EUR announcement. A separate EUR SKU and live EUR stock were not verified.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RIMOWA x Maison Margiela Classic Cabin",
+        "size": "Classic Cabin",
+        "color": "Silver / White (Bianchetto)",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official exact-product page gallery",
+        "visualChecked": true,
+        "imageSha256": "4299e2425302e8b994aba6b7432f3ad4268333f03c78d0131a954a1ce3fc251f",
+        "identifierSource": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+        "identifierChecked": "2026-11-19"
+      }
+    },
+    {
+      "id": "rimowa-margiela-classic-eur-interior",
+      "brandId": "rimowa",
+      "offerId": "offer-5b87b342",
+      "view": "Interior",
+      "caption": "RIMOWA x Maison Margiela Classic Cabin · Silver / White: exact-model open interior",
+      "source": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "imageUrl": "https://www.rimowa.com/on/demandware.static/-/Library-Sites-RimowaSharedLibrary/default/dwdca3f30c/images/PDP-features/THUMBNAILS_97390044_3.png",
+      "localPath": "offer-photo-assets/rimowa-margiela-classic-us-interior.webp",
+      "checked": "2026-11-19",
+      "remoteReference": true,
+      "scope": "Official US exact-product interior matches the same named Classic Cabin, size and Silver / White Bianchetto finish as the EUR announcement. A separate EUR SKU and production revision were not verified.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RIMOWA x Maison Margiela Classic Cabin",
+        "size": "Classic Cabin",
+        "color": "Silver / White (Bianchetto)",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official exact-product page gallery",
+        "visualChecked": true,
+        "imageSha256": "aa84601d8f4aaf9fff5f6a3a9e1810d44d6365aca5fc85d3fba5a818f7bf669c",
+        "identifierSource": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+        "identifierChecked": "2026-11-19"
+      }
+    },
+    {
+      "id": "rimowa-margiela-classic-jp-front",
+      "brandId": "rimowa",
+      "offerId": "offer-77a39972",
+      "view": "Exterior",
+      "caption": "RIMOWA x Maison Margiela Classic Cabin · Silver / White: exact-model front exterior for Japan offer evidence",
+      "source": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "imageUrl": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw45df8d9c/images/large/97390044_1.png",
+      "localPath": "offer-photo-assets/rimowa-margiela-classic-us-front.webp",
+      "checked": "2026-11-19",
+      "remoteReference": true,
+      "scope": "Official US exact-product gallery matches the same model, dimensions and Silver / White finish named in the RIMOWA Japan release. A Japan SKU and store stock were not verified.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RIMOWA x Maison Margiela Classic Cabin",
+        "size": "Classic Cabin",
+        "color": "Silver / White",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official exact-product page gallery",
+        "visualChecked": true,
+        "imageSha256": "4299e2425302e8b994aba6b7432f3ad4268333f03c78d0131a954a1ce3fc251f",
+        "identifierSource": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+        "identifierChecked": "2026-11-19"
+      }
+    },
+    {
+      "id": "rimowa-margiela-classic-jp-interior",
+      "brandId": "rimowa",
+      "offerId": "offer-77a39972",
+      "view": "Interior",
+      "caption": "RIMOWA x Maison Margiela Classic Cabin · Silver / White: exact-model open interior for Japan offer evidence",
+      "source": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "imageUrl": "https://www.rimowa.com/on/demandware.static/-/Library-Sites-RimowaSharedLibrary/default/dwdca3f30c/images/PDP-features/THUMBNAILS_97390044_3.png",
+      "localPath": "offer-photo-assets/rimowa-margiela-classic-us-interior.webp",
+      "checked": "2026-11-19",
+      "remoteReference": true,
+      "scope": "Official US exact-product interior matches the same model, dimensions and Silver / White finish named in the RIMOWA Japan release. A Japan SKU and production revision were not verified.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "RIMOWA x Maison Margiela Classic Cabin",
+        "size": "Classic Cabin",
+        "color": "Silver / White",
+        "revision": null,
+        "sku": null
+      },
+      "evidence": {
+        "type": "Official exact-product page gallery",
+        "visualChecked": true,
+        "imageSha256": "aa84601d8f4aaf9fff5f6a3a9e1810d44d6365aca5fc85d3fba5a818f7bf669c",
+        "identifierSource": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+        "identifierChecked": "2026-11-19"
       }
     }
   ],
@@ -8657,7 +8825,13 @@
       "p3016",
       "rimowa-margiela-classic-side",
       "rimowa-margiela-classic-three-quarter",
-      "rimowa-margiela-classic-back"
+      "rimowa-margiela-classic-back",
+      "rimowa-margiela-classic-us-front",
+      "rimowa-margiela-classic-us-interior",
+      "rimowa-margiela-classic-eur-front",
+      "rimowa-margiela-classic-eur-interior",
+      "rimowa-margiela-classic-jp-front",
+      "rimowa-margiela-classic-jp-interior"
     ],
     "roam": [
       "p126",
@@ -11127,37 +11301,109 @@
         "retailer": "RIMOWA / Maison Margiela",
         "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng"
       },
-      "checked": "2026-11-18",
+      "checked": "2026-11-19",
       "productPage": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
       "identity": {
         "model": "RIMOWA x Maison Margiela Classic Cabin",
         "size": "Classic Cabin",
-        "color": "Bianchetto",
+        "color": "Silver / White (Bianchetto)",
         "revision": null,
         "sku": null
       },
       "photoIds": [
         "rimowa-margiela-classic-side",
         "rimowa-margiela-classic-three-quarter",
-        "rimowa-margiela-classic-back"
+        "rimowa-margiela-classic-back",
+        "rimowa-margiela-classic-eur-front",
+        "rimowa-margiela-classic-eur-interior"
       ],
       "gaps": [
-        "Exact interior photograph was not supplied in the reviewed Classic Cabin packshot set; the interior is described in the release only.",
-        "Exterior dimensions, SKU and production revision were not stated by the official announcement.",
-        "Availability is planned from 19 November 2026; live stock was not audited on 18 November."
+        "Separate EUR SKU, live EUR storefront price and store stock remain unverified.",
+        "Production revision is not stated."
       ],
-      "note": "Three exact named-model exterior packshots from RIMOWA's official media gallery. No interior image is represented as verified.",
+      "note": "Three announcement packshots plus official exact-model front and interior views. The EUR RRP remains an announcement observation, not a live regional stock check.",
       "sourceRecheck": {
-        "date": "2026-11-18",
-        "method": "Official announcement and media gallery",
+        "date": "2026-11-19",
+        "method": "Official announcement plus live exact-product US gallery for the same model, size and finish",
         "liveHtmlVerified": true,
         "limitations": [
-          "Planned release not yet live",
-          "No exact interior packshot",
-          "No dimensions or SKU"
+          "EUR SKU and live stock not verified",
+          "Production revision not stated"
+        ]
+      }
+    },
+    {
+      "offerId": "offer-c678fbe2",
+      "offerIdentity": {
+        "brand": "RIMOWA",
+        "product": "RIMOWA x Maison Margiela Classic Cabin · Silver / White · 97390044",
+        "currency": "USD",
+        "retailer": "RIMOWA US",
+        "source": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html"
+      },
+      "checked": "2026-11-19",
+      "productPage": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "identity": {
+        "model": "RIMOWA x Maison Margiela Classic Cabin",
+        "size": "Classic Cabin",
+        "color": "Silver / White",
+        "revision": null,
+        "sku": "97390044"
+      },
+      "photoIds": [
+        "rimowa-margiela-classic-us-front",
+        "rimowa-margiela-classic-us-interior"
+      ],
+      "gaps": [
+        "Production revision and store-level stock remain unverified."
+      ],
+      "note": "Official exact-SKU exterior and open-interior views bundled locally from the live US product page.",
+      "sourceRecheck": {
+        "date": "2026-11-19",
+        "method": "Official US exact-product page and gallery",
+        "liveHtmlVerified": true,
+        "limitations": [
+          "Production revision not stated",
+          "Store-level stock not audited"
+        ]
+      }
+    },
+    {
+      "offerId": "offer-77a39972",
+      "offerIdentity": {
+        "brand": "RIMOWA",
+        "product": "RIMOWA x Maison Margiela Classic Cabin · Silver / White",
+        "currency": "JPY",
+        "retailer": "RIMOWA Japan / Maison Margiela Japan",
+        "source": "https://prtimes.jp/main/html/rd/p/000000081.000118272.html"
+      },
+      "checked": "2026-11-19",
+      "productPage": "https://prtimes.jp/main/html/rd/p/000000081.000118272.html",
+      "identity": {
+        "model": "RIMOWA x Maison Margiela Classic Cabin",
+        "size": "Classic Cabin",
+        "color": "Silver / White",
+        "revision": null,
+        "sku": null
+      },
+      "photoIds": [
+        "rimowa-margiela-classic-jp-front",
+        "rimowa-margiela-classic-jp-interior"
+      ],
+      "gaps": [
+        "Japan SKU, production revision and store-level stock remain unverified."
+      ],
+      "note": "Exact-model exterior and interior views from RIMOWA US match the model, size and finish in the RIMOWA Japan release; the Japan SKU was not stated.",
+      "sourceRecheck": {
+        "date": "2026-11-19",
+        "method": "Official RIMOWA Japan release plus official US exact-product gallery for the same model, dimensions and finish",
+        "liveHtmlVerified": true,
+        "limitations": [
+          "Japan SKU not stated",
+          "Production revision and stock not audited"
         ]
       }
     }
   ],
-  "offerPhotoChecked": "2026-11-18"
+  "offerPhotoChecked": "2026-11-19"
 }

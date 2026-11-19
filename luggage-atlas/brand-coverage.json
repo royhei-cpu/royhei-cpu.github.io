@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "baselineBrands": 98,
   "addedBrands": 77,
   "totalBrands": 176,
-  "totalPricedOffers": 2069,
-  "totalPhotoReferences": 549,
+  "totalPricedOffers": 2071,
+  "totalPhotoReferences": 555,
   "newBrandIds": [
     "dta-nova",
     "briefing",
@@ -1748,14 +1748,14 @@
       "brandId": "rimowa",
       "brand": "RIMOWA",
       "source": "https://press.rimowa.com/rimowa-explores-the-energy-of-natural-pigments-with-joe-alwyn-launching-umber-ultramarine-across-essential-groove/?lang=eng",
-      "checked": "2026-11-18",
-      "pricedOffers": 2,
-      "photoReferences": 5,
-      "interiorReferences": 1,
+      "checked": "2026-11-19",
+      "pricedOffers": 4,
+      "photoReferences": 11,
+      "interiorReferences": 4,
       "factoryVerified": false,
-      "launchDateVerified": false,
+      "launchDateVerified": true,
       "assortmentComplete": false,
-      "status": "Two sourced RRPs; three exact exterior collaboration packshots. Exact interior photograph and full assortment remain incomplete."
+      "status": "Four sourced price observations / RRPs. The collaboration now has exact dimensions and official exact-model exterior/interior views; market stock and full assortment remain incomplete."
     },
     {
       "brandId": "roam",
@@ -3078,6 +3078,7 @@
     "First launch dates and SKU factories remain unknown unless separately evidenced.",
     "Product galleries added in this refresh are source references, not exact-offer interior audits.",
     "November 10: Amazon Basics and BINHAO still lack a captured retail price. Model gallery interiors for BINHAO 2333 and 90FUN Cabin Travel Business do not establish size/color-specific interior photography.",
-    "November 11: Peak Design adds three selected Black offers, not a full regional assortment. Official external dimensions do not explicitly state wheel/handle inclusion. Repair tools, parts availability and primary launch date remain unresolved."
+    "November 11: Peak Design adds three selected Black offers, not a full regional assortment. Official external dimensions do not explicitly state wheel/handle inclusion. Repair tools, parts availability and primary launch date remain unresolved.",
+    "November 19: RIMOWA US and Japan launch evidence adds selected exact market offers, not a complete worldwide launch-day stock audit. The EUR observation remains an announced RRP; separate EUR SKU and live storefront stock are unverified."
   ]
 }

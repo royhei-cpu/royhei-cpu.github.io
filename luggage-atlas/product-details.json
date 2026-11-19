@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -325,10 +325,10 @@
       "brandId": "rimowa",
       "model": "RIMOWA x Maison Margiela Classic Cabin",
       "size": "Classic Cabin",
-      "color": "Bianchetto",
-      "dimensions": null,
+      "color": "Silver / White (Bianchetto finish)",
+      "dimensions": "55 × 40 × 23 cm (H × W × D); 4.7 kg; 36 L",
       "announcementDate": "2026-11-12",
-      "launchDate": null,
+      "launchDate": "2026-11-19",
       "plannedLaunchDate": "2026-11-19",
       "observed": "2026-11-18",
       "source": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng",
@@ -337,7 +337,52 @@
       "photoIds": [
         "rimowa-margiela-classic-side",
         "rimowa-margiela-classic-three-quarter",
-        "rimowa-margiela-classic-back"
+        "rimowa-margiela-classic-back",
+        "rimowa-margiela-classic-eur-front",
+        "rimowa-margiela-classic-eur-interior"
+      ],
+      "dimensionsSource": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "launchVerificationSource": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html"
+    },
+    {
+      "offerId": "offer-c678fbe2",
+      "brandId": "rimowa",
+      "model": "RIMOWA x Maison Margiela Classic Cabin",
+      "size": "Classic Cabin",
+      "color": "Silver / White",
+      "dimensions": "55 × 40 × 23 cm (H × W × D); 4.7 kg; 36 L",
+      "announcementDate": "2026-11-12",
+      "launchDate": "2026-11-19",
+      "observed": "2026-11-19",
+      "source": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "price": 4300,
+      "currency": "USD",
+      "sku": "97390044",
+      "weight": "4.7 kg",
+      "capacity": "36 L",
+      "photoIds": [
+        "rimowa-margiela-classic-us-front",
+        "rimowa-margiela-classic-us-interior"
+      ]
+    },
+    {
+      "offerId": "offer-77a39972",
+      "brandId": "rimowa",
+      "model": "RIMOWA x Maison Margiela Classic Cabin",
+      "size": "Classic Cabin",
+      "color": "Silver / White",
+      "dimensions": "55 × 40 × 23 cm (H × W × D); 4.7 kg; 36 L",
+      "announcementDate": "2026-11-13",
+      "launchDate": "2026-11-19",
+      "observed": "2026-11-19",
+      "source": "https://prtimes.jp/main/html/rd/p/000000081.000118272.html",
+      "specificationSource": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "price": 651200,
+      "currency": "JPY",
+      "sku": null,
+      "photoIds": [
+        "rimowa-margiela-classic-jp-front",
+        "rimowa-margiela-classic-jp-interior"
       ]
     }
   ],
@@ -375,7 +420,9 @@
       "offer-36a2d767"
     ],
     "rimowa": [
-      "offer-5b87b342"
+      "offer-5b87b342",
+      "offer-c678fbe2",
+      "offer-77a39972"
     ]
   }
 }

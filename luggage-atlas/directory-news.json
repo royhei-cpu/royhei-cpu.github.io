@@ -48,24 +48,33 @@
   },
   {
     "id": "rimowa-margiela-2026",
-    "title": "RIMOWA and Maison Margiela announce Classic Cabin",
-    "date": "2026-11-12",
-    "type": "Planned release",
-    "summary": "The hand-painted Classic Cabin has a white lining with exposed stitching. RIMOWA quotes EUR 3,200 for the case and EUR 3,600 for the separate 5AC XL bag. Selected stores and both brands’ websites are scheduled to begin sales November 19.",
-    "checked": "2026-11-18",
+    "title": "RIMOWA x Maison Margiela Classic Cabin launches",
+    "date": "2026-11-19",
+    "type": "Product launch",
+    "summary": "The hand-painted Silver / White Classic Cabin is now documented by a live official US product page at USD 4,300 with SKU 97390044, 55 × 40 × 23 cm dimensions, 4.7 kg weight, 36 L capacity and exact exterior/interior views. RIMOWA Japan separately quotes JPY 651,200 tax included. The earlier EUR 3,200 announcement RRP is retained; store-level stock and a live EUR transaction page were not audited.",
+    "checked": "2026-11-19",
     "added": "2026-11-16",
     "sources": [
       {
-        "label": "Original source",
+        "label": "RIMOWA announcement · 12 November",
         "url": "https://press.rimowa.com/wear-tear-and-patina-rimowa-and-maison-margiela-on-a-limited-edition-collection/?lang=eng"
+      },
+      {
+        "label": "Official US exact product · checked 19 November",
+        "url": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html"
+      },
+      {
+        "label": "Official RIMOWA Japan release · 13 November",
+        "url": "https://prtimes.jp/main/html/rd/p/000000081.000118272.html"
       }
     ],
-    "dateLabel": "Announcement date",
+    "dateLabel": "Brand-announced launch date; live US product page verified",
     "announcementDate": "2026-11-12",
     "plannedLaunchDate": "2026-11-19",
-    "market": "Selected stores and online",
-    "launchDate": null,
-    "priceObservationDate": "2026-11-18"
+    "market": "United States and Japan verified; wider selected-store launch announced",
+    "launchDate": "2026-11-19",
+    "priceObservationDate": "2026-11-19",
+    "launchVerificationDate": "2026-11-19"
   },
   {
     "id": "rimowa-original-unique-2026",
