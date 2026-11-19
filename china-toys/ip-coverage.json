@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-18",
+  "catalog_date": "2026-11-19",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -116,7 +116,6 @@
         "a8770517d2c62c7f",
         "6bbfde350f18f6ba",
         "f535e4646ea9ab39",
-        "a7f50ddf6e56d98e",
         "9e9afbd5ee1cc3c2",
         "30546c269bda5d51",
         "e6a3dc66fefca8c9",
@@ -131,7 +130,8 @@
         "dde6de70389b59bd",
         "f8abcc439289467e",
         "a02f018025696e32",
-        "527ccab4bb085cb9"
+        "527ccab4bb085cb9",
+        "a7f50ddf6e56d98e"
       ],
       "status": "Partial assortment"
     },
@@ -402,7 +402,6 @@
         "a8770517d2c62c7f",
         "6bbfde350f18f6ba",
         "f535e4646ea9ab39",
-        "a7f50ddf6e56d98e",
         "9e9afbd5ee1cc3c2",
         "30546c269bda5d51",
         "e6a3dc66fefca8c9",
@@ -417,7 +416,8 @@
         "dde6de70389b59bd",
         "f8abcc439289467e",
         "a02f018025696e32",
-        "527ccab4bb085cb9"
+        "527ccab4bb085cb9",
+        "a7f50ddf6e56d98e"
       ],
       "status": "Partial assortment"
     },
@@ -1078,7 +1078,6 @@
         "3f181fff6e811572",
         "f7107c73f9051936",
         "d7d4cb13b61874a4",
-        "f7adce80ede61d99",
         "df7fab007742a930",
         "c971b21e8767bc4b",
         "fb87e3280da9d78c",
@@ -1167,6 +1166,7 @@
         "47d6d376b388accd",
         "0fa7ab530514b8ec",
         "33a6fa51fe3181f9",
+        "f7adce80ede61d99",
         "464635722a575510",
         "56afbcdc65d4ce18",
         "682ad322c8d33289",
@@ -1226,7 +1226,7 @@
     {
       "id": "maymei",
       "name": "Maymei",
-      "records": 56,
+      "records": 57,
       "product_ids": [
         "82e1692a53675ad9",
         "b13aeabfc77d29d8",
@@ -1247,6 +1247,7 @@
         "bbf44352314f4a8b",
         "adb848457646c72a",
         "77585fc286b2e3c9",
+        "edd4d24fe9dbc890",
         "e22926a7c68c3c16",
         "1718005fc6d3c93f",
         "1b917a51d7863e82",
