@@ -29,7 +29,7 @@
     },
     {
       "brand": "TNT SPACE",
-      "records": 90,
+      "records": 91,
       "status": "Partial assortment"
     }
   ],
@@ -907,11 +907,12 @@
     {
       "id": "zoraa",
       "name": "Zoraa",
-      "records": 29,
+      "records": 30,
       "product_ids": [
         "49c0f251ebf483ad",
         "8a29f6222396e971",
         "edd1399776aa92af",
+        "49d6252c8674e094",
         "2e14514ddeb6373b",
         "2726afe410019a8c",
         "091c4015a930b337",
@@ -1059,7 +1060,7 @@
     {
       "id": "lulu",
       "name": "LuLu the Piggy",
-      "records": 111,
+      "records": 115,
       "product_ids": [
         "c8e3b1c5c0c907d7",
         "ccd30b3897e21a97",
@@ -1100,7 +1101,6 @@
         "bec1e5898981fc70",
         "7e865395dff975ed",
         "96ddb75f1a5454ef",
-        "77059d0dae117904",
         "0f260b44970399a4",
         "5287299aced517e6",
         "218a09990166e037",
@@ -1112,13 +1112,16 @@
         "29dff731ee270a2b",
         "9489d9781cf50132",
         "f0e6d0e6ab94c137",
+        "12dcb8d36d839dac",
+        "013dd029b16c2e7a",
+        "2157f9e1aeb5ebb8",
+        "fe85fbe5ec4ae137",
         "2992100c61ce7eda",
         "8388c804d5cdf932",
         "d60c29cf8a8aa9a4",
         "314b556faf95c10a",
         "095f0bed1e414a9b",
         "68c457cf359b503e",
-        "ba12dd8ecb11cadf",
         "f4d457a675a31a47",
         "f3d8c7460d860e49",
         "c16942e6d0acf2ca",
@@ -1168,9 +1171,11 @@
         "33a6fa51fe3181f9",
         "f7adce80ede61d99",
         "464635722a575510",
+        "77059d0dae117904",
         "56afbcdc65d4ce18",
         "682ad322c8d33289",
         "85955174e40add61",
+        "ba12dd8ecb11cadf",
         "5408dd76b1344f5f"
       ],
       "status": "Partial assortment"
@@ -1184,13 +1189,13 @@
         "964eb2512e08e1ba",
         "b41229cd8a8ed684",
         "94fb8f025dd0a0a2",
+        "38b921675ccc731e",
         "6fa745e4adff6015",
         "cd5de6f9c9ea620b",
         "284c9482b4dbb2eb",
         "7f736247029cd169",
         "5453b6f5a9dcbb4d",
-        "846a422bf085db1c",
-        "38b921675ccc731e"
+        "846a422bf085db1c"
       ],
       "status": "Partial assortment"
     },
@@ -1439,7 +1444,6 @@
         "e7d7979ea4c0e5c3",
         "6505cc32d889b4d1",
         "a09f64d8b77b8240",
-        "9712c18ec582550b",
         "a0a385b6a1b6077f",
         "1c116a26ad2bbf02",
         "44f4d6a36c9d0310",
@@ -1451,7 +1455,8 @@
         "147d734627e7421e",
         "4e223674d3659363",
         "e33b7310180170d6",
-        "6d0156f3c4767b7a"
+        "6d0156f3c4767b7a",
+        "9712c18ec582550b"
       ],
       "status": "Partial assortment"
     },
@@ -1647,7 +1652,6 @@
         "c59405d72ec1aedb",
         "be1e27cdd0ba7fbc",
         "292c63cafc5ea0e2",
-        "85442db7595632ce",
         "ca719166d65f1156",
         "f553db3d55fb076b",
         "e07194de1645c71f",
@@ -1661,6 +1665,7 @@
         "9fb2f8d80f45898d",
         "af718971cd4d6746",
         "49f7699d04017f8e",
+        "85442db7595632ce",
         "a5fb96ebc198f36f",
         "miniso-cn-shinchan-surprise-bear"
       ],
@@ -1880,7 +1885,6 @@
         "6041529c4cdbb582",
         "01ec41a2cc07c31b",
         "e48d558b0fce54ad",
-        "53a0ea71236bfac8",
         "98b00f897f56c601",
         "4775021104ed98bd",
         "d70ecd9f6ebe9b26",
@@ -1902,7 +1906,8 @@
         "2f5b79b0e64ec235",
         "5318f353a2038cbb",
         "8d11859d89551875",
-        "dd8ee5003c398bc5"
+        "dd8ee5003c398bc5",
+        "53a0ea71236bfac8"
       ],
       "status": "Partial assortment"
     },

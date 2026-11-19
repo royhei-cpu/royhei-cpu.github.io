@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-19",
-      "raw_products_read": 964,
+      "raw_products_read": 965,
       "currency": "USD"
     },
     {
@@ -26,7 +26,7 @@
       "url": "https://hi52toys.com",
       "status": "complete",
       "checked": "2026-11-19",
-      "raw_products_read": 211,
+      "raw_products_read": 210,
       "currency": "USD"
     },
     {
@@ -80,7 +80,7 @@
       "url": "https://toybeta.com",
       "status": "complete",
       "checked": "2026-11-19",
-      "raw_products_read": 1267,
+      "raw_products_read": 1268,
       "currency": "USD"
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://didapop.com",
       "status": "complete",
       "checked": "2026-11-19",
-      "raw_products_read": 1828,
+      "raw_products_read": 1833,
       "currency": "USD"
     },
     {
@@ -1868,6 +1868,12 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
+      "id": "d5f475a3c02bb8ef",
+      "name": "Alien Stage 4th Anniversary Roller Star Series Pizza Badge Blind Box",
+      "source": "https://www.kikagoods.com/products/alien-stage-4th-anniversary-roller-star-series-pizza-badge-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "bfe51bc17b4999c7",
       "name": "Alien Stage 4th Anniversary Roller Star Series Cake Figure Blind Box",
       "source": "https://www.kikagoods.com/products/alien-stage-4th-anniversary-roller-star-series-cake-figure-blind-box",
@@ -2375,6 +2381,12 @@
       "id": "31f0aa653e487715",
       "name": "Worry Free for a Lifetime Series Blind Box",
       "source": "https://www.kikagoods.com/products/worry-free-for-a-lifetime-series-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "543baa07f541acd7",
+      "name": "Tiny Agents Series Chibi Figurine Blind Box",
+      "source": "https://www.kikagoods.com/products/tiny-agents-series-chibi-figurine-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -4250,6 +4262,30 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
+      "id": "3db0438830475fcf",
+      "name": "Disney Cowboy Knights Series Clock Figurine Blind Box",
+      "source": "https://gotoptoy.com/products/disney-cowboy-knights-series-clock-figurine-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "765d962c7f84230b",
+      "name": "Crayon Shin-chan Meme Series Pendant Blind Box",
+      "source": "https://gotoptoy.com/products/crayon-shin-chan-meme-series-pendant-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "30f42a4b2e8f9daf",
+      "name": "Hello Kitty and Friends Knock Knock Lucky Plush Charm Blind Box",
+      "source": "https://gotoptoy.com/products/hello-kitty-and-friends-knock-knock-lucky-plush-charm-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "0b1d7e9c045f9c46",
+      "name": "MayMei x tokidoki Series Plush Blind Box",
+      "source": "https://gotoptoy.com/products/maymei-x-tokidoki-series-plush-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "c080960cac52f196",
       "name": "Disney Winnie the Pooh 100th Honey Quest Series Figure Blind Box",
       "source": "https://gotoptoy.com/products/disney-winnie-the-pooh-100th-honey-quest-series-figure-blind-box",
@@ -5942,12 +5978,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "85442db7595632ce",
-      "name": "CRAYON SHINCHAN DESSERT TIME",
-      "source": "https://hi52toys.com/products/crayon-shin-chan-desert-time",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "964cc65e8f2b5448",
       "name": "PANDA ROLL FRUIT TREE CLIMBING",
       "source": "https://hi52toys.com/products/pandaroll-fruit-tree-climbing-series",
@@ -6047,6 +6077,60 @@
       "id": "8e37acf0b99d5e63",
       "name": "Esther Bunny Flower Plush Blind Box Series",
       "source": "https://toyzeroplus.com/products/esther-bunny-flower-plush-blind-box-series",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "efcb6782bca37473",
+      "name": "Monday Bruce Cuddle Series Hipper Blind Box",
+      "source": "https://kouhightoys.com/products/monday-bruce-cuddle-series-hipper-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "c66be202c2902e4d",
+      "name": "Pingu Girlish Heart Series Blind Box",
+      "source": "https://kouhightoys.com/products/pingu-girlish-heart-series-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "b8d85ea8d4eccfad",
+      "name": "COSBI Haikyu! Mini Figure Series 2 Blind Box",
+      "source": "https://kouhightoys.com/products/cosbi-haikyu-mini-figure-series-2-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "bac025e219790ba6",
+      "name": "COSBI Dan Da Dan Mini Figure Series 2 Blind Box",
+      "source": "https://kouhightoys.com/products/cosbi-dan-da-dan-mini-figure-series-2-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "12dcb8d36d839dac",
+      "name": "Toyzero+ Lulu Pig Animal Party Mini Blind Bag",
+      "source": "https://kouhightoys.com/products/toyzero-lulu-pig-animal-party-mini-blind-bag",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "2157f9e1aeb5ebb8",
+      "name": "Toyzero+ Lulu Pig Lu's Table Series Blind Box",
+      "source": "https://kouhightoys.com/products/toyzero-lulu-pig-lus-table-series-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "fe85fbe5ec4ae137",
+      "name": "Toyzero+ Lulu Pig Office Series Blind Box Figure",
+      "source": "https://kouhightoys.com/products/toyzero-lulu-pig-office-series-blind-box-figure",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "18af4d88f9031b27",
+      "name": "Mofusand Bread Series Plush Blind Box",
+      "source": "https://kouhightoys.com/products/mofusand-bread-series-plush-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "013dd029b16c2e7a",
+      "name": "Toyzero+ Lulu Pig Animal Party Series 2 Plush Keychain Blind Box",
+      "source": "https://kouhightoys.com/products/toyzero-lulu-pig-animal-party-series-2-plush-keychain-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6590,39 +6674,9 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "9712c18ec582550b",
-      "name": "Cosbi  Lilo & Stitch Series Plush Coin Bag Blind Box",
-      "source": "https://kouhightoys.com/products/cosbi-lilo-stitch-series-plush-coin-bag-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "3efc6b09047cec5f",
-      "name": "Genshin Impact Battlefield Valor Liyue Blind Box",
-      "source": "https://kouhightoys.com/products/genshin-impact-battlefield-valor-liyue-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "183ce286af29bc30",
-      "name": "PLZOT ButterBear Holiday Series Plush Blind Box",
-      "source": "https://kouhightoys.com/products/plzot-butterbear-holiday-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "ba12dd8ecb11cadf",
-      "name": "Lulu The Piggy Animal Party Series Blind Box",
-      "source": "https://kouhightoys.com/products/lulu-the-piggy-animal-party-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "53a0ea71236bfac8",
-      "name": "[BOGO] Jotoys Q KID Fairy Tales Plush Series Blind Box",
-      "source": "https://kouhightoys.com/products/jotoys-q-kid-fairy-tales-plush-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "77059d0dae117904",
-      "name": "Lulu The Piggy Animal Party Forest Theater Finger Puppet Blind Box",
-      "source": "https://kouhightoys.com/products/lulu-the-piggy-animal-party-forest-theater-vinyl-finger-puppet-blind-box",
+      "id": "38b921675ccc731e",
+      "name": "SuzhouSilk Museum X Molinta-Dream Vault Series Figures Blind Box",
+      "source": "https://toybeta.com/products/suzhousilk-museum-x-molint-dream-vault-series-figures-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6725,12 +6779,6 @@
       "id": "d60c29cf8a8aa9a4",
       "name": "LANCY LULU-The Spirit Of Youth Series Beans Blind Bag",
       "source": "https://toybeta.com/products/lancy-lulu-the-spirit-of-youth-series-beans-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "e0b77409b0944614",
-      "name": "Wishes Come True Series - Plush Pendant Blind Box",
-      "source": "https://toybeta.com/products/wishes-come-true-series-plush-pendant-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12489,27 +12537,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4624,
-  "after_products": 4596,
+  "before_products": 4636,
+  "after_products": 4608,
   "stats": {
-    "products": 4594,
-    "brands": 798,
+    "products": 4606,
+    "brands": 801,
     "squishy": 502,
-    "with_images": 4594,
+    "with_images": 4606,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4585,
+    "with_source_prices": 4597,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2581,
-    "with_dimensions": 1777,
-    "with_variant_options": 4263,
-    "source_linked_images": 4270,
+    "with_specifications": 2590,
+    "with_dimensions": 1781,
+    "with_variant_options": 4275,
+    "source_linked_images": 4282,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 8,
-    "with_shop_descriptions": 3803
+    "with_shop_descriptions": 3815
   },
   "checklist": [
     {
@@ -12561,8 +12609,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 90,
-      "with_details": 82,
+      "records": 91,
+      "with_details": 83,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"
@@ -12605,8 +12653,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 83,
-      "with_details": 47,
+      "records": 87,
+      "with_details": 49,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"
