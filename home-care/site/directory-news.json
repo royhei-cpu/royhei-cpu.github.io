@@ -1,5 +1,36 @@
 [
   {
+    "id": "costco-sameday-cleaning-savings-observed-2026-11-19",
+    "title": "Costco SameDay lists cleaning and laundry savings ending 20 December",
+    "type": "Promotion",
+    "date": "2026-11-19",
+    "dateLabel": "First observed 19 November 2026 · savings end 20 December 2026 · promotion start not shown",
+    "checked": "2026-11-19",
+    "summary": "Costco's official SameDay monthly flyer lists 10+ Cleaning & Laundry Products with delivery-channel prices and purchase limits. Examples include Finish Jet-Dry Ultra 38 fl oz at US$10.20 after US$4 off, Pine-Sol Original 60 fl oz 2-count at US$11.34 after US$3 off, Clorox Clean-Up 32 fl oz spray plus 180 fl oz refill at US$14.18 after US$4 off, and Lysol Laundry Sanitizer 150 fl oz at US$14.74 after US$4 off. These are SameDay/Instacart promotion observations, not verified warehouse prices, permanent price changes, launches, first listings or universal availability.",
+    "sources": [
+      {
+        "label": "Costco SameDay Members Only Savings · cleaning and laundry",
+        "url": "https://sameday.costco.com/store/costco/digital-flyer/monthly"
+      }
+    ]
+  },
+  {
+    "id": "clorox-purell-procare-issa-surface-innovations-2026-11-17",
+    "title": "Clorox Purell ProCare announces new healthcare surface products at ISSA 2026",
+    "type": "Official announcement",
+    "date": "2026-11-17",
+    "eventDate": "2026-11-17",
+    "dateLabel": "Official announcement published 17 November 2026 · checked 19 November 2026",
+    "checked": "2026-11-19",
+    "summary": "Clorox Purell ProCare announced Clorox Healthcare Quat Alcohol Disinfecting Wipes, Clorox Healthcare HyperOxi Disinfecting Wipes and the Purell CXR Touch Free Dispensing System for the professional and healthcare market at ISSA 2026. This is category news outside the consumer-retail catalog scope; retailer listings, exact packs, prices, first-available dates and consumer availability were not established.",
+    "sources": [
+      {
+        "label": "The Clorox Company official announcement · 17 November 2026",
+        "url": "https://investors.thecloroxcompany.com/news/news-details/2026/Clorox-Purell-ProCare-Unveils-Healthcare-Surface-Innovations-and-Next-Generation-of-Dispensing-at-ISSA-2026/default.aspx"
+      }
+    ]
+  },
+  {
     "id": "costco-shark-powerdetect-promotion-2026-11-16",
     "title": "Costco lists Shark PowerDetect robot vacuum/mop at $399.99 after $100 off",
     "type": "Promotion",

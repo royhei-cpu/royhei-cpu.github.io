@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-19",
+  "sourceCheckedAt": "2026-11-19",
+  "reviewType": "daily priority-channel material-change follow-up",
+  "baselineRecords": 10269,
+  "publishedRecords": 10269,
+  "verifiedAdditions": 0,
+  "recordPatches": 0,
+  "newsChanges": [
+    {
+      "id": "costco-sameday-cleaning-savings-observed-2026-11-19",
+      "classification": "promotion",
+      "firstObservedDate": "2026-11-19",
+      "checkedDate": "2026-11-19",
+      "retailer": "Costco SameDay",
+      "exactOffers": [
+        "Finish Jet-Dry Ultra Dishwasher Rinse Aid, 38 fl oz — US$10.20 after US$4 off; limit 5",
+        "Pine-Sol Multi-Surface Cleaner, Original, 60 fl oz, 2-count — US$11.34 after US$3 off; limit 5",
+        "Clorox Clean-Up, 32 fl oz spray plus 180 fl oz refill — US$14.18 after US$4 off; limit 5",
+        "Lysol Laundry Sanitizer, Crisp Linen, 150 fl oz — US$14.74 after US$4 off; limit 5"
+      ],
+      "savingsEndDate": "2026-12-20",
+      "limitations": "SameDay delivery-channel observations facilitated by Instacart; promotion start, warehouse prices, permanent prices, stock, universal availability and first-listing dates are not inferred.",
+      "source": "https://sameday.costco.com/store/costco/digital-flyer/monthly"
+    },
+    {
+      "id": "clorox-purell-procare-issa-surface-innovations-2026-11-17",
+      "classification": "official professional-category announcement",
+      "eventDate": "2026-11-17",
+      "checkedDate": "2026-11-19",
+      "scope": "Professional and healthcare cleaning; outside consumer-retail catalog totals",
+      "products": [
+        "Clorox Healthcare Quat Alcohol Disinfecting Wipes",
+        "Clorox Healthcare HyperOxi Disinfecting Wipes",
+        "Purell CXR Touch Free Dispensing System"
+      ],
+      "limitations": "Retailer listings, consumer availability, exact retail packs, prices and first-available dates were not established; no catalog record added.",
+      "source": "https://investors.thecloroxcompany.com/news/news-details/2026/Clorox-Purell-ProCare-Unveils-Healthcare-Surface-Innovations-and-Next-Generation-of-Dispensing-at-ISSA-2026/default.aspx"
+    }
+  ],
+  "retailerChecks": [
+    {
+      "retailer": "Amazon US",
+      "status": "blocked",
+      "checkedDate": "2026-11-19",
+      "scope": "Home Care product and price discovery plus exact-page follow-up",
+      "sources": [
+        "https://www.amazon.com/"
+      ],
+      "result": "Public search surfaced editorial references, but exact Amazon item-page retrieval did not provide reliable seller, selected pack, checkout price, stock, photo and first-listing evidence. No addition or patch."
+    },
+    {
+      "retailer": "Walmart",
+      "status": "partial",
+      "checkedDate": "2026-11-19",
+      "scope": "Home and Household Essentials new-arrival pages plus Surface Care new arrivals",
+      "sources": [
+        "https://www.walmart.com/cp/new-arrivals/2593086",
+        "https://www.walmart.com/shop/household-essentials/surface-care-new-arrivals"
+      ],
+      "result": "Current discovery pages were checked. The exposed Home Care examples did not establish a deduplicated missing exact item with complete variant, seller and photo evidence; no addition."
+    },
+    {
+      "retailer": "Costco",
+      "status": "partial",
+      "checkedDate": "2026-11-19",
+      "scope": "SameDay monthly flyer and current Holiday Savings pages",
+      "sources": [
+        "https://sameday.costco.com/store/costco/digital-flyer/monthly",
+        "https://www.costco.com/o/-/holiday-savings"
+      ],
+      "result": "Verified 10+ SameDay cleaning/laundry promotions ending 20 December and retained the earlier Shark PowerDetect 16–30 November promotion. SameDay prices are channel-specific; no catalog addition."
+    },
+    {
+      "retailer": "TikTok Shop",
+      "status": "blocked",
+      "checkedDate": "2026-11-19",
+      "scope": "Cleaning Products and Cleaning Supplies Storage discovery pages",
+      "sources": [
+        "https://shop.tiktok.com/us/k/cleaning-products",
+        "https://shop.tiktok.com/us/k/cleaning-supplies-storage"
+      ],
+      "result": "Search indexing exposed product tiles, but direct page retrieval returned a Security Check and did not provide stable exact-PDP, selected-variant, seller, photo and deduplication evidence. No addition."
+    },
+    {
+      "retailer": "Quince",
+      "status": "adjacent-scope-only",
+      "checkedDate": "2026-11-19",
+      "scope": "Storage & Organization",
+      "sources": [
+        "https://www.quince.com/shop/home/all-decor/storage-organization"
+      ],
+      "result": "The category exposed 12 adjacent Home Organization/decor offers. No qualifying Home Care product addition was established."
+    }
+  ],
+  "officialNewsChecks": [
+    {
+      "source": "https://investors.thecloroxcompany.com/news/news-details/2026/Clorox-Purell-ProCare-Unveils-Healthcare-Surface-Innovations-and-Next-Generation-of-Dispensing-at-ISSA-2026/default.aspx",
+      "checkedDate": "2026-11-19",
+      "result": "Recorded the 17 November professional and healthcare surface-innovation announcement as category news only."
+    },
+    {
+      "source": "https://www.reckitt.com/us/news/",
+      "checkedDate": "2026-11-19",
+      "result": "No newer U.S. consumer Home Care product launch was shown beyond previously retained Finish and Lysol announcements."
+    }
+  ],
+  "categoryAndPagination": {
+    "latestComprehensiveReviewDate": "2026-11-16",
+    "comprehensiveReviewRetained": true,
+    "todayScope": "Priority channels only; no full 20-retailer × 16-row rerun.",
+    "coverageComplete": false,
+    "limitations": "Only Ace tile cleaner has a previously bounded 18-of-18 source scope. All other retailer/category pagination remains partial, blocked, location-dependent or not started."
+  },
+  "preservation": {
+    "stableIdsPreserved": true,
+    "photosPreserved": true,
+    "retailerCategoryMappingsPreserved": true,
+    "sourceEvidencePreserved": true,
+    "otherSitesChanged": false
+  }
+}

@@ -203,3 +203,11 @@ The three-row selected-only CSV was inspected for exact row count, retailer mapp
 - The 16 November comprehensive review remains the latest full-retailer sampling artifact. Today's check covered priority channels only; full category pagination remains incomplete.
 - See `site/catalog-review/daily-source-check-2026-11-18.json`.
 
+## 19 November 2026 — daily priority-channel follow-up
+
+- Preserved all 10,269 canonical records, stable IDs, photographs, retailer/category mappings and source-linked evidence; no exact item met the catalog-addition threshold.
+- Recorded Costco SameDay cleaning and laundry offers ending 20 December 2026 as delivery-channel promotions, including exact observed prices and limits. These are not treated as warehouse prices, permanent price changes, launches, first listings or universal availability.
+- Recorded Clorox Purell ProCare's 17 November ISSA announcement as professional and healthcare category news only. Retailer listings, consumer availability, exact retail packs and prices remain unverified.
+- Amazon exact-page verification remained blocked; TikTok Shop direct pages returned a Security Check; Walmart discovery did not establish a deduplicated exact addition; Quince remained adjacent Home Organization.
+- The 16 November comprehensive review remains the latest full-retailer sampling artifact. Today's priority-channel follow-up does not claim complete pagination or inventory coverage.
+- See `site/catalog-review/daily-source-check-2026-11-19.json`.
