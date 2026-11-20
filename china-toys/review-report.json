@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-11-19",
+  "reviewed": "2026-11-20",
   "version": "20261030-evidence-1",
   "source_checks": [
     {
@@ -7,8 +7,8 @@
       "name": "KikaGoods",
       "url": "https://www.kikagoods.com",
       "status": "complete",
-      "checked": "2026-11-19",
-      "raw_products_read": 965,
+      "checked": "2026-11-20",
+      "raw_products_read": 967,
       "currency": "USD"
     },
     {
@@ -16,7 +16,7 @@
       "name": "TOP TOY international store",
       "url": "https://gotoptoy.com",
       "status": "complete",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 235,
       "currency": "USD"
     },
@@ -25,7 +25,7 @@
       "name": "52TOYS international store",
       "url": "https://hi52toys.com",
       "status": "complete",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 210,
       "currency": "USD"
     },
@@ -34,7 +34,7 @@
       "name": "Rolife international store",
       "url": "https://www.rolifeonline.com",
       "status": "unavailable",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -43,7 +43,7 @@
       "name": "TOYZEROPLUS",
       "url": "https://toyzeroplus.com",
       "status": "complete",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 322,
       "currency": "HKD"
     },
@@ -52,7 +52,7 @@
       "name": "Hello Molynk",
       "url": "https://www.molynk.shop",
       "status": "unavailable",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -61,7 +61,7 @@
       "name": "Finding Unicorn international store",
       "url": "https://www.findingunicorn.net",
       "status": "unavailable",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -70,7 +70,7 @@
       "name": "Kouhigh Toys",
       "url": "https://kouhightoys.com",
       "status": "complete",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 248,
       "currency": "USD"
     },
@@ -79,7 +79,7 @@
       "name": "ToyBeta",
       "url": "https://toybeta.com",
       "status": "complete",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 1268,
       "currency": "USD"
     },
@@ -88,8 +88,8 @@
       "name": "DidaPop",
       "url": "https://didapop.com",
       "status": "complete",
-      "checked": "2026-11-19",
-      "raw_products_read": 1833,
+      "checked": "2026-11-20",
+      "raw_products_read": 1835,
       "currency": "USD"
     },
     {
@@ -97,7 +97,7 @@
       "name": "Pawmiga World",
       "url": "https://pawmiga.myshopify.com",
       "status": "complete",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 138,
       "currency": "USD"
     },
@@ -106,7 +106,7 @@
       "name": "Iris Squishy",
       "url": "https://irissquishy.com",
       "status": "complete",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 114,
       "currency": "USD"
     },
@@ -115,7 +115,7 @@
       "name": "RonRon Squishy",
       "url": "https://ronronsquishy.com",
       "status": "complete",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 42,
       "currency": "USD"
     },
@@ -124,8 +124,8 @@
       "name": "ANTHILL shopNplay",
       "url": "https://anthillshop.com",
       "status": "complete",
-      "checked": "2026-11-19",
-      "raw_products_read": 674,
+      "checked": "2026-11-20",
+      "raw_products_read": 687,
       "currency": "USD"
     },
     {
@@ -133,7 +133,7 @@
       "name": "JOTOYS international store",
       "url": "https://jotoys.store",
       "status": "complete",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 57,
       "currency": "USD"
     },
@@ -142,7 +142,7 @@
       "name": "Sonny Angel Japan official store",
       "url": "https://www.sonnyangelstore.com",
       "status": "complete",
-      "checked": "2026-11-19",
+      "checked": "2026-11-20",
       "raw_products_read": 111,
       "currency": "JPY"
     }
@@ -1086,6 +1086,12 @@
     },
     {
       "id": "c9bcba79dfa75369",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "f237bdf503eec889",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -2072,8 +2078,8 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "0879802ea65d5f0d",
-      "name": "Saints of Rust Series Special 1/6 Action Figure BJD Blind Box【Shipped in Nov./Dec. 2026】",
+      "id": "8a1810240f95dfe9",
+      "name": "Saints of Rust Series Special 1/6 Action Figure BJD Blind Box",
       "source": "https://www.kikagoods.com/products/saints-of-rust-series-special-1-6-action-figure-bjd-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
@@ -12537,27 +12543,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4636,
-  "after_products": 4608,
+  "before_products": 4638,
+  "after_products": 4610,
   "stats": {
-    "products": 4606,
+    "products": 4608,
     "brands": 801,
     "squishy": 502,
-    "with_images": 4606,
+    "with_images": 4608,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4597,
+    "with_source_prices": 4599,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2590,
+    "with_specifications": 2591,
     "with_dimensions": 1781,
-    "with_variant_options": 4275,
-    "source_linked_images": 4282,
+    "with_variant_options": 4277,
+    "source_linked_images": 4284,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 8,
-    "with_shop_descriptions": 3815
+    "with_shop_descriptions": 3816
   },
   "checklist": [
     {
