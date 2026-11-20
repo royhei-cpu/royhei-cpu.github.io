@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-20",
-      "raw_products_read": 967,
+      "raw_products_read": 968,
       "currency": "USD"
     },
     {
@@ -80,7 +80,7 @@
       "url": "https://toybeta.com",
       "status": "complete",
       "checked": "2026-11-20",
-      "raw_products_read": 1268,
+      "raw_products_read": 1273,
       "currency": "USD"
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://didapop.com",
       "status": "complete",
       "checked": "2026-11-20",
-      "raw_products_read": 1835,
+      "raw_products_read": 1837,
       "currency": "USD"
     },
     {
@@ -116,7 +116,7 @@
       "url": "https://ronronsquishy.com",
       "status": "complete",
       "checked": "2026-11-20",
-      "raw_products_read": 42,
+      "raw_products_read": 44,
       "currency": "USD"
     },
     {
@@ -743,12 +743,6 @@
       "type": "brand label"
     },
     {
-      "id": "ef842a56f1c87b08",
-      "from": "DidaPop",
-      "to": "Brand not disclosed",
-      "type": "brand label"
-    },
-    {
       "id": "b95f1389eeacbf7f",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -852,12 +846,6 @@
     },
     {
       "id": "8e9f6c7344f24f86",
-      "from": "DidaPop",
-      "to": "Brand not disclosed",
-      "type": "brand label"
-    },
-    {
-      "id": "0cd03914ad67221f",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -1241,6 +1229,12 @@
       "type": "brand label"
     },
     {
+      "id": "d7774319d32a4246",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
       "id": "91242fe34ad03709",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -1368,6 +1362,18 @@
     },
     {
       "id": "320fd56256ca24bb",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "6367b09ad8584ed1",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "ccb0e3c2e0ea5376",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -3287,12 +3293,6 @@
       "id": "be7f581bda62d95f",
       "name": "ShinWoo Ghost at Home Series Blind Box",
       "source": "https://www.kikagoods.com/products/shinwoo-ghost-at-home-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "54fa90f58247832f",
-      "name": "Monday Bruce Season 8 Escape the Office Series Blind Box",
-      "source": "https://www.kikagoods.com/products/monday-bruce-season-8-escape-the-office-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6677,6 +6677,36 @@
       "id": "cfa39130ed10d864",
       "name": "Sanrio Play With Kittens Vinyl Face Plush Keychain Blind Box",
       "source": "https://kouhightoys.com/products/sanrio-play-with-kittens-vinyl-face-plush-keychain-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "58a326b1a788206a",
+      "name": "KUBO Colors Of My OWN Series Plush Pendant Blind Box",
+      "source": "https://toybeta.com/products/kubo-colors-of-my-own-series-plush-pendant-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "fbb426816e5fb94b",
+      "name": "MayMei X Tokidoki Series Plush Doll Blind Box【TOP TOY】",
+      "source": "https://toybeta.com/products/maymei-x-tokidoki-series-plush-doll-blind-box-top-toy",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "adce3eed19de1043",
+      "name": "THE MONSTERS Secret Gallery Series Figures Blind Box",
+      "source": "https://toybeta.com/products/the-monsters-secret-gallery-series-figures-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "625b17c44749aede",
+      "name": "MEGA SPACE MOLLY 100% Series 5 Blind Box",
+      "source": "https://toybeta.com/products/mega-space-molly-100-series-5-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "32cf0d94804bcc93",
+      "name": "【COUNT PACK】TUTU BEAR Meh Meh Ranch Series Beans Blind Bag",
+      "source": "https://toybeta.com/products/count-pack-tutu-bear-meh-meh-ranch-series-beans-blind-bag",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12543,27 +12573,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4638,
-  "after_products": 4610,
+  "before_products": 4646,
+  "after_products": 4618,
   "stats": {
-    "products": 4608,
+    "products": 4616,
     "brands": 801,
-    "squishy": 502,
-    "with_images": 4608,
+    "squishy": 504,
+    "with_images": 4616,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4599,
+    "with_source_prices": 4607,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2591,
-    "with_dimensions": 1781,
-    "with_variant_options": 4277,
-    "source_linked_images": 4284,
+    "with_specifications": 2596,
+    "with_dimensions": 1786,
+    "with_variant_options": 4285,
+    "source_linked_images": 4292,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 8,
-    "with_shop_descriptions": 3816
+    "with_shop_descriptions": 3823
   },
   "checklist": [
     {
@@ -12571,8 +12601,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 210,
-      "with_details": 130,
+      "records": 213,
+      "with_details": 133,
       "with_china_price": 6,
       "with_release": 21,
       "status": "Partial — more series and China evidence needed"
@@ -12582,8 +12612,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 306,
-      "with_details": 44,
+      "records": 307,
+      "with_details": 45,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"

@@ -4,12 +4,12 @@
   "requested_brands": [
     {
       "brand": "POP MART",
-      "records": 210,
+      "records": 213,
       "status": "Partial assortment"
     },
     {
       "brand": "TOP TOY",
-      "records": 306,
+      "records": 307,
       "status": "Partial assortment"
     },
     {
@@ -37,7 +37,7 @@
     {
       "id": "the-monsters",
       "name": "THE MONSTERS / LABUBU",
-      "records": 35,
+      "records": 36,
       "product_ids": [
         "3a50fd1ebebfbe1c",
         "ef1c500052c5301d",
@@ -56,6 +56,7 @@
         "7ca47614ff2b9930",
         "26a2f9310c377f60",
         "5ff848ea50157357",
+        "adce3eed19de1043",
         "9d31bace6afd2220",
         "abb85fb377982049",
         "8ad043cd478a3106",
@@ -80,12 +81,13 @@
     {
       "id": "molly",
       "name": "MOLLY",
-      "records": 12,
+      "records": 13,
       "product_ids": [
         "b991c1ae6183f662",
         "01ceee040966dec8",
         "b88f0a1735b4f761",
         "883f5fcbe14b4ff3",
+        "625b17c44749aede",
         "adb320dfa6d1dbe5",
         "2f00fa6403f132bc",
         "21135d91b14be2a8",
@@ -323,7 +325,7 @@
     {
       "id": "the-monsters",
       "name": "THE MONSTERS / LABUBU",
-      "records": 35,
+      "records": 36,
       "product_ids": [
         "3a50fd1ebebfbe1c",
         "ef1c500052c5301d",
@@ -342,6 +344,7 @@
         "7ca47614ff2b9930",
         "26a2f9310c377f60",
         "5ff848ea50157357",
+        "adce3eed19de1043",
         "9d31bace6afd2220",
         "abb85fb377982049",
         "8ad043cd478a3106",
@@ -366,12 +369,13 @@
     {
       "id": "molly",
       "name": "MOLLY",
-      "records": 12,
+      "records": 13,
       "product_ids": [
         "b991c1ae6183f662",
         "01ceee040966dec8",
         "b88f0a1735b4f761",
         "883f5fcbe14b4ff3",
+        "625b17c44749aede",
         "adb320dfa6d1dbe5",
         "2f00fa6403f132bc",
         "21135d91b14be2a8",
@@ -769,7 +773,7 @@
         "ecc9dbc1d6f09fec",
         "6c9d4b341a0f3726",
         "e5ebd88e7504083c",
-        "8bb7f6f9b8a0d494"
+        "676e3ca3b787c987"
       ],
       "status": "Partial assortment"
     },
@@ -1231,7 +1235,7 @@
     {
       "id": "maymei",
       "name": "Maymei",
-      "records": 57,
+      "records": 58,
       "product_ids": [
         "82e1692a53675ad9",
         "b13aeabfc77d29d8",
@@ -1243,6 +1247,7 @@
         "5a281ed4173824c5",
         "92754530be5a3e94",
         "a297e03b838bdb58",
+        "fbb426816e5fb94b",
         "0b1d7e9c045f9c46",
         "4cfc067f9822dd56",
         "557a1de5307be0cf",
@@ -1703,10 +1708,11 @@
     {
       "id": "kubo",
       "name": "KUBO",
-      "records": 3,
+      "records": 4,
       "product_ids": [
         "6b446b85dfdaadb0",
         "bf653881b09be01b",
+        "58a326b1a788206a",
         "370e47c689134d2c"
       ],
       "status": "Partial assortment"
