@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-20",
+  "sourceCheckedAt": "2026-11-20",
+  "reviewType": "daily priority-channel material-change follow-up",
+  "baselineRecords": 10269,
+  "publishedRecords": 10269,
+  "verifiedAdditions": 0,
+  "recordPatches": 0,
+  "newsChanges": [
+    {
+      "id": "shark-razorvac-us-announcement-amazon-planned-2026-11-19",
+      "classification": "confirmed direct-brand launch; early Amazon signal",
+      "eventDate": "2026-11-19",
+      "publicationDate": "2026-11-19",
+      "firstObservedDate": "2026-11-20",
+      "checkedDate": "2026-11-20",
+      "brand": "Shark",
+      "model": "EW101 / RazorVac",
+      "directOffer": "US$129.99 for Matcha, Petal Pink or French Gold; direct-store model/pack checked",
+      "plannedAmazonStatus": "Coming soon; exact Amazon listing not established",
+      "limitations": "Amazon ASIN, seller, selected variant, exact pack, price, stock and start date remain unverified. Direct-store launch does not establish Amazon availability or a retailer first-listing date. Creator/review activity is not treated as sales.",
+      "sources": [
+        "https://newsroom.sharkninja.com/looks-pretty-fights-dirty-meet-the-new-shark-razorvac-cordless-hand-vacuum/",
+        "https://www.sharkninja.com/shark-razorvac-cordless-hand-vacuum/EW101-MASTER.html"
+      ]
+    }
+  ],
+  "retailerChecks": [
+    {
+      "retailer": "Amazon US",
+      "status": "blocked",
+      "checkedDate": "2026-11-20",
+      "scope": "RazorVac planned Amazon rollout plus Home Care product discovery",
+      "sources": [
+        "https://www.amazon.com/"
+      ],
+      "result": "Amazon public retrieval was blocked by robots. SharkNinja says RazorVac is coming soon to Amazon, but no ASIN, seller, selected variant, exact pack, checkout price, stock or Amazon start date was verified; no addition or patch."
+    },
+    {
+      "retailer": "Walmart",
+      "status": "partial",
+      "checkedDate": "2026-11-20",
+      "scope": "Household Essentials, Surface Care and Cleaning Tools new-arrival pages",
+      "sources": [
+        "https://www.walmart.com/shop/household-essentials/new-arrivals",
+        "https://www.walmart.com/shop/household-essentials/surface-care-new-arrivals",
+        "https://www.walmart.com/shop/household-essentials/cleaning-tools-new-arrivals"
+      ],
+      "result": "Current discovery pages exposed large, dynamic assortments including already-retained seasonal products. No deduplicated missing exact item with complete selected variant, seller and photo evidence was established; no addition."
+    },
+    {
+      "retailer": "Costco",
+      "status": "partial",
+      "checkedDate": "2026-11-20",
+      "scope": "SameDay monthly flyer and Holiday Savings pages",
+      "sources": [
+        "https://sameday.costco.com/store/costco/digital-flyer/monthly",
+        "https://www.costco.com/o/-/pre-thanksgiving-day"
+      ],
+      "result": "Previously retained SameDay cleaning/laundry promotions ending 20 December and Shark PowerDetect promotion ending 30 November remained visible. No new distinct Home Care event or qualifying catalog record was established."
+    },
+    {
+      "retailer": "TikTok Shop",
+      "status": "partial",
+      "checkedDate": "2026-11-20",
+      "scope": "Cleaning Products, Cleaning Supplies and Cleaning Products List discovery pages",
+      "sources": [
+        "https://shop.tiktok.com/us/k/cleaning-products-list",
+        "https://shop.tiktok.com/us/k/cleaningproducts",
+        "https://shop.tiktok.com/us/k/cleaning-supplies"
+      ],
+      "result": "Search indexing exposed current product tiles and dated price/purchase signals, but exact PDP, seller, selected variant, matched photo and deduplication evidence were not consistently available. Dynamic purchase counts were not copied into catalog records; no addition."
+    },
+    {
+      "retailer": "Quince",
+      "status": "adjacent-scope-only",
+      "checkedDate": "2026-11-20",
+      "scope": "Storage & Organization",
+      "sources": [
+        "https://www.quince.com/shop/home/all-decor/storage-organization"
+      ],
+      "result": "The official category exposed 16 adjacent Home Organization/decor offers, including baskets, chests, trays and hampers. No qualifying Home Care product addition was established."
+    }
+  ],
+  "officialNewsChecks": [
+    {
+      "source": "https://newsroom.sharkninja.com/looks-pretty-fights-dirty-meet-the-new-shark-razorvac-cordless-hand-vacuum/",
+      "checkedDate": "2026-11-20",
+      "result": "Verified the 19 November direct-brand RazorVac launch and recorded the Amazon coming-soon statement separately as an early signal."
+    },
+    {
+      "source": "https://www.prnewswire.com/news-releases/consumer-products-retail-latest-news/household-products-list/?page=2&pagesize=25",
+      "checkedDate": "2026-11-20",
+      "result": "No additional in-scope U.S. consumer Home Care launch meeting the evidence threshold was identified."
+    }
+  ],
+  "categoryAndPagination": {
+    "latestComprehensiveReviewDate": "2026-11-16",
+    "comprehensiveReviewRetained": true,
+    "todayScope": "Priority channels only; no full 20-retailer × 16-row rerun.",
+    "coverageComplete": false,
+    "limitations": "Only Ace tile cleaner has a previously bounded 18-of-18 source scope. All other retailer/category pagination remains partial, blocked, location-dependent or not started."
+  },
+  "preservation": {
+    "stableIdsPreserved": true,
+    "photosPreserved": true,
+    "retailerCategoryMappingsPreserved": true,
+    "sourceEvidencePreserved": true,
+    "otherSitesChanged": false
+  }
+}

@@ -211,3 +211,11 @@ The three-row selected-only CSV was inspected for exact row count, retailer mapp
 - Amazon exact-page verification remained blocked; TikTok Shop direct pages returned a Security Check; Walmart discovery did not establish a deduplicated exact addition; Quince remained adjacent Home Organization.
 - The 16 November comprehensive review remains the latest full-retailer sampling artifact. Today's priority-channel follow-up does not claim complete pagination or inventory coverage.
 - See `site/catalog-review/daily-source-check-2026-11-19.json`.
+
+## 20 November 2026 — daily priority-channel follow-up
+
+- Preserved all 10,269 canonical records, stable IDs, photographs, retailer/category mappings and source-linked evidence; no exact retailer listing met the catalog-addition threshold.
+- Verified SharkNinja's 19 November RazorVac launch at its U.S. direct store: model EW101, US$129.99 for the standard colors, 1.2 lb, three power modes and up to 40 minutes in ECO mode. The official announcement says Amazon is coming soon, but no Amazon ASIN, seller, pack, price, stock or start date was verified; the catalog therefore keeps this as an early signal, not an Amazon listing.
+- Amazon remained robots-blocked. Walmart and TikTok Shop discovery did not produce a deduplicated exact item with complete variant, seller and photo evidence. Costco showed no new distinct event beyond retained promotions. Quince remained adjacent Home Organization.
+- The 16 November comprehensive review remains the latest full-retailer sampling artifact. Today's priority-channel follow-up does not claim complete pagination or inventory coverage.
+- See `site/catalog-review/daily-source-check-2026-11-20.json`.
