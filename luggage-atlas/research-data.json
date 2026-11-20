@@ -168,18 +168,19 @@
       {
         "year": 2026,
         "amount": 45.8,
-        "basis": "Forecast baseline"
+        "basis": "Publisher estimate"
       },
       {
         "year": 2033,
         "amount": 82.0,
         "basis": "Projection"
       }
-    ]
+    ],
+    "sourceNote": "The report summary and main table publish 8.7%. The FAQ gives 7.1% and the chart description gives 8.9% with inconsistent units. Use the main table and its USD-billion endpoints."
   },
   "annualSales": {
     "publisher": "Samsonite Group",
-    "market": "Worldwide · consolidated net sales",
+    "market": "Worldwide · Samsonite Group reporting",
     "unit": "USD millions",
     "checked": "2026-11-17",
     "method": "Full fiscal years ended December 31, expressed in reported US dollars. Brand series include travel and non-travel products. The travel category spans the group’s brands. Category, company and brand totals overlap.",
@@ -231,7 +232,14 @@
         "americanTourister": 544.8,
         "report": "2025"
       }
-    ]
+    ],
+    "seriesScope": {
+      "group": "Consolidated group, all brands and categories",
+      "travel": "Travel category across group brands",
+      "samsonite": "Samsonite brand, travel and non-travel products",
+      "tumi": "TUMI brand, travel and non-travel products",
+      "americanTourister": "American Tourister brand, travel and non-travel products"
+    }
   },
   "travelParticipation": {
     "publisher": "Eurostat",
@@ -350,7 +358,9 @@
         "band": "$300k and above",
         "share": 14.8
       }
-    ]
+    ],
+    "periodId": "2026-Q2",
+    "weighting": "U.S. outbound estimates are weighted to international air departures. The response count is the number answering the income question."
   },
   "carryOnBenchmark": {
     "market": "United States",
@@ -363,6 +373,93 @@
       "offer-445efe79",
       "offer-29b4105c",
       "offer-77c46470"
-    ]
+    ],
+    "checked": "2026-11-17",
+    "annotations": {
+      "offer-30d469b3": {
+        "color": "Navy",
+        "store": "Nordstrom",
+        "seller": "Concept One Accessories",
+        "marketplace": true,
+        "identifier": "Nordstrom item 11047378",
+        "observation": {
+          "date": "2026-11-16",
+          "amount": 42.49
+        }
+      },
+      "offer-8efb979d": {
+        "color": "Aqua Blue",
+        "store": "Target US",
+        "seller": "Target",
+        "identifier": "TCIN 86391405",
+        "source": "https://www.target.com/p/-/A-86391405",
+        "featureChecked": "2026-11-17",
+        "featureBasis": "Target Aqua Blue item specifications and Target staff response on wheel inclusion",
+        "features": {
+          "dimensions": "21.75 × 14.25 × 9.75 in. Target confirms wheels included. Handle inclusion unspecified.",
+          "weight": "7.3 lb",
+          "material": "Polycarbonate and ABS shell",
+          "wheels": "Eight spinner wheels",
+          "expansion": "Zip expansion adds 2 in",
+          "organization": "Interior mesh compartment and cross straps"
+        },
+        "observation": {
+          "date": "2026-11-03",
+          "amount": 76.5
+        }
+      },
+      "offer-445efe79": {
+        "color": "Navy",
+        "store": "Quince",
+        "seller": "Quince",
+        "source": "https://www.quince.com/unisex/front-pocket-hard-shell-carry-on-suitcase?color=navy",
+        "featureChecked": "2026-11-17",
+        "featureBasis": "Quince Navy Front Pocket Carry-On Suitcase specifications",
+        "features": {
+          "laptop": "Front-access compartment for a laptop up to 16 in",
+          "dimensions": "22.95 × 15.16 × 10.04 in, including wheels",
+          "weight": "7.7 lb",
+          "material": "Polycarbonate shell",
+          "wheels": "Spinner wheels",
+          "compression": "Interior compression panels",
+          "organization": "Removable laundry bag"
+        },
+        "observation": {
+          "date": "2026-11-03",
+          "amount": 169.9,
+          "comparison": 315,
+          "comparisonLabel": "Traditional retail comparison value",
+          "comparisonChecked": "2026-11-17"
+        }
+      },
+      "offer-29b4105c": {
+        "color": "Electric Iris",
+        "store": "Away",
+        "seller": "Away",
+        "source": "https://www.awaytravel.com/products/carry-on-3-electric-iris",
+        "featureChecked": "2026-11-17",
+        "featureBasis": "Away Electric Iris Carry-On 3 product specifications",
+        "features": {
+          "wheels": "WhisperGlide 360° triple-bearing wheels with StopLock brakes",
+          "material": "100% polycarbonate shell"
+        },
+        "observation": {
+          "date": "2026-11-03",
+          "amount": 328
+        }
+      },
+      "offer-77c46470": {
+        "color": "Black",
+        "store": "Peak Design direct",
+        "seller": "Peak Design",
+        "size": "Regular",
+        "sku": "W-RL-AA-BK-1",
+        "observation": {
+          "date": "2026-11-11",
+          "amount": 404.96
+        },
+        "offerNote": "Regular Black, case only. The family page also describes other sizes and bundles. A replacement part or procedure for the Regular casters remains unconfirmed."
+      }
+    }
   }
 }
