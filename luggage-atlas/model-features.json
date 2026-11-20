@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "fields": [
     {
       "id": "opening",
@@ -13560,6 +13560,348 @@
       "photoSource": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
       "photoScope": "Exact model, size and finish shared across markets; Japan SKU, production revision and stock not verified.",
       "photoCaption": "RIMOWA x Maison Margiela Classic Cabin · exact-model exterior and interior reference"
+    },
+    {
+      "id": "offer-dee6d3b6",
+      "offerId": "offer-dee6d3b6",
+      "brandId": "globe-trotter",
+      "brand": "Globe-Trotter",
+      "model": "GT897 Carry-On - 4 Wheels · Black / Black · PCBKBK-C",
+      "source": "https://us.globe-trotter.com/products/gt897-4-wheels-carry-on-black-black-chrome",
+      "checked": "2026-11-20",
+      "scope": "Official United States exact-product page for SKU PCBKBK-C; stock is a dated observation and production revision is not stated.",
+      "features": {
+        "material": {
+          "value": "Impact-resistant polycarbonate shell, Vulcanised Fibreboard front panel and calf-leather details",
+          "basis": "Official exact-product page; performance not independently tested."
+        },
+        "opening": {
+          "value": "Full zip-around opening that opens flat",
+          "basis": "Official exact-product page and exact-model interior image."
+        },
+        "wheels": {
+          "value": "Four smooth-rolling wheels",
+          "basis": "Official exact-product page; rolling performance not independently tested."
+        },
+        "handle": {
+          "value": "Leather-wrapped telescopic handle",
+          "basis": "Official exact-product page."
+        },
+        "organization": {
+          "value": "Zipped lid compartment, zip pocket and adjustable packing straps",
+          "basis": "Official exact-product page and exact-model interior image."
+        },
+        "lock": {
+          "value": "Integrated TSA-approved combination lock",
+          "basis": "Official exact-product page."
+        },
+        "dimensions": {
+          "value": "55 × 40 × 23 cm",
+          "basis": "Official exact-product page."
+        },
+        "capacity": {
+          "value": "40 L",
+          "basis": "Official exact-product page."
+        },
+        "weight": {
+          "value": "4 kg",
+          "basis": "Official exact-product page."
+        },
+        "warranty": {
+          "value": "5-year guarantee on US page; Japan page states 10-year warranty for qualifying Japan-authorized hard cases",
+          "basis": "Regional official product and warranty text; terms differ by market."
+        }
+      },
+      "featureCount": 10,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [
+        "GT897"
+      ],
+      "recordType": "Dated launch / priced offer",
+      "format": "Carry-on",
+      "price": 1395,
+      "currency": "USD",
+      "priceDate": "2026-11-20",
+      "listingDate": "2026-11-18",
+      "launchDate": "2026-11-18",
+      "sku": "PCBKBK-C",
+      "image": "offer-photo-assets/globe-trotter-gt897-black-front.webp",
+      "gallery": [
+        "offer-photo-assets/globe-trotter-gt897-black-interior.webp"
+      ],
+      "photoKind": "exact-offer",
+      "photoSource": "https://us.globe-trotter.com/products/gt897-4-wheels-carry-on-black-black-chrome",
+      "photoScope": "Exact model, size, color and regional SKU; production revision not stated.",
+      "photoCaption": "Globe-Trotter GT897 Carry-On · Black / Black / Chrome · official exact-SKU exterior and interior"
+    },
+    {
+      "id": "offer-51588c31",
+      "offerId": "offer-51588c31",
+      "brandId": "globe-trotter",
+      "brand": "Globe-Trotter",
+      "model": "GT897 Carry-On - 4 Wheels · Green / Brown · PCOLCHO-C",
+      "source": "https://us.globe-trotter.com/products/gt897-4-wheels-carry-on-green-brown-chrome",
+      "checked": "2026-11-20",
+      "scope": "Official United States exact-product page for SKU PCOLCHO-C; stock is a dated observation and production revision is not stated.",
+      "features": {
+        "material": {
+          "value": "Impact-resistant polycarbonate shell, Vulcanised Fibreboard front panel and calf-leather details",
+          "basis": "Official exact-product page; performance not independently tested."
+        },
+        "opening": {
+          "value": "Full zip-around opening that opens flat",
+          "basis": "Official exact-product page and exact-model interior image."
+        },
+        "wheels": {
+          "value": "Four smooth-rolling wheels",
+          "basis": "Official exact-product page; rolling performance not independently tested."
+        },
+        "handle": {
+          "value": "Leather-wrapped telescopic handle",
+          "basis": "Official exact-product page."
+        },
+        "organization": {
+          "value": "Zipped lid compartment, zip pocket and adjustable packing straps",
+          "basis": "Official exact-product page and exact-model interior image."
+        },
+        "lock": {
+          "value": "Integrated TSA-approved combination lock",
+          "basis": "Official exact-product page."
+        },
+        "dimensions": {
+          "value": "55 × 40 × 23 cm",
+          "basis": "Official exact-product page."
+        },
+        "capacity": {
+          "value": "40 L",
+          "basis": "Official exact-product page."
+        },
+        "weight": {
+          "value": "4 kg",
+          "basis": "Official exact-product page."
+        },
+        "warranty": {
+          "value": "5-year guarantee on US page; Japan page states 10-year warranty for qualifying Japan-authorized hard cases",
+          "basis": "Regional official product and warranty text; terms differ by market."
+        }
+      },
+      "featureCount": 10,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [
+        "GT897"
+      ],
+      "recordType": "Dated launch / priced offer",
+      "format": "Carry-on",
+      "price": 1395,
+      "currency": "USD",
+      "priceDate": "2026-11-20",
+      "listingDate": "2026-11-18",
+      "launchDate": "2026-11-18",
+      "sku": "PCOLCHO-C",
+      "image": "offer-photo-assets/globe-trotter-gt897-green-front.webp",
+      "gallery": [
+        "offer-photo-assets/globe-trotter-gt897-green-interior.webp"
+      ],
+      "photoKind": "exact-offer",
+      "photoSource": "https://us.globe-trotter.com/products/gt897-4-wheels-carry-on-green-brown-chrome",
+      "photoScope": "Exact model, size, color and regional SKU; production revision not stated.",
+      "photoCaption": "Globe-Trotter GT897 Carry-On · Green / Brown / Chrome · official exact-SKU exterior and interior"
+    },
+    {
+      "id": "offer-8fadf4d9",
+      "offerId": "offer-8fadf4d9",
+      "brandId": "globe-trotter",
+      "brand": "Globe-Trotter",
+      "model": "GT897 Carry-On - 4 Wheels · Black / Black · GT897BB55T6",
+      "source": "https://jp.globe-trotter.com/products/gt897-4-wheels-carry-on-black-black-chrome",
+      "checked": "2026-11-20",
+      "scope": "Official Japan exact-product page for SKU GT897BB55T6; stock is a dated observation and production revision is not stated.",
+      "features": {
+        "material": {
+          "value": "Impact-resistant polycarbonate shell, Vulcanised Fibreboard front panel and calf-leather details",
+          "basis": "Official exact-product page; performance not independently tested."
+        },
+        "opening": {
+          "value": "Full zip-around opening that opens flat",
+          "basis": "Official exact-product page and exact-model interior image."
+        },
+        "wheels": {
+          "value": "Four smooth-rolling wheels",
+          "basis": "Official exact-product page; rolling performance not independently tested."
+        },
+        "handle": {
+          "value": "Leather-wrapped telescopic handle",
+          "basis": "Official exact-product page."
+        },
+        "organization": {
+          "value": "Zipped lid compartment, zip pocket and adjustable packing straps",
+          "basis": "Official exact-product page and exact-model interior image."
+        },
+        "lock": {
+          "value": "Integrated TSA-approved combination lock",
+          "basis": "Official exact-product page."
+        },
+        "dimensions": {
+          "value": "55 × 40 × 23 cm",
+          "basis": "Official exact-product page."
+        },
+        "capacity": {
+          "value": "40 L",
+          "basis": "Official exact-product page."
+        },
+        "weight": {
+          "value": "4 kg",
+          "basis": "Official exact-product page."
+        },
+        "warranty": {
+          "value": "5-year guarantee on US page; Japan page states 10-year warranty for qualifying Japan-authorized hard cases",
+          "basis": "Regional official product and warranty text; terms differ by market."
+        }
+      },
+      "featureCount": 10,
+      "region": "Asia",
+      "market": "Japan",
+      "aliases": [
+        "GT897"
+      ],
+      "recordType": "Dated launch / priced offer",
+      "format": "Carry-on",
+      "price": 209000,
+      "currency": "JPY",
+      "priceDate": "2026-11-20",
+      "listingDate": "2026-11-18",
+      "launchDate": "2026-11-18",
+      "sku": "GT897BB55T6",
+      "image": "offer-photo-assets/globe-trotter-gt897-black-front.webp",
+      "gallery": [
+        "offer-photo-assets/globe-trotter-gt897-black-interior.webp"
+      ],
+      "photoKind": "exact-offer",
+      "photoSource": "https://jp.globe-trotter.com/products/gt897-4-wheels-carry-on-black-black-chrome",
+      "photoScope": "Exact model, size, color and regional SKU; production revision not stated.",
+      "photoCaption": "Globe-Trotter GT897 Carry-On · Black / Black / Chrome · official exact-SKU exterior and interior"
+    },
+    {
+      "id": "offer-8fd17aa7",
+      "offerId": "offer-8fd17aa7",
+      "brandId": "globe-trotter",
+      "brand": "Globe-Trotter",
+      "model": "GT897 Carry-On - 4 Wheels · Green / Brown · GT897GC55T6",
+      "source": "https://jp.globe-trotter.com/products/gt897-4-wheels-carry-on-green-brown-chrome",
+      "checked": "2026-11-20",
+      "scope": "Official Japan exact-product page for SKU GT897GC55T6; stock is a dated observation and production revision is not stated.",
+      "features": {
+        "material": {
+          "value": "Impact-resistant polycarbonate shell, Vulcanised Fibreboard front panel and calf-leather details",
+          "basis": "Official exact-product page; performance not independently tested."
+        },
+        "opening": {
+          "value": "Full zip-around opening that opens flat",
+          "basis": "Official exact-product page and exact-model interior image."
+        },
+        "wheels": {
+          "value": "Four smooth-rolling wheels",
+          "basis": "Official exact-product page; rolling performance not independently tested."
+        },
+        "handle": {
+          "value": "Leather-wrapped telescopic handle",
+          "basis": "Official exact-product page."
+        },
+        "organization": {
+          "value": "Zipped lid compartment, zip pocket and adjustable packing straps",
+          "basis": "Official exact-product page and exact-model interior image."
+        },
+        "lock": {
+          "value": "Integrated TSA-approved combination lock",
+          "basis": "Official exact-product page."
+        },
+        "dimensions": {
+          "value": "55 × 40 × 23 cm",
+          "basis": "Official exact-product page."
+        },
+        "capacity": {
+          "value": "40 L",
+          "basis": "Official exact-product page."
+        },
+        "weight": {
+          "value": "4 kg",
+          "basis": "Official exact-product page."
+        },
+        "warranty": {
+          "value": "5-year guarantee on US page; Japan page states 10-year warranty for qualifying Japan-authorized hard cases",
+          "basis": "Regional official product and warranty text; terms differ by market."
+        }
+      },
+      "featureCount": 10,
+      "region": "Asia",
+      "market": "Japan",
+      "aliases": [
+        "GT897"
+      ],
+      "recordType": "Dated launch / priced offer",
+      "format": "Carry-on",
+      "price": 209000,
+      "currency": "JPY",
+      "priceDate": "2026-11-20",
+      "listingDate": "2026-11-18",
+      "launchDate": "2026-11-18",
+      "sku": "GT897GC55T6",
+      "image": "offer-photo-assets/globe-trotter-gt897-green-front.webp",
+      "gallery": [
+        "offer-photo-assets/globe-trotter-gt897-green-interior.webp"
+      ],
+      "photoKind": "exact-offer",
+      "photoSource": "https://jp.globe-trotter.com/products/gt897-4-wheels-carry-on-green-brown-chrome",
+      "photoScope": "Exact model, size, color and regional SKU; production revision not stated.",
+      "photoCaption": "Globe-Trotter GT897 Carry-On · Green / Brown / Chrome · official exact-SKU exterior and interior"
+    },
+    {
+      "id": "binhao-1996ha",
+      "brandId": "binhao",
+      "brand": "BINHAO / 賓豪",
+      "model": "1996HA",
+      "source": "https://www.binhaobags.com/en/PC-Luggage/BINHAO-1996HA-polycarbonate.html",
+      "checked": "2026-11-20",
+      "scope": "Manufacturer exact named-model page. Retail price, dimensions, size, color designation, production revision and launch date are unverified.",
+      "features": {
+        "material": {
+          "value": "100% polycarbonate Bayer PC3113, manufacturer specification",
+          "basis": "Manufacturer exact named-model page; material composition not independently tested."
+        },
+        "wheels": {
+          "value": "Dual-wheel, multi-directional system",
+          "basis": "Manufacturer exact named-model page; durability claim not independently tested."
+        },
+        "handle": {
+          "value": "TPU carry handle and aluminum-alloy trolley system",
+          "basis": "Manufacturer exact named-model page."
+        },
+        "lock": {
+          "value": "Built-in TSA combination lock",
+          "basis": "Manufacturer exact named-model page."
+        }
+      },
+      "featureCount": 4,
+      "price": null,
+      "currency": "",
+      "region": "Asia",
+      "market": "Manufacturer reference",
+      "format": "Hardside",
+      "recordType": "Model reference",
+      "aliases": [
+        "BINHAO"
+      ],
+      "image": "offer-photo-assets/binhao-1996ha-exterior.webp",
+      "gallery": [
+        "offer-photo-assets/binhao-1996ha-exterior.webp"
+      ],
+      "photoKind": "model-reference",
+      "photoSource": "https://www.binhaobags.com/en/PC-Luggage/BINHAO-1996HA-polycarbonate.html",
+      "photoScope": "Manufacturer exact named-model exterior; size, color designation and revision unspecified.",
+      "photoCaption": "BINHAO 1996HA",
+      "opportunity": "Verify dimensions, available sizes, regional retail operator and a retail price before exact-offer benchmarking."
     }
   ],
   "brandCount": 176,

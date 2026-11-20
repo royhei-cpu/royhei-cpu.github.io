@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -384,6 +384,94 @@
         "rimowa-margiela-classic-jp-front",
         "rimowa-margiela-classic-jp-interior"
       ]
+    },
+    {
+      "offerId": "offer-dee6d3b6",
+      "brandId": "globe-trotter",
+      "model": "GT897 Carry-On - 4 Wheels",
+      "size": "Carry-On / 55 cm",
+      "color": "Black / Black / Chrome",
+      "dimensions": "55 × 40 × 23 cm; 4 kg; 40 L",
+      "announcementDate": null,
+      "listingDate": "2026-11-18",
+      "launchDate": "2026-11-18",
+      "observed": "2026-11-20",
+      "source": "https://us.globe-trotter.com/products/gt897-4-wheels-carry-on-black-black-chrome",
+      "price": 1395,
+      "currency": "USD",
+      "sku": "PCBKBK-C",
+      "weight": "4 kg",
+      "capacity": "40 L",
+      "photoIds": [
+        "globe-trotter-gt897-us-black-front",
+        "globe-trotter-gt897-us-black-interior"
+      ]
+    },
+    {
+      "offerId": "offer-51588c31",
+      "brandId": "globe-trotter",
+      "model": "GT897 Carry-On - 4 Wheels",
+      "size": "Carry-On / 55 cm",
+      "color": "Green / Brown / Chrome",
+      "dimensions": "55 × 40 × 23 cm; 4 kg; 40 L",
+      "announcementDate": null,
+      "listingDate": "2026-11-18",
+      "launchDate": "2026-11-18",
+      "observed": "2026-11-20",
+      "source": "https://us.globe-trotter.com/products/gt897-4-wheels-carry-on-green-brown-chrome",
+      "price": 1395,
+      "currency": "USD",
+      "sku": "PCOLCHO-C",
+      "weight": "4 kg",
+      "capacity": "40 L",
+      "photoIds": [
+        "globe-trotter-gt897-us-green-front",
+        "globe-trotter-gt897-us-green-interior"
+      ]
+    },
+    {
+      "offerId": "offer-8fadf4d9",
+      "brandId": "globe-trotter",
+      "model": "GT897 Carry-On - 4 Wheels",
+      "size": "Carry-On / 55 cm",
+      "color": "Black / Black / Chrome",
+      "dimensions": "55 × 40 × 23 cm; 4 kg; 40 L",
+      "announcementDate": null,
+      "listingDate": "2026-11-18",
+      "launchDate": "2026-11-18",
+      "observed": "2026-11-20",
+      "source": "https://jp.globe-trotter.com/products/gt897-4-wheels-carry-on-black-black-chrome",
+      "price": 209000,
+      "currency": "JPY",
+      "sku": "GT897BB55T6",
+      "weight": "4 kg",
+      "capacity": "40 L",
+      "photoIds": [
+        "globe-trotter-gt897-jp-black-front",
+        "globe-trotter-gt897-jp-black-interior"
+      ]
+    },
+    {
+      "offerId": "offer-8fd17aa7",
+      "brandId": "globe-trotter",
+      "model": "GT897 Carry-On - 4 Wheels",
+      "size": "Carry-On / 55 cm",
+      "color": "Green / Brown / Chrome",
+      "dimensions": "55 × 40 × 23 cm; 4 kg; 40 L",
+      "announcementDate": null,
+      "listingDate": "2026-11-18",
+      "launchDate": "2026-11-18",
+      "observed": "2026-11-20",
+      "source": "https://jp.globe-trotter.com/products/gt897-4-wheels-carry-on-green-brown-chrome",
+      "price": 209000,
+      "currency": "JPY",
+      "sku": "GT897GC55T6",
+      "weight": "4 kg",
+      "capacity": "40 L",
+      "photoIds": [
+        "globe-trotter-gt897-jp-green-front",
+        "globe-trotter-gt897-jp-green-interior"
+      ]
     }
   ],
   "byBrand": {
@@ -423,6 +511,12 @@
       "offer-5b87b342",
       "offer-c678fbe2",
       "offer-77a39972"
+    ],
+    "globe-trotter": [
+      "offer-dee6d3b6",
+      "offer-51588c31",
+      "offer-8fadf4d9",
+      "offer-8fd17aa7"
     ]
   }
 }

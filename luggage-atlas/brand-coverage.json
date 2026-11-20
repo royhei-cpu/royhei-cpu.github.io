@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "baselineBrands": 98,
   "addedBrands": 77,
   "totalBrands": 176,
-  "totalPricedOffers": 2071,
-  "totalPhotoReferences": 555,
+  "totalPricedOffers": 2075,
+  "totalPhotoReferences": 564,
   "newBrandIds": [
     "dta-nova",
     "briefing",
@@ -383,15 +383,15 @@
     {
       "brandId": "binhao",
       "brand": "BINHAO / 賓豪",
-      "source": "https://www.binhao.com/en/PC-Luggage/BINHAO-2333.html",
-      "checked": "2026-11-10",
+      "source": "https://www.binhaobags.com/en/PC-Luggage/BINHAO-1996HA-polycarbonate.html",
+      "checked": "2026-11-20",
       "pricedOffers": 0,
-      "photoReferences": 3,
+      "photoReferences": 4,
       "interiorReferences": 1,
       "factoryVerified": false,
       "launchDateVerified": false,
       "assortmentComplete": false,
-      "status": "Model 2333 gallery verified. Retail price unavailable."
+      "status": "Models 2333 and 1996HA verified as manufacturer references. Retail price remains unavailable."
     },
     {
       "brandId": "boss",
@@ -905,15 +905,15 @@
     {
       "brandId": "globe-trotter",
       "brand": "Globe-Trotter",
-      "source": "https://us.globe-trotter.com/products/centenary-4-wheels-carry-on-black-black",
-      "checked": "2026-11-03",
-      "pricedOffers": 1,
-      "photoReferences": 4,
-      "interiorReferences": 3,
+      "source": "https://us.globe-trotter.com/products/gt897-4-wheels-carry-on-black-black-chrome",
+      "checked": "2026-11-20",
+      "pricedOffers": 5,
+      "photoReferences": 12,
+      "interiorReferences": 7,
       "factoryVerified": false,
-      "launchDateVerified": false,
+      "launchDateVerified": true,
       "assortmentComplete": false,
-      "status": "Existing sourced profile; assortment partial"
+      "status": "Four exact GT897 regional/color offers added; broader assortment remains partial"
     },
     {
       "brandId": "gucci",

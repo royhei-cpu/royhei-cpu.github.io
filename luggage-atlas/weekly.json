@@ -1,12 +1,27 @@
 {
-  "edition": "2026-11-19",
+  "edition": "2026-11-20",
   "periodStart": "2026-11-13",
-  "periodEnd": "2026-11-19",
+  "periodEnd": "2026-11-20",
   "baseline": false,
   "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
-  "nextScheduled": "2026-11-20",
-  "coverage": "Targeted Thursday launch-day verification. Two new market-specific exact offers, six offer-scoped exterior/interior references and exact dimensions were added for the RIMOWA x Maison Margiela Classic Cabin. The November 16 CSV and review retain the comprehensive Monday assortment review; no other new primary-source luggage news was verified in this pass.",
+  "nextScheduled": "2026-11-21",
+  "coverage": "Targeted Friday verification. Four market- and color-specific GT897 offers, eight exact-offer exterior/interior references and one unpriced BINHAO model reference were added. The November 16 CSV and review retain the comprehensive Monday assortment review. Amazon's exact product page remained blocked from direct primary retrieval; no third-party Amazon price was added.",
   "items": [
+    {
+      "id": "globe-trotter-gt897-2026",
+      "brand": "Globe-Trotter",
+      "brandId": "globe-trotter",
+      "title": "GT897 launches as Globe-Trotter’s first polycarbonate carry-on",
+      "date": "2026-11-18",
+      "dateType": "Official global and Japan pages state 18 November arrival / release; exact US and Japan product pages checked 20 November.",
+      "status": "Dated launch",
+      "market": "United States and Japan verified",
+      "change": "Black / Black and Green / Brown are listed at USD 1,395 in the US and JPY 209,000 tax included in Japan. Each exact regional SKU is retained separately. The 55 × 40 × 23 cm case weighs 4 kg, holds 40 L and combines a polycarbonate shell, Vulcanised Fibreboard front panel and calf-leather details.",
+      "price": "USD 1,395; JPY 209,000 tax included",
+      "source": "https://us.globe-trotter.com/products/gt897-4-wheels-carry-on-black-black-chrome",
+      "theme": "Hybrid heritage construction & flat opening",
+      "photoId": "globe-trotter-gt897-us-black-interior"
+    },
     {
       "id": "rimowa-margiela-classic-cabin-2026",
       "brand": "RIMOWA",
@@ -120,6 +135,12 @@
       "label": "Previous daily coverage update",
       "period": "November 12–18",
       "archive": "weekly-2026-11-18.json"
+    },
+    {
+      "date": "2026-11-19",
+      "label": "Previous daily coverage update",
+      "period": "November 13–19",
+      "archive": "weekly-2026-11-19.json"
     }
   ],
   "coverageRefresh": {
@@ -129,11 +150,11 @@
     "note": "DTA / DTA Nova added; existing price and news brand references reconciled."
   },
   "latestBulletin": {
-    "checked": "2026-11-19",
-    "newsDate": "2026-11-19",
-    "title": "RIMOWA x Maison Margiela Classic Cabin launches with live US and Japan pricing",
-    "text": "The live US page lists Silver / White SKU 97390044 at USD 4,300 and confirms 55 × 40 × 23 cm, 4.7 kg and 36 L. An exact front view and open-interior view are now captured. RIMOWA Japan quotes JPY 651,200 tax included. Store-level stock and a live EUR transaction page were not audited.",
-    "source": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
-    "records": 2
+    "checked": "2026-11-20",
+    "newsDate": "2026-11-18",
+    "title": "GT897 launches as Globe-Trotter’s first polycarbonate carry-on",
+    "text": "Black / Black and Green / Brown are listed at USD 1,395 in the US and JPY 209,000 tax included in Japan. Each exact regional SKU is retained separately. The 55 × 40 × 23 cm case weighs 4 kg, holds 40 L and combines a polycarbonate shell, Vulcanised Fibreboard front panel and calf-leather details.",
+    "source": "https://us.globe-trotter.com/products/gt897-4-wheels-carry-on-black-black-chrome",
+    "records": 4
   }
 }
