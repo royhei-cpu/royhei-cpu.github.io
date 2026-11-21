@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-21",
-      "raw_products_read": 973,
+      "raw_products_read": 971,
       "currency": "USD"
     },
     {
@@ -80,7 +80,7 @@
       "url": "https://toybeta.com",
       "status": "complete",
       "checked": "2026-11-21",
-      "raw_products_read": 1269,
+      "raw_products_read": 1274,
       "currency": "USD"
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://didapop.com",
       "status": "complete",
       "checked": "2026-11-21",
-      "raw_products_read": 1840,
+      "raw_products_read": 1841,
       "currency": "USD"
     },
     {
@@ -98,7 +98,7 @@
       "url": "https://pawmiga.myshopify.com",
       "status": "complete",
       "checked": "2026-11-21",
-      "raw_products_read": 138,
+      "raw_products_read": 137,
       "currency": "USD"
     },
     {
@@ -881,6 +881,12 @@
       "type": "brand label"
     },
     {
+      "id": "edd4d24fe9dbc890",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
       "id": "24137290cf5a2504",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -1404,12 +1410,6 @@
     },
     {
       "id": "850e71aa8b8b3ad8",
-      "from": "DidaPop",
-      "to": "Brand not disclosed",
-      "type": "brand label"
-    },
-    {
-      "id": "edd4d24fe9dbc890",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -2002,12 +2002,6 @@
       "id": "03059d652cacd708",
       "name": "Tea Fox Daruma Series 7 Twelve Constellations Blind Box",
       "source": "https://www.kikagoods.com/products/tea-fox-daruma-series-7-twelve-constellations-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "c70ad23e8a7b58b5",
-      "name": "Nobeko Azukisan Wonderful Garden Series Flow Sand Badge Blind Box",
-      "source": "https://www.kikagoods.com/products/nobeko-azukisan-wonderful-garden-series-flow-sand-badge-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -4186,12 +4180,6 @@
       "id": "ad2404bdd53caa53",
       "name": "Laura Sweet Monster Series Blind Box",
       "source": "https://www.kikagoods.com/products/laura-sweet-monster-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "f70a7ef1b3962c37",
-      "name": "Monday Bruce Season 5 A Pick-Me-Up Before Work Series Blind Box",
-      "source": "https://www.kikagoods.com/products/monday-bruce-season-5-a-pick-me-up-before-work-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6694,6 +6682,36 @@
       "id": "cfa39130ed10d864",
       "name": "Sanrio Play With Kittens Vinyl Face Plush Keychain Blind Box",
       "source": "https://kouhightoys.com/products/sanrio-play-with-kittens-vinyl-face-plush-keychain-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "db0c56884a27c370",
+      "name": "Nanci Lamb's Travels Series Plush Blind Box【Rolife】",
+      "source": "https://toybeta.com/products/nanci-lambs-travels-series-plush-blind-box-rolife",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "29e9486f283b7733",
+      "name": "Tutu World Good Job Series Plush Blind Box",
+      "source": "https://toybeta.com/products/tutu-world-good-job-series-plush-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "625b17c44749aede",
+      "name": "MEGA SPACE MOLLY 100% Series 5 Blind Box",
+      "source": "https://toybeta.com/products/mega-space-molly-100-series-5-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "58a326b1a788206a",
+      "name": "KUBO Colors Of My OWN Series Plush Pendant Blind Box",
+      "source": "https://toybeta.com/products/kubo-colors-of-my-own-series-plush-pendant-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "fbb426816e5fb94b",
+      "name": "MayMei X Tokidoki Series Plush Doll Blind Box【TOP TOY】",
+      "source": "https://toybeta.com/products/maymei-x-tokidoki-series-plush-doll-blind-box-top-toy",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12566,27 +12584,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4654,
-  "after_products": 4625,
+  "before_products": 4656,
+  "after_products": 4627,
   "stats": {
-    "products": 4623,
-    "brands": 801,
+    "products": 4625,
+    "brands": 802,
     "squishy": 504,
-    "with_images": 4623,
+    "with_images": 4625,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4614,
+    "with_source_prices": 4616,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2600,
-    "with_dimensions": 1787,
-    "with_variant_options": 4292,
-    "source_linked_images": 4299,
+    "with_specifications": 2602,
+    "with_dimensions": 1789,
+    "with_variant_options": 4294,
+    "source_linked_images": 4301,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 7,
-    "with_shop_descriptions": 3828
+    "with_shop_descriptions": 3830
   },
   "checklist": [
     {
@@ -12671,8 +12689,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 31,
-      "with_details": 13,
+      "records": 32,
+      "with_details": 14,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"
@@ -12814,8 +12832,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 1,
-      "with_details": 0,
+      "records": 2,
+      "with_details": 1,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"
