@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-21",
+  "sourceCheckedAt": "2026-11-21",
+  "reviewType": "daily priority-channel material-change follow-up",
+  "baselineRecords": 10269,
+  "publishedRecords": 10269,
+  "verifiedAdditions": 0,
+  "recordPatches": 0,
+  "newsChanges": [
+    {
+      "id": "costco-sameday-cleaning-savings-observed-2026-11-19",
+      "classification": "channel-specific promotion reconciliation",
+      "eventStartDate": "2026-11-16",
+      "firstObservedDate": "2026-11-19",
+      "checkedDate": "2026-11-21",
+      "retailer": "Costco",
+      "warehouseScope": "Warehouse Savings page; valid 16 November–20 December 2026",
+      "examples": [
+        "Poo-Pourri Toilet Spray variety pack, 3 × 3.4 fl oz, item 2345775, US$14.99 after US$5 off",
+        "Palmolive Ultra Strength dish soap, 102 fl oz, item 1032422, US$6.49 after US$2.50 off",
+        "Clorox ToiletWand, one handle plus 36 refills, item 625994, US$13.99 after US$4 off"
+      ],
+      "limitations": "Warehouse pricing may vary by location. SameDay delivery prices are a separate channel. The observations do not establish launches, retailer first-listing dates, permanent price changes or universal stock.",
+      "sources": [
+        "https://www.costco.com/o/-/warehouse-savings",
+        "https://sameday.costco.com/store/costco/digital-flyer/monthly"
+      ]
+    }
+  ],
+  "retailerChecks": [
+    {
+      "retailer": "Amazon US",
+      "status": "blocked",
+      "checkedDate": "2026-11-21",
+      "scope": "Home Care discovery and retained RazorVac early-signal follow-up",
+      "sources": [
+        "https://www.amazon.com/"
+      ],
+      "result": "Public retrieval remained blocked by robots. No exact ASIN, seller, selected variant, pack, checkout price, availability or first-listing date was established; no addition or patch."
+    },
+    {
+      "retailer": "Walmart",
+      "status": "partial",
+      "checkedDate": "2026-11-21",
+      "scope": "Household Essentials and Surface Care new-arrival pages",
+      "sources": [
+        "https://www.walmart.com/shop/household-essentials/new-arrivals",
+        "https://www.walmart.com/shop/household-essentials/surface-care-new-arrivals"
+      ],
+      "result": "Current pages exposed large dynamic assortments, including already-retained seasonal products. No deduplicated missing exact item with complete selected variant, seller and matched-photo evidence was established; no addition."
+    },
+    {
+      "retailer": "Costco",
+      "status": "partial",
+      "checkedDate": "2026-11-21",
+      "scope": "Warehouse Savings and SameDay monthly flyer",
+      "sources": [
+        "https://www.costco.com/o/-/warehouse-savings",
+        "https://sameday.costco.com/store/costco/digital-flyer/monthly"
+      ],
+      "result": "Official warehouse-price promotion evidence was reconciled with the existing SameDay event. Exact item IDs, pack descriptions, discounts and three warehouse prices were retained as dated channel observations. No new catalog record was added and full Costco assortment pagination was not reconciled."
+    },
+    {
+      "retailer": "TikTok Shop",
+      "status": "partial",
+      "checkedDate": "2026-11-21",
+      "scope": "Household Cleaning, Cleaning Products and Home Care Supplies discovery pages",
+      "sources": [
+        "https://shop.tiktok.com/us/k/household-cleaning-supplies",
+        "https://shop.tiktok.com/us/k/cleaning-products",
+        "https://shop.tiktok.com/us/k/home-care-supplies"
+      ],
+      "result": "Current discovery pages exposed dynamic tiles and purchase badges, but exact PDP, seller, selected variant, matched photo and deduplication evidence were not consistently available. No dynamic counts were copied; no addition."
+    },
+    {
+      "retailer": "Quince",
+      "status": "adjacent-scope-only",
+      "checkedDate": "2026-11-21",
+      "scope": "Storage & Organization and Home New Arrivals",
+      "sources": [
+        "https://www.quince.com/shop/home/all-decor/storage-organization",
+        "https://www.quince.com/shop/home/new-arrivals"
+      ],
+      "result": "Official pages remained adjacent Home Organization/decor scope. No qualifying Home Care addition or item-level availability claim was established."
+    }
+  ],
+  "officialNewsChecks": [
+    {
+      "source": "https://newsroom.sharkninja.com/news-type/press-releases/",
+      "checkedDate": "2026-11-21",
+      "result": "No newer in-scope U.S. Home Care announcement beyond the retained 19 November RazorVac event was identified."
+    },
+    {
+      "source": "https://www.reckitt.com/us/news/",
+      "checkedDate": "2026-11-21",
+      "result": "No additional in-scope U.S. Home Care product announcement meeting the evidence threshold was identified."
+    }
+  ],
+  "categoryAndPagination": {
+    "latestComprehensiveReviewDate": "2026-11-16",
+    "comprehensiveReviewRetained": true,
+    "todayScope": "Priority channels only; no full 20-retailer × 16-row rerun.",
+    "coverageComplete": false,
+    "limitations": "Only Ace tile cleaner has a previously bounded 18-of-18 source scope. All other retailer/category pagination remains partial, blocked, location-dependent or not started."
+  },
+  "preservation": {
+    "stableIdsPreserved": true,
+    "photosPreserved": true,
+    "retailerCategoryMappingsPreserved": true,
+    "sourceEvidencePreserved": true,
+    "otherSitesChanged": false
+  }
+}

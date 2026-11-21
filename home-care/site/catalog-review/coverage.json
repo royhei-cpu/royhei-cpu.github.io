@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-20",
-  "sourceCheckedAt": "2026-11-20",
+  "reviewedAt": "2026-11-21",
+  "sourceCheckedAt": "2026-11-21",
   "baseline": 6331,
   "added": 3938,
   "total": 10269,
@@ -4154,13 +4154,13 @@
     "scope": "Targeted gap review; not a completed comprehensive inventory refresh"
   },
   "latestDailyAudit": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "added": 0,
     "byRetailer": {},
-    "audit": "daily-source-check-2026-11-20.json",
-    "scope": "Priority-channel daily follow-up completed with the Shark RazorVac direct-store launch and planned Amazon rollout recorded as an early signal; no qualifying catalog additions and full pagination remains incomplete."
+    "audit": "daily-source-check-2026-11-21.json",
+    "scope": "Priority-channel daily follow-up reconciled Costco warehouse and SameDay promotion evidence; no qualifying catalog additions and full pagination remains incomplete."
   },
-  "dailyFollowupDate": "2026-11-20",
+  "dailyFollowupDate": "2026-11-21",
   "countBasis": "10,269 canonical records retained after the 17 November 2026 daily material-change follow-up; no new records were added. Counts describe collected public listings, not complete retailer inventories.",
   "latestMondayAudit": {
     "date": "2026-11-16",

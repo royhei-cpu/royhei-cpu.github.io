@@ -219,3 +219,11 @@ The three-row selected-only CSV was inspected for exact row count, retailer mapp
 - Amazon remained robots-blocked. Walmart and TikTok Shop discovery did not produce a deduplicated exact item with complete variant, seller and photo evidence. Costco showed no new distinct event beyond retained promotions. Quince remained adjacent Home Organization.
 - The 16 November comprehensive review remains the latest full-retailer sampling artifact. Today's priority-channel follow-up does not claim complete pagination or inventory coverage.
 - See `site/catalog-review/daily-source-check-2026-11-20.json`.
+
+## 21 November 2026 — daily priority-channel follow-up
+
+- Preserved all 10,269 canonical records, stable IDs, photographs, retailer/category mappings and source-linked evidence; no exact retailer listing met the catalog-addition threshold.
+- Reconciled Costco's official Warehouse Savings page with the retained SameDay event instead of creating a duplicate. Costco labels warehouse pricing valid 16 November–20 December 2026; recorded examples include Poo-Pourri 3 × 3.4 fl oz at US$14.99 after US$5 off, Palmolive 102 fl oz at US$6.49 after US$2.50 off and Clorox ToiletWand handle + 36 refills at US$13.99 after US$4 off. SameDay delivery prices remain a separate channel.
+- Amazon remained robots-blocked. Walmart and TikTok Shop discovery did not provide a deduplicated exact item with complete variant, seller and matched-photo evidence. Quince remained adjacent Home Organization.
+- The 16 November comprehensive review remains the latest full-retailer sampling artifact. Today's priority-channel follow-up does not claim complete pagination or inventory coverage.
+- See `site/catalog-review/daily-source-check-2026-11-21.json`.

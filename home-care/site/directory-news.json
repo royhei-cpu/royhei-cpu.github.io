@@ -27,18 +27,24 @@
   },
   {
     "id": "costco-sameday-cleaning-savings-observed-2026-11-19",
-    "title": "Costco SameDay lists cleaning and laundry savings ending 20 December",
+    "title": "Costco posts warehouse and SameDay cleaning savings ending 20 December",
     "type": "Promotion",
     "date": "2026-11-19",
-    "dateLabel": "First observed 19 November 2026 · savings end 20 December 2026 · promotion start not shown",
-    "checked": "2026-11-19",
-    "summary": "Costco's official SameDay monthly flyer lists 10+ Cleaning & Laundry Products with delivery-channel prices and purchase limits. Examples include Finish Jet-Dry Ultra 38 fl oz at US$10.20 after US$4 off, Pine-Sol Original 60 fl oz 2-count at US$11.34 after US$3 off, Clorox Clean-Up 32 fl oz spray plus 180 fl oz refill at US$14.18 after US$4 off, and Lysol Laundry Sanitizer 150 fl oz at US$14.74 after US$4 off. These are SameDay/Instacart promotion observations, not verified warehouse prices, permanent price changes, launches, first listings or universal availability.",
+    "dateLabel": "Warehouse promotion valid 16 November–20 December 2026 · SameDay channel first observed 19 November · checked 21 November",
+    "checked": "2026-11-21",
+    "summary": "Costco's official Warehouse Savings page states that the displayed warehouse pricing is valid 16 November–20 December 2026 and may vary by location. Home Care examples include Poo-Pourri Toilet Spray variety pack, 3 × 3.4 fl oz, item 2345775 at US$14.99 after US$5 off; Palmolive Ultra Strength dish soap, 102 fl oz, item 1032422 at US$6.49 after US$2.50 off; and Clorox ToiletWand, one handle plus 36 refills, item 625994 at US$13.99 after US$4 off. The retained SameDay flyer separately shows delivery-channel prices. These are channel-specific promotions, not launches, first-listing dates, permanent price changes or universal availability.",
     "sources": [
+      {
+        "label": "Costco Warehouse Savings · 16 November–20 December 2026",
+        "url": "https://www.costco.com/o/-/warehouse-savings"
+      },
       {
         "label": "Costco SameDay Members Only Savings · cleaning and laundry",
         "url": "https://sameday.costco.com/store/costco/digital-flyer/monthly"
       }
-    ]
+    ],
+    "eventDate": "2026-11-16",
+    "firstObserved": "2026-11-19"
   },
   {
     "id": "clorox-purell-procare-issa-surface-innovations-2026-11-17",
