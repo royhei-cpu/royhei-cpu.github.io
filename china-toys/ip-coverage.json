@@ -1,10 +1,10 @@
 {
-  "catalog_date": "2026-11-20",
+  "catalog_date": "2026-11-21",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
       "brand": "POP MART",
-      "records": 213,
+      "records": 214,
       "status": "Partial assortment"
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "brand": "Heyone",
-      "records": 31,
+      "records": 32,
       "status": "Partial assortment"
     },
     {
@@ -87,7 +87,6 @@
         "01ceee040966dec8",
         "b88f0a1735b4f761",
         "883f5fcbe14b4ff3",
-        "625b17c44749aede",
         "adb320dfa6d1dbe5",
         "2f00fa6403f132bc",
         "21135d91b14be2a8",
@@ -95,7 +94,8 @@
         "f2026032ea3ac903",
         "41a9fc3da938cb18",
         "a93abb433a638b2f",
-        "67d5ef6c0b4c68a7"
+        "67d5ef6c0b4c68a7",
+        "625b17c44749aede"
       ],
       "status": "Partial assortment"
     },
@@ -150,6 +150,7 @@
         "b16d2825a18ad212",
         "b6f8ecc9893bb456",
         "a3e7573651a13eca",
+        "91cb2e127e56a9ed",
         "929eed3f7d85a1d5",
         "b8aad3231c853f08",
         "8cadb8afd0722632",
@@ -163,7 +164,6 @@
         "f323af0a12f40f8a",
         "d46a2777682b4f68",
         "4b9d42678e25403a",
-        "5496b7c05a7bcbb0",
         "9864672353b05136"
       ],
       "status": "Partial assortment"
@@ -375,7 +375,6 @@
         "01ceee040966dec8",
         "b88f0a1735b4f761",
         "883f5fcbe14b4ff3",
-        "625b17c44749aede",
         "adb320dfa6d1dbe5",
         "2f00fa6403f132bc",
         "21135d91b14be2a8",
@@ -383,7 +382,8 @@
         "f2026032ea3ac903",
         "41a9fc3da938cb18",
         "a93abb433a638b2f",
-        "67d5ef6c0b4c68a7"
+        "67d5ef6c0b4c68a7",
+        "625b17c44749aede"
       ],
       "status": "Partial assortment"
     },
@@ -438,6 +438,7 @@
         "b16d2825a18ad212",
         "b6f8ecc9893bb456",
         "a3e7573651a13eca",
+        "91cb2e127e56a9ed",
         "929eed3f7d85a1d5",
         "b8aad3231c853f08",
         "8cadb8afd0722632",
@@ -451,7 +452,6 @@
         "f323af0a12f40f8a",
         "d46a2777682b4f68",
         "4b9d42678e25403a",
-        "5496b7c05a7bcbb0",
         "9864672353b05136"
       ],
       "status": "Partial assortment"
@@ -1096,7 +1096,6 @@
         "e4e334edf95bb93d",
         "6c9cbd9083d2b35d",
         "dfe3556007bb76f0",
-        "d201acb6f947d3c8",
         "5cae777f130cf46b",
         "27243efcd1629b98",
         "a2d490721c13a85c",
@@ -1174,6 +1173,7 @@
         "0fa7ab530514b8ec",
         "33a6fa51fe3181f9",
         "f7adce80ede61d99",
+        "d201acb6f947d3c8",
         "464635722a575510",
         "77059d0dae117904",
         "56afbcdc65d4ce18",
@@ -1247,7 +1247,6 @@
         "5a281ed4173824c5",
         "92754530be5a3e94",
         "a297e03b838bdb58",
-        "fbb426816e5fb94b",
         "0b1d7e9c045f9c46",
         "4cfc067f9822dd56",
         "557a1de5307be0cf",
@@ -1289,6 +1288,7 @@
         "14b1fa0c4bfe05ee",
         "d1bc76cda536a3d7",
         "9706d5ba199927ff",
+        "fbb426816e5fb94b",
         "c7ef6b5396583082",
         "e3f2ea3a4ef79ac5",
         "aa0f37f1f6e30387",
@@ -1301,7 +1301,7 @@
     {
       "id": "hey mi",
       "name": "Heymi",
-      "records": 8,
+      "records": 9,
       "product_ids": [
         "f14718afbe00b291",
         "27e64d120186d5f5",
@@ -1309,6 +1309,7 @@
         "429569e256cf6d5e",
         "8344916aa0fcf1bc",
         "431d4ec47455b763",
+        "0a7040c00c1b3787",
         "12b28b78b5197139",
         "81b21408898ad315"
       ],
@@ -1708,12 +1709,13 @@
     {
       "id": "kubo",
       "name": "KUBO",
-      "records": 4,
+      "records": 5,
       "product_ids": [
         "6b446b85dfdaadb0",
         "bf653881b09be01b",
-        "58a326b1a788206a",
-        "370e47c689134d2c"
+        "c2eaeb08804acb0a",
+        "370e47c689134d2c",
+        "58a326b1a788206a"
       ],
       "status": "Partial assortment"
     },
@@ -2155,7 +2157,7 @@
     },
     {
       "character": "Joy",
-      "records": 18,
+      "records": 19,
       "sample_sources": [
         "https://www.kikagoods.com/products/zzoton-little-countryside-joys-series-mini-blind-box",
         "https://toybeta.com/products/zzoton-winters-small-joys-series-plush-blind-box",
