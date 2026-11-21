@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -83,7 +83,7 @@
       "launchDate": null,
       "observed": "2026-11-10",
       "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
-      "price": 369.0,
+      "price": 369,
       "currency": "MYR",
       "photoIds": [
         "90fun-57522239"
@@ -100,7 +100,7 @@
       "launchDate": null,
       "observed": "2026-11-10",
       "source": "https://www.lamboplace.com/products/ix-90-fun-20-cabin-travel-business-luggage-xiaomi-youpin-ecosystem",
-      "price": 369.0,
+      "price": 369,
       "currency": "MYR",
       "photoIds": [
         "90fun-57522240"
@@ -472,6 +472,50 @@
         "globe-trotter-gt897-jp-green-front",
         "globe-trotter-gt897-jp-green-interior"
       ]
+    },
+    {
+      "offerId": "offer-cf51a20c",
+      "brandId": "mark-lona",
+      "model": "Gauge Alloy Carry-On Case",
+      "size": "ONE / 31 L",
+      "color": "Silver",
+      "dimensions": "Width 48.5 × height 43 × depth 24.5 cm; handle height 57 cm; 4.5 kg; 31 L. The source does not state whether dimensions include wheels or handles.",
+      "announcementDate": null,
+      "listingDate": "2026-11-20",
+      "launchDate": "2026-11-20",
+      "observed": "2026-11-21",
+      "source": "https://www.markandlona.com/products/mls-26c-sb91",
+      "price": 110000,
+      "currency": "JPY",
+      "sku": "MLS-26C-SB91901810",
+      "weight": "4.5 kg",
+      "capacity": "31 L",
+      "photoIds": [
+        "mark-lona-gauge-jp-exterior",
+        "mark-lona-gauge-jp-interior"
+      ]
+    },
+    {
+      "offerId": "offer-b358e909",
+      "brandId": "mark-lona",
+      "model": "Gauge Alloy Carry-On Case",
+      "size": "ONE / 31 L",
+      "color": "Silver",
+      "dimensions": "Width 48.5 × height 43 × depth 24.5 cm; handle height 57 cm; 4.5 kg; 31 L. The source does not state whether dimensions include wheels or handles.",
+      "announcementDate": null,
+      "listingDate": "2026-11-20",
+      "launchDate": "2026-11-20",
+      "observed": "2026-11-21",
+      "source": "https://markandlona.us/ja/collections/new-arrivals/products/mls-26c-sb91",
+      "price": 135000,
+      "currency": "JPY",
+      "sku": "MLS-26C-SB91901810",
+      "weight": "4.5 kg",
+      "capacity": "31 L",
+      "photoIds": [
+        "mark-lona-gauge-global-exterior",
+        "mark-lona-gauge-global-interior"
+      ]
     }
   ],
   "byBrand": {
@@ -517,6 +561,10 @@
       "offer-51588c31",
       "offer-8fadf4d9",
       "offer-8fd17aa7"
+    ],
+    "mark-lona": [
+      "offer-cf51a20c",
+      "offer-b358e909"
     ]
   }
 }

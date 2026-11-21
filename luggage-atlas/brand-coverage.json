@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "baselineBrands": 98,
-  "addedBrands": 77,
-  "totalBrands": 176,
-  "totalPricedOffers": 2075,
-  "totalPhotoReferences": 564,
+  "addedBrands": 78,
+  "totalBrands": 177,
+  "totalPricedOffers": 2077,
+  "totalPhotoReferences": 568,
   "newBrandIds": [
     "dta-nova",
     "briefing",
@@ -82,7 +82,8 @@
     "imiomo",
     "artrips",
     "milesto",
-    "american-dreamliner"
+    "american-dreamliner",
+    "mark-lona"
   ],
   "scope": "All existing structured brand references reconciled plus regional, specialist, fashion and marketplace expansion. This is not a worldwide census.",
   "unmatchedInternalBrands": [],
@@ -2442,6 +2443,19 @@
       "launchDateVerified": false,
       "assortmentComplete": false,
       "status": "One US marketplace offer with both views."
+    },
+    {
+      "brandId": "mark-lona",
+      "brand": "MARK & LONA",
+      "source": "https://www.markandlona.com/products/mls-26c-sb91",
+      "checked": "2026-11-21",
+      "pricedOffers": 2,
+      "photoReferences": 4,
+      "interiorReferences": 2,
+      "factoryVerified": false,
+      "launchDateVerified": true,
+      "assortmentComplete": false,
+      "status": "Two official storefront observations for one exact Silver / ONE SKU; wider assortment incomplete."
     }
   ],
   "sourceChecks": [

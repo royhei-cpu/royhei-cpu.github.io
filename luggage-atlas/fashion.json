@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-16",
+  "checked": "2026-11-21",
   "note": "All entries have an editorial style/shopper assessment and an explicit supplier-evidence status. A launch is not proof of rising sales. No demographic share or exact SKU-to-factory match is claimed.",
   "groups": [
     "Design minimalists",
@@ -4532,6 +4532,30 @@
         "checked": "2026-11-16",
         "skuFactoryVerified": false
       }
+    },
+    "mark-lona": {
+      "brandId": "mark-lona",
+      "group": "Expressive & customization buyers",
+      "why": "The reviewed Silver model uses a highly visible aluminum body, tone-on-tone camouflage graphics and branded hardware. This is an editorial style fit, not measured shopper demographics or popularity.",
+      "signalStatus": "Dated product launch",
+      "signal": "2026-11-20 · Gauge Alloy Carry-On Case launched",
+      "signalSource": "https://brand.markandlona.com/26w_gauge_alloy/",
+      "designSource": "https://www.markandlona.com/products/mls-26c-sb91",
+      "audienceBasis": "Analyst inference from the exact model’s visible design and official product presentation; buyer age, gender, income, demand and market share are unverified.",
+      "test": "Compare the model’s visual treatment, upright access, weight and price with other sourced aluminum carry-ons; do not infer demand from launch coverage.",
+      "supplier": {
+        "status": "Not verified",
+        "entity": "Factory operator unknown",
+        "factory": "Unverified",
+        "origin": "China (exact product-page country-of-origin claim)",
+        "scope": "The exact product page states Made in China but does not name a factory, production operator or lot. Country of origin is not factory verification.",
+        "source": "https://www.markandlona.com/products/mls-26c-sb91",
+        "components": "",
+        "tradeLead": "",
+        "checked": "2026-11-21",
+        "skuFactoryVerified": false
+      },
+      "checked": "2026-11-21"
     }
   }
 }

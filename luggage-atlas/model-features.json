@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "fields": [
     {
       "id": "opening",
@@ -13902,12 +13902,158 @@
       "photoScope": "Manufacturer exact named-model exterior; size, color designation and revision unspecified.",
       "photoCaption": "BINHAO 1996HA",
       "opportunity": "Verify dimensions, available sizes, regional retail operator and a retail price before exact-offer benchmarking."
+    },
+    {
+      "id": "offer-cf51a20c",
+      "offerId": "offer-cf51a20c",
+      "brandId": "mark-lona",
+      "brand": "MARK & LONA",
+      "model": "Gauge Alloy Carry-On Case · Silver",
+      "source": "https://www.markandlona.com/products/mls-26c-sb91",
+      "checked": "2026-11-21",
+      "scope": "Official exact-product storefront record for Silver / ONE. Production revision and dimension inclusions remain unknown.",
+      "features": {
+        "opening": {
+          "value": "Upright front-flap access with zipperless frame/latch closure",
+          "basis": "Official exact-product description and gallery."
+        },
+        "material": {
+          "value": "Main body: 100% aluminum; zinc-alloy components",
+          "basis": "Official exact-product material specification; composition not independently tested."
+        },
+        "wheels": {
+          "value": "Hinomoto silent casters",
+          "basis": "Official exact-product description; noise and durability not independently tested."
+        },
+        "handle": {
+          "value": "Aluminum telescopic handle",
+          "basis": "Official exact-product description."
+        },
+        "laptop": {
+          "value": "Dedicated pocket for devices up to 15 inches",
+          "basis": "Official exact-product description; fit not independently tested."
+        },
+        "organization": {
+          "value": "Detachable portable pocket and interior packing organization",
+          "basis": "Official exact-product description and gallery."
+        },
+        "lock": {
+          "value": "Two one-touch TSA-compatible latch locks",
+          "basis": "Official exact-product description; regional inspection compatibility not independently audited."
+        },
+        "dimensions": {
+          "value": "Width 48.5 × height 43 × depth 24.5 cm; handle height 57 cm; 4.5 kg; 31 L. The source does not state whether dimensions include wheels or handles.",
+          "basis": "Official exact-product size table; wheel/handle inclusions are not stated."
+        },
+        "capacity": {
+          "value": "31 L",
+          "basis": "Official exact-product size table."
+        },
+        "weight": {
+          "value": "4.5 kg",
+          "basis": "Official exact-product size table."
+        }
+      },
+      "featureCount": 10,
+      "region": "Asia",
+      "market": "Japan storefront · JPY",
+      "aliases": [
+        "MARK&LONA",
+        "マーク＆ロナ"
+      ],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 110000,
+      "currency": "JPY",
+      "priceDate": "2026-11-21",
+      "image": "offer-photo-assets/mark-lona-gauge-jp-exterior.webp",
+      "gallery": [
+        "offer-photo-assets/mark-lona-gauge-jp-exterior.webp",
+        "offer-photo-assets/mark-lona-gauge-jp-interior.webp"
+      ],
+      "photoKind": "exact-offer",
+      "photoSource": "https://www.markandlona.com/products/mls-26c-sb91",
+      "photoScope": "Matched to model, one-size SKU and Silver color; production revision not stated.",
+      "photoCaption": "Gauge Alloy Carry-On Case · Silver / ONE · exterior"
+    },
+    {
+      "id": "offer-b358e909",
+      "offerId": "offer-b358e909",
+      "brandId": "mark-lona",
+      "brand": "MARK & LONA",
+      "model": "Gauge Alloy Carry-On Case · Silver",
+      "source": "https://markandlona.us/ja/collections/new-arrivals/products/mls-26c-sb91",
+      "checked": "2026-11-21",
+      "scope": "Official exact-product storefront record for Silver / ONE. Production revision and dimension inclusions remain unknown.",
+      "features": {
+        "opening": {
+          "value": "Upright front-flap access with zipperless frame/latch closure",
+          "basis": "Official exact-product description and gallery."
+        },
+        "material": {
+          "value": "Main body: 100% aluminum; zinc-alloy components",
+          "basis": "Official exact-product material specification; composition not independently tested."
+        },
+        "wheels": {
+          "value": "Hinomoto silent casters",
+          "basis": "Official exact-product description; noise and durability not independently tested."
+        },
+        "handle": {
+          "value": "Aluminum telescopic handle",
+          "basis": "Official exact-product description."
+        },
+        "laptop": {
+          "value": "Dedicated pocket for devices up to 15 inches",
+          "basis": "Official exact-product description; fit not independently tested."
+        },
+        "organization": {
+          "value": "Detachable portable pocket and interior packing organization",
+          "basis": "Official exact-product description and gallery."
+        },
+        "lock": {
+          "value": "Two one-touch TSA-compatible latch locks",
+          "basis": "Official exact-product description; regional inspection compatibility not independently audited."
+        },
+        "dimensions": {
+          "value": "Width 48.5 × height 43 × depth 24.5 cm; handle height 57 cm; 4.5 kg; 31 L. The source does not state whether dimensions include wheels or handles.",
+          "basis": "Official exact-product size table; wheel/handle inclusions are not stated."
+        },
+        "capacity": {
+          "value": "31 L",
+          "basis": "Official exact-product size table."
+        },
+        "weight": {
+          "value": "4.5 kg",
+          "basis": "Official exact-product size table."
+        }
+      },
+      "featureCount": 10,
+      "region": "Asia",
+      "market": "Global online store · Japanese-language locale · JPY",
+      "aliases": [
+        "MARK&LONA",
+        "マーク＆ロナ"
+      ],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 135000,
+      "currency": "JPY",
+      "priceDate": "2026-11-21",
+      "image": "offer-photo-assets/mark-lona-gauge-global-exterior.webp",
+      "gallery": [
+        "offer-photo-assets/mark-lona-gauge-global-exterior.webp",
+        "offer-photo-assets/mark-lona-gauge-global-interior.webp"
+      ],
+      "photoKind": "exact-offer",
+      "photoSource": "https://markandlona.us/ja/collections/new-arrivals/products/mls-26c-sb91",
+      "photoScope": "Matched to model, one-size SKU and Silver color; production revision not stated.",
+      "photoCaption": "Gauge Alloy Carry-On Case · Silver / ONE · exterior"
     }
   ],
-  "brandCount": 176,
+  "brandCount": 177,
   "geographicScope": "Worldwide discovery across 176 recorded brand profiles. Assortment coverage is partial.",
   "researchRefresh": {
-    "checked": "2026-11-19",
-    "description": "RIMOWA x Maison Margiela launch-day US and Japan market evidence added with exact dimensions, exterior and interior views; other unverified fields remain unknown."
+    "checked": "2026-11-21",
+    "description": "MARK & LONA Gauge Alloy Carry-On Case added as two separate official storefront observations with exact dimensions, launch date, model-specific features and matched exterior/interior views; wider assortment and unverified fields remain unknown."
   }
 }

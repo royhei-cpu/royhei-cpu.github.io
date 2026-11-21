@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -8487,6 +8487,118 @@
         "identifierSource": "https://www.binhaobags.com/en/PC-Luggage/BINHAO-1996HA-polycarbonate.html",
         "identifierChecked": "2026-11-20"
       }
+    },
+    {
+      "id": "mark-lona-gauge-jp-exterior",
+      "brandId": "mark-lona",
+      "offerId": "offer-cf51a20c",
+      "view": "Exterior",
+      "caption": "Gauge Alloy Carry-On Case · Silver / ONE · Japan storefront exterior",
+      "source": "https://www.markandlona.com/products/mls-26c-sb91",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0662/7678/6218/files/MLS-26C-SB91_SILVER-1.jpg?v=1794276424",
+      "localPath": "offer-photo-assets/mark-lona-gauge-jp-exterior.webp",
+      "checked": "2026-11-21",
+      "remoteReference": true,
+      "scope": "Official Japan exact-product image matched to model, one-size SKU and Silver color; production revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Gauge Alloy Carry-On Case",
+        "size": "ONE / 31 L",
+        "color": "Silver",
+        "revision": null,
+        "sku": "MLS-26C-SB91901810"
+      },
+      "evidence": {
+        "type": "Official exact-product storefront gallery",
+        "visualChecked": true,
+        "imageSha256": "de34217f59feae7496e7b2bb3b33446c8bfa170a0f2fa62f57b2c315de20373c",
+        "identifierSource": "https://www.markandlona.com/products/mls-26c-sb91",
+        "identifierChecked": "2026-11-21"
+      }
+    },
+    {
+      "id": "mark-lona-gauge-jp-interior",
+      "brandId": "mark-lona",
+      "offerId": "offer-cf51a20c",
+      "view": "Interior",
+      "caption": "Gauge Alloy Carry-On Case · Silver / ONE · Japan storefront open interior",
+      "source": "https://www.markandlona.com/products/mls-26c-sb91",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0662/7678/6218/files/MLS-26C-SB91_SILVER-14.jpg?v=1794276431",
+      "localPath": "offer-photo-assets/mark-lona-gauge-jp-interior.webp",
+      "checked": "2026-11-21",
+      "remoteReference": true,
+      "scope": "Official Japan exact-product open-interior image matched to model, one-size SKU and Silver color; production revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Gauge Alloy Carry-On Case",
+        "size": "ONE / 31 L",
+        "color": "Silver",
+        "revision": null,
+        "sku": "MLS-26C-SB91901810"
+      },
+      "evidence": {
+        "type": "Official exact-product storefront gallery",
+        "visualChecked": true,
+        "imageSha256": "9db9f4cdc5dad90379d21816f72ac56200c49176e616146d8fca0f8ed6d7bce8",
+        "identifierSource": "https://www.markandlona.com/products/mls-26c-sb91",
+        "identifierChecked": "2026-11-21"
+      }
+    },
+    {
+      "id": "mark-lona-gauge-global-exterior",
+      "brandId": "mark-lona",
+      "offerId": "offer-b358e909",
+      "view": "Exterior",
+      "caption": "Gauge Alloy Carry-On Case · Silver / ONE · global-store locale exterior",
+      "source": "https://markandlona.us/ja/collections/new-arrivals/products/mls-26c-sb91",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0315/1095/4120/files/MLS-26C-SB91_SILVER-1.jpg?v=1794912400",
+      "localPath": "offer-photo-assets/mark-lona-gauge-global-exterior.webp",
+      "checked": "2026-11-21",
+      "remoteReference": true,
+      "scope": "Official global-store Japanese-locale exact-product image matched to model, one-size SKU and Silver color; production revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Gauge Alloy Carry-On Case",
+        "size": "ONE / 31 L",
+        "color": "Silver",
+        "revision": null,
+        "sku": "MLS-26C-SB91901810"
+      },
+      "evidence": {
+        "type": "Official exact-product storefront gallery",
+        "visualChecked": true,
+        "imageSha256": "de34217f59feae7496e7b2bb3b33446c8bfa170a0f2fa62f57b2c315de20373c",
+        "identifierSource": "https://markandlona.us/ja/collections/new-arrivals/products/mls-26c-sb91",
+        "identifierChecked": "2026-11-21"
+      }
+    },
+    {
+      "id": "mark-lona-gauge-global-interior",
+      "brandId": "mark-lona",
+      "offerId": "offer-b358e909",
+      "view": "Interior",
+      "caption": "Gauge Alloy Carry-On Case · Silver / ONE · global-store locale open interior",
+      "source": "https://markandlona.us/ja/collections/new-arrivals/products/mls-26c-sb91",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0315/1095/4120/files/MLS-26C-SB91_SILVER-14.jpg?v=1794912400",
+      "localPath": "offer-photo-assets/mark-lona-gauge-global-interior.webp",
+      "checked": "2026-11-21",
+      "remoteReference": true,
+      "scope": "Official global-store Japanese-locale exact-product open-interior image matched to model, one-size SKU and Silver color; production revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Gauge Alloy Carry-On Case",
+        "size": "ONE / 31 L",
+        "color": "Silver",
+        "revision": null,
+        "sku": "MLS-26C-SB91901810"
+      },
+      "evidence": {
+        "type": "Official exact-product storefront gallery",
+        "visualChecked": true,
+        "imageSha256": "9db9f4cdc5dad90379d21816f72ac56200c49176e616146d8fca0f8ed6d7bce8",
+        "identifierSource": "https://markandlona.us/ja/collections/new-arrivals/products/mls-26c-sb91",
+        "identifierChecked": "2026-11-21"
+      }
     }
   ],
   "byBrand": {
@@ -9397,6 +9509,12 @@
     "american-dreamliner": [
       "american-dreamliner-225-navy-exterior",
       "american-dreamliner-225-navy-interior"
+    ],
+    "mark-lona": [
+      "mark-lona-gauge-jp-exterior",
+      "mark-lona-gauge-jp-interior",
+      "mark-lona-gauge-global-exterior",
+      "mark-lona-gauge-global-interior"
     ]
   },
   "note": "Galleries compare sourced product and collection references. Each image has its own model/collection caption and source. An interior from another model is not evidence of the priced model’s construction.",
@@ -11799,7 +11917,85 @@
           "Stock may change after the observation"
         ]
       }
+    },
+    {
+      "offerId": "offer-cf51a20c",
+      "offerIdentity": {
+        "brand": "MARK & LONA",
+        "product": "Gauge Alloy Carry-On Case · Silver · MLS-26C-SB91901810",
+        "currency": "JPY",
+        "retailer": "MARK & LONA Japan",
+        "source": "https://www.markandlona.com/products/mls-26c-sb91"
+      },
+      "checked": "2026-11-21",
+      "productPage": "https://www.markandlona.com/products/mls-26c-sb91",
+      "identity": {
+        "model": "Gauge Alloy Carry-On Case",
+        "size": "ONE / 31 L",
+        "color": "Silver",
+        "revision": null,
+        "sku": "MLS-26C-SB91901810"
+      },
+      "photoIds": [
+        "mark-lona-gauge-jp-exterior",
+        "mark-lona-gauge-jp-interior"
+      ],
+      "gaps": [
+        "Production revision is not stated.",
+        "The source does not say whether exterior dimensions include wheels or handles.",
+        "Availability is a dated storefront observation and may change."
+      ],
+      "note": "Official exact-SKU exterior and open-interior views visually checked from the Japan storefront.",
+      "sourceRecheck": {
+        "date": "2026-11-21",
+        "method": "Official exact-product page and storefront gallery",
+        "liveHtmlVerified": true,
+        "limitations": [
+          "Production revision not stated",
+          "Dimension inclusions not stated",
+          "Availability may change after the observation"
+        ]
+      }
+    },
+    {
+      "offerId": "offer-b358e909",
+      "offerIdentity": {
+        "brand": "MARK & LONA",
+        "product": "Gauge Alloy Carry-On Case · Silver · MLS-26C-SB91901810",
+        "currency": "JPY",
+        "retailer": "MARK & LONA Global Online Store",
+        "source": "https://markandlona.us/ja/collections/new-arrivals/products/mls-26c-sb91"
+      },
+      "checked": "2026-11-21",
+      "productPage": "https://markandlona.us/ja/collections/new-arrivals/products/mls-26c-sb91",
+      "identity": {
+        "model": "Gauge Alloy Carry-On Case",
+        "size": "ONE / 31 L",
+        "color": "Silver",
+        "revision": null,
+        "sku": "MLS-26C-SB91901810"
+      },
+      "photoIds": [
+        "mark-lona-gauge-global-exterior",
+        "mark-lona-gauge-global-interior"
+      ],
+      "gaps": [
+        "Production revision is not stated.",
+        "The source does not say whether exterior dimensions include wheels or handles.",
+        "Availability is a dated storefront observation and may change."
+      ],
+      "note": "Official exact-SKU exterior and open-interior views visually checked from the global-store Japanese-language locale.",
+      "sourceRecheck": {
+        "date": "2026-11-21",
+        "method": "Official exact-product page and storefront gallery",
+        "liveHtmlVerified": true,
+        "limitations": [
+          "Production revision not stated",
+          "Dimension inclusions not stated",
+          "Availability may change after the observation"
+        ]
+      }
     }
   ],
-  "offerPhotoChecked": "2026-11-20"
+  "offerPhotoChecked": "2026-11-21"
 }
