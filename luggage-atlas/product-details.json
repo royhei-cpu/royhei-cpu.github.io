@@ -525,7 +525,7 @@
       "color": "Black",
       "dimensions": "15 L × 9 W × 22 H in (38.5 × 23 × 56 cm), explicitly including handle and wheels; 10 lb (4.5 kg); 38 L.",
       "announcementDate": "2026-11-20",
-      "listingDate": null,
+      "listingDate": "2023-10-31",
       "launchDate": null,
       "observed": "2026-11-22",
       "source": "https://www.level8cases.com/products/hegent-carry-on-luggage-20",
@@ -537,7 +537,8 @@
       "photoIds": [
         "level8-hegent-20-black-exterior",
         "level8-hegent-20-black-interior"
-      ]
+      ],
+      "listingDateBasis": "Official storefront product payload published_at timestamp; commercial launch date remains unknown."
     }
   ],
   "byBrand": {

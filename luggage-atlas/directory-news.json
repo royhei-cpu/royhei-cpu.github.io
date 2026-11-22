@@ -2,7 +2,7 @@
   {
     "id": "level8-hegent-black-friday-2026",
     "title": "LEVEL8 announces Hegent Black Friday promotion",
-    "summary": "LEVEL8 announced 20% off its US site from 1 November through 3 December 2026 with no code. On 22 November, the official Hegent page displayed USD 239.99 for the Black 20-inch SKU LA-8361-02T00, with 38 L capacity, 4.5 kg weight and 38.5 × 23 × 56 cm dimensions including handle and wheels. The page did not expose a distinct pre-discount amount, so no regular price is inferred.",
+    "summary": "LEVEL8 announced 20% off its US site from 1 November through 3 December 2026 with no code. On 22 November, the official Hegent page displayed USD 239.99 for the Black 20-inch SKU LA-8361-02T00, with 38 L capacity, 4.5 kg weight and 38.5 × 23 × 56 cm dimensions including handle and wheels. The official product payload carries a 31 October 2023 storefront publication timestamp; this is not treated as a commercial launch date. The page did not expose a distinct pre-discount amount, so no regular price is inferred.",
     "date": "2026-11-20",
     "type": "Promotion",
     "dateLabel": "Company announcement date",
@@ -20,7 +20,9 @@
         "label": "Official Hegent exact product · checked November 22",
         "url": "https://www.level8cases.com/products/hegent-carry-on-luggage-20"
       }
-    ]
+    ],
+    "listingDate": "2023-10-31",
+    "listingDateLabel": "Official storefront product payload published_at timestamp; not a launch date"
   },
   {
     "id": "mark-lona-gauge-alloy-2026",

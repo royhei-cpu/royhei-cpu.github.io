@@ -49019,7 +49019,9 @@
       "id": "offer-bd6030c8",
       "announcementDate": "2026-11-20",
       "promotionStart": "2026-11-01",
-      "promotionEnd": "2026-12-03"
+      "promotionEnd": "2026-12-03",
+      "retailerListingDate": "2023-10-31",
+      "retailerListingDateBasis": "Official storefront product payload published_at timestamp; not treated as a launch date."
     }
   ],
   "retailers": [
