@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-22",
-      "raw_products_read": 970,
+      "raw_products_read": 966,
       "currency": "USD"
     },
     {
@@ -80,7 +80,7 @@
       "url": "https://toybeta.com",
       "status": "complete",
       "checked": "2026-11-22",
-      "raw_products_read": 1276,
+      "raw_products_read": 1272,
       "currency": "USD"
     },
     {
@@ -6667,6 +6667,18 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
+      "id": "7717f41486ded43c",
+      "name": "【F.UN & TB】ShinWoo-Baby Ghost Bear Visits Sesame Street Series Blind Box",
+      "source": "https://toybeta.com/products/f-un-tb-shinwoo-baby-ghost-bear-visits-sesame-street-series-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "30b8bf46209ca373",
+      "name": "LOLO V1 Stitched Fragments Mini Series Blind Box",
+      "source": "https://toybeta.com/products/lolo-v1-stitched-fragments-mini-series-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "a4a8e263b8994e22",
       "name": "Dootie Dui Sugar Series Beans Blind Bag",
       "source": "https://toybeta.com/products/dootie-dui-sugar-series-beans-blind-bag",
@@ -6688,24 +6700,6 @@
       "id": "29e9486f283b7733",
       "name": "Tutu World Good Job Series Plush Blind Box",
       "source": "https://toybeta.com/products/tutu-world-good-job-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "625b17c44749aede",
-      "name": "MEGA SPACE MOLLY 100% Series 5 Blind Box",
-      "source": "https://toybeta.com/products/mega-space-molly-100-series-5-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "58a326b1a788206a",
-      "name": "KUBO Colors Of My OWN Series Plush Pendant Blind Box",
-      "source": "https://toybeta.com/products/kubo-colors-of-my-own-series-plush-pendant-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "fbb426816e5fb94b",
-      "name": "MayMei X Tokidoki Series Plush Doll Blind Box【TOP TOY】",
-      "source": "https://toybeta.com/products/maymei-x-tokidoki-series-plush-doll-blind-box-top-toy",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6766,12 +6760,6 @@
       "id": "4b8f4fef2d163ee7",
       "name": "【MAMALOTUS-04】x Little King & SEVEN SEVEN Bean Phone Charm Keychain Blind Bag*2PC",
       "source": "https://toybeta.com/products/mamalotus-04-x-little-king-seven-seven-bean-phone-charm-keychain-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "f4d457a675a31a47",
-      "name": "Whispers To LULU Mini Series Blind Box",
-      "source": "https://toybeta.com/products/whispers-to-lulu-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -7168,12 +7156,6 @@
       "id": "64d3231f73e20115",
       "name": "LITTLE BUNS The Conjuring Universe Series Gigures Blind Box",
       "source": "https://toybeta.com/products/little-buns-the-conjuring-universe-series-gigures-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "93e9b6e0fb89ee0b",
-      "name": "【F.UN&TB】ShinWoo Ghost Diner Series Blind Box",
-      "source": "https://toybeta.com/products/f-un-tb-shinwoo-ghost-diner-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -9214,12 +9196,6 @@
       "id": "d0a9d8951e1ff1ec",
       "name": "Latte-V1 Baby Plush Doll Series Blind Box - K22",
       "source": "https://toybeta.com/products/latte-v1-baby-plush-doll-series-blind-box-k22",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "3a69731cfdca738a",
-      "name": "Angel Commissioner Penny-Emotional Rescue Series Plush Blind Box【Treein Land】",
-      "source": "https://toybeta.com/products/angel-envoy-penny-emotional-rescue-series-plush-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12572,27 +12548,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4658,
-  "after_products": 4629,
+  "before_products": 4660,
+  "after_products": 4631,
   "stats": {
-    "products": 4627,
+    "products": 4629,
     "brands": 802,
     "squishy": 504,
-    "with_images": 4627,
+    "with_images": 4629,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4618,
+    "with_source_prices": 4620,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2604,
-    "with_dimensions": 1791,
-    "with_variant_options": 4296,
-    "source_linked_images": 4303,
+    "with_specifications": 2606,
+    "with_dimensions": 1792,
+    "with_variant_options": 4298,
+    "source_linked_images": 4305,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 7,
-    "with_shop_descriptions": 3832
+    "with_shop_descriptions": 3834
   },
   "checklist": [
     {
@@ -12633,8 +12609,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 50,
-      "with_details": 32,
+      "records": 51,
+      "with_details": 33,
       "with_china_price": 2,
       "with_release": 2,
       "status": "Partial — more series and China evidence needed"

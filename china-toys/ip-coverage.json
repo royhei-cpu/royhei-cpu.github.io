@@ -19,7 +19,7 @@
     },
     {
       "brand": "Finding Unicorn",
-      "records": 50,
+      "records": 51,
       "status": "Partial assortment"
     },
     {
@@ -87,7 +87,6 @@
         "01ceee040966dec8",
         "b88f0a1735b4f761",
         "883f5fcbe14b4ff3",
-        "625b17c44749aede",
         "adb320dfa6d1dbe5",
         "2f00fa6403f132bc",
         "21135d91b14be2a8",
@@ -95,7 +94,8 @@
         "f2026032ea3ac903",
         "41a9fc3da938cb18",
         "a93abb433a638b2f",
-        "67d5ef6c0b4c68a7"
+        "67d5ef6c0b4c68a7",
+        "625b17c44749aede"
       ],
       "status": "Partial assortment"
     },
@@ -375,7 +375,6 @@
         "01ceee040966dec8",
         "b88f0a1735b4f761",
         "883f5fcbe14b4ff3",
-        "625b17c44749aede",
         "adb320dfa6d1dbe5",
         "2f00fa6403f132bc",
         "21135d91b14be2a8",
@@ -383,7 +382,8 @@
         "f2026032ea3ac903",
         "41a9fc3da938cb18",
         "a93abb433a638b2f",
-        "67d5ef6c0b4c68a7"
+        "67d5ef6c0b4c68a7",
+        "625b17c44749aede"
       ],
       "status": "Partial assortment"
     },
@@ -723,7 +723,7 @@
     {
       "id": "shinwoo",
       "name": "ShinWoo",
-      "records": 21,
+      "records": 22,
       "product_ids": [
         "b3429d04859ed9d9",
         "464d522ee2c08821",
@@ -738,14 +738,15 @@
         "cd8c95c39d857835",
         "d9b82a5bfa901940",
         "c77ed55c1bf81891",
+        "7717f41486ded43c",
         "c07f0ad3be6eb6db",
-        "93e9b6e0fb89ee0b",
         "33e08d5d2a8e5b93",
         "b36a20a9dc67d64d",
         "7272a8d5d01fb454",
         "42f6807225482250",
         "d6e954141cc2141f",
-        "eaa16f64d688d466"
+        "eaa16f64d688d466",
+        "93e9b6e0fb89ee0b"
       ],
       "status": "Partial assortment"
     },
@@ -1084,7 +1085,6 @@
         "3f181fff6e811572",
         "f7107c73f9051936",
         "d7d4cb13b61874a4",
-        "df7fab007742a930",
         "c971b21e8767bc4b",
         "fb87e3280da9d78c",
         "4fdaa1da64ba1f65",
@@ -1127,7 +1127,6 @@
         "314b556faf95c10a",
         "095f0bed1e414a9b",
         "68c457cf359b503e",
-        "f4d457a675a31a47",
         "f3d8c7460d860e49",
         "c16942e6d0acf2ca",
         "0510f9f3e85144f3",
@@ -1175,6 +1174,7 @@
         "0fa7ab530514b8ec",
         "33a6fa51fe3181f9",
         "f7adce80ede61d99",
+        "df7fab007742a930",
         "d201acb6f947d3c8",
         "464635722a575510",
         "77059d0dae117904",
@@ -1182,6 +1182,7 @@
         "682ad322c8d33289",
         "85955174e40add61",
         "ba12dd8ecb11cadf",
+        "f4d457a675a31a47",
         "5408dd76b1344f5f"
       ],
       "status": "Partial assortment"
@@ -1249,7 +1250,6 @@
         "5a281ed4173824c5",
         "92754530be5a3e94",
         "a297e03b838bdb58",
-        "fbb426816e5fb94b",
         "0b1d7e9c045f9c46",
         "4cfc067f9822dd56",
         "557a1de5307be0cf",
@@ -1291,6 +1291,7 @@
         "14b1fa0c4bfe05ee",
         "d1bc76cda536a3d7",
         "9706d5ba199927ff",
+        "fbb426816e5fb94b",
         "c7ef6b5396583082",
         "e3f2ea3a4ef79ac5",
         "aa0f37f1f6e30387",
@@ -1716,8 +1717,8 @@
         "6b446b85dfdaadb0",
         "bf653881b09be01b",
         "c2eaeb08804acb0a",
-        "58a326b1a788206a",
-        "370e47c689134d2c"
+        "370e47c689134d2c",
+        "58a326b1a788206a"
       ],
       "status": "Partial assortment"
     },
