@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-11-21",
+  "reviewed": "2026-11-22",
   "version": "20261030-evidence-1",
   "source_checks": [
     {
@@ -7,8 +7,8 @@
       "name": "KikaGoods",
       "url": "https://www.kikagoods.com",
       "status": "complete",
-      "checked": "2026-11-21",
-      "raw_products_read": 971,
+      "checked": "2026-11-22",
+      "raw_products_read": 970,
       "currency": "USD"
     },
     {
@@ -16,7 +16,7 @@
       "name": "TOP TOY international store",
       "url": "https://gotoptoy.com",
       "status": "complete",
-      "checked": "2026-11-21",
+      "checked": "2026-11-22",
       "raw_products_read": 235,
       "currency": "USD"
     },
@@ -25,7 +25,7 @@
       "name": "52TOYS international store",
       "url": "https://hi52toys.com",
       "status": "complete",
-      "checked": "2026-11-21",
+      "checked": "2026-11-22",
       "raw_products_read": 210,
       "currency": "USD"
     },
@@ -34,7 +34,7 @@
       "name": "Rolife international store",
       "url": "https://www.rolifeonline.com",
       "status": "unavailable",
-      "checked": "2026-11-21",
+      "checked": "2026-11-22",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -43,7 +43,7 @@
       "name": "TOYZEROPLUS",
       "url": "https://toyzeroplus.com",
       "status": "complete",
-      "checked": "2026-11-21",
+      "checked": "2026-11-22",
       "raw_products_read": 325,
       "currency": "HKD"
     },
@@ -52,7 +52,7 @@
       "name": "Hello Molynk",
       "url": "https://www.molynk.shop",
       "status": "unavailable",
-      "checked": "2026-11-21",
+      "checked": "2026-11-22",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -61,7 +61,7 @@
       "name": "Finding Unicorn international store",
       "url": "https://www.findingunicorn.net",
       "status": "unavailable",
-      "checked": "2026-11-21",
+      "checked": "2026-11-22",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -70,7 +70,7 @@
       "name": "Kouhigh Toys",
       "url": "https://kouhightoys.com",
       "status": "complete",
-      "checked": "2026-11-21",
+      "checked": "2026-11-22",
       "raw_products_read": 248,
       "currency": "USD"
     },
@@ -79,8 +79,8 @@
       "name": "ToyBeta",
       "url": "https://toybeta.com",
       "status": "complete",
-      "checked": "2026-11-21",
-      "raw_products_read": 1274,
+      "checked": "2026-11-22",
+      "raw_products_read": 1276,
       "currency": "USD"
     },
     {
@@ -88,8 +88,8 @@
       "name": "DidaPop",
       "url": "https://didapop.com",
       "status": "complete",
-      "checked": "2026-11-21",
-      "raw_products_read": 1841,
+      "checked": "2026-11-22",
+      "raw_products_read": 1844,
       "currency": "USD"
     },
     {
@@ -97,8 +97,8 @@
       "name": "Pawmiga World",
       "url": "https://pawmiga.myshopify.com",
       "status": "complete",
-      "checked": "2026-11-21",
-      "raw_products_read": 137,
+      "checked": "2026-11-22",
+      "raw_products_read": 122,
       "currency": "USD"
     },
     {
@@ -106,7 +106,7 @@
       "name": "Iris Squishy",
       "url": "https://irissquishy.com",
       "status": "complete",
-      "checked": "2026-11-21",
+      "checked": "2026-11-22",
       "raw_products_read": 114,
       "currency": "USD"
     },
@@ -115,7 +115,7 @@
       "name": "RonRon Squishy",
       "url": "https://ronronsquishy.com",
       "status": "complete",
-      "checked": "2026-11-21",
+      "checked": "2026-11-22",
       "raw_products_read": 44,
       "currency": "USD"
     },
@@ -124,7 +124,7 @@
       "name": "ANTHILL shopNplay",
       "url": "https://anthillshop.com",
       "status": "complete",
-      "checked": "2026-11-21",
+      "checked": "2026-11-22",
       "raw_products_read": 688,
       "currency": "USD"
     },
@@ -133,7 +133,7 @@
       "name": "JOTOYS international store",
       "url": "https://jotoys.store",
       "status": "complete",
-      "checked": "2026-11-21",
+      "checked": "2026-11-22",
       "raw_products_read": 57,
       "currency": "USD"
     },
@@ -142,7 +142,7 @@
       "name": "Sonny Angel Japan official store",
       "url": "https://www.sonnyangelstore.com",
       "status": "complete",
-      "checked": "2026-11-21",
+      "checked": "2026-11-22",
       "raw_products_read": 111,
       "currency": "JPY"
     }
@@ -1535,12 +1535,6 @@
       "type": "brand label"
     },
     {
-      "id": "3e781c10b085404d",
-      "from": "Lisa Squishy",
-      "to": "Lisa",
-      "type": "brand label"
-    },
-    {
       "id": "8346b6bf8bac8b8b",
       "from": "Lisa Squishy",
       "to": "Lisa",
@@ -1560,12 +1554,6 @@
     },
     {
       "id": "5c8a28da6e5474a1",
-      "from": "Lisa Squishy",
-      "to": "Lisa",
-      "type": "brand label"
-    },
-    {
-      "id": "02d5f42e38820009",
       "from": "Lisa Squishy",
       "to": "Lisa",
       "type": "brand label"
@@ -2938,12 +2926,6 @@
       "id": "8c6dba39572bc6eb",
       "name": "Lulu the Piggy Office Series Blind Box",
       "source": "https://www.kikagoods.com/products/lulu-the-piggy-office-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "b463272eb7ca52f1",
-      "name": "Chinese Opera Dream Series 1/6 Action Figure",
-      "source": "https://www.kikagoods.com/products/chinese-opera-dream-series-1-6-action-figure",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6682,6 +6664,18 @@
       "id": "cfa39130ed10d864",
       "name": "Sanrio Play With Kittens Vinyl Face Plush Keychain Blind Box",
       "source": "https://kouhightoys.com/products/sanrio-play-with-kittens-vinyl-face-plush-keychain-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "a4a8e263b8994e22",
+      "name": "Dootie Dui Sugar Series Beans Blind Bag",
+      "source": "https://toybeta.com/products/dootie-dui-sugar-series-beans-blind-bag",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "14ed20be032d33db",
+      "name": "LuLu The Piggy-Teddy V2 Pastel Pals Mini Series Plush Phone Charm Blind Box【TOYZERO】",
+      "source": "https://toybeta.com/products/lulu-the-piggy-teddy-pastel-pals-mini-series-plush-phone-charm-blind-box-toyzero",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12367,12 +12361,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "869a12c54570138f",
-      "name": "Bunny Berry Bun (Strawberry) [Kira Squishy]",
-      "source": "https://pawmiga.myshopify.com/products/bunny-berry-bun-kira-squishy",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "11da51214bf60f46",
       "name": "☃️ Snowman Steamed Bun (2 styles) [Lisa Squishy]",
       "source": "https://pawmiga.myshopify.com/products/☃️-snowman-steamed-bun-2-styles-lisa-squishy",
@@ -12584,27 +12572,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4656,
-  "after_products": 4627,
+  "before_products": 4658,
+  "after_products": 4629,
   "stats": {
-    "products": 4625,
+    "products": 4627,
     "brands": 802,
     "squishy": 504,
-    "with_images": 4625,
+    "with_images": 4627,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4616,
+    "with_source_prices": 4618,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2602,
-    "with_dimensions": 1789,
-    "with_variant_options": 4294,
-    "source_linked_images": 4301,
+    "with_specifications": 2604,
+    "with_dimensions": 1791,
+    "with_variant_options": 4296,
+    "source_linked_images": 4303,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 7,
-    "with_shop_descriptions": 3830
+    "with_shop_descriptions": 3832
   },
   "checklist": [
     {
@@ -12700,8 +12688,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 87,
-      "with_details": 49,
+      "records": 88,
+      "with_details": 50,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"
