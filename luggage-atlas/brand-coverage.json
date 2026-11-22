@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "baselineBrands": 98,
   "addedBrands": 78,
   "totalBrands": 177,
-  "totalPricedOffers": 2077,
-  "totalPhotoReferences": 568,
+  "totalPricedOffers": 2078,
+  "totalPhotoReferences": 570,
   "newBrandIds": [
     "dta-nova",
     "briefing",
@@ -1228,15 +1228,15 @@
       "brandId": "level8",
       "brand": "LEVEL8",
       "source": "https://uk.level8cases.com/pages/model-comparison-old",
-      "checked": "2026-11-09",
-      "pricedOffers": 1,
-      "photoReferences": 4,
-      "interiorReferences": 2,
+      "checked": "2026-11-22",
+      "pricedOffers": 2,
+      "photoReferences": 6,
+      "interiorReferences": 3,
       "factoryVerified": false,
       "launchDateVerified": false,
       "assortmentComplete": false,
-      "status": "Priced model sampled; assortment partial",
-      "priceEvidence": "https://www.level8cases.com/products/level8-road-runner-carry-on-luggage-with-front-pocket-20?variant=36822267527324"
+      "status": "Two priced models sampled; assortment partial",
+      "priceEvidence": "https://www.level8cases.com/products/hegent-carry-on-luggage-20"
     },
     {
       "brandId": "lipault",

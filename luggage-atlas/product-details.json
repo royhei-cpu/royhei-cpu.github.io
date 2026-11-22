@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -516,6 +516,28 @@
         "mark-lona-gauge-global-exterior",
         "mark-lona-gauge-global-interior"
       ]
+    },
+    {
+      "offerId": "offer-bd6030c8",
+      "brandId": "level8",
+      "model": "Hegent Carry-On Luggage",
+      "size": "Carry-On 20 in / 38 L",
+      "color": "Black",
+      "dimensions": "15 L × 9 W × 22 H in (38.5 × 23 × 56 cm), explicitly including handle and wheels; 10 lb (4.5 kg); 38 L.",
+      "announcementDate": "2026-11-20",
+      "listingDate": null,
+      "launchDate": null,
+      "observed": "2026-11-22",
+      "source": "https://www.level8cases.com/products/hegent-carry-on-luggage-20",
+      "price": 239.99,
+      "currency": "USD",
+      "sku": "LA-8361-02T00",
+      "weight": "10 lb / 4.5 kg",
+      "capacity": "38 L",
+      "photoIds": [
+        "level8-hegent-20-black-exterior",
+        "level8-hegent-20-black-interior"
+      ]
     }
   ],
   "byBrand": {
@@ -565,6 +587,9 @@
     "mark-lona": [
       "offer-cf51a20c",
       "offer-b358e909"
+    ],
+    "level8": [
+      "offer-bd6030c8"
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-21",
+  "checked": "2026-11-22",
   "fields": [
     {
       "id": "opening",
@@ -14048,12 +14048,84 @@
       "photoSource": "https://markandlona.us/ja/collections/new-arrivals/products/mls-26c-sb91",
       "photoScope": "Matched to model, one-size SKU and Silver color; production revision not stated.",
       "photoCaption": "Gauge Alloy Carry-On Case · Silver / ONE · exterior"
+    },
+    {
+      "id": "offer-bd6030c8",
+      "offerId": "offer-bd6030c8",
+      "brandId": "level8",
+      "brand": "LEVEL8",
+      "model": "Hegent Carry-On Luggage · 20 in · Black",
+      "source": "https://www.level8cases.com/products/hegent-carry-on-luggage-20",
+      "checked": "2026-11-22",
+      "scope": "Official exact-product storefront record for Carry-On 20-inch / Black. Launch date, production revision and exact factory remain unknown.",
+      "features": {
+        "opening": {
+          "value": "Zipperless aluminum frame with two TSA-approved latch locks",
+          "basis": "Official exact-product description and gallery."
+        },
+        "material": {
+          "value": "Aerospace-grade aluminum-magnesium alloy frame; German-made Makrolon polycarbonate exterior; polyester lining",
+          "basis": "Official exact-product material specification; composition not independently tested."
+        },
+        "wheels": {
+          "value": "Four 360-degree spinner assemblies described by the brand as ultra-quiet",
+          "basis": "Official exact-product description; noise and durability not independently tested."
+        },
+        "handle": {
+          "value": "Four-stage telescopic handle plus soft-touch rubber carry handle",
+          "basis": "Official exact-product description and gallery."
+        },
+        "organization": {
+          "value": "Y-strap compression, wet-dry separation pocket and removable compartment",
+          "basis": "Official exact-product description and open-interior gallery."
+        },
+        "lock": {
+          "value": "Two TSA-approved zipperless combination locks",
+          "basis": "Official exact-product description; regional inspection compatibility not independently audited."
+        },
+        "dimensions": {
+          "value": "15 L × 9 W × 22 H in (38.5 × 23 × 56 cm), including handle and wheels",
+          "basis": "Official exact-product dimensions statement."
+        },
+        "capacity": {
+          "value": "38 L",
+          "basis": "Official exact-product specification."
+        },
+        "weight": {
+          "value": "10 lb / 4.5 kg",
+          "basis": "Official exact-product specification."
+        },
+        "warranty": {
+          "value": "Brand states a lifetime warranty covering functional aspects including shell, wheels, handles and zippers",
+          "basis": "Official exact-product claim; exclusions, region and service outcome not independently audited."
+        }
+      },
+      "featureCount": 10,
+      "region": "North America",
+      "market": "United States · USD",
+      "aliases": [
+        "Level8"
+      ],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 239.99,
+      "currency": "USD",
+      "priceDate": "2026-11-22",
+      "image": "offer-photo-assets/level8-hegent-20-black-exterior.webp",
+      "gallery": [
+        "offer-photo-assets/level8-hegent-20-black-exterior.webp",
+        "offer-photo-assets/level8-hegent-20-black-interior.webp"
+      ],
+      "photoKind": "exact-offer",
+      "photoSource": "https://www.level8cases.com/products/hegent-carry-on-luggage-20",
+      "photoScope": "Matched to Hegent Carry-On 20-inch, Black and SKU LA-8361-02T00; production revision not stated.",
+      "photoCaption": "Hegent Carry-On Luggage · 20 in / 38 L · Black exterior"
     }
   ],
   "brandCount": 177,
   "geographicScope": "Worldwide discovery across 176 recorded brand profiles. Assortment coverage is partial.",
   "researchRefresh": {
-    "checked": "2026-11-21",
-    "description": "MARK & LONA Gauge Alloy Carry-On Case added as two separate official storefront observations with exact dimensions, launch date, model-specific features and matched exterior/interior views; wider assortment and unverified fields remain unknown."
+    "date": "2026-11-22",
+    "note": "Added exact LEVEL8 Hegent 20-inch Black offer specifications and matched exterior/interior evidence; worldwide model coverage remains incomplete."
   }
 }

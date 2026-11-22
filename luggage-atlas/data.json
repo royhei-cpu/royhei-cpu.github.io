@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-21",
+  "asOf": "2026-11-22",
   "brands": [
     {
       "id": "90fun",
@@ -4013,14 +4013,14 @@
       "name": "LEVEL8",
       "country": "United States",
       "region": "North America",
-      "collection": "Voyageur / Luminous / Road Runner",
+      "collection": "Voyageur / Luminous / Road Runner / Hegent",
       "style": "Wide-handle minimal shells and textured finishes",
       "features": [
         "Hardside",
         "Wide handle",
         "Front access"
       ],
-      "observation": "The official comparison identifies Voyageur's wide handle, Luminous diamond texture and Road Runner Pro laptop-oriented organization.",
+      "observation": "The official comparison identifies Voyageur's wide handle, Luminous diamond texture and Road Runner Pro laptop-oriented organization. The official Hegent page separately verifies the 20-inch Black zipperless frame offer; this does not establish a complete LEVEL8 assortment.",
       "source": "https://uk.level8cases.com/pages/model-comparison-old",
       "official": "https://www.level8cases.com/collections/carry-on",
       "originNote": "Official regional brand page describes New York founding; not a manufacturing-location claim.",
@@ -4031,7 +4031,14 @@
       "popularity": null,
       "tier": "Mid-market",
       "tierDetail": "Mid-premium",
-      "price": null,
+      "price": {
+        "amount": 239.99,
+        "currency": "USD",
+        "product": "Hegent Carry-On Luggage · 20 in · Black",
+        "market": "United States",
+        "date": "2026-11-22",
+        "kind": "Displayed exact-product price during brand-announced promotion"
+      },
       "channels": [
         {
           "name": "Brand / collection source",
@@ -48993,6 +49000,26 @@
       "variant": "Silver / One",
       "dimensions": "Width 48.5 × height 43 × depth 24.5 cm; handle height 57 cm; 4.5 kg; 31 L. The source does not state whether dimensions include wheels or handles.",
       "sourcePhoto": "https://cdn.shopify.com/s/files/1/0315/1095/4120/files/MLS-26C-SB91_SILVER-1.jpg?v=1794912400"
+    },
+    {
+      "brand": "LEVEL8",
+      "retailer": "level8cases.com",
+      "product": "Hegent Carry-On Luggage · 20 in · Black",
+      "amount": 239.99,
+      "currency": "USD",
+      "market": "United States",
+      "date": "2026-11-22",
+      "kind": "Displayed exact-product price during brand-announced promotion",
+      "source": "https://www.level8cases.com/products/hegent-carry-on-luggage-20",
+      "regular": null,
+      "format": "Carry-on",
+      "note": "Official page displayed USD 239.99 for Carry-On 20-inch / Black and live product data marked the variant available. A company announcement dated 20 November states 20% off the US site from 1 November through 3 December with no code, but the product page did not expose a distinct pre-discount amount; no regular price is inferred. Launch date is unknown. Dimensions include handle and wheels.",
+      "sku": "LA-8361-02T00",
+      "sourcePhoto": "https://cdn.shopify.com/s/files/1/0029/3404/6831/files/1_5a1f44ac-1215-4f09-bfdc-f305c546376e.jpg?v=1743389609",
+      "id": "offer-bd6030c8",
+      "announcementDate": "2026-11-20",
+      "promotionStart": "2026-11-01",
+      "promotionEnd": "2026-12-03"
     }
   ],
   "retailers": [
