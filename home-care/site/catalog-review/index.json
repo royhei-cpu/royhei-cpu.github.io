@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-21",
-  "sourceCheckedAt": "2026-11-21",
+  "reviewedAt": "2026-11-22",
+  "sourceCheckedAt": "2026-11-22",
   "files": [
     "part-001.json",
     "part-002.json",
@@ -370,5 +370,5 @@
     "gap-review-20261102-53.json.gz",
     "gap-review-20261102-54.json.gz"
   ],
-  "reviewScope": "Daily material-change follow-up across Amazon US, Walmart, Costco, TikTok Shop and Quince plus official brand news. No catalog addition met the exact-item evidence threshold, so all 10,269 records remain unchanged. SharkNinja's 19 November RazorVac announcement and exact U.S. direct-store EW101 observation are retained as factual news; the direct store showed US$129.99 and the announcement says Amazon is coming soon, but no Amazon ASIN, seller, exact pack, price or availability was established. Amazon remained robots-blocked, Walmart discovery did not establish a deduplicated exact addition, Costco promotion pages showed no new distinct event beyond retained offers, TikTok Shop discovery lacked stable exact-PDP evidence, and Quince remained adjacent Home Organization. Full retailer/category pagination remains incomplete."
+  "reviewScope": "Daily material-change follow-up across Amazon US, Walmart, Costco, TikTok Shop and Quince plus official brand news. No exact item met the catalog-addition threshold and no distinct in-scope news event was verified, so all 10,269 records and the existing deduplicated news feed remain unchanged. Amazon remained robots-blocked; Walmart's dynamic household-cleaning pages did not establish a deduplicated exact addition; Costco's Holiday Savings page continued offers already covered by the retained 16 November promotion event; TikTok Shop's direct U.S. category route redirected to a security/region page and did not expose stable exact-PDP evidence; Quince remained adjacent Home Organization. Full retailer/category pagination remains incomplete, and the 16 November comprehensive review remains the latest full-retailer sampling artifact."
 }

@@ -227,3 +227,11 @@ The three-row selected-only CSV was inspected for exact row count, retailer mapp
 - Amazon remained robots-blocked. Walmart and TikTok Shop discovery did not provide a deduplicated exact item with complete variant, seller and matched-photo evidence. Quince remained adjacent Home Organization.
 - The 16 November comprehensive review remains the latest full-retailer sampling artifact. Today's priority-channel follow-up does not claim complete pagination or inventory coverage.
 - See `site/catalog-review/daily-source-check-2026-11-21.json`.
+
+## 22 November 2026 — daily priority-channel follow-up
+
+- Preserved all 10,269 canonical records, stable IDs, photographs, retailer/category mappings and source-linked evidence; no exact retailer listing met the catalog-addition threshold.
+- Verified zero distinct in-scope news events after deduplication. SharkNinja's 19 November RazorVac announcement, Clorox Purell ProCare's 17 November announcement and Costco's 16 November promotion window remain the latest retained events; rechecking those pages did not create new dates or duplicate news.
+- Amazon remained robots-blocked. Walmart's dynamic household-cleaning discovery did not establish a deduplicated exact item with complete variant, seller and matched-photo evidence. Costco's Holiday Savings page continued previously retained offers. TikTok Shop's U.S. category route redirected to a security/region page. Quince remained adjacent Home Organization.
+- The 16 November comprehensive review remains the latest full-retailer sampling artifact. Today's priority-channel follow-up does not claim complete pagination or inventory coverage.
+- See `site/catalog-review/daily-source-check-2026-11-22.json`.
