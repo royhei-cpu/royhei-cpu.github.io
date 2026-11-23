@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "baselineBrands": 98,
-  "addedBrands": 78,
-  "totalBrands": 177,
-  "totalPricedOffers": 2078,
-  "totalPhotoReferences": 570,
+  "addedBrands": 79,
+  "totalBrands": 178,
+  "totalPricedOffers": 2082,
+  "totalPhotoReferences": 574,
   "newBrandIds": [
     "dta-nova",
     "briefing",
@@ -83,7 +83,8 @@
     "artrips",
     "milesto",
     "american-dreamliner",
-    "mark-lona"
+    "mark-lona",
+    "katie-loxton"
   ],
   "scope": "All existing structured brand references reconciled plus regional, specialist, fashion and marketplace expansion. This is not a worldwide census.",
   "unmatchedInternalBrands": [],
@@ -2456,6 +2457,19 @@
       "launchDateVerified": true,
       "assortmentComplete": false,
       "status": "Two official storefront observations for one exact Silver / ONE SKU; wider assortment incomplete."
+    },
+    {
+      "brandId": "katie-loxton",
+      "brand": "Katie Loxton",
+      "source": "https://katieloxton.com/travel/suitcases",
+      "checked": "2026-11-23",
+      "pricedOffers": 4,
+      "photoReferences": 4,
+      "interiorReferences": 0,
+      "factoryVerified": false,
+      "launchDateVerified": false,
+      "assortmentComplete": false,
+      "status": "Four official UK exact offers; exact exteriors only. Conflicting dimensions, interior views, launch date and factory unresolved."
     }
   ],
   "sourceChecks": [

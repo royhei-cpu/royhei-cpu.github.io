@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -8655,6 +8655,118 @@
         "identifierSource": "https://www.level8cases.com/products/hegent-carry-on-luggage-20",
         "identifierChecked": "2026-11-22"
       }
+    },
+    {
+      "id": "katie-loxton-avora-cabin-off-white-exterior",
+      "brandId": "katie-loxton",
+      "offerId": "offer-35b48e0a",
+      "view": "Exterior",
+      "caption": "Avora Hard Shell Cabin Suitcase · Off White · exact exterior",
+      "source": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-off-white-bundle-klb5070-aw26",
+      "imageUrl": "https://katieloxton.com/media/catalog/product/cache/16cb5e8d1a72e65ae7ff0acc8c714557/k/l/klb5070-c1-e2_2.jpg",
+      "localPath": "offer-photo-assets/katie-loxton-avora-cabin-off-white-exterior.webp",
+      "checked": "2026-11-23",
+      "remoteReference": true,
+      "scope": "Official exact-product image matched to Avora Hard Shell Cabin Suitcase, Cabin, Off White and SKU HARDSHELL-SWHITE; production revision not stated. No exact interior image was verified.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Avora Hard Shell Cabin Suitcase",
+        "size": "Cabin",
+        "color": "Off White",
+        "revision": null,
+        "sku": "HARDSHELL-SWHITE"
+      },
+      "evidence": {
+        "type": "Official exact-product storefront image",
+        "visualChecked": true,
+        "imageSha256": "253aab7d1104c8103deb008692111ecaae95aea5362674fa75fc85b783eb2c64",
+        "identifierSource": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-off-white-bundle-klb5070-aw26",
+        "identifierChecked": "2026-11-23"
+      }
+    },
+    {
+      "id": "katie-loxton-avora-cabin-black-exterior",
+      "brandId": "katie-loxton",
+      "offerId": "offer-e0fe63ee",
+      "view": "Exterior",
+      "caption": "Avora Hard Shell Cabin Suitcase · Black · exact exterior",
+      "source": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-black-bundle-klb5071-aw26",
+      "imageUrl": "https://katieloxton.com/media/catalog/product/cache/16cb5e8d1a72e65ae7ff0acc8c714557/k/l/klb5071-c1-e2.jpg",
+      "localPath": "offer-photo-assets/katie-loxton-avora-cabin-black-exterior.webp",
+      "checked": "2026-11-23",
+      "remoteReference": true,
+      "scope": "Official exact-product image matched to Avora Hard Shell Cabin Suitcase, Cabin, Black and SKU HARDSHELL-SBLACK; production revision not stated. No exact interior image was verified.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Avora Hard Shell Cabin Suitcase",
+        "size": "Cabin",
+        "color": "Black",
+        "revision": null,
+        "sku": "HARDSHELL-SBLACK"
+      },
+      "evidence": {
+        "type": "Official exact-product storefront image",
+        "visualChecked": true,
+        "imageSha256": "d4e88bf4d7e9cafd8d2111ded5c0739d837dc4dd2cd153b920b07eaae1ca61b2",
+        "identifierSource": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-black-bundle-klb5071-aw26",
+        "identifierChecked": "2026-11-23"
+      }
+    },
+    {
+      "id": "katie-loxton-avora-large-off-white-exterior",
+      "brandId": "katie-loxton",
+      "offerId": "offer-2df3d287",
+      "view": "Exterior",
+      "caption": "Avora Hard Shell Suitcase · Off White · exact exterior",
+      "source": "https://katieloxton.com/avora-hardshell-suitcase-in-off-white-bundle-klb5068-aw26",
+      "imageUrl": "https://katieloxton.com/media/catalog/product/cache/16cb5e8d1a72e65ae7ff0acc8c714557/k/l/klb5068-c1-e2_3.jpg",
+      "localPath": "offer-photo-assets/katie-loxton-avora-large-off-white-exterior.webp",
+      "checked": "2026-11-23",
+      "remoteReference": true,
+      "scope": "Official exact-product image matched to Avora Hard Shell Suitcase, Large, Off White and SKU HARDSHELL-LWHITE; production revision not stated. No exact interior image was verified.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Avora Hard Shell Suitcase",
+        "size": "Large",
+        "color": "Off White",
+        "revision": null,
+        "sku": "HARDSHELL-LWHITE"
+      },
+      "evidence": {
+        "type": "Official exact-product storefront image",
+        "visualChecked": true,
+        "imageSha256": "e2e11f97429c405b345c27a4c56179fd0c2d5a4f9f87996f4502265a0e55db79",
+        "identifierSource": "https://katieloxton.com/avora-hardshell-suitcase-in-off-white-bundle-klb5068-aw26",
+        "identifierChecked": "2026-11-23"
+      }
+    },
+    {
+      "id": "katie-loxton-avora-large-black-exterior",
+      "brandId": "katie-loxton",
+      "offerId": "offer-7b0f0043",
+      "view": "Exterior",
+      "caption": "Avora Hard Shell Suitcase · Black · exact exterior",
+      "source": "https://katieloxton.com/avora-hardshell-suitcase-in-black-bundle-klb5069-aw26",
+      "imageUrl": "https://katieloxton.com/media/catalog/product/cache/16cb5e8d1a72e65ae7ff0acc8c714557/k/l/klb5069-c1-e2.jpg",
+      "localPath": "offer-photo-assets/katie-loxton-avora-large-black-exterior.webp",
+      "checked": "2026-11-23",
+      "remoteReference": true,
+      "scope": "Official exact-product image matched to Avora Hard Shell Suitcase, Large, Black and SKU HARDSHELL-LBLACK; production revision not stated. No exact interior image was verified.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Avora Hard Shell Suitcase",
+        "size": "Large",
+        "color": "Black",
+        "revision": null,
+        "sku": "HARDSHELL-LBLACK"
+      },
+      "evidence": {
+        "type": "Official exact-product storefront image",
+        "visualChecked": true,
+        "imageSha256": "7d97da07af663e241a895829c61de8c7a48e9ce37e13f3b54afa7139f1f5f977",
+        "identifierSource": "https://katieloxton.com/avora-hardshell-suitcase-in-black-bundle-klb5069-aw26",
+        "identifierChecked": "2026-11-23"
+      }
     }
   ],
   "byBrand": {
@@ -9573,6 +9685,12 @@
       "mark-lona-gauge-jp-interior",
       "mark-lona-gauge-global-exterior",
       "mark-lona-gauge-global-interior"
+    ],
+    "katie-loxton": [
+      "katie-loxton-avora-cabin-off-white-exterior",
+      "katie-loxton-avora-cabin-black-exterior",
+      "katie-loxton-avora-large-off-white-exterior",
+      "katie-loxton-avora-large-black-exterior"
     ]
   },
   "note": "Galleries compare sourced product and collection references. Each image has its own model/collection caption and source. An interior from another model is not evidence of the priced model’s construction.",
@@ -12094,7 +12212,183 @@
           "Availability and promotion may change"
         ]
       }
+    },
+    {
+      "offerId": "offer-35b48e0a",
+      "offerIdentity": {
+        "brand": "Katie Loxton",
+        "product": "Avora Hard Shell Cabin Suitcase · Off White · HARDSHELL-SWHITE",
+        "currency": "GBP",
+        "retailer": "Katie Loxton UK",
+        "source": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-off-white-bundle-klb5070-aw26"
+      },
+      "checked": "2026-11-23",
+      "productPage": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-off-white-bundle-klb5070-aw26",
+      "identity": {
+        "model": "Avora Hard Shell Cabin Suitcase",
+        "size": "Cabin",
+        "color": "Off White",
+        "revision": null,
+        "sku": "HARDSHELL-SWHITE"
+      },
+      "photoIds": [
+        "katie-loxton-avora-cabin-off-white-exterior"
+      ],
+      "gaps": [
+        "No exact open-interior photograph was verified.",
+        "The page publishes two conflicting size fields; exterior dimensions remain unresolved.",
+        "Launch date is not stated.",
+        "Production revision is not stated.",
+        "The exact factory or production operator is not identified.",
+        "Availability may change after the observation."
+      ],
+      "note": "Official exact-SKU exterior visually checked. No collection image is relabeled as an exact interior.",
+      "sourceRecheck": {
+        "date": "2026-11-23",
+        "method": "Official collection, exact-product page text and direct official image asset",
+        "liveHtmlVerified": true,
+        "limitations": [
+          "Exact interior missing",
+          "Conflicting dimension fields",
+          "Launch date unknown",
+          "Production revision unknown",
+          "Exact factory unknown",
+          "Availability may change"
+        ]
+      }
+    },
+    {
+      "offerId": "offer-e0fe63ee",
+      "offerIdentity": {
+        "brand": "Katie Loxton",
+        "product": "Avora Hard Shell Cabin Suitcase · Black · HARDSHELL-SBLACK",
+        "currency": "GBP",
+        "retailer": "Katie Loxton UK",
+        "source": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-black-bundle-klb5071-aw26"
+      },
+      "checked": "2026-11-23",
+      "productPage": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-black-bundle-klb5071-aw26",
+      "identity": {
+        "model": "Avora Hard Shell Cabin Suitcase",
+        "size": "Cabin",
+        "color": "Black",
+        "revision": null,
+        "sku": "HARDSHELL-SBLACK"
+      },
+      "photoIds": [
+        "katie-loxton-avora-cabin-black-exterior"
+      ],
+      "gaps": [
+        "No exact open-interior photograph was verified.",
+        "The page publishes two conflicting size fields; exterior dimensions remain unresolved.",
+        "Launch date is not stated.",
+        "Production revision is not stated.",
+        "The exact factory or production operator is not identified.",
+        "Availability may change after the observation."
+      ],
+      "note": "Official exact-SKU exterior visually checked. No collection image is relabeled as an exact interior.",
+      "sourceRecheck": {
+        "date": "2026-11-23",
+        "method": "Official collection, exact-product page text and direct official image asset",
+        "liveHtmlVerified": true,
+        "limitations": [
+          "Exact interior missing",
+          "Conflicting dimension fields",
+          "Launch date unknown",
+          "Production revision unknown",
+          "Exact factory unknown",
+          "Availability may change"
+        ]
+      }
+    },
+    {
+      "offerId": "offer-2df3d287",
+      "offerIdentity": {
+        "brand": "Katie Loxton",
+        "product": "Avora Hard Shell Suitcase · Off White · HARDSHELL-LWHITE",
+        "currency": "GBP",
+        "retailer": "Katie Loxton UK",
+        "source": "https://katieloxton.com/avora-hardshell-suitcase-in-off-white-bundle-klb5068-aw26"
+      },
+      "checked": "2026-11-23",
+      "productPage": "https://katieloxton.com/avora-hardshell-suitcase-in-off-white-bundle-klb5068-aw26",
+      "identity": {
+        "model": "Avora Hard Shell Suitcase",
+        "size": "Large",
+        "color": "Off White",
+        "revision": null,
+        "sku": "HARDSHELL-LWHITE"
+      },
+      "photoIds": [
+        "katie-loxton-avora-large-off-white-exterior"
+      ],
+      "gaps": [
+        "No exact open-interior photograph was verified.",
+        "The page publishes two conflicting size fields; exterior dimensions remain unresolved.",
+        "Launch date is not stated.",
+        "Production revision is not stated.",
+        "The exact factory or production operator is not identified.",
+        "Availability may change after the observation."
+      ],
+      "note": "Official exact-SKU exterior visually checked. No collection image is relabeled as an exact interior.",
+      "sourceRecheck": {
+        "date": "2026-11-23",
+        "method": "Official collection, exact-product page text and direct official image asset",
+        "liveHtmlVerified": true,
+        "limitations": [
+          "Exact interior missing",
+          "Conflicting dimension fields",
+          "Launch date unknown",
+          "Production revision unknown",
+          "Exact factory unknown",
+          "Availability may change"
+        ]
+      }
+    },
+    {
+      "offerId": "offer-7b0f0043",
+      "offerIdentity": {
+        "brand": "Katie Loxton",
+        "product": "Avora Hard Shell Suitcase · Black · HARDSHELL-LBLACK",
+        "currency": "GBP",
+        "retailer": "Katie Loxton UK",
+        "source": "https://katieloxton.com/avora-hardshell-suitcase-in-black-bundle-klb5069-aw26"
+      },
+      "checked": "2026-11-23",
+      "productPage": "https://katieloxton.com/avora-hardshell-suitcase-in-black-bundle-klb5069-aw26",
+      "identity": {
+        "model": "Avora Hard Shell Suitcase",
+        "size": "Large",
+        "color": "Black",
+        "revision": null,
+        "sku": "HARDSHELL-LBLACK"
+      },
+      "photoIds": [
+        "katie-loxton-avora-large-black-exterior"
+      ],
+      "gaps": [
+        "No exact open-interior photograph was verified.",
+        "The page publishes two conflicting size fields; exterior dimensions remain unresolved.",
+        "Launch date is not stated.",
+        "Production revision is not stated.",
+        "The exact factory or production operator is not identified.",
+        "Availability may change after the observation."
+      ],
+      "note": "Official exact-SKU exterior visually checked. No collection image is relabeled as an exact interior.",
+      "sourceRecheck": {
+        "date": "2026-11-23",
+        "method": "Official collection, exact-product page text and direct official image asset",
+        "liveHtmlVerified": true,
+        "limitations": [
+          "Exact interior missing",
+          "Conflicting dimension fields",
+          "Launch date unknown",
+          "Production revision unknown",
+          "Exact factory unknown",
+          "Availability may change"
+        ]
+      }
     }
   ],
-  "offerPhotoChecked": "2026-11-22"
+  "offerPhotoChecked": "2026-11-23"
 }

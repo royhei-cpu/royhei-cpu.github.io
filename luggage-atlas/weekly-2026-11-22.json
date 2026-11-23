@@ -1,0 +1,202 @@
+{
+  "edition": "2026-11-22",
+  "periodStart": "2026-11-13",
+  "periodEnd": "2026-11-22",
+  "baseline": false,
+  "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
+  "nextScheduled": "2026-11-23",
+  "coverage": "Targeted Sunday verification. LEVEL8 Hegent Carry-On 20-inch / Black was added as one official exact offer with matched exterior/interior references, exact dimensions and model-specific features. The company-announced promotion is recorded separately from the storefront product publication timestamp; commercial launch date remains unknown. The November 16 CSV and review retain the comprehensive Monday assortment review. Wider worldwide assortment and exact factory remain unknown.",
+  "items": [
+    {
+      "id": "level8-hegent-black-friday-2026",
+      "brand": "LEVEL8",
+      "brandId": "level8",
+      "title": "LEVEL8 announces Hegent Black Friday promotion",
+      "date": "2026-11-20",
+      "dateType": "Company promotion announcement date; official storefront product payload carries a 31 October 2023 publication timestamp; exact US page checked 22 November 2026. Product launch date unknown.",
+      "status": "Promotion",
+      "market": "United States",
+      "change": "LEVEL8 announced 20% off its US site from 1 November through 3 December. The official Hegent page displayed USD 239.99 for the Black 20-inch SKU, 38 L, 4.5 kg and 38.5 × 23 × 56 cm including handle and wheels. The page did not expose a distinct pre-discount amount, so no regular price is inferred.",
+      "price": "USD 239.99 displayed; company states 20% off through December 3; regular price not captured",
+      "source": "https://www.level8cases.com/products/hegent-carry-on-luggage-20",
+      "theme": "Zipperless frame & organized packing",
+      "photoId": "level8-hegent-20-black-interior"
+    },
+    {
+      "id": "mark-lona-gauge-alloy-2026",
+      "brand": "MARK & LONA",
+      "brandId": "mark-lona",
+      "title": "MARK & LONA launches Gauge Alloy Carry-On Case",
+      "date": "2026-11-20",
+      "dateType": "Official stated launch date; exact Japan and global-store Japanese-locale pages checked 21 November.",
+      "status": "Dated launch",
+      "market": "Japan storefront and global-store Japanese-language locale verified",
+      "change": "The Silver / ONE aluminum case is listed at JPY 110,000 tax included on the Japan storefront and JPY 135,000 tax included on the global-store Japanese-language locale. It holds 31 L, weighs 4.5 kg and adds upright front-flap access, a 15-inch device pocket, detachable portable pocket, Hinomoto casters and dual TSA-compatible latch locks.",
+      "price": "JPY 110,000 Japan; JPY 135,000 global-store Japanese locale",
+      "source": "https://www.markandlona.com/products/mls-26c-sb91",
+      "theme": "Aluminum, upright access & device organization",
+      "photoId": "mark-lona-gauge-jp-interior"
+    },
+    {
+      "id": "globe-trotter-gt897-2026",
+      "brand": "Globe-Trotter",
+      "brandId": "globe-trotter",
+      "title": "GT897 launches as Globe-Trotter’s first polycarbonate carry-on",
+      "date": "2026-11-18",
+      "dateType": "Official global and Japan pages state 18 November arrival / release; exact US and Japan product pages checked 20 November.",
+      "status": "Dated launch",
+      "market": "United States and Japan verified",
+      "change": "Black / Black and Green / Brown are listed at USD 1,395 in the US and JPY 209,000 tax included in Japan. Each exact regional SKU is retained separately. The 55 × 40 × 23 cm case weighs 4 kg, holds 40 L and combines a polycarbonate shell, Vulcanised Fibreboard front panel and calf-leather details.",
+      "price": "USD 1,395; JPY 209,000 tax included",
+      "source": "https://us.globe-trotter.com/products/gt897-4-wheels-carry-on-black-black-chrome",
+      "theme": "Hybrid heritage construction & flat opening",
+      "photoId": "globe-trotter-gt897-us-black-interior"
+    },
+    {
+      "id": "rimowa-margiela-classic-cabin-2026",
+      "brand": "RIMOWA",
+      "brandId": "rimowa",
+      "title": "RIMOWA x Maison Margiela Classic Cabin launches with live US and Japan pricing",
+      "date": "2026-11-19",
+      "dateType": "Brand-announced launch date; live official US product page and official Japan release checked November 19. Announcement date November 12; first Atlas EUR price observation November 18.",
+      "status": "Dated launch",
+      "market": "United States and Japan verified; selected worldwide launch announced",
+      "change": "The live US page lists Silver / White SKU 97390044 at USD 4,300 and confirms 55 × 40 × 23 cm, 4.7 kg and 36 L. An exact front view and open-interior view are now captured. RIMOWA Japan quotes JPY 651,200 tax included. Store-level stock and a live EUR transaction page were not audited.",
+      "price": "USD 4,300; JPY 651,200 tax included; retained EUR 3,200 announcement RRP",
+      "source": "https://www.rimowa.com/us/en/rimowa-maison-margiela/classic-cabin/97390044.html",
+      "theme": "Material finish, atelier interior & market variants",
+      "photoId": "rimowa-margiela-classic-us-interior"
+    },
+    {
+      "id": "travelpro-roundtrip-2026-11-17",
+      "brand": "Travelpro",
+      "brandId": "travelpro",
+      "title": "Travelpro Roundtrip underseater listed at USD 99.99 in four colors",
+      "date": "2026-11-17",
+      "dateType": "Atlas price verification. Launch date unknown.",
+      "status": "New coverage",
+      "market": "United States",
+      "change": "Travelpro showed USD 99.99 for Black, Navy, Olive Green and Ash Lilac. The Black SKU was previously observed at USD 140 on November 8. The storefront listing dates to September 3, 2024. The launch date is unknown.",
+      "price": "USD 99.99",
+      "source": "https://travelpro.com/products/roundtrip®-rolling-underseat-carry-on?variant=41349971181666",
+      "theme": "Underseat organization",
+      "photoId": "roundtrip-411247701-exterior"
+    },
+    {
+      "id": "nordstrom-dreamliner-225-navy",
+      "brand": "American Dreamliner",
+      "brandId": "american-dreamliner",
+      "title": "Nordstrom lists American Dreamliner Navy carry-on at USD 42.49",
+      "date": "2026-11-16",
+      "dateType": "First Atlas observation of the retailer listing. Launch date unknown.",
+      "status": "New coverage",
+      "market": "United States",
+      "change": "Nordstrom shows USD 42.49 and a previous price of USD 49.99 for one Navy 22.5-inch carry-on. Concept One Accessories is the marketplace seller. Launch date and promotion period are unverified.",
+      "price": "USD 42.49; previous USD 49.99",
+      "source": "https://www.nordstrom.com/s/22-5-hardside-carry-on-luggage/8581172?breadcrumb=Home%2FAll+Results&color=001",
+      "theme": "Value carry-ons",
+      "photoId": "american-dreamliner-225-navy-exterior"
+    },
+    {
+      "id": "peak-roller-lite-us",
+      "brand": "Peak Design",
+      "brandId": "peak-design",
+      "title": "Roller Lite: three sizes and a lower-weight trolley design",
+      "date": "2026-11-11",
+      "dateType": "First Atlas verification. November 10 launch reported by press; dated primary notice not yet established.",
+      "status": "New coverage",
+      "market": "United States",
+      "change": "Black Regular, Plus and Trunk 95L now have model-specific dimensions, weights and promotional prices. Carbon-fiber trolley, cube compatibility and an AirTag pocket are documented. The Trunk page explicitly specifies replaceable casters.",
+      "price": "USD 404.96 / 422.96 / 494.96; regular USD 449.95 / 469.95 / 549.95",
+      "source": "https://www.peakdesign.com/products/roller-lite?Color=Black&Size=Regular",
+      "theme": "Access & organization",
+      "photoId": "peak-roller-lite-regular-0"
+    },
+    {
+      "id": "blast-x-roller-us",
+      "brand": "BAGSMART",
+      "brandId": "bagsmart",
+      "title": "Blast X launches in the US",
+      "date": "2026-11-13",
+      "dateType": "Brand announcement and stated availability. Roller offers checked November 15.",
+      "status": "Dated launch",
+      "market": "United States",
+      "change": "The 43 L roller is available in four cataloged colors with matched interior and exterior views.",
+      "price": "USD 229.99 for each reviewed roller color.",
+      "source": "https://www.prnewswire.com/news-releases/bagsmart-unveils-blast-x-a-travel-bag-series-engineered-for-comfort-and-built-to-switch-modes-302936205.html",
+      "theme": "Convertible carry",
+      "photoId": "blast-x-43l-0"
+    }
+  ],
+  "analysis": [],
+  "metricsNote": "Counts refer to this notebook. See Latest news for additional dated announcements, including planned releases.",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "label": "First weekly dashboard / baseline",
+      "period": "28 October–3 November 2026",
+      "archive": "weekly-2026-11-03.json"
+    },
+    {
+      "date": "2026-11-09",
+      "label": "November 9 weekly review",
+      "period": "4–9 November 2026"
+    },
+    {
+      "date": "2026-11-15",
+      "label": "Previous dashboard",
+      "period": "November 4–15",
+      "archive": "weekly-2026-11-15.json"
+    },
+    {
+      "date": "2026-11-16",
+      "label": "Monday assortment review",
+      "period": "November 10–16",
+      "archive": "weekly-2026-11-16.json"
+    },
+    {
+      "date": "2026-11-17",
+      "label": "Previous daily coverage update",
+      "period": "November 11–17",
+      "archive": "weekly-2026-11-17.json"
+    },
+    {
+      "date": "2026-11-18",
+      "label": "Previous daily coverage update",
+      "period": "November 12–18",
+      "archive": "weekly-2026-11-18.json"
+    },
+    {
+      "date": "2026-11-19",
+      "label": "Previous daily coverage update",
+      "period": "November 13–19",
+      "archive": "weekly-2026-11-19.json"
+    },
+    {
+      "date": "2026-11-20",
+      "label": "Previous daily coverage update",
+      "period": "November 13–20",
+      "archive": "weekly-2026-11-20.json"
+    },
+    {
+      "date": "2026-11-21",
+      "label": "Previous daily coverage update",
+      "period": "November 13–21",
+      "archive": "weekly-2026-11-21.json"
+    }
+  ],
+  "coverageRefresh": {
+    "date": "2026-11-04",
+    "addedBrands": 75,
+    "totalBrands": 173,
+    "note": "DTA / DTA Nova added; existing price and news brand references reconciled."
+  },
+  "latestBulletin": {
+    "checked": "2026-11-22",
+    "newsDate": "2026-11-20",
+    "title": "LEVEL8 announces Hegent Black Friday promotion",
+    "text": "The Black 20-inch Hegent exact offer is now documented at USD 239.99 with matched exterior/interior views and exact dimensions. The company says the US-site promotion runs through 3 December; product launch date remains unknown.",
+    "source": "https://www.level8cases.com/products/hegent-carry-on-luggage-20",
+    "records": 1
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "fields": [
     {
       "id": "opening",
@@ -14120,12 +14120,312 @@
       "photoSource": "https://www.level8cases.com/products/hegent-carry-on-luggage-20",
       "photoScope": "Matched to Hegent Carry-On 20-inch, Black and SKU LA-8361-02T00; production revision not stated.",
       "photoCaption": "Hegent Carry-On Luggage · 20 in / 38 L · Black exterior"
+    },
+    {
+      "id": "offer-35b48e0a",
+      "offerId": "offer-35b48e0a",
+      "brandId": "katie-loxton",
+      "brand": "Katie Loxton",
+      "model": "Avora Hard Shell Cabin Suitcase · Off White",
+      "source": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-off-white-bundle-klb5070-aw26",
+      "checked": "2026-11-23",
+      "scope": "Official UK exact-product record. Exact interior photograph, resolved exterior dimensions, launch date, production revision and factory remain unknown.",
+      "features": {
+        "material": {
+          "value": "Polycarbonate shell with PU trims",
+          "basis": "Official exact-product description; composition not independently tested."
+        },
+        "expansion": {
+          "value": "Expandable design stated for the Avora collection",
+          "basis": "Official Avora collection claim linked to the named model; mechanism and expanded dimensions are not documented on the exact page."
+        },
+        "wheels": {
+          "value": "Four easy-gliding wheels",
+          "basis": "Official exact-product description; performance not independently tested."
+        },
+        "repair": {
+          "value": "Corner caps and wheels can be replaced during the 3-year warranty and supplied for self-repair",
+          "basis": "Official exact-product warranty note. Compatible spare-part ordering outside warranty, DIY tools/instructions, regional availability and service-only tasks are not stated."
+        },
+        "handle": {
+          "value": "Retractable handle",
+          "basis": "Official exact-product description."
+        },
+        "organization": {
+          "value": "Multiple internal pockets and compression strap",
+          "basis": "Official exact-product description; no exact interior image was verified."
+        },
+        "compression": {
+          "value": "Compression strap",
+          "basis": "Official exact-product description; no exact interior image was verified."
+        },
+        "lock": {
+          "value": "TSA lock function",
+          "basis": "Official exact-product description; regional inspection compatibility not independently audited."
+        },
+        "dimensions": {
+          "value": "Source conflict: the description states 39 × 25 × 53 cm; the Product Details field states 47.5 × 39 × 20 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+          "basis": "Two fields on the official exact-product page conflict; neither is treated as resolved exterior dimensions."
+        },
+        "weight": {
+          "value": "3.4 kg",
+          "basis": "Official exact-product Size & Weight line."
+        },
+        "warranty": {
+          "value": "3 years for defects and replacements; general wear and customer-caused damage excluded",
+          "basis": "Official exact-product warranty note; regional process and outcomes not independently audited."
+        }
+      },
+      "featureCount": 11,
+      "region": "Europe",
+      "market": "United Kingdom · GBP",
+      "aliases": [
+        "Avora by Katie Loxton"
+      ],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 199.99,
+      "currency": "GBP",
+      "priceDate": "2026-11-23",
+      "image": "offer-photo-assets/katie-loxton-avora-cabin-off-white-exterior.webp",
+      "gallery": [
+        "offer-photo-assets/katie-loxton-avora-cabin-off-white-exterior.webp"
+      ],
+      "photoKind": "exact-offer",
+      "photoSource": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-off-white-bundle-klb5070-aw26",
+      "photoScope": "Matched to Avora Hard Shell Cabin Suitcase, Cabin, Off White and SKU HARDSHELL-SWHITE; production revision not stated. Exterior only.",
+      "photoCaption": "Avora Hard Shell Cabin Suitcase · Off White · exterior"
+    },
+    {
+      "id": "offer-e0fe63ee",
+      "offerId": "offer-e0fe63ee",
+      "brandId": "katie-loxton",
+      "brand": "Katie Loxton",
+      "model": "Avora Hard Shell Cabin Suitcase · Black",
+      "source": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-black-bundle-klb5071-aw26",
+      "checked": "2026-11-23",
+      "scope": "Official UK exact-product record. Exact interior photograph, resolved exterior dimensions, launch date, production revision and factory remain unknown.",
+      "features": {
+        "material": {
+          "value": "Polycarbonate shell with PU trims",
+          "basis": "Official exact-product description; composition not independently tested."
+        },
+        "expansion": {
+          "value": "Expandable design stated for the Avora collection",
+          "basis": "Official Avora collection claim linked to the named model; mechanism and expanded dimensions are not documented on the exact page."
+        },
+        "wheels": {
+          "value": "Four easy-gliding wheels",
+          "basis": "Official exact-product description; performance not independently tested."
+        },
+        "repair": {
+          "value": "Corner caps and wheels can be replaced during the 3-year warranty and supplied for self-repair",
+          "basis": "Official exact-product warranty note. Compatible spare-part ordering outside warranty, DIY tools/instructions, regional availability and service-only tasks are not stated."
+        },
+        "handle": {
+          "value": "Retractable handle",
+          "basis": "Official exact-product description."
+        },
+        "organization": {
+          "value": "Multiple internal pockets and compression strap",
+          "basis": "Official exact-product description; no exact interior image was verified."
+        },
+        "compression": {
+          "value": "Compression strap",
+          "basis": "Official exact-product description; no exact interior image was verified."
+        },
+        "lock": {
+          "value": "TSA lock function",
+          "basis": "Official exact-product description; regional inspection compatibility not independently audited."
+        },
+        "dimensions": {
+          "value": "Source conflict: the description states 39 × 25 × 53 cm; the Product Details field states 47.5 × 39 × 20 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+          "basis": "Two fields on the official exact-product page conflict; neither is treated as resolved exterior dimensions."
+        },
+        "weight": {
+          "value": "3.4 kg",
+          "basis": "Official exact-product Size & Weight line."
+        },
+        "warranty": {
+          "value": "3 years for defects and replacements; general wear and customer-caused damage excluded",
+          "basis": "Official exact-product warranty note; regional process and outcomes not independently audited."
+        }
+      },
+      "featureCount": 11,
+      "region": "Europe",
+      "market": "United Kingdom · GBP",
+      "aliases": [
+        "Avora by Katie Loxton"
+      ],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 199.99,
+      "currency": "GBP",
+      "priceDate": "2026-11-23",
+      "image": "offer-photo-assets/katie-loxton-avora-cabin-black-exterior.webp",
+      "gallery": [
+        "offer-photo-assets/katie-loxton-avora-cabin-black-exterior.webp"
+      ],
+      "photoKind": "exact-offer",
+      "photoSource": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-black-bundle-klb5071-aw26",
+      "photoScope": "Matched to Avora Hard Shell Cabin Suitcase, Cabin, Black and SKU HARDSHELL-SBLACK; production revision not stated. Exterior only.",
+      "photoCaption": "Avora Hard Shell Cabin Suitcase · Black · exterior"
+    },
+    {
+      "id": "offer-2df3d287",
+      "offerId": "offer-2df3d287",
+      "brandId": "katie-loxton",
+      "brand": "Katie Loxton",
+      "model": "Avora Hard Shell Suitcase · Off White",
+      "source": "https://katieloxton.com/avora-hardshell-suitcase-in-off-white-bundle-klb5068-aw26",
+      "checked": "2026-11-23",
+      "scope": "Official UK exact-product record. Exact interior photograph, resolved exterior dimensions, launch date, production revision and factory remain unknown.",
+      "features": {
+        "material": {
+          "value": "Polycarbonate shell with PU trims",
+          "basis": "Official exact-product description; composition not independently tested."
+        },
+        "expansion": {
+          "value": "Expandable design stated for the Avora collection",
+          "basis": "Official Avora collection claim linked to the named model; mechanism and expanded dimensions are not documented on the exact page."
+        },
+        "wheels": {
+          "value": "Four easy-gliding wheels",
+          "basis": "Official exact-product description; performance not independently tested."
+        },
+        "repair": {
+          "value": "Corner caps and wheels can be replaced during the 3-year warranty and supplied for self-repair",
+          "basis": "Official exact-product warranty note. Compatible spare-part ordering outside warranty, DIY tools/instructions, regional availability and service-only tasks are not stated."
+        },
+        "handle": {
+          "value": "Retractable handle",
+          "basis": "Official exact-product description."
+        },
+        "organization": {
+          "value": "Multiple internal pockets and compression strap",
+          "basis": "Official exact-product description; no exact interior image was verified."
+        },
+        "compression": {
+          "value": "Compression strap",
+          "basis": "Official exact-product description; no exact interior image was verified."
+        },
+        "lock": {
+          "value": "TSA lock function",
+          "basis": "Official exact-product description; regional inspection compatibility not independently audited."
+        },
+        "dimensions": {
+          "value": "Source conflict: the description states 43 × 31 × 71 cm; the Product Details field states 63 × 43 × 30.5 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+          "basis": "Two fields on the official exact-product page conflict; neither is treated as resolved exterior dimensions."
+        },
+        "weight": {
+          "value": "4.2 kg",
+          "basis": "Official exact-product Size & Weight line."
+        },
+        "warranty": {
+          "value": "3 years for defects and replacements; general wear and customer-caused damage excluded",
+          "basis": "Official exact-product warranty note; regional process and outcomes not independently audited."
+        }
+      },
+      "featureCount": 11,
+      "region": "Europe",
+      "market": "United Kingdom · GBP",
+      "aliases": [
+        "Avora by Katie Loxton"
+      ],
+      "recordType": "Priced offer",
+      "format": "Checked luggage",
+      "price": 249.99,
+      "currency": "GBP",
+      "priceDate": "2026-11-23",
+      "image": "offer-photo-assets/katie-loxton-avora-large-off-white-exterior.webp",
+      "gallery": [
+        "offer-photo-assets/katie-loxton-avora-large-off-white-exterior.webp"
+      ],
+      "photoKind": "exact-offer",
+      "photoSource": "https://katieloxton.com/avora-hardshell-suitcase-in-off-white-bundle-klb5068-aw26",
+      "photoScope": "Matched to Avora Hard Shell Suitcase, Large, Off White and SKU HARDSHELL-LWHITE; production revision not stated. Exterior only.",
+      "photoCaption": "Avora Hard Shell Suitcase · Off White · exterior"
+    },
+    {
+      "id": "offer-7b0f0043",
+      "offerId": "offer-7b0f0043",
+      "brandId": "katie-loxton",
+      "brand": "Katie Loxton",
+      "model": "Avora Hard Shell Suitcase · Black",
+      "source": "https://katieloxton.com/avora-hardshell-suitcase-in-black-bundle-klb5069-aw26",
+      "checked": "2026-11-23",
+      "scope": "Official UK exact-product record. Exact interior photograph, resolved exterior dimensions, launch date, production revision and factory remain unknown.",
+      "features": {
+        "material": {
+          "value": "Polycarbonate shell with PU trims",
+          "basis": "Official exact-product description; composition not independently tested."
+        },
+        "expansion": {
+          "value": "Expandable design stated for the Avora collection",
+          "basis": "Official Avora collection claim linked to the named model; mechanism and expanded dimensions are not documented on the exact page."
+        },
+        "wheels": {
+          "value": "Four easy-gliding wheels",
+          "basis": "Official exact-product description; performance not independently tested."
+        },
+        "repair": {
+          "value": "Corner caps and wheels can be replaced during the 3-year warranty and supplied for self-repair",
+          "basis": "Official exact-product warranty note. Compatible spare-part ordering outside warranty, DIY tools/instructions, regional availability and service-only tasks are not stated."
+        },
+        "handle": {
+          "value": "Retractable handle",
+          "basis": "Official exact-product description."
+        },
+        "organization": {
+          "value": "Multiple internal pockets and compression strap",
+          "basis": "Official exact-product description; no exact interior image was verified."
+        },
+        "compression": {
+          "value": "Compression strap",
+          "basis": "Official exact-product description; no exact interior image was verified."
+        },
+        "lock": {
+          "value": "TSA lock function",
+          "basis": "Official exact-product description; regional inspection compatibility not independently audited."
+        },
+        "dimensions": {
+          "value": "Source conflict: the description states 43 × 31 × 71 cm; the Product Details field states 63 × 43 × 30.5 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+          "basis": "Two fields on the official exact-product page conflict; neither is treated as resolved exterior dimensions."
+        },
+        "weight": {
+          "value": "4.2 kg",
+          "basis": "Official exact-product Size & Weight line."
+        },
+        "warranty": {
+          "value": "3 years for defects and replacements; general wear and customer-caused damage excluded",
+          "basis": "Official exact-product warranty note; regional process and outcomes not independently audited."
+        }
+      },
+      "featureCount": 11,
+      "region": "Europe",
+      "market": "United Kingdom · GBP",
+      "aliases": [
+        "Avora by Katie Loxton"
+      ],
+      "recordType": "Priced offer",
+      "format": "Checked luggage",
+      "price": 249.99,
+      "currency": "GBP",
+      "priceDate": "2026-11-23",
+      "image": "offer-photo-assets/katie-loxton-avora-large-black-exterior.webp",
+      "gallery": [
+        "offer-photo-assets/katie-loxton-avora-large-black-exterior.webp"
+      ],
+      "photoKind": "exact-offer",
+      "photoSource": "https://katieloxton.com/avora-hardshell-suitcase-in-black-bundle-klb5069-aw26",
+      "photoScope": "Matched to Avora Hard Shell Suitcase, Large, Black and SKU HARDSHELL-LBLACK; production revision not stated. Exterior only.",
+      "photoCaption": "Avora Hard Shell Suitcase · Black · exterior"
     }
   ],
-  "brandCount": 177,
-  "geographicScope": "Worldwide discovery across 176 recorded brand profiles. Assortment coverage is partial.",
+  "brandCount": 178,
+  "geographicScope": "Worldwide discovery across 178 recorded brand profiles. Assortment coverage is partial.",
   "researchRefresh": {
-    "date": "2026-11-22",
-    "note": "Added exact LEVEL8 Hegent 20-inch Black offer specifications and matched exterior/interior evidence; worldwide model coverage remains incomplete."
+    "date": "2026-11-23",
+    "note": "Added four exact Katie Loxton Avora UK offer records with source conflicts and photo limits retained; worldwide model coverage remains incomplete."
   }
 }

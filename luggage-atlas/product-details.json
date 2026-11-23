@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -539,6 +539,102 @@
         "level8-hegent-20-black-interior"
       ],
       "listingDateBasis": "Official storefront product payload published_at timestamp; commercial launch date remains unknown."
+    },
+    {
+      "offerId": "offer-35b48e0a",
+      "brandId": "katie-loxton",
+      "model": "Avora Hard Shell Cabin Suitcase",
+      "size": "Cabin",
+      "color": "Off White",
+      "dimensions": "Source conflict: the description states 39 × 25 × 53 cm; the Product Details field states 47.5 × 39 × 20 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+      "announcementDate": null,
+      "listingDate": null,
+      "launchDate": null,
+      "firstObserved": "2026-11-17",
+      "observed": "2026-11-23",
+      "source": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-off-white-bundle-klb5070-aw26",
+      "price": 199.99,
+      "currency": "GBP",
+      "sku": "HARDSHELL-SWHITE",
+      "weight": "3.4 kg",
+      "capacity": null,
+      "photoIds": [
+        "katie-loxton-avora-cabin-off-white-exterior"
+      ],
+      "dimensionStatus": "Two official page fields conflict; neither is promoted as resolved exterior dimensions.",
+      "firstObservedBasis": "Atlas observation of the live official collection; not a launch or retailer-listing date."
+    },
+    {
+      "offerId": "offer-e0fe63ee",
+      "brandId": "katie-loxton",
+      "model": "Avora Hard Shell Cabin Suitcase",
+      "size": "Cabin",
+      "color": "Black",
+      "dimensions": "Source conflict: the description states 39 × 25 × 53 cm; the Product Details field states 47.5 × 39 × 20 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+      "announcementDate": null,
+      "listingDate": null,
+      "launchDate": null,
+      "firstObserved": "2026-11-17",
+      "observed": "2026-11-23",
+      "source": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-black-bundle-klb5071-aw26",
+      "price": 199.99,
+      "currency": "GBP",
+      "sku": "HARDSHELL-SBLACK",
+      "weight": "3.4 kg",
+      "capacity": null,
+      "photoIds": [
+        "katie-loxton-avora-cabin-black-exterior"
+      ],
+      "dimensionStatus": "Two official page fields conflict; neither is promoted as resolved exterior dimensions.",
+      "firstObservedBasis": "Atlas observation of the live official collection; not a launch or retailer-listing date."
+    },
+    {
+      "offerId": "offer-2df3d287",
+      "brandId": "katie-loxton",
+      "model": "Avora Hard Shell Suitcase",
+      "size": "Large",
+      "color": "Off White",
+      "dimensions": "Source conflict: the description states 43 × 31 × 71 cm; the Product Details field states 63 × 43 × 30.5 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+      "announcementDate": null,
+      "listingDate": null,
+      "launchDate": null,
+      "firstObserved": "2026-11-17",
+      "observed": "2026-11-23",
+      "source": "https://katieloxton.com/avora-hardshell-suitcase-in-off-white-bundle-klb5068-aw26",
+      "price": 249.99,
+      "currency": "GBP",
+      "sku": "HARDSHELL-LWHITE",
+      "weight": "4.2 kg",
+      "capacity": null,
+      "photoIds": [
+        "katie-loxton-avora-large-off-white-exterior"
+      ],
+      "dimensionStatus": "Two official page fields conflict; neither is promoted as resolved exterior dimensions.",
+      "firstObservedBasis": "Atlas observation of the live official collection; not a launch or retailer-listing date."
+    },
+    {
+      "offerId": "offer-7b0f0043",
+      "brandId": "katie-loxton",
+      "model": "Avora Hard Shell Suitcase",
+      "size": "Large",
+      "color": "Black",
+      "dimensions": "Source conflict: the description states 43 × 31 × 71 cm; the Product Details field states 63 × 43 × 30.5 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+      "announcementDate": null,
+      "listingDate": null,
+      "launchDate": null,
+      "firstObserved": "2026-11-17",
+      "observed": "2026-11-23",
+      "source": "https://katieloxton.com/avora-hardshell-suitcase-in-black-bundle-klb5069-aw26",
+      "price": 249.99,
+      "currency": "GBP",
+      "sku": "HARDSHELL-LBLACK",
+      "weight": "4.2 kg",
+      "capacity": null,
+      "photoIds": [
+        "katie-loxton-avora-large-black-exterior"
+      ],
+      "dimensionStatus": "Two official page fields conflict; neither is promoted as resolved exterior dimensions.",
+      "firstObservedBasis": "Atlas observation of the live official collection; not a launch or retailer-listing date."
     }
   ],
   "byBrand": {
@@ -591,6 +687,12 @@
     ],
     "level8": [
       "offer-bd6030c8"
+    ],
+    "katie-loxton": [
+      "offer-35b48e0a",
+      "offer-e0fe63ee",
+      "offer-2df3d287",
+      "offer-7b0f0043"
     ]
   }
 }

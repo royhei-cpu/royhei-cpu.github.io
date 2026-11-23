@@ -1,11 +1,11 @@
 {
-  "edition": "2026-11-22",
+  "edition": "2026-11-23",
   "periodStart": "2026-11-13",
-  "periodEnd": "2026-11-22",
+  "periodEnd": "2026-11-23",
   "baseline": false,
   "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
-  "nextScheduled": "2026-11-23",
-  "coverage": "Targeted Sunday verification. LEVEL8 Hegent Carry-On 20-inch / Black was added as one official exact offer with matched exterior/interior references, exact dimensions and model-specific features. The company-announced promotion is recorded separately from the storefront product publication timestamp; commercial launch date remains unknown. The November 16 CSV and review retain the comprehensive Monday assortment review. Wider worldwide assortment and exact factory remain unknown.",
+  "nextScheduled": "2026-11-24",
+  "coverage": "Comprehensive Monday source review covered every recorded brand profile and retailer entry, plus the two unpriced priority gaps and four Katie Loxton exact pages. Four official UK Avora offers, four exact exterior images and four model-feature records were added. The official pages publish conflicting dimension fields; exact interiors, launch date and factory remain unknown. Wider worldwide assortment remains incomplete.",
   "items": [
     {
       "id": "level8-hegent-black-friday-2026",
@@ -126,6 +126,21 @@
       "source": "https://www.prnewswire.com/news-releases/bagsmart-unveils-blast-x-a-travel-bag-series-engineered-for-comfort-and-built-to-switch-modes-302936205.html",
       "theme": "Convertible carry",
       "photoId": "blast-x-43l-0"
+    },
+    {
+      "id": "katie-loxton-avora-exact-coverage-2026",
+      "brand": "Katie Loxton",
+      "brandId": "katie-loxton",
+      "title": "Katie Loxton Avora exact UK offer set documented",
+      "date": "2026-11-17",
+      "dateType": "Atlas first-observation date for the live official collection; exact pages rechecked 23 November. The brand gives no calendar launch date.",
+      "status": "New coverage",
+      "market": "United Kingdom",
+      "change": "The official collection links cabin and large Avora cases in Black and Off White. Cabin is GBP 199.99 and large is GBP 249.99. Exact pages document two detachable personalisable straps, polycarbonate shell, organization, 3-year warranty and self-repair supply of replacement wheels/corner caps during warranty. Two displayed size fields conflict, so exterior dimensions remain unresolved; only exact exteriors are claimed.",
+      "price": "GBP 199.99 cabin; GBP 249.99 large",
+      "source": "https://katieloxton.com/travel/suitcases",
+      "theme": "Personalizable straps & owner-repair parts",
+      "photoId": "katie-loxton-avora-cabin-off-white-exterior"
     }
   ],
   "analysis": [],
@@ -183,6 +198,12 @@
       "label": "Previous daily coverage update",
       "period": "November 13–21",
       "archive": "weekly-2026-11-21.json"
+    },
+    {
+      "date": "2026-11-22",
+      "label": "Previous daily coverage update",
+      "period": "November 13–22",
+      "archive": "weekly-2026-11-22.json"
     }
   ],
   "coverageRefresh": {
@@ -192,11 +213,11 @@
     "note": "DTA / DTA Nova added; existing price and news brand references reconciled."
   },
   "latestBulletin": {
-    "checked": "2026-11-22",
-    "newsDate": "2026-11-20",
-    "title": "LEVEL8 announces Hegent Black Friday promotion",
-    "text": "The Black 20-inch Hegent exact offer is now documented at USD 239.99 with matched exterior/interior views and exact dimensions. The company says the US-site promotion runs through 3 December; product launch date remains unknown.",
-    "source": "https://www.level8cases.com/products/hegent-carry-on-luggage-20",
-    "records": 1
+    "checked": "2026-11-23",
+    "newsDate": "2026-11-17",
+    "title": "Avora exact UK offers documented; no new 22–23 November launch verified",
+    "text": "Four exact Katie Loxton Avora UK offers were added from official pages. November 17 remains the Atlas first-observation date, not a launch date. The Monday scan found no directly sourced new luggage launch dated November 22 or 23.",
+    "source": "https://katieloxton.com/travel/suitcases",
+    "records": 4
   }
 }

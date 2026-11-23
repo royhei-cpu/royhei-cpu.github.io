@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-22",
+  "asOf": "2026-11-23",
   "brands": [
     {
       "id": "90fun",
@@ -8402,6 +8402,83 @@
       "coverageStatus": "Two official storefront observations for one exact Silver / ONE SKU; wider assortment incomplete.",
       "launchDate": "2026-11-20",
       "launchDateStatus": "Official launch page and storefront news state 20 November 2026 launch."
+    },
+    {
+      "id": "katie-loxton",
+      "name": "Katie Loxton",
+      "country": "Market: United Kingdom",
+      "region": "Europe",
+      "collection": "Avora",
+      "style": "Fashion-led hard shell · Interchangeable straps · Personalisation",
+      "features": [
+        "Polycarbonate shell",
+        "Interchangeable personalised straps",
+        "Compression organization",
+        "Owner-replaceable wheels and corner caps during warranty"
+      ],
+      "observation": "The official UK collection links four exact Avora offers: cabin and large sizes in Black and Off White. This is a partial UK assortment observation, not a complete worldwide catalog. The brand gives no calendar launch date and its two displayed dimension fields conflict.",
+      "source": "https://katieloxton.com/travel/suitcases",
+      "official": "https://katieloxton.com/travel/suitcases",
+      "originNote": "The reviewed official pages do not identify a manufacturing country, factory or production operator. No origin or factory is inferred.",
+      "originSource": null,
+      "image": "offer-photo-assets/katie-loxton-avora-cabin-off-white-exterior.webp",
+      "imageCaption": "Avora Hard Shell Cabin Suitcase · Off White · exact exterior",
+      "imageSource": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-off-white-bundle-klb5070-aw26",
+      "imageScope": "Exact cabin model, Off White color and HARDSHELL-SWHITE SKU; production revision not stated.",
+      "sales": null,
+      "popularity": null,
+      "tier": "Not assessed",
+      "tierDetail": "Positioning is not inferred from four UK prices.",
+      "price": {
+        "brand": "Katie Loxton",
+        "retailer": "Katie Loxton UK",
+        "product": "Avora Hard Shell Cabin Suitcase · Off White · HARDSHELL-SWHITE",
+        "amount": 199.99,
+        "currency": "GBP",
+        "market": "United Kingdom",
+        "date": "2026-11-23",
+        "kind": "Official UK collection price mapped to the linked exact product; stock not independently confirmed",
+        "source": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-off-white-bundle-klb5070-aw26",
+        "regular": null,
+        "format": "Carry-on",
+        "note": "The official Avora collection linked this exact size/color product at the displayed price. The exact-product page supplies the SKU, weight and features. The page publishes two conflicting dimension fields, so exterior dimensions remain unresolved. Launch date, production revision and exact factory are not stated. Availability may change.",
+        "sku": "HARDSHELL-SWHITE",
+        "variant": "Cabin / Off White",
+        "dimensions": "Source conflict: the description states 39 × 25 × 53 cm; the Product Details field states 47.5 × 39 × 20 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+        "sourcePhoto": "https://katieloxton.com/media/catalog/product/cache/16cb5e8d1a72e65ae7ff0acc8c714557/k/l/klb5070-c1-e2_2.jpg",
+        "id": "offer-35b48e0a",
+        "announcementDate": null,
+        "launchDate": null,
+        "firstObserved": "2026-11-17",
+        "firstObservedBasis": "Atlas observation of the live official Avora collection; not a launch date.",
+        "added": "2026-11-23"
+      },
+      "channels": [
+        {
+          "name": "Katie Loxton UK Avora collection",
+          "url": "https://katieloxton.com/travel/suitcases"
+        },
+        {
+          "name": "Katie Loxton UK exact cabin product",
+          "url": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-off-white-bundle-klb5070-aw26"
+        },
+        {
+          "name": "Katie Loxton UK exact large product",
+          "url": "https://katieloxton.com/avora-hardshell-suitcase-in-off-white-bundle-klb5068-aw26"
+        }
+      ],
+      "groups": [
+        "Fashion",
+        "Personalization",
+        "Owner repair"
+      ],
+      "aliases": [
+        "Avora by Katie Loxton"
+      ],
+      "checked": "2026-11-23",
+      "coverageStatus": "Four official UK exact offers; assortment partial. Exact interior photos, exterior dimensions, launch date and factory remain unresolved.",
+      "launchDate": null,
+      "launchDateStatus": "Not stated by the official pages; 17 November is retained only as the Atlas first-observation date."
     }
   ],
   "launches": [
@@ -49022,6 +49099,102 @@
       "promotionEnd": "2026-12-03",
       "retailerListingDate": "2023-10-31",
       "retailerListingDateBasis": "Official storefront product payload published_at timestamp; not treated as a launch date."
+    },
+    {
+      "brand": "Katie Loxton",
+      "retailer": "Katie Loxton UK",
+      "product": "Avora Hard Shell Cabin Suitcase · Off White · HARDSHELL-SWHITE",
+      "amount": 199.99,
+      "currency": "GBP",
+      "market": "United Kingdom",
+      "date": "2026-11-23",
+      "kind": "Official UK collection price mapped to the linked exact product; stock not independently confirmed",
+      "source": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-off-white-bundle-klb5070-aw26",
+      "regular": null,
+      "format": "Carry-on",
+      "note": "The official Avora collection linked this exact size/color product at the displayed price. The exact-product page supplies the SKU, weight and features. The page publishes two conflicting dimension fields, so exterior dimensions remain unresolved. Launch date, production revision and exact factory are not stated. Availability may change.",
+      "sku": "HARDSHELL-SWHITE",
+      "variant": "Cabin / Off White",
+      "dimensions": "Source conflict: the description states 39 × 25 × 53 cm; the Product Details field states 47.5 × 39 × 20 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+      "sourcePhoto": "https://katieloxton.com/media/catalog/product/cache/16cb5e8d1a72e65ae7ff0acc8c714557/k/l/klb5070-c1-e2_2.jpg",
+      "id": "offer-35b48e0a",
+      "announcementDate": null,
+      "launchDate": null,
+      "firstObserved": "2026-11-17",
+      "firstObservedBasis": "Atlas observation of the live official Avora collection; not a launch date.",
+      "added": "2026-11-23"
+    },
+    {
+      "brand": "Katie Loxton",
+      "retailer": "Katie Loxton UK",
+      "product": "Avora Hard Shell Cabin Suitcase · Black · HARDSHELL-SBLACK",
+      "amount": 199.99,
+      "currency": "GBP",
+      "market": "United Kingdom",
+      "date": "2026-11-23",
+      "kind": "Official UK collection price mapped to the linked exact product; stock not independently confirmed",
+      "source": "https://katieloxton.com/avora-hardshell-cabin-suitcase-in-black-bundle-klb5071-aw26",
+      "regular": null,
+      "format": "Carry-on",
+      "note": "The official Avora collection linked this exact size/color product at the displayed price. The exact-product page supplies the SKU, weight and features. The page publishes two conflicting dimension fields, so exterior dimensions remain unresolved. Launch date, production revision and exact factory are not stated. Availability may change.",
+      "sku": "HARDSHELL-SBLACK",
+      "variant": "Cabin / Black",
+      "dimensions": "Source conflict: the description states 39 × 25 × 53 cm; the Product Details field states 47.5 × 39 × 20 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+      "sourcePhoto": "https://katieloxton.com/media/catalog/product/cache/16cb5e8d1a72e65ae7ff0acc8c714557/k/l/klb5071-c1-e2.jpg",
+      "id": "offer-e0fe63ee",
+      "announcementDate": null,
+      "launchDate": null,
+      "firstObserved": "2026-11-17",
+      "firstObservedBasis": "Atlas observation of the live official Avora collection; not a launch date.",
+      "added": "2026-11-23"
+    },
+    {
+      "brand": "Katie Loxton",
+      "retailer": "Katie Loxton UK",
+      "product": "Avora Hard Shell Suitcase · Off White · HARDSHELL-LWHITE",
+      "amount": 249.99,
+      "currency": "GBP",
+      "market": "United Kingdom",
+      "date": "2026-11-23",
+      "kind": "Official UK collection price mapped to the linked exact product; stock not independently confirmed",
+      "source": "https://katieloxton.com/avora-hardshell-suitcase-in-off-white-bundle-klb5068-aw26",
+      "regular": null,
+      "format": "Checked luggage",
+      "note": "The official Avora collection linked this exact size/color product at the displayed price. The exact-product page supplies the SKU, weight and features. The page publishes two conflicting dimension fields, so exterior dimensions remain unresolved. Launch date, production revision and exact factory are not stated. Availability may change.",
+      "sku": "HARDSHELL-LWHITE",
+      "variant": "Large / Off White",
+      "dimensions": "Source conflict: the description states 43 × 31 × 71 cm; the Product Details field states 63 × 43 × 30.5 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+      "sourcePhoto": "https://katieloxton.com/media/catalog/product/cache/16cb5e8d1a72e65ae7ff0acc8c714557/k/l/klb5068-c1-e2_3.jpg",
+      "id": "offer-2df3d287",
+      "announcementDate": null,
+      "launchDate": null,
+      "firstObserved": "2026-11-17",
+      "firstObservedBasis": "Atlas observation of the live official Avora collection; not a launch date.",
+      "added": "2026-11-23"
+    },
+    {
+      "brand": "Katie Loxton",
+      "retailer": "Katie Loxton UK",
+      "product": "Avora Hard Shell Suitcase · Black · HARDSHELL-LBLACK",
+      "amount": 249.99,
+      "currency": "GBP",
+      "market": "United Kingdom",
+      "date": "2026-11-23",
+      "kind": "Official UK collection price mapped to the linked exact product; stock not independently confirmed",
+      "source": "https://katieloxton.com/avora-hardshell-suitcase-in-black-bundle-klb5069-aw26",
+      "regular": null,
+      "format": "Checked luggage",
+      "note": "The official Avora collection linked this exact size/color product at the displayed price. The exact-product page supplies the SKU, weight and features. The page publishes two conflicting dimension fields, so exterior dimensions remain unresolved. Launch date, production revision and exact factory are not stated. Availability may change.",
+      "sku": "HARDSHELL-LBLACK",
+      "variant": "Large / Black",
+      "dimensions": "Source conflict: the description states 43 × 31 × 71 cm; the Product Details field states 63 × 43 × 30.5 cm. The page does not reconcile the fields or identify wheel/handle inclusion, so exterior dimensions remain unresolved.",
+      "sourcePhoto": "https://katieloxton.com/media/catalog/product/cache/16cb5e8d1a72e65ae7ff0acc8c714557/k/l/klb5069-c1-e2.jpg",
+      "id": "offer-7b0f0043",
+      "announcementDate": null,
+      "launchDate": null,
+      "firstObserved": "2026-11-17",
+      "firstObservedBasis": "Atlas observation of the live official Avora collection; not a launch date.",
+      "added": "2026-11-23"
     }
   ],
   "retailers": [
@@ -50752,10 +50925,10 @@
     "Photo references are model- and source-specific; not every priced SKU has matched exterior/interior views. The photo directory shows which brands still lack an interior reference."
   ],
   "coverageRefresh": {
-    "date": "2026-11-04",
-    "addedBrands": 75,
-    "totalBrands": 173,
+    "date": "2026-11-23",
+    "addedBrands": 79,
+    "totalBrands": 178,
     "audit": "brand-coverage.json",
-    "note": "All existing structured brand references resolved. Worldwide brand and SKU completeness is not verified."
+    "note": "All structured brand references resolve. Worldwide brand, retailer and SKU completeness is not verified."
   }
 }

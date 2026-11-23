@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-21",
+  "checked": "2026-11-23",
   "note": "All entries have an editorial style/shopper assessment and an explicit supplier-evidence status. A launch is not proof of rising sales. No demographic share or exact SKU-to-factory match is claimed.",
   "groups": [
     "Design minimalists",
@@ -4556,6 +4556,30 @@
         "skuFactoryVerified": false
       },
       "checked": "2026-11-21"
+    },
+    "katie-loxton": {
+      "brandId": "katie-loxton",
+      "group": "Expressive & customization buyers",
+      "why": "Interchangeable straps, optional embroidered initials and coordinated Black or Off White shells create a visible styling choice. This is an editorial product-design fit, not measured shopper demographics, sales or popularity.",
+      "signalStatus": "New exact-offer coverage",
+      "signal": "2026-11-17 Atlas first observation; four exact UK Avora offers verified on 2026-11-23. Product launch date remains unknown.",
+      "signalSource": "https://katieloxton.com/travel/suitcases",
+      "designSource": "https://katieloxton.com/travel/suitcases",
+      "audienceBasis": "Editorial use-case hypothesis based only on the official Avora presentation and personalization mechanism; buyer age, gender, income, demand and market share are unverified.",
+      "test": "Compare strap retention, personalization durability, packed handling, repair-part access and the two conflicting size fields before making assortment or audience claims.",
+      "checked": "2026-11-23",
+      "supplier": {
+        "status": "Not verified",
+        "entity": "Factory and production operator unknown",
+        "factory": "Unverified",
+        "origin": "Production country unverified for these exact SKUs",
+        "scope": "The official UK collection and exact-product pages establish model, color, size and SKU evidence but do not name a manufacturing country, supplier or factory.",
+        "source": "https://katieloxton.com/travel/suitcases",
+        "components": "",
+        "tradeLead": "",
+        "checked": "2026-11-23",
+        "skuFactoryVerified": false
+      }
     }
   }
 }
