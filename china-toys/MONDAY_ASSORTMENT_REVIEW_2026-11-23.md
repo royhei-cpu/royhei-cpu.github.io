@@ -2,6 +2,20 @@
 **Review date:** Monday, 2026-11-23 (Asia/Shanghai)
 **Live site:** https://royhei-cpu.github.io/china-toys/
 
+## Monday full-collection outcome — verified 2026-11-23
+
+The **November 23 full collection succeeded** in [GitHub Actions run 45096695886](https://github.com/royhei-cpu/royhei-cpu.github.io/actions/runs/45096695886). Canonical source report and coverage files now say `updated`, `last_full_collection`, `detail_reviewed`, and `ip-coverage.catalog_date` are **2026-11-23**. This date applies to the source checks actually completed, not product launches, chain-level shelf stock, original retailer publication or the older audit snapshots detailed below.
+
+- **4,632** canonical product/series records (**+3 net from the November 22 canonical 4,629**); after the existing two scoped exclusions, expected public count is **4,630**, subject to the final deployed manifest.
+- **504** squishy records; **802** brand/source labels. POP MART **215**, TOP TOY **307**, 52TOYS **137**, Finding Unicorn **51**, TNT SPACE **91**, Heyone **32** — all **partial**, not current comprehensive brand inventories.
+- **4,623** source-price records; **4,301** records with source-specific variant/pack options. Only **12** documented China-price observations and **13** mainland release-date observations; **0** verified product-level units sold. Do not convert overseas prices to fill Chinese gaps.
+- **90** registered character filters, **14** still with **zero** matching collected products. They remain searchable labels, not 14 catalog products.
+- First-party/retailer source-feed collection: **13 of 16** recorded source feeds completed and **3 unavailable** (Rolife, Hello Molynk, Finding Unicorn). Previous observations were retained. **7** highlighted source-photograph series were visually checked, not the whole catalog.
+- Mainland chains: **18** tracked, **84** unique source-backed historical chain-assortment product/series records; the comprehensive chain dataset remains last reconciled **November 2**. The Nov 23 link check reports **89 reachable** and **2 unavailable** links, not 89 independently revalidated live product listings.
+- Editorial checks retain mainland KUBO reported historical **CNY 109/654** single/six-box release prices and the separate Japanese 52TOYS Alien Out of Office JPY **2,499 single** versus HobbyLink **JPY 6,270 four-box** seller/listing observations. These are **not** additions of new product records unless independently imported with matching source/ID criteria.
+
+Automated preservation, original-site browser flows, brand/character filters, desktop/mobile product review, comparison and source-evidence tests completed in the successful refresh workflow. Those checks do not certify every actual browser download, tutorial audio sample or store shelf count. The final public Pages SHA and byte-match gate is separately verified in publishing.
+
 ## Evidence scope and dating
 
 This Monday review is an evidence-backed gap audit based on the **last completed canonical full collection dated 2026-11-22**, the source/product report dated 2026-11-22, chain-assortment **last reconciled 2026-11-02**, chain-link reachability checked 2026-11-22T08:37:56.814547+00:00, and spot checks of retailer pages and source reports on **2026-11-23**. It is **not** a claim that all brands, 90 registered character filters, 18 retailer chains, product photos or mainland inventory were newly reconciled today. A separate triggered collection is responsible for advancing the canonical full-collection date only after successful source checks. Maintain previous observations on failures.
