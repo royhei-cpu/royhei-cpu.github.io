@@ -1,10 +1,10 @@
 {
-  "catalog_date": "2026-11-22",
+  "catalog_date": "2026-11-23",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
       "brand": "POP MART",
-      "records": 214,
+      "records": 215,
       "status": "Partial assortment"
     },
     {
@@ -81,13 +81,14 @@
     {
       "id": "molly",
       "name": "MOLLY",
-      "records": 13,
+      "records": 14,
       "product_ids": [
         "b991c1ae6183f662",
         "01ceee040966dec8",
         "b88f0a1735b4f761",
         "883f5fcbe14b4ff3",
         "adb320dfa6d1dbe5",
+        "f48da9a2fe544ec9",
         "2f00fa6403f132bc",
         "21135d91b14be2a8",
         "852dfe213f759688",
@@ -369,13 +370,14 @@
     {
       "id": "molly",
       "name": "MOLLY",
-      "records": 13,
+      "records": 14,
       "product_ids": [
         "b991c1ae6183f662",
         "01ceee040966dec8",
         "b88f0a1735b4f761",
         "883f5fcbe14b4ff3",
         "adb320dfa6d1dbe5",
+        "f48da9a2fe544ec9",
         "2f00fa6403f132bc",
         "21135d91b14be2a8",
         "852dfe213f759688",
