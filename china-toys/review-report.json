@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-23",
-      "raw_products_read": 966,
+      "raw_products_read": 971,
       "currency": "USD"
     },
     {
@@ -17,7 +17,7 @@
       "url": "https://gotoptoy.com",
       "status": "complete",
       "checked": "2026-11-23",
-      "raw_products_read": 235,
+      "raw_products_read": 234,
       "currency": "USD"
     },
     {
@@ -26,7 +26,7 @@
       "url": "https://hi52toys.com",
       "status": "complete",
       "checked": "2026-11-23",
-      "raw_products_read": 210,
+      "raw_products_read": 212,
       "currency": "USD"
     },
     {
@@ -44,7 +44,7 @@
       "url": "https://toyzeroplus.com",
       "status": "complete",
       "checked": "2026-11-23",
-      "raw_products_read": 325,
+      "raw_products_read": 331,
       "currency": "HKD"
     },
     {
@@ -1787,11 +1787,6 @@
     },
     {
       "type": "exact-title duplicate merge",
-      "id": "1852116ada6a920e",
-      "into": "30b8bf46209ca373"
-    },
-    {
-      "type": "exact-title duplicate merge",
       "id": "05475e7576e447db",
       "into": "a6f68bec25460392"
     },
@@ -1841,6 +1836,12 @@
     "d1a4683e57a03590"
   ],
   "image_repairs": [
+    {
+      "id": "484db13dfff2e968",
+      "name": "Tutulong Fantasy Creatures Honey Star Drops Series Plush Blind Box",
+      "source": "https://www.kikagoods.com/products/tutulong-fantasy-creatures-honey-star-drops-series-plush-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
     {
       "id": "c4bff0a9e2a14ac3",
       "name": "Lucky Deer Nai Qimeng Tianyuan Series Plush Blind Box",
@@ -2361,12 +2362,6 @@
       "id": "06c4654b11b71651",
       "name": "Black Key Lost Ancient Castle Series Special 1/6 Action Figure MJD Blind Box",
       "source": "https://www.kikagoods.com/products/black-key-lost-ancient-castle-series-special-1-6-action-figure-mjd-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "039e41b3f69c8aff",
-      "name": "Bearlike Family Series Blind Box",
-      "source": "https://www.kikagoods.com/products/bearlike-family-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -4710,12 +4705,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "d0653b4aec839686",
-      "name": "ZOOTOPIA 2 New Journey Series Plush Keychain Blind Box",
-      "source": "https://gotoptoy.com/products/zootopia-2-new-journey-series-plush-keychain-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "1ee58069fb81e798",
       "name": "CRAYON SHINCHAN Warm Quilt Series Plush Charm Blind Box",
       "source": "https://gotoptoy.com/products/crayon-shinchan-warm-quilt-series-plush-charm-blind-box",
@@ -5511,6 +5500,18 @@
       "id": "d5765b5fe1d76cf5",
       "name": "Latte Baby Vinyl Plush Keychains Gift Blind Box",
       "source": "https://gotoptoy.com/products/toptoy-sanrio-family-latte-baby-vinyl-plush-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "578a6619f2250127",
+      "name": "MOGOLS Fuzzy Hue Adventure Series Fluffy Plush Storage Bag Blind Box",
+      "source": "https://hi52toys.com/products/mogols-fuzzy-hue-adventure-fluffy-plush-storage-bag-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "21e956582999461d",
+      "name": "Top Dogs of Flattery (Blind Box)",
+      "source": "https://hi52toys.com/products/top-dogs-of-flattery-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6696,6 +6697,12 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
+      "id": "1bc0f12b4976e111",
+      "name": "【COUNT PACK】DORA Gyaruu Frequency Mili Series Beans Blind Bag【TNTSpace】",
+      "source": "https://toybeta.com/products/count-pack-dora-gyaruu-frequency-mili-series-beans-blind-bag-tntspace",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "f48da9a2fe544ec9",
       "name": "MEGA SPACE MOLLY Jon Burgerman Series Vinyl Plush Pendant Blind Box",
       "source": "https://toybeta.com/products/mega-space-molly-jon-burgerman-series-vinyl-plush-pendant-blind-box",
@@ -6705,12 +6712,6 @@
       "id": "7717f41486ded43c",
       "name": "【F.UN & TB】ShinWoo-Baby Ghost Bear Visits Sesame Street Series Blind Box",
       "source": "https://toybeta.com/products/f-un-tb-shinwoo-baby-ghost-bear-visits-sesame-street-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "30b8bf46209ca373",
-      "name": "LOLO V1 Stitched Fragments Mini Series Blind Box",
-      "source": "https://toybeta.com/products/lolo-v1-stitched-fragments-mini-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -10560,12 +10561,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "484db13dfff2e968",
-      "name": "TutuLong Fantasy Creatures-Honey Star Drops Series Plush Blind Box",
-      "source": "https://toybeta.com/products/sale-tutulong-fantasy-creatures-honey-star-drops-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "60663b4e03c10f3d",
       "name": "ShinWoo Hug Me Mini Figures Series Blind Box",
       "source": "https://toybeta.com/products/shinwoo-hug-me-mini-series-plush-blind-box",
@@ -12583,27 +12578,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4664,
-  "after_products": 4634,
+  "before_products": 4669,
+  "after_products": 4640,
   "stats": {
-    "products": 4632,
+    "products": 4638,
     "brands": 802,
     "squishy": 504,
-    "with_images": 4632,
+    "with_images": 4638,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4623,
+    "with_source_prices": 4629,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2607,
-    "with_dimensions": 1793,
-    "with_variant_options": 4301,
-    "source_linked_images": 4308,
+    "with_specifications": 2611,
+    "with_dimensions": 1792,
+    "with_variant_options": 4307,
+    "source_linked_images": 4314,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 7,
-    "with_shop_descriptions": 3835
+    "with_shop_descriptions": 3840
   },
   "checklist": [
     {
@@ -12633,7 +12628,7 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 137,
+      "records": 139,
       "with_details": 45,
       "with_china_price": 4,
       "with_release": 4,
@@ -12655,8 +12650,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 91,
-      "with_details": 83,
+      "records": 92,
+      "with_details": 84,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"
@@ -12897,8 +12892,8 @@
       "group": "Squishy specialist watchlist",
       "basis": "Makers named by specialist stockists. Inclusion means assortment coverage to investigate, not proof each maker is nationally popular.",
       "source": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies",
-      "records": 51,
-      "with_details": 37,
+      "records": 52,
+      "with_details": 38,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"

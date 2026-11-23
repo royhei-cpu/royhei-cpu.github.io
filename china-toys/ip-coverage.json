@@ -14,7 +14,7 @@
     },
     {
       "brand": "52TOYS",
-      "records": 137,
+      "records": 139,
       "status": "Partial assortment"
     },
     {
@@ -29,7 +29,7 @@
     },
     {
       "brand": "TNT SPACE",
-      "records": 91,
+      "records": 92,
       "status": "Partial assortment"
     }
   ],
@@ -838,7 +838,7 @@
     {
       "id": "dora",
       "name": "DORA / BABY DORA",
-      "records": 30,
+      "records": 31,
       "product_ids": [
         "bdb646da849282ff",
         "be5f4ae9b97224b9",
@@ -850,6 +850,7 @@
         "ca9837c05fd62f44",
         "a6016653d6cf8800",
         "6323a3cd2afd38e8",
+        "1bc0f12b4976e111",
         "d0dc71d568229437",
         "d838e92de8bb477c",
         "27f54bff567b5584",
@@ -1486,7 +1487,6 @@
         "4c50ee1bcc91ab0c",
         "5102d48578b49d7c",
         "f9145c02ccb6b519",
-        "d0653b4aec839686",
         "6b1836548186d165",
         "3e495bdb0ec09710",
         "d944b8c131a1f2c7",
@@ -1494,7 +1494,8 @@
         "8c65c568c4ad9dce",
         "2c5f54bc0435a640",
         "7198b87c2455e2dd",
-        "3f535eb98fff8e58"
+        "3f535eb98fff8e58",
+        "d0653b4aec839686"
       ],
       "status": "Partial assortment"
     },
