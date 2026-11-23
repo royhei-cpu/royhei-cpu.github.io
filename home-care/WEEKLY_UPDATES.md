@@ -235,3 +235,12 @@ The three-row selected-only CSV was inspected for exact row count, retailer mapp
 - Amazon remained robots-blocked. Walmart's dynamic household-cleaning discovery did not establish a deduplicated exact item with complete variant, seller and matched-photo evidence. Costco's Holiday Savings page continued previously retained offers. TikTok Shop's U.S. category route redirected to a security/region page. Quince remained adjacent Home Organization.
 - The 16 November comprehensive review remains the latest full-retailer sampling artifact. Today's priority-channel follow-up does not claim complete pagination or inventory coverage.
 - See `site/catalog-review/daily-source-check-2026-11-22.json`.
+
+## 23 November 2026 — comprehensive Monday assortment review
+
+- Preserved all 10,269 canonical records, stable IDs, photographs, retailer/category mappings and source-linked evidence; no exact retailer listing met the catalog-addition threshold.
+- Attempted one retained public source for all 20 canonical retailers and tracked the existing 320 retailer/category rows. Fourteen sources were retrieved or partially rendered; Albertsons, Amazon US, Home Depot, Meijer, Safeway and TikTok Shop were blocked or restricted.
+- Verified zero distinct in-scope news events after deduplication. SharkNinja's 19 November RazorVac announcement, Clorox Purell ProCare's 17 November announcement and Costco's 16 November promotion window remain the latest retained events; rechecking did not create new event dates.
+- Only Ace tile cleaner retains a previously bounded 18-of-18 source scope. All other category pagination remains partial, location-dependent, blocked or not started; zero additions do not establish complete inventory coverage.
+- Amazon exact-page retrieval remained robots-blocked; Walmart discovery stayed dynamic; Costco member/location evidence remained partial; TikTok Shop did not expose stable exact-PDP seller/variant evidence; Quince remained adjacent Home Organization.
+- See `site/catalog-review/daily-source-check-2026-11-23.json`.

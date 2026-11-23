@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-22",
-  "sourceCheckedAt": "2026-11-22",
+  "reviewedAt": "2026-11-23",
+  "sourceCheckedAt": "2026-11-23",
   "files": [
     "part-001.json",
     "part-002.json",
@@ -370,5 +370,5 @@
     "gap-review-20261102-53.json.gz",
     "gap-review-20261102-54.json.gz"
   ],
-  "reviewScope": "Daily material-change follow-up across Amazon US, Walmart, Costco, TikTok Shop and Quince plus official brand news. No exact item met the catalog-addition threshold and no distinct in-scope news event was verified, so all 10,269 records and the existing deduplicated news feed remain unchanged. Amazon remained robots-blocked; Walmart's dynamic household-cleaning pages did not establish a deduplicated exact addition; Costco's Holiday Savings page continued offers already covered by the retained 16 November promotion event; TikTok Shop's direct U.S. category route redirected to a security/region page and did not expose stable exact-PDP evidence; Quince remained adjacent Home Organization. Full retailer/category pagination remains incomplete, and the 16 November comprehensive review remains the latest full-retailer sampling artifact."
+  "reviewScope": "Comprehensive Monday assortment review across all 20 canonical retailers and 16 tracked category rows. One retained public source was attempted per retailer, with deeper checks on Amazon US, Walmart, Costco, TikTok Shop and Quince. Fourteen sources were retrieved or partially rendered; Albertsons, Amazon US, Home Depot, Meijer, Safeway and TikTok Shop were blocked or restricted. No exact item met the addition threshold and no distinct in-scope news event was verified, so all 10,269 records and the deduplicated news feed remain unchanged. Only Ace tile cleaner retains a previously bounded 18-of-18 source scope; full inventories and most category pagination remain incomplete."
 }

@@ -1,0 +1,370 @@
+{
+  "reviewedAt": "2026-11-23",
+  "sourceCheckedAt": "2026-11-23",
+  "status": "completed-with-bounded-gaps",
+  "reviewType": "Comprehensive Monday assortment review",
+  "baselineRecords": 10269,
+  "publishedRecords": 10269,
+  "verifiedAdditions": 0,
+  "additionsByRetailer": {},
+  "recordPatches": 0,
+  "newLaunches": [],
+  "newVerifiedNews": 0,
+  "directoryNewsChanged": false,
+  "sourceAccessProbes": [
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/departments/home-and-decor/cleaning-and-disinfectants/tile-cleaners-near-me",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-and-reviewed",
+      "observed": "Current page rendered; this remains the only bounded category source, and no exact missing item was established."
+    },
+    {
+      "retailer": "Albertsons",
+      "url": "https://www.albertsons.com/shop/pd/reynolds-wrap-aluminum-foil-200-sq-ft-each/130050222",
+      "checkedDate": "2026-11-23",
+      "result": "blocked",
+      "observed": "The retained exact product source returned 403 in this review; item and broader category coverage were not advanced."
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/Household-Supplies-Scrub-Daddy-Health/s?rh=n%3A15342811%2Cp_89%3AScrub%2BDaddy",
+      "checkedDate": "2026-11-23",
+      "result": "blocked",
+      "observed": "Public retrieval remained restricted by robots; no exact ASIN, seller, pack, price, availability or first-listing evidence was established."
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "url": "https://www.bjs.com/product/arm--hammer-plus-oxiclean-odor-blasters-liquid-laundry-detergent---fresh-burst-200-fl-oz/3000000000005873299",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-and-reviewed",
+      "observed": "The retained 200 fl oz Arm & Hammer laundry product page rendered; no deduplicated missing exact item was established."
+    },
+    {
+      "retailer": "CVS",
+      "url": "https://www.cvs.com/shop/dawn-platinum-plus-powerwash-dish-spray-fresh-clean-16-oz-prodid-387401",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-and-reviewed",
+      "observed": "The retained Dawn Powerwash 16 oz page rendered with product imagery and title; no deduplicated missing exact item was established."
+    },
+    {
+      "retailer": "Costco",
+      "url": "https://www.costco.com/household-cleaning.html",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-partial",
+      "observed": "The Household Cleaning page and current Holiday Savings source rendered; member/location pricing, stock and full pagination remain unresolved, with no distinct event beyond retained promotions."
+    },
+    {
+      "retailer": "Dollar General",
+      "url": "https://www.dollargeneral.com/p/fabuloso-2x-multi-purpose-cleaner-with-baking-soda-citrus-and-fruits-scent-56-fl-oz/35000530615",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-and-reviewed",
+      "observed": "The retained Fabuloso 56 fl oz page rendered with exact title and product images; no deduplicated missing exact item was established."
+    },
+    {
+      "retailer": "Dollar Tree",
+      "url": "https://sameday.dollartree.com/store/dollar-tree/products/17950911-la-s-totally-awesome-all-purpose-concentrated-cleaner-32-fl-oz",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-and-reviewed",
+      "observed": "The retained SameDay LA’s Totally Awesome 32 fl oz page rendered at US$1.50; this is a current channel snapshot, not a launch or permanent price claim."
+    },
+    {
+      "retailer": "H-E-B",
+      "url": "https://www.heb.com/product-detail/field-future-by-h-e-b-dishwashing-liquid-fragrance-free/5010074",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-and-reviewed",
+      "observed": "The retained Field & Future fragrance-free dishwashing liquid page rendered; no deduplicated missing exact item was established."
+    },
+    {
+      "retailer": "Home Depot",
+      "url": "https://www.homedepot.com/p/100670178",
+      "checkedDate": "2026-11-23",
+      "result": "blocked",
+      "observed": "The retained exact product source returned 403; broader category pagination was not advanced."
+    },
+    {
+      "retailer": "Kroger",
+      "url": "https://www.kroger.com/pl/cleaning-household/18011",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-partial",
+      "observed": "The Cleaning & Household category rendered with filters and location-dependent assortment counts; pagination was not exhausted."
+    },
+    {
+      "retailer": "Lowe’s",
+      "url": "https://www.lowes.com/pl/cleaning-tools/mops/spray-mops/o-cedar/microfiber/3998445995-553466270-4294721465",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-partial",
+      "observed": "The retained O-Cedar spray-mop category rendered, but local pricing and full pagination remain unresolved."
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/snuggle-lq-fab-sof-blue-sparkle-74-8oz/7261347456",
+      "checkedDate": "2026-11-23",
+      "result": "blocked",
+      "observed": "The retained exact product source returned 403; broader category pagination was not advanced."
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://delivery.publix.com/store/publix/products/39743-clorox-disinfecting-wipes-150-ct",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-and-reviewed",
+      "observed": "The retained Clorox wipes SameDay page rendered; location-dependent stock and broader pagination remain unresolved."
+    },
+    {
+      "retailer": "Safeway",
+      "url": "https://www.safeway.com/shop/pd/bounty-regular-paper-towel-48-ct-rl/970461182",
+      "checkedDate": "2026-11-23",
+      "result": "blocked",
+      "observed": "The retained exact product source returned 403; broader category pagination was not advanced."
+    },
+    {
+      "retailer": "Sam’s Club",
+      "url": "https://www.samsclub.com/ip/members-mark-platinum-performance-liquid-dish-soap-fresh-clean-100-fl-oz/13892164761",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-and-reviewed",
+      "observed": "The retained Member’s Mark 100 fl oz dish-soap page rendered; no deduplicated missing exact item was established."
+    },
+    {
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/k/household-cleaning-supplies",
+      "checkedDate": "2026-11-23",
+      "result": "blocked",
+      "observed": "Search discovery exposed dynamic titles, prices and purchase badges, but the direct U.S. category route did not provide stable exact-PDP, seller, selected-variant and photo evidence; no dynamic counts were copied."
+    },
+    {
+      "retailer": "Walgreens",
+      "url": "https://www.walgreens.com/search/tier3/productlist/N%3D20007728-93-86",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-partial",
+      "observed": "The retained household-cleaning route rendered from an older indexed snapshot; current exact item and full pagination evidence were not established."
+    },
+    {
+      "retailer": "Walmart",
+      "url": "https://www.walmart.com/shop/household-essentials/new-arrivals",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-partial",
+      "observed": "The Household Essentials New Arrivals page rendered with dynamic items and prices; no deduplicated missing exact listing with complete seller, variant and matched-photo evidence was established."
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/shop/home/new-arrivals",
+      "checkedDate": "2026-11-23",
+      "result": "retrieved-partial",
+      "observed": "Home New Arrivals rendered 279 items dominated by furniture and decor; Storage & Organization remains adjacent scope and no qualifying Home Care addition was established."
+    }
+  ],
+  "probeLimit": "One retained public source attempted for each of 20 canonical retailers, with deeper discovery checks on Amazon US, Walmart, Costco, TikTok Shop and Quince. This is not an exhaustive inventory crawl.",
+  "exactItemChecks": [],
+  "categoryAndPaginationChecks": [
+    {
+      "retailer": "Ace Hardware",
+      "scope": "Tile Cleaners category",
+      "status": "bounded category page",
+      "pagination": "page previously stated Showing 18 of 18",
+      "remainingGap": "Only this tile-cleaner page was bounded; other Home Care categories and exact-item refreshes remain unreconciled."
+    },
+    {
+      "retailer": "Albertsons",
+      "scope": "one retained official product or category source",
+      "status": "blocked",
+      "pagination": "not started",
+      "remainingGap": "Blocked source prevented item and category reconciliation; zero records must not be interpreted as zero assortment."
+    },
+    {
+      "retailer": "Amazon US",
+      "scope": "Household Supplies discovery",
+      "status": "blocked",
+      "pagination": "not started",
+      "remainingGap": "Blocked source prevented item and category reconciliation; zero records must not be interpreted as zero assortment."
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    },
+    {
+      "retailer": "CVS",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    },
+    {
+      "retailer": "Costco",
+      "scope": "Household Cleaning and Holiday Savings",
+      "status": "partial",
+      "pagination": "not exhausted",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    },
+    {
+      "retailer": "Dollar General",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    },
+    {
+      "retailer": "Dollar Tree",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    },
+    {
+      "retailer": "H-E-B",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    },
+    {
+      "retailer": "Home Depot",
+      "scope": "one retained official product or category source",
+      "status": "blocked",
+      "pagination": "not started",
+      "remainingGap": "Blocked source prevented item and category reconciliation; zero records must not be interpreted as zero assortment."
+    },
+    {
+      "retailer": "Kroger",
+      "scope": "Cleaning & Household category",
+      "status": "partial",
+      "pagination": "not exhausted",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    },
+    {
+      "retailer": "Lowe’s",
+      "scope": "O-Cedar spray-mop category",
+      "status": "partial",
+      "pagination": "not exhausted",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    },
+    {
+      "retailer": "Meijer",
+      "scope": "one retained official product or category source",
+      "status": "blocked",
+      "pagination": "not started",
+      "remainingGap": "Blocked source prevented item and category reconciliation; zero records must not be interpreted as zero assortment."
+    },
+    {
+      "retailer": "Publix",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    },
+    {
+      "retailer": "Safeway",
+      "scope": "one retained official product or category source",
+      "status": "blocked",
+      "pagination": "not started",
+      "remainingGap": "Blocked source prevented item and category reconciliation; zero records must not be interpreted as zero assortment."
+    },
+    {
+      "retailer": "Sam’s Club",
+      "scope": "one retained official product or category source",
+      "status": "probe only",
+      "pagination": "not started",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    },
+    {
+      "retailer": "TikTok Shop",
+      "scope": "Household Cleaning discovery",
+      "status": "blocked",
+      "pagination": "not started",
+      "remainingGap": "Blocked source prevented item and category reconciliation; zero records must not be interpreted as zero assortment."
+    },
+    {
+      "retailer": "Walgreens",
+      "scope": "one retained official product or category source",
+      "status": "partial",
+      "pagination": "not exhausted",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    },
+    {
+      "retailer": "Walmart",
+      "scope": "Household Essentials New Arrivals",
+      "status": "partial",
+      "pagination": "not exhausted",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    },
+    {
+      "retailer": "Quince",
+      "scope": "Home New Arrivals and adjacent Storage & Organization",
+      "status": "adjacent-scope-only",
+      "pagination": "not exhausted",
+      "remainingGap": "This source probe does not establish full inventory, exact category exhaustion or current checkout availability."
+    }
+  ],
+  "officialNewsChecks": [
+    {
+      "source": "https://newsroom.sharkninja.com/",
+      "checkedDate": "2026-11-23",
+      "result": "No newer in-scope U.S. Home Care announcement beyond the retained 19 November RazorVac event was identified."
+    },
+    {
+      "source": "https://www.thecloroxcompany.com/newsroom/",
+      "checkedDate": "2026-11-23",
+      "result": "No newer in-scope product announcement beyond the retained 17 November Purell ProCare event was identified."
+    },
+    {
+      "source": "https://www.reckitt.com/us/news/",
+      "checkedDate": "2026-11-23",
+      "result": "No new in-scope U.S. Home Care product announcement meeting the evidence threshold was identified."
+    },
+    {
+      "source": "https://corporate.walmart.com/news/news-archive",
+      "checkedDate": "2026-11-23",
+      "result": "No distinct in-scope Home Care product announcement was identified in the current corporate news feed."
+    }
+  ],
+  "productSources": [
+    "https://www.acehardware.com/departments/home-and-decor/cleaning-and-disinfectants/tile-cleaners-near-me",
+    "https://www.albertsons.com/shop/pd/reynolds-wrap-aluminum-foil-200-sq-ft-each/130050222",
+    "https://www.amazon.com/Household-Supplies-Scrub-Daddy-Health/s?rh=n%3A15342811%2Cp_89%3AScrub%2BDaddy",
+    "https://www.bjs.com/product/arm--hammer-plus-oxiclean-odor-blasters-liquid-laundry-detergent---fresh-burst-200-fl-oz/3000000000005873299",
+    "https://www.cvs.com/shop/dawn-platinum-plus-powerwash-dish-spray-fresh-clean-16-oz-prodid-387401",
+    "https://www.costco.com/household-cleaning.html",
+    "https://www.dollargeneral.com/p/fabuloso-2x-multi-purpose-cleaner-with-baking-soda-citrus-and-fruits-scent-56-fl-oz/35000530615",
+    "https://sameday.dollartree.com/store/dollar-tree/products/17950911-la-s-totally-awesome-all-purpose-concentrated-cleaner-32-fl-oz",
+    "https://www.heb.com/product-detail/field-future-by-h-e-b-dishwashing-liquid-fragrance-free/5010074",
+    "https://www.homedepot.com/p/100670178",
+    "https://www.kroger.com/pl/cleaning-household/18011",
+    "https://www.lowes.com/pl/cleaning-tools/mops/spray-mops/o-cedar/microfiber/3998445995-553466270-4294721465",
+    "https://www.meijer.com/shopping/product/snuggle-lq-fab-sof-blue-sparkle-74-8oz/7261347456",
+    "https://delivery.publix.com/store/publix/products/39743-clorox-disinfecting-wipes-150-ct",
+    "https://www.safeway.com/shop/pd/bounty-regular-paper-towel-48-ct-rl/970461182",
+    "https://www.samsclub.com/ip/members-mark-platinum-performance-liquid-dish-soap-fresh-clean-100-fl-oz/13892164761",
+    "https://shop.tiktok.com/us/k/household-cleaning-supplies",
+    "https://www.walgreens.com/search/tier3/productlist/N%3D20007728-93-86",
+    "https://www.walmart.com/shop/household-essentials/new-arrivals",
+    "https://www.quince.com/shop/home/new-arrivals"
+  ],
+  "manufacturerSources": [
+    "https://newsroom.sharkninja.com/",
+    "https://www.thecloroxcompany.com/newsroom/",
+    "https://www.reckitt.com/us/news/"
+  ],
+  "reviewSummary": [
+    "All 20 canonical retailer sources were attempted; 14 were retrieved or partially rendered and six were blocked or restricted.",
+    "No exact new listing met the item, pack/variant, retailer/seller, matched-photo and deduplication threshold.",
+    "No distinct in-scope news event was verified after deduplication; rechecks did not create new event dates.",
+    "Only Ace tile cleaner retains a previously bounded 18-of-18 source scope; broader category pagination remains incomplete."
+  ],
+  "remainingGaps": [
+    "Full inventories and full 20-retailer by 16-category pagination were not reconciled.",
+    "Albertsons, Amazon US, Home Depot, Meijer, Safeway and TikTok Shop were blocked or restricted for exact item/category reconciliation.",
+    "Costco member/location pricing and stock remain partial; Walmart results remain dynamic and location-dependent; Quince remains primarily adjacent Home Organization.",
+    "Low-depth retailer/category combinations remain material. Zero collected records or zero additions do not establish zero retailer assortment.",
+    "No new retailer first-available date, launch date, current checkout stock or sales count was inferred."
+  ],
+  "preservation": {
+    "stableIdsPreserved": true,
+    "photosPreserved": true,
+    "retailerCategoryMappingsPreserved": true,
+    "sourceEvidencePreserved": true,
+    "marketCurrencyPackVariantScopePreserved": true,
+    "otherSitesChanged": false
+  }
+}

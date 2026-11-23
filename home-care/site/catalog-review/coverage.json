@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-22",
-  "sourceCheckedAt": "2026-11-22",
+  "reviewedAt": "2026-11-23",
+  "sourceCheckedAt": "2026-11-23",
   "baseline": 6331,
   "added": 3938,
   "total": 10269,
@@ -4154,22 +4154,24 @@
     "scope": "Targeted gap review; not a completed comprehensive inventory refresh"
   },
   "latestDailyAudit": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "added": 0,
     "byRetailer": {},
-    "audit": "daily-source-check-2026-11-22.json",
-    "scope": "Priority-channel daily follow-up found no qualifying catalog additions or distinct in-scope news event; full pagination remains incomplete."
+    "audit": "daily-source-check-2026-11-23.json",
+    "scope": "Comprehensive Monday review attempted one retained public source for all 20 retailers; no qualifying catalog additions or distinct in-scope news event, and full pagination remains incomplete."
   },
-  "dailyFollowupDate": "2026-11-22",
-  "countBasis": "10,269 canonical records retained after the 22 November 2026 daily material-change follow-up; no new records were added. Counts describe collected public listings, not complete retailer inventories.",
+  "dailyFollowupDate": "2026-11-23",
+  "countBasis": "10,269 canonical records retained after the 23 November 2026 comprehensive Monday review; no new records were added. Counts describe collected public listings, not complete retailer inventories.",
   "latestMondayAudit": {
-    "date": "2026-11-16",
+    "date": "2026-11-23",
     "retailersAttempted": 20,
+    "retailerSourcesRetrievedOrPartial": 14,
+    "retailerSourcesBlockedOrRestricted": 6,
     "categoryRowsTracked": 320,
-    "verifiedAdditions": 4,
-    "officialAnnouncementEvents": 2,
+    "verifiedAdditions": 0,
+    "officialAnnouncementEvents": 0,
     "coverageComplete": false,
-    "audit": "daily-source-check-2026-11-16.json",
-    "scope": "One retained public source attempted per retailer; only Ace tile-cleaner page exposed a bounded 18-of-18 scope. All other category/pagination coverage remains partial, blocked or not started."
+    "audit": "daily-source-check-2026-11-23.json",
+    "scope": "One retained public source attempted per retailer; only Ace tile cleaner retains a previously bounded 18-of-18 source scope. All other category/pagination coverage remains partial, blocked, location-dependent or not started."
   }
 }
