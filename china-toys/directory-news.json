@@ -1,5 +1,55 @@
 [
   {
+    "id": "52toys-alien-out-of-office-jp-20261130-preorder",
+    "title": "52TOYS Alien Out of Office: separate Japan-market single and four-box offers, November 30 expected retailer release",
+    "summary": "The official 52TOYS international store with Japan/JPY selected displays Alien Out of Office Series Plush Keychain Blind Box at JPY 2,499 for Single Box and separately offers Whole Set (4 Boxes) without a verified displayed total. Japanese retailer HobbyLink Japan lists item code 52T05927, JAN 6958985059275, with an expected retailer release date November 30, 2026; its four-piece random-box package is priced JPY 6,270 including tax, marked as a pre-release listing. This four-box retailer pack does NOT guarantee all regular designs, according to its listing. HLJ states four regular designs plus one secret and approximately 17cm; 52TOYS specifies 9 x 9 x 19cm. Retain each seller's stated specifications independently rather than smoothing the differences. The date is HLJ's expected Japan release, not a confirmed mainland launch or new November 23 launch. Neither seller's actual paid sales, mainland price or live branch stock were confirmed. The two displayed prices are distinct package/seller observations, not a direct comparable price cut or a verified official four-box total.",
+    "date": "2026-11-30",
+    "eventDate": "2026-11-30",
+    "dateLabel": "HobbyLink Japan expected release date; retailer projection only",
+    "type": "Sourced Japan-market upcoming retailer listing and distinct international-store pack options",
+    "checked": "2026-11-23",
+    "added": "2026-11-23",
+    "market": "Japan retailer and 52TOYS international storefront localized to Japan; no mainland-China availability verified",
+    "currency": "JPY",
+    "packOptions": [
+      {
+        "seller": "52TOYS international JP locale",
+        "name": "Single Box",
+        "count": 1,
+        "currency": "JPY",
+        "price": 2499,
+        "priceBasis": "Selected single-box displayed asking price"
+      },
+      {
+        "seller": "52TOYS international JP locale",
+        "name": "Whole Set (4 Boxes)",
+        "count": 4,
+        "currency": "JPY",
+        "price": null,
+        "priceBasis": "Set available as separate selectable option; exact total not verified"
+      },
+      {
+        "seller": "HobbyLink Japan",
+        "name": "1 BOX / 4pcs random assortment, product code 52T05927",
+        "count": 4,
+        "currency": "JPY",
+        "price": 6270,
+        "priceBasis": "Displayed Japan retailer tax-included preorder asking price; not same seller as official one-box price"
+      }
+    ],
+    "verificationScope": "Exact seller-specific Japanese price/pack observation and stated expected Japan retailer release. No first-party mainland price, stock or completed sale. Official and reseller dimensions differ and are preserved separately.",
+    "sources": [
+      {
+        "label": "52TOYS official international store set to Japan: JPY 2,499 Single Box and separate Whole Set (4 Boxes)",
+        "url": "https://hi52toys.com/en-jp/products/alien-out-of-office-series-plush-keychain-blind-box"
+      },
+      {
+        "label": "HobbyLink Japan item 52T05927: Nov 30 expected release, 4pcs, JPY 6,270 tax included",
+        "url": "https://www.hlj.co.jp/product/52T05927"
+      }
+    ]
+  },
+  {
     "id": "popmart-us-ive-fall-into-sweetness-vinyl-plush-nov26-2026",
     "title": "POP MART U.S. previews IVE Fall into Sweetness vinyl-plush pendant blind boxes for November 26",
     "summary": "POP MART's official United States product page and POP NOW preview, checked November 22, specify November 26, 2026 at 5:00 p.m. Pacific as the scheduled online release of IVE Fall into Sweetness Series Vinyl Plush Doll Pendant. The U.S. selected single random box displays USD 29.99; a distinct Whole Set option is visible but its asking price and exact box quantity were not checked. POP NOW illustrates six named regular members and six named secret designs, not confirmed odds or guarantees in a single box. The official product page lists approximate height 14cm and polyester/PVC/ABS/zinc alloy with polyester fiber filling. This is an advance U.S.-market listing and not a confirmed mainland China launch, current stock, unit sales, popularity evidence or a newly collected catalog record. Other IVE hair/phone accessories must not be counted as distinct blind-box toy listings without product-scope verification.",
@@ -313,25 +363,45 @@
   {
     "id": "popmart-kubo-true-colors-mainland-20261119",
     "title": "POP MART schedules KUBO True Colors vinyl-plush pendant blind boxes for mainland November 19",
-    "summary": "POP MART's verified November 13 mainland announcement names KUBO 本色登场系列搪胶毛绒挂件盲盒 (True Colors vinyl-plush pendant blind-box series). It schedules mainland online release on November 19, 2026 at 22:00 China time and offline release on November 20, subject to store opening hours. The November 18 source review did not establish a single-box or full-set price, material specifications beyond the issuer's vinyl-plush description, option IDs, current stock, exact SKU photos, or completed transactions. This is a dated future release announcement, not a confirmed November 18 sale or a new catalog-product count.",
+    "summary": "POP MART's verified corporate announcement dated November 13 scheduled KUBO 本色登场系列搪胶毛绒挂件盲盒 (Colors of My Own / True Colors vinyl-plush blind-box pendants) for mainland online release November 19 at 22:00 China time and stores November 20 subject to location hours. A November 20 report by IBTE toy exhibition describes CNY 109 per random single box and CNY 654 per complete six-box set, with six regular designs plus one secret. These are secondarily reported historic China launch prices, not separately checked first-party current checkout totals, November 23 stock, transactions, or established sales. The original release and announcement dates remain unchanged. Do not infer current mainland stock from the scheduled launch.",
     "date": "2026-11-19",
     "eventDate": "2026-11-19",
     "announced": "2026-11-13",
     "sourcePublished": "2026-11-13",
     "offlineReleaseAnnounced": "2026-11-20",
-    "checked": "2026-11-18",
+    "checked": "2026-11-23",
     "added": "2026-11-18",
-    "type": "Official mainland release announcement — upcoming",
-    "dateLabel": "Announced mainland online release; not observed availability",
+    "type": "Official mainland launch schedule; independent trade-publication price report",
+    "dateLabel": "Announced mainland online release November 19 (not November 23 collection)",
     "market": "Mainland China",
     "currency": "CNY",
-    "option": "Blind-box vinyl-plush pendant; exact single/set option prices not verified",
-    "priceBasis": "No verified announced or current price in cited source",
-    "verificationScope": "Verified issuer announcement and scheduled mainland release times only; photos/options/price/stock not revalidated.",
+    "option": "Single random blind-box vinyl-plush pendant versus reported six-box full set",
+    "priceBasis": "Historical CNY 109 single / CNY 654 six-box set reported by IBTE November 20; official price independently unverified",
+    "verificationScope": "Official November 13 issuer announcement supports dates and product identity; separate November 20 trade article supports price and pack quantities, not direct first-party checkout verification or current inventory. Source-check November 23 only.",
     "sources": [
       {
         "label": "POP MART verified mainland corporate account, published November 13",
         "url": "https://www.sina.cn/news/detail/5364867713994622.html"
+      },
+      {
+        "label": "IBTE International Toy Fair November 20 trade report: separately reported historical China prices",
+        "url": "https://www.ibtefair.com/NewsDetail/9399163.html"
+      }
+    ],
+    "packOptions": [
+      {
+        "name": "Single random box",
+        "count": 1,
+        "price": 109,
+        "currency": "CNY",
+        "basis": "Independent trade article reports announced launch RRP"
+      },
+      {
+        "name": "Six-box full set",
+        "count": 6,
+        "price": 654,
+        "currency": "CNY",
+        "basis": "Independent trade article reports announced launch RRP"
       }
     ]
   },
