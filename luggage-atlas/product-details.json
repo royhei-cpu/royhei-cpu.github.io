@@ -660,7 +660,9 @@
       "photoIds": [
         "travelpro-platinum-gloss-red-carry-exterior",
         "travelpro-platinum-gloss-red-carry-interior"
-      ]
+      ],
+      "priceDate": "2026-11-08",
+      "priceNote": "The USD 380 price observation is preserved from 8 November 2026. The 24 November observed date refers to the product-detail and photo review, not a new price observation."
     },
     {
       "offerId": "offer-2d616fd1",
@@ -680,14 +682,15 @@
       "source": "https://travelpro.com/products/platinum-elite-medium-check-in-hardside-spinner-limited-edition-colors?variant=50787219144802",
       "price": 430,
       "currency": "USD",
-      "priceNote": "The original 8 November observation is preserved. An extra 15% off in cart was displayed on 24 November, but no final transaction price was captured.",
+      "priceNote": "The USD 430 price observation is preserved from 8 November 2026. The 24 November observed date refers to the product-detail and photo review, not a new price observation. An extra 15% off in cart was displayed on 24 November, but no final transaction price was captured.",
       "sku": "409269509",
       "weight": "10.5 lb",
       "capacity": "84 L",
       "photoIds": [
         "travelpro-platinum-gloss-red-medium-exterior",
         "travelpro-platinum-gloss-red-medium-interior"
-      ]
+      ],
+      "priceDate": "2026-11-08"
     }
   ],
   "byBrand": {

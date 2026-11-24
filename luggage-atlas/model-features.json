@@ -14432,8 +14432,8 @@
       "scope": "Exact US product variant, SKU 409269109. Campaign announcement date is not a product launch date.",
       "image": "offer-photo-assets/travelpro-platinum-gloss-red-carry-exterior.webp",
       "gallery": [
-        "https://travelpro.com/products/platinum-elite-carry-on-hardside-spinner-limited-edition-colors?variant=50787219013730",
-        "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/409269109_7.jpg?v=1793202741"
+        "offer-photo-assets/travelpro-platinum-gloss-red-carry-exterior.webp",
+        "offer-photo-assets/travelpro-platinum-gloss-red-carry-interior.webp"
       ],
       "features": {
         "material": {
@@ -14461,12 +14461,8 @@
           "basis": "Stated on the official exact-product page checked 24 November 2026; physical performance was not independently tested."
         },
         "warranty": {
-          "value": "Built for a Lifetime Limited Warranty and 100-day trial stated",
-          "basis": "Official product and warranty pages; eligibility and regional terms govern."
-        },
-        "repair": {
-          "value": "Travelpro repair request, covered parts/replacement or authorized repair-center route",
-          "basis": "Official warranty page. This does not establish owner-DIY repair or worldwide spare-part availability."
+          "value": "Built for a Lifetime Limited Warranty and 100-day trial stated. Travelpro repair request, covered parts/replacement or authorized repair-center route.",
+          "basis": "Official product and warranty pages; eligibility and regional terms govern. Official warranty page. This does not establish owner-DIY repair or worldwide spare-part availability."
         },
         "dimensions": {
           "value": "23 × 14.5 × 9.5 in overall; 19.75 × 13.75 × 9.5 in case",
@@ -14493,12 +14489,12 @@
       "price": 380,
       "currency": "USD",
       "priceDate": "2026-11-08",
-      "photoKind": "Exact offer",
+      "photoKind": "exact-offer",
       "photoSource": "https://travelpro.com/products/platinum-elite-carry-on-hardside-spinner-limited-edition-colors?variant=50787219013730",
       "photoScope": "Exact model, size, Gloss Red color and SKU matched.",
       "photoCaption": "Exact Gloss Red carry-on exterior and open interior.",
       "opportunity": "Benchmark the stated access, organization, mobility and repair-service route against component cost and independently tested durability before product decisions.",
-      "featureCount": 12
+      "featureCount": 11
     },
     {
       "id": "offer-2d616fd1",
@@ -14511,8 +14507,8 @@
       "scope": "Exact US product variant, SKU 409269509. Campaign announcement date is not a product launch date.",
       "image": "offer-photo-assets/travelpro-platinum-gloss-red-medium-exterior.webp",
       "gallery": [
-        "https://travelpro.com/products/platinum-elite-medium-check-in-hardside-spinner-limited-edition-colors?variant=50787219144802",
-        "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/409269509_7.jpg?v=1793202810"
+        "offer-photo-assets/travelpro-platinum-gloss-red-medium-exterior.webp",
+        "offer-photo-assets/travelpro-platinum-gloss-red-medium-interior.webp"
       ],
       "features": {
         "material": {
@@ -14540,12 +14536,8 @@
           "basis": "Stated on the official exact-product page checked 24 November 2026; physical performance was not independently tested."
         },
         "warranty": {
-          "value": "Built for a Lifetime Limited Warranty and 100-day trial stated",
-          "basis": "Official product and warranty pages; eligibility and regional terms govern."
-        },
-        "repair": {
-          "value": "Travelpro repair request, covered parts/replacement or authorized repair-center route",
-          "basis": "Official warranty page. This does not establish owner-DIY repair or worldwide spare-part availability."
+          "value": "Built for a Lifetime Limited Warranty and 100-day trial stated. Travelpro repair request, covered parts/replacement or authorized repair-center route.",
+          "basis": "Official product and warranty pages; eligibility and regional terms govern. Official warranty page. This does not establish owner-DIY repair or worldwide spare-part availability."
         },
         "dimensions": {
           "value": "27.5 × 17.5 × 11.75 in overall; 24.5 × 16.25 × 11.75 in case",
@@ -14568,12 +14560,12 @@
       "price": 430,
       "currency": "USD",
       "priceDate": "2026-11-08",
-      "photoKind": "Exact offer",
+      "photoKind": "exact-offer",
       "photoSource": "https://travelpro.com/products/platinum-elite-medium-check-in-hardside-spinner-limited-edition-colors?variant=50787219144802",
       "photoScope": "Exact model, size, Gloss Red color and SKU matched.",
       "photoCaption": "Exact Gloss Red medium check-in exterior and open interior.",
       "opportunity": "Benchmark the stated organization, mobility and repair-service route against component cost and independently tested durability before product decisions.",
-      "featureCount": 11
+      "featureCount": 10
     }
   ],
   "brandCount": 178,
