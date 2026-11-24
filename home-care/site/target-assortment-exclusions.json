@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-11-24",
-  "policy": "Hide every competitor listing for a verified Target-carried brand, including variants. Preserve canonical records. Exact item exclusions may be added separately.",
-  "coverage": "Partial Target assortment check. Remaining brands are not verified absent from Target. Category pagination was not exhausted; no complete Target inventory claim.",
+  "policy": "Default deny: hide known Target overlaps AND all unresolved records from discovery, recommendations, saved selection and exports. Only explicitly reviewed records of evidenced competitor-exclusive brands may display. Preserve every canonical record and photo.",
+  "coverage": "Target assortment enumeration remains incomplete. Unreviewed is not a finding of Target availability or absence. Unreviewed records are hidden. Clearance is based on official retailer brand exclusivity, not an exhaustive Target inventory or item availability audit.",
   "brands": [
     {
       "brand": "Mrs. Meyer's Clean Day",
@@ -422,5 +422,1862 @@
       "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
     }
   ],
-  "items": []
+  "items": [],
+  "requireClearance": true,
+  "clearances": [
+    {
+      "brand": "Great Value",
+      "retailer": "Walmart",
+      "sourceUrl": "https://www.walmart.com/browse/shop-by-brand/great-value/3734780_7455738_5413535",
+      "checkedAt": "2026-11-24",
+      "basis": "Walmart states Great Value is its exclusive store brand.",
+      "scope": "Brand exclusivity review only; retained product evidence dates unchanged. No inference about new launches, stock, sales or prices.",
+      "records": [
+        {
+          "id": "CMP-005",
+          "name": "Extra Strength Melamine Cleaning Eraser, 2 count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/shop/household-essentials/cleaning"
+        },
+        {
+          "id": "HC-70c1186b09bc",
+          "name": "Great Value Dish Washing Liquid Detergent, Guava, 28 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/GV-Dish-Washing-Liquid-Detergent-Guava-28-fl-oz/13301915535"
+        },
+        {
+          "id": "HC-6662805c7318",
+          "name": "Great Value Disinfecting Wipes, Lemon Scent, 35 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Disinfecting-Wipes-Lemon-Scent-35-Count/20670304"
+        },
+        {
+          "id": "HC-aa6987fb12d2",
+          "name": "Great Value Ammonia All Purpose Cleaner, Lemon Scent, 64 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Ammonia-All-Purpose-Cleaner-Lemon-64-fl-oz/811827543"
+        },
+        {
+          "id": "HC-fd2b423a403c",
+          "name": "Great Value Concentrated Multi Purpose Cleaner, Lavender Scent, 56 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-56oz-Concentrated-Multi-Purpose-Cleaner-Lavender-Scented/5080177348"
+        },
+        {
+          "id": "HC-dd6696e9bf18",
+          "name": "Great Value Multipurpose Oxi-Based Cleaner Powder, Fresh Scent, 5 lbs",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Multipurpose-Oxi-Based-Cleaner-Powder-Fresh-Scent-5-lbs/16782761982"
+        },
+        {
+          "id": "HC-cb9c135c6fc1",
+          "name": "Great Value Fresh Scent Disinfecting Wipes, 35 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Fresh-Scent-Disinfecting-Wipes2-35-Count/20670305"
+        },
+        {
+          "id": "HC-e1b289c4eeda",
+          "name": "Great Value All-Purpose Cleaner, Lavender Scented, 32 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/GREAT-VALUE-LAVENDER-ALL-PURPOSE-CLEANER-32OZ/18069910226"
+        },
+        {
+          "id": "HC-a1cf400d4754",
+          "name": "Great Value Microfiber Twist Mop with Self-Wringing Ratchet and Removable Head",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Microfiber-Twist-Mop-with-Self-Wringing-Ratchet-and-Removable-Head/5947162508"
+        },
+        {
+          "id": "HC-54b56001605e",
+          "name": "Great Value Aerosol Air Freshener, Linen Fresh, 8 oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Aerosol-Air-Freshener-Linen-Fresh/5508575075"
+        },
+        {
+          "id": "HC-ea9e9335d8c4",
+          "name": "Great Value Aerosol Air Freshener, Hawaiian, 8 oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Aerosol-Air-Freshener-Hawaiian/5626758123"
+        },
+        {
+          "id": "HC-2308c144e8fe",
+          "name": "Great Value Aerosol Air Freshener, Tranquil Ocean Waves, 8 oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Aerosol-Air-Freshener-Tranquil-Ocean-Waves-8-oz/8517104330"
+        },
+        {
+          "id": "HC-da8b077fc7fc",
+          "name": "Great Value Twilight Woods Aerosol Air Freshener, 8 oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Aerosol-Air-Freshener-Twilight-Woods/5650007771"
+        },
+        {
+          "id": "HC-6bad58a0429b",
+          "name": "Great Value Adjustable Solid Gel Cone Air Freshener, Raspberry Fields, 7 oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Adjustable-Solid-Gel-Cone-Air-Freshener-Raspberry-Fields-7-oz/9853610832"
+        },
+        {
+          "id": "HC-75fe74e57879",
+          "name": "Great Value Automatic Air Freshener Spray Refill, Cherry Blossom, 2-6.17 oz, 2 Pieces",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Automatic-Air-Freshener-Spray-Refill-Cherry-Blossom-2-Pieces/1751598564"
+        },
+        {
+          "id": "HC-290bb4e33b7c",
+          "name": "Great Value Citrus Sunrise Shores Aerosol Air Freshener, 8 oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Aerosol-Air-Freshener-Citrus-Sunrise-Shores-8-oz/8529457164"
+        },
+        {
+          "id": "HC-513fbecc4121",
+          "name": "Great Value Non-Scratch Scrub Sponges, 4 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Non-Scratch-Scrub-Sponges-4-Count/554742513"
+        },
+        {
+          "id": "HC-e7d99d5d5e3f",
+          "name": "Great Value Ultra Original Dish Liquid, 70 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Ultra-Original-Dish-Liquid-70-fl-oz/18610906544"
+        },
+        {
+          "id": "HC-b1657a71c3ad",
+          "name": "Great Value Automatic Dishwasher Gel, Lemon Scent, 75 oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Automatic-Dishwasher-Gel-Lemon-Scent-75-Ounce-1-Count/938095010"
+        },
+        {
+          "id": "HC-96367d38e6ce",
+          "name": "Great Value Ultra Dish Liquid, Original, 28 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Ultra-Dish-Liquid-Original-28-fl-oz/1906762981"
+        },
+        {
+          "id": "HC-e8a34cfe2105",
+          "name": "Great Value Ultra Original Dish Liquid, 18 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Ultra-Original-Dish-Liquid-18-fl-oz/18610204851"
+        },
+        {
+          "id": "HC-4bfe4ba0fe5f",
+          "name": "Great Value Premium Dishwasher Pacs, Fresh Scent, 26 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Advanced-Dishwasher-Pacs-Fresh-Scent-26-Count/16689061131"
+        },
+        {
+          "id": "HC-2180805728ab",
+          "name": "Great Value Steel Wool Soap Pads, 10 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Steel-Wool-Soap-Pads-10-Count/857357381"
+        },
+        {
+          "id": "HC-daa717297845",
+          "name": "Great Value Ultra Original Dish Liquid, 90 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Ultra-Original-Dish-Liquid-90-fl-oz/18611056326"
+        },
+        {
+          "id": "HC-e3bb8e9ebd07",
+          "name": "Great Value Heavy Duty Scrub Sponges, 4 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Heavy-Duty-Scrub-Sponges-4-Count/823780237"
+        },
+        {
+          "id": "HC-b3d83a842219",
+          "name": "Great Value Extra Strength Melamine Cleaning Eraser, 2 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Extra-Strength-Miracle-Cleaning-Eraser-2-Count/248268523"
+        },
+        {
+          "id": "HC-1b6766669a22",
+          "name": "Great Value Tall Kitchen Trash Bags, 13 gal, Drawstring, Unscented, 40 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Unscented-40-Bags/344638043"
+        },
+        {
+          "id": "HC-de710612c15d",
+          "name": "Great Value Ultra Strong Paper Towels, 12 Double Rolls",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Ultra-Strong-Paper-Towels-White-12-Double-Rolls/3945859864"
+        },
+        {
+          "id": "HC-b13d8c9c2e3a",
+          "name": "Great Value 8.5 Inch Disposable Paper Plates, 100 Count, Soak-Proof and Microwave Safe",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-8-5-Inch-Disposable-Paper-Plates-100-Count-Soak-Proof-and-Microwave-Safe/885116895"
+        },
+        {
+          "id": "HC-02fd53b47f02",
+          "name": "Great Value Everyday Strong Paper Towels, 2 Double Rolls",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Everyday-Strong-Paper-Towels-Split-Sheets-2-Double-Rolls/10762707702"
+        },
+        {
+          "id": "HC-c42c7aaca5e2",
+          "name": "Great Value Soothing Lotion Facial Tissues, 1 Cube, 60 Tissues per Cube, 3-Ply, Compare to Kleenex®",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Soothing-Lotion-Facial-Tissues-1-Cube-60-Tissues-per-Cube-3-Ply/15113201026"
+        },
+        {
+          "id": "HC-32efb83f8d9e",
+          "name": "Great Value Aluminum Foil, 25 sq ft",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Aluminum-Foil-25-sq-ft/347036114"
+        },
+        {
+          "id": "HC-5e5acb3ca580",
+          "name": "Great Value Freezer Guard Double Zipper Gallon Freezer Bag, 80 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Freezer-Guard-Double-Zipper-Freezer-Bags-Gallon-80-Count/624605773"
+        },
+        {
+          "id": "HC-dc343bcb5245",
+          "name": "Great Value 10 Inch Disposable Paper Plates, 50 Count, Multicolor Design",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-10-Inch-Disposable-Paper-Plates-50-Count-Multicolor-Design/460870927"
+        },
+        {
+          "id": "HC-f00b502b82fe",
+          "name": "Great Value Everyday Plastic Disposable Assorted Cutlery Set, Clear, 360 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Everyday-Plastic-Disposable-Assorted-Cutlery-Set-Clear-360-Count/18962864126"
+        },
+        {
+          "id": "HC-4f1add7aaa00",
+          "name": "Great Value Red Disposable Plastic Party Cups, 18 oz, 50 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Everyday-Disposable-Plastic-Party-Cups-Red-18-oz-50-Count/15570984"
+        },
+        {
+          "id": "HC-54b7332b56d8",
+          "name": "Great Value Soft & Strong Premium Toilet Paper, 36 Mega Rolls, 380 Sheets per Roll",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Soft-Strong-Premium-Toilet-Paper-36-Mega-Rolls-380-Sheets-per-Roll/14977205703"
+        },
+        {
+          "id": "HC-01bc1500bcfe",
+          "name": "Great Value Everyday Strong Paper Towels, 3 Triple Rolls",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Everyday-Strong-Paper-Towels-Split-Sheets-3-Triple-Rolls/10759951592"
+        },
+        {
+          "id": "HC-aaff8face672",
+          "name": "Great Value White Disposable Paper Napkins, 12 in x 12 in, 500 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Disposable-Paper-Napkins-White-500-Count/363821204"
+        },
+        {
+          "id": "HC-80250ae791c6",
+          "name": "Great Value Freezer Guard Slider Zipper Freezer Bags, 1 Gallon, 20 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Freezer-Guard-Slider-Zipper-Bags-Gallon-Freezer-20-Count/611720449"
+        },
+        {
+          "id": "HC-66028475a7fe",
+          "name": "Great Value Everyday Disposable Paper Bowls, 10 oz, 50 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Everyday-Disposable-Patterened-Paper-Bowls-10-oz-50-Count/14361718982"
+        },
+        {
+          "id": "HC-51b7bed47a23",
+          "name": "Great Value Disposable Paper Plates, 10\", 150 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Everyday-Disposable-Paper-Plates-10-150-Count/664982875"
+        },
+        {
+          "id": "HC-47f8bd1707ca",
+          "name": "Great Value 8.5-Inch Disposable Paper Plates, 300 Count, Soak-Proof and Microwave-Safe",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-8-5-Inch-Disposable-Paper-Plates-300-Count-Soak-Proof-and-Microwave-Safe/106826867"
+        },
+        {
+          "id": "HC-0a27c2febf9f",
+          "name": "Great Value Toilet Paper, 1000 Sheets per Roll, 12 Rolls",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-1000-Sheets-per-Roll-Toilet-Paper-12-Rolls/15110314418"
+        },
+        {
+          "id": "HC-b286729d4599",
+          "name": "Great Value Double Zipper Half Gallon Freezer Bag, 40 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Double-Zipper-Half-Gallon-Freezer-Bags-40-Count/5129878940"
+        },
+        {
+          "id": "HC-230a9e568e4b",
+          "name": "Great Value Fresh Seal Slider Zipper Storage Bags, Gallon, 40 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Fresh-Seal-Slider-Zipper-Bags-Gallon-Storage-40-Count/863850761"
+        },
+        {
+          "id": "HC-4d3c1fec00df",
+          "name": "Great Value Aluminum Foil, 75 sq ft",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-75-sq-ft-Aluminum-Foil/121815660"
+        },
+        {
+          "id": "HC-efb830bb9997",
+          "name": "Great Value Disposable Paper Plates, 8.5 in, 200 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Everyday-Disposable-Paper-Plates-8-5-200-Count/430528502"
+        },
+        {
+          "id": "HC-7cb5e5630524",
+          "name": "Great Value Freezer Guard Double Zipper Quart Freezer Bag, 25 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Freezer-Guard-Double-Zipper-Freezer-Bags-Quart-25-Count/737613299"
+        },
+        {
+          "id": "HC-a930b50f3749",
+          "name": "Great Value Soak-Proof Foam Plates, White, 9 in, 150 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Soak-Proof-Foam-Foam-Plates-White-9-in-150-Count/43898504"
+        },
+        {
+          "id": "HC-7f073f7649c7",
+          "name": "Great Value No-Mess Squeeze Dish Soap Liquid, Original Scent, 14.7 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-No-Mess-Dish-Liquid-Original-Scent-14-7-fl-oz/18564269066"
+        },
+        {
+          "id": "HC-c68a1af5a6d1",
+          "name": "Great Value Unscented Heavy Duty Duster Refills, 11 Pack",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Heavy-Duty-Duster-Refill-Unscented-11-ct/18978870527"
+        },
+        {
+          "id": "HC-a95e6c4b6e99",
+          "name": "Great Value Ammonia Free Glass Cleaner, 32 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Ammonia-Free-Glass-Cleaner-32-fl-oz/49932622"
+        },
+        {
+          "id": "HC-9d8ec2d75607",
+          "name": "Great Value Low-Splash Bleach, 81 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Low-Splash-Bleach-81-fl-oz/889989527"
+        },
+        {
+          "id": "HC-a9e892e7f221",
+          "name": "Great Value Ultimate Fresh Laundry Detergent, Original Clean, 154 fl oz, 107 Loads",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Ultimate-Fresh-Laundry-Detergent-Original-Clean-154-fl-oz/5232266785"
+        },
+        {
+          "id": "HC-e2ba70cf639c",
+          "name": "Great Value Ultimate Fresh Laundry Detergent, Original Clean, 46 fl oz, 32 Loads",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Ultimate-Fresh-Laundry-Detergent-Original-Clean-46-fl-oz/5232266783"
+        },
+        {
+          "id": "HC-510bf84c070b",
+          "name": "Great Value Disinfecting Wipes, Lemon Scent, 75 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Lemon-Scent-Disinfecting-Wipes-75-Count-1-Lbs-5-5-Ounce/20670296"
+        },
+        {
+          "id": "HC-fd365839aa8d",
+          "name": "Great Value Disinfecting Wipes, 4 Pack, 300 Total Wipes",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Disinfecting-Wipes-300-Count-4-Pack/423259576"
+        },
+        {
+          "id": "HC-d9c78d80e8ae",
+          "name": "Great Value All Purpose Cleaner with Bleach, Fresh Scent, 32 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-All-Purpose-Cleaner-with-Bleach-Fresh-Scent-Spray-32-fl-oz/47770103"
+        },
+        {
+          "id": "HC-58c6a848c4db",
+          "name": "Great Value Multipurpose Microfiber Household Cleaning Cloth, Wipe, 2 Count, Multicolor",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Multipurpose-Microfiber-Household-Cleaning-Cloth-Wipe-2-Count-Multicolor/5352240774"
+        },
+        {
+          "id": "HC-928a164fb346",
+          "name": "Great Value Multi Purpose Cleaner, Lemon Scent, 32 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Multi-Purpose-Cleaner-Lemon-Scent-32-fl-oz/2560978912"
+        },
+        {
+          "id": "HC-7ce308890937",
+          "name": "Great Value Cleaner with Bleach, 32 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Cleaner-with-Bleach-32-fl-oz/879175068"
+        },
+        {
+          "id": "HC-d0f65cb2d50a",
+          "name": "Great Value Reusable Latex Multipurpose Household Gloves, BPA-Free, Teal, Medium",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Latex-Multipurpose-Reusable-Household-Gloves-BPA-Free-Teal-Color-Medium-Size/161752759"
+        },
+        {
+          "id": "HC-2b4266e45ea8",
+          "name": "Great Value Disinfecting Wipes, Fresh Scent, 75 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Disinfecting-Wipes-Fresh-Scent-75-Count/20670295"
+        },
+        {
+          "id": "HC-e76ddc6e7cd0",
+          "name": "Great Value Advanced Cleaning Toilet Tablets, Blue & Bleach, 4 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Advanced-Cleaning-Toilet-Tablets-Blue-Bleach-4-Count/19901405471"
+        },
+        {
+          "id": "HC-b00e78f8330b",
+          "name": "Great Value Premium Plus Dishwasher Pacs, Fresh Scent, 47 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Advanced-Plus-Dishwasher-Pacs-Fresh-Scent-47-Count/16657319496"
+        },
+        {
+          "id": "HC-ff38a84b79cb",
+          "name": "Great Value Toilet Bowl Cleaners, Fresh scent, 24 fl oz, 2 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Toilet-Bowl-Cleaners-Fresh-scent-24-Fluid-Ounce-2-Count/448305742"
+        },
+        {
+          "id": "HC-2bf5c1c9c2e2",
+          "name": "Great Value Wet & Dry Mop Sweeper Kit, (1 Mop Kit, 10 Pad Refills)",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Wet-Dry-Mop-Sweeper-Kit-1-Mop-Kit-10-Pad-Refills/5676197908"
+        },
+        {
+          "id": "HC-3ecb0040d99f",
+          "name": "Great Value Disinfecting Wipes, Lemon and Fresh Scent, 225 Count, 3 Pack",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Disinfecting-Wipes-Lemon-and-Fresh-Scent-225-Count-3-Pack/35067463"
+        },
+        {
+          "id": "HC-c61941bf7001",
+          "name": "Great Value Low Streaking Wet Mopping Cloths, Lavender Scent, 12 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Wet-Mopping-Cloths-Lavendar-12-Count/15352605816"
+        },
+        {
+          "id": "HC-991ea5d75900",
+          "name": "Great Value Multi Purpose Cleaner, Lavender Scent, 128 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Multi-Purpose-Cleaner-Lavender-Scent-128-fl-oz/5080177347"
+        },
+        {
+          "id": "HC-668f36615f52",
+          "name": "Great Value Non-Slip Grip Small Handy Scrubber, Blue",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Non-Slip-Grip-Small-Handy-Scrubber-Blue/5164320405"
+        },
+        {
+          "id": "HC-d3631e6f7b2a",
+          "name": "Great Value Disinfecting Wipes Multipack, Fresh and Lemon Scent, 105 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Disinfecting-Wipes-Multipack-Fresh-and-Lemon-Scent-105-Count/35067464"
+        },
+        {
+          "id": "HC-b14bce56f029",
+          "name": "Great Value Shower and Window Squeegee, 6.37 in Rubber Blade",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Shower-and-Window-Squeegee-6-37-in-Rubber-Blade/5377896990"
+        },
+        {
+          "id": "HC-1f09d93a4998",
+          "name": "Great Value Reusable Latex Household Cleaning Gloves, Large, Teal, 1 Pair",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Reusable-Latex-Household-Cleaning-Gloves-Large-Teal-1-Pair/256082562"
+        },
+        {
+          "id": "HC-80d11b22f3ca",
+          "name": "Great Value Disinfectant Spray, Crisp Linen Scent, 19 oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Disinfecting-Aerosol-Linen-19-fl-oz/18547654657"
+        },
+        {
+          "id": "HC-93d06f7e579b",
+          "name": "Great Value Dry Sweeping Cloth Refills, 32 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Dry-Sweeping-Cloth-Refills-32-Count/54801210"
+        },
+        {
+          "id": "HC-d83e88bb41e2",
+          "name": "Great Value Toilet Bowl Tablets with Bleach, 4 count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Toilet-Bowl-Tablets-with-Bleach-4-count/19864303689"
+        },
+        {
+          "id": "HC-784501c119cf",
+          "name": "Great Value All Purpose Cleaner with Bleach Spray, 32 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-32oz-All-Purpose-Cleaner-with-Bleach/13023513"
+        },
+        {
+          "id": "HC-37e3497297f7",
+          "name": "Great Value Advanced Cleaning Toilet Tablets, Blue & Bleach, 2 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Advanced-Cleaning-Toilet-Tablets-Blue-Bleach-2-Count/19847574607"
+        },
+        {
+          "id": "HC-1f20d6e4f2b1",
+          "name": "Great Value Glass Cleaner With Ammonia, Original Fresh Scent, 32 fl oz",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Glass-Cleaner-With-Ammonia-Original-Fresh-Scent-32-fl-oz/35282579"
+        },
+        {
+          "id": "HC-844044ac8518",
+          "name": "Great Value 13-Gallon Tall Kitchen Drawstring Trash Bags, 80 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/19104251127"
+        },
+        {
+          "id": "HC-86d87ae844f3",
+          "name": "Great Value Strong Flex Tall Kitchen Drawstring Bags, 13 Gallon, Unscented, 40 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/13279163050"
+        },
+        {
+          "id": "HC-f330fe62b431",
+          "name": "Great Value Strong Flex 13 gal Tall Kitchen Trash Bags, Drawstring, Mint Scent, White, 80 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Strong-Flex-13-Gallon-Tall-Kitchen-Drawstring-Bags-Mint-Scent-80-Count/522655073"
+        },
+        {
+          "id": "HC-b322495ff5e8",
+          "name": "Great Value Strong Flex 13-Gallon Drawstring Tall Kitchen Trash Bags, Citrus Burst, 80 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Citrus-Burst-80-Count/13272021559"
+        },
+        {
+          "id": "HC-807f5551ca6f",
+          "name": "Great Value Strong Flex Tall Kitchen Drawstring Garbage Bags, Lavender Fields, 13 Gallon, 80 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Lavender-Fields-80-Count/13281668709"
+        },
+        {
+          "id": "HC-a7a1290ca7c7",
+          "name": "Great Value Strong Flex 13 gal Drawstring Tall Kitchen Trash Bags, Fresh Scent, 120 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Fresh-Scent-120-Bags/13261923457"
+        },
+        {
+          "id": "HC-6c88c625b9c8",
+          "name": "Great Value Strong Flex Tall Kitchen Drawstring Bags, 13 Gallon, 80 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Strong-Flex-Tall-Kitchen-Drawstring-Bags-Island-Oasis-13-Gallon-80-Count/13281668711"
+        },
+        {
+          "id": "HC-fd0dd3951d67",
+          "name": "Great Value Sustainable Strong Flex Tall Kitchen Trash Bags, 13 gal, 40 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Sustainable-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-40-Bags/318687934"
+        },
+        {
+          "id": "HC-5be8a33a9b3f",
+          "name": "(3 pack) Great Value Clear Drawstring Tall Kitchen Bags, 13 gal, Unscented, 20 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/3-pack-Great-Value-13-Gallon-Clear-Drawstring-Tall-Kitchen-Bags-20-Bags/15374365149"
+        },
+        {
+          "id": "HC-2dbfd7281878",
+          "name": "Great Value 13-Gallon Flap Tie Tall Kitchen Trash Bags, 85 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-13-Gallon-Flap-Tie-Tall-Kitchen-Trash-Bags-85-Bags/175929079"
+        },
+        {
+          "id": "HC-1de28fa44477",
+          "name": "Great Value 13 gal Strong Flex Tall Kitchen Drawstring Garbage Bags, 80 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-13-gal-Strong-Flex-Tall-Kitchen-Drawstring-Garbage-Bags-80-Bags/17465064862"
+        },
+        {
+          "id": "HC-129838b401e9",
+          "name": "(6 pack) Great Value Strong Flex 13-Gallon Drawstring Tall Kitchen Trash Bags, Lavender Fields Scent, 20 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/6-pack-Great-Value-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Lavender-Fields-Scent-20-Bags/20676768401"
+        },
+        {
+          "id": "HC-cc7302b7ae4b",
+          "name": "(2 pack) Great Value Strong Flex Tall Kitchen Drawstring Trash Bags, Citrus Burst, 13 Gallon, 120 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/2-pack-Great-Value-Strong-Flex-Tall-Kitchen-Drawstring-Trash-Bags-Citrus-Burst-13-Gallon-120-Count/20623022376"
+        },
+        {
+          "id": "HC-ca1744d0d39e",
+          "name": "(3 pack) Great Value 13-Gallon Tall Kitchen Drawstring Trash Bags, 80 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/3-pack-Great-Value-13-Gallon-Tall-Kitchen-Drawstring-Trash-Bags-80-Count/20666561184"
+        },
+        {
+          "id": "HC-89ee015ad77e",
+          "name": "(6 pack) Great Value 13 gal Strong Flex Tall Kitchen Drawstring Bags, Unscented, 20 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/6-pack-Great-Value-13-Gallon-Strong-Flex-Tall-Kitchen-Drawstring-Bags-20-Bags/20631824793"
+        },
+        {
+          "id": "HC-e6b7e0d31b5d",
+          "name": "(3 pack) Great Value Blue Unscented 13 gal Drawstring Tall Kitchen Recycling Bags, 20 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/3-pack-Great-Value-Blue-Unscented-13-gal-Drawstring-Tall-Kitchen-Recycling-Bags-20-Count/15299073089"
+        },
+        {
+          "id": "HC-bc632cbe95be",
+          "name": "(2 pack) Great Value Strong Flex 13 gal Tall Kitchen Drawstring Trash Bags, Unscented, 120 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/2-pack-Great-Value-Strong-Flex-13-Gallon-Tall-Kitchen-Drawstring-Trash-Bags-Unscented-120-Bags/20607759676"
+        },
+        {
+          "id": "HC-637110773336",
+          "name": "(4 pack) Great Value Strong Flex 13 Gallon Tall Kitchen Trash Bags, Mint Scent, 40 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/4-pack-Great-Value-Strong-Flex-13-Gallon-Tall-Kitchen-Trash-Bags-Mint-Scent-40-Count/15558306384"
+        },
+        {
+          "id": "HC-1b548742fcb0",
+          "name": "(2 pack) Great Value Strong Flex 13-Gallon Drawstring Tall Kitchen Trash Bags, Lavender Fields, 120 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/2-pack-Great-Value-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Lavender-Fields-120-Bags/20612201367"
+        },
+        {
+          "id": "HC-1ad632da718c",
+          "name": "(6 pack) Great Value Strong Flex 13-Gallon Drawstring Tall Kitchen Trash Bags, Citrus Burst, 20 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/6-pack-Great-Value-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Citrus-Burst-20-Count/20614622207"
+        },
+        {
+          "id": "HC-a18a6cdff693",
+          "name": "(3 pack) Great Value Strong Flex 13-Gallon Drawstring Tall Kitchen Trash Bags, Citrus Burst, 80 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/3-pack-Great-Value-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Citrus-Burst-80-Count/20649258444"
+        },
+        {
+          "id": "HC-dd1c7b0a83c2",
+          "name": "(2 pack) Great Value Strong Flex Tall Kitchen Drawstring Bags, 13 gal, 120 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/2-pack-Great-Value-Strong-Flex-Tall-Kitchen-Drawstring-Bags-13-gal-120-Bags/20665052394"
+        },
+        {
+          "id": "HC-77fa8f5c7d7a",
+          "name": "(6 pack) Great Value Strong Flex 13 gal Tall Kitchen Trash Bags, Drawstring, Mint Scent, White, 80 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/6-pack-Great-Value-Strong-Flex-13-Gallon-Tall-Kitchen-Drawstring-Bags-Mint-Scent-80-Count/2240352639"
+        },
+        {
+          "id": "HC-6661a495eaac",
+          "name": "(6 pack) Great Value Strong Flex 13-Gallon Drawstring Tall Kitchen Trash Bags, Island Oasis, 40 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/6-pack-Great-Value-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Island-Oasis-40-Count/20612201591"
+        },
+        {
+          "id": "HC-6b700369d928",
+          "name": "(6 pack) Great Value Strong Flex Tall Kitchen Drawstring Bags, Unscented, 13 Gallon, 20 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Strong-Flex-Tall-Kitchen-Drawstring-Bags-Unscented-13-Gallon-20-Count/20031116649"
+        },
+        {
+          "id": "HC-e5c83f59c550",
+          "name": "(3 pack) Great Value Strong Flex Tall Kitchen Drawstring Garbage Bags, Lavender Fields, 13 Gallon, 80 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/3-pack-Great-Value-Strong-Flex-Tall-Kitchen-Drawstring-Garbage-Bags-Lavender-Fields-13-Gallon-80-Count/20665464366"
+        },
+        {
+          "id": "HC-706c4b46ef5b",
+          "name": "(6 pack) Great Value Strong Flex 13-Gallon Drawstring Tall Kitchen Trash Bags, Fresh Scent, 40 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/6-pack-Great-Value-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Fresh-Scent-40-Bags/20668253839"
+        },
+        {
+          "id": "HC-42238902b8c7",
+          "name": "(6 pack) Great Value Strong Flex 13-Gallon Drawstring Tall Kitchen Trash Bags, Lavender Fields, 40 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/6-pack-Great-Value-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Lavender-Fields-40-Bags/20677217593"
+        },
+        {
+          "id": "HC-bb5d3a79d4a4",
+          "name": "(3 pack) Great Value 13 gal Strong Flex Tall Kitchen Drawstring Garbage Bags, 80 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/3-pack-Great-Value-13-gal-Strong-Flex-Tall-Kitchen-Drawstring-Garbage-Bags-80-Bags/20615009720"
+        },
+        {
+          "id": "HC-2473bb09b878",
+          "name": "(6 pack) Great Value Strong Flex Tall Kitchen Drawstring Bags, 13 Gallon, Unscented, 40 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/6-pack-Great-Value-Strong-Flex-Tall-Kitchen-Drawstring-Bags-13-Gallon-Unscented-40-Count/20614959447"
+        },
+        {
+          "id": "HC-1a0e6125714c",
+          "name": "(6 pack) Great Value Strong Flex Drawstring Tall Kitchen Trash Bags, 13 gal, Citrus Burst, 40 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/6-pack-Great-Value-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Citrus-Burst-40-Count/20614959536"
+        },
+        {
+          "id": "HC-0cbeb8f3f54c",
+          "name": "(6 pack) Great Value 13 Gallon Strong Flex Tall Kitchen Drawstring Bags, 40 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/6-pack-Great-Value-13-Gallon-Strong-Flex-Tall-Kitchen-Drawstring-Bags-40-Bags/20679705457"
+        },
+        {
+          "id": "HC-061d21120b9e",
+          "name": "Great Value Strong Flex 13-Gallon Tall Kitchen Drawstring Trash Bags, Citrus Burst Scent, 120 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Strong-Flex-13-Gallon-Tall-Kitchen-Drawstring-Trash-Bags-Citrus-Burst-Scent-120-Bags/1159692118"
+        },
+        {
+          "id": "HC-10dc6eadbb2c",
+          "name": "Great Value Tall Kitchen Drawstring Trash Bags, 13 gal, 80 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Kitchen-Tall-Drawstring-Bags-13-Gallon-80-Count/814169793"
+        },
+        {
+          "id": "HC-b3f40ee3dcb1",
+          "name": "Great Value Strong Flex 13-Gallon Drawstring Tall Kitchen Trash Bags, Fresh Cotton, 40 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Strong-Flex-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Fresh-Cotton-40-Bags/695572581"
+        },
+        {
+          "id": "HC-064e8364aca4",
+          "name": "Great Value Strong Flex 13-Gallon White Drawstring Tall Kitchen Garbage Bags, Fresh Scent, 120 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-13-Gallon-White-Strong-Flex-Drawstring-Tall-Kitchen-Garbage-Bags-Fresh-Scent-120-Bags/1332928536"
+        },
+        {
+          "id": "HC-fe1818857f0a",
+          "name": "Great Value 13-Gallon Drawstring Tall Kitchen Trash Bags, Unscented, 40 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-13-Gallon-Drawstring-Tall-Kitchen-Trash-Bags-Unscented-40-Bags/5091847139"
+        },
+        {
+          "id": "HC-3291e19fb6d7",
+          "name": "Great Value Strong Flex 13-Gallon Drawstring Kitchen Trash Bags, Island Oasis Scent, 80 Bags",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-13-Gallon-Strong-Flex-Drawstring-Kitchen-Trash-Bags-Island-Oasis-Scent-80-Bags/5116158793"
+        },
+        {
+          "id": "HC-b8630d44090b",
+          "name": "Great Value Strong Flex Tall Kitchen Drawstring Trash Bags, Island Oasis, 13 Gallon, 90 Count",
+          "brand": "Great Value",
+          "coverageBrand": "",
+          "retailer": "Walmart",
+          "url": "https://www.walmart.com/ip/Great-Value-Strong-Flex-Tall-Kitchen-Drawstring-Trash-Bags-Island-Oasis-13-Gallon-90-Count/609214552"
+        }
+      ]
+    },
+    {
+      "brand": "Kirkland Signature",
+      "retailer": "Costco",
+      "sourceUrl": "https://www.costco.com/f/-/about-kirkland-signature",
+      "checkedAt": "2026-11-24",
+      "basis": "Costco describes Kirkland Signature as a Costco exclusive across grocery and household essentials.",
+      "scope": "Brand exclusivity review only; retained product evidence dates unchanged. No inference about new launches, stock, sales or prices.",
+      "records": [
+        {
+          "id": "CMP-009",
+          "name": "Ultra Clean Free & Clear liquid laundry detergent",
+          "brand": "Kirkland Signature",
+          "coverageBrand": "",
+          "retailer": "Costco",
+          "url": "https://www.costco.com/household-cleaning.html"
+        },
+        {
+          "id": "CMP-011",
+          "name": "Ultra Plush Microfiber Towels, 36 count",
+          "brand": "Kirkland Signature",
+          "coverageBrand": "",
+          "retailer": "Costco",
+          "url": "https://www.costco.com/opt/spring-cleaning-supplies"
+        },
+        {
+          "id": "CMP-014",
+          "name": "Create-A-Size paper towels, 12 rolls",
+          "brand": "Kirkland Signature",
+          "coverageBrand": "",
+          "retailer": "Costco",
+          "url": "https://www.costco.com/opt/kitchen-cleaning-tools"
+        },
+        {
+          "id": "HC-5b61381234dd",
+          "name": "Kirkland Signature Ultra Plush Microfiber Towel Yellow 16 in x 16 in 36-count",
+          "brand": "Kirkland Signature",
+          "coverageBrand": "",
+          "retailer": "Costco",
+          "url": "https://www.costco.com/.product.100356999.html"
+        },
+        {
+          "id": "HC-5e612a57eb41",
+          "name": "Kirkland Signature Microfiber Towel Case of 9 Packs of 36 (324-count) Yellow",
+          "brand": "Kirkland Signature",
+          "coverageBrand": "",
+          "retailer": "Costco",
+          "url": "https://www.costco.com/.product.100341124.html"
+        },
+        {
+          "id": "HC-91e3d58f18a9",
+          "name": "Kirkland Signature Ultra Soft Bath Tissue, 2-Ply, 231 Sheets, 36 Rolls",
+          "brand": "Kirkland Signature",
+          "coverageBrand": "",
+          "retailer": "Costco",
+          "url": "https://www.costco.com/p/-/kirkland-signature-ultra-soft-bath-tissue-2-ply-231-sheets-36-rolls/4000206004"
+        },
+        {
+          "id": "HC-7339512ab502",
+          "name": "Kirkland Signature 18-Gallon Compactor & Kitchen Trash Bag, 70-count",
+          "brand": "Kirkland Signature",
+          "coverageBrand": "",
+          "retailer": "Costco",
+          "url": "https://www.costco.com/p/-/kirkland-signature-18-gallon-compactor-kitchen-trash-bag-70-count/4000101585"
+        },
+        {
+          "id": "HC-d2f9635ebadf",
+          "name": "Kirkland Signature 18-Gallon Heavy Duty Compactor and Kitchen Trash Bag, 70-count",
+          "brand": "Kirkland Signature",
+          "coverageBrand": "",
+          "retailer": "Costco",
+          "url": "https://www.costco.com/p/-/kirkland-signature-18-gallon-heavy-duty-compactor-and-kitchen-trash-bag-70-count/4201052007"
+        },
+        {
+          "id": "HC-1a8dde317a47",
+          "name": "Kirkland Signature 39-Gallon Flex-Tech Extra Large Drawstring Trash Bags, 90-count",
+          "brand": "Kirkland Signature",
+          "coverageBrand": "",
+          "retailer": "Costco",
+          "url": "https://www.costco.com/p/-/kirkland-signature-39-gallon-flex-tech-extra-large-drawstring-trash-bags-90-count/4201054883"
+        },
+        {
+          "id": "HC-e08af4b7a201",
+          "name": "Kirkland Signature Ultra Shine Liquid Dish Soap, Fresh, 90 fl. oz.",
+          "brand": "Kirkland Signature",
+          "coverageBrand": "",
+          "retailer": "Costco",
+          "url": "https://www.costco.com/p/-/kirkland-signature-ultra-shine-liquid-dish-soap-fresh-90-fl-oz/4000247808"
+        }
+      ]
+    },
+    {
+      "brand": "Member's Mark",
+      "retailer": "Sam's Club",
+      "sourceUrl": "https://www.samsclub.com/cp/members-mark-goals/30001929?mid=2024_visnav_mm_about",
+      "checkedAt": "2026-11-24",
+      "basis": "Sam’s Club describes Member’s Mark as exclusively at Sam’s Club.",
+      "scope": "Brand exclusivity review only; retained product evidence dates unchanged. No inference about new launches, stock, sales or prices.",
+      "records": [
+        {
+          "id": "CMP-025",
+          "name": "Platinum Performance liquid dish soap, 100 fl oz",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/members-mark-platinum-performance-liquid-dish-soap-fresh-clean-100-fl-oz/13892164761"
+        },
+        {
+          "id": "HC-baa20b0a5ed5",
+          "name": "Member's Mark Power Flex 13-Gallon Tall Kitchen Trash Bags, Fresh Scent, 200 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Power-Flex-13-Gallon-Tall-Kitchen-Trash-Bags-Fresh-Scent-200-ct/7874222567"
+        },
+        {
+          "id": "HC-e869251b8005",
+          "name": "Member's Mark Power Flex 13-Gallon Tall Kitchen Trash Bags, 200 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Power-Flex-13-Gallon-Tall-Kitchen-Trash-Bags-200-ct/7874222509"
+        },
+        {
+          "id": "HC-bbb824a0e017",
+          "name": "Member's Mark Power Flex 13-Gallon Tall Kitchen Trash Bags, Lavender, 200 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Power-Flex-13-Gallon-Tall-Kitchen-Trash-Bags-Lavender-200-ct/7874222568"
+        },
+        {
+          "id": "HC-8fb1952ac542",
+          "name": "Member's Mark Heavy Duty 55-Gallon Drum Liner Trash Bags, 80 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Heavy-Duty-55-Gallon-Drum-Liner-Trash-Bags-80-ct/13871571973"
+        },
+        {
+          "id": "HC-41df495bad4e",
+          "name": "Member's Mark 50-Gallon Commercial Can Liners, 220 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-50-Gallon-Commercial-Can-Liners-220-ct/7874202959"
+        },
+        {
+          "id": "HC-6aa90b7d70a5",
+          "name": "Member's Mark Commercial Contractor 42-Gallon Clean-Up Bags, 42 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Commercial-Contractor-42-Gallon-Clean-Up-Bags-42-ct/7874219576"
+        },
+        {
+          "id": "HC-3de70d4de769",
+          "name": "Member's Mark 10-Gallon Commercial Can Liners, 1000 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-10-Gallon-Commercial-Can-Liners-1000-ct/7874202958"
+        },
+        {
+          "id": "HC-ac1eb0e7b873",
+          "name": "Member's Mark 33 Gallon Commercial Can Liners, 320 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-33-Gallon-Commercial-Can-Liners-320-ct/7874202960"
+        },
+        {
+          "id": "HC-3fdfbc72270c",
+          "name": "Member's Mark Heavy Duty 18-Gallon Kitchen & Compactor Trash Bags, 50 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Heavy-Duty-18-Gallon-Kitchen-Compactor-Trash-Bags-50-ct/19396804402"
+        },
+        {
+          "id": "HC-30dbee099b48",
+          "name": "Member's Mark 4-Gallon Drawstring Trash Bags, Fresh, 200 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-4-Gallon-Drawstring-Trash-Bags-Fresh-200-ct/17325605818"
+        },
+        {
+          "id": "HC-976eddddb252",
+          "name": "Member's Mark Power Flex 33 Gallon Trash Bags, Lavender, 90 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Power-Flex-33-Gallon-Trash-Bags-Lavender-90-ct/15229118398"
+        },
+        {
+          "id": "HC-9009ae60c2bd",
+          "name": "Member's Mark 33-Gallon Power Flex Drawstring Trash Bags 90 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-33-Gallon-Power-Flex-Drawstring-Trash-Bags-90-ct/13870121788"
+        },
+        {
+          "id": "HC-8f386ee1b63b",
+          "name": "Member's Mark 39 Gallon Power Flex Drawstring Yard Trash Bags (90 ct.)",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-39-Gallon-Power-Flex-Drawstring-Yard-Trash-Bags-90-ct/13896256324"
+        },
+        {
+          "id": "HC-597e296ff5c5",
+          "name": "Member's Mark Unbleached Parchment Paper, 205 sq. ft., 2 pk.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Unbleached-Parchment-Paper-205-sq-ft-2-pk/14216962216"
+        },
+        {
+          "id": "HC-26d7b7576c1c",
+          "name": "Member's Mark Foil Sheets, 12\" x 10.75\", 500 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Foil-Sheets-12-x-10-75-500-ct/7874226439"
+        },
+        {
+          "id": "HC-539894c8750d",
+          "name": "Member's Mark Foil Sheets, 9\" x 10.75\" (500 ct.)",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Foil-Sheets-9-x-10-75-500-ct/7874226433"
+        },
+        {
+          "id": "HC-6d12c5cec8b4",
+          "name": "Member's Mark Foodservice Aluminum Foil 12 in. x 1000 ft., 1,000 ft.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Foodservice-Aluminum-Foil-12-in-x-1000-ft-1-000-ft/14196452433"
+        },
+        {
+          "id": "HC-822532c67234",
+          "name": "Member's Mark Heavy Duty Foodservice Foil 18\" x 500'",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Heavy-Duty-Foodservice-Foil-18-x-500/7874226438"
+        },
+        {
+          "id": "HC-aa49dc881261",
+          "name": "Member's Mark Standard Foodservice Aluminum Foil 18\" x 500 ft.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Standard-Foodservice-Aluminum-Foil-18-x-500-ft/7874226441"
+        },
+        {
+          "id": "HC-6b2f5c03de22",
+          "name": "Member's Mark Standard Foodservice Aluminum Foil, 18\" x 400'",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Standard-Foodservice-Aluminum-Foil-18-x-400/20320210474"
+        },
+        {
+          "id": "HC-e94f2adc4050",
+          "name": "Member's Mark Heavy Duty Foodservice Foil, 18\" x 400'",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Heavy-Duty-Foodservice-Foil-18-x-400/20246201511"
+        },
+        {
+          "id": "HC-74014406282e",
+          "name": "Member's Mark Commercial Oven, Grill and Fryer Cleaner, 32 oz., 3 pk.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Commercial-Oven-Grill-and-Fryer-Cleaner-32-oz-3-pk/13887154727"
+        },
+        {
+          "id": "HC-005b084ec2e6",
+          "name": "Member's Mark Heavy Duty Broom and Dustpan Set, 13\" Indoor and 15\" Outdoor Brooms, 2 Dustpans, 4 piece set",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Heavy-Duty-Broom-and-Dustpan-Set-13-Indoor-and-15-Outdoor-Brooms-2-Dustpans-4-piece-set/16696605425"
+        },
+        {
+          "id": "HC-4c43384c184b",
+          "name": "Member's Mark Commercial Carpet Cleaner Concentrate, 1 gal., 4 pk.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Commercial-Carpet-Cleaner-Concentrate-1-gal-4-pk/13870574512"
+        },
+        {
+          "id": "HC-e3fa0b7154e2",
+          "name": "Member's Mark Disinfecting Wipes, Variety Pack, 4 pk., 312 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Disinfecting-Wipes-Variety-Pack-4-pk-312-ct/13610418712"
+        },
+        {
+          "id": "HC-f69082562ba1",
+          "name": "Member's Mark Platinum Clean Automatic Dishwasher Pacs, Fresh Clean, 110 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Platinum-Clean-Automatic-Dishwasher-Pacs-Fresh-Clean-110-ct/18766722402"
+        },
+        {
+          "id": "HC-98bfd8f695e5",
+          "name": "Member's Mark Microfiber Towels, 16\" x 16\", 36 ct., Choose Color",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Microfiber-Towels-16-x-16-36-ct-Choose-Color/19667518674"
+        },
+        {
+          "id": "HC-6382b8fd98b5",
+          "name": "Member's Mark Commercial Mop Bucket with Wringer, 36 qt.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Commercial-Mop-Bucket-with-Wringer-36-qt/13595124524"
+        },
+        {
+          "id": "HC-e24be38ef59a",
+          "name": "Member's Mark Blended Mop Combo",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Blended-Mop-Combo/13676064750"
+        },
+        {
+          "id": "HC-36c7ad16c4f9",
+          "name": "Member's Mark 24\" x 16\" Microfiber Towels 24 pk., 3 Colors",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-24-x-16-Microfiber-Towels-24-pk-3-Colors/13881452880"
+        },
+        {
+          "id": "HC-16c4ebb112ac",
+          "name": "Member's Mark Commercial Shop Towels, 200 Count",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Commercial-Shop-Towels-200-Count/73785779267"
+        },
+        {
+          "id": "HC-d18888cf9d27",
+          "name": "Member's Mark 100% Cotton Terry Towels, 14\" x 17\", Multipack",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-100-Cotton-Terry-Towels-14-x-17-Multipack/18844669355"
+        },
+        {
+          "id": "HC-9456401ff352",
+          "name": "Member's Mark Laundry Pacs Ultimate Clean, Free & Clear, 130 Pacs",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Laundry-Pacs-Ultimate-Clean-Free-Clear-130-Pacs/19648751670"
+        },
+        {
+          "id": "HC-c8e34fc13a51",
+          "name": "Member's Mark Laundry Detergent Ultimate Clean, Free & Clear, 166 loads, 218 fl. oz.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Laundry-Detergent-Ultimate-Clean-Free-Clear-166-loads-218-fl-oz/19718718780"
+        },
+        {
+          "id": "HC-cf98944dc2ef",
+          "name": "Member's Mark Fabric Softener Dryer Sheets, Fresh Scent, 480 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Fabric-Softener-Dryer-Sheets-Fresh-Scent-480-ct/13878463160"
+        },
+        {
+          "id": "HC-e059c7aa23fa",
+          "name": "Member's Mark Liquid Laundry Detergent, Fresh Scent, 127 loads, 196 fl. oz.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Liquid-Laundry-Detergent-Fresh-Scent-127-loads-196-fl-oz/15470705757"
+        },
+        {
+          "id": "HC-3964aa54c309",
+          "name": "Member's Mark Liquid Laundry Detergent, Paradise Splash, 127 loads, 196 fl. oz.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Liquid-Laundry-Detergent-Paradise-Splash-127-loads-196-fl-oz/15409769072"
+        },
+        {
+          "id": "HC-8a03e00f6cc4",
+          "name": "Member's Mark Liquid Fabric Softener, Spring Flowers, 251 loads, 170 fl. oz.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Liquid-Fabric-Softener-Spring-Flowers-251-loads-170-fl-oz/13657157181"
+        },
+        {
+          "id": "HC-411e2e4ed709",
+          "name": "Member's Mark Full Size Aluminum Steam Table Pans, 15 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Full-Size-Aluminum-Steam-Table-Pans-15-ct/17318370859"
+        },
+        {
+          "id": "HC-5601dba0b5ac",
+          "name": "Member's Mark 5-qt. Plastic Disposable Bowl & Lid Set 4 pk.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-5-qt-Plastic-Disposable-Bowl-Lid-Set-4-pk/7874205913"
+        },
+        {
+          "id": "HC-c6c7a386a2f6",
+          "name": "Member's Mark Clear Portion Lids 1oz., 2,500ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Clear-Portion-Lids-1oz-2-500ct/7874204447"
+        },
+        {
+          "id": "HC-958d65c0d783",
+          "name": "Member's Mark Ultra Premium 2-Ply Toilet Paper 45 rolls, 235 sheets/roll",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Ultra-Premium-2-Ply-Toilet-Paper-45-rolls-235-sheets-roll/14179359401"
+        },
+        {
+          "id": "HC-2008a515e392",
+          "name": "Member's Mark Everyday 1-Ply White Napkins 4 pks., 300 napkins/pk.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Everyday-1-Ply-White-Napkins-4-pks-300-napkins-pk/7874204597"
+        },
+        {
+          "id": "HC-51d09dfc0434",
+          "name": "Member's Mark Select & Tear 2-Ply Paper Towel 15 rolls, 150 sheets/roll",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Select-Tear-2-Ply-Paper-Towel-15-rolls-150-sheets-roll/15390012477"
+        },
+        {
+          "id": "HC-ba765adcadc5",
+          "name": "Member's Mark Ultra Premium 2-Ply White Napkins 6 pks., 110 napkins/pk.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Ultra-Premium-2-Ply-White-Napkins-6-pks-110-napkins-pk/13581923183"
+        },
+        {
+          "id": "HC-e52cd93468f1",
+          "name": "Member's Mark Ultra Premium 3-Ply White Dinner Napkins, 4 pks., 80 napkins/pk.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Ultra-Premium-3-Ply-White-Dinner-Napkins-4-pks-80-napkins-pk/13609768106"
+        },
+        {
+          "id": "HC-82661a1e854a",
+          "name": "Member's Mark Commercial Disinfectant, Lemon Scent, 4 pk., 1 gal. each",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Commercial-Disinfectant-Lemon-Scent-4-pk-1-gal-each/13896356083"
+        },
+        {
+          "id": "HC-56ec86fdb67c",
+          "name": "Member's Mark No Rinse Floor Cleaner, 1 gal., Choose Pack Size",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-No-Rinse-Floor-Cleaner-1-gal-Choose-Pack-Size/13605802628"
+        },
+        {
+          "id": "HC-5175b47a7b73",
+          "name": "Member's Mark Floor Cleaner and Degreaser 1 gal., Choose Pack Size",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Floor-Cleaner-and-Degreaser-1-gal-Choose-Pack-Size/13627767135"
+        },
+        {
+          "id": "HC-a264356a7caa",
+          "name": "Member's Mark Thanksgiving Oval Paper Plates, 10\" x 12\", 50 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Thanksgiving-Oval-Paper-Plates-10-x-12-50-ct/13758614618"
+        },
+        {
+          "id": "HC-5c7d9ef60d93",
+          "name": "Member's Mark Fall Paper Plates, Changing Leaves, 10\", 85 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Fall-Paper-Plates-Changing-Leaves-10-85-ct/13752608282"
+        },
+        {
+          "id": "HC-77ecbef8e3ba",
+          "name": "Member's Mark Clear Cutlery Combo Pack, Forks, Knives, Spoons 360 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Clear-Cutlery-Combo-Pack-Forks-Knives-Spoons-360-ct/13882408249"
+        },
+        {
+          "id": "HC-4ea9a1b4e36f",
+          "name": "Member's Mark Ultra Dinner Paper Plates, 10\", 204 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Ultra-Dinner-Paper-Plates-10-204-ct/7874226714"
+        },
+        {
+          "id": "HC-89485d1eeb9e",
+          "name": "Member's Mark Ultra Soup/Salad Paper Bowls 20 oz., 150 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Ultra-Soup-Salad-Paper-Bowls-20-oz-150-ct/7874228838"
+        },
+        {
+          "id": "HC-1cd01a84ebaa",
+          "name": "Member's Mark Clear Plastic Portion Lids 2 oz., 2500 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Clear-Plastic-Portion-Lids-2-oz-2500-ct/7874204433"
+        },
+        {
+          "id": "HC-b1fd350746f2",
+          "name": "Member's Mark White Plastic Forks, Heavyweight 600 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-White-Plastic-Forks-Heavyweight-600-ct/7874204496"
+        },
+        {
+          "id": "HC-cae6ee06306f",
+          "name": "Member's Mark Deli Container with Lid 16 oz., 240 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Deli-Container-with-Lid-16-oz-240-ct/13885006878"
+        },
+        {
+          "id": "HC-0e6f37100efc",
+          "name": "Member's Mark Heavyweight White Plastic Spoons, 600 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Heavyweight-White-Plastic-Spoons-600-ct/7874204476"
+        },
+        {
+          "id": "HC-1242e24f5b09",
+          "name": "Member's Mark Clear Plastic Cups 16 oz., 132 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Clear-Plastic-Cups-16-oz-132-ct/7874220648"
+        },
+        {
+          "id": "HC-3356bdc12503",
+          "name": "Member's Mark Ultra Lunch Paper Plates, 8.5\", 300 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Ultra-Lunch-Paper-Plates-8-5-300-ct/7874219635"
+        },
+        {
+          "id": "HC-2e40a009233f",
+          "name": "Member's Mark Clear Plastic Cups 9 oz., 264 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Clear-Plastic-Cups-9-oz-264-ct/7874220646"
+        },
+        {
+          "id": "HC-6bfd74bd7766",
+          "name": "Member's Mark Deli Plastic Containers w/ Lids (32 oz., 240 ct.)",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Deli-Plastic-Containers-w-Lids-32-oz-240-ct/13879914102"
+        },
+        {
+          "id": "HC-158d3b539f19",
+          "name": "Member's Mark Snack/Dip Paper Bowls, 12 oz., 200 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Snack-Dip-Paper-Bowls-12-oz-200-ct/7874228839"
+        },
+        {
+          "id": "HC-a05c16bdac74",
+          "name": "Member's Mark Translucent Plastic Cups 12 oz., 300 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Translucent-Plastic-Cups-12-oz-300-ct/19396805004"
+        },
+        {
+          "id": "HC-ad2f2efa2e89",
+          "name": "Member's Mark Clear Plastic Forks, Heavyweight 300 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Clear-Plastic-Forks-Heavyweight-300-ct/7874204454"
+        },
+        {
+          "id": "HC-035f02f7ebb4",
+          "name": "Member's Mark Plastic Deli Containers with Lids 8 oz., 240 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Plastic-Deli-Containers-with-Lids-8-oz-240-ct/13893407524"
+        },
+        {
+          "id": "HC-57aca6ac0e2c",
+          "name": "Member's Mark Ultra Dessert/Snack Paper Plates, 6.875\", 330 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Ultra-Dessert-Snack-Paper-Plates-6-875-330-ct/7874226713"
+        },
+        {
+          "id": "HC-c554f19fc65a",
+          "name": "Member's Mark Clear Plastic Spoons, Heavyweight 300 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Clear-Plastic-Spoons-Heavyweight-300-ct/7874200441"
+        },
+        {
+          "id": "HC-55e1db7f4cc1",
+          "name": "Member's Mark White Plastic Cutlery Packets 200 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-White-Plastic-Cutlery-Packets-200-ct/7874204473"
+        },
+        {
+          "id": "HC-cdde7bb43467",
+          "name": "Member's Mark Clear Plastic Cups 12 oz., 172 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Clear-Plastic-Cups-12-oz-172-ct/7874220647"
+        },
+        {
+          "id": "HC-f5064cdaef51",
+          "name": "Member's Mark Premium Silver-Look Cutlery Combo 180 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Premium-Silver-Look-Cutlery-Combo-180-ct/7450656206"
+        },
+        {
+          "id": "HC-a1256f03d76d",
+          "name": "Member's Mark White Plastic Knives, Heavyweight, 600 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-White-Plastic-Knives-Heavyweight-600-ct/7874204471"
+        },
+        {
+          "id": "HC-49a9830f2370",
+          "name": "Member's Mark Aluminum Steam Table Pans, 1/3 Size 30 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Aluminum-Steam-Table-Pans-1-3-Size-30-ct/7874223388"
+        },
+        {
+          "id": "HC-8cae63b5b1cd",
+          "name": "Member's Mark Clear Plastic Plates, 6.25\" 90 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Clear-Plastic-Plates-6-25-90-ct/13851216904"
+        },
+        {
+          "id": "HC-7675a3da43fe",
+          "name": "Member's Mark Clear Plastic Plates, 9\" 45 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Clear-Plastic-Plates-9-45-ct/13880008627"
+        },
+        {
+          "id": "HC-d87c31d6b259",
+          "name": "Member's Mark Clear Plastic Cups, 20 oz., 120 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Clear-Plastic-Cups-20-oz-120-ct/7874205953"
+        },
+        {
+          "id": "HC-116cc25f6af7",
+          "name": "Member's Mark Aluminum Steam Table Pans, Half Size (100 ct.)",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Aluminum-Steam-Table-Pans-Half-Size-100-ct/7874219647"
+        },
+        {
+          "id": "HC-57a42eb75667",
+          "name": "Member's Mark Translucent Plastic Portion Cups 1 fl. oz., 2,500 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Translucent-Plastic-Portion-Cups-1-fl-oz-2-500-ct/7874204434"
+        },
+        {
+          "id": "HC-07620428c2c2",
+          "name": "Member's Mark Aluminum Steam Table Pans, Full Size 50 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Aluminum-Steam-Table-Pans-Full-Size-50-ct/7874219648"
+        },
+        {
+          "id": "HC-849d01a161ca",
+          "name": "Member's Mark Half Size Aluminum Steam Table Pans, 30 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Half-Size-Aluminum-Steam-Table-Pans-30-ct/17329665204"
+        },
+        {
+          "id": "HC-c144657cb760",
+          "name": "Member's Mark Half Size Aluminum Steam Table Pans, 36 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Half-Size-Aluminum-Steam-Table-Pans-36-ct/7874216002"
+        },
+        {
+          "id": "HC-297f732aa7c3",
+          "name": "Member's Mark Heavy-Duty Blue Plastic Cups 18 oz., 240 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Heavy-Duty-Blue-Plastic-Cups-18-oz-240-ct/13870121786"
+        },
+        {
+          "id": "HC-76de604e4224",
+          "name": "Member's Mark Football Fun Party Paper Plates, 10\", 85 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Football-Fun-Party-Paper-Plates-10-85-ct/18798051594"
+        },
+        {
+          "id": "HC-cdb21e8536c4",
+          "name": "Member's Mark Ocean Fun Kids Paper Plates, 8.5\", 100 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Ocean-Fun-Kids-Paper-Plates-8-5-100-ct/20030064960"
+        },
+        {
+          "id": "HC-a358bdd2258f",
+          "name": "Member's Mark Halloween Paper Plates, Ghostly Goodies, 10\", 85 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Halloween-Paper-Plates-Ghostly-Goodies-10-85-ct/13766606494"
+        },
+        {
+          "id": "HC-6e6ed82904e0",
+          "name": "Member's Mark Heavy Duty Halloween Party Cups, 18 fl. oz., 140 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Heavy-Duty-Halloween-Party-Cups-18-fl-oz-140-ct/20614917934"
+        },
+        {
+          "id": "HC-e81ad13bf5e3",
+          "name": "Member's Mark Day of the Dead Paper Plates, 10\", 85 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Day-of-the-Dead-Paper-Plates-10-85-ct/13871900240"
+        },
+        {
+          "id": "HC-3b4a5378ee07",
+          "name": "Member's Mark Heavy Duty Assorted Holiday Party Cups, 18 fl. oz., 140 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Heavy-Duty-Assorted-Holiday-Party-Cups-18-fl-oz-140-ct/20723570135"
+        },
+        {
+          "id": "HC-cc42bc6af1cd",
+          "name": "Member's Mark Aluminum Steam Table Pan Lids, Full Size 15 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Aluminum-Steam-Table-Pan-Lids-Full-Size-15-ct/17321211034"
+        },
+        {
+          "id": "HC-0b5b72094ac5",
+          "name": "Member's Mark Premium Laundry Detergent, Paradise Splash, 149 loads, 200 fl. oz.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Premium-Laundry-Detergent-Paradise-Splash-149-loads-200-fl-oz/20783555018"
+        },
+        {
+          "id": "HC-6bf9d6beedc8",
+          "name": "Member's Mark Premium Laundry Detergent, Fresh Scent, 149 loads, 200 fl. oz.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Premium-Laundry-Detergent-Fresh-Scent-149-loads-200-fl-oz/20782768554"
+        },
+        {
+          "id": "HC-e1285fe60ce6",
+          "name": "Member's Mark Premium Fabric Softener, Spring Flowers, 251 loads, 170 fl. oz.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Premium-Fabric-Softener-Spring-Flowers-251-loads-170-fl-oz/20732322370"
+        },
+        {
+          "id": "HC-b5b28f86bb90",
+          "name": "Member's Mark Fabric Softener Dryer Sheets, Fresh Scent, 480 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Fabric-Softener-Dryer-Sheets-Fresh-Scent-480-ct/15587957321"
+        },
+        {
+          "id": "HC-6b036d6ec12b",
+          "name": "Member's Mark Laundry Detergent Power Pacs, Blooming Breeze, 130 ct.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Laundry-Detergent-Power-Pacs-Blooming-Breeze-130-ct/13632305107"
+        },
+        {
+          "id": "HC-4a811aa3afbe",
+          "name": "Member's Mark Plant Based Liquid Laundry Detergent, Lavender, 127 loads, 196 fl. oz.",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Plant-Based-Liquid-Laundry-Detergent-Lavender-127-loads-196-fl-oz/15525922731"
+        },
+        {
+          "id": "HC-a2a5b93b2f4f",
+          "name": "Member's Mark Commercial Sanitizer, 1 Gallon Jugs",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Commercial-Sanitizer-1-Gallon-Jugs/13857101920"
+        },
+        {
+          "id": "HC-a55e2f597878",
+          "name": "Member's Mark Commercial  Dish Detergent, 1 Gallon Jugs",
+          "brand": "Member's Mark",
+          "coverageBrand": "",
+          "retailer": "Sam’s Club",
+          "url": "https://www.samsclub.com/ip/Member-s-Mark-Commercial-Dish-Detergent-1-Gallon-Jugs/13882308123"
+        }
+      ]
+    }
+  ]
 }
