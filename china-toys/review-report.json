@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-11-24",
+  "reviewed": "2026-11-25",
   "version": "20261030-evidence-1",
   "source_checks": [
     {
@@ -7,8 +7,8 @@
       "name": "KikaGoods",
       "url": "https://www.kikagoods.com",
       "status": "complete",
-      "checked": "2026-11-24",
-      "raw_products_read": 951,
+      "checked": "2026-11-25",
+      "raw_products_read": 950,
       "currency": "USD"
     },
     {
@@ -16,7 +16,7 @@
       "name": "TOP TOY international store",
       "url": "https://gotoptoy.com",
       "status": "complete",
-      "checked": "2026-11-24",
+      "checked": "2026-11-25",
       "raw_products_read": 233,
       "currency": "USD"
     },
@@ -25,7 +25,7 @@
       "name": "52TOYS international store",
       "url": "https://hi52toys.com",
       "status": "complete",
-      "checked": "2026-11-24",
+      "checked": "2026-11-25",
       "raw_products_read": 212,
       "currency": "USD"
     },
@@ -34,7 +34,7 @@
       "name": "Rolife international store",
       "url": "https://www.rolifeonline.com",
       "status": "unavailable",
-      "checked": "2026-11-24",
+      "checked": "2026-11-25",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -43,7 +43,7 @@
       "name": "TOYZEROPLUS",
       "url": "https://toyzeroplus.com",
       "status": "complete",
-      "checked": "2026-11-24",
+      "checked": "2026-11-25",
       "raw_products_read": 331,
       "currency": "HKD"
     },
@@ -52,7 +52,7 @@
       "name": "Hello Molynk",
       "url": "https://www.molynk.shop",
       "status": "unavailable",
-      "checked": "2026-11-24",
+      "checked": "2026-11-25",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -61,7 +61,7 @@
       "name": "Finding Unicorn international store",
       "url": "https://www.findingunicorn.net",
       "status": "unavailable",
-      "checked": "2026-11-24",
+      "checked": "2026-11-25",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -70,7 +70,7 @@
       "name": "Kouhigh Toys",
       "url": "https://kouhightoys.com",
       "status": "complete",
-      "checked": "2026-11-24",
+      "checked": "2026-11-25",
       "raw_products_read": 248,
       "currency": "USD"
     },
@@ -79,8 +79,8 @@
       "name": "ToyBeta",
       "url": "https://toybeta.com",
       "status": "complete",
-      "checked": "2026-11-24",
-      "raw_products_read": 1275,
+      "checked": "2026-11-25",
+      "raw_products_read": 1274,
       "currency": "USD"
     },
     {
@@ -88,8 +88,8 @@
       "name": "DidaPop",
       "url": "https://didapop.com",
       "status": "complete",
-      "checked": "2026-11-24",
-      "raw_products_read": 1849,
+      "checked": "2026-11-25",
+      "raw_products_read": 1850,
       "currency": "USD"
     },
     {
@@ -97,8 +97,8 @@
       "name": "Pawmiga World",
       "url": "https://pawmiga.myshopify.com",
       "status": "complete",
-      "checked": "2026-11-24",
-      "raw_products_read": 122,
+      "checked": "2026-11-25",
+      "raw_products_read": 118,
       "currency": "USD"
     },
     {
@@ -106,7 +106,7 @@
       "name": "Iris Squishy",
       "url": "https://irissquishy.com",
       "status": "complete",
-      "checked": "2026-11-24",
+      "checked": "2026-11-25",
       "raw_products_read": 114,
       "currency": "USD"
     },
@@ -115,7 +115,7 @@
       "name": "RonRon Squishy",
       "url": "https://ronronsquishy.com",
       "status": "complete",
-      "checked": "2026-11-24",
+      "checked": "2026-11-25",
       "raw_products_read": 44,
       "currency": "USD"
     },
@@ -124,8 +124,8 @@
       "name": "ANTHILL shopNplay",
       "url": "https://anthillshop.com",
       "status": "complete",
-      "checked": "2026-11-24",
-      "raw_products_read": 688,
+      "checked": "2026-11-25",
+      "raw_products_read": 691,
       "currency": "USD"
     },
     {
@@ -133,7 +133,7 @@
       "name": "JOTOYS international store",
       "url": "https://jotoys.store",
       "status": "complete",
-      "checked": "2026-11-24",
+      "checked": "2026-11-25",
       "raw_products_read": 57,
       "currency": "USD"
     },
@@ -142,7 +142,7 @@
       "name": "Sonny Angel Japan official store",
       "url": "https://www.sonnyangelstore.com",
       "status": "complete",
-      "checked": "2026-11-24",
+      "checked": "2026-11-25",
       "raw_products_read": 111,
       "currency": "JPY"
     }
@@ -1560,12 +1560,6 @@
     },
     {
       "id": "11da51214bf60f46",
-      "from": "Lisa Squishy",
-      "to": "Lisa",
-      "type": "brand label"
-    },
-    {
-      "id": "44f13e33fce8f5a3",
       "from": "Lisa Squishy",
       "to": "Lisa",
       "type": "brand label"
@@ -6637,6 +6631,12 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
+      "id": "24f53cd1c6796d28",
+      "name": "S112. Knock Knock,Lucky Series Plush Charm Blind Box -K22【TOP TOY】",
+      "source": "https://toybeta.com/products/s112-knock-knock-lucky-series-plush-blind-box-k22-top-toy",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "5d0642ff9022372e",
       "name": "DaoDao Girls Album Series Beans Blind Bag【MMS】",
       "source": "https://toybeta.com/products/daodao-girls-album-series-beans-blind-bag-mms",
@@ -6685,12 +6685,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "14ed20be032d33db",
-      "name": "LuLu The Piggy-Teddy V2 Pastel Pals Mini Series Plush Phone Charm Blind Box【TOYZERO】",
-      "source": "https://toybeta.com/products/lulu-the-piggy-teddy-pastel-pals-mini-series-plush-phone-charm-blind-box-toyzero",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "db0c56884a27c370",
       "name": "Nanci Lamb's Travels Series Plush Blind Box【Rolife】",
       "source": "https://toybeta.com/products/nanci-lambs-travels-series-plush-blind-box-rolife",
@@ -6718,12 +6712,6 @@
       "id": "91cb2e127e56a9ed",
       "name": "DIMOO The Secret Theatre Club Series - Vinyl Plush Pendant Blind Box",
       "source": "https://toybeta.com/products/dimoo-the-secret-theatre-club-series-vinyl-plush-pendant-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "adce3eed19de1043",
-      "name": "THE MONSTERS Secret Gallery Series Figures Blind Box",
-      "source": "https://toybeta.com/products/the-monsters-secret-gallery-series-figures-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12524,27 +12512,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4675,
-  "after_products": 4646,
+  "before_products": 4677,
+  "after_products": 4648,
   "stats": {
-    "products": 4644,
+    "products": 4646,
     "brands": 802,
     "squishy": 504,
-    "with_images": 4644,
+    "with_images": 4646,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4635,
+    "with_source_prices": 4637,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2613,
-    "with_dimensions": 1794,
-    "with_variant_options": 4313,
-    "source_linked_images": 4320,
+    "with_specifications": 2615,
+    "with_dimensions": 1796,
+    "with_variant_options": 4315,
+    "source_linked_images": 4322,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 7,
-    "with_shop_descriptions": 3857
+    "with_shop_descriptions": 3859
   },
   "checklist": [
     {
@@ -12563,8 +12551,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 307,
-      "with_details": 45,
+      "records": 308,
+      "with_details": 46,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"

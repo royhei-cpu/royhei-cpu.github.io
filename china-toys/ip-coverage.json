@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-24",
+  "catalog_date": "2026-11-25",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "brand": "TOP TOY",
-      "records": 307,
+      "records": 308,
       "status": "Partial assortment"
     },
     {
@@ -56,7 +56,6 @@
         "7ca47614ff2b9930",
         "26a2f9310c377f60",
         "5ff848ea50157357",
-        "adce3eed19de1043",
         "9d31bace6afd2220",
         "abb85fb377982049",
         "8ad043cd478a3106",
@@ -74,7 +73,8 @@
         "43e31ee622bcfcc3",
         "35b3be5a349b569c",
         "c83a32968da52515",
-        "4221f2cf9f105e20"
+        "4221f2cf9f105e20",
+        "adce3eed19de1043"
       ],
       "status": "Partial assortment"
     },
@@ -345,7 +345,6 @@
         "7ca47614ff2b9930",
         "26a2f9310c377f60",
         "5ff848ea50157357",
-        "adce3eed19de1043",
         "9d31bace6afd2220",
         "abb85fb377982049",
         "8ad043cd478a3106",
@@ -363,7 +362,8 @@
         "43e31ee622bcfcc3",
         "35b3be5a349b569c",
         "c83a32968da52515",
-        "4221f2cf9f105e20"
+        "4221f2cf9f105e20",
+        "adce3eed19de1043"
       ],
       "status": "Partial assortment"
     },
@@ -1102,7 +1102,6 @@
         "dfe3556007bb76f0",
         "5cae777f130cf46b",
         "27243efcd1629b98",
-        "14ed20be032d33db",
         "a2d490721c13a85c",
         "297fb8a726cc7245",
         "8fb4109116bedd7d",
@@ -1179,6 +1178,7 @@
         "f7adce80ede61d99",
         "df7fab007742a930",
         "d201acb6f947d3c8",
+        "14ed20be032d33db",
         "464635722a575510",
         "77059d0dae117904",
         "56afbcdc65d4ce18",
