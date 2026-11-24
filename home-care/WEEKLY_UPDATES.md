@@ -265,3 +265,7 @@ Shortened the narrated guide to direct click instructions for Products, search/f
 ## 24 November 2026 — readable selected-item exports
 
 Added an export format chooser shared by Browse, comparison and recommendation selections. Formatted Excel provides a product-first shortlist with wrapped text, widths, frozen headers, filters and clickable product/photo/source links; a separate Full evidence sheet retains all existing columns. Simple CSV places key product details first; Full evidence CSV retains all source/date/status/company evidence. Photos remain links, not embedded images. All formats export the full current selection only, including selections across pages/views. No record, price or research-date changes. Workbook round-trip, CSV escaping/unknown/photo URL, selection integration and navigation tests passed.
+
+## 24 November 2026 — remove Merchant review
+
+Removed the Merchant review block from product Details at build time. Retained all catalog records, dates, photos, source links, selection and export behavior. No research dates advanced.

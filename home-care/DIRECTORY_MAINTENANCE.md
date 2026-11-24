@@ -6,6 +6,8 @@ Keep search, product details, saved selections, comparison, CSV/photo exports an
 
 The November 24 cleanup removes repeated headings, platform controls and evidence summaries from the retained white-label view. The Brands & factories directory is retired; its old URL redirects to the product catalog. Do not restore its navigation entry, including in the Insights menu or product toolbar. Verify this removal on the deployed site after publication. Preserve company evidence in product records and exports. Target inspiration uses the retained Home Care recommendation renderer; legacy opportunities and workshop links resolve to that same view. Do not wire Target inspiration to the retired Open Story travel renderer.
 
+Remove the Merchant review section from product Details. Do not restore it during refreshes; preserve underlying product records and evidence.
+
 ## Build
 
 `publish.yml` builds Homecare's original UI via `npm ci --prefix home-care/ui-src`, `npm run build --prefix home-care/ui-src`, then optimizes the STAGED `_site/home-care/index.html`. Never optimize the canonical source index in place. China Toy Atlas retains its app, simple-navigation, original styles, character photos and comparison. Luggage Atlas retains its travel artwork, original app, feature finder, product gallery and comparison.

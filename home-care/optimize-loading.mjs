@@ -9,6 +9,8 @@ import { addSalesRanking } from './sales-ranking-build.mjs';
 import { addBrandFactories, addFactoryInterface } from './brand-factory-build.mjs';
 const file=process.argv[2]||'home-care/site/index.html';
 let html=fs.readFileSync(file,'utf8');
+// Merchant review is retired from product Details; retain the underlying records.
+html=html.replace(/^  const p=document\.createElement\('p'\);p\.className='merchant-review';.*;details\.append\(p\)\r?\n/m,'');
 if(html.includes('id="catalog-loading"')){console.log('Loading optimization already applied');process.exit(0)}
 html=html.replace('</head>','<link rel="stylesheet" href="/home-care/daily-news.css"><script src="/home-care/daily-news-data.js"></script><script src="/home-care/daily-news.js"></script></head>');
 const start=html.indexOf('const ITEMS=')+12,end=html.indexOf(';\nconst COVERAGE=',start);
