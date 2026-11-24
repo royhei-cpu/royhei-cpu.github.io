@@ -73,3 +73,12 @@ body[data-atlas-view=start] .hero h1{font-size:clamp(42px,5vw,64px)}
 
 .finder-more{grid-column:1/-1;border-top:1px solid #d5d9ce;padding:10px 0}.finder-more>summary{font-size:16px;cursor:pointer;padding:8px 0}.finder-advanced{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding:16px 0}.finder-page .filter-panel{grid-template-columns:repeat(2,minmax(0,1fr))}.finder-page .feature-filter{grid-column:1/-1}.finder-page .model-card .scope{font-size:14px}.finder-page button:disabled{opacity:.55;cursor:default}
 @media(max-width:620px){.finder-advanced,.finder-page .filter-panel{grid-template-columns:1fr}.research-page .research-tabs .tab-options{display:grid;grid-template-columns:1fr 1fr}}
+.finder-hero{background:#e8eddf!important;color:#203c31!important;border:1px solid #d5d9ce}
+.finder-hero h1,.finder-hero p,.finder-hero .editorial-kicker{color:#203c31!important}
+.finder-hero h1 em{color:#556b47!important;margin-left:.15em}
+.research-hero h1 em{margin-left:.15em}
+.research-groups a.btn{padding:10px 16px}
+.finder-page .filter-panel{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.finder-page .filter-panel>label,.finder-advanced>label{min-width:0}
+.finder-page .filter-panel .checkbox{grid-column:1/-1}
+@media(max-width:620px){.finder-page .filter-panel{grid-template-columns:1fr}.finder-advanced{grid-template-columns:1fr}}
