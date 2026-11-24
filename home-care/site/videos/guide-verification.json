@@ -1,33 +1,40 @@
 {
-  "updated": "2026-11-13",
-  "website": "royhei-cpu.github.io/home-care/",
-  "duration": 81.583,
+  "updated": "2026-11-24",
+  "website": "https://royhei-cpu.github.io/home-care/",
+  "duration": 99.541992,
   "resolution": [
-    1920,
+    1440,
     1080
   ],
   "voice": "en-US-GuyNeural",
-  "visuals": "Actual browser captures of the restored website",
+  "visuals": "Actual browser captures of the live Homecare interface, 24 November 2026",
+  "sourceCommit": "4d7dc4eecbb275428b64a0dfa7270f50e9d7014f",
   "chapters": [
     {
       "start": 0,
-      "label": "Your merchant directory"
+      "label": "Homecare | Current navigation"
     },
     {
-      "start": 12.75,
-      "label": "Search the catalog"
+      "start": 12.976,
+      "label": "Products | Search and check evidence"
     },
     {
-      "start": 30.917,
-      "label": "Compare your shortlist"
+      "start": 31.568,
+      "label": "Compare | Review packs and export"
     },
     {
-      "start": 48.583,
-      "label": "White-label recommendations"
+      "start": 49.992,
+      "label": "News & updates | A dedicated view"
     },
     {
-      "start": 63.458,
-      "label": "News & global research"
+      "start": 66.568,
+      "label": "Insights | Target inspiration"
+    },
+    {
+      "start": 85.304,
+      "label": "Help & guide | Watch, read or download"
     }
-  ]
+  ],
+  "sha256": "637215358e4d9fa88e0371a7f222494942f88a99b8d8e7e22830f34728e08150",
+  "scope": "Tutorial refresh only; catalog and source-check dates unchanged."
 }

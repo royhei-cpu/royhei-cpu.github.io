@@ -253,3 +253,7 @@ The three-row selected-only CSV was inspected for exact row count, retailer mapp
 - The 23 November comprehensive review remains the latest all-retailer audit. Today's priority-channel follow-up does not claim complete pagination or inventory coverage.
 - See `site/catalog-review/daily-source-check-2026-11-24.json`.
 
+
+## 24 November 2026 — tutorial aligned with current navigation
+
+Replaced the Homecare guide at the existing play/download path with a 100-second narrated walkthrough using actual live Homecare screenshots. Covers Products search, comparison and selected CSV, the dedicated News & updates view, and Insights → Target inspiration. Explicitly explains removal of the duplicate White-label recommendations tab and Brands & factories. Updated timed captions, transcript, poster and chapter metadata; versioned media links prevent old cached narration. This is a tutorial/UI update only: no catalog records, prices, source-check dates or research review dates changed. Navigation regression tests pass; video decodes with H.264 picture and AAC narration.

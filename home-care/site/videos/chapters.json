@@ -2,23 +2,27 @@
   "chapters": [
     {
       "start": 0,
-      "label": "Your merchant directory"
+      "label": "Homecare | Current navigation"
     },
     {
-      "start": 12.75,
-      "label": "Search the catalog"
+      "start": 12.976,
+      "label": "Products | Search and check evidence"
     },
     {
-      "start": 30.917,
-      "label": "Compare your shortlist"
+      "start": 31.568,
+      "label": "Compare | Review packs and export"
     },
     {
-      "start": 48.583,
-      "label": "White-label recommendations"
+      "start": 49.992,
+      "label": "News & updates | A dedicated view"
     },
     {
-      "start": 63.458,
-      "label": "News & global research"
+      "start": 66.568,
+      "label": "Insights | Target inspiration"
+    },
+    {
+      "start": 85.304,
+      "label": "Help & guide | Watch, read or download"
     }
   ]
 }
