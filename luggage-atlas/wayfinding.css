@@ -82,3 +82,35 @@ body[data-atlas-view=start] .hero h1{font-size:clamp(42px,5vw,64px)}
 .finder-page .filter-panel>label,.finder-advanced>label{min-width:0}
 .finder-page .filter-panel .checkbox{grid-column:1/-1}
 @media(max-width:620px){.finder-page .filter-panel{grid-template-columns:1fr}.finder-advanced{grid-template-columns:1fr}}
+
+/* A quieter layout matching Homecare's simple starting point. */
+body{background:#f8f7f2!important}
+body>header.simple-header{background:#f8f7f2!important;color:#202c25!important;border-bottom:1px solid #d9ddd4!important;padding:22px max(5%,24px)!important;display:flex!important;align-items:center!important;gap:28px;position:relative;z-index:20}
+.simple-header .simple-wordmark{font:700 30px/1.1 Georgia,serif!important;letter-spacing:-1px;text-decoration:none!important;color:#202c25!important;white-space:nowrap}
+body>header.simple-header>nav{display:flex!important;flex-wrap:wrap!important;justify-content:center!important;align-items:center;gap:12px!important;width:auto!important;margin:0 auto;overflow:visible!important}
+body>header.simple-header nav>a,body>header.simple-header nav summary{font:500 14px/1.4 Arial,sans-serif!important;color:#202c25!important;padding:12px!important;min-height:44px;border-radius:4px!important;cursor:pointer}
+body>header.simple-header nav a[aria-current=page],body>header.simple-header nav summary[data-active=true]{background:#e9ece3!important;color:#203c31!important}
+.simple-help{font:14px/1.5 Arial,sans-serif!important;color:#344a3c!important;text-decoration:underline!important;white-space:nowrap;padding:10px 0}
+.nav-dropdown{position:relative;border:0;background:transparent;margin:0;padding:0}
+.nav-dropdown>summary{display:flex;align-items:center;gap:8px;list-style:none}
+.nav-dropdown>summary::-webkit-details-marker{display:none}
+.nav-dropdown>summary:after{content:"";width:5px;height:5px;border-right:1px solid;border-bottom:1px solid;transform:rotate(45deg);margin-top:-3px}
+.nav-dropdown-panel{position:absolute;top:100%;left:0;min-width:230px;display:flex;flex-direction:column;background:#fffef9;border:1px solid #d9ddd4;border-radius:6px;box-shadow:0 8px 24px #203c3115;padding:8px;z-index:30}
+body>header.simple-header .nav-dropdown-panel>a{display:flex!important;width:100%;border-radius:4px!important;padding:12px!important;color:#203c31!important;box-sizing:border-box}
+body[data-atlas-view=start] main{max-width:1180px!important;padding:0 32px!important;margin:auto}
+.simple-welcome{padding:72px 0 54px;max-width:800px;background:none}
+.simple-welcome h1{font:700 clamp(42px,5vw,68px)/1.04 Georgia,serif!important;letter-spacing:-2px;color:#202c25;margin:0 0 26px}
+.simple-welcome>p{font:17px/1.8 Arial,sans-serif;color:#465348;max-width:680px;margin:0 0 28px}
+.simple-welcome .btn.primary{background:#203c31!important;color:#fff!important;border:1px solid #203c31!important;border-radius:4px;padding:15px 22px!important;font:600 14px/1.5 Arial,sans-serif}
+.welcome-guide{display:block;width:max-content;font:14px/1.5 Arial,sans-serif;color:#3e5144;margin-top:14px;text-decoration:underline}
+.simple-start>h2{font:700 29px/1.2 Georgia,serif;color:#202c25;margin:0 0 28px}
+.simple-paths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.simple-paths article{border-top:1px solid #cdd4c9;padding-top:22px;display:flex;flex-direction:column;align-items:flex-start}
+.path-number{font:600 12px/1.5 Arial,sans-serif;color:#686c60}
+.simple-paths h3{font:700 25px/1.2 Georgia,serif;color:#202c25;margin:16px 0 12px}
+.simple-paths p{font:15px/1.7 Arial,sans-serif;color:#465348;margin:0 0 20px}
+.simple-paths a{font:14px/1.5 Arial,sans-serif;color:#344a3c;text-decoration:underline;margin-top:auto;min-height:32px}
+.simple-secondary{display:flex;flex-wrap:wrap;gap:24px;border-top:1px solid #d9ddd4;margin-top:32px;padding:20px 0}
+.simple-secondary a{font:14px/1.5 Arial,sans-serif;color:#344a3c;text-decoration:underline}
+body[data-atlas-view=start] main>footer{margin-top:18px;padding-top:22px}
+@media(max-width:760px){body>header.simple-header{flex-wrap:wrap;gap:14px;padding:18px 5%!important}.simple-header .simple-wordmark{font-size:26px!important}.simple-help{margin-left:auto}body>header.simple-header>nav{order:3;width:100%!important;justify-content:flex-start!important;gap:4px!important}.simple-header nav>a,.simple-header nav summary{white-space:nowrap!important}.nav-dropdown-panel{min-width:210px}.nav-dropdown:last-child .nav-dropdown-panel{left:auto;right:0}body[data-atlas-view=start] main{padding:0 24px!important}.simple-welcome{padding:42px 0}.simple-welcome h1{letter-spacing:-1px}.simple-paths{grid-template-columns:1fr;gap:26px}.simple-start>h2{font-size:26px}.simple-paths h3{font-size:24px}.simple-welcome>p{font-size:16px}}
