@@ -13,7 +13,7 @@ export function addTargetExclusions(html,dir){
  // All native browse, recommendation, compare and export paths share this eligible byId.
  // International references must pass the same rule before registration/reload recovery.
  html=html.replace('references=await response.json();','references=(await response.json()).filter(window.HCTargetExclusions.isEligible);');
- const note='<p id="target-assortment-note" style="font-size:13px;color:#536349">Strict Target overlap filter: known Target brands and all unreviewed products are hidden from results, recommendations, comparisons and exports. Only reviewed competitor-exclusive references are shown. Original records and photos are preserved.</p>';
+ const note='<p id="target-assortment-note" style="font-size:13px;color:#536349">Target overlap screening: confirmed Target-carried brands and items are excluded across all retailers, recommendations, comparisons and exports. Review is ongoing; visible products are not confirmed absent from Target. Original records and photos are preserved.</p>';
  html=html.replace('<section id="catalog-view">','<section id="catalog-view">'+note);
  html=html.replace(/(<h1>U.S. products<\/h1><p>[\d,]+) records/, '$1 retained records');
  return html;

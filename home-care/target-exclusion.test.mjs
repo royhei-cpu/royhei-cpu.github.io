@@ -21,15 +21,22 @@ test('browser policy removes excluded saved IDs, keeps canonical records and fil
  const items=[{id:'mrs',brand:"Mrs. Meyer's",name:'Soap'},approved,{id:'unreviewed',brand:'Unknown',name:'Soap'}];
  const html=addTargetExclusions('<head></head><script>const ITEMS='+JSON.stringify(items)+';\nconst COVERAGE={};const byId=new Map(ITEMS.map(d=>[d.id,d]));const picks=new Set('+JSON.stringify(['mrs',approved.id,'unreviewed'])+'.filter(id=>byId.has(id)));window.result={canonical:CANONICAL_ITEMS.length,visible:ITEMS.length,selected:[...picks]};</script>references=await response.json();<div class="grid" id="product-grid">','home-care/site');
  const c=vm.createContext({window:{}});for(const m of html.matchAll(/<script>([\s\S]*?)<\/script>/g))vm.runInContext(m[1],c);
- assert.deepEqual(JSON.parse(JSON.stringify(c.window.result)),{canonical:3,visible:1,selected:[approved.id]});assert.ok(html.includes('references=(await response.json()).filter(window.HCTargetExclusions.isEligible);'));
+ assert.deepEqual(JSON.parse(JSON.stringify(c.window.result)),{canonical:3,visible:2,selected:[approved.id,'unreviewed']});assert.ok(html.includes('references=(await response.json()).filter(window.HCTargetExclusions.isEligible);'));
 });
 
 test('strict mode hides unknown, new and changed records and exclusions always override clearance',()=>{
- assert.equal(evidence.requireClearance,true);
- const f=createTargetFilter(evidence),item=evidence.clearances[0].records[0];
+ assert.equal(evidence.requireClearance,false);
+ const f=createTargetFilter({...evidence,requireClearance:true}),item=evidence.clearances[0].records[0];
  assert.equal(f.isEligible(item),true);
  for(const changed of [{...item,id:'new'}, {...item,brand:'Generic'}, {...item,url:'https://example.com'}, {...item,retailer:'Other retailer'}, {...item,name:'Different pack'}, {id:'unknown',name:'Unknown cleaner'}])assert.equal(f.isEligible(changed),false);
  const deny=createTargetFilter({...evidence,items:[{id:item.id}]});assert.equal(deny.isEligible(item),false);
  const conflicting=createTargetFilter({...evidence,brands:[...evidence.brands,{brand:item.brand}]});assert.equal(conflicting.isEligible(item),false);
- assert.equal(createTargetFilter({...evidence,clearances:[]}).isEligible(item),false);
+ assert.equal(createTargetFilter({...evidence,requireClearance:true,clearances:[]}).isEligible(item),false);
+});
+
+test('all retailers use the same confirmed-overlap rule without a private-label allowlist',()=>{
+ for(const retailer of ['TikTok Shop','Amazon US','Walmart','Costco','Quince','Other']){
+  assert.equal(createTargetFilter(evidence).isEligible({retailer,name:'Unreviewed cleaner',brand:'Unreviewed'}),true);
+  for(const rule of evidence.brands)assert.equal(createTargetFilter(evidence).isEligible({retailer,name:'Example pack',brand:rule.brand}),false,retailer+' '+rule.brand);
+ }
 });

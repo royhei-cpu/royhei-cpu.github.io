@@ -1,5 +1,25 @@
 [
   {
+    "id": "directory-all-retailer-target-filter-correction-2026-11-25",
+    "title": "Broader retailer browsing restored; confirmed Target overlaps remain excluded",
+    "type": "Directory update",
+    "date": "2026-11-25",
+    "eventDate": "2026-11-25",
+    "checked": "2026-11-25",
+    "dateLabel": "Directory policy correction · 25 November 2026",
+    "summary": "Corrected a filter that had limited visible products to 228 reviewed private-label records. The same confirmed Target brand/item exclusions now apply across all 20 retailers, including TikTok Shop. Unfinished Target checks no longer hide every other retained listing. Visible products are not proven absent from Target; the overlap audit remains partial. Six additional brand exclusions were checked: Zep, The Pink Stuff, Scott, Palmolive, Finish and Rubbermaid. This restores existing observations, not new launches or new-to-directory additions. Two attempted TikTok product rechecks returned security-check pages; no new TikTok availability or price is claimed. Full retailer/category pagination remains incomplete.",
+    "sources": [
+      {
+        "label": "Dated Target overlap evidence and policy",
+        "url": "https://github.com/royhei-cpu/royhei-cpu.github.io/blob/main/home-care/site/target-assortment-exclusions.json"
+      },
+      {
+        "label": "All-retailer visibility audit and remaining gaps",
+        "url": "https://github.com/royhei-cpu/royhei-cpu.github.io/blob/main/home-care/site/catalog-review/visibility-audit-2026-11-25.json"
+      }
+    ]
+  },
+  {
     "id": "shark-razorvac-us-announcement-amazon-planned-2026-11-19",
     "title": "Shark announces RazorVac at $129.99 direct; Amazon rollout planned",
     "type": "Early signal",
