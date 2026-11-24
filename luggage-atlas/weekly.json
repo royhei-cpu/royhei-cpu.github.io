@@ -1,11 +1,11 @@
 {
-  "edition": "2026-11-23",
+  "edition": "2026-11-24",
   "periodStart": "2026-11-13",
-  "periodEnd": "2026-11-23",
+  "periodEnd": "2026-11-24",
   "baseline": false,
   "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
-  "nextScheduled": "2026-11-24",
-  "coverage": "Comprehensive Monday source review covered every recorded brand profile and retailer entry, plus the two unpriced priority gaps and four Katie Loxton exact pages. Four official UK Avora offers, four exact exterior images and four model-feature records were added. The official pages publish conflicting dimension fields; exact interiors, launch date and factory remain unknown. Wider worldwide assortment remains incomplete.",
+  "nextScheduled": "2026-11-25",
+  "coverage": "The comprehensive Monday assortment review of 23 November is retained. The 24 November daily check added Travelpro’s dated campaign announcement, two exact offer-detail records and four matched exterior/interior images. Existing 8 November prices and 2 November listing dates remain separate from the 23 November announcement; product launch dates and factories remain unknown. Amazon Basics returned HTTP 503 and the priority BINHAO exact page returned HTTP 404 again. Wider worldwide assortment remains incomplete.",
   "items": [
     {
       "id": "level8-hegent-black-friday-2026",
@@ -141,6 +141,21 @@
       "source": "https://katieloxton.com/travel/suitcases",
       "theme": "Personalizable straps & owner-repair parts",
       "photoId": "katie-loxton-avora-cabin-off-white-exterior"
+    },
+    {
+      "id": "travelpro-gloss-red-campaign-2026-11-23",
+      "brand": "Travelpro",
+      "brandId": "travelpro",
+      "title": "Travelpro highlights limited-edition Gloss Red hardside cases",
+      "date": "2026-11-23",
+      "dateType": "Travelpro campaign announcement date; official product listings publish 2 November. Exact pages rechecked 24 November. Product launch date not stated.",
+      "status": "New coverage",
+      "market": "United States",
+      "change": "The campaign spotlights Gloss Red Platinum Elite Hardside. Exact pages document the carry-on at 23 × 14.5 × 9.5 in overall / 46 L and medium check-in at 27.5 × 17.5 × 11.75 in overall / 84 L, with matched exterior and open-interior images. The announcement is not treated as a product launch.",
+      "price": "USD 380 carry-on; USD 430 medium — original Atlas price observations from 8 November. The medium page displayed an extra 15% off in cart on 24 November; final transaction price not captured.",
+      "source": "https://www.prnewswire.com/news-releases/travelpro-and-two-time-gold-medalist-ice-dancer-madison-chock-give-the-holiday-season-a-smoother-spin-302948319.html",
+      "theme": "Limited-edition color & hardside organization",
+      "photoId": "travelpro-platinum-gloss-red-carry-exterior"
     }
   ],
   "analysis": [],
@@ -213,11 +228,11 @@
     "note": "DTA / DTA Nova added; existing price and news brand references reconciled."
   },
   "latestBulletin": {
-    "checked": "2026-11-23",
-    "newsDate": "2026-11-17",
-    "title": "Avora exact UK offers documented; no new 22–23 November launch verified",
-    "text": "Four exact Katie Loxton Avora UK offers were added from official pages. November 17 remains the Atlas first-observation date, not a launch date. The Monday scan found no directly sourced new luggage launch dated November 22 or 23.",
-    "source": "https://katieloxton.com/travel/suitcases",
-    "records": 4
+    "checked": "2026-11-24",
+    "newsDate": "2026-11-23",
+    "title": "Travelpro highlights limited-edition Gloss Red; launch date remains unverified",
+    "text": "Travelpro’s 23 November campaign highlights the limited-edition Gloss Red Platinum Elite Hardside range. Existing exact offers retain their 8 November price observations and 2 November storefront listing dates. Exact exterior/interior views, dimensions and features were checked 24 November. No directly sourced 24 November luggage launch was verified.",
+    "source": "https://www.prnewswire.com/news-releases/travelpro-and-two-time-gold-medalist-ice-dancer-madison-chock-give-the-holiday-season-a-smoother-spin-302948319.html",
+    "records": 2
   }
 }

@@ -254,5 +254,34 @@
     "checked": "2026-11-23",
     "added": "2026-11-17",
     "type": "Collection observation"
+  },
+  {
+    "id": "travelpro-gloss-red-campaign-2026-11-23",
+    "date": "2026-11-23",
+    "dateLabel": "Travelpro campaign announcement",
+    "checked": "2026-11-24",
+    "added": "2026-11-24",
+    "type": "Campaign and product-color spotlight",
+    "title": "Travelpro highlights limited-edition Gloss Red Platinum Elite Hardside",
+    "summary": "The official campaign spotlights Gloss Red carry-on and medium check-in cases. Their USD 380 and USD 430 Atlas price observations remain dated 8 November; the official storefront listing date is 2 November. Exact exterior/interior views and dimensions were verified 24 November. The product launch date is not stated.",
+    "market": "United States",
+    "sources": [
+      {
+        "label": "Company announcement",
+        "url": "https://www.prnewswire.com/news-releases/travelpro-and-two-time-gold-medalist-ice-dancer-madison-chock-give-the-holiday-season-a-smoother-spin-302948319.html"
+      },
+      {
+        "label": "Official campaign",
+        "url": "https://travelpro.com/pages/madison-chock"
+      },
+      {
+        "label": "Exact carry-on offer",
+        "url": "https://travelpro.com/products/platinum-elite-carry-on-hardside-spinner-limited-edition-colors?variant=50787219013730"
+      },
+      {
+        "label": "Exact medium offer",
+        "url": "https://travelpro.com/products/platinum-elite-medium-check-in-hardside-spinner-limited-edition-colors?variant=50787219144802"
+      }
+    ]
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-23",
+  "checked": "2026-11-24",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -635,6 +635,59 @@
       ],
       "dimensionStatus": "Two official page fields conflict; neither is promoted as resolved exterior dimensions.",
       "firstObservedBasis": "Atlas observation of the live official collection; not a launch or retailer-listing date."
+    },
+    {
+      "offerId": "offer-f0cf3dcb",
+      "brandId": "travelpro",
+      "model": "Platinum® Elite Carry-On Hardside Spinner - Limited Edition Colors",
+      "size": "Carry-On / 46 L",
+      "color": "Gloss Red",
+      "dimensions": "23 × 14.5 × 9.5 in overall including wheels and handles; case alone 19.75 × 13.75 × 9.5 in",
+      "announcementDate": "2026-11-23",
+      "announcementDateType": "Travelpro holiday-campaign announcement; not a product launch date.",
+      "listingDate": "2026-11-02",
+      "launchDate": null,
+      "launchDateStatus": "Unknown; official sources reviewed do not state a calendar product launch date.",
+      "firstObserved": "2026-11-08",
+      "firstObservedBasis": "Preserved Atlas price observation; not a launch date.",
+      "observed": "2026-11-24",
+      "source": "https://travelpro.com/products/platinum-elite-carry-on-hardside-spinner-limited-edition-colors?variant=50787219013730",
+      "price": 380,
+      "currency": "USD",
+      "sku": "409269109",
+      "weight": "8.2 lb",
+      "capacity": "46 L",
+      "photoIds": [
+        "travelpro-platinum-gloss-red-carry-exterior",
+        "travelpro-platinum-gloss-red-carry-interior"
+      ]
+    },
+    {
+      "offerId": "offer-2d616fd1",
+      "brandId": "travelpro",
+      "model": "Platinum® Elite Medium Check-In Hardside Spinner - Limited Edition Colors",
+      "size": "Medium Check-In / 84 L",
+      "color": "Gloss Red",
+      "dimensions": "27.5 × 17.5 × 11.75 in overall including wheels and handles; case alone 24.5 × 16.25 × 11.75 in",
+      "announcementDate": "2026-11-23",
+      "announcementDateType": "Travelpro holiday-campaign announcement; not a product launch date.",
+      "listingDate": "2026-11-02",
+      "launchDate": null,
+      "launchDateStatus": "Unknown; official sources reviewed do not state a calendar product launch date.",
+      "firstObserved": "2026-11-08",
+      "firstObservedBasis": "Preserved Atlas price observation; not a launch date.",
+      "observed": "2026-11-24",
+      "source": "https://travelpro.com/products/platinum-elite-medium-check-in-hardside-spinner-limited-edition-colors?variant=50787219144802",
+      "price": 430,
+      "currency": "USD",
+      "priceNote": "The original 8 November observation is preserved. An extra 15% off in cart was displayed on 24 November, but no final transaction price was captured.",
+      "sku": "409269509",
+      "weight": "10.5 lb",
+      "capacity": "84 L",
+      "photoIds": [
+        "travelpro-platinum-gloss-red-medium-exterior",
+        "travelpro-platinum-gloss-red-medium-interior"
+      ]
     }
   ],
   "byBrand": {
@@ -668,7 +721,9 @@
       "offer-adf26fe9",
       "offer-3f7c7ace",
       "offer-b3043517",
-      "offer-36a2d767"
+      "offer-36a2d767",
+      "offer-f0cf3dcb",
+      "offer-2d616fd1"
     ],
     "rimowa": [
       "offer-5b87b342",

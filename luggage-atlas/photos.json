@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-23",
+  "checked": "2026-11-24",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -8767,6 +8767,118 @@
         "identifierSource": "https://katieloxton.com/avora-hardshell-suitcase-in-black-bundle-klb5069-aw26",
         "identifierChecked": "2026-11-23"
       }
+    },
+    {
+      "id": "travelpro-platinum-gloss-red-carry-exterior",
+      "brandId": "travelpro",
+      "offerId": "offer-f0cf3dcb",
+      "view": "Exterior",
+      "caption": "Platinum® Elite Carry-On Hardside Spinner · Gloss Red · exact exterior",
+      "source": "https://travelpro.com/products/platinum-elite-carry-on-hardside-spinner-limited-edition-colors?variant=50787219013730",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/409269109_1.jpg?v=1793202741",
+      "localPath": "offer-photo-assets/travelpro-platinum-gloss-red-carry-exterior.webp",
+      "checked": "2026-11-24",
+      "remoteReference": true,
+      "scope": "Official exact-variant image matched to Platinum Elite carry-on, Gloss Red and SKU 409269109; production revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Platinum® Elite Carry-On Hardside Spinner - Limited Edition Colors",
+        "size": "Carry-On / 46 L",
+        "color": "Gloss Red",
+        "revision": null,
+        "sku": "409269109"
+      },
+      "evidence": {
+        "type": "Official exact-product storefront image",
+        "visualChecked": true,
+        "imageSha256": "42d9d8fa497afc19c058fdb3771645b4877eef1a3384d9feb1c5b1bc869d5e45",
+        "identifierSource": "https://travelpro.com/products/platinum-elite-carry-on-hardside-spinner-limited-edition-colors?variant=50787219013730",
+        "identifierChecked": "2026-11-24"
+      }
+    },
+    {
+      "id": "travelpro-platinum-gloss-red-carry-interior",
+      "brandId": "travelpro",
+      "offerId": "offer-f0cf3dcb",
+      "view": "Interior",
+      "caption": "Platinum® Elite Carry-On Hardside Spinner · Gloss Red · exact open interior",
+      "source": "https://travelpro.com/products/platinum-elite-carry-on-hardside-spinner-limited-edition-colors?variant=50787219013730",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/409269109_7.jpg?v=1793202741",
+      "localPath": "offer-photo-assets/travelpro-platinum-gloss-red-carry-interior.webp",
+      "checked": "2026-11-24",
+      "remoteReference": true,
+      "scope": "Official exact-product gallery image showing the open interior of the Gloss Red carry-on, SKU 409269109; production revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Platinum® Elite Carry-On Hardside Spinner - Limited Edition Colors",
+        "size": "Carry-On / 46 L",
+        "color": "Gloss Red",
+        "revision": null,
+        "sku": "409269109"
+      },
+      "evidence": {
+        "type": "Official exact-product storefront image",
+        "visualChecked": true,
+        "imageSha256": "d4912cf367d9178e370169cdbc00a867c9d32f7eeea273d89c609d16184bdfd2",
+        "identifierSource": "https://travelpro.com/products/platinum-elite-carry-on-hardside-spinner-limited-edition-colors?variant=50787219013730",
+        "identifierChecked": "2026-11-24"
+      }
+    },
+    {
+      "id": "travelpro-platinum-gloss-red-medium-exterior",
+      "brandId": "travelpro",
+      "offerId": "offer-2d616fd1",
+      "view": "Exterior",
+      "caption": "Platinum® Elite Medium Check-In Hardside Spinner · Gloss Red · exact exterior",
+      "source": "https://travelpro.com/products/platinum-elite-medium-check-in-hardside-spinner-limited-edition-colors?variant=50787219144802",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/409269509_1.jpg?v=1793202811",
+      "localPath": "offer-photo-assets/travelpro-platinum-gloss-red-medium-exterior.webp",
+      "checked": "2026-11-24",
+      "remoteReference": true,
+      "scope": "Official exact-variant image matched to Platinum Elite medium check-in, Gloss Red and SKU 409269509; production revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Platinum® Elite Medium Check-In Hardside Spinner - Limited Edition Colors",
+        "size": "Medium Check-In / 84 L",
+        "color": "Gloss Red",
+        "revision": null,
+        "sku": "409269509"
+      },
+      "evidence": {
+        "type": "Official exact-product storefront image",
+        "visualChecked": true,
+        "imageSha256": "59148162fb8458c61bbc75d6c1c1775416d92f48a1ce171efe449de461a70f53",
+        "identifierSource": "https://travelpro.com/products/platinum-elite-medium-check-in-hardside-spinner-limited-edition-colors?variant=50787219144802",
+        "identifierChecked": "2026-11-24"
+      }
+    },
+    {
+      "id": "travelpro-platinum-gloss-red-medium-interior",
+      "brandId": "travelpro",
+      "offerId": "offer-2d616fd1",
+      "view": "Interior",
+      "caption": "Platinum® Elite Medium Check-In Hardside Spinner · Gloss Red · exact open interior",
+      "source": "https://travelpro.com/products/platinum-elite-medium-check-in-hardside-spinner-limited-edition-colors?variant=50787219144802",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/409269509_7.jpg?v=1793202810",
+      "localPath": "offer-photo-assets/travelpro-platinum-gloss-red-medium-interior.webp",
+      "checked": "2026-11-24",
+      "remoteReference": true,
+      "scope": "Official exact-product gallery image showing the open interior of the Gloss Red medium check-in, SKU 409269509; production revision not stated.",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Platinum® Elite Medium Check-In Hardside Spinner - Limited Edition Colors",
+        "size": "Medium Check-In / 84 L",
+        "color": "Gloss Red",
+        "revision": null,
+        "sku": "409269509"
+      },
+      "evidence": {
+        "type": "Official exact-product storefront image",
+        "visualChecked": true,
+        "imageSha256": "ca1e9633122be57ca4ac9cc2f81747ca379f9928f3d9892b3556ca361a1c6bb0",
+        "identifierSource": "https://travelpro.com/products/platinum-elite-medium-check-in-hardside-spinner-limited-edition-colors?variant=50787219144802",
+        "identifierChecked": "2026-11-24"
+      }
     }
   ],
   "byBrand": {
@@ -9571,7 +9683,11 @@
       "roundtrip-411247722-exterior",
       "roundtrip-411247722-interior",
       "roundtrip-411247734-exterior",
-      "roundtrip-411247734-interior"
+      "roundtrip-411247734-interior",
+      "travelpro-platinum-gloss-red-carry-exterior",
+      "travelpro-platinum-gloss-red-carry-interior",
+      "travelpro-platinum-gloss-red-medium-exterior",
+      "travelpro-platinum-gloss-red-medium-interior"
     ],
     "trunki": [
       "p161",
@@ -12388,7 +12504,91 @@
           "Availability may change"
         ]
       }
+    },
+    {
+      "offerId": "offer-f0cf3dcb",
+      "offerIdentity": {
+        "brand": "Travelpro",
+        "product": "Platinum® Elite Carry-On Hardside Spinner - Limited Edition Colors · GLOSS RED",
+        "currency": "USD",
+        "retailer": "travelpro.com",
+        "source": "https://travelpro.com/products/platinum-elite-carry-on-hardside-spinner-limited-edition-colors?variant=50787219013730"
+      },
+      "checked": "2026-11-24",
+      "productPage": "https://travelpro.com/products/platinum-elite-carry-on-hardside-spinner-limited-edition-colors?variant=50787219013730",
+      "identity": {
+        "model": "Platinum® Elite Carry-On Hardside Spinner - Limited Edition Colors",
+        "size": "Carry-On / 46 L",
+        "color": "Gloss Red",
+        "revision": null,
+        "sku": "409269109"
+      },
+      "photoIds": [
+        "travelpro-platinum-gloss-red-carry-exterior",
+        "travelpro-platinum-gloss-red-carry-interior"
+      ],
+      "gaps": [
+        "Product launch date is not stated.",
+        "Production revision is not stated.",
+        "The exact factory or production operator is not identified.",
+        "Availability may change after the observation."
+      ],
+      "note": "Official exact-SKU exterior and open-interior images visually checked. The 23 November campaign announcement is not treated as the product launch date.",
+      "sourceRecheck": {
+        "date": "2026-11-24",
+        "method": "Official exact-product page, official gallery assets and company campaign announcement",
+        "liveHtmlVerified": true,
+        "limitations": [
+          "Launch date unknown",
+          "Production revision unknown",
+          "Exact factory unknown",
+          "Availability may change"
+        ]
+      }
+    },
+    {
+      "offerId": "offer-2d616fd1",
+      "offerIdentity": {
+        "brand": "Travelpro",
+        "product": "Platinum® Elite Medium Check-In Hardside Spinner - Limited Edition Colors · GLOSS RED",
+        "currency": "USD",
+        "retailer": "travelpro.com",
+        "source": "https://travelpro.com/products/platinum-elite-medium-check-in-hardside-spinner-limited-edition-colors?variant=50787219144802"
+      },
+      "checked": "2026-11-24",
+      "productPage": "https://travelpro.com/products/platinum-elite-medium-check-in-hardside-spinner-limited-edition-colors?variant=50787219144802",
+      "identity": {
+        "model": "Platinum® Elite Medium Check-In Hardside Spinner - Limited Edition Colors",
+        "size": "Medium Check-In / 84 L",
+        "color": "Gloss Red",
+        "revision": null,
+        "sku": "409269509"
+      },
+      "photoIds": [
+        "travelpro-platinum-gloss-red-medium-exterior",
+        "travelpro-platinum-gloss-red-medium-interior"
+      ],
+      "gaps": [
+        "Product launch date is not stated.",
+        "Production revision is not stated.",
+        "The exact factory or production operator is not identified.",
+        "The displayed extra 15% off in cart was not captured as a final transaction price.",
+        "Availability may change after the observation."
+      ],
+      "note": "Official exact-SKU exterior and open-interior images visually checked. The preserved USD 430 observation remains dated 8 November; no discounted transaction total was inferred.",
+      "sourceRecheck": {
+        "date": "2026-11-24",
+        "method": "Official exact-product page, official gallery assets and company campaign announcement",
+        "liveHtmlVerified": true,
+        "limitations": [
+          "Launch date unknown",
+          "Production revision unknown",
+          "Exact factory unknown",
+          "Final cart price not captured",
+          "Availability may change"
+        ]
+      }
     }
   ],
-  "offerPhotoChecked": "2026-11-23"
+  "offerPhotoChecked": "2026-11-24"
 }
