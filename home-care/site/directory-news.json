@@ -1,27 +1,26 @@
 [
   {
-    "id": "shop-vac-remote-control-5-gallon-amazon-b0h69kgr4y-announcement-2026-11-24",
-    "title": "Shop-Vac announces five-gallon remote-control wet/dry vacuum for Amazon",
-    "type": "Early signal",
-    "date": "2026-11-24",
-    "eventDate": "2026-11-24",
-    "publicationDate": "2026-11-24",
+    "id": "barebird-direct-offers-observed-2026-11-25",
+    "title": "barebird direct pet and laundry offers verified; marketplace rollout remains unverified",
+    "type": "Evidence update",
+    "date": "2026-11-25",
+    "eventDate": "2026-10-28",
     "firstObserved": "2026-11-25",
     "checked": "2026-11-25",
-    "dateLabel": "Official announcement 24 November 2026 · observed 25 November · first retail sale date unverified",
-    "summary": "Shop-Vac's 24 November announcement links Amazon U.S. ASIN B0H69KGR4Y for a five-gallon wet/dry vacuum with nozzle-mounted start/stop, sliding suction control, a 20-foot hose, a manufacturer-rated 5.5 Peak HP motor, blower port and wall mounts. The brand quotes US$135.99 against a US$169.99 reference for its 19–30 November event: US$34 (approximately 20%) lower. These are announced promotional/reference prices, not independently observed before/after selling prices or a permanent reduction. No coupon, subscription or membership requirement is specified for this model in the release; eligibility, shipping and tax are unverified. Exact Amazon seller, selected variant, complete included pack, current checkout price and ZIP-specific availability could not be checked because Amazon retrieval was blocked. No measured sales or first-listing date is established. Confirmed brand announcement; Early signal for the retailer offer. The linked image is the official release illustration, not a verified exact-pack photograph.",
+    "dateLabel": "Announced 28 October · direct offers checked 25 November · first sale unknown",
+    "summary": "The official direct store now exposes exact pet and laundry product pages. Pet: one 32 fl oz bottle, one-time US$29.99; the separate subscription offer is US$25.49. Laundry is a separate 32 fl oz / 16-load additive. This upgrades the retained announcement evidence; it is not a new 25 November launch. Checkout, delivery, tax, exact Amazon/TikTok listings and Target absence remain unverified. Performance and safety language is the brand’s claim, not independently established here. Insights now separates fragrance-free odor treatment, refill usability and existing Target overlaps; no sales-growth claim is made.",
     "sources": [
       {
-        "label": "Shop-Vac official announcement via PR Newswire · 24 November 2026",
-        "url": "https://www.prnewswire.com/news-releases/more-life-less-mess-shop-vac-gets-homes-holiday-ready-302946700.html"
+        "label": "Official pet product page",
+        "url": "https://barebird.com/products/pet-odor-eliminator"
       },
       {
-        "label": "Amazon U.S. · ASIN B0H69KGR4Y · linked by brand; access blocked",
-        "url": "https://www.amazon.com/dp/B0H69KGR4Y"
+        "label": "Official laundry product page",
+        "url": "https://barebird.com/products/laundry-odor-eliminator"
       },
       {
-        "label": "Official release image · exact pack not verified",
-        "url": "https://mmx.prnewswire.com/media/MS2040514/20261120005756EST_image_1.jpg?id=OA3093541&p=medium"
+        "label": "Original BioLargo announcement",
+        "url": "https://www.biolargo.com/post/biolargo-introduces-barebird-a-company-owned-brand-reuniting-key-teams-behind-pooph-s-consumer-mar"
       }
     ]
   },
@@ -426,6 +425,32 @@
       {
         "label": "Amazon exact 84-count listing",
         "url": "https://www.amazon.com/Finish-Dishwasher-Fragrance-Detergent-Degreasing/dp/B0H7DY3MPY"
+      }
+    ]
+  },
+  {
+    "id": "shop-vac-remote-control-5-gallon-amazon-b0h69kgr4y-announcement-2026-11-24",
+    "title": "Shop-Vac announces five-gallon remote-control wet/dry vacuum for Amazon",
+    "type": "Early signal",
+    "date": "2026-11-24",
+    "eventDate": "2026-11-24",
+    "publicationDate": "2026-11-24",
+    "firstObserved": "2026-11-25",
+    "checked": "2026-11-25",
+    "dateLabel": "Official announcement 24 November 2026 · observed 25 November · first retail sale date unverified",
+    "summary": "Shop-Vac's 24 November announcement links Amazon U.S. ASIN B0H69KGR4Y for a five-gallon wet/dry vacuum with nozzle-mounted start/stop, sliding suction control, a 20-foot hose, a manufacturer-rated 5.5 Peak HP motor, blower port and wall mounts. The brand quotes US$135.99 against a US$169.99 reference for its 19–30 November event: US$34 (approximately 20%) lower. These are announced promotional/reference prices, not independently observed before/after selling prices or a permanent reduction. No coupon, subscription or membership requirement is specified for this model in the release; eligibility, shipping and tax are unverified. Exact Amazon seller, selected variant, complete included pack, current checkout price and ZIP-specific availability could not be checked because Amazon retrieval was blocked. No measured sales or first-listing date is established. Confirmed brand announcement; Early signal for the retailer offer. The linked image is the official release illustration, not a verified exact-pack photograph.",
+    "sources": [
+      {
+        "label": "Shop-Vac official announcement via PR Newswire · 24 November 2026",
+        "url": "https://www.prnewswire.com/news-releases/more-life-less-mess-shop-vac-gets-homes-holiday-ready-302946700.html"
+      },
+      {
+        "label": "Amazon U.S. · ASIN B0H69KGR4Y · linked by brand; access blocked",
+        "url": "https://www.amazon.com/dp/B0H69KGR4Y"
+      },
+      {
+        "label": "Official release image · exact pack not verified",
+        "url": "https://mmx.prnewswire.com/media/MS2040514/20261120005756EST_image_1.jpg?id=OA3093541&p=medium"
       }
     ]
   }

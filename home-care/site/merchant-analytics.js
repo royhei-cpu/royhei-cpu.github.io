@@ -34,6 +34,7 @@
     view=document.createElement('section');view.id='analysis-view';view.hidden=true;view.setAttribute('aria-labelledby','analysis-title');
     view.innerHTML=`
       <div class="ma-intro"><div><p class="ma-kicker">MERCHANT ANALYSIS</p><h2 id="analysis-title">Sales & analysis</h2><p>Explore captured sales signals, offer prices and competitor coverage.</p></div><span class="ma-scope-tag">Home Care</span></div>
+      ${window.HCTrendReview?.panelHTML()||''}
       <div class="ma-filter-bar"><label for="analysis-retailer">Competitor<select id="analysis-retailer"></select></label><label for="analysis-category">Category<select id="analysis-category"></select></label><button type="button" id="analysis-reset">Reset analysis</button></div>
       <p class="ma-snapshot-note" id="analysis-dates"></p><p class="ma-selection-note" id="analysis-selection-note">Selections are shared with the catalogue, comparison and CSV export.</p>
       <div class="ma-kpis" id="analysis-kpis"></div>

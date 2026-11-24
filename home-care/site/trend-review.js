@@ -1,0 +1,7 @@
+(function(){
+ const d=window.HCTrendReview;
+ const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ function links(ids){return ids.map(id=>{const s=d.sources[id];return '<a href="'+e(s.url)+'" target="_blank" rel="noopener noreferrer">'+e(s.label)+' ↗</a>';}).join(' · ');}
+ d.areaHTML=function(id){const a=d.areas.find(a=>a.id===id);return a?'<div class="opp-review"><h4>Fresh review · 25 November 2026</h4><strong>'+e(a.decision)+'</strong><p>'+e(a.finding)+'</p><p>'+links(a.sources)+'</p><p class="exec-note">Sources checked 25 November. Original event dates retained; current format evidence is not a new launch.</p></div>':'';};
+ d.panelHTML=function(){return '<section class="ma-card hc-trend-review"><h2>Fresh trend review · 25 November 2026</h2><p>'+e(d.summary)+'</p><p><strong>What changed:</strong> direct barebird offers now observed; refill proposals sharpened; generic overlap-led concepts deprioritized. No new launch date or sales growth inferred.</p><details><summary>Seven areas: findings, sources and next checks</summary>'+d.areas.map(a=>'<article><h3>'+e(a.title)+' · '+e(a.priority)+' research priority</h3><p>'+e(a.finding)+'</p><p><strong>Proposal:</strong> '+e(a.concept)+'</p><p><strong>Validate next:</strong> '+e(a.next)+'</p><p>'+links(a.sources)+'</p></article>').join('')+'</details><p class="exec-note">'+e(d.scope)+' '+e(d.limitations)+'</p></section>';};
+})();

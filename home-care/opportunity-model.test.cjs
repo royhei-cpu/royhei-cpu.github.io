@@ -13,12 +13,12 @@ const sourceItem = (id,extra={}) => item('Fragrance Free Laundry Detergent','Lau
   metricDate:'2026-11-01',metricSource:'https://www.amazon.com/dp/B012345678',...extra
 });
 
-test('retains the seven existing directions, order, priorities and explicit seeds',()=>{
+test('retains seven directions and seeds with evidence-reviewed priorities',()=>{
   assert.deepEqual(model.definitions.slice(0,7).map(d=>d.title),[
     'Electric Cleaning Tools','Sustainable Cleaning','Food Storage','Air Care Premiumization',
     'Pet Odor Control','Pest Control','Home Organization'
   ]);
-  assert.deepEqual(model.definitions.slice(0,7).map(d=>d.priority),['High','High','High','High','High','Medium','Medium']);
+  assert.deepEqual(model.definitions.slice(0,7).map(d=>d.priority),['Medium','High','Medium','High','High','Medium','Medium']);
   assert.equal(model.definitions.length,39);
   assert.ok(model.definitions.slice(0,7).every(d=>d.seedIds.length&&d.original));
   assert.ok(model.definitions.slice(7).every(d=>d.priority==='Explore'&&!d.original));

@@ -1,0 +1,192 @@
+{
+  "reviewedAt": "2026-11-25",
+  "scope": "Targeted primary-source trend and concept review across all seven standing areas; not an exhaustive retailer inventory or sales refresh.",
+  "summary": "Prioritize refill usability and fragrance-free task-specific odor care. Reduce priority for generic powered scrubbers and freezer trays because brand/format overlap weakens differentiation. Keep the seven-area order; priorities are research judgments, not market rankings.",
+  "newLaunchesVerifiedThisReview": 0,
+  "limitations": "Current formats and promotions do not prove category growth. Historical price/sales charts retain their original snapshot dates. Target searches for Azuna, Cleanery and Quince were inaccessible; Target absence remains unverified. No comprehensive Target, Amazon or TikTok item audit was completed.",
+  "sources": {
+    "barebird-announcement": {
+      "label": "BioLargo announcement · 28 October 2026",
+      "url": "https://www.biolargo.com/post/biolargo-introduces-barebird-a-company-owned-brand-reuniting-key-teams-behind-pooph-s-consumer-mar",
+      "eventDate": "2026-10-28",
+      "checkedAt": "2026-11-25",
+      "scope": "Announcement; Amazon and TikTok rollout planned, not verified live listings"
+    },
+    "barebird-pet": {
+      "label": "barebird Pet · 32 fl oz · direct U.S. offer",
+      "url": "https://barebird.com/products/pet-odor-eliminator",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "One-time US$29.99 displayed; subscription US$25.49 is a separate offer; checkout, tax and delivery unverified"
+    },
+    "barebird-laundry": {
+      "label": "barebird Laundry · 32 fl oz / 16 loads",
+      "url": "https://barebird.com/products/laundry-odor-eliminator",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "Direct product page observed; original first-sale date unknown"
+    },
+    "azuna": {
+      "label": "Azuna · 24 oz refill pouch",
+      "url": "https://azunafresh.com/products/24oz-refill-pouch",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "Current format observation; not a new launch or independently validated odor-performance claim"
+    },
+    "cleanery": {
+      "label": "Cleanery · official powder refill range",
+      "url": "https://www.cleaneryonline.com/pages/our-range",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "New Zealand/NZD site: format evidence only; no U.S. price inferred"
+    },
+    "walmart-cleanery": {
+      "label": "Walmart · Cleanery assortment and advertised offers",
+      "url": "https://www.walmart.com/browse/0?facet=brand%3ACleanery",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "Category evidence, not exact seller/variant checkout verification; Black Friday promotional prices are not permanent price changes"
+    },
+    "quince": {
+      "label": "Quince · three wool dryer balls + cotton bag",
+      "url": "https://www.quince.com/home/100-new-zealand-wool-dryer-balls",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "MPN LB20455; US$12.90 displayed; performance claims not independently tested; care text appears inconsistent and requires clarification"
+    },
+    "hoto": {
+      "label": "HOTO · Flexi spin scrubber",
+      "url": "https://hototools.com/products/hoto-flexi-cordless-spin-scrubber",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "Official format reference; brand excluded from candidate products because Target carries HOTO"
+    },
+    "costco-hoto": {
+      "label": "Costco · HOTO Wand · 4000360679",
+      "url": "https://www.costco.com/p/-/hoto-wand-cordless-spin-scrubber/4000360679",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "Different model from Flexi; no pack, specification or price transfer between models"
+    },
+    "target-hoto": {
+      "label": "Target overlap evidence · HOTO",
+      "url": "https://www.target.com/p/-/A-90646804",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "Target carries the brand; does not establish that Target carries every HOTO scrubber model"
+    },
+    "target-souper": {
+      "label": "Target overlap evidence · Souper Cubes",
+      "url": "https://www.target.com/b/souper-cubes/-/N-q643lea7bnb",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "Actual branded freezing-tray listings; not an assortment gap"
+    },
+    "target-stem": {
+      "label": "Target overlap evidence · STEM",
+      "url": "https://www.target.com/s/stem%2Blight",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "Actual starter and refill listings; not a new-to-Target brand"
+    },
+    "target-simplehuman": {
+      "label": "Target overlap evidence · simplehuman",
+      "url": "https://www.target.com/p/-/A-1004457643",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "Exact sensor pump/caddy listing; brand excluded from candidate products"
+    }
+  },
+  "areas": [
+    {
+      "id": "electric-cleaning",
+      "title": "Electric cleaning tools",
+      "priority": "Medium",
+      "decision": "Refine before prioritizing",
+      "finding": "Replace a generic powered-scrubber pitch with task-specific reach, head replacement and storage benefits. Target brand overlap weakens novelty.",
+      "concept": "Evaluate a compact scrubber system with an easy-to-clean head mount, clear replacement-head compatibility and a drying holder.",
+      "next": "Compare against current Target tools; test effort, access, head wear and wet-use safety before setting price or making performance claims.",
+      "sources": [
+        "hoto",
+        "costco-hoto",
+        "target-hoto"
+      ]
+    },
+    {
+      "id": "sustainable-formats",
+      "title": "Refill and reusable cleaning",
+      "priority": "High",
+      "decision": "Focus on refill usability",
+      "finding": "Powder concentrates and reusable fabric-care formats remain useful design references. Sustainability wording alone is not differentiation.",
+      "concept": "Evaluate a reusable bottle with premeasured refills, unambiguous fill marks and a replaceable trigger; compare a separate reusable laundry-care accessory.",
+      "next": "Test dissolution in varied water conditions, dosing errors, trigger life, cost per prepared bottle and measured packaging outcomes.",
+      "sources": [
+        "cleanery",
+        "walmart-cleanery",
+        "quince"
+      ]
+    },
+    {
+      "id": "food-storage",
+      "title": "Food storage",
+      "priority": "Medium",
+      "decision": "Generic freezer-tray proposal deprioritized",
+      "finding": "Target already lists portioned silicone freezer trays. A generic tray is not an established gap.",
+      "concept": "Only progress a portion-storage system if it improves labeling, lid replacement or transfer between storage and reheating.",
+      "next": "Audit Target sizes and materials, then test the proposed benefit, food-contact requirements, lid fit and cleaning effort.",
+      "sources": [
+        "target-souper"
+      ]
+    },
+    {
+      "id": "air-care",
+      "title": "Air care and refill systems",
+      "priority": "High",
+      "decision": "Separate odor treatment from fragrance",
+      "finding": "Azuna provides refill-pouch architecture; the current review does not establish premiumization, sales growth or willingness to pay.",
+      "concept": "Evaluate a refillable odor-care holder with clear fill levels, spill control and an understandable refill schedule.",
+      "next": "Compare real cost per use, evaporation and placement; validate odor efficacy separately from scent preferences and safety claims.",
+      "sources": [
+        "azuna"
+      ]
+    },
+    {
+      "id": "pet-odor",
+      "title": "Pet and laundry odor control",
+      "priority": "High",
+      "decision": "Advance a two-task concept to validation",
+      "finding": "barebird now has readable direct product offers, strengthening the earlier announcement-only evidence. Amazon/TikTok live offers remain unverified.",
+      "concept": "Evaluate distinct fragrance-free pet-surface and laundry-additive products with unmistakable dosing and application instructions.",
+      "next": "Obtain independent efficacy, fabric/surface compatibility and claim substantiation; compare cost per treatment and confirm Home Care/Pets ownership.",
+      "sources": [
+        "barebird-announcement",
+        "barebird-pet",
+        "barebird-laundry"
+      ]
+    },
+    {
+      "id": "pest-formats",
+      "title": "Pest control",
+      "priority": "Medium",
+      "decision": "No new differentiated direction verified",
+      "finding": "Target already lists device/refill trap formats. No fresh evidence here justifies raising priority or claiming a new gap.",
+      "concept": "Hold a generic trap launch proposal; investigate easier refill handling only if it solves a demonstrated customer problem.",
+      "next": "Compare Target devices and refill costs, confirm exact pest/application scope, and validate efficacy and applicable requirements.",
+      "sources": [
+        "target-stem"
+      ]
+    },
+    {
+      "id": "home-organization",
+      "title": "Home organization · adjacent",
+      "priority": "Medium",
+      "decision": "Require a specific storage benefit",
+      "finding": "An integrated pump/caddy format is already represented at Target. Mere integration is insufficient differentiation.",
+      "concept": "Evaluate a compact cleaning caddy with removable drainage and separate drying positions only if it outperforms existing options.",
+      "next": "Route to the Home merchant; test cleaning access, drainage, footprint, durability and current Target overlap.",
+      "sources": [
+        "target-simplehuman"
+      ]
+    }
+  ]
+}

@@ -456,7 +456,9 @@
       caveat:'Not all cup references include lids or suit hot liquids. Recyclability and compostability require material and local-system evidence.'
     }
   ].map((definition, index) => {
-    const brief = {...retainedBriefs[definition.id],...definition};
+    const review = typeof window !== 'undefined' ? window.HCTrendReview : (typeof require === 'function' ? require('./trend-review.json') : null);
+    const current = review?.areas.find(a=>a.id===definition.id);
+    const brief = {...retainedBriefs[definition.id],...definition,...(current ? {priority:current.priority,concept:current.concept,next:current.next,rationale:current.finding,reviewedAt:review.reviewedAt} : {})};
     const platform = platformById.get(brief.platformId);
     return Object.freeze({
     ...brief,
@@ -465,10 +467,10 @@
     portfolioRoleKey:index < 7 ? 'umbrella' : 'concept',
     order: index + 1,
     original: index < 7,
-    priorityBasis: index < 7 ? 'Retained research judgment; not a measured market ranking.' : 'Research queue; no numerical priority assigned.',
+    priorityBasis: index < 7 ? 'Reviewed 25 November 2026; source-backed research judgment, not a measured market ranking.' : 'Research queue; no numerical priority assigned.',
     gapLabel: TARGET_GAP,
     route: definition.scope,
-    why: definition.rationale,
+    why: brief.rationale,
     categories: Object.freeze(definition.categories), seedIds: Object.freeze(definition.seedIds)
   }); });
   Object.freeze(definitions);

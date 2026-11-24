@@ -465,6 +465,36 @@
       "sourceUrl": "https://www.target.com/p/-/A-15107705",
       "checkedAt": "2026-11-25",
       "evidence": "Target product page identifies Rubbermaid Power Scrubber and TCIN 15107705. Brand-level exclusion across retailers, not identical pack or stock verification."
+    },
+    {
+      "brand": "HOTO",
+      "aliases": [
+        "HOTO Tools"
+      ],
+      "sourceUrl": "https://www.target.com/p/-/A-90646804",
+      "checkedAt": "2026-11-25",
+      "evidence": "Target public listing confirms brand presence; exclude brand across competitors. No identical-pack, stock or first-listing claim."
+    },
+    {
+      "brand": "Souper Cubes",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/b/souper-cubes/-/N-q643lea7bnb",
+      "checkedAt": "2026-11-25",
+      "evidence": "Target public listing confirms brand presence; exclude brand across competitors. No identical-pack, stock or first-listing claim."
+    },
+    {
+      "brand": "STEM",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/s/stem%2Blight",
+      "checkedAt": "2026-11-25",
+      "evidence": "Target public listing confirms brand presence; exclude brand across competitors. No identical-pack, stock or first-listing claim."
+    },
+    {
+      "brand": "simplehuman",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/p/-/A-1004457643",
+      "checkedAt": "2026-11-25",
+      "evidence": "Target public listing confirms brand presence; exclude brand across competitors. No identical-pack, stock or first-listing claim."
     }
   ],
   "items": [],
