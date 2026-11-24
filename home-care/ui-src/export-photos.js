@@ -12,7 +12,7 @@ export async function embedPhotos(book,sheet,items,photoUrl,{load=loadPhoto,onPr
  let cursor=0,completed=0,embedded=0;const failures=[];
  await Promise.all(Array.from({length:Math.min(4,items.length)},async()=>{
   while(cursor<items.length){const index=cursor++,row=index+2,item=items[index];sheet.getRow(row).height=96;
-   try{const photo=await load(photoUrl(item));const scale=Math.min(1,112/photo.width,112/photo.height);const width=photo.width*scale,height=photo.height*scale;const id=book.addImage({base64:photo.base64,extension:'png'});sheet.addImage(id,{tl:{col:0.08,row:row-1+0.06},ext:{width,height},editAs:'oneCell'});sheet.getCell(row,1).value='';embedded++;}
+   try{const photo=await load(photoUrl(item));const scale=Math.min(1,112/photo.width,112/photo.height);const width=photo.width*scale,height=photo.height*scale;const id=book.addImage({base64:photo.base64,extension:'png'});sheet.addImage(id,{tl:{nativeCol:0,nativeColOff:38100,nativeRow:row-1,nativeRowOff:38100},br:{nativeCol:0,nativeColOff:Math.round(38100+width*9525),nativeRow:row-1,nativeRowOff:Math.round(38100+height*9525)},editAs:'oneCell'});sheet.getCell(row,1).value='';embedded++;}
    catch{sheet.getCell(row,1).value='Photo unavailable — see Photo link';failures.push(item.id);}
    onProgress(++completed,items.length);
   }
