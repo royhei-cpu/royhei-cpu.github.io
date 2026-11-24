@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-23",
-  "sourceCheckedAt": "2026-11-23",
+  "reviewedAt": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24",
   "baseline": 6331,
   "added": 3938,
   "total": 10269,
@@ -4154,14 +4154,14 @@
     "scope": "Targeted gap review; not a completed comprehensive inventory refresh"
   },
   "latestDailyAudit": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "added": 0,
     "byRetailer": {},
-    "audit": "daily-source-check-2026-11-23.json",
-    "scope": "Comprehensive Monday review attempted one retained public source for all 20 retailers; no qualifying catalog additions or distinct in-scope news event, and full pagination remains incomplete."
+    "audit": "daily-source-check-2026-11-24.json",
+    "scope": "Priority-channel follow-up checked Amazon US, Walmart, Costco, TikTok Shop and Quince plus official news feeds; no qualifying catalog additions or distinct in-scope news event. The 23 November all-retailer audit remains the latest comprehensive review."
   },
-  "dailyFollowupDate": "2026-11-23",
-  "countBasis": "10,269 canonical records retained after the 23 November 2026 comprehensive Monday review; no new records were added. Counts describe collected public listings, not complete retailer inventories.",
+  "dailyFollowupDate": "2026-11-24",
+  "countBasis": "10,269 canonical records retained after the 24 November 2026 priority-channel follow-up; no new records were added. Counts describe collected public listings, not complete retailer inventories.",
   "latestMondayAudit": {
     "date": "2026-11-23",
     "retailersAttempted": 20,

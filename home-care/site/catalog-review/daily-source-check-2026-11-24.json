@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-24",
+  "sourceCheckedAt": "2026-11-24",
+  "reviewType": "daily priority-channel material-change follow-up",
+  "baselineRecords": 10269,
+  "publishedRecords": 10269,
+  "verifiedAdditions": 0,
+  "additionsByRetailer": {},
+  "recordPatches": 0,
+  "newsChanges": [],
+  "retailerChecks": [
+    {
+      "retailer": "Amazon US",
+      "status": "blocked",
+      "checkedDate": "2026-11-24",
+      "scope": "Home Care discovery and exact item-page follow-up",
+      "sources": [
+        "https://www.amazon.com/"
+      ],
+      "result": "Direct exact-product retrieval remained restricted by robots. Search discovery did not establish a deduplicated missing exact ASIN with seller, selected variant, pack, item-specific photo, checkout price, availability and first-listing evidence; no addition or patch."
+    },
+    {
+      "retailer": "Walmart",
+      "status": "partial",
+      "checkedDate": "2026-11-24",
+      "scope": "Household Essentials new arrivals, household-cleaning Black Friday discovery and current corporate promotion",
+      "sources": [
+        "https://www.walmart.com/shop/household-essentials/new-arrivals",
+        "https://www.walmart.com/shop/deals/household-essentials/household-cleaning",
+        "https://corporate.walmart.com/news/2026/10/walmart-unwraps-three-major-holiday-shopping-events"
+      ],
+      "result": "The dynamic household-cleaning deal page and official 23–29 November promotion window were accessible, but the promotion is the same underlying event already retained from Walmart's October announcement. No deduplicated missing exact listing with complete selected variant, seller and matched-photo evidence was established; no addition or duplicate news event."
+    },
+    {
+      "retailer": "Costco",
+      "status": "partial",
+      "checkedDate": "2026-11-24",
+      "scope": "Holiday Savings and Home Cleaning Essentials",
+      "sources": [
+        "https://www.costco.com/o/-/holiday-savings",
+        "https://www.costco.com/opt/home-cleaning-essentials"
+      ],
+      "result": "Official pages continued the 16–30 November Holiday Savings window and current cleaning assortment examples. These were already represented by retained promotion observations or did not provide a deduplicated missing exact record with complete member/location, variant and pagination evidence; no addition or duplicate news event."
+    },
+    {
+      "retailer": "TikTok Shop",
+      "status": "limited-reference-only",
+      "checkedDate": "2026-11-24",
+      "scope": "Cleaning Products, Home Cleaning and Organizing, and household-cleaning discovery pages",
+      "sources": [
+        "https://shop.tiktok.com/us/k/cleaning-products",
+        "https://shop.tiktok.com/us/k/home-cleaning-and-organizing",
+        "https://shop.tiktok.com/us/k/household-cleaning-supplies"
+      ],
+      "result": "Public discovery exposed dynamic product titles and images, but did not establish stable exact-PDP URLs, seller identity, selected variants, pack scope and matched-photo evidence for a deduplicated addition. Dynamic purchase/review signals were not copied."
+    },
+    {
+      "retailer": "Quince",
+      "status": "adjacent-scope-only",
+      "checkedDate": "2026-11-24",
+      "scope": "Home New Arrivals and Storage & Organization",
+      "sources": [
+        "https://www.quince.com/shop/home/new-arrivals",
+        "https://www.quince.com/shop/home/all-decor/storage-organization"
+      ],
+      "result": "The official new-arrivals page exposed 284 broad Home items dominated by furniture and decor. Storage & Organization remains adjacent scope; no exact qualifying Home Care addition, pack/variant change or item-level launch date was established."
+    }
+  ],
+  "officialNewsChecks": [
+    {
+      "source": "https://newsroom.sharkninja.com/",
+      "checkedDate": "2026-11-24",
+      "result": "No newer in-scope U.S. Home Care announcement beyond the retained 19 November RazorVac event was identified."
+    },
+    {
+      "source": "https://investors.thecloroxcompany.com/news/default.aspx",
+      "checkedDate": "2026-11-24",
+      "result": "No newer in-scope product announcement beyond the retained 17 November Purell ProCare event was identified."
+    },
+    {
+      "source": "https://www.reckitt.com/news/",
+      "checkedDate": "2026-11-24",
+      "result": "No distinct new U.S. Home Care product event meeting the evidence threshold was identified."
+    },
+    {
+      "source": "https://corporate.walmart.com/news",
+      "checkedDate": "2026-11-24",
+      "result": "The current 23–29 November Black Friday window is part of the previously retained October announcement; no duplicate news entry was created."
+    },
+    {
+      "source": "https://www.costco.com/o/-/holiday-savings",
+      "checkedDate": "2026-11-24",
+      "result": "The active 16–30 November promotion window continued; it did not establish a new product launch, first listing or distinct news event."
+    }
+  ],
+  "categoryAndPagination": {
+    "latestComprehensiveReviewDate": "2026-11-23",
+    "comprehensiveReviewRetained": true,
+    "todayScope": "Priority channels only; no full 20-retailer × 16-row rerun.",
+    "coverageComplete": false,
+    "limitations": "Only Ace tile cleaner has a previously bounded 18-of-18 source scope. All other retailer/category pagination remains partial, blocked, location-dependent or not started."
+  },
+  "reviewSummary": "Zero verified additions and zero distinct news events after deduplication. The catalog remains at 10,269 records. Today's work was a priority-channel follow-up and does not replace the 23 November comprehensive Monday audit.",
+  "preservation": {
+    "stableIdsPreserved": true,
+    "photosPreserved": true,
+    "retailerCategoryMappingsPreserved": true,
+    "sourceEvidencePreserved": true,
+    "directoryNewsUnchanged": true,
+    "otherSitesChanged": false
+  }
+}

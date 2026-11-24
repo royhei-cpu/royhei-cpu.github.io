@@ -244,3 +244,12 @@ The three-row selected-only CSV was inspected for exact row count, retailer mapp
 - Only Ace tile cleaner retains a previously bounded 18-of-18 source scope. All other category pagination remains partial, location-dependent, blocked or not started; zero additions do not establish complete inventory coverage.
 - Amazon exact-page retrieval remained robots-blocked; Walmart discovery stayed dynamic; Costco member/location evidence remained partial; TikTok Shop did not expose stable exact-PDP seller/variant evidence; Quince remained adjacent Home Organization.
 - See `site/catalog-review/daily-source-check-2026-11-23.json`.
+
+## 24 November 2026 — daily priority-channel follow-up
+
+- Preserved all 10,269 canonical records, stable IDs, photographs, retailer/category mappings and source-linked evidence; no exact retailer listing met the catalog-addition threshold.
+- Verified zero distinct in-scope news events after deduplication. Walmart's 23–29 November Black Friday window is part of the already retained October announcement; Costco's 16–30 November Holiday Savings window and the SharkNinja, Clorox and Reckitt feeds produced no separate new Home Care event.
+- Amazon exact-page retrieval remained robots-restricted. Walmart and Costco exposed promotion/category evidence without a deduplicated exact addition. TikTok Shop exposed dynamic category/search references without stable exact-PDP seller, variant and pack evidence. Quince's 284-item Home new-arrivals page remained dominated by furniture and decor; Storage & Organization remains adjacent scope.
+- The 23 November comprehensive review remains the latest all-retailer audit. Today's priority-channel follow-up does not claim complete pagination or inventory coverage.
+- See `site/catalog-review/daily-source-check-2026-11-24.json`.
+
