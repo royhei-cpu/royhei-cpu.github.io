@@ -2,7 +2,7 @@
 
 The user's latest correction overrides the November 12 shared-template redesign. Homecare, China Toy Atlas and Luggage Atlas MUST stay separate at their existing public URLs, with each site's ORIGINAL aesthetic, artwork, photographs, navigation and assets. Never replace them with one shared interface or a cross-site navigation bar.
 
-Keep search, product details, saved selections, comparison, CSV/photo exports and sourced daily news. Homecare MUST retain its native white-label recommendations, competitor reference products, evidence and proposed improvements. Do not restore planograms, virtual aisles, Blender/3D prototyping, BOM or design workshop controls. Retired workshop links redirect into the relevant site. Research photographs remain available.
+Keep search, product details, saved selections, comparison, CSV/photo exports and sourced daily news. 24 November correction: remove the duplicate White-label recommendations navigation tab and retain Target inspiration. Preserve underlying recommendation evidence and competitor reference products; do not recreate the removed tab during daily maintenance. Do not restore planograms, virtual aisles, Blender/3D prototyping, BOM or design workshop controls. Retired workshop links redirect into the relevant site. Research photographs remain available.
 
 ## Build
 
@@ -18,4 +18,4 @@ Keep every stable ID, exact offer, retained observation, source, original curren
 
 Each website has its OWN updated tutorial. Homecare: videos/homecare-guide.mp4. Toys: tutorial/China_Toy_Atlas_Tutorial.mp4. Luggage: tutorial/luggage-guide.mp4. Keep each guide aligned with its site's controls and original visual identity. Do not restore the common tutorial or regenerate for routine data updates.
 
-Run the publish staging steps, directory.test.cjs, relevant data tests and release catalog validation. Check desktop/mobile search, filtering, source details, selections, comparison, CSV, daily news and video. Homecare additionally requires working white-label recommendation navigation. Publish to the existing GitHub Pages workflow and follow through successful deployment/public-byte verification.
+Run the publish staging steps, directory.test.cjs, relevant data tests and release catalog validation. Check desktop/mobile search, filtering, source details, selections, comparison, CSV, daily news and video. Homecare requires working Target inspiration navigation and no duplicate White-label recommendations tab. Publish to the existing GitHub Pages workflow and follow through successful deployment/public-byte verification.

@@ -1,4 +1,4 @@
-export const mainSections=['home','products','insights','opportunities'];
+export const mainSections=['home','products','insights'];
 export const viewLabels={home:'Homecare',catalog:'U.S. products',global:'Global retailers & items',compare:'Compare products',analysis:'Sales & analysis',target:'Target inspiration',opportunities:'White-label recommendations'};
 export function readView(search='',hash=''){
  const p=new URLSearchParams(search),view=p.get('view');
