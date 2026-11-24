@@ -68,6 +68,9 @@ jobs:
         with:
           name: pages-${{ github.run_id }}-${{ github.run_attempt }}
           path: _site
+      # Upload completion can precede visibility in the artifact metadata service.
+      - name: Allow Pages artifact metadata to settle
+        run: sleep 15
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4

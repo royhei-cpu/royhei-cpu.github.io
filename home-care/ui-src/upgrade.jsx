@@ -42,8 +42,8 @@ export function mount(context){
  try{const saved=JSON.parse(localStorage.getItem('hc-merchant-picks')||'[]');if(Array.isArray(saved))for(const id of saved)if(context.byId.has(id))context.picks.add(id);}catch{}
  const root=document.createElement('div');root.id='homecare-upgrade-root';document.getElementById('homecare-start').after(root);
  const controller={mode:null,switching:false,renderMode(){}};
- const viewForId={'catalog-view':'catalog','executive-view':'opportunities','analysis-view':'analysis','target-inspiration-view':'target','compare-view':'compare'};
- const buttonForView={catalog:'nav-catalog',analysis:'nav-analysis',opportunities:'nav-opportunities',target:'nav-target'};
+ const viewForId={'catalog-view':'catalog','executive-view':'target','analysis-view':'analysis','target-inspiration-view':'target','compare-view':'compare'};
+ const buttonForView={catalog:'nav-catalog',analysis:'nav-analysis',target:'nav-opportunities'};
  function updateAddress(view,country,kind='replace'){
   const address=viewAddress(view,country==='All countries'?'':country),current=location.pathname+location.search+location.hash;
   if(address!==current)history[kind==='push'?'pushState':'replaceState'](null,'',address);
@@ -55,7 +55,7 @@ export function mount(context){
   document.dispatchEvent(new CustomEvent('homecare:viewchange',{detail:{view}}));
  }
  function navigate(view,{country='All countries',history:historyKind='none',scroll=false}={}){
-  if(view==='workshop')view='opportunities';
+  if(view==='workshop'||view==='opportunities')view='target';
   controller.switching=true;
   if(view==='home'||view==='global')for(const id of nativeViewIds){const n=document.getElementById(id);if(n)n.hidden=true;}
   else if(view==='compare')window.HCProductCompare.show();

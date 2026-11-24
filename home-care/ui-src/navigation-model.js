@@ -3,12 +3,13 @@ export const viewLabels={home:'Homecare',catalog:'U.S. products',global:'Global 
 export function readView(search='',hash=''){
  const p=new URLSearchParams(search),view=p.get('view');
  if(view==='retailers')return 'global';
- if(view==='workshop')return 'opportunities';
+ if(view==='workshop'||view==='opportunities')return 'target';
  if(Object.hasOwn(viewLabels,view))return view;
  return hash==='#category-directory'?'catalog':'home';
 }
 export function sectionForView(view){return ['catalog','global','compare'].includes(view)?'products':['analysis','target'].includes(view)?'insights':view;}
 export function viewAddress(view,country=''){
+ if(view==='workshop'||view==='opportunities')view='target';
  if(view==='home')return '/home-care/';
  const p=new URLSearchParams({view});if(view==='global'&&country)p.set('country',country);
  return '/home-care/?'+p+(view==='catalog'?'#category-directory':view==='global'?'#homecare-workspace':'');
