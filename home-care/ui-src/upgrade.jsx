@@ -50,6 +50,7 @@ export function mount(context){
  }
  function setSection(view,country){
   controller.mode=['home','global'].includes(view)?view:null;controller.renderMode(view,view==='global'?country:undefined);
+  document.getElementById('homecare-news-view').hidden=view!=='news';
   document.body.dataset.homecareView=view;document.getElementById('homecare-start').hidden=view!=='home';
   for(const button of nav.querySelectorAll('button'))button.setAttribute('aria-pressed',String(button.id===({global:'nav-global',...buttonForView}[view])));
   document.dispatchEvent(new CustomEvent('homecare:viewchange',{detail:{view}}));
@@ -57,7 +58,7 @@ export function mount(context){
  function navigate(view,{country='All countries',history:historyKind='none',scroll=false}={}){
   if(view==='workshop'||view==='opportunities')view='target';
   controller.switching=true;
-  if(view==='home'||view==='global')for(const id of nativeViewIds){const n=document.getElementById(id);if(n)n.hidden=true;}
+  if(['home','global','news'].includes(view))for(const id of nativeViewIds){const n=document.getElementById(id);if(n)n.hidden=true;}
   else if(view==='compare')window.HCProductCompare.show();
   else document.getElementById(buttonForView[view]||'nav-catalog')?.click();
   setSection(view,country);controller.switching=false;
@@ -77,9 +78,10 @@ export function mount(context){
  window.addEventListener('popstate',()=>navigate(readView(location.search,location.hash),{country:new URLSearchParams(location.search).get('country')||'All countries'}));
  const observer=new MutationObserver(()=>{const visible=nativeViewIds.find(id=>{const n=document.getElementById(id);return n&&!n.hidden;});const view=viewForId[visible];if(view&&!controller.switching&&document.body.dataset.homecareView!==view){setSection(view);updateAddress(view);}});
  for(const id of nativeViewIds){const node=document.getElementById(id);if(node)observer.observe(node,{attributes:true,attributeFilter:['hidden']});}
- const weekly=document.getElementById('weekly-updates'),directory=document.getElementById('category-directory');
- if(weekly&&directory){const disclosure=document.createElement('details');disclosure.id='homecare-weekly-brief';const summary=document.createElement('summary');summary.textContent='Daily updates, additions and coverage notes';disclosure.append(summary);weekly.before(disclosure);disclosure.append(weekly);disclosure.before(directory);}
+ const weekly=document.getElementById('weekly-updates');
+ const news=document.createElement('section');news.id='homecare-news-view';news.setAttribute('aria-label','News & updates');news.hidden=true;
+ root.before(news);if(weekly)news.append(weekly);
  flushSync(()=>createRoot(root).render(<Workspace controller={controller} context={context} rows={rows} initialMode={requested} initialCountry={params.get('country')||'All countries'}/>));
  window.HCHomecareUpgradeController={navigate,show:(view,country)=>navigate(view,{country,history:'push',scroll:true}),hide:()=>setSection('catalog')};
- context.redraw();navigate(requested,{country:params.get('country')||'All countries'});if(params.has('news'))requestAnimationFrame(()=>{const n=document.getElementById('homecare-weekly-brief');if(n){n.open=true;n.scrollIntoView({block:'start'});}});
+ context.redraw();navigate(requested,{country:params.get('country')||'All countries'});
 }

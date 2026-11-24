@@ -1,7 +1,8 @@
-export const mainSections=['home','products','insights'];
-export const viewLabels={home:'Homecare',catalog:'U.S. products',global:'Global retailers & items',compare:'Compare products',analysis:'Sales & analysis',target:'Target inspiration',opportunities:'White-label recommendations'};
+export const mainSections=['home','products','news','insights'];
+export const viewLabels={home:'Homecare',catalog:'U.S. products',news:'News & updates',global:'Global retailers & items',compare:'Compare products',analysis:'Sales & analysis',target:'Target inspiration',opportunities:'White-label recommendations'};
 export function readView(search='',hash=''){
  const p=new URLSearchParams(search),view=p.get('view');
+ if(p.has('news')||hash==='#homecare-weekly-brief')return 'news';
  if(view==='retailers')return 'global';
  if(view==='workshop'||view==='opportunities')return 'target';
  if(Object.hasOwn(viewLabels,view))return view;

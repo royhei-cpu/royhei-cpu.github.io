@@ -5,3 +5,5 @@
 body[data-homecare-view]:not([data-homecare-view=catalog]) #catalog-view{display:none!important}body[data-homecare-view=analysis] .hc-compare-header-actions,body[data-homecare-view=target] .hc-compare-header-actions,body[data-homecare-view=opportunities] .hc-compare-header-actions{display:none}
 
 body.hc-workshop-page[data-workshop-state=static] .wl-review-panel[hidden]{display:block!important}
+
+body[data-homecare-view=news] .hc-catalog-header .tools,body[data-homecare-view=news] .hc-compare-header-actions{display:none}#homecare-news-view[hidden]{display:none!important}

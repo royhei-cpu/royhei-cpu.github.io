@@ -10,7 +10,7 @@ import {navigationHeader,homeStart} from './navigation-build.mjs';
 test('first visits start at Home while old catalog, country and workshop links retain their meaning',()=>{
  assert.equal(readView('',''),'home');assert.equal(readView('?v=old-link',''),'home');
  assert.equal(readView('?v=20261027-fast','#category-directory'),'catalog');
- for(const view of ['home','catalog','global','analysis','target','compare'])assert.equal(readView('?view='+view),view);
+ for(const view of ['home','catalog','news','global','analysis','target','compare'])assert.equal(readView('?view='+view),view);
  for(const view of ['opportunities','workshop']){
   assert.equal(readView('?view='+view),'target');
   assert.equal(viewAddress(view),'/home-care/?view=target');
@@ -20,8 +20,8 @@ test('first visits start at Home while old catalog, country and workshop links r
  assert.equal(stepFromHash('#wl-real-products'),'references');assert.equal(stepFromHash('#wl-development-case'),'changes');assert.equal(stepFromHash('#wl-proposed-design'),'design');
 });
 
-test('three shared sections retain Target inspiration and help without retired duplicate tools',()=>{
- assert.deepEqual(mainSections,['home','products','insights']);
+test('navigation sections retain Target inspiration and help without retired duplicate tools',()=>{
+ assert.deepEqual(mainSections,['home','products','news','insights']);
  const html=navigationHeader();assert.deepEqual([...html.matchAll(/data-section="([^"]+)"/g)].map(m=>m[1]),mainSections);
  for(const view of ['catalog','global','compare','analysis','target'])assert.ok(html.includes('data-homecare-view="'+view+'"'));
  assert.ok(html.includes('help.html'));assert.doesNotMatch(html,/brand-factories\.html|Brands &amp; factories|data-section="(?:workshop|opportunities)"/);
@@ -61,7 +61,7 @@ test('Target and legacy recommendation links open the existing Home Care rendere
   recommendationsButton.click=()=>{clicked.push(recommendationsButton.id);catalog.hidden=true;recommendations.hidden=false;};
   node('nav-catalog');node('nav-analysis');node('nav-global');
   const nav={querySelectorAll:selector=>selector==='button'?[...nodes.values()].filter(n=>n.id.startsWith('nav-')):[]};
-  const document={body:{dataset:{}},querySelector:selector=>selector==='.view-nav'?nav:null,getElementById:id=>nodes.get(id),createElement:()=>({}),addEventListener(){},dispatchEvent(){}};
+  const document={body:{dataset:{}},querySelector:selector=>selector==='.view-nav'?nav:null,getElementById:id=>nodes.get(id),createElement:()=>({setAttribute(){},before(n){nodes.set(n.id,n);},append(){}}),addEventListener(){},dispatchEvent(){}};
   const window={addEventListener(){}},module={exports:{}};
   const context=vm.createContext({document,window,module,exports:module.exports,URLSearchParams,location:{search:'?view='+requested,hash:'',pathname:'/home-care/'},history:{replaceState(){},pushState(){}},localStorage:{getItem:()=>null},CustomEvent:class{constructor(type,options){this.type=type;this.detail=options.detail;}},MutationObserver:class{constructor(callback){observers.push(callback);}observe(){}},require(name){
    if(name==='react')return{createElement(){return{};}};
@@ -80,7 +80,24 @@ test('Target and legacy recommendation links open the existing Home Care rendere
   for(const observer of observers)observer();
   assert.equal(document.body.dataset.homecareView,'target','Renderer visibility must retain the Target route');
   assert.equal(nodes.has('nav-target'),false,'The retired travel renderer is not required');
+  window.HCHomecareUpgradeController.navigate('news');
+  assert.equal(document.body.dataset.homecareView,'news');
+  assert.equal(nodes.get('homecare-news-view').hidden,false);
+  assert.equal(recommendations.hidden,true);assert.equal(catalog.hidden,true);
+  for(const observer of observers)observer();
+  assert.equal(document.body.dataset.homecareView,'news','News must not snap back to Products');
   window.HCHomecareUpgradeController.navigate('opportunities');
+  assert.equal(nodes.get('homecare-news-view').hidden,true);
   assert.equal(document.body.dataset.homecareView,'target','Legacy controller navigation reaches Target');
  }
+});
+
+test('news has a dedicated address and old news bookmarks migrate to it',()=>{
+ assert.equal(viewAddress('news'),'/home-care/?view=news');
+ assert.equal(readView('?view=catalog&news=1'),'news');
+ assert.equal(readView('?view=catalog','#homecare-weekly-brief'),'news');
+ assert.equal(sectionForView('news'),'news');
+ assert.match(navigationHeader(),/data-homecare-view="news" data-section="news"/);
+ assert.doesNotMatch(navigationHeader(),/news=1|data-homecare-news/);
+ assert.match(homeStart(),/view=news/);
 });
