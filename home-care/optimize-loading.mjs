@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {addReadableExport} from './readable-export-build.mjs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import zlib from 'node:zlib';
@@ -118,6 +119,9 @@ html=html.replace("const fields=['", "const fields=['secondaryCategories','cover
 html=html.replace("const headers={", "const headers={secondaryCategories:'Also listed in',coverageBrand:'Verified brand',coverageSize:'Verified size',coverageVerifiedDate:'Coverage verification date',categoryEvidenceSource:'Category evidence URL',categoryEvidenceNote:'Category evidence note',observedPrice:'Observed USD price',observedPriceSource:'Observed price source',observedPriceNote:'Observed price limitations',priceObservedDate:'Price evidence retrieved date',size:'Size / pack',");
 html=addFactoryInterface(html);
 html=addHomecareUpgrade(html,path.dirname(file));
+html=addReadableExport(html);
+const exportVersion=crypto.createHash('sha256').update(fs.readFileSync(path.join(path.dirname(file),'readable-export.js'))).digest('hex').slice(0,12);
+html=html.replace('</head>','<script defer src="/home-care/readable-export.js?v='+exportVersion+'"></script></head>');
 fs.writeFileSync(file,html);
 console.log(JSON.stringify({factoryStats}));
 console.log(JSON.stringify({records:items.length,initialCards:first.length,bytes:Buffer.byteLength(html),originalDataBytes:end-start,packedDataBytes:Buffer.byteLength(expression),lossless:true}));
