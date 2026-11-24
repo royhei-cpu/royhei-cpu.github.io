@@ -269,3 +269,7 @@ Added an export format chooser shared by Browse, comparison and recommendation s
 ## 24 November 2026 — remove Merchant review
 
 Removed the Merchant review block from product Details at build time. Retained all catalog records, dates, photos, source links, selection and export behavior. No research dates advanced.
+
+## 24 November 2026 — embed selected product photos in Excel
+
+Formatted Excel now embeds each available selected item's catalog photo in the first column, sized proportionally with taller rows. Product/photo/source links and the separate Full evidence sheet remain. Missing, timed-out or cross-origin-blocked photos are labeled without dropping selected products, and the download reports how many were embedded. CSV remains link-only. No catalog or research-date changes. Workbook image round-trip and failure/row association tests pass.
