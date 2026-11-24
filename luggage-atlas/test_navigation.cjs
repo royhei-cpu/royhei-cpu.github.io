@@ -29,7 +29,12 @@ for(const file of ['index.html','features.html']) {
 }
 const tutorial=fs.readFileSync(path.join(root,'tutorial.html'),'utf8');
 assert(tutorial.includes('tutorial/luggage-guide.mp4') && tutorial.includes('href="./#workbench"'));
-for(const target of ['brands','photos','prices','features','overview','fashion','innovation','trends','signals','suppliers','retailers','methodology','tutorial'])assert(index.includes(`data-tab="${target}"`),target);
+const hub=index.slice(index.indexOf('<details id="researchMenu"'),index.indexOf('<footer>'));assert.equal((hub.match(/<a /g)||[]).length,3);for(const url of ['research.html','#trends','#suppliers'])assert(hub.includes('href="'+url+'"'));for(const duplicate of ['#brands','#photos','#prices','features.html','#overview','tutorial.html'])assert(!hub.includes('href="'+duplicate+'"'));
 assert(!index.includes('class="atlas-journey"'));
 assert(!el('#directoryShortlist').innerHTML.includes('studio.html'));
 console.log('PASS: travel hero, native navigation, research menu, comparison, saved shortlist, exports menu and site-specific tutorial.');
+
+run("location.hash='#prices';render()");assert.equal((el('#priceContent').innerHTML.match(/<tr><td>/g)||[]).length,30);el('#priceMore').onclick();assert.equal((el('#priceContent').innerHTML.match(/<tr><td>/g)||[]).length,60);el('#priceQ').oninput({target:{value:'Quince'}});assert.equal(run('priceLimit'),30);
+run("location.hash='#photos';render()");assert.equal((el('#photoCards').innerHTML.match(/class=\"photo-card\"/g)||[]).length,6);el('#photoMore').onclick();assert.equal((el('#photoCards').innerHTML.match(/class=\"photo-card\"/g)||[]).length,12);
+run("location.hash='#suppliers';render()");assert(run("supplierRows().every(b=>fashionFor(b).supplier.status!=='Not verified')"));
+console.log('PASS: bounded price/photo results, load more, filter resets, and sourced supplier default.');

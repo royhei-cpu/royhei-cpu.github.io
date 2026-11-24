@@ -31,3 +31,45 @@ body[data-atlas-view=start] .hero{min-height:360px}
 @media(max-width:620px){body>header nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}body>header nav a{justify-content:center;white-space:normal;text-align:center;padding:8px!important;font-size:14px!important}.start-paths{grid-template-columns:1fr}.home-search>div{flex-direction:column}.home-search .btn{width:100%}.home-search{padding:24px 0}.start-card h2{font-size:26px}.research-groups section{padding:20px}.browse-options{gap:6px}}
 .start-home>.home-search{grid-column:1/-1;order:-2;width:100%;box-sizing:border-box}
 body>header nav a[aria-current=page]{background:#eee7d7!important;color:#24352b!important}
+
+/* Compact task-first layouts. */
+body[data-atlas-view] .inner-heading{min-height:0!important;padding:20px 0!important;margin:0!important}
+body[data-atlas-view] .inner-heading h1{font-size:clamp(30px,4vw,44px);margin:0 0 8px}
+body[data-atlas-view] .inner-heading p{font-size:16px;margin:0 0 16px}
+body[data-atlas-view=start] .hero{min-height:290px;height:330px}
+body[data-atlas-view=start] .hero-copy{padding:30px}
+body[data-atlas-view=start] .hero h1{font-size:clamp(42px,5vw,64px)}
+.edition-strip{display:none!important}
+.research-library>summary{display:none!important}
+.research-groups{grid-template-columns:repeat(3,minmax(0,1fr))}
+.research-groups section{display:flex;flex-direction:column}
+.research-groups section>a{margin-top:auto}
+.research-extra{border:1px solid #d5d9ce;border-radius:10px;padding:14px 18px;margin:20px 0;background:#fafbf7}
+.research-extra>summary{font-size:16px;font-weight:600;cursor:pointer;min-height:30px}
+.directory-toolbar{gap:12px;margin:8px 0!important}
+.directory-filters{padding:16px!important;margin:0!important;gap:12px!important}
+.directory-more-filters>summary{padding:6px 0;min-height:30px}
+.directory-shortlist{padding:10px 16px!important;margin:10px 0!important}
+.directory-shortlist span{font-size:14px}
+#directoryBrandMatches{margin:26px 0}
+.directory-note{font-size:14px}
+.directory-row .caption,.directory-actions small{font-size:13px}
+.directory-copy>p,.directory-toolbar label,.directory-filters label{font-size:14px}
+.desk-chip{max-width:260px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.desk-compare td img{width:150px;max-height:150px;object-fit:contain}
+.desk-shortlist{padding:12px!important}
+.finder-hero{min-height:0!important;height:auto!important;background-image:none!important;padding:24px!important}
+.finder-hero-copy{padding:0!important;max-width:800px!important}
+.finder-hero h1{font-size:36px!important;line-height:1.15!important}
+.finder-hero h1 br{display:none}
+.finder-hero p{max-width:650px}
+.finder-hero .editorial-button,.finder-hero .editorial-image-note,.editorial-coverage{display:none!important}
+.research-hero{min-height:0!important;padding:26px!important;margin-bottom:20px!important}
+.research-hero h1{font-size:38px!important;line-height:1.15!important}
+.research-hero h1 br{display:none}
+.research-tabs{display:block!important}
+.research-tabs .research-extra{margin:10px 0;padding:8px 14px}
+@media(max-width:700px){.research-groups{grid-template-columns:1fr}.research-groups section{padding:20px}.research-groups h2{font-size:25px}.directory-primary-filters{grid-template-columns:1fr!important}.directory-shortlist{flex-wrap:wrap}.directory-shortlist>div{min-width:0}.directory-shortlist .btn{white-space:normal}.desk-compare th,.desk-compare td{min-width:150px}.research-tabs .tab-options{flex-wrap:wrap}body[data-atlas-view=start] .hero{height:auto;min-height:300px}.finder-hero h1,.research-hero h1{font-size:30px!important}}
+
+.finder-more{grid-column:1/-1;border-top:1px solid #d5d9ce;padding:10px 0}.finder-more>summary{font-size:16px;cursor:pointer;padding:8px 0}.finder-advanced{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding:16px 0}.finder-page .filter-panel{grid-template-columns:repeat(2,minmax(0,1fr))}.finder-page .feature-filter{grid-column:1/-1}.finder-page .model-card .scope{font-size:14px}.finder-page button:disabled{opacity:.55;cursor:default}
+@media(max-width:620px){.finder-advanced,.finder-page .filter-panel{grid-template-columns:1fr}.research-page .research-tabs .tab-options{display:grid;grid-template-columns:1fr 1fr}}
