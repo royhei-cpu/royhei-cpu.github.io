@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-24",
-      "raw_products_read": 971,
+      "raw_products_read": 951,
       "currency": "USD"
     },
     {
@@ -80,7 +80,7 @@
       "url": "https://toybeta.com",
       "status": "complete",
       "checked": "2026-11-24",
-      "raw_products_read": 1273,
+      "raw_products_read": 1275,
       "currency": "USD"
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://didapop.com",
       "status": "complete",
       "checked": "2026-11-24",
-      "raw_products_read": 1850,
+      "raw_products_read": 1849,
       "currency": "USD"
     },
     {
@@ -251,6 +251,12 @@
       "type": "brand label"
     },
     {
+      "id": "b21a78b68168ad0e",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
       "id": "403ede76ac64369e",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -258,6 +264,12 @@
     },
     {
       "id": "f2026032ea3ac903",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "288a2cc7bbe179ca",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -1175,6 +1187,12 @@
       "type": "brand label"
     },
     {
+      "id": "b8369f61b11a31af",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
       "id": "7603132392298ad0",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -2011,12 +2029,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "03059d652cacd708",
-      "name": "Tea Fox Daruma Series 7 Twelve Constellations Blind Box",
-      "source": "https://www.kikagoods.com/products/tea-fox-daruma-series-7-twelve-constellations-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "b1c12d0612d6b50b",
       "name": "Fuwafuwa Band Series Special 1/6 Action Figure BJD Blind Box",
       "source": "https://www.kikagoods.com/products/fuwafuwa-band-series-special-1-6-action-figure-bjd-blind-box",
@@ -2299,12 +2311,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "ba6cbaed43060963",
-      "name": "24H Meow Mart Series Blind Box",
-      "source": "https://www.kikagoods.com/products/24h-meow-mart-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "6c3dd6d64b0d7f91",
       "name": "Taiwanese Night Market Series Blind Box",
       "source": "https://www.kikagoods.com/products/taiwanese-night-market-series-blind-box",
@@ -2545,12 +2551,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "d989c1b9baff4583",
-      "name": "Stackable Cube Penguin Glow Series Blind Box",
-      "source": "https://www.kikagoods.com/products/cube-penguin-glow-in-the-dark-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "017d6cf68ec75f92",
       "name": "Meki Fluffy Goodnight Series Action Figure BJD Blind Box",
       "source": "https://www.kikagoods.com/products/meki-fluffy-goodnight-series-action-figure-bjd-blind-box",
@@ -2725,12 +2725,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "82b2cdfa723338b9",
-      "name": "zZoton Little Countryside Joys Series Mini Blind Box",
-      "source": "https://www.kikagoods.com/products/zzoton-little-countryside-joys-series-mini-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "8e34f7866587e85e",
       "name": "Saturday Girls Series Special 1/6 Action Figure BJD Blind Box",
       "source": "https://www.kikagoods.com/products/saturday-girls-series-special-1-6-action-figure-bjd-blind-box",
@@ -2836,12 +2830,6 @@
       "id": "87242fc4b4b4492c",
       "name": "ShinWoo Ragbear Clinic Series Plush Blind Box",
       "source": "https://www.kikagoods.com/products/shinwoo-ragbear-clinic-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "bf26c34fa629e3df",
-      "name": "Mimiz Home Diary Series Blind Box",
-      "source": "https://www.kikagoods.com/products/mimiz-home-diary-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -3037,27 +3025,9 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "384090d77fc9f27f",
-      "name": "Mimi Maomao Series Blind Box",
-      "source": "https://www.kikagoods.com/products/mimi-maomao-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "05dc657f5b6c0d79",
-      "name": "Durian Kingdom Series Blessing Charm Hedgehog Blind Box",
-      "source": "https://www.kikagoods.com/products/durian-kingdom-series-blessing-charm-hedgehog-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "b9932c2fb914e558",
       "name": "Henshin Denki Street Series Starry Sand Story 1/6 BJD Limited Action Figure",
       "source": "https://www.kikagoods.com/products/transform-electrical-street-series-stardust-tale-1-6-bjd-limited-action-figure",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "d7c7c475d587d719",
-      "name": "Bubble Eggs Iridescent Party Series Vol.2 Blind Bag",
-      "source": "https://www.kikagoods.com/products/bubble-eggs-iridescent-party-series-vol-2-blind-bag",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -3274,12 +3244,6 @@
       "id": "2830c2b235faf805",
       "name": "Antu Bestiary of All Spirits Series 1/12 Action Figure BJD Blind Box",
       "source": "https://www.kikagoods.com/products/antu-bestiary-of-all-spirits-series-1-12-action-figure-bjd-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "0bce45088400d4bd",
-      "name": "Mimia Crystal Palace Series Blind Box",
-      "source": "https://www.kikagoods.com/products/mimia-crystal-palace-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -4147,12 +4111,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "e00fdd286e42838c",
-      "name": "Aaru Garden Ancient Egypt Mythology Top Student Series Blind Box",
-      "source": "https://www.kikagoods.com/products/aaru-garden-ancient-egypt-mythology-top-student-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "0f869839e7df857c",
       "name": "EMMA Secret Forest Frostveil Villa Series Blind Box",
       "source": "https://www.kikagoods.com/products/emma-secret-forest-frostveil-villa-series-blind-box",
@@ -4201,12 +4159,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "635b41abde140b52",
-      "name": "Mianmian Strange World Adventure Series Action Figure BJD Blind Box",
-      "source": "https://www.kikagoods.com/products/mianmian-strange-world-adventure-series-action-figure-bjd-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "91f407fa6f0a6486",
       "name": "ShinWoo Ghost Bear Diner Series Blind Box",
       "source": "https://www.kikagoods.com/products/shinwoo-ghost-bear-diner-series-blind-box",
@@ -4222,12 +4174,6 @@
       "id": "5d43e0ebbcd2ff86",
       "name": "Nagi Cub Study Tour Season Series Action Figure Blind Box",
       "source": "https://www.kikagoods.com/products/nagi-cub-study-tour-season-series-action-figure-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "2bcf17276f5eccca",
-      "name": "Blessing Lucky Cat Series Mini Blind Box",
-      "source": "https://www.kikagoods.com/products/blessing-lucky-cat-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6688,6 +6634,24 @@
       "id": "cfa39130ed10d864",
       "name": "Sanrio Play With Kittens Vinyl Face Plush Keychain Blind Box",
       "source": "https://kouhightoys.com/products/sanrio-play-with-kittens-vinyl-face-plush-keychain-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "5d0642ff9022372e",
+      "name": "DaoDao Girls Album Series Beans Blind Bag【MMS】",
+      "source": "https://toybeta.com/products/daodao-girls-album-series-beans-blind-bag-mms",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "f48da9a2fe544ec9",
+      "name": "MEGA SPACE MOLLY Jon Burgerman Series Vinyl Plush Pendant Blind Box",
+      "source": "https://toybeta.com/products/mega-space-molly-jon-burgerman-series-vinyl-plush-pendant-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "fbb426816e5fb94b",
+      "name": "MayMei X Tokidoki Series Plush Doll Blind Box【TOP TOY】",
+      "source": "https://toybeta.com/products/maymei-x-tokidoki-series-plush-doll-blind-box-top-toy",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -9793,12 +9757,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "b421b4241a71df91",
-      "name": "Liiz Reverie Immerse Series Beans Blind Bag",
-      "source": "https://toybeta.com/products/liiz-reverie-immerse-series-beans-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "33ba486c7a028d00",
       "name": "AMLLS Cute Pony Series Beans Blind Bag",
       "source": "https://toybeta.com/products/amlls-cute-pony-series-beans-blind-bag",
@@ -12566,27 +12524,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4671,
-  "after_products": 4642,
+  "before_products": 4675,
+  "after_products": 4646,
   "stats": {
-    "products": 4640,
+    "products": 4644,
     "brands": 802,
     "squishy": 504,
-    "with_images": 4640,
+    "with_images": 4644,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4631,
+    "with_source_prices": 4635,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2612,
-    "with_dimensions": 1793,
-    "with_variant_options": 4309,
-    "source_linked_images": 4316,
+    "with_specifications": 2613,
+    "with_dimensions": 1794,
+    "with_variant_options": 4313,
+    "source_linked_images": 4320,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 7,
-    "with_shop_descriptions": 3842
+    "with_shop_descriptions": 3857
   },
   "checklist": [
     {
