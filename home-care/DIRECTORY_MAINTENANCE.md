@@ -18,6 +18,8 @@ Keep every stable ID, exact offer, retained observation, source, original curren
 
 ## Tutorial and verification
 
+Homecare tutorial narration must be short and navigation-only: where to click, search, filter, open details, compare, export and switch views. No research explanations, evidence caveats or commentary about removed features.
+
 Each website has its OWN updated tutorial. Homecare: videos/homecare-guide.mp4. Toys: tutorial/China_Toy_Atlas_Tutorial.mp4. Luggage: tutorial/luggage-guide.mp4. Keep each guide aligned with its site's controls and original visual identity. Do not restore the common tutorial or regenerate for routine data updates.
 
 Run the publish staging steps, directory.test.cjs, relevant data tests and release catalog validation. Check desktop/mobile search, filtering, source details, selections, comparison, CSV, daily news and video. Homecare requires working Target inspiration navigation and no duplicate White-label recommendations tab. Publish to the existing GitHub Pages workflow and follow through successful deployment/public-byte verification.

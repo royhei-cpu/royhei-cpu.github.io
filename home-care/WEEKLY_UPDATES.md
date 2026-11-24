@@ -257,3 +257,7 @@ The three-row selected-only CSV was inspected for exact row count, retailer mapp
 ## 24 November 2026 — tutorial aligned with current navigation
 
 Replaced the Homecare guide at the existing play/download path with a 100-second narrated walkthrough using actual live Homecare screenshots. Covers Products search, comparison and selected CSV, the dedicated News & updates view, and Insights → Target inspiration. Explicitly explains removal of the duplicate White-label recommendations tab and Brands & factories. Updated timed captions, transcript, poster and chapter metadata; versioned media links prevent old cached narration. This is a tutorial/UI update only: no catalog records, prices, source-check dates or research review dates changed. Navigation regression tests pass; video decodes with H.264 picture and AAC narration.
+
+## 24 November 2026 — navigation-only tutorial correction
+
+Shortened the narrated guide to direct click instructions for Products, search/filter/details, selection/comparison/CSV, News & updates, Target inspiration and Home. Removed research explanations and commentary about retired tabs. Same tutorial and download paths, with refreshed captions/transcript/poster. Catalog records and research dates unchanged.
