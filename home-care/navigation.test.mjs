@@ -8,23 +8,23 @@ import {navigationHeader,homeStart} from './navigation-build.mjs';
 test('first visits start at Home while old catalog, country and workshop links retain their meaning',()=>{
  assert.equal(readView('',''),'home');assert.equal(readView('?v=old-link',''),'home');
  assert.equal(readView('?v=20261027-fast','#category-directory'),'catalog');
- for(const view of ['home','catalog','global','analysis','target','compare','opportunities','workshop'])assert.equal(readView('?view='+view),view);
+ for(const view of ['home','catalog','global','analysis','target','compare','opportunities'])assert.equal(readView('?view='+view),view);
+ assert.equal(readView('?view=workshop'),'opportunities');
  assert.equal(readView('?view=retailers'),'global');assert.equal(sectionForView('global'),'products');assert.equal(sectionForView('analysis'),'insights');
  assert.equal(viewAddress('home'),'/home-care/');assert.equal(new URL(viewAddress('global','United Kingdom'),'https://example.com').searchParams.get('country'),'United Kingdom');
  assert.equal(stepFromHash('#wl-real-products'),'references');assert.equal(stepFromHash('#wl-development-case'),'changes');assert.equal(stepFromHash('#wl-proposed-design'),'design');
 });
 
-test('five shared sections provide every existing tool, with Opportunities last and help separate',()=>{
- assert.deepEqual(mainSections,['home','products','workshop','insights','opportunities']);
+test('three shared sections retain Target inspiration and help without retired duplicate tools',()=>{
+ assert.deepEqual(mainSections,['home','products','insights']);
  const html=navigationHeader();assert.deepEqual([...html.matchAll(/data-section="([^"]+)"/g)].map(m=>m[1]),mainSections);
- for(const view of ['catalog','global','compare','analysis','target','opportunities'])assert.ok(html.includes('data-homecare-view="'+view+'"'));
- for(const page of ['brand-factories.html','workshop/laundry-sorter.html?v=20261104-navigation#wl-real-products','help.html'])assert.ok(html.includes(page));
- assert.ok(html.indexOf('data-section="opportunities"')<html.indexOf('</nav>'));
+ for(const view of ['catalog','global','compare','analysis','target'])assert.ok(html.includes('data-homecare-view="'+view+'"'));
+ assert.ok(html.includes('help.html'));assert.doesNotMatch(html,/brand-factories\.html|Brands &amp; factories|data-section="(?:workshop|opportunities)"/);
  assert.ok(homeStart().includes('Start browsing products'));assert.ok(homeStart().includes('See China listings'));
  const site=new URL('./site/',import.meta.url);
- for(const page of ['help.html','tutorial.html','workshop/laundry-sorter.html','workshop/pantry-canisters.html']){
+ for(const page of ['help.html','tutorial.html']){
   const source=fs.readFileSync(new URL(page,site),'utf8');assert.equal((source.match(/aria-label="Main navigation"/g)||[]).length,1,page);
-  assert.ok(source.includes('navigation.css'));assert.ok(source.includes('Help &amp; guide'));
+  assert.ok(source.includes('navigation.css'));assert.ok(source.includes('Help &amp; guide'));assert.doesNotMatch(source,/brand-factories\.html/);
  }
 });
 
@@ -37,7 +37,7 @@ test('the actual shared-menu handlers close other menus, support Escape and send
  const win={HCHomecareUpgradeController:{navigate(view,options){navigation={view,options};}},location:{}};
  mountNavigation(doc,win);menus[0].open=true;menus[1].open=true;menus[1].handlers.toggle();assert.equal(menus[0].open,false);
  listeners.keydown({key:'Escape'});assert.equal(menus[1].open,false);assert.equal(focused,true);
- const link={dataset:{homecareView:'global',homecareCountry:'China'}};let prevented=false;
+ const link={dataset:{homecareView:'global',homecareCountry:'China'},hasAttribute(){return false;}};let prevented=false;
  listeners.click({target:{closest(){return link;}},button:0,preventDefault(){prevented=true;}});
  assert.equal(prevented,true);assert.equal(navigation.view,'global');assert.equal(navigation.options.country,'China');assert.equal(navigation.options.history,'push');
  menus[0].open=true;listeners.click({target});assert.equal(menus[0].open,false);

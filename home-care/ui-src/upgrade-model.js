@@ -1,5 +1,5 @@
 import {countriesFor,filterGlobalProducts,buildRetailListings} from './global-logic.js';
-export const primaryNavigation=['nav-catalog','nav-global','nav-analysis','nav-workshop','brand-factories','video-guide','nav-target','nav-opportunities'];
+export const primaryNavigation=['nav-catalog','nav-global','nav-analysis','nav-workshop','video-guide','nav-target','nav-opportunities'];
 export function referenceImage(value){
  if(!value)return '/home-care/global-photo-pending.svg';
  if(/^https?:\/\//.test(value)||value.startsWith('/home-care/'))return value;

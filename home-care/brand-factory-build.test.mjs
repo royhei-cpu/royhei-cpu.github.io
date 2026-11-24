@@ -3,7 +3,6 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import vm from 'node:vm';
 import {addBrandFactories} from './brand-factory-build.mjs';
 
 test('factory provenance stays distinct from ownership, missing brands and similar brand names', () => {
@@ -36,23 +35,12 @@ test('factory provenance stays distinct from ownership, missing brands and simil
     assert.equal(items[6].manufacturerName,'Not publicly verified');
     assert.equal(items[6].factoryName,'Not publicly verified');
     const html=fs.readFileSync(path.join(dir,'brand-factories.html'),'utf8');
-    assert.ok(html.includes('=1+1&lt;script&gt;'));
-    assert.ok(!html.includes('=1+1<script>'));
+    assert.match(html,/http-equiv="refresh" content="0;url=\/home-care\/\?view=catalog"/);
+    assert.doesNotMatch(html,/factory-search|Brand and factory directory|<table/);
     assert.ok(fs.readFileSync(path.join(dir,'brand-factory-directory.csv'),'utf8').includes('"\'=1+1<script>"'));
     const directory=JSON.parse(fs.readFileSync(path.join(dir,'brand-factory-directory.json')));
     assert.equal(directory.rows.reduce((n,r)=>n+r.productRecords,0),items.length);
     assert.equal(directory.stats.exactSKUFactoriesVerified,0);
-    // Execute the generated directory's actual search/status handler.
-    const rows=directory.rows.map(r=>({textContent:Object.values(r).join(' '),dataset:{status:r.factoryVerificationStatus},hidden:false}));
-    const search={value:'Arcola',addEventListener(){}};
-    const status={value:'all',addEventListener(){}};
-    const count={textContent:''};
-    const context=vm.createContext({document:{querySelectorAll:()=>rows,getElementById:id=>({'factory-search':search,'factory-status':status,'factory-count':count}[id])}});
-    vm.runInContext(html.match(/<script>([\s\S]*?)<\/script>/)[1]+';filterFactories();',context);
-    assert.equal(rows.filter(r=>!r.hidden).length,1);
-    search.value='';status.value='Factory research pending';vm.runInContext('filterFactories()',context);
-    assert.equal(rows.filter(r=>!r.hidden).length,2);
-    assert.equal(count.textContent,'2 rows');
   } finally {fs.rmSync(dir,{recursive:true,force:true})}
 });
 

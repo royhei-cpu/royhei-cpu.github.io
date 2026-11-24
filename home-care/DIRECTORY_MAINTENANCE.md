@@ -4,6 +4,8 @@ The user's latest correction overrides the November 12 shared-template redesign.
 
 Keep search, product details, saved selections, comparison, CSV/photo exports and sourced daily news. 24 November correction: remove the duplicate White-label recommendations navigation tab and retain Target inspiration. Preserve underlying recommendation evidence and competitor reference products; do not recreate the removed tab during daily maintenance. Do not restore planograms, virtual aisles, Blender/3D prototyping, BOM or design workshop controls. Retired workshop links redirect into the relevant site. Research photographs remain available.
 
+The November 24 cleanup removes repeated headings, platform controls and evidence summaries from the retained white-label view. The Brands & factories directory is retired; its old URL redirects to the product catalog. Preserve company evidence in product records and exports.
+
 ## Build
 
 `publish.yml` builds Homecare's original UI via `npm ci --prefix home-care/ui-src`, `npm run build --prefix home-care/ui-src`, then optimizes the STAGED `_site/home-care/index.html`. Never optimize the canonical source index in place. China Toy Atlas retains its app, simple-navigation, original styles, character photos and comparison. Luggage Atlas retains its travel artwork, original app, feature finder, product gallery and comparison.

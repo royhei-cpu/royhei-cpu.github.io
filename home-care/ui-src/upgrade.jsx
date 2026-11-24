@@ -68,7 +68,6 @@ export function mount(context){
  for(const [id,label,view] of [['nav-global','Global retailers & items','global']]){
   let b=document.getElementById(id);if(!b){b=document.createElement('button');b.type='button';b.id=id;opportunities.before(b);}b.textContent=label;b.setAttribute('aria-pressed','false');b.onclick=()=>navigate(view,{history:'push',scroll:true});
  }
- const factory=[...nav.querySelectorAll('a')].find(a=>a.href.includes('brand-factories'));if(factory)factory.dataset.navigationId='brand-factories';
  const video=[...nav.querySelectorAll('a')].find(a=>a.href.includes('tutorial'));if(video)video.dataset.navigationId='video-guide';reorderNavigation(nav);
  document.addEventListener('click',event=>{
   const n=event.target.closest?.('.view-nav button');
