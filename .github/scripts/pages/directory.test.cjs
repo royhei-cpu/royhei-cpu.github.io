@@ -30,7 +30,10 @@ test('Each site retains its own original interface and excludes development tool
  const home=fs.readFileSync('_site/home-care/index.html','utf8'),toy=fs.readFileSync('_site/china-toys/index.html','utf8'),luggage=fs.readFileSync('_site/luggage-atlas/index.html','utf8');
  assert(home.includes('hc-site-brand')&&home.includes('White-label recommendations'));
  assert(toy.includes('simple-navigation.js')&&toy.includes('styles.css'));
- assert(luggage.includes('hero-art')&&luggage.includes('hero.css')&&luggage.includes('THE GLOBAL TRAVEL GOODS EDIT'));
+ assert(luggage.includes('simple-welcome')&&luggage.includes('Start browsing products')&&luggage.includes('Luggage Atlas'));
+ assert(luggage.includes('data-nav-group="products"')&&luggage.includes('data-nav-group="insights"'));
+ assert(luggage.includes('simple-navigation.js')&&luggage.includes('app.js'));
+ assert(fs.readFileSync('_site/luggage-atlas/app.js','utf8').includes('Explore. Compare. Understand.'));
  for(const html of [home,toy,luggage])assert(!/<script[^>]+(?:planogram|retail-studio|studio-viewer|three\.module)/i.test(html));
  assert(!toy.includes('planogram.js'));assert(!luggage.includes('href="studio.html"'));
  assert(!home.includes('data-section="workshop"'));
