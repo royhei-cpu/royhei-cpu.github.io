@@ -1,3 +1,5 @@
+import {addTargetExclusions} from './target-exclusion-build.mjs';
+import {createTargetFilter} from './target-exclusion-model.mjs';
 import fs from 'node:fs';
 import {addReadableExport} from './readable-export-build.mjs';
 import path from 'node:path';
@@ -73,7 +75,8 @@ html=html.replace(".toLocaleString()+' '+(rows.length===1?'item':'items')", ".to
 const original=html.match(/<template id="original-cards">([\s\S]*?)<\/template>/)[1];
 const images=new Map([...original.matchAll(/<article[^>]*data-id="([^"]+)"[^>]*>[\s\S]*?<img[^>]*src="([^"]+)"/g)].map(m=>[m[1],m[2]]));
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const first=items.filter(d=>d.merchantScope==='Home Care').sort((a,b)=>(b.retailerListedDate||'').localeCompare(a.retailerListedDate||'')||(a.brand||'\uffff').localeCompare(b.brand||'\uffff')||a.name.localeCompare(b.name)).slice(0,48);
+const targetFilter=createTargetFilter(JSON.parse(fs.readFileSync(path.join(path.dirname(file),'target-assortment-exclusions.json'),'utf8')));
+const first=items.filter(d=>targetFilter.isEligible(d)&&d.merchantScope==='Home Care').sort((a,b)=>(b.retailerListedDate||'').localeCompare(a.retailerListedDate||'')||(a.brand||'\uffff').localeCompare(b.brand||'\uffff')||a.name.localeCompare(b.name)).slice(0,48);
 const cards=first.map(d=>'<article class="card" data-id="'+escape(d.id)+'" data-retailer="'+escape(d.retailer)+'"><div class="photo"><img loading="lazy" decoding="async" src="'+escape(images.get(d.id)||d.image)+'" alt="'+escape(d.name)+'"></div><div class="body"><div class="card-meta">'+escape(d.retailer)+(d.brand?' · '+escape(d.brand):'')+'</div><h3>'+escape(d.name)+'</h3><p class="card-category">'+escape(d.categoryLabel)+'</p><div class="card-facts">'+(d.displayPrice?'<div class="price">'+escape(d.displayPrice)+'</div>':'')+(d.hasSales?'<div class="sales-count">'+escape(d.displaySales)+'</div>':'')+'</div><div class="actions"><a class="view" href="'+escape(d.url)+'" target="_blank" rel="noopener noreferrer">View item</a><button type="button" disabled>Select</button><button type="button" disabled>Details</button></div></div></article>').join('');
 const loading='<p id="catalog-loading" role="status" style="padding:12px 16px;background:#fff7e6;border-radius:10px">Loading filters for all products… You can browse the products below while they load.</p><noscript><p>Enable JavaScript to filter all products and export selections.</p></noscript>';
 html=html.replace('<div class="grid" id="product-grid"></div>',loading+'<div class="grid" id="product-grid">'+cards+'</div>');
@@ -124,6 +127,7 @@ html=addHomecareUpgrade(html,path.dirname(file));
 html=addReadableExport(html);
 const exportVersion=crypto.createHash('sha256').update(fs.readFileSync(path.join(path.dirname(file),'readable-export.js'))).digest('hex').slice(0,12);
 html=html.replace('</head>','<script defer src="/home-care/readable-export.js?v='+exportVersion+'"></script></head>');
+html=addTargetExclusions(html,path.dirname(file));
 fs.writeFileSync(file,html);
 console.log(JSON.stringify({factoryStats}));
 console.log(JSON.stringify({records:items.length,initialCards:first.length,bytes:Buffer.byteLength(html),originalDataBytes:end-start,packedDataBytes:Buffer.byteLength(expression),lossless:true}));

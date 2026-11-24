@@ -25,3 +25,7 @@ Homecare tutorial narration must be short and navigation-only: where to click, s
 Each website has its OWN updated tutorial. Homecare: videos/homecare-guide.mp4. Toys: tutorial/China_Toy_Atlas_Tutorial.mp4. Luggage: tutorial/luggage-guide.mp4. Keep each guide aligned with its site's controls and original visual identity. Do not restore the common tutorial or regenerate for routine data updates.
 
 Run the publish staging steps, directory.test.cjs, relevant data tests and release catalog validation. Check desktop/mobile search, filtering, source details, selections, comparison, CSV, daily news and video. Homecare requires working Target inspiration navigation and no duplicate White-label recommendations tab. Publish to the existing GitHub Pages workflow and follow through successful deployment/public-byte verification.
+
+## Target assortment exclusions — 24 November 2026
+
+Hide brands/items verified as carried by Target from product discovery, Target inspiration reference products, saved comparison and exports. Maintain source-linked rules and aliases in site/target-assortment-exclusions.json; check this file on every research pass. Keep all canonical observations/photos unchanged; the build filters the visible ITEMS and byId only. Never claim remaining brands are absent from Target: assortment checking is partial. Exact item exclusions may be added using stable IDs or exact URLs. Do not restore excluded brands through international references or stored selections.

@@ -1,0 +1,426 @@
+{
+  "checkedAt": "2026-11-24",
+  "policy": "Hide every competitor listing for a verified Target-carried brand, including variants. Preserve canonical records. Exact item exclusions may be added separately.",
+  "coverage": "Partial Target assortment check. Remaining brands are not verified absent from Target. Category pagination was not exhausted; no complete Target inventory claim.",
+  "brands": [
+    {
+      "brand": "Mrs. Meyer's Clean Day",
+      "aliases": [
+        "Mrs. Meyer's",
+        "Mrs Meyers",
+        "Mrs Meyers Clean Day",
+        "Mrs. Meyers Clean Day"
+      ],
+      "sourceUrl": "https://www.target.com/b/mrs-meyer-s-clean-day/-/N-u31zo",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Tide",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Downy",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Clorox",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Lysol",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Scrubbing Bubbles",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Comet",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Seventh Generation",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Cascade",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Branch Basics",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Blueland",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Dapple",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Dawn",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Bounty",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Charmin",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Kleenex",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Hefty",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Shout",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/household-essentials/-/N-5xsz1",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Scotch-Brite",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/cleaning-supplies-household-essentials/-/N-5xsyy",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Scrub Daddy",
+      "aliases": [
+        "Scrub Mommy",
+        "Eraser Daddy"
+      ],
+      "sourceUrl": "https://www.target.com/c/cleaning-supplies-household-essentials/-/N-5xsyy",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Sprayway",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/cleaning-supplies-household-essentials/-/N-5xsyy",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Bar Keepers Friend",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/cleaning-supplies-household-essentials/-/N-5xsyy",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "All",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/laundry-care-household-essentials/-/N-5xsyr",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Arm & Hammer",
+      "aliases": [
+        "Arm and Hammer"
+      ],
+      "sourceUrl": "https://www.target.com/c/laundry-care-household-essentials/-/N-5xsyr",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Gain",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/laundry-care-household-essentials/-/N-5xsyr",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Persil",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/laundry-care-household-essentials/-/N-5xsyr",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Purex",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/laundry-care-household-essentials/-/N-5xsyr",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Dreft",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/laundry-care-household-essentials/-/N-5xsyr",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Bounce",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/laundry-care-household-essentials/-/N-5xsyr",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Molly's Suds",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/laundry-care-household-essentials/-/N-5xsyr",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Zum",
+      "aliases": [
+        "Indigo Wild Zum"
+      ],
+      "sourceUrl": "https://www.target.com/c/laundry-care-household-essentials/-/N-5xsyr",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Swiffer",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/cleaning-tools-supplies-household-essentials/wood-surfaces/-/N-5xsyvZ57994",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "O-Cedar",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/cleaning-tools-supplies-household-essentials/wood-surfaces/-/N-5xsyvZ57994",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Libman",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/cleaning-tools-supplies-household-essentials/wood-surfaces/-/N-5xsyvZ57994",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Bona",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/cleaning-tools-supplies-household-essentials/wood-surfaces/-/N-5xsyvZ57994",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "up&up",
+      "aliases": [
+        "up & up"
+      ],
+      "sourceUrl": "https://www.target.com/c/cleaning-tools-supplies-household-essentials/wood-surfaces/-/N-5xsyvZ57994",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Febreze",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/air-fresheners-sanitizers-household-essentials/air-fresheners/-/N-f3798Zraukc",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Air Wick",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/air-fresheners-sanitizers-household-essentials/air-fresheners/-/N-f3798Zraukc",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Glade",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/air-fresheners-sanitizers-household-essentials/air-fresheners/-/N-f3798Zraukc",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "DampRid",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/air-fresheners-sanitizers-household-essentials/air-fresheners/-/N-f3798Zraukc",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Poo-Pourri",
+      "aliases": [
+        "Poo Pourri"
+      ],
+      "sourceUrl": "https://www.target.com/c/air-fresheners-sanitizers-household-essentials/air-fresheners/-/N-f3798Zraukc",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Hearth & Hand with Magnolia",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/air-fresheners-sanitizers-household-essentials/air-fresheners/-/N-f3798Zraukc",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Glad",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/food-storage-bags-wraps-household-essentials/-/N-5xsym",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Ziploc",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/food-storage-bags-wraps-household-essentials/-/N-5xsym",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Reynolds",
+      "aliases": [
+        "Reynolds Wrap",
+        "Reynolds Kitchens"
+      ],
+      "sourceUrl": "https://www.target.com/c/food-storage-bags-wraps-household-essentials/-/N-5xsym",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Mr. Clean",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/s/cleaning%2Bliquid",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Fabuloso",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/s/cleaning%2Bliquid",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Pine-Sol",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/s/cleaning%2Bliquid",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Windex",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/s/cleaning%2Bliquid",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Method",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/s/home%2Bcleaning",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Raid",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/pesticides-insect-pest-control-gardening-lawn-care-patio-garden/shipping/-/N-r7q2g",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Terro",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/pesticides-insect-pest-control-gardening-lawn-care-patio-garden/shipping/-/N-r7q2g",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Shark",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/vacuums-floor-care-home-appliances/cordless/-/N-5xtui",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Bissell",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/vacuums-floor-care-home-appliances/cordless/-/N-5xtui",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Dyson",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/vacuums-floor-care-home-appliances/cordless/-/N-5xtui",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Tineco",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/vacuums-floor-care-home-appliances/cordless/-/N-5xtui",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    },
+    {
+      "brand": "Vacmaster",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/c/vacuums-floor-care-home-appliances/cordless/-/N-5xtui",
+      "checkedAt": "2026-11-24",
+      "evidence": "Target public page displays branded product listings; brand-level exclusion does not assert identical packs or local stock."
+    }
+  ],
+  "items": []
+}

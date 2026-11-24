@@ -273,3 +273,7 @@ Removed the Merchant review block from product Details at build time. Retained a
 ## 24 November 2026 — embed selected product photos in Excel
 
 Formatted Excel now embeds each available selected item's catalog photo in the first column, sized proportionally with taller rows. Product/photo/source links and the separate Full evidence sheet remain. Missing, timed-out or cross-origin-blocked photos are labeled without dropping selected products, and the download reports how many were embedded. CSV remains link-only. No catalog or research-date changes. Workbook image round-trip and failure/row association tests pass.
+
+## 24 November 2026 — exclude Target-carried brands from discovery
+
+Added 57 dated, source-linked brand exclusion rules, including Mrs. Meyer's Clean Day aliases. The published directory filters native and international product discovery, recommendation reference products, shared comparison and selected-only CSV/Excel exports; saved excluded IDs no longer populate these views. All 10,269 canonical observations, photos, original dates and evidence are retained unchanged. Exact item ID/URL exclusions are supported for future audits. Target assortment review is partial, with pagination not exhausted; remaining products are not asserted absent from Target. No general research review date was advanced. Policy/alias/selection regression, navigation and Excel-photo tests pass.
