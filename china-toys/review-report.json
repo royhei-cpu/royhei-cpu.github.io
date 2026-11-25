@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-25",
-      "raw_products_read": 950,
+      "raw_products_read": 952,
       "currency": "USD"
     },
     {
@@ -26,7 +26,7 @@
       "url": "https://hi52toys.com",
       "status": "complete",
       "checked": "2026-11-25",
-      "raw_products_read": 212,
+      "raw_products_read": 214,
       "currency": "USD"
     },
     {
@@ -80,7 +80,7 @@
       "url": "https://toybeta.com",
       "status": "complete",
       "checked": "2026-11-25",
-      "raw_products_read": 1274,
+      "raw_products_read": 1266,
       "currency": "USD"
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://didapop.com",
       "status": "complete",
       "checked": "2026-11-25",
-      "raw_products_read": 1850,
+      "raw_products_read": 1852,
       "currency": "USD"
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://jotoys.store",
       "status": "complete",
       "checked": "2026-11-25",
-      "raw_products_read": 57,
+      "raw_products_read": 56,
       "currency": "USD"
     },
     {
@@ -731,6 +731,12 @@
       "type": "brand label"
     },
     {
+      "id": "17bb6fb8ebdaebef",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
       "id": "b15565a19ca45153",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -1157,6 +1163,12 @@
       "type": "brand label"
     },
     {
+      "id": "7d4dfe8d393d2e0b",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
       "id": "7f74f439cd542453",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -1505,12 +1517,6 @@
       "type": "brand label"
     },
     {
-      "id": "597df0b8262edf39",
-      "from": "Lisa Squishy",
-      "to": "Lisa",
-      "type": "brand label"
-    },
-    {
       "id": "392f7641501f94a1",
       "from": "Lisa Squishy",
       "to": "Lisa",
@@ -1541,18 +1547,6 @@
       "type": "brand label"
     },
     {
-      "id": "e67ee9a97a132e38",
-      "from": "Lisa Squishy",
-      "to": "Lisa",
-      "type": "brand label"
-    },
-    {
-      "id": "76c8bb60e66d5727",
-      "from": "Lisa Squishy",
-      "to": "Lisa",
-      "type": "brand label"
-    },
-    {
       "id": "56ddb00df6dd0919",
       "from": "Lisa Squishy",
       "to": "Lisa",
@@ -1572,6 +1566,24 @@
     },
     {
       "id": "4de93e4e373eac7f",
+      "from": "Lisa Squishy",
+      "to": "Lisa",
+      "type": "brand label"
+    },
+    {
+      "id": "e67ee9a97a132e38",
+      "from": "Lisa Squishy",
+      "to": "Lisa",
+      "type": "brand label"
+    },
+    {
+      "id": "76c8bb60e66d5727",
+      "from": "Lisa Squishy",
+      "to": "Lisa",
+      "type": "brand label"
+    },
+    {
+      "id": "597df0b8262edf39",
       "from": "Lisa Squishy",
       "to": "Lisa",
       "type": "brand label"
@@ -2164,6 +2176,12 @@
       "id": "436ac50a7fc6eb47",
       "name": "Momotale The Never-Ending Dream Series 1/8 Action Figure MJD Blind Box",
       "source": "https://www.kikagoods.com/products/momotale-unending-dream-collection-series-1-8-action-figure-mjd-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "a04ed60d49f660c6",
+      "name": "Make a Magic Wish Series Special 1/6 Action Figure MJD Blind Box",
+      "source": "https://www.kikagoods.com/products/make-a-magical-wish-series-special-1-6-action-figure-mjd-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -5437,6 +5455,12 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
+      "id": "b0f7564321db652a",
+      "name": "PAC-MAN Clicky Fidget Collection Blind Box",
+      "source": "https://hi52toys.com/products/pac-man-clicky-fidget-collection-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "578a6619f2250127",
       "name": "MOGOLS Fuzzy Hue Adventure Series Fluffy Plush Storage Bag Blind Box",
       "source": "https://hi52toys.com/products/mogols-fuzzy-hue-adventure-fluffy-plush-storage-bag-blind-box",
@@ -6631,6 +6655,18 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
+      "id": "e044baa0fce769ae",
+      "name": "Zsiga Life Is A Show Series MINI Action Figure Blind Box",
+      "source": "https://toybeta.com/products/zsiga-life-is-a-show-series-mini-action-figure-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "7717f41486ded43c",
+      "name": "【F.UN & TB】ShinWoo-Baby Ghost Bear Visits Sesame Street Series Blind Box",
+      "source": "https://toybeta.com/products/f-un-tb-shinwoo-baby-ghost-bear-visits-sesame-street-series-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "24f53cd1c6796d28",
       "name": "S112. Knock Knock,Lucky Series Plush Charm Blind Box -K22【TOP TOY】",
       "source": "https://toybeta.com/products/s112-knock-knock-lucky-series-plush-blind-box-k22-top-toy",
@@ -6640,12 +6676,6 @@
       "id": "5d0642ff9022372e",
       "name": "DaoDao Girls Album Series Beans Blind Bag【MMS】",
       "source": "https://toybeta.com/products/daodao-girls-album-series-beans-blind-bag-mms",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "f48da9a2fe544ec9",
-      "name": "MEGA SPACE MOLLY Jon Burgerman Series Vinyl Plush Pendant Blind Box",
-      "source": "https://toybeta.com/products/mega-space-molly-jon-burgerman-series-vinyl-plush-pendant-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6679,12 +6709,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "1bc0f12b4976e111",
-      "name": "【COUNT PACK】DORA Gyaruu Frequency Mili Series Beans Blind Bag【TNTSpace】",
-      "source": "https://toybeta.com/products/count-pack-dora-gyaruu-frequency-mili-series-beans-blind-bag-tntspace",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "db0c56884a27c370",
       "name": "Nanci Lamb's Travels Series Plush Blind Box【Rolife】",
       "source": "https://toybeta.com/products/nanci-lambs-travels-series-plush-blind-box-rolife",
@@ -6694,12 +6718,6 @@
       "id": "238f932bc20eeb27",
       "name": "LIIZ-Liiz's Little Wardrobe Series Beans Blind Bag",
       "source": "https://toybeta.com/products/liiz-liizs-little-wardrobe-series-beans-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "1a1a501f9feb5929",
-      "name": "Tangtang-Romantic Melody Pop Series Beans Blind Box",
-      "source": "https://toybeta.com/products/tangtang-romantic-melody-pop-series-beans-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6793,12 +6811,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "d60c29cf8a8aa9a4",
-      "name": "LANCY LULU-The Spirit Of Youth Series Beans Blind Bag",
-      "source": "https://toybeta.com/products/lancy-lulu-the-spirit-of-youth-series-beans-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "2e14514ddeb6373b",
       "name": "Zoraa Go!!! Mini Series Figure Blind Box【TNTSpace】",
       "source": "https://toybeta.com/products/zoraa-go-mini-series-figure-blind-box-tntspace",
@@ -6871,12 +6883,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "0ba899ac9b39208a",
-      "name": "【MAMALOTUS-02】x BUER Little Wish DIY Bean Phone Charm Keychain Blind Bag",
-      "source": "https://toybeta.com/products/mamalotus-02-x-buer-little-wish-diy-bean-phone-charm-keychain-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "9f4307b6b6b9599f",
       "name": "Let's Farm. Octocats! Series Beans Blind Bag",
       "source": "https://toybeta.com/products/octopus-meow-farming-time-series-beans-blind-bag",
@@ -6892,12 +6898,6 @@
       "id": "da28b22550ab83b5",
       "name": "【MAMALOTUS-01】x UUTOY Love Story DIY Bean Phone Charm Keychain Blind Bag",
       "source": "https://toybeta.com/products/uutoy-diy-bean-phone-charm-keychain-blind-bag",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "322f33e767339378",
-      "name": "POLAR - Season 4 <Snow City Residents> Series Figures Blind Box",
-      "source": "https://toybeta.com/products/polar-season-4-snow-city-residents-series-figures-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6991,12 +6991,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "54b461094820a08f",
-      "name": "Rayan ROOM In My Heart Series Figures Blind Box【TNTSpace】",
-      "source": "https://toybeta.com/products/rayan-room-in-my-heart-series-figures-blind-box-tntspace",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "b991c1ae6183f662",
       "name": "Angry Molly [PLAY] D103. Princess Series Plush Pendant Blind Box",
       "source": "https://toybeta.com/products/angry-molly-play-d103-princess-series-plush-pendant-blind-box",
@@ -7036,12 +7030,6 @@
       "id": "aab84aaa5d9d3fd6",
       "name": "DuoDuoMei-DUODUO SPACE Series Mini Blind Box",
       "source": "https://toybeta.com/products/duoduomei-duoduo-space-series-mini-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "89225a3b3611c323",
-      "name": "TuTu Bear-Little Me，Big Dreams Series Beans Blind Bag",
-      "source": "https://toybeta.com/products/tutu-bear-little-me-big-dreams-series-beans-blind-bag",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -7243,12 +7231,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "053e48bc6932f38d",
-      "name": "Nanci Literati Aesthetics Series Figure Blind Box 【Rolife】",
-      "source": "https://toybeta.com/products/nanci-literati-aestheticse-series-figure-blind-box-rolife",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "9eeffe29bd261019",
       "name": "MEICHAI Bathroom V2 Series Beans Blind Bag",
       "source": "https://toybeta.com/products/meichai-bathroom-v2-series-beans-blind-bag",
@@ -7291,12 +7273,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "f5df2ccf5fb6826d",
-      "name": "Nanci Sweet Time Series Blind Box Figures【Rolife】",
-      "source": "https://toybeta.com/products/nanci-sweet-time-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "d117cbd57c64abb5",
       "name": "D109. Winnie Pumpkin Wonder Nights Series Plush Blind Box -K22",
       "source": "https://toybeta.com/products/d109-winnie-pumpkin-wonder-nights-series-plush-blind-box-k22",
@@ -7330,12 +7306,6 @@
       "id": "5d5e4150202d88b6",
       "name": "Nommi-V12 Sitting Zoo Series Plush Blind Box【HiToys】",
       "source": "https://toybeta.com/products/nommi-v12-sitting-zoo-series-plush-blind-box-hitoys-副本",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "fa8b33903c3daa53",
-      "name": "NANCI Poetic Beauty Series Blind Box Figures【Rolife】",
-      "source": "https://toybeta.com/products/nov-13-nanci-poetic-beauty-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12296,7 +12266,7 @@
     },
     {
       "id": "597df0b8262edf39",
-      "name": "Beady Eyes Donut (2 colors) [Lisa Squishy]",
+      "name": "🍩 Beady Eyes Donut (2 colors) [Lisa Squishy]",
       "source": "https://pawmiga.myshopify.com/products/beady-eyes-donut-2-colors-lisa-squishy",
       "reason": "Store supplies an image for the selected price variant"
     },
@@ -12512,27 +12482,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4677,
-  "after_products": 4648,
+  "before_products": 4682,
+  "after_products": 4653,
   "stats": {
-    "products": 4646,
+    "products": 4651,
     "brands": 802,
     "squishy": 504,
-    "with_images": 4646,
+    "with_images": 4651,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4637,
+    "with_source_prices": 4642,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2615,
+    "with_specifications": 2617,
     "with_dimensions": 1796,
-    "with_variant_options": 4315,
-    "source_linked_images": 4322,
+    "with_variant_options": 4320,
+    "source_linked_images": 4327,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 7,
-    "with_shop_descriptions": 3859
+    "with_shop_descriptions": 3862
   },
   "checklist": [
     {
@@ -12540,8 +12510,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 215,
-      "with_details": 135,
+      "records": 216,
+      "with_details": 136,
       "with_china_price": 6,
       "with_release": 21,
       "status": "Partial — more series and China evidence needed"
@@ -12562,7 +12532,7 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 139,
+      "records": 140,
       "with_details": 45,
       "with_china_price": 4,
       "with_release": 4,

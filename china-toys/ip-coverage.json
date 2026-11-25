@@ -4,7 +4,7 @@
   "requested_brands": [
     {
       "brand": "POP MART",
-      "records": 215,
+      "records": 216,
       "status": "Partial assortment"
     },
     {
@@ -14,7 +14,7 @@
     },
     {
       "brand": "52TOYS",
-      "records": 139,
+      "records": 140,
       "status": "Partial assortment"
     },
     {
@@ -89,14 +89,14 @@
         "883f5fcbe14b4ff3",
         "625b17c44749aede",
         "adb320dfa6d1dbe5",
-        "f48da9a2fe544ec9",
         "2f00fa6403f132bc",
         "21135d91b14be2a8",
         "852dfe213f759688",
         "f2026032ea3ac903",
         "41a9fc3da938cb18",
         "a93abb433a638b2f",
-        "67d5ef6c0b4c68a7"
+        "67d5ef6c0b4c68a7",
+        "f48da9a2fe544ec9"
       ],
       "status": "Partial assortment"
     },
@@ -378,14 +378,14 @@
         "883f5fcbe14b4ff3",
         "625b17c44749aede",
         "adb320dfa6d1dbe5",
-        "f48da9a2fe544ec9",
         "2f00fa6403f132bc",
         "21135d91b14be2a8",
         "852dfe213f759688",
         "f2026032ea3ac903",
         "41a9fc3da938cb18",
         "a93abb433a638b2f",
-        "67d5ef6c0b4c68a7"
+        "67d5ef6c0b4c68a7",
+        "f48da9a2fe544ec9"
       ],
       "status": "Partial assortment"
     },
@@ -632,9 +632,10 @@
     {
       "id": "zsiga",
       "name": "Zsiga",
-      "records": 2,
+      "records": 3,
       "product_ids": [
         "6aa6ee14a15eded8",
+        "e044baa0fce769ae",
         "abf0ccc250e834b8"
       ],
       "status": "Partial assortment"
@@ -725,7 +726,7 @@
     {
       "id": "shinwoo",
       "name": "ShinWoo",
-      "records": 22,
+      "records": 23,
       "product_ids": [
         "b3429d04859ed9d9",
         "464d522ee2c08821",
@@ -740,14 +741,15 @@
         "cd8c95c39d857835",
         "d9b82a5bfa901940",
         "c77ed55c1bf81891",
+        "7717f41486ded43c",
         "c07f0ad3be6eb6db",
         "33e08d5d2a8e5b93",
         "b36a20a9dc67d64d",
+        "7d4dfe8d393d2e0b",
         "7272a8d5d01fb454",
         "42f6807225482250",
         "d6e954141cc2141f",
         "eaa16f64d688d466",
-        "7717f41486ded43c",
         "93e9b6e0fb89ee0b"
       ],
       "status": "Partial assortment"
@@ -798,7 +800,7 @@
         "80ea224a24d97820",
         "f1e913cadaeb562f",
         "1cddfe9359f5b67b",
-        "ca020c7121dd1b1e"
+        "e2566afe146baa4c"
       ],
       "status": "Partial assortment"
     },
@@ -850,7 +852,6 @@
         "ca9837c05fd62f44",
         "a6016653d6cf8800",
         "6323a3cd2afd38e8",
-        "1bc0f12b4976e111",
         "d0dc71d568229437",
         "d838e92de8bb477c",
         "27f54bff567b5584",
@@ -870,7 +871,8 @@
         "bbf45eaa62e214d3",
         "90fb8538b42cb383",
         "179a9778097fadf8",
-        "e5e680ec01fb81d5"
+        "e5e680ec01fb81d5",
+        "1bc0f12b4976e111"
       ],
       "status": "Partial assortment"
     },
@@ -881,7 +883,6 @@
       "product_ids": [
         "1259671ff6f207ed",
         "c05e710a1a63c448",
-        "54b461094820a08f",
         "af4de3ae639a3f32",
         "bb08f8960061c416",
         "08f8b296a55f41bd",
@@ -908,7 +909,8 @@
         "556694857d63c7e5",
         "c47812c7e3b7c4cf",
         "beb7b79f3ac77165",
-        "dfe115f3476d711c"
+        "dfe115f3476d711c",
+        "54b461094820a08f"
       ],
       "status": "Partial assortment"
     },
@@ -1001,16 +1003,13 @@
       "product_ids": [
         "4fb673d6eb211db1",
         "5509e82ba3a6f54a",
-        "fa8b33903c3daa53",
         "096e40d2680ca8e2",
         "db0c56884a27c370",
-        "053e48bc6932f38d",
         "f238f3328d3a4ef9",
         "58e955b336367458",
         "168f586e5e99ac40",
         "5c1b96b908b25248",
         "d8b62f9df57b25cf",
-        "f5df2ccf5fb6826d",
         "9d7f97264af17bc9",
         "52c64bc8dd5cafd2",
         "c12d0e06dc71a350",
@@ -1044,7 +1043,10 @@
         "523007cb72416cdd",
         "1a911611c788f90a",
         "b3959522809c2145",
+        "fa8b33903c3daa53",
+        "053e48bc6932f38d",
         "6093615da04195e5",
+        "f5df2ccf5fb6826d",
         "bf9dee12b1515403"
       ],
       "status": "Partial assortment"
@@ -1125,7 +1127,6 @@
         "fe85fbe5ec4ae137",
         "2992100c61ce7eda",
         "8388c804d5cdf932",
-        "d60c29cf8a8aa9a4",
         "314b556faf95c10a",
         "095f0bed1e414a9b",
         "68c457cf359b503e",
@@ -1184,6 +1185,7 @@
         "56afbcdc65d4ce18",
         "682ad322c8d33289",
         "85955174e40add61",
+        "d60c29cf8a8aa9a4",
         "ba12dd8ecb11cadf",
         "f4d457a675a31a47",
         "5408dd76b1344f5f"
@@ -1753,10 +1755,10 @@
       "records": 5,
       "product_ids": [
         "05646670b7603b37",
-        "322f33e767339378",
         "53f22ada41bcea0b",
         "9a6490f52a489974",
-        "58380cd89b3b3e3e"
+        "58380cd89b3b3e3e",
+        "322f33e767339378"
       ],
       "status": "Partial assortment"
     },
