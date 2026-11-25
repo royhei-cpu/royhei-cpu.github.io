@@ -1,0 +1,11 @@
+Check date,Scope,Name,Tracked source,HTTP status,Method,Status
+2026-11-25,Official collection,FPM Mastic Chalk,https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew,200,Direct HTML and web retrieval,"Five advertised Japan prices and dimensions; four capacity conflicts; stock and SKU not verified"
+2026-11-25,Announcement,FPM collaboration second collection,https://prtimes.jp/main/html/rd/p/000004569.000018505.html,,Web retrieval,"Dated 18 November; stated Japan release 25 November; price and capacity evidence retained separately"
+2026-11-25,Retailer event,Nihombashi Mitsukoshi FPM store,https://www.mistore.jp/store/nihombashi/shops/women_fashiongoods/bags/shopnews_list/shopnews065.html,,Web retrieval,"Retailer states collaboration appears 25 November; branch stock and full assortment not audited"
+2026-11-25,Retailer event,FPM Hankyu Umeda event,https://fpmjapan.com/Page/news/detail/261118.aspx,,Web retrieval,"Official 18 November notice schedules event 25 November–1 December and collection introduction"
+2026-11-25,Exact page,FPM Spinner 55M,https://fpmjapan.com/Form/Product/ProductDetail.aspx?pid=FPM263LBAGT1&shop=0,403,Direct HTML and web retrieval,"Blocked; no exact SKU or stock inferred; collection-advertised price retained"
+2026-11-25,Exact page,FPM Trunk on Wheels,https://fpmjapan.com/Form/Product/ProductDetail.aspx?pid=FPM263LBAGT4&shop=0,403,Direct HTML and web retrieval,"Blocked; no exact SKU or stock inferred; collection-advertised price retained"
+2026-11-25,Rollout,GT897 Japan,https://prtimes.jp/main/html/rd/p/000000073.000024442.html,,Web retrieval,"18 November online release and planned phased Japan store rollout from 25 November; store stock not verified"
+2026-11-25,Priority unpriced brand,Amazon Basics,https://www.amazon.com/dp/B071VG5N9D,503,Direct HTTP,"Web retrieval also restricted; no exact price added"
+2026-11-25,Priority unpriced model,BINHAO 1996HA,https://www.binhaobags.com/en/PC-Luggage/BINHAO-1996HA-polycarbonate.html,403,Direct HTTP failed; web text retrieved,"Existing manufacturer model text rechecked; no retail price or dimensions published; no duplicate model added"
+2026-11-25,Obsolete source,BINHAO older URL,https://www.binhao.com/en/PC-Luggage/BINHAO-1996HA.html,403,Direct HTTP,"Obsolete URL still fails; use existing binhaobags.com model source"

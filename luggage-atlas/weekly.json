@@ -1,12 +1,27 @@
 {
-  "edition": "2026-11-24",
+  "edition": "2026-11-25",
   "periodStart": "2026-11-13",
-  "periodEnd": "2026-11-24",
+  "periodEnd": "2026-11-25",
   "baseline": false,
   "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
-  "nextScheduled": "2026-11-25",
-  "coverage": "The comprehensive Monday assortment review of 23 November is retained. The 24 November daily check added Travelpro’s dated campaign announcement, two exact offer-detail records and four matched exterior/interior images. Existing 8 November prices and 2 November listing dates remain separate from the 23 November announcement; product launch dates and factories remain unknown. Amazon Basics returned HTTP 503 and the priority BINHAO exact page returned HTTP 404 again. Wider worldwide assortment remains incomplete.",
+  "nextScheduled": "2026-11-26",
+  "coverage": "Monday 23 November remains the comprehensive assortment baseline. The 25 November daily review adds five Japan Mastic Chalk advertised size/price records and two collection-reference photos. Four capacity discrepancies remain explicitly unresolved; exact FPM product pages returned 403. GT897 online release and planned Japan store rollout are separate. Amazon Basics returned 503; BINHAO remains unpriced. Worldwide assortment is partial.",
   "items": [
+    {
+      "id": "fpm-mastic-chalk-japan-2026",
+      "brand": "FPM Milano",
+      "brandId": "fpm-milano",
+      "title": "Mastic Chalk collaboration: Japan release date and five advertised sizes",
+      "date": "2026-11-25",
+      "dateType": "Official stated Japan release date. Announcement 18 November; first Atlas observation and verification 25 November. Listing dates unknown; stock not audited.",
+      "status": "Dated launch",
+      "market": "Japan",
+      "change": "FPM Milano × Globe-Trotter lists five Mastic Chalk sizes from vanity to trunk. Japan advertised prices span JPY 273,900–567,600 tax included. Four capacities conflict between official sources and remain unresolved. Exterior and interior images are collection references, not exact-size matches.",
+      "price": "JPY 273,900 vanity; 459,800 55M; 489,500 68; 520,300 76; 567,600 trunk; tax included",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "theme": "Color & heritage collaboration",
+      "photoId": "fpm-mastic-chalk-collection-exterior"
+    },
     {
       "id": "level8-hegent-black-friday-2026",
       "brand": "LEVEL8",
@@ -43,10 +58,10 @@
       "brandId": "globe-trotter",
       "title": "GT897 launches as Globe-Trotter’s first polycarbonate carry-on",
       "date": "2026-11-18",
-      "dateType": "Official global and Japan pages state 18 November arrival / release; exact US and Japan product pages checked 20 November.",
+      "dateType": "Official online release 18 November; phased Japan store rollout planned from 25 November. Rollout statement rechecked 25 November; store stock not audited.",
       "status": "Dated launch",
       "market": "United States and Japan verified",
-      "change": "Black / Black and Green / Brown are listed at USD 1,395 in the US and JPY 209,000 tax included in Japan. Each exact regional SKU is retained separately. The 55 × 40 × 23 cm case weighs 4 kg, holds 40 L and combines a polycarbonate shell, Vulcanised Fibreboard front panel and calf-leather details.",
+      "change": "Black / Black and Green / Brown are listed at USD 1,395 in the US and JPY 209,000 tax included in Japan. Each exact regional SKU is retained separately. The 55 × 40 × 23 cm case weighs 4 kg, holds 40 L and combines a polycarbonate shell, Vulcanised Fibreboard front panel and calf-leather details. The brand separately schedules phased Japan store sales from 25 November; this is not a second global launch.",
       "price": "USD 1,395; JPY 209,000 tax included",
       "source": "https://us.globe-trotter.com/products/gt897-4-wheels-carry-on-black-black-chrome",
       "theme": "Hybrid heritage construction & flat opening",
@@ -219,6 +234,12 @@
       "label": "Previous daily coverage update",
       "period": "November 13–22",
       "archive": "weekly-2026-11-22.json"
+    },
+    {
+      "date": "2026-11-24",
+      "label": "Previous daily coverage update",
+      "period": "November 13–24",
+      "archive": "weekly-2026-11-24.json"
     }
   ],
   "coverageRefresh": {
@@ -228,11 +249,11 @@
     "note": "DTA / DTA Nova added; existing price and news brand references reconciled."
   },
   "latestBulletin": {
-    "checked": "2026-11-24",
-    "newsDate": "2026-11-23",
-    "title": "Travelpro highlights limited-edition Gloss Red; launch date remains unverified",
-    "text": "Travelpro’s 23 November campaign highlights the limited-edition Gloss Red Platinum Elite Hardside range. Existing exact offers retain their 8 November price observations and 2 November storefront listing dates. Exact exterior/interior views, dimensions and features were checked 24 November. No directly sourced 24 November luggage launch was verified.",
-    "source": "https://www.prnewswire.com/news-releases/travelpro-and-two-time-gold-medalist-ice-dancer-madison-chock-give-the-holiday-season-a-smoother-spin-302948319.html",
-    "records": 2
+    "checked": "2026-11-25",
+    "newsDate": "2026-11-25",
+    "title": "Mastic Chalk Japan release: five prices, explicit evidence gaps",
+    "text": "Official sources state a 25 November Japan release. Five collection-advertised prices and dimensions are retained; four capacity conflicts and exact-size photo gaps are flagged. GT897’s separate Japan store rollout is recorded without inferring stock.",
+    "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+    "records": 5
   }
 }

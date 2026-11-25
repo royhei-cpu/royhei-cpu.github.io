@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-24",
+  "checked": "2026-11-25",
   "baselineBrands": 98,
   "addedBrands": 79,
   "totalBrands": 178,
-  "totalPricedOffers": 2082,
-  "totalPhotoReferences": 578,
+  "totalPricedOffers": 2087,
+  "totalPhotoReferences": 580,
   "newBrandIds": [
     "dta-nova",
     "briefing",
@@ -386,14 +386,14 @@
       "brandId": "binhao",
       "brand": "BINHAO / 賓豪",
       "source": "https://www.binhaobags.com/en/PC-Luggage/BINHAO-1996HA-polycarbonate.html",
-      "checked": "2026-11-20",
+      "checked": "2026-11-25",
       "pricedOffers": 0,
       "photoReferences": 4,
       "interiorReferences": 1,
       "factoryVerified": false,
       "launchDateVerified": false,
       "assortmentComplete": false,
-      "status": "Models 2333 and 1996HA verified as manufacturer references. Retail price remains unavailable."
+      "status": "Existing 1996HA manufacturer text rechecked via web retrieval; direct request blocked. Still no retail price, dimensions or launch date."
     },
     {
       "brandId": "boss",
@@ -856,14 +856,14 @@
       "brandId": "fpm-milano",
       "brand": "FPM Milano",
       "source": "https://us.fpm.it/",
-      "checked": "2026-11-04",
-      "pricedOffers": 34,
-      "photoReferences": 6,
-      "interiorReferences": 0,
+      "checked": "2026-11-25",
+      "pricedOffers": 39,
+      "photoReferences": 8,
+      "interiorReferences": 1,
       "factoryVerified": false,
       "launchDateVerified": false,
       "assortmentComplete": false,
-      "status": "Source-backed brand profile; assortment partial"
+      "status": "Five Japan Mastic Chalk size/price observations added from official collection; exact product pages blocked; four capacity conflicts unresolved. Photos are collection references; assortment partial."
     },
     {
       "brandId": "frequenter",

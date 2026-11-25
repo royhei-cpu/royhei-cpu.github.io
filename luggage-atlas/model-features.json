@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-24",
+  "checked": "2026-11-25",
   "fields": [
     {
       "id": "opening",
@@ -13863,7 +13863,7 @@
       "brand": "BINHAO / 賓豪",
       "model": "1996HA",
       "source": "https://www.binhaobags.com/en/PC-Luggage/BINHAO-1996HA-polycarbonate.html",
-      "checked": "2026-11-20",
+      "checked": "2026-11-25",
       "scope": "Manufacturer exact named-model page. Retail price, dimensions, size, color designation, production revision and launch date are unverified.",
       "features": {
         "material": {
@@ -13901,7 +13901,8 @@
       "photoSource": "https://www.binhaobags.com/en/PC-Luggage/BINHAO-1996HA-polycarbonate.html",
       "photoScope": "Manufacturer exact named-model exterior; size, color designation and revision unspecified.",
       "photoCaption": "BINHAO 1996HA",
-      "opportunity": "Verify dimensions, available sizes, regional retail operator and a retail price before exact-offer benchmarking."
+      "opportunity": "Verify dimensions, available sizes, regional retail operator and a retail price before exact-offer benchmarking.",
+      "recheckNote": "Named-model text retrieved through web search on 25 November; direct runtime HTTP retrieval returned 403. Specifications unchanged; retail price, dimensions and launch date remain unverified."
     },
     {
       "id": "offer-cf51a20c",
@@ -14566,6 +14567,196 @@
       "photoCaption": "Exact Gloss Red medium check-in exterior and open interior.",
       "opportunity": "Benchmark the stated organization, mobility and repair-service route against component cost and independently tested durability before product decisions.",
       "featureCount": 10
+    },
+    {
+      "id": "offer-55b340af",
+      "offerId": "offer-55b340af",
+      "brandId": "fpm-milano",
+      "brand": "FPM Milano",
+      "model": "FPM Milano × Globe-Trotter VANITY CASE · Mastic Chalk",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "checked": "2026-11-25",
+      "scope": "Named model and Mastic Chalk edition; price and dimensions from the official collection. No exact SKU, stock or factory verified. Collection-level construction is not copied into model specifications.",
+      "image": "offer-photo-assets/fpm-mastic-chalk-collection-exterior.jpg",
+      "gallery": [
+        "offer-photo-assets/fpm-mastic-chalk-collection-exterior.jpg",
+        "offer-photo-assets/fpm-mastic-chalk-collection-interior.jpg"
+      ],
+      "features": {
+        "dimensions": {
+          "value": "33 × 26 × 22 cm (W × H × D); wheel/handle inclusion not explicitly specified",
+          "basis": "Named size on the official Japan collection page, checked 2026-11-25. Exact transactional product page not verified."
+        },
+        "capacity": {
+          "value": "15 L storefront / 16 L announcement. Conflicting official capacities; unresolved, not a normalized capacity.",
+          "basis": "Named size on the official Japan collection page, checked 2026-11-25. Exact transactional product page not verified. Compared with the 18 November company announcement: https://prtimes.jp/main/html/rd/p/000004569.000018505.html"
+        }
+      },
+      "featureCount": 2,
+      "region": "Europe",
+      "market": "Japan",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Accessory",
+      "price": 273900,
+      "currency": "JPY",
+      "priceDate": "2026-11-25",
+      "photoKind": "collection-reference",
+      "photoSource": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "photoScope": "Official Mastic Chalk collection reference. Size and SKU are not verified; this is not an exact-offer photograph.",
+      "photoCaption": "Mastic Chalk collection exterior and interior; exact size unverified."
+    },
+    {
+      "id": "offer-4374a820",
+      "offerId": "offer-4374a820",
+      "brandId": "fpm-milano",
+      "brand": "FPM Milano",
+      "model": "FPM Milano × Globe-Trotter SPINNER 55M · Mastic Chalk",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "checked": "2026-11-25",
+      "scope": "Named model and Mastic Chalk edition; price and dimensions from the official collection. No exact SKU, stock or factory verified. Collection-level construction is not copied into model specifications.",
+      "image": "offer-photo-assets/fpm-mastic-chalk-collection-exterior.jpg",
+      "gallery": [
+        "offer-photo-assets/fpm-mastic-chalk-collection-exterior.jpg",
+        "offer-photo-assets/fpm-mastic-chalk-collection-interior.jpg"
+      ],
+      "features": {
+        "dimensions": {
+          "value": "40 × 55 × 24.5 cm (W × H × D); wheel/handle inclusion not explicitly specified",
+          "basis": "Named size on the official Japan collection page, checked 2026-11-25. Exact transactional product page not verified."
+        },
+        "capacity": {
+          "value": "37.5 L storefront / 42 L announcement. Conflicting official capacities; unresolved, not a normalized capacity.",
+          "basis": "Named size on the official Japan collection page, checked 2026-11-25. Exact transactional product page not verified. Compared with the 18 November company announcement: https://prtimes.jp/main/html/rd/p/000004569.000018505.html"
+        }
+      },
+      "featureCount": 2,
+      "region": "Europe",
+      "market": "Japan",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 459800,
+      "currency": "JPY",
+      "priceDate": "2026-11-25",
+      "photoKind": "collection-reference",
+      "photoSource": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "photoScope": "Official Mastic Chalk collection reference. Size and SKU are not verified; this is not an exact-offer photograph.",
+      "photoCaption": "Mastic Chalk collection exterior and interior; exact size unverified."
+    },
+    {
+      "id": "offer-423da83b",
+      "offerId": "offer-423da83b",
+      "brandId": "fpm-milano",
+      "brand": "FPM Milano",
+      "model": "FPM Milano × Globe-Trotter SPINNER 68 · Mastic Chalk",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "checked": "2026-11-25",
+      "scope": "Named model and Mastic Chalk edition; price and dimensions from the official collection. No exact SKU, stock or factory verified. Collection-level construction is not copied into model specifications.",
+      "image": "offer-photo-assets/fpm-mastic-chalk-collection-exterior.jpg",
+      "gallery": [
+        "offer-photo-assets/fpm-mastic-chalk-collection-exterior.jpg",
+        "offer-photo-assets/fpm-mastic-chalk-collection-interior.jpg"
+      ],
+      "features": {
+        "dimensions": {
+          "value": "45 × 68 × 27.5 cm (W × H × D); wheel/handle inclusion not explicitly specified",
+          "basis": "Named size on the official Japan collection page, checked 2026-11-25. Exact transactional product page not verified."
+        },
+        "capacity": {
+          "value": "70 L in both official sources.",
+          "basis": "Named size on the official Japan collection page, checked 2026-11-25. Exact transactional product page not verified. Compared with the 18 November company announcement: https://prtimes.jp/main/html/rd/p/000004569.000018505.html"
+        }
+      },
+      "featureCount": 2,
+      "region": "Europe",
+      "market": "Japan",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Checked",
+      "price": 489500,
+      "currency": "JPY",
+      "priceDate": "2026-11-25",
+      "photoKind": "collection-reference",
+      "photoSource": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "photoScope": "Official Mastic Chalk collection reference. Size and SKU are not verified; this is not an exact-offer photograph.",
+      "photoCaption": "Mastic Chalk collection exterior and interior; exact size unverified."
+    },
+    {
+      "id": "offer-ad3713ae",
+      "offerId": "offer-ad3713ae",
+      "brandId": "fpm-milano",
+      "brand": "FPM Milano",
+      "model": "FPM Milano × Globe-Trotter SPINNER 76 · Mastic Chalk",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "checked": "2026-11-25",
+      "scope": "Named model and Mastic Chalk edition; price and dimensions from the official collection. No exact SKU, stock or factory verified. Collection-level construction is not copied into model specifications.",
+      "image": "offer-photo-assets/fpm-mastic-chalk-collection-exterior.jpg",
+      "gallery": [
+        "offer-photo-assets/fpm-mastic-chalk-collection-exterior.jpg",
+        "offer-photo-assets/fpm-mastic-chalk-collection-interior.jpg"
+      ],
+      "features": {
+        "dimensions": {
+          "value": "49 × 75 × 28.5 cm (W × H × D); wheel/handle inclusion not explicitly specified",
+          "basis": "Named size on the official Japan collection page, checked 2026-11-25. Exact transactional product page not verified."
+        },
+        "capacity": {
+          "value": "90 L storefront / 93 L announcement. Conflicting official capacities; unresolved, not a normalized capacity.",
+          "basis": "Named size on the official Japan collection page, checked 2026-11-25. Exact transactional product page not verified. Compared with the 18 November company announcement: https://prtimes.jp/main/html/rd/p/000004569.000018505.html"
+        }
+      },
+      "featureCount": 2,
+      "region": "Europe",
+      "market": "Japan",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Checked",
+      "price": 520300,
+      "currency": "JPY",
+      "priceDate": "2026-11-25",
+      "photoKind": "collection-reference",
+      "photoSource": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "photoScope": "Official Mastic Chalk collection reference. Size and SKU are not verified; this is not an exact-offer photograph.",
+      "photoCaption": "Mastic Chalk collection exterior and interior; exact size unverified."
+    },
+    {
+      "id": "offer-6a4648ab",
+      "offerId": "offer-6a4648ab",
+      "brandId": "fpm-milano",
+      "brand": "FPM Milano",
+      "model": "FPM Milano × Globe-Trotter TRUNK ON WHEELS · Mastic Chalk",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "checked": "2026-11-25",
+      "scope": "Named model and Mastic Chalk edition; price and dimensions from the official collection. No exact SKU, stock or factory verified. Collection-level construction is not copied into model specifications.",
+      "image": "offer-photo-assets/fpm-mastic-chalk-collection-exterior.jpg",
+      "gallery": [
+        "offer-photo-assets/fpm-mastic-chalk-collection-exterior.jpg",
+        "offer-photo-assets/fpm-mastic-chalk-collection-interior.jpg"
+      ],
+      "features": {
+        "dimensions": {
+          "value": "46 × 75.5 × 36.5 cm (W × H × D); wheel/handle inclusion not explicitly specified",
+          "basis": "Named size on the official Japan collection page, checked 2026-11-25. Exact transactional product page not verified."
+        },
+        "capacity": {
+          "value": "96 L storefront / 115 L announcement. Conflicting official capacities; unresolved, not a normalized capacity.",
+          "basis": "Named size on the official Japan collection page, checked 2026-11-25. Exact transactional product page not verified. Compared with the 18 November company announcement: https://prtimes.jp/main/html/rd/p/000004569.000018505.html"
+        }
+      },
+      "featureCount": 2,
+      "region": "Europe",
+      "market": "Japan",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Checked",
+      "price": 567600,
+      "currency": "JPY",
+      "priceDate": "2026-11-25",
+      "photoKind": "collection-reference",
+      "photoSource": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "photoScope": "Official Mastic Chalk collection reference. Size and SKU are not verified; this is not an exact-offer photograph.",
+      "photoCaption": "Mastic Chalk collection exterior and interior; exact size unverified."
     }
   ],
   "brandCount": 178,

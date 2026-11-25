@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-24",
+  "checked": "2026-11-25",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -449,7 +449,11 @@
       "photoIds": [
         "globe-trotter-gt897-jp-black-front",
         "globe-trotter-gt897-jp-black-interior"
-      ]
+      ],
+      "storeRolloutDate": "2026-11-25",
+      "storeRolloutSource": "https://prtimes.jp/main/html/rd/p/000000073.000024442.html",
+      "storeRolloutNote": "Official planned phased Japan store rollout from 25 November; online release remains 18 November. Store inventory not audited.",
+      "rolloutChecked": "2026-11-25"
     },
     {
       "offerId": "offer-8fd17aa7",
@@ -471,7 +475,11 @@
       "photoIds": [
         "globe-trotter-gt897-jp-green-front",
         "globe-trotter-gt897-jp-green-interior"
-      ]
+      ],
+      "storeRolloutDate": "2026-11-25",
+      "storeRolloutSource": "https://prtimes.jp/main/html/rd/p/000000073.000024442.html",
+      "storeRolloutNote": "Official planned phased Japan store rollout from 25 November; online release remains 18 November. Store inventory not audited.",
+      "rolloutChecked": "2026-11-25"
     },
     {
       "offerId": "offer-cf51a20c",
@@ -691,6 +699,151 @@
         "travelpro-platinum-gloss-red-medium-interior"
       ],
       "priceDate": "2026-11-08"
+    },
+    {
+      "offerId": "offer-55b340af",
+      "brandId": "fpm-milano",
+      "model": "FPM Milano × Globe-Trotter VANITY CASE",
+      "size": "VANITY CASE",
+      "color": "Mastic Chalk",
+      "dimensions": "33 × 26 × 22 cm (W × H × D); wheel/handle inclusion not explicitly specified",
+      "capacity": "15 L storefront / 16 L announcement. Conflicting official capacities; unresolved, not a normalized capacity.",
+      "announcementDate": "2026-11-18",
+      "launchDate": "2026-11-25",
+      "launchDateStatus": "Official stated Japan release date; actual stock not independently confirmed.",
+      "listingDate": null,
+      "firstObserved": "2026-11-25",
+      "observed": "2026-11-25",
+      "added": "2026-11-25",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "announcementSource": "https://prtimes.jp/main/html/rd/p/000004569.000018505.html",
+      "productPage": "https://fpmjapan.com/Form/Product/ProductDetail.aspx?pid=FPM263LBAGT5&shop=0",
+      "price": 273900,
+      "currency": "JPY",
+      "priceDate": "2026-11-25",
+      "priceNote": "Official collection-page advertised Japan price, tax included; not a verified checkout or store-stock quote. Announced 18 November; release stated 25 November. First Atlas observation 25 November. Exact SKU and listing date unknown.",
+      "sku": null,
+      "photoIds": [
+        "fpm-mastic-chalk-collection-exterior",
+        "fpm-mastic-chalk-collection-interior"
+      ],
+      "photoScope": "Official Mastic Chalk collection reference. Size and SKU are not verified; this is not an exact-offer photograph."
+    },
+    {
+      "offerId": "offer-4374a820",
+      "brandId": "fpm-milano",
+      "model": "FPM Milano × Globe-Trotter SPINNER 55M",
+      "size": "SPINNER 55M",
+      "color": "Mastic Chalk",
+      "dimensions": "40 × 55 × 24.5 cm (W × H × D); wheel/handle inclusion not explicitly specified",
+      "capacity": "37.5 L storefront / 42 L announcement. Conflicting official capacities; unresolved, not a normalized capacity.",
+      "announcementDate": "2026-11-18",
+      "launchDate": "2026-11-25",
+      "launchDateStatus": "Official stated Japan release date; actual stock not independently confirmed.",
+      "listingDate": null,
+      "firstObserved": "2026-11-25",
+      "observed": "2026-11-25",
+      "added": "2026-11-25",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "announcementSource": "https://prtimes.jp/main/html/rd/p/000004569.000018505.html",
+      "productPage": "https://fpmjapan.com/Form/Product/ProductDetail.aspx?pid=FPM263LBAGT1&shop=0",
+      "price": 459800,
+      "currency": "JPY",
+      "priceDate": "2026-11-25",
+      "priceNote": "Official collection-page advertised Japan price, tax included; not a verified checkout or store-stock quote. Announced 18 November; release stated 25 November. First Atlas observation 25 November. Exact SKU and listing date unknown.",
+      "sku": null,
+      "photoIds": [
+        "fpm-mastic-chalk-collection-exterior",
+        "fpm-mastic-chalk-collection-interior"
+      ],
+      "photoScope": "Official Mastic Chalk collection reference. Size and SKU are not verified; this is not an exact-offer photograph."
+    },
+    {
+      "offerId": "offer-423da83b",
+      "brandId": "fpm-milano",
+      "model": "FPM Milano × Globe-Trotter SPINNER 68",
+      "size": "SPINNER 68",
+      "color": "Mastic Chalk",
+      "dimensions": "45 × 68 × 27.5 cm (W × H × D); wheel/handle inclusion not explicitly specified",
+      "capacity": "70 L in both official sources.",
+      "announcementDate": "2026-11-18",
+      "launchDate": "2026-11-25",
+      "launchDateStatus": "Official stated Japan release date; actual stock not independently confirmed.",
+      "listingDate": null,
+      "firstObserved": "2026-11-25",
+      "observed": "2026-11-25",
+      "added": "2026-11-25",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "announcementSource": "https://prtimes.jp/main/html/rd/p/000004569.000018505.html",
+      "productPage": "https://fpmjapan.com/Form/Product/ProductDetail.aspx?pid=FPM263LBAGT2&shop=0",
+      "price": 489500,
+      "currency": "JPY",
+      "priceDate": "2026-11-25",
+      "priceNote": "Official collection-page advertised Japan price, tax included; not a verified checkout or store-stock quote. Announced 18 November; release stated 25 November. First Atlas observation 25 November. Exact SKU and listing date unknown.",
+      "sku": null,
+      "photoIds": [
+        "fpm-mastic-chalk-collection-exterior",
+        "fpm-mastic-chalk-collection-interior"
+      ],
+      "photoScope": "Official Mastic Chalk collection reference. Size and SKU are not verified; this is not an exact-offer photograph."
+    },
+    {
+      "offerId": "offer-ad3713ae",
+      "brandId": "fpm-milano",
+      "model": "FPM Milano × Globe-Trotter SPINNER 76",
+      "size": "SPINNER 76",
+      "color": "Mastic Chalk",
+      "dimensions": "49 × 75 × 28.5 cm (W × H × D); wheel/handle inclusion not explicitly specified",
+      "capacity": "90 L storefront / 93 L announcement. Conflicting official capacities; unresolved, not a normalized capacity.",
+      "announcementDate": "2026-11-18",
+      "launchDate": "2026-11-25",
+      "launchDateStatus": "Official stated Japan release date; actual stock not independently confirmed.",
+      "listingDate": null,
+      "firstObserved": "2026-11-25",
+      "observed": "2026-11-25",
+      "added": "2026-11-25",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "announcementSource": "https://prtimes.jp/main/html/rd/p/000004569.000018505.html",
+      "productPage": "https://fpmjapan.com/Form/Product/ProductDetail.aspx?pid=FPM263LBAGT3&shop=0",
+      "price": 520300,
+      "currency": "JPY",
+      "priceDate": "2026-11-25",
+      "priceNote": "Official collection-page advertised Japan price, tax included; not a verified checkout or store-stock quote. Announced 18 November; release stated 25 November. First Atlas observation 25 November. Exact SKU and listing date unknown.",
+      "sku": null,
+      "photoIds": [
+        "fpm-mastic-chalk-collection-exterior",
+        "fpm-mastic-chalk-collection-interior"
+      ],
+      "photoScope": "Official Mastic Chalk collection reference. Size and SKU are not verified; this is not an exact-offer photograph."
+    },
+    {
+      "offerId": "offer-6a4648ab",
+      "brandId": "fpm-milano",
+      "model": "FPM Milano × Globe-Trotter TRUNK ON WHEELS",
+      "size": "TRUNK ON WHEELS",
+      "color": "Mastic Chalk",
+      "dimensions": "46 × 75.5 × 36.5 cm (W × H × D); wheel/handle inclusion not explicitly specified",
+      "capacity": "96 L storefront / 115 L announcement. Conflicting official capacities; unresolved, not a normalized capacity.",
+      "announcementDate": "2026-11-18",
+      "launchDate": "2026-11-25",
+      "launchDateStatus": "Official stated Japan release date; actual stock not independently confirmed.",
+      "listingDate": null,
+      "firstObserved": "2026-11-25",
+      "observed": "2026-11-25",
+      "added": "2026-11-25",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "announcementSource": "https://prtimes.jp/main/html/rd/p/000004569.000018505.html",
+      "productPage": "https://fpmjapan.com/Form/Product/ProductDetail.aspx?pid=FPM263LBAGT4&shop=0",
+      "price": 567600,
+      "currency": "JPY",
+      "priceDate": "2026-11-25",
+      "priceNote": "Official collection-page advertised Japan price, tax included; not a verified checkout or store-stock quote. Announced 18 November; release stated 25 November. First Atlas observation 25 November. Exact SKU and listing date unknown.",
+      "sku": null,
+      "photoIds": [
+        "fpm-mastic-chalk-collection-exterior",
+        "fpm-mastic-chalk-collection-interior"
+      ],
+      "photoScope": "Official Mastic Chalk collection reference. Size and SKU are not verified; this is not an exact-offer photograph."
     }
   ],
   "byBrand": {
@@ -751,6 +904,13 @@
       "offer-e0fe63ee",
       "offer-2df3d287",
       "offer-7b0f0043"
+    ],
+    "fpm-milano": [
+      "offer-55b340af",
+      "offer-4374a820",
+      "offer-423da83b",
+      "offer-ad3713ae",
+      "offer-6a4648ab"
     ]
   }
 }

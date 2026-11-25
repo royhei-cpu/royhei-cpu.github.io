@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-24",
+  "checked": "2026-11-25",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -8879,6 +8879,30 @@
         "identifierSource": "https://travelpro.com/products/platinum-elite-medium-check-in-hardside-spinner-limited-edition-colors?variant=50787219144802",
         "identifierChecked": "2026-11-24"
       }
+    },
+    {
+      "id": "fpm-mastic-chalk-collection-exterior",
+      "brandId": "fpm-milano",
+      "view": "Exterior / collection",
+      "caption": "FPM Milano × Globe-Trotter Mastic Chalk · exterior / collection reference; exact size unverified",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "imageUrl": "https://prcdn.freetls.fastly.net/release_image/18505/4569/18505-4569-469d6b950ce273d268633380ceab2912-2400x1792.png?format=jpeg&width=1000&quality=80",
+      "localPath": "offer-photo-assets/fpm-mastic-chalk-collection-exterior.jpg",
+      "checked": "2026-11-25",
+      "scope": "Official Mastic Chalk collection reference. Size and SKU are not verified; this is not an exact-offer photograph.",
+      "remoteReference": true
+    },
+    {
+      "id": "fpm-mastic-chalk-collection-interior",
+      "brandId": "fpm-milano",
+      "view": "Interior / collection",
+      "caption": "FPM Milano × Globe-Trotter Mastic Chalk · interior / collection reference; exact size unverified",
+      "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
+      "imageUrl": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/img/detail-interior.jpg?v1=",
+      "localPath": "offer-photo-assets/fpm-mastic-chalk-collection-interior.jpg",
+      "checked": "2026-11-25",
+      "scope": "Official Mastic Chalk collection reference. Size and SKU are not verified; this is not an exact-offer photograph.",
+      "remoteReference": true
     }
   ],
   "byBrand": {
@@ -9154,7 +9178,9 @@
       "refresh-fpm-milano-37ecacd4c2",
       "refresh-fpm-milano-cb6195ca14",
       "refresh-fpm-milano-6238f3380c",
-      "refresh-fpm-milano-4002c50508"
+      "refresh-fpm-milano-4002c50508",
+      "fpm-mastic-chalk-collection-exterior",
+      "fpm-mastic-chalk-collection-interior"
     ],
     "frequenter": [
       "research-offer-aba247d2"
