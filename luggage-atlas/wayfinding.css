@@ -115,7 +115,7 @@ body[data-atlas-view=start] main{max-width:1180px!important;padding:0 32px!impor
 body[data-atlas-view=start] main>footer{margin-top:18px;padding-top:22px}
 @media(max-width:760px){body>header.simple-header{flex-wrap:wrap;gap:14px;padding:18px 5%!important}.simple-header .simple-wordmark{font-size:26px!important}.simple-help{margin-left:auto}body>header.simple-header>nav{order:3;width:100%!important;justify-content:flex-start!important;gap:4px!important}.simple-header nav>a,.simple-header nav summary{white-space:nowrap!important}.nav-dropdown-panel{min-width:210px}.nav-dropdown:last-child .nav-dropdown-panel{left:auto;right:0}body[data-atlas-view=start] main{padding:0 24px!important}.simple-welcome{padding:42px 0}.simple-welcome h1{letter-spacing:-1px}.simple-paths{grid-template-columns:1fr;gap:26px}.simple-start>h2{font-size:26px}.simple-paths h3{font-size:24px}.simple-welcome>p{font-size:16px}}
 
-/* Product photography brings the simple starting page to life. */
+/* Editorial travel artwork brings the simple starting page to life. */
 body[data-atlas-view=start] main{max-width:1320px!important}
 .simple-welcome{max-width:none;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;padding:56px 0 52px}
 .simple-welcome[hidden]{display:none!important}
@@ -139,6 +139,12 @@ body[data-atlas-view=start] main{max-width:1320px!important}
 .welcome-products figcaption strong{display:block;font:600 13px/1.5 Arial,sans-serif;color:#203c31}
 .welcome-products figcaption span{display:block;font:12px/1.7 Arial,sans-serif;color:#586653;margin-top:3px}
 .gallery-credit{font:11px/1.5 Arial,sans-serif;color:#64715f;margin:10px 0 0}
+.welcome-gallery.welcome-illustration{margin:0;padding:0;border-color:#dedbcb;background:#f8f3e7}
+.welcome-illustration>img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain}
+.welcome-illustration>figcaption{padding:16px 22px 18px}
+.welcome-illustration .gallery-kicker,.welcome-illustration .gallery-credit{display:block}
+.welcome-illustration .gallery-kicker{margin:0}
+.welcome-illustration .gallery-credit{margin:6px 0 0}
 .simple-start{padding:28px 0 0;border-top:1px solid #d7ded1}
 .simple-start>h2{font-size:27px;margin:0 0 26px}
 .simple-paths{gap:22px}
