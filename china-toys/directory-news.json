@@ -1,5 +1,165 @@
 [
   {
+    "id": "52toys-disney-mini-charms-mainland-20261126",
+    "title": "52TOYS Disney Mini Charms blind-box figures: reported November 26 mainland release",
+    "summary": "November 24 trade reports describe a Disney mini-character charm series with six regular designs and one secret Retro Mickey. Reported reference price is CNY 25.9 for one random box and CNY 155 for a full case; exact mainland pack count is not explicitly stated in those reports. A separate Taiwan preorder listing specifies six boxes per case, TWD 180 per single and TWD 980 per case, with deposits of TWD 100 and 300 respectively and expected December shipping. Do not transfer those Taiwan pack/price terms to mainland China or treat deposits as full prices. Mainland issuer announcement and physical chain inventory not independently verified. This is release research, not a confirmed new catalog capture.",
+    "date": "2026-11-26",
+    "eventDate": "2026-11-26",
+    "sourcePublished": "2026-11-24",
+    "checked": "2026-11-25",
+    "added": "2026-11-25",
+    "type": "Mainland trade-reported scheduled release; separate Taiwan preorder evidence",
+    "dateLabel": "Reported scheduled release",
+    "market": "Mainland China",
+    "currency": "CNY",
+    "priceBasis": "Trade-reported announced reference pricing; not current checkout",
+    "packOptions": [
+      {
+        "name": "Single random box",
+        "count": 1,
+        "price": 25.9,
+        "currency": "CNY"
+      },
+      {
+        "name": "Full case",
+        "count": null,
+        "price": 155,
+        "currency": "CNY"
+      }
+    ],
+    "sources": [
+      {
+        "label": "模玩迷, November 24",
+        "url": "https://mowanmi.com/post/8599.html"
+      },
+      {
+        "label": "蒜肠网, November 24",
+        "url": "https://suanchang.com/TFquan/15451.html"
+      },
+      {
+        "label": "TG.TOYS Taiwan preorder, checked November 25",
+        "url": "https://tgtoys.easy.co/products/2026-11-62"
+      }
+    ]
+  },
+  {
+    "id": "here-naaye-secretly-together-mainland-20261126",
+    "title": "HERE NAAYE Secretly Together figures: reported November 26 mainland release",
+    "summary": "November 20 trade coverage reports 20 regular, four surprise and two hidden designs, CNY 29 for one random box and CNY 290 for a case. Case quantity and configuration are not explicitly stated; do not infer a complete 26-design set. Direct issuer and shop-specific availability remain unverified. Not a collected catalog product.",
+    "date": "2026-11-26",
+    "eventDate": "2026-11-26",
+    "sourcePublished": "2026-11-20",
+    "checked": "2026-11-25",
+    "added": "2026-11-25",
+    "type": "Trade-reported mainland scheduled release",
+    "dateLabel": "Reported scheduled release",
+    "market": "Mainland China",
+    "currency": "CNY",
+    "priceBasis": "Trade-reported announced reference pricing; not current checkout",
+    "packOptions": [
+      {
+        "name": "Single random box",
+        "count": 1,
+        "price": 29,
+        "currency": "CNY"
+      },
+      {
+        "name": "Case",
+        "count": null,
+        "price": 290,
+        "currency": "CNY"
+      }
+    ],
+    "sources": [
+      {
+        "label": "模玩迷, November 20",
+        "url": "https://mowanmi.com/post/8587.html"
+      },
+      {
+        "label": "蒜肠网, November 20",
+        "url": "https://www.suanchang.com/TFquan/15437.html"
+      }
+    ]
+  },
+  {
+    "id": "tnt-space-zoraa-jelly-mainland-20261127",
+    "title": "TNT SPACE Zoraa Jelly Wave figures: reported November 27 mainland release",
+    "summary": "November 19 trade coverage describes Zoraa 果冻波段 series as blind-box figures, with nine regular designs and one hidden design. Reported prices are CNY 74 per single and CNY 666 per case; exact case quantity not directly stated. The jelly theme is not evidence that the material is a squishy. Direct brand listing and chain availability not independently verified; keep as release news, not a catalog capture.",
+    "date": "2026-11-27",
+    "eventDate": "2026-11-27",
+    "sourcePublished": "2026-11-19",
+    "checked": "2026-11-25",
+    "added": "2026-11-25",
+    "type": "Trade-reported mainland scheduled release",
+    "dateLabel": "Reported scheduled release",
+    "market": "Mainland China",
+    "currency": "CNY",
+    "priceBasis": "Trade-reported announced reference pricing; not current checkout",
+    "packOptions": [
+      {
+        "name": "Single random box",
+        "count": 1,
+        "price": 74,
+        "currency": "CNY"
+      },
+      {
+        "name": "Case",
+        "count": null,
+        "price": 666,
+        "currency": "CNY"
+      }
+    ],
+    "sources": [
+      {
+        "label": "枢界 / 模玩迷 reproduction, November 19",
+        "url": "https://www.mokihub.com/acgn-express/model-news/12407.html"
+      },
+      {
+        "label": "蒜肠网, November 19",
+        "url": "https://suanchang.com/TFquan/15431.html"
+      }
+    ]
+  },
+  {
+    "id": "52toys-top-dogs-flattery-international-20261122",
+    "title": "52TOYS Top Dogs of Flattery: official international new-arrival listing",
+    "summary": "Official international new-arrival page groups this series under November 22. Product page checked November 25 shows USD 9.99 for a single random PVC figure, approximately 6 cm tall; six-box whole set is explicitly offered, with no repeated designs. Set price is not exposed in the accessible page text. Six regular designs and one secret Poodle; stated secret probability 1/72. This is an international retailer listing date, not a mainland launch date or proof of paid sales. Storage bag appearing alongside it is outside toy scope.",
+    "date": "2026-11-22",
+    "eventDate": "2026-11-22",
+    "sourcePublished": null,
+    "checked": "2026-11-25",
+    "added": "2026-11-25",
+    "type": "Official international retailer listing",
+    "dateLabel": "Retailer new-arrival date",
+    "market": "International (USD storefront)",
+    "currency": "USD",
+    "priceBasis": "Official international product page display price",
+    "packOptions": [
+      {
+        "name": "Single random box",
+        "count": 1,
+        "price": 9.99,
+        "currency": "USD"
+      },
+      {
+        "name": "Whole set",
+        "count": 6,
+        "price": null,
+        "currency": "USD"
+      }
+    ],
+    "sources": [
+      {
+        "label": "52TOYS new-arrival calendar",
+        "url": "https://hi52toys.com/pages/new-arrival"
+      },
+      {
+        "label": "52TOYS exact product listing",
+        "url": "https://hi52toys.com/products/top-dogs-of-flattery-blind-box"
+      }
+    ]
+  },
+  {
     "id": "popmart-mainland-ive-fall-into-sweetness-20261126",
     "title": "POP MART announces mainland IVE Fall into Sweetness plush blind boxes at CNY 129",
     "summary": "The verified POP MART corporate Weibo account on November 20 announced IVE Fall into Sweetness (IVE坠入甜蜜系列毛绒公仔挂件) for mainland online release November 26 at 22:00 China time and stores November 27. Announced RRP is CNY 129 per random box and CNY 774 per whole set. The issuer specifies six regular and six secret designs. Set total is published by the issuer; exact box count is not expressly stated in this announcement. Exclude separately announced hair clips, phone straps and bags from this toy-price observation. This is a scheduled release and announced RRP, not verified stock or current paid sales. Keep the existing U.S. USD listing separate.",
