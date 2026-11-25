@@ -40,6 +40,34 @@
         "label": "TG.TOYS Taiwan preorder, checked November 25",
         "url": "https://tgtoys.easy.co/products/2026-11-62"
       }
+    ],
+    "relatedMarketOffers": [
+      {
+        "market": "Taiwan",
+        "seller": "TG.TOYS",
+        "currency": "TWD",
+        "name": "Single random box",
+        "count": 1,
+        "fullPrice": 180,
+        "deposit": 100,
+        "balance": 80,
+        "expectedShipping": "2026-12",
+        "checked": "2026-11-25",
+        "source": "https://tgtoys.easy.co/products/2026-11-62"
+      },
+      {
+        "market": "Taiwan",
+        "seller": "TG.TOYS",
+        "currency": "TWD",
+        "name": "Six-box case",
+        "count": 6,
+        "fullPrice": 980,
+        "deposit": 300,
+        "balance": 680,
+        "expectedShipping": "2026-12",
+        "checked": "2026-11-25",
+        "source": "https://tgtoys.easy.co/products/2026-11-62"
+      }
     ]
   },
   {
@@ -123,29 +151,31 @@
   {
     "id": "52toys-top-dogs-flattery-international-20261122",
     "title": "52TOYS Top Dogs of Flattery: official international new-arrival listing",
-    "summary": "Official international new-arrival page groups this series under November 22. Product page checked November 25 shows USD 9.99 for a single random PVC figure, approximately 6 cm tall; six-box whole set is explicitly offered, with no repeated designs. Set price is not exposed in the accessible page text. Six regular designs and one secret Poodle; stated secret probability 1/72. This is an international retailer listing date, not a mainland launch date or proof of paid sales. Storage bag appearing alongside it is outside toy scope.",
+    "summary": "Official international new-arrival page groups this series under November 22. Product page checked November 25 shows USD 9.99 for a single random PVC figure, approximately 6 cm tall; six-box whole set is explicitly offered, with no repeated designs. The official product variant endpoint checked November 25 separately returns USD 59.94 for the six-box whole set, matching the existing catalog's exact options. Both are marked available in the online feed at check time, not verified branch stock. Six regular designs and one secret Poodle; stated secret probability 1/72. This is an international retailer listing date, not a mainland launch date or proof of paid sales. Storage bag appearing alongside it is outside toy scope.",
     "date": "2026-11-22",
     "eventDate": "2026-11-22",
-    "sourcePublished": null,
+    "sourcePublished": "2026-11-22",
     "checked": "2026-11-25",
     "added": "2026-11-25",
     "type": "Official international retailer listing",
     "dateLabel": "Retailer new-arrival date",
     "market": "International (USD storefront)",
     "currency": "USD",
-    "priceBasis": "Official international product page display price",
+    "priceBasis": "Official USD storefront product-page and exact-variant feed prices",
     "packOptions": [
       {
         "name": "Single random box",
         "count": 1,
         "price": 9.99,
-        "currency": "USD"
+        "currency": "USD",
+        "sku": "26CB686CMDG-HW"
       },
       {
         "name": "Whole set",
         "count": 6,
-        "price": null,
-        "currency": "USD"
+        "price": 59.94,
+        "currency": "USD",
+        "sku": "26CB686CMDG-HW-ZH"
       }
     ],
     "sources": [
@@ -156,6 +186,10 @@
       {
         "label": "52TOYS exact product listing",
         "url": "https://hi52toys.com/products/top-dogs-of-flattery-blind-box"
+      },
+      {
+        "label": "52TOYS exact option data, checked November 25",
+        "url": "https://hi52toys.com/products/top-dogs-of-flattery-blind-box.js"
       }
     ]
   },
