@@ -37,14 +37,14 @@
     },
     {
       "retailer": "TikTok Shop",
-      "status": "blocked",
+      "status": "partial-readable-exact-pages",
       "categories": [],
       "sources": [
         "https://shop.tiktok.com/us"
       ],
       "itemPagesAttempted": 0,
       "itemPagesVerified": 0,
-      "result": "US entry page returned Security Check with no readable content. No seller, exact item or photo scope verified.",
+      "result": "US entry page returned Security Check with no readable content. No seller, exact item or photo scope verified. Follow-up recovered a direct AzunaFresh store and two exact PDPs; see accessRecovery. Homepage failure is not a site-wide access finding.",
       "checkedDate": "2026-11-25",
       "pagination": "Not exhausted; no bounded assortment reconciliation"
     },
@@ -1920,5 +1920,18 @@
     "HC-575d7a22865d",
     "HC-f7005bff6897"
   ],
-  "matrixScope": "All cells are canonical collected-record counts, not source inventory counts. No category pagination was exhausted in this scoped follow-up. Zero retained records is a research gap. Actual source checks are listed separately in retailerChecks."
+  "matrixScope": "All cells are canonical collected-record counts, not source inventory counts. No category pagination was exhausted in this scoped follow-up. Zero retained records is a research gap. Actual source checks are listed separately in retailerChecks.",
+  "accessRecovery": {
+    "checkedAt": "2026-11-25",
+    "retailer": "TikTok Shop",
+    "status": "partial-readable-exact-pages",
+    "sources": [
+      "https://shop.tiktok.com/us/store/azunafresh/7496162220799920767",
+      "https://shop.tiktok.com/us/pdp/luxe-glass-apartment-kit-by-azuna-eco-friendly-gel-jars-odor-eliminator/1731082971818267263",
+      "https://shop.tiktok.com/us/pdp/azuna-air-freshener-refill-gel-pet-friendly-long-lasting-lavender/1732217727330194047"
+    ],
+    "finding": "Direct store and exact PDP routes are readable despite the US homepage security check. PDP 1731082971818267263 identifies seller AzunaFresh and two empty glass jars plus refill. PDP 1732217727330194047 describes a 24 oz lavender refill. Retrieved representations are cached three to four months; do not copy prices, sales or stock as current observations. Existing CMP-078 is a broad Azuna refill reference; do not overwrite its identity or assume exact variant equivalence.",
+    "additions": 0,
+    "remaining": "Verify exact selected pack, matched photograph and current seller/offer before creating records. Target absence remains unverified. Amazon alternate /gp/product/B0H69KGR4Y still returned DisabledError."
+  }
 }

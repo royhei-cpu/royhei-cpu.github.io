@@ -35,3 +35,7 @@ Hide brands/items verified as carried by Target from product discovery, Target i
 ## Insights evidence refresh
 
 Keep site/trend-review.json and trend-review.js current through actual primary-source checks, not date-only edits. The panel is shared by Sales & analysis and Target inspiration. Review all seven areas and explain justified priority changes. Original price/sales snapshots remain separate. Update evidence status when an announcement gains verified direct offers; never transfer that availability to Amazon/TikTok. Preserve source and event dates. Update trend review only after its stated scope is complete; label further concepts and exhaustive retailer checks separately.
+
+## Marketplace access recovery — 25 November 2026
+
+A blocked retailer homepage does not establish site-wide inaccessibility. Before classifying a retailer as blocked, try its retained exact PDPs, indexed exact product URLs, direct seller storefronts and official brand outbound retailer links. Record each route and result separately. TikTok's AzunaFresh store 7496162220799920767 and PDPs 1731082971818267263 / 1732217727330194047 were readable while the US entry page returned a security check. Cached pages support scoped identity evidence, not current price/sales/stock snapshots. Never bypass security challenges or use search silence as Target clearance. Keep unresolved candidates out of verified additions until identity, exact pack/variant, seller and photograph are matched. Preserve original records; do not replace broad references with unmatched exact variants.
