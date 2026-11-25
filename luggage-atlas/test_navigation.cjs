@@ -29,7 +29,7 @@ for(const file of ['index.html','features.html']) {
 }
 const tutorial=fs.readFileSync(path.join(root,'tutorial.html'),'utf8');
 assert(tutorial.includes('tutorial/luggage-guide.mp4') && tutorial.includes('href="./#workbench"'));
-const hub=index.slice(index.indexOf('<details id="researchMenu"'),index.indexOf('<footer>'));assert.equal((hub.match(/<a /g)||[]).length,3);for(const url of ['research.html','#trends','#suppliers'])assert(hub.includes('href="'+url+'"'));for(const duplicate of ['#brands','#photos','#prices','features.html','#overview','tutorial.html'])assert(!hub.includes('href="'+duplicate+'"'));
+const hub=index.slice(index.indexOf('<details id="researchMenu"'),index.indexOf('<footer>'));assert.equal((hub.match(/<a /g)||[]).length,2);for(const url of ['insights.html?view=analysis','insights.html?view=target'])assert(hub.includes('href="'+url+'"'));for(const duplicate of ['#brands','#photos','#prices','features.html','#overview','tutorial.html'])assert(!hub.includes('href="'+duplicate+'"'));
 assert(!index.includes('class="atlas-journey"'));
 assert(!el('#directoryShortlist').innerHTML.includes('studio.html'));
 console.log('PASS: travel hero, native navigation, research menu, comparison, saved shortlist, exports menu and site-specific tutorial.');

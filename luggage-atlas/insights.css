@@ -1,0 +1,23 @@
+.nav-dropdown-panel small{display:block;font-size:14px;font-weight:400;color:#66745e;margin-top:6px;line-height:1.5}
+body>header.simple-header .nav-dropdown-panel>a{display:block!important}
+.nav-dropdown[data-nav-group=insights] .nav-dropdown-panel{min-width:275px;padding:12px}
+body>header.simple-header .nav-dropdown[data-nav-group=insights] .nav-dropdown-panel>a{font-weight:650!important}
+.insights-page{font-family:Arial,sans-serif;color:#263928;margin:0;background:#f8f7f2;line-height:1.5}
+.insights-page *{box-sizing:border-box}
+.insights-page [hidden]{display:none!important}
+.insights-page a{color:#344e36}
+.insights-page button,.insights-page select,.insights-page input{font:inherit;color:inherit;border:1px solid #d4ddcc;background:#fff;padding:10px 12px;border-radius:8px;min-height:44px}
+.insights-page button{cursor:pointer}.insights-page button:disabled{cursor:default;opacity:.55}
+.insights-page select{width:100%}
+.insights-page #main-content{max-width:1260px;margin:34px auto;padding:0 30px 50px}
+.insights-page h1{font:700 38px/1.15 Georgia,serif;letter-spacing:-.7px;margin:0 0 26px}
+.insight-breadcrumb{font-size:13px;color:#697461;margin-bottom:24px}
+.insights-page .exec-intro p{font-size:16px}.insights-page #analysis-view{padding-top:0}
+.insights-page .ma-kicker{font-size:12px}.insights-page .ma-intro>div>p:last-child{font-size:16px}
+.insights-page .opp-controls{margin:26px 0}.insights-page .opp-field{font-size:14px}.insights-page .opp-field select,.insights-page .opp-field input{font-size:14px}
+.insights-page .opportunity-panel p{font-size:16px}.insights-page .opportunity-panel .exec-note{font-size:13px}.insights-page .opportunity-panel h4{font-size:12px}
+.insights-page .exec-product p,.insights-page .exec-note{font-size:14px}.insights-page .opp-stats span{font-size:14px}
+.insights-page .exec-product img{box-sizing:border-box}.insights-page .ma-item-actions button{min-height:36px}
+.insights-page #selection-status:empty{display:none}.insights-page #selection-status{padding:12px;background:#f7edda;border-radius:6px}
+body[data-atlas-view=research] .research-groups{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:700px){.insights-page #main-content{padding:0 20px 35px;margin-top:24px}.insights-page h1{font-size:32px}.nav-dropdown[data-nav-group=insights] .nav-dropdown-panel{min-width:245px}body[data-atlas-view=research] .research-groups{grid-template-columns:1fr}}
