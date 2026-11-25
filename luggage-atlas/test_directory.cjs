@@ -65,3 +65,27 @@ run(`{
   exportModelOffers(getaway.offers);
   if(window.modelCSV.length!==13 || window.modelCSV.some(r=>r.length!==window.modelCSV[0].length))throw Error('Offer-level CSV');
 }`);
+// Retailer/category browsing follows the same data through results and exports.
+run("directoryFilters={q:'',retailer:'',market:'',region:'',currency:'',format:'',coverage:'',followed:false,sort:'coverage'};location.hash='#directory';render();setDirectoryFacet('retailer','Walmart US')");
+assert(run("directoryRows().length>0&&directoryRows().every(p=>p.retailer==='Walmart US')"));
+assert.equal(el('#directoryRetailer').value,'Walmart US');
+assert.equal(run("directoryFacetCounts(directoryRows({format:''}),'format').reduce((n,x)=>n+x[1],0)"),run('directoryRows().length'));
+run("setDirectoryFacet('format',productType(directoryRows()[0].format))");
+assert(run("directoryRows().every(p=>p.retailer==='Walmart US'&&productType(p.format)===directoryFilters.format)"));
+assert.equal(el('#directoryFormat').value,run('directoryFilters.format'));
+run("csv=(name,rows)=>window.retailerExport=rows;exportModelOffers(directoryRows())");
+assert.equal(ctx.window.retailerExport.length,run('directoryRows().length')+1);
+run("directoryFilters.market='No such market';drawDirectory()");assert.equal(run('directoryRows().length'),0);
+const shortlistBefore=run('JSON.stringify([...itemSelection])');el('#directoryReset').onclick();
+assert.equal(run('directoryRows().length'),run('D.prices.length'));assert.equal(run('JSON.stringify([...itemSelection])'),shortlistBefore);
+assert.equal(el('#directoryRetailer').value,'');assert.equal(el('#directoryMarket').value,'');
+assert(el('#directoryCategoryChips').innerHTML.includes('All luggage'));assert(el('#directoryRetailerChips').innerHTML.includes('See all'));
+console.log('PASS: retailer and category filters, synchronized chips/dropdowns, exact facet counts, filtered exports, empty market, reset and preserved comparison.');
+
+run("directoryFilters={q:'',retailer:'Quince',brand:brandBy('Quince').id,market:'United States',sort:'recent'};drawDirectory()");
+assert(run("directoryRows().length===2&&directoryRows().every(p=>p.brand==='Quince'&&directoryMarket(p)==='United States')"));
+assert.equal(run("directoryMarket({market:'Online storefront · USD'})"),'Country not confirmed');
+assert.equal(run("directoryMarket({market:'US storefront'})"),'United States');
+assert.equal(run("directoryMarket({market:'UK'})"),'United Kingdom');
+assert.equal(run("directoryRows()[0].date"),'2026-11-25');
+console.log('PASS: combined retailer/brand/country selection, country evidence boundaries and latest-check ordering.');
