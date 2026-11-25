@@ -21,3 +21,4 @@ body>header.simple-header .nav-dropdown[data-nav-group=insights] .nav-dropdown-p
 .insights-page #selection-status:empty{display:none}.insights-page #selection-status{padding:12px;background:#f7edda;border-radius:6px}
 body[data-atlas-view=research] .research-groups{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(max-width:700px){.insights-page #main-content{padding:0 20px 35px;margin-top:24px}.insights-page h1{font-size:32px}.nav-dropdown[data-nav-group=insights] .nav-dropdown-panel{min-width:245px}body[data-atlas-view=research] .research-groups{grid-template-columns:1fr}}
+.insights-page .exec-actions a{color:#fff;background:#a33228}
