@@ -517,27 +517,31 @@
   },
   {
     "id": "shop-vac-remote-control-5-gallon-amazon-b0h69kgr4y-announcement-2026-11-24",
-    "title": "Shop-Vac announces five-gallon remote-control wet/dry vacuum for Amazon",
-    "type": "Early signal",
+    "title": "Shop-Vac Amazon offer verified: $135.99 requires Prime; regular price $169.99",
+    "type": "Confirmed development",
     "date": "2026-11-24",
     "eventDate": "2026-11-24",
     "publicationDate": "2026-11-24",
     "firstObserved": "2026-11-25",
-    "checked": "2026-11-25",
-    "dateLabel": "Official announcement 24 November 2026 · observed 25 November · first retail sale date unverified",
-    "summary": "Shop-Vac's 24 November announcement links Amazon U.S. ASIN B0H69KGR4Y for a five-gallon wet/dry vacuum with nozzle-mounted start/stop, sliding suction control, a 20-foot hose, a manufacturer-rated 5.5 Peak HP motor, blower port and wall mounts. The brand quotes US$135.99 against a US$169.99 reference for its 19–30 November event: US$34 (approximately 20%) lower. These are announced promotional/reference prices, not independently observed before/after selling prices or a permanent reduction. No coupon, subscription or membership requirement is specified for this model in the release; eligibility, shipping and tax are unverified. Exact Amazon seller, selected variant, complete included pack, current checkout price and ZIP-specific availability could not be checked because Amazon retrieval was blocked. No measured sales or first-listing date is established. Confirmed brand announcement; Early signal for the retailer offer. The linked image is the official release illustration, not a verified exact-pack photograph.",
+    "checked": "2026-11-26",
+    "dateLabel": "Announcement 24 November 2026 · first observed 25 November · Amazon offer conditions verified 26 November · first retail sale date unknown",
+    "summary": "Evidence update, 26 November: Amazon U.S. ASIN B0H69KGR4Y now exposes model SV5430743, UPC 026282547200, one five-gallon remote-control wet/dry vacuum/blower, sold by Shop-Vac Direct (seller AHBPY5VXT6MP4) and shipped by Amazon. The retrieved page explicitly labels US$135.99 as Prime Member Price and US$169.99 as Regular Price for the same single-unit model. The US$34 difference is approximately 20.0%, but is a simultaneous membership-offer comparison, NOT a before/after selling-price reduction. No coupon or product subscription was applied; Prime membership is required for the lower price. The recheck displayed Fairfax, Virginia 22030, In Stock and free delivery; final delivery, tax, shipping total and checkout eligibility were not tested, and are not nationwide availability claims. The page identifies a 20-foot hose with remote nozzle, 11-foot cord, cartridge filter and retainer, foam sleeve, 91932 filter bag, two extension wands, floor and utility nozzles, flexible crevice tool, round brush, wall-mount/accessory storage and onboard tool holder. These are verified listing contents, not a newly changed pack. A product photo is linked directly from this exact Amazon listing. Historical context retained: Shop-Vac's official release was published 24 November, first observed 25 November, and announced the five-gallon, manufacturer-rated 5.5 Peak HP model with nozzle start/stop, sliding suction and wall mounting. It quoted US$135.99 against US$169.99 for 19–30 November, without specifying a membership requirement for this model. Amazon was inaccessible during that initial observation, so seller, pack and offer conditions were then unverified. The 26 November retailer evidence resolves those limits and establishes the Prime condition; it does not establish when that condition began, first listing/sale date, a permanent price change or measured sales. Performance specifications remain manufacturer claims. The original release image remains a general illustration; the added Amazon photo belongs to the exact ASIN. Target overlap checking remains partial; no confirmed Shop-Vac brand/item exclusion was found in the maintained rules or current scoped Target searches, which is not proof of Target absence.",
     "sources": [
       {
         "label": "Shop-Vac official announcement via PR Newswire · 24 November 2026",
         "url": "https://www.prnewswire.com/news-releases/more-life-less-mess-shop-vac-gets-homes-holiday-ready-302946700.html"
       },
       {
-        "label": "Amazon U.S. · ASIN B0H69KGR4Y · linked by brand; access blocked",
+        "label": "Amazon U.S. exact ASIN B0H69KGR4Y · seller, model, pack and Prime/regular offers checked 26 November 2026",
         "url": "https://www.amazon.com/dp/B0H69KGR4Y"
       },
       {
         "label": "Official release image · exact pack not verified",
         "url": "https://mmx.prnewswire.com/media/MS2040514/20261120005756EST_image_1.jpg?id=OA3093541&p=medium"
+      },
+      {
+        "label": "Exact Amazon ASIN product photograph · listing-linked image checked 26 November 2026",
+        "url": "https://m.media-amazon.com/images/I/51J5v6MLzQL._AC_.jpg"
       }
     ]
   }
