@@ -6,6 +6,8 @@ assert.equal(d.querySelector('#executive-view').hidden,false);assert.equal(d.que
 assert.equal(d.querySelectorAll('#opportunity-rows tr').length,11);
 assert(d.querySelectorAll('#opportunity-products article').length>0);
 for(const img of d.querySelectorAll('#opportunity-products img')){const src=img.getAttribute('src');if(!/^https?:/.test(src))assert(fs.existsSync(path.resolve(__dirname,src)),src);}
+for(const button of [...d.querySelectorAll('#opportunity-rows button')]){button.click();assert(d.querySelectorAll('.opp-reference-sources a[target="_blank"]').length>0,'Each direction has original reference links');}
+d.querySelector('#opportunity-rows button').click();
 const input=d.querySelector('#opportunity-search');input.value='no-such-direction';input.dispatchEvent(new w.Event('input'));assert.equal(d.querySelector('#opportunity-layout').hidden,true);assert.equal(d.querySelector('#opportunity-empty').hidden,false);
 input.value='';input.dispatchEvent(new w.Event('input'));
 d.querySelector('#opportunity-role').value='concepts';d.querySelector('#opportunity-role').dispatchEvent(new w.Event('change'));assert.equal(d.querySelectorAll('#opportunity-rows tr').length,8);

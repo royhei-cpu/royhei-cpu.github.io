@@ -61,13 +61,14 @@ function renderOpportunityDetail(){
   <div class="opp-detail-heading"><span class="scope-tag">${oppEsc(opportunityPlatform(o))}</span><span class="priority ${oppEsc((o.priority||'Explore').toLowerCase())}">${oppEsc(o.priority||'Explore')} · research priority</span></div>
   <p class="opp-portfolio-role">${oppEsc(o.portfolioRole||(o.original?'Umbrella direction':'Specific concept'))}</p>
   <h2>${oppEsc(o.title)}</h2><p class="opp-category">${oppEsc((o.categories||[]).join(' · '))}</p>
+  <section class="opp-reference-sources" aria-label="Reference items and sources"><h3>Reference items &amp; sources</h3><ul>${(o.designReferences||[]).map(r=>'<li>'+oppLink(r.url,r.name)+'<small>'+oppEsc(r.brand)+' · original design reference · saved '+oppDate(r.date)+'</small></li>').join('')}</ul>${rows.length?'<a class="opp-reference-jump" href="#opportunity-examples">See '+oppNumber(rows.length)+' saved offers, photos &amp; comparison controls ↓</a>':'<p class="exec-note">The original reference is linked above. No matched priced offer is saved yet for side-by-side comparison.</p>'}</section>
   ${need?'<h4>Customer need</h4><p>'+oppEsc(need)+'</p>':''}
   <div class="concept"><h4>Proposed own-brand concept</h4><p>${oppEsc(o.concept)}</p></div>
   ${difference&&!sameBrief?'<h4>What should make it different</h4><p>'+oppEsc(difference)+'</p>':''}
   ${window.HCTrendReview?.areaHTML(o.id)||''}
   <h4>What the saved evidence shows</h4><p>${oppEsc(evidenceSummary)}</p>
   <p class="exec-note">Latest saved product check: ${oppDate(o.latestCheckedDate)}. ${oppNumber(c.individualItemLinks)} references have individual item links; ${oppNumber(c.broadReferences)} use broad references and ${oppNumber(c.limitedReferences)} retain limited-verification notes (overlap possible). Matching does not refresh their sources.</p>
-  ${o.source?'<h4>Design evidence</h4><p>'+oppLink(o.source,'Original design source')+'</p>':''}<h4>Sales evidence to inspect</h4><div id="opportunity-sales"></div>
+  <h4>Sales evidence to inspect</h4><div id="opportunity-sales"></div>
   <div class="opp-decision"><h4>Next decision for Target</h4><p>${oppEsc(o.next)}</p></div>
   <h4>What still needs proving</h4><p>${oppEsc(o.gapLabel||'Confirm the current Target assortment, differentiated benefit, exact pack economics and performance before treating this as an assortment gap.')}</p>
   <p class="exec-note">${oppEsc(o.caveat||'')}</p>
