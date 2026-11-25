@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-24",
-  "sourceCheckedAt": "2026-11-24",
+  "reviewedAt": "2026-11-25",
+  "sourceCheckedAt": "2026-11-25",
   "files": [
     "part-001.json",
     "part-002.json",
@@ -50,9 +50,10 @@
     "daily-2026-11-14.json",
     "daily-2026-11-15.json",
     "quince-2026-11-15.json",
-    "daily-2026-11-16.json"
+    "daily-2026-11-16.json",
+    "daily-2026-11-25-expansion.json"
   ],
-  "added": 3938,
+  "added": 3948,
   "photoPacks": [
     "photos-001.json.gz",
     "photos-002.json.gz",
@@ -370,5 +371,5 @@
     "gap-review-20261102-53.json.gz",
     "gap-review-20261102-54.json.gz"
   ],
-  "reviewScope": "Daily priority-channel material-change follow-up across Amazon US, Walmart, Costco, TikTok Shop and Quince, with official Home Care news feeds checked after the 23 November comprehensive Monday review. No exact item met the addition threshold and no distinct in-scope news event was verified, so all 10,269 canonical records and the deduplicated news feed remain unchanged. Amazon exact-page retrieval remained robots-restricted; Walmart and Costco exposed promotion/category evidence without a deduplicated exact addition; TikTok Shop exposed dynamic category/search references without stable exact-PDP seller/variant evidence; Quince remained adjacent Home Organization/decor scope. The 23 November all-retailer audit remains the latest comprehensive review; full inventories and most category pagination remain incomplete."
+  "reviewScope": "Scoped all-retailer access and coverage-gap follow-up: 20 tracked retailers attempted; 4 exact TikTok Shop listings and 6 Quince adjacent storage variants added after page/photo/pack checks. Category and pagination coverage remains partial, not a completed comprehensive Monday assortment review. Last comprehensive review remains 23 November. Amazon exact ASIN pages require continue-shopping interaction; several other sources are blocked or location-dependent. See selection-expansion-2026-11-25.json for attempts, held candidates and category gaps."
 }

@@ -1,0 +1,2877 @@
+{
+  "reviewDate": "2026-11-25",
+  "reviewType": "Scoped all-retailer access and selection expansion, not comprehensive inventory review",
+  "baselineRecords": 10269,
+  "publishedRecords": 10279,
+  "verifiedAdditions": 10,
+  "verifiedLaunches": 0,
+  "additionsByRetailer": {
+    "Ace Hardware": 0,
+    "Albertsons": 0,
+    "Amazon US": 0,
+    "BJ’s Wholesale": 0,
+    "CVS": 0,
+    "Costco": 0,
+    "Dollar General": 0,
+    "Dollar Tree": 0,
+    "H-E-B": 0,
+    "Home Depot": 0,
+    "Kroger": 0,
+    "Lowe’s": 0,
+    "Meijer": 0,
+    "Publix": 0,
+    "Quince": 6,
+    "Safeway": 0,
+    "Sam’s Club": 0,
+    "TikTok Shop": 4,
+    "Walgreens": 0,
+    "Walmart": 0
+  },
+  "sourceAttempts": [
+    {
+      "retailer": "Albertsons",
+      "url": "https://www.albertsons.com/shop/pd/carbona-carpet-cleaner-oxy-powered-2-in-1-value-size-27-5-fl-oz/173200045",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/clp/B0014EAPGA",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "CVS",
+      "url": "https://www.cvs.com/shop/household/paper-plastic/disposable-tableware",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Dollar General",
+      "url": "https://www.dollargeneral.com/c/household-essentials/paper-products/paper-towels-napkins",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Dollar Tree",
+      "url": "https://sameday.dollartree.com/store/dollar-tree/products/17131411-goodsense-30-gallon-trash-bags-10-ct",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "H-E-B",
+      "url": "https://www.heb.com/product-detail/clorox-toiletwand-disposable-toilet-cleaning-system-1-ct/1041825",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "Shopping challenge / interruption",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/food-storage?pageSize=999&startIndex=0",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "bot_blocked",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "url": "https://www.bjs.com/product/air-wick-plug-in-scented-oil----fresh-linen-and-vanilla/3000000000004820269/",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "bot_blocked",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Costco",
+      "url": "https://www.costco.com/p/-/bugmd-essential-pest-control-fast-acting-family-kit/4000375185",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "target_http_error",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Home Depot",
+      "url": "https://www.homedepot.com/p/TERRO-Indoor-Liquid-Ant-Killer-Baits-6-Count-T300/202532940",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "bot_blocked",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Kroger",
+      "url": "https://www.kroger.com/pl/food-storage-containers/2800200002",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/departments/household-essentials",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 84
+    },
+    {
+      "retailer": "Publix",
+      "url": "https://www.publix.com/pd/air-wick-essential-mist-fragrance-mist-lavender-almond-blossom-starter-kit/RIO-PCI-550797",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Safeway",
+      "url": "https://www.safeway.com/shop/pd/fantastik-fresh-scent-disinfectant-multipurpose-cleaner-spray-bottle-32-oz/960075662",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Sam’s Club",
+      "url": "https://www.samsclub.com/browse/cleaning-supplies/1564",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 6
+    },
+    {
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/c/home-care-supplies/852232",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 14
+    },
+    {
+      "retailer": "Walgreens",
+      "url": "https://www.walgreens.com/store/c/productlist/$5---$10-cleaning-supplies/N=20000911-1000021",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Walmart",
+      "url": "https://www.walmart.com/browse/household-essentials/pest-control/1115193_1025745",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 5
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/shop/home/all-decor/storage-organization",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Lowe’s",
+      "url": "https://www.lowes.com/best-sellers/cleaning-supplies/household-essentials/3618734417",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "bot_blocked",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Costco",
+      "url": "https://www.costco.com/p/-/dreame-air-cordless-stick-vacuum-with-ultra-slim-and-lightweight-design/4201058058",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "H-E-B",
+      "url": "https://www.heb.com/product-detail/clorox-tub-tile-scrubber-refill/2241978",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "Shopping challenge / interruption",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/tableware/6161186",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "bot_blocked",
+      "sourceType": "category/discovery or retained reference",
+      "pagination": "Not exhausted; full category reconciliation outstanding",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Lowe’s",
+      "url": "https://www.lowes.com/pd/affresh-3-Count-Washing-Machine-Cleaner-Tablets/1000192615",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "bot_blocked",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0014EAPGA",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "Shopping challenge / interruption",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B01LCKYEIK",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "Shopping challenge / interruption",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/luxe-glass-apartment-kit-by-azuna-eco-friendly-gel-jars-odor-eliminator/1731082971818267263",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 1
+    },
+    {
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/odor-eliminator-gel-refill-made-in-usa-plant-powered-biodegradable/1731082986921497215",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 1
+    },
+    {
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/azuna-air-freshener-refill-gel-pet-friendly-long-lasting-lavender/1732217727330194047",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 1
+    },
+    {
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/luxe-glass-whole-home-kit-by-azuna-eco-friendly-odor-elimination-90-days-freshness-vegan-cruelty-fre/1731082984989692543",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 1
+    },
+    {
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/azuna-pet-odor-eliminator-natural-tea-tree-oil-cedarwood-scent-8oz-pod/1732217727916413567",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 1
+    },
+    {
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/azuna-pet-odor-eliminator-4-room-kit-plant-powered-gel-refill/1732521663011263103",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 1
+    },
+    {
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/azuna-home-odor-eliminator-24oz-gel-refill-apple-pie-scent/1732610596700263039",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 1
+    },
+    {
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/azuna-air-freshener-odor-eliminator-gel-4-rooms-natural-scent/1732610595223081599",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 1
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/home/handwoven-rattan-hamper?color=white-wash",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/home/handwoven-round-palm-baskets-set-of-2?color=natural",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/home/handwoven-rattan-legal-size-storage-box?color=natural",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/home/handwoven-rattan-storage-chest?color=white-wash",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/home/woven-leather-baskets?color=brown",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/home/handwoven-seagrass-lidded-storage-baskets?color=natural",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/home/handwoven-round-palm-baskets-set-of-3?color=natural",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/home/handwoven-rattan-legal-size-storage-box?color=white-wash",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/home/handwoven-seagrass-lidded-storage-baskets?color=white-wash",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Quince",
+      "url": "https://www.quince.com/home/woven-leather-baskets?color=cognac",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/meijer-oven-bags-turkey-size-2-ct-/70882093710",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 28
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/meijer-ultra-clear-cutlery-combo-192-ct/70882021017",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 31
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/meijer-rectangular-one-section-meal-prep-containers-38-oz-10-ct/71928377398",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 21
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/meijer-slow-cooker-liners-8-ct/70882093713",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 35
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/meijer-parchment-paper-45-sq-ft/70882093719",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 36
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/meijer-essential-napkins-white-250-ct/70882080704",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 36
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/meijer-aluminum-foil-heavy-duty-50-ft/70882022373",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 35
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/meijer-holiday-slider-gallon-storage-32ct/71928380647",
+      "checkedDate": "2026-11-25",
+      "status": "partial",
+      "reason": "Public content retrieved; scope limited to this page",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 34
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/meijer-ultra-paper-plate-harvest-10-20ct/76023659983",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "timeout",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    },
+    {
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/meijer-premium-2-ply-everyday-napkins-100-ct/76023626111",
+      "checkedDate": "2026-11-25",
+      "status": "blocked",
+      "reason": "timeout",
+      "sourceType": "exact item page",
+      "pagination": "Not applicable to item page",
+      "productLinksFound": 0
+    }
+  ],
+  "categoryMatrix": [
+    {
+      "retailer": "Ace Hardware",
+      "category": "Air Care",
+      "retained": 259,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 189,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Cleaning Appliances",
+      "retained": 21,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Cleaning Tools",
+      "retained": 1963,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Dishwashing",
+      "retained": 101,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Disposable Tabletop",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Floor & Carpet Care",
+      "retained": 208,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Food Wrap & Storage",
+      "retained": 313,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Laundry Care",
+      "retained": 5,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Naturals",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Paper Towels",
+      "retained": 69,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Pest Control",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Specialty Cleaners",
+      "retained": 233,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Surface Cleaners",
+      "retained": 470,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Toilet Paper & Tissues",
+      "retained": 70,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Ace Hardware",
+      "category": "Trash Bags",
+      "retained": 95,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Air Care",
+      "retained": 16,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Cleaning Tools",
+      "retained": 31,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Dishwashing",
+      "retained": 9,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Disposable Tabletop",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Floor & Carpet Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Food Wrap & Storage",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Laundry Care",
+      "retained": 5,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Naturals",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Paper Towels",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Pest Control",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Specialty Cleaners",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Surface Cleaners",
+      "retained": 8,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Toilet Paper & Tissues",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Albertsons",
+      "category": "Trash Bags",
+      "retained": 5,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Air Care",
+      "retained": 83,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 24,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Cleaning Tools",
+      "retained": 76,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Dishwashing",
+      "retained": 89,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Disposable Tabletop",
+      "retained": 34,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Floor & Carpet Care",
+      "retained": 25,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Food Wrap & Storage",
+      "retained": 64,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Laundry Care",
+      "retained": 80,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Naturals",
+      "retained": 6,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Paper Towels",
+      "retained": 42,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Pest Control",
+      "retained": 37,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Specialty Cleaners",
+      "retained": 21,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Surface Cleaners",
+      "retained": 55,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Toilet Paper & Tissues",
+      "retained": 65,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Amazon US",
+      "category": "Trash Bags",
+      "retained": 36,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Air Care",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Cleaning Tools",
+      "retained": 7,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Dishwashing",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Disposable Tabletop",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Floor & Carpet Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Food Wrap & Storage",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Laundry Care",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Naturals",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Paper Towels",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Pest Control",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Specialty Cleaners",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Surface Cleaners",
+      "retained": 6,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Toilet Paper & Tissues",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "category": "Trash Bags",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Air Care",
+      "retained": 56,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 22,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Cleaning Tools",
+      "retained": 41,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Dishwashing",
+      "retained": 31,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Disposable Tabletop",
+      "retained": 19,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Floor & Carpet Care",
+      "retained": 7,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Food Wrap & Storage",
+      "retained": 31,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Laundry Care",
+      "retained": 15,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Naturals",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Paper Towels",
+      "retained": 28,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Pest Control",
+      "retained": 19,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Specialty Cleaners",
+      "retained": 21,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Surface Cleaners",
+      "retained": 42,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Toilet Paper & Tissues",
+      "retained": 10,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "CVS",
+      "category": "Trash Bags",
+      "retained": 6,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Air Care",
+      "retained": 6,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Cleaning Appliances",
+      "retained": 16,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Cleaning Tools",
+      "retained": 33,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Dishwashing",
+      "retained": 9,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Disposable Tabletop",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Floor & Carpet Care",
+      "retained": 8,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Food Wrap & Storage",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Laundry Care",
+      "retained": 18,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Naturals",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Paper Towels",
+      "retained": 11,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Pest Control",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Specialty Cleaners",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Surface Cleaners",
+      "retained": 18,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Toilet Paper & Tissues",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Costco",
+      "category": "Trash Bags",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Air Care",
+      "retained": 46,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 9,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Cleaning Appliances",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Cleaning Tools",
+      "retained": 28,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Dishwashing",
+      "retained": 38,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Disposable Tabletop",
+      "retained": 29,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Floor & Carpet Care",
+      "retained": 8,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Food Wrap & Storage",
+      "retained": 24,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Laundry Care",
+      "retained": 31,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Naturals",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Paper Towels",
+      "retained": 20,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Pest Control",
+      "retained": 17,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Specialty Cleaners",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Surface Cleaners",
+      "retained": 47,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Toilet Paper & Tissues",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar General",
+      "category": "Trash Bags",
+      "retained": 24,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Air Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Cleaning Tools",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Dishwashing",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Disposable Tabletop",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Floor & Carpet Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Food Wrap & Storage",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Laundry Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Naturals",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Paper Towels",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Pest Control",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Specialty Cleaners",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Surface Cleaners",
+      "retained": 6,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Toilet Paper & Tissues",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Dollar Tree",
+      "category": "Trash Bags",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Air Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Cleaning Tools",
+      "retained": 13,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Dishwashing",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Disposable Tabletop",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Floor & Carpet Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Food Wrap & Storage",
+      "retained": 6,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Laundry Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Naturals",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Paper Towels",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Pest Control",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Specialty Cleaners",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Surface Cleaners",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Toilet Paper & Tissues",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "H-E-B",
+      "category": "Trash Bags",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Air Care",
+      "retained": 12,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Cleaning Tools",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Dishwashing",
+      "retained": 8,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Disposable Tabletop",
+      "retained": 22,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Floor & Carpet Care",
+      "retained": 11,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Food Wrap & Storage",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Laundry Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Naturals",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Paper Towels",
+      "retained": 13,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Pest Control",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Specialty Cleaners",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Surface Cleaners",
+      "retained": 5,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Toilet Paper & Tissues",
+      "retained": 15,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Home Depot",
+      "category": "Trash Bags",
+      "retained": 5,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Air Care",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 24,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Cleaning Tools",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Dishwashing",
+      "retained": 8,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Disposable Tabletop",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Floor & Carpet Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Food Wrap & Storage",
+      "retained": 24,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Laundry Care",
+      "retained": 39,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Naturals",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Paper Towels",
+      "retained": 40,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Pest Control",
+      "retained": 7,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Specialty Cleaners",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Surface Cleaners",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Toilet Paper & Tissues",
+      "retained": 15,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Kroger",
+      "category": "Trash Bags",
+      "retained": 27,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Air Care",
+      "retained": 24,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 14,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Cleaning Tools",
+      "retained": 9,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Dishwashing",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Disposable Tabletop",
+      "retained": 15,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Floor & Carpet Care",
+      "retained": 13,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Food Wrap & Storage",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Laundry Care",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Naturals",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Paper Towels",
+      "retained": 7,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Pest Control",
+      "retained": 5,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Specialty Cleaners",
+      "retained": 8,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Surface Cleaners",
+      "retained": 40,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Toilet Paper & Tissues",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Lowe’s",
+      "category": "Trash Bags",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Air Care",
+      "retained": 158,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 32,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Cleaning Appliances",
+      "retained": 5,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Cleaning Tools",
+      "retained": 151,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Dishwashing",
+      "retained": 116,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Disposable Tabletop",
+      "retained": 184,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Floor & Carpet Care",
+      "retained": 49,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Food Wrap & Storage",
+      "retained": 52,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Laundry Care",
+      "retained": 224,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Naturals",
+      "retained": 84,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Paper Towels",
+      "retained": 31,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Pest Control",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Specialty Cleaners",
+      "retained": 40,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Surface Cleaners",
+      "retained": 143,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Toilet Paper & Tissues",
+      "retained": 89,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Meijer",
+      "category": "Trash Bags",
+      "retained": 51,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Air Care",
+      "retained": 35,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Cleaning Tools",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Dishwashing",
+      "retained": 6,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Disposable Tabletop",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Floor & Carpet Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Food Wrap & Storage",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Laundry Care",
+      "retained": 5,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Naturals",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Paper Towels",
+      "retained": 10,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Pest Control",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Specialty Cleaners",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Surface Cleaners",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Toilet Paper & Tissues",
+      "retained": 31,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Publix",
+      "category": "Trash Bags",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Air Care",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Cleaning Tools",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Dishwashing",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Disposable Tabletop",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Floor & Carpet Care",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Food Wrap & Storage",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Laundry Care",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Naturals",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Paper Towels",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Pest Control",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Specialty Cleaners",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Surface Cleaners",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Toilet Paper & Tissues",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Quince",
+      "category": "Trash Bags",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Air Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Cleaning Tools",
+      "retained": 17,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Dishwashing",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Disposable Tabletop",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Floor & Carpet Care",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Food Wrap & Storage",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Laundry Care",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Naturals",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Paper Towels",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Pest Control",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Specialty Cleaners",
+      "retained": 1,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Surface Cleaners",
+      "retained": 7,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Toilet Paper & Tissues",
+      "retained": 7,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Safeway",
+      "category": "Trash Bags",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Air Care",
+      "retained": 83,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 9,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Cleaning Appliances",
+      "retained": 59,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Cleaning Tools",
+      "retained": 60,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Dishwashing",
+      "retained": 25,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Disposable Tabletop",
+      "retained": 88,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Floor & Carpet Care",
+      "retained": 9,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Food Wrap & Storage",
+      "retained": 57,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Laundry Care",
+      "retained": 80,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Naturals",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Paper Towels",
+      "retained": 11,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Pest Control",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Specialty Cleaners",
+      "retained": 18,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Surface Cleaners",
+      "retained": 29,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Toilet Paper & Tissues",
+      "retained": 14,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Sam’s Club",
+      "category": "Trash Bags",
+      "retained": 24,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Air Care",
+      "retained": 107,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 14,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Cleaning Appliances",
+      "retained": 20,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Cleaning Tools",
+      "retained": 91,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Dishwashing",
+      "retained": 14,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Disposable Tabletop",
+      "retained": 6,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Floor & Carpet Care",
+      "retained": 9,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Food Wrap & Storage",
+      "retained": 112,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Laundry Care",
+      "retained": 127,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Naturals",
+      "retained": 19,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Paper Towels",
+      "retained": 10,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Pest Control",
+      "retained": 123,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Specialty Cleaners",
+      "retained": 4,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Surface Cleaners",
+      "retained": 31,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Toilet Paper & Tissues",
+      "retained": 101,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "category": "Trash Bags",
+      "retained": 162,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Air Care",
+      "retained": 8,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 17,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Cleaning Tools",
+      "retained": 40,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Dishwashing",
+      "retained": 14,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Disposable Tabletop",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Floor & Carpet Care",
+      "retained": 9,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Food Wrap & Storage",
+      "retained": 18,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Laundry Care",
+      "retained": 2,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Naturals",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Paper Towels",
+      "retained": 8,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Pest Control",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Specialty Cleaners",
+      "retained": 7,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Surface Cleaners",
+      "retained": 25,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Toilet Paper & Tissues",
+      "retained": 3,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walgreens",
+      "category": "Trash Bags",
+      "retained": 5,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Air Care",
+      "retained": 79,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Bathroom & Toilet Cleaning",
+      "retained": 50,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Cleaning Appliances",
+      "retained": 0,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Cleaning Tools",
+      "retained": 153,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Dishwashing",
+      "retained": 100,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Disposable Tabletop",
+      "retained": 27,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Floor & Carpet Care",
+      "retained": 23,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Food Wrap & Storage",
+      "retained": 19,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Laundry Care",
+      "retained": 45,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Naturals",
+      "retained": 14,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Paper Towels",
+      "retained": 14,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Pest Control",
+      "retained": 43,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Specialty Cleaners",
+      "retained": 46,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Surface Cleaners",
+      "retained": 146,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Toilet Paper & Tissues",
+      "retained": 15,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    },
+    {
+      "retailer": "Walmart",
+      "category": "Trash Bags",
+      "retained": 42,
+      "reviewStatus": "Incomplete; see sourceAttempts for actual page checks",
+      "pagination": "Not reconciled across full assortment"
+    }
+  ],
+  "targetChecks": [
+    {
+      "brand": "Azuna",
+      "url": "https://www.target.com/s?searchTerm=Azuna",
+      "date": "2026-11-25",
+      "result": "Search shell retrieved without reliable item enumeration; unresolved, not proof of absence"
+    },
+    {
+      "brand": "Quince",
+      "url": "https://www.target.com/s?searchTerm=Quince",
+      "date": "2026-11-25",
+      "result": "Search shell retrieved without reliable item enumeration; unresolved, not proof of absence"
+    },
+    {
+      "brand": "Meijer",
+      "url": "https://www.target.com/s?searchTerm=Meijer",
+      "date": "2026-11-25",
+      "result": "Search shell retrieved without reliable item enumeration; unresolved, not proof of absence"
+    }
+  ],
+  "heldCandidates": [
+    {
+      "url": "https://shop.tiktok.com/us/pdp/luxe-glass-apartment-kit-by-azuna-eco-friendly-gel-jars-odor-eliminator/1731082971818267263",
+      "reason": "Conflicting scent/size or unmatched selected-variant photograph"
+    },
+    {
+      "url": "https://shop.tiktok.com/us/pdp/azuna-air-freshener-refill-gel-pet-friendly-long-lasting-lavender/1732217727330194047",
+      "reason": "Conflicting scent/size or unmatched selected-variant photograph"
+    },
+    {
+      "url": "https://shop.tiktok.com/us/pdp/luxe-glass-whole-home-kit-by-azuna-eco-friendly-odor-elimination-90-days-freshness-vegan-cruelty-fre/1731082984989692543",
+      "reason": "Conflicting scent/size or unmatched selected-variant photograph"
+    },
+    {
+      "url": "https://shop.tiktok.com/us/pdp/azuna-air-freshener-odor-eliminator-gel-4-rooms-natural-scent/1732610595223081599",
+      "reason": "Conflicting scent/size or unmatched selected-variant photograph"
+    },
+    {
+      "url": "https://www.quince.com/home/handwoven-round-palm-baskets-set-of-2?color=natural",
+      "reason": "Size not selected; exact size/variant not established"
+    },
+    {
+      "url": "https://www.quince.com/home/handwoven-seagrass-lidded-storage-baskets?color=natural",
+      "reason": "Size not selected; exact size/variant not established"
+    },
+    {
+      "url": "https://www.quince.com/home/handwoven-round-palm-baskets-set-of-3?color=natural",
+      "reason": "Size not selected; exact size/variant not established"
+    },
+    {
+      "url": "https://www.quince.com/home/handwoven-seagrass-lidded-storage-baskets?color=white-wash",
+      "reason": "Size not selected; exact size/variant not established"
+    },
+    {
+      "url": "https://www.meijer.com/shopping/product/meijer-rectangular-one-section-meal-prep-containers-38-oz-10-ct/71928377398",
+      "reason": "Product image HTTP 403; photo verification incomplete"
+    },
+    {
+      "url": "https://www.meijer.com/shopping/product/meijer-holiday-slider-gallon-storage-32ct/71928380647",
+      "reason": "Product image HTTP 403; photo verification incomplete"
+    }
+  ],
+  "remainingWork": "Every retailer/category matrix remains incomplete. Continue bounded category enumeration and pagination, exact seller/pack/photo checks and Target/Target Plus checks. Do not infer absence from zero counts. Quince storage remains adjacent; TikTok category returned unrelated content while AzunaFresh store exposed eight items and no-more-products text. Six existing Meijer exact IDs rechecked, two missing candidates held for photographs. No original record, date or photograph changed."
+}

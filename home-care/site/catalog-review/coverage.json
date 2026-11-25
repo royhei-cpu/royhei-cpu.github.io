@@ -2,8 +2,8 @@
   "reviewedAt": "2026-11-24",
   "sourceCheckedAt": "2026-11-24",
   "baseline": 6331,
-  "added": 3938,
-  "total": 10269,
+  "added": 3948,
+  "total": 10279,
   "scope": "Collected public listings; no full retailer inventory claim",
   "retailers": [
     {
@@ -3263,8 +3263,8 @@
     },
     {
       "retailer": "TikTok Shop",
-      "collected": 946,
-      "added": 834,
+      "collected": 950,
+      "added": 838,
       "reviewStatus": "Targeted category/discovery checks; comprehensive review incomplete",
       "limitations": "10 November daily follow-up added 2 exact public product pages with matched photos and named seller evidence and upgraded 1 existing exact item. Seller names distinguish the official Pink Stuff and Phueut shops from resellers. Listing dates and complete marketplace pagination remain unverified; earlier limited-evidence references keep their status.",
       "sourcePages": [
@@ -3943,8 +3943,8 @@
     },
     {
       "retailer": "Quince",
-      "collected": 2,
-      "added": 2,
+      "collected": 8,
+      "added": 8,
       "categories": [
         {
           "category": "Air Care",
@@ -4173,5 +4173,6 @@
     "coverageComplete": false,
     "audit": "daily-source-check-2026-11-23.json",
     "scope": "One retained public source attempted per retailer; only Ace tile cleaner retains a previously bounded 18-of-18 source scope. All other category/pagination coverage remains partial, blocked, location-dependent or not started."
-  }
+  },
+  "latestScopedFollowup": "selection-expansion-2026-11-25.json"
 }
