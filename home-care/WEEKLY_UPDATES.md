@@ -303,3 +303,7 @@ Rechecked primary sources across the seven standing themes; trend-review.json re
 ## 25 November 2026 — scoped selection expansion
 
 Added 10 exact listings: TikTok Shop 4 (AzunaFresh odor care), Quince 6 (Home Organization adjacent variants). All 10,269 prior records retained. Source and photo checks were completed for these additions; no launch or Target-absence claim. Twenty retailers were attempted through current public routes, with incomplete category and pagination coverage. Amazon exact ASIN challenge, blocked retailer routes, conflicting TikTok variants and inaccessible Meijer photos remain gaps. See site/catalog-review/selection-expansion-2026-11-25.json. The global Monday comprehensive review was not advanced.
+
+## 25 November 2026 — Target overlap correction after ACTIVE report
+
+The ACTIVE omission exposed incomplete brand evidence, not a retailer exception. Opened primary Target pages for 33 additional carried brands; applied the same policy to all 10279 canonical records and all 20 retailers. 766 additional listings excluded from public selection, leaving 5060 visible. All records/photos/history retained. requireClearance remains false. The audit JSON records affected IDs, retailer counts and the unresolved brand queue. No comprehensive assortment, pagination, trend or product review date advanced. Remaining visible brands are not proven absent from Target.

@@ -1,5 +1,26 @@
 [
   {
+    "id": "target-overlap-correction-2026-11-25",
+    "title": "Target overlap correction: ACTIVE and 32 other brands",
+    "type": "Directory correction",
+    "date": "2026-11-25",
+    "firstObserved": "2026-11-25",
+    "checked": "2026-11-25",
+    "eventDate": null,
+    "dateLabel": "Exclusion audit · not new products",
+    "summary": "Added 33 source-backed Target brand exclusions across all 20 retailers, removing 766 previously visible listings from discovery, comparison and exports. All 10279 canonical records and photos remain retained. 5060 listings remain visible, with Target overlap checks still incomplete; visibility is not proof of absence from Target.",
+    "sources": [
+      {
+        "label": "ACTIVE 6ct washing machine cleaner at Target",
+        "url": "https://www.target.com/p/active-washing-machine-appliance-cleaners-tablets-6ct/-/A-95292970"
+      },
+      {
+        "label": "Full per-retailer audit and remaining brand queue",
+        "url": "https://royhei-cpu.github.io/home-care/catalog-review/target-overlap-audit-2026-11-25.json"
+      }
+    ]
+  },
+  {
     "id": "selection-expansion-2026-11-25",
     "title": "10 verified additions: TikTok odor care and Quince storage",
     "type": "Directory additions",

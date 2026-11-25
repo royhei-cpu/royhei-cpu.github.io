@@ -40,3 +40,17 @@ test('all retailers use the same confirmed-overlap rule without a private-label 
   for(const rule of evidence.brands)assert.equal(createTargetFilter(evidence).isEligible({retailer,name:'Example pack',brand:rule.brand}),false,retailer+' '+rule.brand);
  }
 });
+
+test('ACTIVE correction applies every retailer, casing and saved selection without blocking unresolved brands',()=>{
+ const audit=JSON.parse(fs.readFileSync('home-care/site/catalog-review/target-overlap-audit-2026-11-25.json'));
+ assert.equal(audit.retailers.length,20);
+ for(const {retailer} of audit.retailers){
+  for(const brand of ['ACTIVE','Active','active'])assert.equal(filter.isEligible({retailer,brand,name:'Washing Machine Cleaner for Pet Owners'}),false);
+  assert.equal(filter.isEligible({retailer,name:'ACTIVE Washing Machine Cleaner 6ct',brand:''}),false);
+  assert.equal(filter.isEligible({retailer,name:'Unreviewed washing machine cleaner',brand:'Unreviewed brand'}),true);
+ }
+ for(const item of audit.affectedRecords)assert.equal(filter.isEligible(item),false,item.id);
+ const html=addTargetExclusions('<head></head><script>const ITEMS='+JSON.stringify([{id:'active-saved',brand:'ACTIVE',name:'Pet owner variant'},{id:'keep',brand:'Unreviewed brand',name:'Cleaner'}])+';\nconst COVERAGE={};const byId=new Map(ITEMS.map(d=>[d.id,d]));const picks=new Set(["active-saved","keep"].filter(id=>byId.has(id)));window.result={canonical:CANONICAL_ITEMS.length,visible:ITEMS.length,selected:[...picks]};</script><div class="grid" id="product-grid">','home-care/site');
+ const c=vm.createContext({window:{}});for(const m of html.matchAll(/<script>([\s\S]*?)<\/script>/g))vm.runInContext(m[1],c);
+ assert.deepEqual(JSON.parse(JSON.stringify(c.window.result)),{canonical:2,visible:1,selected:['keep']});
+});
