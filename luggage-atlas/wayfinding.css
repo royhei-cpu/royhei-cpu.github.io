@@ -151,3 +151,17 @@ body[data-atlas-view=start] main{max-width:1320px!important}
 @media(max-width:950px){.simple-welcome{gap:26px}.welcome-products img{height:240px}.welcome-products figure:nth-child(2) img{height:215px}.welcome-gallery{padding:22px 18px}.welcome-actions{gap:10px}}
 @media(max-width:760px){.simple-welcome{grid-template-columns:1fr;gap:26px;padding:32px 0}.welcome-copy{padding:0}.simple-welcome h1{font-size:48px!important}.welcome-copy .welcome-kicker{font-size:11px;margin-bottom:16px}.welcome-products img{height:260px}.welcome-products figure:nth-child(2) img{height:230px}.welcome-note{max-width:320px}.simple-start{padding-top:26px}.simple-paths{gap:14px}.simple-paths article{padding:24px}.desktop-break{display:none}}
 @media(prefers-reduced-motion:reduce){.welcome-products figure>a,.simple-paths article{transition:none}}
+
+.guide-page{max-width:1140px;margin:48px auto;padding:0 28px}
+.guide-intro{max-width:800px;margin-bottom:28px}
+.guide-intro .welcome-kicker{font:600 12px/1.6 Arial,sans-serif;letter-spacing:1.5px;color:#63715d}
+.guide-intro h1{font:700 clamp(34px,4vw,52px)/1.1 Georgia,serif;color:#203c31;margin:18px 0}
+.guide-intro>p:last-child{font:17px/1.7 Arial,sans-serif;color:#51604e}
+.guide-page video{display:block;width:100%;aspect-ratio:16/9;background:#203c31;border-radius:14px;box-shadow:0 12px 40px #203c3114}
+.guide-meta{font:14px/1.6 Arial,sans-serif;color:#64705d;margin:18px 0}
+.guide-links{display:flex;align-items:center;gap:26px;flex-wrap:wrap;margin:24px 0 36px}
+.guide-links>a:not(.btn){font-size:15px;color:#203c31;text-underline-offset:4px}
+.guide-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;border-top:1px solid #d4ddcc;padding-top:30px}
+.guide-steps h2{font:700 25px Georgia,serif;color:#203c31;margin:0 0 14px}
+.guide-steps p,.guide-transcript p{font:16px/1.75 Arial,sans-serif;color:#4c5d48}
+@media(max-width:700px){.guide-page{margin-top:30px;padding:0 22px}.guide-steps{grid-template-columns:1fr;gap:16px}.guide-links{gap:20px}.guide-page video{border-radius:8px}}

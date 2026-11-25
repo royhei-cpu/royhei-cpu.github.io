@@ -1,24 +1,38 @@
-{
-  "chapters": [
-    {
-      "start": 0,
-      "label": "The worldwide luggage edit"
-    },
-    {
-      "start": 14.375,
-      "label": "Find an exact offer"
-    },
-    {
-      "start": 32.417,
-      "label": "Compare up to four"
-    },
-    {
-      "start": 49.208,
-      "label": "Keep your comparison"
-    },
-    {
-      "start": 61.875,
-      "label": "Follow the daily edit"
-    }
-  ]
-}
+[
+  {
+    "start": 0,
+    "title": "Start with products"
+  },
+  {
+    "start": 4.202,
+    "title": "Find a brand or model"
+  },
+  {
+    "start": 9.58,
+    "title": "Narrow your search"
+  },
+  {
+    "start": 15.03,
+    "title": "Choose up to four"
+  },
+  {
+    "start": 27.008,
+    "title": "Open your comparison"
+  },
+  {
+    "start": 31.114,
+    "title": "Review and export"
+  },
+  {
+    "start": 38.46,
+    "title": "Follow news and updates"
+  },
+  {
+    "start": 44.03,
+    "title": "Explore the research"
+  },
+  {
+    "start": 55.072,
+    "title": "Return home anytime"
+  }
+]

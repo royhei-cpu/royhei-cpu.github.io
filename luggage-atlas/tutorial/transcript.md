@@ -1,30 +1,39 @@
 # Luggage Atlas quick guide
 
-Guided walkthrough of the website. Cost figures shown are illustrative planning inputs, not supplier quotes.
+Updated 25 November 2026. Current website navigation only.
 
-## 1. Welcome to your research desk
-Welcome to Luggage Atlas. In about two minutes, here’s how to compare products, build a cost scenario, and export your shortlist.
+## Start with products
 
-## 2. Explore the product
-Start with the weekly dashboard for dated launches. Open Outside and Inside for product photos, or Style and Shoppers to understand the design appeal.
+Start with Browse products on the home page.
 
-## 3. Innovation, trends & technology
-Open Innovation and Tech to see the mechanism behind a feature, the travel problem it solves, and brands using it. Review trend evidence and Open Story development ideas before comparing the available offers.
+## Find a brand or model
 
-## 4. Choose exact offers
-Open Compare and Cost. Search a brand or model, then select up to four priced offers. Your selections stay saved as you search.
+Search a brand or model, then narrow the results by product type.
 
-## 5. Compare the details
-Compare the named products, retail prices, features and supplier evidence side by side. Photo references may differ from the exact priced model or color.
+## Narrow your search
 
-## 6. Build a cost scenario
-Enter your own assumptions in U.S. dollars: F O B, freight, duty allowance, and other unit costs. Set planned retail and quantity. Landed cost and gross margin update automatically. Blank costs stay unknown.
+Open More filters for region, currency, and photo coverage.
 
-## 7. Keep currencies clear
-For a non-dollar offer, enter your own exchange rate to show its retail price in dollars. Cost assumptions are planning inputs, not supplier quotes or verified tariff rates.
+## Choose up to four
 
-## 8. Export your shortlist
-Choose Export Selected CSV. Your download includes only selected offers, with cost inputs, calculations, photo links and source links. Open it in Excel. CSV files contain image links, not embedded photos.
+Check the size, colour, photographs, and dated price on each product. Tick Compare this offer to save your choices. You can select up to four.
 
-## 9. Check the sourcing evidence
-In Suppliers and Factories, search a brand and expand Verify with Sources. Review the company name, dated evidence and model limitations. You’re ready to compare, cost and share.
+## Open your comparison
+
+Open Products, then Compare products.
+
+## Review and export
+
+Review your shortlist side by side, and export a CSV or a comparison with photos.
+
+## Follow news and updates
+
+For launches and catalogue changes, open News and updates.
+
+## Explore the research
+
+For research, open Insights. Choose Market and customers for charts, Product design for trends, or Sourcing for manufacturing evidence.
+
+## Return home anytime
+
+Use Home to return to the starting page, and Help and guide to replay this walkthrough.

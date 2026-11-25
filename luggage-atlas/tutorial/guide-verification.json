@@ -1,33 +1,10 @@
 {
-  "updated": "2026-11-13",
-  "website": "royhei-cpu.github.io/luggage-atlas/",
-  "duration": 80.667,
-  "resolution": [
-    1920,
-    1080
-  ],
-  "voice": "en-US-GuyNeural",
-  "visuals": "Actual browser captures of the restored website",
-  "chapters": [
-    {
-      "start": 0,
-      "label": "The worldwide luggage edit"
-    },
-    {
-      "start": 14.375,
-      "label": "Find an exact offer"
-    },
-    {
-      "start": 32.417,
-      "label": "Compare up to four"
-    },
-    {
-      "start": 49.208,
-      "label": "Keep your comparison"
-    },
-    {
-      "start": 61.875,
-      "label": "Follow the daily edit"
-    }
-  ]
+  "updated": "2026-11-25",
+  "width": 1920,
+  "height": 1080,
+  "durationSeconds": 61.65,
+  "screens": "Actual website captures",
+  "narration": "English, en-US-AriaNeural",
+  "captions": "English, also burned in",
+  "scope": "Current navigation, search, filters, compare, export, news and Insights"
 }
