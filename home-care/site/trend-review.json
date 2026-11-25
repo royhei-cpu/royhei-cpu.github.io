@@ -3,7 +3,7 @@
   "scope": "Targeted primary-source trend and concept review across all seven standing areas; not an exhaustive retailer inventory or sales refresh.",
   "summary": "Prioritize refill usability and fragrance-free task-specific odor care. Reduce priority for generic powered scrubbers and freezer trays because brand/format overlap weakens differentiation. Keep the seven-area order; priorities are research judgments, not market rankings.",
   "newLaunchesVerifiedThisReview": 0,
-  "limitations": "Current formats and promotions do not prove category growth. Historical price/sales charts retain their original snapshot dates. Target searches for Azuna, Cleanery and Quince were inaccessible; Target absence remains unverified. No comprehensive Target, Amazon or TikTok item audit was completed.",
+  "limitations": "Current formats and promotions do not prove category growth. Historical price/sales charts retain their original snapshot dates. Target searches for Azuna, Cleanery and Quince were inaccessible; Target absence remains unverified. No comprehensive Target, Amazon or TikTok item audit was completed. A scoped follow-up confirmed seven additional Target-carried brands, including Target Plus; other brand checks remain incomplete. Search mentions did not confirm Shop-Vac, Cleanery, Azuna, Superio or Simple Green overlap.",
   "sources": {
     "barebird-announcement": {
       "label": "BioLargo announcement · 28 October 2026",
@@ -95,6 +95,13 @@
       "eventDate": null,
       "checkedAt": "2026-11-25",
       "scope": "Exact sensor pump/caddy listing; brand excluded from candidate products"
+    },
+    "target-fresh-wave": {
+      "label": "Target · Fresh Wave 11 oz gel",
+      "url": "https://www.target.com/p/-/A-17482535",
+      "eventDate": null,
+      "checkedAt": "2026-11-25",
+      "scope": "Confirmed brand overlap; not an Azuna match or a new launch. Current checkout availability unverified."
     }
   },
   "areas": [
@@ -143,11 +150,12 @@
       "title": "Air care and refill systems",
       "priority": "High",
       "decision": "Separate odor treatment from fragrance",
-      "finding": "Azuna provides refill-pouch architecture; the current review does not establish premiumization, sales growth or willingness to pay.",
+      "finding": "Azuna provides refill-pouch architecture; the current review does not establish premiumization, sales growth or willingness to pay. Target also carries Fresh Wave gel, so a generic odor-gel concept is not an established assortment gap; Fresh Wave is excluded from competitor candidates.",
       "concept": "Evaluate a refillable odor-care holder with clear fill levels, spill control and an understandable refill schedule.",
       "next": "Compare real cost per use, evaporation and placement; validate odor efficacy separately from scent preferences and safety claims.",
       "sources": [
-        "azuna"
+        "azuna",
+        "target-fresh-wave"
       ]
     },
     {

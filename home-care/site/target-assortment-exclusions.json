@@ -495,6 +495,61 @@
       "sourceUrl": "https://www.target.com/p/-/A-1004457643",
       "checkedAt": "2026-11-25",
       "evidence": "Target public listing confirms brand presence; exclude brand across competitors. No identical-pack, stock or first-listing claim."
+    },
+    {
+      "brand": "Fresh Wave",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/p/-/A-17482535",
+      "checkedAt": "2026-11-25",
+      "evidence": "11 oz odor-removing gel; Target product identity confirms brand presence. Brand-level exclusion across competitors; no identical-pack, current price, stock or first-listing claim."
+    },
+    {
+      "brand": "Weiman",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/p/weiman-stainless-steel-wipes-30ct/-/A-12901971",
+      "checkedAt": "2026-11-25",
+      "evidence": "30-count stainless steel wipes; exact Target product page opened. Brand-level exclusion across competitors; no identical-pack, current price, stock or first-listing claim."
+    },
+    {
+      "brand": "E-Cloth",
+      "aliases": [
+        "E Cloth",
+        "ecloth"
+      ],
+      "sourceUrl": "https://www.target.com/p/e-cloth-general-purpose-microfiber-cleaning-cloth/-/A-80274632",
+      "checkedAt": "2026-11-25",
+      "evidence": "General-purpose microfiber cloth; exact Target product page opened. Brand-level exclusion across competitors; no identical-pack, current price, stock or first-listing claim."
+    },
+    {
+      "brand": "Full Circle",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/p/full-circle-bubble-up-2-36-in-w-medium-bristle-4-92-in-bamboo-handle-mini-brush-scrubber-w-holder/-/A-1004931390",
+      "checkedAt": "2026-11-25",
+      "evidence": "Bubble Up brush and holder; Target Plus listing, not an unrelated book-title match. Brand-level exclusion across competitors; no identical-pack, current price, stock or first-listing claim."
+    },
+    {
+      "brand": "Wet-It!",
+      "aliases": [
+        "wet-it!",
+        "Wet It!"
+      ],
+      "sourceUrl": "https://www.target.com/p/-/A-1004659150",
+      "checkedAt": "2026-11-25",
+      "evidence": "Flower Bouquet dish cloth, one pack; Target Plus seller Everyday Goods. Brand-level exclusion across competitors; no identical-pack, current price, stock or first-listing claim."
+    },
+    {
+      "brand": "Ettore",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/p/ettore-12-in-plastic-window-squeegee/-/A-1005904116",
+      "checkedAt": "2026-11-25",
+      "evidence": "12-inch plastic window squeegee; Target Plus seller Everyday Goods. Brand-level exclusion across competitors; no identical-pack, current price, stock or first-listing claim."
+    },
+    {
+      "brand": "Unger",
+      "aliases": [],
+      "sourceUrl": "https://www.target.com/p/-/A-92351835",
+      "checkedAt": "2026-11-25",
+      "evidence": "Pro window cleaning kit with 8-foot pole; Target Plus seller Everyday Goods. Retrieved representation is cached; current stock is not asserted. Brand-level exclusion across competitors; no identical-pack, current price, stock or first-listing claim."
     }
   ],
   "items": [],

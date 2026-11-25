@@ -1,0 +1,1924 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-25",
+  "reviewType": "Scoped daily Target-overlap follow-up, not comprehensive Monday assortment review",
+  "baselineRecords": 10269,
+  "publishedRecords": 10269,
+  "visibleBefore": 6133,
+  "visibleAfter": 5816,
+  "newlyExcluded": 317,
+  "verifiedAdditions": 0,
+  "newLaunches": 0,
+  "recordPatches": 0,
+  "excludedBrandsAdded": [
+    "Fresh Wave",
+    "Weiman",
+    "E-Cloth",
+    "Full Circle",
+    "Wet-It!",
+    "Ettore",
+    "Unger"
+  ],
+  "retailerChecks": [
+    {
+      "retailer": "Amazon US",
+      "status": "blocked",
+      "categories": [
+        "Cleaning Appliances"
+      ],
+      "sources": [
+        "https://www.amazon.com/dp/B0H69KGR4Y"
+      ],
+      "itemPagesAttempted": 1,
+      "itemPagesVerified": 0,
+      "result": "Exact Shop-Vac ASIN retrieval failed with DisabledError; seller, selected offer, pack/photo and stock not verified.",
+      "checkedDate": "2026-11-25",
+      "pagination": "Not exhausted; no bounded assortment reconciliation"
+    },
+    {
+      "retailer": "TikTok Shop",
+      "status": "blocked",
+      "categories": [],
+      "sources": [
+        "https://shop.tiktok.com/us"
+      ],
+      "itemPagesAttempted": 0,
+      "itemPagesVerified": 0,
+      "result": "US entry page returned Security Check with no readable content. No seller, exact item or photo scope verified.",
+      "checkedDate": "2026-11-25",
+      "pagination": "Not exhausted; no bounded assortment reconciliation"
+    },
+    {
+      "retailer": "Walmart",
+      "status": "partial-category-reference",
+      "categories": [
+        "Surface Cleaners"
+      ],
+      "sources": [
+        "https://www.walmart.com/browse/0?facet=brand%3ACleanery"
+      ],
+      "itemPagesAttempted": 0,
+      "itemPagesVerified": 0,
+      "result": "Cleanery category page reopened; no exact seller/pack/photo candidate verified beyond the evidence already retained today.",
+      "checkedDate": "2026-11-25",
+      "pagination": "Not exhausted; no bounded assortment reconciliation"
+    },
+    {
+      "retailer": "Costco",
+      "status": "partial-promotion-reference",
+      "categories": [],
+      "sources": [
+        "https://www.costco.com/o/-/warehouse-savings"
+      ],
+      "itemPagesAttempted": 0,
+      "itemPagesVerified": 0,
+      "result": "Warehouse Savings page reopened. Existing event retained; no new exact item or permanent price-change assertion.",
+      "checkedDate": "2026-11-25",
+      "pagination": "Not exhausted; no bounded assortment reconciliation"
+    },
+    {
+      "retailer": "Quince",
+      "status": "partial-exact-page",
+      "categories": [
+        "Laundry Care"
+      ],
+      "sources": [
+        "https://www.quince.com/home/100-new-zealand-wool-dryer-balls"
+      ],
+      "itemPagesAttempted": 1,
+      "itemPagesVerified": 1,
+      "result": "LB20455, three wool dryer balls plus bag, US$12.90 unchanged from earlier check today. Existing inconsistent care text remains unresolved. No new addition or launch.",
+      "checkedDate": "2026-11-25",
+      "pagination": "Not exhausted; no bounded assortment reconciliation"
+    }
+  ],
+  "targetChecks": {
+    "exactProductPagesOpened": [
+      {
+        "brand": "Fresh Wave",
+        "url": "https://www.target.com/p/-/A-17482535"
+      },
+      {
+        "brand": "Weiman",
+        "url": "https://www.target.com/p/weiman-stainless-steel-wipes-30ct/-/A-12901971"
+      },
+      {
+        "brand": "E-Cloth",
+        "url": "https://www.target.com/p/e-cloth-general-purpose-microfiber-cleaning-cloth/-/A-80274632"
+      },
+      {
+        "brand": "Full Circle",
+        "url": "https://www.target.com/p/full-circle-bubble-up-2-36-in-w-medium-bristle-4-92-in-bamboo-handle-mini-brush-scrubber-w-holder/-/A-1004931390"
+      },
+      {
+        "brand": "Wet-It!",
+        "url": "https://www.target.com/p/-/A-1004659150"
+      },
+      {
+        "brand": "Ettore",
+        "url": "https://www.target.com/p/ettore-12-in-plastic-window-squeegee/-/A-1005904116"
+      },
+      {
+        "brand": "Unger",
+        "url": "https://www.target.com/p/-/A-92351835"
+      }
+    ],
+    "failedPages": [
+      {
+        "url": "https://www.target.com/p/-/A-92351887",
+        "result": "404; alternate Unger kit page readable but cached"
+      }
+    ],
+    "unresolvedSearches": [
+      "Shop-Vac",
+      "Cleanery",
+      "Azuna",
+      "Superio",
+      "Simple Green"
+    ],
+    "limitations": "Search results do not prove absence. Generic shop vac titles and compatibility mentions were not treated as Shop-Vac brand evidence. Source pages may be cached; checkout availability and prices were not refreshed."
+  },
+  "retailerCategoryCounts": [
+    {
+      "retailer": "Walmart",
+      "retained": 816,
+      "visible": 508,
+      "excluded": 308,
+      "newlyExcluded": 5,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 79,
+          "visible": 24
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 50,
+          "visible": 35
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 153,
+          "visible": 112
+        },
+        "Dishwashing": {
+          "retained": 100,
+          "visible": 31
+        },
+        "Disposable Tabletop": {
+          "retained": 27,
+          "visible": 24
+        },
+        "Floor & Carpet Care": {
+          "retained": 23,
+          "visible": 16
+        },
+        "Food Wrap & Storage": {
+          "retained": 19,
+          "visible": 14
+        },
+        "Laundry Care": {
+          "retained": 45,
+          "visible": 15
+        },
+        "Naturals": {
+          "retained": 14,
+          "visible": 14
+        },
+        "Paper Towels": {
+          "retained": 14,
+          "visible": 9
+        },
+        "Pest Control": {
+          "retained": 43,
+          "visible": 39
+        },
+        "Specialty Cleaners": {
+          "retained": 46,
+          "visible": 42
+        },
+        "Surface Cleaners": {
+          "retained": 146,
+          "visible": 81
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 15,
+          "visible": 10
+        },
+        "Trash Bags": {
+          "retained": 42,
+          "visible": 42
+        }
+      }
+    },
+    {
+      "retailer": "Costco",
+      "retained": 144,
+      "visible": 89,
+      "excluded": 55,
+      "newlyExcluded": 8,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 6,
+          "visible": 1
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 4,
+          "visible": 3
+        },
+        "Cleaning Appliances": {
+          "retained": 16,
+          "visible": 10
+        },
+        "Cleaning Tools": {
+          "retained": 33,
+          "visible": 18
+        },
+        "Dishwashing": {
+          "retained": 9,
+          "visible": 8
+        },
+        "Disposable Tabletop": {
+          "retained": 4,
+          "visible": 4
+        },
+        "Floor & Carpet Care": {
+          "retained": 8,
+          "visible": 3
+        },
+        "Food Wrap & Storage": {
+          "retained": 4,
+          "visible": 0
+        },
+        "Laundry Care": {
+          "retained": 18,
+          "visible": 11
+        },
+        "Naturals": {
+          "retained": 4,
+          "visible": 2
+        },
+        "Paper Towels": {
+          "retained": 11,
+          "visible": 10
+        },
+        "Pest Control": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Specialty Cleaners": {
+          "retained": 2,
+          "visible": 1
+        },
+        "Surface Cleaners": {
+          "retained": 18,
+          "visible": 11
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Trash Bags": {
+          "retained": 3,
+          "visible": 3
+        }
+      }
+    },
+    {
+      "retailer": "CVS",
+      "retained": 350,
+      "visible": 123,
+      "excluded": 227,
+      "newlyExcluded": 0,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 56,
+          "visible": 15
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 22,
+          "visible": 9
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 41,
+          "visible": 18
+        },
+        "Dishwashing": {
+          "retained": 31,
+          "visible": 6
+        },
+        "Disposable Tabletop": {
+          "retained": 19,
+          "visible": 18
+        },
+        "Floor & Carpet Care": {
+          "retained": 7,
+          "visible": 2
+        },
+        "Food Wrap & Storage": {
+          "retained": 31,
+          "visible": 7
+        },
+        "Laundry Care": {
+          "retained": 15,
+          "visible": 0
+        },
+        "Naturals": {
+          "retained": 2,
+          "visible": 0
+        },
+        "Paper Towels": {
+          "retained": 28,
+          "visible": 10
+        },
+        "Pest Control": {
+          "retained": 19,
+          "visible": 8
+        },
+        "Specialty Cleaners": {
+          "retained": 21,
+          "visible": 13
+        },
+        "Surface Cleaners": {
+          "retained": 42,
+          "visible": 12
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 10,
+          "visible": 3
+        },
+        "Trash Bags": {
+          "retained": 6,
+          "visible": 2
+        }
+      }
+    },
+    {
+      "retailer": "Walgreens",
+      "retained": 162,
+      "visible": 59,
+      "excluded": 103,
+      "newlyExcluded": 0,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 8,
+          "visible": 1
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 17,
+          "visible": 2
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 40,
+          "visible": 12
+        },
+        "Dishwashing": {
+          "retained": 14,
+          "visible": 4
+        },
+        "Disposable Tabletop": {
+          "retained": 3,
+          "visible": 3
+        },
+        "Floor & Carpet Care": {
+          "retained": 9,
+          "visible": 6
+        },
+        "Food Wrap & Storage": {
+          "retained": 18,
+          "visible": 8
+        },
+        "Laundry Care": {
+          "retained": 2,
+          "visible": 1
+        },
+        "Naturals": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Paper Towels": {
+          "retained": 8,
+          "visible": 3
+        },
+        "Pest Control": {
+          "retained": 3,
+          "visible": 1
+        },
+        "Specialty Cleaners": {
+          "retained": 7,
+          "visible": 7
+        },
+        "Surface Cleaners": {
+          "retained": 25,
+          "visible": 5
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 3,
+          "visible": 3
+        },
+        "Trash Bags": {
+          "retained": 5,
+          "visible": 3
+        }
+      }
+    },
+    {
+      "retailer": "Sam’s Club",
+      "retained": 568,
+      "visible": 254,
+      "excluded": 314,
+      "newlyExcluded": 1,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 83,
+          "visible": 4
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 9,
+          "visible": 0
+        },
+        "Cleaning Appliances": {
+          "retained": 59,
+          "visible": 28
+        },
+        "Cleaning Tools": {
+          "retained": 60,
+          "visible": 25
+        },
+        "Dishwashing": {
+          "retained": 25,
+          "visible": 3
+        },
+        "Disposable Tabletop": {
+          "retained": 88,
+          "visible": 85
+        },
+        "Floor & Carpet Care": {
+          "retained": 9,
+          "visible": 8
+        },
+        "Food Wrap & Storage": {
+          "retained": 57,
+          "visible": 20
+        },
+        "Laundry Care": {
+          "retained": 80,
+          "visible": 25
+        },
+        "Naturals": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Paper Towels": {
+          "retained": 11,
+          "visible": 7
+        },
+        "Pest Control": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Specialty Cleaners": {
+          "retained": 18,
+          "visible": 13
+        },
+        "Surface Cleaners": {
+          "retained": 29,
+          "visible": 10
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 14,
+          "visible": 9
+        },
+        "Trash Bags": {
+          "retained": 24,
+          "visible": 15
+        }
+      }
+    },
+    {
+      "retailer": "Lowe’s",
+      "retained": 151,
+      "visible": 66,
+      "excluded": 85,
+      "newlyExcluded": 2,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 24,
+          "visible": 2
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 14,
+          "visible": 4
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 9,
+          "visible": 6
+        },
+        "Dishwashing": {
+          "retained": 2,
+          "visible": 0
+        },
+        "Disposable Tabletop": {
+          "retained": 15,
+          "visible": 15
+        },
+        "Floor & Carpet Care": {
+          "retained": 13,
+          "visible": 10
+        },
+        "Food Wrap & Storage": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Laundry Care": {
+          "retained": 4,
+          "visible": 4
+        },
+        "Naturals": {
+          "retained": 2,
+          "visible": 0
+        },
+        "Paper Towels": {
+          "retained": 7,
+          "visible": 3
+        },
+        "Pest Control": {
+          "retained": 5,
+          "visible": 2
+        },
+        "Specialty Cleaners": {
+          "retained": 8,
+          "visible": 4
+        },
+        "Surface Cleaners": {
+          "retained": 40,
+          "visible": 10
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 3,
+          "visible": 1
+        },
+        "Trash Bags": {
+          "retained": 3,
+          "visible": 3
+        }
+      }
+    },
+    {
+      "retailer": "Home Depot",
+      "retained": 104,
+      "visible": 59,
+      "excluded": 45,
+      "newlyExcluded": 0,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 12,
+          "visible": 0
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 2,
+          "visible": 1
+        },
+        "Dishwashing": {
+          "retained": 8,
+          "visible": 0
+        },
+        "Disposable Tabletop": {
+          "retained": 22,
+          "visible": 22
+        },
+        "Floor & Carpet Care": {
+          "retained": 11,
+          "visible": 6
+        },
+        "Food Wrap & Storage": {
+          "retained": 4,
+          "visible": 4
+        },
+        "Laundry Care": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Naturals": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Paper Towels": {
+          "retained": 13,
+          "visible": 6
+        },
+        "Pest Control": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Specialty Cleaners": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Surface Cleaners": {
+          "retained": 5,
+          "visible": 3
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 15,
+          "visible": 8
+        },
+        "Trash Bags": {
+          "retained": 5,
+          "visible": 4
+        }
+      }
+    },
+    {
+      "retailer": "Ace Hardware",
+      "retained": 3999,
+      "visible": 2559,
+      "excluded": 1440,
+      "newlyExcluded": 292,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 259,
+          "visible": 115
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 189,
+          "visible": 131
+        },
+        "Cleaning Appliances": {
+          "retained": 21,
+          "visible": 14
+        },
+        "Cleaning Tools": {
+          "retained": 1963,
+          "visible": 1281
+        },
+        "Dishwashing": {
+          "retained": 101,
+          "visible": 15
+        },
+        "Disposable Tabletop": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Floor & Carpet Care": {
+          "retained": 208,
+          "visible": 125
+        },
+        "Food Wrap & Storage": {
+          "retained": 313,
+          "visible": 275
+        },
+        "Laundry Care": {
+          "retained": 5,
+          "visible": 3
+        },
+        "Naturals": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Paper Towels": {
+          "retained": 69,
+          "visible": 41
+        },
+        "Pest Control": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Specialty Cleaners": {
+          "retained": 233,
+          "visible": 178
+        },
+        "Surface Cleaners": {
+          "retained": 470,
+          "visible": 286
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 70,
+          "visible": 42
+        },
+        "Trash Bags": {
+          "retained": 95,
+          "visible": 52
+        }
+      }
+    },
+    {
+      "retailer": "Kroger",
+      "retained": 195,
+      "visible": 92,
+      "excluded": 103,
+      "newlyExcluded": 0,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 3,
+          "visible": 0
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 24,
+          "visible": 5
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Dishwashing": {
+          "retained": 8,
+          "visible": 3
+        },
+        "Disposable Tabletop": {
+          "retained": 3,
+          "visible": 3
+        },
+        "Floor & Carpet Care": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Food Wrap & Storage": {
+          "retained": 24,
+          "visible": 9
+        },
+        "Laundry Care": {
+          "retained": 39,
+          "visible": 12
+        },
+        "Naturals": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Paper Towels": {
+          "retained": 40,
+          "visible": 25
+        },
+        "Pest Control": {
+          "retained": 7,
+          "visible": 5
+        },
+        "Specialty Cleaners": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Surface Cleaners": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 15,
+          "visible": 15
+        },
+        "Trash Bags": {
+          "retained": 27,
+          "visible": 14
+        }
+      }
+    },
+    {
+      "retailer": "H-E-B",
+      "retained": 40,
+      "visible": 12,
+      "excluded": 28,
+      "newlyExcluded": 1,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 13,
+          "visible": 0
+        },
+        "Dishwashing": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Disposable Tabletop": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Floor & Carpet Care": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Food Wrap & Storage": {
+          "retained": 6,
+          "visible": 0
+        },
+        "Laundry Care": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Naturals": {
+          "retained": 3,
+          "visible": 3
+        },
+        "Paper Towels": {
+          "retained": 4,
+          "visible": 0
+        },
+        "Pest Control": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Specialty Cleaners": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Surface Cleaners": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Trash Bags": {
+          "retained": 2,
+          "visible": 2
+        }
+      }
+    },
+    {
+      "retailer": "Dollar General",
+      "retained": 330,
+      "visible": 124,
+      "excluded": 206,
+      "newlyExcluded": 0,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 46,
+          "visible": 6
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 9,
+          "visible": 5
+        },
+        "Cleaning Appliances": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 28,
+          "visible": 5
+        },
+        "Dishwashing": {
+          "retained": 38,
+          "visible": 8
+        },
+        "Disposable Tabletop": {
+          "retained": 29,
+          "visible": 25
+        },
+        "Floor & Carpet Care": {
+          "retained": 8,
+          "visible": 6
+        },
+        "Food Wrap & Storage": {
+          "retained": 24,
+          "visible": 8
+        },
+        "Laundry Care": {
+          "retained": 31,
+          "visible": 11
+        },
+        "Naturals": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Paper Towels": {
+          "retained": 20,
+          "visible": 10
+        },
+        "Pest Control": {
+          "retained": 17,
+          "visible": 9
+        },
+        "Specialty Cleaners": {
+          "retained": 3,
+          "visible": 3
+        },
+        "Surface Cleaners": {
+          "retained": 47,
+          "visible": 17
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 4,
+          "visible": 4
+        },
+        "Trash Bags": {
+          "retained": 24,
+          "visible": 6
+        }
+      }
+    },
+    {
+      "retailer": "Dollar Tree",
+      "retained": 23,
+      "visible": 18,
+      "excluded": 5,
+      "newlyExcluded": 0,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Dishwashing": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Disposable Tabletop": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Floor & Carpet Care": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Food Wrap & Storage": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Laundry Care": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Naturals": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Paper Towels": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Pest Control": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Specialty Cleaners": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Surface Cleaners": {
+          "retained": 6,
+          "visible": 5
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Trash Bags": {
+          "retained": 2,
+          "visible": 2
+        }
+      }
+    },
+    {
+      "retailer": "Amazon US",
+      "retained": 737,
+      "visible": 307,
+      "excluded": 430,
+      "newlyExcluded": 3,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 83,
+          "visible": 35
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 24,
+          "visible": 4
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 76,
+          "visible": 39
+        },
+        "Dishwashing": {
+          "retained": 89,
+          "visible": 21
+        },
+        "Disposable Tabletop": {
+          "retained": 34,
+          "visible": 28
+        },
+        "Floor & Carpet Care": {
+          "retained": 25,
+          "visible": 8
+        },
+        "Food Wrap & Storage": {
+          "retained": 64,
+          "visible": 23
+        },
+        "Laundry Care": {
+          "retained": 80,
+          "visible": 32
+        },
+        "Naturals": {
+          "retained": 6,
+          "visible": 2
+        },
+        "Paper Towels": {
+          "retained": 42,
+          "visible": 28
+        },
+        "Pest Control": {
+          "retained": 37,
+          "visible": 26
+        },
+        "Specialty Cleaners": {
+          "retained": 21,
+          "visible": 10
+        },
+        "Surface Cleaners": {
+          "retained": 55,
+          "visible": 17
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 65,
+          "visible": 24
+        },
+        "Trash Bags": {
+          "retained": 36,
+          "visible": 10
+        }
+      }
+    },
+    {
+      "retailer": "TikTok Shop",
+      "retained": 946,
+      "visible": 812,
+      "excluded": 134,
+      "newlyExcluded": 0,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 103,
+          "visible": 99
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 14,
+          "visible": 7
+        },
+        "Cleaning Appliances": {
+          "retained": 20,
+          "visible": 20
+        },
+        "Cleaning Tools": {
+          "retained": 91,
+          "visible": 64
+        },
+        "Dishwashing": {
+          "retained": 14,
+          "visible": 11
+        },
+        "Disposable Tabletop": {
+          "retained": 6,
+          "visible": 6
+        },
+        "Floor & Carpet Care": {
+          "retained": 9,
+          "visible": 6
+        },
+        "Food Wrap & Storage": {
+          "retained": 112,
+          "visible": 111
+        },
+        "Laundry Care": {
+          "retained": 127,
+          "visible": 114
+        },
+        "Naturals": {
+          "retained": 19,
+          "visible": 0
+        },
+        "Paper Towels": {
+          "retained": 10,
+          "visible": 8
+        },
+        "Pest Control": {
+          "retained": 123,
+          "visible": 123
+        },
+        "Specialty Cleaners": {
+          "retained": 4,
+          "visible": 2
+        },
+        "Surface Cleaners": {
+          "retained": 31,
+          "visible": 15
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 101,
+          "visible": 75
+        },
+        "Trash Bags": {
+          "retained": 162,
+          "visible": 151
+        }
+      }
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "retained": 37,
+      "visible": 12,
+      "excluded": 25,
+      "newlyExcluded": 0,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 4,
+          "visible": 0
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 2,
+          "visible": 0
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 7,
+          "visible": 1
+        },
+        "Dishwashing": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Disposable Tabletop": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Floor & Carpet Care": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Food Wrap & Storage": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Laundry Care": {
+          "retained": 3,
+          "visible": 1
+        },
+        "Naturals": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Paper Towels": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Pest Control": {
+          "retained": 2,
+          "visible": 1
+        },
+        "Specialty Cleaners": {
+          "retained": 2,
+          "visible": 0
+        },
+        "Surface Cleaners": {
+          "retained": 6,
+          "visible": 1
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 3,
+          "visible": 3
+        },
+        "Trash Bags": {
+          "retained": 2,
+          "visible": 1
+        }
+      }
+    },
+    {
+      "retailer": "Meijer",
+      "retained": 1410,
+      "visible": 590,
+      "excluded": 820,
+      "newlyExcluded": 5,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 158,
+          "visible": 13
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 32,
+          "visible": 7
+        },
+        "Cleaning Appliances": {
+          "retained": 5,
+          "visible": 5
+        },
+        "Cleaning Tools": {
+          "retained": 151,
+          "visible": 52
+        },
+        "Dishwashing": {
+          "retained": 116,
+          "visible": 18
+        },
+        "Disposable Tabletop": {
+          "retained": 184,
+          "visible": 179
+        },
+        "Floor & Carpet Care": {
+          "retained": 49,
+          "visible": 18
+        },
+        "Food Wrap & Storage": {
+          "retained": 52,
+          "visible": 33
+        },
+        "Laundry Care": {
+          "retained": 224,
+          "visible": 64
+        },
+        "Naturals": {
+          "retained": 84,
+          "visible": 23
+        },
+        "Paper Towels": {
+          "retained": 31,
+          "visible": 18
+        },
+        "Pest Control": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Specialty Cleaners": {
+          "retained": 40,
+          "visible": 36
+        },
+        "Surface Cleaners": {
+          "retained": 143,
+          "visible": 53
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 89,
+          "visible": 53
+        },
+        "Trash Bags": {
+          "retained": 51,
+          "visible": 18
+        }
+      }
+    },
+    {
+      "retailer": "Publix",
+      "retained": 108,
+      "visible": 40,
+      "excluded": 68,
+      "newlyExcluded": 0,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 35,
+          "visible": 4
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 2,
+          "visible": 0
+        },
+        "Dishwashing": {
+          "retained": 6,
+          "visible": 0
+        },
+        "Disposable Tabletop": {
+          "retained": 4,
+          "visible": 3
+        },
+        "Floor & Carpet Care": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Food Wrap & Storage": {
+          "retained": 4,
+          "visible": 0
+        },
+        "Laundry Care": {
+          "retained": 5,
+          "visible": 1
+        },
+        "Naturals": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Paper Towels": {
+          "retained": 10,
+          "visible": 5
+        },
+        "Pest Control": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Specialty Cleaners": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Surface Cleaners": {
+          "retained": 2,
+          "visible": 0
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 31,
+          "visible": 21
+        },
+        "Trash Bags": {
+          "retained": 3,
+          "visible": 2
+        }
+      }
+    },
+    {
+      "retailer": "Safeway",
+      "retained": 55,
+      "visible": 41,
+      "excluded": 14,
+      "newlyExcluded": 0,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 2,
+          "visible": 1
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 17,
+          "visible": 17
+        },
+        "Dishwashing": {
+          "retained": 3,
+          "visible": 0
+        },
+        "Disposable Tabletop": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Floor & Carpet Care": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Food Wrap & Storage": {
+          "retained": 2,
+          "visible": 0
+        },
+        "Laundry Care": {
+          "retained": 4,
+          "visible": 0
+        },
+        "Naturals": {
+          "retained": 4,
+          "visible": 4
+        },
+        "Paper Towels": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Pest Control": {
+          "retained": 2,
+          "visible": 0
+        },
+        "Specialty Cleaners": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Surface Cleaners": {
+          "retained": 7,
+          "visible": 7
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 7,
+          "visible": 7
+        },
+        "Trash Bags": {
+          "retained": 2,
+          "visible": 2
+        }
+      }
+    },
+    {
+      "retailer": "Albertsons",
+      "retained": 92,
+      "visible": 49,
+      "excluded": 43,
+      "newlyExcluded": 0,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 16,
+          "visible": 3
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 2,
+          "visible": 1
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 31,
+          "visible": 19
+        },
+        "Dishwashing": {
+          "retained": 9,
+          "visible": 4
+        },
+        "Disposable Tabletop": {
+          "retained": 4,
+          "visible": 4
+        },
+        "Floor & Carpet Care": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Food Wrap & Storage": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Laundry Care": {
+          "retained": 5,
+          "visible": 0
+        },
+        "Naturals": {
+          "retained": 3,
+          "visible": 3
+        },
+        "Paper Towels": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Pest Control": {
+          "retained": 1,
+          "visible": 0
+        },
+        "Specialty Cleaners": {
+          "retained": 1,
+          "visible": 1
+        },
+        "Surface Cleaners": {
+          "retained": 8,
+          "visible": 7
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 3,
+          "visible": 1
+        },
+        "Trash Bags": {
+          "retained": 5,
+          "visible": 3
+        }
+      }
+    },
+    {
+      "retailer": "Quince",
+      "retained": 2,
+      "visible": 2,
+      "excluded": 0,
+      "newlyExcluded": 0,
+      "categoryCounts": {
+        "Air Care": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Bathroom & Toilet Cleaning": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Appliances": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Cleaning Tools": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Dishwashing": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Disposable Tabletop": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Floor & Carpet Care": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Food Wrap & Storage": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Laundry Care": {
+          "retained": 2,
+          "visible": 2
+        },
+        "Naturals": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Paper Towels": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Pest Control": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Specialty Cleaners": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Surface Cleaners": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Toilet Paper & Tissues": {
+          "retained": 0,
+          "visible": 0
+        },
+        "Trash Bags": {
+          "retained": 0,
+          "visible": 0
+        }
+      }
+    }
+  ],
+  "remainingWork": "The other 15 retailers and full category pagination were not source-rechecked in this scoped follow-up. Retain comprehensive Monday review and existing source dates. Continue exact item/seller/photo and Target overlap checks across all 20 retailers.",
+  "newlyExcludedIds": [
+    "CMP-182",
+    "CMP-364",
+    "CMP-365",
+    "HC-7ba3d2eed68d",
+    "HC-662764e67cb8",
+    "HC-01e17bb08ad5",
+    "HC-a29da53cd1a7",
+    "HC-3777378b3098",
+    "HC-cca58b9b279a",
+    "HC-e4588abb6b65",
+    "HC-fbcf420e1b2c",
+    "HC-e2860fd6b933",
+    "HC-54199bd9102a",
+    "HC-b19a2ecbe6db",
+    "HC-ec25f2705a8f",
+    "HC-87b00248f5fb",
+    "HC-4144ee072ae9",
+    "HC-b6e88bffe9c8",
+    "HC-db9462478a74",
+    "HC-83a0f09575be",
+    "HC-2e527ff1e682",
+    "HC-17568ff96e6b",
+    "HC-f8ca667d23c3",
+    "HC-2c805c63a242",
+    "HC-99129e3a44f0",
+    "HC-69676b107ff0",
+    "HC-25b01ba2b7b5",
+    "HC-66fa40eb92b3",
+    "HC-00458d04d8d9",
+    "HC-a2fa84b0a1c6",
+    "HC-095ae2bdf0fc",
+    "HC-f1daa1b9c8c6",
+    "HC-2ad20a4c8f2c",
+    "HC-4e4ab671e060",
+    "HC-d5efe2bbbfe1",
+    "HC-436d7466c1ee",
+    "HC-43c8707e4ba9",
+    "HC-93682ff78202",
+    "HC-cd9ff78d3add",
+    "HC-eb98cd541d2e",
+    "HC-cc3c63e863ca",
+    "HC-bc68f936952c",
+    "HC-e4c74c91b4fd",
+    "HC-fba196f06492",
+    "HC-d4b22e29a323",
+    "HC-7a46815367e7",
+    "HC-5784df4fc4cd",
+    "HC-d8d6f43acb43",
+    "HC-3a885bfb89dc",
+    "HC-665da91a93d2",
+    "HC-1b30476349aa",
+    "HC-685dd2a9dee4",
+    "HC-ccf2aed6fb92",
+    "HC-54923365e3c9",
+    "HC-ce898585c4bd",
+    "HC-ba3273f09451",
+    "HC-f6b6d6c5a3e5",
+    "HC-f02078e7c5bf",
+    "HC-61f7da24299c",
+    "HC-f48f16cbf3fb",
+    "HC-e32cc7429bd6",
+    "HC-bcb2ab56ed09",
+    "HC-50a40642cef6",
+    "HC-8863fea3f99e",
+    "HC-40b1c58f70f2",
+    "HC-249e3f1e429c",
+    "HC-c3c45c3a1614",
+    "HC-0a5ea17327b3",
+    "HC-86046789771b",
+    "HC-f6a8bf992bf7",
+    "HC-36ce74f1d9bd",
+    "HC-e8b7af83519b",
+    "HC-2cdc33a6631a",
+    "HC-5f71bbe07128",
+    "HC-b260b90123d3",
+    "HC-c66a4590495e",
+    "HC-783c38bb8e16",
+    "HC-f9be76383093",
+    "HC-de60b14de716",
+    "HC-8461c32d4dd8",
+    "HC-f49230805fc8",
+    "HC-3084223dca21",
+    "HC-f98cda695a69",
+    "HC-2def7e614928",
+    "HC-ce4e674f5728",
+    "HC-e954e72e4722",
+    "HC-9529f6eafe19",
+    "HC-f6f22fbe2e6b",
+    "HC-03034da47da4",
+    "HC-1bc466e6809f",
+    "HC-312b9f91aa38",
+    "HC-14d5cf855140",
+    "HC-c707116d520f",
+    "HC-44ea61e93b67",
+    "HC-010f9c3571fe",
+    "HC-e3e03738ad59",
+    "HC-0b77e249a347",
+    "HC-449c666cb6d7",
+    "HC-e90915696cfa",
+    "HC-720d4bdc23fd",
+    "HC-06b2255a5765",
+    "HC-049af37a520e",
+    "HC-484baf9d6e0f",
+    "HC-8859625d9160",
+    "HC-996c4aad817e",
+    "HC-8b83c285d398",
+    "HC-bf3c4673b48d",
+    "HC-206d436bcc99",
+    "HC-aeae46625d7d",
+    "HC-5891ccb724b3",
+    "HC-ed60911fe3cf",
+    "HC-1b7dadc1ef96",
+    "HC-76a0eceb4055",
+    "HC-ba57cac2babc",
+    "HC-92cb839e6750",
+    "HC-0ff4ab10d7f2",
+    "HC-da6de44da480",
+    "HC-d30a66515afb",
+    "HC-cfb7176dd9ce",
+    "HC-daf5cfd587d6",
+    "HC-e5f6a4dbe8fd",
+    "HC-9603b4ed8b10",
+    "HC-700bedf711d9",
+    "HC-df9ca30b4b73",
+    "HC-73444197ce79",
+    "HC-e448c91f349a",
+    "HC-38ff5fceadef",
+    "HC-4a76fd2b98c5",
+    "HC-3b1438d65961",
+    "HC-e9ed4562f625",
+    "HC-1b71aa57a147",
+    "HC-b4b8634c35f5",
+    "HC-e63dd01d0a6c",
+    "HC-657d09db65a5",
+    "HC-1bba195bbc3e",
+    "HC-4257541a70ef",
+    "HC-996d837a466c",
+    "HC-d35733191bc7",
+    "HC-bdf2ef159ab7",
+    "HC-34e005196616",
+    "HC-e60d446b9e8d",
+    "HC-6e83ec672c76",
+    "HC-583fb561d8ec",
+    "HC-e961355ffd44",
+    "HC-a267f9bffc2b",
+    "HC-282bed5f1e78",
+    "HC-feade10b4d90",
+    "HC-f8931aafead4",
+    "HC-dc54d9fb422e",
+    "HC-fc563c0508af",
+    "HC-c9fa2c722682",
+    "HC-c31593250df1",
+    "HC-93f22cb5e39b",
+    "HC-b8c64d0dff02",
+    "HC-35b33394f956",
+    "HC-7afabbcdb15f",
+    "HC-11c34dadce8b",
+    "HC-e12219bfdf16",
+    "HC-5a35f63e1d9c",
+    "HC-7f74e65e4557",
+    "HC-8eea4ae6847e",
+    "HC-ee51480e19aa",
+    "HC-c9f43b890e88",
+    "HC-9a36cad8c0cd",
+    "HC-3ebacfeffe85",
+    "HC-3cd7e0658f70",
+    "HC-29105fa8decd",
+    "HC-2dfd1de17b67",
+    "HC-ecce85c472df",
+    "HC-076b7a6b8cb0",
+    "HC-35fd596cb71e",
+    "HC-046120d2aa09",
+    "HC-dc00ee5abcd7",
+    "HC-09728046f747",
+    "HC-cb2902dbd5ad",
+    "HC-5e64ac29b5fc",
+    "HC-edebc4598282",
+    "HC-0c959dc4c1b4",
+    "HC-66e665645ed6",
+    "HC-88fa3224fbc3",
+    "HC-b16bc90465e3",
+    "HC-3934eb3ca684",
+    "HC-872e7db83b30",
+    "HC-71ca9c618098",
+    "HC-70ded06ed44a",
+    "HC-03dac57a638e",
+    "HC-d35ceca25a04",
+    "HC-6bec5672383e",
+    "HC-e967d1f09273",
+    "HC-7264fabdd87c",
+    "HC-dd7111d1f07b",
+    "HC-be049e8e2a76",
+    "HC-33bd6e30df20",
+    "HC-eb19ebf9c488",
+    "HC-0b615c1fa657",
+    "HC-b23e4fe2fd5e",
+    "HC-919b6ea6dea2",
+    "HC-2873a088ad52",
+    "HC-be67c2ecdbb4",
+    "HC-7701ac193819",
+    "HC-e465c62d5dc7",
+    "HC-56ac8c3435ae",
+    "HC-d5a554612f10",
+    "HC-e7b8990745d0",
+    "HC-a50ed9929f4e",
+    "HC-995f8db1aae9",
+    "HC-8b7c2fd6cc45",
+    "HC-f6a064f5b7bd",
+    "HC-8e41b33ac4c0",
+    "HC-3d996fe7304b",
+    "HC-13ebd366f1f5",
+    "HC-cca4883ddf43",
+    "HC-e864745387e2",
+    "HC-300c40c704fa",
+    "HC-fe9994e8ac2e",
+    "HC-c183b7f09d62",
+    "HC-36e44edcfe16",
+    "HC-e6fb1d63f697",
+    "HC-bf412c4ba920",
+    "HC-0cbe78f41dfe",
+    "HC-963256f2b9aa",
+    "HC-4400ff1fec66",
+    "HC-fb3b117dd133",
+    "HC-a79e36248cc9",
+    "HC-2428033adc1f",
+    "HC-85e0ef0d6a52",
+    "HC-3bb61ff555f8",
+    "HC-8754eeeb5c4d",
+    "HC-83e371b70dd1",
+    "HC-d0391d4947c0",
+    "HC-b749bccd9daf",
+    "HC-708fdd15b48f",
+    "HC-c02e8b5a3931",
+    "HC-6803f84b4501",
+    "HC-7038d3f1e9f0",
+    "HC-7f8b1923d0d7",
+    "HC-75058c5f2fe2",
+    "HC-50ca0f0c12f6",
+    "HC-0dcd4bb98f23",
+    "HC-77fa0b30d66b",
+    "HC-89dfb4cd2c7d",
+    "HC-9638b2e293b2",
+    "HC-c71dfe400954",
+    "HC-b4828224bc12",
+    "HC-3adc80ab981b",
+    "HC-a5f0b97860b2",
+    "HC-8d1966263435",
+    "HC-c2167a6998c5",
+    "HC-037cfd6b78b3",
+    "HC-0bee9a57db6e",
+    "HC-8cbdcd0d4c62",
+    "HC-6881717c8792",
+    "HC-c515845c6e0c",
+    "HC-5e8fad92e636",
+    "HC-c28fbd06fef6",
+    "HC-0ba23b7e4376",
+    "HC-5f056afce6d0",
+    "HC-aee1f9060749",
+    "HC-f69862a084b1",
+    "HC-5aca68644599",
+    "HC-68e3de185987",
+    "HC-5db61e3a9271",
+    "HC-bfdb1298b04b",
+    "HC-febb6fdc1743",
+    "HC-1ee5ef3be0a2",
+    "HC-eb05fe3c352b",
+    "HC-81b89c48b827",
+    "HC-8f6542671522",
+    "HC-5e194f79f6fc",
+    "HC-c27df175bb55",
+    "HC-17ad0639359d",
+    "HC-bea4ae22aee0",
+    "HC-cb3504278cfa",
+    "HC-1f129b0badef",
+    "HC-7f89f45d43b7",
+    "HC-1cfc8995d915",
+    "HC-4f36b4e44118",
+    "HC-d4fb11ae4f41",
+    "HC-60b0aef81bd4",
+    "HC-93f8ee3e434d",
+    "HC-366afdb6170d",
+    "HC-800cc6c047dc",
+    "HC-bddecda9067e",
+    "HC-28551641e1f3",
+    "HC-0d4c8ba85d89",
+    "HC-98adbeb1a968",
+    "HC-4fbb4e8154ed",
+    "HC-5a3bf9d0ba7e",
+    "HC-ed5db94c6f54",
+    "HC-52a59a1a7777",
+    "HC-2f08c2202f44",
+    "HC-77c806426e17",
+    "HC-5ed2322a17b5",
+    "HC-e0b3af7eca47",
+    "HC-a1a11d5e5adc",
+    "HC-77a2972dce6d",
+    "HC-d72c7c9d3ae9",
+    "HC-bbf8481f4b6c",
+    "HC-8ce0fe58d4b1",
+    "HC-8d6a1d0ed094",
+    "HC-f9907cc9c10b",
+    "HC-a30ff6f19ca5",
+    "HC-4f74da760f7b",
+    "HC-c5c09d7b1392",
+    "HC-46fb4d87f1b3",
+    "HC-c4329fabddda",
+    "HC-f28a544d5ab0",
+    "HC-92fab2411efd",
+    "HC-db04908ba527",
+    "HC-27063d496407",
+    "HC-8a95117c9928",
+    "HC-9fa426ba034e",
+    "HC-def0eddf206c",
+    "HC-02b95e2fc1b7",
+    "HC-f69c133ac88c",
+    "HC-575d7a22865d",
+    "HC-f7005bff6897"
+  ],
+  "matrixScope": "All cells are canonical collected-record counts, not source inventory counts. No category pagination was exhausted in this scoped follow-up. Zero retained records is a research gap. Actual source checks are listed separately in retailerChecks."
+}
