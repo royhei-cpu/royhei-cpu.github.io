@@ -17,7 +17,7 @@ function showCatalogView(catalog){
 function opportunityRows(o){
  const ids=[...(o.seedIds||[]),...(o.references||[]).map(r=>r.id),...(o.matchedIds||[])];
  const allowed=new Set(o.matchedIds||[]),seen=new Set();
- return ids.filter(id=>id&&allowed.has(id)&&!seen.has(id)&&seen.add(id)).map(id=>byId.get(id)).filter(Boolean);
+ return ids.filter(id=>id&&allowed.has(id)&&!seen.has(id)&&seen.add(id)).map(id=>byId.get(id)).filter(Boolean).sort((a,b)=>Number(!!b.image)-Number(!!a.image));
 }
 function opportunityCohorts(o){return o.salesCohorts||window.HCSalesModel.groupRows((o.recordIds||o.matchedIds||[]).map(id=>byId.get(id)).filter(Boolean));}
 function renderOpportunitySales(o){
@@ -93,7 +93,7 @@ function renderOpportunityDetail(){
   return card;
  }));
  $('opportunity-more').hidden=rows.length<=shown.length;
- $('opportunity-more').textContent='Show 12 more supporting products ('+oppNumber(shown.length)+' of '+oppNumber(rows.length)+')';
+ $('opportunity-more').textContent='Show '+Math.min(12,rows.length-opportunityExampleLimit)+' more supporting products ('+oppNumber(shown.length)+' of '+oppNumber(rows.length)+')';
  $('opportunity-product-empty').hidden=rows.length>0;
  renderOpportunitySales(o);syncOpportunitySelections();
 }
@@ -114,7 +114,7 @@ function renderOpportunities(recalculate=false){
 }
 function setupOpportunities(){
  const definitions=window.HCOpportunityModel?.definitions||[],categories=[...new Set(definitions.flatMap(o=>o.categories||[]))].sort();
- const retailers=[...new Set(ITEMS.map(d=>d.retailer))].sort();
+ const retailers=[...new Set(ITEMS.filter(d=>window.HCOpportunityModel.definitions.some(o=>o.matches(d))).map(d=>d.retailer))].sort();
  const platforms=[...new Map(definitions.map(o=>[o.platformId||opportunityPlatform(o),opportunityPlatform(o)])).entries()];
  const section=$('executive-view');section.removeAttribute('aria-labelledby');section.setAttribute('aria-label','Target inspiration');
  section.innerHTML=`<div class="exec-intro"><p>Choose a product direction to review the customer need, proposed own-brand concept and supporting competitor products.</p></div>

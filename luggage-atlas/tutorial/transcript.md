@@ -32,7 +32,7 @@ For launches and catalogue changes, open News and updates.
 
 ## Explore the research
 
-For research, open Insights. Choose Market and customers for charts, Product design for trends, or Sourcing for manufacturing evidence.
+For research, open Insights. Sales and analysis shows saved sales signals and prices. Target inspiration shows product directions, proposed concepts, and supporting competitor products.
 
 ## Return home anytime
 
