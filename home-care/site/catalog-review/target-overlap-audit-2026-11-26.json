@@ -1,0 +1,5228 @@
+{
+  "checkedAt": "2026-11-26",
+  "scope": "Continuation of the 25 November Target-overlap queue. All 10,279 canonical records were evaluated against 17 newly confirmed Target-carried brand rules across all 20 retailers. This is a scoped overlap correction, not an exhaustive Target assortment audit or comprehensive retailer-pagination review.",
+  "requireClearance": false,
+  "canonicalCount": 10279,
+  "visibleBefore": 5060,
+  "visibleAfter": 4764,
+  "newBrandRules": 17,
+  "newlyExcludedCount": 296,
+  "retailers": [
+    {
+      "retailer": "Ace Hardware",
+      "canonical": 3999,
+      "visibleBefore": 2313,
+      "visibleAfter": 2024,
+      "newlyExcluded": 289
+    },
+    {
+      "retailer": "Albertsons",
+      "canonical": 92,
+      "visibleBefore": 41,
+      "visibleAfter": 41,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Amazon US",
+      "canonical": 737,
+      "visibleBefore": 229,
+      "visibleAfter": 229,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "canonical": 37,
+      "visibleBefore": 9,
+      "visibleAfter": 9,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "CVS",
+      "canonical": 350,
+      "visibleBefore": 96,
+      "visibleAfter": 96,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Costco",
+      "canonical": 144,
+      "visibleBefore": 77,
+      "visibleAfter": 76,
+      "newlyExcluded": 1
+    },
+    {
+      "retailer": "Dollar General",
+      "canonical": 330,
+      "visibleBefore": 85,
+      "visibleAfter": 85,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Dollar Tree",
+      "canonical": 23,
+      "visibleBefore": 12,
+      "visibleAfter": 12,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "H-E-B",
+      "canonical": 40,
+      "visibleBefore": 12,
+      "visibleAfter": 12,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Home Depot",
+      "canonical": 104,
+      "visibleBefore": 47,
+      "visibleAfter": 46,
+      "newlyExcluded": 1
+    },
+    {
+      "retailer": "Kroger",
+      "canonical": 195,
+      "visibleBefore": 62,
+      "visibleAfter": 62,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Lowe’s",
+      "canonical": 151,
+      "visibleBefore": 55,
+      "visibleAfter": 55,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Meijer",
+      "canonical": 1410,
+      "visibleBefore": 450,
+      "visibleAfter": 449,
+      "newlyExcluded": 1
+    },
+    {
+      "retailer": "Publix",
+      "canonical": 108,
+      "visibleBefore": 18,
+      "visibleAfter": 18,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Quince",
+      "canonical": 8,
+      "visibleBefore": 8,
+      "visibleAfter": 8,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Safeway",
+      "canonical": 55,
+      "visibleBefore": 40,
+      "visibleAfter": 40,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Sam’s Club",
+      "canonical": 568,
+      "visibleBefore": 210,
+      "visibleAfter": 210,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "TikTok Shop",
+      "canonical": 950,
+      "visibleBefore": 804,
+      "visibleAfter": 804,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Walgreens",
+      "canonical": 162,
+      "visibleBefore": 42,
+      "visibleAfter": 42,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Walmart",
+      "canonical": 816,
+      "visibleBefore": 450,
+      "visibleAfter": 446,
+      "newlyExcluded": 4
+    }
+  ],
+  "confirmedBrands": [
+    {
+      "brand": "Kikkerland",
+      "sourceUrl": "https://www.target.com/b/kikkerland/-/N-5y08u",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Kikkerland product offers, including folding step stools. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Granite Gold",
+      "sourceUrl": "https://www.target.com/b/granite-gold/-/N-q643leav4df",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Granite Gold cleaner and scrubber offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Krud Kutter",
+      "sourceUrl": "https://www.target.com/b/krud-kutter/-/N-q643lebg2tq",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Krud Kutter cleaner and degreaser offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Wooster",
+      "sourceUrl": "https://www.target.com/b/wooster/-/N-n3yw9",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Wooster paint-tool offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Rust-Oleum",
+      "sourceUrl": "https://www.target.com/b/rust-oleum/-/N-gblsw",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Rust-Oleum product offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "WD-40",
+      "sourceUrl": "https://www.target.com/b/wd-40/-/N-4uxnf",
+      "evidence": "Target brand page opened 26 November 2026 and displayed WD-40 lubricant offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Guardsman",
+      "sourceUrl": "https://www.target.com/b/guardsman/-/N-q643letl4nk",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Guardsman furniture-care offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Crocodile Cloth",
+      "sourceUrl": "https://www.target.com/b/crocodile-cloth/-/N-q643leudcf6",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Crocodile Cloth cleaning-wipe offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Spray Nine",
+      "sourceUrl": "https://www.target.com/b/spray-nine/-/N-q643le4qlu6",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Spray Nine cleaner, degreaser and disinfectant offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "YETI",
+      "sourceUrl": "https://www.target.com/b/yeti/-/N-q643lep4cu",
+      "evidence": "Target brand page opened 26 November 2026 and displayed YETI drinkware offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Core Home",
+      "sourceUrl": "https://www.target.com/b/core-home/-/N-q643leryzo7",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Core Home product offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Oggi",
+      "sourceUrl": "https://www.target.com/b/oggi/-/N-5vgnj",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Oggi storage and kitchen offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Flitz",
+      "sourceUrl": "https://www.target.com/b/flitz/-/N-q643lerv61w",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Flitz metal-care offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Armaly",
+      "sourceUrl": "https://www.target.com/b/armaly/-/N-q643lelbo1b",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Armaly sponge offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Marcal",
+      "sourceUrl": "https://www.target.com/b/marcal/-/N-e18m2",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Marcal bathroom-tissue offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Hagerty",
+      "sourceUrl": "https://www.target.com/b/hagerty/-/N-5v3ak",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Hagerty silver-care offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "Chef Craft",
+      "sourceUrl": "https://www.target.com/b/chef-craft/-/N-q643lecod0",
+      "evidence": "Target brand page opened 26 November 2026 and displayed Chef Craft kitchen-tool offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-26"
+    }
+  ],
+  "affectedRecords": [
+    {
+      "id": "HC-ecbb82f50e0f",
+      "name": "YETI LoadOut 5 gal Bucket Seafoam",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-seafoam/p/8147221"
+    },
+    {
+      "id": "HC-a096fa6a9d9a",
+      "name": "Crocodile Cloth Glass Cloth 10 in. W X 15 in. L 1 pk",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-glass-cloth-10-in-w-x-15-in-l-1-pk/p/1047318"
+    },
+    {
+      "id": "HC-854d29061ec5",
+      "name": "Flitz No Scent Metal Cleaner 16 oz Liquid",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-metal-cleaner-16-oz-liquid/p/1234772"
+    },
+    {
+      "id": "HC-6899af14ae52",
+      "name": "Hagerty No Scent Brass and Copper Polish 8 oz Liquid",
+      "brand": "Hagerty",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hagerty-no-scent-brass-and-copper-polish-8-oz-liquid/p/1424068"
+    },
+    {
+      "id": "HC-73dbe833e1c1",
+      "name": "Hagerty No Scent Silver Protection Strips 8 pk Cloth",
+      "brand": "Hagerty",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hagerty-no-scent-silver-protection-strips-8-pk-cloth/p/1484187"
+    },
+    {
+      "id": "HC-8d6b7cd64b2a",
+      "name": "Hagerty No Scent Silversmiths' Gloves 1 pair Cloth",
+      "brand": "Hagerty",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hagerty-no-scent-silversmiths-gloves-1-pair-cloth/p/1484153"
+    },
+    {
+      "id": "HC-942ac1a7520b",
+      "name": "Granite Gold Citrus Scent Concentrated All Purpose Cleaner Liquid 24 oz",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-citrus-scent-concentrated-all-purpose-cleaner-liquid-24-oz/p/1491174"
+    },
+    {
+      "id": "HC-157def7e6c6b",
+      "name": "WD-40 Specialist 1 gal Rust Remover",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-specialist-1-gal-rust-remover/p/1503846"
+    },
+    {
+      "id": "HC-069060ed2ee7",
+      "name": "Spray Nine Grez Off Unscented Scent Heavy Duty Degreaser 32 oz Liquid",
+      "brand": "Spray Nine",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/spray-nine-grez-off-unscented-scent-heavy-duty-degreaser-32-oz-liquid/p/1514264"
+    },
+    {
+      "id": "HC-30970992a226",
+      "name": "Spray Nine Grez Off Heavy Duty Degreaser 1 gal Liquid",
+      "brand": "Spray Nine",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/spray-nine-grez-off-heavy-duty-degreaser-1-gal-liquid/p/1514272"
+    },
+    {
+      "id": "HC-c5854c37b90a",
+      "name": "Guardsman Cotton Dusting Cloth 14 in. W X 18 in. L 5 pk",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-cotton-dusting-cloth-14-in-w-x-18-in-l-5-pk/p/1586130"
+    },
+    {
+      "id": "HC-a769925276ce",
+      "name": "Guardsman Weather Defense No Scent Wood Cleaner and Preservative 10 oz Spray",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-weather-defense-no-scent-wood-cleaner-and-preservative-10-oz-spray/p/1587203"
+    },
+    {
+      "id": "HC-b0a501add009",
+      "name": "Guardsman No Scent Leather Protector 20 wipes Wipes",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-no-scent-leather-protector-20-wipes-wipes/p/1587138"
+    },
+    {
+      "id": "HC-19e84a09afa2",
+      "name": "Guardsman Weather Defense No Scent Metal Protector 10 oz Spray",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-weather-defense-no-scent-metal-protector-10-oz-spray/p/1587260"
+    },
+    {
+      "id": "HC-340d907679ea",
+      "name": "Guardsman Weather Defense No Scent Fabric Protector 10 oz Spray",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-weather-defense-no-scent-fabric-protector-10-oz-spray/p/1587328"
+    },
+    {
+      "id": "HC-b236faf1a237",
+      "name": "Wooster Dust Eater Yarn Duster 16 in. W 1 pk",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-dust-eater-yarn-duster-16-in-w-1-pk/p/1596972"
+    },
+    {
+      "id": "HC-125d93807cf4",
+      "name": "Hagerty No Scent Jewelry Polish Cloth",
+      "brand": "Hagerty",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hagerty-no-scent-jewelry-polish-cloth/p/1600378"
+    },
+    {
+      "id": "HC-ac890398874b",
+      "name": "Granite Gold Citrus Scent All Purpose Cleaner Liquid 72 oz",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-citrus-scent-all-purpose-cleaner-liquid-72-oz/p/1607852"
+    },
+    {
+      "id": "HC-a08ad8650185",
+      "name": "Granite Gold Citrus Scent Hard Surface Cleaner Liquid 24 oz",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-citrus-scent-hard-surface-cleaner-liquid-24-oz/p/1607860"
+    },
+    {
+      "id": "HC-5cadfc7570bc",
+      "name": "Flitz Metal Polish 7.6 oz Liquid",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-metal-polish-76-oz-liquid/p/1630540"
+    },
+    {
+      "id": "HC-ca5c1e3b0e5c",
+      "name": "Flitz Metal Polish 5.29 oz Paste",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-metal-polish-529-oz-paste/p/1630565"
+    },
+    {
+      "id": "HC-52d8a1dfeeb2",
+      "name": "Crocodile Cloth Fierce Disinfecting Wipes 15 in. W X 10 in. L 40 wipes 40 pk",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-fierce-disinfecting-wipes-15-in-w-x-10-in-l-40-wipes-40-pk/p/1037006"
+    },
+    {
+      "id": "HC-2d0ce93e88f8",
+      "name": "Armaly ProPlus Heavy Duty Antibacterial Mortar and Grouting Sponge For Grout & Concrete 7-1/2 in. L",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-heavy-duty-antibacterial-mortar-and-grouting-sponge-for-grout--concrete-7-1-2-in-l/p/2006519"
+    },
+    {
+      "id": "HC-ed26ae74a297",
+      "name": "OGGI 2.5 in. W Medium Bristle 8 in. Bamboo Handle Dish Brush",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-25-in-w-medium-bristle-8-in-bamboo-handle-dish-brush/p/1035620"
+    },
+    {
+      "id": "HC-18ed40bb3b32",
+      "name": "YETI Loadout 5 gal Bucket Pace Purple",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-pace-purple/p/7065525"
+    },
+    {
+      "id": "HC-a55de7764a56",
+      "name": "WD-40 16 in. L X 16 in. W Microfiber Auto Cleaning Cloth 24 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-16-in-l-x-16-in-w-microfiber-auto-cleaning-cloth-24-pc/p/8128348"
+    },
+    {
+      "id": "HC-fc465c6a732b",
+      "name": "YETI LoadOut 5 gal Bucket Olive",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-olive/p/7066002"
+    },
+    {
+      "id": "HC-5550449df59e",
+      "name": "Marcal Toilet Paper 6 Rolls 1200 ft.",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-toilet-paper-6-rolls-1200-ft/p/1049272"
+    },
+    {
+      "id": "HC-55b947c99b8e",
+      "name": "Flitz No Scent Metal Polish 50 gm Cream",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-metal-polish-50-gm-cream/p/15893"
+    },
+    {
+      "id": "HC-1c9ca212c6fa",
+      "name": "YETI Loadout 5 gal Bucket Royal Blue",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-royal-blue/p/8139392"
+    },
+    {
+      "id": "HC-53b6c1ebccd1",
+      "name": "Hagerty No Scent Chandelier Cleaner 32 oz Liquid",
+      "brand": "Hagerty",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hagerty-no-scent-chandelier-cleaner-32-oz-liquid/p/11850"
+    },
+    {
+      "id": "HC-6b5e40351ff0",
+      "name": "Marcal Hard Roll Towels 1 ply 6 pk",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-hard-roll-towels-1-ply-6-pk/p/1559277"
+    },
+    {
+      "id": "HC-f15ecf04a9d0",
+      "name": "Marcal Paper Towels 85 sheet 2 ply 1 pk",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-paper-towels-85-sheet-2-ply-1-pk/p/1558964"
+    },
+    {
+      "id": "HC-49686910e94e",
+      "name": "OGGI Bamboo Kitchen Cleaning Cloth 7 in. W X 9 in. L 6 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-bamboo-kitchen-cleaning-cloth-7-in-w-x-9-in-l-6-pk/p/6080136"
+    },
+    {
+      "id": "HC-91f5340dc179",
+      "name": "OGGI Bamboo Kitchen Cleaning Cloth 7 in. W X 9 in. L 6 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-bamboo-kitchen-cleaning-cloth-7-in-w-x-9-in-l-6-pk/p/6080138"
+    },
+    {
+      "id": "HC-f11bf94c4933",
+      "name": "OGGI Bamboo Kitchen Cleaning Cloth 7 in. W X 9 in. L 6 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-bamboo-kitchen-cleaning-cloth-7-in-w-x-9-in-l-6-pk/p/6080140"
+    },
+    {
+      "id": "HC-90bbbde6c269",
+      "name": "OGGI Bamboo Kitchen Cleaning Cloth 7 in. W X 9 in. L 6 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-bamboo-kitchen-cleaning-cloth-7-in-w-x-9-in-l-6-pk/p/6079812"
+    },
+    {
+      "id": "HC-de9f90c050aa",
+      "name": "OGGI Bamboo Kitchen Cleaning Cloth 7 in. W X 9 in. L 6 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-bamboo-kitchen-cleaning-cloth-7-in-w-x-9-in-l-6-pk/p/6079811"
+    },
+    {
+      "id": "HC-eac1f87ad010",
+      "name": "OGGI Non-Scratch Antibacterial Scrubber Sponge For Kitchen and Bath 5.25 in. L 3 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-non-scratch-antibacterial-scrubber-sponge-for-kitchen-and-bath-525-in-l-3-pk/p/1035716"
+    },
+    {
+      "id": "HC-f73adbfad1a1",
+      "name": "Wooster Wooster 4 ft. L X 3/4 in. D Wood Extension Pole Brown",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-wooster-4-ft-l-x-3-4-in-d-wood-extension-pole-brown/p/1036517"
+    },
+    {
+      "id": "HC-943a0396a5e8",
+      "name": "Flitz No Scent Cleaner and Polish Liquid 7.6 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-cleaner-and-polish-liquid-76-oz/p/1003955"
+    },
+    {
+      "id": "HC-b40719ddacdf",
+      "name": "OGGI Non-Scratch Antibacterial Scrubber Sponge For Kitchen and Bath 5.25 in. L 3 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-non-scratch-antibacterial-scrubber-sponge-for-kitchen-and-bath-525-in-l-3-pk/p/1035718"
+    },
+    {
+      "id": "HC-25ff6aa50b39",
+      "name": "OGGI Non-Scratch Antibacterial Scrubber Sponge For Kitchen and Bath 5.25 in. L 3 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-non-scratch-antibacterial-scrubber-sponge-for-kitchen-and-bath-525-in-l-3-pk/p/1035720"
+    },
+    {
+      "id": "HC-41ecedeaa887",
+      "name": "OGGI Non-Scratch Antibacterial Sponge For Kitchen and Bath 7 in. L 3 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-non-scratch-antibacterial-sponge-for-kitchen-and-bath-7-in-l-3-pk/p/1035721"
+    },
+    {
+      "id": "HC-7046f6a5ac1c",
+      "name": "OGGI Non-Scratch Antibacterial Sponge For Kitchen and Bath 7 in. L 3 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-non-scratch-antibacterial-sponge-for-kitchen-and-bath-7-in-l-3-pk/p/1035722"
+    },
+    {
+      "id": "HC-92372e690f2d",
+      "name": "OGGI Non-Scratch Antibacterial Sponge For Kitchen and Bath 7 in. L 3 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-non-scratch-antibacterial-sponge-for-kitchen-and-bath-7-in-l-3-pk/p/1035723"
+    },
+    {
+      "id": "HC-106fcf097f27",
+      "name": "OGGI Non-Scratch Antibacterial Sponge For Kitchen and Bath 7 in. L 3 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-non-scratch-antibacterial-sponge-for-kitchen-and-bath-7-in-l-3-pk/p/1035725"
+    },
+    {
+      "id": "HC-05eab1874bf6",
+      "name": "OGGI Non-Scratch Antibacterial Sponge For Kitchen and Bath 7 in. L 3 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-non-scratch-antibacterial-sponge-for-kitchen-and-bath-7-in-l-3-pk/p/1035724"
+    },
+    {
+      "id": "HC-7d86b309a2c0",
+      "name": "Chef Craft Microfiber Cleaning Cloth 12 in. W X 12 in. L 2 pk",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-microfiber-cleaning-cloth-12-in-w-x-12-in-l-2-pk/p/8099514"
+    },
+    {
+      "id": "HC-1f5323ed4f41",
+      "name": "Core Home Spray Bottle and Sponge",
+      "brand": "Core Home",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/core-home-spray-bottle-and-sponge/p/1037017"
+    },
+    {
+      "id": "HC-1ce93a2187ef",
+      "name": "OGGI Bamboo Kitchen Cleaning Cloth 7 in. W X 9 in. L 6 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-bamboo-kitchen-cleaning-cloth-7-in-w-x-9-in-l-6-pk/p/6079808"
+    },
+    {
+      "id": "HC-8a6682d26f7f",
+      "name": "Core Home 10 L Collapsible Bucket Blue",
+      "brand": "Core Home",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/core-home-10-l-collapsible-bucket-blue/p/8115182"
+    },
+    {
+      "id": "HC-9f7e304ae3f9",
+      "name": "Core Home 1 in. W Plastic Handle Tile and Grout Brush",
+      "brand": "Core Home",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/core-home-1-in-w-plastic-handle-tile-and-grout-brush/p/1037074"
+    },
+    {
+      "id": "HC-3734b0c90a2e",
+      "name": "Core Home 1 in. W Plastic Handle Cleaning Brush",
+      "brand": "Core Home",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/core-home-1-in-w-plastic-handle-cleaning-brush/p/1037073"
+    },
+    {
+      "id": "HC-a7f623b1529c",
+      "name": "Core Home Spray Bottle",
+      "brand": "Core Home",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/core-home-spray-bottle/p/7043534"
+    },
+    {
+      "id": "HC-ea50e3488867",
+      "name": "Core Home 10 oz Spray Bottle",
+      "brand": "Core Home",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/core-home-10-oz-spray-bottle/p/7043531"
+    },
+    {
+      "id": "HC-7ec1a2c93ef3",
+      "name": "Core Home Freestanding Magic 20 in. W Broom",
+      "brand": "Core Home",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/core-home-freestanding-magic-20-in-w-broom/p/1037405"
+    },
+    {
+      "id": "HC-c7817b57453c",
+      "name": "Flitz Speed Waxx No Scent Cleaner and Polish Liquid 16 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-speed-waxx-no-scent-cleaner-and-polish-liquid-16-oz/p/8033075"
+    },
+    {
+      "id": "HC-0c44679dee1d",
+      "name": "Chef Craft Microfiber Cleaning Towel 12 in. W X 12 in. L 2 pk",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-microfiber-cleaning-towel-12-in-w-x-12-in-l-2-pk/p/8099516"
+    },
+    {
+      "id": "HC-0289b84197eb",
+      "name": "YETI Loadout 5 gal Bucket Firefly Yellow",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-firefly-yellow/p/8114885"
+    },
+    {
+      "id": "HC-19aedb6584f9",
+      "name": "YETI Loadout 5 gal Bucket Big Sky Blue",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-big-sky-blue/p/8114884"
+    },
+    {
+      "id": "HC-864942016237",
+      "name": "Marcal Preserve Hard Roll Towels 1 ply 6 ct",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-preserve-hard-roll-towels-1-ply-6-ct/p/1829928"
+    },
+    {
+      "id": "HC-1517fc0adbbd",
+      "name": "Marcal Preserve Hard Roll Towels 1 ply 6 pk",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-preserve-hard-roll-towels-1-ply-6-pk/p/1829936"
+    },
+    {
+      "id": "HC-4f91336cebea",
+      "name": "Krud Kutter Pet Carpet Cleaner Pet Stain Carpet Cleaner 22 oz Liquid",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-pet-carpet-cleaner-pet-stain-carpet-cleaner-22-oz-liquid/p/8592099"
+    },
+    {
+      "id": "HC-27849439abca",
+      "name": "Granite Gold Citrus Scent Granite Polish 18 ct Wipes",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-citrus-scent-granite-polish-18-ct-wipes/p/1897834"
+    },
+    {
+      "id": "HC-be2cacec83cc",
+      "name": "Granite Gold Quartz Brite No Scent Cleaner and Polish 24 oz Liquid",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-quartz-brite-no-scent-cleaner-and-polish-24-oz-liquid/p/1897842"
+    },
+    {
+      "id": "HC-3d291a9df061",
+      "name": "Granite Gold Citrus Scent Granite And Natural Stone Daily Cleaner 24 ct Wipes",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-citrus-scent-granite-and-natural-stone-daily-cleaner-24-ct-wipes/p/1897867"
+    },
+    {
+      "id": "HC-5e2dd4a4e774",
+      "name": "Spray Nine Marine No Scent Cleaner and Disinfectant 1 gal 1 pk",
+      "brand": "Spray Nine",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/spray-nine-marine-no-scent-cleaner-and-disinfectant-1-gal-1-pk/p/8702227"
+    },
+    {
+      "id": "HC-24f5da2d91ea",
+      "name": "Spray Nine No Scent Cleaner and Degreaser 5 gal Liquid",
+      "brand": "Spray Nine",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/spray-nine-no-scent-cleaner-and-degreaser-5-gal-liquid/p/1692334"
+    },
+    {
+      "id": "HC-df9443f071be",
+      "name": "Flitz No Scent Concentrated Cleaner and Polish Paste 1 lb",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-concentrated-cleaner-and-polish-paste-1-lb/p/1003942"
+    },
+    {
+      "id": "HC-c58e9d4af3dd",
+      "name": "Crocodile Cloth Power Scrub Cleaning Wipes 15 in. W X 10 in. L 40 wipes",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-power-scrub-cleaning-wipes-15-in-w-x-10-in-l-40-wipes/p/1034257"
+    },
+    {
+      "id": "HC-0d4ea59e048a",
+      "name": "Crocodile Cloth Original Cleaning Cloth 15 in. W X 10 in. L 50 wipes",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-original-cleaning-cloth-15-in-w-x-10-in-l-50-wipes/p/1034256"
+    },
+    {
+      "id": "HC-303e29e74713",
+      "name": "Kikkerland Microfiber Screen Cleaning Kit 6 in. W X 7 in. L 1 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-microfiber-screen-cleaning-kit-6-in-w-x-7-in-l-1-pk/p/9099898"
+    },
+    {
+      "id": "HC-8e093d5bd614",
+      "name": "Armaly ProPlus Heavy Duty Antibacterial Tiling Sponge For Grout & Concrete 6.5 in. L 1 pk",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-heavy-duty-antibacterial-tiling-sponge-for-grout--concrete-65-in-l-1-pk/p/1025225"
+    },
+    {
+      "id": "HC-3a4bc938bca9",
+      "name": "Kikkerland Chenille Duster 29 in. L 1 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-chenille-duster-29-in-l-1-pk/p/1036336"
+    },
+    {
+      "id": "HC-090cc9579ab8",
+      "name": "YETI LoadOut 5 gal Bucket Wetlands Brown",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-wetlands-brown/p/1036303"
+    },
+    {
+      "id": "HC-c710efa4d237",
+      "name": "OGGI Bamboo Kitchen Cleaning Cloth 7 in. W X 9 in. L 6 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-bamboo-kitchen-cleaning-cloth-7-in-w-x-9-in-l-6-pk/p/6079810"
+    },
+    {
+      "id": "HC-29ea75f122b0",
+      "name": "Kikkerland Non-Scratch Scrubber Sponge For Kitchen 3.1 in. L 2 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-non-scratch-scrubber-sponge-for-kitchen-31-in-l-2-pk/p/1036407"
+    },
+    {
+      "id": "HC-ace8d5930eb8",
+      "name": "OGGI 2.5 in. W Medium Bristle 4 in. Bamboo Handle Dish Brush",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-25-in-w-medium-bristle-4-in-bamboo-handle-dish-brush/p/1035622"
+    },
+    {
+      "id": "HC-9cd9ea79f06a",
+      "name": "OGGI 2.5 in. W Medium Bristle 4 in. Bamboo Handle Dish Brush",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-25-in-w-medium-bristle-4-in-bamboo-handle-dish-brush/p/1035628"
+    },
+    {
+      "id": "HC-2fc0c59c1d06",
+      "name": "OGGI 2.5 in. W Medium Bristle 8 in. Bamboo Handle Dish Brush",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-25-in-w-medium-bristle-8-in-bamboo-handle-dish-brush/p/1035607"
+    },
+    {
+      "id": "HC-84251816626b",
+      "name": "OGGI Non-Scratch Antibacterial Scrubber Sponge For Kitchen and Bath 5.25 in. L 3 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-non-scratch-antibacterial-scrubber-sponge-for-kitchen-and-bath-525-in-l-3-pk/p/1035719"
+    },
+    {
+      "id": "HC-d4f7b44ad63e",
+      "name": "Kikkerland Non-Scratch Scrubber Sponge For Cookware 4.25 in. L 2 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-non-scratch-scrubber-sponge-for-cookware-425-in-l-2-pk/p/1036416"
+    },
+    {
+      "id": "HC-7285222c58e6",
+      "name": "Kikkerland Non-Scratch Scrubber Sponge For Cookware 5.1 in. L 3 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-non-scratch-scrubber-sponge-for-cookware-51-in-l-3-pk/p/1036406"
+    },
+    {
+      "id": "HC-32c5edd8a05a",
+      "name": "Kikkerland Non-Scratch Scrubber Sponge For Kitchen 4.25 in. L 2 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-non-scratch-scrubber-sponge-for-kitchen-425-in-l-2-pk/p/1036417"
+    },
+    {
+      "id": "HC-5cf1af35c780",
+      "name": "OGGI Non-Scratch Antibacterial Scrubber Sponge For Kitchen and Bath 5.25 in. L 3 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-non-scratch-antibacterial-scrubber-sponge-for-kitchen-and-bath-525-in-l-3-pk/p/1035717"
+    },
+    {
+      "id": "HC-9dd99576bc8e",
+      "name": "Kikkerland Non-Scratch Scrubber Sponge For Cookware 2 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-non-scratch-scrubber-sponge-for-cookware-2-pk/p/1036411"
+    },
+    {
+      "id": "HC-1e1a9e533612",
+      "name": "Kikkerland Non-Scratch Sponge For Multi-Purpose 3.7 in. L 3 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-non-scratch-sponge-for-multi-purpose-37-in-l-3-pk/p/1036525"
+    },
+    {
+      "id": "HC-e310a8c0afcf",
+      "name": "Kikkerland Delicate, Light Duty Scouring Pad and Holder For All Purpose 2 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-delicate-light-duty-scouring-pad-and-holder-for-all-purpose-2-pk/p/1036526"
+    },
+    {
+      "id": "HC-9459084780f0",
+      "name": "Kikkerland Non-Scratch Scrubber Sponge For Multi-Purpose 1.4 in. L 4 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-non-scratch-scrubber-sponge-for-multi-purpose-14-in-l-4-pk/p/1036530"
+    },
+    {
+      "id": "HC-da098d1cfbcf",
+      "name": "Kikkerland Medium Duty Sponge For Kitchen 2.16 in. L 1 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-medium-duty-sponge-for-kitchen-216-in-l-1-pk/p/1036421"
+    },
+    {
+      "id": "HC-71085646649e",
+      "name": "Kikkerland Medium Duty Sponge For Kitchen 2.3 in. L 1 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-medium-duty-sponge-for-kitchen-23-in-l-1-pk/p/1036420"
+    },
+    {
+      "id": "HC-2ec9fec2fe46",
+      "name": "Flitz No Scent Cleaner and Protectant Liquid 16 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-cleaner-and-protectant-liquid-16-oz/p/1003940"
+    },
+    {
+      "id": "HC-0c5869b230aa",
+      "name": "Chef Craft Microfiber Cleaning Cloth 12 in. W X 12 in. L 2 pk",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-microfiber-cleaning-cloth-12-in-w-x-12-in-l-2-pk/p/8099510"
+    },
+    {
+      "id": "HC-30a2ebae330d",
+      "name": "OGGI Bamboo Kitchen Cleaning Cloth 7 in. W X 9 in. L 6 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-bamboo-kitchen-cleaning-cloth-7-in-w-x-9-in-l-6-pk/p/6079809"
+    },
+    {
+      "id": "HC-f21cc3033339",
+      "name": "Chef Craft Platinum Series 2.25 in. W Plastic Handle Dish Brush",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-platinum-series-225-in-w-plastic-handle-dish-brush/p/1667237"
+    },
+    {
+      "id": "HC-01a589fc4aee",
+      "name": "Crocodile Cloth Auto 15 in. L X 10 in. W Synthetic Cleaning Cloth 100 pk",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-auto-15-in-l-x-10-in-w-synthetic-cleaning-cloth-100-pk/p/8062340"
+    },
+    {
+      "id": "HC-c5425740b95d",
+      "name": "Guardsman Wood Furniture Polish Spray - Scratch Cover - Pack of 2, 16 Ounce",
+      "brand": "",
+      "retailer": "Walmart",
+      "url": "https://www.walmart.com/ip/Guardsman-Wood-Furniture-Polish-16-Ounce-Pack-of-2/5365153111"
+    },
+    {
+      "id": "HC-e8c2b0fc2bcd",
+      "name": "Guardsman Lemon Fresh Clean & Polish 16 fl. oz. Spray Bottle",
+      "brand": "",
+      "retailer": "Walmart",
+      "url": "https://www.walmart.com/ip/Guardsman-Lemon-Fresh-Clean-Polish-16-fl-oz-Spray-Bottle/21777853"
+    },
+    {
+      "id": "HC-91562359762c",
+      "name": "Granite Gold Quartz Clean & Shine 24 oz, 3pk",
+      "brand": "",
+      "retailer": "Walmart",
+      "url": "https://www.walmart.com/ip/Granite-Gold-Quartz-Clean-Shine-24-oz-3pk/3466248551"
+    },
+    {
+      "id": "HC-707159762b1c",
+      "name": "Marcal 100% Recycled Paper Towels 2-Ply 140 Sheets 24 Rolls",
+      "brand": "ESSENDANT CO",
+      "retailer": "Costco",
+      "url": "https://www.costco.com/.product.100760448.html"
+    },
+    {
+      "id": "HC-48a309cb00a5",
+      "name": "Armaly ProPlus Medium Duty Dry Cleaning Sponge For Multi-Purpose 6 in. L 1 pc",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-medium-duty-dry-cleaning-sponge-for-multi-purpose-6-in-l-1-pc/p/1005710"
+    },
+    {
+      "id": "HC-e1c866ec2f15",
+      "name": "Chef Craft Platinum Series 3.25 in. W Plastic Handle Pan and Dish Brush",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-platinum-series-325-in-w-plastic-handle-pan-and-dish-brush/p/1667252"
+    },
+    {
+      "id": "HC-145ea5a8a68f",
+      "name": "Kikkerland 1.32 qt Collapsible Bucket Aqua",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-132-qt-collapsible-bucket-aqua/p/1796606"
+    },
+    {
+      "id": "HC-515498c9565c",
+      "name": "Wooster Dust Eater Yarn Duster Refill 16 in. W 1 pk",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-dust-eater-yarn-duster-refill-16-in-w-1-pk/p/1597178"
+    },
+    {
+      "id": "HC-7425712b1972",
+      "name": "Armaly ProPlus Medium Duty Antibacterial Sponge For Multi-Purpose 6 in. L 1 pc",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-medium-duty-antibacterial-sponge-for-multi-purpose-6-in-l-1-pc/p/1005705"
+    },
+    {
+      "id": "HC-5440e5a2cfdc",
+      "name": "Chef Craft Toilet Brush and Caddy White",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-toilet-brush-and-caddy-white/p/6402911"
+    },
+    {
+      "id": "HC-548d03c0dff5",
+      "name": "Armaly ProPlus Heavy Duty Antibacterial Sponge For All Purpose 7 in. L 1 pc",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-heavy-duty-antibacterial-sponge-for-all-purpose-7-in-l-1-pc/p/1005747"
+    },
+    {
+      "id": "HC-8f45ed5ef837",
+      "name": "Flitz No Scent Organic Tarnish Remover Liquid 16 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-organic-tarnish-remover-liquid-16-oz/p/1003951"
+    },
+    {
+      "id": "HC-a0d03c1a0dfa",
+      "name": "Crocodile Cloth Fresh Scent All Purpose Cleaner Wipes 80 ct",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-fresh-scent-all-purpose-cleaner-wipes-80-ct/p/1016214"
+    },
+    {
+      "id": "HC-b43541e46017",
+      "name": "Flitz No Scent Knife Restoration Kit Liquid 1.7 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-knife-restoration-kit-liquid-17-oz/p/1003939"
+    },
+    {
+      "id": "HC-3f46594ca973",
+      "name": "Flitz No Scent Cleaner and Degreaser Liquid 7.6 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-cleaner-and-degreaser-liquid-76-oz/p/1003954"
+    },
+    {
+      "id": "HC-e869277af42a",
+      "name": "Flitz No Scent Gun and Knife Care Kit Paste 1.7 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-gun-and-knife-care-kit-paste-17-oz/p/1003935"
+    },
+    {
+      "id": "HC-0d347ef69378",
+      "name": "Flitz No Scent Gun Wax Liquid 7.6 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-gun-wax-liquid-76-oz/p/1003932"
+    },
+    {
+      "id": "HC-8629bed3b08a",
+      "name": "Flitz No Scent Gun Bore Cleaner Liquid 7.6 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-gun-bore-cleaner-liquid-76-oz/p/1004070"
+    },
+    {
+      "id": "HC-5915eb127dc8",
+      "name": "Flitz Microfiber Cleaning Cloth 16 in. W X 16 in. L 1 pk",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-microfiber-cleaning-cloth-16-in-w-x-16-in-l-1-pk/p/1003945"
+    },
+    {
+      "id": "HC-4d0a0c1b79ea",
+      "name": "Flitz No Scent Concentrated Cleaner and Polish Paste 1 qt",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-concentrated-cleaner-and-polish-paste-1-qt/p/1003949"
+    },
+    {
+      "id": "HC-d84e93007f98",
+      "name": "Flitz No Scent Concentrated Organic Metal Cleaner Liquid 16 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-concentrated-organic-metal-cleaner-liquid-16-oz/p/1003934"
+    },
+    {
+      "id": "HC-a1674f43287f",
+      "name": "Flitz No Scent Organic Stain Remover Liquid 16 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-organic-stain-remover-liquid-16-oz/p/1004069"
+    },
+    {
+      "id": "HC-9e1d781758a1",
+      "name": "Wooster Wooster 5 ft. L X 15/16 in. D Steel Extension Pole Red",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-wooster-5-ft-l-x-15-16-in-d-steel-extension-pole-red/p/1032031"
+    },
+    {
+      "id": "HC-6441f904edb2",
+      "name": "Wooster Wooster Telescoping 4 ft. L X 15/16 in. D Steel Extension Pole Red",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-wooster-telescoping-4-ft-l-x-15-16-in-d-steel-extension-pole-red/p/1032029"
+    },
+    {
+      "id": "HC-bd5cc929f685",
+      "name": "Chef Craft Platinum Series 2.5 in. W Plastic Handle Scrub Brush",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-platinum-series-25-in-w-plastic-handle-scrub-brush/p/1667260"
+    },
+    {
+      "id": "HC-b44cbd81e268",
+      "name": "Chef Craft Plastic Dust Pan",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-plastic-dust-pan/p/1667310"
+    },
+    {
+      "id": "HC-808540ed10cf",
+      "name": "Hagerty No Scent Metal Polish 8 oz Foam",
+      "brand": "Hagerty",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hagerty-no-scent-metal-polish-8-oz-foam/p/10332"
+    },
+    {
+      "id": "HC-fb5019e01d0b",
+      "name": "Guardsman Anytime Clean & Polish Woodland Fresh Scent Furniture Cleaner and Polish 12.5 oz Spray",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-anytime-clean--polish-woodland-fresh-scent-furniture-cleaner-and-polish-125-oz-spray/p/1207117"
+    },
+    {
+      "id": "HC-502f9ab1efc3",
+      "name": "Marcal Multi-Fold Towels 250 sheet 1 ply 16 pk",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-multi-fold-towels-250-sheet-1-ply-16-pk/p/1559327"
+    },
+    {
+      "id": "HC-6590a60d7633",
+      "name": "Marcal Hard Roll Towels 1 ply 12 pk",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-hard-roll-towels-1-ply-12-pk/p/1559475"
+    },
+    {
+      "id": "HC-aaac2bdea3ba",
+      "name": "Spray Nine No Scent Cleaner and Degreaser Liquid 32 oz",
+      "brand": "Spray Nine",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/spray-nine-no-scent-cleaner-and-degreaser-liquid-32-oz/p/1611318"
+    },
+    {
+      "id": "HC-4e672e4d2d1b",
+      "name": "Guardsman Anytime Clean & Polish Lemon Scent Furniture Cleaner and Polish 16 oz Liquid",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-anytime-clean--polish-lemon-scent-furniture-cleaner-and-polish-16-oz-liquid/p/17694"
+    },
+    {
+      "id": "HC-f122db6d70c8",
+      "name": "Crocodile Cloth Fierce Disinfecting Wipes 15 in. W X 10 in. L 80 wipes 1 pk",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-fierce-disinfecting-wipes-15-in-w-x-10-in-l-80-wipes-1-pk/p/1036967"
+    },
+    {
+      "id": "HC-3d127a9f149c",
+      "name": "Core Home Telescopic 5 in. W Dryer Vent Brush",
+      "brand": "Core Home",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/core-home-telescopic-5-in-w-dryer-vent-brush/p/1044715"
+    },
+    {
+      "id": "HC-5210eb68eaab",
+      "name": "Rust-Oleum Professional Cleaners Cleaner and Degreaser 32 oz Spray",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-professional-cleaners-cleaner-and-degreaser-32-oz-spray/p/1043804"
+    },
+    {
+      "id": "HC-0d714cd57fc3",
+      "name": "Guardsman Deep Clean No Scent Cabinet and Wood Cleaner 12.5 oz Spray",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-deep-clean-no-scent-cabinet-and-wood-cleaner-125-oz-spray/p/1338672"
+    },
+    {
+      "id": "HC-b7edd8958db4",
+      "name": "Hagerty No Scent Flatware Silver Dip 16.9 oz Liquid",
+      "brand": "Hagerty",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hagerty-no-scent-flatware-silver-dip-169-oz-liquid/p/1507581"
+    },
+    {
+      "id": "HC-318f5dea2137",
+      "name": "Hagerty No Scent Silversmiths' Polish 8 oz Liquid",
+      "brand": "Hagerty",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hagerty-no-scent-silversmiths-polish-8-oz-liquid/p/1527886"
+    },
+    {
+      "id": "HC-bc71d7916927",
+      "name": "Rust-Oleum Krud Kutter 32 oz Prepaint Surface Preparation",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-krud-kutter-32-oz-prepaint-surface-preparation/p/1798503"
+    },
+    {
+      "id": "HC-ab146c2cb32d",
+      "name": "Armaly ProPlus Heavy Duty Antibacterial Utility Sponge For Commercial 6-1/4 in. L 1 pc",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-heavy-duty-antibacterial-utility-sponge-for-commercial-6-1-4-in-l-1-pc/p/1801406"
+    },
+    {
+      "id": "HC-042a620cb399",
+      "name": "Wooster Sherlock Telescoping 16 ft. L X 1.86 in. D Aluminum/Fiberglass Extension Pole Beige/Green",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-sherlock-telescoping-16-ft-l-x-186-in-d-aluminum-fiberglass-extension-pole-beige-green/p/1798545"
+    },
+    {
+      "id": "HC-5addea9c9d3d",
+      "name": "Wooster Sherlock GT Telescoping 16 ft. L X 1-7/8 in. D Aluminum/Fiberglass Extension Pole Green/Gray",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-sherlock-gt-telescoping-16-ft-l-x-1-7-8-in-d-aluminum-fiberglass-extension-pole-green-gray/p/1798610"
+    },
+    {
+      "id": "HC-979e334c5d4d",
+      "name": "Wooster Acme 60 in. L X 3/4 in. D Wood Extension Pole Natural",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-acme-60-in-l-x-3-4-in-d-wood-extension-pole-natural/p/1798677"
+    },
+    {
+      "id": "HC-722e7658e362",
+      "name": "Wooster Sherlock Telescoping 12 ft. L X 1.86 in. D Aluminum/Fiberglass Extension Pole Beige/Green",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-sherlock-telescoping-12-ft-l-x-186-in-d-aluminum-fiberglass-extension-pole-beige-green/p/1000656"
+    },
+    {
+      "id": "HC-8bac450c6397",
+      "name": "Wooster Sherlock Telescoping 8 ft. L X 1.86 in. D Aluminum/Fiberglass Extension Pole Beige/Green",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-sherlock-telescoping-8-ft-l-x-186-in-d-aluminum-fiberglass-extension-pole-beige-green/p/1000658"
+    },
+    {
+      "id": "HC-b58cfd9160b6",
+      "name": "Hagerty Jewelry Cleaner 7 oz",
+      "brand": "Hagerty",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hagerty-jewelry-cleaner-7-oz/p/10400"
+    },
+    {
+      "id": "HC-d463c1881aeb",
+      "name": "Granite Gold No Scent Grout Cleaner 24 oz Liquid",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-no-scent-grout-cleaner-24-oz-liquid/p/1504166"
+    },
+    {
+      "id": "HC-3aa7f11e2761",
+      "name": "WD-40 Specialist Contact Cleaner 11 oz Spray",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-specialist-contact-cleaner-11-oz-spray/p/1014094"
+    },
+    {
+      "id": "HC-c69f7a95e7bd",
+      "name": "Crocodile Cloth Power Scrub Fiber Blend Cleaning Cloth 15 in. W X 10 in. L 80 pk",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-power-scrub-fiber-blend-cleaning-cloth-15-in-w-x-10-in-l-80-pk/p/1014083"
+    },
+    {
+      "id": "HC-f360cf3510d9",
+      "name": "Krud Kutter No Scent Cleaner and Degreaser 20 oz Foam",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-no-scent-cleaner-and-degreaser-20-oz-foam/p/1002960"
+    },
+    {
+      "id": "HC-f44d93135aae",
+      "name": "Armaly ProPlus Heavy Duty Antibacterial Sponge For Grouting & Haze Buffer 7.5 in. L 1 pc",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-heavy-duty-antibacterial-sponge-for-grouting--haze-buffer-75-in-l-1-pc/p/1004821"
+    },
+    {
+      "id": "HC-fc39be6a3504",
+      "name": "Krud Kutter Professional No Scent Glass Cleaner 1 gal Liquid",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-professional-no-scent-glass-cleaner-1-gal-liquid/p/1016952"
+    },
+    {
+      "id": "HC-08e7e0a15c61",
+      "name": "Krud Kutter Professional No Scent Glass Cleaner 32 oz Liquid",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-professional-no-scent-glass-cleaner-32-oz-liquid/p/1016953"
+    },
+    {
+      "id": "HC-072dc2451d83",
+      "name": "Krud Kutter Professional Cleaner and Degreaser 20 oz Foam",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-professional-cleaner-and-degreaser-20-oz-foam/p/1016959"
+    },
+    {
+      "id": "HC-2e6cbf341e47",
+      "name": "Krud Kutter Professional Cleaner and Degreaser 1 gal Liquid",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-professional-cleaner-and-degreaser-1-gal-liquid/p/1016960"
+    },
+    {
+      "id": "HC-b04a85fb529c",
+      "name": "Krud Kutter Professional Floor Cleaner Liquid 1 gal",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-professional-floor-cleaner-liquid-1-gal/p/1016957"
+    },
+    {
+      "id": "HC-f0bd18b1eb5f",
+      "name": "Krud Kutter Professional No Scent Carpet Stain Remover 32 oz Liquid",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-professional-no-scent-carpet-stain-remover-32-oz-liquid/p/1016961"
+    },
+    {
+      "id": "HC-939b5bbd84ee",
+      "name": "Rust-Oleum 8 oz Rust Dissolver",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-8-oz-rust-dissolver/p/1004860"
+    },
+    {
+      "id": "HC-c53c18722405",
+      "name": "Armaly ProPlus Medium Duty Antibacterial Sponge For Multi-Purpose 7 in. L 1 pc",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-medium-duty-antibacterial-sponge-for-multi-purpose-7-in-l-1-pc/p/1005741"
+    },
+    {
+      "id": "HC-306f71745a2c",
+      "name": "Rust-Oleum Professional Cleaners Citrus Scent Carpet Stain Remover 32 oz Spray",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-professional-cleaners-citrus-scent-carpet-stain-remover-32-oz-spray/p/1043820"
+    },
+    {
+      "id": "HC-aebcb230404a",
+      "name": "Hagerty No Scent Silversmiths' Wash 19 oz Paste",
+      "brand": "Hagerty",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hagerty-no-scent-silversmiths-wash-19-oz-paste/p/1055805"
+    },
+    {
+      "id": "HC-d615758c45a2",
+      "name": "Granite Gold Citrus Scent All Purpose Cleaner Wipes 40 ct",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-citrus-scent-all-purpose-cleaner-wipes-40-ct/p/1491190"
+    },
+    {
+      "id": "HC-1cf2b3e63c43",
+      "name": "Granite Gold Squeeze & Mop Citrus Scent Floor Cleaner Liquid 32 oz",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-squeeze--mop-citrus-scent-floor-cleaner-liquid-32-oz/p/1537497"
+    },
+    {
+      "id": "HC-b9575bd5ac75",
+      "name": "Marcal Multi-Fold Towels 175 sheet 1 ply 16 pk",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-multi-fold-towels-175-sheet-1-ply-16-pk/p/1558840"
+    },
+    {
+      "id": "HC-8229b0cd6ee9",
+      "name": "Granite Gold Stone & Tile Citrus Scent Floor Cleaner Liquid 32 oz",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-stone--tile-citrus-scent-floor-cleaner-liquid-32-oz/p/1491265"
+    },
+    {
+      "id": "HC-c19e4957a871",
+      "name": "Granite Gold Delicate, Light Duty Scrubber Sponge For Granite 1 in. L 1 pk",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-delicate-light-duty-scrubber-sponge-for-granite-1-in-l-1-pk/p/1521889"
+    },
+    {
+      "id": "HC-680933b95623",
+      "name": "Granite Gold Citrus Scent Granite Cleaner and Polish 24 oz Liquid",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-citrus-scent-granite-cleaner-and-polish-24-oz-liquid/p/1537505"
+    },
+    {
+      "id": "HC-ee691d5fd338",
+      "name": "Wooster Lock Jaw n/a in. L X 1-3/8 in. D Plastic Tool Holder Green",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-lock-jaw-n-a-in-l-x-1-3-8-in-d-plastic-tool-holder-green/p/1560234"
+    },
+    {
+      "id": "HC-46e6a1ef257a",
+      "name": "Wooster Sherlock GT Telescoping 12 ft. L X 1.5 in. D Aluminum/Fiberglass Extension Pole White/Green",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-sherlock-gt-telescoping-12-ft-l-x-15-in-d-aluminum-fiberglass-extension-pole-white-green/p/1099035"
+    },
+    {
+      "id": "HC-8aeacf1fcba6",
+      "name": "Wooster Sherlock 1.85 in. L X .5 in. D Fiberglass Extension Pole Conversion Tips Silver",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-sherlock-185-in-l-x-5-in-d-fiberglass-extension-pole-conversion-tips-silver/p/1394998"
+    },
+    {
+      "id": "HC-2923b9d3e937",
+      "name": "Krud Kutter No Scent Heavy Duty Cleaner and Disinfectant 32 oz 1 pk",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-no-scent-heavy-duty-cleaner-and-disinfectant-32-oz-1-pk/p/1475102"
+    },
+    {
+      "id": "HC-ae587b12a499",
+      "name": "Granite Gold Clean Scent Shower Cleaner 24 oz Liquid",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-clean-scent-shower-cleaner-24-oz-liquid/p/1491075"
+    },
+    {
+      "id": "HC-118563435089",
+      "name": "Wooster Sherlock GT Telescoping 2 ft. L X 1.875 in. D Aluminum/Fiberglass Extension Pole Green/Gray",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-sherlock-gt-telescoping-2-ft-l-x-1875-in-d-aluminum-fiberglass-extension-pole-green-gray/p/1798685"
+    },
+    {
+      "id": "HC-c1c32988c9a5",
+      "name": "Wooster Sherlock Telescoping 2 ft. L X 1.86 in. D Aluminum/Fiberglass Extension Pole Beige/Green",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-sherlock-telescoping-2-ft-l-x-186-in-d-aluminum-fiberglass-extension-pole-beige-green/p/1798644"
+    },
+    {
+      "id": "HC-88a4a65f48ef",
+      "name": "Krud Kutter No Scent Window Washer 32 oz Liquid",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-no-scent-window-washer-32-oz-liquid/p/1836683"
+    },
+    {
+      "id": "HC-f13ec0ef0ac1",
+      "name": "Wooster Sherlock Telescoping 4 ft. L X 1.5 in. D Aluminum/Fiberglass Extension Pole Beige/Green",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-sherlock-telescoping-4-ft-l-x-15-in-d-aluminum-fiberglass-extension-pole-beige-green/p/1000657"
+    },
+    {
+      "id": "HC-bd75270a951e",
+      "name": "Krud Kutter Professional Cleaner and Degreaser 32 oz Liquid",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-professional-cleaner-and-degreaser-32-oz-liquid/p/1016955"
+    },
+    {
+      "id": "HC-1fc346716080",
+      "name": "Granite Gold Citrus Scent Porcelain Cleaner 24 oz Liquid",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-citrus-scent-porcelain-cleaner-24-oz-liquid/p/1025105"
+    },
+    {
+      "id": "HC-a224cbf68363",
+      "name": "Granite Gold No Scent Quartz Cleaner 24 oz Liquid",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-no-scent-quartz-cleaner-24-oz-liquid/p/1025263"
+    },
+    {
+      "id": "HC-7f66cd71ae97",
+      "name": "Spray Nine Citrus Scent Cleaner and Disinfectant 22 oz 1 pk",
+      "brand": "Spray Nine",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/spray-nine-citrus-scent-cleaner-and-disinfectant-22-oz-1-pk/p/1011337"
+    },
+    {
+      "id": "HC-1aa5bd7a7c4c",
+      "name": "Guardsman Anytime Clean & Polish Lemon Scent Furniture Cleaner and Polish 12.5 oz Spray",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-anytime-clean--polish-lemon-scent-furniture-cleaner-and-polish-125-oz-spray/p/10120"
+    },
+    {
+      "id": "HC-6f28b222c2d1",
+      "name": "Krud Kutter No Scent Heavy Duty Cleaner and Disinfectant 1 gal",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-no-scent-heavy-duty-cleaner-and-disinfectant-1-gal/p/1475110"
+    },
+    {
+      "id": "HC-cfe24c6b16d7",
+      "name": "WD-40 Bike Chain Cleaner and Degreaser 10 oz Spray",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-bike-chain-cleaner-and-degreaser-10-oz-spray/p/8467995"
+    },
+    {
+      "id": "HC-5e744e1ba0ce",
+      "name": "YETI Loadout 5 gal Bucket Rescue Red",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-rescue-red/p/9088053"
+    },
+    {
+      "id": "HC-4c05320297fc",
+      "name": "Rust-Oleum Krud Kutter No Scent Cleaner and Degreaser 32 oz Liquid",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-krud-kutter-no-scent-cleaner-and-degreaser-32-oz-liquid/p/1207414"
+    },
+    {
+      "id": "HC-91563bb86804",
+      "name": "Rust-Oleum 32 oz Rust Dissolver",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-32-oz-rust-dissolver/p/1004878"
+    },
+    {
+      "id": "HC-748a38ecedf9",
+      "name": "YETI LoadOut Bucket Lid Clear",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-bucket-lid-clear/p/8938466"
+    },
+    {
+      "id": "HC-d153666b3e61",
+      "name": "YETI LoadOut 5 gal Bucket Charcoal",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-charcoal/p/8000281"
+    },
+    {
+      "id": "HC-f349f979e064",
+      "name": "Krud Kutter Kitchen Degreaser 32 oz Liquid",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-kitchen-degreaser-32-oz-liquid/p/1637966"
+    },
+    {
+      "id": "HC-5ea622379b99",
+      "name": "YETI LoadOut 5 gal Bucket Desert Tan",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-desert-tan/p/8000282"
+    },
+    {
+      "id": "HC-237710a81cf6",
+      "name": "YETI LoadOut QuadPocket Bucket Belt Black",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-quadpocket-bucket-belt-black/p/8938458"
+    },
+    {
+      "id": "HC-61a3d46b0552",
+      "name": "YETI LoadOut Bucket Caddy Black",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-bucket-caddy-black/p/8938441"
+    },
+    {
+      "id": "HC-197184229a62",
+      "name": "Rust-Oleum 1 gal Rust Dissolver",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-1-gal-rust-dissolver/p/1016964"
+    },
+    {
+      "id": "HC-6cde1933d098",
+      "name": "Flitz No Scent Metal Polish 3.4 oz Liquid",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-metal-polish-34-oz-liquid/p/1014828"
+    },
+    {
+      "id": "HC-b74c6c4a2a9a",
+      "name": "YETI LoadOut 5 gal Bucket Ultramarine Violet",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-ultramarine-violet/p/8115630"
+    },
+    {
+      "id": "HC-419f8ef40ccc",
+      "name": "Crocodile Cloth Grill Cleaning Wipes 15 in. W X 10 in. L 10 wipes 10 pk",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-grill-cleaning-wipes-15-in-w-x-10-in-l-10-wipes-10-pk/p/1036972"
+    },
+    {
+      "id": "HC-f7f02d88ad13",
+      "name": "Crocodile Cloth Fierce Disinfecting Wipes 15 in. W X 10 in. L 10 wipes 10 pk",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-fierce-disinfecting-wipes-15-in-w-x-10-in-l-10-wipes-10-pk/p/1036968"
+    },
+    {
+      "id": "HC-0ae24f08191e",
+      "name": "Chef Craft Microfiber Cleaning Cloth 12 in. W X 12 in. L 2 pk",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-microfiber-cleaning-cloth-12-in-w-x-12-in-l-2-pk/p/8099509"
+    },
+    {
+      "id": "HC-60d9f89eb356",
+      "name": "Chef Craft Microfiber Cleaning Towel 15 in. W X 25 in. L 1 pk",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-microfiber-cleaning-towel-15-in-w-x-25-in-l-1-pk/p/8099519"
+    },
+    {
+      "id": "HC-f5fb9dd8edf2",
+      "name": "Chef Craft Microfiber Towels 15 in. W X 25 in. L 1 pk",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-microfiber-towels-15-in-w-x-25-in-l-1-pk/p/8099511"
+    },
+    {
+      "id": "HC-51571964b440",
+      "name": "Chef Craft Microfiber Cleaning Towel 15 in. W X 25 in. L 1 pk",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-microfiber-cleaning-towel-15-in-w-x-25-in-l-1-pk/p/8099518"
+    },
+    {
+      "id": "HC-63be26fc3c47",
+      "name": "Kikkerland 3 in. W Nylon Handle Scrubber",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-3-in-w-nylon-handle-scrubber/p/1039009"
+    },
+    {
+      "id": "HC-d09e35fee558",
+      "name": "Core Home 14.3 in. W Dryer Vent Brush",
+      "brand": "Core Home",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/core-home-143-in-w-dryer-vent-brush/p/1037945"
+    },
+    {
+      "id": "HC-2b5d2349ba5a",
+      "name": "Kikkerland Medium Duty Scrubber Sponge For All Purpose 1 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-medium-duty-scrubber-sponge-for-all-purpose-1-pk/p/1039064"
+    },
+    {
+      "id": "HC-a98dc8ffb205",
+      "name": "OGGI 2.5 in. W Medium Bristle 4 in. Bamboo Handle Dish Brush",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-25-in-w-medium-bristle-4-in-bamboo-handle-dish-brush/p/1035621"
+    },
+    {
+      "id": "HC-c66594d152b1",
+      "name": "OGGI 2.5 in. W Medium Bristle 8 in. Bamboo Handle Dish Brush",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-25-in-w-medium-bristle-8-in-bamboo-handle-dish-brush/p/1035604"
+    },
+    {
+      "id": "HC-7b7ee4985625",
+      "name": "YETI LoadOut 5 gal Bucket Black Forest Green",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-black-forest-green/p/8124215"
+    },
+    {
+      "id": "HC-5bd2dd2a0eeb",
+      "name": "YETI LoadOut 5 gal Bucket Cherry Blossom",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-cherry-blossom/p/8125737"
+    },
+    {
+      "id": "HC-0dfd578bae30",
+      "name": "Flitz No Scent Stainless Steel Cleaner and Polish Liquid 16 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-stainless-steel-cleaner-and-polish-liquid-16-oz/p/1003944"
+    },
+    {
+      "id": "HC-e3502eb6666a",
+      "name": "YETI Loadout 5 gal Bucket Moon Dust",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-moon-dust/p/8134305"
+    },
+    {
+      "id": "HC-b241f7fd9f71",
+      "name": "Kikkerland Medium Duty Dish Sponge For All Purpose 2 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-medium-duty-dish-sponge-for-all-purpose-2-pk/p/1042176"
+    },
+    {
+      "id": "HC-defd0fb8e1e6",
+      "name": "Kikkerland Medium Duty Dish Sponge For All Purpose 2 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-medium-duty-dish-sponge-for-all-purpose-2-pk/p/1042175"
+    },
+    {
+      "id": "HC-1e61fb4914d1",
+      "name": "YETI LoadOut Swivel Padded Bucket Seat Lid Tan",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-swivel-padded-bucket-seat-lid-tan/p/8134308"
+    },
+    {
+      "id": "HC-0b11f82e2574",
+      "name": "Chef Craft Microfiber Cleaning Towel 15 in. W X 25 in. L 1 pk",
+      "brand": "Chef Craft",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-microfiber-cleaning-towel-15-in-w-x-25-in-l-1-pk/p/8099515"
+    },
+    {
+      "id": "HC-3427f4bfab83",
+      "name": "WD-40 14 in. L X 14 in. W Microfiber Auto Cleaning Cloth 1 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-14-in-l-x-14-in-w-microfiber-auto-cleaning-cloth-1-pc/p/8128346"
+    },
+    {
+      "id": "HC-741df957dd8f",
+      "name": "WD-40 14 in. L X 14 in. W Microfiber Auto Cleaning Cloth 1 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-14-in-l-x-14-in-w-microfiber-auto-cleaning-cloth-1-pc/p/8128355"
+    },
+    {
+      "id": "HC-3165abba40f8",
+      "name": "WD-40 14 in. L X 14 in. W Microfiber Auto Cleaning Cloth 1 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-14-in-l-x-14-in-w-microfiber-auto-cleaning-cloth-1-pc/p/8128354"
+    },
+    {
+      "id": "HC-2cbd294d1659",
+      "name": "WD-40 12 in. L X 12 in. W Microfiber Auto Cleaning Cloth 3 pk",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-12-in-l-x-12-in-w-microfiber-auto-cleaning-cloth-3-pk/p/8127484"
+    },
+    {
+      "id": "HC-d8551d917e67",
+      "name": "WD-40 14 in. L X 14 in. W Microfiber Auto Cleaning Cloth 1 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-14-in-l-x-14-in-w-microfiber-auto-cleaning-cloth-1-pc/p/8128357"
+    },
+    {
+      "id": "HC-d4fd4c1f22ec",
+      "name": "WD-40 Microfiber Detailing Kit 3 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-microfiber-detailing-kit-3-pc/p/8128393"
+    },
+    {
+      "id": "HC-049e547503ee",
+      "name": "WD-40 Microfiber Detailing Kit 3 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-microfiber-detailing-kit-3-pc/p/8128394"
+    },
+    {
+      "id": "HC-22583f2b0177",
+      "name": "WD-40 14 in. L X 14 in. W Microfiber Auto Cleaning Cloth 1 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-14-in-l-x-14-in-w-microfiber-auto-cleaning-cloth-1-pc/p/8127972"
+    },
+    {
+      "id": "HC-ed7d9f0bd3a3",
+      "name": "WD-40 16 in. L X 16 in. W Microfiber Auto Cleaning Cloth 2 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-16-in-l-x-16-in-w-microfiber-auto-cleaning-cloth-2-pc/p/8127977"
+    },
+    {
+      "id": "HC-fcab6b30bba1",
+      "name": "WD-40 12.8 in. L X 12.8 in. W Microfiber Auto Cleaning Cloth 1 pk",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-128-in-l-x-128-in-w-microfiber-auto-cleaning-cloth-1-pk/p/8128321"
+    },
+    {
+      "id": "HC-455c101c99ed",
+      "name": "WD-40 14 in. L X 14 in. W Microfiber Auto Cleaning Cloth 12 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-14-in-l-x-14-in-w-microfiber-auto-cleaning-cloth-12-pc/p/8128361"
+    },
+    {
+      "id": "HC-8a3e61b14fec",
+      "name": "WD-40 12 in. L X 12 in. W Microfiber Auto Cleaning Cloth 50 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-12-in-l-x-12-in-w-microfiber-auto-cleaning-cloth-50-pc/p/8128341"
+    },
+    {
+      "id": "HC-c468581169b3",
+      "name": "WD-40 14 in. L X 14 in. W Microfiber Auto Cleaning Cloth 24 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-14-in-l-x-14-in-w-microfiber-auto-cleaning-cloth-24-pc/p/8127971"
+    },
+    {
+      "id": "HC-765ea4d626c7",
+      "name": "WD-40 14 in. L X 14 in. W Microfiber Auto Cleaning Cloth 24 pc",
+      "brand": "WD-40",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wd-40-14-in-l-x-14-in-w-microfiber-auto-cleaning-cloth-24-pc/p/8128347"
+    },
+    {
+      "id": "HC-079dd7d7c0d2",
+      "name": "YETI LoadOut 5 gal Bucket Black",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-black/p/8134307"
+    },
+    {
+      "id": "HC-2c9921c059ea",
+      "name": "Core Home Bamboo/Plastic Handheld Dustpan and Brush Set",
+      "brand": "Core Home",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/core-home-bamboo-plastic-handheld-dustpan-and-brush-set/p/1037072"
+    },
+    {
+      "id": "HC-76914ecbaa9f",
+      "name": "Flitz No Scent Concentrated Cleaner and Polish Liquid 16 oz",
+      "brand": "Flitz",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/flitz-no-scent-concentrated-cleaner-and-polish-liquid-16-oz/p/1003948"
+    },
+    {
+      "id": "HC-999857742269",
+      "name": "Armaly ProPlus Medium Duty Antibacterial Sponge For Multi-Purpose 5 in. L 1 pc",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-medium-duty-antibacterial-sponge-for-multi-purpose-5-in-l-1-pc/p/1005726"
+    },
+    {
+      "id": "HC-cb8d015080f3",
+      "name": "Kikkerland Medium Duty Scrubber Sponge For All Purpose 4.92 in. L 1 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-medium-duty-scrubber-sponge-for-all-purpose-492-in-l-1-pk/p/1045555"
+    },
+    {
+      "id": "HC-acd925fcc0d3",
+      "name": "Kikkerland Medium Duty Scrubber Sponge For All Purpose 4.52 in. L 1 pk",
+      "brand": "Kikkerland",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/kikkerland-medium-duty-scrubber-sponge-for-all-purpose-452-in-l-1-pk/p/1045569"
+    },
+    {
+      "id": "HC-82ab3bcb4e41",
+      "name": "Armaly ProPlus Heavy Duty Antibacterial Turtleback Sponge For All Purpose 7.4 in. L 1 pc",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-heavy-duty-antibacterial-turtleback-sponge-for-all-purpose-74-in-l-1-pc/p/1004824"
+    },
+    {
+      "id": "HC-d361e4165773",
+      "name": "Flitz Multipurpose Rust Remover & Stainless Steel Cleaner for Heavy Oxidation, 1 lb",
+      "brand": "",
+      "retailer": "Walmart",
+      "url": "https://www.walmart.com/ip/Flitz-Multipurpose-Rust-Remover-Stainless-Steel-Cleaner-for-Heavy-Oxidation-1-lb/12987721852"
+    },
+    {
+      "id": "HC-29dfa3096e04",
+      "name": "Crocodile Cloth Original Fiber Blend Cleaning Wipes 15 in. W X 10 in. L 100 pk",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-original-fiber-blend-cleaning-wipes-15-in-w-x-10-in-l-100-pk/p/1015933"
+    },
+    {
+      "id": "HC-3accdef4f25e",
+      "name": "YETI LoadOut 5 gal Bucket Big Wave Blue",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-big-wave-blue/p/8100116"
+    },
+    {
+      "id": "HC-0eb5c964479c",
+      "name": "YETI LoadOut 5 gal Bucket King Crab Orange",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-king-crab-orange/p/8100117"
+    },
+    {
+      "id": "HC-3da64cdbe1e0",
+      "name": "Spray Nine Citrus Scent Cleaner and Disinfectant 1 gal 1 pk",
+      "brand": "Spray Nine",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/spray-nine-citrus-scent-cleaner-and-disinfectant-1-gal-1-pk/p/1011345"
+    },
+    {
+      "id": "HC-d2f07d353d89",
+      "name": "Rust-Oleum Whink No Scent Rust Stain Remover 6 oz Liquid",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-whink-no-scent-rust-stain-remover-6-oz-liquid/p/10317"
+    },
+    {
+      "id": "HC-7a3c216194ff",
+      "name": "Spray Nine No Scent BBQ Grill Cleaner Liquid 22 oz",
+      "brand": "Spray Nine",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/spray-nine-no-scent-bbq-grill-cleaner-liquid-22-oz/p/1147271"
+    },
+    {
+      "id": "HC-a821bca4bd0c",
+      "name": "Rust-Oleum No Scent Heavy Duty Degreaser 32 oz Liquid",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-no-scent-heavy-duty-degreaser-32-oz-liquid/p/1314947"
+    },
+    {
+      "id": "HC-1eddc3000a71",
+      "name": "Guardsman No Scent White Ring Remover 1 wipes Wipes",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-no-scent-white-ring-remover-1-wipes-wipes/p/1369651"
+    },
+    {
+      "id": "HC-46285d077956",
+      "name": "Marcal Paper Towels 1 ply 12 pk",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-paper-towels-1-ply-12-pk/p/1558899"
+    },
+    {
+      "id": "HC-e57ad787f4f0",
+      "name": "Marcal Multi-Fold Towels 250 sheet 1 ply 16 pk",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-multi-fold-towels-250-sheet-1-ply-16-pk/p/1559350"
+    },
+    {
+      "id": "HC-d7dd7b38a5b7",
+      "name": "Armaly ProPlus Heavy Duty Antibacterial Sponge For Grout & Concrete 7-1/2 in. L 1 pc",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-heavy-duty-antibacterial-sponge-for-grout--concrete-7-1-2-in-l-1-pc/p/1801422"
+    },
+    {
+      "id": "HC-a43b5e55c1ef",
+      "name": "Crocodile Cloth Paint Cleaning Cloth 15 in. W X 10 in. L 10 wipes 10 pk",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-paint-cleaning-cloth-15-in-w-x-10-in-l-10-wipes-10-pk/p/1036971"
+    },
+    {
+      "id": "HC-b3352c32b757",
+      "name": "YETI LoadOut 5 gal Bucket White",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-5-gal-bucket-white/p/8000280"
+    },
+    {
+      "id": "HC-9c5b3ccde97c",
+      "name": "Wooster Sherlock Telescoping 8 ft. L X 1 in. D Aluminum Extension Pole White/Green",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-sherlock-telescoping-8-ft-l-x-1-in-d-aluminum-extension-pole-white-green/p/1098904"
+    },
+    {
+      "id": "HC-8ab32a637660",
+      "name": "Marcal Center Pull Towels 2 ply 6 pk",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-center-pull-towels-2-ply-6-pk/p/1559285"
+    },
+    {
+      "id": "HC-ed864b53ec7e",
+      "name": "Marcal Toilet Paper 12 Rolls 2000 sheet 1000 ft.",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-toilet-paper-12-rolls-2000-sheet-1000-ft/p/1559673"
+    },
+    {
+      "id": "HC-c178dd194198",
+      "name": "Rust-Oleum Stops Rust 8 oz Rust Reformer",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-stops-rust-8-oz-rust-reformer/p/13650"
+    },
+    {
+      "id": "HC-7735db390594",
+      "name": "YETI LoadOut Swivel Padded Bucket Seat Lid Black",
+      "brand": "YETI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/yeti-loadout-swivel-padded-bucket-seat-lid-black/p/8113077"
+    },
+    {
+      "id": "HC-b504ae4e2e82",
+      "name": "Wooster Sherlock Telescoping 4 ft. L X 1 in. D Aluminum Extension Pole White/Green",
+      "brand": "Wooster",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/wooster-sherlock-telescoping-4-ft-l-x-1-in-d-aluminum-extension-pole-white-green/p/1081249"
+    },
+    {
+      "id": "HC-833fbcdb8b29",
+      "name": "Granite Gold Citrus Scent Daily Cleaner Refill 64 oz Liquid",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-citrus-scent-daily-cleaner-refill-64-oz-liquid/p/1491109"
+    },
+    {
+      "id": "HC-6c108e6a48ac",
+      "name": "Hagerty No Scent Silversmiths' Polish 8 oz Liquid",
+      "brand": "Hagerty",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/hagerty-no-scent-silversmiths-polish-8-oz-liquid/p/10333"
+    },
+    {
+      "id": "HC-765fa076dddb",
+      "name": "Guardsman Cotton Cleaning Cloth 14 in. W X 18 in. L 1 pk",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-cotton-cleaning-cloth-14-in-w-x-18-in-l-1-pk/p/10442"
+    },
+    {
+      "id": "HC-ba35efe0f2e9",
+      "name": "Marcal Hard Roll Towels 1 ply 6 pk",
+      "brand": "Marcal",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/marcal-hard-roll-towels-1-ply-6-pk/p/1558881"
+    },
+    {
+      "id": "HC-fc250a368f79",
+      "name": "Granite Gold Citrus Scent All Purpose Cleaner 24 oz Liquid",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-citrus-scent-all-purpose-cleaner-24-oz-liquid/p/1491083"
+    },
+    {
+      "id": "HC-978b35a88ec4",
+      "name": "Granite Gold Citrus Scent Granite and Stone Polish 24 oz Liquid",
+      "brand": "Granite Gold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/granite-gold-citrus-scent-granite-and-stone-polish-24-oz-liquid/p/1491455"
+    },
+    {
+      "id": "HC-11933bbabc59",
+      "name": "Rust-Oleum Krud Kutter No Scent Cleaner and Degreaser 1 gal Liquid",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-krud-kutter-no-scent-cleaner-and-degreaser-1-gal-liquid/p/1207422"
+    },
+    {
+      "id": "HC-bf5bcb9f9352",
+      "name": "Guardsman Anytime Clean & Polish Woodland Fresh Scent Furniture Cream 16 oz Cream",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-anytime-clean--polish-woodland-fresh-scent-furniture-cream-16-oz-cream/p/10118"
+    },
+    {
+      "id": "HC-9e43ac09f97d",
+      "name": "Guardsman Lemon Scent Lemon Oil 16 oz Liquid",
+      "brand": "Guardsman",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/guardsman-lemon-scent-lemon-oil-16-oz-liquid/p/1587344"
+    },
+    {
+      "id": "HC-4eac507c92af",
+      "name": "Krud Kutter Mold and Mildew Stain Remover 32 oz",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-mold-and-mildew-stain-remover-32-oz/p/1637990"
+    },
+    {
+      "id": "HC-ccbd1d928276",
+      "name": "Rust-Oleum RockSolid Deck and Patio Cleaner 1 gal Liquid",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-rocksolid-deck-and-patio-cleaner-1-gal-liquid/p/1694728"
+    },
+    {
+      "id": "HC-61c5e1f93ffd",
+      "name": "Armaly ProPlus Heavy Duty Antibacterial Sponge For All Purpose 7-3/4 in. L 1 pc",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-heavy-duty-antibacterial-sponge-for-all-purpose-7-3-4-in-l-1-pc/p/1801414"
+    },
+    {
+      "id": "HC-7d0aeec524da",
+      "name": "Armaly ProPlus Heavy Duty Antibacterial Utility Sponge For All Purpose 7-3/8 in. L 1 pc",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-heavy-duty-antibacterial-utility-sponge-for-all-purpose-7-3-8-in-l-1-pc/p/1801430"
+    },
+    {
+      "id": "HC-22139472ec8d",
+      "name": "Spray Nine Marine No Scent Cleaner and Disinfectant 32 oz 1 pk",
+      "brand": "Spray Nine",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/spray-nine-marine-no-scent-cleaner-and-disinfectant-32-oz-1-pk/p/8702243"
+    },
+    {
+      "id": "HC-291e80959fdd",
+      "name": "Spray Nine Cleaner and Degreaser 32 oz Liquid",
+      "brand": "Spray Nine",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/spray-nine-cleaner-and-degreaser-32-oz-liquid/p/1014391"
+    },
+    {
+      "id": "HC-a6b7fec091a9",
+      "name": "Spray Nine No Scent Cleaner and Degreaser 32 oz Spray",
+      "brand": "Spray Nine",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/spray-nine-no-scent-cleaner-and-degreaser-32-oz-spray/p/1692326"
+    },
+    {
+      "id": "HC-6265de72c488",
+      "name": "Krud Kutter Professional No Scent Carpet Stain Remover 1 gal Liquid",
+      "brand": "Krud Kutter",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/krud-kutter-professional-no-scent-carpet-stain-remover-1-gal-liquid/p/1016954"
+    },
+    {
+      "id": "HC-65541aca985f",
+      "name": "Rust-Oleum Professional Cleaners No Scent Multi-Purpose Cleaner 1 gal 1 pk",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-professional-cleaners-no-scent-multi-purpose-cleaner-1-gal-1-pk/p/1016958"
+    },
+    {
+      "id": "HC-2ab3c8627d13",
+      "name": "Rust-Oleum Professional Cleaners No Scent Multi-Purpose Cleaner 32 oz 1 pk",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-professional-cleaners-no-scent-multi-purpose-cleaner-32-oz-1-pk/p/1016965"
+    },
+    {
+      "id": "HC-be0944f57de2",
+      "name": "Rust-Oleum 32 oz Rust Dissolver",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-32-oz-rust-dissolver/p/1016966"
+    },
+    {
+      "id": "HC-1e9c689c8044",
+      "name": "Armaly ProPlus Medium Duty Antibacterial Sponge For All Purpose 8 in. L 1 pk",
+      "brand": "Armaly",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/armaly-proplus-medium-duty-antibacterial-sponge-for-all-purpose-8-in-l-1-pk/p/1024631"
+    },
+    {
+      "id": "HC-ab88eaa4130c",
+      "name": "Rust-Oleum Professional Cleaners No Scent Glass Cleaner 20 oz Foam",
+      "brand": "Rust-Oleum",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/rust-oleum-professional-cleaners-no-scent-glass-cleaner-20-oz-foam/p/1026252"
+    },
+    {
+      "id": "HC-94fb4c76f6d2",
+      "name": "Crocodile Cloth Original Cleaning Cloth 15 in. W X 10 in. L 10 wipes 1 pk",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-original-cleaning-cloth-15-in-w-x-10-in-l-10-wipes-1-pk/p/1036969"
+    },
+    {
+      "id": "HC-1de8c0b35264",
+      "name": "Crocodile Cloth Power Scrub Cleaning Cloth 15 in. W X 10 in. L 10 wipes 10 pk",
+      "brand": "Crocodile Cloth",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/crocodile-cloth-power-scrub-cleaning-cloth-15-in-w-x-10-in-l-10-wipes-10-pk/p/1036970"
+    },
+    {
+      "id": "HC-05eaefd6811d",
+      "name": "GUARDSMAN FURNITURE POLISH / LEMON",
+      "brand": "",
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/guardsman-furniture-polish-lemon/4175807101"
+    },
+    {
+      "id": "HC-e681b45f9c78",
+      "name": "OGGI 0.7 qt White Food Storage Container 1 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-07-qt-white-food-storage-container-1-pk/p/6024273"
+    },
+    {
+      "id": "HC-6fbd0e82a6b1",
+      "name": "OGGI 62 oz Warm Gray Food Storage Container 1 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-62-oz-warm-gray-food-storage-container-1-pk/p/6059689"
+    },
+    {
+      "id": "HC-9366f644a925",
+      "name": "Chef Craft 2 cups Clear Food Storage Container 6 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-2-cups-clear-food-storage-container-6-pk/p/6400220"
+    },
+    {
+      "id": "HC-e665ce28704a",
+      "name": "Chef Craft 1.5 cups Clear Food Storage Container 6 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-15-cups-clear-food-storage-container-6-pk/p/6400444"
+    },
+    {
+      "id": "HC-ba9d9b3acf1e",
+      "name": "OGGI Clear Reusable Food Storage Bag 4 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-clear-reusable-food-storage-bag-4-pk/p/6081349"
+    },
+    {
+      "id": "HC-8b0492650308",
+      "name": "OGGI 62 oz Silver Food Storage Container 1 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-62-oz-silver-food-storage-container-1-pk/p/6059688"
+    },
+    {
+      "id": "HC-1a23b622aa8c",
+      "name": "Chef Craft 7 qt Clear Food Storage Container 1 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-7-qt-clear-food-storage-container-1-pk/p/6067239"
+    },
+    {
+      "id": "HC-a68e2a5f983e",
+      "name": "Chef Craft 4 qt Clear Food Storage Container 1 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-4-qt-clear-food-storage-container-1-pk/p/6067289"
+    },
+    {
+      "id": "HC-d6662f8f4b17",
+      "name": "Chef Craft 16 oz Clear Food Storage Container Set 1 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-16-oz-clear-food-storage-container-set-1-pk/p/6066602"
+    },
+    {
+      "id": "HC-73219be88829",
+      "name": "Chef Craft 32 oz Clear Food Storage Container Set 1 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-32-oz-clear-food-storage-container-set-1-pk/p/6066603"
+    },
+    {
+      "id": "HC-4ba1524f0b27",
+      "name": "Chef Craft 8 oz Clear Food Storage Container Set 1 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-8-oz-clear-food-storage-container-set-1-pk/p/6066601"
+    },
+    {
+      "id": "HC-5b87df3549d6",
+      "name": "Chef Craft Clear Food Storage Container Set 4 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/chef-craft-clear-food-storage-container-set-4-pk/p/6086530"
+    },
+    {
+      "id": "HC-94ffb45cd53d",
+      "name": "OGGI Clear Reusable Food Storage Bag 6 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-clear-reusable-food-storage-bag-6-pk/p/6081351"
+    },
+    {
+      "id": "HC-7f906d25f637",
+      "name": "OGGI Clear Reusable Food Storage Bag 6 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-clear-reusable-food-storage-bag-6-pk/p/6081350"
+    },
+    {
+      "id": "HC-439751abc937",
+      "name": "OGGI 1.4 qt White Food Storage Container 1 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-14-qt-white-food-storage-container-1-pk/p/6021832"
+    },
+    {
+      "id": "HC-6f02c2590e89",
+      "name": "OGGI 2.6 qt White Food Storage Container 1 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-26-qt-white-food-storage-container-1-pk/p/6021838"
+    },
+    {
+      "id": "HC-43ea01e44a1f",
+      "name": "OGGI 4 qt White Food Storage Container 1 pk",
+      "brand": "",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-4-qt-white-food-storage-container-1-pk/p/6024274"
+    },
+    {
+      "id": "HC-28d91244539a",
+      "name": "OGGI Eco-Liner 1.5 gal Compost Bags Flat Top 40 pk",
+      "brand": "OGGI",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/oggi-eco-liner-15-gal-compost-bags-flat-top-40-pk/p/6024357"
+    },
+    {
+      "id": "HC-f5161c816652",
+      "name": "Marcal 100% Recycled, Soft. and Absorbent Toilet Tissue (168 Sheets Per Roll 16 Per Pack) MRC16466PK",
+      "brand": "Marcal",
+      "retailer": "Home Depot",
+      "url": "https://www.homedepot.com/p/Marcal-100-Recycled-Soft-and-Absorbent-Toilet-Tissue-168-Sheets-Per-Roll-16-Per-Pack-MRC16466PK/313646695"
+    }
+  ],
+  "unresolvedChecks": [
+    {
+      "brand": "Viking",
+      "status": "unresolved homonym",
+      "note": "Target evidence located for the unrelated Viking book publisher, not the Home Care brand; retained visible."
+    },
+    {
+      "brand": "Harper",
+      "status": "unresolved homonym",
+      "note": "Target evidence located for the unrelated Harper book publisher, not the Home Care brand; retained visible."
+    },
+    {
+      "brand": "Boardwalk",
+      "status": "unresolved homonym",
+      "note": "Boardwalk Puzzle Company is not evidence for the janitorial Home Care brand; retained visible."
+    },
+    {
+      "brand": "Simple Green",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Quickie",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Rug Doctor",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "DQB",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Lundmark",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Shurhold",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Humydry",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Mr. LongArm",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Marathon",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Drillbrush",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Spontex",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "De-Solv-it",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Star brite",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Venom Steel",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Ruffies",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    }
+  ],
+  "remainingVisibleBrandQueue": [
+    {
+      "brand": "(not recorded)",
+      "count": 2061
+    },
+    {
+      "brand": "Great Value",
+      "count": 120
+    },
+    {
+      "brand": "Member's Mark",
+      "count": 98
+    },
+    {
+      "brand": "Superio Brand",
+      "count": 88
+    },
+    {
+      "brand": "Ace",
+      "count": 81
+    },
+    {
+      "brand": "Swedish Treasures",
+      "count": 72
+    },
+    {
+      "brand": "Signature SELECT",
+      "count": 54
+    },
+    {
+      "brand": "Gloveworks",
+      "count": 43
+    },
+    {
+      "brand": "Garden Works",
+      "count": 40
+    },
+    {
+      "brand": "Simple Green",
+      "count": 39
+    },
+    {
+      "brand": "Amazon Basics",
+      "count": 37
+    },
+    {
+      "brand": "Carrand",
+      "count": 34
+    },
+    {
+      "brand": "Total Home",
+      "count": 27
+    },
+    {
+      "brand": "AMMEX",
+      "count": 26
+    },
+    {
+      "brand": "Little Giant",
+      "count": 26
+    },
+    {
+      "brand": "DQB",
+      "count": 25
+    },
+    {
+      "brand": "Boardwalk",
+      "count": 23
+    },
+    {
+      "brand": "Lundmark",
+      "count": 22
+    },
+    {
+      "brand": "Viking",
+      "count": 22
+    },
+    {
+      "brand": "Quickie",
+      "count": 20
+    },
+    {
+      "brand": "Shurhold",
+      "count": 19
+    },
+    {
+      "brand": "X3",
+      "count": 17
+    },
+    {
+      "brand": "Elite Mops and Brooms",
+      "count": 16
+    },
+    {
+      "brand": "Harper",
+      "count": 16
+    },
+    {
+      "brand": "Humydry",
+      "count": 16
+    },
+    {
+      "brand": "Marathon",
+      "count": 15
+    },
+    {
+      "brand": "Mr. LongArm",
+      "count": 15
+    },
+    {
+      "brand": "Drillbrush",
+      "count": 14
+    },
+    {
+      "brand": "Sandler Brothers",
+      "count": 14
+    },
+    {
+      "brand": "LA's Totally Awesome",
+      "count": 13
+    },
+    {
+      "brand": "Odor Assassin",
+      "count": 13
+    },
+    {
+      "brand": "De-Solv-it",
+      "count": 12
+    },
+    {
+      "brand": "Kosin Family",
+      "count": 12
+    },
+    {
+      "brand": "Spontex",
+      "count": 12
+    },
+    {
+      "brand": "Star brite",
+      "count": 12
+    },
+    {
+      "brand": "30 SECONDS",
+      "count": 11
+    },
+    {
+      "brand": "Contek",
+      "count": 11
+    },
+    {
+      "brand": "Jacent",
+      "count": 11
+    },
+    {
+      "brand": "Ruffies",
+      "count": 11
+    },
+    {
+      "brand": "True Living",
+      "count": 11
+    },
+    {
+      "brand": "Venom Steel",
+      "count": 11
+    },
+    {
+      "brand": "Gonesh",
+      "count": 10
+    },
+    {
+      "brand": "Kirkland Signature",
+      "count": 10
+    },
+    {
+      "brand": "Rug Doctor",
+      "count": 10
+    },
+    {
+      "brand": "3M",
+      "count": 9
+    },
+    {
+      "brand": "Bon",
+      "count": 9
+    },
+    {
+      "brand": "Fantastik",
+      "count": 9
+    },
+    {
+      "brand": "Howard",
+      "count": 9
+    },
+    {
+      "brand": "Impact",
+      "count": 9
+    },
+    {
+      "brand": "Tork",
+      "count": 9
+    },
+    {
+      "brand": "Berkley Jensen",
+      "count": 8
+    },
+    {
+      "brand": "Best Rags",
+      "count": 8
+    },
+    {
+      "brand": "Betco",
+      "count": 8
+    },
+    {
+      "brand": "CLR Brands",
+      "count": 8
+    },
+    {
+      "brand": "Concrobium",
+      "count": 8
+    },
+    {
+      "brand": "Dart",
+      "count": 8
+    },
+    {
+      "brand": "Earth Breeze",
+      "count": 8
+    },
+    {
+      "brand": "Great Stuff",
+      "count": 8
+    },
+    {
+      "brand": "HDX",
+      "count": 8
+    },
+    {
+      "brand": "Kitchen Innovations",
+      "count": 8
+    },
+    {
+      "brand": "Open Nature",
+      "count": 8
+    },
+    {
+      "brand": "Quince",
+      "count": 8
+    },
+    {
+      "brand": "Refresh Your Car!",
+      "count": 8
+    },
+    {
+      "brand": "Smells Begone",
+      "count": 8
+    },
+    {
+      "brand": "Star Kitchen and Home",
+      "count": 8
+    },
+    {
+      "brand": "Tub O' Towels",
+      "count": 8
+    },
+    {
+      "brand": "Allway",
+      "count": 7
+    },
+    {
+      "brand": "Angel Soft",
+      "count": 7
+    },
+    {
+      "brand": "CLR",
+      "count": 7
+    },
+    {
+      "brand": "Genuine Joe",
+      "count": 7
+    },
+    {
+      "brand": "Goddard's",
+      "count": 7
+    },
+    {
+      "brand": "Iron-Hold",
+      "count": 7
+    },
+    {
+      "brand": "KHKFY",
+      "count": 7
+    },
+    {
+      "brand": "Little Trees",
+      "count": 7
+    },
+    {
+      "brand": "Lola",
+      "count": 7
+    },
+    {
+      "brand": "Mean Green",
+      "count": 7
+    },
+    {
+      "brand": "Miele",
+      "count": 7
+    },
+    {
+      "brand": "Mold Armor",
+      "count": 7
+    },
+    {
+      "brand": "Multi-Clean",
+      "count": 7
+    },
+    {
+      "brand": "Paint USA",
+      "count": 7
+    },
+    {
+      "brand": "Publix",
+      "count": 7
+    },
+    {
+      "brand": "Schroeder & Tremayne",
+      "count": 7
+    },
+    {
+      "brand": "Seller not verified",
+      "count": 7
+    },
+    {
+      "brand": "Trewax",
+      "count": 7
+    },
+    {
+      "brand": "Universal Candle Company",
+      "count": 7
+    },
+    {
+      "brand": "Vanity Fair",
+      "count": 7
+    },
+    {
+      "brand": "Blowze Tissues",
+      "count": 6
+    },
+    {
+      "brand": "Coghlan's",
+      "count": 6
+    },
+    {
+      "brand": "Combat",
+      "count": 6
+    },
+    {
+      "brand": "Diamond Visions",
+      "count": 6
+    },
+    {
+      "brand": "Drano",
+      "count": 6
+    },
+    {
+      "brand": "Easy-Off",
+      "count": 6
+    },
+    {
+      "brand": "Grease Beast",
+      "count": 6
+    },
+    {
+      "brand": "H-E-B",
+      "count": 6
+    },
+    {
+      "brand": "Home Armor",
+      "count": 6
+    },
+    {
+      "brand": "Hoover",
+      "count": 6
+    },
+    {
+      "brand": "iDesign",
+      "count": 6
+    },
+    {
+      "brand": "iRobot",
+      "count": 6
+    },
+    {
+      "brand": "IronOut",
+      "count": 6
+    },
+    {
+      "brand": "Kay Dee",
+      "count": 6
+    },
+    {
+      "brand": "Minwax",
+      "count": 6
+    },
+    {
+      "brand": "Moldex",
+      "count": 6
+    },
+    {
+      "brand": "Suavitel",
+      "count": 6
+    },
+    {
+      "brand": "Super Clean",
+      "count": 6
+    },
+    {
+      "brand": "SuperTuff",
+      "count": 6
+    },
+    {
+      "brand": "Anqtovp",
+      "count": 5
+    },
+    {
+      "brand": "ATTITUDE",
+      "count": 5
+    },
+    {
+      "brand": "Azuna",
+      "count": 5
+    },
+    {
+      "brand": "Bio-Clean",
+      "count": 5
+    },
+    {
+      "brand": "Bring It On",
+      "count": 5
+    },
+    {
+      "brand": "Clean Shower",
+      "count": 5
+    },
+    {
+      "brand": "Drill Brush",
+      "count": 5
+    },
+    {
+      "brand": "Endust",
+      "count": 5
+    },
+    {
+      "brand": "Gel-Gloss",
+      "count": 5
+    },
+    {
+      "brand": "Joy",
+      "count": 5
+    },
+    {
+      "brand": "Kaboom",
+      "count": 5
+    },
+    {
+      "brand": "KAF Home",
+      "count": 5
+    },
+    {
+      "brand": "Lemi Shine",
+      "count": 5
+    },
+    {
+      "brand": "Nature's Miracle",
+      "count": 5
+    },
+    {
+      "brand": "Ocean Recycled",
+      "count": 5
+    },
+    {
+      "brand": "Parker & Bailey",
+      "count": 5
+    },
+    {
+      "brand": "Schmutzhaken",
+      "count": 5
+    },
+    {
+      "brand": "Simple Truth",
+      "count": 5
+    },
+    {
+      "brand": "SmartRags",
+      "count": 5
+    },
+    {
+      "brand": "Sof Sole",
+      "count": 5
+    },
+    {
+      "brand": "Spectrum",
+      "count": 5
+    },
+    {
+      "brand": "Walgreens",
+      "count": 5
+    },
+    {
+      "brand": "Whink",
+      "count": 5
+    },
+    {
+      "brand": "Woolite",
+      "count": 5
+    },
+    {
+      "brand": "365 by Whole Foods Market",
+      "count": 4
+    },
+    {
+      "brand": "Amiluo",
+      "count": 4
+    },
+    {
+      "brand": "Arrow Home Products",
+      "count": 4
+    },
+    {
+      "brand": "Aunt Fannie's",
+      "count": 4
+    },
+    {
+      "brand": "Behrens",
+      "count": 4
+    },
+    {
+      "brand": "Benjamin Moore",
+      "count": 4
+    },
+    {
+      "brand": "Bon Ami",
+      "count": 4
+    },
+    {
+      "brand": "Bowl Fresh",
+      "count": 4
+    },
+    {
+      "brand": "Caboo",
+      "count": 4
+    },
+    {
+      "brand": "Camco",
+      "count": 4
+    },
+    {
+      "brand": "Capture",
+      "count": 4
+    },
+    {
+      "brand": "Carpet Fresh",
+      "count": 4
+    },
+    {
+      "brand": "Core Kitchen",
+      "count": 4
+    },
+    {
+      "brand": "CRC",
+      "count": 4
+    },
+    {
+      "brand": "CVS",
+      "count": 4
+    },
+    {
+      "brand": "DishFish",
+      "count": 4
+    },
+    {
+      "brand": "Dreame",
+      "count": 4
+    },
+    {
+      "brand": "EZ Smart",
+      "count": 4
+    },
+    {
+      "brand": "Formula 409",
+      "count": 4
+    },
+    {
+      "brand": "Handee Pockets",
+      "count": 4
+    },
+    {
+      "brand": "Holloway House",
+      "count": 4
+    },
+    {
+      "brand": "Household Essentials",
+      "count": 4
+    },
+    {
+      "brand": "Kroger",
+      "count": 4
+    },
+    {
+      "brand": "Linzer",
+      "count": 4
+    },
+    {
+      "brand": "Lodge",
+      "count": 4
+    },
+    {
+      "brand": "Marshalltown",
+      "count": 4
+    },
+    {
+      "brand": "Miracle Mist",
+      "count": 4
+    },
+    {
+      "brand": "Pine Glo",
+      "count": 4
+    },
+    {
+      "brand": "Premier",
+      "count": 4
+    },
+    {
+      "brand": "QEP",
+      "count": 4
+    },
+    {
+      "brand": "Rain-X",
+      "count": 4
+    },
+    {
+      "brand": "Safely",
+      "count": 4
+    },
+    {
+      "brand": "Savogran",
+      "count": 4
+    },
+    {
+      "brand": "Sheila Shine",
+      "count": 4
+    },
+    {
+      "brand": "SKILCRAFT",
+      "count": 4
+    },
+    {
+      "brand": "Spic and Span",
+      "count": 4
+    },
+    {
+      "brand": "ToolBox",
+      "count": 4
+    },
+    {
+      "brand": "Trashrac",
+      "count": 4
+    },
+    {
+      "brand": "Tuscany Candle",
+      "count": 4
+    },
+    {
+      "brand": "Unbranded",
+      "count": 4
+    },
+    {
+      "brand": "US Pumice",
+      "count": 4
+    },
+    {
+      "brand": "Web",
+      "count": 4
+    },
+    {
+      "brand": "Weber",
+      "count": 4
+    },
+    {
+      "brand": "A-Maz",
+      "count": 3
+    },
+    {
+      "brand": "AC-Safe",
+      "count": 3
+    },
+    {
+      "brand": "AirWorks",
+      "count": 3
+    },
+    {
+      "brand": "AL-NEW",
+      "count": 3
+    },
+    {
+      "brand": "BALECO INC",
+      "count": 3
+    },
+    {
+      "brand": "BATTEN INDUSTRIES INC",
+      "count": 3
+    },
+    {
+      "brand": "Better Living",
+      "count": 3
+    },
+    {
+      "brand": "BioSafe",
+      "count": 3
+    },
+    {
+      "brand": "Blow Off",
+      "count": 3
+    },
+    {
+      "brand": "Blue Ribbon",
+      "count": 3
+    },
+    {
+      "brand": "BugMD",
+      "count": 3
+    },
+    {
+      "brand": "Capri Essentials",
+      "count": 3
+    },
+    {
+      "brand": "CE Tools",
+      "count": 3
+    },
+    {
+      "brand": "Challenger",
+      "count": 3
+    },
+    {
+      "brand": "Charlie's Soap",
+      "count": 3
+    },
+    {
+      "brand": "Chemical Guys",
+      "count": 3
+    },
+    {
+      "brand": "Citrusafe",
+      "count": 3
+    },
+    {
+      "brand": "Cleancult",
+      "count": 3
+    },
+    {
+      "brand": "Cloralen",
+      "count": 3
+    },
+    {
+      "brand": "Cordova",
+      "count": 3
+    },
+    {
+      "brand": "Easy Off",
+      "count": 3
+    },
+    {
+      "brand": "EdFred",
+      "count": 3
+    },
+    {
+      "brand": "Field & Future",
+      "count": 3
+    },
+    {
+      "brand": "Fluidmaster",
+      "count": 3
+    },
+    {
+      "brand": "Folex",
+      "count": 3
+    },
+    {
+      "brand": "FRESHWARE",
+      "count": 3
+    },
+    {
+      "brand": "Fulton",
+      "count": 3
+    },
+    {
+      "brand": "Fuzzy Wuzzy",
+      "count": 3
+    },
+    {
+      "brand": "Glisten",
+      "count": 3
+    },
+    {
+      "brand": "Good & Clean",
+      "count": 3
+    },
+    {
+      "brand": "Goof Off",
+      "count": 3
+    },
+    {
+      "brand": "Grease Monkey",
+      "count": 3
+    },
+    {
+      "brand": "Highmark",
+      "count": 3
+    },
+    {
+      "brand": "Home Plus",
+      "count": 3
+    },
+    {
+      "brand": "Instant Power",
+      "count": 3
+    },
+    {
+      "brand": "Intex",
+      "count": 3
+    },
+    {
+      "brand": "Joyward",
+      "count": 3
+    },
+    {
+      "brand": "Karat",
+      "count": 3
+    },
+    {
+      "brand": "Kidsjoy",
+      "count": 3
+    },
+    {
+      "brand": "Lexol",
+      "count": 3
+    },
+    {
+      "brand": "Mallory",
+      "count": 3
+    },
+    {
+      "brand": "Modern Monkey",
+      "count": 3
+    },
+    {
+      "brand": "Mu Kitchen",
+      "count": 3
+    },
+    {
+      "brand": "Narwal",
+      "count": 3
+    },
+    {
+      "brand": "NatureZway",
+      "count": 3
+    },
+    {
+      "brand": "Old English",
+      "count": 3
+    },
+    {
+      "brand": "Pinalen",
+      "count": 3
+    },
+    {
+      "brand": "Puracy",
+      "count": 3
+    },
+    {
+      "brand": "Purdy",
+      "count": 3
+    },
+    {
+      "brand": "R&W Co.",
+      "count": 3
+    },
+    {
+      "brand": "Rebel Green",
+      "count": 3
+    },
+    {
+      "brand": "Reynera",
+      "count": 3
+    },
+    {
+      "brand": "Rock Doctor",
+      "count": 3
+    },
+    {
+      "brand": "Scotts",
+      "count": 3
+    },
+    {
+      "brand": "Solo",
+      "count": 3
+    },
+    {
+      "brand": "SP",
+      "count": 3
+    },
+    {
+      "brand": "Stone Care",
+      "count": 3
+    },
+    {
+      "brand": "Sttelli",
+      "count": 3
+    },
+    {
+      "brand": "Superior Wiping Rags",
+      "count": 3
+    },
+    {
+      "brand": "Swag Pacific",
+      "count": 3
+    },
+    {
+      "brand": "Tru Earth",
+      "count": 3
+    },
+    {
+      "brand": "True Blues",
+      "count": 3
+    },
+    {
+      "brand": "Twinkle",
+      "count": 3
+    },
+    {
+      "brand": "Umbra",
+      "count": 3
+    },
+    {
+      "brand": "White Ox",
+      "count": 3
+    },
+    {
+      "brand": "Wright's",
+      "count": 3
+    },
+    {
+      "brand": "2000 Flushes",
+      "count": 2
+    },
+    {
+      "brand": "Adrinfly",
+      "count": 2
+    },
+    {
+      "brand": "Air Innovations",
+      "count": 2
+    },
+    {
+      "brand": "American Hydro Systems",
+      "count": 2
+    },
+    {
+      "brand": "Armstrong",
+      "count": 2
+    },
+    {
+      "brand": "Arocep",
+      "count": 2
+    },
+    {
+      "brand": "Bell + Howell",
+      "count": 2
+    },
+    {
+      "brand": "Beyond",
+      "count": 2
+    },
+    {
+      "brand": "BIMZUC",
+      "count": 2
+    },
+    {
+      "brand": "Black",
+      "count": 2
+    },
+    {
+      "brand": "Blue Monster",
+      "count": 2
+    },
+    {
+      "brand": "Brasso",
+      "count": 2
+    },
+    {
+      "brand": "Brite & Clean",
+      "count": 2
+    },
+    {
+      "brand": "Camp Chef",
+      "count": 2
+    },
+    {
+      "brand": "Cape Cod",
+      "count": 2
+    },
+    {
+      "brand": "Cerama Bryte",
+      "count": 2
+    },
+    {
+      "brand": "Chore Boy",
+      "count": 2
+    },
+    {
+      "brand": "Clipper Mill",
+      "count": 2
+    },
+    {
+      "brand": "CLNEZ",
+      "count": 2
+    },
+    {
+      "brand": "Color Scents",
+      "count": 2
+    },
+    {
+      "brand": "Custom Building Products",
+      "count": 2
+    },
+    {
+      "brand": "d-CON",
+      "count": 2
+    },
+    {
+      "brand": "Dirt Devil",
+      "count": 2
+    },
+    {
+      "brand": "Dirty Labs",
+      "count": 2
+    },
+    {
+      "brand": "DR JACOBS NATURALS LLC",
+      "count": 2
+    },
+    {
+      "brand": "Dr. Bronner's",
+      "count": 2
+    },
+    {
+      "brand": "Dripless",
+      "count": 2
+    },
+    {
+      "brand": "Dropps",
+      "count": 2
+    },
+    {
+      "brand": "EarthSential",
+      "count": 2
+    },
+    {
+      "brand": "EBCO",
+      "count": 2
+    },
+    {
+      "brand": "Evapo-Rust",
+      "count": 2
+    },
+    {
+      "brand": "Evri",
+      "count": 2
+    },
+    {
+      "brand": "Fresquito",
+      "count": 2
+    },
+    {
+      "brand": "Furemover",
+      "count": 2
+    },
+    {
+      "brand": "Gear Hugger",
+      "count": 2
+    },
+    {
+      "brand": "General",
+      "count": 2
+    },
+    {
+      "brand": "GoFish",
+      "count": 2
+    },
+    {
+      "brand": "Gonzo",
+      "count": 2
+    },
+    {
+      "brand": "Greased Lightning",
+      "count": 2
+    },
+    {
+      "brand": "Green Ox",
+      "count": 2
+    },
+    {
+      "brand": "Harold Import",
+      "count": 2
+    },
+    {
+      "brand": "Homax",
+      "count": 2
+    },
+    {
+      "brand": "Hoofun",
+      "count": 2
+    },
+    {
+      "brand": "Hurricane",
+      "count": 2
+    },
+    {
+      "brand": "HydraPeak",
+      "count": 2
+    },
+    {
+      "brand": "Imperial",
+      "count": 2
+    },
+    {
+      "brand": "InterDesign",
+      "count": 2
+    },
+    {
+      "brand": "Invisible Shield",
+      "count": 2
+    },
+    {
+      "brand": "Joseph Joseph",
+      "count": 2
+    },
+    {
+      "brand": "Joysuds",
+      "count": 2
+    },
+    {
+      "brand": "Kloc",
+      "count": 2
+    },
+    {
+      "brand": "LAIFUCAM",
+      "count": 2
+    },
+    {
+      "brand": "Leafy",
+      "count": 2
+    },
+    {
+      "brand": "Lime-A-Way",
+      "count": 2
+    },
+    {
+      "brand": "Loctite",
+      "count": 2
+    },
+    {
+      "brand": "Lunchskins",
+      "count": 2
+    },
+    {
+      "brand": "Magic",
+      "count": 2
+    },
+    {
+      "brand": "MicroGold",
+      "count": 2
+    },
+    {
+      "brand": "Miller",
+      "count": 2
+    },
+    {
+      "brand": "Milsek",
+      "count": 2
+    },
+    {
+      "brand": "Mint-X",
+      "count": 2
+    },
+    {
+      "brand": "Miss Mouth's",
+      "count": 2
+    },
+    {
+      "brand": "MomRemedy",
+      "count": 2
+    },
+    {
+      "brand": "Monarch Brands",
+      "count": 2
+    },
+    {
+      "brand": "Mop & Glo",
+      "count": 2
+    },
+    {
+      "brand": "Mr. Leather",
+      "count": 2
+    },
+    {
+      "brand": "Nature's Air Sponge",
+      "count": 2
+    },
+    {
+      "brand": "Noramco",
+      "count": 2
+    },
+    {
+      "brand": "Nouvelle Legende",
+      "count": 2
+    },
+    {
+      "brand": "Nuvera",
+      "count": 2
+    },
+    {
+      "brand": "Ortho",
+      "count": 2
+    },
+    {
+      "brand": "Package Free",
+      "count": 2
+    },
+    {
+      "brand": "Pantry Mate",
+      "count": 2
+    },
+    {
+      "brand": "Party Essentials",
+      "count": 2
+    },
+    {
+      "brand": "Performance Tool",
+      "count": 2
+    },
+    {
+      "brand": "Polder",
+      "count": 2
+    },
+    {
+      "brand": "Protospheric",
+      "count": 2
+    },
+    {
+      "brand": "Purell",
+      "count": 2
+    },
+    {
+      "brand": "Range Kleen",
+      "count": 2
+    },
+    {
+      "brand": "Repurpose",
+      "count": 2
+    },
+    {
+      "brand": "RiteSize",
+      "count": 2
+    },
+    {
+      "brand": "Ritz",
+      "count": 2
+    },
+    {
+      "brand": "RMR Solutions",
+      "count": 2
+    },
+    {
+      "brand": "Rooto",
+      "count": 2
+    },
+    {
+      "brand": "S.O.S",
+      "count": 2
+    },
+    {
+      "brand": "SANI 360",
+      "count": 2
+    },
+    {
+      "brand": "Santeen",
+      "count": 2
+    },
+    {
+      "brand": "Saran",
+      "count": 2
+    },
+    {
+      "brand": "Scentiment",
+      "count": 2
+    },
+    {
+      "brand": "Screen Magic",
+      "count": 2
+    },
+    {
+      "brand": "Scrubit",
+      "count": 2
+    },
+    {
+      "brand": "Shawshank LEDz",
+      "count": 2
+    },
+    {
+      "brand": "Siege",
+      "count": 2
+    },
+    {
+      "brand": "Skoy",
+      "count": 2
+    },
+    {
+      "brand": "Solutions HOCL",
+      "count": 2
+    },
+    {
+      "brand": "Stasher",
+      "count": 2
+    },
+    {
+      "brand": "Sterilite",
+      "count": 2
+    },
+    {
+      "brand": "The Absorber",
+      "count": 2
+    },
+    {
+      "brand": "The Flex Pail",
+      "count": 2
+    },
+    {
+      "brand": "THE TURKISH TOWEL COMPANY",
+      "count": 2
+    },
+    {
+      "brand": "Traeger",
+      "count": 2
+    },
+    {
+      "brand": "Ty-D-Bol",
+      "count": 2
+    },
+    {
+      "brand": "UST Brands",
+      "count": 2
+    },
+    {
+      "brand": "WDX Home",
+      "count": 2
+    },
+    {
+      "brand": "WeatherTech",
+      "count": 2
+    },
+    {
+      "brand": "WHIP IT INVENTIONS INC",
+      "count": 2
+    },
+    {
+      "brand": "Windsoft",
+      "count": 2
+    },
+    {
+      "brand": "World Centric",
+      "count": 2
+    },
+    {
+      "brand": "WypAll",
+      "count": 2
+    },
+    {
+      "brand": "Zenna Home",
+      "count": 2
+    },
+    {
+      "brand": "Zwipes",
+      "count": 2
+    },
+    {
+      "brand": "303",
+      "count": 1
+    },
+    {
+      "brand": "9 Elements",
+      "count": 1
+    },
+    {
+      "brand": "A/C Pro",
+      "count": 1
+    },
+    {
+      "brand": "Abracadabra",
+      "count": 1
+    },
+    {
+      "brand": "Acme",
+      "count": 1
+    },
+    {
+      "brand": "Air-Scent",
+      "count": 1
+    },
+    {
+      "brand": "airBoss",
+      "count": 1
+    },
+    {
+      "brand": "AIRROBO",
+      "count": 1
+    },
+    {
+      "brand": "AJM Packaging Corporation",
+      "count": 1
+    },
+    {
+      "brand": "All-Clad",
+      "count": 1
+    },
+    {
+      "brand": "Aoibox",
+      "count": 1
+    },
+    {
+      "brand": "Arenviy",
+      "count": 1
+    },
+    {
+      "brand": "As Seen On Tv",
+      "count": 1
+    },
+    {
+      "brand": "Atsko",
+      "count": 1
+    },
+    {
+      "brand": "AutoShow",
+      "count": 1
+    },
+    {
+      "brand": "AYNUUY",
+      "count": 1
+    },
+    {
+      "brand": "B2Z",
+      "count": 1
+    },
+    {
+      "brand": "Bayer",
+      "count": 1
+    },
+    {
+      "brand": "Bee's Wrap",
+      "count": 1
+    },
+    {
+      "brand": "BEIS BOOM FIVE",
+      "count": 1
+    },
+    {
+      "brand": "BEIS BOOM ONE",
+      "count": 1
+    },
+    {
+      "brand": "BestAir",
+      "count": 1
+    },
+    {
+      "brand": "BESTSTAR",
+      "count": 1
+    },
+    {
+      "brand": "BESTVIP",
+      "count": 1
+    },
+    {
+      "brand": "Better Life",
+      "count": 1
+    },
+    {
+      "brand": "Big Roll",
+      "count": 1
+    },
+    {
+      "brand": "Biokleen",
+      "count": 1
+    },
+    {
+      "brand": "Birchwood Casey",
+      "count": 1
+    },
+    {
+      "brand": "Blade Maid",
+      "count": 1
+    },
+    {
+      "brand": "Blazing LEDz",
+      "count": 1
+    },
+    {
+      "brand": "Blue Bubble",
+      "count": 1
+    },
+    {
+      "brand": "Blue Ox",
+      "count": 1
+    },
+    {
+      "brand": "Boulder Clean",
+      "count": 1
+    },
+    {
+      "brand": "BPAWA",
+      "count": 1
+    },
+    {
+      "brand": "BriteWipes",
+      "count": 1
+    },
+    {
+      "brand": "Bruce",
+      "count": 1
+    },
+    {
+      "brand": "Brute",
+      "count": 1
+    },
+    {
+      "brand": "Bryson",
+      "count": 1
+    },
+    {
+      "brand": "Buffalo",
+      "count": 1
+    },
+    {
+      "brand": "BuggyBands",
+      "count": 1
+    },
+    {
+      "brand": "Cabot",
+      "count": 1
+    },
+    {
+      "brand": "CAF EXIMO",
+      "count": 1
+    },
+    {
+      "brand": "Caro Home",
+      "count": 1
+    },
+    {
+      "brand": "Carpet CPR",
+      "count": 1
+    },
+    {
+      "brand": "Catchmaster",
+      "count": 1
+    },
+    {
+      "brand": "Chronic Wipeout",
+      "count": 1
+    },
+    {
+      "brand": "Chryslara",
+      "count": 1
+    },
+    {
+      "brand": "CLC",
+      "count": 1
+    },
+    {
+      "brand": "Clean Revolution",
+      "count": 1
+    },
+    {
+      "brand": "Clean Works",
+      "count": 1
+    },
+    {
+      "brand": "cleanan",
+      "count": 1
+    },
+    {
+      "brand": "CleanBoss",
+      "count": 1
+    },
+    {
+      "brand": "CLEARWARE",
+      "count": 1
+    },
+    {
+      "brand": "CM SCRUBBER",
+      "count": 1
+    },
+    {
+      "brand": "Cobra",
+      "count": 1
+    },
+    {
+      "brand": "Combat®",
+      "count": 1
+    },
+    {
+      "brand": "Compostic",
+      "count": 1
+    },
+    {
+      "brand": "Contractor's Choice",
+      "count": 1
+    },
+    {
+      "brand": "Corona",
+      "count": 1
+    },
+    {
+      "brand": "CrossWave",
+      "count": 1
+    },
+    {
+      "brand": "Ctosree",
+      "count": 1
+    },
+    {
+      "brand": "Cuisipro",
+      "count": 1
+    },
+    {
+      "brand": "Curad",
+      "count": 1
+    },
+    {
+      "brand": "CYIKE",
+      "count": 1
+    },
+    {
+      "brand": "D-Lead",
+      "count": 1
+    },
+    {
+      "brand": "Danco",
+      "count": 1
+    },
+    {
+      "brand": "DCT",
+      "count": 1
+    },
+    {
+      "brand": "DeVault Enterprises",
+      "count": 1
+    },
+    {
+      "brand": "Diamond",
+      "count": 1
+    },
+    {
+      "brand": "Drainbo",
+      "count": 1
+    },
+    {
+      "brand": "Dremel",
+      "count": 1
+    },
+    {
+      "brand": "Duro-Cel",
+      "count": 1
+    },
+    {
+      "brand": "Dust Off",
+      "count": 1
+    },
+    {
+      "brand": "Eagle One",
+      "count": 1
+    },
+    {
+      "brand": "EarthStone",
+      "count": 1
+    },
+    {
+      "brand": "Easy Clean",
+      "count": 1
+    },
+    {
+      "brand": "Eccolo",
+      "count": 1
+    },
+    {
+      "brand": "Eco-Products",
+      "count": 1
+    },
+    {
+      "brand": "ECOLipak",
+      "count": 1
+    },
+    {
+      "brand": "EcoVenger",
+      "count": 1
+    },
+    {
+      "brand": "El Arroyo",
+      "count": 1
+    },
+    {
+      "brand": "Eliminate",
+      "count": 1
+    },
+    {
+      "brand": "ESSENDANT CO",
+      "count": 1
+    },
+    {
+      "brand": "Essentials",
+      "count": 1
+    },
+    {
+      "brand": "Etokfoks",
+      "count": 1
+    },
+    {
+      "brand": "ETSUS",
+      "count": 1
+    },
+    {
+      "brand": "Euroscrubby",
+      "count": 1
+    },
+    {
+      "brand": "EUROW AND O REILLY CORP",
+      "count": 1
+    },
+    {
+      "brand": "EVERGRACE HOME INC",
+      "count": 1
+    },
+    {
+      "brand": "Faultless",
+      "count": 1
+    },
+    {
+      "brand": "Fengjie",
+      "count": 1
+    },
+    {
+      "brand": "Fiebing's",
+      "count": 1
+    },
+    {
+      "brand": "Field & Future by H-E-B",
+      "count": 1
+    },
+    {
+      "brand": "Final Touch",
+      "count": 1
+    },
+    {
+      "brand": "Fiora",
+      "count": 1
+    },
+    {
+      "brand": "First Aid Only",
+      "count": 1
+    },
+    {
+      "brand": "Flex Pail",
+      "count": 1
+    },
+    {
+      "brand": "Flood",
+      "count": 1
+    },
+    {
+      "brand": "Fluid Film",
+      "count": 1
+    },
+    {
+      "brand": "FoodSaver",
+      "count": 1
+    },
+    {
+      "brand": "Fourluoo",
+      "count": 1
+    },
+    {
+      "brand": "Frost King",
+      "count": 1
+    },
+    {
+      "brand": "FunkAway",
+      "count": 1
+    },
+    {
+      "brand": "furMe",
+      "count": 1
+    },
+    {
+      "brand": "Fuvuan",
+      "count": 1
+    },
+    {
+      "brand": "Garden Genius",
+      "count": 1
+    },
+    {
+      "brand": "Gardner Bender",
+      "count": 1
+    },
+    {
+      "brand": "Gentle Planet",
+      "count": 1
+    },
+    {
+      "brand": "GEORGIA PACIFIC (.COM)",
+      "count": 1
+    },
+    {
+      "brand": "GEORGIA PACIFIC 01 110",
+      "count": 1
+    },
+    {
+      "brand": "Georgia-Pacific",
+      "count": 1
+    },
+    {
+      "brand": "Glade Format: Grocery",
+      "count": 1
+    },
+    {
+      "brand": "Glass Plus",
+      "count": 1
+    },
+    {
+      "brand": "GLISTEN",
+      "count": 1
+    },
+    {
+      "brand": "Gojo",
+      "count": 1
+    },
+    {
+      "brand": "Gold Medal",
+      "count": 1
+    },
+    {
+      "brand": "Good Natured Brand",
+      "count": 1
+    },
+    {
+      "brand": "Good Old Values",
+      "count": 1
+    },
+    {
+      "brand": "Goodcook",
+      "count": 1
+    },
+    {
+      "brand": "GoodCook",
+      "count": 1
+    },
+    {
+      "brand": "GoodSense",
+      "count": 1
+    },
+    {
+      "brand": "Goop",
+      "count": 1
+    },
+    {
+      "brand": "Grandma's Secret",
+      "count": 1
+    },
+    {
+      "brand": "Grant's",
+      "count": 1
+    },
+    {
+      "brand": "GREAT NORTHERN",
+      "count": 1
+    },
+    {
+      "brand": "Green Gobbler",
+      "count": 1
+    },
+    {
+      "brand": "Green Label",
+      "count": 1
+    },
+    {
+      "brand": "GreenPolly",
+      "count": 1
+    },
+    {
+      "brand": "GreenWise",
+      "count": 1
+    },
+    {
+      "brand": "Gunk",
+      "count": 1
+    },
+    {
+      "brand": "H-E-B Mi Tienda",
+      "count": 1
+    },
+    {
+      "brand": "Hachiman",
+      "count": 1
+    },
+    {
+      "brand": "Haier",
+      "count": 1
+    },
+    {
+      "brand": "Harbor",
+      "count": 1
+    },
+    {
+      "brand": "Havawish",
+      "count": 1
+    },
+    {
+      "brand": "Heigble",
+      "count": 1
+    },
+    {
+      "brand": "Helens Asian Kitchen",
+      "count": 1
+    },
+    {
+      "brand": "Helping Hand",
+      "count": 1
+    },
+    {
+      "brand": "Hero Clean",
+      "count": 1
+    },
+    {
+      "brand": "HHXI",
+      "count": 1
+    },
+    {
+      "brand": "HIC Kitchen",
+      "count": 1
+    },
+    {
+      "brand": "Hitrons Solutions",
+      "count": 1
+    },
+    {
+      "brand": "Hope's",
+      "count": 1
+    },
+    {
+      "brand": "Hot Shot",
+      "count": 1
+    },
+    {
+      "brand": "HOT SHOT",
+      "count": 1
+    },
+    {
+      "brand": "HP Co.",
+      "count": 1
+    },
+    {
+      "brand": "HydraPak",
+      "count": 1
+    },
+    {
+      "brand": "Hyper Wipes",
+      "count": 1
+    },
+    {
+      "brand": "iFLY Smart",
+      "count": 1
+    },
+    {
+      "brand": "Insl-X",
+      "count": 1
+    },
+    {
+      "brand": "JAM Paper",
+      "count": 1
+    },
+    {
+      "brand": "Jubilee",
+      "count": 1
+    },
+    {
+      "brand": "Just The Basics",
+      "count": 1
+    },
+    {
+      "brand": "Juvale",
+      "count": 1
+    },
+    {
+      "brand": "JXDSICH",
+      "count": 1
+    },
+    {
+      "brand": "Kaf-Tan",
+      "count": 1
+    },
+    {
+      "brand": "Keurig",
+      "count": 1
+    },
+    {
+      "brand": "kibhous",
+      "count": 1
+    },
+    {
+      "brand": "KitchenAid",
+      "count": 1
+    },
+    {
+      "brand": "Klean Strip",
+      "count": 1
+    },
+    {
+      "brand": "Kleen King",
+      "count": 1
+    },
+    {
+      "brand": "KOLAGAN",
+      "count": 1
+    },
+    {
+      "brand": "Krumbs Kitchen",
+      "count": 1
+    },
+    {
+      "brand": "Kurly Kate",
+      "count": 1
+    },
+    {
+      "brand": "LA’s Totally Awesome",
+      "count": 1
+    },
+    {
+      "brand": "Leaktite",
+      "count": 1
+    },
+    {
+      "brand": "Leebein",
+      "count": 1
+    },
+    {
+      "brand": "Lerine",
+      "count": 1
+    },
+    {
+      "brand": "LHPY",
+      "count": 1
+    },
+    {
+      "brand": "LifEasy",
+      "count": 1
+    },
+    {
+      "brand": "Lift Off",
+      "count": 1
+    },
+    {
+      "brand": "Lifter-1",
+      "count": 1
+    },
+    {
+      "brand": "LimeOut",
+      "count": 1
+    },
+    {
+      "brand": "Liquid-Plumr",
+      "count": 1
+    },
+    {
+      "brand": "Livi",
+      "count": 1
+    },
+    {
+      "brand": "Loheer",
+      "count": 1
+    },
+    {
+      "brand": "Loofah Art",
+      "count": 1
+    },
+    {
+      "brand": "Love Home & Planet",
+      "count": 1
+    },
+    {
+      "brand": "LOVECO",
+      "count": 1
+    },
+    {
+      "brand": "Lynzavix",
+      "count": 1
+    },
+    {
+      "brand": "Malco",
+      "count": 1
+    },
+    {
+      "brand": "Manna",
+      "count": 1
+    },
+    {
+      "brand": "Mavwicks",
+      "count": 1
+    },
+    {
+      "brand": "Max Pro",
+      "count": 1
+    },
+    {
+      "brand": "Medline",
+      "count": 1
+    },
+    {
+      "brand": "MEDLINE INDUSTRIES INC.",
+      "count": 1
+    },
+    {
+      "brand": "Meguiar's",
+      "count": 1
+    },
+    {
+      "brand": "meonlin",
+      "count": 1
+    },
+    {
+      "brand": "Mer-Maid",
+      "count": 1
+    },
+    {
+      "brand": "MEXERRIS",
+      "count": 1
+    },
+    {
+      "brand": "Mighty Mint",
+      "count": 1
+    },
+    {
+      "brand": "Millrose",
+      "count": 1
+    },
+    {
+      "brand": "Miss Mouth’s",
+      "count": 1
+    },
+    {
+      "brand": "Moku Home",
+      "count": 1
+    },
+    {
+      "brand": "MOMREMEDY LLC",
+      "count": 1
+    },
+    {
+      "brand": "Mop And Glo Multi Surface Floor Cleaner - 32 Oz",
+      "count": 1
+    },
+    {
+      "brand": "MOXIE",
+      "count": 1
+    },
+    {
+      "brand": "Mr. Metal",
+      "count": 1
+    },
+    {
+      "brand": "MTN",
+      "count": 1
+    },
+    {
+      "brand": "Nascar",
+      "count": 1
+    },
+    {
+      "brand": "NCSIFDD",
+      "count": 1
+    },
+    {
+      "brand": "Nellie's",
+      "count": 1
+    },
+    {
+      "brand": "Nellie’s",
+      "count": 1
+    },
+    {
+      "brand": "NEWLONIS",
+      "count": 1
+    },
+    {
+      "brand": "North Pole Plumbing Company",
+      "count": 1
+    },
+    {
+      "brand": "Not verified",
+      "count": 1
+    },
+    {
+      "brand": "NOYATECH",
+      "count": 1
+    },
+    {
+      "brand": "NuvoH2O",
+      "count": 1
+    },
+    {
+      "brand": "O2frepak",
+      "count": 1
+    },
+    {
+      "brand": "Oak Patch Gifts",
+      "count": 1
+    },
+    {
+      "brand": "Oatey",
+      "count": 1
+    },
+    {
+      "brand": "Odor Bully",
+      "count": 1
+    },
+    {
+      "brand": "Odor Genie",
+      "count": 1
+    },
+    {
+      "brand": "Odors Away",
+      "count": 1
+    },
+    {
+      "brand": "Open Nature Bathroom Tissue - 12 Rolls",
+      "count": 1
+    },
+    {
+      "brand": "Orange Glo",
+      "count": 1
+    },
+    {
+      "brand": "OSI",
+      "count": 1
+    },
+    {
+      "brand": "Outset",
+      "count": 1
+    },
+    {
+      "brand": "OXY",
+      "count": 1
+    },
+    {
+      "brand": "Ozium",
+      "count": 1
+    },
+    {
+      "brand": "Paslode",
+      "count": 1
+    },
+    {
+      "brand": "Peak",
+      "count": 1
+    },
+    {
+      "brand": "Penofin",
+      "count": 1
+    },
+    {
+      "brand": "Permatex",
+      "count": 1
+    },
+    {
+      "brand": "Phueut",
+      "count": 1
+    },
+    {
+      "brand": "Pic",
+      "count": 1
+    },
+    {
+      "brand": "Pine-Glo",
+      "count": 1
+    },
+    {
+      "brand": "Plaskolite",
+      "count": 1
+    },
+    {
+      "brand": "Plink",
+      "count": 1
+    },
+    {
+      "brand": "Pourri",
+      "count": 1
+    },
+    {
+      "brand": "Poweart",
+      "count": 1
+    },
+    {
+      "brand": "Preserva Wood",
+      "count": 1
+    },
+    {
+      "brand": "Pro-Lab",
+      "count": 1
+    },
+    {
+      "brand": "Project Pro",
+      "count": 1
+    },
+    {
+      "brand": "ProLine",
+      "count": 1
+    },
+    {
+      "brand": "Purafilter",
+      "count": 1
+    },
+    {
+      "brand": "Purely Organic",
+      "count": 1
+    },
+    {
+      "brand": "PUSCRIENO",
+      "count": 1
+    },
+    {
+      "brand": "Qinyoung",
+      "count": 1
+    },
+    {
+      "brand": "Quick Shine",
+      "count": 1
+    },
+    {
+      "brand": "R&M",
+      "count": 1
+    },
+    {
+      "brand": "R&M International Corp",
+      "count": 1
+    },
+    {
+      "brand": "RAVPUIA",
+      "count": 1
+    },
+    {
+      "brand": "recteq",
+      "count": 1
+    },
+    {
+      "brand": "RectorSeal",
+      "count": 1
+    },
+    {
+      "brand": "Rejoice",
+      "count": 1
+    },
+    {
+      "brand": "RevoClean",
+      "count": 1
+    },
+    {
+      "brand": "Roboebcreck",
+      "count": 1
+    },
+    {
+      "brand": "Rose of Eden Home and Scents",
+      "count": 1
+    },
+    {
+      "brand": "Royal",
+      "count": 1
+    },
+    {
+      "brand": "RSVP International",
+      "count": 1
+    },
+    {
+      "brand": "Rutland",
+      "count": 1
+    },
+    {
+      "brand": "Sanco",
+      "count": 1
+    },
+    {
+      "brand": "Sani-Spritz",
+      "count": 1
+    },
+    {
+      "brand": "SAVE TREES",
+      "count": 1
+    },
+    {
+      "brand": "Scent Bomb",
+      "count": 1
+    },
+    {
+      "brand": "Scootworks",
+      "count": 1
+    },
+    {
+      "brand": "Scotchgard",
+      "count": 1
+    },
+    {
+      "brand": "Scrub Buddies",
+      "count": 1
+    },
+    {
+      "brand": "Sentryse",
+      "count": 1
+    },
+    {
+      "brand": "Signature SELECT Everyday Coated 9 Inch White Paper Plates - 100 Count",
+      "count": 1
+    },
+    {
+      "brand": "Signature SELECT Everyday Heavy Duty Plastic Spoons Box - 48 Count",
+      "count": 1
+    },
+    {
+      "brand": "Signature Select Soft & Strong Bath Tissue - 6 Mega Rolls",
+      "count": 1
+    },
+    {
+      "brand": "Signature Select Soft & Strong Bath Tissue -12 Double Rolls",
+      "count": 1
+    },
+    {
+      "brand": "Signature SELECT Tall Kitchen Bags With Drawstring 13 Gallon - 45 Count",
+      "count": 1
+    },
+    {
+      "brand": "Signature Select Trash Bags Kitchen Flex Value Pack 110 Bags - 110 CT",
+      "count": 1
+    },
+    {
+      "brand": "Signature Select Ultra Soft Bath Tissue - 24 Mega Rolls",
+      "count": 1
+    },
+    {
+      "brand": "Signature Select Ultra Strong Bath Tissue - 12 Mega Rolls",
+      "count": 1
+    },
+    {
+      "brand": "Simpson Strong-Tie",
+      "count": 1
+    },
+    {
+      "brand": "Singer",
+      "count": 1
+    },
+    {
+      "brand": "SmilinFit",
+      "count": 1
+    },
+    {
+      "brand": "Smith's",
+      "count": 1
+    },
+    {
+      "brand": "SmudgeAway",
+      "count": 1
+    },
+    {
+      "brand": "Sonic Power",
+      "count": 1
+    },
+    {
+      "brand": "Soudal",
+      "count": 1
+    },
+    {
+      "brand": "Spongezz",
+      "count": 1
+    },
+    {
+      "brand": "Spot Clean",
+      "count": 1
+    },
+    {
+      "brand": "Spot Shot",
+      "count": 1
+    },
+    {
+      "brand": "SQUEAK",
+      "count": 1
+    },
+    {
+      "brand": "squish",
+      "count": 1
+    },
+    {
+      "brand": "Stansport",
+      "count": 1
+    },
+    {
+      "brand": "STARBIAO",
+      "count": 1
+    },
+    {
+      "brand": "Stay Away",
+      "count": 1
+    },
+    {
+      "brand": "Stoner",
+      "count": 1
+    },
+    {
+      "brand": "Sudstainables",
+      "count": 1
+    },
+    {
+      "brand": "Summit Brands",
+      "count": 1
+    },
+    {
+      "brand": "Sunbrite",
+      "count": 1
+    },
+    {
+      "brand": "SuperMoss",
+      "count": 1
+    },
+    {
+      "brand": "SXT-160",
+      "count": 1
+    },
+    {
+      "brand": "Synoshi",
+      "count": 1
+    },
+    {
+      "brand": "SZRSTH",
+      "count": 1
+    },
+    {
+      "brand": "Tannery",
+      "count": 1
+    },
+    {
+      "brand": "Tarn-X",
+      "count": 1
+    },
+    {
+      "brand": "The Original Bee's Wax",
+      "count": 1
+    },
+    {
+      "brand": "The Original Garden Broom",
+      "count": 1
+    },
+    {
+      "brand": "The Pink Stuff + Scrub Daddy",
+      "count": 1
+    },
+    {
+      "brand": "The Unscented Company",
+      "count": 1
+    },
+    {
+      "brand": "The Works",
+      "count": 1
+    },
+    {
+      "brand": "Thirteen Chefs",
+      "count": 1
+    },
+    {
+      "brand": "Thompson's WaterSeal",
+      "count": 1
+    },
+    {
+      "brand": "TIENBE",
+      "count": 1
+    },
+    {
+      "brand": "Tilex",
+      "count": 1
+    },
+    {
+      "brand": "TINA&TONY",
+      "count": 1
+    },
+    {
+      "brand": "TowelZilla",
+      "count": 1
+    },
+    {
+      "brand": "TOWN AND CNTRY LINEN CORP",
+      "count": 1
+    },
+    {
+      "brand": "Tranquil Touch",
+      "count": 1
+    },
+    {
+      "brand": "Trimaco",
+      "count": 1
+    },
+    {
+      "brand": "Turkish Towel Company",
+      "count": 1
+    },
+    {
+      "brand": "Turtle Wax",
+      "count": 1
+    },
+    {
+      "brand": "Two Left Feet",
+      "count": 1
+    },
+    {
+      "brand": "TY-D-BOL",
+      "count": 1
+    },
+    {
+      "brand": "Uncle Todd's",
+      "count": 1
+    },
+    {
+      "brand": "Unique",
+      "count": 1
+    },
+    {
+      "brand": "Unitex",
+      "count": 1
+    },
+    {
+      "brand": "Vacplus",
+      "count": 1
+    },
+    {
+      "brand": "VAETTLO",
+      "count": 1
+    },
+    {
+      "brand": "Value Corner Bath Tissue - 12 Rolls",
+      "count": 1
+    },
+    {
+      "brand": "Value Corner Bath Tissue 4 Roll - 4 RL",
+      "count": 1
+    },
+    {
+      "brand": "Value Corner Kitchen Bags Drawstring Tall 13 Gallon - 125 Count",
+      "count": 1
+    },
+    {
+      "brand": "Vancace",
+      "count": 1
+    },
+    {
+      "brand": "VerdantGlow",
+      "count": 1
+    },
+    {
+      "brand": "VEYOFLY",
+      "count": 1
+    },
+    {
+      "brand": "Vital Oxide",
+      "count": 1
+    },
+    {
+      "brand": "Warner",
+      "count": 1
+    },
+    {
+      "brand": "Weiler",
+      "count": 1
+    },
+    {
+      "brand": "Welspun",
+      "count": 1
+    },
+    {
+      "brand": "Westinghouse",
+      "count": 1
+    },
+    {
+      "brand": "Whip-It",
+      "count": 1
+    },
+    {
+      "brand": "Whitmor",
+      "count": 1
+    },
+    {
+      "brand": "Wiese",
+      "count": 1
+    },
+    {
+      "brand": "Wippity Wipes",
+      "count": 1
+    },
+    {
+      "brand": "Wohler",
+      "count": 1
+    },
+    {
+      "brand": "Wondercide",
+      "count": 1
+    },
+    {
+      "brand": "Worry Free",
+      "count": 1
+    },
+    {
+      "brand": "Wudkey",
+      "count": 1
+    },
+    {
+      "brand": "X-14",
+      "count": 1
+    },
+    {
+      "brand": "YeahWhee",
+      "count": 1
+    },
+    {
+      "brand": "Yezivo",
+      "count": 1
+    },
+    {
+      "brand": "Zappix",
+      "count": 1
+    },
+    {
+      "brand": "Zenith",
+      "count": 1
+    },
+    {
+      "brand": "Zenport",
+      "count": 1
+    },
+    {
+      "brand": "Zero Odor",
+      "count": 1
+    },
+    {
+      "brand": "Zinsser",
+      "count": 1
+    },
+    {
+      "brand": "Zout",
+      "count": 1
+    },
+    {
+      "brand": "Zud",
+      "count": 1
+    },
+    {
+      "brand": "ZYNOR",
+      "count": 1
+    }
+  ],
+  "limitations": [
+    "Visible products are not proven absent from Target or Target Plus.",
+    "2,061 visible records still have no usable brand label and require title/exact-item checks.",
+    "Target assortment, marketplace seller availability, regional checkout and all retailer/category pagination remain incomplete.",
+    "No catalog record, stable ID, photograph, observation date or source evidence was deleted."
+  ]
+}
+

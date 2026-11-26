@@ -307,3 +307,11 @@ Added 10 exact listings: TikTok Shop 4 (AzunaFresh odor care), Quince 6 (Home Or
 ## 25 November 2026 — Target overlap correction after ACTIVE report
 
 The ACTIVE omission exposed incomplete brand evidence, not a retailer exception. Opened primary Target pages for 33 additional carried brands; applied the same policy to all 10279 canonical records and all 20 retailers. 766 additional listings excluded from public selection, leaving 5060 visible. All records/photos/history retained. requireClearance remains false. The audit JSON records affected IDs, retailer counts and the unresolved brand queue. No comprehensive assortment, pagination, trend or product review date advanced. Remaining visible brands are not proven absent from Target.
+## 26 November 2026 — Target-overlap queue continuation
+
+- Continued the 25 November retained-brand queue with primary Target brand pages; this was a scoped correction, not a new product review or completed comprehensive Monday assortment audit.
+- Added 17 confirmed brand rules and uniformly excluded 296 more visible listings across all 20 tracked retailers, Target inspiration, saved comparison and exports.
+- Preserved all 10,279 canonical observations, stable IDs, photographs, original dates and source evidence. Visible listings changed from 5,060 to 4,764.
+- Kept `requireClearance: false`: unresolved records remain visible and are not claimed absent from Target. The remaining queue contains 695 brand labels, including 2,061 records without a usable brand label.
+- Retained Viking, Harper and Boardwalk because the Target results found were unrelated homonyms rather than evidence for the Home Care brands. Other unresolved brands remain queued; search silence was not treated as clearance.
+- Full dated evidence, affected records, per-retailer counts and remaining work are in `site/catalog-review/target-overlap-audit-2026-11-26.json`.

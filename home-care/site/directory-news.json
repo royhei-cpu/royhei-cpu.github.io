@@ -1,5 +1,34 @@
 [
   {
+    "id": "target-overlap-continuation-2026-11-26",
+    "title": "Target overlap audit removes 296 more visible listings across 17 brands",
+    "type": "Directory correction",
+    "date": "2026-11-26",
+    "firstObserved": "2026-11-26",
+    "checked": "2026-11-26",
+    "eventDate": null,
+    "dateLabel": "Exclusion audit · not new products",
+    "summary": "Continued the remaining Target-overlap queue with primary Target brand pages. Seventeen more confirmed Target-carried brands now follow the same exclusion rule across all 20 retailers, Target inspiration, saved comparison and exports, removing 296 listings from visibility. All 10,279 canonical records, stable IDs and photos remain retained. 4,764 listings remain visible, but Target and Target Plus checks are incomplete; visibility is not proof of absence.",
+    "sources": [
+      {
+        "label": "Kikkerland at Target",
+        "url": "https://www.target.com/b/kikkerland/-/N-5y08u"
+      },
+      {
+        "label": "Granite Gold at Target",
+        "url": "https://www.target.com/b/granite-gold/-/N-q643leav4df"
+      },
+      {
+        "label": "WD-40 at Target",
+        "url": "https://www.target.com/b/wd-40/-/N-4uxnf"
+      },
+      {
+        "label": "Full per-retailer audit and remaining queue",
+        "url": "https://royhei-cpu.github.io/home-care/catalog-review/target-overlap-audit-2026-11-26.json"
+      }
+    ]
+  },
+  {
     "id": "target-overlap-correction-2026-11-25",
     "title": "Target overlap correction: ACTIVE and 32 other brands",
     "type": "Directory correction",

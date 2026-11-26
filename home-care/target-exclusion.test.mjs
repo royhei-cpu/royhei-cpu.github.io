@@ -54,3 +54,18 @@ test('ACTIVE correction applies every retailer, casing and saved selection witho
  const c=vm.createContext({window:{}});for(const m of html.matchAll(/<script>([\s\S]*?)<\/script>/g))vm.runInContext(m[1],c);
  assert.deepEqual(JSON.parse(JSON.stringify(c.window.result)),{canonical:2,visible:1,selected:['keep']});
 });
+
+test('26 November queue continuation excludes confirmed brands without false homonym matches',()=>{
+ const audit=JSON.parse(fs.readFileSync('home-care/site/catalog-review/target-overlap-audit-2026-11-26.json'));
+ assert.equal(audit.canonicalCount,10279);
+ assert.equal(audit.retailers.length,20);
+ assert.equal(audit.newBrandRules,17);
+ assert.equal(audit.newlyExcludedCount,296);
+ for(const {retailer} of audit.retailers){
+  for(const brand of ['Kikkerland','Granite Gold','WD-40','Hagerty','Chef Craft'])assert.equal(filter.isEligible({retailer,brand,name:brand+' example'}),false,retailer+' '+brand);
+  assert.equal(filter.isEligible({retailer,brand:'Viking',name:'Viking cleaning tool'}),true,retailer+' Viking homonym');
+  assert.equal(filter.isEligible({retailer,brand:'Harper',name:'Harper broom'}),true,retailer+' Harper homonym');
+ }
+ for(const item of audit.affectedRecords)assert.equal(filter.isEligible(item),false,item.id);
+ assert.ok(audit.remainingVisibleBrandQueue.some(x=>x.brand==='(not recorded)'&&x.count===2061));
+});
