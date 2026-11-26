@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-26",
-      "raw_products_read": 959,
+      "raw_products_read": 964,
       "currency": "USD"
     },
     {
@@ -80,7 +80,7 @@
       "url": "https://toybeta.com",
       "status": "complete",
       "checked": "2026-11-26",
-      "raw_products_read": 1265,
+      "raw_products_read": 1267,
       "currency": "USD"
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://didapop.com",
       "status": "complete",
       "checked": "2026-11-26",
-      "raw_products_read": 1857,
+      "raw_products_read": 1860,
       "currency": "USD"
     },
     {
@@ -98,7 +98,7 @@
       "url": "https://pawmiga.myshopify.com",
       "status": "complete",
       "checked": "2026-11-26",
-      "raw_products_read": 118,
+      "raw_products_read": 126,
       "currency": "USD"
     },
     {
@@ -953,6 +953,12 @@
       "type": "brand label"
     },
     {
+      "id": "0c753d1d19704718",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
       "id": "caf2130e0b0f4065",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -1014,6 +1020,12 @@
     },
     {
       "id": "9eff641abb3f4b0b",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "e33abdc81d8976e2",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -1999,12 +2011,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "26efc48cc946a4e4",
-      "name": "Lovely Emma Weather Pony Series Plush Blind Box",
-      "source": "https://www.kikagoods.com/products/lovely-emma-weather-pony-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "b3779e5aaa66db58",
       "name": "Lulumi Candy Series Mini Plush Blind Box",
       "source": "https://www.kikagoods.com/products/lulumi-candy-series-mini-plush-blind-box",
@@ -2320,12 +2326,6 @@
       "id": "e5f4141b00f94fd9",
       "name": "Super Art Animal Series Blind Box",
       "source": "https://www.kikagoods.com/products/super-art-animal-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "7ae7be47437bf3e2",
-      "name": "Meki Fluffy Goodnight Series BJD Limited Action Figure",
-      "source": "https://www.kikagoods.com/products/meki-fluffy-goodnight-series-bjd-limited-action-figure",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6682,6 +6682,18 @@
       "id": "cfa39130ed10d864",
       "name": "Sanrio Play With Kittens Vinyl Face Plush Keychain Blind Box",
       "source": "https://kouhightoys.com/products/sanrio-play-with-kittens-vinyl-face-plush-keychain-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "4d3a7646fafe0dab",
+      "name": "HK. Little Ranch Series Plush Blind Box -K22【TOP TOY】",
+      "source": "https://toybeta.com/products/hk-little-ranch-series-plush-blind-box-k22-top-toy",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "1bc0f12b4976e111",
+      "name": "【COUNT PACK】DORA Gyaruu Frequency Mili Series Beans Blind Bag【TNTSpace】",
+      "source": "https://toybeta.com/products/count-pack-dora-gyaruu-frequency-mili-series-beans-blind-bag-tntspace",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12506,27 +12518,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4695,
-  "after_products": 4666,
+  "before_products": 4702,
+  "after_products": 4673,
   "stats": {
-    "products": 4664,
-    "brands": 803,
+    "products": 4671,
+    "brands": 804,
     "squishy": 506,
-    "with_images": 4664,
+    "with_images": 4671,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4655,
+    "with_source_prices": 4662,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2625,
-    "with_dimensions": 1801,
-    "with_variant_options": 4333,
-    "source_linked_images": 4340,
+    "with_specifications": 2630,
+    "with_dimensions": 1802,
+    "with_variant_options": 4340,
+    "source_linked_images": 4347,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 7,
-    "with_shop_descriptions": 3872
+    "with_shop_descriptions": 3877
   },
   "checklist": [
     {
@@ -12545,8 +12557,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 308,
-      "with_details": 46,
+      "records": 309,
+      "with_details": 47,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"
