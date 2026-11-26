@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-25",
+  "catalog_date": "2026-11-26",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -1071,7 +1071,7 @@
     {
       "id": "lulu",
       "name": "LuLu the Piggy",
-      "records": 116,
+      "records": 117,
       "product_ids": [
         "c8e3b1c5c0c907d7",
         "ccd30b3897e21a97",
@@ -1110,6 +1110,7 @@
         "bec1e5898981fc70",
         "7e865395dff975ed",
         "96ddb75f1a5454ef",
+        "2c65f43bb46bc9f4",
         "0f260b44970399a4",
         "5287299aced517e6",
         "218a09990166e037",
@@ -2322,6 +2323,13 @@
       "records": 1,
       "sample_sources": [
         "https://toybeta.com/products/maozai-please-behave-yourself-series-mini-figures-blind-box-material-resin"
+      ]
+    },
+    {
+      "character": "RiCO",
+      "records": 1,
+      "sample_sources": [
+        "https://www.kikagoods.com/products/heaven-officials-blessing-encounter-on-the-journey-series-tricolor-collectible-card-blind-bag"
       ]
     },
     {
