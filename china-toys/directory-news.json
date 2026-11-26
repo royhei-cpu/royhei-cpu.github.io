@@ -1,5 +1,91 @@
 [
   {
+    "id": "52toys-pac-man-clicky-fidget-international-20261126",
+    "title": "52TOYS lists PAC-MAN Clicky Fidget blind boxes for November 26",
+    "summary": "Official international new-arrivals calendar labels the series November 26. USD storefront product and exact variant feed checked November 26 show $9.99 for one random keycap figure and $59.94 for a six-box whole set, separately selectable. Six regular designs and two secrets; combined secret probability 2/96, with a secret replacing a regular design. Plastic figures approximately 3.5 cm, click mechanism and connectable bases; overseas edition excludes the bead chain. Bandai Namco copyright is stated. This is a click fidget toy, not a soft squishy. Both feed options marked available at check, not proof of checkout, mainland release or physical branch stock. Exclude the separate GHODY bottle-opener bundle and MOGOLS storage bag from toy scope.",
+    "date": "2026-11-26",
+    "eventDate": "2026-11-26",
+    "sourcePublished": null,
+    "checked": "2026-11-26",
+    "added": "2026-11-26",
+    "type": "Official international retailer dated listing and exact option feed",
+    "dateLabel": "Retailer new-arrival date; not original mainland launch",
+    "market": "International USD storefront",
+    "currency": "USD",
+    "priceBasis": "Exact selected variant asking price, not completed sale",
+    "packOptions": [
+      {
+        "name": "Single Box",
+        "count": 1,
+        "price": 9.99,
+        "currency": "USD",
+        "sku": "6958985057134",
+        "variantId": "68003480863035"
+      },
+      {
+        "name": "Whole Set(6 Boxes)",
+        "count": 6,
+        "price": 59.94,
+        "currency": "USD",
+        "sku": "6958985057141",
+        "variantId": "68003480895803"
+      }
+    ],
+    "sources": [
+      {
+        "label": "52TOYS November 26 new-arrivals calendar",
+        "url": "https://hi52toys.com/pages/new-arrival"
+      },
+      {
+        "label": "52TOYS product specifications and pack choices",
+        "url": "https://hi52toys.com/products/pac-man-clicky-fidget-collection-blind-box"
+      },
+      {
+        "label": "52TOYS exact option feed",
+        "url": "https://hi52toys.com/products/pac-man-clicky-fidget-collection-blind-box.js"
+      }
+    ]
+  },
+  {
+    "id": "here-pidol-stories-lies-mainland-20261128",
+    "title": "HERE PIDOL Stories and Lies figures: reported November 28 mainland release",
+    "summary": "Two November 25 trade reports describe the PIDOL Stories and Lies series with nine regular designs and one hidden Angel and Devil design. Reported mainland reference prices are CNY 69 for one random box and CNY 621 for the case; exact case count not explicitly established. The reports are substantially similar and are not independent confirmation of the issuer's announcement. Direct brand listing, named retailer stock, and current checkout remain unverified. This is a dated release lead, not a collected product or confirmed chain assortment.",
+    "date": "2026-11-28",
+    "eventDate": "2026-11-28",
+    "sourcePublished": "2026-11-25",
+    "checked": "2026-11-26",
+    "added": "2026-11-26",
+    "type": "Trade-reported scheduled mainland release",
+    "dateLabel": "Reported scheduled release",
+    "market": "Mainland China",
+    "currency": "CNY",
+    "priceBasis": "Trade-reported reference launch prices",
+    "packOptions": [
+      {
+        "name": "Single random box",
+        "count": 1,
+        "price": 69,
+        "currency": "CNY"
+      },
+      {
+        "name": "Case",
+        "count": null,
+        "price": 621,
+        "currency": "CNY"
+      }
+    ],
+    "sources": [
+      {
+        "label": "模玩迷 November 25",
+        "url": "https://mowanmi.com/post/8604.html"
+      },
+      {
+        "label": "蒜肠网 November 25",
+        "url": "https://suanchang.com/TFquan/15457.html"
+      }
+    ]
+  },
+  {
     "id": "52toys-disney-mini-charms-mainland-20261126",
     "title": "52TOYS Disney Mini Charms blind-box figures: reported November 26 mainland release",
     "summary": "November 24 trade reports describe a Disney mini-character charm series with six regular designs and one secret Retro Mickey. Reported reference price is CNY 25.9 for one random box and CNY 155 for a full case; exact mainland pack count is not explicitly stated in those reports. A separate Taiwan preorder listing specifies six boxes per case, TWD 180 per single and TWD 980 per case, with deposits of TWD 100 and 300 respectively and expected December shipping. Do not transfer those Taiwan pack/price terms to mainland China or treat deposits as full prices. Mainland issuer announcement and physical chain inventory not independently verified. This is release research, not a confirmed new catalog capture.",
