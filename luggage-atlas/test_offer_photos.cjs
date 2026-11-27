@@ -50,6 +50,12 @@ assert.equal(run('offerPhotoExport(offers()[0])[1]'),'');
 assert(run('offerPhotoExport(offers()[0])[16]').length>0);
 // Brand gallery preserves the original models and newly audited retailer offers.
 assert.equal(run("brandOfferPhotos(brandBy('Samsonite')).length"),photos.offerAudits.filter(a=>a.offerIdentity.brand==='Samsonite').length);
+// Full Switch interiors must resolve through the same exact-view lookup as the UI.
+for(const id of ['offer-4aec37b3','offer-668e7027','offer-9c07be98']) {
+ ctx.window.switchOfferId=id;
+ assert(run("offerView(offers().find(p=>p.id===window.switchOfferId),'Interior')"));
+}
+assert.equal(run("offerView(offers().find(p=>p.id==='offer-ec4c6cad'),'Interior')"),undefined,'Sand Stone mismatched full-interior image stays excluded');
 run("photoFilters.q='Samsonite';drawPhotos()");
 assert(el('#photoCards').innerHTML.includes('FLATFORM'));assert(el('#photoCards').innerHTML.includes('Upscape'));
 // Original photo-reference export also carries offer identity and match status.
