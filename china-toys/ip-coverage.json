@@ -1,5 +1,5 @@
 {
-  "catalog_date": "2026-11-26",
+  "catalog_date": "2026-11-27",
   "sales_evidence_reviewed": "2026-10-30",
   "requested_brands": [
     {
@@ -223,7 +223,6 @@
         "e4ff163f88e9b373",
         "c0cda6ba0b21939b",
         "4c50ee1bcc91ab0c",
-        "e892458a949c0702",
         "316c1f384a7d64e2",
         "b548757a9f4a0fa8",
         "e0a5ca9e8425f72c",
@@ -281,6 +280,7 @@
         "ebe4377834f128cd",
         "c695dd2c7a4289f7",
         "bb4961c84498f50b",
+        "e892458a949c0702",
         "70eca319c4ffe2ab",
         "81b21408898ad315",
         "9eb8d6c4fa1a2560"
@@ -512,7 +512,6 @@
         "e4ff163f88e9b373",
         "c0cda6ba0b21939b",
         "4c50ee1bcc91ab0c",
-        "e892458a949c0702",
         "316c1f384a7d64e2",
         "b548757a9f4a0fa8",
         "e0a5ca9e8425f72c",
@@ -570,6 +569,7 @@
         "ebe4377834f128cd",
         "c695dd2c7a4289f7",
         "bb4961c84498f50b",
+        "e892458a949c0702",
         "70eca319c4ffe2ab",
         "81b21408898ad315",
         "9eb8d6c4fa1a2560"
@@ -2012,8 +2012,9 @@
     {
       "id": "boompipi",
       "name": "BOOMPIPI",
-      "records": 2,
+      "records": 3,
       "product_ids": [
+        "6e309f03e30aa59e",
         "0a0e20e8bdec34c9",
         "34f6c2fbd2e4efec"
       ],
