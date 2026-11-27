@@ -6261,6 +6261,30 @@
         "checked": "2026-11-26",
         "skuFactoryVerified": false
       }
+    },
+    "brookstone": {
+      "brandId": "brookstone",
+      "group": "Not assessed",
+      "why": "New retailer-listed brand; style and shopper fit not assessed.",
+      "audienceBasis": "No demographic or purchase-intent evidence collected.",
+      "signalStatus": "Retailer listing only; demand unknown",
+      "signal": "Product availability in a retrieved listing is not evidence of popularity or trend growth.",
+      "signalSource": "https://www.samsclub.com/ip/Brookstone-Nelson-Hardside-Spinner-Luggage/13578600593",
+      "designSource": "https://www.samsclub.com/ip/Brookstone-Nelson-Hardside-Spinner-Luggage/13578600593",
+      "test": "Verify model specifications, origin and supplier identity before benchmarking.",
+      "checked": "2026-11-27",
+      "supplier": {
+        "status": "Not verified",
+        "entity": "Not verified",
+        "factory": "Not verified",
+        "origin": "Not verified",
+        "scope": "Retailer brand label does not establish the legal manufacturer or exact SKU factory.",
+        "source": null,
+        "components": "",
+        "tradeLead": "",
+        "checked": "2026-11-27",
+        "skuFactoryVerified": false
+      }
     }
   }
 }

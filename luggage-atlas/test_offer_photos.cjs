@@ -48,8 +48,8 @@ assert.equal(run("representativePhoto(brandBy('Assembly'),'Interior')"),undefine
 // An unreviewed offer must not inherit an exact interior by brand.
 assert.equal(run('offerPhotoExport(offers()[0])[1]'),'');
 assert(run('offerPhotoExport(offers()[0])[16]').length>0);
-// Brand gallery preserves all three Samsonite models separately.
-assert.equal(run("brandOfferPhotos(brandBy('Samsonite')).length"),3);
+// Brand gallery preserves the original models and newly audited retailer offers.
+assert.equal(run("brandOfferPhotos(brandBy('Samsonite')).length"),photos.offerAudits.filter(a=>a.offerIdentity.brand==='Samsonite').length);
 run("photoFilters.q='Samsonite';drawPhotos()");
 assert(el('#photoCards').innerHTML.includes('FLATFORM'));assert(el('#photoCards').innerHTML.includes('Upscape'));
 // Original photo-reference export also carries offer identity and match status.

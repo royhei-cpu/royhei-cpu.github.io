@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "fields": [
     {
       "id": "opening",
@@ -17481,12 +17481,601 @@
       "photoKind": "retailer-listing-reference",
       "photoSource": "https://www.strandbags.com.au/products/nere-bondi-dual-open-76cm-suitcase-3228918",
       "photoScope": "Retailer card reference; exact variant appearance unconfirmed."
+    },
+    {
+      "id": "offer-4aec37b3",
+      "offerId": "offer-4aec37b3",
+      "brandId": "bagsmart",
+      "brand": "BAGSMART",
+      "model": "Pebble Carry-On Switch",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010",
+      "checked": "2026-11-27",
+      "scope": "Named model and selected offer; unresolved specifications remain explicit.",
+      "image": "offer-photo-assets/bagsmart-switch-42909519741010-0.webp",
+      "gallery": [
+        "offer-photo-assets/bagsmart-switch-42909519741010-0.webp",
+        "offer-photo-assets/bagsmart-switch-42909519741010-1.webp",
+        "offer-photo-assets/bagsmart-switch-42909519741010-5.webp"
+      ],
+      "features": {
+        "opening": {
+          "value": "Front-opening lid with magnetic divider",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "frame": {
+          "value": "Aluminum frame with latch closure",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "material": {
+          "value": "Unresolved: announcement specifies polycarbonate shell; product comparison table specifies aluminum shell.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "repair": {
+          "value": "Interchangeable wheels; product page says an extra color set is included. DIY tools and compatible replacement part supply unverified.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "wheels": {
+          "value": "Dual spinner wheel assemblies with spring suspension; performance claims not independently tested.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "lock": {
+          "value": "Push-to-open TSA-compatible locks, per company announcement",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "organization": {
+          "value": "Magnetic divider and compression packing panel",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "dimensions": {
+          "value": "55 × 37 × 24 cm external, named Switch comparison column; wheel/handle inclusion not specified",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "capacity": {
+          "value": "40 L, named Switch comparison column",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "weight": {
+          "value": "5 kg, named Switch comparison column",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        }
+      },
+      "featureCount": 10,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 289.99,
+      "currency": "USD",
+      "priceDate": "2026-11-27",
+      "photoKind": "exact-offer",
+      "photoSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010",
+      "photoScope": "Visually reviewed named product gallery; production revision not stated.",
+      "uncertainty": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated."
+      ]
+    },
+    {
+      "id": "offer-668e7027",
+      "offerId": "offer-668e7027",
+      "brandId": "bagsmart",
+      "brand": "BAGSMART",
+      "model": "Pebble Carry-On Switch",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519773778",
+      "checked": "2026-11-27",
+      "scope": "Named model and selected offer; unresolved specifications remain explicit.",
+      "image": "offer-photo-assets/bagsmart-switch-42909519773778-21.webp",
+      "gallery": [
+        "offer-photo-assets/bagsmart-switch-42909519773778-21.webp",
+        "offer-photo-assets/bagsmart-switch-42909519773778-22.webp",
+        "offer-photo-assets/bagsmart-switch-42909519773778-26.webp"
+      ],
+      "features": {
+        "opening": {
+          "value": "Front-opening lid with magnetic divider",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "frame": {
+          "value": "Aluminum frame with latch closure",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "material": {
+          "value": "Unresolved: announcement specifies polycarbonate shell; product comparison table specifies aluminum shell.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "repair": {
+          "value": "Interchangeable wheels; product page says an extra color set is included. DIY tools and compatible replacement part supply unverified.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "wheels": {
+          "value": "Dual spinner wheel assemblies with spring suspension; performance claims not independently tested.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "lock": {
+          "value": "Push-to-open TSA-compatible locks, per company announcement",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "organization": {
+          "value": "Magnetic divider and compression packing panel",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "dimensions": {
+          "value": "55 × 37 × 24 cm external, named Switch comparison column; wheel/handle inclusion not specified",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "capacity": {
+          "value": "40 L, named Switch comparison column",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "weight": {
+          "value": "5 kg, named Switch comparison column",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        }
+      },
+      "featureCount": 10,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 289.99,
+      "currency": "USD",
+      "priceDate": "2026-11-27",
+      "photoKind": "exact-offer",
+      "photoSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519773778",
+      "photoScope": "Visually reviewed named product gallery; production revision not stated.",
+      "uncertainty": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated."
+      ]
+    },
+    {
+      "id": "offer-9c07be98",
+      "offerId": "offer-9c07be98",
+      "brandId": "bagsmart",
+      "brand": "BAGSMART",
+      "model": "Pebble Carry-On Switch",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519806546",
+      "checked": "2026-11-27",
+      "scope": "Named model and selected offer; unresolved specifications remain explicit.",
+      "image": "offer-photo-assets/bagsmart-switch-42909519806546-7.webp",
+      "gallery": [
+        "offer-photo-assets/bagsmart-switch-42909519806546-7.webp",
+        "offer-photo-assets/bagsmart-switch-42909519806546-8.webp",
+        "offer-photo-assets/bagsmart-switch-42909519806546-12.webp"
+      ],
+      "features": {
+        "opening": {
+          "value": "Front-opening lid with magnetic divider",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "frame": {
+          "value": "Aluminum frame with latch closure",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "material": {
+          "value": "Unresolved: announcement specifies polycarbonate shell; product comparison table specifies aluminum shell.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "repair": {
+          "value": "Interchangeable wheels; product page says an extra color set is included. DIY tools and compatible replacement part supply unverified.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "wheels": {
+          "value": "Dual spinner wheel assemblies with spring suspension; performance claims not independently tested.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "lock": {
+          "value": "Push-to-open TSA-compatible locks, per company announcement",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "organization": {
+          "value": "Magnetic divider and compression packing panel",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "dimensions": {
+          "value": "55 × 37 × 24 cm external, named Switch comparison column; wheel/handle inclusion not specified",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "capacity": {
+          "value": "40 L, named Switch comparison column",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "weight": {
+          "value": "5 kg, named Switch comparison column",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        }
+      },
+      "featureCount": 10,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 289.99,
+      "currency": "USD",
+      "priceDate": "2026-11-27",
+      "photoKind": "exact-offer",
+      "photoSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519806546",
+      "photoScope": "Visually reviewed named product gallery; production revision not stated.",
+      "uncertainty": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated."
+      ]
+    },
+    {
+      "id": "offer-ec4c6cad",
+      "offerId": "offer-ec4c6cad",
+      "brandId": "bagsmart",
+      "brand": "BAGSMART",
+      "model": "Pebble Carry-On Switch",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519839314",
+      "checked": "2026-11-27",
+      "scope": "Named model and selected offer; unresolved specifications remain explicit.",
+      "image": "offer-photo-assets/bagsmart-switch-42909519839314-14.webp",
+      "gallery": [
+        "offer-photo-assets/bagsmart-switch-42909519839314-14.webp",
+        "offer-photo-assets/bagsmart-switch-42909519839314-15.webp"
+      ],
+      "features": {
+        "opening": {
+          "value": "Front-opening lid with magnetic divider",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "frame": {
+          "value": "Aluminum frame with latch closure",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "material": {
+          "value": "Unresolved: announcement specifies polycarbonate shell; product comparison table specifies aluminum shell.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "repair": {
+          "value": "Interchangeable wheels; product page says an extra color set is included. DIY tools and compatible replacement part supply unverified.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "wheels": {
+          "value": "Dual spinner wheel assemblies with spring suspension; performance claims not independently tested.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "lock": {
+          "value": "Push-to-open TSA-compatible locks, per company announcement",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "organization": {
+          "value": "Magnetic divider and compression packing panel",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "dimensions": {
+          "value": "55 × 37 × 24 cm external, named Switch comparison column; wheel/handle inclusion not specified",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "capacity": {
+          "value": "40 L, named Switch comparison column",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "weight": {
+          "value": "5 kg, named Switch comparison column",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        }
+      },
+      "featureCount": 10,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 289.99,
+      "currency": "USD",
+      "priceDate": "2026-11-27",
+      "photoKind": "exact-offer",
+      "photoSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519839314",
+      "photoScope": "Visually reviewed named product gallery; production revision not stated.",
+      "uncertainty": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated.",
+        "Full clamshell image in Sand Stone gallery appears to show a blue shell; excluded from exact-color photos. Front-access view retained."
+      ]
+    },
+    {
+      "id": "offer-157e7901",
+      "offerId": "offer-157e7901",
+      "brandId": "samsonite",
+      "brand": "Samsonite",
+      "model": "Samsonite Xpression 2-Piece Softside Spinner Luggage Set",
+      "source": "https://www.samsclub.com/ip/Samsonite-Xpression-2-Piece-Softside-Spinner-Luggage-Set/15890366559",
+      "checked": "2026-11-27",
+      "scope": "Named model and selected offer; unresolved specifications remain explicit.",
+      "image": "offer-photo-assets/sams-15890366559-0.jpg",
+      "gallery": [
+        "offer-photo-assets/sams-15890366559-0.jpg"
+      ],
+      "features": {
+        "material": {
+          "value": "Polyester softside",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "expansion": {
+          "value": "1.5-inch expansion stated for the set",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "handle": {
+          "value": "Multi-stop RightHeight handle",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "wheels": {
+          "value": "Dual spinner wheels",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "charging": {
+          "value": "USB pass-through; power bank not verified as included",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "organization": {
+          "value": "Blouse pocket; carry-on StackIt strap",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "warranty": {
+          "value": "Retailer states 10-year warranty; terms not independently checked",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        }
+      },
+      "featureCount": 7,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Luggage set",
+      "price": 189.0,
+      "currency": "USD",
+      "priceDate": "2026-11-27",
+      "photoKind": "exact-offer",
+      "photoSource": "https://www.samsclub.com/ip/Samsonite-Xpression-2-Piece-Softside-Spinner-Luggage-Set/15890366559",
+      "photoScope": "Visually reviewed named product gallery; production revision not stated.",
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    },
+    {
+      "id": "offer-2d2eca24",
+      "offerId": "offer-2d2eca24",
+      "brandId": "delsey-paris",
+      "brand": "DELSEY PARIS",
+      "model": "Delsey Turene 2.0 20\" Hardside Carry-On with Front Pocket",
+      "source": "https://www.samsclub.com/ip/Delsey-Turene-2-0-20-Hardside-Carry-On-with-Front-Pocket/16312321037",
+      "checked": "2026-11-27",
+      "scope": "Named model and selected offer; unresolved specifications remain explicit.",
+      "image": "offer-photo-assets/sams-16312321037-0.jpg",
+      "gallery": [
+        "offer-photo-assets/sams-16312321037-0.jpg",
+        "offer-photo-assets/sams-16312321037-1.jpg"
+      ],
+      "features": {
+        "material": {
+          "value": "Matte polycarbonate",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "laptop": {
+          "value": "Sleeve for up to 14-inch laptop",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "tracking": {
+          "value": "Interior AirTag holder; tracker not included. Not integrated tracking.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "expansion": {
+          "value": "Expandable with yellow zipper pull",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "opening": {
+          "value": "Front laptop pocket and SECURITECH zipper",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        }
+      },
+      "featureCount": 5,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 189.0,
+      "currency": "USD",
+      "priceDate": "2026-11-27",
+      "photoKind": "exact-offer",
+      "photoSource": "https://www.samsclub.com/ip/Delsey-Turene-2-0-20-Hardside-Carry-On-with-Front-Pocket/16312321037",
+      "photoScope": "Visually reviewed named product gallery; production revision not stated.",
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    },
+    {
+      "id": "offer-307b56d1",
+      "offerId": "offer-307b56d1",
+      "brandId": "brookstone",
+      "brand": "Brookstone",
+      "model": "Brookstone Nelson Hardside Spinner Luggage",
+      "source": "https://www.samsclub.com/ip/Brookstone-Nelson-Hardside-Spinner-Luggage/13578600593",
+      "checked": "2026-11-27",
+      "scope": "Named model and selected offer; unresolved specifications remain explicit.",
+      "image": "offer-photo-assets/sams-13578600593-0.jpg",
+      "gallery": [
+        "offer-photo-assets/sams-13578600593-0.jpg",
+        "offer-photo-assets/sams-13578600593-2.jpg"
+      ],
+      "features": {
+        "dimensions": {
+          "value": "21 × 14 × 9.5 in, retailer 21-inch size specification; body vs overall scope not stated",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        }
+      },
+      "featureCount": 1,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 89.98,
+      "currency": "USD",
+      "priceDate": "2026-11-27",
+      "photoKind": "exact-offer",
+      "photoSource": "https://www.samsclub.com/ip/Brookstone-Nelson-Hardside-Spinner-Luggage/13578600593",
+      "photoScope": "Visually reviewed named product gallery; production revision not stated.",
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    },
+    {
+      "id": "offer-44638743",
+      "offerId": "offer-44638743",
+      "brandId": "samsonite",
+      "brand": "Samsonite",
+      "model": "Lineate XLT Hardside 2-Piece Luggage Set (Assorted Colors)",
+      "source": "https://www.samsclub.com/ip/Lineate-XLT-Hardside-2-Piece-Luggage-Set-Assorted-Colors/19551904735",
+      "checked": "2026-11-27",
+      "scope": "Named model and selected offer; unresolved specifications remain explicit.",
+      "image": "offer-photo-assets/sams-19551904735-0.jpg",
+      "gallery": [
+        "offer-photo-assets/sams-19551904735-0.jpg"
+      ],
+      "features": {
+        "weight": {
+          "value": "17.95 lb total set weight",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        }
+      },
+      "featureCount": 1,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Luggage set",
+      "price": 199.0,
+      "currency": "USD",
+      "priceDate": "2026-11-27",
+      "photoKind": "exact-offer",
+      "photoSource": "https://www.samsclub.com/ip/Lineate-XLT-Hardside-2-Piece-Luggage-Set-Assorted-Colors/19551904735",
+      "photoScope": "Visually reviewed named product gallery; production revision not stated.",
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown.",
+        "Retailer gives 19.25 × 12.25 × 27 in without identifying the set component; not assigned as either case’s exterior dimensions."
+      ]
+    },
+    {
+      "id": "offer-cd438720",
+      "offerId": "offer-cd438720",
+      "brandId": "samsonite",
+      "brand": "Samsonite",
+      "model": "Samsonite Westerly Hardside Carry On Spinner Suitcase",
+      "source": "https://www.samsclub.com/ip/Samsonite-Westerly-Hardside-Carry-On-Spinner-Suitcase/19652617704",
+      "checked": "2026-11-27",
+      "scope": "Named model and selected offer; unresolved specifications remain explicit.",
+      "image": "offer-photo-assets/sams-19652617704-0.jpg",
+      "gallery": [
+        "offer-photo-assets/sams-19652617704-0.jpg",
+        "offer-photo-assets/sams-19652617704-4.jpg"
+      ],
+      "features": {
+        "warranty": {
+          "value": "Retailer states 10-year limited warranty; terms not independently checked",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        }
+      },
+      "featureCount": 1,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 74.87,
+      "currency": "USD",
+      "priceDate": "2026-11-27",
+      "photoKind": "exact-offer",
+      "photoSource": "https://www.samsclub.com/ip/Samsonite-Westerly-Hardside-Carry-On-Spinner-Suitcase/19652617704",
+      "photoScope": "Visually reviewed named product gallery; production revision not stated.",
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    },
+    {
+      "id": "offer-81201da5",
+      "offerId": "offer-81201da5",
+      "brandId": "tumi",
+      "brand": "TUMI",
+      "model": "Tumi International Dual Access 4 Wheeled Carry-On",
+      "source": "https://www.samsclub.com/ip/Tumi-International-Dual-Access-4-Wheeled-Carry-On/19968219134",
+      "checked": "2026-11-27",
+      "scope": "Named model and selected offer; unresolved specifications remain explicit.",
+      "image": "offer-photo-assets/sams-19968219134-0.jpg",
+      "gallery": [
+        "offer-photo-assets/sams-19968219134-0.jpg"
+      ],
+      "features": {
+        "opening": {
+          "value": "Front lid and wrap-around zipper access to main compartment",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "charging": {
+          "value": "USB charging port; power bank sold separately. Connector type unverified.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "material": {
+          "value": "Ballistic nylon",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "wheels": {
+          "value": "Four dual spinner assemblies",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "lock": {
+          "value": "Integrated TSA-compatible combination locks",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "expansion": {
+          "value": "Expandable; amount not stated",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        },
+        "warranty": {
+          "value": "Retailer warns manufacturer warranty may be limited/excluded for third-party-sourced stock; retailer satisfaction guarantee applies.",
+          "basis": "Exact named product page checked 2026-11-27; retailer AI summaries excluded."
+        }
+      },
+      "featureCount": 7,
+      "region": "North America",
+      "market": "United States",
+      "aliases": [],
+      "recordType": "Priced offer",
+      "format": "Carry-on",
+      "price": 699.0,
+      "currency": "USD",
+      "priceDate": "2026-11-27",
+      "photoKind": "model-reference",
+      "photoSource": "https://www.samsclub.com/ip/Tumi-International-Dual-Access-4-Wheeled-Carry-On/19968219134",
+      "photoScope": "Visually reviewed named product gallery; production revision not stated.",
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
     }
   ],
-  "brandCount": 178,
+  "brandCount": 179,
   "geographicScope": "Worldwide discovery across 178 recorded brand profiles. Assortment coverage is partial.",
   "researchRefresh": {
-    "date": "2026-11-23",
-    "note": "Added four exact Katie Loxton Avora UK offer records with source conflicts and photo limits retained; worldwide model coverage remains incomplete."
+    "checked": "2026-11-27",
+    "scope": "Incremental BAGSMART and Sam’s Club exact-product review; existing model evidence retained.",
+    "addedRecords": 10
   }
 }

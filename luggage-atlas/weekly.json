@@ -1,12 +1,42 @@
 {
-  "edition": "2026-11-25",
+  "edition": "2026-11-27",
   "periodStart": "2026-11-13",
-  "periodEnd": "2026-11-25",
+  "periodEnd": "2026-11-27",
   "baseline": false,
   "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
-  "nextScheduled": "2026-11-26",
-  "coverage": "Monday 23 November remains the comprehensive assortment baseline. The 25 November daily review adds five Japan Mastic Chalk advertised size/price records and two collection-reference photos. Four capacity discrepancies remain explicitly unresolved; exact FPM product pages returned 403. GT897 online release and planned Japan store rollout are separate. Amazon Basics returned 503; BINHAO remains unpriced. Worldwide assortment is partial.",
+  "nextScheduled": "2026-11-28",
+  "coverage": "The 26 November retailer expansion remains the latest broad channel audit; comprehensive Monday review remains scheduled. Today adds four BAGSMART variants and six Sam’s Club offers, with 20 reviewed photographs. One launch and one retailer promotion are verified. Material, repair-parts and full-assortment gaps remain explicit. Dates on unreviewed records are unchanged.",
   "items": [
+    {
+      "id": "bagsmart-pebble-switch-2026",
+      "brand": "BAGSMART",
+      "brandId": "bagsmart",
+      "title": "Pebble Carry-On Switch launches with interchangeable wheels",
+      "date": "2026-11-26",
+      "dateType": "Company announcement and stated availability 26 November; storefront listing timestamp 20 November; first Atlas observation and verification 27 November.",
+      "status": "Dated launch",
+      "market": "United States",
+      "change": "BAGSMART introduces a front-opening carry-on with a magnetic divider and interchangeable wheels. Four US color variants display USD 289.99. The product table gives 55 × 37 × 24 cm, 40 L and 5 kg. Shell material statements conflict between the release and product page; DIY tools and replacement-part availability remain unverified.",
+      "price": "USD 289.99 each; four separately retained color variants",
+      "source": "https://www.prnewswire.com/news-releases/bagsmart-launches-pebble-carry-on-switch-built-for-a-customizable-and-convenient-travel-experience-302950315.html",
+      "theme": "Replaceable wheels & quick access",
+      "photoId": "bagsmart-switch-42909519741010-0"
+    },
+    {
+      "id": "sams-westerly-promotion-2026-11-27",
+      "brand": "Samsonite",
+      "brandId": "samsonite",
+      "title": "Sam’s Club lists Westerly carry-on promotion through November 30",
+      "date": "2026-11-27",
+      "dateType": "First Atlas observation and verification date. Promotion end November 30; start, announcement, listing and launch dates unknown.",
+      "status": "Promotion",
+      "market": "United States",
+      "change": "The selected Black Westerly carry-on page displays USD 74.87, a USD 15 reduction from the retailer’s USD 89.87 reference price, ending November 30. Club and online prices may differ.",
+      "price": "USD 74.87; displayed reference USD 89.87",
+      "source": "https://www.samsclub.com/ip/Samsonite-Westerly-Hardside-Carry-On-Spinner-Suitcase/19652617704",
+      "theme": "Retailer promotion",
+      "photoId": "sams-19652617704-0"
+    },
     {
       "id": "fpm-mastic-chalk-japan-2026",
       "brand": "FPM Milano",
@@ -240,6 +270,12 @@
       "label": "Previous daily coverage update",
       "period": "November 13–24",
       "archive": "weekly-2026-11-24.json"
+    },
+    {
+      "date": "2026-11-25",
+      "label": "Previous daily source review",
+      "period": "2026-11-13–2026-11-25",
+      "archive": "weekly-2026-11-25.json"
     }
   ],
   "coverageRefresh": {
@@ -249,11 +285,11 @@
     "note": "DTA / DTA Nova added; existing price and news brand references reconciled."
   },
   "latestBulletin": {
-    "checked": "2026-11-25",
-    "newsDate": "2026-11-25",
-    "title": "Mastic Chalk Japan release: five prices, explicit evidence gaps",
-    "text": "Official sources state a 25 November Japan release. Five collection-advertised prices and dimensions are retained; four capacity conflicts and exact-size photo gaps are flagged. GT897’s separate Japan store rollout is recorded without inferring stock.",
-    "source": "https://fpmjapan.com/Page/Feature/2026/1118_GTnew/?plan=FPM261118GTnew",
-    "records": 5
+    "checked": "2026-11-27",
+    "newsDate": "2026-11-26",
+    "title": "Interchangeable-wheel launch and Sam’s Club product evidence",
+    "text": "The 26 November retailer expansion remains the latest broad channel audit; comprehensive Monday review remains scheduled. Today adds four BAGSMART variants and six Sam’s Club offers, with 20 reviewed photographs. One launch and one retailer promotion are verified. Material, repair-parts and full-assortment gaps remain explicit. Dates on unreviewed records are unchanged.",
+    "source": "https://www.prnewswire.com/news-releases/bagsmart-launches-pebble-carry-on-switch-built-for-a-customizable-and-convenient-travel-experience-302950315.html",
+    "records": 10
   }
 }

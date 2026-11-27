@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "photos": [
     {
       "id": "refresh-biaggi-619b84ed11",
@@ -19265,6 +19265,530 @@
       "checked": "2026-11-26",
       "scope": "Retailer product-card photograph. Exact selected color, size, revision and interior are not visually audited. Not a brand-wide photograph.",
       "remoteReference": true
+    },
+    {
+      "id": "bagsmart-switch-42909519741010-0",
+      "brandId": "bagsmart",
+      "view": "Exterior",
+      "caption": "Pebble Carry-On Switch · Stealth Black — Exterior",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1990/3257/files/BM01050514N_genZ_20__-001-01.webp?v=1794969595",
+      "localPath": "offer-photo-assets/bagsmart-switch-42909519741010-0.webp",
+      "checked": "2026-11-27",
+      "scope": "Matched model, 20-inch size and selected color; packing props are not a verified included accessory list.",
+      "offerId": "offer-4aec37b3",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Stealth Black",
+        "revision": null,
+        "sku": "BM01050514N001"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "a3121586471996c0fc53ba0c21cd3196d23f4262e307122ee14fd54627079f81",
+        "identifierSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "bagsmart-switch-42909519741010-1",
+      "brandId": "bagsmart",
+      "view": "Interior / front access",
+      "caption": "Pebble Carry-On Switch · Stealth Black — Interior / front access",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1990/3257/files/1_308d328a-87c1-4ccb-8cfb-ba7cf61375f3.webp?v=1795071516",
+      "localPath": "offer-photo-assets/bagsmart-switch-42909519741010-1.webp",
+      "checked": "2026-11-27",
+      "scope": "Matched model, 20-inch size and selected color; packing props are not a verified included accessory list.",
+      "offerId": "offer-4aec37b3",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Stealth Black",
+        "revision": null,
+        "sku": "BM01050514N001"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "0383f1bb3f8e966d12fef97ae3ad3bac57125f19f61a70327c266a11ee124913",
+        "identifierSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "bagsmart-switch-42909519741010-5",
+      "brandId": "bagsmart",
+      "view": "Interior / open packing compartments",
+      "caption": "Pebble Carry-On Switch · Stealth Black — Interior / open packing compartments",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1990/3257/files/BM01050514N_genZ_20__-001-05.webp?v=1794969595",
+      "localPath": "offer-photo-assets/bagsmart-switch-42909519741010-5.webp",
+      "checked": "2026-11-27",
+      "scope": "Matched model, 20-inch size and selected color; packing props are not a verified included accessory list.",
+      "offerId": "offer-4aec37b3",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Stealth Black",
+        "revision": null,
+        "sku": "BM01050514N001"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "37f1e9fbab3cc3d6d0e3aa0278ea9785111022f2572d9ae6a30bc9d4404c3d38",
+        "identifierSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "bagsmart-switch-42909519773778-21",
+      "brandId": "bagsmart",
+      "view": "Exterior",
+      "caption": "Pebble Carry-On Switch · Deep Purple — Exterior",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519773778",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1990/3257/files/BM01050514N_genZ_20__-010-01.webp?v=1794969595",
+      "localPath": "offer-photo-assets/bagsmart-switch-42909519773778-21.webp",
+      "checked": "2026-11-27",
+      "scope": "Matched model, 20-inch size and selected color; packing props are not a verified included accessory list.",
+      "offerId": "offer-668e7027",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Deep Purple",
+        "revision": null,
+        "sku": "BM01050514N010"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "caca13e0f62ae9e6aa6f65ab9fc4e120ad95700eb3ddc46e958fe14eeb079c6a",
+        "identifierSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519773778",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "bagsmart-switch-42909519773778-22",
+      "brandId": "bagsmart",
+      "view": "Interior / front access",
+      "caption": "Pebble Carry-On Switch · Deep Purple — Interior / front access",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519773778",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1990/3257/files/4_5c8024e6-befc-44d3-b7f0-b5a3a3aa54de.webp?v=1795071515",
+      "localPath": "offer-photo-assets/bagsmart-switch-42909519773778-22.webp",
+      "checked": "2026-11-27",
+      "scope": "Matched model, 20-inch size and selected color; packing props are not a verified included accessory list.",
+      "offerId": "offer-668e7027",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Deep Purple",
+        "revision": null,
+        "sku": "BM01050514N010"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "ace477896d78083c3f9c890ffed134b7c9177b0d8c5f6a1361b3f34c9f5dadeb",
+        "identifierSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519773778",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "bagsmart-switch-42909519773778-26",
+      "brandId": "bagsmart",
+      "view": "Interior / open packing compartments",
+      "caption": "Pebble Carry-On Switch · Deep Purple — Interior / open packing compartments",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519773778",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1990/3257/files/BM01050514N_genZ_20__-010-05.webp?v=1794969595",
+      "localPath": "offer-photo-assets/bagsmart-switch-42909519773778-26.webp",
+      "checked": "2026-11-27",
+      "scope": "Matched model, 20-inch size and selected color; packing props are not a verified included accessory list.",
+      "offerId": "offer-668e7027",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Deep Purple",
+        "revision": null,
+        "sku": "BM01050514N010"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "3564f418b6affeefdc16cd813408be44ff4697a410436e15d3b441136464a9b7",
+        "identifierSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519773778",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "bagsmart-switch-42909519806546-7",
+      "brandId": "bagsmart",
+      "view": "Exterior",
+      "caption": "Pebble Carry-On Switch · Belize Blue — Exterior",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519806546",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1990/3257/files/BM01050514N_genZ_20__-070-01.webp?v=1794969595",
+      "localPath": "offer-photo-assets/bagsmart-switch-42909519806546-7.webp",
+      "checked": "2026-11-27",
+      "scope": "Matched model, 20-inch size and selected color; packing props are not a verified included accessory list.",
+      "offerId": "offer-9c07be98",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Belize Blue",
+        "revision": null,
+        "sku": "BM01050514N070"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "ba5ad29de8d69063d449a38afa4ee13427fcf3d1cef080ebec2ccea33191869e",
+        "identifierSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519806546",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "bagsmart-switch-42909519806546-8",
+      "brandId": "bagsmart",
+      "view": "Interior / front access",
+      "caption": "Pebble Carry-On Switch · Belize Blue — Interior / front access",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519806546",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1990/3257/files/2_52bdd64e-f6d7-487d-866f-45d079524ae3.webp?v=1795071516",
+      "localPath": "offer-photo-assets/bagsmart-switch-42909519806546-8.webp",
+      "checked": "2026-11-27",
+      "scope": "Matched model, 20-inch size and selected color; packing props are not a verified included accessory list.",
+      "offerId": "offer-9c07be98",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Belize Blue",
+        "revision": null,
+        "sku": "BM01050514N070"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "985c5105728036a207415bb9643144e23e7d418b05e1cfac0284741427061723",
+        "identifierSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519806546",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "bagsmart-switch-42909519806546-12",
+      "brandId": "bagsmart",
+      "view": "Interior / open packing compartments",
+      "caption": "Pebble Carry-On Switch · Belize Blue — Interior / open packing compartments",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519806546",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1990/3257/files/BM01050514N_genZ_20__-070-05.webp?v=1794969595",
+      "localPath": "offer-photo-assets/bagsmart-switch-42909519806546-12.webp",
+      "checked": "2026-11-27",
+      "scope": "Matched model, 20-inch size and selected color; packing props are not a verified included accessory list.",
+      "offerId": "offer-9c07be98",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Belize Blue",
+        "revision": null,
+        "sku": "BM01050514N070"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "5396c66b120c62d9593cd916e63a63ee6b2b5d34549a520449e8b7eda6527b74",
+        "identifierSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519806546",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "bagsmart-switch-42909519839314-14",
+      "brandId": "bagsmart",
+      "view": "Exterior",
+      "caption": "Pebble Carry-On Switch · Sand Stone — Exterior",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519839314",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1990/3257/files/BM01050514N_genZ_20__-570-01.webp?v=1794969595",
+      "localPath": "offer-photo-assets/bagsmart-switch-42909519839314-14.webp",
+      "checked": "2026-11-27",
+      "scope": "Matched model, 20-inch size and selected color; packing props are not a verified included accessory list.",
+      "offerId": "offer-ec4c6cad",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Sand Stone",
+        "revision": null,
+        "sku": "BM01050514N570"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "57800df271eda935d68367d215475e21a86263e106cf4c84f66ad3a42f726e8a",
+        "identifierSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519839314",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "bagsmart-switch-42909519839314-15",
+      "brandId": "bagsmart",
+      "view": "Interior / front access",
+      "caption": "Pebble Carry-On Switch · Sand Stone — Interior / front access",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519839314",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1990/3257/files/3_95db69ec-6c6f-4ad1-8b9c-edc9e5665f47.webp?v=1795071516",
+      "localPath": "offer-photo-assets/bagsmart-switch-42909519839314-15.webp",
+      "checked": "2026-11-27",
+      "scope": "Matched model, 20-inch size and selected color; packing props are not a verified included accessory list.",
+      "offerId": "offer-ec4c6cad",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Sand Stone",
+        "revision": null,
+        "sku": "BM01050514N570"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "5ea11cd1523d934c83a5baabd9d32b7164f21960d0d8a7192c92428f4522d3bb",
+        "identifierSource": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519839314",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "sams-15890366559-0",
+      "brandId": "samsonite",
+      "view": "Exterior",
+      "caption": "Samsonite Xpression 2-Piece Softside Spinner Luggage Set · Mineral Grey — Exterior",
+      "source": "https://www.samsclub.com/ip/Samsonite-Xpression-2-Piece-Softside-Spinner-Luggage-Set/15890366559",
+      "imageUrl": "https://i5.samsclubimages.com/asr/960a16a2-ce53-4295-a724-4e187e3bbc61.1355a7691e1f94c940ccae204a497a37.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+      "localPath": "offer-photo-assets/sams-15890366559-0.jpg",
+      "checked": "2026-11-27",
+      "scope": "Exact selected model/size/color gallery visually reviewed.",
+      "offerId": "offer-157e7901",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Samsonite Xpression 2-Piece Softside Spinner Luggage Set",
+        "size": "2-piece set",
+        "color": "Mineral Grey",
+        "revision": null,
+        "sku": "15890366559"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "a14a300f68240731120c722e6785917d556eec6a126c8ddb11d20f001d1e7c1c",
+        "identifierSource": "https://www.samsclub.com/ip/Samsonite-Xpression-2-Piece-Softside-Spinner-Luggage-Set/15890366559",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "sams-16312321037-0",
+      "brandId": "delsey-paris",
+      "view": "Exterior",
+      "caption": "Delsey Turene 2.0 20\" Hardside Carry-On with Front Pocket · Blue Grey — Exterior",
+      "source": "https://www.samsclub.com/ip/Delsey-Turene-2-0-20-Hardside-Carry-On-with-Front-Pocket/16312321037",
+      "imageUrl": "https://i5.samsclubimages.com/asr/8b66fefc-cf74-4501-bfe7-344afe8331e7.375f03643c96b9ce81d398b9e6fa6282.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+      "localPath": "offer-photo-assets/sams-16312321037-0.jpg",
+      "checked": "2026-11-27",
+      "scope": "Exact selected model/size/color gallery visually reviewed.",
+      "offerId": "offer-2d2eca24",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Delsey Turene 2.0 20\" Hardside Carry-On with Front Pocket",
+        "size": "20-inch carry-on",
+        "color": "Blue Grey",
+        "revision": null,
+        "sku": "16312321037"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "5888be06677b68129ec81c65674b86f27fc9cc3b27ba2396e11c7526cd606da6",
+        "identifierSource": "https://www.samsclub.com/ip/Delsey-Turene-2-0-20-Hardside-Carry-On-with-Front-Pocket/16312321037",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "sams-16312321037-1",
+      "brandId": "delsey-paris",
+      "view": "Interior",
+      "caption": "Delsey Turene 2.0 20\" Hardside Carry-On with Front Pocket · Blue Grey — Interior",
+      "source": "https://www.samsclub.com/ip/Delsey-Turene-2-0-20-Hardside-Carry-On-with-Front-Pocket/16312321037",
+      "imageUrl": "https://i5.samsclubimages.com/asr/938d2453-9488-4378-82dc-2ce8654e8367.28c9ad7d4723fedfd6992c82a7bf95ff.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+      "localPath": "offer-photo-assets/sams-16312321037-1.jpg",
+      "checked": "2026-11-27",
+      "scope": "Exact selected model/size/color gallery visually reviewed.",
+      "offerId": "offer-2d2eca24",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Delsey Turene 2.0 20\" Hardside Carry-On with Front Pocket",
+        "size": "20-inch carry-on",
+        "color": "Blue Grey",
+        "revision": null,
+        "sku": "16312321037"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "28342ca668939da0989ac8d007a7f7adc5e6c4b6e1cfdf64d90a27c48014e9a1",
+        "identifierSource": "https://www.samsclub.com/ip/Delsey-Turene-2-0-20-Hardside-Carry-On-with-Front-Pocket/16312321037",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "sams-13578600593-0",
+      "brandId": "brookstone",
+      "view": "Exterior",
+      "caption": "Brookstone Nelson Hardside Spinner Luggage · 21\" · Plum — Exterior",
+      "source": "https://www.samsclub.com/ip/Brookstone-Nelson-Hardside-Spinner-Luggage/13578600593",
+      "imageUrl": "https://i5.samsclubimages.com/asr/8e39b0cb-0d7b-45dd-b5fa-88e789f50e59.c8e6aa4d5b8be18ee7e5e14584a13a9a.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+      "localPath": "offer-photo-assets/sams-13578600593-0.jpg",
+      "checked": "2026-11-27",
+      "scope": "Exact selected model/size/color gallery visually reviewed.",
+      "offerId": "offer-307b56d1",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Brookstone Nelson Hardside Spinner Luggage",
+        "size": "21\"",
+        "color": "Plum",
+        "revision": null,
+        "sku": "13578600593"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "5edc4dd667d7a4402cf069ad8ee0743a81d6bf762b6dca785c33abb517770a70",
+        "identifierSource": "https://www.samsclub.com/ip/Brookstone-Nelson-Hardside-Spinner-Luggage/13578600593",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "sams-13578600593-2",
+      "brandId": "brookstone",
+      "view": "Interior",
+      "caption": "Brookstone Nelson Hardside Spinner Luggage · 21\" · Plum — Interior",
+      "source": "https://www.samsclub.com/ip/Brookstone-Nelson-Hardside-Spinner-Luggage/13578600593",
+      "imageUrl": "https://i5.samsclubimages.com/asr/107d5c67-4594-4e73-b3fc-f5f4eec65ddb.2d4bb2a12de62010c77732779041f50a.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+      "localPath": "offer-photo-assets/sams-13578600593-2.jpg",
+      "checked": "2026-11-27",
+      "scope": "Exact selected model/size/color gallery visually reviewed.",
+      "offerId": "offer-307b56d1",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Brookstone Nelson Hardside Spinner Luggage",
+        "size": "21\"",
+        "color": "Plum",
+        "revision": null,
+        "sku": "13578600593"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "f5f79cffcfc331a5dfc6a3aafb1dd707f7710d1dde4c2b1deefa9ca4f90b8bfc",
+        "identifierSource": "https://www.samsclub.com/ip/Brookstone-Nelson-Hardside-Spinner-Luggage/13578600593",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "sams-19551904735-0",
+      "brandId": "samsonite",
+      "view": "Exterior",
+      "caption": "Lineate XLT Hardside 2-Piece Luggage Set (Assorted Colors) · Silver — Exterior",
+      "source": "https://www.samsclub.com/ip/Lineate-XLT-Hardside-2-Piece-Luggage-Set-Assorted-Colors/19551904735",
+      "imageUrl": "https://i5.samsclubimages.com/asr/06c2e7e9-ab9c-4511-a262-826d617b685e.7ff8533a810faeed099bf9ca5b5e1a73.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+      "localPath": "offer-photo-assets/sams-19551904735-0.jpg",
+      "checked": "2026-11-27",
+      "scope": "Exact selected model/size/color gallery visually reviewed.",
+      "offerId": "offer-44638743",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Lineate XLT Hardside 2-Piece Luggage Set (Assorted Colors)",
+        "size": "2-piece set",
+        "color": "Silver",
+        "revision": null,
+        "sku": "19551904735"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "1e78ef5cf8fd01fa9a544abd29e837cfa2f20aeafafb6dcee94acc25b1eade35",
+        "identifierSource": "https://www.samsclub.com/ip/Lineate-XLT-Hardside-2-Piece-Luggage-Set-Assorted-Colors/19551904735",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "sams-19652617704-0",
+      "brandId": "samsonite",
+      "view": "Exterior",
+      "caption": "Samsonite Westerly Hardside Carry On Spinner Suitcase · Black — Exterior",
+      "source": "https://www.samsclub.com/ip/Samsonite-Westerly-Hardside-Carry-On-Spinner-Suitcase/19652617704",
+      "imageUrl": "https://i5.samsclubimages.com/asr/af7e1ffc-c7ea-45a4-a061-8778fd65a881.83d21625943d92d314ba49370ec8480f.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+      "localPath": "offer-photo-assets/sams-19652617704-0.jpg",
+      "checked": "2026-11-27",
+      "scope": "Exact selected model/size/color gallery visually reviewed.",
+      "offerId": "offer-cd438720",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Samsonite Westerly Hardside Carry On Spinner Suitcase",
+        "size": "Carry-on",
+        "color": "Black",
+        "revision": null,
+        "sku": "19652617704"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "421a72c0c32a633126e61f6baed902fc774a8871c5454420647f11af102119c8",
+        "identifierSource": "https://www.samsclub.com/ip/Samsonite-Westerly-Hardside-Carry-On-Spinner-Suitcase/19652617704",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "sams-19652617704-4",
+      "brandId": "samsonite",
+      "view": "Interior",
+      "caption": "Samsonite Westerly Hardside Carry On Spinner Suitcase · Black — Interior",
+      "source": "https://www.samsclub.com/ip/Samsonite-Westerly-Hardside-Carry-On-Spinner-Suitcase/19652617704",
+      "imageUrl": "https://i5.samsclubimages.com/asr/085a39e0-252c-40fa-8a0d-7ee9e3889529.f130f92738dc616afdf1981dd8afb943.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+      "localPath": "offer-photo-assets/sams-19652617704-4.jpg",
+      "checked": "2026-11-27",
+      "scope": "Exact selected model/size/color gallery visually reviewed.",
+      "offerId": "offer-cd438720",
+      "verificationStatus": "model-size-color-matched",
+      "identity": {
+        "model": "Samsonite Westerly Hardside Carry On Spinner Suitcase",
+        "size": "Carry-on",
+        "color": "Black",
+        "revision": null,
+        "sku": "19652617704"
+      },
+      "evidence": {
+        "type": "Official brand or retailer exact-product gallery",
+        "visualChecked": true,
+        "imageSha256": "27917e2f5d7862b998e1ec7c9eb9af26c2f12cffa6bd2f3ab06165d5fcbc7823",
+        "identifierSource": "https://www.samsclub.com/ip/Samsonite-Westerly-Hardside-Carry-On-Spinner-Suitcase/19652617704",
+        "identifierChecked": "2026-11-27"
+      }
+    },
+    {
+      "id": "sams-19968219134-0",
+      "brandId": "tumi",
+      "view": "Exterior",
+      "caption": "Tumi International Dual Access 4 Wheeled Carry-On — Exterior",
+      "source": "https://www.samsclub.com/ip/Tumi-International-Dual-Access-4-Wheeled-Carry-On/19968219134",
+      "imageUrl": "https://i5.samsclubimages.com/asr/8c63bdf7-48d3-4335-8158-b416a19ff571.063a9bbc3c9ee4077771d7d9e6133b47.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+      "localPath": "offer-photo-assets/sams-19968219134-0.jpg",
+      "checked": "2026-11-27",
+      "scope": "Named retailer model reference; exact color name and manufacturer model code not confirmed."
     }
   ],
   "byBrand": {
@@ -19456,7 +19980,18 @@
       "retail-d3a14b64801f901a",
       "retail-03fb3d404c7b9607",
       "retail-116d5c044e0c289a",
-      "retail-6ef12b06abbed282"
+      "retail-6ef12b06abbed282",
+      "bagsmart-switch-42909519741010-0",
+      "bagsmart-switch-42909519741010-1",
+      "bagsmart-switch-42909519741010-5",
+      "bagsmart-switch-42909519773778-21",
+      "bagsmart-switch-42909519773778-22",
+      "bagsmart-switch-42909519773778-26",
+      "bagsmart-switch-42909519806546-7",
+      "bagsmart-switch-42909519806546-8",
+      "bagsmart-switch-42909519806546-12",
+      "bagsmart-switch-42909519839314-14",
+      "bagsmart-switch-42909519839314-15"
     ],
     "bebe": [
       "coverage-bebe-d3a906b5c24521ea",
@@ -19703,7 +20238,9 @@
       "retail-5eff5b2b00ff066e",
       "retail-564ff6cde50caf91",
       "retail-d0f3270c338cfeb1",
-      "retail-133cad9d033133d2"
+      "retail-133cad9d033133d2",
+      "sams-16312321037-0",
+      "sams-16312321037-1"
     ],
     "departure": [
       "p2002",
@@ -20499,7 +21036,11 @@
       "retail-f3f1a334b173fac0",
       "retail-2702ef949edc21bb",
       "retail-ef605707fb1d0538",
-      "retail-eee6dd87e9c2ebc9"
+      "retail-eee6dd87e9c2ebc9",
+      "sams-15890366559-0",
+      "sams-19551904735-0",
+      "sams-19652617704-0",
+      "sams-19652617704-4"
     ],
     "santino": [
       "refresh-santino-8109add4eb",
@@ -20811,7 +21352,8 @@
       "retail-32be7534f4f4e357",
       "retail-4175feecb2eb6d0e",
       "retail-bec334993c7883c4",
-      "retail-10f4e00cf98933bb"
+      "retail-10f4e00cf98933bb",
+      "sams-19968219134-0"
     ],
     "tuplus": [
       "refresh-tuplus-73e4ad0b90",
@@ -21280,6 +21822,10 @@
       "retail-292b982571ba4569",
       "retail-12c803393fcd200e",
       "retail-7a7006e97defdfd3"
+    ],
+    "brookstone": [
+      "sams-13578600593-0",
+      "sams-13578600593-2"
     ]
   },
   "note": "Galleries compare sourced product and collection references. Each image has its own model/collection caption and source. An interior from another model is not evidence of the priced model’s construction.",
@@ -24061,7 +24607,270 @@
           "Availability may change"
         ]
       }
+    },
+    {
+      "offerId": "offer-4aec37b3",
+      "offerIdentity": {
+        "brand": "BAGSMART",
+        "product": "Pebble Carry-On Switch · Stealth Black",
+        "currency": "USD",
+        "retailer": "www.bagsmart.com",
+        "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010"
+      },
+      "checked": "2026-11-27",
+      "productPage": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Stealth Black",
+        "revision": null,
+        "sku": "BM01050514N001"
+      },
+      "photoIds": [
+        "bagsmart-switch-42909519741010-0",
+        "bagsmart-switch-42909519741010-1",
+        "bagsmart-switch-42909519741010-5"
+      ],
+      "gaps": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated."
+      ],
+      "note": "Exact source gallery and visual inspection. No factory or production revision inferred."
+    },
+    {
+      "offerId": "offer-668e7027",
+      "offerIdentity": {
+        "brand": "BAGSMART",
+        "product": "Pebble Carry-On Switch · Deep Purple",
+        "currency": "USD",
+        "retailer": "www.bagsmart.com",
+        "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519773778"
+      },
+      "checked": "2026-11-27",
+      "productPage": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519773778",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Deep Purple",
+        "revision": null,
+        "sku": "BM01050514N010"
+      },
+      "photoIds": [
+        "bagsmart-switch-42909519773778-21",
+        "bagsmart-switch-42909519773778-22",
+        "bagsmart-switch-42909519773778-26"
+      ],
+      "gaps": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated."
+      ],
+      "note": "Exact source gallery and visual inspection. No factory or production revision inferred."
+    },
+    {
+      "offerId": "offer-9c07be98",
+      "offerIdentity": {
+        "brand": "BAGSMART",
+        "product": "Pebble Carry-On Switch · Belize Blue",
+        "currency": "USD",
+        "retailer": "www.bagsmart.com",
+        "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519806546"
+      },
+      "checked": "2026-11-27",
+      "productPage": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519806546",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Belize Blue",
+        "revision": null,
+        "sku": "BM01050514N070"
+      },
+      "photoIds": [
+        "bagsmart-switch-42909519806546-7",
+        "bagsmart-switch-42909519806546-8",
+        "bagsmart-switch-42909519806546-12"
+      ],
+      "gaps": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated."
+      ],
+      "note": "Exact source gallery and visual inspection. No factory or production revision inferred."
+    },
+    {
+      "offerId": "offer-ec4c6cad",
+      "offerIdentity": {
+        "brand": "BAGSMART",
+        "product": "Pebble Carry-On Switch · Sand Stone",
+        "currency": "USD",
+        "retailer": "www.bagsmart.com",
+        "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519839314"
+      },
+      "checked": "2026-11-27",
+      "productPage": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519839314",
+      "identity": {
+        "model": "Pebble Carry-On Switch",
+        "size": "20-inch carry-on",
+        "color": "Sand Stone",
+        "revision": null,
+        "sku": "BM01050514N570"
+      },
+      "photoIds": [
+        "bagsmart-switch-42909519839314-14",
+        "bagsmart-switch-42909519839314-15"
+      ],
+      "gaps": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated.",
+        "Full clamshell image in Sand Stone gallery appears to show a blue shell; excluded from exact-color photos. Front-access view retained."
+      ],
+      "note": "Exact source gallery and visual inspection. No factory or production revision inferred."
+    },
+    {
+      "offerId": "offer-157e7901",
+      "offerIdentity": {
+        "brand": "Samsonite",
+        "product": "Samsonite Xpression 2-Piece Softside Spinner Luggage Set · Mineral Grey",
+        "currency": "USD",
+        "retailer": "Sam’s Club",
+        "source": "https://www.samsclub.com/ip/Samsonite-Xpression-2-Piece-Softside-Spinner-Luggage-Set/15890366559"
+      },
+      "checked": "2026-11-27",
+      "productPage": "https://www.samsclub.com/ip/Samsonite-Xpression-2-Piece-Softside-Spinner-Luggage-Set/15890366559",
+      "identity": {
+        "model": "Samsonite Xpression 2-Piece Softside Spinner Luggage Set",
+        "size": "2-piece set",
+        "color": "Mineral Grey",
+        "revision": null,
+        "sku": "15890366559"
+      },
+      "photoIds": [
+        "sams-15890366559-0"
+      ],
+      "gaps": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ],
+      "note": "Exact source gallery and visual inspection. No factory or production revision inferred."
+    },
+    {
+      "offerId": "offer-2d2eca24",
+      "offerIdentity": {
+        "brand": "DELSEY PARIS",
+        "product": "Delsey Turene 2.0 20\" Hardside Carry-On with Front Pocket · Blue Grey",
+        "currency": "USD",
+        "retailer": "Sam’s Club",
+        "source": "https://www.samsclub.com/ip/Delsey-Turene-2-0-20-Hardside-Carry-On-with-Front-Pocket/16312321037"
+      },
+      "checked": "2026-11-27",
+      "productPage": "https://www.samsclub.com/ip/Delsey-Turene-2-0-20-Hardside-Carry-On-with-Front-Pocket/16312321037",
+      "identity": {
+        "model": "Delsey Turene 2.0 20\" Hardside Carry-On with Front Pocket",
+        "size": "20-inch carry-on",
+        "color": "Blue Grey",
+        "revision": null,
+        "sku": "16312321037"
+      },
+      "photoIds": [
+        "sams-16312321037-0",
+        "sams-16312321037-1"
+      ],
+      "gaps": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ],
+      "note": "Exact source gallery and visual inspection. No factory or production revision inferred."
+    },
+    {
+      "offerId": "offer-307b56d1",
+      "offerIdentity": {
+        "brand": "Brookstone",
+        "product": "Brookstone Nelson Hardside Spinner Luggage · 21\" · Plum",
+        "currency": "USD",
+        "retailer": "Sam’s Club",
+        "source": "https://www.samsclub.com/ip/Brookstone-Nelson-Hardside-Spinner-Luggage/13578600593"
+      },
+      "checked": "2026-11-27",
+      "productPage": "https://www.samsclub.com/ip/Brookstone-Nelson-Hardside-Spinner-Luggage/13578600593",
+      "identity": {
+        "model": "Brookstone Nelson Hardside Spinner Luggage",
+        "size": "21\"",
+        "color": "Plum",
+        "revision": null,
+        "sku": "13578600593"
+      },
+      "photoIds": [
+        "sams-13578600593-0",
+        "sams-13578600593-2"
+      ],
+      "gaps": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ],
+      "note": "Exact source gallery and visual inspection. No factory or production revision inferred."
+    },
+    {
+      "offerId": "offer-44638743",
+      "offerIdentity": {
+        "brand": "Samsonite",
+        "product": "Lineate XLT Hardside 2-Piece Luggage Set (Assorted Colors) · Silver",
+        "currency": "USD",
+        "retailer": "Sam’s Club",
+        "source": "https://www.samsclub.com/ip/Lineate-XLT-Hardside-2-Piece-Luggage-Set-Assorted-Colors/19551904735"
+      },
+      "checked": "2026-11-27",
+      "productPage": "https://www.samsclub.com/ip/Lineate-XLT-Hardside-2-Piece-Luggage-Set-Assorted-Colors/19551904735",
+      "identity": {
+        "model": "Lineate XLT Hardside 2-Piece Luggage Set (Assorted Colors)",
+        "size": "2-piece set",
+        "color": "Silver",
+        "revision": null,
+        "sku": "19551904735"
+      },
+      "photoIds": [
+        "sams-19551904735-0"
+      ],
+      "gaps": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown.",
+        "Retailer gives 19.25 × 12.25 × 27 in without identifying the set component; not assigned as either case’s exterior dimensions."
+      ],
+      "note": "Exact source gallery and visual inspection. No factory or production revision inferred."
+    },
+    {
+      "offerId": "offer-cd438720",
+      "offerIdentity": {
+        "brand": "Samsonite",
+        "product": "Samsonite Westerly Hardside Carry On Spinner Suitcase · Black",
+        "currency": "USD",
+        "retailer": "Sam’s Club",
+        "source": "https://www.samsclub.com/ip/Samsonite-Westerly-Hardside-Carry-On-Spinner-Suitcase/19652617704"
+      },
+      "checked": "2026-11-27",
+      "productPage": "https://www.samsclub.com/ip/Samsonite-Westerly-Hardside-Carry-On-Spinner-Suitcase/19652617704",
+      "identity": {
+        "model": "Samsonite Westerly Hardside Carry On Spinner Suitcase",
+        "size": "Carry-on",
+        "color": "Black",
+        "revision": null,
+        "sku": "19652617704"
+      },
+      "photoIds": [
+        "sams-19652617704-0",
+        "sams-19652617704-4"
+      ],
+      "gaps": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ],
+      "note": "Exact source gallery and visual inspection. No factory or production revision inferred."
     }
   ],
-  "offerPhotoChecked": "2026-11-24"
+  "offerPhotoChecked": "2026-11-27"
 }

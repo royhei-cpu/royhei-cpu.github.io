@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -2106,6 +2106,266 @@
       "currency": "AUD",
       "photoIds": [],
       "photoScope": "Retailer card reference; exact variant appearance unconfirmed."
+    },
+    {
+      "offerId": "offer-4aec37b3",
+      "brandId": "bagsmart",
+      "model": "Pebble Carry-On Switch",
+      "size": "20-inch carry-on",
+      "color": "Stealth Black",
+      "dimensions": "55 × 37 × 24 cm external, named Switch comparison column; wheel/handle inclusion not specified",
+      "announcementDate": "2026-11-26",
+      "launchDate": "2026-11-26",
+      "listingDate": "2026-11-20",
+      "firstObserved": "2026-11-27",
+      "added": "2026-11-27",
+      "observed": "2026-11-27",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010",
+      "price": 289.99,
+      "currency": "USD",
+      "photoIds": [
+        "bagsmart-switch-42909519741010-0",
+        "bagsmart-switch-42909519741010-1",
+        "bagsmart-switch-42909519741010-5"
+      ],
+      "uncertainty": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated."
+      ]
+    },
+    {
+      "offerId": "offer-668e7027",
+      "brandId": "bagsmart",
+      "model": "Pebble Carry-On Switch",
+      "size": "20-inch carry-on",
+      "color": "Deep Purple",
+      "dimensions": "55 × 37 × 24 cm external, named Switch comparison column; wheel/handle inclusion not specified",
+      "announcementDate": "2026-11-26",
+      "launchDate": "2026-11-26",
+      "listingDate": "2026-11-20",
+      "firstObserved": "2026-11-27",
+      "added": "2026-11-27",
+      "observed": "2026-11-27",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519773778",
+      "price": 289.99,
+      "currency": "USD",
+      "photoIds": [
+        "bagsmart-switch-42909519773778-21",
+        "bagsmart-switch-42909519773778-22",
+        "bagsmart-switch-42909519773778-26"
+      ],
+      "uncertainty": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated."
+      ]
+    },
+    {
+      "offerId": "offer-9c07be98",
+      "brandId": "bagsmart",
+      "model": "Pebble Carry-On Switch",
+      "size": "20-inch carry-on",
+      "color": "Belize Blue",
+      "dimensions": "55 × 37 × 24 cm external, named Switch comparison column; wheel/handle inclusion not specified",
+      "announcementDate": "2026-11-26",
+      "launchDate": "2026-11-26",
+      "listingDate": "2026-11-20",
+      "firstObserved": "2026-11-27",
+      "added": "2026-11-27",
+      "observed": "2026-11-27",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519806546",
+      "price": 289.99,
+      "currency": "USD",
+      "photoIds": [
+        "bagsmart-switch-42909519806546-7",
+        "bagsmart-switch-42909519806546-8",
+        "bagsmart-switch-42909519806546-12"
+      ],
+      "uncertainty": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated."
+      ]
+    },
+    {
+      "offerId": "offer-ec4c6cad",
+      "brandId": "bagsmart",
+      "model": "Pebble Carry-On Switch",
+      "size": "20-inch carry-on",
+      "color": "Sand Stone",
+      "dimensions": "55 × 37 × 24 cm external, named Switch comparison column; wheel/handle inclusion not specified",
+      "announcementDate": "2026-11-26",
+      "launchDate": "2026-11-26",
+      "listingDate": "2026-11-20",
+      "firstObserved": "2026-11-27",
+      "added": "2026-11-27",
+      "observed": "2026-11-27",
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519839314",
+      "price": 289.99,
+      "currency": "USD",
+      "photoIds": [
+        "bagsmart-switch-42909519839314-14",
+        "bagsmart-switch-42909519839314-15"
+      ],
+      "uncertainty": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated.",
+        "Full clamshell image in Sand Stone gallery appears to show a blue shell; excluded from exact-color photos. Front-access view retained."
+      ]
+    },
+    {
+      "offerId": "offer-157e7901",
+      "brandId": "samsonite",
+      "model": "Samsonite Xpression 2-Piece Softside Spinner Luggage Set",
+      "size": "2-piece set",
+      "color": "Mineral Grey",
+      "dimensions": null,
+      "announcementDate": null,
+      "launchDate": null,
+      "listingDate": null,
+      "firstObserved": "2026-11-27",
+      "added": "2026-11-27",
+      "observed": "2026-11-27",
+      "source": "https://www.samsclub.com/ip/Samsonite-Xpression-2-Piece-Softside-Spinner-Luggage-Set/15890366559",
+      "price": 189.0,
+      "currency": "USD",
+      "photoIds": [
+        "sams-15890366559-0"
+      ],
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    },
+    {
+      "offerId": "offer-2d2eca24",
+      "brandId": "delsey-paris",
+      "model": "Delsey Turene 2.0 20\" Hardside Carry-On with Front Pocket",
+      "size": "20-inch carry-on",
+      "color": "Blue Grey",
+      "dimensions": null,
+      "announcementDate": null,
+      "launchDate": null,
+      "listingDate": null,
+      "firstObserved": "2026-11-27",
+      "added": "2026-11-27",
+      "observed": "2026-11-27",
+      "source": "https://www.samsclub.com/ip/Delsey-Turene-2-0-20-Hardside-Carry-On-with-Front-Pocket/16312321037",
+      "price": 189.0,
+      "currency": "USD",
+      "photoIds": [
+        "sams-16312321037-0",
+        "sams-16312321037-1"
+      ],
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    },
+    {
+      "offerId": "offer-307b56d1",
+      "brandId": "brookstone",
+      "model": "Brookstone Nelson Hardside Spinner Luggage",
+      "size": "21\"",
+      "color": "Plum",
+      "dimensions": "21 × 14 × 9.5 in, retailer 21-inch size specification; body vs overall scope not stated",
+      "announcementDate": null,
+      "launchDate": null,
+      "listingDate": null,
+      "firstObserved": "2026-11-27",
+      "added": "2026-11-27",
+      "observed": "2026-11-27",
+      "source": "https://www.samsclub.com/ip/Brookstone-Nelson-Hardside-Spinner-Luggage/13578600593",
+      "price": 89.98,
+      "currency": "USD",
+      "photoIds": [
+        "sams-13578600593-0",
+        "sams-13578600593-2"
+      ],
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    },
+    {
+      "offerId": "offer-44638743",
+      "brandId": "samsonite",
+      "model": "Lineate XLT Hardside 2-Piece Luggage Set (Assorted Colors)",
+      "size": "2-piece set",
+      "color": "Silver",
+      "dimensions": null,
+      "announcementDate": null,
+      "launchDate": null,
+      "listingDate": null,
+      "firstObserved": "2026-11-27",
+      "added": "2026-11-27",
+      "observed": "2026-11-27",
+      "source": "https://www.samsclub.com/ip/Lineate-XLT-Hardside-2-Piece-Luggage-Set-Assorted-Colors/19551904735",
+      "price": 199.0,
+      "currency": "USD",
+      "photoIds": [
+        "sams-19551904735-0"
+      ],
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown.",
+        "Retailer gives 19.25 × 12.25 × 27 in without identifying the set component; not assigned as either case’s exterior dimensions."
+      ]
+    },
+    {
+      "offerId": "offer-cd438720",
+      "brandId": "samsonite",
+      "model": "Samsonite Westerly Hardside Carry On Spinner Suitcase",
+      "size": "Carry-on",
+      "color": "Black",
+      "dimensions": null,
+      "announcementDate": null,
+      "launchDate": null,
+      "listingDate": null,
+      "firstObserved": "2026-11-27",
+      "added": "2026-11-27",
+      "observed": "2026-11-27",
+      "source": "https://www.samsclub.com/ip/Samsonite-Westerly-Hardside-Carry-On-Spinner-Suitcase/19652617704",
+      "price": 74.87,
+      "currency": "USD",
+      "photoIds": [
+        "sams-19652617704-0",
+        "sams-19652617704-4"
+      ],
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    },
+    {
+      "offerId": "offer-81201da5",
+      "brandId": "tumi",
+      "model": "Tumi International Dual Access 4 Wheeled Carry-On",
+      "size": "Carry-on",
+      "color": null,
+      "dimensions": null,
+      "announcementDate": null,
+      "launchDate": null,
+      "listingDate": null,
+      "firstObserved": "2026-11-27",
+      "added": "2026-11-27",
+      "observed": "2026-11-27",
+      "source": "https://www.samsclub.com/ip/Tumi-International-Dual-Access-4-Wheeled-Carry-On/19968219134",
+      "price": 699.0,
+      "currency": "USD",
+      "photoIds": [
+        "sams-19968219134-0"
+      ],
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
     }
   ],
   "byBrand": {
@@ -2130,7 +2390,11 @@
       "offer-3f787da3",
       "offer-dbbeb412",
       "offer-cd921283",
-      "offer-ced7968b"
+      "offer-ced7968b",
+      "offer-4aec37b3",
+      "offer-668e7027",
+      "offer-9c07be98",
+      "offer-ec4c6cad"
     ],
     "american-dreamliner": [
       "offer-30d469b3"
@@ -2249,13 +2513,25 @@
       "offer-ea53682d",
       "offer-e855a39e",
       "offer-ecca2f02",
-      "offer-dccc5469"
+      "offer-dccc5469",
+      "offer-157e7901",
+      "offer-44638743",
+      "offer-cd438720"
     ],
     "american-tourister": [
       "offer-9306fdda",
       "offer-23d14f1a",
       "offer-2c9aee83",
       "offer-1f868871"
+    ],
+    "delsey-paris": [
+      "offer-2d2eca24"
+    ],
+    "brookstone": [
+      "offer-307b56d1"
+    ],
+    "tumi": [
+      "offer-81201da5"
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "scope": "All 50 previously tracked retail channels attempted, plus Home Depot structured search. Existing brand-store observations retained. No claim of complete worldwide assortment.",
   "records": [
     {
@@ -94,12 +94,12 @@
       "retailer": "Sam’s Club",
       "market": "United States",
       "source": "https://www.samsclub.com/browse/luggage/2006",
-      "checked": "2026-11-26",
+      "checked": "2026-11-27",
       "before": 0,
-      "added": 0,
-      "after": 0,
-      "status": "Retrieved page; no safely parsed exact-price additions",
-      "remaining": "No new price assigned. Product-page or regional storefront follow-up required."
+      "added": 6,
+      "after": 6,
+      "status": "Six selected product pages verified",
+      "remaining": "Category has additional products and variants. Exact dimensions, full interiors and launch dates remain incomplete."
     },
     {
       "retailer": "Kohl’s",

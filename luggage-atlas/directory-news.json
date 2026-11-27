@@ -1,5 +1,47 @@
 [
   {
+    "id": "bagsmart-pebble-switch-2026",
+    "date": "2026-11-26",
+    "dateLabel": "Company announcement and stated availability 26 November; storefront listing timestamp 20 November; first Atlas observation and verification 27 November.",
+    "announcementDate": "2026-11-26",
+    "launchDate": "2026-11-26",
+    "added": "2026-11-27",
+    "checked": "2026-11-27",
+    "type": "Dated launch",
+    "title": "Pebble Carry-On Switch launches with interchangeable wheels",
+    "summary": "BAGSMART introduces a front-opening carry-on with a magnetic divider and interchangeable wheels. Four US color variants display USD 289.99. The product table gives 55 × 37 × 24 cm, 40 L and 5 kg. Shell material statements conflict between the release and product page; DIY tools and replacement-part availability remain unverified.",
+    "market": "United States",
+    "sources": [
+      {
+        "label": "Primary source",
+        "url": "https://www.prnewswire.com/news-releases/bagsmart-launches-pebble-carry-on-switch-built-for-a-customizable-and-convenient-travel-experience-302950315.html"
+      },
+      {
+        "label": "Exact US storefront",
+        "url": "https://www.bagsmart.com/products/pebble-carry-on-switch"
+      }
+    ]
+  },
+  {
+    "id": "sams-westerly-promotion-2026-11-27",
+    "date": "2026-11-27",
+    "dateLabel": "First Atlas observation and verification date. Promotion end November 30; start, announcement, listing and launch dates unknown.",
+    "announcementDate": null,
+    "launchDate": null,
+    "added": "2026-11-27",
+    "checked": "2026-11-27",
+    "type": "Promotion",
+    "title": "Sam’s Club lists Westerly carry-on promotion through November 30",
+    "summary": "The selected Black Westerly carry-on page displays USD 74.87, a USD 15 reduction from the retailer’s USD 89.87 reference price, ending November 30. Club and online prices may differ.",
+    "market": "United States",
+    "sources": [
+      {
+        "label": "Primary source",
+        "url": "https://www.samsclub.com/ip/Samsonite-Westerly-Hardside-Carry-On-Spinner-Suitcase/19652617704"
+      }
+    ]
+  },
+  {
     "id": "fpm-mastic-chalk-japan-2026",
     "date": "2026-11-25",
     "dateLabel": "Official stated Japan release date",

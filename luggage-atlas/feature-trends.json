@@ -1,7 +1,31 @@
 {
-  "checked": "2026-11-11",
+  "checked": "2026-11-27",
   "scope": "Feature watch based on current product evidence and dated launches, not a measured ranking of feature sales growth. Ordering is analyst development priority.",
   "trends": [
+    {
+      "id": "pebble-switch",
+      "title": "Interchangeable wheels and front access",
+      "status": "New launch · 26 Nov 2026",
+      "record": "offer-4aec37b3",
+      "module": "repair",
+      "summary": "BAGSMART Pebble Carry-On Switch adds interchangeable wheel colors and front access with a magnetic divider.",
+      "brands": "BAGSMART Pebble Carry-On Switch",
+      "qualification": "Launch is dated; market growth and demographic demand are not measured. An extra wheel set is advertised, but compatible replacement SKUs, tools, regional availability and handle service procedures remain unverified. Material statements conflict across official sources.",
+      "bom": "Archived research note only: confirm compatible replacement parts and service instructions.",
+      "sources": [
+        [
+          "Company launch announcement",
+          "https://www.prnewswire.com/news-releases/bagsmart-launches-pebble-carry-on-switch-built-for-a-customizable-and-convenient-travel-experience-302950315.html"
+        ],
+        [
+          "Exact US product",
+          "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010"
+        ]
+      ],
+      "checked": "2026-11-27",
+      "image": "offer-photo-assets/bagsmart-switch-42909519741010-0.webp",
+      "photoScope": "Matched Stealth Black 20-inch model exterior; revision unknown."
+    },
     {
       "id": "repair",
       "title": "Owner repair & replaceable parts",

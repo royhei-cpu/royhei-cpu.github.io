@@ -1,0 +1,202 @@
+{
+  "checked": "2026-11-27",
+  "scope": "Incremental daily source review, not a complete worldwide scan",
+  "observations": [
+    {
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519741010",
+      "checked": "2026-11-27",
+      "variantId": "42909519741010",
+      "sku": "BM01050514N001",
+      "color": "Stealth Black",
+      "priceUSD": 289.99,
+      "listingDate": "2026-11-20",
+      "announcementDate": "2026-11-26",
+      "launchDate": "2026-11-26",
+      "gaps": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated."
+      ]
+    },
+    {
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519773778",
+      "checked": "2026-11-27",
+      "variantId": "42909519773778",
+      "sku": "BM01050514N010",
+      "color": "Deep Purple",
+      "priceUSD": 289.99,
+      "listingDate": "2026-11-20",
+      "announcementDate": "2026-11-26",
+      "launchDate": "2026-11-26",
+      "gaps": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated."
+      ]
+    },
+    {
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519806546",
+      "checked": "2026-11-27",
+      "variantId": "42909519806546",
+      "sku": "BM01050514N070",
+      "color": "Belize Blue",
+      "priceUSD": 289.99,
+      "listingDate": "2026-11-20",
+      "announcementDate": "2026-11-26",
+      "launchDate": "2026-11-26",
+      "gaps": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated."
+      ]
+    },
+    {
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch?variant=42909519839314",
+      "checked": "2026-11-27",
+      "variantId": "42909519839314",
+      "sku": "BM01050514N570",
+      "color": "Sand Stone",
+      "priceUSD": 289.99,
+      "listingDate": "2026-11-20",
+      "announcementDate": "2026-11-26",
+      "launchDate": "2026-11-26",
+      "gaps": [
+        "Production revision and factory unknown.",
+        "DIY wheel tools, separate compatible spare-part SKUs, regional parts availability and handle repair method not verified.",
+        "Material conflict: company release says polycarbonate shell with aluminum frame; product comparison table says aluminum shell.",
+        "External dimensions from named comparison column; wheel/handle inclusion not separately stated.",
+        "Full clamshell image in Sand Stone gallery appears to show a blue shell; excluded from exact-color photos. Front-access view retained."
+      ]
+    },
+    {
+      "source": "https://www.samsclub.com/ip/Samsonite-Xpression-2-Piece-Softside-Spinner-Luggage-Set/15890366559",
+      "checked": "2026-11-27",
+      "product": "Samsonite Xpression 2-Piece Softside Spinner Luggage Set",
+      "color": "Mineral Grey",
+      "size": "2-piece set",
+      "priceUSD": 189.0,
+      "regular": null,
+      "features": {
+        "material": "Polyester softside",
+        "expansion": "1.5-inch expansion stated for the set",
+        "handle": "Multi-stop RightHeight handle",
+        "wheels": "Dual spinner wheels",
+        "charging": "USB pass-through; power bank not verified as included",
+        "organization": "Blouse pocket; carry-on StackIt strap",
+        "warranty": "Retailer states 10-year warranty; terms not independently checked"
+      },
+      "gaps": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    },
+    {
+      "source": "https://www.samsclub.com/ip/Delsey-Turene-2-0-20-Hardside-Carry-On-with-Front-Pocket/16312321037",
+      "checked": "2026-11-27",
+      "product": "Delsey Turene 2.0 20\" Hardside Carry-On with Front Pocket",
+      "color": "Blue Grey",
+      "size": "20-inch carry-on",
+      "priceUSD": 189.0,
+      "regular": null,
+      "features": {
+        "material": "Matte polycarbonate",
+        "laptop": "Sleeve for up to 14-inch laptop",
+        "tracking": "Interior AirTag holder; tracker not included. Not integrated tracking.",
+        "expansion": "Expandable with yellow zipper pull",
+        "opening": "Front laptop pocket and SECURITECH zipper"
+      },
+      "gaps": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    },
+    {
+      "source": "https://www.samsclub.com/ip/Brookstone-Nelson-Hardside-Spinner-Luggage/13578600593",
+      "checked": "2026-11-27",
+      "product": "Brookstone Nelson Hardside Spinner Luggage",
+      "color": "Plum",
+      "size": "21\"",
+      "priceUSD": 89.98,
+      "regular": null,
+      "features": {
+        "dimensions": "21 × 14 × 9.5 in, retailer 21-inch size specification; body vs overall scope not stated"
+      },
+      "gaps": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    },
+    {
+      "source": "https://www.samsclub.com/ip/Lineate-XLT-Hardside-2-Piece-Luggage-Set-Assorted-Colors/19551904735",
+      "checked": "2026-11-27",
+      "product": "Lineate XLT Hardside 2-Piece Luggage Set (Assorted Colors)",
+      "color": "Silver",
+      "size": "2-piece set",
+      "priceUSD": 199.0,
+      "regular": null,
+      "features": {
+        "weight": "17.95 lb total set weight"
+      },
+      "gaps": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown.",
+        "Retailer gives 19.25 × 12.25 × 27 in without identifying the set component; not assigned as either case’s exterior dimensions."
+      ]
+    },
+    {
+      "source": "https://www.samsclub.com/ip/Samsonite-Westerly-Hardside-Carry-On-Spinner-Suitcase/19652617704",
+      "checked": "2026-11-27",
+      "product": "Samsonite Westerly Hardside Carry On Spinner Suitcase",
+      "color": "Black",
+      "size": "Carry-on",
+      "priceUSD": 74.87,
+      "regular": 89.87,
+      "features": {
+        "warranty": "Retailer states 10-year limited warranty; terms not independently checked"
+      },
+      "gaps": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    },
+    {
+      "source": "https://www.samsclub.com/ip/Tumi-International-Dual-Access-4-Wheeled-Carry-On/19968219134",
+      "checked": "2026-11-27",
+      "product": "Tumi International Dual Access 4 Wheeled Carry-On",
+      "color": null,
+      "size": "Carry-on",
+      "priceUSD": 699.0,
+      "regular": null,
+      "features": {
+        "opening": "Front lid and wrap-around zipper access to main compartment",
+        "charging": "USB charging port; power bank sold separately. Connector type unverified.",
+        "material": "Ballistic nylon",
+        "wheels": "Four dual spinner assemblies",
+        "lock": "Integrated TSA-compatible combination locks",
+        "expansion": "Expandable; amount not stated",
+        "warranty": "Retailer warns manufacturer warranty may be limited/excluded for third-party-sourced stock; retailer satisfaction guarantee applies."
+      },
+      "gaps": [
+        "Launch and retailer listing dates unknown.",
+        "Production revision, factory and repair-parts availability unknown."
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "source": "https://www.bagsmart.com/products/pebble-carry-on-switch",
+      "issue": "Sand Stone full-open gallery image shows a blue shell; not assigned to exact Sand Stone offer"
+    },
+    {
+      "source": "https://www.samsclub.com/ip/Lineate-XLT-Hardside-2-Piece-Luggage-Set-Assorted-Colors/19551904735?classType=BVSHELL",
+      "issue": "Unassigned set dimensions not mapped to either individual case"
+    },
+    {
+      "source": "https://binhaobags.com",
+      "issue": "No verified primary priced offer obtained in source discovery; remains a coverage gap"
+    }
+  ]
+}
