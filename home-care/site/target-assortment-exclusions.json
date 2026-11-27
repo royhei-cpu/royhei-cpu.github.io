@@ -959,7 +959,29 @@
       "checkedAt": "2026-11-27"
     }
   ],
-  "items": [],
+  "items": [
+    {
+      "id": "HC-2e7b8eaca5d8",
+      "url": "https://shop.tiktok.com/us/pdp/active-baby-laundry-detergent-booster-fragrance-free-2-lbs/1732457413818224809",
+      "sourceUrl": "https://www.target.com/p/active-washing-machine-appliance-cleaners-tablets-6ct/-/A-95292970",
+      "evidence": "Exact TikTok listing identity is ACTIVE even though the retained record has no brand field. Target's exact ACTIVE-branded product page confirms the brand is carried; this item is excluded without matching unrelated uses of the word active.",
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "id": "HC-93db499ee804",
+      "url": "https://shop.tiktok.com/us/pdp/enzyme-laundry-booster-by-active-unscented-stain-cleaner-for-64-loads/1729453487951941801",
+      "sourceUrl": "https://www.target.com/p/active-washing-machine-appliance-cleaners-tablets-6ct/-/A-95292970",
+      "evidence": "The exact TikTok URL identifies the laundry booster as by ACTIVE even though the retained record has no brand field. Target's exact ACTIVE-branded product page confirms the brand is carried; the exclusion is item-specific to avoid false matches.",
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "id": "HC-cc4f0c6aba7d",
+      "url": "https://www.amazon.com/dp/B0CJH9DRM6",
+      "sourceUrl": "https://www.target.com/p/active-washing-machine-appliance-cleaners-tablets-6ct/-/A-95292970",
+      "evidence": "The retained Amazon offer is the same ACTIVE enzymatic laundry-booster identity as the exact TikTok listing, while its brand field is missing. Target's exact ACTIVE-branded product page confirms the brand is carried; the exclusion is item-specific and does not affect unrelated 'bio active' wording.",
+      "checkedAt": "2026-11-27"
+    }
+  ],
   "requireClearance": false,
   "clearances": [
     {

@@ -1,14 +1,14 @@
 [
   {
     "id": "target-overlap-continuation-2026-11-27",
-    "title": "Target overlap audit removes 118 more visible listings across seven brands",
+    "title": "Target overlap audit removes 121 more visible listings across seven brands and three exact items",
     "type": "Directory correction",
     "date": "2026-11-27",
     "firstObserved": "2026-11-27",
     "checked": "2026-11-27",
     "eventDate": null,
     "dateLabel": "Exclusion audit · not new products",
-    "summary": "Continued the remaining Target-overlap queue with exact Target and Target Plus product pages. Seven more confirmed Target-carried brands now follow the same exclusion rule across all 20 retailers, Target inspiration, saved comparison and exports, removing 118 listings from visibility. All 10,279 canonical records, stable IDs and photos remain retained. 4,646 listings remain visible, but 687 visible brand labels and 2,057 records without a usable brand still require reconciliation; visibility is not proof of absence from Target.",
+    "summary": "Continued the remaining Target-overlap queue with exact Target and Target Plus product pages. Seven more confirmed Target-carried brands and three exact ACTIVE products with missing brand metadata now follow the same exclusion rule across all 20 retailers, Target inspiration, saved comparison and exports, removing 121 listings from visibility. All 10,279 canonical records, stable IDs and photos remain retained. 4,643 listings remain visible, but 687 visible brand-label buckets and 2,054 records without a usable brand still require reconciliation; visibility is not proof of absence from Target.",
     "sources": [
       {
         "label": "AMMEX at Target",

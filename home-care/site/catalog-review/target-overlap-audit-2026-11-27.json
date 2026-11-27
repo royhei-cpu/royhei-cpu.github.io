@@ -1,12 +1,13 @@
 {
   "checkedAt": "2026-11-27",
-  "scope": "Continuation of the 26 November Target-overlap queue. All 10,279 canonical records were evaluated against seven newly confirmed Target-carried brand rules across all 20 retailers. This is a scoped overlap correction, not an exhaustive Target or Target Plus assortment audit, a comprehensive retailer-pagination review, or a product-addition review.",
+  "scope": "Continuation of the 26 November Target-overlap queue. All 10,279 canonical records were evaluated against seven newly confirmed Target-carried brand rules and three exact ACTIVE item rules across all 20 retailers. The exact rules close missing-brand metadata gaps without treating unrelated uses of the word active as brand matches. This is a scoped overlap correction, not an exhaustive Target or Target Plus assortment audit, a comprehensive retailer-pagination review, or a product-addition review.",
   "requireClearance": false,
   "canonicalCount": 10279,
   "visibleBefore": 4764,
-  "visibleAfter": 4646,
+  "visibleAfter": 4643,
   "newBrandRules": 7,
-  "newlyExcludedCount": 118,
+  "newItemRules": 3,
+  "newlyExcludedCount": 121,
   "retailers": [
     {
       "retailer": "Ace Hardware",
@@ -26,8 +27,8 @@
       "retailer": "Amazon US",
       "canonical": 737,
       "visibleBefore": 229,
-      "visibleAfter": 227,
-      "newlyExcluded": 2
+      "visibleAfter": 226,
+      "newlyExcluded": 3
     },
     {
       "retailer": "BJ’s Wholesale",
@@ -131,8 +132,8 @@
       "retailer": "TikTok Shop",
       "canonical": 950,
       "visibleBefore": 804,
-      "visibleAfter": 800,
-      "newlyExcluded": 4
+      "visibleAfter": 798,
+      "newlyExcluded": 6
     },
     {
       "retailer": "Walgreens",
@@ -206,7 +207,57 @@
       "checkedAt": "2026-11-27"
     }
   ],
+  "confirmedItems": [
+    {
+      "id": "HC-cc4f0c6aba7d",
+      "name": "Enzyme Laundry Booster Odor Remover - 2 lbs Unscented Enzymatic Clothes Stain Cleaner Powder, Natural Deodorizer with Bio Active Enzymes, Detergent Additive Eliminator for Sweat, Oil, Blood - 64 Loads",
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0CJH9DRM6",
+      "sourceUrl": "https://www.target.com/p/active-washing-machine-appliance-cleaners-tablets-6ct/-/A-95292970",
+      "basis": "The retained offer is the same ACTIVE enzymatic laundry-booster identity as the exact TikTok listing, but its brand field is blank. The exact item rule avoids matching unrelated title wording.",
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "id": "HC-93db499ee804",
+      "name": "Enzyme Laundry Booster Odor Remover - 2 lbs Unscented Enzymatic Clothes Stain Cleaner Powder, Natural Deodorizer with Bio Active Enzymes, Detergent Additive Fragrance Eliminator for Sweat, Oil, Blood - 64 Loads",
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/enzyme-laundry-booster-by-active-unscented-stain-cleaner-for-64-loads/1729453487951941801",
+      "sourceUrl": "https://www.target.com/p/active-washing-machine-appliance-cleaners-tablets-6ct/-/A-95292970",
+      "basis": "The exact TikTok URL identifies this laundry booster as by ACTIVE, but its retained brand field is blank. The exact item rule avoids matching unrelated title wording.",
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "id": "HC-2e7b8eaca5d8",
+      "name": "Baby Laundry Detergent Booster - ACTIVE Enzyme Stain & Odor Remover for Infant, Newborn, Toddler & Kids Clothes, Fragrance Free Sensitive Laundry Soap, 2-lbs Unscented Powder Made in USA - 64 Loads",
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/active-baby-laundry-detergent-booster-fragrance-free-2-lbs/1732457413818224809",
+      "sourceUrl": "https://www.target.com/p/active-washing-machine-appliance-cleaners-tablets-6ct/-/A-95292970",
+      "basis": "The exact TikTok listing identifies ACTIVE in the product identity, but its retained brand field is blank. The exact item rule avoids matching unrelated title wording.",
+      "checkedAt": "2026-11-27"
+    }
+  ],
   "affectedRecords": [
+    {
+      "id": "HC-cc4f0c6aba7d",
+      "name": "Enzyme Laundry Booster Odor Remover - 2 lbs Unscented Enzymatic Clothes Stain Cleaner Powder, Natural Deodorizer with Bio Active Enzymes, Detergent Additive Eliminator for Sweat, Oil, Blood - 64 Loads",
+      "brand": "",
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B0CJH9DRM6"
+    },
+    {
+      "id": "HC-93db499ee804",
+      "name": "Enzyme Laundry Booster Odor Remover - 2 lbs Unscented Enzymatic Clothes Stain Cleaner Powder, Natural Deodorizer with Bio Active Enzymes, Detergent Additive Fragrance Eliminator for Sweat, Oil, Blood - 64 Loads",
+      "brand": "",
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/enzyme-laundry-booster-by-active-unscented-stain-cleaner-for-64-loads/1729453487951941801"
+    },
+    {
+      "id": "HC-2e7b8eaca5d8",
+      "name": "Baby Laundry Detergent Booster - ACTIVE Enzyme Stain & Odor Remover for Infant, Newborn, Toddler & Kids Clothes, Fragrance Free Sensitive Laundry Soap, 2-lbs Unscented Powder Made in USA - 64 Loads",
+      "brand": "",
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/active-baby-laundry-detergent-booster-fragrance-free-2-lbs/1732457413818224809"
+    },
     {
       "id": "CMP-115",
       "name": "Laundry Detergent Sheets, Fresh, 60 loads",
@@ -1083,13 +1134,13 @@
   ],
   "remainingQueue": {
     "visibleBrandLabels": 687,
-    "recordsWithoutUsableBrand": 2057,
+    "recordsWithoutUsableBrand": 2054,
     "note": "Every remaining label still requires source-backed Target and Target Plus reconciliation unless already retained by an explicit clearance. Visibility is not proof of absence from Target."
   },
   "remainingVisibleBrandQueue": [
     {
       "brand": "(not recorded)",
-      "count": 2057
+      "count": 2054
     },
     {
       "brand": "Great Value",
