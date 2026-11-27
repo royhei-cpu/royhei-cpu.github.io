@@ -1,5 +1,99 @@
 [
   {
+    "id": "popmart-uk-skullpanda-connecting-now-20261127",
+    "title": "POP MART UK lists two SKULLPANDA CONNECTING NOW formats for November 27",
+    "summary": "Official UK storefronts list a November 27 release for the standard CONNECTING NOW figures and miniature POP BEAN series. The UK POP NOW figure page displays GBP 14 for the pick-a-box offer; the regular figure listing offers Single Box and Whole Set but did not expose a separately selected whole-set price. Figures are 8–10 cm, PVC/ABS/electronic component. The POP BEAN page identifies 2.7–3.8 cm PVC figures and a 12-box nonrepeating set; its indexed listing displays GBP 3 but the opened page did not render the price, so exact selected option prices remain unverified. The posted launch clock is 12:00 on both UK pages. This is scheduled UK online listing evidence, not verified post-launch stock, mainland pricing, a completed sale or a newly collected catalog product.",
+    "date": "2026-11-27",
+    "eventDate": "2026-11-27",
+    "sourcePublished": null,
+    "checked": "2026-11-27",
+    "added": "2026-11-27",
+    "type": "Official UK scheduled online listings",
+    "dateLabel": "UK scheduled online release",
+    "market": "United Kingdom",
+    "currency": "GBP",
+    "priceBasis": "GBP 14 UK POP NOW pick-a-box price; POP BEAN indexed display price not independently rendered; set totals unknown",
+    "packOptions": [
+      {
+        "series": "SKULLPANDA CONNECTING NOW Series Figures",
+        "name": "POP NOW pick a box",
+        "count": 1,
+        "currency": "GBP",
+        "price": 14
+      },
+      {
+        "series": "SKULLPANDA CONNECTING NOW Series Figures",
+        "name": "Whole Set",
+        "count": null,
+        "currency": "GBP",
+        "price": null
+      },
+      {
+        "series": "POP BEAN SKULLPANDA CONNECTING NOW Series",
+        "name": "Single Box",
+        "count": 1,
+        "currency": "GBP",
+        "price": null
+      },
+      {
+        "series": "POP BEAN SKULLPANDA CONNECTING NOW Series",
+        "name": "Whole Set",
+        "count": 12,
+        "currency": "GBP",
+        "price": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "POP MART UK POP NOW exact figure offer",
+        "url": "https://www.popmart.com/GB/pop-now/box-set/skullpanda-connecting-now-series-figures-blind-box/af996a35-de55-4260-a817-bad57391e604"
+      },
+      {
+        "label": "POP MART UK figures pack choices",
+        "url": "https://www.popmart.com/GB/products/skullpanda-connecting-now-series-figures-blind-box/a3d364b3-c5b6-4246-90f7-7dcc3b6b36f5"
+      },
+      {
+        "label": "POP MART UK POP BEAN specifications and pack choices",
+        "url": "https://www.popmart.com/en-GB/products/pop-bean-skullpanda-connecting-now-series/43c179ae-09f1-4997-b8e1-31d60fc1ea75"
+      }
+    ]
+  },
+  {
+    "id": "popmart-austria-pop-bean-skullpanda-20261127",
+    "title": "POP MART Austria schedules POP BEAN SKULLPANDA CONNECTING NOW for November 27",
+    "summary": "The official Austria storefront lists a November 27 launch at the displayed 11:00 clock time, PVC mini figures 2.7–3.8 cm tall, age 15+, and separate single-box and 12-box whole-set choices. The indexed page displayed EUR 4, but the opened product page did not expose the selected-option price. Exact single and set prices remain unverified; do not calculate the case price from the headline price. Austrian listing evidence is separate from UK, U.S. and mainland releases; checkout and physical inventory are unverified. No additional catalog capture is claimed.",
+    "date": "2026-11-27",
+    "eventDate": "2026-11-27",
+    "sourcePublished": null,
+    "checked": "2026-11-27",
+    "added": "2026-11-27",
+    "type": "Official Austria scheduled online listing",
+    "dateLabel": "Austria scheduled online release",
+    "market": "Austria",
+    "currency": "EUR",
+    "priceBasis": "Indexed display EUR 4; exact selected option asking prices not rendered",
+    "packOptions": [
+      {
+        "name": "Single Box",
+        "count": 1,
+        "currency": "EUR",
+        "price": null
+      },
+      {
+        "name": "Whole Set",
+        "count": 12,
+        "currency": "EUR",
+        "price": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "POP MART Austria POP BEAN official listing",
+        "url": "https://www.popmart.com/at/products/pop-bean-skullpanda-connecting-now-series/c36312a1-db52-4df6-9d19-e1b46cffdc33"
+      }
+    ]
+  },
+  {
     "id": "52toys-pac-man-clicky-fidget-international-20261126",
     "title": "52TOYS lists PAC-MAN Clicky Fidget blind boxes for November 26",
     "summary": "Official international new-arrivals calendar labels the series November 26. USD storefront product and exact variant feed checked November 26 show $9.99 for one random keycap figure and $59.94 for a six-box whole set, separately selectable. Six regular designs and two secrets; combined secret probability 2/96, with a secret replacing a regular design. Plastic figures approximately 3.5 cm, click mechanism and connectable bases; overseas edition excludes the bead chain. Bandai Namco copyright is stated. This is a click fidget toy, not a soft squishy. Both feed options marked available at check, not proof of checkout, mainland release or physical branch stock. Exclude the separate GHODY bottle-opener bundle and MOGOLS storage bag from toy scope.",
