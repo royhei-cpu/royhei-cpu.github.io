@@ -1,0 +1,3839 @@
+{
+  "checkedAt": "2026-11-27",
+  "scope": "Continuation of the 26 November Target-overlap queue. All 10,279 canonical records were evaluated against seven newly confirmed Target-carried brand rules across all 20 retailers. This is a scoped overlap correction, not an exhaustive Target or Target Plus assortment audit, a comprehensive retailer-pagination review, or a product-addition review.",
+  "requireClearance": false,
+  "canonicalCount": 10279,
+  "visibleBefore": 4764,
+  "visibleAfter": 4646,
+  "newBrandRules": 7,
+  "newlyExcludedCount": 118,
+  "retailers": [
+    {
+      "retailer": "Ace Hardware",
+      "canonical": 3999,
+      "visibleBefore": 2024,
+      "visibleAfter": 1924,
+      "newlyExcluded": 100
+    },
+    {
+      "retailer": "Albertsons",
+      "canonical": 92,
+      "visibleBefore": 41,
+      "visibleAfter": 41,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Amazon US",
+      "canonical": 737,
+      "visibleBefore": 229,
+      "visibleAfter": 227,
+      "newlyExcluded": 2
+    },
+    {
+      "retailer": "BJ’s Wholesale",
+      "canonical": 37,
+      "visibleBefore": 9,
+      "visibleAfter": 9,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "CVS",
+      "canonical": 350,
+      "visibleBefore": 96,
+      "visibleAfter": 96,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Costco",
+      "canonical": 144,
+      "visibleBefore": 76,
+      "visibleAfter": 76,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Dollar General",
+      "canonical": 330,
+      "visibleBefore": 85,
+      "visibleAfter": 84,
+      "newlyExcluded": 1
+    },
+    {
+      "retailer": "Dollar Tree",
+      "canonical": 23,
+      "visibleBefore": 12,
+      "visibleAfter": 12,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "H-E-B",
+      "canonical": 40,
+      "visibleBefore": 12,
+      "visibleAfter": 12,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Home Depot",
+      "canonical": 104,
+      "visibleBefore": 46,
+      "visibleAfter": 44,
+      "newlyExcluded": 2
+    },
+    {
+      "retailer": "Kroger",
+      "canonical": 195,
+      "visibleBefore": 62,
+      "visibleAfter": 60,
+      "newlyExcluded": 2
+    },
+    {
+      "retailer": "Lowe’s",
+      "canonical": 151,
+      "visibleBefore": 55,
+      "visibleAfter": 53,
+      "newlyExcluded": 2
+    },
+    {
+      "retailer": "Meijer",
+      "canonical": 1410,
+      "visibleBefore": 449,
+      "visibleAfter": 447,
+      "newlyExcluded": 2
+    },
+    {
+      "retailer": "Publix",
+      "canonical": 108,
+      "visibleBefore": 18,
+      "visibleAfter": 18,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Quince",
+      "canonical": 8,
+      "visibleBefore": 8,
+      "visibleAfter": 8,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Safeway",
+      "canonical": 55,
+      "visibleBefore": 40,
+      "visibleAfter": 40,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Sam’s Club",
+      "canonical": 568,
+      "visibleBefore": 210,
+      "visibleAfter": 208,
+      "newlyExcluded": 2
+    },
+    {
+      "retailer": "TikTok Shop",
+      "canonical": 950,
+      "visibleBefore": 804,
+      "visibleAfter": 800,
+      "newlyExcluded": 4
+    },
+    {
+      "retailer": "Walgreens",
+      "canonical": 162,
+      "visibleBefore": 42,
+      "visibleAfter": 42,
+      "newlyExcluded": 0
+    },
+    {
+      "retailer": "Walmart",
+      "canonical": 816,
+      "visibleBefore": 446,
+      "visibleAfter": 445,
+      "newlyExcluded": 1
+    }
+  ],
+  "confirmedBrands": [
+    {
+      "brand": "30 SECONDS",
+      "sourceUrl": "https://www.target.com/p/-/A-1004055128",
+      "evidence": "Exact Target product page opened 27 November 2026 for 30 SECONDS Outdoor Mold, Mildew, Algae Cleaner, 1 Gallon Concentrate. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [
+        "30 Seconds"
+      ],
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "AMMEX",
+      "sourceUrl": "https://www.target.com/b/ammex/-/N-q643lezuer0",
+      "evidence": "Target brand page opened 27 November 2026 and displayed AMMEX glove offers supplied by Target Plus partners, including exact Target product pages A-1001739997, A-1001739990 and A-1001783783. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "Earth Breeze",
+      "sourceUrl": "https://www.target.com/b/earth-breeze/-/N-q643leg2yb4",
+      "evidence": "Target brand page and exact Target product page A-94876948 opened 27 November 2026 and displayed Earth Breeze laundry detergent sheets. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "Tork",
+      "sourceUrl": "https://www.target.com/b/tork/-/N-q643lenioan",
+      "evidence": "Target brand page and exact Target product page A-1004962264 opened 27 November 2026 and displayed Tork commercial tissue and dispenser offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "CLR Brands",
+      "sourceUrl": "https://www.target.com/p/-/A-1005613848",
+      "evidence": "Exact Target product page opened 27 November 2026 for CLR Brands 28 Oz. Septic System Treatment, with a Target CLR category page also displaying CLR offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [
+        "CLR"
+      ],
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "Little Giant",
+      "sourceUrl": "https://www.target.com/p/-/A-82242157",
+      "evidence": "Exact Target product page opened 27 November 2026 for a Little Giant Ladder Systems two-step aluminum stepstool; additional exact Target pages A-1013577975 and A-1013577971 displayed Little Giant ladder accessories. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [
+        "Little Giant Ladder Systems"
+      ],
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "Shurhold",
+      "sourceUrl": "https://www.target.com/p/-/A-1009510967",
+      "evidence": "Exact Target Plus product pages A-1009510967 and A-1009510927 opened 27 November 2026 for Shurhold scrub and deck brushes. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-27"
+    }
+  ],
+  "affectedRecords": [
+    {
+      "id": "CMP-115",
+      "name": "Laundry Detergent Sheets, Fresh, 60 loads",
+      "brand": "Earth Breeze",
+      "retailer": "Amazon US",
+      "url": "https://www.amzn.com/Best-Sellers-Household-Supplies/zgbs/hpc/15342811"
+    },
+    {
+      "id": "CMP-185",
+      "name": "CLR1 Gal. Calcium, Lime and Rust Remover",
+      "brand": "CLR",
+      "retailer": "Home Depot",
+      "url": "https://www.homedepot.com/b/Cleaning/Responsible-Chemistry/N-5yc1vZbqsiZ1z1wlfq"
+    },
+    {
+      "id": "CMP-186",
+      "name": "CLR28 OZ-Ounce Calcium Lime Rust Remover",
+      "brand": "CLR",
+      "retailer": "Home Depot",
+      "url": "https://www.homedepot.com/b/Cleaning/Responsible-Chemistry/N-5yc1vZbqsiZ1z1wlfq"
+    },
+    {
+      "id": "CMP-206",
+      "name": "Brands Calcium Rust and Lime Remover 28 oz Liquid",
+      "brand": "CLR",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/departments/home-and-decor/cleaning-and-disinfectants?pageSize=180"
+    },
+    {
+      "id": "CMP-283",
+      "name": "Mold and Mildew Clear 32 fl oz Unscented All-Purpose Cleaner",
+      "brand": "CLR",
+      "retailer": "Lowe’s",
+      "url": "https://www.lowes.com/pl/all-purpose-cleaners/indoor/4294599038-2003401792"
+    },
+    {
+      "id": "NEW-429",
+      "name": "Earth Breeze Laundry Detergent Sheets - Eco Liquidless Laundry Soaps, Concentrated Laundry Detergent",
+      "brand": "Earth Breeze",
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/earth-breeze-laundry-detergent-sheets-60-loads-hypoallergenic/1731996819249271400"
+    },
+    {
+      "id": "NEW-430",
+      "name": "Earth Breeze Dishwasher Detergent Tablets, Free & Clear, 60 Count | 100% Plastic-Free Tablets with No Harsh Chemicals, 3-in-1 Triple Enzyme Formula, Eco-Friendly Dish Washing Pods, HE Safe",
+      "brand": "Earth Breeze",
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/earth-breeze-dishwasher-detergent-tablets-60-count-eco-friendly/1732396830033744488"
+    },
+    {
+      "id": "NEW-431",
+      "name": "Earth Breeze Hope Cloth: Reusable Paper Towel & Swedish Dishcloth, Sustainable Paper Towel Alternative for Kitchen",
+      "brand": "Earth Breeze",
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/earth-breeze-hope-cloth-reusable-sustainable-quick-dry/1732426991193985640"
+    },
+    {
+      "id": "NEW-455",
+      "name": "Earth Breeze Miracle Stain Remover Spray, 4fl oz Non-Toxic Bottled Spray All-Purpose Cleaner - Fast-Acting Household Deep Clean Solution, No Harsh Chemicals",
+      "brand": "Earth Breeze",
+      "retailer": "TikTok Shop",
+      "url": "https://shop.tiktok.com/us/pdp/earth-breeze-miracle-stain-remover-spray-fast-acting-safe/1732393673362018920"
+    },
+    {
+      "id": "HC-dfcdd28941d3",
+      "name": "Shurhold Bucket Grate Red",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-bucket-grate-red/p/1047219"
+    },
+    {
+      "id": "HC-4a5376370f18",
+      "name": "Shurhold Synthetic Wash Mitt 1",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-synthetic-wash-mitt-1/p/8152409"
+    },
+    {
+      "id": "HC-4a6593fd78a9",
+      "name": "Shurhold Bucket Base White",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-bucket-base-white/p/1047119"
+    },
+    {
+      "id": "HC-315f5add8bad",
+      "name": "Shurhold 5 gal Bucket Black",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-5-gal-bucket-black/p/1047117"
+    },
+    {
+      "id": "HC-3f91779bb029",
+      "name": "Shurhold Bucket Caddy Red",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-bucket-caddy-red/p/1047120"
+    },
+    {
+      "id": "HC-1d5d79ee5bcf",
+      "name": "Shurhold 5 gal Bucket White",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-5-gal-bucket-white/p/7064744"
+    },
+    {
+      "id": "HC-b022fb51f940",
+      "name": "Shurhold 5 gal Bucket Black",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-5-gal-bucket-black/p/7065061"
+    },
+    {
+      "id": "HC-c1b978a974be",
+      "name": "Shurhold 5 gal Bucket White",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-5-gal-bucket-white/p/7065064"
+    },
+    {
+      "id": "HC-c693083cf3f6",
+      "name": "Shurhold Microfiber Towel 1 pk",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-microfiber-towel-1-pk/p/8153824"
+    },
+    {
+      "id": "HC-4f41fa460ed7",
+      "name": "Shurhold Microfiber Towel 1 pk",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-microfiber-towel-1-pk/p/8153828"
+    },
+    {
+      "id": "HC-5f5f2215b045",
+      "name": "Shurhold 5 gal Padded Bucket Seat Lid Black",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-5-gal-padded-bucket-seat-lid-black/p/1047916"
+    },
+    {
+      "id": "HC-0ff302cec6ee",
+      "name": "Shurhold 5 gal Bucket White",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-5-gal-bucket-white/p/7065071"
+    },
+    {
+      "id": "HC-01863be08bc5",
+      "name": "Shurhold 5 gal Bucket White",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-5-gal-bucket-white/p/7065067"
+    },
+    {
+      "id": "HC-2fe8bcb0ceb6",
+      "name": "Shurhold 5 gal Bucket White",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-5-gal-bucket-white/p/7065069"
+    },
+    {
+      "id": "HC-fbd618352c64",
+      "name": "Shurhold 3.5 gal Bucket White",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-35-gal-bucket-white/p/1047118"
+    },
+    {
+      "id": "HC-9973a393e072",
+      "name": "Shurhold 3.5 gal Bucket Black",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-35-gal-bucket-black/p/1047208"
+    },
+    {
+      "id": "HC-44498c653c16",
+      "name": "Shurhold 5 gal Bucket White",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-5-gal-bucket-white/p/7065068"
+    },
+    {
+      "id": "HC-48cbeedf8e90",
+      "name": "Shurhold 5 gal Bucket White",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-5-gal-bucket-white/p/7065072"
+    },
+    {
+      "id": "HC-80ef8952b59a",
+      "name": "Shurhold 5 gal Bucket White",
+      "brand": "Shurhold",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/shurhold-5-gal-bucket-white/p/7065066"
+    },
+    {
+      "id": "HC-4d5d09b46c27",
+      "name": "CLR Brands Mold and Mildew Stain Remover 32 oz",
+      "brand": "CLR Brands",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/clr-brands-mold-and-mildew-stain-remover-32-oz/p/1504653"
+    },
+    {
+      "id": "HC-110b96df4388",
+      "name": "Mold and Mildew Clear 32 -fl oz Unscented Liquid All-Purpose Cleaner",
+      "brand": "CLR",
+      "retailer": "Lowe’s",
+      "url": "https://www.lowes.com/pd/CLR-CLR-Mold-and-Mildew-Pack-32-fl-oz-Unscented-Diluta/50298013"
+    },
+    {
+      "id": "HC-d03a95fc0f78",
+      "name": "CLR Brilliant Bath Foaming Multi-Surface Cleaner, Fresh Scent, EPA Safer Choice, 26 fl oz",
+      "brand": "CLR",
+      "retailer": "Walmart",
+      "url": "https://www.walmart.com/ip/CLR-Brilliant-Bath-Foaming-Multi-Surface-Cleaner-Fresh-Scent-EPA-Safer-Choice-26-fl-oz/15716789"
+    },
+    {
+      "id": "HC-c44f02b0629c",
+      "name": "AMMEX Professional Vinyl Disposable Exam Gloves Large Clear Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-vinyl-disposable-exam-gloves-large-clear-powder-free-100-pk/p/6204564"
+    },
+    {
+      "id": "HC-6f7cc0eec3f3",
+      "name": "AMMEX Professional Vinyl Disposable Exam Gloves X-Large Clear Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-vinyl-disposable-exam-gloves-x-large-clear-powder-free-100-pk/p/6204572"
+    },
+    {
+      "id": "HC-4aa479189989",
+      "name": "AMMEX Professional Vinyl Disposable Exam Gloves Medium Clear Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-vinyl-disposable-exam-gloves-medium-clear-powder-free-100-pk/p/6204556"
+    },
+    {
+      "id": "HC-65253fe85db8",
+      "name": "AMMEX Professional Latex Disposable Gloves X-Large Ivory Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-latex-disposable-gloves-x-large-ivory-powder-free-100-pk/p/6425276"
+    },
+    {
+      "id": "HC-34fdb64ac8d3",
+      "name": "AMMEX Professional Latex Disposable Gloves Large Ivory Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-latex-disposable-gloves-large-ivory-powder-free-100-pk/p/6425235"
+    },
+    {
+      "id": "HC-ee95cbade971",
+      "name": "AMMEX Professional Latex Disposable Gloves Medium Ivory Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-latex-disposable-gloves-medium-ivory-powder-free-100-pk/p/6425268"
+    },
+    {
+      "id": "HC-ad6132c14109",
+      "name": "AMMEX Professional Latex Disposable Gloves Small Ivory Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-latex-disposable-gloves-small-ivory-powder-free-100-pk/p/6425243"
+    },
+    {
+      "id": "HC-7e137caabafd",
+      "name": "Little Giant 20 qt Pail Red",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-20-qt-pail-red/p/7014467"
+    },
+    {
+      "id": "HC-e88ff16077be",
+      "name": "Little Giant 20 qt Bucket Red",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-20-qt-bucket-red/p/7014483"
+    },
+    {
+      "id": "HC-191a20e49b1a",
+      "name": "Little Giant 20 qt Pail Black",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-20-qt-pail-black/p/7018856"
+    },
+    {
+      "id": "HC-e141886eb06b",
+      "name": "Little Giant 22 qt Pail Red",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-22-qt-pail-red/p/7018914"
+    },
+    {
+      "id": "HC-fc0f447d152a",
+      "name": "Little Giant 22 qt Bucket Blue",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-22-qt-bucket-blue/p/7019268"
+    },
+    {
+      "id": "HC-9a0f906e4bc6",
+      "name": "Little Giant 8 qt Bucket Orange",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-8-qt-bucket-orange/p/7404015"
+    },
+    {
+      "id": "HC-5f9b0732ee34",
+      "name": "Little Giant 8 qt Bucket Red",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-8-qt-bucket-red/p/7403991"
+    },
+    {
+      "id": "HC-4973bf44a379",
+      "name": "Little Giant 10 qt Bucket Black",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-10-qt-bucket-black/p/7404007"
+    },
+    {
+      "id": "HC-3559581fd65b",
+      "name": "Little Giant 8 qt Bucket Green",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-8-qt-bucket-green/p/7403975"
+    },
+    {
+      "id": "HC-00a5624794f2",
+      "name": "Little Giant 8 qt Bucket Green",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-8-qt-bucket-green/p/7403983"
+    },
+    {
+      "id": "HC-ff2d9df5a0df",
+      "name": "Little Giant 20 qt Bucket Green",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-20-qt-bucket-green/p/7404056"
+    },
+    {
+      "id": "HC-fd91c9c109d8",
+      "name": "Little Giant 32 oz Spray Bottle",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-32-oz-spray-bottle/p/7409196"
+    },
+    {
+      "id": "HC-3b886d689f4b",
+      "name": "Little Giant 32 oz Spray Bottle",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-32-oz-spray-bottle/p/7409170"
+    },
+    {
+      "id": "HC-d9d3507327f1",
+      "name": "Little Giant 32 oz Spray Bottle",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-32-oz-spray-bottle/p/7409204"
+    },
+    {
+      "id": "HC-38754cc49a50",
+      "name": "AMMEX Gloveworks Nitrile Disposable Exam Gloves XX-Large Black Powder Free 100 pc",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-gloveworks-nitrile-disposable-exam-gloves-xx-large-black-powder-free-100-pc/p/6016734"
+    },
+    {
+      "id": "HC-973d033e1f9b",
+      "name": "AMMEX Professional Nitrile Disposable Exam Gloves Large Indigo Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-nitrile-disposable-exam-gloves-large-indigo-powder-free-100-pk/p/6563852"
+    },
+    {
+      "id": "HC-020a92c94d12",
+      "name": "AMMEX Professional Nitrile Disposable Exam Gloves Small Indigo Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-nitrile-disposable-exam-gloves-small-indigo-powder-free-100-pk/p/6563829"
+    },
+    {
+      "id": "HC-4cf26af99de4",
+      "name": "AMMEX Professional Nitrile Disposable Exam Gloves Medium Indigo Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-nitrile-disposable-exam-gloves-medium-indigo-powder-free-100-pk/p/6563837"
+    },
+    {
+      "id": "HC-185d4ce71579",
+      "name": "AMMEX Professional Nitrile Disposable Exam Gloves X-Large Indigo Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-nitrile-disposable-exam-gloves-x-large-indigo-powder-free-100-pk/p/6563886"
+    },
+    {
+      "id": "HC-b8ea9433245c",
+      "name": "Tork Paper Towels 10 in. W X 10.25 in. L 16 pk",
+      "brand": "Tork",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/tork-paper-towels-10-in-w-x-1025-in-l-16-pk/p/1026131"
+    },
+    {
+      "id": "HC-8e181c3902f2",
+      "name": "Tork Advanced Xpressnap Dinner Napkins 1 ply 500 pk",
+      "brand": "Tork",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/tork-advanced-xpressnap-dinner-napkins-1-ply-500-pk/p/1026153"
+    },
+    {
+      "id": "HC-22e110fa41e2",
+      "name": "Tork Hard Roll Towels 84 sheet 2 ply 1 pk",
+      "brand": "Tork",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/tork-hard-roll-towels-84-sheet-2-ply-1-pk/p/1026145"
+    },
+    {
+      "id": "HC-ac384bb3ef35",
+      "name": "CLR Brands Calcium, Lime & Rust Remover, 14 fl oz",
+      "brand": "CLR",
+      "retailer": "Dollar General",
+      "url": "https://www.dollargeneral.com/p/CLR-Brands-Calcium,-Lime-&-Rust-Remover,-14-fl-oz/78291104196"
+    },
+    {
+      "id": "HC-ee08cfa886a0",
+      "name": "Tork Universal 2-Ply White Jumbo Bath Tissue, 12 rolls, 1,000 ft./roll",
+      "brand": "",
+      "retailer": "Sam’s Club",
+      "url": "https://www.samsclub.com/ip/Tork-Universal-2-Ply-White-Jumbo-Bath-Tissue-12-rolls-1-000-ft-roll/16377950646"
+    },
+    {
+      "id": "HC-b83dc40b5e36",
+      "name": "Tork Cocktail Napkin 1 ply 500 pk",
+      "brand": "Tork",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/tork-cocktail-napkin-1-ply-500-pk/p/1026157"
+    },
+    {
+      "id": "HC-5426aff8ea67",
+      "name": "Tork Multi-Fold Towels 250 sheet 1 ply 250 pk",
+      "brand": "Tork",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/tork-multi-fold-towels-250-sheet-1-ply-250-pk/p/1026155"
+    },
+    {
+      "id": "HC-6390ddc5f4bd",
+      "name": "Tork Hard Roll Towels 120 sheet 2 ply 1 pk",
+      "brand": "Tork",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/tork-hard-roll-towels-120-sheet-2-ply-1-pk/p/1026132"
+    },
+    {
+      "id": "HC-d6eadd021c3e",
+      "name": "Tork Center Pull Towels 600 sheet 2 ply 6 pk",
+      "brand": "Tork",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/tork-center-pull-towels-600-sheet-2-ply-6-pk/p/1026125"
+    },
+    {
+      "id": "HC-d0315c58d79c",
+      "name": "Tork Advanced Center Pull Towels 1000 sheet 1 ply 6 pk",
+      "brand": "Tork",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/tork-advanced-center-pull-towels-1000-sheet-1-ply-6-pk/p/1026150"
+    },
+    {
+      "id": "HC-64d296d853f8",
+      "name": "Little Giant 32 oz Spray Bottle",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-32-oz-spray-bottle/p/7409188"
+    },
+    {
+      "id": "HC-fbff902c460e",
+      "name": "AMMEX Professional Nitrile Disposable Exam Gloves Large Black Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-nitrile-disposable-exam-gloves-large-black-powder-free-100-pk/p/6563738"
+    },
+    {
+      "id": "HC-326b422fe21f",
+      "name": "CLR Brands Lemon Scent Probiotic Daily Cleaner 22 oz Liquid",
+      "brand": "CLR Brands",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/clr-brands-lemon-scent-probiotic-daily-cleaner-22-oz-liquid/p/1017722"
+    },
+    {
+      "id": "HC-d5d506af850c",
+      "name": "CLR Brands Brilliant Bath Lavender Scent Foaming Cleaner 26 oz Liquid",
+      "brand": "CLR Brands",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/clr-brands-brilliant-bath-lavender-scent-foaming-cleaner-26-oz-liquid/p/1026377"
+    },
+    {
+      "id": "HC-b1184cbdd1d9",
+      "name": "30 SECONDS Outdoor Cleaner Concentrate 1 gal",
+      "brand": "30 SECONDS",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/30-seconds-outdoor-cleaner-concentrate-1-gal/p/7130834"
+    },
+    {
+      "id": "HC-2c53e69b3cbb",
+      "name": "30 SECONDS Outdoor Cleaner Concentrate 64 oz",
+      "brand": "30 SECONDS",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/30-seconds-outdoor-cleaner-concentrate-64-oz/p/7514425"
+    },
+    {
+      "id": "HC-2bd8347135cb",
+      "name": "Tork Xpressnap One-at-a-time Tabletop Napkin Dispenser, Black",
+      "brand": "",
+      "retailer": "Sam’s Club",
+      "url": "https://www.samsclub.com/ip/Tork-Xpressnap-One-at-a-time-Tabletop-Napkin-Dispenser-Black/16367260548"
+    },
+    {
+      "id": "HC-1ae71b323427",
+      "name": "30 SECONDS Mold Killer 1 gal",
+      "brand": "30 SECONDS",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/30-seconds-mold-killer-1-gal/p/7315047"
+    },
+    {
+      "id": "HC-196052ee5d59",
+      "name": "30 SECONDS Spray & Walk Away Mold Killer 64 oz",
+      "brand": "30 SECONDS",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/30-seconds-spray--walk-away-mold-killer-64-oz/p/7687882"
+    },
+    {
+      "id": "HC-178105818932",
+      "name": "Earth Breeze Eco Liquidless Soap Fresh Scent Laundry Detergent Sheets 44 Load",
+      "brand": "Earth Breeze",
+      "retailer": "Kroger",
+      "url": "https://www.kroger.com/p/earth-breeze-eco-liquidless-soap-fresh-scent-laundry-detergent-sheets/0085007856500"
+    },
+    {
+      "id": "HC-58494ece36b7",
+      "name": "Earth Breeze Eco Liquidless Soap Fragrance Free Laundry Detergent Sheets 44 Load",
+      "brand": "Earth Breeze",
+      "retailer": "Kroger",
+      "url": "https://www.kroger.com/p/earth-breeze-eco-liquidless-soap-fragrance-free-laundry-detergent-sheets/0085007856501"
+    },
+    {
+      "id": "HC-c0e1659f2565",
+      "name": "Little Giant 20 qt Bucket Blue",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-20-qt-bucket-blue/p/7403967"
+    },
+    {
+      "id": "HC-da520868068d",
+      "name": "Little Giant 8 qt Bucket Black",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-8-qt-bucket-black/p/7404098"
+    },
+    {
+      "id": "HC-06fa8295d305",
+      "name": "Little Giant 8 qt Bucket Blue",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-8-qt-bucket-blue/p/7404106"
+    },
+    {
+      "id": "HC-453bf546377c",
+      "name": "AMMEX Gloveworks Nitrile Disposable Exam Gloves X-Large Black Powder Free 100 pc",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-gloveworks-nitrile-disposable-exam-gloves-x-large-black-powder-free-100-pc/p/6016731"
+    },
+    {
+      "id": "HC-7596d4eba582",
+      "name": "AMMEX Professional Nitrile Disposable Exam Gloves Medium Black Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-nitrile-disposable-exam-gloves-medium-black-powder-free-100-pk/p/6563753"
+    },
+    {
+      "id": "HC-7ef307a2791c",
+      "name": "AMMEX Professional Nitrile Disposable Exam Gloves X-Large Black Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-nitrile-disposable-exam-gloves-x-large-black-powder-free-100-pk/p/6563720"
+    },
+    {
+      "id": "HC-94cdcac32738",
+      "name": "30 SECONDS Mold and Mildew Stain Remover 1 gal",
+      "brand": "30 SECONDS",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/30-seconds-mold-and-mildew-stain-remover-1-gal/p/7043664"
+    },
+    {
+      "id": "HC-10da5d938490",
+      "name": "30 SECONDS Mold and Mildew Stain Remover 24 oz",
+      "brand": "30 SECONDS",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/30-seconds-mold-and-mildew-stain-remover-24-oz/p/7043665"
+    },
+    {
+      "id": "HC-393e84c4e58d",
+      "name": "CLR Brands Calcium Rust and Lime Remover 22 fl. oz. Liquid",
+      "brand": "CLR Brands",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/clr-brands-calcium-rust-and-lime-remover-22-fl-oz-liquid/p/1037733"
+    },
+    {
+      "id": "HC-548cf6a3c2b4",
+      "name": "AMMEX Gloveworks Vinyl Disposable Gloves Large Clear Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-gloveworks-vinyl-disposable-gloves-large-clear-powder-free-100-pk/p/6358139"
+    },
+    {
+      "id": "HC-36f7489e8148",
+      "name": "AMMEX Gloveworks Vinyl Disposable Gloves X-Large Clear Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-gloveworks-vinyl-disposable-gloves-x-large-clear-powder-free-100-pk/p/6358063"
+    },
+    {
+      "id": "HC-072f2921e1e0",
+      "name": "AMMEX Gloveworks Vinyl Disposable Gloves Medium Clear Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-gloveworks-vinyl-disposable-gloves-medium-clear-powder-free-100-pk/p/6358147"
+    },
+    {
+      "id": "HC-71d7e7d33da3",
+      "name": "30 SECONDS Outdoor Cleaner Concentrate 2.5 gal",
+      "brand": "30 SECONDS",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/30-seconds-outdoor-cleaner-concentrate-25-gal/p/7301898"
+    },
+    {
+      "id": "HC-68a8aa30eda4",
+      "name": "CLR Brands 128 ounce oz Calcium Remover",
+      "brand": "CLR Brands",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/clr-brands-128-ounce-oz-calcium-remover/p/1024371"
+    },
+    {
+      "id": "HC-284c438f1941",
+      "name": "CLR Brands Calcium Rust and Lime Remover 28 oz Liquid",
+      "brand": "CLR Brands",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/clr-brands-calcium-rust-and-lime-remover-28-oz-liquid/p/10264"
+    },
+    {
+      "id": "HC-969ec388d746",
+      "name": "30 SECONDS Outdoor Cleaner Concentrate 5 gal",
+      "brand": "30 SECONDS",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/30-seconds-outdoor-cleaner-concentrate-5-gal/p/7130842"
+    },
+    {
+      "id": "HC-fc29855de6ac",
+      "name": "30 SECONDS Outdoor Cleaner 1.3 gal",
+      "brand": "30 SECONDS",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/30-seconds-outdoor-cleaner-13-gal/p/7435068"
+    },
+    {
+      "id": "HC-609bb34d4cba",
+      "name": "Tork Center Pull Towels 500 sheet 2 ply 6 pk",
+      "brand": "Tork",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/tork-center-pull-towels-500-sheet-2-ply-6-pk/p/1026129"
+    },
+    {
+      "id": "HC-7a62ee34fa1b",
+      "name": "30 SECONDS No Scent Window Cleaner 64 fl. oz. Liquid",
+      "brand": "30 SECONDS",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/30-seconds-no-scent-window-cleaner-64-fl-oz-liquid/p/1035845"
+    },
+    {
+      "id": "HC-687690b1b1e4",
+      "name": "Little Giant 70 qt Bucket Blue",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-70-qt-bucket-blue/p/7014418"
+    },
+    {
+      "id": "HC-92e4f97290b0",
+      "name": "CLR Brands Outdoor Furniture Cleaner 26 oz Liquid",
+      "brand": "CLR Brands",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/clr-brands-outdoor-furniture-cleaner-26-oz-liquid/p/1008879"
+    },
+    {
+      "id": "HC-3a90c34f39d7",
+      "name": "30 SECONDS Outdoor Cleaner 1 qt",
+      "brand": "30 SECONDS",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/30-seconds-outdoor-cleaner-1-qt/p/7130792"
+    },
+    {
+      "id": "HC-08ff04642cbf",
+      "name": "CLR Brands Fresh Scent Bathroom Cleaner 26 oz Liquid",
+      "brand": "CLR Brands",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/clr-brands-fresh-scent-bathroom-cleaner-26-oz-liquid/p/1002088"
+    },
+    {
+      "id": "HC-ea1825a01117",
+      "name": "Little Giant 8 qt Pail Black",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-8-qt-pail-black/p/7018831"
+    },
+    {
+      "id": "HC-a55dce5cb8af",
+      "name": "Little Giant 12 qt Pail Black",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-12-qt-pail-black/p/7018849"
+    },
+    {
+      "id": "HC-f39acff43a21",
+      "name": "Little Giant 8 qt Bucket Pink",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-8-qt-bucket-pink/p/7404023"
+    },
+    {
+      "id": "HC-a744638640c5",
+      "name": "Little Giant 20 qt Bucket Orange",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-20-qt-bucket-orange/p/7404072"
+    },
+    {
+      "id": "HC-b534e234bd55",
+      "name": "Little Giant 20 qt Bucket Red",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-20-qt-bucket-red/p/7404064"
+    },
+    {
+      "id": "HC-69776ab40b8d",
+      "name": "Little Giant 20 qt Bucket Black",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-20-qt-bucket-black/p/7404031"
+    },
+    {
+      "id": "HC-a873f4f1fe08",
+      "name": "Little Giant 8 qt Bucket Black",
+      "brand": "Little Giant",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/little-giant-8-qt-bucket-black/p/7404049"
+    },
+    {
+      "id": "HC-373ebe85576c",
+      "name": "AMMEX Gloveworks Nitrile Disposable Exam Gloves Large Black Powder Free 100 pc",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-gloveworks-nitrile-disposable-exam-gloves-large-black-powder-free-100-pc/p/6016733"
+    },
+    {
+      "id": "HC-59d430c67628",
+      "name": "AMMEX Gloveworks Nitrile Disposable Exam Gloves Medium Black Powder Free 100 pc",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-gloveworks-nitrile-disposable-exam-gloves-medium-black-powder-free-100-pc/p/6016732"
+    },
+    {
+      "id": "HC-6bde6ad24694",
+      "name": "AMMEX Professional Nitrile Disposable Exam Gloves Small Black Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-nitrile-disposable-exam-gloves-small-black-powder-free-100-pk/p/6563746"
+    },
+    {
+      "id": "HC-f887a45105fc",
+      "name": "AMMEX Professional Nitrile Disposable Exam Gloves Large Blue Powder Free 100 pc",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-nitrile-disposable-exam-gloves-large-blue-powder-free-100-pc/p/6564082"
+    },
+    {
+      "id": "HC-1a04127c9422",
+      "name": "AMMEX Professional Nitrile Disposable Exam Gloves Medium Blue Powder Free 100 pc",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-nitrile-disposable-exam-gloves-medium-blue-powder-free-100-pc/p/6564090"
+    },
+    {
+      "id": "HC-f82462b1c542",
+      "name": "AMMEX Professional Nitrile Disposable Exam Gloves Small Blue Powder Free 100 pc",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-nitrile-disposable-exam-gloves-small-blue-powder-free-100-pc/p/6564132"
+    },
+    {
+      "id": "HC-0df4270181c0",
+      "name": "AMMEX Professional Nitrile Disposable Exam Gloves X-Large Blue Powder Free 100 pk",
+      "brand": "AMMEX",
+      "retailer": "Ace Hardware",
+      "url": "https://www.acehardware.com/ammex-professional-nitrile-disposable-exam-gloves-x-large-blue-powder-free-100-pk/p/6564140"
+    },
+    {
+      "id": "HC-a306433702f7",
+      "name": "Earth Breeze Laundry Detergent Sheets Fresh Scent 60 Loads | Travel-Friendly for Hot & Cold Cycles, Tackles Tough Stains & Odors",
+      "brand": "Earth Breeze",
+      "retailer": "Amazon US",
+      "url": "https://www.amazon.com/dp/B08GF7YGCD"
+    },
+    {
+      "id": "HC-d32793e48a95",
+      "name": "CLR Calcium Lime Rust Remover 22oz",
+      "brand": "",
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/clr-calcium-lime-rust-remover-22oz/7829151524"
+    },
+    {
+      "id": "HC-332f10464571",
+      "name": "CLR Bath & Kitchen Cleaner",
+      "brand": "",
+      "retailer": "Meijer",
+      "url": "https://www.meijer.com/shopping/product/clr-bath-kitchen-cleaner/7829121926"
+    }
+  ],
+  "unresolvedChecks": [
+    {
+      "brand": "Viking",
+      "status": "unresolved homonym",
+      "note": "Target evidence located for an unrelated publisher, not the retained Home Care brand; retained visible."
+    },
+    {
+      "brand": "Harper",
+      "status": "unresolved homonym",
+      "note": "Target evidence located for an unrelated publisher, not the retained Home Care brand; retained visible."
+    },
+    {
+      "brand": "Boardwalk",
+      "status": "unresolved homonym",
+      "note": "Boardwalk Puzzle Company is not evidence for the janitorial Home Care brand; retained visible."
+    },
+    {
+      "brand": "Simple Green",
+      "status": "unresolved",
+      "note": "Target search results were broad and did not establish a sufficiently specific primary Target brand or product page in this pass; search silence and noisy search are not clearance."
+    },
+    {
+      "brand": "Quickie",
+      "status": "unresolved",
+      "note": "Target results showed comparable or compatibility products, not a sufficiently specific Quickie-branded offer; retained visible."
+    },
+    {
+      "brand": "LA's Totally Awesome",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "3M",
+      "status": "unresolved brand-family scope",
+      "note": "Target carries related 3M-owned brands, but this pass did not establish a Target offer explicitly branded 3M for the retained records; no parent-company inference applied."
+    },
+    {
+      "brand": "Mr. LongArm",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    },
+    {
+      "brand": "Humydry",
+      "status": "unresolved",
+      "note": "No sufficiently specific primary Target product or brand evidence was established in this pass; search silence is not clearance."
+    }
+  ],
+  "remainingQueue": {
+    "visibleBrandLabels": 687,
+    "recordsWithoutUsableBrand": 2057,
+    "note": "Every remaining label still requires source-backed Target and Target Plus reconciliation unless already retained by an explicit clearance. Visibility is not proof of absence from Target."
+  },
+  "remainingVisibleBrandQueue": [
+    {
+      "brand": "(not recorded)",
+      "count": 2057
+    },
+    {
+      "brand": "Great Value",
+      "count": 120
+    },
+    {
+      "brand": "Member's Mark",
+      "count": 98
+    },
+    {
+      "brand": "Superio Brand",
+      "count": 88
+    },
+    {
+      "brand": "Ace",
+      "count": 81
+    },
+    {
+      "brand": "Swedish Treasures",
+      "count": 72
+    },
+    {
+      "brand": "Signature SELECT",
+      "count": 54
+    },
+    {
+      "brand": "Gloveworks",
+      "count": 43
+    },
+    {
+      "brand": "Garden Works",
+      "count": 40
+    },
+    {
+      "brand": "Simple Green",
+      "count": 39
+    },
+    {
+      "brand": "Amazon Basics",
+      "count": 37
+    },
+    {
+      "brand": "Carrand",
+      "count": 34
+    },
+    {
+      "brand": "Total Home",
+      "count": 27
+    },
+    {
+      "brand": "DQB",
+      "count": 25
+    },
+    {
+      "brand": "Boardwalk",
+      "count": 23
+    },
+    {
+      "brand": "Lundmark",
+      "count": 22
+    },
+    {
+      "brand": "Viking",
+      "count": 22
+    },
+    {
+      "brand": "Quickie",
+      "count": 20
+    },
+    {
+      "brand": "X3",
+      "count": 17
+    },
+    {
+      "brand": "Elite Mops and Brooms",
+      "count": 16
+    },
+    {
+      "brand": "Harper",
+      "count": 16
+    },
+    {
+      "brand": "Humydry",
+      "count": 16
+    },
+    {
+      "brand": "Marathon",
+      "count": 15
+    },
+    {
+      "brand": "Mr. LongArm",
+      "count": 15
+    },
+    {
+      "brand": "Drillbrush",
+      "count": 14
+    },
+    {
+      "brand": "Sandler Brothers",
+      "count": 14
+    },
+    {
+      "brand": "LA's Totally Awesome",
+      "count": 13
+    },
+    {
+      "brand": "Odor Assassin",
+      "count": 13
+    },
+    {
+      "brand": "De-Solv-it",
+      "count": 12
+    },
+    {
+      "brand": "Kosin Family",
+      "count": 12
+    },
+    {
+      "brand": "Spontex",
+      "count": 12
+    },
+    {
+      "brand": "Star brite",
+      "count": 12
+    },
+    {
+      "brand": "Contek",
+      "count": 11
+    },
+    {
+      "brand": "Jacent",
+      "count": 11
+    },
+    {
+      "brand": "Ruffies",
+      "count": 11
+    },
+    {
+      "brand": "True Living",
+      "count": 11
+    },
+    {
+      "brand": "Venom Steel",
+      "count": 11
+    },
+    {
+      "brand": "Gonesh",
+      "count": 10
+    },
+    {
+      "brand": "Kirkland Signature",
+      "count": 10
+    },
+    {
+      "brand": "Rug Doctor",
+      "count": 10
+    },
+    {
+      "brand": "3M",
+      "count": 9
+    },
+    {
+      "brand": "Bon",
+      "count": 9
+    },
+    {
+      "brand": "Fantastik",
+      "count": 9
+    },
+    {
+      "brand": "Howard",
+      "count": 9
+    },
+    {
+      "brand": "Impact",
+      "count": 9
+    },
+    {
+      "brand": "Berkley Jensen",
+      "count": 8
+    },
+    {
+      "brand": "Best Rags",
+      "count": 8
+    },
+    {
+      "brand": "Betco",
+      "count": 8
+    },
+    {
+      "brand": "Concrobium",
+      "count": 8
+    },
+    {
+      "brand": "Dart",
+      "count": 8
+    },
+    {
+      "brand": "Great Stuff",
+      "count": 8
+    },
+    {
+      "brand": "HDX",
+      "count": 8
+    },
+    {
+      "brand": "Kitchen Innovations",
+      "count": 8
+    },
+    {
+      "brand": "Open Nature",
+      "count": 8
+    },
+    {
+      "brand": "Quince",
+      "count": 8
+    },
+    {
+      "brand": "Refresh Your Car!",
+      "count": 8
+    },
+    {
+      "brand": "Smells Begone",
+      "count": 8
+    },
+    {
+      "brand": "Star Kitchen and Home",
+      "count": 8
+    },
+    {
+      "brand": "Tub O' Towels",
+      "count": 8
+    },
+    {
+      "brand": "Allway",
+      "count": 7
+    },
+    {
+      "brand": "Angel Soft",
+      "count": 7
+    },
+    {
+      "brand": "Genuine Joe",
+      "count": 7
+    },
+    {
+      "brand": "Goddard's",
+      "count": 7
+    },
+    {
+      "brand": "Iron-Hold",
+      "count": 7
+    },
+    {
+      "brand": "KHKFY",
+      "count": 7
+    },
+    {
+      "brand": "Little Trees",
+      "count": 7
+    },
+    {
+      "brand": "Lola",
+      "count": 7
+    },
+    {
+      "brand": "Mean Green",
+      "count": 7
+    },
+    {
+      "brand": "Miele",
+      "count": 7
+    },
+    {
+      "brand": "Mold Armor",
+      "count": 7
+    },
+    {
+      "brand": "Multi-Clean",
+      "count": 7
+    },
+    {
+      "brand": "Paint USA",
+      "count": 7
+    },
+    {
+      "brand": "Publix",
+      "count": 7
+    },
+    {
+      "brand": "Schroeder & Tremayne",
+      "count": 7
+    },
+    {
+      "brand": "Seller not verified",
+      "count": 7
+    },
+    {
+      "brand": "Trewax",
+      "count": 7
+    },
+    {
+      "brand": "Universal Candle Company",
+      "count": 7
+    },
+    {
+      "brand": "Vanity Fair",
+      "count": 7
+    },
+    {
+      "brand": "Blowze Tissues",
+      "count": 6
+    },
+    {
+      "brand": "Coghlan's",
+      "count": 6
+    },
+    {
+      "brand": "Combat",
+      "count": 6
+    },
+    {
+      "brand": "Diamond Visions",
+      "count": 6
+    },
+    {
+      "brand": "Drano",
+      "count": 6
+    },
+    {
+      "brand": "Easy-Off",
+      "count": 6
+    },
+    {
+      "brand": "Grease Beast",
+      "count": 6
+    },
+    {
+      "brand": "H-E-B",
+      "count": 6
+    },
+    {
+      "brand": "Home Armor",
+      "count": 6
+    },
+    {
+      "brand": "Hoover",
+      "count": 6
+    },
+    {
+      "brand": "iDesign",
+      "count": 6
+    },
+    {
+      "brand": "iRobot",
+      "count": 6
+    },
+    {
+      "brand": "IronOut",
+      "count": 6
+    },
+    {
+      "brand": "Kay Dee",
+      "count": 6
+    },
+    {
+      "brand": "Minwax",
+      "count": 6
+    },
+    {
+      "brand": "Moldex",
+      "count": 6
+    },
+    {
+      "brand": "Suavitel",
+      "count": 6
+    },
+    {
+      "brand": "Super Clean",
+      "count": 6
+    },
+    {
+      "brand": "SuperTuff",
+      "count": 6
+    },
+    {
+      "brand": "Anqtovp",
+      "count": 5
+    },
+    {
+      "brand": "ATTITUDE",
+      "count": 5
+    },
+    {
+      "brand": "Azuna",
+      "count": 5
+    },
+    {
+      "brand": "Bio-Clean",
+      "count": 5
+    },
+    {
+      "brand": "Bring It On",
+      "count": 5
+    },
+    {
+      "brand": "Clean Shower",
+      "count": 5
+    },
+    {
+      "brand": "Drill Brush",
+      "count": 5
+    },
+    {
+      "brand": "Endust",
+      "count": 5
+    },
+    {
+      "brand": "Gel-Gloss",
+      "count": 5
+    },
+    {
+      "brand": "Joy",
+      "count": 5
+    },
+    {
+      "brand": "Kaboom",
+      "count": 5
+    },
+    {
+      "brand": "KAF Home",
+      "count": 5
+    },
+    {
+      "brand": "Lemi Shine",
+      "count": 5
+    },
+    {
+      "brand": "Nature's Miracle",
+      "count": 5
+    },
+    {
+      "brand": "Ocean Recycled",
+      "count": 5
+    },
+    {
+      "brand": "Parker & Bailey",
+      "count": 5
+    },
+    {
+      "brand": "Schmutzhaken",
+      "count": 5
+    },
+    {
+      "brand": "Simple Truth",
+      "count": 5
+    },
+    {
+      "brand": "SmartRags",
+      "count": 5
+    },
+    {
+      "brand": "Sof Sole",
+      "count": 5
+    },
+    {
+      "brand": "Spectrum",
+      "count": 5
+    },
+    {
+      "brand": "Walgreens",
+      "count": 5
+    },
+    {
+      "brand": "Whink",
+      "count": 5
+    },
+    {
+      "brand": "Woolite",
+      "count": 5
+    },
+    {
+      "brand": "365 by Whole Foods Market",
+      "count": 4
+    },
+    {
+      "brand": "Amiluo",
+      "count": 4
+    },
+    {
+      "brand": "Arrow Home Products",
+      "count": 4
+    },
+    {
+      "brand": "Aunt Fannie's",
+      "count": 4
+    },
+    {
+      "brand": "Behrens",
+      "count": 4
+    },
+    {
+      "brand": "Benjamin Moore",
+      "count": 4
+    },
+    {
+      "brand": "Bon Ami",
+      "count": 4
+    },
+    {
+      "brand": "Bowl Fresh",
+      "count": 4
+    },
+    {
+      "brand": "Caboo",
+      "count": 4
+    },
+    {
+      "brand": "Camco",
+      "count": 4
+    },
+    {
+      "brand": "Capture",
+      "count": 4
+    },
+    {
+      "brand": "Carpet Fresh",
+      "count": 4
+    },
+    {
+      "brand": "Core Kitchen",
+      "count": 4
+    },
+    {
+      "brand": "CRC",
+      "count": 4
+    },
+    {
+      "brand": "CVS",
+      "count": 4
+    },
+    {
+      "brand": "DishFish",
+      "count": 4
+    },
+    {
+      "brand": "Dreame",
+      "count": 4
+    },
+    {
+      "brand": "EZ Smart",
+      "count": 4
+    },
+    {
+      "brand": "Formula 409",
+      "count": 4
+    },
+    {
+      "brand": "Handee Pockets",
+      "count": 4
+    },
+    {
+      "brand": "Holloway House",
+      "count": 4
+    },
+    {
+      "brand": "Household Essentials",
+      "count": 4
+    },
+    {
+      "brand": "Kroger",
+      "count": 4
+    },
+    {
+      "brand": "Linzer",
+      "count": 4
+    },
+    {
+      "brand": "Lodge",
+      "count": 4
+    },
+    {
+      "brand": "Marshalltown",
+      "count": 4
+    },
+    {
+      "brand": "Miracle Mist",
+      "count": 4
+    },
+    {
+      "brand": "Pine Glo",
+      "count": 4
+    },
+    {
+      "brand": "Premier",
+      "count": 4
+    },
+    {
+      "brand": "QEP",
+      "count": 4
+    },
+    {
+      "brand": "Rain-X",
+      "count": 4
+    },
+    {
+      "brand": "Safely",
+      "count": 4
+    },
+    {
+      "brand": "Savogran",
+      "count": 4
+    },
+    {
+      "brand": "Sheila Shine",
+      "count": 4
+    },
+    {
+      "brand": "SKILCRAFT",
+      "count": 4
+    },
+    {
+      "brand": "Spic and Span",
+      "count": 4
+    },
+    {
+      "brand": "ToolBox",
+      "count": 4
+    },
+    {
+      "brand": "Trashrac",
+      "count": 4
+    },
+    {
+      "brand": "Tuscany Candle",
+      "count": 4
+    },
+    {
+      "brand": "Unbranded",
+      "count": 4
+    },
+    {
+      "brand": "US Pumice",
+      "count": 4
+    },
+    {
+      "brand": "Web",
+      "count": 4
+    },
+    {
+      "brand": "Weber",
+      "count": 4
+    },
+    {
+      "brand": "A-Maz",
+      "count": 3
+    },
+    {
+      "brand": "AC-Safe",
+      "count": 3
+    },
+    {
+      "brand": "AirWorks",
+      "count": 3
+    },
+    {
+      "brand": "AL-NEW",
+      "count": 3
+    },
+    {
+      "brand": "BALECO INC",
+      "count": 3
+    },
+    {
+      "brand": "BATTEN INDUSTRIES INC",
+      "count": 3
+    },
+    {
+      "brand": "Better Living",
+      "count": 3
+    },
+    {
+      "brand": "BioSafe",
+      "count": 3
+    },
+    {
+      "brand": "Blow Off",
+      "count": 3
+    },
+    {
+      "brand": "Blue Ribbon",
+      "count": 3
+    },
+    {
+      "brand": "BugMD",
+      "count": 3
+    },
+    {
+      "brand": "Capri Essentials",
+      "count": 3
+    },
+    {
+      "brand": "CE Tools",
+      "count": 3
+    },
+    {
+      "brand": "Challenger",
+      "count": 3
+    },
+    {
+      "brand": "Charlie's Soap",
+      "count": 3
+    },
+    {
+      "brand": "Chemical Guys",
+      "count": 3
+    },
+    {
+      "brand": "Citrusafe",
+      "count": 3
+    },
+    {
+      "brand": "Cleancult",
+      "count": 3
+    },
+    {
+      "brand": "Cloralen",
+      "count": 3
+    },
+    {
+      "brand": "Cordova",
+      "count": 3
+    },
+    {
+      "brand": "Easy Off",
+      "count": 3
+    },
+    {
+      "brand": "EdFred",
+      "count": 3
+    },
+    {
+      "brand": "Field & Future",
+      "count": 3
+    },
+    {
+      "brand": "Fluidmaster",
+      "count": 3
+    },
+    {
+      "brand": "Folex",
+      "count": 3
+    },
+    {
+      "brand": "FRESHWARE",
+      "count": 3
+    },
+    {
+      "brand": "Fulton",
+      "count": 3
+    },
+    {
+      "brand": "Fuzzy Wuzzy",
+      "count": 3
+    },
+    {
+      "brand": "Glisten",
+      "count": 3
+    },
+    {
+      "brand": "Good & Clean",
+      "count": 3
+    },
+    {
+      "brand": "Goof Off",
+      "count": 3
+    },
+    {
+      "brand": "Grease Monkey",
+      "count": 3
+    },
+    {
+      "brand": "Highmark",
+      "count": 3
+    },
+    {
+      "brand": "Home Plus",
+      "count": 3
+    },
+    {
+      "brand": "Instant Power",
+      "count": 3
+    },
+    {
+      "brand": "Intex",
+      "count": 3
+    },
+    {
+      "brand": "Joyward",
+      "count": 3
+    },
+    {
+      "brand": "Karat",
+      "count": 3
+    },
+    {
+      "brand": "Kidsjoy",
+      "count": 3
+    },
+    {
+      "brand": "Lexol",
+      "count": 3
+    },
+    {
+      "brand": "Mallory",
+      "count": 3
+    },
+    {
+      "brand": "Modern Monkey",
+      "count": 3
+    },
+    {
+      "brand": "Mu Kitchen",
+      "count": 3
+    },
+    {
+      "brand": "Narwal",
+      "count": 3
+    },
+    {
+      "brand": "NatureZway",
+      "count": 3
+    },
+    {
+      "brand": "Old English",
+      "count": 3
+    },
+    {
+      "brand": "Pinalen",
+      "count": 3
+    },
+    {
+      "brand": "Puracy",
+      "count": 3
+    },
+    {
+      "brand": "Purdy",
+      "count": 3
+    },
+    {
+      "brand": "R&W Co.",
+      "count": 3
+    },
+    {
+      "brand": "Rebel Green",
+      "count": 3
+    },
+    {
+      "brand": "Reynera",
+      "count": 3
+    },
+    {
+      "brand": "Rock Doctor",
+      "count": 3
+    },
+    {
+      "brand": "Scotts",
+      "count": 3
+    },
+    {
+      "brand": "Solo",
+      "count": 3
+    },
+    {
+      "brand": "SP",
+      "count": 3
+    },
+    {
+      "brand": "Stone Care",
+      "count": 3
+    },
+    {
+      "brand": "Sttelli",
+      "count": 3
+    },
+    {
+      "brand": "Superior Wiping Rags",
+      "count": 3
+    },
+    {
+      "brand": "Swag Pacific",
+      "count": 3
+    },
+    {
+      "brand": "Tru Earth",
+      "count": 3
+    },
+    {
+      "brand": "True Blues",
+      "count": 3
+    },
+    {
+      "brand": "Twinkle",
+      "count": 3
+    },
+    {
+      "brand": "Umbra",
+      "count": 3
+    },
+    {
+      "brand": "White Ox",
+      "count": 3
+    },
+    {
+      "brand": "Wright's",
+      "count": 3
+    },
+    {
+      "brand": "2000 Flushes",
+      "count": 2
+    },
+    {
+      "brand": "Adrinfly",
+      "count": 2
+    },
+    {
+      "brand": "Air Innovations",
+      "count": 2
+    },
+    {
+      "brand": "American Hydro Systems",
+      "count": 2
+    },
+    {
+      "brand": "Armstrong",
+      "count": 2
+    },
+    {
+      "brand": "Arocep",
+      "count": 2
+    },
+    {
+      "brand": "Bell + Howell",
+      "count": 2
+    },
+    {
+      "brand": "Beyond",
+      "count": 2
+    },
+    {
+      "brand": "BIMZUC",
+      "count": 2
+    },
+    {
+      "brand": "Black",
+      "count": 2
+    },
+    {
+      "brand": "Blue Monster",
+      "count": 2
+    },
+    {
+      "brand": "Brasso",
+      "count": 2
+    },
+    {
+      "brand": "Brite & Clean",
+      "count": 2
+    },
+    {
+      "brand": "Camp Chef",
+      "count": 2
+    },
+    {
+      "brand": "Cape Cod",
+      "count": 2
+    },
+    {
+      "brand": "Cerama Bryte",
+      "count": 2
+    },
+    {
+      "brand": "Chore Boy",
+      "count": 2
+    },
+    {
+      "brand": "Clipper Mill",
+      "count": 2
+    },
+    {
+      "brand": "CLNEZ",
+      "count": 2
+    },
+    {
+      "brand": "Color Scents",
+      "count": 2
+    },
+    {
+      "brand": "Custom Building Products",
+      "count": 2
+    },
+    {
+      "brand": "d-CON",
+      "count": 2
+    },
+    {
+      "brand": "Dirt Devil",
+      "count": 2
+    },
+    {
+      "brand": "Dirty Labs",
+      "count": 2
+    },
+    {
+      "brand": "DR JACOBS NATURALS LLC",
+      "count": 2
+    },
+    {
+      "brand": "Dr. Bronner's",
+      "count": 2
+    },
+    {
+      "brand": "Dripless",
+      "count": 2
+    },
+    {
+      "brand": "Dropps",
+      "count": 2
+    },
+    {
+      "brand": "EarthSential",
+      "count": 2
+    },
+    {
+      "brand": "EBCO",
+      "count": 2
+    },
+    {
+      "brand": "Evapo-Rust",
+      "count": 2
+    },
+    {
+      "brand": "Evri",
+      "count": 2
+    },
+    {
+      "brand": "Fresquito",
+      "count": 2
+    },
+    {
+      "brand": "Furemover",
+      "count": 2
+    },
+    {
+      "brand": "Gear Hugger",
+      "count": 2
+    },
+    {
+      "brand": "General",
+      "count": 2
+    },
+    {
+      "brand": "GoFish",
+      "count": 2
+    },
+    {
+      "brand": "Gonzo",
+      "count": 2
+    },
+    {
+      "brand": "Greased Lightning",
+      "count": 2
+    },
+    {
+      "brand": "Green Ox",
+      "count": 2
+    },
+    {
+      "brand": "Harold Import",
+      "count": 2
+    },
+    {
+      "brand": "Homax",
+      "count": 2
+    },
+    {
+      "brand": "Hoofun",
+      "count": 2
+    },
+    {
+      "brand": "Hurricane",
+      "count": 2
+    },
+    {
+      "brand": "HydraPeak",
+      "count": 2
+    },
+    {
+      "brand": "Imperial",
+      "count": 2
+    },
+    {
+      "brand": "InterDesign",
+      "count": 2
+    },
+    {
+      "brand": "Invisible Shield",
+      "count": 2
+    },
+    {
+      "brand": "Joseph Joseph",
+      "count": 2
+    },
+    {
+      "brand": "Joysuds",
+      "count": 2
+    },
+    {
+      "brand": "Kloc",
+      "count": 2
+    },
+    {
+      "brand": "LAIFUCAM",
+      "count": 2
+    },
+    {
+      "brand": "Leafy",
+      "count": 2
+    },
+    {
+      "brand": "Lime-A-Way",
+      "count": 2
+    },
+    {
+      "brand": "Loctite",
+      "count": 2
+    },
+    {
+      "brand": "Lunchskins",
+      "count": 2
+    },
+    {
+      "brand": "Magic",
+      "count": 2
+    },
+    {
+      "brand": "MicroGold",
+      "count": 2
+    },
+    {
+      "brand": "Miller",
+      "count": 2
+    },
+    {
+      "brand": "Milsek",
+      "count": 2
+    },
+    {
+      "brand": "Mint-X",
+      "count": 2
+    },
+    {
+      "brand": "Miss Mouth's",
+      "count": 2
+    },
+    {
+      "brand": "MomRemedy",
+      "count": 2
+    },
+    {
+      "brand": "Monarch Brands",
+      "count": 2
+    },
+    {
+      "brand": "Mop & Glo",
+      "count": 2
+    },
+    {
+      "brand": "Mr. Leather",
+      "count": 2
+    },
+    {
+      "brand": "Nature's Air Sponge",
+      "count": 2
+    },
+    {
+      "brand": "Noramco",
+      "count": 2
+    },
+    {
+      "brand": "Nouvelle Legende",
+      "count": 2
+    },
+    {
+      "brand": "Nuvera",
+      "count": 2
+    },
+    {
+      "brand": "Ortho",
+      "count": 2
+    },
+    {
+      "brand": "Package Free",
+      "count": 2
+    },
+    {
+      "brand": "Pantry Mate",
+      "count": 2
+    },
+    {
+      "brand": "Party Essentials",
+      "count": 2
+    },
+    {
+      "brand": "Performance Tool",
+      "count": 2
+    },
+    {
+      "brand": "Polder",
+      "count": 2
+    },
+    {
+      "brand": "Protospheric",
+      "count": 2
+    },
+    {
+      "brand": "Purell",
+      "count": 2
+    },
+    {
+      "brand": "Range Kleen",
+      "count": 2
+    },
+    {
+      "brand": "Repurpose",
+      "count": 2
+    },
+    {
+      "brand": "RiteSize",
+      "count": 2
+    },
+    {
+      "brand": "Ritz",
+      "count": 2
+    },
+    {
+      "brand": "RMR Solutions",
+      "count": 2
+    },
+    {
+      "brand": "Rooto",
+      "count": 2
+    },
+    {
+      "brand": "S.O.S",
+      "count": 2
+    },
+    {
+      "brand": "SANI 360",
+      "count": 2
+    },
+    {
+      "brand": "Santeen",
+      "count": 2
+    },
+    {
+      "brand": "Saran",
+      "count": 2
+    },
+    {
+      "brand": "Scentiment",
+      "count": 2
+    },
+    {
+      "brand": "Screen Magic",
+      "count": 2
+    },
+    {
+      "brand": "Scrubit",
+      "count": 2
+    },
+    {
+      "brand": "Shawshank LEDz",
+      "count": 2
+    },
+    {
+      "brand": "Siege",
+      "count": 2
+    },
+    {
+      "brand": "Skoy",
+      "count": 2
+    },
+    {
+      "brand": "Solutions HOCL",
+      "count": 2
+    },
+    {
+      "brand": "Stasher",
+      "count": 2
+    },
+    {
+      "brand": "Sterilite",
+      "count": 2
+    },
+    {
+      "brand": "The Absorber",
+      "count": 2
+    },
+    {
+      "brand": "The Flex Pail",
+      "count": 2
+    },
+    {
+      "brand": "THE TURKISH TOWEL COMPANY",
+      "count": 2
+    },
+    {
+      "brand": "Traeger",
+      "count": 2
+    },
+    {
+      "brand": "Ty-D-Bol",
+      "count": 2
+    },
+    {
+      "brand": "UST Brands",
+      "count": 2
+    },
+    {
+      "brand": "WDX Home",
+      "count": 2
+    },
+    {
+      "brand": "WeatherTech",
+      "count": 2
+    },
+    {
+      "brand": "WHIP IT INVENTIONS INC",
+      "count": 2
+    },
+    {
+      "brand": "Windsoft",
+      "count": 2
+    },
+    {
+      "brand": "World Centric",
+      "count": 2
+    },
+    {
+      "brand": "WypAll",
+      "count": 2
+    },
+    {
+      "brand": "Zenna Home",
+      "count": 2
+    },
+    {
+      "brand": "Zwipes",
+      "count": 2
+    },
+    {
+      "brand": "303",
+      "count": 1
+    },
+    {
+      "brand": "9 Elements",
+      "count": 1
+    },
+    {
+      "brand": "A/C Pro",
+      "count": 1
+    },
+    {
+      "brand": "Abracadabra",
+      "count": 1
+    },
+    {
+      "brand": "Acme",
+      "count": 1
+    },
+    {
+      "brand": "Air-Scent",
+      "count": 1
+    },
+    {
+      "brand": "airBoss",
+      "count": 1
+    },
+    {
+      "brand": "AIRROBO",
+      "count": 1
+    },
+    {
+      "brand": "AJM Packaging Corporation",
+      "count": 1
+    },
+    {
+      "brand": "All-Clad",
+      "count": 1
+    },
+    {
+      "brand": "Aoibox",
+      "count": 1
+    },
+    {
+      "brand": "Arenviy",
+      "count": 1
+    },
+    {
+      "brand": "As Seen On Tv",
+      "count": 1
+    },
+    {
+      "brand": "Atsko",
+      "count": 1
+    },
+    {
+      "brand": "AutoShow",
+      "count": 1
+    },
+    {
+      "brand": "AYNUUY",
+      "count": 1
+    },
+    {
+      "brand": "B2Z",
+      "count": 1
+    },
+    {
+      "brand": "Bayer",
+      "count": 1
+    },
+    {
+      "brand": "Bee's Wrap",
+      "count": 1
+    },
+    {
+      "brand": "BEIS BOOM FIVE",
+      "count": 1
+    },
+    {
+      "brand": "BEIS BOOM ONE",
+      "count": 1
+    },
+    {
+      "brand": "BestAir",
+      "count": 1
+    },
+    {
+      "brand": "BESTSTAR",
+      "count": 1
+    },
+    {
+      "brand": "BESTVIP",
+      "count": 1
+    },
+    {
+      "brand": "Better Life",
+      "count": 1
+    },
+    {
+      "brand": "Big Roll",
+      "count": 1
+    },
+    {
+      "brand": "Biokleen",
+      "count": 1
+    },
+    {
+      "brand": "Birchwood Casey",
+      "count": 1
+    },
+    {
+      "brand": "Blade Maid",
+      "count": 1
+    },
+    {
+      "brand": "Blazing LEDz",
+      "count": 1
+    },
+    {
+      "brand": "Blue Bubble",
+      "count": 1
+    },
+    {
+      "brand": "Blue Ox",
+      "count": 1
+    },
+    {
+      "brand": "Boulder Clean",
+      "count": 1
+    },
+    {
+      "brand": "BPAWA",
+      "count": 1
+    },
+    {
+      "brand": "BriteWipes",
+      "count": 1
+    },
+    {
+      "brand": "Bruce",
+      "count": 1
+    },
+    {
+      "brand": "Brute",
+      "count": 1
+    },
+    {
+      "brand": "Bryson",
+      "count": 1
+    },
+    {
+      "brand": "Buffalo",
+      "count": 1
+    },
+    {
+      "brand": "BuggyBands",
+      "count": 1
+    },
+    {
+      "brand": "Cabot",
+      "count": 1
+    },
+    {
+      "brand": "CAF EXIMO",
+      "count": 1
+    },
+    {
+      "brand": "Caro Home",
+      "count": 1
+    },
+    {
+      "brand": "Carpet CPR",
+      "count": 1
+    },
+    {
+      "brand": "Catchmaster",
+      "count": 1
+    },
+    {
+      "brand": "Chronic Wipeout",
+      "count": 1
+    },
+    {
+      "brand": "Chryslara",
+      "count": 1
+    },
+    {
+      "brand": "CLC",
+      "count": 1
+    },
+    {
+      "brand": "Clean Revolution",
+      "count": 1
+    },
+    {
+      "brand": "Clean Works",
+      "count": 1
+    },
+    {
+      "brand": "cleanan",
+      "count": 1
+    },
+    {
+      "brand": "CleanBoss",
+      "count": 1
+    },
+    {
+      "brand": "CLEARWARE",
+      "count": 1
+    },
+    {
+      "brand": "CM SCRUBBER",
+      "count": 1
+    },
+    {
+      "brand": "Cobra",
+      "count": 1
+    },
+    {
+      "brand": "Combat®",
+      "count": 1
+    },
+    {
+      "brand": "Compostic",
+      "count": 1
+    },
+    {
+      "brand": "Contractor's Choice",
+      "count": 1
+    },
+    {
+      "brand": "Corona",
+      "count": 1
+    },
+    {
+      "brand": "CrossWave",
+      "count": 1
+    },
+    {
+      "brand": "Ctosree",
+      "count": 1
+    },
+    {
+      "brand": "Cuisipro",
+      "count": 1
+    },
+    {
+      "brand": "Curad",
+      "count": 1
+    },
+    {
+      "brand": "CYIKE",
+      "count": 1
+    },
+    {
+      "brand": "D-Lead",
+      "count": 1
+    },
+    {
+      "brand": "Danco",
+      "count": 1
+    },
+    {
+      "brand": "DCT",
+      "count": 1
+    },
+    {
+      "brand": "DeVault Enterprises",
+      "count": 1
+    },
+    {
+      "brand": "Diamond",
+      "count": 1
+    },
+    {
+      "brand": "Drainbo",
+      "count": 1
+    },
+    {
+      "brand": "Dremel",
+      "count": 1
+    },
+    {
+      "brand": "Duro-Cel",
+      "count": 1
+    },
+    {
+      "brand": "Dust Off",
+      "count": 1
+    },
+    {
+      "brand": "Eagle One",
+      "count": 1
+    },
+    {
+      "brand": "EarthStone",
+      "count": 1
+    },
+    {
+      "brand": "Easy Clean",
+      "count": 1
+    },
+    {
+      "brand": "Eccolo",
+      "count": 1
+    },
+    {
+      "brand": "Eco-Products",
+      "count": 1
+    },
+    {
+      "brand": "ECOLipak",
+      "count": 1
+    },
+    {
+      "brand": "EcoVenger",
+      "count": 1
+    },
+    {
+      "brand": "El Arroyo",
+      "count": 1
+    },
+    {
+      "brand": "Eliminate",
+      "count": 1
+    },
+    {
+      "brand": "ESSENDANT CO",
+      "count": 1
+    },
+    {
+      "brand": "Essentials",
+      "count": 1
+    },
+    {
+      "brand": "Etokfoks",
+      "count": 1
+    },
+    {
+      "brand": "ETSUS",
+      "count": 1
+    },
+    {
+      "brand": "Euroscrubby",
+      "count": 1
+    },
+    {
+      "brand": "EUROW AND O REILLY CORP",
+      "count": 1
+    },
+    {
+      "brand": "EVERGRACE HOME INC",
+      "count": 1
+    },
+    {
+      "brand": "Faultless",
+      "count": 1
+    },
+    {
+      "brand": "Fengjie",
+      "count": 1
+    },
+    {
+      "brand": "Fiebing's",
+      "count": 1
+    },
+    {
+      "brand": "Field & Future by H-E-B",
+      "count": 1
+    },
+    {
+      "brand": "Final Touch",
+      "count": 1
+    },
+    {
+      "brand": "Fiora",
+      "count": 1
+    },
+    {
+      "brand": "First Aid Only",
+      "count": 1
+    },
+    {
+      "brand": "Flex Pail",
+      "count": 1
+    },
+    {
+      "brand": "Flood",
+      "count": 1
+    },
+    {
+      "brand": "Fluid Film",
+      "count": 1
+    },
+    {
+      "brand": "FoodSaver",
+      "count": 1
+    },
+    {
+      "brand": "Fourluoo",
+      "count": 1
+    },
+    {
+      "brand": "Frost King",
+      "count": 1
+    },
+    {
+      "brand": "FunkAway",
+      "count": 1
+    },
+    {
+      "brand": "furMe",
+      "count": 1
+    },
+    {
+      "brand": "Fuvuan",
+      "count": 1
+    },
+    {
+      "brand": "Garden Genius",
+      "count": 1
+    },
+    {
+      "brand": "Gardner Bender",
+      "count": 1
+    },
+    {
+      "brand": "Gentle Planet",
+      "count": 1
+    },
+    {
+      "brand": "GEORGIA PACIFIC (.COM)",
+      "count": 1
+    },
+    {
+      "brand": "GEORGIA PACIFIC 01 110",
+      "count": 1
+    },
+    {
+      "brand": "Georgia-Pacific",
+      "count": 1
+    },
+    {
+      "brand": "Glade Format: Grocery",
+      "count": 1
+    },
+    {
+      "brand": "Glass Plus",
+      "count": 1
+    },
+    {
+      "brand": "GLISTEN",
+      "count": 1
+    },
+    {
+      "brand": "Gojo",
+      "count": 1
+    },
+    {
+      "brand": "Gold Medal",
+      "count": 1
+    },
+    {
+      "brand": "Good Natured Brand",
+      "count": 1
+    },
+    {
+      "brand": "Good Old Values",
+      "count": 1
+    },
+    {
+      "brand": "Goodcook",
+      "count": 1
+    },
+    {
+      "brand": "GoodCook",
+      "count": 1
+    },
+    {
+      "brand": "GoodSense",
+      "count": 1
+    },
+    {
+      "brand": "Goop",
+      "count": 1
+    },
+    {
+      "brand": "Grandma's Secret",
+      "count": 1
+    },
+    {
+      "brand": "Grant's",
+      "count": 1
+    },
+    {
+      "brand": "GREAT NORTHERN",
+      "count": 1
+    },
+    {
+      "brand": "Green Gobbler",
+      "count": 1
+    },
+    {
+      "brand": "Green Label",
+      "count": 1
+    },
+    {
+      "brand": "GreenPolly",
+      "count": 1
+    },
+    {
+      "brand": "GreenWise",
+      "count": 1
+    },
+    {
+      "brand": "Gunk",
+      "count": 1
+    },
+    {
+      "brand": "H-E-B Mi Tienda",
+      "count": 1
+    },
+    {
+      "brand": "Hachiman",
+      "count": 1
+    },
+    {
+      "brand": "Haier",
+      "count": 1
+    },
+    {
+      "brand": "Harbor",
+      "count": 1
+    },
+    {
+      "brand": "Havawish",
+      "count": 1
+    },
+    {
+      "brand": "Heigble",
+      "count": 1
+    },
+    {
+      "brand": "Helens Asian Kitchen",
+      "count": 1
+    },
+    {
+      "brand": "Helping Hand",
+      "count": 1
+    },
+    {
+      "brand": "Hero Clean",
+      "count": 1
+    },
+    {
+      "brand": "HHXI",
+      "count": 1
+    },
+    {
+      "brand": "HIC Kitchen",
+      "count": 1
+    },
+    {
+      "brand": "Hitrons Solutions",
+      "count": 1
+    },
+    {
+      "brand": "Hope's",
+      "count": 1
+    },
+    {
+      "brand": "Hot Shot",
+      "count": 1
+    },
+    {
+      "brand": "HOT SHOT",
+      "count": 1
+    },
+    {
+      "brand": "HP Co.",
+      "count": 1
+    },
+    {
+      "brand": "HydraPak",
+      "count": 1
+    },
+    {
+      "brand": "Hyper Wipes",
+      "count": 1
+    },
+    {
+      "brand": "iFLY Smart",
+      "count": 1
+    },
+    {
+      "brand": "Insl-X",
+      "count": 1
+    },
+    {
+      "brand": "JAM Paper",
+      "count": 1
+    },
+    {
+      "brand": "Jubilee",
+      "count": 1
+    },
+    {
+      "brand": "Just The Basics",
+      "count": 1
+    },
+    {
+      "brand": "Juvale",
+      "count": 1
+    },
+    {
+      "brand": "JXDSICH",
+      "count": 1
+    },
+    {
+      "brand": "Kaf-Tan",
+      "count": 1
+    },
+    {
+      "brand": "Keurig",
+      "count": 1
+    },
+    {
+      "brand": "kibhous",
+      "count": 1
+    },
+    {
+      "brand": "KitchenAid",
+      "count": 1
+    },
+    {
+      "brand": "Klean Strip",
+      "count": 1
+    },
+    {
+      "brand": "Kleen King",
+      "count": 1
+    },
+    {
+      "brand": "KOLAGAN",
+      "count": 1
+    },
+    {
+      "brand": "Krumbs Kitchen",
+      "count": 1
+    },
+    {
+      "brand": "Kurly Kate",
+      "count": 1
+    },
+    {
+      "brand": "LA’s Totally Awesome",
+      "count": 1
+    },
+    {
+      "brand": "Leaktite",
+      "count": 1
+    },
+    {
+      "brand": "Leebein",
+      "count": 1
+    },
+    {
+      "brand": "Lerine",
+      "count": 1
+    },
+    {
+      "brand": "LHPY",
+      "count": 1
+    },
+    {
+      "brand": "LifEasy",
+      "count": 1
+    },
+    {
+      "brand": "Lift Off",
+      "count": 1
+    },
+    {
+      "brand": "Lifter-1",
+      "count": 1
+    },
+    {
+      "brand": "LimeOut",
+      "count": 1
+    },
+    {
+      "brand": "Liquid-Plumr",
+      "count": 1
+    },
+    {
+      "brand": "Livi",
+      "count": 1
+    },
+    {
+      "brand": "Loheer",
+      "count": 1
+    },
+    {
+      "brand": "Loofah Art",
+      "count": 1
+    },
+    {
+      "brand": "Love Home & Planet",
+      "count": 1
+    },
+    {
+      "brand": "LOVECO",
+      "count": 1
+    },
+    {
+      "brand": "Lynzavix",
+      "count": 1
+    },
+    {
+      "brand": "Malco",
+      "count": 1
+    },
+    {
+      "brand": "Manna",
+      "count": 1
+    },
+    {
+      "brand": "Mavwicks",
+      "count": 1
+    },
+    {
+      "brand": "Max Pro",
+      "count": 1
+    },
+    {
+      "brand": "Medline",
+      "count": 1
+    },
+    {
+      "brand": "MEDLINE INDUSTRIES INC.",
+      "count": 1
+    },
+    {
+      "brand": "Meguiar's",
+      "count": 1
+    },
+    {
+      "brand": "meonlin",
+      "count": 1
+    },
+    {
+      "brand": "Mer-Maid",
+      "count": 1
+    },
+    {
+      "brand": "MEXERRIS",
+      "count": 1
+    },
+    {
+      "brand": "Mighty Mint",
+      "count": 1
+    },
+    {
+      "brand": "Millrose",
+      "count": 1
+    },
+    {
+      "brand": "Miss Mouth’s",
+      "count": 1
+    },
+    {
+      "brand": "Moku Home",
+      "count": 1
+    },
+    {
+      "brand": "MOMREMEDY LLC",
+      "count": 1
+    },
+    {
+      "brand": "Mop And Glo Multi Surface Floor Cleaner - 32 Oz",
+      "count": 1
+    },
+    {
+      "brand": "MOXIE",
+      "count": 1
+    },
+    {
+      "brand": "Mr. Metal",
+      "count": 1
+    },
+    {
+      "brand": "MTN",
+      "count": 1
+    },
+    {
+      "brand": "Nascar",
+      "count": 1
+    },
+    {
+      "brand": "NCSIFDD",
+      "count": 1
+    },
+    {
+      "brand": "Nellie's",
+      "count": 1
+    },
+    {
+      "brand": "Nellie’s",
+      "count": 1
+    },
+    {
+      "brand": "NEWLONIS",
+      "count": 1
+    },
+    {
+      "brand": "North Pole Plumbing Company",
+      "count": 1
+    },
+    {
+      "brand": "Not verified",
+      "count": 1
+    },
+    {
+      "brand": "NOYATECH",
+      "count": 1
+    },
+    {
+      "brand": "NuvoH2O",
+      "count": 1
+    },
+    {
+      "brand": "O2frepak",
+      "count": 1
+    },
+    {
+      "brand": "Oak Patch Gifts",
+      "count": 1
+    },
+    {
+      "brand": "Oatey",
+      "count": 1
+    },
+    {
+      "brand": "Odor Bully",
+      "count": 1
+    },
+    {
+      "brand": "Odor Genie",
+      "count": 1
+    },
+    {
+      "brand": "Odors Away",
+      "count": 1
+    },
+    {
+      "brand": "Open Nature Bathroom Tissue - 12 Rolls",
+      "count": 1
+    },
+    {
+      "brand": "Orange Glo",
+      "count": 1
+    },
+    {
+      "brand": "OSI",
+      "count": 1
+    },
+    {
+      "brand": "Outset",
+      "count": 1
+    },
+    {
+      "brand": "OXY",
+      "count": 1
+    },
+    {
+      "brand": "Ozium",
+      "count": 1
+    },
+    {
+      "brand": "Paslode",
+      "count": 1
+    },
+    {
+      "brand": "Peak",
+      "count": 1
+    },
+    {
+      "brand": "Penofin",
+      "count": 1
+    },
+    {
+      "brand": "Permatex",
+      "count": 1
+    },
+    {
+      "brand": "Phueut",
+      "count": 1
+    },
+    {
+      "brand": "Pic",
+      "count": 1
+    },
+    {
+      "brand": "Pine-Glo",
+      "count": 1
+    },
+    {
+      "brand": "Plaskolite",
+      "count": 1
+    },
+    {
+      "brand": "Plink",
+      "count": 1
+    },
+    {
+      "brand": "Pourri",
+      "count": 1
+    },
+    {
+      "brand": "Poweart",
+      "count": 1
+    },
+    {
+      "brand": "Preserva Wood",
+      "count": 1
+    },
+    {
+      "brand": "Pro-Lab",
+      "count": 1
+    },
+    {
+      "brand": "Project Pro",
+      "count": 1
+    },
+    {
+      "brand": "ProLine",
+      "count": 1
+    },
+    {
+      "brand": "Purafilter",
+      "count": 1
+    },
+    {
+      "brand": "Purely Organic",
+      "count": 1
+    },
+    {
+      "brand": "PUSCRIENO",
+      "count": 1
+    },
+    {
+      "brand": "Qinyoung",
+      "count": 1
+    },
+    {
+      "brand": "Quick Shine",
+      "count": 1
+    },
+    {
+      "brand": "R&M",
+      "count": 1
+    },
+    {
+      "brand": "R&M International Corp",
+      "count": 1
+    },
+    {
+      "brand": "RAVPUIA",
+      "count": 1
+    },
+    {
+      "brand": "recteq",
+      "count": 1
+    },
+    {
+      "brand": "RectorSeal",
+      "count": 1
+    },
+    {
+      "brand": "Rejoice",
+      "count": 1
+    },
+    {
+      "brand": "RevoClean",
+      "count": 1
+    },
+    {
+      "brand": "Roboebcreck",
+      "count": 1
+    },
+    {
+      "brand": "Rose of Eden Home and Scents",
+      "count": 1
+    },
+    {
+      "brand": "Royal",
+      "count": 1
+    },
+    {
+      "brand": "RSVP International",
+      "count": 1
+    },
+    {
+      "brand": "Rutland",
+      "count": 1
+    },
+    {
+      "brand": "Sanco",
+      "count": 1
+    },
+    {
+      "brand": "Sani-Spritz",
+      "count": 1
+    },
+    {
+      "brand": "SAVE TREES",
+      "count": 1
+    },
+    {
+      "brand": "Scent Bomb",
+      "count": 1
+    },
+    {
+      "brand": "Scootworks",
+      "count": 1
+    },
+    {
+      "brand": "Scotchgard",
+      "count": 1
+    },
+    {
+      "brand": "Scrub Buddies",
+      "count": 1
+    },
+    {
+      "brand": "Sentryse",
+      "count": 1
+    },
+    {
+      "brand": "Signature SELECT Everyday Coated 9 Inch White Paper Plates - 100 Count",
+      "count": 1
+    },
+    {
+      "brand": "Signature SELECT Everyday Heavy Duty Plastic Spoons Box - 48 Count",
+      "count": 1
+    },
+    {
+      "brand": "Signature Select Soft & Strong Bath Tissue - 6 Mega Rolls",
+      "count": 1
+    },
+    {
+      "brand": "Signature Select Soft & Strong Bath Tissue -12 Double Rolls",
+      "count": 1
+    },
+    {
+      "brand": "Signature SELECT Tall Kitchen Bags With Drawstring 13 Gallon - 45 Count",
+      "count": 1
+    },
+    {
+      "brand": "Signature Select Trash Bags Kitchen Flex Value Pack 110 Bags - 110 CT",
+      "count": 1
+    },
+    {
+      "brand": "Signature Select Ultra Soft Bath Tissue - 24 Mega Rolls",
+      "count": 1
+    },
+    {
+      "brand": "Signature Select Ultra Strong Bath Tissue - 12 Mega Rolls",
+      "count": 1
+    },
+    {
+      "brand": "Simpson Strong-Tie",
+      "count": 1
+    },
+    {
+      "brand": "Singer",
+      "count": 1
+    },
+    {
+      "brand": "SmilinFit",
+      "count": 1
+    },
+    {
+      "brand": "Smith's",
+      "count": 1
+    },
+    {
+      "brand": "SmudgeAway",
+      "count": 1
+    },
+    {
+      "brand": "Sonic Power",
+      "count": 1
+    },
+    {
+      "brand": "Soudal",
+      "count": 1
+    },
+    {
+      "brand": "Spongezz",
+      "count": 1
+    },
+    {
+      "brand": "Spot Clean",
+      "count": 1
+    },
+    {
+      "brand": "Spot Shot",
+      "count": 1
+    },
+    {
+      "brand": "SQUEAK",
+      "count": 1
+    },
+    {
+      "brand": "squish",
+      "count": 1
+    },
+    {
+      "brand": "Stansport",
+      "count": 1
+    },
+    {
+      "brand": "STARBIAO",
+      "count": 1
+    },
+    {
+      "brand": "Stay Away",
+      "count": 1
+    },
+    {
+      "brand": "Stoner",
+      "count": 1
+    },
+    {
+      "brand": "Sudstainables",
+      "count": 1
+    },
+    {
+      "brand": "Summit Brands",
+      "count": 1
+    },
+    {
+      "brand": "Sunbrite",
+      "count": 1
+    },
+    {
+      "brand": "SuperMoss",
+      "count": 1
+    },
+    {
+      "brand": "SXT-160",
+      "count": 1
+    },
+    {
+      "brand": "Synoshi",
+      "count": 1
+    },
+    {
+      "brand": "SZRSTH",
+      "count": 1
+    },
+    {
+      "brand": "Tannery",
+      "count": 1
+    },
+    {
+      "brand": "Tarn-X",
+      "count": 1
+    },
+    {
+      "brand": "The Original Bee's Wax",
+      "count": 1
+    },
+    {
+      "brand": "The Original Garden Broom",
+      "count": 1
+    },
+    {
+      "brand": "The Pink Stuff + Scrub Daddy",
+      "count": 1
+    },
+    {
+      "brand": "The Unscented Company",
+      "count": 1
+    },
+    {
+      "brand": "The Works",
+      "count": 1
+    },
+    {
+      "brand": "Thirteen Chefs",
+      "count": 1
+    },
+    {
+      "brand": "Thompson's WaterSeal",
+      "count": 1
+    },
+    {
+      "brand": "TIENBE",
+      "count": 1
+    },
+    {
+      "brand": "Tilex",
+      "count": 1
+    },
+    {
+      "brand": "TINA&TONY",
+      "count": 1
+    },
+    {
+      "brand": "TowelZilla",
+      "count": 1
+    },
+    {
+      "brand": "TOWN AND CNTRY LINEN CORP",
+      "count": 1
+    },
+    {
+      "brand": "Tranquil Touch",
+      "count": 1
+    },
+    {
+      "brand": "Trimaco",
+      "count": 1
+    },
+    {
+      "brand": "Turkish Towel Company",
+      "count": 1
+    },
+    {
+      "brand": "Turtle Wax",
+      "count": 1
+    },
+    {
+      "brand": "Two Left Feet",
+      "count": 1
+    },
+    {
+      "brand": "TY-D-BOL",
+      "count": 1
+    },
+    {
+      "brand": "Uncle Todd's",
+      "count": 1
+    },
+    {
+      "brand": "Unique",
+      "count": 1
+    },
+    {
+      "brand": "Unitex",
+      "count": 1
+    },
+    {
+      "brand": "Vacplus",
+      "count": 1
+    },
+    {
+      "brand": "VAETTLO",
+      "count": 1
+    },
+    {
+      "brand": "Value Corner Bath Tissue - 12 Rolls",
+      "count": 1
+    },
+    {
+      "brand": "Value Corner Bath Tissue 4 Roll - 4 RL",
+      "count": 1
+    },
+    {
+      "brand": "Value Corner Kitchen Bags Drawstring Tall 13 Gallon - 125 Count",
+      "count": 1
+    },
+    {
+      "brand": "Vancace",
+      "count": 1
+    },
+    {
+      "brand": "VerdantGlow",
+      "count": 1
+    },
+    {
+      "brand": "VEYOFLY",
+      "count": 1
+    },
+    {
+      "brand": "Vital Oxide",
+      "count": 1
+    },
+    {
+      "brand": "Warner",
+      "count": 1
+    },
+    {
+      "brand": "Weiler",
+      "count": 1
+    },
+    {
+      "brand": "Welspun",
+      "count": 1
+    },
+    {
+      "brand": "Westinghouse",
+      "count": 1
+    },
+    {
+      "brand": "Whip-It",
+      "count": 1
+    },
+    {
+      "brand": "Whitmor",
+      "count": 1
+    },
+    {
+      "brand": "Wiese",
+      "count": 1
+    },
+    {
+      "brand": "Wippity Wipes",
+      "count": 1
+    },
+    {
+      "brand": "Wohler",
+      "count": 1
+    },
+    {
+      "brand": "Wondercide",
+      "count": 1
+    },
+    {
+      "brand": "Worry Free",
+      "count": 1
+    },
+    {
+      "brand": "Wudkey",
+      "count": 1
+    },
+    {
+      "brand": "X-14",
+      "count": 1
+    },
+    {
+      "brand": "YeahWhee",
+      "count": 1
+    },
+    {
+      "brand": "Yezivo",
+      "count": 1
+    },
+    {
+      "brand": "Zappix",
+      "count": 1
+    },
+    {
+      "brand": "Zenith",
+      "count": 1
+    },
+    {
+      "brand": "Zenport",
+      "count": 1
+    },
+    {
+      "brand": "Zero Odor",
+      "count": 1
+    },
+    {
+      "brand": "Zinsser",
+      "count": 1
+    },
+    {
+      "brand": "Zout",
+      "count": 1
+    },
+    {
+      "brand": "Zud",
+      "count": 1
+    },
+    {
+      "brand": "ZYNOR",
+      "count": 1
+    }
+  ]
+}

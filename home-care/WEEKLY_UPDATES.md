@@ -8,6 +8,12 @@ Files: home-care/site/. Preserve the root tariff dashboard and pawlish/.
 The production workflow copies this committed directory to _site/home-care and deploys GitHub Pages. It does not fetch Home Care from Vercel or ChatGPT.
 The migration importer is historical and is no longer called by publication.
 
+## Target-overlap queue continuation — 27 November 2026
+
+Continued the 26 November retained-brand queue using exact public Target and Target Plus pages. Seven additional Target-carried brands—30 SECONDS, AMMEX, Earth Breeze, Tork, CLR/CLR Brands, Little Giant and Shurhold—are now excluded uniformly from discovery, Target inspiration references, saved comparison and every export across all 20 retailers. The correction removes 118 listings from visibility without deleting or changing any of the 10,279 canonical records, stable IDs, photographs, dates or source observations. Visible count moved from 4,764 to 4,646.
+
+This is a scoped overlap correction, not a comprehensive retailer assortment or pagination review and not a product-addition pass. The dated audit retains per-retailer counts, all affected records and the remaining queue in `site/catalog-review/target-overlap-audit-2026-11-27.json`. Target checks remain incomplete: 687 visible brand labels and 2,057 records without a usable brand still require reconciliation. Simple Green, Quickie, LA's Totally Awesome, 3M, Mr. LongArm and Humydry remain visible because this pass did not establish sufficiently specific primary Target evidence; search silence is not clearance. The 25 November catalog-review dates remain unchanged because their stated product-review scope was not repeated.
+
 ## Monday assortment review — 16 November 2026
 
 The current 20-retailer baseline of 10,265 records was preserved and four exact item-page listings were added: Amazon US 1, Walmart 2 and TikTok Shop 1, for 10,269 canonical records. The additions are in `site/catalog-review/daily-2026-11-16.json`; item IDs, exact pack or selected variant, seller, USD price snapshot, source URL and matched local photo were checked.

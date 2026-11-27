@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-25",
+  "checkedAt": "2026-11-27",
   "policy": "Exclude source-confirmed Target-carried brands and exact items across every retailer, discovery, recommendation, comparison and export. Do not hide retained records solely because a Target check is unfinished.",
   "coverage": "Target assortment review is partial. Visible products are not verified absent from Target; unknown overlap remains unresolved. Preserve all canonical observations and photographs.",
   "brands": [
@@ -902,6 +902,61 @@
       "evidence": "Target brand page opened 26 November 2026 and displayed Chef Craft kitchen-tool offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
       "aliases": [],
       "checkedAt": "2026-11-26"
+    },
+    {
+      "brand": "30 SECONDS",
+      "sourceUrl": "https://www.target.com/p/-/A-1004055128",
+      "evidence": "Exact Target product page opened 27 November 2026 for 30 SECONDS Outdoor Mold, Mildew, Algae Cleaner, 1 Gallon Concentrate. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [
+        "30 Seconds"
+      ],
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "AMMEX",
+      "sourceUrl": "https://www.target.com/b/ammex/-/N-q643lezuer0",
+      "evidence": "Target brand page opened 27 November 2026 and displayed AMMEX glove offers supplied by Target Plus partners, including exact Target product pages A-1001739997, A-1001739990 and A-1001783783. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "Earth Breeze",
+      "sourceUrl": "https://www.target.com/b/earth-breeze/-/N-q643leg2yb4",
+      "evidence": "Target brand page and exact Target product page A-94876948 opened 27 November 2026 and displayed Earth Breeze laundry detergent sheets. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "Tork",
+      "sourceUrl": "https://www.target.com/b/tork/-/N-q643lenioan",
+      "evidence": "Target brand page and exact Target product page A-1004962264 opened 27 November 2026 and displayed Tork commercial tissue and dispenser offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "CLR Brands",
+      "sourceUrl": "https://www.target.com/p/-/A-1005613848",
+      "evidence": "Exact Target product page opened 27 November 2026 for CLR Brands 28 Oz. Septic System Treatment, with a Target CLR category page also displaying CLR offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [
+        "CLR"
+      ],
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "Little Giant",
+      "sourceUrl": "https://www.target.com/p/-/A-82242157",
+      "evidence": "Exact Target product page opened 27 November 2026 for a Little Giant Ladder Systems two-step aluminum stepstool; additional exact Target pages A-1013577975 and A-1013577971 displayed Little Giant ladder accessories. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [
+        "Little Giant Ladder Systems"
+      ],
+      "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "Shurhold",
+      "sourceUrl": "https://www.target.com/p/-/A-1009510967",
+      "evidence": "Exact Target Plus product pages A-1009510967 and A-1009510927 opened 27 November 2026 for Shurhold scrub and deck brushes. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-27"
     }
   ],
   "items": [],

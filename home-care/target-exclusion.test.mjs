@@ -69,3 +69,23 @@ test('26 November queue continuation excludes confirmed brands without false hom
  for(const item of audit.affectedRecords)assert.equal(filter.isEligible(item),false,item.id);
  assert.ok(audit.remainingVisibleBrandQueue.some(x=>x.brand==='(not recorded)'&&x.count===2061));
 });
+
+test('27 November queue continuation excludes seven confirmed brands across every retailer and prunes saved IDs',()=>{
+ const audit=JSON.parse(fs.readFileSync('home-care/site/catalog-review/target-overlap-audit-2026-11-27.json'));
+ assert.equal(audit.canonicalCount,10279);
+ assert.equal(audit.retailers.length,20);
+ assert.equal(audit.newBrandRules,7);
+ assert.equal(audit.newlyExcludedCount,118);
+ assert.equal(audit.visibleAfter,4646);
+ for(const {retailer} of audit.retailers){
+  for(const brand of ['30 SECONDS','AMMEX','Earth Breeze','Tork','CLR Brands','Little Giant','Shurhold'])assert.equal(filter.isEligible({retailer,brand,name:brand+' example'}),false,retailer+' '+brand);
+  assert.equal(filter.isEligible({retailer,brand:'Simple Green',name:'Simple Green cleaner'}),true,retailer+' unresolved Simple Green');
+  assert.equal(filter.isEligible({retailer,brand:'Quickie',name:'Quickie mop'}),true,retailer+' unresolved Quickie');
+ }
+ for(const item of audit.affectedRecords)assert.equal(filter.isEligible(item),false,item.id);
+ const html=addTargetExclusions('<head></head><script>const ITEMS='+JSON.stringify([{id:'earth-breeze-saved',brand:'Earth Breeze',name:'Laundry sheets'},{id:'keep',brand:'Unreviewed brand',name:'Cleaner'}])+';\nconst COVERAGE={};const byId=new Map(ITEMS.map(d=>[d.id,d]));const picks=new Set(["earth-breeze-saved","keep"].filter(id=>byId.has(id)));window.result={canonical:CANONICAL_ITEMS.length,visible:ITEMS.length,selected:[...picks]};</script><div class="grid" id="product-grid">','home-care/site');
+ const c=vm.createContext({window:{}});for(const m of html.matchAll(/<script>([\s\S]*?)<\/script>/g))vm.runInContext(m[1],c);
+ assert.deepEqual(JSON.parse(JSON.stringify(c.window.result)),{canonical:2,visible:1,selected:['keep']});
+ assert.equal(audit.remainingQueue.visibleBrandLabels,687);
+ assert.equal(audit.remainingQueue.recordsWithoutUsableBrand,2057);
+});
