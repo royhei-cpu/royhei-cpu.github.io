@@ -4,7 +4,7 @@
   "requested_brands": [
     {
       "brand": "POP MART",
-      "records": 216,
+      "records": 222,
       "status": "Partial assortment"
     },
     {
@@ -14,7 +14,7 @@
     },
     {
       "brand": "52TOYS",
-      "records": 140,
+      "records": 143,
       "status": "Partial assortment"
     },
     {
@@ -103,10 +103,13 @@
     {
       "id": "skullpanda",
       "name": "SKULLPANDA",
-      "records": 30,
+      "records": 39,
       "product_ids": [
         "976536d04b8a2f1b",
+        "cca9fb0a240ad890",
         "c18e0fb39bed7dea",
+        "c6f50deb24a688ae",
+        "f82bb109b535c0ec",
         "c78e107b4e882c32",
         "366bfbfc9ab7af94",
         "6fcb33a5e68a446d",
@@ -126,9 +129,15 @@
         "19430d2db141f6dc",
         "3d1d37c40afae83f",
         "405abea5c15bd829",
+        "fa6aa3428b64ca3d",
+        "b70f1ab1e6ce6aea",
+        "45e3ef0bc5b6ebb1",
         "4f82b5e49013e605",
         "16b2c624a2f3648d",
         "a5f91237e9b1dc53",
+        "acf3945d37b87c83",
+        "f851936bac16096a",
+        "45aa4f0421c16f89",
         "06889aace4fde580",
         "dde6de70389b59bd",
         "f8abcc439289467e",
@@ -392,10 +401,13 @@
     {
       "id": "skullpanda",
       "name": "SKULLPANDA",
-      "records": 30,
+      "records": 39,
       "product_ids": [
         "976536d04b8a2f1b",
+        "cca9fb0a240ad890",
         "c18e0fb39bed7dea",
+        "c6f50deb24a688ae",
+        "f82bb109b535c0ec",
         "c78e107b4e882c32",
         "366bfbfc9ab7af94",
         "6fcb33a5e68a446d",
@@ -415,9 +427,15 @@
         "19430d2db141f6dc",
         "3d1d37c40afae83f",
         "405abea5c15bd829",
+        "fa6aa3428b64ca3d",
+        "b70f1ab1e6ce6aea",
+        "45e3ef0bc5b6ebb1",
         "4f82b5e49013e605",
         "16b2c624a2f3648d",
         "a5f91237e9b1dc53",
+        "acf3945d37b87c83",
+        "f851936bac16096a",
+        "45aa4f0421c16f89",
         "06889aace4fde580",
         "dde6de70389b59bd",
         "f8abcc439289467e",
@@ -816,9 +834,9 @@
         "089dc2b0893d5e17",
         "912318a5cc8ab64d",
         "cf43d8d20ed188d0",
-        "c5302dab9c5c6152",
         "8dd9089579f9baf4",
-        "4feeab81f41855df"
+        "4feeab81f41855df",
+        "c5302dab9c5c6152"
       ],
       "status": "Partial assortment"
     },
@@ -1318,7 +1336,7 @@
         "429569e256cf6d5e",
         "8344916aa0fcf1bc",
         "431d4ec47455b763",
-        "0a7040c00c1b3787",
+        "452a5523c797a7d8",
         "12b28b78b5197139",
         "81b21408898ad315"
       ],
@@ -1376,7 +1394,7 @@
         "e2c3e74f6a30d8f2",
         "4e5bbee40cd94e13",
         "3dd2e44660633b57",
-        "0350ef6a4f740993",
+        "2b89e0ba11c99bac",
         "9c5c0a157db7e8d6",
         "6e22861b8cdd6c55",
         "bbdead63cc800999",
@@ -1388,7 +1406,6 @@
         "5ef598ec37884e2b",
         "b689621ba33a2d0e",
         "476a11b86273da9d",
-        "30f42a4b2e8f9daf",
         "eefc9dd403c7b13b",
         "100e88cb2ca81a59",
         "3b9fc1f30a9b4538",
@@ -1397,6 +1414,7 @@
         "e2f25cc9da9ff0e2",
         "eb6d560b1f3b807f",
         "0f817b66313f3660",
+        "30f42a4b2e8f9daf",
         "1fe7f47ea0d6a99a"
       ],
       "status": "Partial assortment"
@@ -1574,8 +1592,8 @@
         "2692fc62577e6f07",
         "4afdd68648d3a570",
         "07cf928cbc58bacc",
-        "7faa1ef0508992cd",
-        "78c2da2572378aec"
+        "78c2da2572378aec",
+        "7faa1ef0508992cd"
       ],
       "status": "Partial assortment"
     },
@@ -1597,8 +1615,10 @@
     {
       "id": "lilith",
       "name": "LILITH",
-      "records": 9,
+      "records": 11,
       "product_ids": [
+        "1da76b0b231fc39b",
+        "19ee83845fd1f93f",
         "ef81df22b716e1c5",
         "cf7070a0691ec525",
         "3007006b2be44c6a",
@@ -2149,7 +2169,7 @@
     },
     {
       "character": "LuLu",
-      "records": 31,
+      "records": 32,
       "sample_sources": [
         "https://www.kikagoods.com/products/capylulus-daily-vibes-series-blind-box",
         "https://didapop.com/products/lulumi-candy-series-mini-plush-toy-blind-box",

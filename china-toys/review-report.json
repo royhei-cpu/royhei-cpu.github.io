@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-27",
-      "raw_products_read": 961,
+      "raw_products_read": 967,
       "currency": "USD"
     },
     {
@@ -17,7 +17,7 @@
       "url": "https://gotoptoy.com",
       "status": "complete",
       "checked": "2026-11-27",
-      "raw_products_read": 233,
+      "raw_products_read": 232,
       "currency": "USD"
     },
     {
@@ -80,7 +80,7 @@
       "url": "https://toybeta.com",
       "status": "complete",
       "checked": "2026-11-27",
-      "raw_products_read": 1267,
+      "raw_products_read": 1275,
       "currency": "USD"
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://didapop.com",
       "status": "complete",
       "checked": "2026-11-27",
-      "raw_products_read": 1862,
+      "raw_products_read": 1866,
       "currency": "USD"
     },
     {
@@ -98,7 +98,7 @@
       "url": "https://pawmiga.myshopify.com",
       "status": "complete",
       "checked": "2026-11-27",
-      "raw_products_read": 126,
+      "raw_products_read": 125,
       "currency": "USD"
     },
     {
@@ -116,7 +116,7 @@
       "url": "https://ronronsquishy.com",
       "status": "complete",
       "checked": "2026-11-27",
-      "raw_products_read": 44,
+      "raw_products_read": 46,
       "currency": "USD"
     },
     {
@@ -1061,6 +1061,12 @@
       "type": "brand label"
     },
     {
+      "id": "acf3945d37b87c83",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
       "id": "920d6a3825928488",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -1152,6 +1158,18 @@
     },
     {
       "id": "8b8893fa10a67d73",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "f851936bac16096a",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "45aa4f0421c16f89",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -1613,12 +1631,6 @@
       "type": "brand label"
     },
     {
-      "id": "e67ee9a97a132e38",
-      "from": "Lisa Squishy",
-      "to": "Lisa",
-      "type": "brand label"
-    },
-    {
       "id": "76c8bb60e66d5727",
       "from": "Lisa Squishy",
       "to": "Lisa",
@@ -1902,6 +1914,24 @@
     "d1a4683e57a03590"
   ],
   "image_repairs": [
+    {
+      "id": "fcd0120ade44f1ba",
+      "name": "Epics of a Warring Age Series Special 1/6 Action Figure BJD Blind Box【Shipped in Dec. 2026】",
+      "source": "https://www.kikagoods.com/products/epics-of-a-warring-age-series-special-1-6-action-figure-bjd-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "1da76b0b231fc39b",
+      "name": "Blessing of Lilith Series Plush Pendant Blind Box【Shipped in Dec. 2026/Jan. 2027】",
+      "source": "https://www.kikagoods.com/products/blessing-of-lilith-series-plush-pendant-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "ec0b3aa11018bb9b",
+      "name": "Hana Inspiration Drift Series Plush Pendant Blind Box",
+      "source": "https://www.kikagoods.com/products/hana-inspiration-drift-series-plush-pendant-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
     {
       "id": "2c65f43bb46bc9f4",
       "name": "LuLu the Piggy Teddy Mini 2 Pastel Pals Series Plush Phone Charm Blind Box",
@@ -3655,12 +3685,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "cd3d287d90dab391",
-      "name": "Doomsday Prologue Series 1/12 Action Figure BJD Blind Box",
-      "source": "https://www.kikagoods.com/products/doomsday-prologue-series-1-12-action-figure-bjd-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "e45ba49c22493e7c",
       "name": "MayMei Horoscope Stories Series Plush Blind Box",
       "source": "https://www.kikagoods.com/products/maymei-horoscope-stories-series-plush-blind-box",
@@ -4288,12 +4312,6 @@
       "id": "765d962c7f84230b",
       "name": "Crayon Shin-chan Meme Series Pendant Blind Box",
       "source": "https://gotoptoy.com/products/crayon-shin-chan-meme-series-pendant-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "30f42a4b2e8f9daf",
-      "name": "Hello Kitty and Friends Knock Knock Lucky Plush Charm Blind Box",
-      "source": "https://gotoptoy.com/products/hello-kitty-and-friends-knock-knock-lucky-plush-charm-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -5497,6 +5515,18 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
+      "id": "19ee83845fd1f93f",
+      "name": "LILITH BLESSING OF LILITH SERIES PLUSH PENDANT BLIND BOX",
+      "source": "https://hi52toys.com/products/lilith-blessing-of-lilith-series-plush-pendant-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "54011caa38221f5b",
+      "name": "Disney Mini Pals Plush Pendant Series",
+      "source": "https://hi52toys.com/products/disney-mini-pals-plush-pendant-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "b0f7564321db652a",
       "name": "PAC-MAN Clicky Fidget Collection Blind Box",
       "source": "https://hi52toys.com/products/pac-man-clicky-fidget-collection-blind-box",
@@ -6070,24 +6100,6 @@
       "id": "292c63cafc5ea0e2",
       "name": "CRAYON SHINCHAN DAILY 3RD",
       "source": "https://hi52toys.com/products/crayon-shin-chan-daily-3rd-series",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "5a8b2900ee53d3da",
-      "name": "BOB & TIM – BEST BUDDIES FOREVER VINYL PLUSH KEYCHAIN BLIND BOX",
-      "source": "https://hi52toys.com/products/bob-tim-best-buddies-forever-series-vinyl-plush-keychain-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "c5302dab9c5c6152",
-      "name": "NOOK OOTD PLUSH DOLL BLIND BOX",
-      "source": "https://hi52toys.com/products/nook-ootd-plush-doll-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "7faa1ef0508992cd",
-      "name": "CICILU OCEAN MESSENGER",
-      "source": "https://hi52toys.com/products/cicilu-ocean-messenger-series",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6694,6 +6706,48 @@
       "id": "cfa39130ed10d864",
       "name": "Sanrio Play With Kittens Vinyl Face Plush Keychain Blind Box",
       "source": "https://kouhightoys.com/products/sanrio-play-with-kittens-vinyl-face-plush-keychain-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "f82bb109b535c0ec",
+      "name": "SKULLPANDA CONNECTING NOW Series Friidge Magnet Blind Box",
+      "source": "https://toybeta.com/products/skullpanda-connecting-now-series-friidge-magnet-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "fa6aa3428b64ca3d",
+      "name": "θ SKULLPANDA WHO'S ONLINE? Series Phone Lanyard Blind Box",
+      "source": "https://toybeta.com/products/θ-skullpanda-whos-online-series-phone-lanyard-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "dc498f5b6f93a352",
+      "name": "【Pick Your Lucky Digit】Wendy-Dream Weaving Theater Series Beans Blind Bag【Treein Land】",
+      "source": "https://toybeta.com/products/wendy-dream-weaving-theater-series-beans-blind-bag-treein-land",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "45e3ef0bc5b6ebb1",
+      "name": "θ SKULLPANDA WHO'S ONLINE? Series Plush Mini Bag Blind Box",
+      "source": "https://toybeta.com/products/θ-skullpanda-whos-online-series-plush-mini-bag-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "b70f1ab1e6ce6aea",
+      "name": "θ SKULLPANDA WHO'S ONLINE? Series Plush Doll Pendant Blind Box",
+      "source": "https://toybeta.com/products/θ-skullpanda-whos-online-series-plush-doll-pendant-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "cca9fb0a240ad890",
+      "name": "POP BEAN SKULLPANDA CONNECTING NOW Series Blind Box",
+      "source": "https://toybeta.com/products/pop-bean-skullpanda-connecting-now-series-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "c6f50deb24a688ae",
+      "name": "SKULLPANDA CONNECTING NOW Series Figures Blind Box",
+      "source": "https://toybeta.com/products/skullpanda-connecting-now-series-figures-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12524,27 +12578,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4705,
-  "after_products": 4676,
+  "before_products": 4730,
+  "after_products": 4701,
   "stats": {
-    "products": 4674,
-    "brands": 804,
-    "squishy": 506,
-    "with_images": 4674,
+    "products": 4699,
+    "brands": 805,
+    "squishy": 515,
+    "with_images": 4699,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4665,
+    "with_source_prices": 4690,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2631,
-    "with_dimensions": 1803,
-    "with_variant_options": 4343,
-    "source_linked_images": 4350,
+    "with_specifications": 2643,
+    "with_dimensions": 1809,
+    "with_variant_options": 4361,
+    "source_linked_images": 4368,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 7,
-    "with_shop_descriptions": 3878
+    "with_shop_descriptions": 3893
   },
   "checklist": [
     {
@@ -12552,8 +12606,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 216,
-      "with_details": 136,
+      "records": 222,
+      "with_details": 142,
       "with_china_price": 6,
       "with_release": 21,
       "status": "Partial — more series and China evidence needed"
@@ -12574,8 +12628,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 140,
-      "with_details": 45,
+      "records": 143,
+      "with_details": 46,
       "with_china_price": 4,
       "with_release": 4,
       "status": "Partial — more series and China evidence needed"
@@ -12904,7 +12958,7 @@
       "group": "Squishy specialist watchlist",
       "basis": "Makers named by specialist stockists. Inclusion means assortment coverage to investigate, not proof each maker is nationally popular.",
       "source": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies",
-      "records": 38,
+      "records": 41,
       "with_details": 1,
       "with_china_price": 0,
       "with_release": 0,
@@ -13014,7 +13068,7 @@
       "group": "Squishy specialist watchlist",
       "basis": "Makers named by specialist stockists. Inclusion means assortment coverage to investigate, not proof each maker is nationally popular.",
       "source": "https://heartfeltsquishy.shoplineapp.com/categories/all-chinese-squishies",
-      "records": 17,
+      "records": 20,
       "with_details": 0,
       "with_china_price": 0,
       "with_release": 0,
