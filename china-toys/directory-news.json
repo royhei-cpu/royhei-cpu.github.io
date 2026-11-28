@@ -1,5 +1,126 @@
 [
   {
+    "id": "finding-unicorn-shinwoo-sesame-street-mainland-20261120",
+    "title": "Finding Unicorn ShinWoo Sesame Street blind boxes: November 27 report supplies mainland release pricing",
+    "summary": "November 27 trade coverage reports a November 20 mainland release for ShinWoo 奇遇芝麻街, six regular designs and one secret. Reported reference prices: CNY 69 per random box and CNY 414 per case; case quantity is not expressly stated. The substantially similar secondary reports do not independently confirm the issuer announcement. Direct brand listing, licensing terms, checkout and individual chain stock are not verified. This is newly captured dated release evidence, not a November 28 launch or a newly collected product.",
+    "date": "2026-11-20",
+    "eventDate": "2026-11-20",
+    "sourcePublished": "2026-11-27",
+    "checked": "2026-11-28",
+    "added": "2026-11-28",
+    "type": "Trade-reported mainland release and reference prices",
+    "dateLabel": "Reported mainland launch; new evidence November 27",
+    "market": "Mainland China",
+    "currency": "CNY",
+    "priceBasis": "Trade-reported reference prices; not checkout",
+    "packOptions": [
+      {
+        "name": "Single random box",
+        "count": 1,
+        "currency": "CNY",
+        "price": 69
+      },
+      {
+        "name": "Case",
+        "count": null,
+        "currency": "CNY",
+        "price": 414
+      }
+    ],
+    "sources": [
+      {
+        "label": "模玩迷 November 27 report",
+        "url": "https://mowanmi.com/post/8614.html"
+      },
+      {
+        "label": "蒜肠网 similar trade coverage",
+        "url": "https://suanchang.com/TFquan/15469.html"
+      },
+      {
+        "label": "枢界 reproduction of 模玩迷 (not independent)",
+        "url": "https://www.mokihub.com/acgn-express/model-news/12895.html"
+      }
+    ]
+  },
+  {
+    "id": "52toys-lilith-blessing-international-20261126",
+    "title": "52TOYS Blessing of Lilith plush pendant blind boxes listed November 26",
+    "summary": "Official USD storefront new-arrivals calendar lists November 26. Product page checked November 28 displays USD 15.99 with Single Box selected and a separate six-box whole-set choice. Whole-set price was not rendered; the exact variant feed could not be verified in this check. Six regular designs and secret Guardian (1/72), approximately 10 cm, PVC and polyester fiber. This is overseas listing evidence, not a mainland launch, squishy classification, chain inventory or a new catalog capture.",
+    "date": "2026-11-26",
+    "eventDate": "2026-11-26",
+    "sourcePublished": null,
+    "checked": "2026-11-28",
+    "added": "2026-11-28",
+    "type": "Official overseas dated listing and pack choices",
+    "dateLabel": "Retailer new-arrival date",
+    "market": "International USD storefront",
+    "currency": "USD",
+    "priceBasis": "Displayed selected single-box price; exact set price unverified",
+    "packOptions": [
+      {
+        "name": "Single Box",
+        "count": 1,
+        "currency": "USD",
+        "price": 15.99
+      },
+      {
+        "name": "Whole Set(6 Boxes)",
+        "count": 6,
+        "currency": "USD",
+        "price": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "52TOYS dated new arrivals",
+        "url": "https://hi52toys.com/pages/new-arrival"
+      },
+      {
+        "label": "52TOYS official product and pack choices",
+        "url": "https://hi52toys.com/products/lilith-blessing-of-lilith-series-plush-pendant-blind-box"
+      }
+    ]
+  },
+  {
+    "id": "52toys-disney-mini-pals-international-20261126",
+    "title": "52TOYS Disney Mini Pals: separate USD listing and six-box pack evidence",
+    "summary": "Official USD storefront calendar lists November 26; product page checked November 28 displays USD 6.99 with Single Box selected. The listing explicitly offers a six-box nonrepeating whole set, but its selected price was not rendered and the exact variant feed could not be verified in this check. Six regular designs and Vintage Mickey secret; flocked PVC, approximately 4 cm. Despite the plush wording in the listing, this is not verified as a squishy. Keep this overseas evidence separate from the November 26 mainland trade-reported Mini Charms prices and Taiwan preorder deposits; mainland checkout and matching market-specific pack identity remain unverified.",
+    "date": "2026-11-26",
+    "eventDate": "2026-11-26",
+    "sourcePublished": null,
+    "checked": "2026-11-28",
+    "added": "2026-11-28",
+    "type": "Official overseas dated listing and pack choices",
+    "dateLabel": "Retailer new-arrival date",
+    "market": "International USD storefront",
+    "currency": "USD",
+    "priceBasis": "Displayed selected single-box price; exact set price unverified",
+    "packOptions": [
+      {
+        "name": "Single Box",
+        "count": 1,
+        "currency": "USD",
+        "price": 6.99
+      },
+      {
+        "name": "Whole Set(6 Boxes)",
+        "count": 6,
+        "currency": "USD",
+        "price": null
+      }
+    ],
+    "sources": [
+      {
+        "label": "52TOYS dated new arrivals",
+        "url": "https://hi52toys.com/pages/new-arrival"
+      },
+      {
+        "label": "52TOYS official product and pack choices",
+        "url": "https://hi52toys.com/products/disney-mini-pals-plush-pendant-blind-box"
+      }
+    ]
+  },
+  {
     "id": "toptoy-sanrio-knock-knock-lucky-mainland-20261120",
     "title": "TOP TOY Sanrio Knock Knock Lucky plush charms: November 26 report gives mainland launch pricing",
     "summary": "A November 26 trade report identifies November 20 as the mainland release date for 三丽鸥家族敲敲好运系列 plush charm blind boxes, with eight regular designs and one secret. Reported reference prices are CNY 79 per random box and CNY 632 per case. The case quantity is not explicitly confirmed in the mainland source; the separately documented international shop has an eight-box option, but that does not establish the mainland pack. A November 18 Japanese fan report reproducing a TOP TOY RED announcement also describes a phased November 20 China online/store rollout and the same prices. The original issuer post and current mainland checkout/branch stock are not directly verified. The November 26 report is new evidence for an earlier release, not a new November 27 launch or a newly collected product; the existing international USD listing remains separate.",
