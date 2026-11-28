@@ -45,7 +45,7 @@
   {
     "id": "52toys-lilith-blessing-international-20261126",
     "title": "52TOYS Blessing of Lilith plush pendant blind boxes listed November 26",
-    "summary": "Official USD storefront new-arrivals calendar lists November 26. Product page checked November 28 displays USD 15.99 with Single Box selected and a separate six-box whole-set choice. Whole-set price was not rendered; the exact variant feed could not be verified in this check. Six regular designs and secret Guardian (1/72), approximately 10 cm, PVC and polyester fiber. This is overseas listing evidence, not a mainland launch, squishy classification, chain inventory or a new catalog capture.",
+    "summary": "Official USD storefront new-arrivals calendar lists November 26. Product page checked November 28 displays USD 15.99 with Single Box selected and a separate six-box whole-set choice. Official variant feed separately confirms USD 95.94 for the six-box set. Six regular designs and secret Guardian (1/72), approximately 10 cm, PVC and polyester fiber. This is overseas listing evidence, not a mainland launch, squishy classification, chain inventory or a new catalog capture. Both feed options were marked available at check time; not checkout or branch stock evidence.",
     "date": "2026-11-26",
     "eventDate": "2026-11-26",
     "sourcePublished": null,
@@ -55,19 +55,23 @@
     "dateLabel": "Retailer new-arrival date",
     "market": "International USD storefront",
     "currency": "USD",
-    "priceBasis": "Displayed selected single-box price; exact set price unverified",
+    "priceBasis": "Official USD storefront exact selected option feed; asking prices, not completed sales",
     "packOptions": [
       {
         "name": "Single Box",
         "count": 1,
         "currency": "USD",
-        "price": 15.99
+        "price": 15.99,
+        "sku": "26CB408LLZF-HW",
+        "variantId": "68022590701883"
       },
       {
         "name": "Whole Set(6 Boxes)",
         "count": 6,
         "currency": "USD",
-        "price": null
+        "price": 95.94,
+        "sku": "26CB408LLZF-ZH-HW",
+        "variantId": "68022590734651"
       }
     ],
     "sources": [
@@ -78,13 +82,18 @@
       {
         "label": "52TOYS official product and pack choices",
         "url": "https://hi52toys.com/products/lilith-blessing-of-lilith-series-plush-pendant-blind-box"
+      },
+      {
+        "label": "52TOYS exact option feed",
+        "url": "https://hi52toys.com/products/lilith-blessing-of-lilith-series-plush-pendant-blind-box.js"
       }
-    ]
+    ],
+    "retailerPublishedAt": "2026-11-26T23:55:31-08:00"
   },
   {
     "id": "52toys-disney-mini-pals-international-20261126",
     "title": "52TOYS Disney Mini Pals: separate USD listing and six-box pack evidence",
-    "summary": "Official USD storefront calendar lists November 26; product page checked November 28 displays USD 6.99 with Single Box selected. The listing explicitly offers a six-box nonrepeating whole set, but its selected price was not rendered and the exact variant feed could not be verified in this check. Six regular designs and Vintage Mickey secret; flocked PVC, approximately 4 cm. Despite the plush wording in the listing, this is not verified as a squishy. Keep this overseas evidence separate from the November 26 mainland trade-reported Mini Charms prices and Taiwan preorder deposits; mainland checkout and matching market-specific pack identity remain unverified.",
+    "summary": "Official USD storefront calendar lists November 26; product page checked November 28 displays USD 6.99 with Single Box selected. The listing explicitly offers a six-box nonrepeating whole set, and its official variant feed separately confirms USD 41.94 for that option. Six regular designs and Vintage Mickey secret; flocked PVC, approximately 4 cm. Despite the plush wording in the listing, this is not verified as a squishy. Keep this overseas evidence separate from the November 26 mainland trade-reported Mini Charms prices and Taiwan preorder deposits; mainland checkout and matching market-specific pack identity remain unverified. Both feed options were marked available at check time; not checkout or branch stock evidence.",
     "date": "2026-11-26",
     "eventDate": "2026-11-26",
     "sourcePublished": null,
@@ -94,19 +103,23 @@
     "dateLabel": "Retailer new-arrival date",
     "market": "International USD storefront",
     "currency": "USD",
-    "priceBasis": "Displayed selected single-box price; exact set price unverified",
+    "priceBasis": "Official USD storefront exact selected option feed; asking prices, not completed sales",
     "packOptions": [
       {
         "name": "Single Box",
         "count": 1,
         "currency": "USD",
-        "price": 6.99
+        "price": 6.99,
+        "sku": "26CB666DSN1-HW",
+        "variantId": "68008252047675"
       },
       {
         "name": "Whole Set(6 Boxes)",
         "count": 6,
         "currency": "USD",
-        "price": null
+        "price": 41.94,
+        "sku": "26CB666DSN1-HW-ZH",
+        "variantId": "68008252080443"
       }
     ],
     "sources": [
@@ -117,8 +130,13 @@
       {
         "label": "52TOYS official product and pack choices",
         "url": "https://hi52toys.com/products/disney-mini-pals-plush-pendant-blind-box"
+      },
+      {
+        "label": "52TOYS exact option feed",
+        "url": "https://hi52toys.com/products/disney-mini-pals-plush-pendant-blind-box.js"
       }
-    ]
+    ],
+    "retailerPublishedAt": "2026-11-26T23:29:22-08:00"
   },
   {
     "id": "toptoy-sanrio-knock-knock-lucky-mainland-20261120",
