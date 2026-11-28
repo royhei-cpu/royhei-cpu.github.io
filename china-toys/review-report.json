@@ -8,7 +8,7 @@
       "url": "https://www.kikagoods.com",
       "status": "complete",
       "checked": "2026-11-28",
-      "raw_products_read": 957,
+      "raw_products_read": 955,
       "currency": "USD"
     },
     {
@@ -1032,6 +1032,12 @@
     },
     {
       "id": "9eff641abb3f4b0b",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "7c0f72a3772c0c64",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -2698,12 +2704,6 @@
       "id": "5a40c7f98dfb9784",
       "name": "Mona Sweet Dream Prologue Series Blind Box",
       "source": "https://www.kikagoods.com/products/mona-sweet-dream-prologue-series-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "348d9635f61d9a19",
-      "name": "Miya Awakening of the Heart Series Blind Box",
-      "source": "https://www.kikagoods.com/products/miya-hearts-awakening-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6742,6 +6742,18 @@
       "id": "cfa39130ed10d864",
       "name": "Sanrio Play With Kittens Vinyl Face Plush Keychain Blind Box",
       "source": "https://kouhightoys.com/products/sanrio-play-with-kittens-vinyl-face-plush-keychain-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "79137d3444ff377a",
+      "name": "XIUXIU Happy Birthday Series Mini Blind Box",
+      "source": "https://toybeta.com/products/xiuxiu-happy-birthday-series-mini-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "fa6aa3428b64ca3d",
+      "name": "θ SKULLPANDA WHO'S ONLINE? Series Phone Lanyard Blind Box",
+      "source": "https://toybeta.com/products/θ-skullpanda-whos-online-series-phone-lanyard-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12626,27 +12638,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4735,
-  "after_products": 4706,
+  "before_products": 4737,
+  "after_products": 4708,
   "stats": {
-    "products": 4704,
+    "products": 4706,
     "brands": 805,
     "squishy": 515,
-    "with_images": 4704,
+    "with_images": 4706,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4695,
+    "with_source_prices": 4697,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2646,
-    "with_dimensions": 1811,
-    "with_variant_options": 4366,
-    "source_linked_images": 4373,
+    "with_specifications": 2647,
+    "with_dimensions": 1812,
+    "with_variant_options": 4368,
+    "source_linked_images": 4375,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 7,
-    "with_shop_descriptions": 3896
+    "with_shop_descriptions": 3897
   },
   "checklist": [
     {
