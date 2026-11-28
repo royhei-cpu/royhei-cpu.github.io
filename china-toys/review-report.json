@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-11-27",
+  "reviewed": "2026-11-28",
   "version": "20261030-evidence-1",
   "source_checks": [
     {
@@ -7,8 +7,8 @@
       "name": "KikaGoods",
       "url": "https://www.kikagoods.com",
       "status": "complete",
-      "checked": "2026-11-27",
-      "raw_products_read": 967,
+      "checked": "2026-11-28",
+      "raw_products_read": 957,
       "currency": "USD"
     },
     {
@@ -16,7 +16,7 @@
       "name": "TOP TOY international store",
       "url": "https://gotoptoy.com",
       "status": "complete",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 232,
       "currency": "USD"
     },
@@ -25,7 +25,7 @@
       "name": "52TOYS international store",
       "url": "https://hi52toys.com",
       "status": "complete",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 214,
       "currency": "USD"
     },
@@ -34,7 +34,7 @@
       "name": "Rolife international store",
       "url": "https://www.rolifeonline.com",
       "status": "unavailable",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -43,7 +43,7 @@
       "name": "TOYZEROPLUS",
       "url": "https://toyzeroplus.com",
       "status": "complete",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 331,
       "currency": "HKD"
     },
@@ -52,7 +52,7 @@
       "name": "Hello Molynk",
       "url": "https://www.molynk.shop",
       "status": "unavailable",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -61,7 +61,7 @@
       "name": "Finding Unicorn international store",
       "url": "https://www.findingunicorn.net",
       "status": "unavailable",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 0,
       "currency": "USD"
     },
@@ -70,7 +70,7 @@
       "name": "Kouhigh Toys",
       "url": "https://kouhightoys.com",
       "status": "complete",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 248,
       "currency": "USD"
     },
@@ -79,8 +79,8 @@
       "name": "ToyBeta",
       "url": "https://toybeta.com",
       "status": "complete",
-      "checked": "2026-11-27",
-      "raw_products_read": 1275,
+      "checked": "2026-11-28",
+      "raw_products_read": 1277,
       "currency": "USD"
     },
     {
@@ -88,8 +88,8 @@
       "name": "DidaPop",
       "url": "https://didapop.com",
       "status": "complete",
-      "checked": "2026-11-27",
-      "raw_products_read": 1866,
+      "checked": "2026-11-28",
+      "raw_products_read": 1868,
       "currency": "USD"
     },
     {
@@ -97,7 +97,7 @@
       "name": "Pawmiga World",
       "url": "https://pawmiga.myshopify.com",
       "status": "complete",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 125,
       "currency": "USD"
     },
@@ -106,7 +106,7 @@
       "name": "Iris Squishy",
       "url": "https://irissquishy.com",
       "status": "complete",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 114,
       "currency": "USD"
     },
@@ -115,7 +115,7 @@
       "name": "RonRon Squishy",
       "url": "https://ronronsquishy.com",
       "status": "complete",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 46,
       "currency": "USD"
     },
@@ -124,7 +124,7 @@
       "name": "ANTHILL shopNplay",
       "url": "https://anthillshop.com",
       "status": "complete",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 691,
       "currency": "USD"
     },
@@ -133,7 +133,7 @@
       "name": "JOTOYS international store",
       "url": "https://jotoys.store",
       "status": "complete",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 56,
       "currency": "USD"
     },
@@ -142,7 +142,7 @@
       "name": "Sonny Angel Japan official store",
       "url": "https://www.sonnyangelstore.com",
       "status": "complete",
-      "checked": "2026-11-27",
+      "checked": "2026-11-28",
       "raw_products_read": 111,
       "currency": "JPY"
     }
@@ -540,6 +540,12 @@
     },
     {
       "id": "b07d38e5f87521df",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
+      "id": "3c728eb6f6ae1261",
       "from": "DidaPop",
       "to": "Brand not disclosed",
       "type": "brand label"
@@ -1475,6 +1481,12 @@
       "type": "brand label"
     },
     {
+      "id": "cc11a4c30dd9bc6c",
+      "from": "DidaPop",
+      "to": "Brand not disclosed",
+      "type": "brand label"
+    },
+    {
       "id": "926ef81d6da1aef7",
       "from": "DidaPop",
       "to": "Brand not disclosed",
@@ -1915,6 +1927,12 @@
   ],
   "image_repairs": [
     {
+      "id": "0bf42309f9594a46",
+      "name": "ME: Meet Yourself Series Plush Blind Box",
+      "source": "https://www.kikagoods.com/products/me-meet-yourself-series-plush-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "fcd0120ade44f1ba",
       "name": "Epics of a Warring Age Series Special 1/6 Action Figure BJD Blind Box【Shipped in Dec. 2026】",
       "source": "https://www.kikagoods.com/products/epics-of-a-warring-age-series-special-1-6-action-figure-bjd-blind-box",
@@ -1936,6 +1954,18 @@
       "id": "2c65f43bb46bc9f4",
       "name": "LuLu the Piggy Teddy Mini 2 Pastel Pals Series Plush Phone Charm Blind Box",
       "source": "https://www.kikagoods.com/products/lulu-the-piggy-teddy-mini-2-pastel-pals-series-plush-phone-charm-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "f9309f5be09c4f87",
+      "name": "Spirit Maiden Series Special 1/6 Action Figure BJD Blind Box",
+      "source": "https://www.kikagoods.com/products/spirit-maiden-series-special-1-6-action-figure-bjd-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "09030d26413af517",
+      "name": "Dokidoki Series Special 1/6 Action Figure BJD Blind Box",
+      "source": "https://www.kikagoods.com/products/dokidoki-series-special-1-6-action-figure-bjd-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -2101,9 +2131,9 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "e224adf157cfd9b8",
-      "name": "Mipaw Flower Dwelling Series Plush Blind Box",
-      "source": "https://www.kikagoods.com/products/mipaw-flower-dwelling-series-plush-blind-box",
+      "id": "34098966deb3f98a",
+      "name": "Dedicated to Emily Series Special 1/6 Action Figure BJD Blind Box",
+      "source": "https://www.kikagoods.com/products/dedicated-to-emily-series-special-1-6-action-figure-bjd-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -2158,6 +2188,12 @@
       "id": "c54f0abf81511343",
       "name": "Good Night Ojosama Series Special 1/6 Action Figure BJD Blind Box",
       "source": "https://www.kikagoods.com/products/good-night-ojosama-series-special-1-6-action-figure-bjd-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "a87a0308739c9901",
+      "name": "Let's Farm Octcats! Series Blind Bag",
+      "source": "https://www.kikagoods.com/products/lets-farm-octcats-series-blind-bag",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -2251,12 +2287,6 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "7aed5d8b38395071",
-      "name": "Gismow What Mow is that Series Plush Blind Box",
-      "source": "https://www.kikagoods.com/products/gismow-what-mow-is-that-series-plush-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
       "id": "2633389e38a36275",
       "name": "Gululu Deer in the Mist Series Plush Blind Box",
       "source": "https://www.kikagoods.com/products/gululu-deer-in-the-mist-series-plush-blind-box",
@@ -2335,6 +2365,18 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
+      "id": "feb3ade93820421a",
+      "name": "Alien Stage Zombie Stage: Fading Youth Series Polaroid Photocard Blind Box",
+      "source": "https://www.kikagoods.com/products/alien-stage-zombie-stage-fading-youth-series-polaroid-photocard-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "8d7f0cc5e2e49b12",
+      "name": "Alien Stage Zombie Stage: Fading Youth Series Magnetic Music Player Blind Box",
+      "source": "https://www.kikagoods.com/products/alien-stage-zombie-stage-fading-youth-series-magnetic-music-player-blind-box",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
       "id": "bfc0f3786ddb54a8",
       "name": "Alien Stage Zombie Stage: Fading Youth Series Character Badge Blind Box",
       "source": "https://www.kikagoods.com/products/alien-stage-zombie-stage-fading-youth-series-character-badge-blind-box",
@@ -2365,9 +2407,9 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "e5f4141b00f94fd9",
-      "name": "Super Art Animal Series Blind Box",
-      "source": "https://www.kikagoods.com/products/super-art-animal-series-blind-box",
+      "id": "6e2aa248e1a86f35",
+      "name": "Ghost Blade Series Special 1/6 Action Figure BJD Blind Box",
+      "source": "https://www.kikagoods.com/products/ghost-blade-series-special-1-6-action-figure-bjd-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -4018,12 +4060,6 @@
       "id": "1f32468e8891e239",
       "name": "Cooze Devil Horns Series 1/8 Action Figure BJD Blind Box",
       "source": "https://www.kikagoods.com/products/cooze-devil-horns-series-1-8-action-figure-bjd-blind-box",
-      "reason": "Store supplies an image for the selected price variant"
-    },
-    {
-      "id": "c5f6362be727a917",
-      "name": "MR.PA No Work Today Series Blind Box",
-      "source": "https://www.kikagoods.com/products/mr-pa-no-work-today-series-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -6709,15 +6745,27 @@
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "f82bb109b535c0ec",
-      "name": "SKULLPANDA CONNECTING NOW Series Friidge Magnet Blind Box",
-      "source": "https://toybeta.com/products/skullpanda-connecting-now-series-friidge-magnet-blind-box",
+      "id": "89225a3b3611c323",
+      "name": "TuTu Bear-Little Me，Big Dreams Series Beans Blind Bag",
+      "source": "https://toybeta.com/products/tutu-bear-little-me-big-dreams-series-beans-blind-bag",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
-      "id": "fa6aa3428b64ca3d",
-      "name": "θ SKULLPANDA WHO'S ONLINE? Series Phone Lanyard Blind Box",
-      "source": "https://toybeta.com/products/θ-skullpanda-whos-online-series-phone-lanyard-blind-box",
+      "id": "49ef60a6080263c5",
+      "name": "【COUNT PACK】AMLLS Vuuyoo Neon Signal Series Beans Blind Bag",
+      "source": "https://toybeta.com/products/count-pack-amlls-vuuyoo-neon-signal-series-beans-blind-bag",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "828cf20575b40e10",
+      "name": "Tangtang- The Time And Tide Dollhouse Series Mini Beans Blind Bag",
+      "source": "https://toybeta.com/products/count-pack-tangtang-the-time-and-tide-dollhouse-series-mini-beans-blind-bag",
+      "reason": "Store supplies an image for the selected price variant"
+    },
+    {
+      "id": "f82bb109b535c0ec",
+      "name": "SKULLPANDA CONNECTING NOW Series Friidge Magnet Blind Box",
+      "source": "https://toybeta.com/products/skullpanda-connecting-now-series-friidge-magnet-blind-box",
       "reason": "Store supplies an image for the selected price variant"
     },
     {
@@ -12578,27 +12626,27 @@
     }
   ],
   "image_failures": [],
-  "before_products": 4730,
-  "after_products": 4701,
+  "before_products": 4735,
+  "after_products": 4706,
   "stats": {
-    "products": 4699,
+    "products": 4704,
     "brands": 805,
     "squishy": 515,
-    "with_images": 4699,
+    "with_images": 4704,
     "with_launch_dates": 32,
     "with_mainland_launch_dates": 13,
     "with_china_prices": 12,
     "with_sales": 0,
-    "with_source_prices": 4690,
+    "with_source_prices": 4695,
     "image_research_queue": 0,
     "with_trend_signals": 4,
-    "with_specifications": 2643,
-    "with_dimensions": 1809,
-    "with_variant_options": 4361,
-    "source_linked_images": 4368,
+    "with_specifications": 2646,
+    "with_dimensions": 1811,
+    "with_variant_options": 4366,
+    "source_linked_images": 4373,
     "source_leads_excluded": 24,
     "visually_reviewed_sample": 7,
-    "with_shop_descriptions": 3893
+    "with_shop_descriptions": 3896
   },
   "checklist": [
     {
@@ -12793,8 +12841,8 @@
       "group": "Core blind-box brands and stores",
       "basis": "Cross-checked editorial and market-reference coverage; no ordinal sales ranking implied.",
       "source": "https://t.cj.sina.com.cn/articles/view/5893582170/15f48ed5a00101b6ec",
-      "records": 2,
-      "with_details": 2,
+      "records": 3,
+      "with_details": 3,
       "with_china_price": 0,
       "with_release": 0,
       "status": "Partial — more series and China evidence needed"
