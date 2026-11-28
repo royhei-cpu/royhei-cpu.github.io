@@ -1,12 +1,27 @@
 {
-  "edition": "2026-11-27",
+  "edition": "2026-11-28",
   "periodStart": "2026-11-13",
-  "periodEnd": "2026-11-27",
+  "periodEnd": "2026-11-28",
   "baseline": false,
   "schedule": "Daily checks at 10:00 a.m. Shenzhen time; full review Mondays",
-  "nextScheduled": "2026-11-28",
+  "nextScheduled": "2026-11-29",
   "coverage": "The 26 November retailer expansion remains the latest broad channel audit; comprehensive Monday review remains scheduled. Today adds four BAGSMART variants and six Sam’s Club offers, with 20 reviewed photographs. One launch and one retailer promotion are verified. Material, repair-parts and full-assortment gaps remain explicit. Dates on unreviewed records are unchanged.",
   "items": [
+    {
+      "id": "quince-hybrid-checkin-promotion-2026-11-28",
+      "brand": "Quince",
+      "brandId": "quince",
+      "title": "Quince Black Hybrid Large Check-In advertises USD 200",
+      "date": "2026-11-28",
+      "dateType": "First Atlas observation; promotion start and end timestamp unknown",
+      "status": "Promotion",
+      "market": "United States",
+      "change": "The exact Black product page displays USD 200 against its USD 240 original-price reference, with a today-only discount applied at checkout. Checkout was not tested; timezone and expiry timestamp are unverified. The Black Hybrid Carry-On is separately listed at USD 195. Product launch dates remain unknown.",
+      "price": "USD 200 check-in; USD 195 carry-on",
+      "source": "https://www.quince.com/unisex/hybrid-large-check-in-suitcase?color=black",
+      "theme": "Retailer promotion",
+      "photoId": "quince-hybrid-large-black-reference-0"
+    },
     {
       "id": "bagsmart-pebble-switch-2026",
       "brand": "BAGSMART",
@@ -285,11 +300,11 @@
     "note": "DTA / DTA Nova added; existing price and news brand references reconciled."
   },
   "latestBulletin": {
-    "checked": "2026-11-27",
-    "newsDate": "2026-11-26",
-    "title": "Interchangeable-wheel launch and Sam’s Club product evidence",
-    "text": "The 26 November retailer expansion remains the latest broad channel audit; comprehensive Monday review remains scheduled. Today adds four BAGSMART variants and six Sam’s Club offers, with 20 reviewed photographs. One launch and one retailer promotion are verified. Material, repair-parts and full-assortment gaps remain explicit. Dates on unreviewed records are unchanged.",
-    "source": "https://www.prnewswire.com/news-releases/bagsmart-launches-pebble-carry-on-switch-built-for-a-customizable-and-convenient-travel-experience-302950315.html",
-    "records": 10
+    "checked": "2026-11-28",
+    "newsDate": "2026-11-28",
+    "title": "Quince hybrid offers and observed promotion",
+    "text": "Two exact Black Quince offers added. One promotion verified; zero new verified launches. The comprehensive Monday review is retained. BINHAO remains quote-only in the checked official catalog. Dimensions, exact photo matching and launch dates remain gaps.",
+    "source": "https://www.quince.com/unisex/hybrid-large-check-in-suitcase?color=black",
+    "records": 2
   }
 }

@@ -1,5 +1,28 @@
 [
   {
+    "id": "quince-hybrid-checkin-promotion-2026-11-28",
+    "date": "2026-11-28",
+    "dateLabel": "First Atlas observation; promotion start and end timestamp unknown",
+    "announcementDate": null,
+    "launchDate": null,
+    "added": "2026-11-28",
+    "checked": "2026-11-28",
+    "type": "Promotion",
+    "title": "Quince Black Hybrid Large Check-In advertises USD 200",
+    "summary": "The exact Black product page displays USD 200 against its USD 240 original-price reference, with a today-only discount applied at checkout. Checkout was not tested; timezone and expiry timestamp are unverified. The Black Hybrid Carry-On is separately listed at USD 195. Product launch dates remain unknown.",
+    "market": "United States",
+    "sources": [
+      {
+        "label": "Exact Black check-in offer",
+        "url": "https://www.quince.com/unisex/hybrid-large-check-in-suitcase?color=black"
+      },
+      {
+        "label": "Exact Black carry-on offer",
+        "url": "https://www.quince.com/unisex/hybrid-carry-on-suitcase?color=black"
+      }
+    ]
+  },
+  {
     "id": "bagsmart-pebble-switch-2026",
     "date": "2026-11-26",
     "dateLabel": "Company announcement and stated availability 26 November; storefront listing timestamp 20 November; first Atlas observation and verification 27 November.",

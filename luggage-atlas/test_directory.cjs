@@ -83,9 +83,9 @@ assert(el('#directoryCategoryChips').innerHTML.includes('All luggage'));assert(e
 console.log('PASS: retailer and category filters, synchronized chips/dropdowns, exact facet counts, filtered exports, empty market, reset and preserved comparison.');
 
 run("directoryFilters={q:'',retailer:'Quince',brand:brandBy('Quince').id,market:'United States',sort:'recent'};drawDirectory()");
-assert(run("directoryRows().length===2&&directoryRows().every(p=>p.brand==='Quince'&&directoryMarket(p)==='United States')"));
+assert(run("directoryRows().length===window.ATLAS.prices.filter(p=>p.brand==='Quince').length&&directoryRows().every(p=>p.brand==='Quince'&&directoryMarket(p)==='United States')"));
 assert.equal(run("directoryMarket({market:'Online storefront · USD'})"),'Country not confirmed');
 assert.equal(run("directoryMarket({market:'US storefront'})"),'United States');
 assert.equal(run("directoryMarket({market:'UK'})"),'United Kingdom');
-assert.equal(run("directoryRows()[0].date"),'2026-11-25');
+assert.equal(run("directoryRows()[0].date"),run("window.ATLAS.prices.filter(p=>p.brand==='Quince').map(p=>p.date).sort().at(-1)"));
 console.log('PASS: combined retailer/brand/country selection, country evidence boundaries and latest-check ordering.');

@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "scope": "Evidence for individually reviewed offers. Older model records are available in model-features.json.",
   "records": [
     {
@@ -2366,6 +2366,60 @@
         "Launch and retailer listing dates unknown.",
         "Production revision, factory and repair-parts availability unknown."
       ]
+    },
+    {
+      "offerId": "offer-cf60e41b",
+      "brandId": "quince",
+      "model": "Hybrid Carry-On Suitcase",
+      "size": "Carry-On",
+      "color": "Black",
+      "dimensions": null,
+      "announcementDate": null,
+      "launchDate": null,
+      "listingDate": null,
+      "firstObserved": "2026-11-28",
+      "added": "2026-11-28",
+      "observed": "2026-11-28",
+      "source": "https://www.quince.com/unisex/hybrid-carry-on-suitcase?color=black",
+      "price": 195,
+      "currency": "USD",
+      "photoIds": [
+        "quince-hybrid-carry-black-reference-0",
+        "quince-hybrid-carry-black-reference-1"
+      ],
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Exterior dimensions unavailable in retrieved page: Size & Fit accordion content not returned.",
+        "Gallery images retained as source references, not visually verified exterior/interior matches.",
+        "Factory, repair tools and compatible spare parts unknown."
+      ]
+    },
+    {
+      "offerId": "offer-e3dd438a",
+      "brandId": "quince",
+      "model": "Hybrid Large Check-In Suitcase",
+      "size": "Large Check-In",
+      "color": "Black",
+      "dimensions": null,
+      "announcementDate": null,
+      "launchDate": null,
+      "listingDate": null,
+      "firstObserved": "2026-11-28",
+      "added": "2026-11-28",
+      "observed": "2026-11-28",
+      "source": "https://www.quince.com/unisex/hybrid-large-check-in-suitcase?color=black",
+      "price": 200,
+      "currency": "USD",
+      "photoIds": [
+        "quince-hybrid-large-black-reference-0",
+        "quince-hybrid-large-black-reference-1"
+      ],
+      "uncertainty": [
+        "Launch and retailer listing dates unknown.",
+        "Exterior dimensions unavailable in retrieved page: Size & Fit accordion content not returned.",
+        "Gallery images retained as source references, not visually verified exterior/interior matches.",
+        "Factory, repair tools and compatible spare parts unknown."
+      ]
     }
   ],
   "byBrand": {
@@ -2532,6 +2586,10 @@
     ],
     "tumi": [
       "offer-81201da5"
+    ],
+    "quince": [
+      "offer-cf60e41b",
+      "offer-e3dd438a"
     ]
   }
 }

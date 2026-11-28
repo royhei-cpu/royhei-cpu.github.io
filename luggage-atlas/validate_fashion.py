@@ -24,6 +24,7 @@ for r in f['records'].values():
  if s.get('records'):assert s.get('sources') and s.get('modelMatch')
 assert any(r['name']=='Amazon US' for r in d['retailers'])
 assert any(r['name']=='Quince' for r in d['retailers'])
-assert len([x for x in d['prices'] if x['brand']=='Quince'])==2
+assert len([x for x in d['prices'] if x['brand']=='Quince'])>=2
+assert all(any(x['brand']=='Quince' and x['product']==name for x in d['prices']) for name in ['Carry-On Suitcase · Navy','Front Pocket Carry-On Suitcase · Navy'])
 assert all(x in (p/'index.html').read_text() for x in ['fashion.js','fashion-ui.js','fashion.css','photo-assets-7.js'])
 print('Validated',len(f['records']),'style/shopper assessments and supplier scope; Amazon and Quince coverage present.')

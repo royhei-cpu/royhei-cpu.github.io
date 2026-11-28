@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "scope": "All 50 previously tracked retail channels attempted, plus Home Depot structured search. Existing brand-store observations retained. No claim of complete worldwide assortment.",
   "records": [
     {
@@ -512,12 +512,12 @@
       "retailer": "Quince",
       "market": "United States",
       "source": "https://www.quince.com/home/travel",
-      "checked": "2026-11-26",
+      "checked": "2026-11-28",
       "before": 2,
-      "added": 0,
-      "after": 2,
-      "status": "Retrieved page; no safely parsed exact-price additions",
-      "remaining": "No new price assigned. Product-page or regional storefront follow-up required."
+      "added": 2,
+      "after": 4,
+      "status": "Two exact Black hybrid offers verified on official product pages",
+      "remaining": "Partial assortment. Other colors, sizes and bundles not added without exact-page verification. Dimensions and visually matched photo views remain gaps."
     },
     {
       "retailer": "Backpacks4Less",
