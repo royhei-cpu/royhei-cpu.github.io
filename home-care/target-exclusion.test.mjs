@@ -94,3 +94,25 @@ test('27 November queue continuation excludes confirmed brands and exact ACTIVE 
  assert.equal(audit.remainingQueue.visibleBrandLabels,687);
  assert.equal(audit.remainingQueue.recordsWithoutUsableBrand,2054);
 });
+
+test('28 November queue continuation excludes 18 confirmed brands while unresolved identities remain visible',()=>{
+ const audit=JSON.parse(fs.readFileSync('home-care/site/catalog-review/target-overlap-audit-2026-11-28.json'));
+ assert.equal(audit.canonicalCount,10279);
+ assert.equal(audit.retailers.length,20);
+ assert.equal(audit.newBrandRules,18);
+ assert.equal(audit.newItemRules,0);
+ assert.equal(audit.newlyExcludedCount,164);
+ assert.equal(audit.visibleAfter,4479);
+ for(const {retailer} of audit.retailers){
+  for(const brand of ['Angel Soft','Drano','Hoover','iRobot',"Nature's Miracle",'Woolite','Fantastik','Mold Armor','Easy-Off','Combat','iDesign','Little Trees','RMR Solutions','Sterilite',"Dr. Bronner's",'Lemi Shine','Joseph Joseph','Stasher'])assert.equal(filter.isEligible({retailer,brand,name:brand+' example'}),false,retailer+' '+brand);
+  for(const brand of ['Simple Green','Quickie','NatureZway','Minwax','Dirty Labs','Miele'])assert.equal(filter.isEligible({retailer,brand,name:brand+' retained identity'}),true,retailer+' unresolved '+brand);
+ }
+ for(const item of audit.affectedRecords)assert.equal(filter.isEligible(item),false,item.id);
+ assert.equal(filter.isEligible({retailer:'Amazon US',brand:'ACTIVE',name:'Washing Machine Cleaner for Pet Owners'}),false);
+ assert.equal(filter.isEligible({retailer:'Walmart',brand:"Mrs. Meyer's",name:'Clean Day soap'}),false);
+ const html=addTargetExclusions('<head></head><script>const ITEMS='+JSON.stringify([{id:'drano-saved',brand:'Drano',name:'Drain cleaner'},{id:'keep',brand:'Simple Green',name:'Cleaner'}])+';\nconst COVERAGE={};const byId=new Map(ITEMS.map(d=>[d.id,d]));const picks=new Set(["drano-saved","keep"].filter(id=>byId.has(id)));window.result={canonical:CANONICAL_ITEMS.length,visible:ITEMS.length,selected:[...picks]};</script><div class="grid" id="product-grid">','home-care/site');
+ const c=vm.createContext({window:{}});for(const m of html.matchAll(/<script>([\s\S]*?)<\/script>/g))vm.runInContext(m[1],c);
+ assert.deepEqual(JSON.parse(JSON.stringify(c.window.result)),{canonical:2,visible:1,selected:['keep']});
+ assert.equal(audit.remainingQueue.visibleBrandLabels,666);
+ assert.equal(audit.remainingQueue.recordsWithoutUsableBrand,1987);
+});

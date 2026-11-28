@@ -1,5 +1,34 @@
 [
   {
+    "id": "target-overlap-continuation-2026-11-28",
+    "title": "Target overlap audit removes 164 more visible listings across 18 brands",
+    "type": "Directory correction",
+    "date": "2026-11-28",
+    "firstObserved": "2026-11-28",
+    "checked": "2026-11-28",
+    "eventDate": null,
+    "dateLabel": "Exclusion audit · not new products",
+    "summary": "Continued the remaining Target-overlap queue with exact public Target and Target Plus brand or product pages. Eighteen more confirmed Target-carried brands now follow the same exclusion rule across all 20 retailers, Target inspiration, saved comparison and exports, removing 164 listings from visibility. All 10,279 canonical records, stable IDs and photos remain retained. 4,479 listings remain visible, but 666 visible brand-label buckets and 1,987 records without a usable brand still require reconciliation; visibility is not proof of absence from Target.",
+    "sources": [
+      {
+        "label": "Drano at Target",
+        "url": "https://www.target.com/b/drano/-/N-56aa5"
+      },
+      {
+        "label": "Nature's Miracle at Target",
+        "url": "https://www.target.com/s/natures%2Bmiracle"
+      },
+      {
+        "label": "iDesign Target Plus product",
+        "url": "https://www.target.com/p/-/A-1011324392"
+      },
+      {
+        "label": "Full per-retailer audit and remaining queue",
+        "url": "https://royhei-cpu.github.io/home-care/catalog-review/target-overlap-audit-2026-11-28.json"
+      }
+    ]
+  },
+  {
     "id": "target-overlap-continuation-2026-11-27",
     "title": "Target overlap audit removes 121 more visible listings across seven brands and three exact items",
     "type": "Directory correction",

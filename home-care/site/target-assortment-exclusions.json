@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-27",
+  "checkedAt": "2026-11-28",
   "policy": "Exclude source-confirmed Target-carried brands and exact items across every retailer, discovery, recommendation, comparison and export. Do not hide retained records solely because a Target check is unfinished.",
   "coverage": "Target assortment review is partial. Visible products are not verified absent from Target; unknown overlap remains unresolved. Preserve all canonical observations and photographs.",
   "brands": [
@@ -957,6 +957,148 @@
       "evidence": "Exact Target Plus product pages A-1009510967 and A-1009510927 opened 27 November 2026 for Shurhold scrub and deck brushes. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
       "aliases": [],
       "checkedAt": "2026-11-27"
+    },
+    {
+      "brand": "Angel Soft",
+      "sourceUrl": "https://www.target.com/p/-/A-79762902",
+      "evidence": "Exact Target product page opened 28 November 2026 for Angel Soft Toilet Paper, 32 Mega Rolls. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Drano",
+      "sourceUrl": "https://www.target.com/b/drano/-/N-56aa5",
+      "evidence": "Target brand page opened 28 November 2026 and displayed seven Drano drain-cleaning offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Hoover",
+      "sourceUrl": "https://www.target.com/c/vacuums-floor-care-home-appliances/hoover/-/N-5xtuiZugcvg",
+      "evidence": "Target Hoover floor-care page opened 28 November 2026 and displayed Hoover vacuum and carpet-cleaner offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical models, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "iRobot",
+      "sourceUrl": "https://www.target.com/c/robotic-vacuums-floor-care-home-appliances/irobot/-/N-4y73oZ5v2at",
+      "evidence": "Target iRobot robot-vacuum page opened 28 November 2026 and displayed current Roomba offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical models, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Nature's Miracle",
+      "sourceUrl": "https://www.target.com/s/natures%2Bmiracle",
+      "evidence": "Target results page opened 28 November 2026 with the Nature's Miracle brand filter active and displayed pet stain and odor remover offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [
+        "Nature’s Miracle"
+      ],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Woolite",
+      "sourceUrl": "https://www.target.com/b/woolite/-/N-56dlf",
+      "evidence": "Target brand page opened 28 November 2026 and displayed Woolite laundry and carpet-cleaning offers; exact product page A-16740775 was also available. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Fantastik",
+      "sourceUrl": "https://www.target.com/b/fantastik/-/N-q643lebz8qi",
+      "evidence": "Target brand page opened 28 November 2026 and displayed Fantastik all-purpose cleaner offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Mold Armor",
+      "sourceUrl": "https://www.target.com/s/mold%2Barmor",
+      "evidence": "Target results page opened 28 November 2026 and displayed Mold Armor mold remover and preventer offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Easy-Off",
+      "sourceUrl": "https://www.target.com/b/easy-off/-/N-56dl7",
+      "evidence": "Target brand page opened 28 November 2026 and displayed four Easy-Off oven, appliance and cleaning offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [
+        "Easy Off"
+      ],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Combat",
+      "sourceUrl": "https://www.target.com/b/combat/-/N-jefu1",
+      "evidence": "Target brand page opened 28 November 2026 and displayed four Combat ant and roach control offers; exact product page A-13326074 was also available. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [
+        "Combat®"
+      ],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "iDesign",
+      "sourceUrl": "https://www.target.com/p/-/A-1011324392",
+      "evidence": "Exact Target Plus product page opened 28 November 2026 for an iDesign open-front storage bin set, sold and shipped by InterDesign. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical models, current stock, price or first-listing date.",
+      "aliases": [
+        "iDESIGN",
+        "InterDesign"
+      ],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Little Trees",
+      "sourceUrl": "https://www.target.com/b/little-trees/-/N-4uxnd",
+      "evidence": "Target brand page opened 28 November 2026 and displayed Little Trees air-freshener offers; exact product page A-14768571 was also available. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "RMR Solutions",
+      "sourceUrl": "https://www.target.com/b/rmr-solutions/-/N-q643lew7qky",
+      "evidence": "Target brand page opened 28 November 2026 and displayed five RMR Solutions cleaning offers; exact product page A-95022514 was also available. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [
+        "RMR-86 Solutions"
+      ],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Sterilite",
+      "sourceUrl": "https://www.target.com/b/sterilite/-/N-5y6ne",
+      "evidence": "Target brand page opened 28 November 2026 and displayed Sterilite storage and organization offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical models, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Dr. Bronner's",
+      "sourceUrl": "https://www.target.com/b/dr-bronner-s/-/N-5td3q",
+      "evidence": "Target brand page opened 28 November 2026 and displayed Dr. Bronner's personal and household soap offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [
+        "Dr Bronner's",
+        "Dr. Bronners"
+      ],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Lemi Shine",
+      "sourceUrl": "https://www.target.com/b/lemi-shine/-/N-54wiy",
+      "evidence": "Target brand page opened 28 November 2026 and displayed six Lemi Shine dish and drain-cleaning offers; exact product page A-81548939 was also available. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Joseph Joseph",
+      "sourceUrl": "https://www.target.com/b/joseph/-/N-4yqdl",
+      "evidence": "Target brand page opened 28 November 2026 and displayed Joseph Joseph laundry, storage and household offers. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical models, current stock, price or first-listing date.",
+      "aliases": [],
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "brand": "Stasher",
+      "sourceUrl": "https://www.target.com/b/stasher/-/N-vnpg5",
+      "evidence": "Target brand page opened 28 November 2026 and displayed Stasher reusable food-storage and household offers; exact product page A-82177503 was also available. Brand-level exclusion applies across retailers and Target Plus; this does not assert identical packs, current stock, price or first-listing date.",
+      "aliases": [
+        "stasher"
+      ],
+      "checkedAt": "2026-11-28"
     }
   ],
   "items": [
